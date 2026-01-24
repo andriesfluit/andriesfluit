@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Andries Fluit - Amateur photographer based in Belgium">
+    <title>Contact - Andries Fluit</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+        :root {
+            --bg: #f5f4f0;
+            --text: #1a1a1a;
+            --text-light: #666;
+            --border: #e0e0e0;
+            --input-bg: #fff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: var(--bg);
+            z-index: 1000;
+            padding: 1.5rem 0;
+        }
+
+        .header-content {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .site-name {
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .site-name a {
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            gap: 2.5rem;
+        }
+
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.85rem;
+            letter-spacing: 0.02em;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: var(--text-light);
+        }
+
+        nav a.active {
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 120px 3rem 4rem;
+        }
+
+        .contact-container {
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .contact-container h1 {
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .contact-intro {
+            margin-bottom: 2.5rem;
+            color: var(--text-light);
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.85rem;
+            color: var(--text);
+        }
+
+        .contact-form input[type=text],
+        .contact-form input[type=email],
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            border: 1px solid var(--border);
+            background: var(--input-bg);
+            color: var(--text);
+            border-radius: 4px;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 1rem;
+            transition: border-color 0.2s ease;
+        }
+
+        .contact-form input[type=text]:focus,
+        .contact-form input[type=email]:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: var(--text);
+        }
+
+        .contact-form textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .contact-form .submit-btn {
+            display: inline-block;
+            background: var(--text);
+            color: var(--bg);
+            padding: 0.875rem 2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+            font-size: 0.9rem;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            letter-spacing: 0.02em;
+            margin-top: 0.5rem;
+        }
+
+        .contact-form .submit-btn:hover {
+            opacity: 0.8;
+        }
+
+        .form-status {
+            text-align: center;
+            margin-top: 1.5rem;
+            padding: 1rem;
+            border-radius: 4px;
+            display: none;
+            font-size: 0.9rem;
+        }
+
+        .form-status.success {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .form-status.error {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        /* Footer */
+        footer {
+            padding: 3rem;
+            max-width: 1600px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        footer p, footer a {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        footer a {
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--text);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem 0;
+            }
+
+            .header-content {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
+
+            nav {
+                gap: 1.5rem;
+            }
+
+            .site-name, nav a {
+                font-size: 0.8rem;
+            }
+
+            main {
+                padding: 100px 1.5rem 3rem;
+            }
+
+            .contact-container h1 {
+                font-size: 1.5rem;
+            }
+
+            footer {
+                padding: 2rem 1.5rem;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="site-name">
+                <a href="index.html">Andries Fluit</a>
+            </div>
+            <nav>
+                <a href="index.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="purchase.html">Prints</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <h1>Get in Touch</h1>
+            <p class="contact-intro">Questions about my photography or interested in prints? Feel free to send me a message.</p>
+            <form class="contact-form" action="https://formspree.io/f/xyzgvwjk" method="POST" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Send Message" class="submit-btn">
+                </div>
+                <input type="text" name="_gotcha" style="display:none">
+                <input type="hidden" name="_next" value="https://andriesfluit.be/contact.html?success=true">
+            </form>
+            <div id="formStatus" class="form-status"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Andries Fluit</p>
+            <a href="mailto:hello@andriesfluit.be">hello@andriesfluit.be</a>
+        </div>
+    </footer>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('success') === 'true') {
+            const statusDiv = document.getElementById('formStatus');
+            statusDiv.textContent = 'Thank you! Your message has been sent successfully.';
+            statusDiv.className = 'form-status success';
+            statusDiv.style.display = 'block';
+            window.history.replaceState({}, document.title, window.location.pathname);
+            setTimeout(() => { statusDiv.style.display = 'none'; }, 5000);
+        }
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            const submitBtn = this.querySelector('.submit-btn');
+            submitBtn.value = 'Sending...';
+            submitBtn.disabled = true;
+        });
+    </script>
+</body>
+</html>

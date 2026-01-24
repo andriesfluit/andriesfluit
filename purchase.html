@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Purchase prints - Photography by Andries Fluit">
+    <title>Prints - Andries Fluit</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://www.paypal.com/sdk/js?client-id=5ZSBQ98LRFQNG&currency=EUR" data-sdk-integration-source="button-factory"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+        :root {
+            --bg: #f5f4f0;
+            --text: #1a1a1a;
+            --text-light: #666;
+            --border: #e0e0e0;
+            --input-bg: #fff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: var(--bg);
+            z-index: 1000;
+            padding: 1.5rem 0;
+        }
+
+        .header-content {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .site-name {
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .site-name a {
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            gap: 2.5rem;
+        }
+
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.85rem;
+            letter-spacing: 0.02em;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: var(--text-light);
+        }
+
+        nav a.active {
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 120px 3rem 4rem;
+        }
+
+        .container {
+            max-width: 550px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .intro-text {
+            margin-bottom: 2.5rem;
+            color: var(--text-light);
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        .photo-preview {
+            margin-bottom: 2rem;
+        }
+
+        .photo-preview img {
+            width: 100%;
+            max-height: 350px;
+            object-fit: contain;
+        }
+
+        .selection-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .selection-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.85rem;
+            color: var(--text);
+        }
+
+        select {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            border: 1px solid var(--border);
+            background: var(--input-bg);
+            color: var(--text);
+            border-radius: 4px;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: border-color 0.2s ease;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23666' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: var(--text);
+        }
+
+        .price-display {
+            text-align: center;
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: var(--input-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+
+        .price-display .price {
+            font-size: 2rem;
+            font-weight: 400;
+            color: var(--text);
+            letter-spacing: -0.02em;
+        }
+
+        .price-display .price-note {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-top: 0.25rem;
+        }
+
+        .print-info {
+            padding: 1.5rem;
+            background: var(--input-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            margin-bottom: 2rem;
+        }
+
+        .print-info h3 {
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .print-info ul {
+            list-style: none;
+        }
+
+        .print-info li {
+            color: var(--text-light);
+            padding: 0.35rem 0;
+            padding-left: 1.25rem;
+            position: relative;
+            font-size: 0.9rem;
+        }
+
+        .print-info li:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.75rem;
+            width: 4px;
+            height: 4px;
+            background: var(--text-light);
+            border-radius: 50%;
+        }
+
+        #paypal-button-container {
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact-custom {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--input-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+
+        .contact-custom p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .contact-custom a {
+            color: var(--text);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .contact-custom a:hover {
+            color: var(--text-light);
+        }
+
+        .success-message {
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 1rem;
+            border-radius: 4px;
+            text-align: center;
+            margin-top: 1.5rem;
+            display: none;
+            font-size: 0.9rem;
+        }
+
+        .loading {
+            text-align: center;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Footer */
+        footer {
+            padding: 3rem;
+            max-width: 1600px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        footer p, footer a {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        footer a {
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--text);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem 0;
+            }
+
+            .header-content {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
+
+            nav {
+                gap: 1.5rem;
+            }
+
+            .site-name, nav a {
+                font-size: 0.8rem;
+            }
+
+            main {
+                padding: 100px 1.5rem 3rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            footer {
+                padding: 2rem 1.5rem;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="site-name">
+                <a href="index.html">Andries Fluit</a>
+            </div>
+            <nav>
+                <a href="index.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="purchase.html" class="active">Prints</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Purchase Prints</h1>
+            <p class="intro-text">Each print is produced on museum-quality paper with archival inks and shipped with care worldwide.</p>
+
+            <div class="photo-preview">
+                <img id="preview-image" src="" alt="Selected photo preview">
+            </div>
+
+            <div class="selection-group">
+                <label for="print-select">Select photograph</label>
+                <select id="print-select"></select>
+            </div>
+
+            <div class="selection-group">
+                <label for="size-select">Select size</label>
+                <select id="size-select"></select>
+            </div>
+
+            <div class="price-display">
+                <div class="price" id="price-amount">€50</div>
+                <div class="price-note">Includes worldwide shipping</div>
+            </div>
+
+            <div class="print-info">
+                <h3>Print Details</h3>
+                <ul>
+                    <li>Premium matte paper</li>
+                    <li>Archival quality inks</li>
+                    <li>Ships within 5-7 business days</li>
+                    <li>Worldwide shipping included</li>
+                </ul>
+            </div>
+
+            <div id="paypal-button-container">
+                <div class="loading">Loading payment options...</div>
+            </div>
+
+            <div id="contact-for-custom" class="contact-custom" style="display: none;">
+                <p>For custom sizes, please <a href="contact.html">contact me</a> with your requirements.</p>
+            </div>
+
+            <div id="success-message" class="success-message">
+                Thank you for your purchase! You will receive an email confirmation shortly.
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Andries Fluit</p>
+            <a href="mailto:hello@andriesfluit.be">hello@andriesfluit.be</a>
+        </div>
+    </footer>
+
+    <script src="photos.js"></script>
+    <script>
+        function getSelectedPhoto() {
+            const key = document.getElementById('print-select').value;
+            return PHOTOS.find(p => p.key === key);
+        }
+
+        function getSelectedSize() {
+            const sizeId = document.getElementById('size-select').value;
+            return PRINT_SIZES.find(s => s.id === sizeId);
+        }
+
+        function calculatePrice() {
+            const photo = getSelectedPhoto();
+            const size = getSelectedSize();
+            if (photo && size && size.multiplier !== null) {
+                return Math.round(photo.basePrice * size.multiplier);
+            }
+            return null;
+        }
+
+        function updatePreview() {
+            const photo = getSelectedPhoto();
+            if (photo) {
+                document.getElementById('preview-image').src = photo.src;
+                document.getElementById('preview-image').alt = photo.title;
+            }
+        }
+
+        function updatePrice() {
+            const price = calculatePrice();
+            const priceDisplay = document.getElementById('price-amount');
+            const priceNote = document.querySelector('.price-note');
+            const paypalContainer = document.getElementById('paypal-button-container');
+            const contactMessage = document.getElementById('contact-for-custom');
+
+            if (price === null) {
+                priceDisplay.textContent = 'Contact for quote';
+                priceNote.textContent = 'Custom sizes available on request';
+                if (paypalContainer) paypalContainer.style.display = 'none';
+                if (contactMessage) contactMessage.style.display = 'block';
+            } else {
+                priceDisplay.textContent = `€${price}`;
+                priceNote.textContent = 'Includes worldwide shipping';
+                if (paypalContainer) paypalContainer.style.display = 'flex';
+                if (contactMessage) contactMessage.style.display = 'none';
+            }
+        }
+
+        function populateDropdowns() {
+            const printSelect = document.getElementById('print-select');
+            const sizeSelect = document.getElementById('size-select');
+
+            PHOTOS.forEach(photo => {
+                const option = document.createElement('option');
+                option.value = photo.key;
+                option.textContent = `${photo.id} - ${photo.title}, ${photo.location}`;
+                printSelect.appendChild(option);
+            });
+
+            PRINT_SIZES.forEach(size => {
+                const option = document.createElement('option');
+                option.value = size.id;
+                option.textContent = size.label;
+                sizeSelect.appendChild(option);
+            });
+
+            sizeSelect.value = 'a3';
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const photoParam = urlParams.get('photo');
+            if (photoParam && PHOTOS.some(p => p.key === photoParam)) {
+                printSelect.value = photoParam;
+            }
+
+            updatePreview();
+            updatePrice();
+        }
+
+        document.getElementById('print-select').addEventListener('change', function() {
+            updatePreview();
+            updatePrice();
+        });
+
+        document.getElementById('size-select').addEventListener('change', function() {
+            updatePrice();
+        });
+
+        window.addEventListener('load', function() {
+            populateDropdowns();
+
+            if (typeof paypal !== 'undefined') {
+                paypal.Buttons({
+                    createOrder: function(data, actions) {
+                        const photo = getSelectedPhoto();
+                        const size = getSelectedSize();
+                        const amount = calculatePrice();
+                        const description = `${photo.id} - ${photo.title} (${size.label})`;
+
+                        return actions.order.create({
+                            purchase_units: [{
+                                description: description,
+                                amount: {
+                                    currency_code: 'EUR',
+                                    value: amount.toString()
+                                }
+                            }]
+                        });
+                    },
+                    onApprove: function(data, actions) {
+                        return actions.order.capture().then(function(details) {
+                            document.getElementById('success-message').style.display = 'block';
+                            document.getElementById('paypal-button-container').style.display = 'none';
+                            document.getElementById('success-message').scrollIntoView({ behavior: 'smooth' });
+                        });
+                    },
+                    onError: function(err) {
+                        console.error('PayPal error:', err);
+                        alert('An error occurred with the payment. Please try again or contact hello@andriesfluit.be');
+                    }
+                }).render('#paypal-button-container');
+            } else {
+                document.getElementById('paypal-button-container').innerHTML = `
+                    <div style="text-align: center; padding: 1.5rem; background: var(--input-bg); border: 1px solid var(--border); border-radius: 4px;">
+                        <p style="color: var(--text-light); margin-bottom: 0.5rem;">PayPal checkout will appear here on your live website.</p>
+                        <p style="color: var(--text-light); font-size: 0.85rem; opacity: 0.7;">Currently viewing in preview mode.</p>
+                    </div>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
