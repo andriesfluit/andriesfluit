@@ -222,25 +222,15 @@ def _hero(latest):
     # Layout: 5 equal-height bands (rank-based zones), bottom = DRY, top = FLOODING.
     # Water level is independent and shows the actual % share.
     band_share = 100 / len(ZONES)
-    band_wave_uri = _wave_uri("white", amp=4)
     bands = []
     for i, (_, _, key, name) in enumerate(ZONES):
         is_active = (key == active_zone)
         band_color = ZONE_COLORS[key]
-        band_emoji = ZONE_EMOJI[key]
         cls = "band active" if is_active else "band"
         bottom = i * band_share
-        wave_overlay = ""
-        if is_active:
-            wave_overlay = (
-                f'<div class="band-wave" style="background-image:{band_wave_uri}"></div>'
-                f'<div class="band-wave band-wave-2" style="background-image:{band_wave_uri}"></div>'
-            )
         bands.append(
             f'<div class="{cls}" style="bottom:{bottom:.2f}%;height:{band_share:.2f}%;'
             f'--band-color:{band_color}">'
-            f'{wave_overlay}'
-            f'<span class="band-emoji">{band_emoji}</span>'
             f'<span class="band-name">{name}</span>'
             f'</div>'
         )
@@ -288,9 +278,7 @@ def _hero(latest):
     </div>
   </div>
   <div class="readout">
-    <div class="readout-emoji">{emoji}</div>
     <div class="readout-label">{html.escape(label)}</div>
-    <div class="readout-sub-narrative">{html.escape(subhead)}</div>
     {rank_badge}
     <div class="readout-stat">
       <span class="pct" style="color:{color}">{pct}<span class="pct-symbol">%</span></span>
@@ -360,17 +348,22 @@ def _comparison_panel(latest):
         f'</div>'
     )
 
+    themes_block = _themes_panel_inline(latest)
     return f"""
 <section class="block">
-  <h2>Compared today \u2014 people</h2>
-  <p class="block-intro">How many of today\u2019s {total} Belgian headlines mention each person. Same RSS corpus as the Trump count above; bars sized relative to the highest count.</p>
+  <h2>Today vs. the rest</h2>
+  <p class="block-intro">Trump against nine other named figures in the same
+  {total}-headline core corpus.</p>
   <div class="comparison">{''.join(rows)}</div>
   {vs_block}
+  {themes_block}
 </section>
 """
 
 
-def _themes_panel(latest):
+def _themes_panel_inline(latest):
+    """Themes as a sub-block within the comparison section, no <section> wrapper
+    and no big h2 \u2014 just a subheading and the bars."""
     themes = latest.get("themes")
     total = latest.get("total_articles", 0)
     if not themes or not total:
@@ -383,18 +376,14 @@ def _themes_panel(latest):
 
     items = []
     for t in THEMES:
-        key = t["key"]
-        count = themes.get(key, 0)
-        items.append((key, t["label"], count))
-    items.sort(key=lambda i: i[2], reverse=True)
+        count = themes.get(t["key"], 0)
+        items.append((t["label"], count))
+    items.sort(key=lambda i: i[1], reverse=True)
 
-    max_count = max((c for _, _, c in items), default=1) or 1
-    rows = []
+    max_count = max((c for _, c in items), default=1) or 1
 
-    # Insert Trump as a virtual reference row at its sorted position.
-    inserted = False
     def render_row(label, count, is_trump):
-        share = round(count / total * 100, 1)
+        share = round(count / total * 100, 1) if total else 0
         bar_w = (count / max_count) * 100 if max_count else 0
         cls = "theme-row trump" if is_trump else "theme-row"
         color = ZONE_COLORS[active_zone] if is_trump else "#9ba295"
@@ -409,7 +398,9 @@ def _themes_panel(latest):
             f'</div>'
         )
 
-    for key, label, count in items:
+    rows = []
+    inserted = False
+    for label, count in items:
         if not inserted and count <= trump_count:
             rows.append(render_row("Trump (one person)", trump_count, True))
             inserted = True
@@ -417,15 +408,19 @@ def _themes_panel(latest):
     if not inserted:
         rows.append(render_row("Trump (one person)", trump_count, True))
 
-    rank = sum(1 for _, _, c in items if c > trump_count) + 1
+    rank = sum(1 for _, c in items if c > trump_count) + 1
 
     return f"""
-<section class="block">
-  <h2>Compared today \u2014 themes</h2>
-  <p class="block-intro">Trump is one person; these are broad subject categories (multi-language regex). A headline can match more than one theme. Trump\u2019s {trump_count} mentions would rank <strong>#{rank}</strong> alongside these {len(items)} themes \u2014 useful context against over-claiming dominance.</p>
+  <h3 class="sub-h">Against broad subject themes</h3>
+  <p class="block-intro small">A single person will almost never out-rank
+  aggregate themes. Trump would rank
+  <strong>#{rank}</strong> of {len(items)}.</p>
   <div class="comparison themes-comp">{''.join(rows)}</div>
-</section>
 """
+
+
+# Legacy _themes_panel removed \u2014 themes are now rendered inline inside the
+# comparison panel via _themes_panel_inline().
 
 
 def _today_mentions(latest):
@@ -650,16 +645,15 @@ def _timeline(log_sorted_asc):
 def _history_table(log_sorted_desc):
     if not log_sorted_desc:
         return ""
-    rows = []
-    for r in log_sorted_desc:
+
+    def _row(r):
         pct = r.get("percentage", 0)
         bar_w = max(1, int(pct * 2.5))
         color = _zone_color(pct)
-        backfilled = r.get("backfilled")
         date_cell = html.escape(r["date"])
-        if backfilled:
-            date_cell += ' <span class="backfilled" title="Reconstructed from GDELT 2.0 (different corpus, see methodology)">~</span>'
-        rows.append(
+        if r.get("backfilled"):
+            date_cell += ' <span class="backfilled" title="Reconstructed from GDELT (different corpus, see methodology)">~</span>'
+        return (
             "<tr>"
             f"<td>{date_cell}</td>"
             f"<td class='label-cell'>{html.escape(r.get('label',''))}</td>"
@@ -668,13 +662,30 @@ def _history_table(log_sorted_desc):
             f"<span class='inline-bar' style='width:{bar_w}px;background:{color}'></span></td>"
             "</tr>"
         )
+
+    VISIBLE = 7
+    first = log_sorted_desc[:VISIBLE]
+    rest = log_sorted_desc[VISIBLE:]
+    first_rows = "".join(_row(r) for r in first)
+
+    table_head = "<thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead>"
+
+    if not rest:
+        body = f"<table>{table_head}<tbody>{first_rows}</tbody></table>"
+    else:
+        rest_rows = "".join(_row(r) for r in rest)
+        body = (
+            f"<table>{table_head}<tbody>{first_rows}</tbody></table>"
+            f"<details class=\"history-more\">"
+            f"<summary>Show full history ({len(rest)} earlier {'day' if len(rest)==1 else 'days'})</summary>"
+            f"<table>{table_head}<tbody>{rest_rows}</tbody></table>"
+            f"</details>"
+        )
+
     return f"""
 <section class="block">
   <h2>Daily log</h2>
-  <table>
-    <thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead>
-    <tbody>{''.join(rows)}</tbody>
-  </table>
+  {body}
 </section>
 """
 
@@ -1084,12 +1095,6 @@ PAGE = """<!doctype html>
     transition: background 0.3s, color 0.3s;
   }}
   .band:first-child {{ border-top: none; }}
-  .band-emoji {{
-    display: block;
-    font-size: 14px;
-    line-height: 1;
-    margin-bottom: 3px;
-  }}
   .band-name {{
     display: block;
     font-size: 11px;
@@ -1115,40 +1120,7 @@ PAGE = """<!doctype html>
     position: absolute;
   }}
   .band.active .band-name {{ color: white; position: relative; z-index: 2; }}
-  .band.active .band-emoji {{ position: relative; z-index: 2; }}
   .band.active .band-range {{ color: rgba(255,255,255,0.8); }}
-  /* Animated wave overlays inside the active band: subtle white waves
-     scrolling horizontally to make the active zone feel "alive". */
-  .band-wave {{
-    position: absolute;
-    left: -10%;
-    right: -10%;
-    width: 120%;
-    height: 100%;
-    top: 30%;
-    background-repeat: repeat-x;
-    background-size: 120px 100%;
-    opacity: 0.18;
-    pointer-events: none;
-    animation: band-wave-back 6s linear infinite;
-  }}
-  .band-wave-2 {{
-    top: 55%;
-    opacity: 0.12;
-    background-size: 90px 100%;
-    animation: band-wave-front 4s linear infinite reverse;
-  }}
-  @keyframes band-wave-back {{
-    from {{ background-position: 0 0; }}
-    to   {{ background-position: -120px 0; }}
-  }}
-  @keyframes band-wave-front {{
-    from {{ background-position: 0 0; }}
-    to   {{ background-position: -90px 0; }}
-  }}
-  @media (prefers-reduced-motion: reduce) {{
-    .band-wave {{ animation: none !important; }}
-  }}
   .band-pct {{
     display: block;
     font-family: "Playfair Display", "Times New Roman", Georgia, serif;
@@ -1160,26 +1132,13 @@ PAGE = """<!doctype html>
     font-variant-numeric: tabular-nums;
   }}
 
-  .readout-emoji {{
-    font-size: 56px;
-    line-height: 1;
-    margin-bottom: 12px;
-  }}
   .readout-label {{
     font-family: "Playfair Display", "Times New Roman", Georgia, serif;
     font-size: 80px;
     line-height: 0.95;
     font-weight: 900;
     letter-spacing: -0.025em;
-    margin-bottom: 8px;
-  }}
-  .readout-sub-narrative {{
-    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
-    font-size: 22px;
-    font-style: italic;
-    color: var(--muted);
-    margin-bottom: 16px;
-    font-weight: 400;
+    margin-bottom: 20px;
   }}
   .rank-badge {{
     display: inline-block;
@@ -1360,6 +1319,32 @@ PAGE = """<!doctype html>
     margin: -8px 0 20px;
     max-width: 700px;
   }}
+  .block-intro.small {{ font-size: 12px; margin: -4px 0 14px; }}
+  .sub-h {{
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 0 4px;
+    letter-spacing: -0.005em;
+  }}
+  .history-more {{ margin-top: 12px; }}
+  .history-more > summary {{
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 8px 0;
+    list-style: none;
+  }}
+  .history-more > summary::-webkit-details-marker {{ display: none; }}
+  .history-more > summary:hover {{ color: var(--ink); }}
+  .history-more[open] > summary::after {{ content: ""; }}
+  .history-more > summary::before {{
+    content: "+ ";
+    color: var(--ink);
+  }}
+  .history-more[open] > summary::before {{ content: "\u2212 "; }}
   .comparison {{
     display: flex;
     flex-direction: column;
@@ -1594,8 +1579,6 @@ PAGE = """<!doctype html>
 
   {comparison}
 
-  {themes}
-
   {mentions}
 
   {history}
@@ -1802,7 +1785,6 @@ def render():
     html_out = PAGE.format(
         hero=_hero(latest),
         comparison=_comparison_panel(latest),
-        themes=_themes_panel(latest),
         mentions=_today_mentions(latest),
         history=_history_table(log_sorted_desc),
         methodology=_methodology(latest),

@@ -125,12 +125,6 @@
     transition: background 0.3s, color 0.3s;
   }
   .band:first-child { border-top: none; }
-  .band-emoji {
-    display: block;
-    font-size: 14px;
-    line-height: 1;
-    margin-bottom: 3px;
-  }
   .band-name {
     display: block;
     font-size: 11px;
@@ -156,40 +150,7 @@
     position: absolute;
   }
   .band.active .band-name { color: white; position: relative; z-index: 2; }
-  .band.active .band-emoji { position: relative; z-index: 2; }
   .band.active .band-range { color: rgba(255,255,255,0.8); }
-  /* Animated wave overlays inside the active band: subtle white waves
-     scrolling horizontally to make the active zone feel "alive". */
-  .band-wave {
-    position: absolute;
-    left: -10%;
-    right: -10%;
-    width: 120%;
-    height: 100%;
-    top: 30%;
-    background-repeat: repeat-x;
-    background-size: 120px 100%;
-    opacity: 0.18;
-    pointer-events: none;
-    animation: band-wave-back 6s linear infinite;
-  }
-  .band-wave-2 {
-    top: 55%;
-    opacity: 0.12;
-    background-size: 90px 100%;
-    animation: band-wave-front 4s linear infinite reverse;
-  }
-  @keyframes band-wave-back {
-    from { background-position: 0 0; }
-    to   { background-position: -120px 0; }
-  }
-  @keyframes band-wave-front {
-    from { background-position: 0 0; }
-    to   { background-position: -90px 0; }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .band-wave { animation: none !important; }
-  }
   .band-pct {
     display: block;
     font-family: "Playfair Display", "Times New Roman", Georgia, serif;
@@ -201,26 +162,13 @@
     font-variant-numeric: tabular-nums;
   }
 
-  .readout-emoji {
-    font-size: 56px;
-    line-height: 1;
-    margin-bottom: 12px;
-  }
   .readout-label {
     font-family: "Playfair Display", "Times New Roman", Georgia, serif;
     font-size: 80px;
     line-height: 0.95;
     font-weight: 900;
     letter-spacing: -0.025em;
-    margin-bottom: 8px;
-  }
-  .readout-sub-narrative {
-    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
-    font-size: 22px;
-    font-style: italic;
-    color: var(--muted);
-    margin-bottom: 16px;
-    font-weight: 400;
+    margin-bottom: 20px;
   }
   .rank-badge {
     display: inline-block;
@@ -401,6 +349,32 @@
     margin: -8px 0 20px;
     max-width: 700px;
   }
+  .block-intro.small { font-size: 12px; margin: -4px 0 14px; }
+  .sub-h {
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 0 4px;
+    letter-spacing: -0.005em;
+  }
+  .history-more { margin-top: 12px; }
+  .history-more > summary {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 8px 0;
+    list-style: none;
+  }
+  .history-more > summary::-webkit-details-marker { display: none; }
+  .history-more > summary:hover { color: var(--ink); }
+  .history-more[open] > summary::after { content: ""; }
+  .history-more > summary::before {
+    content: "+ ";
+    color: var(--ink);
+  }
+  .history-more[open] > summary::before { content: "− "; }
   .comparison {
     display: flex;
     flex-direction: column;
@@ -639,13 +613,11 @@
       <canvas class="water-canvas" aria-hidden="true"></canvas>
     </div>
     <div class="scale" aria-label="Flood zone scale">
-      <div class="band" style="bottom:0.00%;height:20.00%;--band-color:#f5c842"><span class="band-emoji">☀️</span><span class="band-name">Dry</span></div><div class="band" style="bottom:20.00%;height:20.00%;--band-color:#7dd3fc"><span class="band-emoji">🌦️</span><span class="band-name">Puddles</span></div><div class="band active" style="bottom:40.00%;height:20.00%;--band-color:#0ea5e9"><div class="band-wave" style="background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='56' viewBox='0 0 240 56' preserveAspectRatio='none'><path d='M0,48 Q30,44 60,48 T120,48 T180,48 T240,48 L240,56 L0,56 Z' fill='white'/></svg>")"></div><div class="band-wave band-wave-2" style="background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='56' viewBox='0 0 240 56' preserveAspectRatio='none'><path d='M0,48 Q30,44 60,48 T120,48 T180,48 T240,48 L240,56 L0,56 Z' fill='white'/></svg>")"></div><span class="band-emoji">🌧️</span><span class="band-name">Wet</span></div><div class="band" style="bottom:60.00%;height:20.00%;--band-color:#1e40af"><span class="band-emoji">⛈️</span><span class="band-name">Soaked</span></div><div class="band" style="bottom:80.00%;height:20.00%;--band-color:#dc2626"><span class="band-emoji">🌊</span><span class="band-name">Flooding</span></div>
+      <div class="band" style="bottom:0.00%;height:20.00%;--band-color:#f5c842"><span class="band-name">Dry</span></div><div class="band" style="bottom:20.00%;height:20.00%;--band-color:#7dd3fc"><span class="band-name">Puddles</span></div><div class="band active" style="bottom:40.00%;height:20.00%;--band-color:#0ea5e9"><span class="band-name">Wet</span></div><div class="band" style="bottom:60.00%;height:20.00%;--band-color:#1e40af"><span class="band-name">Soaked</span></div><div class="band" style="bottom:80.00%;height:20.00%;--band-color:#dc2626"><span class="band-name">Flooding</span></div>
     </div>
   </div>
   <div class="readout">
-    <div class="readout-emoji">🌧️</div>
     <div class="readout-label">The zone is getting wet</div>
-    <div class="readout-sub-narrative">Among the top-covered figures today.</div>
     <div class="rank-badge">Rank <strong>#1</strong> of 10 named people today <span class="rank-dom">· outweighs all 9 others combined (1.0×)</span> <span class="rank-theme">· rank #6 of 15 when compared to broad themes</span></div>
     <div class="readout-stat">
       <span class="pct" style="color:#0ea5e9">2.7<span class="pct-symbol">%</span></span>
@@ -660,18 +632,18 @@
 
   
 <section class="block">
-  <h2>Compared today — people</h2>
-  <p class="block-intro">How many of today’s 439 Belgian headlines mention each person. Same RSS corpus as the Trump count above; bars sized relative to the highest count.</p>
+  <h2>Today vs. the rest</h2>
+  <p class="block-intro">Trump against nine other named figures in the same
+  439-headline core corpus.</p>
   <div class="comparison"><div class="comp-row trump"><div class="comp-label">Trump</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:100.0%;background:#0ea5e9"></div></div><div class="comp-stat"><strong>11</strong><span class="comp-share">2.5%</span></div></div><div class="comp-row"><div class="comp-label">Netanyahu</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:27.3%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>3</strong><span class="comp-share">0.7%</span></div></div><div class="comp-row"><div class="comp-label">Orbán</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:27.3%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>3</strong><span class="comp-share">0.7%</span></div></div><div class="comp-row"><div class="comp-label">De Wever</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:18.2%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.5%</span></div></div><div class="comp-row"><div class="comp-label">Bouchez</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:18.2%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.5%</span></div></div><div class="comp-row"><div class="comp-label">Zelensky</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:9.1%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>1</strong><span class="comp-share">0.2%</span></div></div><div class="comp-row"><div class="comp-label">Macron</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Putin</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Musk</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Meloni</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div></div>
   <div class="vs-others"><div class="vs-line"><strong>11</strong> Trump <span class="vs-vs">vs</span> <strong>11</strong> all other people combined <span class="vs-ratio">(1.00×)</span></div><div class="vs-verdict">Trump alone is exactly equal to all 7 others combined.</div></div>
-</section>
-
-
   
-<section class="block">
-  <h2>Compared today — themes</h2>
-  <p class="block-intro">Trump is one person; these are broad subject categories (multi-language regex). A headline can match more than one theme. Trump’s 11 mentions would rank <strong>#6</strong> alongside these 14 themes — useful context against over-claiming dominance.</p>
+  <h3 class="sub-h">Against broad subject themes</h3>
+  <p class="block-intro small">A single person will almost never out-rank
+  aggregate themes. Trump would rank
+  <strong>#6</strong> of 14.</p>
   <div class="comparison themes-comp"><div class="theme-row"><div class="theme-label">War/conflict</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:100.0%;background:#9ba295"></div></div><div class="theme-stat"><strong>38</strong><span class="theme-share">8.7%</span></div></div><div class="theme-row"><div class="theme-label">Sports</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:52.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>20</strong><span class="theme-share">4.6%</span></div></div><div class="theme-row"><div class="theme-label">Crime/justice</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:47.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>18</strong><span class="theme-share">4.1%</span></div></div><div class="theme-row"><div class="theme-label">EU politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:47.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>18</strong><span class="theme-share">4.1%</span></div></div><div class="theme-row"><div class="theme-label">Culture/media</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:39.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>15</strong><span class="theme-share">3.4%</span></div></div><div class="theme-row trump"><div class="theme-label">Trump (one person)</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:28.9%;background:#0ea5e9"></div></div><div class="theme-stat"><strong>11</strong><span class="theme-share">2.5%</span></div></div><div class="theme-row"><div class="theme-label">Tech/AI</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:28.9%;background:#9ba295"></div></div><div class="theme-stat"><strong>11</strong><span class="theme-share">2.5%</span></div></div><div class="theme-row"><div class="theme-label">Belgium gov</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Economy/finance</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Health</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:21.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>8</strong><span class="theme-share">1.8%</span></div></div><div class="theme-row"><div class="theme-label">Weather</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:21.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>8</strong><span class="theme-share">1.8%</span></div></div><div class="theme-row"><div class="theme-label">Education</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:13.2%;background:#9ba295"></div></div><div class="theme-stat"><strong>5</strong><span class="theme-share">1.1%</span></div></div><div class="theme-row"><div class="theme-label">Climate/energy</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:10.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>4</strong><span class="theme-share">0.9%</span></div></div><div class="theme-row"><div class="theme-label">Migration</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:2.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>1</strong><span class="theme-share">0.2%</span></div></div></div>
+
 </section>
 
 
@@ -680,10 +652,7 @@
   
 <section class="block">
   <h2>Daily log</h2>
-  <table>
-    <thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead>
-    <tbody><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#f5c842'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#f5c842'></span></td></tr></tbody>
-  </table>
+  <table><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#f5c842'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#f5c842'></span></td></tr></tbody></table>
 </section>
 
 
