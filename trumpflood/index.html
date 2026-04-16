@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Is Trump flooding the zone?</title>
+<style>
+  :root {
+    --ink: #0a1929;
+    --paper: #f5f3ee;
+    --rule: #d8d3c5;
+    --muted: #6b6356;
+    --accent: #1A5276;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 56px 32px 96px; }
+
+  /* Masthead */
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 16px;
+    margin-bottom: 48px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .brand {
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 56px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin: 4px 0 0;
+  }
+  .brand-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .brand-sub {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Hero */
+  .hero {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+    align-items: center;
+    margin-bottom: 96px;
+  }
+  @media (max-width: 760px) {
+    .hero { grid-template-columns: 1fr; gap: 32px; }
+    .portrait-wrap { max-width: 360px; margin: 0 auto; }
+  }
+
+  .portrait-wrap {
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .portrait {
+    position: relative;
+    width: 320px;
+    aspect-ratio: 800 / 1013;
+    overflow: hidden;
+    background: #eee;
+    border: 1px solid var(--rule);
+  }
+  .portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(100%) contrast(1.05);
+  }
+  /* Water is painted on a canvas that covers the whole portrait.
+     JavaScript reads --water-target and --water-color and animates two
+     sine waves with alpha, plus a shimmer and bubbles. */
+  .water-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    /* The canvas animation loop also respects this: see the water-canvas
+       init script, which falls back to a single static paint. */
+  }
+  /* Vertical zone scale next to portrait */
+  .scale {
+    position: relative;
+    width: 132px;
+    border: 1px solid var(--rule);
+    background: white;
+  }
+  .band {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-top: 1px solid var(--rule);
+    padding: 6px 10px;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--band-color) 14%, white);
+    transition: background 0.3s, color 0.3s;
+  }
+  .band:first-child { border-top: none; }
+  .band-emoji {
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 3px;
+  }
+  .band-name {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .band-range {
+    display: block;
+    font-size: 10px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    margin-top: 2px;
+  }
+  .band.active {
+    background: var(--band-color);
+    color: white;
+    box-shadow: 0 0 0 2px var(--ink);
+    z-index: 2;
+    overflow: hidden;
+    position: absolute;
+  }
+  .band.active .band-name { color: white; position: relative; z-index: 2; }
+  .band.active .band-emoji { position: relative; z-index: 2; }
+  .band.active .band-range { color: rgba(255,255,255,0.8); }
+  /* Animated wave overlays inside the active band: subtle white waves
+     scrolling horizontally to make the active zone feel "alive". */
+  .band-wave {
+    position: absolute;
+    left: -10%;
+    right: -10%;
+    width: 120%;
+    height: 100%;
+    top: 30%;
+    background-repeat: repeat-x;
+    background-size: 120px 100%;
+    opacity: 0.18;
+    pointer-events: none;
+    animation: band-wave-back 6s linear infinite;
+  }
+  .band-wave-2 {
+    top: 55%;
+    opacity: 0.12;
+    background-size: 90px 100%;
+    animation: band-wave-front 4s linear infinite reverse;
+  }
+  @keyframes band-wave-back {
+    from { background-position: 0 0; }
+    to   { background-position: -120px 0; }
+  }
+  @keyframes band-wave-front {
+    from { background-position: 0 0; }
+    to   { background-position: -90px 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .band-wave { animation: none !important; }
+  }
+  .band-pct {
+    display: block;
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+    margin-top: 4px;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .readout-emoji {
+    font-size: 56px;
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+  .readout-label {
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 80px;
+    line-height: 0.95;
+    font-weight: 900;
+    letter-spacing: -0.025em;
+    margin-bottom: 8px;
+  }
+  .readout-sub-narrative {
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 22px;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 16px;
+    font-weight: 400;
+  }
+  .rank-badge {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: white;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 6px 14px;
+    margin-bottom: 28px;
+  }
+  .rank-badge strong {
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 2px;
+  }
+  .rank-dom, .rank-theme {
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--muted);
+  }
+  .macro-stat {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--muted);
+    cursor: help;
+  }
+  .macro-stat strong {
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 13px;
+  }
+  .macro-delta { color: #aaa; margin-left: 4px; font-size: 11px; }
+  .readout-stat {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 12px;
+  }
+  .pct {
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+  }
+  .pct-symbol { font-size: 56px; color: var(--muted); margin-left: 4px; }
+  .readout-sub {
+    font-size: 16px;
+    color: var(--muted);
+    max-width: 520px;
+  }
+  .readout-sub strong { color: var(--ink); }
+  .sep { margin: 0 8px; }
+
+  @media (max-width: 760px) {
+    .readout-label { font-size: 56px; }
+    .pct { font-size: 72px; }
+    .pct-symbol { font-size: 40px; }
+  }
+
+  /* Blocks */
+  .block { margin-top: 64px; }
+  .block h2 {
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 8px;
+    margin: 0 0 20px;
+    font-weight: 600;
+  }
+
+  .mentions { list-style: none; padding: 0; margin: 0; }
+  .mentions li {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 24px;
+  }
+  .mentions li:last-child { border-bottom: none; }
+  .mentions a {
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.4;
+    flex: 1;
+  }
+  .mentions a:hover { color: var(--accent); text-decoration: underline; }
+  .mentions .src {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .empty { color: var(--muted); font-style: italic; }
+
+  /* Timeline context block */
+  .timeline-context {
+    background: white;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+  }
+  .ctx-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 1.4fr;
+    gap: 16px;
+  }
+  @media (max-width: 720px) {
+    .ctx-row { grid-template-columns: repeat(2, 1fr); }
+    .ctx-range { grid-column: 1 / -1; }
+  }
+  .ctx-cell { display: flex; flex-direction: column; gap: 2px; }
+  .ctx-label {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .ctx-value {
+    font-size: 14px;
+    font-variant-numeric: tabular-nums;
+  }
+  .ctx-value strong { font-size: 16px; }
+  .ctx-foot {
+    margin: 10px 0 0;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .ctx-note { display: block; margin-top: 2px; }
+
+  /* Timeline chart */
+  .chart-wrap {
+    background: white;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .chart { width: 100%; height: auto; display: block; }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 22px;
+    margin-bottom: 32px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .legend-item { display: inline-flex; align-items: center; gap: 6px; }
+  .legend-swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+  }
+  .legend small { color: #aaa; font-variant-numeric: tabular-nums; }
+  .backfilled {
+    color: var(--muted);
+    font-size: 11px;
+    cursor: help;
+    margin-left: 4px;
+  }
+
+  /* Comparison panel */
+  .block-intro {
+    color: var(--muted);
+    font-size: 13px;
+    margin: -8px 0 20px;
+    max-width: 700px;
+  }
+  .comparison {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 20px 24px;
+  }
+  .comp-row {
+    display: grid;
+    grid-template-columns: 130px 1fr 110px;
+    align-items: center;
+    gap: 16px;
+  }
+  .comp-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .comp-row.trump .comp-label {
+    font-weight: 800;
+    font-size: 15px;
+  }
+  .comp-bar-wrap {
+    background: #f0ebdf;
+    height: 22px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+  .comp-bar {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.7s cubic-bezier(.2,.8,.2,1);
+  }
+  .comp-row.trump .comp-bar-wrap {
+    box-shadow: 0 0 0 1px var(--ink);
+  }
+  .comp-stat {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .comp-stat strong { color: var(--ink); font-weight: 700; }
+  .comp-share { color: #aaa; margin-left: 6px; font-size: 12px; }
+
+  .vs-others {
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px dashed var(--rule);
+  }
+  .vs-line {
+    font-size: 16px;
+    color: var(--ink);
+  }
+  .vs-line strong {
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--accent);
+    margin: 0 4px;
+  }
+  .vs-vs {
+    font-style: italic;
+    color: var(--muted);
+    margin: 0 4px;
+  }
+  .vs-ratio {
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    margin-left: 6px;
+  }
+  .vs-verdict {
+    margin-top: 4px;
+    font-size: 13px;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  /* Themes panel: same shape as comparison but with theme rows. */
+  .themes-comp .theme-row {
+    display: grid;
+    grid-template-columns: 160px 1fr 110px;
+    align-items: center;
+    gap: 16px;
+  }
+  .theme-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .theme-row.trump .theme-label {
+    font-weight: 800;
+    font-style: italic;
+    color: var(--accent);
+  }
+  .theme-bar-wrap {
+    background: #efeadd;
+    height: 22px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .theme-row.trump .theme-bar-wrap {
+    box-shadow: 0 0 0 1px var(--ink);
+  }
+  .theme-bar {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.7s cubic-bezier(.2,.8,.2,1);
+  }
+  .theme-stat {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .theme-stat strong { color: var(--ink); font-weight: 700; }
+  .theme-share { color: #aaa; margin-left: 6px; font-size: 12px; }
+
+  /* Methodology */
+  .methodology details {
+    background: white;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 0;
+  }
+  .methodology summary {
+    cursor: pointer;
+    padding: 18px 24px;
+    font-size: 14px;
+    color: var(--ink);
+    list-style: none;
+    position: relative;
+    user-select: none;
+  }
+  .methodology summary::-webkit-details-marker { display: none; }
+  .methodology summary::after {
+    content: "+";
+    position: absolute;
+    right: 24px;
+    top: 18px;
+    font-size: 20px;
+    color: var(--muted);
+    line-height: 1;
+    transition: transform 0.2s;
+  }
+  .methodology details[open] summary::after { content: "−"; }
+  .meth-body {
+    padding: 4px 24px 24px;
+    border-top: 1px solid var(--rule);
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 760px;
+  }
+  .meth-body h3 {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+    margin: 24px 0 8px;
+  }
+  .meth-body p { margin: 0 0 10px; }
+  .meth-body code {
+    background: #f5f0e2;
+    padding: 1px 5px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: Menlo, Consolas, monospace;
+  }
+  .meth-rules {
+    margin: 8px 0 16px;
+    padding-left: 20px;
+  }
+  .meth-rules li { margin-bottom: 4px; }
+  .meth-rules em { color: var(--muted); font-style: italic; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; }
+  th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--rule);
+    font-size: 14px;
+  }
+  th {
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  tr:last-child td { border-bottom: none; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .inline-bar {
+    display: inline-block;
+    height: 6px;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  .label-cell { font-weight: 500; }
+
+  footer {
+    margin-top: 80px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  footer a { color: var(--accent); }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div>
+      <div class="brand-eyebrow">trumpflood &middot; Belgian news monitor</div>
+      <h1 class="brand">Is Trump flooding the zone?</h1>
+    </div>
+    <div class="brand-sub">Last run: Thu 16 Apr 2026, 11:33 CEST</div>
+  </header>
+
+  
+<section class="hero">
+  <div class="portrait-wrap">
+    <div class="portrait" data-water-color="#0ea5e9" data-water-target="60" style="--water-color:#0ea5e9;--water-target:60%">
+      <img src="trump.jpg" alt="Donald Trump">
+      <canvas class="water-canvas" aria-hidden="true"></canvas>
+    </div>
+    <div class="scale" aria-label="Flood zone scale">
+      <div class="band" style="bottom:0.00%;height:20.00%;--band-color:#f5c842"><span class="band-emoji">☀️</span><span class="band-name">Dry</span></div><div class="band" style="bottom:20.00%;height:20.00%;--band-color:#7dd3fc"><span class="band-emoji">🌦️</span><span class="band-name">Puddles</span></div><div class="band active" style="bottom:40.00%;height:20.00%;--band-color:#0ea5e9"><div class="band-wave" style="background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='56' viewBox='0 0 240 56' preserveAspectRatio='none'><path d='M0,48 Q30,44 60,48 T120,48 T180,48 T240,48 L240,56 L0,56 Z' fill='white'/></svg>")"></div><div class="band-wave band-wave-2" style="background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='56' viewBox='0 0 240 56' preserveAspectRatio='none'><path d='M0,48 Q30,44 60,48 T120,48 T180,48 T240,48 L240,56 L0,56 Z' fill='white'/></svg>")"></div><span class="band-emoji">🌧️</span><span class="band-name">Wet</span></div><div class="band" style="bottom:60.00%;height:20.00%;--band-color:#1e40af"><span class="band-emoji">⛈️</span><span class="band-name">Soaked</span></div><div class="band" style="bottom:80.00%;height:20.00%;--band-color:#dc2626"><span class="band-emoji">🌊</span><span class="band-name">Flooding</span></div>
+    </div>
+  </div>
+  <div class="readout">
+    <div class="readout-emoji">🌧️</div>
+    <div class="readout-label">The zone is getting wet</div>
+    <div class="readout-sub-narrative">Among the top-covered figures today.</div>
+    <div class="rank-badge">Rank <strong>#1</strong> of 10 named people today <span class="rank-dom">· outweighs all 9 others combined (1.0×)</span> <span class="rank-theme">· rank #6 of 15 when compared to broad themes</span></div>
+    <div class="readout-stat">
+      <span class="pct" style="color:#0ea5e9">2.7<span class="pct-symbol">%</span></span>
+    </div>
+    <div class="readout-sub">
+      <strong>12</strong> of <strong>439</strong> Belgian news
+      headlines today reference Trump
+    </div>
+  </div>
+</section>
+
+
+  
+<section class="block">
+  <h2>Compared today — people</h2>
+  <p class="block-intro">How many of today’s 439 Belgian headlines mention each person. Same RSS corpus as the Trump count above; bars sized relative to the highest count.</p>
+  <div class="comparison"><div class="comp-row trump"><div class="comp-label">Trump</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:100.0%;background:#0ea5e9"></div></div><div class="comp-stat"><strong>11</strong><span class="comp-share">2.5%</span></div></div><div class="comp-row"><div class="comp-label">Netanyahu</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:27.3%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>3</strong><span class="comp-share">0.7%</span></div></div><div class="comp-row"><div class="comp-label">Orbán</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:27.3%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>3</strong><span class="comp-share">0.7%</span></div></div><div class="comp-row"><div class="comp-label">De Wever</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:18.2%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.5%</span></div></div><div class="comp-row"><div class="comp-label">Bouchez</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:18.2%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.5%</span></div></div><div class="comp-row"><div class="comp-label">Zelensky</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:9.1%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>1</strong><span class="comp-share">0.2%</span></div></div><div class="comp-row"><div class="comp-label">Macron</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Putin</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Musk</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Meloni</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div></div>
+  <div class="vs-others"><div class="vs-line"><strong>11</strong> Trump <span class="vs-vs">vs</span> <strong>11</strong> all other people combined <span class="vs-ratio">(1.00×)</span></div><div class="vs-verdict">Trump alone is exactly equal to all 7 others combined.</div></div>
+</section>
+
+
+  
+<section class="block">
+  <h2>Compared today — themes</h2>
+  <p class="block-intro">Trump is one person; these are broad subject categories (multi-language regex). A headline can match more than one theme. Trump’s 11 mentions would rank <strong>#6</strong> alongside these 14 themes — useful context against over-claiming dominance.</p>
+  <div class="comparison themes-comp"><div class="theme-row"><div class="theme-label">War/conflict</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:100.0%;background:#9ba295"></div></div><div class="theme-stat"><strong>38</strong><span class="theme-share">8.7%</span></div></div><div class="theme-row"><div class="theme-label">Sports</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:52.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>20</strong><span class="theme-share">4.6%</span></div></div><div class="theme-row"><div class="theme-label">Crime/justice</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:47.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>18</strong><span class="theme-share">4.1%</span></div></div><div class="theme-row"><div class="theme-label">EU politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:47.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>18</strong><span class="theme-share">4.1%</span></div></div><div class="theme-row"><div class="theme-label">Culture/media</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:39.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>15</strong><span class="theme-share">3.4%</span></div></div><div class="theme-row trump"><div class="theme-label">Trump (one person)</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:28.9%;background:#0ea5e9"></div></div><div class="theme-stat"><strong>11</strong><span class="theme-share">2.5%</span></div></div><div class="theme-row"><div class="theme-label">Tech/AI</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:28.9%;background:#9ba295"></div></div><div class="theme-stat"><strong>11</strong><span class="theme-share">2.5%</span></div></div><div class="theme-row"><div class="theme-label">Belgium gov</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Economy/finance</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Health</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:21.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>8</strong><span class="theme-share">1.8%</span></div></div><div class="theme-row"><div class="theme-label">Weather</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:21.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>8</strong><span class="theme-share">1.8%</span></div></div><div class="theme-row"><div class="theme-label">Education</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:13.2%;background:#9ba295"></div></div><div class="theme-stat"><strong>5</strong><span class="theme-share">1.1%</span></div></div><div class="theme-row"><div class="theme-label">Climate/energy</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:10.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>4</strong><span class="theme-share">0.9%</span></div></div><div class="theme-row"><div class="theme-label">Migration</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:2.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>1</strong><span class="theme-share">0.2%</span></div></div></div>
+</section>
+
+
+  <section class="block"><h2>Today&rsquo;s mentions</h2><ul class="mentions"><li><a href="https://www.hln.be/buitenland/kijk-iraanse-ambassade-laat-ai-jezus-trump-in-hel-gooien~a01b8fc6/" target="_blank" rel="noopener">KIJK. Iraanse ambassade laat AI-Jezus Trump in hel gooien</a><span class="src">hln</span></li><li><a href="https://www.demorgen.be/nieuws/koning-charles-moet-tijdens-bezoek-aan-trump-de-brits-amerikaanse-relatie-verbeteren~b0ff99bb/" target="_blank" rel="noopener">Koning Charles moet tijdens bezoek aan Trump de Brits-Amerikaanse relatie verbeteren</a><span class="src">demorgen</span></li><li><a href="https://www.gva.be/buitenland/live-midden-oosten.-iran-lacht-trump-uit-met-parodieen-op-afbeelding-als-jezus-recht-naar-de-hel-en-hij-brengt-epstein-weer-tot-leven/76854338.html" target="_blank" rel="noopener">LIVE MIDDEN-OOSTEN. Iran lacht Trump uit met parodieën op afbeelding als Jezus: “Recht naar de hel” en “Hij brengt Epstein weer tot leven”</a><span class="src">gva</span></li><li><a href="https://www.hbvl.be/buitenland/europese-leiders-reageren-opgelucht-op-winst-magyar-witte-huis-blijft-stil-na-historische-nederlaag-orban/145598715.html" target="_blank" rel="noopener">Europese leiders reageren opgelucht op winst Magyar, Witte Huis blijft stil na historische nederlaag Orban</a><span class="src">hbvl</span></li><li><a href="https://www.lalibre.be/international/moyen-orient/iran/2026/04/16/direct-conflit-au-moyen-orient-donald-trump-annonce-un-dialogue-inedit-entre-israel-et-le-liban-E36IOFBLHNBYNCCZIVCYBYPD7Y/" target="_blank" rel="noopener">DIRECT- Conflit au Moyen-Orient : Donald Trump annonce un dialogue inédit entre Israël et le Liban, la réponse de Beyrouth laisse planer le doute</a><span class="src">La Libre</span></li><li><a href="https://www.lalibre.be/international/moyen-orient/iran/2026/04/16/spam-et-pratiques-trompeuses-youtube-ferme-une-chaine-pro-iran-accusee-de-propagande-anti-donald-trump-RKH5P3DW6RBTLBOXFCGEI7QDYM/" target="_blank" rel="noopener">“Spam et pratiques trompeuses” : YouTube ferme une chaîne pro-Iran accusée de propagande anti-Donald Trump</a><span class="src">La Libre</span></li><li><a href="https://www.lalibre.be/economie/entreprises-startup/2026/04/16/trump-va-t-il-favoriser-la-creation-dun-ogre-du-ciel-un-projet-juge-absurde-et-effrayant-62PHPOEAIVBBJCNUOZJIFCFTXQ/" target="_blank" rel="noopener">Trump va-t-il favoriser la création d’un ogre du ciel ? Un projet jugé &quot;absurde&quot; et &quot;effrayant&quot;</a><span class="src">La Libre</span></li><li><a href="https://www.7sur7.be/monde/peter-magyar-va-faire-du-bon-travail-estime-trump-un-homme-bien~a1d6e07b/" target="_blank" rel="noopener">Peter Magyar “va faire du bon travail”, estime Trump: “Un homme bien”</a><span class="src">septsursept</span></li><li><a href="https://www.7sur7.be/monde/trump-recidive-avec-une-image-de-jesus-lenlacant~a9bd7a2d/" target="_blank" rel="noopener">Trump récidive avec une image de Jésus l’enlaçant</a><span class="src">septsursept</span></li><li><a href="https://www.7sur7.be/musique/alphaville-interdit-a-trump-dutiliser-son-tube-forever-young-nous-execrons-ses-positions-politiques~a3f1935b/" target="_blank" rel="noopener">Alphaville interdit à Trump d’utiliser son tube “Forever Young”: “Nous exécrons ses positions politiques”</a><span class="src">septsursept</span></li><li><a href="https://www.7sur7.be/monde/on-essaie-de-creer-un-peu-de-repit-trump-annonce-une-discussion-entre-israel-et-le-liban-ce-jeudi~a069546f/" target="_blank" rel="noopener">“On essaie de créer un peu de répit”: Trump annonce une discussion entre Israël et le Liban ce jeudi</a><span class="src">septsursept</span></li><li><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxONVo4c1EtdEUxUEoyUE1rb2swcVB0WHR3LVRDMjBURUhqcTRyMWdnZXBNbXIwQ0lEMlhSbENFQ2pfck5PSlllNFpXcWJYUlRMaG1tR2N2cHRkTkJac2k2b3BsZ0ZseGQtT0hpYXJGd0NicVpvb2hNZWlaX0lZNVdlZ05laXNaVHhseXN2QjdKdGhYdVFJaE9QRU00UE5KVlJ1M2l2UE9DY3VYVmhMOHNZTU92RGpKZUJlaU95RkJ4S1E5czNj?oc=5" target="_blank" rel="noopener">Trump affirme que les dirigeants israélien et libanais vont se parler jeudi, le Liban dit « ne pas être au courant - Le Soir</a><span class="src">lesoir_g</span></li></ul></section>
+
+  
+<section class="block">
+  <h2>Daily log</h2>
+  <table>
+    <thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead>
+    <tbody><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#f5c842'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#f5c842'></span></td></tr></tbody>
+  </table>
+</section>
+
+
+  
+<section class="block methodology">
+  <h2>Methodology</h2>
+  <details>
+    <summary>How the zone is decided, where the data comes from, and what to be skeptical about.</summary>
+    <div class="meth-body">
+
+      <h3>Daily collection</h3>
+      <p>Three times a day &mdash; 08:00, 14:00 and 20:00 Belgian local time &mdash;
+      a script fetches headlines from 31 Belgian RSS feeds:
+      Google News BE (Dutch &amp; French general), 8 Google News BE topic feeds
+      (politics, world, business, tech, sport in NL; politics, world, business in FR),
+      and 21 direct outlet feeds spanning VRT NWS, HLN, De Standaard, De Morgen,
+      Het Nieuwsblad, GVA, HBVL, Knack, Sporza, Bruzz on the Dutch side,
+      plus RTBF, La Libre, L'Echo, DH, 7sur7, BX1 directly, and De Tijd, Le Soir,
+      Sudinfo, L'Avenir and RTL through Google News' <code>site:</code> filter (their
+      direct feeds sit behind Cloudflare). De Standaard's direct feed is reached through
+      the <code>cloudscraper</code> library to handle the basic Cloudflare JS challenge.
+      Articles whose <code>pubDate</code> is today (Belgian local date) are kept;
+      duplicates across feeds are removed by URL.</p>
+
+      <h3>Core vs. wide tier</h3>
+      <p>Not every feed is equal. Brussels-only outlets (BX1, Bruzz), sport-only
+      outlets (Sporza), and the Google News aggregator feeds (which repackage
+      content we already pull directly) structurally dilute the denominator with
+      stories that are local, single-subject, or duplicated. To avoid that skew,
+      the headline number on this page uses a <strong>core</strong> tier:
+      national and regional-generalist outlets only &mdash; VRT, RTBF,
+      De Standaard, De Morgen, HLN, Het Nieuwsblad, GVA, HBVL, Knack, La Libre,
+      L'Echo, DHnet, 7sur7, plus De Tijd, Le Soir, Sudinfo, L'Avenir and RTL
+      (reached via Google News' <code>site:</code> filter because their direct
+      RSS is Cloudflare-gated). The full <strong>wide</strong> corpus is still
+      computed and stored in <code>data/log.json</code> as a cross-check.
+      Today’s core corpus: <strong>439 headlines</strong>,
+      <strong>12 Trump matches = 2.7%</strong>.</p>
+      <p>Including every feed we fetch — Brussels-local (BX1, Bruzz), sport-only (Sporza), and the Google News aggregators that repackage outlets we already pull directly — the full <strong>wide</strong> corpus is <strong>567 headlines</strong> with <strong>19 Trump matches = 3.4%</strong> (+0.7pt vs. core). The cross-check exists so we can spot a day where the two tiers diverge sharply, which usually signals an aggregator artefact rather than a real shift. The 7-day rolling average of the core share is <strong>2.4%</strong>.</p>
+
+      <h3>Trump match</h3>
+      <p>Each headline title is scanned for Trump references in three
+      languages (Dutch, French, English), case-insensitive, whole words only.
+      That means both the literal name and the common indirect references
+      Belgian outlets use to refer to the current US administration:</p>
+      <ul class="meth-rules">
+        <li><strong>Direct name</strong> &mdash; <code>trump</code>
+        (matches &ldquo;Donald Trump&rdquo;, &ldquo;Trump Jr.&rdquo;, etc.).</li>
+        <li><strong>The White House</strong> &mdash; <code>white house</code>,
+        <code>witte huis</code>, <code>maison blanche</code> /
+        <code>maison-blanche</code>; plus <code>oval office</code> and
+        <code>bureau ovale</code>.</li>
+        <li><strong>The US / American president</strong> &mdash;
+        <code>US president</code>, <code>American president</code>,
+        <code>Amerikaans(e) president</code>,
+        <code>president van de VS</code>,
+        <code>président(e) américain(e)</code>,
+        <code>président(e) des États-Unis</code> (accents optional).</li>
+      </ul>
+      <p>A headline like &ldquo;Het Witte Huis waarschuwt Europa&rdquo; counts
+      even though the word &ldquo;Trump&rdquo; does not appear in it. This
+      closes the largest honest gap in the old literal-name-only detector.
+      The <em>comparator</em> counts used for dominance and rank are a
+      separate mechanism and still match people by name only — expanding
+      Trump’s pattern while the other nine figures stay name-only would
+      bias the rank. No fuzzy matching, no body text (titles only).</p>
+
+      <h3>Comparators &amp; themes</h3>
+      <p>The same headlines are scanned for nine other people (Putin, Macron,
+      De Wever, Bouchez, Orb&aacute;n, Meloni, Netanyahu, Zelensky, Musk
+      &mdash; with Trump as the tenth reference entry) and for fourteen broad
+      subject categories (war, crime, EU politics, Belgian government, etc.)
+      using multi-language regex (NL + FR + EN keywords) so &ldquo;klimaat&rdquo;
+      and &ldquo;climat&rdquo; both count as Climate.</p>
+
+      <h3>Zone assessment</h3>
+      <p>The zone is decided by a <strong>composite</strong> of four signals, not
+      rank alone. &ldquo;Flooding the zone&rdquo; should be a genuine outlier: Trump
+      has to take an outsized share of volume, out-compete other figures by a
+      clear margin, show up <em>across</em> outlets rather than at a single paper,
+      and stand out against the recent baseline. All four floors must clear for
+      the top zone.</p>
+      <p>Today: Trump is rank <strong>#1</strong> of <strong>10</strong>
+      named people. Dominance ratio today: <strong>1.0×</strong> the other nine combined. Breadth: <strong>50%</strong> of core outlets ran a Trump story. Deviation vs. baseline: not enough core-tier history yet. 7-day rolling average: <strong>2.4%</strong>. For context, Trump is <strong>#6 of 15</strong> when compared to broad themes (war, crime, EU politics, ...) — but note themes bundle dozens of stories, so a single person will almost never out-rank them. That is why theme rank is <em>context</em>, not the zone driver.</p>
+      <ul class="meth-rules">
+        <li><strong>Flooding</strong> &mdash; rank #1 AND dominance &ge; 2.0
+        (Trump alone out-mentions the other nine combined by 2&times;) AND
+        &ge;5.0% of core headlines AND breadth &ge;60% of core outlets AND
+        deviation &ge;1.5&times; the 14-day baseline (skipped until enough history).</li>
+        <li><strong>Soaked</strong> &mdash; rank #1 AND dominance &ge; 1.2
+        AND &ge;3.5% share AND breadth &ge;45%.</li>
+        <li><strong>Wet</strong> &mdash; rank &le;2 AND &ge;2.0% share
+        AND breadth &ge;30%.</li>
+        <li><strong>Puddles</strong> &mdash; rank &le;4 AND &ge;0.8% share.</li>
+        <li><strong>Dry</strong> &mdash; otherwise.</li>
+      </ul>
+      <p>Why four signals rather than one: a single-metric gate keeps getting
+      fooled. Pure percentage treats 5% on a slow Sunday the same as 5% during
+      a Ukraine offensive. Pure rank calls Trump #1 on any day nobody else is
+      in the news. Dominance alone doesn’t know whether coverage is wide or
+      concentrated at one paper. Breadth without volume just measures how many
+      outlets chase Trump at all. Requiring all four together is what makes
+      &ldquo;flooding&rdquo; mean something.</p>
+
+      <h3>Caveats &amp; limits</h3>
+      <ul class="meth-rules">
+        <li><strong>Title-only matching.</strong> Titles are scanned, not
+        article bodies. Indirect references that the expanded detector does
+        not cover (&ldquo;the administration&rdquo;, &ldquo;Washington&rdquo;,
+        &ldquo;POTUS&rdquo;) are still missed. Smaller undercount than before
+        the NL / FR / EN expansion, but non-zero.</li>
+        <li><strong>Trump-the-family.</strong> The regex also matches
+        &ldquo;Trump Jr.&rdquo;, &ldquo;Eric Trump&rdquo;, &ldquo;Trump
+        Tower&rdquo;. Usually &le;2% noise but it’s there.</li>
+        <li><strong>Time-of-day bias.</strong> Fetch runs three times a day
+        (08:00 / 14:00 / 20:00 local). Each run overwrites today&rsquo;s
+        record, so the number you see is always the most recent snapshot
+        &mdash; the morning view until 14:00, the afternoon view until 20:00,
+        the evening view until the next morning. Late-breaking afternoon or
+        evening stories are therefore captured on the same day, mitigating
+        most of the old &ldquo;we miss the second half of the news cycle&rdquo;
+        problem.</li>
+        <li><strong>Wire-story amplification.</strong> The same Reuters / AFP
+        Trump story republished across five outlets counts as five matches.
+        De-dup is by URL, which differs between outlets.</li>
+        <li><strong>Aggregator overlap.</strong> The Google News feeds (only
+        used in the wide tier, not core) republish outlets we already pull
+        directly; URLs differ from the direct ones so some duplication leaks
+        in on the wide number.</li>
+        <li><strong>Belgian press covers world.</strong> The denominator is
+        heavy with international news that Belgian outlets choose to publish.
+        This measures &ldquo;share of the news Belgians read&rdquo; &mdash; not
+        &ldquo;what Belgian society is discussing internally&rdquo;.</li>
+        <li><strong>Stale comparator list.</strong> The ten-person comparator
+        set is fixed. If a new Belgian political figure surges in coverage,
+        Trump’s rank against this list will look artificially high.
+        Periodic review needed.</li>
+        <li><strong>Arbitrary absolute thresholds.</strong> The 5.0% / 3.5% /
+        2.0% / 0.8% cutoffs plus the 2.0&times; / 1.2&times; dominance and
+        60% / 45% / 30% breadth floors are chosen rather than calibrated
+        against historical distributions. As the archive of live days grows,
+        these should be re-expressed as percentiles of Trump’s own
+        history.</li>
+        <li><strong>Theme overlap.</strong> A headline can match multiple
+        themes (a Gaza article counts for War and for EU politics if Macron is
+        quoted). Themes are not mutually exclusive.</li>
+      </ul>
+
+      <h3>Source breakdown</h3><p>Per-feed counts for today’s run. <em>Fetched</em> is the raw feed size; <em>From today</em> is items whose <code>pubDate</code> falls on today’s Belgian local date.</p><table><thead><tr><th>Source</th><th>Fetched</th><th>From today</th></tr></thead><tbody><tr><td>Google News BE (NL)</td><td class='num'>34</td><td class='num'>26</td></tr><tr><td>Google News BE (FR)</td><td class='num'>34</td><td class='num'>15</td></tr><tr><td>google_nl_politics</td><td class='num'>48</td><td class='num'>5</td></tr><tr><td>google_nl_world</td><td class='num'>70</td><td class='num'>12</td></tr><tr><td>google_nl_business</td><td class='num'>70</td><td class='num'>16</td></tr><tr><td>google_nl_tech</td><td class='num'>58</td><td class='num'>9</td></tr><tr><td>google_nl_sport</td><td class='num'>70</td><td class='num'>18</td></tr><tr><td>google_fr_politics</td><td class='num'>70</td><td class='num'>7</td></tr><tr><td>google_fr_world</td><td class='num'>57</td><td class='num'>3</td></tr><tr><td>google_fr_business</td><td class='num'>60</td><td class='num'>6</td></tr><tr><td>VRT NWS</td><td class='num'>50</td><td class='num'>28</td></tr><tr><td>standaard</td><td class='num'>50</td><td class='num'>9</td></tr><tr><td>hln</td><td class='num'>30</td><td class='num'>30</td></tr><tr><td>demorgen</td><td class='num'>29</td><td class='num'>20</td></tr><tr><td>nieuwsblad</td><td class='num'>50</td><td class='num'>50</td></tr><tr><td>gva</td><td class='num'>50</td><td class='num'>50</td></tr><tr><td>hbvl</td><td class='num'>50</td><td class='num'>49</td></tr><tr><td>knack</td><td class='num'>50</td><td class='num'>8</td></tr><tr><td>sporza</td><td class='num'>20</td><td class='num'>10</td></tr><tr><td>bruzz</td><td class='num'>100</td><td class='num'>9</td></tr><tr><td>RTBF</td><td class='num'>20</td><td class='num'>16</td></tr><tr><td>La Libre</td><td class='num'>100</td><td class='num'>37</td></tr><tr><td>lecho</td><td class='num'>10</td><td class='num'>0</td></tr><tr><td>dhnet</td><td class='num'>100</td><td class='num'>62</td></tr><tr><td>septsursept</td><td class='num'>30</td><td class='num'>29</td></tr><tr><td>bx1</td><td class='num'>10</td><td class='num'>6</td></tr><tr><td>detijd_g</td><td class='num'>100</td><td class='num'>11</td></tr><tr><td>lesoir_g</td><td class='num'>100</td><td class='num'>16</td></tr><tr><td>sudinfo_g</td><td class='num'>100</td><td class='num'>3</td></tr><tr><td>lavenir_g</td><td class='num'>100</td><td class='num'>14</td></tr><tr><td>rtl_g</td><td class='num'>100</td><td class='num'>15</td></tr></tbody></table>
+
+    </div>
+  </details>
+</section>
+
+
+  <footer>
+    Sources: 31 Belgian RSS feeds, measured three times a day (08:00 / 14:00 / 20:00 local).
+    Core tier (drives the headline number): VRT NWS, RTBF, De Standaard,
+    De Morgen, HLN, Het Nieuwsblad, GVA, HBVL, Knack, La Libre, L&rsquo;Echo,
+    DHnet, 7sur7, plus De Tijd, Le Soir, Sudinfo, L&rsquo;Avenir and RTL via
+    Google News&rsquo; <code>site:</code> filter.
+    Headline match: any case-insensitive whole-word occurrence of <em>trump</em>
+    in the article title (Dutch, French and English).
+    Portrait: official White House photo by Shealah Craighead, public domain.
+    See the Methodology section above for the composite zone definitions and
+    the full list of caveats.
+  </footer>
+</div>
+
+<script>
+// Water canvas animation: two sine wave layers with alpha, shimmer crest, and
+// bubbles. Reads water level and color from the nearest .portrait via
+// data-water-target (percent 0-100) and data-water-color (hex).
+(function () {
+  const portraits = document.querySelectorAll(".portrait");
+  const reduceMotion = window.matchMedia &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function hexToRgb(h) {
+    h = (h || "").trim().replace(/^#/, "");
+    if (h.length === 3) h = h.split("").map(function (c) { return c + c; }).join("");
+    return {
+      r: parseInt(h.substr(0, 2), 16) || 0,
+      g: parseInt(h.substr(2, 2), 16) || 0,
+      b: parseInt(h.substr(4, 2), 16) || 0
+    };
+  }
+  function lighten(c, amt) {
+    return {
+      r: Math.min(255, c.r + (255 - c.r) * amt),
+      g: Math.min(255, c.g + (255 - c.g) * amt),
+      b: Math.min(255, c.b + (255 - c.b) * amt)
+    };
+  }
+  function rgba(c, a) { return "rgba(" + c.r + "," + c.g + "," + c.b + "," + a + ")"; }
+
+  portraits.forEach(function (portrait) {
+    const canvas = portrait.querySelector(".water-canvas");
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
+
+    const target  = parseFloat(portrait.getAttribute("data-water-target")) || 0;
+    const hex     = portrait.getAttribute("data-water-color") || "#0ea5e9";
+    const wcol    = hexToRgb(hex);
+    const wcolBk  = lighten(wcol, 0.18);
+
+    let cssW = 0, cssH = 0;
+    function resize() {
+      const rect = canvas.getBoundingClientRect();
+      cssW = rect.width; cssH = rect.height;
+      const dpr = window.devicePixelRatio || 1;
+      canvas.width  = Math.max(1, Math.floor(cssW * dpr));
+      canvas.height = Math.max(1, Math.floor(cssH * dpr));
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    resize();
+    window.addEventListener("resize", resize);
+
+    // Bubble pool
+    const bubbles = [];
+    function spawnBubble() {
+      bubbles.push({
+        x: 8 + Math.random() * (cssW - 16),
+        y: cssH + 4,
+        r: 1 + Math.random() * 3.2,
+        vy: 0.35 + Math.random() * 0.9,
+        drift: (Math.random() - 0.5) * 0.3,
+        alpha: 0.25 + Math.random() * 0.35
+      });
+    }
+
+    function drawWaveFill(top, amp, freq, phase, color) {
+      ctx.fillStyle = color;
+      ctx.beginPath();
+      ctx.moveTo(0, cssH);
+      ctx.lineTo(0, top);
+      for (let x = 0; x <= cssW; x += 3) {
+        const y = top + Math.sin(x * freq + phase) * amp;
+        ctx.lineTo(x, y);
+      }
+      ctx.lineTo(cssW, cssH);
+      ctx.closePath();
+      ctx.fill();
+    }
+
+    function paint(level, time) {
+      ctx.clearRect(0, 0, cssW, cssH);
+      const waterTop = cssH * (1 - level);
+      const baseAmp  = 1.2 + Math.min(level * 22, 18);
+
+      // Back wave: larger, slower, lighter
+      drawWaveFill(waterTop - 2, baseAmp, 0.022, time * 0.9,
+                   rgba(wcolBk, 0.58));
+      // Front wave: tighter, faster, darker (main body)
+      drawWaveFill(waterTop + 3, baseAmp * 0.75, 0.034,
+                   time * 1.6 + Math.PI / 1.3,
+                   rgba(wcol, 0.72));
+
+      // Shimmer along front crest
+      ctx.strokeStyle = "rgba(255,255,255,0.55)";
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      for (let x = 0; x <= cssW; x += 3) {
+        const y = (waterTop + 3) + Math.sin(
+          x * 0.034 + time * 1.6 + Math.PI / 1.3
+        ) * baseAmp * 0.75;
+        if (x === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+
+      return waterTop;
+    }
+
+    // Reduced-motion: paint once, no loop.
+    if (reduceMotion) {
+      paint(target / 100, 0);
+      return;
+    }
+
+    // Animated loop with ease-in from 0 to target.
+    let tPrev = 0;
+    let bubbleTimer = 0;
+    let displayLevel = 0;
+
+    function frame(tMs) {
+      if (!tPrev) tPrev = tMs;
+      const dt = Math.min(0.05, (tMs - tPrev) / 1000);
+      tPrev = tMs;
+
+      const easing = 1 - Math.pow(0.02, dt);
+      displayLevel += (target - displayLevel) * easing;
+
+      const level = displayLevel / 100;
+      const time  = tMs / 1000;
+      const waterTop = paint(level, time);
+
+      // Bubbles when there's meaningful water
+      if (displayLevel > 10) {
+        bubbleTimer += dt;
+        const spawnEvery = 0.06 + 0.4 / Math.max(10, displayLevel);
+        while (bubbleTimer >= spawnEvery) {
+          bubbleTimer -= spawnEvery;
+          spawnBubble();
+        }
+      } else {
+        bubbleTimer = 0;
+      }
+      ctx.fillStyle = "rgba(255,255,255,0.75)";
+      for (let i = bubbles.length - 1; i >= 0; i--) {
+        const b = bubbles[i];
+        b.y -= b.vy;
+        b.x += b.drift;
+        if (b.y <= waterTop + 2 || b.x < -4 || b.x > cssW + 4) {
+          bubbles.splice(i, 1);
+          continue;
+        }
+        ctx.globalAlpha = b.alpha;
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+
+      requestAnimationFrame(frame);
+    }
+
+    requestAnimationFrame(frame);
+  });
+})();
+</script>
+</body>
+</html>

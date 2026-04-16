@@ -20,3 +20,11 @@ img12.jpg
 img13.jpg
 img14.jpg
 img15.jpg
+
+# Trumpflood source: commit the .py / .sh / data / README, skip the runtime junk.
+_trumpflood/venv/
+_trumpflood/__pycache__/
+_trumpflood/logs/
+_trumpflood/.DS_Store
+# Legacy per-day images + HTML output (publishing is now /trumpflood/ at repo root).
+_trumpflood/output/
