@@ -31,11 +31,14 @@ ZONE_KEYS = [z[2] for z in ZONES]
 
 # Distinct, saturated color per zone for clear visual jumps.
 ZONE_COLORS = {
-    "dry":      "#f5c842",  # warm yellow
-    "puddles":  "#7dd3fc",  # sky cyan
-    "wet":      "#0ea5e9",  # bright blue
-    "soaked":   "#1e40af",  # deep blue
-    "flooding": "#dc2626",  # red alert
+    # Monochrome blue progression so the editorial beige/ink palette stays
+    # intact. FLOODING keeps a red alert tone because it's genuinely the
+    # "something's up" band, not a continuation of the same idea.
+    "dry":      "#c8b89a",  # warm muted sand
+    "puddles":  "#a8c4d8",  # dusty sky
+    "wet":      "#4a7fa0",  # mid editorial blue
+    "soaked":   "#1e3a5f",  # deep ink-blue
+    "flooding": "#b03a2e",  # muted alarm red
 }
 
 ZONE_EMOJI = {
@@ -996,9 +999,9 @@ PAGE = """<!doctype html>
 
   /* Masthead */
   .masthead {{
-    border-bottom: 2px solid var(--ink);
-    padding-bottom: 16px;
-    margin-bottom: 48px;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 14px;
+    margin-bottom: 56px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -1033,7 +1036,7 @@ PAGE = """<!doctype html>
     grid-template-columns: auto 1fr;
     gap: 56px;
     align-items: center;
-    margin-bottom: 96px;
+    margin-bottom: 72px;
   }}
   @media (max-width: 760px) {{
     .hero {{ grid-template-columns: 1fr; gap: 32px; }}
@@ -1141,16 +1144,15 @@ PAGE = """<!doctype html>
     margin-bottom: 20px;
   }}
   .rank-badge {{
-    display: inline-block;
+    display: block;
     font-size: 12px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--muted);
-    background: white;
-    border: 1px solid var(--rule);
-    border-radius: 999px;
-    padding: 6px 14px;
-    margin-bottom: 28px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 10px 0;
+    margin: 0 0 24px;
   }}
   .rank-badge strong {{
     color: var(--ink);
@@ -1205,7 +1207,7 @@ PAGE = """<!doctype html>
   }}
 
   /* Blocks */
-  .block {{ margin-top: 64px; }}
+  .block {{ margin-top: 56px; }}
   .block h2 {{
     font-size: 12px;
     letter-spacing: 0.22em;
@@ -1682,11 +1684,11 @@ PAGE = """<!doctype html>
 
       // Back wave: larger, slower, lighter
       drawWaveFill(waterTop - 2, baseAmp, 0.022, time * 0.9,
-                   rgba(wcolBk, 0.58));
+                   rgba(wcolBk, 0.42));
       // Front wave: tighter, faster, darker (main body)
       drawWaveFill(waterTop + 3, baseAmp * 0.75, 0.034,
                    time * 1.6 + Math.PI / 1.3,
-                   rgba(wcol, 0.72));
+                   rgba(wcol, 0.60));
 
       // Shimmer along front crest
       ctx.strokeStyle = "rgba(255,255,255,0.55)";

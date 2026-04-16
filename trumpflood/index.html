@@ -26,9 +26,9 @@
 
   /* Masthead */
   .masthead {
-    border-bottom: 2px solid var(--ink);
-    padding-bottom: 16px;
-    margin-bottom: 48px;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 14px;
+    margin-bottom: 56px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -63,7 +63,7 @@
     grid-template-columns: auto 1fr;
     gap: 56px;
     align-items: center;
-    margin-bottom: 96px;
+    margin-bottom: 72px;
   }
   @media (max-width: 760px) {
     .hero { grid-template-columns: 1fr; gap: 32px; }
@@ -171,16 +171,15 @@
     margin-bottom: 20px;
   }
   .rank-badge {
-    display: inline-block;
+    display: block;
     font-size: 12px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--muted);
-    background: white;
-    border: 1px solid var(--rule);
-    border-radius: 999px;
-    padding: 6px 14px;
-    margin-bottom: 28px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 10px 0;
+    margin: 0 0 24px;
   }
   .rank-badge strong {
     color: var(--ink);
@@ -235,7 +234,7 @@
   }
 
   /* Blocks */
-  .block { margin-top: 64px; }
+  .block { margin-top: 56px; }
   .block h2 {
     font-size: 12px;
     letter-spacing: 0.22em;
@@ -608,19 +607,19 @@
   
 <section class="hero">
   <div class="portrait-wrap">
-    <div class="portrait" data-water-color="#0ea5e9" data-water-target="60" style="--water-color:#0ea5e9;--water-target:60%">
+    <div class="portrait" data-water-color="#4a7fa0" data-water-target="60" style="--water-color:#4a7fa0;--water-target:60%">
       <img src="trump.jpg" alt="Donald Trump">
       <canvas class="water-canvas" aria-hidden="true"></canvas>
     </div>
     <div class="scale" aria-label="Flood zone scale">
-      <div class="band" style="bottom:0.00%;height:20.00%;--band-color:#f5c842"><span class="band-name">Dry</span></div><div class="band" style="bottom:20.00%;height:20.00%;--band-color:#7dd3fc"><span class="band-name">Puddles</span></div><div class="band active" style="bottom:40.00%;height:20.00%;--band-color:#0ea5e9"><span class="band-name">Wet</span></div><div class="band" style="bottom:60.00%;height:20.00%;--band-color:#1e40af"><span class="band-name">Soaked</span></div><div class="band" style="bottom:80.00%;height:20.00%;--band-color:#dc2626"><span class="band-name">Flooding</span></div>
+      <div class="band" style="bottom:0.00%;height:20.00%;--band-color:#c8b89a"><span class="band-name">Dry</span></div><div class="band" style="bottom:20.00%;height:20.00%;--band-color:#a8c4d8"><span class="band-name">Puddles</span></div><div class="band active" style="bottom:40.00%;height:20.00%;--band-color:#4a7fa0"><span class="band-name">Wet</span></div><div class="band" style="bottom:60.00%;height:20.00%;--band-color:#1e3a5f"><span class="band-name">Soaked</span></div><div class="band" style="bottom:80.00%;height:20.00%;--band-color:#b03a2e"><span class="band-name">Flooding</span></div>
     </div>
   </div>
   <div class="readout">
     <div class="readout-label">The zone is getting wet</div>
     <div class="rank-badge">Rank <strong>#1</strong> of 10 named people today <span class="rank-dom">· outweighs all 9 others combined (1.0×)</span> <span class="rank-theme">· rank #6 of 15 when compared to broad themes</span></div>
     <div class="readout-stat">
-      <span class="pct" style="color:#0ea5e9">2.7<span class="pct-symbol">%</span></span>
+      <span class="pct" style="color:#4a7fa0">2.7<span class="pct-symbol">%</span></span>
     </div>
     <div class="readout-sub">
       <strong>12</strong> of <strong>439</strong> Belgian news
@@ -635,14 +634,14 @@
   <h2>Today vs. the rest</h2>
   <p class="block-intro">Trump against nine other named figures in the same
   439-headline core corpus.</p>
-  <div class="comparison"><div class="comp-row trump"><div class="comp-label">Trump</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:100.0%;background:#0ea5e9"></div></div><div class="comp-stat"><strong>11</strong><span class="comp-share">2.5%</span></div></div><div class="comp-row"><div class="comp-label">Netanyahu</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:27.3%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>3</strong><span class="comp-share">0.7%</span></div></div><div class="comp-row"><div class="comp-label">Orbán</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:27.3%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>3</strong><span class="comp-share">0.7%</span></div></div><div class="comp-row"><div class="comp-label">De Wever</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:18.2%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.5%</span></div></div><div class="comp-row"><div class="comp-label">Bouchez</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:18.2%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.5%</span></div></div><div class="comp-row"><div class="comp-label">Zelensky</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:9.1%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>1</strong><span class="comp-share">0.2%</span></div></div><div class="comp-row"><div class="comp-label">Macron</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Putin</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Musk</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Meloni</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div></div>
+  <div class="comparison"><div class="comp-row trump"><div class="comp-label">Trump</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:100.0%;background:#4a7fa0"></div></div><div class="comp-stat"><strong>11</strong><span class="comp-share">2.5%</span></div></div><div class="comp-row"><div class="comp-label">Netanyahu</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:27.3%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>3</strong><span class="comp-share">0.7%</span></div></div><div class="comp-row"><div class="comp-label">Orbán</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:27.3%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>3</strong><span class="comp-share">0.7%</span></div></div><div class="comp-row"><div class="comp-label">De Wever</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:18.2%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.5%</span></div></div><div class="comp-row"><div class="comp-label">Bouchez</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:18.2%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.5%</span></div></div><div class="comp-row"><div class="comp-label">Zelensky</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:9.1%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>1</strong><span class="comp-share">0.2%</span></div></div><div class="comp-row"><div class="comp-label">Macron</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Putin</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Musk</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Meloni</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div></div>
   <div class="vs-others"><div class="vs-line"><strong>11</strong> Trump <span class="vs-vs">vs</span> <strong>11</strong> all other people combined <span class="vs-ratio">(1.00×)</span></div><div class="vs-verdict">Trump alone is exactly equal to all 7 others combined.</div></div>
   
   <h3 class="sub-h">Against broad subject themes</h3>
   <p class="block-intro small">A single person will almost never out-rank
   aggregate themes. Trump would rank
   <strong>#6</strong> of 14.</p>
-  <div class="comparison themes-comp"><div class="theme-row"><div class="theme-label">War/conflict</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:100.0%;background:#9ba295"></div></div><div class="theme-stat"><strong>38</strong><span class="theme-share">8.7%</span></div></div><div class="theme-row"><div class="theme-label">Sports</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:52.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>20</strong><span class="theme-share">4.6%</span></div></div><div class="theme-row"><div class="theme-label">Crime/justice</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:47.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>18</strong><span class="theme-share">4.1%</span></div></div><div class="theme-row"><div class="theme-label">EU politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:47.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>18</strong><span class="theme-share">4.1%</span></div></div><div class="theme-row"><div class="theme-label">Culture/media</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:39.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>15</strong><span class="theme-share">3.4%</span></div></div><div class="theme-row trump"><div class="theme-label">Trump (one person)</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:28.9%;background:#0ea5e9"></div></div><div class="theme-stat"><strong>11</strong><span class="theme-share">2.5%</span></div></div><div class="theme-row"><div class="theme-label">Tech/AI</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:28.9%;background:#9ba295"></div></div><div class="theme-stat"><strong>11</strong><span class="theme-share">2.5%</span></div></div><div class="theme-row"><div class="theme-label">Belgium gov</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Economy/finance</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Health</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:21.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>8</strong><span class="theme-share">1.8%</span></div></div><div class="theme-row"><div class="theme-label">Weather</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:21.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>8</strong><span class="theme-share">1.8%</span></div></div><div class="theme-row"><div class="theme-label">Education</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:13.2%;background:#9ba295"></div></div><div class="theme-stat"><strong>5</strong><span class="theme-share">1.1%</span></div></div><div class="theme-row"><div class="theme-label">Climate/energy</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:10.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>4</strong><span class="theme-share">0.9%</span></div></div><div class="theme-row"><div class="theme-label">Migration</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:2.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>1</strong><span class="theme-share">0.2%</span></div></div></div>
+  <div class="comparison themes-comp"><div class="theme-row"><div class="theme-label">War/conflict</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:100.0%;background:#9ba295"></div></div><div class="theme-stat"><strong>38</strong><span class="theme-share">8.7%</span></div></div><div class="theme-row"><div class="theme-label">Sports</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:52.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>20</strong><span class="theme-share">4.6%</span></div></div><div class="theme-row"><div class="theme-label">Crime/justice</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:47.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>18</strong><span class="theme-share">4.1%</span></div></div><div class="theme-row"><div class="theme-label">EU politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:47.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>18</strong><span class="theme-share">4.1%</span></div></div><div class="theme-row"><div class="theme-label">Culture/media</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:39.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>15</strong><span class="theme-share">3.4%</span></div></div><div class="theme-row trump"><div class="theme-label">Trump (one person)</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:28.9%;background:#4a7fa0"></div></div><div class="theme-stat"><strong>11</strong><span class="theme-share">2.5%</span></div></div><div class="theme-row"><div class="theme-label">Tech/AI</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:28.9%;background:#9ba295"></div></div><div class="theme-stat"><strong>11</strong><span class="theme-share">2.5%</span></div></div><div class="theme-row"><div class="theme-label">Belgium gov</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Economy/finance</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Health</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:23.7%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.1%</span></div></div><div class="theme-row"><div class="theme-label">Politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:21.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>8</strong><span class="theme-share">1.8%</span></div></div><div class="theme-row"><div class="theme-label">Weather</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:21.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>8</strong><span class="theme-share">1.8%</span></div></div><div class="theme-row"><div class="theme-label">Education</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:13.2%;background:#9ba295"></div></div><div class="theme-stat"><strong>5</strong><span class="theme-share">1.1%</span></div></div><div class="theme-row"><div class="theme-label">Climate/energy</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:10.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>4</strong><span class="theme-share">0.9%</span></div></div><div class="theme-row"><div class="theme-label">Migration</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:2.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>1</strong><span class="theme-share">0.2%</span></div></div></div>
 
 </section>
 
@@ -652,7 +651,7 @@
   
 <section class="block">
   <h2>Daily log</h2>
-  <table><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#f5c842'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#f5c842'></span></td></tr></tbody></table>
+  <table><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#c8b89a'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#c8b89a'></span></td></tr></tbody></table>
 </section>
 
 
@@ -905,11 +904,11 @@
 
       // Back wave: larger, slower, lighter
       drawWaveFill(waterTop - 2, baseAmp, 0.022, time * 0.9,
-                   rgba(wcolBk, 0.58));
+                   rgba(wcolBk, 0.42));
       // Front wave: tighter, faster, darker (main body)
       drawWaveFill(waterTop + 3, baseAmp * 0.75, 0.034,
                    time * 1.6 + Math.PI / 1.3,
-                   rgba(wcol, 0.72));
+                   rgba(wcol, 0.60));
 
       // Shimmer along front crest
       ctx.strokeStyle = "rgba(255,255,255,0.55)";
