@@ -24,7 +24,30 @@ _THEMES = [
     ("economy",   "Economy/finance",
      r"\b(econom(ie|y|ique)|inflatie|inflation|beurs|bourse|werkloos|ch[oô]mage|sala(ris|ire)|bedrijf|entreprise|bank(en|s|aire)?|investeer|investiss|begrot(ing|aire)|budget|belasting|imp[oô]t|fiscaal|fiscal|btw|tva|prijs|prix|consument|consommat|export|import|handel|commerce)\b"),
     ("sports",    "Sports",
-     r"\b(sport|voetbal|football|tennis|wielrenn|cyclis(me|te)|formule\s?1|f1|olympi(c|qu)|rugby|basket|hockey|atletiek|athl[ée]tisme|sporter|athl[ée]te|wedstrijd|match|tornooi|tournoi|kampioenschap|championnat|club|liga|ligue|competitie|comp[ée]tition|trainer|entra[iî]neur)\b"),
+     # Deliberately narrow: generic terms like "match", "club",
+     # "ligue", "competitie" were catching business/politics/nightlife
+     # headlines and inflating the sport count. This version keeps
+     # unambiguous sport vocabulary and Belgian team names.
+     r"\b(voetbal|football|voetbalclub|fc\s?\w+|kv\s?\w+|rsc\s?\w+"
+     r"|anderlecht|club\s?brugge|racing\s?genk|standard\s?li[eè]ge"
+     r"|aa\s?gent|antwerp\s?fc|cercle\s?brugge|westerlo|charleroi"
+     r"|red\s?devils|rode\s?duivels|yellow\s?tigers"
+     r"|tennis|wielrenn|cyclis(me|te)|formule\s?1|\bf1\b"
+     r"|olympi(sche\s?spelen|c\s?games|ques?)"
+     r"|rugby|basketbal|handbal|volleybal|ice\s?hockey|ijshockey"
+     r"|atletiek|athl[ée]tisme|zwemmer|nageur|schaats|patinage"
+     r"|wedstrijduitslag|wielerwedstrijd|voetbalwedstrijd"
+     r"|kampioenschap|championnat|tornooi|tournoi"
+     r"|jupiler\s?pro\s?league|pro\s?league|challenger\s?pro\s?league"
+     r"|champions?\s?league|europa\s?league|premier\s?league|la\s?liga"
+     r"|bundesliga|serie\s?a|eredivisie|ligue\s?1\b"
+     r"|world\s?cup|wereldbeker|coupe\s?du\s?monde|ek\s?voetbal|euro\s?\d{4}"
+     r"|doelpunt|goals?\b|scoorde?n?|buteur"
+     r"|finale|halve\s?finale|kwartfinale|quart\s?de\s?finale"
+     r"|grand\s?prix|gp\s?\w+|peloton|sprint|ronde\s?van"
+     r"|ploeg(leider|maat)|voetbalploeg|coach(es)?"
+     r"|remco\s?evenepoel|van\s?aert|pogacar|mbapp[eé]|messi|ronaldo"
+     r"|trainer|entra[iî]neur)\b"),
     ("health",    "Health",
      r"\b(gezondheid|sant[ée]|ziekenhuis|h[oô]pital|arts|m[ée]decin|patient|verpleeg|infirmi[eè]r|kanker|cancer|virus|epidem|pandem|vaccin|geneesm|m[eé]dicament|operatie|op[eé]ration|behandel|traitement|psych|ggz|covid)\b"),
     ("climate",   "Climate/energy",
