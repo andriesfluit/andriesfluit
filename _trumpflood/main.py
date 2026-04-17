@@ -38,20 +38,54 @@ def main():
 
     results = fetch_all(today)
 
-    seen = set()
+    import re as _re
+    import unicodedata as _u
+
+    def _norm_title(t):
+        """Normalize a title for dedup: lowercase, strip accents, collapse
+        whitespace, strip editorial prefixes (VIDEO., LIVE., MULTILIVE., ...)
+        and trailing ellipses. Two titles that normalize to the same string
+        are considered the same article published by different outlets."""
+        if not t:
+            return ""
+        s = _u.normalize("NFKD", t).encode("ASCII", "ignore").decode("ASCII")
+        s = s.lower()
+        # Drop editorial prefixes before the first substantive word.
+        s = _re.sub(r"^(video|live|multilive|analyse|opinie|update|breaking|exclu|exclusief|reportage|interview|foto|photo|column)\W+", "", s)
+        # Drop all quotes, punctuation, and trailing ellipsis dots.
+        s = _re.sub(r"[\"'`\u2018\u2019\u201c\u201d\u2014\u2013\u2026]", "", s)
+        s = _re.sub(r"[^\w\s]", " ", s)
+        s = _re.sub(r"\s+", " ", s).strip()
+        # Titles are often truncated with "..." at the feed cap; the first
+        # 80 chars are enough to catch near-identical wire copy.
+        return s[:80]
+
+    seen_urls = set()
+    seen_titles = set()
     kept = []  # list of (url, title, source)
     source_summary = {}
+    dup_counts = {"by_url": 0, "by_title": 0}
+
     for src, payload in results.items():
         n_today = len(payload["articles"])
-        # Per-outlet Trump count (BEFORE dedup, so each outlet's own rate
-        # is independent of overlap with others).
+        # Per-outlet Trump count (BEFORE cross-outlet dedup, so each outlet's
+        # own rate is independent of overlap with others).
         outlet_trump = sum(
             1 for _, t in payload["articles"] if contains_trump(t)
         )
         for url, title in payload["articles"]:
-            if url in seen:
+            if url in seen_urls:
+                dup_counts["by_url"] += 1
                 continue
-            seen.add(url)
+            tnorm = _norm_title(title)
+            # Require at least 3 meaningful chars to dedup on title;
+            # titles like "Live" or "." should not collapse to each other.
+            if tnorm and len(tnorm) >= 12 and tnorm in seen_titles:
+                dup_counts["by_title"] += 1
+                continue
+            seen_urls.add(url)
+            if tnorm:
+                seen_titles.add(tnorm)
             kept.append((url, title, src))
         source_summary[src] = {
             "fetched": payload["fetched"],
@@ -59,6 +93,10 @@ def main():
             "trump": outlet_trump,
             "share": round(outlet_trump / n_today * 100, 2) if n_today else 0,
         }
+    logging.info(
+        "Dedup: %d URL duplicates, %d title duplicates",
+        dup_counts["by_url"], dup_counts["by_title"]
+    )
 
     # ------ Full "wide" corpus (every feed, deduped by URL) -----------------
     wide_total = len(kept)
