@@ -1074,7 +1074,22 @@ PAGE = """<!doctype html>
     color-scheme: light;
   }}
   * {{ box-sizing: border-box; }}
-  html, body {{ margin: 0; padding: 0; }}
+  html, body {{
+    margin: 0;
+    padding: 0;
+    /* Prevent any child from creating horizontal overflow that sidescrolls
+       the whole page on mobile. Individual scroll containers (tables in
+       methodology, etc.) opt back in via overflow-x:auto. */
+    overflow-x: hidden;
+    max-width: 100vw;
+  }}
+  /* Long words (Dutch compounds, URLs in titles) should wrap instead of
+     pushing their container wider on narrow screens. */
+  h1, h2, h3, h4, p, a, li, td, th {{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }}
   body {{
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     background: var(--paper);
@@ -1181,6 +1196,43 @@ PAGE = """<!doctype html>
        date + share stay visible without horizontal scroll. */
     .block table thead th:nth-child(2),
     .block table tbody td:nth-child(2) {{ display: none; }}
+
+    /* Today's mentions: stack the title above the source label. Default
+       (desktop) is a flex row, but 18px title + nowrap source creates
+       horizontal overflow on narrow screens. */
+    .mentions li {{
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+      padding: 12px 0;
+    }}
+    .mentions a {{ font-size: 16px; }}
+    .mentions .src {{ font-size: 10px; }}
+
+    /* Compare rows + theme rows: default grid is 130px/1fr/110px which
+       eats all the mobile width. Collapse to 2 rows: label full-width
+       on top, bar + stat below it. */
+    .comp-row,
+    .themes-comp .theme-row {{
+      grid-template-columns: 1fr auto;
+      grid-template-rows: auto auto;
+      gap: 4px 12px;
+      padding: 6px 0;
+    }}
+    .comp-label, .theme-label {{
+      grid-column: 1 / -1;
+      font-size: 13px;
+    }}
+    .comp-bar-wrap, .theme-bar-wrap {{
+      grid-column: 1 / 2;
+    }}
+    .comp-stat, .theme-stat {{
+      grid-column: 2 / 3;
+      font-size: 13px;
+    }}
+
+    /* Rank badge line breaks its own metadata */
+    .rank-badge {{ line-height: 1.5; }}
   }}
 
   .portrait-wrap {{
