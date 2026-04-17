@@ -1161,15 +1161,40 @@ PAGE = """<!doctype html>
     .brand-eyebrow {{ font-size: 10px; }}
     .brand-sub {{ font-size: 10px; }}
 
-    /* Hero: portrait keeps priority, scale sits tighter */
+    /* Hero: portrait + scale must fit inside .wrap content-width (screen
+       minus 36px horizontal padding). Use flex with fixed narrow scale
+       and a flexible portrait so the sum can never exceed 100%. */
     .hero {{ gap: 24px; margin-bottom: 48px; }}
-    .portrait-wrap {{ max-width: 100%; gap: 8px; }}
-    .portrait {{ width: calc(100% - 72px); max-width: 320px; }}
-    .scale {{ width: 64px; }}
+    .portrait-wrap {{
+      width: 100%;
+      max-width: 100%;
+      gap: 8px;
+    }}
+    .portrait {{
+      /* min-width:0 is critical to let the flex item shrink below its
+         intrinsic 320px hint. Without it, the 320px default wins and
+         causes horizontal overflow. */
+      width: auto;
+      min-width: 0;
+      flex: 1 1 auto;
+      max-width: calc(100% - 72px);
+    }}
+    .scale {{
+      width: 64px;
+      flex: 0 0 64px;
+      min-width: 0;
+    }}
     .band-name {{ font-size: 10px; letter-spacing: 0.1em; }}
 
-    /* Readout: large type scales down more aggressively than at 760px */
-    .readout-label {{ font-size: 40px; margin-bottom: 14px; }}
+    /* Readout: large type scales down more aggressively than at 760px.
+       "The zone is getting wet" is 23 characters; at 32px it fits on
+       a 390px iPhone viewport with 36px of wrap padding. */
+    .readout {{ min-width: 0; }}
+    .readout-label {{
+      font-size: 32px;
+      line-height: 1.05;
+      margin-bottom: 14px;
+    }}
     .pct {{ font-size: 64px; }}
     .pct-symbol {{ font-size: 32px; }}
     .rank-badge {{ font-size: 11px; letter-spacing: 0.06em; padding: 8px 0; }}
@@ -1233,6 +1258,16 @@ PAGE = """<!doctype html>
 
     /* Rank badge line breaks its own metadata */
     .rank-badge {{ line-height: 1.5; }}
+  }}
+
+  /* Extra-small screens (iPhone SE, older Android) */
+  @media (max-width: 380px) {{
+    .brand {{ font-size: 30px; }}
+    .readout-label {{ font-size: 26px; }}
+    .pct {{ font-size: 56px; }}
+    .pct-symbol {{ font-size: 28px; }}
+    .scale {{ width: 52px; flex-basis: 52px; }}
+    .band-name {{ font-size: 9px; letter-spacing: 0.08em; }}
   }}
 
   .portrait-wrap {{
