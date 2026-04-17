@@ -15,12 +15,16 @@ set -e
 cd "$(dirname "$0")"
 mkdir -p logs
 
-if [ -d "venv" ]; then
-  # shellcheck disable=SC1091
-  source venv/bin/activate
+# Use the venv Python directly. launchd gives us a very minimal environment
+# where `source venv/bin/activate` has proven flaky (PATH updates did not
+# survive, so plain `python3` resolved to the system Python and hit
+# ModuleNotFoundError). Explicit path sidesteps all of that.
+PYTHON="./venv/bin/python"
+if [ ! -x "$PYTHON" ]; then
+  PYTHON="python3"
 fi
 
-python3 main.py 2>>logs/errors.log
+"$PYTHON" main.py 2>>logs/errors.log
 
 # ---------------------------------------------------------------
 # Publish step: commit and push only the trumpflood site artefacts
@@ -32,6 +36,18 @@ if [ -n "$REPO_ROOT" ]; then
   # Never fail the cron run because of a push hiccup.
   {
     cd "$REPO_ROOT"
+
+    # Pull any commits made elsewhere (GitHub Desktop, GitHub UI editing the
+    # CNAME file, a manual commit, ...) before we add our own. --autostash
+    # stashes any uncommitted changes first and reapplies them after the
+    # rebase, so a half-finished run from a crash can't block us.
+    echo "[trumpflood] rebase on origin/main at $(date)"
+    git pull --rebase --autostash 2>&1 || {
+      echo "[trumpflood] pull/rebase failed; aborting rebase and skipping publish"
+      git rebase --abort 2>/dev/null || true
+      exit 0
+    }
+
     # Stage only the paths we own.
     git add -A trumpflood/ _trumpflood/data/log.json 2>/dev/null || true
 

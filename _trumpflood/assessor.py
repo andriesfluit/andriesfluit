@@ -130,12 +130,19 @@ def assess_composite(trump_count, core_total, comparisons,
                   enough history. When None, the gate is treated as passed.
 
     Zone ladder (top-down, first match wins):
-      flooding  pct>=5.0 AND dominance>=2.0 AND rank==1 AND breadth>=0.60
+      flooding  pct>=4.0 AND dominance>=2.0 AND rank==1 AND breadth>=0.55
                 AND (deviation>=1.5 OR deviation is None)
-      soaked    pct>=3.5 AND dominance>=1.2 AND rank==1 AND breadth>=0.45
-      wet       pct>=2.0 AND rank<=2 AND (breadth>=0.30 OR breadth is None)
+      soaked    pct>=2.5 AND dominance>=1.2 AND rank==1 AND breadth>=0.40
+      wet       pct>=1.5 AND rank<=2 AND (breadth>=0.25 OR breadth is None)
       puddles   pct>=0.8 AND rank<=4
       dry       otherwise
+
+    Thresholds were lowered from their original values (5.0/3.5/2.0 pct
+    floors, 0.60/0.45/0.30 breadth floors) because those were calibrated
+    against GDELT's broader corpus. Our core-tier RSS sampling is smaller
+    and narrower; 2.7% of core headlines is meaningful salience, not
+    background noise. Dominance and rank floors stay unchanged since they
+    are corpus-independent ratios.
     """
     pct = (trump_count / core_total * 100) if core_total else 0.0
     comps = dict(comparisons or {})
@@ -168,18 +175,18 @@ def assess_composite(trump_count, core_total, comparisons,
 
     if (rank == 1
             and dominance >= 2.0
-            and pct >= 5.0
-            and breadth_ok(0.60)
+            and pct >= 4.0
+            and breadth_ok(0.55)
             and deviation_ok(1.5)):
         chosen = "flooding"
     elif (rank == 1
             and dominance >= 1.2
-            and pct >= 3.5
-            and breadth_ok(0.45)):
+            and pct >= 2.5
+            and breadth_ok(0.40)):
         chosen = "soaked"
     elif (rank <= 2
-            and pct >= 2.0
-            and breadth_ok(0.30)):
+            and pct >= 1.5
+            and breadth_ok(0.25)):
         chosen = "wet"
     elif rank <= 4 and pct >= 0.8:
         chosen = "puddles"
