@@ -60,32 +60,41 @@ def main():
         # 80 chars are enough to catch near-identical wire copy.
         return s[:80]
 
+    # URL dedup is global: the same URL appearing in two feeds (e.g. a
+    # Google News aggregator republishing an HLN link) is genuinely the
+    # same story and we collapse it.
+    #
+    # Title dedup is PER OUTLET only. If HLN's feed accidentally lists
+    # the same story twice (wire-copy duplication inside one publisher),
+    # we collapse that. But if HLN, Nieuwsblad and GVA all decide to
+    # run the same Reuters Trump story, those are three editorial
+    # decisions and count as three headlines. This is important for
+    # the breadth signal, which measures how many outlets picked up
+    # a story regardless of whether it's wire copy.
     seen_urls = set()
-    seen_titles = set()
     kept = []  # list of (url, title, source)
     source_summary = {}
-    dup_counts = {"by_url": 0, "by_title": 0}
+    dup_counts = {"by_url": 0, "by_title_within_outlet": 0}
 
     for src, payload in results.items():
         n_today = len(payload["articles"])
-        # Per-outlet Trump count (BEFORE cross-outlet dedup, so each outlet's
-        # own rate is independent of overlap with others).
+        # Per-outlet Trump count (BEFORE cross-outlet URL dedup, so each
+        # outlet's own rate is independent of overlap with others).
         outlet_trump = sum(
             1 for _, t in payload["articles"] if contains_trump(t)
         )
+        seen_titles_this_outlet = set()
         for url, title in payload["articles"]:
             if url in seen_urls:
                 dup_counts["by_url"] += 1
                 continue
             tnorm = _norm_title(title)
-            # Require at least 3 meaningful chars to dedup on title;
-            # titles like "Live" or "." should not collapse to each other.
-            if tnorm and len(tnorm) >= 12 and tnorm in seen_titles:
-                dup_counts["by_title"] += 1
-                continue
+            if tnorm and len(tnorm) >= 12:
+                if tnorm in seen_titles_this_outlet:
+                    dup_counts["by_title_within_outlet"] += 1
+                    continue
+                seen_titles_this_outlet.add(tnorm)
             seen_urls.add(url)
-            if tnorm:
-                seen_titles.add(tnorm)
             kept.append((url, title, src))
         source_summary[src] = {
             "fetched": payload["fetched"],
@@ -94,8 +103,8 @@ def main():
             "share": round(outlet_trump / n_today * 100, 2) if n_today else 0,
         }
     logging.info(
-        "Dedup: %d URL duplicates, %d title duplicates",
-        dup_counts["by_url"], dup_counts["by_title"]
+        "Dedup: %d URL duplicates (cross-outlet), %d title duplicates within same outlet",
+        dup_counts["by_url"], dup_counts["by_title_within_outlet"]
     )
 
     # ------ Full "wide" corpus (every feed, deduped by URL) -----------------

@@ -992,15 +992,17 @@ def _methodology(latest):
         earlier record and only update the &ldquo;last checked&rdquo;
         timestamp. Later runs still replace the record when they see a
         <em>higher</em> share, so a late-breaking Trump surge is captured.</li>
-        <li><strong>Wire-story amplification.</strong> The same Reuters / AFP
-        story republished across Mediahuis outlets (HLN, Nieuwsblad, GVA,
-        HBVL, De Standaard) used to count once per outlet. We now dedup on
-        both URL <em>and</em> normalised title (lower-cased, accent-stripped,
-        editorial prefixes like &ldquo;VIDEO.&rdquo; removed, first 80
-        characters compared). Identical wire copy republished across outlets
-        collapses to one. This typically removes ~10&ndash;15&percnt; of the
-        raw feed volume, most of it sport. Residual duplicates pass when an
-        outlet rewords the headline.</li>
+        <li><strong>Dedup policy.</strong> URL duplicates (same article
+        reached via two feeds, e.g. Google News republishing an HLN link)
+        collapse to one globally. Title duplicates only collapse
+        <em>within the same outlet</em> &mdash; a normalised title
+        (lower-case, accent-stripped, editorial prefixes like
+        &ldquo;VIDEO.&rdquo; removed, first 80 chars compared) that
+        repeats inside one publisher&rsquo;s feed becomes one. But if HLN,
+        Nieuwsblad and GVA all run the same Reuters headline, those are
+        three editorial decisions and all three count. That is what
+        &ldquo;breadth&rdquo; measures: publishing choices, not unique
+        authored stories.</li>
         <li><strong>Aggregator overlap.</strong> The Google News feeds (only
         used in the wide tier, not core) republish outlets we already pull
         directly; URLs differ from the direct ones so some duplication leaks
