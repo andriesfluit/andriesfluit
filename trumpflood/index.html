@@ -70,6 +70,59 @@
     .portrait-wrap { max-width: 360px; margin: 0 auto; }
   }
 
+  /* Phones: tighter margins, smaller display type, scrollable wide tables.
+     Targets iPhone SE (320px) through large-phone portrait (520px). */
+  @media (max-width: 520px) {
+    .wrap { padding: 32px 18px 64px; }
+
+    .masthead {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+      padding-bottom: 12px;
+      margin-bottom: 40px;
+    }
+    .brand { font-size: 36px; letter-spacing: -0.015em; }
+    .brand-eyebrow { font-size: 10px; }
+    .brand-sub { font-size: 10px; }
+
+    /* Hero: portrait keeps priority, scale sits tighter */
+    .hero { gap: 24px; margin-bottom: 48px; }
+    .portrait-wrap { max-width: 100%; gap: 8px; }
+    .portrait { width: calc(100% - 72px); max-width: 320px; }
+    .scale { width: 64px; }
+    .band-name { font-size: 10px; letter-spacing: 0.1em; }
+
+    /* Readout: large type scales down more aggressively than at 760px */
+    .readout-label { font-size: 40px; margin-bottom: 14px; }
+    .pct { font-size: 64px; }
+    .pct-symbol { font-size: 32px; }
+    .rank-badge { font-size: 11px; letter-spacing: 0.06em; padding: 8px 0; }
+    .rank-dom, .rank-theme { display: inline; }
+
+    /* Methodology: big tables need horizontal scroll */
+    .zone-thresholds { font-size: 12px; }
+    .zone-thresholds th, .zone-thresholds td { padding: 6px 6px; }
+    .meth-body { overflow-x: auto; }
+    .meth-body h4.signal-h { font-size: 16px; }
+
+    /* Source table also wants to scroll rather than squish */
+    table { min-width: 0; }
+
+    /* Comparison bars: keep labels on their own line if tight */
+    .comp-label { font-size: 13px; }
+    .comp-stat { font-size: 13px; }
+    .theme-label { font-size: 13px; }
+
+    /* Block headings */
+    .block h2 { font-size: 11px; }
+
+    /* Daily log: hide the "label" column on very narrow phones so the
+       date + share stay visible without horizontal scroll. */
+    .block table thead th:nth-child(2),
+    .block table tbody td:nth-child(2) { display: none; }
+  }
+
   .portrait-wrap {
     display: flex;
     align-items: stretch;
@@ -641,28 +694,28 @@
       <div class="brand-eyebrow">trumpflood &middot; Belgian news monitor</div>
       <h1 class="brand">Is Trump flooding the zone?</h1>
     </div>
-    <div class="brand-sub">Last run: Fri 17 Apr 2026, 08:59 CEST</div>
+    <div class="brand-sub">Last run: Fri 17 Apr 2026, 14:26 CEST</div>
   </header>
 
   
 <section class="hero">
   <div class="portrait-wrap">
-    <div class="portrait" data-water-color="#4a7fa0" data-water-target="60" style="--water-color:#4a7fa0;--water-target:60%">
+    <div class="portrait" data-water-color="#a8c4d8" data-water-target="40" style="--water-color:#a8c4d8;--water-target:40%">
       <img src="trump.jpg" alt="Donald Trump">
       <canvas class="water-canvas" aria-hidden="true"></canvas>
     </div>
     <div class="scale" aria-label="Flood zone scale">
-      <div class="band" style="bottom:0.00%;height:20.00%;--band-color:#c8b89a"><span class="band-name">Dry</span></div><div class="band" style="bottom:20.00%;height:20.00%;--band-color:#a8c4d8"><span class="band-name">Puddles</span></div><div class="band active" style="bottom:40.00%;height:20.00%;--band-color:#4a7fa0"><span class="band-name">Wet</span></div><div class="band" style="bottom:60.00%;height:20.00%;--band-color:#1e3a5f"><span class="band-name">Soaked</span></div><div class="band" style="bottom:80.00%;height:20.00%;--band-color:#b03a2e"><span class="band-name">Flooding</span></div>
+      <div class="band" style="bottom:0.00%;height:20.00%;--band-color:#c8b89a"><span class="band-name">Dry</span></div><div class="band active" style="bottom:20.00%;height:20.00%;--band-color:#a8c4d8"><span class="band-name">Puddles</span></div><div class="band" style="bottom:40.00%;height:20.00%;--band-color:#4a7fa0"><span class="band-name">Wet</span></div><div class="band" style="bottom:60.00%;height:20.00%;--band-color:#1e3a5f"><span class="band-name">Soaked</span></div><div class="band" style="bottom:80.00%;height:20.00%;--band-color:#b03a2e"><span class="band-name">Flooding</span></div>
     </div>
   </div>
   <div class="readout">
-    <div class="readout-label">The zone is getting wet</div>
-    <div class="rank-badge">Rank <strong>#1</strong> of 10 named people today <span class="rank-dom">· outweighs all 9 others combined (3.5×)</span> <span class="rank-theme">· rank #9 of 15 when compared to broad themes</span></div>
+    <div class="readout-label">Puddles are forming</div>
+    <div class="rank-badge">Rank <strong>#1</strong> of 10 named people today <span class="rank-dom">· 0.71× the other 9 combined</span> <span class="rank-theme">· rank #11 of 15 when compared to broad themes</span></div>
     <div class="readout-stat">
-      <span class="pct" style="color:#4a7fa0">2.3<span class="pct-symbol">%</span></span>
+      <span class="pct" style="color:#a8c4d8">0.9<span class="pct-symbol">%</span></span>
     </div>
     <div class="readout-sub">
-      <strong>7</strong> of <strong>307</strong> Belgian news
+      <strong>5</strong> of <strong>573</strong> Belgian news
       headlines today reference Trump
     </div>
   </div>
@@ -673,25 +726,25 @@
 <section class="block">
   <h2>Today vs. the rest</h2>
   <p class="block-intro">Trump against nine other named figures in the same
-  307-headline core corpus.</p>
-  <div class="comparison"><div class="comp-row trump"><div class="comp-label">Trump</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:100.0%;background:#4a7fa0"></div></div><div class="comp-stat"><strong>7</strong><span class="comp-share">2.3%</span></div></div><div class="comp-row"><div class="comp-label">De Wever</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:28.6%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.7%</span></div></div><div class="comp-row"><div class="comp-label">Macron</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Putin</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Netanyahu</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Zelensky</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Musk</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Orbán</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Meloni</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Bouchez</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div></div>
-  <div class="vs-others"><div class="vs-line"><strong>7</strong> Trump <span class="vs-vs">vs</span> <strong>2</strong> all other people combined <span class="vs-ratio">(3.50×)</span></div><div class="vs-verdict">Trump alone is more than all 7 others combined.</div></div>
+  573-headline core corpus.</p>
+  <div class="comparison"><div class="comp-row trump"><div class="comp-label">Trump</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:100.0%;background:#a8c4d8"></div></div><div class="comp-stat"><strong>5</strong><span class="comp-share">0.9%</span></div></div><div class="comp-row"><div class="comp-label">De Wever</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:40.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.3%</span></div></div><div class="comp-row"><div class="comp-label">Macron</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:40.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.3%</span></div></div><div class="comp-row"><div class="comp-label">Orbán</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:40.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>2</strong><span class="comp-share">0.3%</span></div></div><div class="comp-row"><div class="comp-label">Bouchez</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:20.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>1</strong><span class="comp-share">0.2%</span></div></div><div class="comp-row"><div class="comp-label">Putin</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Netanyahu</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Zelensky</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Musk</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Meloni</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div></div>
+  <div class="vs-others"><div class="vs-line"><strong>5</strong> Trump <span class="vs-vs">vs</span> <strong>7</strong> all other people combined <span class="vs-ratio">(0.71×)</span></div><div class="vs-verdict">Trump alone is less than all 7 others combined.</div></div>
   
   <h3 class="sub-h">Against broad subject themes</h3>
   <p class="block-intro small">A single person will almost never out-rank
   aggregate themes. Trump would rank
-  <strong>#9</strong> of 14.</p>
-  <div class="comparison themes-comp"><div class="theme-row"><div class="theme-label">War/conflict</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:100.0%;background:#9ba295"></div></div><div class="theme-stat"><strong>23</strong><span class="theme-share">7.5%</span></div></div><div class="theme-row"><div class="theme-label">Politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:87.0%;background:#9ba295"></div></div><div class="theme-stat"><strong>20</strong><span class="theme-share">6.5%</span></div></div><div class="theme-row"><div class="theme-label">Crime/justice</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:69.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>16</strong><span class="theme-share">5.2%</span></div></div><div class="theme-row"><div class="theme-label">Sports</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:69.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>16</strong><span class="theme-share">5.2%</span></div></div><div class="theme-row"><div class="theme-label">Culture/media</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:65.2%;background:#9ba295"></div></div><div class="theme-stat"><strong>15</strong><span class="theme-share">4.9%</span></div></div><div class="theme-row"><div class="theme-label">Belgium gov</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:47.8%;background:#9ba295"></div></div><div class="theme-stat"><strong>11</strong><span class="theme-share">3.6%</span></div></div><div class="theme-row"><div class="theme-label">Tech/AI</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:43.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>10</strong><span class="theme-share">3.3%</span></div></div><div class="theme-row"><div class="theme-label">EU politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:39.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>9</strong><span class="theme-share">2.9%</span></div></div><div class="theme-row trump"><div class="theme-label">Trump (one person)</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:30.4%;background:#4a7fa0"></div></div><div class="theme-stat"><strong>7</strong><span class="theme-share">2.3%</span></div></div><div class="theme-row"><div class="theme-label">Weather</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:30.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>7</strong><span class="theme-share">2.3%</span></div></div><div class="theme-row"><div class="theme-label">Economy/finance</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:17.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>4</strong><span class="theme-share">1.3%</span></div></div><div class="theme-row"><div class="theme-label">Health</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:17.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>4</strong><span class="theme-share">1.3%</span></div></div><div class="theme-row"><div class="theme-label">Climate/energy</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:4.3%;background:#9ba295"></div></div><div class="theme-stat"><strong>1</strong><span class="theme-share">0.3%</span></div></div><div class="theme-row"><div class="theme-label">Migration</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:4.3%;background:#9ba295"></div></div><div class="theme-stat"><strong>1</strong><span class="theme-share">0.3%</span></div></div><div class="theme-row"><div class="theme-label">Education</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:0.0%;background:#9ba295"></div></div><div class="theme-stat"><strong>0</strong><span class="theme-share">0.0%</span></div></div></div>
+  <strong>#11</strong> of 14.</p>
+  <div class="comparison themes-comp"><div class="theme-row"><div class="theme-label">Sports</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:100.0%;background:#9ba295"></div></div><div class="theme-stat"><strong>97</strong><span class="theme-share">16.9%</span></div></div><div class="theme-row"><div class="theme-label">Crime/justice</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:35.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>34</strong><span class="theme-share">5.9%</span></div></div><div class="theme-row"><div class="theme-label">Politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:25.8%;background:#9ba295"></div></div><div class="theme-stat"><strong>25</strong><span class="theme-share">4.4%</span></div></div><div class="theme-row"><div class="theme-label">EU politics</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:18.6%;background:#9ba295"></div></div><div class="theme-stat"><strong>18</strong><span class="theme-share">3.1%</span></div></div><div class="theme-row"><div class="theme-label">War/conflict</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:17.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>17</strong><span class="theme-share">3.0%</span></div></div><div class="theme-row"><div class="theme-label">Belgium gov</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:17.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>17</strong><span class="theme-share">3.0%</span></div></div><div class="theme-row"><div class="theme-label">Culture/media</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:17.5%;background:#9ba295"></div></div><div class="theme-stat"><strong>17</strong><span class="theme-share">3.0%</span></div></div><div class="theme-row"><div class="theme-label">Economy/finance</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:13.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>13</strong><span class="theme-share">2.3%</span></div></div><div class="theme-row"><div class="theme-label">Weather</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:13.4%;background:#9ba295"></div></div><div class="theme-stat"><strong>13</strong><span class="theme-share">2.3%</span></div></div><div class="theme-row"><div class="theme-label">Climate/energy</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:7.2%;background:#9ba295"></div></div><div class="theme-stat"><strong>7</strong><span class="theme-share">1.2%</span></div></div><div class="theme-row trump"><div class="theme-label">Trump (one person)</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:5.2%;background:#a8c4d8"></div></div><div class="theme-stat"><strong>5</strong><span class="theme-share">0.9%</span></div></div><div class="theme-row"><div class="theme-label">Health</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:5.2%;background:#9ba295"></div></div><div class="theme-stat"><strong>5</strong><span class="theme-share">0.9%</span></div></div><div class="theme-row"><div class="theme-label">Tech/AI</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:2.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>2</strong><span class="theme-share">0.3%</span></div></div><div class="theme-row"><div class="theme-label">Education</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:2.1%;background:#9ba295"></div></div><div class="theme-stat"><strong>2</strong><span class="theme-share">0.3%</span></div></div><div class="theme-row"><div class="theme-label">Migration</div><div class="theme-bar-wrap"><div class="theme-bar" style="width:1.0%;background:#9ba295"></div></div><div class="theme-stat"><strong>1</strong><span class="theme-share">0.2%</span></div></div></div>
 
 </section>
 
 
-  <section class="block"><h2>Today&rsquo;s mentions</h2><ul class="mentions"><li><a href="https://www.demorgen.be/snelnieuws/live-libanese-leger-meldt-israelische-schendingen-van-staakt-het-vuren-trump-akkoord-met-iran-heel-dichtbij~be9c4f82/" target="_blank" rel="noopener">Live - Libanese leger meldt Israëlische schendingen van staakt-het-vuren • Trump: akkoord met Iran ‘heel dichtbij’</a><span class="src">demorgen</span></li><li><a href="https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-noemt-oorlog-in-iran-klein-uitstapje-dat-snel-voorbij-moet-zijn-libanese-leger-meldt-israelische-schendingen-van-staakt-het-vuren/27532402.html" target="_blank" rel="noopener">LIVE MIDDEN-OOSTEN. Trump noemt oorlog in Iran “klein uitstapje” dat “snel voorbij moet zijn” - Libanese leger meldt Israëlische schendingen van staakt-het-vuren</a><span class="src">nieuwsblad</span></li><li><a href="https://www.gva.be/buitenland/live-midden-oosten.-trump-noemt-oorlog-in-iran-klein-uitstapje-dat-snel-voorbij-moet-zijn-libanese-leger-meldt-israelische-schendingen-van-staakt-het-vuren/76854338.html" target="_blank" rel="noopener">LIVE MIDDEN-OOSTEN. Trump noemt oorlog in Iran “klein uitstapje” dat “snel voorbij moet zijn” - Libanese leger meldt Israëlische schendingen van staakt-het-vuren</a><span class="src">gva</span></li><li><a href="https://www.rtbf.be/article/direct-moyen-orient-le-liban-accuse-israel-de-violer-le-cessez-le-feu-tout-juste-entre-en-vigueur-trump-qualifie-la-guerre-en-iran-de-petit-detour-11711084" target="_blank" rel="noopener">Direct – Moyen-Orient : le Liban accuse Israël de violer le cessez-le-feu tout juste entré en vigueur, Trump qualifie la guerre en Iran de &quot;petit détour&quot;</a><span class="src">RTBF</span></li><li><a href="https://www.lalibre.be/international/moyen-orient/2026/04/17/direct-guerre-au-moyen-orient-le-cessez-le-feu-entre-israel-et-le-hezbollah-au-liban-entre-en-vigueur-ce-vendredi-matin-K456U2KCWRA57GQJKGF3SZOYO4/" target="_blank" rel="noopener">DIRECT - Guerre au Moyen-Orient: Trump qualifie la guerre en Iran de &quot;petit détour&quot;</a><span class="src">La Libre</span></li><li><a href="https://www.lalibre.be/international/afrique/2026/04/17/avec-cette-strategie-ladministration-trump-prend-de-gros-risques-nous-nous-dirigeons-vers-des-temps-particulierement-agites-34SZQXWGVJAORNAPVSLGPWMTDY/" target="_blank" rel="noopener">Avec cette stratégie, l&#x27;administration Trump prend de gros risques: &quot;Nous nous dirigeons vers des temps particulièrement agités&quot;</a><span class="src">La Libre</span></li><li><a href="https://www.7sur7.be/monde/pour-trump-la-guerre-en-iran-est-un-petit-detour-on-devait-le-faire~a617651c5/" target="_blank" rel="noopener">Pour Trump, la guerre en Iran est un “petit détour”: “On devait le faire”</a><span class="src">septsursept</span></li></ul></section>
+  <section class="block"><h2>Today&rsquo;s mentions</h2><ul class="mentions"><li><a href="https://www.hln.be/buitenland/estland-twijfelt-niet-aan-amerikaanse-steun-ondanks-dreiging-van-trump-om-navo-te-verlaten-bondgenootschap-is-als-een-lang-huwelijk~a487bbc4/" target="_blank" rel="noopener">Estland twijfelt niet aan Amerikaanse steun ondanks dreiging van Trump om NAVO te verlaten: “Bondgenootschap is als een lang huwelijk”</a><span class="src">hln</span></li><li><a href="https://www.lalibre.be/international/afrique/2026/04/17/avec-cette-strategie-ladministration-trump-prend-de-gros-risques-nous-nous-dirigeons-vers-des-temps-particulierement-agites-34SZQXWGVJAORNAPVSLGPWMTDY/" target="_blank" rel="noopener">Avec cette stratégie, l&#x27;administration Trump pourrait prendre de gros risques: &quot;Nous nous dirigeons vers des temps particulièrement agités&quot;</a><span class="src">La Libre</span></li><li><a href="https://www.lalibre.be/international/2026/04/17/cette-democrate-anti-trump-remporte-une-election-partielle-dans-un-bastion-historiquement-republicain-J7TC6AN5UZCDZICODKNUM5YHV4/" target="_blank" rel="noopener">Cette démocrate anti-Trump remporte une élection partielle dans un bastion historiquement républicain</a><span class="src">La Libre</span></li><li><a href="https://www.dhnet.be/actu/monde/2026/04/17/les-gens-ici-sont-prets-a-agir-cette-democrate-anti-trump-remporte-une-election-partielle-dans-un-bastion-historiquement-republicain-S2QPBPHUEBDHTLPBEFIRSFTFKM/" target="_blank" rel="noopener">“Les gens ici sont prêts à agir&quot;: cette démocrate anti-Trump remporte une élection partielle dans un bastion historiquement républicain</a><span class="src">dhnet</span></li><li><a href="https://www.dhnet.be/actu/monde/2026/04/17/avec-cette-strategie-ladministration-trump-prend-de-gros-risques-en-utilisant-ce-type-de-tactique-nous-devenons-juste-une-autre-chine-ALI5ZVKB7VFFBO5VJMUF32A6TM/" target="_blank" rel="noopener">Avec cette stratégie, l&#x27;administration Trump prend de gros risques: &quot;En utilisant ce type de tactique, nous devenons juste une autre Chine&quot;</a><span class="src">dhnet</span></li></ul></section>
 
   
 <section class="block">
   <h2>Daily log</h2>
-  <table><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-17</td><td class='label-cell'>The zone is getting wet</td><td class='num'>7/307</td><td class='num'>2.3%<span class='inline-bar' style='width:5px;background:#c8b89a'></span></td></tr><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#c8b89a'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#c8b89a'></span></td></tr></tbody></table>
+  <table><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-17</td><td class='label-cell'>Puddles are forming</td><td class='num'>5/573</td><td class='num'>0.9%<span class='inline-bar' style='width:2px;background:#c8b89a'></span></td></tr><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#c8b89a'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#c8b89a'></span></td></tr></tbody></table>
 </section>
 
 
@@ -728,9 +781,9 @@
       (reached via Google News' <code>site:</code> filter because their direct
       RSS is Cloudflare-gated). The full <strong>wide</strong> corpus is still
       computed and stored in <code>data/log.json</code> as a cross-check.
-      Today’s core corpus: <strong>307 headlines</strong>,
-      <strong>7 Trump matches = 2.3%</strong>.</p>
-      <p>Including every feed we fetch — Brussels-local (BX1, Bruzz), sport-only (Sporza), and the Google News aggregators that repackage outlets we already pull directly — the full <strong>wide</strong> corpus is <strong>396 headlines</strong> with <strong>12 Trump matches = 3.0%</strong> (+0.7pt vs. core). The cross-check exists so we can spot a day where the two tiers diverge sharply, which usually signals an aggregator artefact rather than a real shift. The 7-day rolling average of the core share is <strong>2.37%</strong>.</p>
+      Today’s core corpus: <strong>573 headlines</strong>,
+      <strong>5 Trump matches = 0.9%</strong>.</p>
+      <p>Including every feed we fetch — Brussels-local (BX1, Bruzz), sport-only (Sporza), and the Google News aggregators that repackage outlets we already pull directly — the full <strong>wide</strong> corpus is <strong>749 headlines</strong> with <strong>12 Trump matches = 1.6%</strong> (+0.7pt vs. core). The cross-check exists so we can spot a day where the two tiers diverge sharply, which usually signals an aggregator artefact rather than a real shift. The 7-day rolling average of the core share is <strong>1.9%</strong>.</p>
 
       <h3>Trump match</h3>
       <p>Each headline title is scanned for Trump references in three
@@ -778,7 +831,7 @@
       <p>The percentage of today&rsquo;s Belgian core-tier headlines that
       reference Trump. Computed as
       <code>Trump headlines &divide; total headlines &times; 100</code>.</p>
-      <p class="signal-today">Today: <strong>7/307 = 2.3%</strong>.
+      <p class="signal-today">Today: <strong>5/573 = 0.9%</strong>.
       A low number means Trump simply is not in the news much, regardless
       of what other signals say.</p>
 
@@ -788,7 +841,7 @@
       Bouchez, Orb&aacute;n, Meloni, Netanyahu, Zelensky, Musk). A value
       above 1.0&times; means Trump alone out-mentions the other nine
       <em>combined</em>.</p>
-      <p class="signal-today">Today: <strong>3.5×</strong>. This
+      <p class="signal-today">Today: <strong>0.71×</strong>. This
       catches the &ldquo;slow domestic day&rdquo; case where Trump scoops
       up all named-figure attention even when coverage volume is modest.</p>
 
@@ -796,7 +849,7 @@
       <p>The fraction of core outlets that published at least one Trump
       headline today. Only outlets with &ge; 5 headlines count toward the
       denominator so a near-empty feed doesn&rsquo;t skew the ratio.</p>
-      <p class="signal-today">Today: <strong>38%  of core outlets ran a Trump story</strong>.
+      <p class="signal-today">Today: <strong>20%  of core outlets ran a Trump story</strong>.
       A high dominance combined with low breadth means one outlet is
       obsessing; a high breadth means Belgian newsrooms collectively
       decided Trump deserves a spot today.</p>
@@ -807,14 +860,14 @@
       If he&rsquo;s #5 on a day everyone is talking about Macron, no zone
       upgrade follows.</p>
       <p class="signal-today">Today: rank <strong>#1</strong> of
-      10. For context, Trump would rank <strong>#9 of 15</strong> against broad subject themes (war, crime, EU politics, ...) &mdash; but themes bundle dozens of stories so a single person rarely beats them. Theme rank is <em>context</em>, never a zone driver.</p>
+      10. For context, Trump would rank <strong>#11 of 15</strong> against broad subject themes (war, crime, EU politics, ...) &mdash; but themes bundle dozens of stories so a single person rarely beats them. Theme rank is <em>context</em>, never a zone driver.</p>
 
       <h4 class="signal-h">Deviation (context, not a hard gate)</h4>
       <p>Today&rsquo;s core share divided by the 14-day median. Requires
       at least 7 prior live-day records, which we only build up gradually.
       Until then this signal is treated as &ldquo;pass&rdquo;.</p>
       <p class="signal-today">Today: <strong>— (not enough live history yet)</strong>.
-      The 7-day rolling average of the core share is <strong>2.37%</strong>.</p>
+      The 7-day rolling average of the core share is <strong>1.9%</strong>.</p>
 
       <h4 class="signal-h">Threshold table</h4>
       <p>Every zone requires <em>all</em> the listed conditions.</p>
@@ -921,7 +974,7 @@
         quoted). Themes are not mutually exclusive.</li>
       </ul>
 
-      <h3>Source breakdown</h3><p>Per-feed counts for today’s run. <em>Fetched</em> is the raw feed size; <em>From today</em> is items whose <code>pubDate</code> falls on today’s Belgian local date.</p><table><thead><tr><th>Source</th><th>Fetched</th><th>From today</th></tr></thead><tbody><tr><td>Google News BE (NL)</td><td class='num'>34</td><td class='num'>21</td></tr><tr><td>Google News BE (FR)</td><td class='num'>34</td><td class='num'>7</td></tr><tr><td>google_nl_politics</td><td class='num'>38</td><td class='num'>6</td></tr><tr><td>google_nl_world</td><td class='num'>70</td><td class='num'>13</td></tr><tr><td>google_nl_business</td><td class='num'>70</td><td class='num'>11</td></tr><tr><td>google_nl_tech</td><td class='num'>62</td><td class='num'>3</td></tr><tr><td>google_nl_sport</td><td class='num'>70</td><td class='num'>17</td></tr><tr><td>google_fr_politics</td><td class='num'>35</td><td class='num'>2</td></tr><tr><td>google_fr_world</td><td class='num'>53</td><td class='num'>4</td></tr><tr><td>google_fr_business</td><td class='num'>62</td><td class='num'>3</td></tr><tr><td>VRT NWS</td><td class='num'>50</td><td class='num'>18</td></tr><tr><td>standaard</td><td class='num'>50</td><td class='num'>6</td></tr><tr><td>hln</td><td class='num'>30</td><td class='num'>30</td></tr><tr><td>demorgen</td><td class='num'>28</td><td class='num'>17</td></tr><tr><td>nieuwsblad</td><td class='num'>50</td><td class='num'>50</td></tr><tr><td>gva</td><td class='num'>50</td><td class='num'>49</td></tr><tr><td>hbvl</td><td class='num'>50</td><td class='num'>39</td></tr><tr><td>knack</td><td class='num'>50</td><td class='num'>5</td></tr><tr><td>sporza</td><td class='num'>20</td><td class='num'>9</td></tr><tr><td>bruzz</td><td class='num'>100</td><td class='num'>3</td></tr><tr><td>RTBF</td><td class='num'>20</td><td class='num'>8</td></tr><tr><td>La Libre</td><td class='num'>100</td><td class='num'>18</td></tr><tr><td>lecho</td><td class='num'>10</td><td class='num'>0</td></tr><tr><td>dhnet</td><td class='num'>100</td><td class='num'>25</td></tr><tr><td>septsursept</td><td class='num'>30</td><td class='num'>9</td></tr><tr><td>bx1</td><td class='num'>10</td><td class='num'>2</td></tr><tr><td>detijd_g</td><td class='num'>100</td><td class='num'>2</td></tr><tr><td>lesoir_g</td><td class='num'>100</td><td class='num'>11</td></tr><tr><td>sudinfo_g</td><td class='num'>100</td><td class='num'>6</td></tr><tr><td>lavenir_g</td><td class='num'>100</td><td class='num'>8</td></tr><tr><td>rtl_g</td><td class='num'>99</td><td class='num'>7</td></tr></tbody></table>
+      <h3>Source breakdown</h3><p>Per-feed counts for today’s run. <em>Fetched</em> is the raw feed size; <em>From today</em> is items whose <code>pubDate</code> falls on today’s Belgian local date.</p><table><thead><tr><th>Source</th><th>Fetched</th><th>From today</th></tr></thead><tbody><tr><td>Google News BE (NL)</td><td class='num'>34</td><td class='num'>29</td></tr><tr><td>Google News BE (FR)</td><td class='num'>34</td><td class='num'>21</td></tr><tr><td>google_nl_politics</td><td class='num'>34</td><td class='num'>6</td></tr><tr><td>google_nl_world</td><td class='num'>70</td><td class='num'>18</td></tr><tr><td>google_nl_business</td><td class='num'>70</td><td class='num'>20</td></tr><tr><td>google_nl_tech</td><td class='num'>65</td><td class='num'>10</td></tr><tr><td>google_nl_sport</td><td class='num'>70</td><td class='num'>26</td></tr><tr><td>google_fr_politics</td><td class='num'>37</td><td class='num'>6</td></tr><tr><td>google_fr_world</td><td class='num'>58</td><td class='num'>12</td></tr><tr><td>google_fr_business</td><td class='num'>0</td><td class='num'>0</td></tr><tr><td>VRT NWS</td><td class='num'>50</td><td class='num'>42</td></tr><tr><td>standaard</td><td class='num'>50</td><td class='num'>14</td></tr><tr><td>hln</td><td class='num'>30</td><td class='num'>30</td></tr><tr><td>demorgen</td><td class='num'>28</td><td class='num'>21</td></tr><tr><td>nieuwsblad</td><td class='num'>50</td><td class='num'>50</td></tr><tr><td>gva</td><td class='num'>50</td><td class='num'>50</td></tr><tr><td>hbvl</td><td class='num'>50</td><td class='num'>49</td></tr><tr><td>knack</td><td class='num'>0</td><td class='num'>0</td></tr><tr><td>sporza</td><td class='num'>20</td><td class='num'>17</td></tr><tr><td>bruzz</td><td class='num'>100</td><td class='num'>13</td></tr><tr><td>RTBF</td><td class='num'>20</td><td class='num'>18</td></tr><tr><td>La Libre</td><td class='num'>100</td><td class='num'>51</td></tr><tr><td>lecho</td><td class='num'>10</td><td class='num'>0</td></tr><tr><td>dhnet</td><td class='num'>100</td><td class='num'>94</td></tr><tr><td>septsursept</td><td class='num'>30</td><td class='num'>30</td></tr><tr><td>bx1</td><td class='num'>10</td><td class='num'>10</td></tr><tr><td>detijd_g</td><td class='num'>100</td><td class='num'>13</td></tr><tr><td>lesoir_g</td><td class='num'>0</td><td class='num'>0</td></tr><tr><td>sudinfo_g</td><td class='num'>100</td><td class='num'>15</td></tr><tr><td>lavenir_g</td><td class='num'>100</td><td class='num'>83</td></tr><tr><td>rtl_g</td><td class='num'>100</td><td class='num'>18</td></tr></tbody></table>
 
     </div>
   </details>

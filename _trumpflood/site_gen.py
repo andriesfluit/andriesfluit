@@ -739,32 +739,28 @@ def _methodology(latest):
                 f"<strong>{smoothed_pct}%</strong>."
             )
         wide_p = f"<p>{compare_line}</p>"
-    dom_txt = (
-        f" Dominance ratio today: <strong>{dominance}\u00d7</strong> the "
-        f"other nine combined." if dominance is not None else ""
+    # Signal displays used inline inside the methodology signal-by-signal
+    # breakdown. Each falls back to an em-dash when the value is missing.
+    dom_display = (f"{dominance}\u00d7" if dominance is not None else "\u2014")
+    breadth_display = (
+        f"{int(round(breadth * 100))}%  of core outlets ran a Trump story"
+        if breadth is not None else "\u2014"
     )
-    breadth_txt = (
-        f" Breadth: <strong>{int(round(breadth * 100))}%</strong> of core "
-        f"outlets ran a Trump story."
-        if breadth is not None else ""
-    )
-    deviation_txt = (
-        f" Deviation: <strong>{deviation}\u00d7</strong> the 14-day median "
-        f"core share."
+    deviation_display = (
+        f"{deviation}\u00d7 the 14-day median"
         if deviation is not None else
-        " Deviation vs. baseline: not enough core-tier history yet."
+        "\u2014 (not enough live history yet)"
     )
-    smooth_txt = (
-        f" 7-day rolling average: <strong>{smoothed_pct}%</strong>."
+    smooth_inline = (
+        f"The 7-day rolling average of the core share is <strong>{smoothed_pct}%</strong>."
         if smoothed_pct is not None else
-        " 7-day average: not enough core-tier history yet."
+        "The rolling baseline needs a few more runs before it settles."
     )
     theme_txt = (
-        f" For context, Trump is <strong>#{theme_rank} of {n_themes}</strong> "
-        f"when compared to broad themes (war, crime, EU politics, ...) \u2014 "
-        f"but note themes bundle dozens of stories, so a single person will "
-        f"almost never out-rank them. That is why theme rank is "
-        f"<em>context</em>, not the zone driver."
+        f" For context, Trump would rank <strong>#{theme_rank} of {n_themes}</strong> "
+        f"against broad subject themes (war, crime, EU politics, ...) &mdash; "
+        f"but themes bundle dozens of stories so a single person rarely beats them. "
+        f"Theme rank is <em>context</em>, never a zone driver."
         if theme_rank is not None else ""
     )
 
@@ -867,33 +863,114 @@ def _methodology(latest):
       and &ldquo;climat&rdquo; both count as Climate.</p>
 
       <h3>Zone assessment</h3>
-      <p>The zone is decided by a <strong>composite</strong> of four signals, not
-      rank alone. &ldquo;Flooding the zone&rdquo; should be a genuine outlier: Trump
-      has to take an outsized share of volume, out-compete other figures by a
-      clear margin, show up <em>across</em> outlets rather than at a single paper,
-      and stand out against the recent baseline. All four floors must clear for
-      the top zone.</p>
-      <p>Today: Trump is rank <strong>#{rank}</strong> of <strong>{n_people}</strong>
-      named people.{dom_txt}{breadth_txt}{deviation_txt}{smooth_txt}{theme_txt}</p>
-      <ul class="meth-rules">
-        <li><strong>Flooding</strong> &mdash; rank #1 AND dominance &ge; 2.0
-        (Trump alone out-mentions the other nine combined by 2&times;) AND
-        &ge;5.0% of core headlines AND breadth &ge;60% of core outlets AND
-        deviation &ge;1.5&times; the 14-day baseline (skipped until enough history).</li>
-        <li><strong>Soaked</strong> &mdash; rank #1 AND dominance &ge; 1.2
-        AND &ge;3.5% share AND breadth &ge;45%.</li>
-        <li><strong>Wet</strong> &mdash; rank &le;2 AND &ge;2.0% share
-        AND breadth &ge;30%.</li>
-        <li><strong>Puddles</strong> &mdash; rank &le;4 AND &ge;0.8% share.</li>
-        <li><strong>Dry</strong> &mdash; otherwise.</li>
-      </ul>
-      <p>Why four signals rather than one: a single-metric gate keeps getting
-      fooled. Pure percentage treats 5% on a slow Sunday the same as 5% during
-      a Ukraine offensive. Pure rank calls Trump #1 on any day nobody else is
-      in the news. Dominance alone doesn\u2019t know whether coverage is wide or
-      concentrated at one paper. Breadth without volume just measures how many
-      outlets chase Trump at all. Requiring all four together is what makes
-      &ldquo;flooding&rdquo; mean something.</p>
+      <p>No single number can honestly say &ldquo;Trump is flooding Belgian
+      news today&rdquo;. The zone combines four signals, each answering a
+      different question. Every zone above Dry requires several of them to
+      clear a floor simultaneously &mdash; a single-signal spike is never
+      enough.</p>
+
+      <h4 class="signal-h">1. Share &mdash; &ldquo;How much of the news is about Trump?&rdquo;</h4>
+      <p>The percentage of today&rsquo;s Belgian core-tier headlines that
+      reference Trump. Computed as
+      <code>Trump headlines &divide; total headlines &times; 100</code>.</p>
+      <p class="signal-today">Today: <strong>{core_trump}/{core_total} = {core_pct}%</strong>.
+      A low number means Trump simply is not in the news much, regardless
+      of what other signals say.</p>
+
+      <h4 class="signal-h">2. Dominance &mdash; &ldquo;Is he THE figure of the day?&rdquo;</h4>
+      <p>Trump&rsquo;s name-only mentions divided by the sum of mentions of
+      the nine other named figures we track (Putin, Macron, De Wever,
+      Bouchez, Orb&aacute;n, Meloni, Netanyahu, Zelensky, Musk). A value
+      above 1.0&times; means Trump alone out-mentions the other nine
+      <em>combined</em>.</p>
+      <p class="signal-today">Today: <strong>{dom_display}</strong>. This
+      catches the &ldquo;slow domestic day&rdquo; case where Trump scoops
+      up all named-figure attention even when coverage volume is modest.</p>
+
+      <h4 class="signal-h">3. Breadth &mdash; &ldquo;Is it everywhere, or one paper?&rdquo;</h4>
+      <p>The fraction of core outlets that published at least one Trump
+      headline today. Only outlets with &ge; 5 headlines count toward the
+      denominator so a near-empty feed doesn&rsquo;t skew the ratio.</p>
+      <p class="signal-today">Today: <strong>{breadth_display}</strong>.
+      A high dominance combined with low breadth means one outlet is
+      obsessing; a high breadth means Belgian newsrooms collectively
+      decided Trump deserves a spot today.</p>
+
+      <h4 class="signal-h">4. Rank &mdash; &ldquo;Is he on top at all?&rdquo;</h4>
+      <p>Trump&rsquo;s position among the ten named figures, by mention
+      count. Acts as a veto: higher zones require Trump to be #1 or #2.
+      If he&rsquo;s #5 on a day everyone is talking about Macron, no zone
+      upgrade follows.</p>
+      <p class="signal-today">Today: rank <strong>#{rank}</strong> of
+      {n_people}.{theme_txt}</p>
+
+      <h4 class="signal-h">Deviation (context, not a hard gate)</h4>
+      <p>Today&rsquo;s core share divided by the 14-day median. Requires
+      at least 7 prior live-day records, which we only build up gradually.
+      Until then this signal is treated as &ldquo;pass&rdquo;.</p>
+      <p class="signal-today">Today: <strong>{deviation_display}</strong>.
+      {smooth_inline}</p>
+
+      <h4 class="signal-h">Threshold table</h4>
+      <p>Every zone requires <em>all</em> the listed conditions.</p>
+      <table class="zone-thresholds">
+        <thead>
+          <tr>
+            <th>Zone</th>
+            <th class="num">Share</th>
+            <th class="num">Dominance</th>
+            <th class="num">Breadth</th>
+            <th class="num">Rank</th>
+            <th class="num">Deviation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Flooding</strong></td>
+            <td class="num">&ge; 4.0%</td>
+            <td class="num">&ge; 2.0&times;</td>
+            <td class="num">&ge; 55%</td>
+            <td class="num">= #1</td>
+            <td class="num">&ge; 1.5&times;</td>
+          </tr>
+          <tr>
+            <td><strong>Soaked</strong></td>
+            <td class="num">&ge; 2.5%</td>
+            <td class="num">&ge; 1.2&times;</td>
+            <td class="num">&ge; 40%</td>
+            <td class="num">= #1</td>
+            <td class="num">&mdash;</td>
+          </tr>
+          <tr>
+            <td><strong>Wet</strong></td>
+            <td class="num">&ge; 1.5%</td>
+            <td class="num">&mdash;</td>
+            <td class="num">&ge; 25%</td>
+            <td class="num">&le; #2</td>
+            <td class="num">&mdash;</td>
+          </tr>
+          <tr>
+            <td><strong>Puddles</strong></td>
+            <td class="num">&ge; 0.8%</td>
+            <td class="num">&mdash;</td>
+            <td class="num">&mdash;</td>
+            <td class="num">&le; #4</td>
+            <td class="num">&mdash;</td>
+          </tr>
+          <tr>
+            <td><strong>Dry</strong></td>
+            <td class="num" colspan="5">everything below the Puddles floor</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>The thresholds are calibrated against our core-tier RSS corpus, which
+      is narrower than GDELT&rsquo;s full Belgian feed. In practice that means
+      2.5&percnt; of our core headlines being about Trump is a meaningful
+      signal of dominance; the same percentage in GDELT&rsquo;s corpus would
+      be routine. Once we have 30+ days of live history, these absolute
+      thresholds can be replaced by percentiles of Trump&rsquo;s own history
+      (&ldquo;Flooding = top-10&percnt; day ever recorded&rdquo;), which is
+      the only truly self-calibrated version.</p>
 
       <h3>Caveats &amp; limits</h3>
       <ul class="meth-rules">
@@ -1041,6 +1118,59 @@ PAGE = """<!doctype html>
   @media (max-width: 760px) {{
     .hero {{ grid-template-columns: 1fr; gap: 32px; }}
     .portrait-wrap {{ max-width: 360px; margin: 0 auto; }}
+  }}
+
+  /* Phones: tighter margins, smaller display type, scrollable wide tables.
+     Targets iPhone SE (320px) through large-phone portrait (520px). */
+  @media (max-width: 520px) {{
+    .wrap {{ padding: 32px 18px 64px; }}
+
+    .masthead {{
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+      padding-bottom: 12px;
+      margin-bottom: 40px;
+    }}
+    .brand {{ font-size: 36px; letter-spacing: -0.015em; }}
+    .brand-eyebrow {{ font-size: 10px; }}
+    .brand-sub {{ font-size: 10px; }}
+
+    /* Hero: portrait keeps priority, scale sits tighter */
+    .hero {{ gap: 24px; margin-bottom: 48px; }}
+    .portrait-wrap {{ max-width: 100%; gap: 8px; }}
+    .portrait {{ width: calc(100% - 72px); max-width: 320px; }}
+    .scale {{ width: 64px; }}
+    .band-name {{ font-size: 10px; letter-spacing: 0.1em; }}
+
+    /* Readout: large type scales down more aggressively than at 760px */
+    .readout-label {{ font-size: 40px; margin-bottom: 14px; }}
+    .pct {{ font-size: 64px; }}
+    .pct-symbol {{ font-size: 32px; }}
+    .rank-badge {{ font-size: 11px; letter-spacing: 0.06em; padding: 8px 0; }}
+    .rank-dom, .rank-theme {{ display: inline; }}
+
+    /* Methodology: big tables need horizontal scroll */
+    .zone-thresholds {{ font-size: 12px; }}
+    .zone-thresholds th, .zone-thresholds td {{ padding: 6px 6px; }}
+    .meth-body {{ overflow-x: auto; }}
+    .meth-body h4.signal-h {{ font-size: 16px; }}
+
+    /* Source table also wants to scroll rather than squish */
+    table {{ min-width: 0; }}
+
+    /* Comparison bars: keep labels on their own line if tight */
+    .comp-label {{ font-size: 13px; }}
+    .comp-stat {{ font-size: 13px; }}
+    .theme-label {{ font-size: 13px; }}
+
+    /* Block headings */
+    .block h2 {{ font-size: 11px; }}
+
+    /* Daily log: hide the "label" column on very narrow phones so the
+       date + share stay visible without horizontal scroll. */
+    .block table thead th:nth-child(2),
+    .block table tbody td:nth-child(2) {{ display: none; }}
   }}
 
   .portrait-wrap {{
@@ -1512,7 +1642,47 @@ PAGE = """<!doctype html>
     font-weight: 600;
     margin: 24px 0 8px;
   }}
+  .meth-body h4.signal-h {{
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    color: var(--ink);
+    text-transform: none;
+    margin: 22px 0 6px;
+  }}
+  .meth-body p.signal-today {{
+    color: var(--muted);
+    font-size: 13px;
+    margin: 4px 0 12px;
+  }}
+  .meth-body p.signal-today strong {{ color: var(--ink); }}
   .meth-body p {{ margin: 0 0 10px; }}
+  .zone-thresholds {{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 20px;
+    font-variant-numeric: tabular-nums;
+    font-size: 13px;
+  }}
+  .zone-thresholds th,
+  .zone-thresholds td {{
+    border-bottom: 1px solid var(--rule);
+    padding: 8px 10px;
+    text-align: left;
+  }}
+  .zone-thresholds th {{
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+  }}
+  .zone-thresholds td.num, .zone-thresholds th.num {{
+    text-align: right;
+  }}
+  .zone-thresholds tr:last-child td {{ border-bottom: none; }}
+  .zone-thresholds td strong {{ font-weight: 700; }}
   .meth-body code {{
     background: #f5f0e2;
     padding: 1px 5px;
