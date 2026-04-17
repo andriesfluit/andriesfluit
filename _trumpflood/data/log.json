@@ -1471,160 +1471,161 @@
   },
   {
     "date": "2026-04-17",
-    "generated_at": "2026-04-17T08:59:03+02:00",
-    "total_articles": 307,
-    "trump_articles": 7,
-    "percentage": 2.3,
-    "core_percentage": 2.3,
-    "wide_total_articles": 396,
-    "wide_trump_articles": 12,
-    "wide_percentage": 3.0,
-    "macro_percentage": 2.6,
-    "qualifying_outlets": 13,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "generated_at": "2026-04-17T16:35:25+02:00",
+    "last_checked_at": "2026-04-17T16:35:25+02:00",
+    "total_articles": 664,
+    "trump_articles": 9,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "wide_total_articles": 886,
+    "wide_trump_articles": 17,
+    "wide_percentage": 1.9,
+    "macro_percentage": 2.7,
+    "qualifying_outlets": 29,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
     "rank": 1,
     "n_people": 10,
-    "dominance": 3.5,
-    "breadth": 0.38,
+    "dominance": 0.47,
+    "breadth": 0.47,
     "deviation": null,
-    "smoothed_pct": 2.37,
+    "smoothed_pct": 2.07,
     "assessment_method": "composite",
-    "theme_rank": 9,
+    "theme_rank": 12,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 21,
-        "trump": 1,
-        "share": 4.76
-      },
-      "google_fr": {
-        "fetched": 34,
-        "today": 7,
-        "trump": 2,
-        "share": 28.57
-      },
-      "google_nl_politics": {
-        "fetched": 38,
-        "today": 6,
+        "today": 29,
         "trump": 0,
         "share": 0.0
       },
+      "google_fr": {
+        "fetched": 34,
+        "today": 21,
+        "trump": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 34,
+        "today": 12,
+        "trump": 1,
+        "share": 8.33
+      },
       "google_nl_world": {
         "fetched": 70,
-        "today": 13,
-        "trump": 1,
-        "share": 7.69
+        "today": 24,
+        "trump": 3,
+        "share": 12.5
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 11,
+        "today": 27,
         "trump": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 62,
-        "today": 3,
+        "fetched": 67,
+        "today": 13,
         "trump": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 17,
+        "today": 33,
         "trump": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 35,
-        "today": 2,
-        "trump": 1,
-        "share": 50.0
-      },
-      "google_fr_world": {
-        "fetched": 53,
-        "today": 4,
-        "trump": 3,
-        "share": 75.0
-      },
-      "google_fr_business": {
-        "fetched": 62,
-        "today": 3,
+        "fetched": 34,
+        "today": 9,
         "trump": 0,
         "share": 0.0
       },
+      "google_fr_world": {
+        "fetched": 51,
+        "today": 12,
+        "trump": 3,
+        "share": 25.0
+      },
+      "google_fr_business": {
+        "fetched": 51,
+        "today": 16,
+        "trump": 1,
+        "share": 6.25
+      },
       "vrt": {
         "fetched": 50,
-        "today": 18,
+        "today": 46,
         "trump": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 50,
-        "today": 6,
-        "trump": 0,
-        "share": 0.0
+        "today": 21,
+        "trump": 1,
+        "share": 4.76
       },
       "hln": {
         "fetched": 30,
         "today": 30,
-        "trump": 0,
-        "share": 0.0
+        "trump": 1,
+        "share": 3.33
       },
       "demorgen": {
         "fetched": 28,
-        "today": 17,
+        "today": 22,
         "trump": 1,
-        "share": 5.88
+        "share": 4.55
       },
       "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "trump": 0,
+        "share": 0.0
+      },
+      "gva": {
         "fetched": 50,
         "today": 50,
         "trump": 1,
         "share": 2.0
       },
-      "gva": {
-        "fetched": 50,
-        "today": 49,
-        "trump": 1,
-        "share": 2.04
-      },
       "hbvl": {
         "fetched": 50,
-        "today": 39,
-        "trump": 0,
-        "share": 0.0
+        "today": 50,
+        "trump": 1,
+        "share": 2.0
       },
       "knack": {
         "fetched": 50,
-        "today": 5,
+        "today": 11,
         "trump": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 9,
+        "today": 18,
         "trump": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 3,
+        "today": 19,
         "trump": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 8,
-        "trump": 1,
-        "share": 12.5
+        "today": 18,
+        "trump": 0,
+        "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 18,
-        "trump": 2,
-        "share": 11.11
+        "today": 62,
+        "trump": 3,
+        "share": 4.84
       },
       "lecho": {
         "fetched": 10,
@@ -1634,49 +1635,49 @@
       },
       "dhnet": {
         "fetched": 100,
-        "today": 25,
-        "trump": 0,
-        "share": 0.0
+        "today": 96,
+        "trump": 1,
+        "share": 1.04
       },
       "septsursept": {
         "fetched": 30,
-        "today": 9,
-        "trump": 1,
-        "share": 11.11
+        "today": 30,
+        "trump": 0,
+        "share": 0.0
       },
       "bx1": {
         "fetched": 10,
-        "today": 2,
+        "today": 10,
         "trump": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 2,
-        "trump": 0,
-        "share": 0.0
+        "today": 27,
+        "trump": 1,
+        "share": 3.7
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 11,
+        "today": 39,
         "trump": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 6,
+        "today": 19,
         "trump": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 8,
+        "today": 84,
         "trump": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 99,
-        "today": 7,
+        "fetched": 100,
+        "today": 22,
         "trump": 0,
         "share": 0.0
       }
@@ -1703,61 +1704,81 @@
     ],
     "matches": [
       {
-        "title": "Live - Libanese leger meldt Israëlische schendingen van staakt-het-vuren • Trump: akkoord met Iran ‘heel dichtbij’",
-        "url": "https://www.demorgen.be/snelnieuws/live-libanese-leger-meldt-israelische-schendingen-van-staakt-het-vuren-trump-akkoord-met-iran-heel-dichtbij~be9c4f82/",
+        "title": "Donald Trump bedankt Iran voor heropenen Straat van Hormuz en tikt Israël op de vingers: “Genoeg is genoeg”",
+        "url": "https://www.standaard.be/buitenland/donald-trump-bedankt-iran-voor-heropenen-straat-van-hormuz-en-tikt-israel-op-de-vingers-genoeg-is-genoeg/35173881.html",
+        "source": "standaard"
+      },
+      {
+        "title": "Olieprijs daalt met ruim 10 procent na aankondiging van Iran om Straat van Hormuz te heropenen - Trump houdt vast aan zeeblokkade",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln"
+      },
+      {
+        "title": "Live - Iraanse marine stelt voorwaarden aan opening Straat van Hormuz: grote rederijen wachten af • Trump houdt vast aan havenblokkade tot deal met Iran ‘voor 100 procent’ rond is",
+        "url": "https://www.demorgen.be/snelnieuws/live-iraanse-marine-stelt-voorwaarden-aan-opening-straat-van-hormuz-trump-houdt-vast-aan-havenblokkade-tot-deal-met-iran-voor-100-procent-rond-is~be9c4f82/",
         "source": "demorgen"
       },
       {
-        "title": "LIVE MIDDEN-OOSTEN. Trump noemt oorlog in Iran “klein uitstapje” dat “snel voorbij moet zijn” - Libanese leger meldt Israëlische schendingen van staakt-het-vuren",
-        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-noemt-oorlog-in-iran-klein-uitstapje-dat-snel-voorbij-moet-zijn-libanese-leger-meldt-israelische-schendingen-van-staakt-het-vuren/27532402.html",
-        "source": "nieuwsblad"
-      },
-      {
-        "title": "LIVE MIDDEN-OOSTEN. Trump noemt oorlog in Iran “klein uitstapje” dat “snel voorbij moet zijn” - Libanese leger meldt Israëlische schendingen van staakt-het-vuren",
-        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-noemt-oorlog-in-iran-klein-uitstapje-dat-snel-voorbij-moet-zijn-libanese-leger-meldt-israelische-schendingen-van-staakt-het-vuren/76854338.html",
+        "title": "LIVE MIDDEN-OOSTEN. Olieprijs daalt met 11 procent nadat Iran aankondigt Straat van Hormuz te heropenen - Trump: “Zeeblokkade Iran blijft van kracht”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-olieprijs-daalt-met-11-procent-nadat-iran-aankondigt-straat-van-hormuz-te-heropenen-trump-zeeblokkade-iran-blijft-van-kracht/76854338.html",
         "source": "gva"
       },
       {
-        "title": "Direct – Moyen-Orient : le Liban accuse Israël de violer le cessez-le-feu tout juste entré en vigueur, Trump qualifie la guerre en Iran de \"petit détour\"",
-        "url": "https://www.rtbf.be/article/direct-moyen-orient-le-liban-accuse-israel-de-violer-le-cessez-le-feu-tout-juste-entre-en-vigueur-trump-qualifie-la-guerre-en-iran-de-petit-detour-11711084",
-        "source": "rtbf"
+        "title": "Trump krijgt zijn zin: Congo staat klaar om vluchtelingen uit de VS op te vangen",
+        "url": "https://www.hbvl.be/buitenland/trump-krijgt-zijn-zin-congo-staat-klaar-om-vluchtelingen-uit-de-vs-op-te-vangen/146218491.html",
+        "source": "hbvl"
       },
       {
-        "title": "DIRECT - Guerre au Moyen-Orient: Trump qualifie la guerre en Iran de \"petit détour\"",
-        "url": "https://www.lalibre.be/international/moyen-orient/2026/04/17/direct-guerre-au-moyen-orient-le-cessez-le-feu-entre-israel-et-le-hezbollah-au-liban-entre-en-vigueur-ce-vendredi-matin-K456U2KCWRA57GQJKGF3SZOYO4/",
+        "title": "Trump donne raison aux environnementalistes",
+        "url": "https://www.lalibre.be/debats/opinions/2026/04/17/trump-donne-raison-aux-environnementalistes-CHN5R7KWMVDMFDPRER2DLFY2WM/",
         "source": "lalibre"
       },
       {
-        "title": "Avec cette stratégie, l'administration Trump prend de gros risques: \"Nous nous dirigeons vers des temps particulièrement agités\"",
+        "title": "Avec cette stratégie, l'administration Trump pourrait prendre de gros risques: \"Nous nous dirigeons vers des temps particulièrement agités\"",
         "url": "https://www.lalibre.be/international/afrique/2026/04/17/avec-cette-strategie-ladministration-trump-prend-de-gros-risques-nous-nous-dirigeons-vers-des-temps-particulierement-agites-34SZQXWGVJAORNAPVSLGPWMTDY/",
         "source": "lalibre"
       },
       {
-        "title": "Pour Trump, la guerre en Iran est un “petit détour”: “On devait le faire”",
-        "url": "https://www.7sur7.be/monde/pour-trump-la-guerre-en-iran-est-un-petit-detour-on-devait-le-faire~a617651c5/",
-        "source": "septsursept"
+        "title": "Cette démocrate anti-Trump remporte une élection partielle dans un bastion historiquement républicain",
+        "url": "https://www.lalibre.be/international/2026/04/17/cette-democrate-anti-trump-remporte-une-election-partielle-dans-un-bastion-historiquement-republicain-J7TC6AN5UZCDZICODKNUM5YHV4/",
+        "source": "lalibre"
+      },
+      {
+        "title": "“Les gens ici sont prêts à agir\": cette démocrate anti-Trump remporte une élection partielle dans un bastion historiquement républicain",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/17/les-gens-ici-sont-prets-a-agir-cette-democrate-anti-trump-remporte-une-election-partielle-dans-un-bastion-historiquement-republicain-S2QPBPHUEBDHTLPBEFIRSFTFKM/",
+        "source": "dhnet"
       }
     ],
     "wide_matches": [
       {
+        "title": "'Na Orbáns vertrek vinden Poetin en Trump wel een andere nuttige idioot om Europa te verzwakken' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOU0s1VkY1QTAySUlwMmJrUkw0eF9aZmlQaGY4UXRyaEQ4M3NmRDdUaWZYLXZuMlZScE1kZFNUS1VvalE3STVZVnFDV3h1WTdZZEY2TkFYcmlrQks2RzhTRmRFYnRUV1NlU3p4bDBlTkRiXzVDRUt4Q0I5OUtEU21wUGlONC1xT0hSaEpXSFFiZUlpYXM3dXM1M2paOFFzaHJ4VUFNeW0tZTl5UXlNYzlfVU5FdFV5TnZDZnVuZHVoOFFuWDNjUktDTTlhenNIdDVuQ29la3BCUGlKLUxFZXJ1ZlkzRHdQY3U3eHJPay1adHJNOVFS?oc=5",
+        "source": "google_nl_politics"
+      },
+      {
         "title": "Geen gewone clash: paus en Trump vechten een religieuze strijd uit - Nieuwsblad",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQnU1TGtGLThleFI0SGpWZHRNU3otQU9FVHd6MGNlbExiSklIRVI1Qmc1ZnZPVnZ2TWRCTzR6Z1YybXhHNWU1SFhXdkpUaUkwSTBZUTd0bTVoZ1VleDFvT2pNaEdmS2t1RlhXb2tSTlpUSElpOEdVeFY2bWdHbHp2bEg1SlFvYmh6azVTQ25rY3FpQlliREE0STRmc1c2c1RZYWloRFVhdGxhVExFcjFQMVIzcTExSTkzd211Xy00YmNzUVdwUEZSaVU3amdCWjFRdHdiZ2xBMF9yT3dzTkJWNzJn?oc=5",
-        "source": "google_nl"
+        "source": "google_nl_world"
       },
       {
-        "title": "Direct – Moyen-Orient : le Liban accuse Israël de violer le cessez-le-feu tout juste entré en vigueur, Trump qualifie la guerre en Iran de \"petit détour\" - RTBF",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUnFvREVhcUNNeWM2UzNEYVQxbzM1NnhyQnhaUV9pQ2pzLVpFVk5LZjNJalRiQjg4SkdINGpFX0xtSDY4cUsySUk4a3FGM2x1QnpxRVpfUGdJNVVYQlNtVzhKaUVFdkZfU25Ra004Uk40WUxhbmZqNXpFWUZNRkZDWEVoYi04OGF0eXlHWXZOVHhINHBGTDZVOEltRHdVTEtvWkotVFhpNUFhR3hVS09DbHFwREllQ3A1RGRXVjZ0VmVfMTM4NklSakpaWWxaeXJueHRCSUV5NnhCSVhqZDl3ckhqZUoyMmc?oc=5",
-        "source": "google_fr"
+        "title": "De les van een decennium Trump: hoezeer je hem ook looft, prijst en ter wille bent, Donald Trump geeft uiteindelijk alleen om zijn eigen glorie - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPaUU3QU0zWENnXzZUQ1ZUN0JIZnhtS0laWm5pemZqWklCdmtQdmZfdTBJT0RnU1BOY3hrZzFCZXlBMFg5bURadGhXMi1aTmlpWnNRU29TMXJzN280b3M5cEtvNnhIbDlzdWhFbXoxaEtxVXpJOGNZRkNIaXNJVU9zQjNfd3F6V25pMDlEdW9iLWFEQ1pSQVM2MmNpTDJDSVR4S05NNnAyQ3hjSU9ma05IRExnUnk1dUNTSXlSWWY2eDF3Sk5ycXh0QTNPSWJydkRqaUIzbEpRQ2FwRVpDSW5zc3RPTWJkQ0IxRHk3YnlnVnU4VXE2dEI2RV92UUFFZmdKNXkzYkY0dmdpYlhNdE5Ybw?oc=5",
+        "source": "google_nl_world"
       },
       {
-        "title": "Avec cette stratégie, l'administration Trump prend de gros risques: \"Nous nous dirigeons vers des temps particulièrement agités\" - La Libre.be",
+        "title": "Estland twijfelt niet aan Amerikaanse steun ondanks dreiging van Trump om NAVO te verlaten: “Bondgenootschap is als een lang huwelijk” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUEtnZjh4czBMMlJEWl9CRzZhS0NHbGp0ZWYzZlBpZnV0V2hPN3U2NVhQUG1QSG5hbXlCNGlfZDNsMHh1QW42R3FYOUlXTzc1WGRFRnZiRGlSQzBNbTJobUFCNnVHRmd6SW9DTDRJbTBmamVMVHB6QzBQU0lKczNMcTQyMjAtaWxkMFFYdjFFU3dlbTRVajRMa3hLTDFUTUZCRHQtMkVDUDBYcHdlTzZaWlAwWkc0bW12YW5UNDYwdGRHMlk4ZFVtbmstaVpKczQ5WE1OR1JTR21OUHozWDZGdi1JSDZWLTMyNmw0aWx6OFRmV1h4U3g3WEtWWlZpZzAw?oc=5",
+        "source": "google_nl_world"
+      },
+      {
+        "title": "Avec cette stratégie, l'administration Trump pourrait prendre de gros risques: \"Nous nous dirigeons vers des temps particulièrement agités\" - La Libre.be",
         "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQSkxiMTFUVjBrckpDcS13dVNqZDJqTS1XNUxKS2RBUTdXNlFpQV9IWjNlTV82NzE1VEl6OGJHVEZFWVd2UlZLeGpGUS1GLTBJbWhlRUtnRWNWNmFSWmJBbTV2QURxVFo3YlB4WUxGd0txTm54RlB5V3k5Ym1kYWJkanljbm80dDhFTDc1c3VZeUpTTElNQ0V6RE53cXhOb0RXR3JHZ3YxWHA5WkRlVmpKUzRnVmg4NDVybDJZX0diWGY0UUVJek03aktES0hyYmVEdmY0VFVsMkxWRnAzM1ZNcFl6OGtrTUYyVmlFNTlLUEloOFZNSm9wNmdaUF9BZHYwMDFScjJpbHdWeDVIak5OSW1IUUZRT2dIcS16WmNlQlZxQ21TaVhMbDlFWTZ0Tk5H?oc=5",
-        "source": "google_fr"
+        "source": "google_fr_world"
       },
       {
-        "title": "La construction de la salle de bal voulue par Donald Trump à la Maison Blanche toujours suspendue par la justice - Le Monde.fr",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNSXJYMENlYWc1M1hIMUg5Wm5jUlNsSlh2MGdwWkdkV0c4eWJ2REpTRTllMXEycG91S2U2Ul81SllVVkh1dmo3aUNCXzZBYkZhWDdieGFEMXhES0RUUUh1Z0N6ZU5zaDQ0RkFWa1lWV1pNZktqMU1VWDhCQlZlQk4xUlpTVVR1QlhWNTFDaV9fTVVuRUVhN2pJMF9jTUhjODh3R2txWHF3Q0tabDNaOVg0MlRpLUVBcEp5OVNXT1pxNUlpQkFHQUc1T1U3OFRzaHQzdXlHcG1OeWYxeTlxTWtKR0w5RmRCcU0yV1poeWMzdEdvUmxCREk5SEdZUnc2d1hBZFJXbUFHcHFXakIxLXc?oc=5",
-        "source": "google_fr_politics"
+        "title": "Cette démocrate anti-Trump remporte une élection partielle dans un bastion historiquement républicain - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNdzFyaTc3amVMTUhiWnlzdElybkE4SjZXX2tRZGRvY1pHVjhLeG5Wb3VmTmdSQlN2cFczMXUzVDhDZ1ZvbEZxM1EtSk9fRWZ4MVJvYmNlM3NYUTNWblZFbHFOQ1IwOHFtbVY4S0pLOVVGLWJIM0xjYk9SRXg2U3RINGU2Y19QakVtVnI1TnNuZ0lDNlRWc3hWRnpWZFIzWXlmVU9IdDd6c0NiaGppNHRPcElvN2x3VGJNYURRZ1ZObHRnRUV4V1M4QUhTaFpvNWtOZ3FUNGF6cjJTVG9fS1lLWkRXQ2d4dE91ZTNjNFEwYXpMRVNtWFZuTmtyaTMzNDBCZmhzamtBY0U?oc=5",
+        "source": "google_fr_world"
       },
       {
         "title": "Pour Trump, la guerre en Iran est un “petit détour”: “On devait le faire” - 7sur7.be",
@@ -1765,96 +1786,111 @@
         "source": "google_fr_world"
       },
       {
-        "title": "Live - Libanese leger meldt Israëlische schendingen van staakt-het-vuren • Trump: akkoord met Iran ‘heel dichtbij’",
-        "url": "https://www.demorgen.be/snelnieuws/live-libanese-leger-meldt-israelische-schendingen-van-staakt-het-vuren-trump-akkoord-met-iran-heel-dichtbij~be9c4f82/",
+        "title": "Donald Trump fait souffler un vent favorable en Europe - Zonebourse",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOGJMY2RsTS1QekFfV2JJT3FnMmpZNGM4YkRYMXJSMzBRY2NhZkprU0hSOFAxWFNlSXIza2hhZjlNdXZXZEpPWnVxVVFFRi1yNWhEUmZXYjUzLXNueld1X2dUNEpreW94eGdjNGd3bXhMWWR2RUpaOXpFb2UtQ2ljdkZ4STIyNWxHeUlmVFBmdkpwQk9uOVRSRl9fZ0dqdkhySFUyUE5FeGk1X3ROS0NiOUJ0akNSdw?oc=5",
+        "source": "google_fr_business"
+      },
+      {
+        "title": "Donald Trump bedankt Iran voor heropenen Straat van Hormuz en tikt Israël op de vingers: “Genoeg is genoeg”",
+        "url": "https://www.standaard.be/buitenland/donald-trump-bedankt-iran-voor-heropenen-straat-van-hormuz-en-tikt-israel-op-de-vingers-genoeg-is-genoeg/35173881.html",
+        "source": "standaard"
+      },
+      {
+        "title": "Olieprijs daalt met ruim 10 procent na aankondiging van Iran om Straat van Hormuz te heropenen - Trump houdt vast aan zeeblokkade",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln"
+      },
+      {
+        "title": "Live - Iraanse marine stelt voorwaarden aan opening Straat van Hormuz: grote rederijen wachten af • Trump houdt vast aan havenblokkade tot deal met Iran ‘voor 100 procent’ rond is",
+        "url": "https://www.demorgen.be/snelnieuws/live-iraanse-marine-stelt-voorwaarden-aan-opening-straat-van-hormuz-trump-houdt-vast-aan-havenblokkade-tot-deal-met-iran-voor-100-procent-rond-is~be9c4f82/",
         "source": "demorgen"
       },
       {
-        "title": "LIVE MIDDEN-OOSTEN. Trump noemt oorlog in Iran “klein uitstapje” dat “snel voorbij moet zijn” - Libanese leger meldt Israëlische schendingen van staakt-het-vuren",
-        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-noemt-oorlog-in-iran-klein-uitstapje-dat-snel-voorbij-moet-zijn-libanese-leger-meldt-israelische-schendingen-van-staakt-het-vuren/27532402.html",
-        "source": "nieuwsblad"
-      },
-      {
-        "title": "LIVE MIDDEN-OOSTEN. Trump noemt oorlog in Iran “klein uitstapje” dat “snel voorbij moet zijn” - Libanese leger meldt Israëlische schendingen van staakt-het-vuren",
-        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-noemt-oorlog-in-iran-klein-uitstapje-dat-snel-voorbij-moet-zijn-libanese-leger-meldt-israelische-schendingen-van-staakt-het-vuren/76854338.html",
+        "title": "LIVE MIDDEN-OOSTEN. Olieprijs daalt met 11 procent nadat Iran aankondigt Straat van Hormuz te heropenen - Trump: “Zeeblokkade Iran blijft van kracht”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-olieprijs-daalt-met-11-procent-nadat-iran-aankondigt-straat-van-hormuz-te-heropenen-trump-zeeblokkade-iran-blijft-van-kracht/76854338.html",
         "source": "gva"
       },
       {
-        "title": "Direct – Moyen-Orient : le Liban accuse Israël de violer le cessez-le-feu tout juste entré en vigueur, Trump qualifie la guerre en Iran de \"petit détour\"",
-        "url": "https://www.rtbf.be/article/direct-moyen-orient-le-liban-accuse-israel-de-violer-le-cessez-le-feu-tout-juste-entre-en-vigueur-trump-qualifie-la-guerre-en-iran-de-petit-detour-11711084",
-        "source": "rtbf"
+        "title": "Trump krijgt zijn zin: Congo staat klaar om vluchtelingen uit de VS op te vangen",
+        "url": "https://www.hbvl.be/buitenland/trump-krijgt-zijn-zin-congo-staat-klaar-om-vluchtelingen-uit-de-vs-op-te-vangen/146218491.html",
+        "source": "hbvl"
       },
       {
-        "title": "DIRECT - Guerre au Moyen-Orient: Trump qualifie la guerre en Iran de \"petit détour\"",
-        "url": "https://www.lalibre.be/international/moyen-orient/2026/04/17/direct-guerre-au-moyen-orient-le-cessez-le-feu-entre-israel-et-le-hezbollah-au-liban-entre-en-vigueur-ce-vendredi-matin-K456U2KCWRA57GQJKGF3SZOYO4/",
+        "title": "Trump donne raison aux environnementalistes",
+        "url": "https://www.lalibre.be/debats/opinions/2026/04/17/trump-donne-raison-aux-environnementalistes-CHN5R7KWMVDMFDPRER2DLFY2WM/",
         "source": "lalibre"
       },
       {
-        "title": "Avec cette stratégie, l'administration Trump prend de gros risques: \"Nous nous dirigeons vers des temps particulièrement agités\"",
+        "title": "Avec cette stratégie, l'administration Trump pourrait prendre de gros risques: \"Nous nous dirigeons vers des temps particulièrement agités\"",
         "url": "https://www.lalibre.be/international/afrique/2026/04/17/avec-cette-strategie-ladministration-trump-prend-de-gros-risques-nous-nous-dirigeons-vers-des-temps-particulierement-agites-34SZQXWGVJAORNAPVSLGPWMTDY/",
         "source": "lalibre"
       },
       {
-        "title": "Pour Trump, la guerre en Iran est un “petit détour”: “On devait le faire”",
-        "url": "https://www.7sur7.be/monde/pour-trump-la-guerre-en-iran-est-un-petit-detour-on-devait-le-faire~a617651c5/",
-        "source": "septsursept"
+        "title": "Cette démocrate anti-Trump remporte une élection partielle dans un bastion historiquement républicain",
+        "url": "https://www.lalibre.be/international/2026/04/17/cette-democrate-anti-trump-remporte-une-election-partielle-dans-un-bastion-historiquement-republicain-J7TC6AN5UZCDZICODKNUM5YHV4/",
+        "source": "lalibre"
+      },
+      {
+        "title": "“Les gens ici sont prêts à agir\": cette démocrate anti-Trump remporte une élection partielle dans un bastion historiquement républicain",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/17/les-gens-ici-sont-prets-a-agir-cette-democrate-anti-trump-remporte-une-election-partielle-dans-un-bastion-historiquement-republicain-S2QPBPHUEBDHTLPBEFIRSFTFKM/",
+        "source": "dhnet"
       }
     ],
     "comparisons": {
-      "trump": 7,
-      "de_wever": 2,
-      "macron": 0,
-      "putin": 0,
+      "trump": 9,
+      "de_wever": 5,
+      "macron": 1,
+      "putin": 2,
       "netanyahu": 0,
-      "zelensky": 0,
+      "zelensky": 1,
       "musk": 0,
-      "orban": 0,
+      "orban": 2,
       "meloni": 0,
-      "bouchez": 0
+      "bouchez": 8
     },
     "wide_comparisons": {
-      "trump": 12,
-      "de_wever": 2,
-      "macron": 0,
-      "putin": 0,
+      "trump": 17,
+      "de_wever": 6,
+      "macron": 3,
+      "putin": 5,
       "netanyahu": 0,
-      "zelensky": 0,
+      "zelensky": 1,
       "musk": 0,
-      "orban": 1,
+      "orban": 3,
       "meloni": 0,
-      "bouchez": 0
+      "bouchez": 10
     },
     "themes": {
       "war": 23,
-      "crime": 16,
-      "eu": 9,
-      "politics": 20,
-      "be_gov": 11,
-      "culture": 15,
-      "tech": 10,
-      "economy": 4,
-      "sports": 16,
-      "health": 4,
-      "climate": 1,
+      "crime": 30,
+      "eu": 31,
+      "politics": 34,
+      "be_gov": 29,
+      "culture": 17,
+      "tech": 5,
+      "economy": 18,
+      "sports": 99,
+      "health": 11,
+      "climate": 11,
       "migration": 1,
-      "education": 0,
-      "weather": 7
+      "education": 3,
+      "weather": 13
     },
     "wide_themes": {
-      "war": 30,
-      "crime": 21,
-      "eu": 13,
-      "politics": 24,
-      "be_gov": 14,
-      "culture": 18,
-      "tech": 13,
-      "economy": 7,
-      "sports": 20,
-      "health": 5,
-      "climate": 1,
+      "war": 38,
+      "crime": 37,
+      "eu": 51,
+      "politics": 46,
+      "be_gov": 40,
+      "culture": 20,
+      "tech": 12,
+      "economy": 23,
+      "sports": 110,
+      "health": 13,
+      "climate": 13,
       "migration": 1,
-      "education": 0,
-      "weather": 11
+      "education": 3,
+      "weather": 19
     }
   }
 ]

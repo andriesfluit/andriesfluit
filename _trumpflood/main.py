@@ -156,6 +156,7 @@ def main():
     record = {
         "date": today.isoformat(),
         "generated_at": generated_at,
+        "last_checked_at": generated_at,
         # Headline numbers = CORE tier.
         "total_articles": core_total,
         "trump_articles": core_trump,
@@ -193,9 +194,33 @@ def main():
         "wide_themes": wide_themes,
     }
 
-    log = [r for r in existing_log if r.get("date") != record["date"]]
-    log.append(record)
-    log.sort(key=lambda r: r.get("date", ""))
+    # ------ Max-over-runs: keep today's peak observation -------------------
+    # Three runs per day means three different snapshots. RSS feeds only
+    # expose the latest N items, so the afternoon run may show fewer Trump
+    # headlines than the morning one (they've rolled off the feed). We want
+    # the *peak* of the day, not the last snapshot. Rule: if a prior run
+    # today already saw a higher core share, keep that record and just
+    # update last_checked_at. If today's new share is higher, replace.
+    existing_today = next(
+        (r for r in existing_log if r.get("date") == record["date"]), None
+    )
+    if (existing_today is not None
+            and (existing_today.get("percentage") or 0) >= record["percentage"]):
+        logging.info(
+            "Keeping earlier peak for %s (existing pct=%s >= new pct=%s)",
+            record["date"],
+            existing_today.get("percentage"),
+            record["percentage"],
+        )
+        existing_today["last_checked_at"] = generated_at
+        record = existing_today   # render site from the preserved peak
+        log = existing_log        # no replacement needed
+    else:
+        # New run is the new peak (or first record of the day).
+        log = [r for r in existing_log if r.get("date") != record["date"]]
+        log.append(record)
+        log.sort(key=lambda r: r.get("date", ""))
+
     LOG_FILE.write_text(json.dumps(log, indent=2, ensure_ascii=False))
 
     out_path = OUTPUT_DIR / f"{today.isoformat()}.png"

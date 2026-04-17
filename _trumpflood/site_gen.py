@@ -982,14 +982,16 @@ def _methodology(latest):
         <li><strong>Trump-the-family.</strong> The regex also matches
         &ldquo;Trump Jr.&rdquo;, &ldquo;Eric Trump&rdquo;, &ldquo;Trump
         Tower&rdquo;. Usually &le;2% noise but it\u2019s there.</li>
-        <li><strong>Time-of-day bias.</strong> Fetch runs three times a day
-        (08:00 / 14:00 / 20:00 local). Each run overwrites today&rsquo;s
-        record, so the number you see is always the most recent snapshot
-        &mdash; the morning view until 14:00, the afternoon view until 20:00,
-        the evening view until the next morning. Late-breaking afternoon or
-        evening stories are therefore captured on the same day, mitigating
-        most of the old &ldquo;we miss the second half of the news cycle&rdquo;
-        problem.</li>
+        <li><strong>Time-of-day sampling &amp; peak-of-day rule.</strong>
+        Fetches run three times a day (08:00 / 14:00 / 20:00 local). RSS
+        feeds only expose the latest N items, so an afternoon fetch may
+        show fewer Trump headlines than the morning one because earlier
+        pieces have scrolled off. To avoid understating a Trump-heavy day,
+        we keep the <em>peak</em> observation for each day: if a later
+        run sees a lower share than the one already stored, we keep the
+        earlier record and only update the &ldquo;last checked&rdquo;
+        timestamp. Later runs still replace the record when they see a
+        <em>higher</em> share, so a late-breaking Trump surge is captured.</li>
         <li><strong>Wire-story amplification.</strong> The same Reuters / AFP
         Trump story republished across five outlets counts as five matches.
         De-dup is by URL, which differs between outlets.</li>
@@ -1960,7 +1962,9 @@ def render():
         mentions=_today_mentions(latest),
         history=_history_table(log_sorted_desc),
         methodology=_methodology(latest),
-        last_run=_format_last_run(latest.get("generated_at")),
+        last_run=_format_last_run(
+            latest.get("last_checked_at") or latest.get("generated_at")
+        ),
     )
     OUTPUT_DIR.mkdir(exist_ok=True)
     (OUTPUT_DIR / "index.html").write_text(html_out, encoding="utf-8")
