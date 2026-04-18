@@ -1,8 +1,14 @@
 import logging
-from datetime import date
+from datetime import date, datetime, timezone
 
 import feedparser
 import requests
+
+try:
+    from zoneinfo import ZoneInfo          # Python 3.9+
+    _BRUSSELS = ZoneInfo("Europe/Brussels")
+except ImportError:                         # pragma: no cover
+    _BRUSSELS = None
 
 try:
     import cloudscraper
@@ -65,10 +71,25 @@ FEEDS = {
 
 
 def _entry_date(entry):
+    """Return the entry's publication date as a Belgian local date.
+
+    feedparser populates `published_parsed` / `updated_parsed` as UTC
+    struct_time values regardless of the feed's timezone declaration. We
+    convert to Europe/Brussels before taking the calendar date so the
+    "today in Belgian local date" filter matches what a reader in Belgium
+    would call "today".
+    """
     for key in ("published_parsed", "updated_parsed"):
         val = entry.get(key)
         if val:
-            return date(val.tm_year, val.tm_mon, val.tm_mday)
+            utc_dt = datetime(
+                val.tm_year, val.tm_mon, val.tm_mday,
+                val.tm_hour, val.tm_min, val.tm_sec,
+                tzinfo=timezone.utc,
+            )
+            if _BRUSSELS is not None:
+                return utc_dt.astimezone(_BRUSSELS).date()
+            return utc_dt.date()
     return None
 
 

@@ -196,6 +196,12 @@ def _hero(latest):
     label = latest.get("label", "No data")
     total = latest.get("total_articles", 0)
     matches = latest.get("trump_articles", 0)
+    # Secondary (expanded-detector) count: name + "White House", "US
+    # president", etc. Missing on pre-transition records, so fall back to
+    # trump_articles / percentage (same number, just labelled as expanded).
+    matches_expanded = latest.get("trump_articles_expanded", matches)
+    pct_expanded = latest.get("core_percentage_expanded", pct)
+    indirect = latest.get("indirect_references", matches_expanded - matches)
     date_str = latest.get("date", "")
     rank = latest.get("rank")
     n_people = latest.get("n_people")
@@ -240,17 +246,18 @@ def _hero(latest):
 
     rank_badge = ""
     if method in ("composite", "people") and rank is not None:
+        n_others_badge = (n_people - 1) if n_people else 0
         dom_text = ""
         if dominance is not None:
             if dominance >= 1.0:
                 dom_text = (
-                    f' <span class="rank-dom">\u00b7 outweighs all 9 others '
-                    f'combined ({dominance}\u00d7)</span>'
+                    f' <span class="rank-dom">\u00b7 outweighs all '
+                    f'{n_others_badge} others combined ({dominance}\u00d7)</span>'
                 )
             elif dominance > 0:
                 dom_text = (
                     f' <span class="rank-dom">\u00b7 {dominance}\u00d7 the '
-                    f'other 9 combined</span>'
+                    f'other {n_others_badge} combined</span>'
                 )
         theme_text = ""
         if theme_rank is not None and n_themes is not None:
@@ -268,6 +275,20 @@ def _hero(latest):
             f'<div class="rank-badge">Rank '
             f'<strong>#{rank}</strong> of {n_themes} subjects today</div>'
         )
+
+    # Indirect-references sub-line. Only shown when there are indirect
+    # references today AND we have the expanded figure (new-format records).
+    if indirect and indirect > 0:
+        indirect_line = (
+            f'<div class="readout-sub indirect">'
+            f'+ <strong>{indirect}</strong> more mention the White House, '
+            f'&ldquo;US president&rdquo; or similar (expanded total: '
+            f'<strong>{matches_expanded}</strong> = '
+            f'<strong>{pct_expanded}%</strong>)'
+            f'</div>'
+        )
+    else:
+        indirect_line = ""
 
     return f"""
 <section class="hero">
@@ -288,8 +309,9 @@ def _hero(latest):
     </div>
     <div class="readout-sub">
       <strong>{matches}</strong> of <strong>{total}</strong> Belgian news
-      headlines today reference Trump
+      headlines today mention Trump by name
     </div>
+    {indirect_line}
   </div>
 </section>
 """
@@ -328,14 +350,15 @@ def _comparison_panel(latest):
         )
 
     trump_count = comps.get("trump", 0)
+    n_others = max(len(comps) - 1, 0)
     others_total = sum(v for k, v in comps.items() if k != "trump")
     if others_total:
         ratio = trump_count / others_total
         ratio_txt = f"{ratio:.2f}\u00d7"
         verdict = (
-            "more than all 7 others combined" if ratio > 1
-            else "less than all 7 others combined" if ratio < 1
-            else "exactly equal to all 7 others combined"
+            f"more than all {n_others} others combined" if ratio > 1
+            else f"less than all {n_others} others combined" if ratio < 1
+            else f"exactly equal to all {n_others} others combined"
         )
     else:
         ratio_txt = "\u2014"
@@ -355,7 +378,7 @@ def _comparison_panel(latest):
     return f"""
 <section class="block">
   <h2>Today vs. the rest</h2>
-  <p class="block-intro">Trump against nine other named figures in the same
+  <p class="block-intro">Trump against {n_others} other named figures in the same
   {total}-headline core corpus.</p>
   <div class="comparison">{''.join(rows)}</div>
   {vs_block}
@@ -433,17 +456,31 @@ def _today_mentions(latest):
             '<section class="block"><h2>Today&rsquo;s mentions</h2>'
             '<p class="empty">No headlines mentioned Trump today.</p></section>'
         )
+    # Sort name-only mentions first, indirect references last. Keeps the
+    # primary set (what drives the zone) at the top.
+    def _sort_key(m):
+        return (0 if m.get("name_only", True) else 1,)
+    sorted_matches = sorted(matches, key=_sort_key)
+
     items = []
-    for m in matches:
+    for m in sorted_matches:
         src = SOURCE_LABELS.get(m.get("source"), m.get("source", ""))
         url = html.escape(m.get("url", "#"), quote=True)
         title = html.escape(m.get("title", ""))
+        # Tag indirect references so the reader can see which headlines
+        # are included only because of the expanded detector.
+        tag = ""
+        if m.get("name_only") is False:
+            tag = ' <span class="indirect-tag" title="Matched only via indirect reference (White House, US president, ...)">indirect</span>'
         items.append(
             f'<li><a href="{url}" target="_blank" rel="noopener">{title}</a>'
-            f'<span class="src">{html.escape(src)}</span></li>'
+            f'{tag}<span class="src">{html.escape(src)}</span></li>'
         )
     return (
         '<section class="block"><h2>Today&rsquo;s mentions</h2>'
+        '<p class="block-intro">Name mentions first; indirect references '
+        '(&ldquo;White House&rdquo;, &ldquo;US president&rdquo;, ...) are '
+        'tagged and listed after.</p>'
         f'<ul class="mentions">{"".join(items)}</ul></section>'
     )
 
@@ -798,7 +835,9 @@ def _methodology(latest):
     <div class="meth-body">
 
       <h3>Daily collection</h3>
-      <p>Three times a day &mdash; 08:00, 14:00 and 20:00 Belgian local time &mdash;
+      <p>Three times a day &mdash; 06:00, 12:00 and 18:00 UTC, which is
+      08:00 / 14:00 / 20:00 Belgian local in summer (CEST) and
+      07:00 / 13:00 / 19:00 in winter (CET) &mdash;
       a script fetches headlines from 31 Belgian RSS feeds:
       Google News BE (Dutch &amp; French general), 8 Google News BE topic feeds
       (politics, world, business, tech, sport in NL; politics, world, business in FR),
@@ -824,43 +863,70 @@ def _methodology(latest):
       RSS is Cloudflare-gated). The full <strong>wide</strong> corpus is still
       computed and stored in <code>data/log.json</code> as a cross-check.
       Today\u2019s core corpus: <strong>{core_total} headlines</strong>,
-      <strong>{core_trump} Trump matches = {core_pct}%</strong>.</p>
+      <strong>{core_trump} by-name Trump matches = {core_pct}%</strong>
+      (this is the share the zone uses; see the &ldquo;Trump match&rdquo;
+      section below for how indirect references are handled separately).</p>
       {wide_p}
 
       <h3>Trump match</h3>
-      <p>Each headline title is scanned for Trump references in three
-      languages (Dutch, French, English), case-insensitive, whole words only.
-      That means both the literal name and the common indirect references
-      Belgian outlets use to refer to the current US administration:</p>
+      <p>Each headline title is scanned with two detectors at once:</p>
       <ul class="meth-rules">
-        <li><strong>Direct name</strong> &mdash; <code>trump</code>
-        (matches &ldquo;Donald Trump&rdquo;, &ldquo;Trump Jr.&rdquo;, etc.).</li>
-        <li><strong>The White House</strong> &mdash; <code>white house</code>,
-        <code>witte huis</code>, <code>maison blanche</code> /
-        <code>maison-blanche</code>; plus <code>oval office</code> and
-        <code>bureau ovale</code>.</li>
-        <li><strong>The US / American president</strong> &mdash;
-        <code>US president</code>, <code>American president</code>,
-        <code>Amerikaans(e) president</code>,
-        <code>president van de VS</code>,
-        <code>pr\u00e9sident(e) am\u00e9ricain(e)</code>,
-        <code>pr\u00e9sident(e) des \u00c9tats-Unis</code> (accents optional).</li>
+        <li><strong>Name-only (drives the zone).</strong> A single
+        case-insensitive match on <code>trump</code> (the literal name,
+        whole word). Every number that feeds the zone classifier
+        &mdash; share, breadth, rank, dominance &mdash; uses this
+        detector, so Trump is measured on exactly the same yardstick as
+        the other named figures we track.</li>
+        <li><strong>Expanded (shown, but does not drive the zone).</strong>
+        A broader detector that also catches common indirect references:
+        <code>white house</code> / <code>witte huis</code> /
+        <code>maison blanche</code>, <code>oval office</code> /
+        <code>bureau ovale</code>, and
+        <code>US president</code> / <code>Amerikaans(e) president</code> /
+        <code>pr\u00e9sident(e) am\u00e9ricain(e)</code> /
+        <code>pr\u00e9sident(e) des \u00c9tats-Unis</code> /
+        <code>president van de VS</code> (accents optional). A headline
+        like &ldquo;Het Witte Huis waarschuwt Europa&rdquo; is counted
+        here. This total is shown as editorial context, but it does not
+        feed the zone.</li>
       </ul>
-      <p>A headline like &ldquo;Het Witte Huis waarschuwt Europa&rdquo; counts
-      even though the word &ldquo;Trump&rdquo; does not appear in it. This
-      closes the largest honest gap in the old literal-name-only detector.
-      The <em>comparator</em> counts used for dominance and rank are a
-      separate mechanism and still match people by name only \u2014 expanding
-      Trump\u2019s pattern while the other nine figures stay name-only would
-      bias the rank. No fuzzy matching, no body text (titles only).</p>
+      <p>Why split them? Expanding Trump\u2019s pattern while the other
+      figures stay name-only would inflate Trump\u2019s share against
+      comparators who only match by name. Keeping both numbers separate
+      is the honest version: the zone is computed apples-to-apples, and
+      the expanded figure is published so you can see how much extra
+      coverage the indirect references add on any given day. Titles
+      only; no body text, no fuzzy matching.</p>
 
       <h3>Comparators &amp; themes</h3>
-      <p>The same headlines are scanned for nine other people (Putin, Macron,
-      De Wever, Bouchez, Orb&aacute;n, Meloni, Netanyahu, Zelensky, Musk
-      &mdash; with Trump as the tenth reference entry) and for fourteen broad
-      subject categories (war, crime, EU politics, Belgian government, etc.)
-      using multi-language regex (NL + FR + EN keywords) so &ldquo;klimaat&rdquo;
-      and &ldquo;climat&rdquo; both count as Climate.</p>
+      <p>The same headlines are scanned for fourteen other named people
+      (Trump is the fifteenth) split into two groups:</p>
+      <ul class="meth-rules">
+        <li><strong>International (4).</strong> Putin, Macron, Netanyahu,
+        Zelensky. Heads of state whose actions recurringly drive Belgian
+        front-page news.</li>
+        <li><strong>Belgian (10).</strong> De Wever, Bouchez, Magnette,
+        Pr&eacute;vot, Rousseau, Francken, Crevits, De Croo, Van
+        Peteghem, Verlinden. Sitting federal PM, party presidents of the
+        main federal-coalition and opposition parties, and ministers who
+        are recurrently named in Belgian headlines.</li>
+      </ul>
+      <p><strong>Admission rule.</strong> The list is reviewed manually
+      each quarter. A figure is in the list if they (a) hold a current
+      senior political office in Belgium (federal PM, federal minister,
+      major party president) or (b) lead a country whose actions make
+      recurring Belgian front-page news. Removed in the most recent
+      review: Orb&aacute;n, Meloni and Musk (intermittent day-to-day
+      Belgian salience); Jambon (the surname collides with the French
+      word for ham). Once the live archive is 90+ days, this editorial
+      rule can be replaced by &ldquo;anyone with &ge; N name mentions in
+      the trailing 90-day core corpus&rdquo;, which would make the list
+      self-maintaining.</p>
+      <p>The same headlines are also scanned for fourteen broad subject
+      categories (war, crime, EU politics, Belgian government, etc.)
+      using multi-language regex (NL + FR + EN keywords) so
+      &ldquo;klimaat&rdquo; and &ldquo;climat&rdquo; both count as
+      Climate.</p>
 
       <h3>Zone assessment</h3>
       <p>No single number can honestly say &ldquo;Trump is flooding Belgian
@@ -870,18 +936,22 @@ def _methodology(latest):
       enough.</p>
 
       <h4 class="signal-h">1. Share &mdash; &ldquo;How much of the news is about Trump?&rdquo;</h4>
-      <p>The percentage of today&rsquo;s Belgian core-tier headlines that
-      reference Trump. Computed as
-      <code>Trump headlines &divide; total headlines &times; 100</code>.</p>
+      <p>The percentage of today&rsquo;s Belgian core-tier headlines
+      that mention Trump <em>by name</em>. Computed as
+      <code>name-only Trump headlines &divide; total headlines &times; 100</code>.
+      The expanded number (name + indirect references) is shown
+      separately in the hero, but the zone is driven by this name-only
+      figure to keep Trump and the fourteen comparators on one
+      yardstick.</p>
       <p class="signal-today">Today: <strong>{core_trump}/{core_total} = {core_pct}%</strong>.
-      A low number means Trump simply is not in the news much, regardless
-      of what other signals say.</p>
+      A low number means Trump simply is not in the news much by name,
+      regardless of what other signals say.</p>
 
       <h4 class="signal-h">2. Dominance &mdash; &ldquo;Is he THE figure of the day?&rdquo;</h4>
-      <p>Trump&rsquo;s name-only mentions divided by the sum of mentions of
-      the nine other named figures we track (Putin, Macron, De Wever,
-      Bouchez, Orb&aacute;n, Meloni, Netanyahu, Zelensky, Musk). A value
-      above 1.0&times; means Trump alone out-mentions the other nine
+      <p>Trump&rsquo;s name-only mentions divided by the sum of mentions
+      of the other fourteen named figures we track (4 international + 10
+      Belgian; see the Comparators list). A value above 1.0&times;
+      means Trump alone out-mentions the other fourteen
       <em>combined</em>.</p>
       <p class="signal-today">Today: <strong>{dom_display}</strong>. This
       catches the &ldquo;slow domestic day&rdquo; case where Trump scoops
@@ -897,10 +967,10 @@ def _methodology(latest):
       decided Trump deserves a spot today.</p>
 
       <h4 class="signal-h">4. Rank &mdash; &ldquo;Is he on top at all?&rdquo;</h4>
-      <p>Trump&rsquo;s position among the ten named figures, by mention
-      count. Acts as a veto: higher zones require Trump to be #1 or #2.
-      If he&rsquo;s #5 on a day everyone is talking about Macron, no zone
-      upgrade follows.</p>
+      <p>Trump&rsquo;s position among the fifteen named figures, by
+      mention count. Acts as a veto: higher zones require Trump to be
+      #1 or #2. If he&rsquo;s #5 on a day everyone is talking about
+      Macron, no zone upgrade follows.</p>
       <p class="signal-today">Today: rank <strong>#{rank}</strong> of
       {n_people}.{theme_txt}</p>
 
@@ -983,7 +1053,9 @@ def _methodology(latest):
         &ldquo;Trump Jr.&rdquo;, &ldquo;Eric Trump&rdquo;, &ldquo;Trump
         Tower&rdquo;. Usually &le;2% noise but it\u2019s there.</li>
         <li><strong>Time-of-day sampling &amp; peak-of-day rule.</strong>
-        Fetches run three times a day (08:00 / 14:00 / 20:00 local). RSS
+        Fetches run three times a day at fixed UTC slots
+        (06:00 / 12:00 / 18:00), which shifts by an hour between CEST
+        and CET. RSS
         feeds only expose the latest N items, so an afternoon fetch may
         show fewer Trump headlines than the morning one because earlier
         pieces have scrolled off. To avoid understating a Trump-heavy day,
@@ -998,11 +1070,13 @@ def _methodology(latest):
         <em>within the same outlet</em> &mdash; a normalised title
         (lower-case, accent-stripped, editorial prefixes like
         &ldquo;VIDEO.&rdquo; removed, first 80 chars compared) that
-        repeats inside one publisher&rsquo;s feed becomes one. But if HLN,
-        Nieuwsblad and GVA all run the same Reuters headline, those are
-        three editorial decisions and all three count. That is what
-        &ldquo;breadth&rdquo; measures: publishing choices, not unique
-        authored stories.</li>
+        repeats inside one publisher&rsquo;s feed becomes one. Titles
+        shorter than 12 characters after normalisation are not deduped
+        (generic short strings like &ldquo;update&rdquo; can collide on
+        unrelated stories). But if HLN, Nieuwsblad and GVA all run the
+        same Reuters headline, those are three editorial decisions and
+        all three count. That is what &ldquo;breadth&rdquo; measures:
+        publishing choices, not unique authored stories.</li>
         <li><strong>Aggregator overlap.</strong> The Google News feeds (only
         used in the wide tier, not core) republish outlets we already pull
         directly; URLs differ from the direct ones so some duplication leaks
@@ -1011,16 +1085,20 @@ def _methodology(latest):
         heavy with international news that Belgian outlets choose to publish.
         This measures &ldquo;share of the news Belgians read&rdquo; &mdash; not
         &ldquo;what Belgian society is discussing internally&rdquo;.</li>
-        <li><strong>Stale comparator list.</strong> The ten-person comparator
-        set is fixed. If a new Belgian political figure surges in coverage,
-        Trump\u2019s rank against this list will look artificially high.
-        Periodic review needed.</li>
-        <li><strong>Arbitrary absolute thresholds.</strong> The 5.0% / 3.5% /
-        2.0% / 0.8% cutoffs plus the 2.0&times; / 1.2&times; dominance and
-        60% / 45% / 30% breadth floors are chosen rather than calibrated
-        against historical distributions. As the archive of live days grows,
-        these should be re-expressed as percentiles of Trump\u2019s own
-        history.</li>
+        <li><strong>Comparator list maintenance.</strong> The fifteen-
+        person comparator set is reviewed editorially each quarter under
+        the admission rule above. Between reviews, a newly-prominent
+        Belgian figure who is <em>not</em> on the list inflates
+        Trump\u2019s rank until they are added. Once the live archive
+        reaches 90+ days, the list can be replaced by a data-driven rule
+        (&ldquo;anyone with &ge; N name mentions in the trailing 90
+        days&rdquo;) and the manual review falls away.</li>
+        <li><strong>Arbitrary absolute thresholds.</strong> The
+        4.0% / 2.5% / 1.5% / 0.8% share cutoffs plus the
+        2.0&times; / 1.2&times; dominance and 55% / 40% / 25% breadth
+        floors are chosen rather than calibrated against historical
+        distributions. As the archive of live days grows, these should be
+        re-expressed as percentiles of Trump\u2019s own history.</li>
         <li><strong>Theme overlap.</strong> A headline can match multiple
         themes (a Gaza article counts for War and for EU politics if Macron is
         quoted). Themes are not mutually exclusive.</li>
@@ -1434,6 +1512,24 @@ PAGE = """<!doctype html>
     max-width: 520px;
   }}
   .readout-sub strong {{ color: var(--ink); }}
+  .readout-sub.indirect {{
+    font-size: 14px;
+    margin-top: 4px;
+    color: var(--muted);
+    font-style: italic;
+  }}
+  .indirect-tag {{
+    display: inline-block;
+    margin: 0 8px 0 6px;
+    padding: 1px 6px;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border: 1px solid var(--muted);
+    border-radius: 2px;
+    color: var(--muted);
+    vertical-align: middle;
+  }}
   .sep {{ margin: 0 8px; }}
 
   @media (max-width: 760px) {{
@@ -1864,7 +1960,8 @@ PAGE = """<!doctype html>
   {methodology}
 
   <footer>
-    Sources: 31 Belgian RSS feeds, measured three times a day (08:00 / 14:00 / 20:00 local).
+    Sources: 31 Belgian RSS feeds, measured three times a day (06:00 / 12:00 / 18:00 UTC,
+    which is 08:00 / 14:00 / 20:00 Belgian local in summer and 07:00 / 13:00 / 19:00 in winter).
     Core tier (drives the headline number): VRT NWS, RTBF, De Standaard,
     De Morgen, HLN, Het Nieuwsblad, GVA, HBVL, Knack, La Libre, L&rsquo;Echo,
     DHnet, 7sur7, plus De Tijd, Le Soir, Sudinfo, L&rsquo;Avenir and RTL via

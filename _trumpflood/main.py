@@ -10,12 +10,19 @@ except ImportError:                         # pragma: no cover - fallback
     ZoneInfo = None  # type: ignore
 
 from assessor import assess_composite, assess_rank_based
-from comparators import count_matches as count_comparators
+from comparators import TRUMP_NAME_PATTERN, count_matches as count_comparators
 from detector import contains_trump
 from fetcher import CORE_FEED_KEYS, fetch_all
 from image_gen import generate_image
 from site_gen import render as render_site
 from themes import count_matches as count_themes
+
+
+def _contains_trump_name(text):
+    """Name-only Trump match (matches the comparator's '\\btrump\\b').
+    Used for the share/breadth/rank that drive the zone, so Trump is on
+    the same yardstick as the other named figures."""
+    return bool(TRUMP_NAME_PATTERN.search(text or ""))
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
@@ -32,7 +39,14 @@ LOG_FILE = DATA_DIR / "log.json"
 def main():
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
-    today = date.today()
+    # "Today" means "today in Belgium". The runner may be on UTC (GitHub
+    # Actions) or CEST / CET (local macOS launchd). Anchor explicitly to
+    # Europe/Brussels so the calendar date matches what a Belgian reader
+    # would call "today", even for runs that fire near midnight local.
+    if ZoneInfo is not None:
+        today = datetime.now(ZoneInfo("Europe/Brussels")).date()
+    else:
+        today = date.today()
     DATA_DIR.mkdir(exist_ok=True)
     OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -76,19 +90,19 @@ def main():
     source_summary = {}
     dup_counts = {"by_url": 0, "by_title_within_outlet": 0}
 
+    kept_by_src = {}
     for src, payload in results.items():
         n_today = len(payload["articles"])
-        # Per-outlet Trump count (BEFORE cross-outlet URL dedup, so each
-        # outlet's own rate is independent of overlap with others).
-        outlet_trump = sum(
-            1 for _, t in payload["articles"] if contains_trump(t)
-        )
         seen_titles_this_outlet = set()
+        kept_for_src = []
         for url, title in payload["articles"]:
             if url in seen_urls:
                 dup_counts["by_url"] += 1
                 continue
             tnorm = _norm_title(title)
+            # Titles shorter than 12 chars after normalisation aren't deduped
+            # because short strings like "update" or "video" can collide on
+            # unrelated stories. Documented in the methodology caveat.
             if tnorm and len(tnorm) >= 12:
                 if tnorm in seen_titles_this_outlet:
                     dup_counts["by_title_within_outlet"] += 1
@@ -96,11 +110,31 @@ def main():
                 seen_titles_this_outlet.add(tnorm)
             seen_urls.add(url)
             kept.append((url, title, src))
+            kept_for_src.append((url, title))
+        kept_by_src[src] = kept_for_src
+        # Per-outlet stats:
+        #   today            raw pre-dedup count (methodology's "From
+        #                    today" column; what the feed offered).
+        #   kept             post-dedup count (entered the denominator).
+        #   trump            NAME-ONLY Trump matches in the kept corpus.
+        #                    This is the figure breadth/rank/dominance use.
+        #   trump_expanded   expanded detector matches (name + indirect
+        #                    references like "White House"). Kept for the
+        #                    secondary "indirect references" readout.
+        outlet_kept = len(kept_for_src)
+        outlet_trump_name = sum(
+            1 for _, t in kept_for_src if _contains_trump_name(t)
+        )
+        outlet_trump_expanded = sum(
+            1 for _, t in kept_for_src if contains_trump(t)
+        )
         source_summary[src] = {
             "fetched": payload["fetched"],
             "today": n_today,
-            "trump": outlet_trump,
-            "share": round(outlet_trump / n_today * 100, 2) if n_today else 0,
+            "kept": outlet_kept,
+            "trump": outlet_trump_name,
+            "trump_expanded": outlet_trump_expanded,
+            "share": round(outlet_trump_name / outlet_kept * 100, 2) if outlet_kept else 0,
         }
     logging.info(
         "Dedup: %d URL duplicates (cross-outlet), %d title duplicates within same outlet",
@@ -108,14 +142,25 @@ def main():
     )
 
     # ------ Full "wide" corpus (every feed, deduped by URL) -----------------
+    # Two parallel numerators:
+    #   *_name       NAME-ONLY Trump matches. Used for the zone share/rank/
+    #                dominance/breadth so Trump is measured on the same
+    #                yardstick as the nine other named figures.
+    #   *_expanded   NAME + indirect references ("White House", "US
+    #                president", etc.). Kept as a secondary editorial
+    #                readout; does NOT drive the zone.
     wide_total = len(kept)
-    wide_matched = [
-        {"title": t, "url": u, "source": s}
+    wide_matched_expanded = [
+        {"title": t, "url": u, "source": s,
+         "name_only": bool(_contains_trump_name(t))}
         for u, t, s in kept
         if contains_trump(t)
     ]
-    wide_trump = len(wide_matched)
-    wide_pct = round((wide_trump / wide_total * 100), 1) if wide_total else 0.0
+    wide_matched_name = [m for m in wide_matched_expanded if m["name_only"]]
+    wide_trump_name = len(wide_matched_name)
+    wide_trump_expanded = len(wide_matched_expanded)
+    wide_pct_name = round((wide_trump_name / wide_total * 100), 1) if wide_total else 0.0
+    wide_pct_expanded = round((wide_trump_expanded / wide_total * 100), 1) if wide_total else 0.0
 
     wide_titles = [t for _, t, _ in kept]
     wide_comparisons = count_comparators(wide_titles)
@@ -124,13 +169,24 @@ def main():
     # ------ "Core" corpus: national + regional-generalist outlets only ------
     core_kept = [(u, t, s) for u, t, s in kept if s in CORE_FEED_KEYS]
     core_total = len(core_kept)
-    core_matched = [
-        {"title": t, "url": u, "source": s}
+    core_matched_expanded = [
+        {"title": t, "url": u, "source": s,
+         "name_only": bool(_contains_trump_name(t))}
         for u, t, s in core_kept
         if contains_trump(t)
     ]
-    core_trump = len(core_matched)
-    core_pct = round((core_trump / core_total * 100), 1) if core_total else 0.0
+    core_matched_name = [m for m in core_matched_expanded if m["name_only"]]
+    core_trump_name = len(core_matched_name)
+    core_trump_expanded = len(core_matched_expanded)
+    core_pct_name = round((core_trump_name / core_total * 100), 1) if core_total else 0.0
+    core_pct_expanded = round((core_trump_expanded / core_total * 100), 1) if core_total else 0.0
+
+    # The zone is driven by the name-only figures. Keep `core_trump` and
+    # `core_pct` as aliases pointing at the zone-driving numbers.
+    core_trump = core_trump_name
+    core_pct = core_pct_name
+    wide_trump = wide_trump_name
+    wide_pct = wide_pct_name
 
     core_titles = [t for _, t, _ in core_kept]
     core_comparisons = count_comparators(core_titles)
@@ -157,13 +213,14 @@ def main():
     smoothed_pct = round(sum(window) / len(window), 2) if window else None
 
     # ------ Breadth: fraction of core outlets carrying any Trump story -----
-    # Only outlets with a reasonable number of stories today count toward
-    # the denominator (a feed that returned 2 articles should not drag
-    # breadth either way).
+    # Gate uses KEPT (post-dedup) per-outlet count so an outlet that offered
+    # 10 items but contributed only 2 after URL dedup doesn't count as
+    # "active". Trump count here is also post-dedup: both sides of the
+    # ratio match the share denominator.
     core_outlets = {
         s: info for s, info in source_summary.items() if s in CORE_FEED_KEYS
     }
-    active_core = [info for info in core_outlets.values() if info["today"] >= 5]
+    active_core = [info for info in core_outlets.values() if info["kept"] >= 5]
     if active_core:
         outlets_with_trump = sum(1 for info in active_core if info["trump"] > 0)
         breadth = outlets_with_trump / len(active_core)
@@ -186,8 +243,10 @@ def main():
     theme_rank_ctx = assess_rank_based(core_trump, core_total, core_themes)
 
     # Macro-average (each outlet weighed equally). Kept as a background
-    # cross-check, computed on the full per-outlet summary.
-    qualifying = [s for s in source_summary.values() if s["today"] >= 10]
+    # cross-check, computed on the full per-outlet summary. Gate on KEPT
+    # count so an outlet whose feed was mostly URL duplicates doesn't
+    # qualify on its raw pre-dedup size.
+    qualifying = [s for s in source_summary.values() if s["kept"] >= 10]
     macro_share = (
         round(sum(s["share"] for s in qualifying) / len(qualifying), 1)
         if qualifying else 0.0
@@ -204,23 +263,29 @@ def main():
         "date": today.isoformat(),
         "generated_at": generated_at,
         "last_checked_at": generated_at,
-        # Headline numbers = CORE tier.
+        # Headline numbers = CORE tier, NAME-ONLY (zone-driving).
         "total_articles": core_total,
-        "trump_articles": core_trump,
-        "percentage": core_pct,
-        "core_percentage": core_pct,
+        "trump_articles": core_trump_name,
+        "percentage": core_pct_name,
+        "core_percentage": core_pct_name,
+        # Expanded detector (name + indirect references). Secondary.
+        "trump_articles_expanded": core_trump_expanded,
+        "core_percentage_expanded": core_pct_expanded,
+        "indirect_references": core_trump_expanded - core_trump_name,
         # Wide tier kept as cross-check.
         "wide_total_articles": wide_total,
-        "wide_trump_articles": wide_trump,
-        "wide_percentage": wide_pct,
+        "wide_trump_articles": wide_trump_name,
+        "wide_percentage": wide_pct_name,
+        "wide_trump_articles_expanded": wide_trump_expanded,
+        "wide_percentage_expanded": wide_pct_expanded,
         # Outlet-equal sanity check.
         "macro_percentage": macro_share,
         "qualifying_outlets": len(qualifying),
-        # Zone comes from people-rank classifier on the core corpus.
+        # Zone comes from the composite classifier on the core corpus.
         "zone": assessment["zone"],
         "label": assessment["label"],
         "narrative": assessment["narrative"],
-        "rank": assessment["rank"],              # rank AMONG PEOPLE (1..10)
+        "rank": assessment["rank"],              # rank AMONG PEOPLE
         "n_people": assessment["n_people"],
         "dominance": assessment["dominance"],     # trump / sum(others)
         "breadth": assessment["breadth"],         # core outlets carrying Trump
@@ -230,11 +295,13 @@ def main():
         # Legacy theme rank kept as secondary context (not driving zone).
         "theme_rank": theme_rank_ctx["rank"],
         "n_themes": theme_rank_ctx["n_themes"],
-        # Corpus artefacts.
+        # Corpus artefacts. `matches` holds the EXPANDED set (so the
+        # today-list shows all Trump-related headlines); each entry has a
+        # name_only flag so the UI can highlight indirect references.
         "sources": source_summary,
         "core_sources": sorted(CORE_FEED_KEYS),
-        "matches": core_matched,
-        "wide_matches": wide_matched,
+        "matches": core_matched_expanded,
+        "wide_matches": wide_matched_expanded,
         "comparisons": core_comparisons,
         "wide_comparisons": wide_comparisons,
         "themes": core_themes,
@@ -251,7 +318,16 @@ def main():
     existing_today = next(
         (r for r in existing_log if r.get("date") == record["date"]), None
     )
+    # Pre-transition records have `percentage` in the expanded-detector
+    # meaning, not name-only. If we find one, replace it rather than
+    # comparing apples-to-oranges (expanded would almost always beat name-
+    # only and freeze the day on a metric we no longer publish).
+    existing_is_old_format = (
+        existing_today is not None
+        and "trump_articles_expanded" not in existing_today
+    )
     if (existing_today is not None
+            and not existing_is_old_format
             and (existing_today.get("percentage") or 0) >= record["percentage"]):
         logging.info(
             "Keeping earlier peak for %s (existing pct=%s >= new pct=%s)",
@@ -263,15 +339,31 @@ def main():
         record = existing_today   # render site from the preserved peak
         log = existing_log        # no replacement needed
     else:
-        # New run is the new peak (or first record of the day).
+        # New run is the new peak (or first record of the day, or a
+        # one-time replacement of a pre-transition record).
+        if existing_is_old_format:
+            logging.info(
+                "Replacing pre-transition record for %s (old expanded pct=%s)",
+                record["date"], existing_today.get("percentage"),
+            )
         log = [r for r in existing_log if r.get("date") != record["date"]]
         log.append(record)
         log.sort(key=lambda r: r.get("date", ""))
 
     LOG_FILE.write_text(json.dumps(log, indent=2, ensure_ascii=False))
 
+    # Render the PNG from the record we actually PUBLISHED (which may be the
+    # preserved earlier peak). Using this run's fresh assessment/core_pct
+    # when the peak belongs to an earlier run produces a daily PNG that
+    # contradicts the site card and the JSON log.
     out_path = OUTPUT_DIR / f"{today.isoformat()}.png"
-    generate_image(out_path, assessment["label"], today, core_pct, core_total)
+    generate_image(
+        out_path,
+        record["label"],
+        today,
+        record["percentage"],
+        record["total_articles"],
+    )
     render_site()
 
     print(f"\nDate:  {today.isoformat()}")

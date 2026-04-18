@@ -2,28 +2,58 @@
 Comparator subjects measured on the same Belgian RSS corpus as Trump.
 Used by main.py (writes counts into the daily log) and by site_gen.py
 (renders the comparison panel).
+
+Inclusion rule (applied manually; reviewed quarterly):
+  - Belgian figures: current federal PM, current party president of a
+    federal-coalition or major federal-opposition party, or a sitting
+    federal minister who is recurrently named in Belgian front-page news.
+  - International figures: heads of state or government whose actions
+    make recurring Belgian front-page news (US, France, Russia, Ukraine,
+    Israel).
+  - Removed from earlier versions: Orb\u00e1n, Meloni, Musk (intermittent
+    Belgian daily-news salience) and Jambon (the surname collides with
+    the French word for ham in food/recipe headlines).
+  - Once the live archive is 90+ days, this editorial list can be
+    replaced by "anyone with \u2265 N name mentions in the trailing
+    90-day core corpus", making the list self-maintaining.
+
+The patterns match article titles case-insensitively, with word
+boundaries. Python 3 \\b is Unicode-aware so accented characters work.
 """
 import re
 
-# (key, regex, display_label) -- regex matches against article titles, case-insensitive.
-# Patterns include the Dutch/French/English variants used in Belgian press.
+# (key, regex, display_label, region)
+# region is "intl" or "be"; used only for documentation/grouping.
 _TERMS = [
-    ("trump",     r"\btrump\b",                                  "Trump"),
-    ("de_wever",  r"\bde\s*wever\b",                             "De Wever"),
-    ("macron",    r"\bmacron\b",                                 "Macron"),
-    ("putin",     r"\b(putin|poetin|poutine)\b",                 "Putin"),
-    ("netanyahu", r"\bnetanyahu\b",                              "Netanyahu"),
-    ("zelensky",  r"\bzelensk(?:y|yi|i)\b",                      "Zelensky"),
-    ("musk",      r"\bmusk\b",                                   "Musk"),
-    ("orban",     r"\borb[aá]n\b",                               "Orb\u00e1n"),
-    ("meloni",    r"\bmeloni\b",                                 "Meloni"),
-    ("bouchez",   r"\bbouchez\b",                                "Bouchez"),
+    # ---- International (5) ----
+    ("trump",       r"\btrump\b",                                   "Trump",        "intl"),
+    ("putin",       r"\b(putin|poetin|poutine)\b",                  "Putin",        "intl"),
+    ("macron",      r"\bmacron\b",                                  "Macron",       "intl"),
+    ("netanyahu",   r"\bnetanyahu\b",                               "Netanyahu",    "intl"),
+    ("zelensky",    r"\bzelensk(?:yy|y|yi|i)\b",                    "Zelensky",     "intl"),
+    # ---- Belgian (10) ----
+    ("de_wever",    r"\bde\s*wever\b",                              "De Wever",     "be"),
+    ("bouchez",     r"\bbouchez\b",                                 "Bouchez",      "be"),
+    ("magnette",    r"\bmagnette\b",                                "Magnette",     "be"),
+    ("prevot",      r"\bpr[eé]vot\b",                               "Pr\u00e9vot",  "be"),
+    ("rousseau",    r"\brousseau\b",                                "Rousseau",     "be"),
+    ("francken",    r"\bfrancken\b",                                "Francken",     "be"),
+    ("crevits",     r"\bcrevits\b",                                 "Crevits",      "be"),
+    ("de_croo",     r"\bde\s*croo\b",                               "De Croo",      "be"),
+    ("van_peteghem",r"\bvan\s*peteghem\b",                          "Van Peteghem", "be"),
+    ("verlinden",   r"\bverlinden\b",                               "Verlinden",    "be"),
 ]
 
 COMPARATORS = [
-    {"key": k, "label": label, "pattern": re.compile(pat, re.IGNORECASE)}
-    for k, pat, label in _TERMS
+    {"key": k, "label": label, "region": region,
+     "pattern": re.compile(pat, re.IGNORECASE)}
+    for k, pat, label, region in _TERMS
 ]
+
+# Name-only Trump pattern, exposed so main.py can count per-outlet Trump
+# matches using the same regex used for comparator ranking (keeps share,
+# breadth, rank and dominance on one consistent yardstick).
+TRUMP_NAME_PATTERN = next(c["pattern"] for c in COMPARATORS if c["key"] == "trump")
 
 
 def count_matches(titles):

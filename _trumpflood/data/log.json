@@ -1935,215 +1935,282 @@
   },
   {
     "date": "2026-04-18",
-    "generated_at": "2026-04-18T08:57:36+02:00",
-    "last_checked_at": "2026-04-18T20:29:14+02:00",
-    "total_articles": 290,
-    "trump_articles": 11,
-    "percentage": 3.8,
-    "core_percentage": 3.8,
-    "wide_total_articles": 352,
-    "wide_trump_articles": 11,
-    "wide_percentage": 3.1,
-    "macro_percentage": 4.3,
-    "qualifying_outlets": 10,
+    "generated_at": "2026-04-18T19:49:34+02:00",
+    "last_checked_at": "2026-04-18T19:49:34+02:00",
+    "total_articles": 609,
+    "trump_articles": 16,
+    "percentage": 2.6,
+    "core_percentage": 2.6,
+    "trump_articles_expanded": 16,
+    "core_percentage_expanded": 2.6,
+    "indirect_references": 0,
+    "wide_total_articles": 816,
+    "wide_trump_articles": 24,
+    "wide_percentage": 2.9,
+    "wide_trump_articles_expanded": 24,
+    "wide_percentage_expanded": 2.9,
+    "macro_percentage": 4.0,
+    "qualifying_outlets": 25,
     "zone": "soaked",
     "label": "The zone is soaked",
     "narrative": "Most-mentioned figure by a wide margin.",
     "rank": 1,
-    "n_people": 10,
-    "dominance": 1.57,
-    "breadth": 0.47,
+    "n_people": 15,
+    "dominance": 3.2,
+    "breadth": 0.65,
     "deviation": null,
-    "smoothed_pct": 2.55,
+    "smoothed_pct": 2.25,
     "assessment_method": "composite",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 20,
-        "trump": 0,
-        "share": 0.0
+        "today": 27,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
       },
       "google_fr": {
         "fetched": 34,
-        "today": 7,
-        "trump": 0,
-        "share": 0.0
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
       },
       "google_nl_politics": {
-        "fetched": 39,
-        "today": 2,
+        "fetched": 40,
+        "today": 8,
+        "kept": 7,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
-        "fetched": 70,
-        "today": 14,
-        "trump": 0,
-        "share": 0.0
+        "fetched": 67,
+        "today": 25,
+        "kept": 19,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.79
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 6,
-        "trump": 0,
-        "share": 0.0
+        "today": 28,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
       },
       "google_nl_tech": {
-        "fetched": 67,
-        "today": 3,
+        "fetched": 66,
+        "today": 12,
+        "kept": 10,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 8,
+        "today": 41,
+        "kept": 36,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 36,
-        "today": 2,
+        "fetched": 38,
+        "today": 6,
+        "kept": 6,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 41,
-        "today": 0,
-        "trump": 0,
-        "share": 0
+        "fetched": 34,
+        "today": 11,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
       },
       "google_fr_business": {
-        "fetched": 48,
-        "today": 3,
+        "fetched": 37,
+        "today": 8,
+        "kept": 7,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 5,
+        "today": 41,
+        "kept": 41,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 50,
-        "today": 3,
-        "trump": 0,
-        "share": 0.0
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
       },
       "hln": {
         "fetched": 30,
-        "today": 23,
+        "today": 30,
+        "kept": 30,
         "trump": 1,
-        "share": 4.35
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "demorgen": {
-        "fetched": 29,
-        "today": 19,
-        "trump": 2,
-        "share": 10.53
+        "fetched": 28,
+        "today": 21,
+        "kept": 21,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 14.29
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 48,
-        "trump": 1,
-        "share": 2.08
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "gva": {
         "fetched": 50,
-        "today": 48,
-        "trump": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
         "today": 50,
+        "kept": 50,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 50,
-        "today": 8,
+        "today": 11,
+        "kept": 11,
         "trump": 2,
-        "share": 25.0
+        "trump_expanded": 2,
+        "share": 18.18
       },
       "sporza": {
         "fetched": 20,
-        "today": 2,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 3,
+        "today": 13,
+        "kept": 13,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 7,
-        "trump": 0,
-        "share": 0.0
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
       },
       "lalibre": {
         "fetched": 100,
-        "today": 13,
-        "trump": 2,
-        "share": 15.38
+        "today": 44,
+        "kept": 44,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.82
       },
       "lecho": {
         "fetched": 10,
         "today": 0,
+        "kept": 0,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 21,
-        "trump": 0,
-        "share": 0.0
+        "today": 99,
+        "kept": 98,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.02
       },
       "septsursept": {
         "fetched": 30,
-        "today": 3,
-        "trump": 0,
-        "share": 0.0
+        "today": 27,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
       },
       "bx1": {
         "fetched": 10,
-        "today": 0,
+        "today": 8,
+        "kept": 8,
         "trump": 0,
-        "share": 0
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 8,
+        "today": 14,
+        "kept": 12,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 18,
-        "trump": 2,
-        "share": 11.11
+        "today": 55,
+        "kept": 53,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.89
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 6,
+        "today": 29,
+        "kept": 29,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 6,
+        "today": 26,
+        "kept": 26,
         "trump": 0,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 99,
-        "today": 5,
+        "fetched": 100,
+        "today": 33,
+        "kept": 30,
         "trump": 1,
-        "share": 20.0
+        "trump_expanded": 1,
+        "share": 3.33
       }
     },
     "core_sources": [
@@ -2168,173 +2235,313 @@
     ],
     "matches": [
       {
-        "title": "Trump beweert dat onderzoek naar ufo’s ‘interessante’ documenten oplevert",
-        "url": "https://www.hln.be/buitenland/trump-beweert-dat-onderzoek-naar-ufos-interessante-documenten-oplevert~a79c6d94/",
-        "source": "hln"
+        "title": "Trump is woest op Anthropic, maar het krachtige AI-systeem Mythos bezorgt topman Amodei toch een uitnodiging",
+        "url": "https://www.standaard.be/media-en-cultuur/trump-is-woest-op-anthropic-maar-het-krachtige-ai-systeem-mythos-bezorgt-topman-amodei-toch-een-uitnodiging/146373656.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Paus wil niet verder in debat gaan met Trump: “Geen belang bij discussie”",
+        "url": "https://www.hln.be/buitenland/paus-wil-niet-verder-in-debat-gaan-met-trump-geen-belang-bij-discussie~a8d965eb/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "JD Vance staat in de schaduw van Trump, maar kijkt al vooruit: ‘Hij heeft echt ambitie om president te worden’",
+        "url": "https://www.demorgen.be/nieuws/jd-vance-staat-in-de-schaduw-van-trump-maar-kijkt-al-vooruit-hij-heeft-echt-ambitie-om-president-te-worden~b99cd9b4/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Waarom vertelden jullie ons niet over Pearl Harbor?’: Japan blijft rustig onder Trump, en daar kan Europa mogelijk iets van leren",
+        "url": "https://www.demorgen.be/nieuws/waarom-vertelden-jullie-ons-niet-over-pearl-harbor-japan-blijft-rustig-onder-trump-en-daar-kan-europa-mogelijk-iets-van-leren~b106984d/",
+        "source": "demorgen",
+        "name_only": true
       },
       {
         "title": "Live - Trump: onderzoek naar ufo’s levert ‘interessante’ documenten op",
         "url": "https://www.demorgen.be/snelnieuws/live-trump-onderzoek-naar-ufo-s-levert-interessante-documenten-op~b13cc951/",
-        "source": "demorgen"
+        "source": "demorgen",
+        "name_only": true
       },
       {
-        "title": "Waarom Trump zo graag Poetin zou zijn, maar Amerika hem tegenhoudt",
-        "url": "https://www.demorgen.be/meningen/waarom-trump-zo-graag-poetin-zou-zijn-maar-amerika-hem-tegenhoudt~bd202408/",
-        "source": "demorgen"
+        "title": "LIVE AMERIKA. Paus wil niet verder in debat gaan met Trump",
+        "url": "https://www.gva.be/buitenland/live-amerika.-paus-wil-niet-verder-in-debat-gaan-met-trump/76845705.html",
+        "source": "gva",
+        "name_only": true
       },
       {
-        "title": "LIVE AMERIKA. Trump zegt dat UFO-onderzoek “interessante” documenten heeft blootgelegd",
-        "url": "https://www.nieuwsblad.be/buitenland/live-amerika.-trump-zegt-dat-ufo-onderzoek-interessante-documenten-heeft-blootgelegd/27528053.html",
-        "source": "nieuwsblad"
-      },
-      {
-        "title": "Trump dreigt staakt-het-vuren met Iran niet te verlengen als er geen deal wordt bereikt",
-        "url": "https://www.knack.be/nieuws/wereld/live/spanningen-midden-oosten/trump-dreigt-staakt-het-vuren-met-iran-niet-te-verlengen-als-er-geen-deal-wordt-bereikt-1154511/",
-        "source": "knack"
+        "title": "Paus: ‘Nieuwe discussie met Trump is helemaal niet in mijn belang’",
+        "url": "https://www.knack.be/nieuws/wereld/live/spanningen-midden-oosten/paus-nieuwe-discussie-met-trump-is-helemaal-niet-in-mijn-belang-1154511/",
+        "source": "knack",
+        "name_only": true
       },
       {
         "title": "‘Triomfboog in Washington versus Europese wijk in Brussel? Trump kiest voor beeld zonder inhoud, Europa voor inhoud zonder beeld’",
         "url": "https://www.knack.be/nieuws/belgie/maatschappij/triomfboog-in-washington-versus-europese-wijk-in-brussel-trump-kiest-voor-beeld-zonder-inhoud-europa-voor-inhoud-zonder-beeld/",
-        "source": "knack"
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Léon XIV en Afrique : en Angola, \"n'ayez pas peur de la dissidence\" dit le pape aux autorités, Trump toujours en toile de fond",
+        "url": "https://www.rtbf.be/article/leon-xiv-en-afrique-en-angola-n-ayez-pas-peur-de-la-dissidence-dit-le-pape-aux-autorites-trump-toujours-en-toile-de-fond-11711656",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump réagit à la nouvelle fermeture du détroit d'Ormuz: \"Ils ne peuvent pas nous faire chanter\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/04/18/donald-trump-reagit-a-la-nouvelle-fermeture-du-detroit-dormuz-ils-ne-peuvent-pas-nous-faire-chanter-RVHDVPXLPBCQBOHCAKH7GIH6IM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Querelle entre le pape et Trump: Léon XIV met les choses au clair",
+        "url": "https://www.lalibre.be/international/europe/2026/04/18/querelle-entre-le-pape-et-trump-leon-xiv-met-les-choses-au-clair-OU6CXCZIPZGOJCXC4RH5DLZ3Q4/",
+        "source": "lalibre",
+        "name_only": true
       },
       {
         "title": "L’improbable querelle entre Donald Trump et Léon XIV",
         "url": "https://www.lalibre.be/international/amerique/2026/04/18/limprobable-querelle-entre-donald-trump-et-leon-xiv-NQTTGTVMSVHCXI5SNHTIDLSKCM/",
-        "source": "lalibre"
+        "source": "lalibre",
+        "name_only": true
       },
       {
-        "title": "DIRECT- Guerre au Moyen-Orient : Trump affirme que l'uranium iranien sera \"rapporté aux Etats-Unis\"",
-        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/18/direct-guerre-au-moyen-orient-trump-affirme-que-luranium-iranien-sera-rapporte-aux-etats-unis-WBFSFH3STFFRLFAIENMQLLGXQ4/",
-        "source": "lalibre"
+        "title": "DIRECT- Guerre au Moyen-Orient : \"L'Iran voulait encore fermer le détroit, mais ils ne peuvent pas nous faire chanter\", affirme Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/18/direct-guerre-au-moyen-orient-de-nouveaux-pourparlers-entre-washington-et-teheran-au-pakistan-lundi-DGO5YB4EN5GIPDZFAC5ZM3A7QQ/",
+        "source": "dhnet",
+        "name_only": true
       },
       {
-        "title": "Donald Trump dit que le blocus des ports iraniens va continuer si un accord n’est pas conclu - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMDdsSExsblFERlBJM290eUxTWFdyY3ZJVVhBT1ZxdXItN0RJWHhWTFJ3djE2NGEwMl9ubndLV3VuM09JMFFTT24xSnkyVFE5X044Wk5YYjJ2c19jVWo5VTFSSDJqZ003WWcyU1ZWX1RKdVRUb1VhXy1aMUlfcEJLZEdUZUZBcHVPeHNvWmxxM1dONWZ0S3pHYlNMOEtzUGxlZU5UU2JvQ0xBWXpFdFVhU1I0eVZKZHlVMmh1aURBU1ZmS0ZIQjZn?oc=5",
-        "source": "lesoir_g"
+        "title": "Trump sur le blocage du détroit d’Ormuz: “Ils ne peuvent pas nous faire chanter”",
+        "url": "https://www.7sur7.be/monde/trump-sur-le-blocage-du-detroit-dormuz-ils-ne-peuvent-pas-nous-faire-chanter~a069546f/",
+        "source": "septsursept",
+        "name_only": true
       },
       {
-        "title": "Donald Trump : « Je ne prolongerai peut-être pas le cessez-le-feu, mais le blocus continuera - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZDh5SHdLOW03LUNKS29ueG5jbXJtZ19qZVVaeFUwMTh1RjkycDdDLXYySlVza3hfT3RFMWNGS0pOUEtDZG4xb0NIdHUySEZWUDh1SXF6enFETXFaRmkwQnRvTm9YQ2RLMHIzODJfLUxRNDMtOUNsMVpPYXhTUUQ2V0RMTnF3bkxFQjZUNS1MQUx6WFU4c2ZlRTZ4Vkp6aFFPb3VrNkNWTkVXM0poZ3NIS2lkMTJ0bjZaUFM5cDBWQ1hLUQ?oc=5",
-        "source": "lesoir_g"
+        "title": "« Je pourrais en avoir, s’il vous plaît ? » : Trump allège des restrictions sur les substances psychédéliques - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZHd0TVAtRE54QkJLNmtyYTJyVFVGUDRUbnJ1bVEwS1gzVmtVcU93R3EzSlV4WEFRZGZUc056dzJoSV9ubUVSRDV3WURUMlZubjFxUGNQVjV4dmZKeXZUQ2lpY0x6NzdOMi1JN0xBUGoxUlVpcm1vaGFzclV4R0haLTlJaDI4aUg2ZS0zM3F5WU5BUEljRFd2dFpLU24zRnFQa1pMOTlKYzUzMzJGVm9ZSHJScDZQTzFFRmlHeG13?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
       },
       {
         "title": "« Un accord très proche », « Le blocus continuera » : après la réouverture du détroit d’Ormuz, de (nouvelles) déclarations contradictoires de Donald Trump - RTL Info",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOLXBJYlpYQ2ZsRkJ5bkJjemVTdloxdmRIRnlXaElBSFMzNnp0MWFVNHd0bkRJWG5NUU5Bc09mR2JMM3l2TTl1Z2x1TUUtVy0yT2djWTFpQjZsSm8yNndkMEdVMGtfN0NHb2VmeDl6MjVFTVV2bXU4SWNGLVVFSWdPV3FxUGIwcDd3S3lZTEVsVXJLOUYzRm5VR3hNcVZ5SFVkVmhnZ3B6Y2F2ZWdxaEExcjlRdnA2QlJjcElwUWpvU3I3MllzamtEcnFLVnFtYlc2LUFET3ZPanFLZ0JD?oc=5",
-        "source": "rtl_g"
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUXJnMmRHWEx5UHFGWWdPTllYMEtIS19rZ2tTUnZfaFVwVzdWbVJxTmVXd3lTX1N2aEJHS1I0aW1hSWFQV1JMUUZPUnQzMXhaYW1XT3Q0dTdiQzhING50ci1ocUV2S1Rma3dmWE0zRU4yYk8yclVXQ0lDcGROQWVZcnVFem9OaDhXSzVRb1pFU0k2QVYyekZzUXVtTEUyeDNJb3RVRWxVX3J0LXByZERMMjN3SWV5WWg5b2Z5bnVPdUVMZGVOMk1FNVYwTzRZTGZZ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Trump beweert dat onderzoek naar ufo’s ‘interessante’ documenten oplevert",
-        "url": "https://www.hln.be/buitenland/trump-beweert-dat-onderzoek-naar-ufos-interessante-documenten-oplevert~a79c6d94/",
-        "source": "hln"
+        "title": "Paus wil niet verder in debat gaan met Trump: “Geen belang bij discussie” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa0VSVFRrZm9DTGtsc3pDVGgycE9ic3Q1NW9MTkhYSHAtX25fUnY2bWRZTEJ5cS1IMUI0NEhXeDdrMHN0aFBwYTRXaHEwZEpGT08xaGVQQ3ZnNG91ZUdjM3lFQnpNWlZrUHN6RnNYRWdvb1BGRGRlQ2VFazZrQlBCQlZ5a19CU1RoNnR6T21MVFN6RnNYbHF4bnFlMUNYNkhtZEl4RTVLX3dxaXAybzY4?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Moyen-Orient : l'Iran \"voulait encore fermer\" le détroit d'Ormuz mais il \"ne peut pas nous faire chanter\" déclare Donald Trump - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTlJHYmx0VGdocFRGMXRibkJxRVFUM1lpLUZIeFpITGNQQV9QSzlGbEx2LWtyeXIzV241VVVYX0Z3LWJuU1hEUFVNMXZrSGpOd01Qem5xdlMxRGlMcnhVQ2U4UW9HNm1DV2xZWWFVa3czWjBBWkFLT2U1bi0xeVpyZTVITHZTU3ZySGtKLXRKd0NRdC1JWi1OVWNfZTFOdU41YUp6WGkta3VvS2g2dlZOc1RfQjVLeVRKRC1GYXBmRl90MDVVcFd0dS1aNHhFSkUzcFgyR1RsODdfZFU?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Querelle entre le pape et Trump: Léon XIV met les choses au clair - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRnZZQXJhSnJha01GWEFMeWZnZzcyaVJ2N2phNk9URjdnSDNWSjFMTzZ6RWQ2M1VYTzUtdmp5LXJVNXl5WjVfdWU0TkhWRkQwUF9nSHlPd2oyYnd3am9LdWRpX3Rla3E4LWwyUlFWbld3YTFQWW9uMEdUTDBMSnFQT3Z2RlZWaGVjbEZUNEVoSDVhVzVSbTc2aUczQkUzOXF3SGh1Q3hLN1ZJVVY0MG5faUFvcXhjWHNFeldNc2xheGpVV1hTR3JpNkkybV9vdVQycFhFN1JBWkNGU2huNmlFSA?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Stop met die oervervelende Trump-vergelijkingen en leer liever deze vier lessen over macht en democratie - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOV29XenFRMXBQQ01OM18zZHY2dXYzY01LaUs5THVvZ214ZmdiaXExMEhpVXQtTnA1LXZFNkpMakdjSjRkV1R3Y1FVYzVNMHJlY0o3V1lDQVhDUG1OMDk4a3QtQ190Y2dOS3BkbF9wc0hzbzZlUXBJQWZudzF2ZEdYbDBFZG1Bb201YUd3ay1DRjh6eTcydUVUVFZwekdqUjgySWhSajdDQ1JCTTgwZ3pnZlJZU0M1Mml4M1lIbGtxN1M2QUlnaWV5OWM0U2RLUlJ3ZEpGLVFrZnhtTXp4M2FZbA?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "‘Waarom vertelden jullie ons niet over Pearl Harbor?’: Japan blijft rustig onder Trump, en daar kan Europa mogelijk iets van leren - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNb0dzN0pTeEJJQW1iWFdINmFnS1FVd2N4RmNqNEJ3THliQWlIZlcxd0llM0JTVlUyNlFXVDZKT3U4OTdxdnZvS292VGg2LU9nLTNPc01ONmVsMnBrX2F6Wks3TzBSZGI0TzRxZ09nNnRyWHhDY2duSHQ1czBuTEZ3ekVlR3FSM3ZUN2lORlBKaE5kbThERGZQaGRudHo4NlJvZ25CM0N5RldyMGVndG13LWtWRXJ4OXEybV9mUmN6cm1EMUh0WWhobGlCQloybjJpMFY0d193b2ZYS3d1eVk3UndPMnlQTjZSNHlfbGkyX2tvVnV2MzFDZnRR?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump krijgt zijn zin: migranten worden naar Congo gestuurd, ook al hebben ze geen band met het land - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd3daR0R2a0IxMVctbGNfWTJoVE1OenEtLWlsemxIZ3N3TTRveUM1R0Nmd25FZVRFRGFYU01nQ0xKRENGbUs0NFNjSkhwZDVWWl8tc2xvVTd1QWw1bHF2TWwwM1FCT01nMWkwUjY1T3padUVPOFBtU3BDd0J0WGcyM1VueWxXaEd0MkFVOFdzSVVTQ1hza1hWeVI5MmhtNEpmSlBkVnBKUVVsTE1oU21YV2stYk9MUVNadjhPVjBiMjJZaW1IWGl5c3JPdw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump is woest op Anthropic, maar het krachtige AI-systeem Mythos bezorgt topman Amodei toch een uitnodiging - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNd0lBcGRzUnVZUG5pTHRBOVBsUktBcFdvcFFxZ2U0SHhpQ29CTlJfTWJVQk1DWkhXTldsQXhiNGNuMk9na2NOQjBaRDFPMVBiem40UkhtUUgyRDd3R2ZGLUhjci1CZGFXaHNnXzlYWWNVN1NheTZLNWxxQnUxcU5BLVkzaHJIMElINHRIMkdqenRRTHkzTWpyQnFUM01qQWdNZmdvOWFudE1jR0pCLThZYy1Fby1sRFA5YXVhS3NXakI2RXlKTHpnSXoyX0VlaFRiV0NpRk1hZGtfYnBBcW0yWGYyMHBraDRXU2VldmthcE5lTUVxM253?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "L'improbable querelle entre Donald Trump et Léon XIV - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSFI3X2htcVBlV2ZteW1lMUJnamsyQldrYk5xYkdJZl82aEpySXVNWkozVnNQNDRLTUgxZGxzN2wzVDNpQkcxNjZ4MFpqZXVwNFVhU2VOMUo4THZqSkRLdFYwWFlrM1M4LVRaVFlGMjZtNFFTa0FrOHhkMXBDZTI3MV82N2FaTzdSOFJ4dTNiZmN0NnJFVUV4R2lJWkZYODlhbVN6R1dRSnNuNXhQV0NZTlprR0IwZmRqNFBCNy1FZ3JwS0xfWlF1RWhySmFNOXREVlE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump is woest op Anthropic, maar het krachtige AI-systeem Mythos bezorgt topman Amodei toch een uitnodiging",
+        "url": "https://www.standaard.be/media-en-cultuur/trump-is-woest-op-anthropic-maar-het-krachtige-ai-systeem-mythos-bezorgt-topman-amodei-toch-een-uitnodiging/146373656.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Paus wil niet verder in debat gaan met Trump: “Geen belang bij discussie”",
+        "url": "https://www.hln.be/buitenland/paus-wil-niet-verder-in-debat-gaan-met-trump-geen-belang-bij-discussie~a8d965eb/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "JD Vance staat in de schaduw van Trump, maar kijkt al vooruit: ‘Hij heeft echt ambitie om president te worden’",
+        "url": "https://www.demorgen.be/nieuws/jd-vance-staat-in-de-schaduw-van-trump-maar-kijkt-al-vooruit-hij-heeft-echt-ambitie-om-president-te-worden~b99cd9b4/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Waarom vertelden jullie ons niet over Pearl Harbor?’: Japan blijft rustig onder Trump, en daar kan Europa mogelijk iets van leren",
+        "url": "https://www.demorgen.be/nieuws/waarom-vertelden-jullie-ons-niet-over-pearl-harbor-japan-blijft-rustig-onder-trump-en-daar-kan-europa-mogelijk-iets-van-leren~b106984d/",
+        "source": "demorgen",
+        "name_only": true
       },
       {
         "title": "Live - Trump: onderzoek naar ufo’s levert ‘interessante’ documenten op",
         "url": "https://www.demorgen.be/snelnieuws/live-trump-onderzoek-naar-ufo-s-levert-interessante-documenten-op~b13cc951/",
-        "source": "demorgen"
+        "source": "demorgen",
+        "name_only": true
       },
       {
-        "title": "Waarom Trump zo graag Poetin zou zijn, maar Amerika hem tegenhoudt",
-        "url": "https://www.demorgen.be/meningen/waarom-trump-zo-graag-poetin-zou-zijn-maar-amerika-hem-tegenhoudt~bd202408/",
-        "source": "demorgen"
+        "title": "LIVE AMERIKA. Paus wil niet verder in debat gaan met Trump",
+        "url": "https://www.gva.be/buitenland/live-amerika.-paus-wil-niet-verder-in-debat-gaan-met-trump/76845705.html",
+        "source": "gva",
+        "name_only": true
       },
       {
-        "title": "LIVE AMERIKA. Trump zegt dat UFO-onderzoek “interessante” documenten heeft blootgelegd",
-        "url": "https://www.nieuwsblad.be/buitenland/live-amerika.-trump-zegt-dat-ufo-onderzoek-interessante-documenten-heeft-blootgelegd/27528053.html",
-        "source": "nieuwsblad"
-      },
-      {
-        "title": "Trump dreigt staakt-het-vuren met Iran niet te verlengen als er geen deal wordt bereikt",
-        "url": "https://www.knack.be/nieuws/wereld/live/spanningen-midden-oosten/trump-dreigt-staakt-het-vuren-met-iran-niet-te-verlengen-als-er-geen-deal-wordt-bereikt-1154511/",
-        "source": "knack"
+        "title": "Paus: ‘Nieuwe discussie met Trump is helemaal niet in mijn belang’",
+        "url": "https://www.knack.be/nieuws/wereld/live/spanningen-midden-oosten/paus-nieuwe-discussie-met-trump-is-helemaal-niet-in-mijn-belang-1154511/",
+        "source": "knack",
+        "name_only": true
       },
       {
         "title": "‘Triomfboog in Washington versus Europese wijk in Brussel? Trump kiest voor beeld zonder inhoud, Europa voor inhoud zonder beeld’",
         "url": "https://www.knack.be/nieuws/belgie/maatschappij/triomfboog-in-washington-versus-europese-wijk-in-brussel-trump-kiest-voor-beeld-zonder-inhoud-europa-voor-inhoud-zonder-beeld/",
-        "source": "knack"
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Léon XIV en Afrique : en Angola, \"n'ayez pas peur de la dissidence\" dit le pape aux autorités, Trump toujours en toile de fond",
+        "url": "https://www.rtbf.be/article/leon-xiv-en-afrique-en-angola-n-ayez-pas-peur-de-la-dissidence-dit-le-pape-aux-autorites-trump-toujours-en-toile-de-fond-11711656",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump réagit à la nouvelle fermeture du détroit d'Ormuz: \"Ils ne peuvent pas nous faire chanter\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/04/18/donald-trump-reagit-a-la-nouvelle-fermeture-du-detroit-dormuz-ils-ne-peuvent-pas-nous-faire-chanter-RVHDVPXLPBCQBOHCAKH7GIH6IM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Querelle entre le pape et Trump: Léon XIV met les choses au clair",
+        "url": "https://www.lalibre.be/international/europe/2026/04/18/querelle-entre-le-pape-et-trump-leon-xiv-met-les-choses-au-clair-OU6CXCZIPZGOJCXC4RH5DLZ3Q4/",
+        "source": "lalibre",
+        "name_only": true
       },
       {
         "title": "L’improbable querelle entre Donald Trump et Léon XIV",
         "url": "https://www.lalibre.be/international/amerique/2026/04/18/limprobable-querelle-entre-donald-trump-et-leon-xiv-NQTTGTVMSVHCXI5SNHTIDLSKCM/",
-        "source": "lalibre"
+        "source": "lalibre",
+        "name_only": true
       },
       {
-        "title": "DIRECT- Guerre au Moyen-Orient : Trump affirme que l'uranium iranien sera \"rapporté aux Etats-Unis\"",
-        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/18/direct-guerre-au-moyen-orient-trump-affirme-que-luranium-iranien-sera-rapporte-aux-etats-unis-WBFSFH3STFFRLFAIENMQLLGXQ4/",
-        "source": "lalibre"
+        "title": "DIRECT- Guerre au Moyen-Orient : \"L'Iran voulait encore fermer le détroit, mais ils ne peuvent pas nous faire chanter\", affirme Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/18/direct-guerre-au-moyen-orient-de-nouveaux-pourparlers-entre-washington-et-teheran-au-pakistan-lundi-DGO5YB4EN5GIPDZFAC5ZM3A7QQ/",
+        "source": "dhnet",
+        "name_only": true
       },
       {
-        "title": "Donald Trump dit que le blocus des ports iraniens va continuer si un accord n’est pas conclu - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMDdsSExsblFERlBJM290eUxTWFdyY3ZJVVhBT1ZxdXItN0RJWHhWTFJ3djE2NGEwMl9ubndLV3VuM09JMFFTT24xSnkyVFE5X044Wk5YYjJ2c19jVWo5VTFSSDJqZ003WWcyU1ZWX1RKdVRUb1VhXy1aMUlfcEJLZEdUZUZBcHVPeHNvWmxxM1dONWZ0S3pHYlNMOEtzUGxlZU5UU2JvQ0xBWXpFdFVhU1I0eVZKZHlVMmh1aURBU1ZmS0ZIQjZn?oc=5",
-        "source": "lesoir_g"
+        "title": "Trump sur le blocage du détroit d’Ormuz: “Ils ne peuvent pas nous faire chanter”",
+        "url": "https://www.7sur7.be/monde/trump-sur-le-blocage-du-detroit-dormuz-ils-ne-peuvent-pas-nous-faire-chanter~a069546f/",
+        "source": "septsursept",
+        "name_only": true
       },
       {
-        "title": "Donald Trump : « Je ne prolongerai peut-être pas le cessez-le-feu, mais le blocus continuera - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZDh5SHdLOW03LUNKS29ueG5jbXJtZ19qZVVaeFUwMTh1RjkycDdDLXYySlVza3hfT3RFMWNGS0pOUEtDZG4xb0NIdHUySEZWUDh1SXF6enFETXFaRmkwQnRvTm9YQ2RLMHIzODJfLUxRNDMtOUNsMVpPYXhTUUQ2V0RMTnF3bkxFQjZUNS1MQUx6WFU4c2ZlRTZ4Vkp6aFFPb3VrNkNWTkVXM0poZ3NIS2lkMTJ0bjZaUFM5cDBWQ1hLUQ?oc=5",
-        "source": "lesoir_g"
+        "title": "« Je pourrais en avoir, s’il vous plaît ? » : Trump allège des restrictions sur les substances psychédéliques - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZHd0TVAtRE54QkJLNmtyYTJyVFVGUDRUbnJ1bVEwS1gzVmtVcU93R3EzSlV4WEFRZGZUc056dzJoSV9ubUVSRDV3WURUMlZubjFxUGNQVjV4dmZKeXZUQ2lpY0x6NzdOMi1JN0xBUGoxUlVpcm1vaGFzclV4R0haLTlJaDI4aUg2ZS0zM3F5WU5BUEljRFd2dFpLU24zRnFQa1pMOTlKYzUzMzJGVm9ZSHJScDZQTzFFRmlHeG13?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
       },
       {
         "title": "« Un accord très proche », « Le blocus continuera » : après la réouverture du détroit d’Ormuz, de (nouvelles) déclarations contradictoires de Donald Trump - RTL Info",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOLXBJYlpYQ2ZsRkJ5bkJjemVTdloxdmRIRnlXaElBSFMzNnp0MWFVNHd0bkRJWG5NUU5Bc09mR2JMM3l2TTl1Z2x1TUUtVy0yT2djWTFpQjZsSm8yNndkMEdVMGtfN0NHb2VmeDl6MjVFTVV2bXU4SWNGLVVFSWdPV3FxUGIwcDd3S3lZTEVsVXJLOUYzRm5VR3hNcVZ5SFVkVmhnZ3B6Y2F2ZWdxaEExcjlRdnA2QlJjcElwUWpvU3I3MllzamtEcnFLVnFtYlc2LUFET3ZPanFLZ0JD?oc=5",
-        "source": "rtl_g"
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUXJnMmRHWEx5UHFGWWdPTllYMEtIS19rZ2tTUnZfaFVwVzdWbVJxTmVXd3lTX1N2aEJHS1I0aW1hSWFQV1JMUUZPUnQzMXhaYW1XT3Q0dTdiQzhING50ci1ocUV2S1Rma3dmWE0zRU4yYk8yclVXQ0lDcGROQWVZcnVFem9OaDhXSzVRb1pFU0k2QVYyekZzUXVtTEUyeDNJb3RVRWxVX3J0LXByZERMMjN3SWV5WWg5b2Z5bnVPdUVMZGVOMk1FNVYwTzRZTGZZ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 11,
-      "de_wever": 0,
-      "macron": 0,
-      "putin": 2,
+      "trump": 16,
+      "putin": 0,
+      "macron": 3,
       "netanyahu": 0,
       "zelensky": 0,
-      "musk": 1,
-      "orban": 1,
-      "meloni": 3,
-      "bouchez": 0
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 11,
-      "de_wever": 2,
-      "macron": 1,
-      "putin": 2,
+      "trump": 24,
+      "putin": 1,
+      "macron": 4,
       "netanyahu": 0,
-      "zelensky": 0,
-      "musk": 1,
-      "orban": 1,
-      "meloni": 3,
-      "bouchez": 1
+      "zelensky": 1,
+      "de_wever": 3,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
     },
     "themes": {
-      "war": 11,
-      "crime": 12,
-      "eu": 4,
-      "politics": 8,
-      "be_gov": 8,
-      "culture": 8,
-      "tech": 1,
-      "economy": 5,
-      "sports": 31,
-      "health": 3,
+      "war": 33,
+      "crime": 14,
+      "eu": 16,
+      "politics": 14,
+      "be_gov": 15,
+      "culture": 24,
+      "tech": 8,
+      "economy": 4,
+      "sports": 52,
+      "health": 9,
       "climate": 1,
-      "migration": 1,
-      "education": 0,
-      "weather": 15
+      "migration": 0,
+      "education": 6,
+      "weather": 5
     },
     "wide_themes": {
-      "war": 16,
-      "crime": 12,
-      "eu": 5,
-      "politics": 11,
-      "be_gov": 11,
-      "culture": 9,
-      "tech": 3,
-      "economy": 6,
-      "sports": 36,
-      "health": 3,
-      "climate": 2,
-      "migration": 1,
-      "education": 1,
-      "weather": 18
+      "war": 47,
+      "crime": 22,
+      "eu": 25,
+      "politics": 20,
+      "be_gov": 20,
+      "culture": 30,
+      "tech": 13,
+      "economy": 8,
+      "sports": 75,
+      "health": 10,
+      "climate": 3,
+      "migration": 0,
+      "education": 7,
+      "weather": 6
     }
   }
 ]
