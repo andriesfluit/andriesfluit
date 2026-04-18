@@ -82,6 +82,11 @@
   }
   @media (max-width: 760px) {
     .hero { grid-template-columns: 1fr; gap: 32px; }
+    /* CSS Grid gives each cell an implicit min-width: auto equal to the
+       content's intrinsic size. With a 320px-intrinsic canvas inside
+       .portrait-wrap, that pushes the grid column wider than the viewport.
+       min-width:0 on the grid children is the standard fix. */
+    .hero > * { min-width: 0; }
     .portrait-wrap { max-width: 360px; margin: 0 auto; }
   }
 
@@ -102,29 +107,33 @@
     .brand-sub { font-size: 10px; }
 
     /* Hero: portrait + scale must fit inside .wrap content-width (screen
-       minus 36px horizontal padding). Use flex with fixed narrow scale
-       and a flexible portrait so the sum can never exceed 100%. */
+       minus 36px horizontal padding). Critical: grid children need
+       min-width:0 to shrink below intrinsic content size, and the
+       portrait canvas+image need explicit max-width to actually shrink. */
     .hero { gap: 24px; margin-bottom: 48px; }
     .portrait-wrap {
       width: 100%;
       max-width: 100%;
+      min-width: 0;
       gap: 8px;
     }
     .portrait {
-      /* min-width:0 is critical to let the flex item shrink below its
-         intrinsic 320px hint. Without it, the 320px default wins and
-         causes horizontal overflow. */
       width: auto;
       min-width: 0;
-      flex: 1 1 auto;
-      max-width: calc(100% - 72px);
+      flex: 1 1 0;
+      max-width: none;
+    }
+    .portrait img,
+    .portrait canvas {
+      max-width: 100%;
     }
     .scale {
-      width: 64px;
-      flex: 0 0 64px;
+      width: 88px;
+      flex: 0 0 88px;
       min-width: 0;
     }
-    .band-name { font-size: 10px; letter-spacing: 0.1em; }
+    .band { overflow: hidden; padding: 6px 10px; }
+    .band-name { font-size: 10px; letter-spacing: 0.06em; }
 
     /* Readout: large type scales down more aggressively than at 760px.
        "The zone is getting wet" is 23 characters; at 32px it fits on
