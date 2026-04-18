@@ -1932,5 +1932,409 @@
       "education": 4,
       "weather": 18
     }
+  },
+  {
+    "date": "2026-04-18",
+    "generated_at": "2026-04-18T08:57:36+02:00",
+    "last_checked_at": "2026-04-18T08:59:18+02:00",
+    "total_articles": 290,
+    "trump_articles": 11,
+    "percentage": 3.8,
+    "core_percentage": 3.8,
+    "wide_total_articles": 352,
+    "wide_trump_articles": 11,
+    "wide_percentage": 3.1,
+    "macro_percentage": 4.3,
+    "qualifying_outlets": 10,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 10,
+    "dominance": 1.57,
+    "breadth": 0.47,
+    "deviation": null,
+    "smoothed_pct": 2.55,
+    "assessment_method": "composite",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 20,
+        "trump": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 7,
+        "trump": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 39,
+        "today": 2,
+        "trump": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 14,
+        "trump": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 6,
+        "trump": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 67,
+        "today": 3,
+        "trump": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 8,
+        "trump": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 36,
+        "today": 2,
+        "trump": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 41,
+        "today": 0,
+        "trump": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 48,
+        "today": 3,
+        "trump": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 5,
+        "trump": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 50,
+        "today": 3,
+        "trump": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 23,
+        "trump": 1,
+        "share": 4.35
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 19,
+        "trump": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 48,
+        "trump": 1,
+        "share": 2.08
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 48,
+        "trump": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "trump": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 50,
+        "today": 8,
+        "trump": 2,
+        "share": 25.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 2,
+        "trump": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "trump": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 7,
+        "trump": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 13,
+        "trump": 2,
+        "share": 15.38
+      },
+      "lecho": {
+        "fetched": 10,
+        "today": 0,
+        "trump": 0,
+        "share": 0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 21,
+        "trump": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 3,
+        "trump": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "trump": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "trump": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 18,
+        "trump": 2,
+        "share": 11.11
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "trump": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 6,
+        "trump": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 5,
+        "trump": 1,
+        "share": 20.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "gva",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump beweert dat onderzoek naar ufo’s ‘interessante’ documenten oplevert",
+        "url": "https://www.hln.be/buitenland/trump-beweert-dat-onderzoek-naar-ufos-interessante-documenten-oplevert~a79c6d94/",
+        "source": "hln"
+      },
+      {
+        "title": "Live - Trump: onderzoek naar ufo’s levert ‘interessante’ documenten op",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-onderzoek-naar-ufo-s-levert-interessante-documenten-op~b13cc951/",
+        "source": "demorgen"
+      },
+      {
+        "title": "Waarom Trump zo graag Poetin zou zijn, maar Amerika hem tegenhoudt",
+        "url": "https://www.demorgen.be/meningen/waarom-trump-zo-graag-poetin-zou-zijn-maar-amerika-hem-tegenhoudt~bd202408/",
+        "source": "demorgen"
+      },
+      {
+        "title": "LIVE AMERIKA. Trump zegt dat UFO-onderzoek “interessante” documenten heeft blootgelegd",
+        "url": "https://www.nieuwsblad.be/buitenland/live-amerika.-trump-zegt-dat-ufo-onderzoek-interessante-documenten-heeft-blootgelegd/27528053.html",
+        "source": "nieuwsblad"
+      },
+      {
+        "title": "Trump dreigt staakt-het-vuren met Iran niet te verlengen als er geen deal wordt bereikt",
+        "url": "https://www.knack.be/nieuws/wereld/live/spanningen-midden-oosten/trump-dreigt-staakt-het-vuren-met-iran-niet-te-verlengen-als-er-geen-deal-wordt-bereikt-1154511/",
+        "source": "knack"
+      },
+      {
+        "title": "‘Triomfboog in Washington versus Europese wijk in Brussel? Trump kiest voor beeld zonder inhoud, Europa voor inhoud zonder beeld’",
+        "url": "https://www.knack.be/nieuws/belgie/maatschappij/triomfboog-in-washington-versus-europese-wijk-in-brussel-trump-kiest-voor-beeld-zonder-inhoud-europa-voor-inhoud-zonder-beeld/",
+        "source": "knack"
+      },
+      {
+        "title": "L’improbable querelle entre Donald Trump et Léon XIV",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/18/limprobable-querelle-entre-donald-trump-et-leon-xiv-NQTTGTVMSVHCXI5SNHTIDLSKCM/",
+        "source": "lalibre"
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient : Trump affirme que l'uranium iranien sera \"rapporté aux Etats-Unis\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/18/direct-guerre-au-moyen-orient-trump-affirme-que-luranium-iranien-sera-rapporte-aux-etats-unis-WBFSFH3STFFRLFAIENMQLLGXQ4/",
+        "source": "lalibre"
+      },
+      {
+        "title": "Donald Trump dit que le blocus des ports iraniens va continuer si un accord n’est pas conclu - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMDdsSExsblFERlBJM290eUxTWFdyY3ZJVVhBT1ZxdXItN0RJWHhWTFJ3djE2NGEwMl9ubndLV3VuM09JMFFTT24xSnkyVFE5X044Wk5YYjJ2c19jVWo5VTFSSDJqZ003WWcyU1ZWX1RKdVRUb1VhXy1aMUlfcEJLZEdUZUZBcHVPeHNvWmxxM1dONWZ0S3pHYlNMOEtzUGxlZU5UU2JvQ0xBWXpFdFVhU1I0eVZKZHlVMmh1aURBU1ZmS0ZIQjZn?oc=5",
+        "source": "lesoir_g"
+      },
+      {
+        "title": "Donald Trump : « Je ne prolongerai peut-être pas le cessez-le-feu, mais le blocus continuera - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZDh5SHdLOW03LUNKS29ueG5jbXJtZ19qZVVaeFUwMTh1RjkycDdDLXYySlVza3hfT3RFMWNGS0pOUEtDZG4xb0NIdHUySEZWUDh1SXF6enFETXFaRmkwQnRvTm9YQ2RLMHIzODJfLUxRNDMtOUNsMVpPYXhTUUQ2V0RMTnF3bkxFQjZUNS1MQUx6WFU4c2ZlRTZ4Vkp6aFFPb3VrNkNWTkVXM0poZ3NIS2lkMTJ0bjZaUFM5cDBWQ1hLUQ?oc=5",
+        "source": "lesoir_g"
+      },
+      {
+        "title": "« Un accord très proche », « Le blocus continuera » : après la réouverture du détroit d’Ormuz, de (nouvelles) déclarations contradictoires de Donald Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOLXBJYlpYQ2ZsRkJ5bkJjemVTdloxdmRIRnlXaElBSFMzNnp0MWFVNHd0bkRJWG5NUU5Bc09mR2JMM3l2TTl1Z2x1TUUtVy0yT2djWTFpQjZsSm8yNndkMEdVMGtfN0NHb2VmeDl6MjVFTVV2bXU4SWNGLVVFSWdPV3FxUGIwcDd3S3lZTEVsVXJLOUYzRm5VR3hNcVZ5SFVkVmhnZ3B6Y2F2ZWdxaEExcjlRdnA2QlJjcElwUWpvU3I3MllzamtEcnFLVnFtYlc2LUFET3ZPanFLZ0JD?oc=5",
+        "source": "rtl_g"
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump beweert dat onderzoek naar ufo’s ‘interessante’ documenten oplevert",
+        "url": "https://www.hln.be/buitenland/trump-beweert-dat-onderzoek-naar-ufos-interessante-documenten-oplevert~a79c6d94/",
+        "source": "hln"
+      },
+      {
+        "title": "Live - Trump: onderzoek naar ufo’s levert ‘interessante’ documenten op",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-onderzoek-naar-ufo-s-levert-interessante-documenten-op~b13cc951/",
+        "source": "demorgen"
+      },
+      {
+        "title": "Waarom Trump zo graag Poetin zou zijn, maar Amerika hem tegenhoudt",
+        "url": "https://www.demorgen.be/meningen/waarom-trump-zo-graag-poetin-zou-zijn-maar-amerika-hem-tegenhoudt~bd202408/",
+        "source": "demorgen"
+      },
+      {
+        "title": "LIVE AMERIKA. Trump zegt dat UFO-onderzoek “interessante” documenten heeft blootgelegd",
+        "url": "https://www.nieuwsblad.be/buitenland/live-amerika.-trump-zegt-dat-ufo-onderzoek-interessante-documenten-heeft-blootgelegd/27528053.html",
+        "source": "nieuwsblad"
+      },
+      {
+        "title": "Trump dreigt staakt-het-vuren met Iran niet te verlengen als er geen deal wordt bereikt",
+        "url": "https://www.knack.be/nieuws/wereld/live/spanningen-midden-oosten/trump-dreigt-staakt-het-vuren-met-iran-niet-te-verlengen-als-er-geen-deal-wordt-bereikt-1154511/",
+        "source": "knack"
+      },
+      {
+        "title": "‘Triomfboog in Washington versus Europese wijk in Brussel? Trump kiest voor beeld zonder inhoud, Europa voor inhoud zonder beeld’",
+        "url": "https://www.knack.be/nieuws/belgie/maatschappij/triomfboog-in-washington-versus-europese-wijk-in-brussel-trump-kiest-voor-beeld-zonder-inhoud-europa-voor-inhoud-zonder-beeld/",
+        "source": "knack"
+      },
+      {
+        "title": "L’improbable querelle entre Donald Trump et Léon XIV",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/18/limprobable-querelle-entre-donald-trump-et-leon-xiv-NQTTGTVMSVHCXI5SNHTIDLSKCM/",
+        "source": "lalibre"
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient : Trump affirme que l'uranium iranien sera \"rapporté aux Etats-Unis\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/18/direct-guerre-au-moyen-orient-trump-affirme-que-luranium-iranien-sera-rapporte-aux-etats-unis-WBFSFH3STFFRLFAIENMQLLGXQ4/",
+        "source": "lalibre"
+      },
+      {
+        "title": "Donald Trump dit que le blocus des ports iraniens va continuer si un accord n’est pas conclu - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMDdsSExsblFERlBJM290eUxTWFdyY3ZJVVhBT1ZxdXItN0RJWHhWTFJ3djE2NGEwMl9ubndLV3VuM09JMFFTT24xSnkyVFE5X044Wk5YYjJ2c19jVWo5VTFSSDJqZ003WWcyU1ZWX1RKdVRUb1VhXy1aMUlfcEJLZEdUZUZBcHVPeHNvWmxxM1dONWZ0S3pHYlNMOEtzUGxlZU5UU2JvQ0xBWXpFdFVhU1I0eVZKZHlVMmh1aURBU1ZmS0ZIQjZn?oc=5",
+        "source": "lesoir_g"
+      },
+      {
+        "title": "Donald Trump : « Je ne prolongerai peut-être pas le cessez-le-feu, mais le blocus continuera - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZDh5SHdLOW03LUNKS29ueG5jbXJtZ19qZVVaeFUwMTh1RjkycDdDLXYySlVza3hfT3RFMWNGS0pOUEtDZG4xb0NIdHUySEZWUDh1SXF6enFETXFaRmkwQnRvTm9YQ2RLMHIzODJfLUxRNDMtOUNsMVpPYXhTUUQ2V0RMTnF3bkxFQjZUNS1MQUx6WFU4c2ZlRTZ4Vkp6aFFPb3VrNkNWTkVXM0poZ3NIS2lkMTJ0bjZaUFM5cDBWQ1hLUQ?oc=5",
+        "source": "lesoir_g"
+      },
+      {
+        "title": "« Un accord très proche », « Le blocus continuera » : après la réouverture du détroit d’Ormuz, de (nouvelles) déclarations contradictoires de Donald Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOLXBJYlpYQ2ZsRkJ5bkJjemVTdloxdmRIRnlXaElBSFMzNnp0MWFVNHd0bkRJWG5NUU5Bc09mR2JMM3l2TTl1Z2x1TUUtVy0yT2djWTFpQjZsSm8yNndkMEdVMGtfN0NHb2VmeDl6MjVFTVV2bXU4SWNGLVVFSWdPV3FxUGIwcDd3S3lZTEVsVXJLOUYzRm5VR3hNcVZ5SFVkVmhnZ3B6Y2F2ZWdxaEExcjlRdnA2QlJjcElwUWpvU3I3MllzamtEcnFLVnFtYlc2LUFET3ZPanFLZ0JD?oc=5",
+        "source": "rtl_g"
+      }
+    ],
+    "comparisons": {
+      "trump": 11,
+      "de_wever": 0,
+      "macron": 0,
+      "putin": 2,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "musk": 1,
+      "orban": 1,
+      "meloni": 3,
+      "bouchez": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "de_wever": 2,
+      "macron": 1,
+      "putin": 2,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "musk": 1,
+      "orban": 1,
+      "meloni": 3,
+      "bouchez": 1
+    },
+    "themes": {
+      "war": 11,
+      "crime": 12,
+      "eu": 4,
+      "politics": 8,
+      "be_gov": 8,
+      "culture": 8,
+      "tech": 1,
+      "economy": 5,
+      "sports": 31,
+      "health": 3,
+      "climate": 1,
+      "migration": 1,
+      "education": 0,
+      "weather": 15
+    },
+    "wide_themes": {
+      "war": 16,
+      "crime": 12,
+      "eu": 5,
+      "politics": 11,
+      "be_gov": 11,
+      "culture": 9,
+      "tech": 3,
+      "economy": 6,
+      "sports": 36,
+      "health": 3,
+      "climate": 2,
+      "migration": 1,
+      "education": 1,
+      "weather": 18
+    }
   }
 ]
