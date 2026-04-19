@@ -711,14 +711,14 @@ def _history_table(log_sorted_desc):
     table_head = "<thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead>"
 
     if not rest:
-        body = f"<table>{table_head}<tbody>{first_rows}</tbody></table>"
+        body = f"<table class=\"log-table\">{table_head}<tbody>{first_rows}</tbody></table>"
     else:
         rest_rows = "".join(_row(r) for r in rest)
         body = (
-            f"<table>{table_head}<tbody>{first_rows}</tbody></table>"
+            f"<table class=\"log-table\">{table_head}<tbody>{first_rows}</tbody></table>"
             f"<details class=\"history-more\">"
             f"<summary>Show full history ({len(rest)} earlier {'day' if len(rest)==1 else 'days'})</summary>"
-            f"<table>{table_head}<tbody>{rest_rows}</tbody></table>"
+            f"<table class=\"log-table\">{table_head}<tbody>{rest_rows}</tbody></table>"
             f"</details>"
         )
 
@@ -780,14 +780,27 @@ def _methodology(latest):
     # breakdown. Each falls back to an em-dash when the value is missing.
     dom_display = (f"{dominance}\u00d7" if dominance is not None else "\u2014")
     breadth_display = (
-        f"{int(round(breadth * 100))}%  of core outlets ran a Trump story"
+        f"{int(round(breadth * 100))}% of core outlets ran a "
+        f"Trump-by-name story"
         if breadth is not None else "\u2014"
     )
-    deviation_display = (
-        f"{deviation}\u00d7 the 14-day median"
-        if deviation is not None else
-        "\u2014 (not enough live history yet)"
+    # When deviation is None we don't yet have 7 name-only days of history.
+    # Count how many we do have so the reader sees concrete progress.
+    name_only_days = sum(
+        1 for r in _load_log() if r.get("core_percentage_name") is not None
     )
+    if deviation is not None:
+        deviation_display = f"{deviation}\u00d7 the 14-day median"
+    elif name_only_days < 7:
+        deviation_display = (
+            f"\u2014 (name-only history building: "
+            f"{name_only_days} of 7 days recorded)"
+        )
+    else:
+        deviation_display = (
+            f"\u2014 (median was 0 over the last {min(name_only_days, 14)} "
+            f"name-only days)"
+        )
     smooth_inline = (
         f"The 7-day rolling average of the core share is <strong>{smoothed_pct}%</strong>."
         if smoothed_pct is not None else
@@ -847,8 +860,10 @@ def _methodology(latest):
       Sudinfo, L'Avenir and RTL through Google News' <code>site:</code> filter (their
       direct feeds sit behind Cloudflare). De Standaard's direct feed is reached through
       the <code>cloudscraper</code> library to handle the basic Cloudflare JS challenge.
-      Articles whose <code>pubDate</code> is today (Belgian local date) are kept;
-      duplicates across feeds are removed by URL.</p>
+      Articles whose <code>pubDate</code> is today (Belgian local date)
+      are kept; URL duplicates are collapsed globally, and near-identical
+      titles inside a single outlet&rsquo;s own feed are collapsed too
+      (full rules under &ldquo;Dedup policy&rdquo; in the caveats).</p>
 
       <h3>Core vs. wide tier</h3>
       <p>Not every feed is equal. Brussels-only outlets (BX1, Bruzz), sport-only
@@ -972,16 +987,23 @@ def _methodology(latest):
 
       <h4 class="signal-h">4. Rank &mdash; &ldquo;Is he on top at all?&rdquo;</h4>
       <p>Trump&rsquo;s position among the fifteen named figures, by
-      mention count. Acts as a veto: higher zones require Trump to be
-      #1 or #2. If he&rsquo;s #5 on a day everyone is talking about
-      Macron, no zone upgrade follows.</p>
+      name-only mention count (the same yardstick used for share,
+      dominance and breadth). Acts as a veto: higher zones require
+      Trump to be #1 or #2. Ties favour Trump &mdash; if Trump and
+      Macron both hit 5 mentions, Trump is called #1, not #2. If
+      he&rsquo;s #5 on a day everyone is talking about Macron, no zone
+      upgrade follows.</p>
       <p class="signal-today">Today: rank <strong>#{rank}</strong> of
       {n_people}.{theme_txt}</p>
 
       <h4 class="signal-h">Deviation (context, not a hard gate)</h4>
-      <p>Today&rsquo;s core share divided by the 14-day median. Requires
-      at least 7 prior live-day records, which we only build up gradually.
-      Until then this signal is treated as &ldquo;pass&rdquo;.</p>
+      <p>Today&rsquo;s name-only core share divided by the 14-day
+      median of the same series. Requires at least 7 prior days with
+      name-only data (i.e. records carrying
+      <code>core_percentage_name</code>), which we build up gradually.
+      GDELT-era backfills don&rsquo;t carry the field and don&rsquo;t
+      count. Until the signal is computable, the gate treats it as
+      &ldquo;pass&rdquo;.</p>
       <p class="signal-today">Today: <strong>{deviation_display}</strong>.
       {smooth_inline}</p>
 
@@ -1111,12 +1133,6 @@ def _methodology(latest):
         reaches 90+ days, the list can be replaced by a data-driven rule
         (&ldquo;anyone with &ge; N name mentions in the trailing 90
         days&rdquo;) and the manual review falls away.</li>
-        <li><strong>Arbitrary absolute thresholds.</strong> The
-        4.0% / 2.5% / 1.5% / 0.8% share cutoffs plus the
-        2.0&times; / 1.2&times; dominance and 55% / 40% / 25% breadth
-        floors are chosen rather than calibrated against historical
-        distributions. As the archive of live days grows, these should be
-        re-expressed as percentiles of Trump\u2019s own history.</li>
         <li><strong>Theme overlap.</strong> A headline can match multiple
         themes (a Gaza article counts for War and for EU politics if Macron is
         quoted). Themes are not mutually exclusive.</li>
@@ -1192,6 +1208,11 @@ PAGE = """<!doctype html>
     color: var(--ink);
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
+    /* Safety net: if any nested element (a chart, a wide table, a
+       miscalculated flex child) overflows the viewport horizontally,
+       don't let the whole page scroll sideways on mobile. Vertical
+       scroll is unaffected. */
+    overflow-x: hidden;
   }}
   .wrap {{ max-width: 1100px; margin: 0 auto; padding: 56px 32px 96px; }}
 
@@ -1288,8 +1309,8 @@ PAGE = """<!doctype html>
       flex: 0 0 88px;
       min-width: 0;
     }}
-    .band {{ overflow: hidden; padding: 6px 10px; }}
-    .band-name {{ font-size: 10px; letter-spacing: 0.06em; }}
+    .band {{ overflow: hidden; padding: 6px 8px; }}
+    .band-name {{ font-size: 10px; letter-spacing: 0.04em; }}
 
     /* Readout: large type scales down more aggressively than at 760px.
        "The zone is getting wet" is 23 characters; at 32px it fits on
@@ -1323,9 +1344,11 @@ PAGE = """<!doctype html>
     .block h2 {{ font-size: 11px; }}
 
     /* Daily log: hide the "label" column on very narrow phones so the
-       date + share stay visible without horizontal scroll. */
-    .block table thead th:nth-child(2),
-    .block table tbody td:nth-child(2) {{ display: none; }}
+       date + share stay visible without horizontal scroll. Scoped to
+       .log-table so the threshold table (which has "Share" as its 2nd
+       column) isn't hit too. */
+    .log-table thead th:nth-child(2),
+    .log-table tbody td:nth-child(2) {{ display: none; }}
 
     /* Today's mentions: stack the title above the source label. Default
        (desktop) is a flex row, but 18px title + nowrap source creates
@@ -1365,14 +1388,20 @@ PAGE = """<!doctype html>
     .rank-badge {{ line-height: 1.5; }}
   }}
 
-  /* Extra-small screens (iPhone SE, older Android) */
+  /* Small phones (iPhone 13 mini at 375, iPhone SE at 320).
+     Constraint: at 52px/9px the band-name overflowed because "FLOODING"
+     needs ~48px of text width plus padding. Widen the scale to 64px,
+     tighten band padding to 6px, drop letter-spacing. That gives roughly
+     52px of horizontal runway inside each band, enough for every label
+     at 9px including the longest ("FLOODING"). */
   @media (max-width: 380px) {{
     .brand {{ font-size: 30px; }}
     .readout-label {{ font-size: 26px; }}
     .pct {{ font-size: 56px; }}
     .pct-symbol {{ font-size: 28px; }}
-    .scale {{ width: 52px; flex-basis: 52px; }}
-    .band-name {{ font-size: 9px; letter-spacing: 0.08em; }}
+    .scale {{ width: 64px; flex: 0 0 64px; }}
+    .band {{ padding: 6px 6px; }}
+    .band-name {{ font-size: 9px; letter-spacing: 0.02em; }}
   }}
 
   .portrait-wrap {{
@@ -1952,6 +1981,24 @@ PAGE = """<!doctype html>
     line-height: 1.6;
   }}
   footer a {{ color: var(--accent); }}
+
+  /* Responsive overrides live AT THE END so they win the cascade. Earlier
+     in this stylesheet the base .band-name / .scale / .portrait rules
+     come AFTER the first set of @media blocks, which silently cancelled
+     their mobile sizes. These trailing blocks restate the mobile sizes
+     so they actually stick. */
+  @media (max-width: 520px) {{
+    .scale {{ width: 88px; flex: 0 0 88px; min-width: 0; }}
+    .band {{ padding: 6px 8px; overflow: hidden; }}
+    .band-name {{ font-size: 10px; letter-spacing: 0.04em; }}
+    .portrait {{ width: auto; min-width: 0; flex: 1 1 0; max-width: none; }}
+    .portrait img, .portrait canvas {{ max-width: 100%; }}
+  }}
+  @media (max-width: 380px) {{
+    .scale {{ width: 64px; flex: 0 0 64px; }}
+    .band {{ padding: 6px 6px; }}
+    .band-name {{ font-size: 9px; letter-spacing: 0.02em; }}
+  }}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
