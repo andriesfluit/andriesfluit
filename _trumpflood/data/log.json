@@ -2550,95 +2550,95 @@
   },
   {
     "date": "2026-04-19",
-    "generated_at": "2026-04-19T14:30:26+02:00",
-    "last_checked_at": "2026-04-19T14:30:26+02:00",
-    "total_articles": 433,
-    "trump_articles": 8,
-    "percentage": 1.8,
-    "core_percentage": 1.8,
-    "core_percentage_name": 1.8,
-    "trump_articles_expanded": 8,
-    "core_percentage_expanded": 1.8,
+    "generated_at": "2026-04-19T20:29:38+02:00",
+    "last_checked_at": "2026-04-19T20:29:38+02:00",
+    "total_articles": 627,
+    "trump_articles": 12,
+    "percentage": 1.9,
+    "core_percentage": 1.9,
+    "core_percentage_name": 1.9,
+    "trump_articles_expanded": 12,
+    "core_percentage_expanded": 1.9,
     "indirect_references": 0,
-    "wide_total_articles": 566,
-    "wide_trump_articles": 13,
-    "wide_percentage": 2.3,
-    "wide_trump_articles_expanded": 13,
-    "wide_percentage_expanded": 2.3,
-    "macro_percentage": 2.2,
-    "qualifying_outlets": 16,
+    "wide_total_articles": 833,
+    "wide_trump_articles": 20,
+    "wide_percentage": 2.4,
+    "wide_trump_articles_expanded": 20,
+    "wide_percentage_expanded": 2.4,
+    "macro_percentage": 2.5,
+    "qualifying_outlets": 24,
     "zone": "wet",
     "label": "The zone is getting wet",
     "narrative": "Among the top-covered figures today.",
     "rank": 1,
     "n_people": 15,
-    "dominance": 0.53,
-    "breadth": 0.4,
+    "dominance": 0.8,
+    "breadth": 0.47,
     "deviation": null,
     "smoothed_pct": null,
     "assessment_method": "composite",
-    "theme_rank": 8,
+    "theme_rank": 9,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 24,
-        "kept": 24,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.17
+        "today": 29,
+        "kept": 29,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.9
       },
       "google_fr": {
         "fetched": 34,
-        "today": 22,
-        "kept": 22,
+        "today": 30,
+        "kept": 30,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 9.09
+        "share": 6.67
       },
       "google_nl_politics": {
-        "fetched": 40,
-        "today": 6,
-        "kept": 5,
+        "fetched": 44,
+        "today": 9,
+        "kept": 8,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 20.0
+        "share": 12.5
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 13,
-        "kept": 8,
+        "today": 20,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 8,
-        "kept": 7,
+        "today": 24,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 63,
-        "today": 7,
-        "kept": 7,
+        "fetched": 65,
+        "today": 12,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 70,
-        "today": 26,
-        "kept": 22,
+        "fetched": 62,
+        "today": 33,
+        "kept": 28,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 32,
-        "today": 2,
+        "fetched": 33,
+        "today": 3,
         "kept": 2,
         "trump": 0,
         "trump_expanded": 0,
@@ -2646,27 +2646,27 @@
       },
       "google_fr_world": {
         "fetched": 39,
-        "today": 13,
-        "kept": 9,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 11.11
+        "today": 22,
+        "kept": 18,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 16.67
       },
       "google_fr_business": {
         "fetched": 25,
-        "today": 4,
-        "kept": 3,
+        "today": 8,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 22,
-        "kept": 22,
+        "today": 40,
+        "kept": 40,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.55
+        "share": 2.5
       },
       "standaard": {
         "fetched": 0,
@@ -2680,33 +2680,33 @@
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 6.67
-      },
-      "demorgen": {
-        "fetched": 25,
-        "today": 8,
-        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "demorgen": {
+        "fetched": 19,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
-        "kept": 50,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.0
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "gva": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.0
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "hbvl": {
         "fetched": 50,
@@ -2726,35 +2726,35 @@
       },
       "sporza": {
         "fetched": 20,
-        "today": 15,
-        "kept": 15,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 8,
-        "kept": 8,
+        "today": 11,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 12,
-        "kept": 12,
+        "today": 14,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 30,
-        "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 47,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
       },
       "lecho": {
         "fetched": 10,
@@ -2766,67 +2766,67 @@
       },
       "dhnet": {
         "fetched": 100,
-        "today": 77,
-        "kept": 77,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 95,
+        "kept": 95,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 3.16
       },
       "septsursept": {
         "fetched": 30,
-        "today": 29,
-        "kept": 29,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 6.9
+        "today": 30,
+        "kept": 30,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.0
       },
       "bx1": {
         "fetched": 10,
-        "today": 1,
-        "kept": 1,
+        "today": 7,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 11,
-        "kept": 8,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 12.5
-      },
-      "lesoir_g": {
-        "fetched": 100,
-        "today": 34,
-        "kept": 33,
+        "today": 60,
+        "kept": 54,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 47,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.26
+      },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 10,
-        "kept": 10,
+        "today": 61,
+        "kept": 60,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 12,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 99,
-        "today": 22,
-        "kept": 19,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 96,
+        "today": 36,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
       }
     },
     "core_sources": [
@@ -2857,27 +2857,45 @@
         "name_only": true
       },
       {
-        "title": "“Trump begrijpen is vandaag mijn grootste puzzel”: legendarische UGent-prof Walter Prevenier (91) probeert Amerikaanse president te doorgronden",
-        "url": "https://www.hln.be/gent/trump-begrijpen-is-vandaag-mijn-grootste-puzzel-legendarische-ugent-prof-walter-prevenier-91-probeert-amerikaanse-president-te-doorgronden~af5a864f/",
-        "source": "hln",
+        "title": "Live - Trump: ‘Iran heeft staakt-het-vuren geschonden’, Amerikaanse onderhandelaars morgen naar Pakistan",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-iran-heeft-staakt-het-vuren-geschonden-amerikaanse-onderhandelaars-morgen-naar-pakistan~be9c4f82/",
+        "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Trump schort sancties op Russische olie op, Zelensky reageert gebeten: “Geld voor de oorlog”",
-        "url": "https://www.hln.be/buitenland/trump-schort-sancties-op-russische-olie-op-zelensky-reageert-gebeten-geld-voor-de-oorlog~a2c6d779/",
-        "source": "hln",
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump envoie une délégation au Pakistan lundi et menace de nouveau l'Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/19/direct-guerre-au-moyen-orient-le-president-du-parlement-iranien-dit-quun-accord-final-reste-loin-A3OUPIKO7VBW7JU4PGOGAEB2N4/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "LIVE. Trump hekelt “ernstige schending” van staakt-het-vuren door Iran - Iran stuurt opnieuw olietankers terug uit Straat van Hormuz",
-        "url": "https://www.nieuwsblad.be/buitenland/live.-trump-hekelt-ernstige-schending-van-staakt-het-vuren-door-iran-iran-stuurt-opnieuw-olietankers-terug-uit-straat-van-hormuz/27532402.html",
-        "source": "nieuwsblad",
+        "title": "Un expert décortique la situation actuelle au Moyen-Orient: \"Les Iraniens savent que Trump est sous pression\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/19/un-expert-decortique-la-situation-actuelle-au-moyen-orient-les-iraniens-savent-que-trump-est-sous-pression-DXWVXHIPBBA6PHCHXJYNLU5RQE/",
+        "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "LIVE. Trump hekelt “ernstige schending” van staakt-het-vuren door Iran - Iran stuurt opnieuw olietankers terug uit Straat van Hormuz",
-        "url": "https://www.gva.be/buitenland/live.-trump-hekelt-ernstige-schending-van-staakt-het-vuren-door-iran-iran-stuurt-opnieuw-olietankers-terug-uit-straat-van-hormuz/76854338.html",
-        "source": "gva",
+        "title": "Donald Trump, un boulet pour ses propres alliés",
+        "url": "https://www.dhnet.be/actu/edito/2026/04/19/donald-trump-un-boulet-pour-ses-propres-allies-YOG353VFWZCZLEMTHRZWGFERBQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Donald Trump accuse l'Iran de violer le cessez-le-feu dans le détroit d'Ormuz",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/19/direct-guerre-au-moyen-orient-le-president-du-parlement-iranien-dit-que-les-negociations-ont-progresse-mais-quun-accord-final-reste-loin-AYJBAHIS3BAU7ARTKTQRDCUYYE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump renvoie JD Vance au Pakistan pour négocier avec l’Iran",
+        "url": "https://www.7sur7.be/monde/donald-trump-renvoie-jd-vance-au-pakistan-pour-negocier-avec-liran~a98c4093a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce l’envoi lundi d’une délégation au Pakistan",
+        "url": "https://www.7sur7.be/monde/trump-annonce-lenvoi-lundi-dune-delegation-au-pakistan~a5036794/",
+        "source": "septsursept",
         "name_only": true
       },
       {
@@ -2887,19 +2905,31 @@
         "name_only": true
       },
       {
-        "title": "Zelensky critique le choix de Trump de prolonger la suspension des sanctions sur le pétrole russe",
-        "url": "https://www.7sur7.be/monde/zelensky-critique-le-choix-de-trump-de-prolonger-la-suspension-des-sanctions-sur-le-petrole-russe~a61b1f50/",
-        "source": "septsursept",
+        "title": "Trump menace l’Iran de détruire toutes les infrastructures électriques du pays en cas d’échec des négociations - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVhDU3JjQmFsSmFSQ2tqbTdCSWFBczlRWWh3X1JQNW5vZFZqZGhVZzZQb2Ntd0VqYUo1em5mSjFkWTBWR1dEQTcyT0lYVWs0Q2laa3oyZkkySWVMWnVvRE52clU5anVIazJxYU1XNXA2SDNKQ3QxYlNOaXpsLUdyMV9laUlpd01vQ2F4SjNiX09KY1NDTC1DbzdTSXIteU1KNGgzRHdMTDM1ZmZybUhSanZoZUtsUFFuUWhuazV3b0U0RWNBdVZJ?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
-        "title": "Na in India en Dubai bouwt familie Trump ook 'Trump Tower' in Tbilisi - De Tijd",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNjYzTUxrRnI4b3JVRkNIdW5xZ05rRmg4U1ZtaGFxTFducXBoY0NPZ3hoN1M5azlqOFY1VkNiSkpNOEdaaUFBS3M4VkI1VzhXX3BldERiQjRBT2lEWlJ2U2V1NVcwOWxrZWtPbWFrZmE4WWpMX1NneGJud2lkRGJVQW5kMjFmUXcta24yUUtQZmN6UG5sZkYyT2tjRzVxZlJiWUtfdkdORmNhLVEyVUhzQ0xiSnFtbS1PMDIxTnpId1NyV0tkZmJsRzFnaTM0N211OEJN?oc=5",
-        "source": "detijd_g",
+        "title": "Trump menace à nouveau de détruire les infrastructures iraniennes en cas d’échec des négociations - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzNLNkpwbGRWOFRncWFBWjNDQ09Da19yZGNKWEJSWUJsNzRJV3BGV21ha3JmWHNkV1dmdnQzckF3ZDJqSE81SW1NSFpHenRJcmxaMTZCcktYelJSTklPRVlZbktjM1R0aXJTR0RUNHBINTdzR3NRMWllOXNWXzg3cWxYcXRhT09scTVpOTBWRy15RmlEMzlXYlpBZk1lYXRDS0ZRdHNoX2RFWFpLb1g2VVZGa1dWbS1SRFRPWHBWajhlNHM?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Fini de jouer les gentils » : Trump menace l’Iran de détruire « toutes les infrastructures électriques » du pays en cas d’échec des négociations - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMzhHb0FCWmZfcEI2clRSZDJxTUxoaXJPZUN0OHN0c1VkbGxZVnJsTG1fS3BQX045SzFLZ25HNV9HRjhtNk00NzZqQnZ2d1h5UlJQLW9Qc1BIQWJnQzFlVzFLQldkV2ZUZHJwbmpoOUxUbjNNeXJKNERRTUh6UkhTMVh1ZVFsSTBxT1JUMUF0Vm5QLWhkaktWNThPZjlOTHE5THRDR0pvTnJpLXNsNjc2ZHo4cHowNUpvS1Y5WWZjeUlEU1ZpSlFJTFlpUFQzU1ZXVGY0?oc=5",
+        "source": "rtl_g",
         "name_only": true
       }
     ],
     "wide_matches": [
+      {
+        "title": "Trump kondigt nieuwe vredesgesprekken aan met Iran: 'We hebben een zeer eerlijk en redelijk voorstel' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZGt5ZXBnRTNHbVhSYXhhMy1JRHVxZ2dUbWYtbDYtd0JZV2JlMG9hdkhNb3BsVjhZLWhockhCd1IwOVVCQ3JScGluYmcxX2tPMExDUXhtYVduY1NFem1BMEZ4STJzM1NZZFhYWkUybW9UblAyZEY2cEJzNTd6dmpfSzNrdE4zWk5WUUpKTFN3UjB2akNmZ3VZYzVqakd6Mms2ajlQaXQ2ZWtRSGpUWWNiVTJCeEw5QWtaTG8yX0hDUlFwWmhQbnVRakEyUmYtM1dyemEwRXhWb3dQLWdRbHNleUM4SUhVRTl1cE54aVh2dEF5aFQ5cEZv?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
       {
         "title": "Na India en Dubai bouwt familie Trump ook 'Trump Tower' in Tbilisi - De Tijd",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNckExMTdmM0FZV0ozN1ZpZHlBTC1FZE1WMF9zemVCSHlBUlNVZ2tGTDdsVVloMG9RSGxOalVjWFdOX2Q1WUIydkQzcEFuVGFEa1dKSm4xUlhEWnprZl9Fa2FuTHNBWjA0ZFRaZG10enFsUFJkYlAwX3NGdmRrUnV1Mm00OWxjRE9XbW41OXJoWnBYRl9FNWY5VmZibTBpRUdrQ0Q0dkR0d2JMMUNoYmpVYXFCNWJ5V2hzMGVRd04zWTJsSWhPM3JERktfaEc3U28?oc=5",
@@ -2907,14 +2937,14 @@
         "name_only": true
       },
       {
-        "title": "Le détroit d’Ormuz toujours fermé, du « chantage » selon Trump : où en sont les négociations à trois jours de la fin du cessez-le-feu entre les États-Unis et l’Iran - RTL Info",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTEc3RklQcEpXZ2w0cm1pd01LWGkwSy1haXlvSjNVd2taS21yNWdhRGFlcW1yVGFkMHJXYjFvcTh5WVFVclVoaDIyQkFYS1pWNEpGd2dkSVV3TUNJcFJVeFJIVFo5R25hY1ZWUl82N3hEd3lSRzkyaU1rZHZNb2tpWEJmMVVFQ1hDbHN2aTdvSXV3QWVNYVFoYl9RZnZkbmFqbWNpYkR5Uk5WYTBrSnJKMFR2d2VIWHl5Z2dTanJFMmwxWEp6OGhPLUl1d3p1elBXTWJOSURtc0Q?oc=5",
+        "title": "« Un acte illégal et criminel » : l’Iran répond à Trump sur le détroit d’Ormuz - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVDNjdW02RHVRcjlXQTNxZ1F1ZW5NM1g2S1VjcS02T0NHZTZmX1hJVmdUUDV3VUZGMGhHaGQ5Q3ZabTBJOTU1QWRyUE9IdDZSVTV6UmI2OTNtVlVRYlBhR1BfRWxwRk4tcUpLdDh0amVTSEVRTHIzY2N2MldyZ1FIX1VXLTE2WGNvOVdkZmpzV2M1UDM1ZHl2YkYyY24xRnlWRXQzVXBqVlBqblAwSTNCN1NCeFc1N2M?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Zelensky critique le choix de Trump de prolonger la suspension des sanctions sur le pétrole russe - 7sur7.be",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZjUxV3RGWG5TOFU1ajY2aEQ4cU1jVHFqWW5FLVh3YWtLWjV1VWx1M1lfSXVpME03bU90dzhOeHZRM3ZQT1ZDWWxyUW1Ha0tXZWNqOEUzYVUtQVNRRWhaSndZQ2FtOXFLa0Z0Z1VOUUMyd3dkaVJMSUtvRk9RTjYtMzNaaVhUdHQyN2JSUkpFTFBib0xqb2RGSXF5SDVLS2lLeFRJNmtNeVN0ekhiWWZBMVJSSm5rM2FGbndFeFFUWFlONjJnYTZhUkd5ZUFfaGM?oc=5",
+        "title": "Guerre au Moyen-Orient : Donald Trump accuse l’Iran de violer le cessez-le-feu et profère de nouvelles menaces (direct) - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc1Jzd0JkS0NUdUNZenRkbE5FcGFaZVotV2I2WGtlNDZvM1Bybk52X3lVRUlrbW9FbU53ZHMwb1FINEkzTVpORVpSLWJTbW9BMjZsc3Y5SGNCcHl6OENIbW9kWlgwLWtuUmFQTnpYRlZzdmNkVDVXNXlubVRjYzU1d1VGZERFMVVFaDJuejlfWWpZWU5IaW9kQm1FcFp3Q0phTlNRd1VZdU1BWWVjOWFtNHR0bjJkNHdISHFsUkVyMERiMWJoNnhTamV3?oc=5",
         "source": "google_fr",
         "name_only": true
       },
@@ -2922,6 +2952,18 @@
         "title": "Spanje, Brazilië en Mexico hebben boodschap voor Trump: \"Cubaanse volk moet zelf over toekomst beslissen\" - VRT",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSWN2SDZrRW54RkZ0cllrWEhwc3o5dGFTdXNtOHlZR2pGM3hsaU5INkN3TUpmZ1JKcUNKTUtZUmRWbjAxdnYwR2N1Z1czNmhWX2VlZTJ4TDZEWndSTC0wYjBXcmRRZV9BUzVwcmdDRzNIcG0yNjRBLUpLZEZDVG1aZkoyVkJuamU4dnZmbGxjbWhpcFNDZktz?oc=5",
         "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Le détroit d’Ormuz toujours fermé, du « chantage » selon Trump : où en sont les négociations à trois jours de la fin du cessez-le-feu entre les États-Unis et l’Iran - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTEc3RklQcEpXZ2w0cm1pd01LWGkwSy1haXlvSjNVd2taS21yNWdhRGFlcW1yVGFkMHJXYjFvcTh5WVFVclVoaDIyQkFYS1pWNEpGd2dkSVV3TUNJcFJVeFJIVFo5R25hY1ZWUl82N3hEd3lSRzkyaU1rZHZNb2tpWEJmMVVFQ1hDbHN2aTdvSXV3QWVNYVFoYl9RZnZkbmFqbWNpYkR5Uk5WYTBrSnJKMFR2d2VIWHl5Z2dTanJFMmwxWEp6OGhPLUl1d3p1elBXTWJOSURtc0Q?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump, un boulet pour ses propres alliés - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOVFsakM2MWprWnFGZmlwNF9hbTV0aXAwcFBMSUdtVTNjZU9CX3FpcEdWSS00ZG1wSWt0N2JUTUZEOXJnaXJBeWNkM0tFUk5CeFNWbWU4VmFWbVhxZ0FvblZkNHNPQlQyazF0RzNyaVNDQ0VqOXI4aXNyYWhDVWpiaE5SRmRlZm1BVFg2QVh2UUxKUmVMX1BCT0hsSTQ1bk1HblVNQTNqUWNVakoyNV9JbWwzWk9jS3dq?oc=5",
+        "source": "google_fr_world",
         "name_only": true
       },
       {
@@ -2937,27 +2979,45 @@
         "name_only": true
       },
       {
-        "title": "“Trump begrijpen is vandaag mijn grootste puzzel”: legendarische UGent-prof Walter Prevenier (91) probeert Amerikaanse president te doorgronden",
-        "url": "https://www.hln.be/gent/trump-begrijpen-is-vandaag-mijn-grootste-puzzel-legendarische-ugent-prof-walter-prevenier-91-probeert-amerikaanse-president-te-doorgronden~af5a864f/",
-        "source": "hln",
+        "title": "Live - Trump: ‘Iran heeft staakt-het-vuren geschonden’, Amerikaanse onderhandelaars morgen naar Pakistan",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-iran-heeft-staakt-het-vuren-geschonden-amerikaanse-onderhandelaars-morgen-naar-pakistan~be9c4f82/",
+        "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Trump schort sancties op Russische olie op, Zelensky reageert gebeten: “Geld voor de oorlog”",
-        "url": "https://www.hln.be/buitenland/trump-schort-sancties-op-russische-olie-op-zelensky-reageert-gebeten-geld-voor-de-oorlog~a2c6d779/",
-        "source": "hln",
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump envoie une délégation au Pakistan lundi et menace de nouveau l'Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/19/direct-guerre-au-moyen-orient-le-president-du-parlement-iranien-dit-quun-accord-final-reste-loin-A3OUPIKO7VBW7JU4PGOGAEB2N4/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "LIVE. Trump hekelt “ernstige schending” van staakt-het-vuren door Iran - Iran stuurt opnieuw olietankers terug uit Straat van Hormuz",
-        "url": "https://www.nieuwsblad.be/buitenland/live.-trump-hekelt-ernstige-schending-van-staakt-het-vuren-door-iran-iran-stuurt-opnieuw-olietankers-terug-uit-straat-van-hormuz/27532402.html",
-        "source": "nieuwsblad",
+        "title": "Un expert décortique la situation actuelle au Moyen-Orient: \"Les Iraniens savent que Trump est sous pression\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/19/un-expert-decortique-la-situation-actuelle-au-moyen-orient-les-iraniens-savent-que-trump-est-sous-pression-DXWVXHIPBBA6PHCHXJYNLU5RQE/",
+        "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "LIVE. Trump hekelt “ernstige schending” van staakt-het-vuren door Iran - Iran stuurt opnieuw olietankers terug uit Straat van Hormuz",
-        "url": "https://www.gva.be/buitenland/live.-trump-hekelt-ernstige-schending-van-staakt-het-vuren-door-iran-iran-stuurt-opnieuw-olietankers-terug-uit-straat-van-hormuz/76854338.html",
-        "source": "gva",
+        "title": "Donald Trump, un boulet pour ses propres alliés",
+        "url": "https://www.dhnet.be/actu/edito/2026/04/19/donald-trump-un-boulet-pour-ses-propres-allies-YOG353VFWZCZLEMTHRZWGFERBQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Donald Trump accuse l'Iran de violer le cessez-le-feu dans le détroit d'Ormuz",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/19/direct-guerre-au-moyen-orient-le-president-du-parlement-iranien-dit-que-les-negociations-ont-progresse-mais-quun-accord-final-reste-loin-AYJBAHIS3BAU7ARTKTQRDCUYYE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump renvoie JD Vance au Pakistan pour négocier avec l’Iran",
+        "url": "https://www.7sur7.be/monde/donald-trump-renvoie-jd-vance-au-pakistan-pour-negocier-avec-liran~a98c4093a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce l’envoi lundi d’une délégation au Pakistan",
+        "url": "https://www.7sur7.be/monde/trump-annonce-lenvoi-lundi-dune-delegation-au-pakistan~a5036794/",
+        "source": "septsursept",
         "name_only": true
       },
       {
@@ -2967,83 +3027,89 @@
         "name_only": true
       },
       {
-        "title": "Zelensky critique le choix de Trump de prolonger la suspension des sanctions sur le pétrole russe",
-        "url": "https://www.7sur7.be/monde/zelensky-critique-le-choix-de-trump-de-prolonger-la-suspension-des-sanctions-sur-le-petrole-russe~a61b1f50/",
-        "source": "septsursept",
+        "title": "Trump menace l’Iran de détruire toutes les infrastructures électriques du pays en cas d’échec des négociations - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVhDU3JjQmFsSmFSQ2tqbTdCSWFBczlRWWh3X1JQNW5vZFZqZGhVZzZQb2Ntd0VqYUo1em5mSjFkWTBWR1dEQTcyT0lYVWs0Q2laa3oyZkkySWVMWnVvRE52clU5anVIazJxYU1XNXA2SDNKQ3QxYlNOaXpsLUdyMV9laUlpd01vQ2F4SjNiX09KY1NDTC1DbzdTSXIteU1KNGgzRHdMTDM1ZmZybUhSanZoZUtsUFFuUWhuazV3b0U0RWNBdVZJ?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
-        "title": "Na in India en Dubai bouwt familie Trump ook 'Trump Tower' in Tbilisi - De Tijd",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNjYzTUxrRnI4b3JVRkNIdW5xZ05rRmg4U1ZtaGFxTFducXBoY0NPZ3hoN1M5azlqOFY1VkNiSkpNOEdaaUFBS3M4VkI1VzhXX3BldERiQjRBT2lEWlJ2U2V1NVcwOWxrZWtPbWFrZmE4WWpMX1NneGJud2lkRGJVQW5kMjFmUXcta24yUUtQZmN6UG5sZkYyT2tjRzVxZlJiWUtfdkdORmNhLVEyVUhzQ0xiSnFtbS1PMDIxTnpId1NyV0tkZmJsRzFnaTM0N211OEJN?oc=5",
-        "source": "detijd_g",
+        "title": "Trump menace à nouveau de détruire les infrastructures iraniennes en cas d’échec des négociations - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzNLNkpwbGRWOFRncWFBWjNDQ09Da19yZGNKWEJSWUJsNzRJV3BGV21ha3JmWHNkV1dmdnQzckF3ZDJqSE81SW1NSFpHenRJcmxaMTZCcktYelJSTklPRVlZbktjM1R0aXJTR0RUNHBINTdzR3NRMWllOXNWXzg3cWxYcXRhT09scTVpOTBWRy15RmlEMzlXYlpBZk1lYXRDS0ZRdHNoX2RFWFpLb1g2VVZGa1dWbS1SRFRPWHBWajhlNHM?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Fini de jouer les gentils » : Trump menace l’Iran de détruire « toutes les infrastructures électriques » du pays en cas d’échec des négociations - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMzhHb0FCWmZfcEI2clRSZDJxTUxoaXJPZUN0OHN0c1VkbGxZVnJsTG1fS3BQX045SzFLZ25HNV9HRjhtNk00NzZqQnZ2d1h5UlJQLW9Qc1BIQWJnQzFlVzFLQldkV2ZUZHJwbmpoOUxUbjNNeXJKNERRTUh6UkhTMVh1ZVFsSTBxT1JUMUF0Vm5QLWhkaktWNThPZjlOTHE5THRDR0pvTnJpLXNsNjc2ZHo4cHowNUpvS1Y5WWZjeUlEU1ZpSlFJTFlpUFQzU1ZXVGY0?oc=5",
+        "source": "rtl_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 8,
-      "putin": 1,
+      "trump": 12,
+      "putin": 0,
       "macron": 2,
       "netanyahu": 0,
-      "zelensky": 6,
+      "zelensky": 3,
       "de_wever": 0,
       "bouchez": 6,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 4,
       "crevits": 0,
       "de_croo": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 13,
-      "putin": 3,
+      "trump": 20,
+      "putin": 2,
       "macron": 2,
       "netanyahu": 0,
-      "zelensky": 7,
-      "de_wever": 0,
-      "bouchez": 7,
+      "zelensky": 4,
+      "de_wever": 1,
+      "bouchez": 8,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 1,
+      "francken": 6,
       "crevits": 0,
       "de_croo": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 21,
-      "crime": 12,
-      "eu": 18,
-      "politics": 16,
-      "be_gov": 18,
-      "culture": 8,
-      "tech": 8,
-      "economy": 4,
-      "sports": 58,
-      "health": 1,
-      "climate": 3,
-      "migration": 1,
-      "education": 1,
-      "weather": 9
-    },
-    "wide_themes": {
-      "war": 27,
-      "crime": 16,
-      "eu": 25,
-      "politics": 24,
-      "be_gov": 20,
-      "culture": 11,
-      "tech": 12,
+      "war": 33,
+      "crime": 20,
+      "eu": 22,
+      "politics": 15,
+      "be_gov": 19,
+      "culture": 15,
+      "tech": 22,
       "economy": 7,
-      "sports": 79,
-      "health": 1,
+      "sports": 82,
+      "health": 3,
       "climate": 4,
       "migration": 1,
-      "education": 1,
-      "weather": 11
+      "education": 4,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 46,
+      "crime": 27,
+      "eu": 32,
+      "politics": 28,
+      "be_gov": 26,
+      "culture": 18,
+      "tech": 28,
+      "economy": 13,
+      "sports": 106,
+      "health": 5,
+      "climate": 5,
+      "migration": 1,
+      "education": 5,
+      "weather": 12
     }
   }
 ]
