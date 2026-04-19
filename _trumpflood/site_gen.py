@@ -757,7 +757,7 @@ def _methodology(latest):
                 f"aggregators that repackage outlets we already pull directly "
                 f"\u2014 the full <strong>wide</strong> corpus is "
                 f"<strong>{wide_total} headlines</strong> with "
-                f"<strong>{wide_trump} Trump matches = {wide_pct}%</strong> "
+                f"<strong>{wide_trump} by-name Trump matches = {wide_pct}%</strong> "
                 f"({sign}{delta}pt vs. core). "
                 f"The cross-check exists so we can spot a day where the two "
                 f"tiers diverge sharply, which usually signals an aggregator "
@@ -766,7 +766,7 @@ def _methodology(latest):
         else:
             compare_line = (
                 f"Today the wide corpus ({wide_total} headlines, "
-                f"{wide_trump} matches) lands on the same "
+                f"{wide_trump} by-name matches) lands on the same "
                 f"<strong>{wide_pct}%</strong> as the core tier, so the "
                 f"tier choice doesn\u2019t change the read."
             )
@@ -899,12 +899,14 @@ def _methodology(latest):
       only; no body text, no fuzzy matching.</p>
 
       <h3>Comparators &amp; themes</h3>
-      <p>The same headlines are scanned for fourteen other named people
-      (Trump is the fifteenth) split into two groups:</p>
+      <p>The same headlines are scanned for fifteen named people in
+      total. The set is split 5 international / 10 Belgian:</p>
       <ul class="meth-rules">
-        <li><strong>International (4).</strong> Putin, Macron, Netanyahu,
-        Zelensky. Heads of state whose actions recurringly drive Belgian
-        front-page news.</li>
+        <li><strong>International (5, including Trump).</strong> Trump,
+        Putin, Macron, Netanyahu, Zelensky. Heads of state whose actions
+        recurringly drive Belgian front-page news. Trump sits inside
+        this group for rank and dominance; he is measured by the same
+        name-only regex as the other four.</li>
         <li><strong>Belgian (10).</strong> De Wever, Bouchez, Magnette,
         Pr&eacute;vot, Rousseau, Francken, Crevits, De Croo, Van
         Peteghem, Verlinden. Sitting federal PM, party presidents of the
@@ -958,9 +960,11 @@ def _methodology(latest):
       up all named-figure attention even when coverage volume is modest.</p>
 
       <h4 class="signal-h">3. Breadth &mdash; &ldquo;Is it everywhere, or one paper?&rdquo;</h4>
-      <p>The fraction of core outlets that published at least one Trump
-      headline today. Only outlets with &ge; 5 headlines count toward the
-      denominator so a near-empty feed doesn&rsquo;t skew the ratio.</p>
+      <p>The fraction of core outlets that published at least one
+      Trump-by-name headline today. Name-only, same as the share and
+      rank signals. Only outlets with &ge; 5 post-dedup headlines count
+      toward the denominator so a near-empty feed doesn&rsquo;t skew
+      the ratio.</p>
       <p class="signal-today">Today: <strong>{breadth_display}</strong>.
       A high dominance combined with low breadth means one outlet is
       obsessing; a high breadth means Belgian newsrooms collectively
@@ -1033,37 +1037,51 @@ def _methodology(latest):
           </tr>
         </tbody>
       </table>
-      <p>The thresholds are calibrated against our core-tier RSS corpus, which
-      is narrower than GDELT&rsquo;s full Belgian feed. In practice that means
-      2.5&percnt; of our core headlines being about Trump is a meaningful
-      signal of dominance; the same percentage in GDELT&rsquo;s corpus would
-      be routine. Once we have 30+ days of live history, these absolute
-      thresholds can be replaced by percentiles of Trump&rsquo;s own history
-      (&ldquo;Flooding = top-10&percnt; day ever recorded&rdquo;), which is
-      the only truly self-calibrated version.</p>
+      <p>These thresholds were originally chosen when the share number
+      included indirect references (&ldquo;White House&rdquo;,
+      &ldquo;US president&rdquo;, ...). We now count Trump by name only,
+      which is a strictly smaller numerator applied to the same floors
+      &mdash; so the bar for every zone is effectively <em>higher</em>
+      than it was under the old detector. We&rsquo;ve kept the numbers
+      unchanged rather than lower them to match old sensitivity: the
+      stricter regime means zones fire less often, but when they do,
+      the signal is at least as strong as it used to be. After 30+
+      days of name-only live history, these absolutes should be
+      replaced by percentiles of Trump&rsquo;s own name-only
+      distribution (&ldquo;Flooding = top-10&percnt; day ever
+      recorded&rdquo;), which is the only truly self-calibrated
+      version.</p>
 
       <h3>Caveats &amp; limits</h3>
       <ul class="meth-rules">
-        <li><strong>Title-only matching.</strong> Titles are scanned, not
-        article bodies. Indirect references that the expanded detector does
-        not cover (&ldquo;the administration&rdquo;, &ldquo;Washington&rdquo;,
-        &ldquo;POTUS&rdquo;) are still missed. Smaller undercount than before
-        the NL / FR / EN expansion, but non-zero.</li>
+        <li><strong>Title-only matching, name-only for the zone.</strong>
+        Titles are scanned, not article bodies. Only the literal name
+        <em>trump</em> drives the zone, so a day of coverage that
+        reaches for &ldquo;the White House&rdquo;, &ldquo;the
+        administration&rdquo;, &ldquo;Washington&rdquo; or
+        &ldquo;POTUS&rdquo; without saying his name reads as
+        Dry-leaning even if the expanded detector catches some of it.
+        That tradeoff is deliberate: it keeps Trump on the same
+        yardstick as the other fourteen figures. The expanded count is
+        published next to the headline number so you can see, on any
+        given day, how much coverage an indirect-only readout would
+        have added.</li>
         <li><strong>Trump-the-family.</strong> The regex also matches
         &ldquo;Trump Jr.&rdquo;, &ldquo;Eric Trump&rdquo;, &ldquo;Trump
         Tower&rdquo;. Usually &le;2% noise but it\u2019s there.</li>
         <li><strong>Time-of-day sampling &amp; peak-of-day rule.</strong>
         Fetches run three times a day at fixed UTC slots
         (06:00 / 12:00 / 18:00), which shifts by an hour between CEST
-        and CET. RSS
-        feeds only expose the latest N items, so an afternoon fetch may
-        show fewer Trump headlines than the morning one because earlier
-        pieces have scrolled off. To avoid understating a Trump-heavy day,
-        we keep the <em>peak</em> observation for each day: if a later
-        run sees a lower share than the one already stored, we keep the
+        and CET. RSS feeds only expose the latest N items, so an
+        afternoon fetch may show fewer Trump headlines than the morning
+        one because earlier pieces have scrolled off. To avoid
+        understating a Trump-heavy day, we keep the <em>peak</em>
+        name-only share for each day: if a later run sees a lower
+        name-only share than the one already stored, we keep the
         earlier record and only update the &ldquo;last checked&rdquo;
         timestamp. Later runs still replace the record when they see a
-        <em>higher</em> share, so a late-breaking Trump surge is captured.</li>
+        <em>higher</em> name-only share, so a late-breaking Trump surge
+        is captured.</li>
         <li><strong>Dedup policy.</strong> URL duplicates (same article
         reached via two feeds, e.g. Google News republishing an HLN link)
         collapse to one globally. Title duplicates only collapse

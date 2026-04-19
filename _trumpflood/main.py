@@ -192,9 +192,14 @@ def main():
     core_comparisons = count_comparators(core_titles)
     core_themes = count_themes(core_titles)
 
-    # ------ 7-day rolling average of core percentage (smoothing) ------------
-    # Read existing log to compute trailing window. Only use records that
-    # carry a core percentage (live days, not GDELT backfills).
+    # ------ 7-day rolling average + deviation (name-only time series) ------
+    # We track a dedicated `core_percentage_name` field on every live run
+    # so smoothed_pct and deviation are computed on one consistent
+    # yardstick. Historical records that predate the name-only detector
+    # (GDELT backfills, and a handful of early live days without
+    # per-record comparator counts) don't carry this field and are
+    # silently excluded. Until we have >= 7 name-only days in the
+    # archive, smoothed_pct is displayed as "baseline still building".
     existing_log = []
     if LOG_FILE.exists():
         try:
@@ -202,15 +207,20 @@ def main():
             existing_log = data if isinstance(data, list) else [data]
         except json.JSONDecodeError:
             existing_log = []
-    prior_core = [
-        r.get("core_percentage")
+    prior_core_name = [
+        r.get("core_percentage_name")
         for r in existing_log
         if r.get("date") != today.isoformat()
-        and r.get("core_percentage") is not None
+        and r.get("core_percentage_name") is not None
     ]
-    recent_core = prior_core[-6:]  # last 6 days (exclusive of today)
-    window = recent_core + [core_pct]
-    smoothed_pct = round(sum(window) / len(window), 2) if window else None
+    recent_core = prior_core_name[-6:]  # last 6 days (exclusive of today)
+    window = recent_core + [core_pct_name]
+    # Only publish a rolling average once we have 7 days of name-only
+    # observations (prior 6 + today). Earlier windows would silently
+    # include partial data and misrepresent the baseline.
+    smoothed_pct = (
+        round(sum(window) / len(window), 2) if len(window) >= 7 else None
+    )
 
     # ------ Breadth: fraction of core outlets carrying any Trump story -----
     # Gate uses KEPT (post-dedup) per-outlet count so an outlet that offered
@@ -227,11 +237,14 @@ def main():
     else:
         breadth = None
 
-    # ------ Deviation: today's core share vs 14-day median of prior days ---
-    prior14 = [p for p in prior_core[-14:] if p is not None]
+    # ------ Deviation: today's name-only core share vs 14-day median ------
+    # Reads the same `core_percentage_name` series so numerator and
+    # denominator are on one yardstick. Requires >=7 name-only days in
+    # the trailing 14; otherwise None (treated as "pass" by the gate).
+    prior14 = [p for p in prior_core_name[-14:] if p is not None]
     if len(prior14) >= 7:
         med = statistics.median(prior14)
-        deviation = (core_pct / med) if med > 0 else None
+        deviation = (core_pct_name / med) if med > 0 else None
     else:
         deviation = None
 
@@ -268,6 +281,10 @@ def main():
         "trump_articles": core_trump_name,
         "percentage": core_pct_name,
         "core_percentage": core_pct_name,
+        # Dedicated name-only field used by smoothed_pct and deviation.
+        # Historical records get this via a one-shot backfill; pre-
+        # detector-era records (GDELT) do not carry it.
+        "core_percentage_name": core_pct_name,
         # Expanded detector (name + indirect references). Secondary.
         "trump_articles_expanded": core_trump_expanded,
         "core_percentage_expanded": core_pct_expanded,

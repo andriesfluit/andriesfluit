@@ -1019,7 +1019,8 @@
       "migration": 5,
       "education": 18,
       "weather": 20
-    }
+    },
+    "core_percentage_name": 2.1
   },
   {
     "date": "2026-04-16",
@@ -1467,7 +1468,8 @@
       "migration": 1,
       "education": 5,
       "weather": 10
-    }
+    },
+    "core_percentage_name": 2.5
   },
   {
     "date": "2026-04-17",
@@ -1931,7 +1933,8 @@
       "migration": 0,
       "education": 4,
       "weather": 18
-    }
+    },
+    "core_percentage_name": 1.6
   },
   {
     "date": "2026-04-18",
@@ -2542,6 +2545,421 @@
       "migration": 0,
       "education": 7,
       "weather": 6
+    },
+    "core_percentage_name": 2.6
+  },
+  {
+    "date": "2026-04-19",
+    "generated_at": "2026-04-19T08:45:14+02:00",
+    "last_checked_at": "2026-04-19T08:45:14+02:00",
+    "total_articles": 208,
+    "trump_articles": 3,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "core_percentage_name": 1.4,
+    "trump_articles_expanded": 3,
+    "core_percentage_expanded": 1.4,
+    "indirect_references": 0,
+    "wide_total_articles": 267,
+    "wide_trump_articles": 4,
+    "wide_percentage": 1.5,
+    "wide_trump_articles_expanded": 4,
+    "wide_percentage_expanded": 1.5,
+    "macro_percentage": 0.4,
+    "qualifying_outlets": 8,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 15,
+    "dominance": 0.6,
+    "breadth": 0.23,
+    "deviation": null,
+    "smoothed_pct": null,
+    "assessment_method": "composite",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_nl_politics": {
+        "fetched": 39,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 65,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 39,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 33,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 50,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "demorgen": {
+        "fetched": 26,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 36,
+        "kept": 36,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 50,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "gva",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump mag van rechter (voorlopig) doorgaan met bouw balzaal Witte Huis",
+        "url": "https://www.hln.be/buitenland/trump-mag-van-rechter-voorlopig-doorgaan-met-bouw-balzaal-witte-huis~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump mag voorlopig toch doorgaan met bouw van balzaal in Witte Huis",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-mag-voorlopig-toch-doorgaan-met-bouw-van-balzaal-in-witte-huis~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Le détroit d’Ormuz toujours fermé, du « chantage » selon Trump : où en sont les négociations à trois jours de la fin du cessez-le-feu entre les États-Unis et l’Iran - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTEc3RklQcEpXZ2w0cm1pd01LWGkwSy1haXlvSjNVd2taS21yNWdhRGFlcW1yVGFkMHJXYjFvcTh5WVFVclVoaDIyQkFYS1pWNEpGd2dkSVV3TUNJcFJVeFJIVFo5R25hY1ZWUl82N3hEd3lSRzkyaU1rZHZNb2tpWEJmMVVFQ1hDbHN2aTdvSXV3QWVNYVFoYl9RZnZkbmFqbWNpYkR5Uk5WYTBrSnJKMFR2d2VIWHl5Z2dTanJFMmwxWEp6OGhPLUl1d3p1elBXTWJOSURtc0Q?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Ce projet de loi voulu par Trump menace… le vote des femmes et des minorités : « 21 millions d’Américains n’ont pas accès à ces documents - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOXzE0S0xGRks4WHFZSUd2T1dtelRwSG1GcjE2cEp4RDA2dWNMQmFIdE5HNjB3MVdYMkxLaC16MlU5RmdWUi1jNTVrcTVaZWRSOXNnMFRJV2FvT3JOeUNRZm4xRXQ4aUFFZElSTHluVnA0RGQxbGFhdHAyY3dkcGE3MG5vTzBYMGZYRHZUaFNtRDBvOEE4bnNVMXYtdUp0Q3RCMnZNeXM2OWxhbEFTeE1naXNqLU5xWjBVOEtSSVFfQXMyQkdLbXlmdVZicEczbk5SV0V2TE5BNnJLRTA3OE1pTGJn?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump mag van rechter (voorlopig) doorgaan met bouw balzaal Witte Huis",
+        "url": "https://www.hln.be/buitenland/trump-mag-van-rechter-voorlopig-doorgaan-met-bouw-balzaal-witte-huis~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump mag voorlopig toch doorgaan met bouw van balzaal in Witte Huis",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-mag-voorlopig-toch-doorgaan-met-bouw-van-balzaal-in-witte-huis~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Le détroit d’Ormuz toujours fermé, du « chantage » selon Trump : où en sont les négociations à trois jours de la fin du cessez-le-feu entre les États-Unis et l’Iran - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTEc3RklQcEpXZ2w0cm1pd01LWGkwSy1haXlvSjNVd2taS21yNWdhRGFlcW1yVGFkMHJXYjFvcTh5WVFVclVoaDIyQkFYS1pWNEpGd2dkSVV3TUNJcFJVeFJIVFo5R25hY1ZWUl82N3hEd3lSRzkyaU1rZHZNb2tpWEJmMVVFQ1hDbHN2aTdvSXV3QWVNYVFoYl9RZnZkbmFqbWNpYkR5Uk5WYTBrSnJKMFR2d2VIWHl5Z2dTanJFMmwxWEp6OGhPLUl1d3p1elBXTWJOSURtc0Q?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 3,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 4,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 15,
+      "crime": 8,
+      "eu": 6,
+      "politics": 7,
+      "be_gov": 9,
+      "culture": 7,
+      "tech": 1,
+      "economy": 6,
+      "sports": 27,
+      "health": 0,
+      "climate": 1,
+      "migration": 0,
+      "education": 3,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 18,
+      "crime": 12,
+      "eu": 9,
+      "politics": 12,
+      "be_gov": 9,
+      "culture": 10,
+      "tech": 1,
+      "economy": 7,
+      "sports": 32,
+      "health": 0,
+      "climate": 1,
+      "migration": 0,
+      "education": 4,
+      "weather": 10
     }
   }
 ]
