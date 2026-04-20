@@ -3111,5 +3111,401 @@
       "education": 5,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-04-20",
+    "generated_at": "2026-04-20T09:45:51+02:00",
+    "last_checked_at": "2026-04-20T09:45:51+02:00",
+    "total_articles": 408,
+    "trump_articles": 2,
+    "percentage": 0.5,
+    "core_percentage": 0.5,
+    "core_percentage_name": 0.5,
+    "trump_articles_expanded": 2,
+    "core_percentage_expanded": 0.5,
+    "indirect_references": 0,
+    "wide_total_articles": 511,
+    "wide_trump_articles": 2,
+    "wide_percentage": 0.4,
+    "wide_trump_articles_expanded": 2,
+    "wide_percentage_expanded": 0.4,
+    "macro_percentage": 0.6,
+    "qualifying_outlets": 18,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Barely registered today.",
+    "rank": 1,
+    "n_people": 15,
+    "dominance": 1.0,
+    "breadth": 0.13,
+    "deviation": null,
+    "smoothed_pct": null,
+    "assessment_method": "composite",
+    "theme_rank": 13,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 38,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 54,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 69,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 52,
+        "today": 16,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 35,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 37,
+        "today": 7,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 30,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 66,
+        "kept": 64,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 97,
+        "today": 18,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "gva",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Grillige Trump bewijst Nederlandse koningshuis een dienst: steeds meer vertrouwen in de Oranjes",
+        "url": "https://www.hln.be/royalty/grillige-trump-bewijst-nederlandse-koningshuis-een-dienst-steeds-meer-vertrouwen-in-de-oranjes~ac052827/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Détroit ouvert, détroit fermé: pourquoi la diplomatie “bipolaire” de Trump s’essouffle face à l’Iran",
+        "url": "https://www.7sur7.be/monde/detroit-ouvert-detroit-ferme-pourquoi-la-diplomatie-bipolaire-de-trump-sessouffle-face-a-liran~a2a67a65/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Grillige Trump bewijst Nederlandse koningshuis een dienst: steeds meer vertrouwen in de Oranjes",
+        "url": "https://www.hln.be/royalty/grillige-trump-bewijst-nederlandse-koningshuis-een-dienst-steeds-meer-vertrouwen-in-de-oranjes~ac052827/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Détroit ouvert, détroit fermé: pourquoi la diplomatie “bipolaire” de Trump s’essouffle face à l’Iran",
+        "url": "https://www.7sur7.be/monde/detroit-ouvert-detroit-ferme-pourquoi-la-diplomatie-bipolaire-de-trump-sessouffle-face-a-liran~a2a67a65/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 2,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "de_wever": 0,
+      "bouchez": 3,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 28,
+      "crime": 10,
+      "eu": 16,
+      "politics": 4,
+      "be_gov": 9,
+      "culture": 7,
+      "tech": 9,
+      "economy": 5,
+      "sports": 20,
+      "health": 8,
+      "climate": 4,
+      "migration": 0,
+      "education": 1,
+      "weather": 11
+    },
+    "wide_themes": {
+      "war": 34,
+      "crime": 15,
+      "eu": 21,
+      "politics": 8,
+      "be_gov": 12,
+      "culture": 8,
+      "tech": 14,
+      "economy": 7,
+      "sports": 27,
+      "health": 11,
+      "climate": 5,
+      "migration": 0,
+      "education": 3,
+      "weather": 17
+    }
   }
 ]
