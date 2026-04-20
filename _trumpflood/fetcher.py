@@ -103,9 +103,14 @@ _HEADERS = {
 }
 
 # Feeds whose origin sits behind Cloudflare and need cloudscraper to bypass
-# the basic JS challenge. (Stronger Cloudflare modes still 403; for those we
-# fall back to Google News' site: filter, see FEEDS below.)
+# the basic JS challenge. Works on residential IPs; GitHub Actions' datacenter
+# IPs are blocked by Cloudflare even with cloudscraper, so each entry here
+# has a fallback URL used automatically when the primary fetch fails.
 _CLOUDSCRAPER_FEEDS = {"standaard"}
+
+_CLOUDSCRAPER_FALLBACKS = {
+    "standaard": "https://news.google.com/rss/search?q=site:standaard.be+when:1d&hl=nl-BE&gl=BE&ceid=BE:nl",
+}
 
 
 # "Core" tier: national + regional-generalist outlets, i.e. outlets whose
@@ -140,8 +145,19 @@ def fetch_one(name, url, today):
         resp = _get(name, url)
         resp.raise_for_status()
     except Exception as e:
-        logger.warning("fetch failed for %s: %s", name, e)
-        return {"fetched": 0, "articles": []}
+        fallback = _CLOUDSCRAPER_FALLBACKS.get(name)
+        if fallback:
+            logger.warning("fetch failed for %s (%s), trying fallback: %s", name, e, fallback)
+            try:
+                resp = requests.get(fallback, headers=_HEADERS, timeout=20)
+                resp.raise_for_status()
+                url = fallback
+            except Exception as e2:
+                logger.warning("fallback also failed for %s: %s", name, e2)
+                return {"fetched": 0, "articles": []}
+        else:
+            logger.warning("fetch failed for %s: %s", name, e)
+            return {"fetched": 0, "articles": []}
 
     parsed = feedparser.parse(resp.content)
     entries = parsed.entries or []
