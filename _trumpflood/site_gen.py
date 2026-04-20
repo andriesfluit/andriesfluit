@@ -111,11 +111,39 @@ def _subhead(pct, date_str):
     return variants[seed % len(variants)]
 
 SOURCE_LABELS = {
-    "google_nl": "Google News BE (NL)",
-    "google_fr": "Google News BE (FR)",
-    "vrt": "VRT NWS",
-    "rtbf": "RTBF",
-    "lalibre": "La Libre",
+    "google_nl":          "Google News BE (NL)",
+    "google_fr":          "Google News BE (FR)",
+    "google_nl_politics": "GNews BE Politics (NL)",
+    "google_nl_world":    "GNews BE World (NL)",
+    "google_nl_business": "GNews BE Business (NL)",
+    "google_nl_tech":     "GNews BE Tech (NL)",
+    "google_nl_sport":    "GNews BE Sports (NL)",
+    "google_fr_politics": "GNews BE Politics (FR)",
+    "google_fr_world":    "GNews BE World (FR)",
+    "google_fr_business": "GNews BE Business (FR)",
+    "vrt":                "VRT NWS",
+    "standaard":          "De Standaard",
+    "hln":                "HLN",
+    "demorgen":           "De Morgen",
+    "nieuwsblad":         "Het Nieuwsblad",
+    "gva":                "Gazet van Antwerpen",
+    "hbvl":               "Het Belang van Limburg",
+    "knack":              "Knack",
+    "sporza":             "Sporza",
+    "bruzz":              "Bruzz",
+    "rtbf":               "RTBF",
+    "lalibre":            "La Libre",
+    "lecho":              "L'Echo",
+    "dhnet":              "DH.net",
+    "septsursept":        "7sur7",
+    "bx1":                "BX1",
+    "detijd_g":           "De Tijd",
+    "lesoir_g":           "Le Soir",
+    "sudinfo_g":          "Sudinfo",
+    "lavenir_g":          "L'Avenir",
+    "rtl_g":              "RTL Info",
+    "trends_g":           "Trends",
+    "tendances_g":        "Trends-Tendances",
 }
 
 
@@ -780,26 +808,23 @@ def _methodology(latest):
     # breakdown. Each falls back to an em-dash when the value is missing.
     dom_display = (f"{dominance}\u00d7" if dominance is not None else "\u2014")
     breadth_display = (
-        f"{int(round(breadth * 100))}% of core outlets ran a "
-        f"Trump-by-name story"
+        f"{int(round(breadth * 100))}% of core outlets ran a Trump story"
         if breadth is not None else "\u2014"
     )
-    # When deviation is None we don't yet have 7 name-only days of history.
-    # Count how many we do have so the reader sees concrete progress.
-    name_only_days = sum(
-        1 for r in _load_log() if r.get("core_percentage_name") is not None
+    # Count days with expanded data for the "baseline building" progress display.
+    expanded_days = sum(
+        1 for r in _load_log() if r.get("core_percentage_expanded") is not None
     )
     if deviation is not None:
         deviation_display = f"{deviation}\u00d7 the 14-day median"
-    elif name_only_days < 7:
+    elif expanded_days < 7:
         deviation_display = (
-            f"\u2014 (name-only history building: "
-            f"{name_only_days} of 7 days recorded)"
+            f"\u2014 (baseline building: "
+            f"{expanded_days} of 7 days recorded)"
         )
     else:
         deviation_display = (
-            f"\u2014 (median was 0 over the last {min(name_only_days, 14)} "
-            f"name-only days)"
+            f"\u2014 (median was 0 over the last {min(expanded_days, 14)} days)"
         )
     smooth_inline = (
         f"The 7-day rolling average of the core share is <strong>{smoothed_pct}%</strong>."
@@ -851,15 +876,17 @@ def _methodology(latest):
       <p>Three times a day &mdash; 06:00, 12:00 and 18:00 UTC, which is
       08:00 / 14:00 / 20:00 Belgian local in summer (CEST) and
       07:00 / 13:00 / 19:00 in winter (CET) &mdash;
-      a script fetches headlines from 31 Belgian RSS feeds:
+      a script fetches headlines from 33 Belgian RSS feeds:
       Google News BE (Dutch &amp; French general), 8 Google News BE topic feeds
       (politics, world, business, tech, sport in NL; politics, world, business in FR),
-      and 21 direct outlet feeds spanning VRT NWS, HLN, De Standaard, De Morgen,
-      Het Nieuwsblad, GVA, HBVL, Knack, Sporza, Bruzz on the Dutch side,
-      plus RTBF, La Libre, L'Echo, DH, 7sur7, BX1 directly, and De Tijd, Le Soir,
-      Sudinfo, L'Avenir and RTL through Google News' <code>site:</code> filter (their
-      direct feeds sit behind Cloudflare). De Standaard's direct feed is reached through
-      the <code>cloudscraper</code> library to handle the basic Cloudflare JS challenge.
+      and 23 outlet feeds spanning VRT NWS, HLN, De Morgen,
+      Het Nieuwsblad, HBVL, Knack, Sporza, Bruzz on the Dutch side,
+      plus RTBF, La Libre, L'Echo, DH, 7sur7, BX1 directly, and De Standaard,
+      De Tijd, Le Soir, Sudinfo, L'Avenir, RTL, Trends and Trends-Tendances
+      through Google News&rsquo; <code>site:</code> filter or
+      <code>cloudscraper</code> (outlets whose direct RSS feeds are
+      Cloudflare-gated; De Standaard uses cloudscraper to preserve full
+      paywall-headline coverage).
       Articles whose <code>pubDate</code> is today (Belgian local date)
       are kept; URL duplicates are collapsed globally, and near-identical
       titles inside a single outlet&rsquo;s own feed are collapsed too
@@ -872,10 +899,13 @@ def _methodology(latest):
       stories that are local, single-subject, or duplicated. To avoid that skew,
       the headline number on this page uses a <strong>core</strong> tier:
       national and regional-generalist outlets only &mdash; VRT, RTBF,
-      De Standaard, De Morgen, HLN, Het Nieuwsblad, GVA, HBVL, Knack, La Libre,
-      L'Echo, DHnet, 7sur7, plus De Tijd, Le Soir, Sudinfo, L'Avenir and RTL
-      (reached via Google News' <code>site:</code> filter because their direct
-      RSS is Cloudflare-gated). The full <strong>wide</strong> corpus is still
+      De Standaard, De Morgen, HLN, Het Nieuwsblad, HBVL, Knack, La Libre,
+      L'Echo, DHnet, 7sur7, plus De Tijd, Le Soir, Sudinfo, L'Avenir, RTL,
+      Trends and Trends-Tendances (reached via Google News&rsquo;
+      <code>site:</code> filter or cloudscraper because their direct RSS is
+      Cloudflare-gated). GVA is fetched but kept in the wide tier only, as
+      its national content largely overlaps with Het Nieuwsblad (same group).
+      The full <strong>wide</strong> corpus is still
       computed and stored in <code>data/log.json</code> as a cross-check.
       Today\u2019s core corpus: <strong>{core_total} headlines</strong>,
       <strong>{core_trump} by-name Trump matches = {core_pct}%</strong>
@@ -886,14 +916,9 @@ def _methodology(latest):
       <h3>Trump match</h3>
       <p>Each headline title is scanned with two detectors at once:</p>
       <ul class="meth-rules">
-        <li><strong>Name-only (drives the zone).</strong> A single
-        case-insensitive match on <code>trump</code> (the literal name,
-        whole word). Every number that feeds the zone classifier
-        &mdash; share, breadth, rank, dominance &mdash; uses this
-        detector, so Trump is measured on exactly the same yardstick as
-        the other named figures we track.</li>
-        <li><strong>Expanded (shown, but does not drive the zone).</strong>
-        A broader detector that also catches common indirect references:
+        <li><strong>Expanded (drives share, breadth and deviation).</strong>
+        Catches both the literal name <code>trump</code> (whole word,
+        case-insensitive) and common indirect references:
         <code>white house</code> / <code>witte huis</code> /
         <code>maison blanche</code>, <code>oval office</code> /
         <code>bureau ovale</code>, and
@@ -901,17 +926,21 @@ def _methodology(latest):
         <code>pr\u00e9sident(e) am\u00e9ricain(e)</code> /
         <code>pr\u00e9sident(e) des \u00c9tats-Unis</code> /
         <code>president van de VS</code> (accents optional). A headline
-        like &ldquo;Het Witte Huis waarschuwt Europa&rdquo; is counted
-        here. This total is shown as editorial context, but it does not
-        feed the zone.</li>
+        like &ldquo;Het Witte Huis waarschuwt Europa&rdquo; counts here.
+        This is the figure the zone uses for share, breadth and
+        deviation.</li>
+        <li><strong>Name-only (drives rank and dominance).</strong>
+        A single match on <code>trump</code> only. Used exclusively for
+        ranking Trump against the other fourteen named figures we track,
+        so the comparison stays apples-to-apples: expanding one person&rsquo;s
+        pattern while the others stay name-only would unfairly inflate
+        Trump&rsquo;s rank.</li>
       </ul>
-      <p>Why split them? Expanding Trump\u2019s pattern while the other
-      figures stay name-only would inflate Trump\u2019s share against
-      comparators who only match by name. Keeping both numbers separate
-      is the honest version: the zone is computed apples-to-apples, and
-      the expanded figure is published so you can see how much extra
-      coverage the indirect references add on any given day. Titles
-      only; no body text, no fuzzy matching.</p>
+      <p>In practice on most days the two counts are identical, because
+      Belgian headlines tend to name Trump directly. The split matters on
+      days when quality press uses &ldquo;de Amerikaanse president&rdquo;
+      or &ldquo;le pr\u00e9sident am\u00e9ricain&rdquo; without naming
+      him. Titles only; no body text, no fuzzy matching.</p>
 
       <h3>Comparators &amp; themes</h3>
       <p>The same headlines are scanned for fifteen named people in
@@ -954,14 +983,11 @@ def _methodology(latest):
 
       <h4 class="signal-h">1. Share &mdash; &ldquo;How much of the news is about Trump?&rdquo;</h4>
       <p>The percentage of today&rsquo;s Belgian core-tier headlines
-      that mention Trump <em>by name</em>. Computed as
-      <code>name-only Trump headlines &divide; total headlines &times; 100</code>.
-      The expanded number (name + indirect references) is shown
-      separately in the hero, but the zone is driven by this name-only
-      figure to keep Trump and the fourteen comparators on one
-      yardstick.</p>
+      that reference Trump, using the expanded detector (name +
+      indirect references). Computed as
+      <code>expanded Trump headlines &divide; total headlines &times; 100</code>.</p>
       <p class="signal-today">Today: <strong>{core_trump}/{core_total} = {core_pct}%</strong>.
-      A low number means Trump simply is not in the news much by name,
+      A low number means Trump is not prominent in the news today,
       regardless of what other signals say.</p>
 
       <h4 class="signal-h">2. Dominance &mdash; &ldquo;Is he THE figure of the day?&rdquo;</h4>
@@ -976,10 +1002,9 @@ def _methodology(latest):
 
       <h4 class="signal-h">3. Breadth &mdash; &ldquo;Is it everywhere, or one paper?&rdquo;</h4>
       <p>The fraction of core outlets that published at least one
-      Trump-by-name headline today. Name-only, same as the share and
-      rank signals. Only outlets with &ge; 5 post-dedup headlines count
-      toward the denominator so a near-empty feed doesn&rsquo;t skew
-      the ratio.</p>
+      Trump headline today, using the expanded detector. Only outlets
+      with &ge; 5 post-dedup headlines count toward the denominator so
+      a near-empty feed doesn&rsquo;t skew the ratio.</p>
       <p class="signal-today">Today: <strong>{breadth_display}</strong>.
       A high dominance combined with low breadth means one outlet is
       obsessing; a high breadth means Belgian newsrooms collectively
@@ -997,12 +1022,10 @@ def _methodology(latest):
       {n_people}.{theme_txt}</p>
 
       <h4 class="signal-h">Deviation (context, not a hard gate)</h4>
-      <p>Today&rsquo;s name-only core share divided by the 14-day
-      median of the same series. Requires at least 7 prior days with
-      name-only data (i.e. records carrying
-      <code>core_percentage_name</code>), which we build up gradually.
-      GDELT-era backfills don&rsquo;t carry the field and don&rsquo;t
-      count. Until the signal is computable, the gate treats it as
+      <p>Today&rsquo;s expanded core share divided by the 14-day
+      median of the same series. Requires at least 7 prior days of
+      data under the current methodology, which we build up gradually.
+      Until the signal is computable, the gate treats it as
       &ldquo;pass&rdquo;.</p>
       <p class="signal-today">Today: <strong>{deviation_display}</strong>.
       {smooth_inline}</p>
