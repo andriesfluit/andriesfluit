@@ -45,16 +45,16 @@ FEEDS = {
     "standaard": "https://www.standaard.be/rss/section/1f2838d4-99ea-49f0-9102-138784c7ea7c",
     "hln":       "https://www.hln.be/rss.xml",
     "demorgen":  "https://www.demorgen.be/in-het-nieuws/rss.xml",
-    "nieuwsblad":"https://www.nieuwsblad.be/rss",
-    "gva":       "https://www.gva.be/rss",
-    "hbvl":      "https://www.hbvl.be/rss",
-    "knack":     "https://www.knack.be/nieuws/feed",
+    "nieuwsblad":"https://www.nieuwsblad.be/rss/",
+    "gva":       "https://www.gva.be/rss/",
+    "hbvl":      "https://www.hbvl.be/rss/",
+    "knack":     "https://news.google.com/rss/search?q=site:knack.be+when:2d&hl=nl-BE&gl=BE&ceid=BE:nl",
     "sporza":    "https://sporza.be/nl.rss.articles.xml",
     "bruzz":     "https://www.bruzz.be/rss.xml",
     # Franstalig direct (mainstream)
     "rtbf":      "https://rss.rtbf.be/article/rss/highlight_rtbf_info.xml?source=internal",
     "lalibre":   "https://www.lalibre.be/arc/outboundfeeds/rss/?outputType=xml",
-    "lecho":     "https://www.lecho.be/rss/top_stories.xml",
+    "lecho":     "https://news.google.com/rss/search?q=site:lecho.be+when:2d&hl=fr-BE&gl=BE&ceid=BE:fr",
     "dhnet":     "https://www.dhnet.be/arc/outboundfeeds/rss/?outputType=xml",
     "septsursept":"https://www.7sur7.be/rss.xml",
     "bx1":       "https://bx1.be/feed/",
@@ -67,6 +67,9 @@ FEEDS = {
     "sudinfo_g":   "https://news.google.com/rss/search?q=site:sudinfo.be+when:2d&hl=fr-BE&gl=BE&ceid=BE:fr",
     "lavenir_g":   "https://news.google.com/rss/search?q=site:lavenir.net+when:2d&hl=fr-BE&gl=BE&ceid=BE:fr",
     "rtl_g":       "https://news.google.com/rss/search?q=site:rtl.be+when:2d&hl=fr-BE&gl=BE&ceid=BE:fr",
+    # Additional outlets missing from original set
+    "trends_g":    "https://news.google.com/rss/search?q=site:trends.knack.be+when:2d&hl=nl-BE&gl=BE&ceid=BE:nl",
+    "tendances_g": "https://news.google.com/rss/search?q=site:trends.levif.be+when:2d&hl=fr-BE&gl=BE&ceid=BE:fr",
 }
 
 
@@ -117,11 +120,12 @@ _CLOUDSCRAPER_FEEDS = {"standaard"}
 # the actual outlets and count as core.
 CORE_FEED_KEYS = {
     # Direct Vlaams national + regional generalist
-    "vrt", "standaard", "hln", "demorgen", "nieuwsblad", "gva", "hbvl", "knack",
+    "vrt", "standaard", "hln", "demorgen", "nieuwsblad", "hbvl", "knack",
     # Direct Franstalig national + regional generalist
     "rtbf", "lalibre", "lecho", "dhnet", "septsursept",
-    # Via Google site: filter (their direct RSS is Cloudflare-gated)
+    # Via Google site: filter (direct RSS blocked or abandoned)
     "detijd_g", "lesoir_g", "sudinfo_g", "lavenir_g", "rtl_g",
+    "trends_g", "tendances_g",
 }
 
 

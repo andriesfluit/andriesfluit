@@ -181,12 +181,14 @@ def main():
     core_pct_name = round((core_trump_name / core_total * 100), 1) if core_total else 0.0
     core_pct_expanded = round((core_trump_expanded / core_total * 100), 1) if core_total else 0.0
 
-    # The zone is driven by the name-only figures. Keep `core_trump` and
-    # `core_pct` as aliases pointing at the zone-driving numbers.
-    core_trump = core_trump_name
-    core_pct = core_pct_name
-    wide_trump = wide_trump_name
-    wide_pct = wide_pct_name
+    # Zone pct is driven by the EXPANDED detector (name + indirect references
+    # like "White House" / "président américain"). Rank and dominance inside
+    # assess_composite use comparisons["trump"] which is always name-only, so
+    # the people-ranking stays apples-to-apples.
+    core_trump = core_trump_expanded
+    core_pct = core_pct_expanded
+    wide_trump = wide_trump_expanded
+    wide_pct = wide_pct_expanded
 
     core_titles = [t for _, t, _ in core_kept]
     core_comparisons = count_comparators(core_titles)
@@ -208,13 +210,13 @@ def main():
         except json.JSONDecodeError:
             existing_log = []
     prior_core_name = [
-        r.get("core_percentage_name")
+        r.get("core_percentage_expanded")
         for r in existing_log
         if r.get("date") != today.isoformat()
-        and r.get("core_percentage_name") is not None
+        and r.get("core_percentage_expanded") is not None
     ]
     recent_core = prior_core_name[-6:]  # last 6 days (exclusive of today)
-    window = recent_core + [core_pct_name]
+    window = recent_core + [core_pct_expanded]
     # Only publish a rolling average once we have 7 days of name-only
     # observations (prior 6 + today). Earlier windows would silently
     # include partial data and misrepresent the baseline.
@@ -232,7 +234,7 @@ def main():
     }
     active_core = [info for info in core_outlets.values() if info["kept"] >= 5]
     if active_core:
-        outlets_with_trump = sum(1 for info in active_core if info["trump"] > 0)
+        outlets_with_trump = sum(1 for info in active_core if info["trump_expanded"] > 0)
         breadth = outlets_with_trump / len(active_core)
     else:
         breadth = None
@@ -244,7 +246,7 @@ def main():
     prior14 = [p for p in prior_core_name[-14:] if p is not None]
     if len(prior14) >= 7:
         med = statistics.median(prior14)
-        deviation = (core_pct_name / med) if med > 0 else None
+        deviation = (core_pct_expanded / med) if med > 0 else None
     else:
         deviation = None
 
@@ -278,9 +280,9 @@ def main():
         "last_checked_at": generated_at,
         # Headline numbers = CORE tier, NAME-ONLY (zone-driving).
         "total_articles": core_total,
-        "trump_articles": core_trump_name,
-        "percentage": core_pct_name,
-        "core_percentage": core_pct_name,
+        "trump_articles": core_trump_expanded,
+        "percentage": core_pct_expanded,
+        "core_percentage": core_pct_expanded,
         # Dedicated name-only field used by smoothed_pct and deviation.
         # Historical records get this via a one-shot backfill; pre-
         # detector-era records (GDELT) do not carry it.
