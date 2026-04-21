@@ -10,6 +10,7 @@ except ImportError:                 # pragma: no cover
     _BRUSSELS = None
 
 from comparators import COMPARATORS, label_for as comparator_label
+from assessor import THRESHOLDS as _ASSESSOR_THRESHOLDS
 
 ROOT = Path(__file__).parent
 LOG_FILE = ROOT / "data" / "log.json"
@@ -17,15 +18,30 @@ LOG_FILE = ROOT / "data" / "log.json"
 # serves it directly at andriesfluit.be/trumpflood/.
 OUTPUT_DIR = ROOT.parent / "trumpflood"
 
+
+def _build_zones():
+    # Zone bands are derived from the composite classifier's share (pct)
+    # floors so the chart stays honest when thresholds.json changes. A day
+    # whose plotted share lands in a band may still be classified lower
+    # because the real classifier also requires breadth, dominance and
+    # rank floors to clear; the bands on the chart are a visual reference
+    # for the share dimension only.
+    puddles_lo  = _ASSESSOR_THRESHOLDS["puddles"]["pct"]
+    wet_lo      = _ASSESSOR_THRESHOLDS["wet"]["pct"]
+    soaked_lo   = _ASSESSOR_THRESHOLDS["soaked"]["pct"]
+    flooding_lo = _ASSESSOR_THRESHOLDS["flooding"]["pct"]
+    return [
+        (0.0,          puddles_lo,   "dry",      "Dry"),
+        (puddles_lo,   wet_lo,       "puddles",  "Puddles"),
+        (wet_lo,       soaked_lo,    "wet",      "Wet"),
+        (soaked_lo,    flooding_lo,  "soaked",   "Soaked"),
+        (flooding_lo,  100.0,        "flooding", "Flooding"),
+    ]
+
+
 # Zone bands as (lower_bound, upper_bound, key, display_name).
 # The waterline at percentage P sits in the zone where lower <= P < upper.
-ZONES = [
-    (0, 5, "dry", "Dry"),
-    (5, 15, "puddles", "Puddles"),
-    (15, 25, "wet", "Wet"),
-    (25, 40, "soaked", "Soaked"),
-    (40, 100, "flooding", "Flooding"),
-]
+ZONES = _build_zones()
 ZONE_KEYS = [z[2] for z in ZONES]
 
 # Distinct, saturated color per zone for clear visual jumps.
@@ -338,6 +354,250 @@ def _hero(latest):
 """
 
 
+def _zone_definitions_block(latest):
+    """Render each zone's definition as a card showing, gate by gate, what
+    today's signals read and whether each gate cleared. Replaces the old
+    static threshold matrix; lets a reader see at a glance which zone
+    today lands in and which gates would need to flip for the next zone
+    up to trigger."""
+    from assessor import THRESHOLDS as _T
+
+    pct = latest.get("percentage")
+    rank = latest.get("rank")
+    dominance = latest.get("dominance")
+    breadth = latest.get("breadth")
+    today_zone = latest.get("zone") or "dry"
+
+    def _fmt_pct(v):
+        return "\u2014" if v is None else f"{v}%"
+
+    def _fmt_x(v):
+        return "\u2014" if v is None else f"{v}\u00d7"
+
+    def _fmt_breadth(v):
+        return "\u2014" if v is None else f"{int(round(v * 100))}%"
+
+    def _fmt_rank(v):
+        return "\u2014" if v is None else f"#{v}"
+
+    def _gate(pass_flag, label_text):
+        if pass_flag is None:
+            return (
+                f'<li class="gate gate-na">'
+                f'<span class="gate-mark">\u25CB</span> {label_text} '
+                f'<span class="gate-note">(not gated for this zone)</span></li>'
+            )
+        mark = "\u2713" if pass_flag else "\u2717"
+        cls = "gate-ok" if pass_flag else "gate-fail"
+        return f'<li class="gate {cls}"><span class="gate-mark">{mark}</span> {label_text}</li>'
+
+    def _zone_card(key, display):
+        t = _T[key]
+        share_floor = t.get("pct")
+        dom_floor = t.get("dominance")
+        breadth_floor = t.get("breadth")
+        rank_ceil = t.get("rank_max")
+
+        share_pass = (
+            True if share_floor is None
+            else (pct is not None and pct >= share_floor)
+        )
+        dom_pass = (
+            None if dom_floor is None
+            else (dominance is not None and dominance >= dom_floor)
+        )
+        breadth_pass = (
+            None if breadth_floor is None
+            else (breadth is None or breadth >= breadth_floor)
+        )
+        rank_pass = (
+            True if rank_ceil is None
+            else (rank is not None and rank <= rank_ceil)
+        )
+
+        all_pass = all(
+            p is not False
+            for p in (share_pass, dom_pass, breadth_pass, rank_pass)
+        )
+        card_cls = "zone-card"
+        if all_pass:
+            card_cls += " zone-card-cleared"
+        if key == today_zone:
+            card_cls += " zone-card-active"
+
+        gates_html = []
+        share_label = (
+            f"Share &ge; <strong>{share_floor}%</strong> "
+            f"(today: {_fmt_pct(pct)})"
+            if share_floor is not None else
+            f"Share not gated (today: {_fmt_pct(pct)})"
+        )
+        gates_html.append(_gate(share_pass, share_label))
+
+        if dom_floor is not None:
+            dom_label = (
+                f"Dominance &ge; <strong>{dom_floor}\u00d7</strong> "
+                f"(today: {_fmt_x(dominance)})"
+            )
+            gates_html.append(_gate(dom_pass, dom_label))
+        else:
+            gates_html.append(_gate(None, "Dominance"))
+
+        if breadth_floor is not None:
+            breadth_label = (
+                f"Breadth &ge; <strong>{int(round(breadth_floor * 100))}%</strong> "
+                f"of outlets (today: {_fmt_breadth(breadth)})"
+            )
+            gates_html.append(_gate(breadth_pass, breadth_label))
+        else:
+            gates_html.append(_gate(None, "Breadth"))
+
+        if rank_ceil is not None:
+            rank_label = (
+                f"Rank \u2264 <strong>#{rank_ceil}</strong> "
+                f"(today: {_fmt_rank(rank)})"
+            )
+            gates_html.append(_gate(rank_pass, rank_label))
+        else:
+            gates_html.append(_gate(None, "Rank"))
+
+        badge = ""
+        if key == today_zone:
+            badge = '<span class="zone-card-badge">today</span>'
+        elif all_pass:
+            badge = '<span class="zone-card-badge subtle">all gates clear</span>'
+
+        return (
+            f'<div class="{card_cls}">'
+            f'<div class="zone-card-head">'
+            f'<span class="zone-card-swatch" style="background:{ZONE_COLORS[key]}"></span>'
+            f'<span class="zone-card-name">{display}</span>'
+            f'{badge}'
+            f'</div>'
+            f'<ul class="zone-gates">{"".join(gates_html)}</ul>'
+            f'</div>'
+        )
+
+    zones_rendered = [
+        _zone_card("flooding", "Flooding"),
+        _zone_card("soaked",   "Soaked"),
+        _zone_card("wet",      "Wet"),
+        _zone_card("puddles",  "Puddles"),
+    ]
+    dry_note = (
+        '<div class="zone-card zone-card-dry'
+        + (' zone-card-active' if today_zone == "dry" else '')
+        + '"><div class="zone-card-head">'
+        f'<span class="zone-card-swatch" style="background:{ZONE_COLORS["dry"]}"></span>'
+        '<span class="zone-card-name">Dry</span>'
+        + ('<span class="zone-card-badge">today</span>' if today_zone == "dry" else '')
+        + '</div><p class="zone-card-dry-note">Assigned when no zone above '
+        'clears all of its gates.</p></div>'
+    )
+    return "".join(zones_rendered) + dry_note
+
+
+def _lead_paragraph(latest):
+    """Plain-English summary of today's reading. Sits between the hero and
+    the comparison panel; a reader who only reads this paragraph should
+    come away with the share, breadth, rank, leaderboard context and the
+    verdict in one pass."""
+    core_total = latest.get("total_articles", 0)
+    core_trump = latest.get("trump_articles", 0)
+    core_pct = latest.get("percentage", 0)
+    rank = latest.get("rank")
+    n_people = latest.get("n_people") or 0
+    dominance = latest.get("dominance")
+    breadth = latest.get("breadth")
+    core_outlets_active = latest.get("core_outlets_active") or 0
+    label = latest.get("label", "")
+    zone = latest.get("zone") or "dry"
+    comps = latest.get("comparisons") or {}
+
+    if not core_total:
+        return ""
+
+    color = ZONE_COLORS.get(zone, ZONE_COLORS["dry"])
+    trump_count = comps.get("trump", core_trump)
+
+    # Breadth in concrete counts rather than a raw fraction.
+    if breadth is not None and core_outlets_active:
+        outlets_with_trump = int(round(breadth * core_outlets_active))
+        breadth_txt = (
+            f"<strong>{outlets_with_trump} of {core_outlets_active}</strong> "
+            f"active national outlets ran a by-name Trump story"
+        )
+    elif breadth is not None:
+        breadth_txt = (
+            f"<strong>{int(round(breadth * 100))}%</strong> of outlets "
+            f"carried a by-name Trump story"
+        )
+    else:
+        breadth_txt = "outlet breadth is not yet computable today"
+
+    # Rank phrased with named context rather than "#R of N".
+    others_sorted = sorted(
+        ((k, v) for k, v in comps.items() if k != "trump"),
+        key=lambda kv: kv[1], reverse=True,
+    )
+    others_ahead = [(k, v) for k, v in others_sorted if v > trump_count]
+    if rank is not None and n_people:
+        if others_ahead:
+            ahead_names = ", ".join(
+                html.escape(comparator_label(k)) for k, _ in others_ahead[:3]
+            )
+            rank_sentence = (
+                f"He is <strong>#{rank}</strong> of {n_people} named figures "
+                f"we track, behind {ahead_names}"
+            )
+        else:
+            rank_sentence = (
+                f"He is <strong>#{rank}</strong> of {n_people} named figures "
+                f"we track, ahead of everyone else on the list"
+            )
+    else:
+        rank_sentence = "Rank among named figures is not computed today"
+
+    # Dominance phrased in concrete comparator terms.
+    n_others = max(n_people - 1, 0)
+    if dominance is not None:
+        if dominance >= 1:
+            dom_clause = (
+                f", and alone out-mentions the other {n_others} "
+                f"combined ({dominance}\u00d7)"
+            )
+        elif dominance > 0:
+            dom_clause = (
+                f" ({dominance}\u00d7 the other {n_others} combined)"
+            )
+        else:
+            dom_clause = ""
+    else:
+        dom_clause = ""
+
+    # Top rival gives a concrete runner-up name rather than an abstract list.
+    rival_clause = ""
+    if others_sorted and others_sorted[0][1] > 0:
+        rival_k, rival_v = others_sorted[0]
+        rival_clause = (
+            f" The next-most-mentioned person is "
+            f"<strong>{html.escape(comparator_label(rival_k))}</strong> "
+            f"({rival_v})."
+        )
+
+    return f"""
+<section class="lead">
+  <p class="lead-body">
+    Today Trump is named in <strong>{trump_count} of {core_total}</strong>
+    Belgian core-tier headlines (<strong>{core_pct}%</strong>).
+    {breadth_txt}. {rank_sentence}{dom_clause}.{rival_clause}
+    Verdict: <span class="lead-verdict" style="color:{color}">
+    <strong>{html.escape(label)}</strong></span>.
+  </p>
+</section>
+"""
+
+
 def _comparison_panel(latest):
     comps = latest.get("comparisons")
     total = latest.get("total_articles", 0)
@@ -523,13 +783,20 @@ def _timeline(log_sorted_asc):
     if not log_sorted_asc:
         return ""
 
+    # Chart renders at most the last 90 days, so a long archive doesn't
+    # squash the bars beyond readability.
+    log_sorted_asc = log_sorted_asc[-90:]
+
     W, H = 800, 260
     PAD_L, PAD_R, PAD_T, PAD_B = 44, 12, 16, 32
     chart_w = W - PAD_L - PAD_R
     chart_h = H - PAD_T - PAD_B
 
     max_pct = max((r.get("percentage", 0) for r in log_sorted_asc), default=0)
-    y_max = max(50.0, max_pct * 1.25)
+    # Floor at 5% so the Flooding band (>= 4% share) stays visible on a
+    # string of quiet days; headroom above the highest bar so a peak day
+    # isn't flush with the top edge.
+    y_max = max(5.0, max_pct * 1.25)
 
     def y(p):
         return PAD_T + chart_h * (1 - p / y_max)
@@ -551,21 +818,21 @@ def _timeline(log_sorted_asc):
             f'height="{(y_bot - y_top):.1f}" fill="{ZONE_COLORS[key]}" opacity="0.10"/>'
         )
 
-    # Threshold lines + labels on the y axis.
+    # Threshold lines + labels on the y axis. Ticks sit on the composite
+    # classifier's share floors so the chart reads as "which zone's share
+    # floor did today clear", not "which percent bucket fell the bar into".
     grid_lines = []
-    y_ticks = [0, 5, 15, 25, 40]
-    y_ticks = [t for t in y_ticks if t <= y_max]
-    if y_max not in y_ticks:
-        y_ticks.append(int(y_max))
+    y_ticks = [0.0] + [lo for lo, _, _, _ in ZONES if 0 < lo <= y_max]
     for t in y_ticks:
         yp = y(t)
         grid_lines.append(
             f'<line x1="{PAD_L}" x2="{W - PAD_R}" y1="{yp:.1f}" y2="{yp:.1f}" '
             f'stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/>'
         )
+        label = f"{t:g}%"
         grid_lines.append(
             f'<text x="{PAD_L - 8}" y="{yp + 4:.1f}" text-anchor="end" '
-            f'font-size="11" fill="#8a8170" font-family="Inter, sans-serif">{t}%</text>'
+            f'font-size="11" fill="#8a8170" font-family="Inter, sans-serif">{label}</text>'
         )
 
     # Bars per day.
@@ -613,10 +880,15 @@ def _timeline(log_sorted_asc):
                 f'{html.escape(short)}</text>'
             )
 
+    def _fmt_band(lo, hi):
+        if hi >= 100:
+            return f"\u2265 {lo:g}%"
+        return f"{lo:g}\u2013{hi:g}%"
+
     legend = " ".join(
         f'<span class="legend-item"><span class="legend-swatch" '
         f'style="background:{ZONE_COLORS[key]}"></span>'
-        f'{ZONE_EMOJI[key]} {name} <small>{lo}\u2013{hi}%</small></span>'
+        f'{ZONE_EMOJI[key]} {name} <small>{_fmt_band(lo, hi)}</small></span>'
         for lo, hi, key, name in ZONES
     )
 
@@ -689,6 +961,7 @@ def _history_table(log_sorted_desc):
 
 def _methodology(latest):
     from assessor import THRESHOLDS_VERSION as thresholds_version
+    zone_cards = _zone_definitions_block(latest)
     core_total = latest.get("total_articles", 0)
     core_trump = latest.get("trump_articles", 0)
     core_pct = latest.get("percentage", 0)
@@ -984,57 +1257,15 @@ def _methodology(latest):
       <p class="signal-today">Today: <strong>{deviation_display}</strong>.
       {smooth_inline}</p>
 
-      <h4 class="signal-h">Threshold table</h4>
-      <p><strong>How to read this table.</strong> A day lands in a zone
-      only when <em>all</em> the signals in its row clear their floor
-      simultaneously. Missing any one cell drops the day to the next
-      zone down. A dash in a cell means that signal is not gated for
-      that zone.</p>
-      <table class="zone-thresholds">
-        <thead>
-          <tr>
-            <th>Zone</th>
-            <th class="num">Share</th>
-            <th class="num">Dominance</th>
-            <th class="num">Breadth</th>
-            <th class="num">Rank</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Flooding</strong></td>
-            <td class="num">&ge; 4.0%</td>
-            <td class="num">&ge; 2.0&times;</td>
-            <td class="num">&ge; 55%</td>
-            <td class="num">= #1</td>
-          </tr>
-          <tr>
-            <td><strong>Soaked</strong></td>
-            <td class="num">&ge; 2.5%</td>
-            <td class="num">&ge; 1.2&times;</td>
-            <td class="num">&ge; 40%</td>
-            <td class="num">= #1</td>
-          </tr>
-          <tr>
-            <td><strong>Wet</strong></td>
-            <td class="num">&ge; 1.5%</td>
-            <td class="num">&mdash;</td>
-            <td class="num">&ge; 25%</td>
-            <td class="num">&le; #2</td>
-          </tr>
-          <tr>
-            <td><strong>Puddles</strong></td>
-            <td class="num">&ge; 0.8%</td>
-            <td class="num">&mdash;</td>
-            <td class="num">&mdash;</td>
-            <td class="num">&le; #4</td>
-          </tr>
-          <tr>
-            <td><strong>Dry</strong></td>
-            <td class="num" colspan="4">everything below the Puddles floor</td>
-          </tr>
-        </tbody>
-      </table>
+      <h4 class="signal-h">Today against each zone</h4>
+      <p>Each zone has a set of gates its day has to clear simultaneously.
+      The cards below read top-down from most extreme to least; the first
+      one whose gates all show a check mark is today&rsquo;s zone. A
+      hollow circle means the gate is not used for that zone. Dry is the
+      fall-through when nothing above it clears.</p>
+      <div class="zone-cards">
+        {zone_cards}
+      </div>
       <p>Thresholds in use today: version
       <code>{thresholds_version}</code>. The initial version
       (<code>v0-eyeballed</code>) uses absolute floors picked by eye,
@@ -1569,6 +1800,31 @@ PAGE = """<!doctype html>
     font-weight: 600;
   }}
 
+  /* Lead paragraph: newspaper-style lede sitting under the hero. Summarises
+     the four signals + verdict in one readable sentence so the reader can
+     skip the hero and still get the story. */
+  .lead {{
+    margin: -24px 0 64px;
+    padding: 20px 24px;
+    background: white;
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--ink);
+    border-radius: 2px;
+    max-width: 900px;
+  }}
+  .lead-body {{
+    margin: 0;
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 19px;
+    line-height: 1.55;
+    color: var(--ink);
+  }}
+  .lead-verdict {{ white-space: nowrap; }}
+  @media (max-width: 520px) {{
+    .lead {{ padding: 16px 18px; margin: -16px 0 40px; }}
+    .lead-body {{ font-size: 16px; line-height: 1.5; }}
+  }}
+
   .mentions {{ list-style: none; padding: 0; margin: 0; }}
   .mentions li {{
     padding: 16px 0;
@@ -1903,6 +2159,96 @@ PAGE = """<!doctype html>
   }}
   .zone-thresholds tr:last-child td {{ border-bottom: none; }}
   .zone-thresholds td strong {{ font-weight: 700; }}
+
+  /* Per-zone cards showing today's readings against each gate. Replaces
+     the old threshold matrix; every reader can see which gates cleared
+     for each zone today without mentally cross-referencing a table. */
+  .zone-cards {{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 12px 0 20px;
+  }}
+  .zone-card {{
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--rule);
+    border-radius: 3px;
+    padding: 10px 14px;
+    background: white;
+  }}
+  .zone-card-active {{
+    border-left-width: 4px;
+    border-left-color: var(--ink);
+    box-shadow: 0 0 0 1px var(--ink) inset, 0 1px 3px rgba(10, 25, 41, 0.06);
+  }}
+  .zone-card-cleared:not(.zone-card-active) {{
+    border-left-color: #6b9062;
+  }}
+  .zone-card-head {{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }}
+  .zone-card-swatch {{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    flex: 0 0 12px;
+  }}
+  .zone-card-name {{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }}
+  .zone-card-badge {{
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 2px;
+    background: var(--ink);
+    color: var(--paper);
+  }}
+  .zone-card-badge.subtle {{
+    background: #eee6d4;
+    color: var(--muted);
+    font-weight: 600;
+  }}
+  .zone-gates {{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 18px;
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
+  }}
+  @media (max-width: 560px) {{
+    .zone-gates {{ grid-template-columns: 1fr; }}
+  }}
+  .gate {{ display: flex; gap: 8px; align-items: baseline; }}
+  .gate-mark {{
+    font-family: Menlo, Consolas, monospace;
+    font-weight: 700;
+    width: 14px;
+    text-align: center;
+    flex: 0 0 14px;
+  }}
+  .gate-ok .gate-mark {{ color: #4a7a3e; }}
+  .gate-fail .gate-mark {{ color: #a8523c; }}
+  .gate-na {{ color: var(--muted); }}
+  .gate-na .gate-mark {{ color: var(--rule); }}
+  .gate-note {{ color: var(--muted); font-size: 12px; }}
+  .zone-card-dry-note {{
+    margin: 2px 0 0;
+    font-size: 13px;
+    color: var(--muted);
+  }}
+
   .meth-body code {{
     background: #f5f0e2;
     padding: 1px 5px;
@@ -1996,7 +2342,11 @@ PAGE = """<!doctype html>
 
   {hero}
 
+  {lead}
+
   {comparison}
+
+  {timeline}
 
   {mentions}
 
@@ -2204,7 +2554,9 @@ def render():
 
     html_out = PAGE.format(
         hero=_hero(latest),
+        lead=_lead_paragraph(latest),
         comparison=_comparison_panel(latest),
+        timeline=_timeline(log_sorted_asc),
         mentions=_today_mentions(latest),
         history=_history_table(log_sorted_desc),
         methodology=_methodology(latest),

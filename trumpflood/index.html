@@ -426,6 +426,31 @@
     font-weight: 600;
   }
 
+  /* Lead paragraph: newspaper-style lede sitting under the hero. Summarises
+     the four signals + verdict in one readable sentence so the reader can
+     skip the hero and still get the story. */
+  .lead {
+    margin: -24px 0 64px;
+    padding: 20px 24px;
+    background: white;
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--ink);
+    border-radius: 2px;
+    max-width: 900px;
+  }
+  .lead-body {
+    margin: 0;
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 19px;
+    line-height: 1.55;
+    color: var(--ink);
+  }
+  .lead-verdict { white-space: nowrap; }
+  @media (max-width: 520px) {
+    .lead { padding: 16px 18px; margin: -16px 0 40px; }
+    .lead-body { font-size: 16px; line-height: 1.5; }
+  }
+
   .mentions { list-style: none; padding: 0; margin: 0; }
   .mentions li {
     padding: 16px 0;
@@ -760,6 +785,96 @@
   }
   .zone-thresholds tr:last-child td { border-bottom: none; }
   .zone-thresholds td strong { font-weight: 700; }
+
+  /* Per-zone cards showing today's readings against each gate. Replaces
+     the old threshold matrix; every reader can see which gates cleared
+     for each zone today without mentally cross-referencing a table. */
+  .zone-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 12px 0 20px;
+  }
+  .zone-card {
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--rule);
+    border-radius: 3px;
+    padding: 10px 14px;
+    background: white;
+  }
+  .zone-card-active {
+    border-left-width: 4px;
+    border-left-color: var(--ink);
+    box-shadow: 0 0 0 1px var(--ink) inset, 0 1px 3px rgba(10, 25, 41, 0.06);
+  }
+  .zone-card-cleared:not(.zone-card-active) {
+    border-left-color: #6b9062;
+  }
+  .zone-card-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .zone-card-swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    flex: 0 0 12px;
+  }
+  .zone-card-name {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+  .zone-card-badge {
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 2px;
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .zone-card-badge.subtle {
+    background: #eee6d4;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .zone-gates {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 18px;
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
+  }
+  @media (max-width: 560px) {
+    .zone-gates { grid-template-columns: 1fr; }
+  }
+  .gate { display: flex; gap: 8px; align-items: baseline; }
+  .gate-mark {
+    font-family: Menlo, Consolas, monospace;
+    font-weight: 700;
+    width: 14px;
+    text-align: center;
+    flex: 0 0 14px;
+  }
+  .gate-ok .gate-mark { color: #4a7a3e; }
+  .gate-fail .gate-mark { color: #a8523c; }
+  .gate-na { color: var(--muted); }
+  .gate-na .gate-mark { color: var(--rule); }
+  .gate-note { color: var(--muted); font-size: 12px; }
+  .zone-card-dry-note {
+    margin: 2px 0 0;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
   .meth-body code {
     background: #f5f0e2;
     padding: 1px 5px;
@@ -878,6 +993,18 @@
 
 
   
+<section class="lead">
+  <p class="lead-body">
+    Today Trump is named in <strong>7 of 259</strong>
+    Belgian core-tier headlines (<strong>2.7%</strong>).
+    <strong>5 of 12</strong> active national outlets ran a by-name Trump story. He is <strong>#1</strong> of 15 named figures we track, ahead of everyone else on the list (0.88× the other 14 combined). The next-most-mentioned person is <strong>Zelensky</strong> (3).
+    Verdict: <span class="lead-verdict" style="color:#4a7fa0">
+    <strong>The zone is getting wet</strong></span>.
+  </p>
+</section>
+
+
+  
 <section class="block">
   <h2>Today vs. the rest</h2>
   <p class="block-intro">Trump against 14 other named figures in the same
@@ -887,12 +1014,57 @@
 </section>
 
 
+  
+<section class="block">
+  <h2>Timeline</h2>
+  
+<div class="timeline-context">
+  <div class="ctx-row">
+    <div class="ctx-cell">
+      <div class="ctx-label">Today</div>
+      <div class="ctx-value"><strong>2.7%</strong></div>
+    </div>
+    <div class="ctx-cell">
+      <div class="ctx-label">vs. yesterday (04-20)</div>
+      <div class="ctx-value">▲ +1.1pt</div>
+    </div>
+    <div class="ctx-cell">
+      <div class="ctx-label">vs. 6-day average (2.1%)</div>
+      <div class="ctx-value">▲ +0.6pt</div>
+    </div>
+    <div class="ctx-cell">
+      <div class="ctx-label">Rank in the series</div>
+      <div class="ctx-value"><strong>#1</strong> of 7 days</div>
+    </div>
+    <div class="ctx-cell ctx-range">
+      <div class="ctx-label">Range over 6 prior days</div>
+      <div class="ctx-value">
+        low <strong>1.6%</strong> (04-17)
+        · high <strong>2.7%</strong> (04-16)
+      </div>
+    </div>
+  </div>
+  <p class="ctx-foot">Today's bar is outlined in the chart below.</p>
+</div>
+
+  <div class="chart-wrap">
+    <svg class="chart" viewBox="0 0 800 260" preserveAspectRatio="xMidYMid meet">
+      <rect x="44" y="194.1" width="744" height="33.9" fill="#c8b89a" opacity="0.10"/><rect x="44" y="164.4" width="744" height="29.7" fill="#a8c4d8" opacity="0.10"/><rect x="44" y="122.0" width="744" height="42.4" fill="#4a7fa0" opacity="0.10"/><rect x="44" y="58.4" width="744" height="63.6" fill="#1e3a5f" opacity="0.10"/><rect x="44" y="16.0" width="744" height="42.4" fill="#b03a2e" opacity="0.10"/>
+      <line x1="44" x2="788" y1="228.0" y2="228.0" stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/><text x="36" y="232.0" text-anchor="end" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">0%</text><line x1="44" x2="788" y1="194.1" y2="194.1" stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/><text x="36" y="198.1" text-anchor="end" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">0.8%</text><line x1="44" x2="788" y1="164.4" y2="164.4" stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/><text x="36" y="168.4" text-anchor="end" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">1.5%</text><line x1="44" x2="788" y1="122.0" y2="122.0" stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/><text x="36" y="126.0" text-anchor="end" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">2.5%</text><line x1="44" x2="788" y1="58.4" y2="58.4" stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/><text x="36" y="62.4" text-anchor="end" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">4%</text>
+      <rect x="62.1" y="139.0" width="70.1" height="89.0" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-15: 2.1% (15/708)</title></rect><rect x="168.4" y="113.5" width="70.1" height="114.5" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-16: 2.7% (12/439)</title></rect><rect x="274.6" y="160.2" width="70.1" height="67.8" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-17: 1.6% (12/759)</title></rect><rect x="380.9" y="117.8" width="70.1" height="110.2" rx="2" fill="#1e3a5f" opacity="0.85"><title>2026-04-18: 2.6% (16/609)</title></rect><rect x="487.2" y="147.4" width="70.1" height="80.6" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-19: 1.9% (12/627)</title></rect><rect x="593.5" y="160.2" width="70.1" height="67.8" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-20: 1.6% (14/900)</title></rect><rect x="699.8" y="113.5" width="70.1" height="114.5" rx="2" fill="#4a7fa0" opacity="1" stroke="#0a1929" stroke-width="2"><title>2026-04-21: 2.7% (7/259)</title></rect>
+      <text x="97.1" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">04-15</text><text x="203.4" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">04-16</text><text x="309.7" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">04-17</text><text x="416.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">04-18</text><text x="522.3" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">04-19</text><text x="628.6" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">04-20</text><text x="734.9" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">04-21</text>
+    </svg>
+  </div>
+  <div class="legend"><span class="legend-item"><span class="legend-swatch" style="background:#c8b89a"></span>☀️ Dry <small>0–0.8%</small></span> <span class="legend-item"><span class="legend-swatch" style="background:#a8c4d8"></span>🌦️ Puddles <small>0.8–1.5%</small></span> <span class="legend-item"><span class="legend-swatch" style="background:#4a7fa0"></span>🌧️ Wet <small>1.5–2.5%</small></span> <span class="legend-item"><span class="legend-swatch" style="background:#1e3a5f"></span>⛈️ Soaked <small>2.5–4%</small></span> <span class="legend-item"><span class="legend-swatch" style="background:#b03a2e"></span>🌊 Flooding <small>≥ 4%</small></span></div>
+</section>
+
+
   <section class="block"><h2>Today&rsquo;s mentions</h2><p class="block-intro">Name mentions first; indirect references (&ldquo;White House&rdquo;, &ldquo;US president&rdquo;, ...) are tagged and listed after.</p><ul class="mentions"><li><a href="https://www.standaard.be/buitenland/j.d.-vance-dinsdag-naar-pakistan-iran-krijgt-ernstige-problemen-als-het-niet-onderhandelt-met-vs-zegt-trump/35173881.html" target="_blank" rel="noopener">“J.D. Vance dinsdag naar Pakistan” - Iran krijgt “ernstige problemen” als het niet onderhandelt met VS, zegt Trump</a><span class="src">De Standaard</span></li><li><a href="https://www.demorgen.be/snelnieuws/live-bedrijven-in-vs-eisen-al-127-miljard-dollar-terug-voor-onterecht-betaalde-invoertarieven~b13cc951/" target="_blank" rel="noopener">Live - Minister van Arbeid neemt ontslag uit regering-Trump, al derde vrouw in enkele weken tijd</a><span class="src">De Morgen</span></li><li><a href="https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-eist-onmiddellijke-vrijgave-van-inbeslaggenomen-schip-trump-iran-gaat-onderhandelen-en-als-ze-dat-niet-doen.../27532402.html" target="_blank" rel="noopener">LIVE MIDDEN-OOSTEN. Iran eist onmiddellijke vrijgave van inbeslaggenomen schip - Trump: “Iran gaat onderhandelen, en als ze dat niet doen...”</a><span class="src">Het Nieuwsblad</span></li><li><a href="https://www.rtbf.be/article/pourquoi-donald-trump-tient-tant-a-sa-salle-de-bal-de-securite-nationale-a-la-maison-blanche-11712403" target="_blank" rel="noopener">Pourquoi Donald Trump tient tant à sa salle de bal de &quot;sécurité nationale&quot; à la Maison Blanche ?</a><span class="src">RTBF</span></li><li><a href="https://www.dhnet.be/actu/monde/2026/04/21/direct-guerre-au-moyen-orient-donald-trump-dit-quil-sera-long-et-difficile-dexhumer-luranium-iranien-XASNAXETCZHFTCK2WFITJLLQGY/" target="_blank" rel="noopener">DIRECT - Guerre au Moyen-Orient: Donald Trump dit qu&#x27;il sera &quot;long et difficile&quot; d&#x27;exhumer l&#x27;uranium iranien</a><span class="src">DH.net</span></li><li><a href="https://www.dhnet.be/actu/monde/2026/04/21/relation-inappropriee-consommation-dalcool-durant-les-journees-de-travail-la-ministre-du-travail-de-donald-trump-quitte-le-gouvernement-FMTHDHPUGZDP3CCOL3ZUK72IWQ/" target="_blank" rel="noopener">Relation inappropriée, consommation d&#x27;alcool dans son bureau...: la ministre du Travail de Donald Trump quitte le gouvernement</a><span class="src">DH.net</span></li><li><a href="https://www.7sur7.be/monde/la-ministre-du-travail-quitte-le-gouvernement-de-trump-apres-plusieurs-scandales~a0c57922/" target="_blank" rel="noopener">La ministre du Travail quitte le gouvernement de Trump après plusieurs scandales</a><span class="src">7sur7</span></li></ul></section>
 
   
 <section class="block">
   <h2>Daily log</h2>
-  <table class="log-table"><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-21</td><td class='label-cell'>The zone is getting wet</td><td class='num'>7/259</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#c8b89a'></span></td></tr><tr><td>2026-04-20</td><td class='label-cell'>The zone is getting wet</td><td class='num'>14/900</td><td class='num'>1.6%<span class='inline-bar' style='width:4px;background:#c8b89a'></span></td></tr><tr><td>2026-04-19</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/627</td><td class='num'>1.9%<span class='inline-bar' style='width:4px;background:#c8b89a'></span></td></tr><tr><td>2026-04-18</td><td class='label-cell'>The zone is soaked</td><td class='num'>16/609</td><td class='num'>2.6%<span class='inline-bar' style='width:6px;background:#c8b89a'></span></td></tr><tr><td>2026-04-17</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/759</td><td class='num'>1.6%<span class='inline-bar' style='width:4px;background:#c8b89a'></span></td></tr><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#c8b89a'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#c8b89a'></span></td></tr></tbody></table>
+  <table class="log-table"><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-21</td><td class='label-cell'>The zone is getting wet</td><td class='num'>7/259</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-20</td><td class='label-cell'>The zone is getting wet</td><td class='num'>14/900</td><td class='num'>1.6%<span class='inline-bar' style='width:4px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-19</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/627</td><td class='num'>1.9%<span class='inline-bar' style='width:4px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-18</td><td class='label-cell'>The zone is soaked</td><td class='num'>16/609</td><td class='num'>2.6%<span class='inline-bar' style='width:6px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-17</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/759</td><td class='num'>1.6%<span class='inline-bar' style='width:4px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#4a7fa0'></span></td></tr></tbody></table>
 </section>
 
 
@@ -1060,57 +1232,15 @@
       <p class="signal-today">Today: <strong>— (baseline building: 2 of 7 days recorded)</strong>.
       The rolling baseline needs a few more runs before it settles.</p>
 
-      <h4 class="signal-h">Threshold table</h4>
-      <p><strong>How to read this table.</strong> A day lands in a zone
-      only when <em>all</em> the signals in its row clear their floor
-      simultaneously. Missing any one cell drops the day to the next
-      zone down. A dash in a cell means that signal is not gated for
-      that zone.</p>
-      <table class="zone-thresholds">
-        <thead>
-          <tr>
-            <th>Zone</th>
-            <th class="num">Share</th>
-            <th class="num">Dominance</th>
-            <th class="num">Breadth</th>
-            <th class="num">Rank</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Flooding</strong></td>
-            <td class="num">&ge; 4.0%</td>
-            <td class="num">&ge; 2.0&times;</td>
-            <td class="num">&ge; 55%</td>
-            <td class="num">= #1</td>
-          </tr>
-          <tr>
-            <td><strong>Soaked</strong></td>
-            <td class="num">&ge; 2.5%</td>
-            <td class="num">&ge; 1.2&times;</td>
-            <td class="num">&ge; 40%</td>
-            <td class="num">= #1</td>
-          </tr>
-          <tr>
-            <td><strong>Wet</strong></td>
-            <td class="num">&ge; 1.5%</td>
-            <td class="num">&mdash;</td>
-            <td class="num">&ge; 25%</td>
-            <td class="num">&le; #2</td>
-          </tr>
-          <tr>
-            <td><strong>Puddles</strong></td>
-            <td class="num">&ge; 0.8%</td>
-            <td class="num">&mdash;</td>
-            <td class="num">&mdash;</td>
-            <td class="num">&le; #4</td>
-          </tr>
-          <tr>
-            <td><strong>Dry</strong></td>
-            <td class="num" colspan="4">everything below the Puddles floor</td>
-          </tr>
-        </tbody>
-      </table>
+      <h4 class="signal-h">Today against each zone</h4>
+      <p>Each zone has a set of gates its day has to clear simultaneously.
+      The cards below read top-down from most extreme to least; the first
+      one whose gates all show a check mark is today&rsquo;s zone. A
+      hollow circle means the gate is not used for that zone. Dry is the
+      fall-through when nothing above it clears.</p>
+      <div class="zone-cards">
+        <div class="zone-card"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#b03a2e"></span><span class="zone-card-name">Flooding</span></div><ul class="zone-gates"><li class="gate gate-fail"><span class="gate-mark">✗</span> Share &ge; <strong>4.0%</strong> (today: 2.7%)</li><li class="gate gate-fail"><span class="gate-mark">✗</span> Dominance &ge; <strong>2.0×</strong> (today: 0.88×)</li><li class="gate gate-fail"><span class="gate-mark">✗</span> Breadth &ge; <strong>55%</strong> of outlets (today: 42%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#1</strong> (today: #1)</li></ul></div><div class="zone-card"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#1e3a5f"></span><span class="zone-card-name">Soaked</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>2.5%</strong> (today: 2.7%)</li><li class="gate gate-fail"><span class="gate-mark">✗</span> Dominance &ge; <strong>1.2×</strong> (today: 0.88×)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Breadth &ge; <strong>40%</strong> of outlets (today: 42%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#1</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-cleared zone-card-active"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#4a7fa0"></span><span class="zone-card-name">Wet</span><span class="zone-card-badge">today</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>1.5%</strong> (today: 2.7%)</li><li class="gate gate-na"><span class="gate-mark">○</span> Dominance <span class="gate-note">(not gated for this zone)</span></li><li class="gate gate-ok"><span class="gate-mark">✓</span> Breadth &ge; <strong>25%</strong> of outlets (today: 42%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#2</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-cleared"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#a8c4d8"></span><span class="zone-card-name">Puddles</span><span class="zone-card-badge subtle">all gates clear</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>0.8%</strong> (today: 2.7%)</li><li class="gate gate-na"><span class="gate-mark">○</span> Dominance <span class="gate-note">(not gated for this zone)</span></li><li class="gate gate-na"><span class="gate-mark">○</span> Breadth <span class="gate-note">(not gated for this zone)</span></li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#4</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-dry"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#c8b89a"></span><span class="zone-card-name">Dry</span></div><p class="zone-card-dry-note">Assigned when no zone above clears all of its gates.</p></div>
+      </div>
       <p>Thresholds in use today: version
       <code>v0-eyeballed</code>. The initial version
       (<code>v0-eyeballed</code>) uses absolute floors picked by eye,
