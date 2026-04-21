@@ -287,40 +287,67 @@ def _hero(latest):
             f'</div>'
         )
 
-    rank_badge = ""
-    if method in ("composite", "people") and rank is not None:
-        n_others_badge = (n_people - 1) if n_people else 0
-        dom_text = ""
-        if dominance is not None:
-            if dominance >= 1.0:
-                dom_text = (
-                    f' <span class="rank-dom">\u00b7 outweighs all '
-                    f'{n_others_badge} others combined ({dominance}\u00d7)</span>'
-                )
-            elif dominance > 0:
-                dom_text = (
-                    f' <span class="rank-dom">\u00b7 {dominance}\u00d7 the '
-                    f'other {n_others_badge} combined</span>'
-                )
-        rank_badge = (
-            f'<div class="rank-badge">Rank <strong>#{rank}</strong> of '
-            f'{n_people} named people today{dom_text}</div>'
+    # Facts block (third tier of the readout). Built from the composite
+    # signals so the hero is a single, self-contained summary: a reader
+    # who scans only the hero gets zone, share, rank, outlet breadth and
+    # the runner-up in one pass.
+    breadth = latest.get("breadth")
+    core_outlets_active = latest.get("core_outlets_active") or 0
+    comps = latest.get("comparisons") or {}
+    n_others = (n_people - 1) if n_people else 0
+
+    facts = []
+    if method in ("composite", "people") and rank is not None and n_people:
+        dom_tail = ""
+        if dominance is not None and dominance > 0:
+            dom_tail = f" \u00b7 {dominance}\u00d7 vs. the other {n_others} combined"
+        facts.append(
+            f'<div class="fact">Rank <strong>#{rank}</strong> of '
+            f'{n_people} named figures{dom_tail}</div>'
         )
     elif method == "rank" and rank is not None:
-        # Legacy path for any older records.
-        rank_badge = (
-            f'<div class="rank-badge">Rank '
-            f'<strong>#{rank}</strong> of {n_themes} subjects today</div>'
+        facts.append(
+            f'<div class="fact">Rank <strong>#{rank}</strong> of '
+            f'{n_themes} subjects</div>'
         )
+
+    if breadth is not None and core_outlets_active:
+        outlets_with_trump = int(round(breadth * core_outlets_active))
+        facts.append(
+            f'<div class="fact">In <strong>{outlets_with_trump} of '
+            f'{core_outlets_active}</strong> national outlets</div>'
+        )
+    elif breadth is not None:
+        facts.append(
+            f'<div class="fact">In <strong>{int(round(breadth * 100))}%</strong> '
+            f'of outlets</div>'
+        )
+
+    # Runner-up (most-mentioned comparator other than Trump, if any).
+    trump_count = comps.get("trump", matches)
+    others_sorted = sorted(
+        ((k, v) for k, v in comps.items() if k != "trump"),
+        key=lambda kv: kv[1], reverse=True,
+    )
+    if others_sorted and others_sorted[0][1] > 0:
+        rival_k, rival_v = others_sorted[0]
+        facts.append(
+            f'<div class="fact">Next up: '
+            f'<strong>{html.escape(comparator_label(rival_k))}</strong> ({rival_v})</div>'
+        )
+
+    facts_html = (
+        f'<div class="readout-facts">{"".join(facts)}</div>' if facts else ""
+    )
 
     # Indirect-references sub-line. Only shown when there are indirect
     # references today AND we have the expanded figure (new-format records).
     if indirect and indirect > 0:
         indirect_line = (
-            f'<div class="readout-sub indirect">'
+            f'<div class="readout-indirect">'
             f'+ <strong>{indirect}</strong> more mention the White House, '
-            f'&ldquo;US president&rdquo; or similar (expanded total: '
-            f'<strong>{matches_expanded}</strong> = '
+            f'&ldquo;US president&rdquo; or similar '
+            f'(expanded: <strong>{matches_expanded}</strong> = '
             f'<strong>{pct_expanded}%</strong>)'
             f'</div>'
         )
@@ -340,14 +367,16 @@ def _hero(latest):
   </div>
   <div class="readout">
     <div class="readout-label">{html.escape(label)}</div>
-    {rank_badge}
+    <hr class="readout-sep" />
     <div class="readout-stat">
       <span class="pct" style="color:{color}">{pct}<span class="pct-symbol">%</span></span>
     </div>
     <div class="readout-sub">
-      <strong>{matches}</strong> of <strong>{total}</strong> Belgian news
-      headlines today mention Trump by name
+      <strong>{matches}</strong> of <strong>{total}</strong> Belgian core-tier
+      headlines name Trump
     </div>
+    <hr class="readout-sep" />
+    {facts_html}
     {indirect_line}
   </div>
 </section>
@@ -495,107 +524,6 @@ def _zone_definitions_block(latest):
         'clears all of its gates.</p></div>'
     )
     return "".join(zones_rendered) + dry_note
-
-
-def _lead_paragraph(latest):
-    """Plain-English summary of today's reading. Sits between the hero and
-    the comparison panel; a reader who only reads this paragraph should
-    come away with the share, breadth, rank, leaderboard context and the
-    verdict in one pass."""
-    core_total = latest.get("total_articles", 0)
-    core_trump = latest.get("trump_articles", 0)
-    core_pct = latest.get("percentage", 0)
-    rank = latest.get("rank")
-    n_people = latest.get("n_people") or 0
-    dominance = latest.get("dominance")
-    breadth = latest.get("breadth")
-    core_outlets_active = latest.get("core_outlets_active") or 0
-    label = latest.get("label", "")
-    zone = latest.get("zone") or "dry"
-    comps = latest.get("comparisons") or {}
-
-    if not core_total:
-        return ""
-
-    color = ZONE_COLORS.get(zone, ZONE_COLORS["dry"])
-    trump_count = comps.get("trump", core_trump)
-
-    # Breadth in concrete counts rather than a raw fraction.
-    if breadth is not None and core_outlets_active:
-        outlets_with_trump = int(round(breadth * core_outlets_active))
-        breadth_txt = (
-            f"<strong>{outlets_with_trump} of {core_outlets_active}</strong> "
-            f"active national outlets ran a by-name Trump story"
-        )
-    elif breadth is not None:
-        breadth_txt = (
-            f"<strong>{int(round(breadth * 100))}%</strong> of outlets "
-            f"carried a by-name Trump story"
-        )
-    else:
-        breadth_txt = "outlet breadth is not yet computable today"
-
-    # Rank phrased with named context rather than "#R of N".
-    others_sorted = sorted(
-        ((k, v) for k, v in comps.items() if k != "trump"),
-        key=lambda kv: kv[1], reverse=True,
-    )
-    others_ahead = [(k, v) for k, v in others_sorted if v > trump_count]
-    if rank is not None and n_people:
-        if others_ahead:
-            ahead_names = ", ".join(
-                html.escape(comparator_label(k)) for k, _ in others_ahead[:3]
-            )
-            rank_sentence = (
-                f"He is <strong>#{rank}</strong> of {n_people} named figures "
-                f"we track, behind {ahead_names}"
-            )
-        else:
-            rank_sentence = (
-                f"He is <strong>#{rank}</strong> of {n_people} named figures "
-                f"we track, ahead of everyone else on the list"
-            )
-    else:
-        rank_sentence = "Rank among named figures is not computed today"
-
-    # Dominance phrased in concrete comparator terms.
-    n_others = max(n_people - 1, 0)
-    if dominance is not None:
-        if dominance >= 1:
-            dom_clause = (
-                f", and alone out-mentions the other {n_others} "
-                f"combined ({dominance}\u00d7)"
-            )
-        elif dominance > 0:
-            dom_clause = (
-                f" ({dominance}\u00d7 the other {n_others} combined)"
-            )
-        else:
-            dom_clause = ""
-    else:
-        dom_clause = ""
-
-    # Top rival gives a concrete runner-up name rather than an abstract list.
-    rival_clause = ""
-    if others_sorted and others_sorted[0][1] > 0:
-        rival_k, rival_v = others_sorted[0]
-        rival_clause = (
-            f" The next-most-mentioned person is "
-            f"<strong>{html.escape(comparator_label(rival_k))}</strong> "
-            f"({rival_v})."
-        )
-
-    return f"""
-<section class="lead">
-  <p class="lead-body">
-    Today Trump is named in <strong>{trump_count} of {core_total}</strong>
-    Belgian core-tier headlines (<strong>{core_pct}%</strong>).
-    {breadth_txt}. {rank_sentence}{dom_clause}.{rival_clause}
-    Verdict: <span class="lead-verdict" style="color:{color}">
-    <strong>{html.escape(label)}</strong></span>.
-  </p>
-</section>
-"""
 
 
 def _comparison_panel(latest):
@@ -1525,8 +1453,8 @@ PAGE = """<!doctype html>
     }}
     .pct {{ font-size: 64px; }}
     .pct-symbol {{ font-size: 32px; }}
-    .rank-badge {{ font-size: 11px; letter-spacing: 0.06em; padding: 8px 0; }}
-    .rank-dom, .rank-theme {{ display: inline; }}
+    .readout-facts {{ font-size: 13px; gap: 4px; }}
+    .readout-sep {{ margin: 14px 0; }}
 
     /* Methodology: big tables need horizontal scroll */
     .zone-thresholds {{ font-size: 12px; }}
@@ -1586,8 +1514,6 @@ PAGE = """<!doctype html>
       font-size: 13px;
     }}
 
-    /* Rank badge line breaks its own metadata */
-    .rank-badge {{ line-height: 1.5; }}
   }}
 
   /* Small phones (iPhone 13 mini at 375, iPhone SE at 320).
@@ -1704,30 +1630,41 @@ PAGE = """<!doctype html>
     line-height: 0.95;
     font-weight: 900;
     letter-spacing: -0.025em;
-    margin-bottom: 20px;
+    margin: 0 0 4px;
   }}
-  .rank-badge {{
-    display: block;
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--muted);
+  /* Thin horizontal rule between the three readout blocks (label, metric,
+     facts). Uses the same --rule color as block separators on the rest
+     of the page so the hero reads as one cohesive panel. */
+  .readout-sep {{
+    border: 0;
     border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-    padding: 10px 0;
-    margin: 0 0 24px;
+    margin: 18px 0;
+    max-width: 520px;
   }}
-  .rank-badge strong {{
+  /* Third block: compact fact lines. One per row, tabular numerals so
+     numbers line up. Replaces the old upper-case "RANK #1 OF 15 ..."
+     badge and the separate white-frame lead paragraph. */
+  .readout-facts {{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 15px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    max-width: 520px;
+  }}
+  .readout-facts .fact strong {{
     color: var(--ink);
     font-weight: 700;
-    font-size: 14px;
-    margin: 0 2px;
   }}
-  .rank-dom, .rank-theme {{
-    text-transform: none;
-    letter-spacing: 0;
+  .readout-indirect {{
+    margin-top: 14px;
+    font-size: 13px;
     color: var(--muted);
+    font-style: italic;
+    max-width: 520px;
   }}
+  .readout-indirect strong {{ color: var(--ink); font-style: normal; }}
   .macro-stat {{
     margin-top: 8px;
     font-size: 12px;
@@ -1761,12 +1698,6 @@ PAGE = """<!doctype html>
     max-width: 520px;
   }}
   .readout-sub strong {{ color: var(--ink); }}
-  .readout-sub.indirect {{
-    font-size: 14px;
-    margin-top: 4px;
-    color: var(--muted);
-    font-style: italic;
-  }}
   .indirect-tag {{
     display: inline-block;
     margin: 0 8px 0 6px;
@@ -1798,31 +1729,6 @@ PAGE = """<!doctype html>
     padding-bottom: 8px;
     margin: 0 0 20px;
     font-weight: 600;
-  }}
-
-  /* Lead paragraph: newspaper-style lede sitting under the hero. Summarises
-     the four signals + verdict in one readable sentence so the reader can
-     skip the hero and still get the story. */
-  .lead {{
-    margin: -24px 0 64px;
-    padding: 20px 24px;
-    background: white;
-    border: 1px solid var(--rule);
-    border-left: 4px solid var(--ink);
-    border-radius: 2px;
-    max-width: 900px;
-  }}
-  .lead-body {{
-    margin: 0;
-    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
-    font-size: 19px;
-    line-height: 1.55;
-    color: var(--ink);
-  }}
-  .lead-verdict {{ white-space: nowrap; }}
-  @media (max-width: 520px) {{
-    .lead {{ padding: 16px 18px; margin: -16px 0 40px; }}
-    .lead-body {{ font-size: 16px; line-height: 1.5; }}
   }}
 
   .mentions {{ list-style: none; padding: 0; margin: 0; }}
@@ -2342,8 +2248,6 @@ PAGE = """<!doctype html>
 
   {hero}
 
-  {lead}
-
   {comparison}
 
   {timeline}
@@ -2554,7 +2458,6 @@ def render():
 
     html_out = PAGE.format(
         hero=_hero(latest),
-        lead=_lead_paragraph(latest),
         comparison=_comparison_panel(latest),
         timeline=_timeline(log_sorted_asc),
         mentions=_today_mentions(latest),

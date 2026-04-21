@@ -151,8 +151,8 @@
     }
     .pct { font-size: 64px; }
     .pct-symbol { font-size: 32px; }
-    .rank-badge { font-size: 11px; letter-spacing: 0.06em; padding: 8px 0; }
-    .rank-dom, .rank-theme { display: inline; }
+    .readout-facts { font-size: 13px; gap: 4px; }
+    .readout-sep { margin: 14px 0; }
 
     /* Methodology: big tables need horizontal scroll */
     .zone-thresholds { font-size: 12px; }
@@ -212,8 +212,6 @@
       font-size: 13px;
     }
 
-    /* Rank badge line breaks its own metadata */
-    .rank-badge { line-height: 1.5; }
   }
 
   /* Small phones (iPhone 13 mini at 375, iPhone SE at 320).
@@ -330,30 +328,41 @@
     line-height: 0.95;
     font-weight: 900;
     letter-spacing: -0.025em;
-    margin-bottom: 20px;
+    margin: 0 0 4px;
   }
-  .rank-badge {
-    display: block;
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--muted);
+  /* Thin horizontal rule between the three readout blocks (label, metric,
+     facts). Uses the same --rule color as block separators on the rest
+     of the page so the hero reads as one cohesive panel. */
+  .readout-sep {
+    border: 0;
     border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-    padding: 10px 0;
-    margin: 0 0 24px;
+    margin: 18px 0;
+    max-width: 520px;
   }
-  .rank-badge strong {
+  /* Third block: compact fact lines. One per row, tabular numerals so
+     numbers line up. Replaces the old upper-case "RANK #1 OF 15 ..."
+     badge and the separate white-frame lead paragraph. */
+  .readout-facts {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 15px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    max-width: 520px;
+  }
+  .readout-facts .fact strong {
     color: var(--ink);
     font-weight: 700;
-    font-size: 14px;
-    margin: 0 2px;
   }
-  .rank-dom, .rank-theme {
-    text-transform: none;
-    letter-spacing: 0;
+  .readout-indirect {
+    margin-top: 14px;
+    font-size: 13px;
     color: var(--muted);
+    font-style: italic;
+    max-width: 520px;
   }
+  .readout-indirect strong { color: var(--ink); font-style: normal; }
   .macro-stat {
     margin-top: 8px;
     font-size: 12px;
@@ -387,12 +396,6 @@
     max-width: 520px;
   }
   .readout-sub strong { color: var(--ink); }
-  .readout-sub.indirect {
-    font-size: 14px;
-    margin-top: 4px;
-    color: var(--muted);
-    font-style: italic;
-  }
   .indirect-tag {
     display: inline-block;
     margin: 0 8px 0 6px;
@@ -424,31 +427,6 @@
     padding-bottom: 8px;
     margin: 0 0 20px;
     font-weight: 600;
-  }
-
-  /* Lead paragraph: newspaper-style lede sitting under the hero. Summarises
-     the four signals + verdict in one readable sentence so the reader can
-     skip the hero and still get the story. */
-  .lead {
-    margin: -24px 0 64px;
-    padding: 20px 24px;
-    background: white;
-    border: 1px solid var(--rule);
-    border-left: 4px solid var(--ink);
-    border-radius: 2px;
-    max-width: 900px;
-  }
-  .lead-body {
-    margin: 0;
-    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
-    font-size: 19px;
-    line-height: 1.55;
-    color: var(--ink);
-  }
-  .lead-verdict { white-space: nowrap; }
-  @media (max-width: 520px) {
-    .lead { padding: 16px 18px; margin: -16px 0 40px; }
-    .lead-body { font-size: 16px; line-height: 1.5; }
   }
 
   .mentions { list-style: none; padding: 0; margin: 0; }
@@ -979,28 +957,18 @@
   </div>
   <div class="readout">
     <div class="readout-label">The zone is getting wet</div>
-    <div class="rank-badge">Rank <strong>#1</strong> of 15 named people today <span class="rank-dom">· outweighs all 14 others combined (1.0×)</span></div>
+    <hr class="readout-sep" />
     <div class="readout-stat">
       <span class="pct" style="color:#4a7fa0">2.1<span class="pct-symbol">%</span></span>
     </div>
     <div class="readout-sub">
-      <strong>8</strong> of <strong>384</strong> Belgian news
-      headlines today mention Trump by name
+      <strong>8</strong> of <strong>384</strong> Belgian core-tier
+      headlines name Trump
     </div>
+    <hr class="readout-sep" />
+    <div class="readout-facts"><div class="fact">Rank <strong>#1</strong> of 15 named figures · 1.0× vs. the other 14 combined</div><div class="fact">In <strong>41%</strong> of outlets</div><div class="fact">Next up: <strong>Bouchez</strong> (3)</div></div>
     
   </div>
-</section>
-
-
-  
-<section class="lead">
-  <p class="lead-body">
-    Today Trump is named in <strong>8 of 384</strong>
-    Belgian core-tier headlines (<strong>2.1%</strong>).
-    <strong>41%</strong> of outlets carried a by-name Trump story. He is <strong>#1</strong> of 15 named figures we track, ahead of everyone else on the list, and alone out-mentions the other 14 combined (1.0×). The next-most-mentioned person is <strong>Bouchez</strong> (3).
-    Verdict: <span class="lead-verdict" style="color:#4a7fa0">
-    <strong>The zone is getting wet</strong></span>.
-  </p>
 </section>
 
 
