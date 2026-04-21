@@ -3708,7 +3708,7 @@
   {
     "date": "2026-04-21",
     "generated_at": "2026-04-21T09:18:08+02:00",
-    "last_checked_at": "2026-04-21T09:18:08+02:00",
+    "last_checked_at": "2026-04-21T14:53:01+02:00",
     "total_articles": 384,
     "trump_articles": 8,
     "percentage": 2.1,
@@ -4212,6 +4212,13 @@
       "migration": 4,
       "education": 3,
       "weather": 11
-    }
+    },
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 41,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 6.3,
+    "thresholds_version": "v0-eyeballed"
   }
 ]
