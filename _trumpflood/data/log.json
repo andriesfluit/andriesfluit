@@ -3707,36 +3707,30 @@
   },
   {
     "date": "2026-04-21",
-    "generated_at": "2026-04-21T07:27:03+02:00",
-    "last_checked_at": "2026-04-21T07:28:05+02:00",
-    "total_articles": 259,
-    "trump_articles": 7,
-    "percentage": 2.7,
-    "core_percentage": 2.7,
-    "core_percentage_name": 2.7,
-    "trump_articles_expanded": 7,
-    "core_percentage_expanded": 2.7,
+    "generated_at": "2026-04-21T09:18:08+02:00",
+    "last_checked_at": "2026-04-21T09:18:08+02:00",
+    "total_articles": 384,
+    "trump_articles": 8,
+    "percentage": 2.1,
+    "core_percentage": 2.1,
+    "core_percentage_name": 2.1,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 2.1,
     "indirect_references": 0,
-    "wide_total_articles": 362,
-    "wide_trump_articles": 10,
-    "wide_percentage": 2.8,
-    "wide_trump_articles_expanded": 10,
-    "wide_percentage_expanded": 2.8,
-    "macro_percentage": 2.4,
-    "qualifying_outlets": 12,
-    "core_outlets_total": 19,
-    "core_outlets_active": 12,
-    "active_core_fraction": 0.632,
-    "cross_outlet_dup_headlines": 37,
-    "cross_outlet_dup_groups": 17,
-    "cross_outlet_dup_rate": 14.3,
+    "wide_total_articles": 546,
+    "wide_trump_articles": 12,
+    "wide_percentage": 2.2,
+    "wide_trump_articles_expanded": 12,
+    "wide_percentage_expanded": 2.2,
+    "macro_percentage": 2.5,
+    "qualifying_outlets": 18,
     "zone": "wet",
     "label": "The zone is getting wet",
     "narrative": "Among the top-covered figures today.",
     "rank": 1,
     "n_people": 15,
-    "dominance": 0.88,
-    "breadth": 0.42,
+    "dominance": 1.0,
+    "breadth": 0.41,
     "deviation": null,
     "smoothed_pct": null,
     "assessment_method": "composite",
@@ -3745,79 +3739,79 @@
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 16,
-        "kept": 16,
+        "today": 24,
+        "kept": 24,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 6.25
+        "share": 4.17
       },
       "google_fr": {
         "fetched": 34,
-        "today": 6,
-        "kept": 6,
+        "today": 14,
+        "kept": 14,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 16.67
+        "share": 7.14
       },
       "google_nl_politics": {
-        "fetched": 38,
-        "today": 8,
+        "fetched": 36,
+        "today": 7,
         "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
-        "fetched": 63,
-        "today": 9,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 68,
+        "today": 12,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 11,
-        "kept": 9,
+        "today": 24,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 58,
-        "today": 4,
-        "kept": 3,
+        "fetched": 56,
+        "today": 12,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 62,
-        "today": 4,
-        "kept": 3,
+        "fetched": 64,
+        "today": 11,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 35,
-        "today": 0,
-        "kept": 0,
+        "fetched": 39,
+        "today": 1,
+        "kept": 1,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 56,
+        "fetched": 54,
         "today": 3,
-        "kept": 1,
+        "kept": 2,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_business": {
         "fetched": 59,
-        "today": 2,
+        "today": 4,
         "kept": 1,
         "trump": 0,
         "trump_expanded": 0,
@@ -3825,35 +3819,35 @@
       },
       "vrt": {
         "fetched": 50,
-        "today": 16,
-        "kept": 16,
+        "today": 23,
+        "kept": 23,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
-        "fetched": 50,
-        "today": 6,
-        "kept": 6,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 16.67
+        "fetched": 100,
+        "today": 44,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "demorgen": {
-        "fetched": 30,
-        "today": 12,
-        "kept": 12,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 8.33
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -3865,95 +3859,95 @@
       },
       "gva": {
         "fetched": 50,
-        "today": 39,
-        "kept": 39,
+        "today": 50,
+        "kept": 50,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.56
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 23,
-        "kept": 23,
+        "today": 39,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 33,
-        "kept": 32,
+        "today": 40,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 5,
-        "kept": 5,
+        "today": 8,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 3,
-        "kept": 3,
+        "today": 7,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 8,
-        "kept": 8,
+        "today": 14,
+        "kept": 14,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 12.5
+        "share": 7.14
       },
       "lalibre": {
         "fetched": 100,
-        "today": 11,
-        "kept": 11,
+        "today": 16,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lecho": {
         "fetched": 100,
-        "today": 22,
-        "kept": 22,
+        "today": 30,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 21,
-        "kept": 21,
+        "today": 43,
+        "kept": 42,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 9.52
+        "share": 4.76
       },
       "septsursept": {
         "fetched": 30,
-        "today": 4,
-        "kept": 4,
+        "today": 11,
+        "kept": 11,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 25.0
+        "share": 9.09
       },
       "bx1": {
         "fetched": 10,
-        "today": 5,
-        "kept": 5,
+        "today": 7,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 11,
+        "today": 14,
         "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
@@ -3961,51 +3955,51 @@
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 9,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 4,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 6,
+        "kept": 6,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 98,
-        "today": 6,
-        "kept": 4,
+        "fetched": 99,
+        "today": 12,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 20,
-        "today": 1,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "tendances_g": {
-        "fetched": 58,
-        "today": 3,
-        "kept": 3,
+        "fetched": 25,
+        "today": 8,
+        "kept": 1,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 60,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
       }
     },
     "core_sources": [
@@ -4031,9 +4025,9 @@
     ],
     "matches": [
       {
-        "title": "“J.D. Vance dinsdag naar Pakistan” - Iran krijgt “ernstige problemen” als het niet onderhandelt met VS, zegt Trump",
-        "url": "https://www.standaard.be/buitenland/j.d.-vance-dinsdag-naar-pakistan-iran-krijgt-ernstige-problemen-als-het-niet-onderhandelt-met-vs-zegt-trump/35173881.html",
-        "source": "standaard",
+        "title": "Trump stelt ultimatum aan Iran beetje uit: “We hebben alle tijd van de wereld”",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
         "name_only": true
       },
       {
@@ -4071,6 +4065,12 @@
         "url": "https://www.7sur7.be/monde/la-ministre-du-travail-quitte-le-gouvernement-de-trump-apres-plusieurs-scandales~a0c57922/",
         "source": "septsursept",
         "name_only": true
+      },
+      {
+        "title": "Récupérer l'uranium iranien \"sera long et difficile\", admet Trump, à l'approche d'un cessez-le-feu qui va expirer - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZHhhem9tZFAzUmtybERaeU1IMnlBWEtqUFlVenY0bFFuQmI1ekJjRUVvbkxZdWFWOWhJUDFmMlpVTzhYdnRRU05zc1VVRWI0amZDbE40eTRWR3JTVEJGVHpWTTJyczcxOHdFM1BWWEdtV2pRYWV4Nmd4QXlxNzhlLVM4TGtEUDU0UTFhT0ZkRTlDMG5IRHZMNWE3R2Zyejc2Z0hsOVFWN0duUjRBVUFWOFFUMHB5ZmwxdDZMa1I1VXBuOHppMW52a2tVTkdrRFkzUnBRN1MxUnBLTGxUQ1VNd21hbVdxTi1jQVE?oc=5",
+        "source": "tendances_g",
+        "name_only": true
       }
     ],
     "wide_matches": [
@@ -4081,15 +4081,21 @@
         "name_only": true
       },
       {
-        "title": "Relation inappropriée, consommation d'alcool durant les journées de travail...: la ministre du Travail de Donald Trump quitte le gouvernement - DHnet",
-        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPU3RfcFVVc2JWRGVnVGtKQ1lvX1J5bFJtLUZ3WERMMkViOE5uZFpaV1pnOFYyWm92dHJzcFJZaUlDbmI0Qi13U3hCM2d3UnItbm1QYXNhNU5LSWxpZUlVcUNaV0d5Uy0xWXBDMnpQWHNlcl9vX01QNFlDLWxEdWFNRldGcGlrWGwtaDFMYUUyVXJEdUtXUUV5Y2tsOU83NHFXcmxNMHp4OTZEU21rQWlZbkstVkpTNEdOemZ5cE5hb1lHRDZrSVdqYTVhaDBHZXdlekZwMjRNQ0dtRE9VTkMxQkNta3dpdk5tWHF3RFBLZTZiMExtcHVuWi1UQVFlSlQyMHRIZ2s5b1h5VGRHV2xWMFNEYXhIdVc5MUprMjJob3JkU053cVlkWVBLc0VmazQ?oc=5",
+        "title": "Relation « inappropriée », consommation d’alcool au bureau ou encore fraude : une ministre de Trump quitte son poste après une série de scandales - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeHBBdHdncS1WY0ZQbHN2eUVpNnZwTVd4NlZaakFkSC04UHpjZjhRSkhQendsZ250ckl6TVBJSTRpeXpadUxwdU1ILXlreVAxR2hSRXFoR2g3Zi12ZTJpcEgxYjAyRHVpRGVkNThNMDhGd3Z3SFFKYXM3RlhjWkJPUUplMnVuLVlPUzFMZWtfS0RmSVAzQktEOVlIWFFCWEdyZFpDT2k0d3VpYWFFU3NrcXV2SEpqRmt0TmVocnRXSERrd0YyNXlXc2JQWnhWSGpjbllOQ3NROUs4cEk?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "“J.D. Vance dinsdag naar Pakistan” - Iran krijgt “ernstige problemen” als het niet onderhandelt met VS, zegt Trump",
-        "url": "https://www.standaard.be/buitenland/j.d.-vance-dinsdag-naar-pakistan-iran-krijgt-ernstige-problemen-als-het-niet-onderhandelt-met-vs-zegt-trump/35173881.html",
-        "source": "standaard",
+        "title": "Bij gebrek aan moed en politiek vernuft gaat Vance mee met Trump ten onder - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMThmQU93djhyUUhIa0tCbjZTeUE4ZW0tUzF2SjI5dVdtdlJnamJIVlFSdnJyTlhkaVZiVVh6M3NkcVJuWXYyRjZlYU51TkdyNm4xUmNzeGFGOTgyQWltTGRIU0w5SXRLd2s1V0F5ZktBS3RCQ2R4TnFrc1ZJeE9XQXd5VFhXd0JaNC01aHJMVThDY1M3SWxONmZDT25HUlNLQWV2c2UyU3BNYUo2SHJVejBYRURJWFZiTHRDSE14dw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump stelt ultimatum aan Iran beetje uit: “We hebben alle tijd van de wereld”",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
         "name_only": true
       },
       {
@@ -4133,14 +4139,20 @@
         "url": "https://www.7sur7.be/monde/la-ministre-du-travail-quitte-le-gouvernement-de-trump-apres-plusieurs-scandales~a0c57922/",
         "source": "septsursept",
         "name_only": true
+      },
+      {
+        "title": "Récupérer l'uranium iranien \"sera long et difficile\", admet Trump, à l'approche d'un cessez-le-feu qui va expirer - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZHhhem9tZFAzUmtybERaeU1IMnlBWEtqUFlVenY0bFFuQmI1ekJjRUVvbkxZdWFWOWhJUDFmMlpVTzhYdnRRU05zc1VVRWI0amZDbE40eTRWR3JTVEJGVHpWTTJyczcxOHdFM1BWWEdtV2pRYWV4Nmd4QXlxNzhlLVM4TGtEUDU0UTFhT0ZkRTlDMG5IRHZMNWE3R2Zyejc2Z0hsOVFWN0duUjRBVUFWOFFUMHB5ZmwxdDZMa1I1VXBuOHppMW52a2tVTkdrRFkzUnBRN1MxUnBLTGxUQ1VNd21hbVdxTi1jQVE?oc=5",
+        "source": "tendances_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 7,
-      "putin": 0,
+      "trump": 8,
+      "putin": 1,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 3,
+      "netanyahu": 1,
+      "zelensky": 1,
       "de_wever": 2,
       "bouchez": 3,
       "magnette": 0,
@@ -4153,54 +4165,53 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 10,
-      "putin": 0,
+      "trump": 12,
+      "putin": 1,
       "macron": 0,
-      "netanyahu": 1,
-      "zelensky": 3,
+      "netanyahu": 2,
+      "zelensky": 1,
       "de_wever": 4,
       "bouchez": 5,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 1,
       "crevits": 0,
       "de_croo": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 13,
-      "crime": 2,
-      "eu": 15,
-      "politics": 11,
-      "be_gov": 14,
-      "culture": 3,
-      "tech": 7,
-      "economy": 4,
-      "sports": 11,
-      "health": 4,
-      "climate": 3,
-      "migration": 3,
+      "war": 21,
+      "crime": 8,
+      "eu": 17,
+      "politics": 15,
+      "be_gov": 22,
+      "culture": 6,
+      "tech": 6,
+      "economy": 6,
+      "sports": 29,
+      "health": 8,
+      "climate": 6,
+      "migration": 2,
       "education": 3,
-      "weather": 2
+      "weather": 7
     },
     "wide_themes": {
-      "war": 16,
-      "crime": 5,
-      "eu": 20,
-      "politics": 15,
-      "be_gov": 16,
-      "culture": 4,
-      "tech": 10,
-      "economy": 6,
-      "sports": 13,
-      "health": 7,
-      "climate": 4,
+      "war": 28,
+      "crime": 11,
+      "eu": 29,
+      "politics": 21,
+      "be_gov": 28,
+      "culture": 8,
+      "tech": 11,
+      "economy": 10,
+      "sports": 36,
+      "health": 11,
+      "climate": 8,
       "migration": 4,
-      "education": 4,
-      "weather": 5
-    },
-    "thresholds_version": "v0-eyeballed"
+      "education": 3,
+      "weather": 11
+    }
   }
 ]
