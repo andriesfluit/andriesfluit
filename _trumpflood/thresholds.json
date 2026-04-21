@@ -1,0 +1,18 @@
+{
+  "version": "v0-eyeballed",
+  "generated_at": "2026-04-21",
+  "source": "hand-picked initial cutoffs, retained across the detector switch from expanded to name-only (2026-04-21)",
+  "source_window": null,
+  "source_days": 0,
+  "notes": [
+    "These floors are not calibrated against a distribution.",
+    "They are absolute values, not percentiles of Belgian Trump share.",
+    "Replace by running calibrate.py once the live name-only archive reaches >= 30 days."
+  ],
+  "zones": [
+    {"key": "flooding", "pct": 4.0, "dominance": 2.0, "breadth": 0.55, "rank_max": 1},
+    {"key": "soaked",   "pct": 2.5, "dominance": 1.2, "breadth": 0.40, "rank_max": 1},
+    {"key": "wet",      "pct": 1.5, "dominance": null, "breadth": 0.25, "rank_max": 2},
+    {"key": "puddles",  "pct": 0.8, "dominance": null, "breadth": null, "rank_max": 4}
+  ]
+}

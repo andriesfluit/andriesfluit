@@ -1,16 +1,48 @@
 """
 Zone assessment for Trump prevalence in Belgian news.
 
-Replaces the original purely-percentage thresholds with a sharper
-methodology: zone is determined by Trump's RANK among broad theme
-categories, with a minimum-share floor so a "rank #1" on a quiet news
-day doesn't get inflated to "flooding the zone".
+Zone floors are loaded from thresholds.json at import time. That file
+starts out with hand-picked cutoffs; once the live name-only archive
+has enough history (>= 30 days), calibrate.py can regenerate it as
+percentiles of the observed distribution and save the version metadata
+so readers can see how the floors were derived.
 
-Live records (from main.py) have access to the themes count map and
-use rank-based assessment. Backfilled GDELT records have no theme
-data and fall back to the original % thresholds (we mark them so the
-site can show the difference).
+Live records (from main.py) use the composite classifier
+(assess_composite). Backfilled GDELT records have no comparator data
+and fall back to the original % thresholds (assess_pct_based); we
+mark them so the site can show the difference.
 """
+
+import json as _json
+from pathlib import Path as _Path
+
+_THRESHOLDS_FILE = _Path(__file__).parent / "thresholds.json"
+
+
+def _load_thresholds():
+    """Load zone thresholds as a dict keyed by zone name. Falls back to
+    the hand-picked defaults if thresholds.json is missing or malformed
+    so the tool still runs on a fresh checkout."""
+    defaults = {
+        "flooding": {"pct": 4.0, "dominance": 2.0, "breadth": 0.55, "rank_max": 1},
+        "soaked":   {"pct": 2.5, "dominance": 1.2, "breadth": 0.40, "rank_max": 1},
+        "wet":      {"pct": 1.5, "dominance": None, "breadth": 0.25, "rank_max": 2},
+        "puddles":  {"pct": 0.8, "dominance": None, "breadth": None, "rank_max": 4},
+    }
+    version = "v0-eyeballed (defaults)"
+    if _THRESHOLDS_FILE.exists():
+        try:
+            data = _json.loads(_THRESHOLDS_FILE.read_text())
+            zones = {z["key"]: z for z in data.get("zones", [])}
+            if all(k in zones for k in defaults):
+                version = data.get("version", version)
+                return {k: zones[k] for k in defaults}, version, data
+        except (_json.JSONDecodeError, KeyError, TypeError):
+            pass
+    return defaults, version, None
+
+
+THRESHOLDS, THRESHOLDS_VERSION, THRESHOLDS_META = _load_thresholds()
 
 # (zone_key, label, narrative_template). {rank} and {n} get filled in.
 ZONES = [
@@ -131,11 +163,18 @@ def assess_composite(trump_count, core_total, comparisons,
 
     Zone ladder (top-down, first match wins):
       flooding  pct>=4.0 AND dominance>=2.0 AND rank==1 AND breadth>=0.55
-                AND (deviation>=1.5 OR deviation is None)
       soaked    pct>=2.5 AND dominance>=1.2 AND rank==1 AND breadth>=0.40
       wet       pct>=1.5 AND rank<=2 AND (breadth>=0.25 OR breadth is None)
       puddles   pct>=0.8 AND rank<=4
       dry       otherwise
+
+    Deviation (today's share vs. the 14-day median) is reported back to
+    the caller and displayed next to the zone, but it is no longer a
+    gate. The old >=1.5x floor on Flooding was non-binding in practice:
+    any day clearing the other four Flooding floors always cleared 1.5x
+    baseline by a wide margin, so deviation was ornamental. Keeping it
+    as an annotation lets readers see when a day is unusual for the
+    site's own baseline without the gate pretending to filter.
 
     Thresholds were lowered from their original values (5.0/3.5/2.0 pct
     floors, 0.60/0.45/0.30 breadth floors) because those were calibrated
@@ -169,26 +208,26 @@ def assess_composite(trump_count, core_total, comparisons,
     else:
         dominance = 0.0
 
-    # None-safe gate helpers: a missing signal does not block a zone.
-    breadth_ok   = lambda floor: (breadth is None)   or (breadth   >= floor)
-    deviation_ok = lambda floor: (deviation is None) or (deviation >= floor)
+    # None-safe breadth gate: a missing signal does not block a zone.
+    breadth_ok = lambda floor: (floor is None) or (breadth is None) or (breadth >= floor)
+    dominance_ok = lambda floor: (floor is None) or (dominance >= floor)
 
-    if (rank == 1
-            and dominance >= 2.0
-            and pct >= 4.0
-            and breadth_ok(0.55)
-            and deviation_ok(1.5)):
+    def _fits(zone_key):
+        t = THRESHOLDS[zone_key]
+        return (
+            rank <= (t["rank_max"] or 99)
+            and pct >= (t["pct"] or 0)
+            and dominance_ok(t["dominance"])
+            and breadth_ok(t["breadth"])
+        )
+
+    if _fits("flooding"):
         chosen = "flooding"
-    elif (rank == 1
-            and dominance >= 1.2
-            and pct >= 2.5
-            and breadth_ok(0.40)):
+    elif _fits("soaked"):
         chosen = "soaked"
-    elif (rank <= 2
-            and pct >= 1.5
-            and breadth_ok(0.25)):
+    elif _fits("wet"):
         chosen = "wet"
-    elif rank <= 4 and pct >= 0.8:
+    elif _fits("puddles"):
         chosen = "puddles"
     else:
         chosen = "dry"
@@ -205,6 +244,7 @@ def assess_composite(trump_count, core_total, comparisons,
         "deviation": round(deviation, 2) if deviation is not None else None,
         "smoothed_pct": smoothed_pct,
         "method": "composite",
+        "thresholds_version": THRESHOLDS_VERSION,
     }
 
 

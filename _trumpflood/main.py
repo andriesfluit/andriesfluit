@@ -367,6 +367,7 @@ def main():
         "deviation": assessment["deviation"],     # today / 14d-median
         "smoothed_pct": smoothed_pct,
         "assessment_method": assessment["method"],
+        "thresholds_version": assessment.get("thresholds_version"),
         # Legacy theme rank kept as secondary context (not driving zone).
         "theme_rank": theme_rank_ctx["rank"],
         "n_themes": theme_rank_ctx["n_themes"],
@@ -411,6 +412,13 @@ def main():
             record["percentage"],
         )
         existing_today["last_checked_at"] = generated_at
+        # Backfill any newly-added fields from this run's record so schema
+        # additions (e.g. thresholds_version, corpus diagnostics) land on
+        # the day they are introduced rather than waiting for a later
+        # peak-replacing run. Never overwrites an existing non-None value.
+        for k, v in record.items():
+            if k not in existing_today or existing_today.get(k) is None:
+                existing_today[k] = v
         record = existing_today   # render site from the preserved peak
         log = existing_log        # no replacement needed
     else:

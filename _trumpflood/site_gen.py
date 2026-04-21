@@ -10,7 +10,6 @@ except ImportError:                 # pragma: no cover
     _BRUSSELS = None
 
 from comparators import COMPARATORS, label_for as comparator_label
-from themes import THEMES, label_for as theme_label
 
 ROOT = Path(__file__).parent
 LOG_FILE = ROOT / "data" / "log.json"
@@ -287,15 +286,9 @@ def _hero(latest):
                     f' <span class="rank-dom">\u00b7 {dominance}\u00d7 the '
                     f'other {n_others_badge} combined</span>'
                 )
-        theme_text = ""
-        if theme_rank is not None and n_themes is not None:
-            theme_text = (
-                f' <span class="rank-theme">\u00b7 rank #{theme_rank} of '
-                f'{n_themes} when compared to broad themes</span>'
-            )
         rank_badge = (
             f'<div class="rank-badge">Rank <strong>#{rank}</strong> of '
-            f'{n_people} named people today{dom_text}{theme_text}</div>'
+            f'{n_people} named people today{dom_text}</div>'
         )
     elif method == "rank" and rank is not None:
         # Legacy path for any older records.
@@ -402,7 +395,6 @@ def _comparison_panel(latest):
         f'</div>'
     )
 
-    themes_block = _themes_panel_inline(latest)
     return f"""
 <section class="block">
   <h2>Today vs. the rest</h2>
@@ -410,71 +402,8 @@ def _comparison_panel(latest):
   {total}-headline core corpus.</p>
   <div class="comparison">{''.join(rows)}</div>
   {vs_block}
-  {themes_block}
 </section>
 """
-
-
-def _themes_panel_inline(latest):
-    """Themes as a sub-block within the comparison section, no <section> wrapper
-    and no big h2 \u2014 just a subheading and the bars."""
-    themes = latest.get("themes")
-    total = latest.get("total_articles", 0)
-    if not themes or not total:
-        return ""
-
-    active_zone = latest.get("zone") or "dry"
-    if active_zone == "flooded":
-        active_zone = "soaked"
-    trump_count = (latest.get("comparisons") or {}).get("trump", 0)
-
-    items = []
-    for t in THEMES:
-        count = themes.get(t["key"], 0)
-        items.append((t["label"], count))
-    items.sort(key=lambda i: i[1], reverse=True)
-
-    max_count = max((c for _, c in items), default=1) or 1
-
-    def render_row(label, count, is_trump):
-        share = round(count / total * 100, 1) if total else 0
-        bar_w = (count / max_count) * 100 if max_count else 0
-        cls = "theme-row trump" if is_trump else "theme-row"
-        color = ZONE_COLORS[active_zone] if is_trump else "#9ba295"
-        return (
-            f'<div class="{cls}">'
-            f'<div class="theme-label">{html.escape(label)}</div>'
-            f'<div class="theme-bar-wrap">'
-            f'<div class="theme-bar" style="width:{bar_w:.1f}%;background:{color}"></div>'
-            f'</div>'
-            f'<div class="theme-stat"><strong>{count}</strong>'
-            f'<span class="theme-share">{share}%</span></div>'
-            f'</div>'
-        )
-
-    rows = []
-    inserted = False
-    for label, count in items:
-        if not inserted and count <= trump_count:
-            rows.append(render_row("Trump (one person)", trump_count, True))
-            inserted = True
-        rows.append(render_row(label, count, False))
-    if not inserted:
-        rows.append(render_row("Trump (one person)", trump_count, True))
-
-    rank = sum(1 for _, c in items if c > trump_count) + 1
-
-    return f"""
-  <h3 class="sub-h">Against broad subject themes</h3>
-  <p class="block-intro small">A single person will almost never out-rank
-  aggregate themes. Trump would rank
-  <strong>#{rank}</strong> of {len(items)}.</p>
-  <div class="comparison themes-comp">{''.join(rows)}</div>
-"""
-
-
-# Legacy _themes_panel removed \u2014 themes are now rendered inline inside the
-# comparison panel via _themes_panel_inline().
 
 
 def _today_mentions(latest):
@@ -759,6 +688,7 @@ def _history_table(log_sorted_desc):
 
 
 def _methodology(latest):
+    from assessor import THRESHOLDS_VERSION as thresholds_version
     core_total = latest.get("total_articles", 0)
     core_trump = latest.get("trump_articles", 0)
     core_pct = latest.get("percentage", 0)
@@ -862,13 +792,7 @@ def _methodology(latest):
         + "can move share and breadth independently of any real change in "
         + "Trump coverage.</p>"
     ) if diag_parts else ""
-    theme_txt = (
-        f" For context, Trump would rank <strong>#{theme_rank} of {n_themes}</strong> "
-        f"against broad subject themes (war, crime, EU politics, ...) &mdash; "
-        f"but themes bundle dozens of stories so a single person rarely beats them. "
-        f"Theme rank is <em>context</em>, never a zone driver."
-        if theme_rank is not None else ""
-    )
+    theme_txt = ""
 
     # Source breakdown table, embedded inside the methodology <details>.
     sources = latest.get("sources", {})
@@ -966,7 +890,7 @@ def _methodology(latest):
       quality press is writing about the administration without naming
       Trump directly.</p>
 
-      <h3>Comparators &amp; themes</h3>
+      <h3>Comparators</h3>
       <p>The same headlines are scanned for fifteen named people in
       total. The set is split 5 international / 10 Belgian:</p>
       <ul class="meth-rules">
@@ -992,11 +916,14 @@ def _methodology(latest):
       rule can be replaced by &ldquo;anyone with &ge; N name mentions in
       the trailing 90-day core corpus&rdquo;, which would make the list
       self-maintaining.</p>
-      <p>The same headlines are also scanned for fourteen broad subject
-      categories (war, crime, EU politics, Belgian government, etc.)
-      using multi-language regex (NL + FR + EN keywords) so
-      &ldquo;klimaat&rdquo; and &ldquo;climat&rdquo; both count as
-      Climate.</p>
+      <p>Fourteen broad subject themes (war, crime, EU politics, Belgian
+      government, etc.) are still counted on every run and stored in
+      <code>data/log.json</code> as background context, but they are no
+      longer shown on the page and no longer compared to Trump. Mixing
+      a single person with aggregate themes is a category error: themes
+      bundle dozens of stories and a person almost never out-ranks an
+      aggregate, which produced visually dramatic but structurally
+      meaningless &ldquo;Trump beats Sports&rdquo; lines.</p>
 
       <h3>Zone assessment</h3>
       <p>No single number can honestly say &ldquo;Trump is flooding Belgian
@@ -1044,11 +971,16 @@ def _methodology(latest):
       <p class="signal-today">Today: rank <strong>#{rank}</strong> of
       {n_people}.{theme_txt}</p>
 
-      <h4 class="signal-h">Deviation (context, not a hard gate)</h4>
+      <h4 class="signal-h">Deviation (annotation only)</h4>
       <p>Today&rsquo;s name-only core share divided by the 14-day
-      median of the same series. Requires at least 7 prior days of
-      data, which the archive builds up gradually. Until the signal is
-      computable, the gate treats it as &ldquo;pass&rdquo;.</p>
+      median of the same series. <strong>This is not a zone gate.</strong>
+      It is reported next to the zone so a reader can see whether today
+      is unusual for Belgium&rsquo;s own baseline, but it does not
+      decide the classification: an earlier version included deviation
+      as a gate on Flooding and it never actually filtered anything,
+      because any day that cleared the other four Flooding floors
+      always cleared the deviation floor as well. Requires at least 7
+      prior days of data, which the archive builds up gradually.</p>
       <p class="signal-today">Today: <strong>{deviation_display}</strong>.
       {smooth_inline}</p>
 
@@ -1066,7 +998,6 @@ def _methodology(latest):
             <th class="num">Dominance</th>
             <th class="num">Breadth</th>
             <th class="num">Rank</th>
-            <th class="num">Deviation</th>
           </tr>
         </thead>
         <tbody>
@@ -1076,7 +1007,6 @@ def _methodology(latest):
             <td class="num">&ge; 2.0&times;</td>
             <td class="num">&ge; 55%</td>
             <td class="num">= #1</td>
-            <td class="num">&ge; 1.5&times;</td>
           </tr>
           <tr>
             <td><strong>Soaked</strong></td>
@@ -1084,7 +1014,6 @@ def _methodology(latest):
             <td class="num">&ge; 1.2&times;</td>
             <td class="num">&ge; 40%</td>
             <td class="num">= #1</td>
-            <td class="num">&mdash;</td>
           </tr>
           <tr>
             <td><strong>Wet</strong></td>
@@ -1092,7 +1021,6 @@ def _methodology(latest):
             <td class="num">&mdash;</td>
             <td class="num">&ge; 25%</td>
             <td class="num">&le; #2</td>
-            <td class="num">&mdash;</td>
           </tr>
           <tr>
             <td><strong>Puddles</strong></td>
@@ -1100,25 +1028,25 @@ def _methodology(latest):
             <td class="num">&mdash;</td>
             <td class="num">&mdash;</td>
             <td class="num">&le; #4</td>
-            <td class="num">&mdash;</td>
           </tr>
           <tr>
             <td><strong>Dry</strong></td>
-            <td class="num" colspan="5">everything below the Puddles floor</td>
+            <td class="num" colspan="4">everything below the Puddles floor</td>
           </tr>
         </tbody>
       </table>
-      <p>These are absolute floors, picked by eye. The only defence for
-      them right now is that a day clearing several of them at once is,
-      empirically, a day when Trump visibly dominates Belgian headlines.
-      They are <em>not</em> calibrated against an external benchmark,
-      and they were originally chosen under a broader detector that
-      counted indirect references too. After 30+ days of live name-only
-      history they should be replaced by percentiles of Trump&rsquo;s
-      own distribution (&ldquo;Flooding = top 5&percnt; day, Soaked =
-      top 15&percnt;, ...&rdquo;), which is the only truly
-      self-calibrated version. Until then, treat the zone names as
-      ordinal labels, not statistical claims.</p>
+      <p>Thresholds in use today: version
+      <code>{thresholds_version}</code>. The initial version
+      (<code>v0-eyeballed</code>) uses absolute floors picked by eye,
+      not calibrated against any distribution. The only defence for
+      them is that a day clearing several at once is, empirically, a
+      day when Trump visibly dominates Belgian headlines. After 30+
+      days of live name-only history these absolutes get replaced by
+      percentiles of Trump&rsquo;s own distribution (&ldquo;Flooding
+      = top 5&percnt; day, Soaked = top 15&percnt;, ...&rdquo;) via
+      <code>calibrate.py</code>, which is the only truly
+      self-calibrated version. Until that runs, treat the zone names
+      as ordinal labels, not statistical claims.</p>
 
       <h3>Caveats &amp; limits</h3>
       <ul class="meth-rules">
@@ -1179,9 +1107,6 @@ def _methodology(latest):
         reaches 90+ days, the list can be replaced by a data-driven rule
         (&ldquo;anyone with &ge; N name mentions in the trailing 90
         days&rdquo;) and the manual review falls away.</li>
-        <li><strong>Theme overlap.</strong> A headline can match multiple
-        themes (a Gaza article counts for War and for EU politics if Macron is
-        quoted). Themes are not mutually exclusive.</li>
       </ul>
 
       {sources_block}
