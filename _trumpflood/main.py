@@ -181,27 +181,28 @@ def main():
     core_pct_name = round((core_trump_name / core_total * 100), 1) if core_total else 0.0
     core_pct_expanded = round((core_trump_expanded / core_total * 100), 1) if core_total else 0.0
 
-    # Zone pct is driven by the EXPANDED detector (name + indirect references
-    # like "White House" / "président américain"). Rank and dominance inside
-    # assess_composite use comparisons["trump"] which is always name-only, so
-    # the people-ranking stays apples-to-apples.
-    core_trump = core_trump_expanded
-    core_pct = core_pct_expanded
-    wide_trump = wide_trump_expanded
-    wide_pct = wide_pct_expanded
+    # Zone signals all run on the NAME-ONLY detector now. Previously share
+    # and breadth used the expanded detector (name + indirect references like
+    # "White House" / "président américain") while rank and dominance used
+    # name-only. That mixed yardstick made the zone hard to explain and gave
+    # Trump a structural lift on share that the other fourteen comparators
+    # didn't get. The expanded count is still logged as a secondary readout
+    # ("indirect_references") but it does not drive the zone.
+    core_trump = core_trump_name
+    core_pct = core_pct_name
+    wide_trump = wide_trump_name
+    wide_pct = wide_pct_name
 
     core_titles = [t for _, t, _ in core_kept]
     core_comparisons = count_comparators(core_titles)
     core_themes = count_themes(core_titles)
 
     # ------ 7-day rolling average + deviation (name-only time series) ------
-    # We track a dedicated `core_percentage_name` field on every live run
-    # so smoothed_pct and deviation are computed on one consistent
-    # yardstick. Historical records that predate the name-only detector
-    # (GDELT backfills, and a handful of early live days without
-    # per-record comparator counts) don't carry this field and are
-    # silently excluded. Until we have >= 7 name-only days in the
-    # archive, smoothed_pct is displayed as "baseline still building".
+    # Both smoothed_pct and deviation read `core_percentage_name` off every
+    # prior record, falling back to `core_percentage_expanded` for days
+    # recorded before name-only was the canonical series. Until we have
+    # >= 7 matching days in the archive, smoothed_pct is displayed as
+    # "baseline still building".
     existing_log = []
     if LOG_FILE.exists():
         try:
@@ -209,17 +210,23 @@ def main():
             existing_log = data if isinstance(data, list) else [data]
         except json.JSONDecodeError:
             existing_log = []
+
+    def _prior_name_pct(r):
+        if r.get("core_percentage_name") is not None:
+            return r["core_percentage_name"]
+        return r.get("core_percentage_expanded")
+
     prior_core_name = [
-        r.get("core_percentage_expanded")
+        _prior_name_pct(r)
         for r in existing_log
         if r.get("date") != today.isoformat()
-        and r.get("core_percentage_expanded") is not None
+        and _prior_name_pct(r) is not None
     ]
     recent_core = prior_core_name[-6:]  # last 6 days (exclusive of today)
-    window = recent_core + [core_pct_expanded]
-    # Only publish a rolling average once we have 7 days of name-only
-    # observations (prior 6 + today). Earlier windows would silently
-    # include partial data and misrepresent the baseline.
+    window = recent_core + [core_pct_name]
+    # Only publish a rolling average once we have 7 days of observations
+    # (prior 6 + today). Earlier windows would silently include partial
+    # data and misrepresent the baseline.
     smoothed_pct = (
         round(sum(window) / len(window), 2) if len(window) >= 7 else None
     )
@@ -234,19 +241,57 @@ def main():
     }
     active_core = [info for info in core_outlets.values() if info["kept"] >= 5]
     if active_core:
-        outlets_with_trump = sum(1 for info in active_core if info["trump_expanded"] > 0)
+        # Breadth uses the name-only count to stay on one yardstick with
+        # share, rank and dominance. An outlet that only referenced Trump
+        # via "the White House" does not count toward breadth.
+        outlets_with_trump = sum(1 for info in active_core if info["trump"] > 0)
         breadth = outlets_with_trump / len(active_core)
     else:
         breadth = None
 
+    # ------ Denominator control metrics ------------------------------------
+    # Shifts in zone readings often come from the denominator moving, not
+    # from any change in Trump coverage. Log the active-outlet fraction and
+    # cross-outlet wire-copy rate so drift is visible in the archive.
+    core_outlets_total = len(core_outlets)
+    core_outlets_active = len(active_core)
+    active_core_fraction = (
+        round(core_outlets_active / core_outlets_total, 3)
+        if core_outlets_total else None
+    )
+
+    # Cross-outlet title duplication. Dedup in the kept loop only collapses
+    # within-outlet repeats; a wire story running verbatim in 5 outlets
+    # stays as 5 kept items and inflates breadth. This metric quantifies
+    # that inflation without changing the dedup behaviour.
+    title_outlets = {}
+    for u, t, s in core_kept:
+        norm = _norm_title(t)
+        if not norm or len(norm) < 12:
+            continue
+        entry = title_outlets.setdefault(norm, {"outlets": set(), "count": 0})
+        entry["outlets"].add(s)
+        entry["count"] += 1
+    cross_outlet_dup_groups = sum(
+        1 for v in title_outlets.values() if len(v["outlets"]) >= 2
+    )
+    cross_outlet_dup_headlines = sum(
+        v["count"] for v in title_outlets.values() if len(v["outlets"]) >= 2
+    )
+    cross_outlet_dup_rate = (
+        round(cross_outlet_dup_headlines / core_total * 100, 1)
+        if core_total else 0.0
+    )
+
     # ------ Deviation: today's name-only core share vs 14-day median ------
-    # Reads the same `core_percentage_name` series so numerator and
-    # denominator are on one yardstick. Requires >=7 name-only days in
-    # the trailing 14; otherwise None (treated as "pass" by the gate).
+    # Reads the same name-only series (with expanded fallback for pre-
+    # transition records) so numerator and denominator are on one
+    # yardstick. Requires >=7 days in the trailing 14; otherwise None
+    # (treated as "pass" by the gate).
     prior14 = [p for p in prior_core_name[-14:] if p is not None]
     if len(prior14) >= 7:
         med = statistics.median(prior14)
-        deviation = (core_pct_expanded / med) if med > 0 else None
+        deviation = (core_pct_name / med) if med > 0 else None
     else:
         deviation = None
 
@@ -280,14 +325,15 @@ def main():
         "last_checked_at": generated_at,
         # Headline numbers = CORE tier, NAME-ONLY (zone-driving).
         "total_articles": core_total,
-        "trump_articles": core_trump_expanded,
-        "percentage": core_pct_expanded,
-        "core_percentage": core_pct_expanded,
-        # Dedicated name-only field used by smoothed_pct and deviation.
-        # Historical records get this via a one-shot backfill; pre-
-        # detector-era records (GDELT) do not carry it.
+        "trump_articles": core_trump_name,
+        "percentage": core_pct_name,
+        "core_percentage": core_pct_name,
         "core_percentage_name": core_pct_name,
-        # Expanded detector (name + indirect references). Secondary.
+        # Expanded detector (name + indirect references). Archival readout
+        # only; does not drive the zone. `indirect_references` is the
+        # count of headlines that matched the expanded detector but not
+        # name-only, i.e. pieces that referred to Trump by role or
+        # location rather than by name.
         "trump_articles_expanded": core_trump_expanded,
         "core_percentage_expanded": core_pct_expanded,
         "indirect_references": core_trump_expanded - core_trump_name,
@@ -300,6 +346,16 @@ def main():
         # Outlet-equal sanity check.
         "macro_percentage": macro_share,
         "qualifying_outlets": len(qualifying),
+        # Denominator control: how many core outlets published enough
+        # today to count, and what fraction of the kept core corpus is
+        # wire copy running in >=2 outlets. Lets drift in the corpus
+        # itself be distinguished from drift in Trump coverage.
+        "core_outlets_total": core_outlets_total,
+        "core_outlets_active": core_outlets_active,
+        "active_core_fraction": active_core_fraction,
+        "cross_outlet_dup_headlines": cross_outlet_dup_headlines,
+        "cross_outlet_dup_groups": cross_outlet_dup_groups,
+        "cross_outlet_dup_rate": cross_outlet_dup_rate,
         # Zone comes from the composite classifier on the core corpus.
         "zone": assessment["zone"],
         "label": assessment["label"],

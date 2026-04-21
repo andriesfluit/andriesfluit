@@ -773,6 +773,11 @@ def _methodology(latest):
     breadth = latest.get("breadth")
     deviation = latest.get("deviation")
     smoothed_pct = latest.get("smoothed_pct")
+    core_outlets_total = latest.get("core_outlets_total")
+    core_outlets_active = latest.get("core_outlets_active")
+    cross_outlet_dup_rate = latest.get("cross_outlet_dup_rate")
+    cross_outlet_dup_groups = latest.get("cross_outlet_dup_groups")
+    cross_outlet_dup_headlines = latest.get("cross_outlet_dup_headlines")
 
     wide_p = ""
     if wide_total is not None and wide_pct is not None:
@@ -831,6 +836,32 @@ def _methodology(latest):
         if smoothed_pct is not None else
         "The rolling baseline needs a few more runs before it settles."
     )
+
+    # Denominator-control diagnostics. These don't change the zone, but they
+    # expose two ways the denominator can move independently of Trump
+    # coverage: (1) fewer outlets publishing today, (2) more of today's
+    # kept headlines being the same wire story running in multiple outlets.
+    diag_parts = []
+    if core_outlets_active is not None and core_outlets_total:
+        diag_parts.append(
+            f"<strong>{core_outlets_active} of {core_outlets_total}</strong> "
+            f"core outlets active (\u2265 5 kept headlines)"
+        )
+    if cross_outlet_dup_rate is not None and cross_outlet_dup_groups is not None:
+        diag_parts.append(
+            f"<strong>{cross_outlet_dup_rate}%</strong> of the kept core "
+            f"corpus ({cross_outlet_dup_headlines} headlines across "
+            f"{cross_outlet_dup_groups} wire-copy groups) runs verbatim in "
+            f"\u2265 2 outlets"
+        )
+    corpus_diag_p = (
+        f"<p class=\"corpus-diag\">Corpus diagnostics: "
+        + "; ".join(diag_parts)
+        + ". These don\u2019t change the zone; they make denominator drift "
+        + "visible. A shrinking outlet count or a spike in wire-copy rate "
+        + "can move share and breadth independently of any real change in "
+        + "Trump coverage.</p>"
+    ) if diag_parts else ""
     theme_txt = (
         f" For context, Trump would rank <strong>#{theme_rank} of {n_themes}</strong> "
         f"against broad subject themes (war, crime, EU politics, ...) &mdash; "
@@ -911,36 +942,29 @@ def _methodology(latest):
       <strong>{core_trump} by-name Trump matches = {core_pct}%</strong>
       (this is the share the zone uses; see the &ldquo;Trump match&rdquo;
       section below for how indirect references are handled separately).</p>
+      {corpus_diag_p}
       {wide_p}
 
       <h3>Trump match</h3>
-      <p>Each headline title is scanned with two detectors at once:</p>
-      <ul class="meth-rules">
-        <li><strong>Expanded (drives share, breadth and deviation).</strong>
-        Catches both the literal name <code>trump</code> (whole word,
-        case-insensitive) and common indirect references:
-        <code>white house</code> / <code>witte huis</code> /
-        <code>maison blanche</code>, <code>oval office</code> /
-        <code>bureau ovale</code>, and
-        <code>US president</code> / <code>Amerikaans(e) president</code> /
-        <code>pr\u00e9sident(e) am\u00e9ricain(e)</code> /
-        <code>pr\u00e9sident(e) des \u00c9tats-Unis</code> /
-        <code>president van de VS</code> (accents optional). A headline
-        like &ldquo;Het Witte Huis waarschuwt Europa&rdquo; counts here.
-        This is the figure the zone uses for share, breadth and
-        deviation.</li>
-        <li><strong>Name-only (drives rank and dominance).</strong>
-        A single match on <code>trump</code> only. Used exclusively for
-        ranking Trump against the other fourteen named figures we track,
-        so the comparison stays apples-to-apples: expanding one person&rsquo;s
-        pattern while the others stay name-only would unfairly inflate
-        Trump&rsquo;s rank.</li>
-      </ul>
-      <p>In practice on most days the two counts are identical, because
-      Belgian headlines tend to name Trump directly. The split matters on
-      days when quality press uses &ldquo;de Amerikaanse president&rdquo;
-      or &ldquo;le pr\u00e9sident am\u00e9ricain&rdquo; without naming
-      him. Titles only; no body text, no fuzzy matching.</p>
+      <p>A headline is a Trump headline if its title matches the regex
+      <code>\\btrump\\b</code> (whole word, case-insensitive). All four
+      zone signals (share, breadth, dominance, rank) run on this single
+      name-only definition, so Trump is measured on the same yardstick
+      as the other fourteen named figures in the comparator list.
+      Titles only; no body text, no fuzzy matching.</p>
+      <p>As a secondary readout we also count headlines that refer to
+      Trump indirectly, by role or location rather than by name:
+      <code>white house</code> / <code>witte huis</code> /
+      <code>maison blanche</code>, <code>oval office</code> /
+      <code>bureau ovale</code>, and
+      <code>US president</code> / <code>Amerikaans(e) president</code> /
+      <code>pr\u00e9sident(e) am\u00e9ricain(e)</code> /
+      <code>pr\u00e9sident(e) des \u00c9tats-Unis</code> /
+      <code>president van de VS</code>. This count is reported as
+      &ldquo;indirect references&rdquo; in the daily record and does
+      <em>not</em> drive the zone; it only flags days when Belgian
+      quality press is writing about the administration without naming
+      Trump directly.</p>
 
       <h3>Comparators &amp; themes</h3>
       <p>The same headlines are scanned for fifteen named people in
@@ -983,9 +1007,8 @@ def _methodology(latest):
 
       <h4 class="signal-h">1. Share &mdash; &ldquo;How much of the news is about Trump?&rdquo;</h4>
       <p>The percentage of today&rsquo;s Belgian core-tier headlines
-      that reference Trump, using the expanded detector (name +
-      indirect references). Computed as
-      <code>expanded Trump headlines &divide; total headlines &times; 100</code>.</p>
+      that name Trump. Computed as
+      <code>Trump-by-name headlines &divide; total core headlines &times; 100</code>.</p>
       <p class="signal-today">Today: <strong>{core_trump}/{core_total} = {core_pct}%</strong>.
       A low number means Trump is not prominent in the news today,
       regardless of what other signals say.</p>
@@ -1002,9 +1025,9 @@ def _methodology(latest):
 
       <h4 class="signal-h">3. Breadth &mdash; &ldquo;Is it everywhere, or one paper?&rdquo;</h4>
       <p>The fraction of core outlets that published at least one
-      Trump headline today, using the expanded detector. Only outlets
-      with &ge; 5 post-dedup headlines count toward the denominator so
-      a near-empty feed doesn&rsquo;t skew the ratio.</p>
+      Trump-by-name headline today. Only outlets with &ge; 5 post-dedup
+      headlines count toward the denominator so a near-empty feed
+      doesn&rsquo;t skew the ratio.</p>
       <p class="signal-today">Today: <strong>{breadth_display}</strong>.
       A high dominance combined with low breadth means one outlet is
       obsessing; a high breadth means Belgian newsrooms collectively
@@ -1022,16 +1045,19 @@ def _methodology(latest):
       {n_people}.{theme_txt}</p>
 
       <h4 class="signal-h">Deviation (context, not a hard gate)</h4>
-      <p>Today&rsquo;s expanded core share divided by the 14-day
+      <p>Today&rsquo;s name-only core share divided by the 14-day
       median of the same series. Requires at least 7 prior days of
-      data under the current methodology, which we build up gradually.
-      Until the signal is computable, the gate treats it as
-      &ldquo;pass&rdquo;.</p>
+      data, which the archive builds up gradually. Until the signal is
+      computable, the gate treats it as &ldquo;pass&rdquo;.</p>
       <p class="signal-today">Today: <strong>{deviation_display}</strong>.
       {smooth_inline}</p>
 
       <h4 class="signal-h">Threshold table</h4>
-      <p>Every zone requires <em>all</em> the listed conditions.</p>
+      <p><strong>How to read this table.</strong> A day lands in a zone
+      only when <em>all</em> the signals in its row clear their floor
+      simultaneously. Missing any one cell drops the day to the next
+      zone down. A dash in a cell means that signal is not gated for
+      that zone.</p>
       <table class="zone-thresholds">
         <thead>
           <tr>
@@ -1082,20 +1108,17 @@ def _methodology(latest):
           </tr>
         </tbody>
       </table>
-      <p>These thresholds were originally chosen when the share number
-      included indirect references (&ldquo;White House&rdquo;,
-      &ldquo;US president&rdquo;, ...). We now count Trump by name only,
-      which is a strictly smaller numerator applied to the same floors
-      &mdash; so the bar for every zone is effectively <em>higher</em>
-      than it was under the old detector. We&rsquo;ve kept the numbers
-      unchanged rather than lower them to match old sensitivity: the
-      stricter regime means zones fire less often, but when they do,
-      the signal is at least as strong as it used to be. After 30+
-      days of name-only live history, these absolutes should be
-      replaced by percentiles of Trump&rsquo;s own name-only
-      distribution (&ldquo;Flooding = top-10&percnt; day ever
-      recorded&rdquo;), which is the only truly self-calibrated
-      version.</p>
+      <p>These are absolute floors, picked by eye. The only defence for
+      them right now is that a day clearing several of them at once is,
+      empirically, a day when Trump visibly dominates Belgian headlines.
+      They are <em>not</em> calibrated against an external benchmark,
+      and they were originally chosen under a broader detector that
+      counted indirect references too. After 30+ days of live name-only
+      history they should be replaced by percentiles of Trump&rsquo;s
+      own distribution (&ldquo;Flooding = top 5&percnt; day, Soaked =
+      top 15&percnt;, ...&rdquo;), which is the only truly
+      self-calibrated version. Until then, treat the zone names as
+      ordinal labels, not statistical claims.</p>
 
       <h3>Caveats &amp; limits</h3>
       <ul class="meth-rules">
@@ -1968,6 +1991,15 @@ PAGE = """<!doctype html>
   }}
   .meth-rules li {{ margin-bottom: 4px; }}
   .meth-rules em {{ color: var(--muted); font-style: italic; }}
+  .corpus-diag {{
+    margin: 4px 0 12px;
+    padding: 8px 12px;
+    background: var(--card);
+    border-left: 3px solid var(--rule);
+    font-size: 13px;
+    color: var(--muted);
+  }}
+  .corpus-diag strong {{ color: var(--text); }}
 
   /* Tables */
   table {{ width: 100%; border-collapse: collapse; }}

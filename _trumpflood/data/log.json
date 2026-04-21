@@ -3704,5 +3704,484 @@
       "education": 4,
       "weather": 24
     }
+  },
+  {
+    "date": "2026-04-21",
+    "generated_at": "2026-04-21T07:03:52+02:00",
+    "last_checked_at": "2026-04-21T07:03:52+02:00",
+    "total_articles": 236,
+    "trump_articles": 6,
+    "percentage": 2.5,
+    "core_percentage": 2.5,
+    "core_percentage_name": 2.5,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 2.5,
+    "indirect_references": 0,
+    "wide_total_articles": 317,
+    "wide_trump_articles": 8,
+    "wide_percentage": 2.5,
+    "wide_trump_articles_expanded": 8,
+    "wide_percentage_expanded": 2.5,
+    "macro_percentage": 2.4,
+    "qualifying_outlets": 12,
+    "core_outlets_total": 19,
+    "core_outlets_active": 13,
+    "active_core_fraction": 0.684,
+    "cross_outlet_dup_headlines": 35,
+    "cross_outlet_dup_groups": 16,
+    "cross_outlet_dup_rate": 14.8,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 15,
+    "dominance": 1.2,
+    "breadth": 0.38,
+    "deviation": null,
+    "smoothed_pct": null,
+    "assessment_method": "composite",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 40,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 60,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 63,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 56,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 60,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 50,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 28,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 38,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 21,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 56,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "“J.D. Vance dinsdag naar Pakistan” - Iran krijgt “ernstige problemen” als het niet onderhandelt met VS, zegt Trump",
+        "url": "https://www.standaard.be/buitenland/j.d.-vance-dinsdag-naar-pakistan-iran-krijgt-ernstige-problemen-als-het-niet-onderhandelt-met-vs-zegt-trump/35173881.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - Minister van Arbeid neemt ontslag uit regering-Trump, al derde vrouw in enkele weken tijd",
+        "url": "https://www.demorgen.be/snelnieuws/live-bedrijven-in-vs-eisen-al-127-miljard-dollar-terug-voor-onterecht-betaalde-invoertarieven~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Iran eist onmiddellijke vrijgave van inbeslaggenomen schip - Trump: “Iran gaat onderhandelen, en als ze dat niet doen...”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-eist-onmiddellijke-vrijgave-van-inbeslaggenomen-schip-trump-iran-gaat-onderhandelen-en-als-ze-dat-niet-doen.../27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi Donald Trump tient tant à sa salle de bal de \"sécurité nationale\" à la Maison Blanche ?",
+        "url": "https://www.rtbf.be/article/pourquoi-donald-trump-tient-tant-a-sa-salle-de-bal-de-securite-nationale-a-la-maison-blanche-11712403",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Relation inappropriée, consommation d'alcool dans son bureau...: la ministre du Travail de Donald Trump quitte le gouvernement",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/21/relation-inappropriee-consommation-dalcool-durant-les-journees-de-travail-la-ministre-du-travail-de-donald-trump-quitte-le-gouvernement-FMTHDHPUGZDP3CCOL3ZUK72IWQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La ministre du Travail quitte le gouvernement de Trump après plusieurs scandales",
+        "url": "https://www.7sur7.be/monde/la-ministre-du-travail-quitte-le-gouvernement-de-trump-apres-plusieurs-scandales~a0c57922/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Teheran en Trump jutten elkaar weer op, daags voor einde staakt-het-vuren - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGtPeTljYUdnLU5NZHVzZjZLNkZVbUR2bl9zR1ltOS0zWk5lZGdtYnN2QklPRTBVQ3EyYjMwTUFmTmtTQnNDRm1wUjVZcEF5YjFnZ2NidGxYN3dpc1RGQ3pwRjNWcVpyNzMzSndZR0pLWk1LY3VxRkIxc0FUNmpiS0dCNVhUZnAwZm02cWt3WVBGMGdfcnVmejEwMUdpMWstd082c211RmZ6N0tjcDFiZENpaXhMcE1jdFNKa2hLai0?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "“J.D. Vance dinsdag naar Pakistan” - Iran krijgt “ernstige problemen” als het niet onderhandelt met VS, zegt Trump",
+        "url": "https://www.standaard.be/buitenland/j.d.-vance-dinsdag-naar-pakistan-iran-krijgt-ernstige-problemen-als-het-niet-onderhandelt-met-vs-zegt-trump/35173881.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - Minister van Arbeid neemt ontslag uit regering-Trump, al derde vrouw in enkele weken tijd",
+        "url": "https://www.demorgen.be/snelnieuws/live-bedrijven-in-vs-eisen-al-127-miljard-dollar-terug-voor-onterecht-betaalde-invoertarieven~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Iran eist onmiddellijke vrijgave van inbeslaggenomen schip - Trump: “Iran gaat onderhandelen, en als ze dat niet doen...”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-eist-onmiddellijke-vrijgave-van-inbeslaggenomen-schip-trump-iran-gaat-onderhandelen-en-als-ze-dat-niet-doen.../27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Iran eist onmiddellijke vrijgave van inbeslaggenomen schip - Trump: “Iran gaat onderhandelen, en als ze dat niet doen...”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-iran-eist-onmiddellijke-vrijgave-van-inbeslaggenomen-schip-trump-iran-gaat-onderhandelen-en-als-ze-dat-niet-doen.../76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi Donald Trump tient tant à sa salle de bal de \"sécurité nationale\" à la Maison Blanche ?",
+        "url": "https://www.rtbf.be/article/pourquoi-donald-trump-tient-tant-a-sa-salle-de-bal-de-securite-nationale-a-la-maison-blanche-11712403",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Relation inappropriée, consommation d'alcool dans son bureau...: la ministre du Travail de Donald Trump quitte le gouvernement",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/21/relation-inappropriee-consommation-dalcool-durant-les-journees-de-travail-la-ministre-du-travail-de-donald-trump-quitte-le-gouvernement-FMTHDHPUGZDP3CCOL3ZUK72IWQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La ministre du Travail quitte le gouvernement de Trump après plusieurs scandales",
+        "url": "https://www.7sur7.be/monde/la-ministre-du-travail-quitte-le-gouvernement-de-trump-apres-plusieurs-scandales~a0c57922/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "de_wever": 2,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 8,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "de_wever": 3,
+      "bouchez": 3,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 11,
+      "crime": 2,
+      "eu": 15,
+      "politics": 11,
+      "be_gov": 13,
+      "culture": 3,
+      "tech": 5,
+      "economy": 3,
+      "sports": 11,
+      "health": 4,
+      "climate": 3,
+      "migration": 3,
+      "education": 3,
+      "weather": 0
+    },
+    "wide_themes": {
+      "war": 12,
+      "crime": 4,
+      "eu": 18,
+      "politics": 14,
+      "be_gov": 14,
+      "culture": 4,
+      "tech": 7,
+      "economy": 5,
+      "sports": 13,
+      "health": 7,
+      "climate": 3,
+      "migration": 3,
+      "education": 4,
+      "weather": 3
+    }
   }
 ]
