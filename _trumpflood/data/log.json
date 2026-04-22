@@ -4220,5 +4220,605 @@
     "cross_outlet_dup_groups": 20,
     "cross_outlet_dup_rate": 6.3,
     "thresholds_version": "v0-eyeballed"
+  },
+  {
+    "date": "2026-04-22",
+    "generated_at": "2026-04-22T09:01:12+02:00",
+    "last_checked_at": "2026-04-22T09:01:12+02:00",
+    "total_articles": 321,
+    "trump_articles": 15,
+    "percentage": 4.7,
+    "core_percentage": 4.7,
+    "core_percentage_name": 4.7,
+    "trump_articles_expanded": 15,
+    "core_percentage_expanded": 4.7,
+    "indirect_references": 0,
+    "wide_total_articles": 481,
+    "wide_trump_articles": 19,
+    "wide_percentage": 4.0,
+    "wide_trump_articles_expanded": 19,
+    "wide_percentage_expanded": 4.0,
+    "macro_percentage": 5.0,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 34,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 10.6,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 15,
+    "dominance": 1.67,
+    "breadth": 0.75,
+    "deviation": null,
+    "smoothed_pct": null,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_politics": {
+        "fetched": 47,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 51,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 62,
+        "today": 3,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 50,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "trends_g": {
+        "fetched": 80,
+        "today": 14,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Tucker Carlson heeft spijt van zijn stem op Trump: “Het spijt me dat ik mensen misleid heb”",
+        "url": "https://www.standaard.be/buitenland/tucker-carlson-heeft-spijt-van-zijn-stem-op-trump-het-spijt-me-dat-ik-mensen-misleid-heb/35131945.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Iraanse soldaten rijden op ballistische raketten door straten van Teheran tijdens protest - Trump verlengt staakt-het-vuren",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "🎧Hoe zullen we energiesteun van regering voelen? | Trump verlengt dan toch staakt-het-vuren met Iran | Film Michael Jackson in première: onze journalist zag hem in primeur",
+        "url": "https://www.hln.be/home/hoe-zullen-we-energiesteun-van-regering-voelen-trump-verlengt-dan-toch-staakt-het-vuren-met-iran-film-michael-jackson-in-premiere-onze-journalist-zag-hem-in-primeur~ae546fd5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump verlengt het staakt-het-vuren met Iran tot ‘besprekingen zijn afgerond’ • Iran beschiet opnieuw containerschip in Straat van Hormuz",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-verlengt-het-staakt-het-vuren-met-iran-tot-besprekingen-zijn-afgerond-iran-beschiet-opnieuw-containerschip-in-straat-van-hormuz~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "In geheime gesprekken duikt ‘Donnyland’ op: Oekraïne speelt in op ego van Trump om VS-steun te behouden",
+        "url": "https://www.demorgen.be/nieuws/in-geheime-gesprekken-duikt-donnyland-op-oekraine-speelt-in-op-ego-van-trump-om-vs-steun-te-behouden~b54c1a78/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. “Iran beschiet containerschip in Straat van Hormuz” - Iraanse bronnen ontkennen verlenging van staakt-het-vuren die Trump aankondigde",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-beschiet-containerschip-in-straat-van-hormuz-iraanse-bronnen-ontkennen-verlenging-van-staakt-het-vuren-die-trump-aankondigde/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Moyen-Orient : prolongation du cessez-le-feu annoncée par Trump, un porte-conteneur visé par des tirs iraniens au large d'Oman",
+        "url": "https://www.rtbf.be/article/direct-moyen-orient-prolongation-du-cessez-le-feu-annoncee-par-trump-un-porte-conteneur-vise-par-des-tirs-iraniens-au-large-d-oman-11713321",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient:  Trump dit que l'Iran \"meurt de faim pour du cash \"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/22/direct-guerre-au-moyen-orient-trump-prolonge-la-treve-avec-liran-A6ZYA2ONYRAE5GMIIRNDVBSQTA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La Virginie redessine sa carte électorale en réponse à Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/22/la-virginie-redessine-sa-carte-electorale-en-reponse-a-trump-B3EABIAPNZC3XLO24G7YVYNBLY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump prolonge le cessez-le-feu et maintient le blocus des ports iraniens - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPRnpEZVd3WEp2NHdrM3hKVUpKVVc1VmFSM0NSTFBxQVFFcEhuT1YwYkExNm1LNm5KWlJXOTcxa3ZPclFGTkJLZzdUMVByREFIWUFmcUJlYlBjc2p6Zl9XSFY5WFpyMUZsR1RheHZNTzViTGpWZ1pNRHdENGFEQUVIamZSQlZEVGh3MkN6OFo3V2hmSlBFVXNVSTE1MVh3WVZOMng3TmhEY1FGQUMwUEk3RjdvSWpWQmVqekptZTB4LTkyR0R2QXJWVmJrd2dSUmtHSGF1cVBFMDRrMEpwbzkwd1ZlWFNRR1lnTGtBTDJPYzFFTXRYZEFweEJtUnN1d1g1dU8zdjdRdkZId3UtX2l2YUdJU3MtZVphTUNvVEdxcw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: la trêve prolongée, Trump maintient que le blocage du détroit d'Ormuz est nécessaire",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/22/direct-guerre-au-moyen-orient-la-treve-prolongee-trump-maintient-que-le-blocage-du-detroit-dormuz-est-necessaire-5H2VXKBFD5ACTDJ3H62E7QG53M/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La Virginie redessine sa carte électorale en réponse à Trump",
+        "url": "https://www.7sur7.be/monde/la-virginie-redessine-sa-carte-electorale-en-reponse-a-trump~adca792a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Donald Trump prolonge sine die la trêve avec l’Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOajF0VHdvYWVCaHQ1SXNkY2tVelpRYW1ReC1mYWtvVXNVZW4xZ1VkaktENkFnUWJYNUN2SS1QdG5adjlrbi1qN3JocFo4RHdYWk5QX1JjQXNDeUJ5RFVlb2FHZEtkTGRSRkkyN09kOW1RQlJYODBRbHhvck1GeVpEQmc3cXZJaXRabnRZS0FTUkRkNEhZZVNJWHBOR0hMRkdkT28xbU1QTlNUMUpvbVFISzFqX3NndGRoVllQc0lB?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Conflit au Moyen-Orient : Trump fait une grande annonce concernant le cessez-le-feu - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTGcxWFVEQXNuOGRRWjdkaldNVXQ3TWR4dXNXeXV3eWROemZzR2htYjN4OGlma3lveWFLV2ZEemQ3ZjlPS3M5dWFqbVdsVU9fb0t6ejBpU2NTcGNBLUs3ZUFyS1lXQW5UNUVxY1RuLTdaS3NmRC1DaDc4Ym1lLW9rREZlTXctQ1c0YVljSlNXNGdWY0pMU0NKaEx6cGgwQ1REWVI5M3J4enJwSE03b1I4NGxRakZIdldJb1ZUalNaeXhJanFIUGZXYmk5TVRrYVZLMEEwUzZzRk9vdGhDUlRIbg?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Retour sur 24 heures de cacophonie totale de Donald Trump, avec un cessez-le-feu prolongé en bout de course - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbWFZYjhPV3MtUDJ3UV85NHZZOTNQczF1VmY4R1phRFZhOHl1dHVCYThXZWhNTEpUYS1fRGlKclctRXZrN2x5cHRtMFAyRks0WU5ydlJpdXJUbU5KWU4xY21PbzFnMEJmS0JnelFmVzY3THUtTU1XUlVUSXEwbTZ0UkQ4NEV3dV9rOGVud2d3TGZ3aWxzMkJPUmpON1kzeEQ0YVlMcE85ZVR3ZEhQVjdGTU8tNUhObTNIYlNZVGp5OEVZNk1qTEVtZldjdjZQM0NwS0lvS3JuSXd0WGoza2pXeGZydVdIdDRXZ2c?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "In geheime gesprekken duikt ‘Donnyland’ op: Oekraïne speelt in op ego van Trump om VS-steun te behouden - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRk9EM3RWeENiM2hrcWFudm5iSl9LQUJ5TlRYZUpBbC1NZzY0NFUtcHJFZHlzVTlPOW5wMDhHZnZFa0E5aDNpUFNTY1pfOFZ0a2lYUnV6MDFsYkQyTUI4VXY2RWJaWnJwTVE1VmJwVmV1SW0zSTdzcjhwYVB6djM3ckZzWjNNN2U1dTlJRUFZa05yYjJUdElhT3pnTUpzN2wzMjlmSWhpMHBvVWNqWi03NGQ5QXZwUC03NG5kRmlnRTI3X1ZBTGNTLTZzaXJnTm45RnoySW1WSFg?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : prolongation du cessez-le-feu annoncée par Trump, un porte-conteneur visé par des tirs iraniens au large d'Oman - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcjE0VFdwSGFHaGpCTGZVaEQxRUVUd2RmNllKNUVPVUNkRFhiSm1jcHdvc3FiOWVTLThvZHRibnEtSDhzYmRRNmpRRE9aWmpVY2daQXgwdUlvUHdadU8zSGU1TWFjN2MwVUg0YmJvWnNPUUdSNUNWVXhzWVpsMU8tOWtod1ZQeUtBOE55Y184OUg1RUtmallFMEZOTHp6Ry1pZ0JxU2VkeXhZSkFyNHdVOXoyRnBJLUpXZEREQ2xPYUZvb25LUFc5NEpWbjVJOTVUOFd1MlJFV1NwVGVGZEtkZkcyZw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Revers pour Donald Trump : la Virginie approuve par référendum une carte électorale favorable aux Démocrates - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEVkM3I3dm1zTFlHM3NyU1pDd2t3eWRZV24xWFdhamcwTjJJRllKaW5YemNGR0hPUUNsblZrQ0FDNF9aZ0FPYW5ORnl4YzJfYmZuRTVUakNIR3B0RVpVektHTzE5dFpuaTA1c1RUV2hwTVpCNEVGRDlTS1lQdTU5MnpaTFNFZGdDRURUaDdQTEk5YnRPcjJUNUVnZDZmYXVhWkhycS00T0JrQUxDY0txYm9HTjBJOXFCd2c?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Tucker Carlson heeft spijt van zijn stem op Trump: “Het spijt me dat ik mensen misleid heb”",
+        "url": "https://www.standaard.be/buitenland/tucker-carlson-heeft-spijt-van-zijn-stem-op-trump-het-spijt-me-dat-ik-mensen-misleid-heb/35131945.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Iraanse soldaten rijden op ballistische raketten door straten van Teheran tijdens protest - Trump verlengt staakt-het-vuren",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "🎧Hoe zullen we energiesteun van regering voelen? | Trump verlengt dan toch staakt-het-vuren met Iran | Film Michael Jackson in première: onze journalist zag hem in primeur",
+        "url": "https://www.hln.be/home/hoe-zullen-we-energiesteun-van-regering-voelen-trump-verlengt-dan-toch-staakt-het-vuren-met-iran-film-michael-jackson-in-premiere-onze-journalist-zag-hem-in-primeur~ae546fd5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump verlengt het staakt-het-vuren met Iran tot ‘besprekingen zijn afgerond’ • Iran beschiet opnieuw containerschip in Straat van Hormuz",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-verlengt-het-staakt-het-vuren-met-iran-tot-besprekingen-zijn-afgerond-iran-beschiet-opnieuw-containerschip-in-straat-van-hormuz~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "In geheime gesprekken duikt ‘Donnyland’ op: Oekraïne speelt in op ego van Trump om VS-steun te behouden",
+        "url": "https://www.demorgen.be/nieuws/in-geheime-gesprekken-duikt-donnyland-op-oekraine-speelt-in-op-ego-van-trump-om-vs-steun-te-behouden~b54c1a78/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. “Iran beschiet containerschip in Straat van Hormuz” - Iraanse bronnen ontkennen verlenging van staakt-het-vuren die Trump aankondigde",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-beschiet-containerschip-in-straat-van-hormuz-iraanse-bronnen-ontkennen-verlenging-van-staakt-het-vuren-die-trump-aankondigde/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. “Iran beschiet containerschip in Straat van Hormuz” - Iraanse bronnen ontkennen verlenging van staakt-het-vuren die Trump aankondigde",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-iran-beschiet-containerschip-in-straat-van-hormuz-iraanse-bronnen-ontkennen-verlenging-van-staakt-het-vuren-die-trump-aankondigde/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Moyen-Orient : prolongation du cessez-le-feu annoncée par Trump, un porte-conteneur visé par des tirs iraniens au large d'Oman",
+        "url": "https://www.rtbf.be/article/direct-moyen-orient-prolongation-du-cessez-le-feu-annoncee-par-trump-un-porte-conteneur-vise-par-des-tirs-iraniens-au-large-d-oman-11713321",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient:  Trump dit que l'Iran \"meurt de faim pour du cash \"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/22/direct-guerre-au-moyen-orient-trump-prolonge-la-treve-avec-liran-A6ZYA2ONYRAE5GMIIRNDVBSQTA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La Virginie redessine sa carte électorale en réponse à Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/22/la-virginie-redessine-sa-carte-electorale-en-reponse-a-trump-B3EABIAPNZC3XLO24G7YVYNBLY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump prolonge le cessez-le-feu et maintient le blocus des ports iraniens - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPRnpEZVd3WEp2NHdrM3hKVUpKVVc1VmFSM0NSTFBxQVFFcEhuT1YwYkExNm1LNm5KWlJXOTcxa3ZPclFGTkJLZzdUMVByREFIWUFmcUJlYlBjc2p6Zl9XSFY5WFpyMUZsR1RheHZNTzViTGpWZ1pNRHdENGFEQUVIamZSQlZEVGh3MkN6OFo3V2hmSlBFVXNVSTE1MVh3WVZOMng3TmhEY1FGQUMwUEk3RjdvSWpWQmVqekptZTB4LTkyR0R2QXJWVmJrd2dSUmtHSGF1cVBFMDRrMEpwbzkwd1ZlWFNRR1lnTGtBTDJPYzFFTXRYZEFweEJtUnN1d1g1dU8zdjdRdkZId3UtX2l2YUdJU3MtZVphTUNvVEdxcw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: la trêve prolongée, Trump maintient que le blocage du détroit d'Ormuz est nécessaire",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/22/direct-guerre-au-moyen-orient-la-treve-prolongee-trump-maintient-que-le-blocage-du-detroit-dormuz-est-necessaire-5H2VXKBFD5ACTDJ3H62E7QG53M/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La Virginie redessine sa carte électorale en réponse à Trump",
+        "url": "https://www.7sur7.be/monde/la-virginie-redessine-sa-carte-electorale-en-reponse-a-trump~adca792a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Donald Trump prolonge sine die la trêve avec l’Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOajF0VHdvYWVCaHQ1SXNkY2tVelpRYW1ReC1mYWtvVXNVZW4xZ1VkaktENkFnUWJYNUN2SS1QdG5adjlrbi1qN3JocFo4RHdYWk5QX1JjQXNDeUJ5RFVlb2FHZEtkTGRSRkkyN09kOW1RQlJYODBRbHhvck1GeVpEQmc3cXZJaXRabnRZS0FTUkRkNEhZZVNJWHBOR0hMRkdkT28xbU1QTlNUMUpvbVFISzFqX3NndGRoVllQc0lB?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Conflit au Moyen-Orient : Trump fait une grande annonce concernant le cessez-le-feu - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTGcxWFVEQXNuOGRRWjdkaldNVXQ3TWR4dXNXeXV3eWROemZzR2htYjN4OGlma3lveWFLV2ZEemQ3ZjlPS3M5dWFqbVdsVU9fb0t6ejBpU2NTcGNBLUs3ZUFyS1lXQW5UNUVxY1RuLTdaS3NmRC1DaDc4Ym1lLW9rREZlTXctQ1c0YVljSlNXNGdWY0pMU0NKaEx6cGgwQ1REWVI5M3J4enJwSE03b1I4NGxRakZIdldJb1ZUalNaeXhJanFIUGZXYmk5TVRrYVZLMEEwUzZzRk9vdGhDUlRIbg?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Retour sur 24 heures de cacophonie totale de Donald Trump, avec un cessez-le-feu prolongé en bout de course - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbWFZYjhPV3MtUDJ3UV85NHZZOTNQczF1VmY4R1phRFZhOHl1dHVCYThXZWhNTEpUYS1fRGlKclctRXZrN2x5cHRtMFAyRks0WU5ydlJpdXJUbU5KWU4xY21PbzFnMEJmS0JnelFmVzY3THUtTU1XUlVUSXEwbTZ0UkQ4NEV3dV9rOGVud2d3TGZ3aWxzMkJPUmpON1kzeEQ0YVlMcE85ZVR3ZEhQVjdGTU8tNUhObTNIYlNZVGp5OEVZNk1qTEVtZldjdjZQM0NwS0lvS3JuSXd0WGoza2pXeGZydVdIdDRXZ2c?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 15,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "de_wever": 6,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 19,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "de_wever": 10,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 3,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 20,
+      "crime": 18,
+      "eu": 6,
+      "politics": 25,
+      "be_gov": 19,
+      "culture": 7,
+      "tech": 7,
+      "economy": 8,
+      "sports": 9,
+      "health": 2,
+      "climate": 8,
+      "migration": 0,
+      "education": 2,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 28,
+      "crime": 27,
+      "eu": 10,
+      "politics": 40,
+      "be_gov": 29,
+      "culture": 11,
+      "tech": 11,
+      "economy": 14,
+      "sports": 22,
+      "health": 3,
+      "climate": 13,
+      "migration": 2,
+      "education": 3,
+      "weather": 8
+    }
   }
 ]
