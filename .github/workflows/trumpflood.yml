@@ -1,15 +1,23 @@
 name: trumpflood daily run
 
-# Three runs a day: 06:00 / 12:00 / 18:00 UTC.
-# In CEST (summer, UTC+2) that is 08:00 / 14:00 / 20:00 local.
-# In CET (winter, UTC+1) that is 07:00 / 13:00 / 19:00 local.
-# GitHub's scheduler can be delayed 5-15 minutes during busy hours.
+# Three runs a day: 03:37 / 10:37 / 16:37 UTC.
+# In CEST (summer, UTC+2) that is 05:37 / 12:37 / 18:37 local; site
+# typically visible by 07:00 / 13:00 / 19:00 CEST after fetch, render,
+# push and GitHub Pages deploy.
+# In CET (winter, UTC+1) the same cron fires one hour earlier locally,
+# i.e. visible ~06:00 / 12:00 / 18:00 CET.
+#
+# Why off-the-hour (:37)?
+# GitHub's scheduled workflows get heavily delayed at the top of the
+# hour when millions of other crons fire. The :37 offset dodges that
+# stampede and cuts typical lag by 10-30 min. We also trigger ~75 min
+# before the desired visible time because morning runs can still drift.
 #
 # Also triggerable manually from the Actions tab ("Run workflow" button).
 
 on:
   schedule:
-    - cron: "0 6,12,18 * * *"
+    - cron: "37 3,10,16 * * *"
   workflow_dispatch:
 
 # Needed so the job can push commits back to the repo.
