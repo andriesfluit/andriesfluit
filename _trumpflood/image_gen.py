@@ -1,5 +1,5 @@
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
 # LinkedIn URL-preview: 1200×628 (≈1.91:1)
 W, H = 1200, 628
@@ -75,26 +75,32 @@ def _lighten(color, amount=55):
 
 
 def _trump_strip(photo_w, photo_h, zone_color, water_pct):
-    """Crop trump.jpg to photo_w×photo_h with a zone-colour water overlay."""
-    src      = Image.open(TRUMP_JPG).convert("RGB")
+    """Grayscale + contrast(1.05) portrait with zone-colour water overlay —
+    identical treatment to the site's CSS filter + canvas animation."""
+    src = Image.open(TRUMP_JPG).convert("RGB")
+
+    # Scale to fill photo_h, center-crop to photo_w.
     scale    = photo_h / src.height
     scaled_w = int(src.width * scale)
     src      = src.resize((scaled_w, photo_h), Image.LANCZOS)
     off_x    = max(0, (scaled_w - photo_w) // 2)
     src      = src.crop((off_x, 0, off_x + photo_w, photo_h))
 
-    # Solid zone-colour fill below water line, fading out near the surface.
+    # grayscale(100%) contrast(1.05) — matches the CSS filter on the site.
+    src = ImageEnhance.Contrast(
+        src.convert("L").convert("RGB")
+    ).enhance(1.05)
+
+    # Water overlay: solid zone colour from bottom up to water_pct,
+    # with a short fade at the surface (like the canvas wave on the site).
     water_h = int(photo_h * water_pct)
     if water_h > 0:
         overlay = Image.new("RGBA", (photo_w, photo_h), (0, 0, 0, 0))
         od      = ImageDraw.Draw(overlay)
         r, g, b = zone_color
-        fade    = min(water_h, 80)          # fade zone: top 80 px of water
+        fade    = min(water_h, 60)
         for row in range(water_h):
-            if row < fade:
-                alpha = int(200 * row / fade)   # 0 → 200 at water surface
-            else:
-                alpha = 200                      # fully opaque below
+            alpha = int(200 * min(row, fade) / fade)
             od.line([(0, photo_h - water_h + row), (photo_w, photo_h - water_h + row)],
                     fill=(r, g, b, alpha))
         src = Image.alpha_composite(src.convert("RGBA"), overlay).convert("RGB")
@@ -117,27 +123,18 @@ def generate_image(
     BORDER  = 6
     SCALE_W = 72
     PHOTO_W = 300
-    PAD     = 48
+    PAD     = 52
     FOOT_H  = 44
-    PX      = SCALE_W + PHOTO_W   # photo right edge / content left boundary
+    PX      = SCALE_W + PHOTO_W
     CX      = PX + PAD
     CR      = W - PAD
     CW      = CR - CX
 
     # ── Fonts ─────────────────────────────────────────────────────────────────
-    site_f  = _load(_SANS_BOLD,  18)   # "Is Trump flooding the zone?"
-    lbl_f   = _load(_SERIF_BOLD, 62)   # zone label
+    title_f = _load(_SERIF_BOLD, 68)
     url_f   = _load(_SANS_REG,   16)
     band_f  = _load(_SANS_BOLD,  11)
     date_f  = _load(_SANS_REG,   17)
-
-    # ── Measure content for vertical centering ────────────────────────────────
-    label_lines = _wrap(draw, label, lbl_f, CW)
-    lbl_h       = sum(_lh(lbl_f) + 6 for _ in label_lines) - 6
-
-    CONTENT_H = _lh(site_f) + 16 + 1 + 20 + lbl_h
-    BODY_H    = H - BORDER - FOOT_H
-    y         = BORDER + max(24, (BODY_H - CONTENT_H) // 2)
 
     # ── Top accent border ─────────────────────────────────────────────────────
     draw.rectangle([0, 0, W, BORDER], fill=zc)
@@ -157,7 +154,7 @@ def generate_image(
         draw.text(((SCALE_W - nw) / 2, (y0 + y1) / 2 - 7), name,
                   fill=WHITE if is_active else (155, 145, 135), font=band_f)
 
-    # ── Trump portrait with water ─────────────────────────────────────────────
+    # ── Trump portrait ────────────────────────────────────────────────────────
     zone_idx  = ZONE_ORDER.index(zone) if zone in ZONE_ORDER else 0
     water_pct = (len(ZONE_ORDER) - zone_idx) / len(ZONE_ORDER)
     if TRUMP_JPG.exists():
@@ -165,20 +162,14 @@ def generate_image(
         img.paste(portrait, (SCALE_W, BORDER))
     draw.line([PX, BORDER, PX, H], fill=RULE_C, width=1)
 
-    # ── Content ───────────────────────────────────────────────────────────────
-
-    # Site title
-    draw.text((CX, y), "Is Trump flooding the zone?", fill=INK, font=site_f)
-    y += _lh(site_f) + 16
-
-    # Rule
-    draw.line([CX, y, CR, y], fill=RULE_C, width=1)
-    y += 20
-
-    # Zone label (large serif)
-    for line in label_lines:
-        draw.text((CX, y), line, fill=INK, font=lbl_f)
-        y += _lh(lbl_f) + 6
+    # ── Title — large, vertically centered ───────────────────────────────────
+    title     = "Is Trump flooding the zone?"
+    lines     = _wrap(draw, title, title_f, CW)
+    block_h   = sum(_lh(title_f) + 8 for _ in lines) - 8
+    y         = BORDER + max(PAD, (H - BORDER - FOOT_H - block_h) // 2)
+    for line in lines:
+        draw.text((CX, y), line, fill=INK, font=title_f)
+        y += _lh(title_f) + 8
 
     # ── Footer ────────────────────────────────────────────────────────────────
     foot_y   = H - FOOT_H + 8
