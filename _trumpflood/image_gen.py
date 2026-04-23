@@ -24,6 +24,8 @@ ZONE_LABELS = {
     "soaked": "Soaked", "flooding": "Flooding",
 }
 
+TRUMP_JPG = Path(__file__).parent.parent / "trumpflood" / "trump.jpg"
+
 _SERIF_BOLD = [
     "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf",
     "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
@@ -77,6 +79,33 @@ def _lighten(color, amount=55):
     return tuple(min(255, c + amount) for c in color)
 
 
+def _trump_strip(photo_w, photo_h, zone_color, water_pct):
+    """Return a photo_w × photo_h crop of trump.jpg with a zone-colour water
+    overlay rising from the bottom to water_pct of the image height."""
+    src = Image.open(TRUMP_JPG).convert("RGB")
+    # Scale so height fills photo_h, then center-crop to photo_w.
+    scale   = photo_h / src.height
+    scaled_w = int(src.width * scale)
+    src     = src.resize((scaled_w, photo_h), Image.LANCZOS)
+    off_x   = max(0, (scaled_w - photo_w) // 2)
+    src     = src.crop((off_x, 0, off_x + photo_w, photo_h))
+
+    # Water tint: semi-transparent zone-colour wash rising from bottom.
+    water_h = int(photo_h * water_pct)
+    if water_h > 0:
+        overlay = Image.new("RGBA", (photo_w, photo_h), (0, 0, 0, 0))
+        od      = ImageDraw.Draw(overlay)
+        r, g, b = zone_color
+        # Gradient: fully opaque at bottom, fading to transparent at water line.
+        for row in range(water_h):
+            alpha = int(140 * (1 - row / water_h))  # 140 → 0 top-to-bottom
+            y_pos = photo_h - water_h + row
+            od.line([(0, y_pos), (photo_w, y_pos)], fill=(r, g, b, alpha))
+        src = Image.alpha_composite(src.convert("RGBA"), overlay).convert("RGB")
+
+    return src
+
+
 def generate_image(
     path, label, today, pct, total,
     zone="dry", trump_count=0,
@@ -90,22 +119,24 @@ def generate_image(
 
     # ── Layout constants ─────────────────────────────────────────────────────
     BORDER  = 6
-    SCALE_W = 80
-    PAD     = 44
+    SCALE_W = 72    # left zone-scale column
+    PHOTO_W = 252   # Trump portrait strip
+    PAD     = 40    # horizontal padding for text
     FOOT_H  = 38
-    CX      = SCALE_W + PAD
-    CR      = W - PAD
-    CW      = CR - CX
+    PX      = SCALE_W + PHOTO_W          # photo right edge
+    CX      = PX + PAD                   # content left x
+    CR      = W - PAD                    # content right x
+    CW      = CR - CX                    # content width
 
     # ── Load all fonts up front ───────────────────────────────────────────────
-    title_f = _load(_SANS_BOLD,   22)
-    url_f   = _load(_SANS_REG,    17)
-    lbl_f   = _load(_SERIF_BOLD,  56)
-    pct_f   = _load(_SERIF_BOLD,  96)
-    sub_f   = _load(_SANS_REG,    21)
-    stat_f  = _load(_SANS_REG,    21)
-    band_f  = _load(_SANS_BOLD,   11)
-    date_f  = _load(_SANS_REG,    19)
+    title_f = _load(_SANS_BOLD,  21)
+    url_f   = _load(_SANS_REG,   16)
+    lbl_f   = _load(_SERIF_BOLD, 52)
+    pct_f   = _load(_SERIF_BOLD, 90)
+    sub_f   = _load(_SANS_REG,   20)
+    stat_f  = _load(_SANS_REG,   20)
+    band_f  = _load(_SANS_BOLD,  11)
+    date_f  = _load(_SANS_REG,   18)
 
     # ── Pre-compute content (needed for height measurement) ───────────────────
     label_lines = _wrap(draw, label, lbl_f, CW)
@@ -122,21 +153,20 @@ def generate_image(
     if rival_label and rival_count:
         stats.append(f"Next up: {rival_label} ({rival_count})")
 
-    # ── Measure total content block height ────────────────────────────────────
-    lbl_h      = sum(_lh(lbl_f) + 4 for _ in label_lines) - 4
-    stats_h    = sum(_lh(stat_f) + 10 for _ in stats) - 10 if stats else 0
-    pct_row_h  = max(_lh(pct_f), stats_h)
+    # ── Measure content block height for vertical centering ───────────────────
+    lbl_h     = sum(_lh(lbl_f) + 4 for _ in label_lines) - 4
+    stats_h   = sum(_lh(stat_f) + 10 for _ in stats) - 10 if stats else 0
+    pct_row_h = max(_lh(pct_f), stats_h)
 
     CONTENT_H = (
-        _lh(title_f) + 14 +   # title + gap
-        1 + 17 +               # rule + gap
-        lbl_h + 14 +           # label + gap
-        1 + 15 +               # rule + gap
-        pct_row_h +            # pct (and stats beside it)
-        8 + _lh(sub_f)         # gap + sub-line
+        _lh(title_f) + 14 +
+        1 + 17 +
+        lbl_h + 14 +
+        1 + 15 +
+        pct_row_h +
+        8 + _lh(sub_f)
     )
-
-    BODY_H  = H - BORDER - FOOT_H
+    BODY_H = H - BORDER - FOOT_H
     y = BORDER + max(20, (BODY_H - CONTENT_H) // 2)
 
     # ── Top accent border ─────────────────────────────────────────────────────
@@ -156,7 +186,18 @@ def generate_image(
         nw   = draw.textlength(name, font=band_f)
         draw.text(((SCALE_W - nw) / 2, (y0 + y1) / 2 - 7), name,
                   fill=WHITE if is_active else (155, 145, 135), font=band_f)
-    draw.line([SCALE_W, BORDER, SCALE_W, H], fill=RULE_C, width=1)
+
+    # ── Trump portrait ────────────────────────────────────────────────────────
+    # Water level: top of active zone band (same logic as the site's water-target).
+    zone_idx   = ZONE_ORDER.index(zone) if zone in ZONE_ORDER else 0
+    # Zones are ordered top→bottom, so active band starts at zone_idx/5 from top.
+    # Water rises from bottom → water_pct = fraction from bottom = (5-zone_idx)/5.
+    water_pct  = (len(ZONE_ORDER) - zone_idx) / len(ZONE_ORDER)
+    if TRUMP_JPG.exists():
+        portrait = _trump_strip(PHOTO_W, H - BORDER, zc, water_pct)
+        img.paste(portrait, (SCALE_W, BORDER))
+    # Thin separator between portrait and content
+    draw.line([PX, BORDER, PX, H], fill=RULE_C, width=1)
 
     # ── Content — vertically centered ─────────────────────────────────────────
 
@@ -166,7 +207,6 @@ def generate_image(
     draw.text((CR - uw, y + 3), "andriesfluit.be/trumpflood", fill=MUTED, font=url_f)
     y += _lh(title_f) + 14
 
-    # Rule
     draw.line([CX, y, CR, y], fill=RULE_C, width=1)
     y += 18
 
@@ -174,33 +214,30 @@ def generate_image(
     for line in label_lines:
         draw.text((CX, y), line, fill=INK, font=lbl_f)
         y += _lh(lbl_f) + 4
-    y -= 4   # remove trailing line gap
-    y += 14  # add gap to rule
+    y -= 4
+    y += 14
 
-    # Rule
     draw.line([CX, y, CR, y], fill=RULE_C, width=1)
     y += 16
 
-    # Percentage + stats side by side
+    # Percentage + stats
     pct_str = f"{pct}%"
     pct_w   = draw.textlength(pct_str, font=pct_f)
     draw.text((CX, y), pct_str, fill=zc, font=pct_f)
 
-    stat_x, stat_y = CX + int(pct_w) + 36, y + 10
+    stat_x, stat_y = CX + int(pct_w) + 32, y + 8
     for s in stats:
         draw.text((stat_x, stat_y), s, fill=MUTED, font=stat_f)
         stat_y += _lh(stat_f) + 10
 
     y += _lh(pct_f) + 8
-
-    # Sub-line
     draw.text((CX, y), f"{trump_count} of {total} Belgian headlines name Trump",
               fill=MUTED, font=sub_f)
 
     # ── Footer ────────────────────────────────────────────────────────────────
     foot_y   = H - FOOT_H
     date_str = today.isoformat() if hasattr(today, "isoformat") else str(today)
-    draw.line([SCALE_W, foot_y, W, foot_y], fill=RULE_C, width=1)
+    draw.line([PX, foot_y, W, foot_y], fill=RULE_C, width=1)
     draw.text((CX, foot_y + 10), date_str, fill=MUTED, font=date_f)
 
     img.save(str(path), "PNG")
