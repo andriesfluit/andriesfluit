@@ -1,7 +1,8 @@
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
-W = H = 1080
+# LinkedIn URL-preview: 1200×628 (≈1.91:1)
+W, H = 1200, 628
 
 # ── Site palette (matches CSS variables) ────────────────────────────────────
 PAPER  = (245, 243, 238)   # --paper: #f5f3ee
@@ -19,11 +20,8 @@ ZONE_COLORS = {
 }
 ZONE_ORDER  = ["flooding", "soaked", "wet", "puddles", "dry"]  # top → bottom
 ZONE_LABELS = {
-    "dry":      "Dry",
-    "puddles":  "Puddles",
-    "wet":      "Wet",
-    "soaked":   "Soaked",
-    "flooding": "Flooding",
+    "dry": "Dry", "puddles": "Puddles", "wet": "Wet",
+    "soaked": "Soaked", "flooding": "Flooding",
 }
 
 _SERIF_BOLD = [
@@ -70,13 +68,13 @@ def _wrap(draw, text, font, max_w):
     return lines
 
 
-def _lighten(color, amount=60):
-    return tuple(min(255, c + amount) for c in color)
-
-
-def _line_h(font):
+def _lh(font):
     bb = font.getbbox("Ay")
     return bb[3] - bb[1]
+
+
+def _lighten(color, amount=55):
+    return tuple(min(255, c + amount) for c in color)
 
 
 def generate_image(
@@ -90,111 +88,106 @@ def generate_image(
     draw = ImageDraw.Draw(img)
     zc   = ZONE_COLORS.get(zone, ZONE_COLORS["dry"])
 
-    # ── Layout constants ─────────────────────────────────────────────────────
-    HDR_H   = 130          # top colored header bar
-    FOOT_H  = 62           # bottom footer strip
-    SCALE_W = 110          # left zone-scale column
-    BODY_Y0 = HDR_H
-    BODY_Y1 = H - FOOT_H
-    BODY_H  = BODY_Y1 - BODY_Y0   # 888 px
-    CX      = SCALE_W + 54        # content left x
-    CR      = W - 50              # content right x
-    CW      = CR - CX             # content width  (~866 px)
+    # ── Layout ───────────────────────────────────────────────────────────────
+    BORDER   = 6      # top accent strip (zone color)
+    SCALE_W  = 80     # left zone-scale column
+    PAD      = 44     # horizontal padding inside content area
+    CX       = SCALE_W + PAD          # content left x
+    CR       = W - PAD                # content right x
+    CW       = CR - CX               # content width (~1032 px)
 
-    # ── Header bar ───────────────────────────────────────────────────────────
-    draw.rectangle([0, 0, W, HDR_H], fill=zc)
+    # ── Top accent border (zone color, thin) ─────────────────────────────────
+    draw.rectangle([0, 0, W, BORDER], fill=zc)
 
-    title_f = _load(_SANS_BOLD, 34)
-    title   = "IS TRUMP FLOODING THE ZONE?"
-    tw      = draw.textlength(title, font=title_f)
-    draw.text(((W - tw) / 2, 22), title, fill=WHITE, font=title_f)
-
-    url_f = _load(_SANS_REG, 20)
-    url   = "andriesfluit.be/trumpflood"
-    uw    = draw.textlength(url, font=url_f)
-    draw.text(((W - uw) / 2, 74), url, fill=(220, 215, 210), font=url_f)
-
-    # ── Zone scale (left column, top → bottom = Flooding → Dry) ─────────────
-    band_h    = BODY_H / len(ZONE_ORDER)
-    band_f    = _load(_SANS_BOLD, 12)
+    # ── Zone scale (left column, full height below border) ───────────────────
+    body_h  = H - BORDER
+    band_h  = body_h / len(ZONE_ORDER)
+    band_f  = _load(_SANS_BOLD, 11)
 
     for i, z in enumerate(ZONE_ORDER):
         color     = ZONE_COLORS[z]
         is_active = (z == zone)
-        y0 = BODY_Y0 + int(i * band_h)
-        y1 = BODY_Y0 + int((i + 1) * band_h)
-
-        fill = color if is_active else _lighten(color, 60)
+        y0 = BORDER + int(i * band_h)
+        y1 = BORDER + int((i + 1) * band_h)
+        fill = color if is_active else _lighten(color, 55)
         draw.rectangle([0, y0, SCALE_W, y1], fill=fill)
-
         name = ZONE_LABELS[z]
         nw   = draw.textlength(name, font=band_f)
         cy   = (y0 + y1) / 2 - 7
-        tc   = WHITE if is_active else (160, 150, 140)
+        tc   = WHITE if is_active else (155, 145, 135)
         draw.text(((SCALE_W - nw) / 2, cy), name, fill=tc, font=band_f)
 
-    # Separator between scale and content
-    draw.line([SCALE_W, BODY_Y0, SCALE_W, BODY_Y1], fill=RULE_C, width=1)
+    # Separator line between scale and content
+    draw.line([SCALE_W, BORDER, SCALE_W, H], fill=RULE_C, width=1)
 
-    # ── Main content ─────────────────────────────────────────────────────────
-    y = BODY_Y0 + 60
+    # ── Content area ─────────────────────────────────────────────────────────
+    y = BORDER + 30
 
-    # Zone label (serif bold, large)
-    lbl_f = _load(_SERIF_BOLD, 64)
+    # Site title + URL (ink color, like on the site)
+    title_f = _load(_SANS_BOLD, 22)
+    title   = "Is Trump flooding the zone?"
+    draw.text((CX, y), title, fill=INK, font=title_f)
+
+    url_f = _load(_SANS_REG, 17)
+    url   = "andriesfluit.be/trumpflood"
+    uw    = draw.textlength(url, font=url_f)
+    draw.text((CR - uw, y + 3), url, fill=MUTED, font=url_f)
+    y += _lh(title_f) + 14
+
+    # Rule
+    draw.line([CX, y, CR, y], fill=RULE_C, width=1)
+    y += 18
+
+    # Zone label (large serif, ink)
+    lbl_f = _load(_SERIF_BOLD, 56)
     lines = _wrap(draw, label, lbl_f, CW)
-    lh    = _line_h(lbl_f)
     for line in lines:
         draw.text((CX, y), line, fill=INK, font=lbl_f)
-        y += lh + 6
-    y += 22
+        y += _lh(lbl_f) + 4
+    y += 14
 
     # Rule
     draw.line([CX, y, CR, y], fill=RULE_C, width=1)
-    y += 32
+    y += 16
 
-    # Percentage (serif bold, very large, zone color)
-    pct_f   = _load(_SERIF_BOLD, 148)
+    # Percentage (serif bold, large, zone color) + stats side by side
+    pct_f   = _load(_SERIF_BOLD, 96)
     pct_str = f"{pct}%"
+    pct_w   = draw.textlength(pct_str, font=pct_f)
     draw.text((CX, y), pct_str, fill=zc, font=pct_f)
-    y += _line_h(pct_f) + 4
 
-    # Sub-line: X of Y headlines
-    sub_f = _load(_SANS_REG, 26)
-    sub   = f"{trump_count} of {total} Belgian headlines name Trump"
-    draw.text((CX, y), sub, fill=MUTED, font=sub_f)
-    y += _line_h(sub_f) + 22
-
-    # Rule
-    draw.line([CX, y, CR, y], fill=RULE_C, width=1)
-    y += 24
-
-    # Stats (up to 3 lines)
-    stat_f = _load(_SANS_REG, 25)
+    # Stats to the right of the percentage
+    stats = []
     if rank and n_people:
-        s = f"Rank #{rank} of {n_people} named figures"
+        s = f"Rank #{rank} of {n_people} named figures"
         if dominance is not None and dominance > 0:
             s += f"  ·  {dominance}× vs. rest combined"
-        draw.text((CX, y), s, fill=MUTED, font=stat_f)
-        y += _line_h(stat_f) + 10
+        stats.append(s)
     if breadth and core_outlets_active:
         n_out = int(round(breadth * core_outlets_active))
-        draw.text(
-            (CX, y),
-            f"In {n_out} of {core_outlets_active} national outlets",
-            fill=MUTED, font=stat_f,
-        )
-        y += _line_h(stat_f) + 10
+        stats.append(f"In {n_out} of {core_outlets_active} national outlets")
     if rival_label and rival_count:
-        draw.text(
-            (CX, y),
-            f"Next up: {rival_label} ({rival_count})",
-            fill=MUTED, font=stat_f,
-        )
+        stats.append(f"Next up: {rival_label} ({rival_count})")
+
+    stat_f  = _load(_SANS_REG, 21)
+    stat_x  = CX + int(pct_w) + 36
+    stat_y  = y + 10
+    for s in stats:
+        draw.text((stat_x, stat_y), s, fill=MUTED, font=stat_f)
+        stat_y += _lh(stat_f) + 10
+
+    y += _lh(pct_f) + 8
+
+    # Sub-line below percentage
+    sub_f = _load(_SANS_REG, 21)
+    sub   = f"{trump_count} of {total} Belgian headlines name Trump"
+    draw.text((CX, y), sub, fill=MUTED, font=sub_f)
 
     # ── Footer ───────────────────────────────────────────────────────────────
-    draw.line([0, BODY_Y1, W, BODY_Y1], fill=RULE_C, width=1)
-    date_f   = _load(_SANS_REG, 21)
+    foot_y = H - 38
+    draw.line([SCALE_W, foot_y, W, foot_y], fill=RULE_C, width=1)
+    date_f   = _load(_SANS_REG, 19)
     date_str = today.isoformat() if hasattr(today, "isoformat") else str(today)
-    draw.text((CX, BODY_Y1 + 18), date_str, fill=MUTED, font=date_f)
+    draw.text((CX, foot_y + 10), date_str, fill=MUTED, font=date_f)
 
     img.save(str(path), "PNG")
