@@ -4820,5 +4820,509 @@
       "education": 3,
       "weather": 8
     }
+  },
+  {
+    "date": "2026-04-23",
+    "generated_at": "2026-04-23T07:52:42+02:00",
+    "last_checked_at": "2026-04-23T07:52:42+02:00",
+    "total_articles": 307,
+    "trump_articles": 7,
+    "percentage": 2.3,
+    "core_percentage": 2.3,
+    "core_percentage_name": 2.3,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 2.3,
+    "indirect_references": 0,
+    "wide_total_articles": 419,
+    "wide_trump_articles": 11,
+    "wide_percentage": 2.6,
+    "wide_trump_articles_expanded": 11,
+    "wide_percentage_expanded": 2.6,
+    "macro_percentage": 3.1,
+    "qualifying_outlets": 15,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 16,
+    "cross_outlet_dup_groups": 8,
+    "cross_outlet_dup_rate": 5.2,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 15,
+    "dominance": 1.17,
+    "breadth": 0.36,
+    "deviation": null,
+    "smoothed_pct": null,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 55,
+        "today": 8,
+        "kept": 5,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 40.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 55,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 37,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 47,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 62,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 54,
+        "kept": 40,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 76,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Hoe Israël de weg kwijtraakte, en hoe Trump Libanon kan redden",
+        "url": "https://www.demorgen.be/meningen/hoe-israel-de-weg-kwijtraakte-en-hoe-trump-libanon-kan-redden~b338d564/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Opnieuw vertrekker in regering-Trump: Amerikaanse marineminister legt functie neer na maanden van onenigheid",
+        "url": "https://www.nieuwsblad.be/buitenland/opnieuw-vertrekker-in-regering-trump-amerikaanse-marineminister-legt-functie-neer-na-maanden-van-onenigheid/147527671.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Trump doet al lang alles om de politiek in Europa naar zijn hand te zetten. Tijd dat de EU hetzelfde doet”",
+        "url": "https://www.nieuwsblad.be/binnenland/trump-doet-al-lang-alles-om-de-politiek-in-europa-naar-zijn-hand-te-zetten.-tijd-dat-de-eu-hetzelfde-doet/147241399.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "\"Faible QI\": quand Trump utilise un stéréotype raciste contre ses adversaires",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/23/faible-qi-quand-trump-utilise-un-stereotype-raciste-contre-ses-adversaires-GWIZUAVUBFFGHAMNAIJYOQXKEU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump limoge le plus haut responsable civil de la Marine américaine",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/23/direct-guerre-au-moyen-orient-trump-limoge-le-plus-haut-responsable-civil-de-la-marine-americaine-VNL565FO7NFRFKW4D5RVY33WLY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Faible QI\": Quand Trump utilise un stéréotype raciste contre ses adversaires",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/23/faible-qi-quand-trump-utilise-un-stereotype-raciste-contre-ses-adversaires-AE7DMIPCBFFDZDTMM5PZ6INBNI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump-gezant wil Italië op WK voetbal in plaats van Iran - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZXNoSlNnT3F5UmdoU0JscURnMG1iRWxlWnF3RkRxNW9iNEdGQ0hvZ1BzVVlBWkdydF9nZnRMTGRGdS1BX3M2RnBWTVB6UHZBRDYwZXJza2ZxeTM3Qzd2ZHFRbDBmM2tGQXQxWG9jdzk4SGVZMU9uaGR5ZUtXY2hGUjBBM1N2OGRNRy1lQkU5WGR5Ml9KN0xmRXVwcVpxQ1ZKMFBIZ0Z3M1BEQ0FtZF9RNTVhU1NRSWROU0VuOTkwYnZtSUpI?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump‑lijst deelt NAVO op in ‘stoute’ en ‘brave’ landen - GVA",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVZ3aU92SEpVTVBfT01GVlVjVVFHWDhTTC1ES2c5NE13c2haWFBxX0Q0QUh6STZiUTRMSVZtNk0wZE9wZUxhd2Rld182YXVGcmdNak5LSWVOM08zSlZ0X192MktqaFc0Rl9weUVYT0wtY2pjYTBST1VTMklMMXVXM0dMSURRWVZjbjRzbjZYUHpUZW9WbVRRQ19ITXFoaTg1bHBUOGRVVQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "“Trump doet al lang alles om de politiek in Europa naar zijn hand te zetten. Tijd dat de EU hetzelfde doet” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMHlDajVncHNxeGtpMDVLYWI3YkJ3alZ5QVZySVpqSEI2SlJ4UHFjTjB1WHBLSkxrNGFTeXlpcGxQa2hfY2FCMUtZWFBKTncyWGU2R2NQVXkzZFJkb1Y1dGVCdGRlWU1USGxUc0YxdExEWEhRRndleHlxWlRUdzRrZk1WNFRzeGJ3a3BmZms1bENaOWJPSlRsblFSMXBVaGJJQ1pYQU05Yk1kNjRxZ3Y0NVUzcVBRdGJDeG5JZEVQQ2dYVnB3bVJkWUI5SHNoSzdvMHVkalRwMzJmVTJ0Y1V0WHF0eGdxcjNkVEJlNkFn?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Het staakt-het-vuren in de Iran-oorlog verlengen “is gewoon tijd kopen, Trump heeft geen idee” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOa1VBbGdHcWxhSk5tbU90Vk0xbnZqMy1BNDdablozUWQ0cmFEZnl3Y3BTSEdBbGR0TGdlNk0xY25mckQ5TFhIVHZkcElfQjRFMnRZSHUyMDFFUGdDVFBXcnkwM2xGcFM0ekpFcldpVlhqMzVBazRmcDFvekdIZWFsRDJtMTBSSE1ieWNTX1k2UEhmYWFKeWxWdEVKYTFkdW9oVW13M0JKVTlwUkNVTnlPSW1RRXRHVEY0bm80cjRYQW5KejhNcjFlSXdnT0pyMFpnTVdpZkFvdzRiUQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Hoe Israël de weg kwijtraakte, en hoe Trump Libanon kan redden",
+        "url": "https://www.demorgen.be/meningen/hoe-israel-de-weg-kwijtraakte-en-hoe-trump-libanon-kan-redden~b338d564/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Opnieuw vertrekker in regering-Trump: Amerikaanse marineminister legt functie neer na maanden van onenigheid",
+        "url": "https://www.nieuwsblad.be/buitenland/opnieuw-vertrekker-in-regering-trump-amerikaanse-marineminister-legt-functie-neer-na-maanden-van-onenigheid/147527671.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Trump doet al lang alles om de politiek in Europa naar zijn hand te zetten. Tijd dat de EU hetzelfde doet”",
+        "url": "https://www.nieuwsblad.be/binnenland/trump-doet-al-lang-alles-om-de-politiek-in-europa-naar-zijn-hand-te-zetten.-tijd-dat-de-eu-hetzelfde-doet/147241399.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Opnieuw vertrekker in regering-Trump: topman van Amerikaanse marine uit functie gezet na maanden van onenigheid",
+        "url": "https://www.gva.be/buitenland/opnieuw-vertrekker-in-regering-trump-topman-van-amerikaanse-marine-uit-functie-gezet-na-maanden-van-onenigheid/147531025.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "\"Faible QI\": quand Trump utilise un stéréotype raciste contre ses adversaires",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/23/faible-qi-quand-trump-utilise-un-stereotype-raciste-contre-ses-adversaires-GWIZUAVUBFFGHAMNAIJYOQXKEU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump limoge le plus haut responsable civil de la Marine américaine",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/23/direct-guerre-au-moyen-orient-trump-limoge-le-plus-haut-responsable-civil-de-la-marine-americaine-VNL565FO7NFRFKW4D5RVY33WLY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Faible QI\": Quand Trump utilise un stéréotype raciste contre ses adversaires",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/23/faible-qi-quand-trump-utilise-un-stereotype-raciste-contre-ses-adversaires-AE7DMIPCBFFDZDTMM5PZ6INBNI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump-gezant wil Italië op WK voetbal in plaats van Iran - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZXNoSlNnT3F5UmdoU0JscURnMG1iRWxlWnF3RkRxNW9iNEdGQ0hvZ1BzVVlBWkdydF9nZnRMTGRGdS1BX3M2RnBWTVB6UHZBRDYwZXJza2ZxeTM3Qzd2ZHFRbDBmM2tGQXQxWG9jdzk4SGVZMU9uaGR5ZUtXY2hGUjBBM1N2OGRNRy1lQkU5WGR5Ml9KN0xmRXVwcVpxQ1ZKMFBIZ0Z3M1BEQ0FtZF9RNTVhU1NRSWROU0VuOTkwYnZtSUpI?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 6,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 3,
+      "crevits": 0,
+      "de_croo": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 22,
+      "crime": 8,
+      "eu": 11,
+      "politics": 15,
+      "be_gov": 6,
+      "culture": 10,
+      "tech": 3,
+      "economy": 9,
+      "sports": 22,
+      "health": 3,
+      "climate": 5,
+      "migration": 3,
+      "education": 6,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 29,
+      "crime": 11,
+      "eu": 18,
+      "politics": 20,
+      "be_gov": 9,
+      "culture": 12,
+      "tech": 7,
+      "economy": 13,
+      "sports": 34,
+      "health": 5,
+      "climate": 7,
+      "migration": 5,
+      "education": 8,
+      "weather": 11
+    }
   }
 ]
