@@ -7,14 +7,16 @@ Inclusion rule (applied manually; reviewed quarterly):
   - Belgian figures: current federal PM, current party president of a
     federal-coalition or major federal-opposition party, or a sitting
     federal minister who is recurrently named in Belgian front-page news.
-  - International figures: heads of state or government whose actions
-    make recurring Belgian front-page news (US, France, Russia, Ukraine,
-    Israel).
-  - Removed from earlier versions: Orb\u00e1n, Meloni, Musk (intermittent
-    Belgian daily-news salience) and Jambon (the surname collides with
-    the French word for ham in food/recipe headlines).
+  - International figures: heads of state or government, or leaders of
+    major international institutions, whose actions make recurring
+    Belgian front-page news.
+  - Removed from earlier versions: Orbán, Meloni, Musk (intermittent
+    Belgian daily-news salience); De Croo (former PM, left government
+    February 2025).
+  - Note: Jambon matches the French word for ham but political news
+    headlines dominate in the RSS feeds used; noise is acceptable.
   - Once the live archive is 90+ days, this editorial list can be
-    replaced by "anyone with \u2265 N name mentions in the trailing
+    replaced by "anyone with ≥ N name mentions in the trailing
     90-day core corpus", making the list self-maintaining.
 
 The patterns match article titles case-insensitively, with word
@@ -25,23 +27,25 @@ import re
 # (key, regex, display_label, region)
 # region is "intl" or "be"; used only for documentation/grouping.
 _TERMS = [
-    # ---- International (5) ----
-    ("trump",       r"\btrump\b",                                   "Trump",        "intl"),
-    ("putin",       r"\b(putin|poetin|poutine)\b",                  "Putin",        "intl"),
-    ("macron",      r"\bmacron\b",                                  "Macron",       "intl"),
-    ("netanyahu",   r"\bnetanyahu\b",                               "Netanyahu",    "intl"),
-    ("zelensky",    r"\bzelensk(?:yy|y|yi|i)\b",                    "Zelensky",     "intl"),
+    # ---- International (7) ----
+    ("trump",         r"\btrump\b",                                 "Trump",         "intl"),
+    ("putin",         r"\b(putin|poetin|poutine)\b",                "Putin",         "intl"),
+    ("macron",        r"\bmacron\b",                                "Macron",        "intl"),
+    ("netanyahu",     r"\bnetanyahu\b",                             "Netanyahu",     "intl"),
+    ("zelensky",      r"\bzelensk(?:yy|y|yi|i)\b",                  "Zelensky",      "intl"),
+    ("rutte",         r"\brutte\b",                                 "Rutte",         "intl"),
+    ("von_der_leyen", r"\bvon\s+der\s+leyen\b",                     "Von der Leyen", "intl"),
     # ---- Belgian (10) ----
-    ("de_wever",    r"\bde\s*wever\b",                              "De Wever",     "be"),
-    ("bouchez",     r"\bbouchez\b",                                 "Bouchez",      "be"),
-    ("magnette",    r"\bmagnette\b",                                "Magnette",     "be"),
-    ("prevot",      r"\bpr[eé]vot\b",                               "Pr\u00e9vot",  "be"),
-    ("rousseau",    r"\brousseau\b",                                "Rousseau",     "be"),
-    ("francken",    r"\bfrancken\b",                                "Francken",     "be"),
-    ("crevits",     r"\bcrevits\b",                                 "Crevits",      "be"),
-    ("de_croo",     r"\bde\s*croo\b",                               "De Croo",      "be"),
-    ("van_peteghem",r"\bvan\s*peteghem\b",                          "Van Peteghem", "be"),
-    ("verlinden",   r"\bverlinden\b",                               "Verlinden",    "be"),
+    ("de_wever",      r"\bde\s*wever\b",                            "De Wever",      "be"),
+    ("bouchez",       r"\bbouchez\b",                               "Bouchez",       "be"),
+    ("magnette",      r"\bmagnette\b",                              "Magnette",      "be"),
+    ("prevot",        r"\bpr[eé]vot\b",                        "Prévot",   "be"),
+    ("rousseau",      r"\brousseau\b",                              "Rousseau",      "be"),
+    ("francken",      r"\bfrancken\b",                              "Francken",      "be"),
+    ("crevits",       r"\bcrevits\b",                               "Crevits",       "be"),
+    ("jambon",        r"\bjambon\b",                                "Jambon",        "be"),
+    ("van_peteghem",  r"\bvan\s*peteghem\b",                        "Van Peteghem",  "be"),
+    ("verlinden",     r"\bverlinden\b",                             "Verlinden",     "be"),
 ]
 
 COMPARATORS = [

@@ -1075,7 +1075,7 @@ def _methodology(latest):
       <code>\\btrump\\b</code> (whole word, case-insensitive). All four
       zone signals (share, breadth, dominance, rank) run on this single
       name-only definition, so Trump is measured on the same yardstick
-      as the other fourteen named figures in the comparator list.
+      as the other sixteen named figures in the comparator list.
       Titles only; no body text, no fuzzy matching.</p>
       <p>As a secondary readout we also count headlines that refer to
       Trump indirectly, by role or location rather than by name:
@@ -1092,16 +1092,18 @@ def _methodology(latest):
       Trump directly.</p>
 
       <h3>Comparators</h3>
-      <p>The same headlines are scanned for fifteen named people in
-      total. The set is split 5 international / 10 Belgian:</p>
+      <p>The same headlines are scanned for seventeen named people in
+      total. The set is split 7 international / 10 Belgian:</p>
       <ul class="meth-rules">
-        <li><strong>International (5, including Trump).</strong> Trump,
-        Putin, Macron, Netanyahu, Zelensky. Heads of state whose actions
-        recurringly drive Belgian front-page news. Trump sits inside
-        this group for rank and dominance; he is measured by the same
-        name-only regex as the other four.</li>
+        <li><strong>International (7, including Trump).</strong> Trump,
+        Putin, Macron, Netanyahu, Zelensky, Rutte (NATO Secretary
+        General), Von der Leyen (EU Commission President). Heads of
+        state, government, or major international institutions whose
+        actions recurringly drive Belgian front-page news. Trump sits
+        inside this group for rank and dominance; he is measured by the
+        same name-only regex as the other six.</li>
         <li><strong>Belgian (10).</strong> De Wever, Bouchez, Magnette,
-        Pr&eacute;vot, Rousseau, Francken, Crevits, De Croo, Van
+        Pr&eacute;vot, Rousseau, Francken, Crevits, Jambon, Van
         Peteghem, Verlinden. Sitting federal PM, party presidents of the
         main federal-coalition and opposition parties, and ministers who
         are recurrently named in Belgian headlines.</li>
@@ -1109,11 +1111,12 @@ def _methodology(latest):
       <p><strong>Admission rule.</strong> The list is reviewed manually
       each quarter. A figure is in the list if they (a) hold a current
       senior political office in Belgium (federal PM, federal minister,
-      major party president) or (b) lead a country whose actions make
-      recurring Belgian front-page news. Removed in the most recent
-      review: Orb&aacute;n, Meloni and Musk (intermittent day-to-day
-      Belgian salience); Jambon (the surname collides with the French
-      word for ham). Once the live archive is 90+ days, this editorial
+      major party president) or (b) lead a country or major
+      international institution whose actions make recurring Belgian
+      front-page news. Removed in the most recent review: Orb&aacute;n,
+      Meloni and Musk (intermittent day-to-day Belgian salience); De
+      Croo (left government February 2025). Added: Rutte, Von der
+      Leyen, Jambon. Once the live archive is 90+ days, this editorial
       rule can be replaced by &ldquo;anyone with &ge; N name mentions in
       the trailing 90-day core corpus&rdquo;, which would make the list
       self-maintaining.</p>
@@ -1143,9 +1146,9 @@ def _methodology(latest):
 
       <h4 class="signal-h">2. Dominance &mdash; &ldquo;Is he THE figure of the day?&rdquo;</h4>
       <p>Trump&rsquo;s name-only mentions divided by the sum of mentions
-      of the other fourteen named figures we track (4 international + 10
+      of the other sixteen named figures we track (6 international + 10
       Belgian; see the Comparators list). A value above 1.0&times;
-      means Trump alone out-mentions the other fourteen
+      means Trump alone out-mentions the other sixteen
       <em>combined</em>.</p>
       <p class="signal-today">Today: <strong>{dom_display}</strong>. This
       catches the &ldquo;slow domestic day&rdquo; case where Trump scoops
@@ -1162,7 +1165,7 @@ def _methodology(latest):
       decided Trump deserves a spot today.</p>
 
       <h4 class="signal-h">4. Rank &mdash; &ldquo;Is he on top at all?&rdquo;</h4>
-      <p>Trump&rsquo;s position among the fifteen named figures, by
+      <p>Trump&rsquo;s position among the seventeen named figures, by
       name-only mention count (the same yardstick used for share,
       dominance and breadth). Acts as a veto: higher zones require
       Trump to be #1 or #2. Ties favour Trump &mdash; if Trump and
@@ -1217,7 +1220,7 @@ def _methodology(latest):
         &ldquo;POTUS&rdquo; without saying his name reads as
         Dry-leaning even if the expanded detector catches some of it.
         That tradeoff is deliberate: it keeps Trump on the same
-        yardstick as the other fourteen figures. The expanded count is
+        yardstick as the other sixteen figures. The expanded count is
         published next to the headline number so you can see, on any
         given day, how much coverage an indirect-only readout would
         have added.</li>
@@ -1258,7 +1261,7 @@ def _methodology(latest):
         heavy with international news that Belgian outlets choose to publish.
         This measures &ldquo;share of the news Belgians read&rdquo; &mdash; not
         &ldquo;what Belgian society is discussing internally&rdquo;.</li>
-        <li><strong>Comparator list maintenance.</strong> The fifteen-
+        <li><strong>Comparator list maintenance.</strong> The seventeen-
         person comparator set is reviewed editorially each quarter under
         the admission rule above. Between reviews, a newly-prominent
         Belgian figure who is <em>not</em> on the list inflates
