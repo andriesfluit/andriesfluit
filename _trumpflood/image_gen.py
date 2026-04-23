@@ -88,75 +88,28 @@ def generate_image(
     draw = ImageDraw.Draw(img)
     zc   = ZONE_COLORS.get(zone, ZONE_COLORS["dry"])
 
-    # ── Layout ───────────────────────────────────────────────────────────────
-    BORDER   = 6      # top accent strip (zone color)
-    SCALE_W  = 80     # left zone-scale column
-    PAD      = 44     # horizontal padding inside content area
-    CX       = SCALE_W + PAD          # content left x
-    CR       = W - PAD                # content right x
-    CW       = CR - CX               # content width (~1032 px)
+    # ── Layout constants ─────────────────────────────────────────────────────
+    BORDER  = 6
+    SCALE_W = 80
+    PAD     = 44
+    FOOT_H  = 38
+    CX      = SCALE_W + PAD
+    CR      = W - PAD
+    CW      = CR - CX
 
-    # ── Top accent border (zone color, thin) ─────────────────────────────────
-    draw.rectangle([0, 0, W, BORDER], fill=zc)
+    # ── Load all fonts up front ───────────────────────────────────────────────
+    title_f = _load(_SANS_BOLD,   22)
+    url_f   = _load(_SANS_REG,    17)
+    lbl_f   = _load(_SERIF_BOLD,  56)
+    pct_f   = _load(_SERIF_BOLD,  96)
+    sub_f   = _load(_SANS_REG,    21)
+    stat_f  = _load(_SANS_REG,    21)
+    band_f  = _load(_SANS_BOLD,   11)
+    date_f  = _load(_SANS_REG,    19)
 
-    # ── Zone scale (left column, full height below border) ───────────────────
-    body_h  = H - BORDER
-    band_h  = body_h / len(ZONE_ORDER)
-    band_f  = _load(_SANS_BOLD, 11)
+    # ── Pre-compute content (needed for height measurement) ───────────────────
+    label_lines = _wrap(draw, label, lbl_f, CW)
 
-    for i, z in enumerate(ZONE_ORDER):
-        color     = ZONE_COLORS[z]
-        is_active = (z == zone)
-        y0 = BORDER + int(i * band_h)
-        y1 = BORDER + int((i + 1) * band_h)
-        fill = color if is_active else _lighten(color, 55)
-        draw.rectangle([0, y0, SCALE_W, y1], fill=fill)
-        name = ZONE_LABELS[z]
-        nw   = draw.textlength(name, font=band_f)
-        cy   = (y0 + y1) / 2 - 7
-        tc   = WHITE if is_active else (155, 145, 135)
-        draw.text(((SCALE_W - nw) / 2, cy), name, fill=tc, font=band_f)
-
-    # Separator line between scale and content
-    draw.line([SCALE_W, BORDER, SCALE_W, H], fill=RULE_C, width=1)
-
-    # ── Content area ─────────────────────────────────────────────────────────
-    y = BORDER + 30
-
-    # Site title + URL (ink color, like on the site)
-    title_f = _load(_SANS_BOLD, 22)
-    title   = "Is Trump flooding the zone?"
-    draw.text((CX, y), title, fill=INK, font=title_f)
-
-    url_f = _load(_SANS_REG, 17)
-    url   = "andriesfluit.be/trumpflood"
-    uw    = draw.textlength(url, font=url_f)
-    draw.text((CR - uw, y + 3), url, fill=MUTED, font=url_f)
-    y += _lh(title_f) + 14
-
-    # Rule
-    draw.line([CX, y, CR, y], fill=RULE_C, width=1)
-    y += 18
-
-    # Zone label (large serif, ink)
-    lbl_f = _load(_SERIF_BOLD, 56)
-    lines = _wrap(draw, label, lbl_f, CW)
-    for line in lines:
-        draw.text((CX, y), line, fill=INK, font=lbl_f)
-        y += _lh(lbl_f) + 4
-    y += 14
-
-    # Rule
-    draw.line([CX, y, CR, y], fill=RULE_C, width=1)
-    y += 16
-
-    # Percentage (serif bold, large, zone color) + stats side by side
-    pct_f   = _load(_SERIF_BOLD, 96)
-    pct_str = f"{pct}%"
-    pct_w   = draw.textlength(pct_str, font=pct_f)
-    draw.text((CX, y), pct_str, fill=zc, font=pct_f)
-
-    # Stats to the right of the percentage
     stats = []
     if rank and n_people:
         s = f"Rank #{rank} of {n_people} named figures"
@@ -169,25 +122,85 @@ def generate_image(
     if rival_label and rival_count:
         stats.append(f"Next up: {rival_label} ({rival_count})")
 
-    stat_f  = _load(_SANS_REG, 21)
-    stat_x  = CX + int(pct_w) + 36
-    stat_y  = y + 10
+    # ── Measure total content block height ────────────────────────────────────
+    lbl_h      = sum(_lh(lbl_f) + 4 for _ in label_lines) - 4
+    stats_h    = sum(_lh(stat_f) + 10 for _ in stats) - 10 if stats else 0
+    pct_row_h  = max(_lh(pct_f), stats_h)
+
+    CONTENT_H = (
+        _lh(title_f) + 14 +   # title + gap
+        1 + 17 +               # rule + gap
+        lbl_h + 14 +           # label + gap
+        1 + 15 +               # rule + gap
+        pct_row_h +            # pct (and stats beside it)
+        8 + _lh(sub_f)         # gap + sub-line
+    )
+
+    BODY_H  = H - BORDER - FOOT_H
+    y = BORDER + max(20, (BODY_H - CONTENT_H) // 2)
+
+    # ── Top accent border ─────────────────────────────────────────────────────
+    draw.rectangle([0, 0, W, BORDER], fill=zc)
+
+    # ── Zone scale ────────────────────────────────────────────────────────────
+    body_h = H - BORDER
+    band_h = body_h / len(ZONE_ORDER)
+    for i, z in enumerate(ZONE_ORDER):
+        color     = ZONE_COLORS[z]
+        is_active = (z == zone)
+        y0 = BORDER + int(i * band_h)
+        y1 = BORDER + int((i + 1) * band_h)
+        draw.rectangle([0, y0, SCALE_W, y1],
+                       fill=color if is_active else _lighten(color, 55))
+        name = ZONE_LABELS[z]
+        nw   = draw.textlength(name, font=band_f)
+        draw.text(((SCALE_W - nw) / 2, (y0 + y1) / 2 - 7), name,
+                  fill=WHITE if is_active else (155, 145, 135), font=band_f)
+    draw.line([SCALE_W, BORDER, SCALE_W, H], fill=RULE_C, width=1)
+
+    # ── Content — vertically centered ─────────────────────────────────────────
+
+    # Title + URL
+    draw.text((CX, y), "Is Trump flooding the zone?", fill=INK, font=title_f)
+    uw = draw.textlength("andriesfluit.be/trumpflood", font=url_f)
+    draw.text((CR - uw, y + 3), "andriesfluit.be/trumpflood", fill=MUTED, font=url_f)
+    y += _lh(title_f) + 14
+
+    # Rule
+    draw.line([CX, y, CR, y], fill=RULE_C, width=1)
+    y += 18
+
+    # Zone label
+    for line in label_lines:
+        draw.text((CX, y), line, fill=INK, font=lbl_f)
+        y += _lh(lbl_f) + 4
+    y -= 4   # remove trailing line gap
+    y += 14  # add gap to rule
+
+    # Rule
+    draw.line([CX, y, CR, y], fill=RULE_C, width=1)
+    y += 16
+
+    # Percentage + stats side by side
+    pct_str = f"{pct}%"
+    pct_w   = draw.textlength(pct_str, font=pct_f)
+    draw.text((CX, y), pct_str, fill=zc, font=pct_f)
+
+    stat_x, stat_y = CX + int(pct_w) + 36, y + 10
     for s in stats:
         draw.text((stat_x, stat_y), s, fill=MUTED, font=stat_f)
         stat_y += _lh(stat_f) + 10
 
     y += _lh(pct_f) + 8
 
-    # Sub-line below percentage
-    sub_f = _load(_SANS_REG, 21)
-    sub   = f"{trump_count} of {total} Belgian headlines name Trump"
-    draw.text((CX, y), sub, fill=MUTED, font=sub_f)
+    # Sub-line
+    draw.text((CX, y), f"{trump_count} of {total} Belgian headlines name Trump",
+              fill=MUTED, font=sub_f)
 
-    # ── Footer ───────────────────────────────────────────────────────────────
-    foot_y = H - 38
-    draw.line([SCALE_W, foot_y, W, foot_y], fill=RULE_C, width=1)
-    date_f   = _load(_SANS_REG, 19)
+    # ── Footer ────────────────────────────────────────────────────────────────
+    foot_y   = H - FOOT_H
     date_str = today.isoformat() if hasattr(today, "isoformat") else str(today)
+    draw.line([SCALE_W, foot_y, W, foot_y], fill=RULE_C, width=1)
     draw.text((CX, foot_y + 10), date_str, fill=MUTED, font=date_f)
 
     img.save(str(path), "PNG")
