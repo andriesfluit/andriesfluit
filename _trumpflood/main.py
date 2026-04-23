@@ -440,12 +440,29 @@ def main():
     # when the peak belongs to an earlier run produces a daily PNG that
     # contradicts the site card and the JSON log.
     out_path = OUTPUT_DIR / f"{today.isoformat()}.png"
+    _comps = record.get("comparisons") or {}
+    _others = sorted(
+        ((k, v) for k, v in _comps.items() if k != "trump" and v > 0),
+        key=lambda kv: kv[1], reverse=True,
+    )
+    from comparators import label_for as _lbl
+    _rival_label = _lbl(_others[0][0]) if _others else None
+    _rival_count = _others[0][1] if _others else 0
     generate_image(
         out_path,
         record["label"],
         today,
         record["percentage"],
         record["total_articles"],
+        zone=record.get("zone", "dry"),
+        trump_count=record.get("trump_articles", 0),
+        rank=record.get("rank"),
+        n_people=record.get("n_people"),
+        dominance=record.get("dominance"),
+        breadth=record.get("breadth"),
+        core_outlets_active=record.get("core_outlets_active", 0),
+        rival_label=_rival_label,
+        rival_count=_rival_count,
     )
     render_site()
 

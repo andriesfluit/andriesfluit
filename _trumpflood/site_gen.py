@@ -1303,12 +1303,38 @@ def _sources_panel(latest):
 """
 
 
+BASE_URL = "https://andriesfluit.be/trumpflood"
+
+
+def _og_meta(latest):
+    date_str = latest.get("date", "")
+    label    = latest.get("label", "Is Trump flooding the zone?")
+    pct      = latest.get("percentage", 0)
+    img_url  = f"{BASE_URL}/{date_str}.png"
+    desc     = f"{label} · {pct}% of Belgian headlines name Trump today."
+    title    = f"Is Trump flooding the zone? — {date_str}"
+    return (
+        f'<meta property="og:type"        content="website">\n'
+        f'<meta property="og:url"         content="{BASE_URL}/">\n'
+        f'<meta property="og:title"       content="{html.escape(title)}">\n'
+        f'<meta property="og:description" content="{html.escape(desc)}">\n'
+        f'<meta property="og:image"       content="{img_url}">\n'
+        f'<meta property="og:image:width" content="1080">\n'
+        f'<meta property="og:image:height" content="1080">\n'
+        f'<meta name="twitter:card"       content="summary_large_image">\n'
+        f'<meta name="twitter:image"      content="{img_url}">\n'
+        f'<meta name="twitter:title"      content="{html.escape(title)}">\n'
+        f'<meta name="twitter:description" content="{html.escape(desc)}">'
+    )
+
+
 PAGE = """<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Is Trump flooding the zone?</title>
+{og_meta}
 <style>
   :root {{
     --ink: #0a1929;
@@ -2460,6 +2486,7 @@ def render():
         latest = log_sorted_desc[0]
 
     html_out = PAGE.format(
+        og_meta=_og_meta(latest),
         hero=_hero(latest),
         comparison=_comparison_panel(latest),
         timeline=_timeline(log_sorted_asc),
