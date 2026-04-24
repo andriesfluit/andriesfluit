@@ -5726,5 +5726,543 @@
       "education": 8,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-04-24",
+    "generated_at": "2026-04-24T07:56:49+02:00",
+    "last_checked_at": "2026-04-24T07:56:49+02:00",
+    "total_articles": 312,
+    "trump_articles": 10,
+    "percentage": 3.2,
+    "core_percentage": 3.2,
+    "core_percentage_name": 3.2,
+    "trump_articles_expanded": 10,
+    "core_percentage_expanded": 3.2,
+    "indirect_references": 0,
+    "wide_total_articles": 433,
+    "wide_trump_articles": 13,
+    "wide_percentage": 3.0,
+    "wide_trump_articles_expanded": 13,
+    "wide_percentage_expanded": 3.0,
+    "macro_percentage": 3.4,
+    "qualifying_outlets": 14,
+    "core_outlets_total": 19,
+    "core_outlets_active": 13,
+    "active_core_fraction": 0.684,
+    "cross_outlet_dup_headlines": 28,
+    "cross_outlet_dup_groups": 14,
+    "cross_outlet_dup_rate": 9.0,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.25,
+    "breadth": 0.54,
+    "deviation": null,
+    "smoothed_pct": null,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 52,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 54,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 37,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 64,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 62,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 69,
+        "kept": 56,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.57
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 18,
+        "kept": 18,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 16.67
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.27
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 35,
+        "kept": 35,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 58,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Steeds minder populaire Trump schopt meer en meer ministers en toplui buiten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVlZFRkJUN3JyckFVeWJGa1RmRGRscHAzbUJ2MjQ2OVdySHdDR083LXlqLUJiSllhQXkwVWhHSUkwRGRVeUFXU0xJQTE1WkNKejE1SWZNYWRpV0I1S0hoakN0Qk8xTG9Sek11SVB2THQ1RWV1ZWFwZFBTVkFFV3ZyN3Qwa2VJdjJYNzByOU5EUG5oaVVmdTNiZGw2SVo5LWdOYU9NQ1J6YkJHdjRXV012M0dILU8zS1o1V2lJOGFvQjk0Q2U5Unc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Ook Belgische bedrijven claimen Amerikaanse tariefbetalingen terug: “Trump is er niet blij mee” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMjBEaW50WUZVemlfU2I5VDRxMVY2V0lVNmFQX3p5alV6b2ZxMG9LNXRNLUZfTnVNYVVoaUNZeXVOVGhPNkpPcWIyUmFOdWg2bE1paEJOMUlKNW42ODdLaWJ0NHZHSEVnM2hDbUxJYnVoYjFpRWRmTzlvc1BwUVF2NDgtYmtTNW1yeXVRTDU0ZThscUgyLTlqX3k3YXd1VUhaUzctQzEyZzZpTlUtSEpnXzVydEVIY3FTX0t1LWZ4NW1lU3dQVkN6dWNqQmxsbUpPZW1EaVA3elA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil Poetin op top G20 maar ‘betwijfelt dat hij komt’ - India bekritiseert Trump om ‘hellhole’-post",
+        "url": "https://www.hln.be/buitenland/trump-wil-poetin-op-top-g20-maar-betwijfelt-dat-hij-komt-india-bekritiseert-trump-om-hellhole-post~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump dreigt met heffingen tegen VK om techbelasting • Interne waakhond gaat ministerie van Justitie onderzoeken over afhandeling Epstein-dossier",
+        "url": "https://www.demorgen.be/snelnieuws/live-interne-waakhond-gaat-ministerie-van-justitie-onderzoeken-over-afhandeling-epstein-dossier~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: bestand tussen Israël en Libanon met drie weken verlengd, ‘zeer goede kans’ op vredesakkoord",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-bestand-tussen-israel-en-libanon-met-drie-weken-verlengd-zeer-goede-kans-op-vredesakkoord~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Nu Trump de geldkraan voor aidsbestrijding dichtdraait dreigt Zuid-Afrika ‘twintig jaar terug te gaan in de tijd’",
+        "url": "https://www.demorgen.be/nieuws/nu-trump-de-geldkraan-voor-aidsbestrijding-dichtdraait-dreigt-zuid-afrika-twintig-jaar-terug-te-gaan-in-de-tijd~bfd28d5a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS maakt plannen om Iraanse doelen in Straat van Hormuz aan te vallen als wapenstilstand mislukt - Trump: “Staakt-het-vuren Israël en Libanon met drie weken verlengd”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-vs-maakt-plannen-om-iraanse-doelen-in-straat-van-hormuz-aan-te-vallen-als-wapenstilstand-mislukt-trump-staakt-het-vuren-israel-en-libanon-met-drie-weken-verlengd/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : Trump annonce une prolongation \"de trois semaines\" de la trêve au Liban, pas d’avancée sur l’Iran",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-trump-annonce-une-prolongation-de-trois-semaines-de-la-treve-au-liban-pas-d-avancee-sur-l-iran-11714559",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient:  Trump annonce une prolongation du cessez-le-feu au Liban de \"trois semaines\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/04/24/direct-guerre-au-moyen-orient-trump-annonce-une-prolongation-du-cessez-le-feu-au-liban-de-trois-semaines-6GP6UZONKRGF3EAKJVVZJSMKOI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump annonce une prolongation de trois semaines du cessez-le-feu entre Israël et le Liban - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPZlFOMTVnaXpQdkViSDV2M09DSUhqYWhXWUFVdEFzeThmR3RFM1pYWndlYWJmNWdyWVdDTWgyaGRxTGRhcFRaSWk5NUEwcWpuQzdIWG9jSTNmZURuZ1dIYVpWU3cySEw3XzF3QWpBMTlaYTZhcGlESGNKanhXeUFkaFh2Q2JaNzlMQUgtOHJOMnF3N1I1bWlNRlRQSzZvZDFBZ3R5QUdoWGE1Rk1YOVh6RDQwMzRmaUNyZUJDQTlEb2ZyeDUyWHhGUHRvVnRLaDFYTnIyeTdqdFF5UHdiR05kbE5LUEk2TUdscV9SdVBBTWFyS19URkhDZnlFMDd1Slc2LXNLS0wyV0RWVEIxTUtITlM4NUxSNWw1UnNvNXpHeHBwQVhndHpTeU16ZGoxcmlDdTJJWGZR?oc=5",
+        "source": "lecho",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Steeds minder populaire president Trump schopt meer en meer ministers en toplui buiten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQndYRWxmSlJQU1AzQVVCLWxMMzJNT2o1WlFiWldBWVhCMmQ3Ny1iZ0Q1VHlneVcwYmhQMGVycTNjMGN6eWhJa1NWeFlvUFo1UGpmX09DbFJwdXFITGczUnQ4MVFSRGRRS0VQcTZSRG01Z2ZBNDRObTRZalhSemkwV3ZHS3huQ0lRTm02R3BPblJnQ29RU0dVN2JKWE92bXJ5YjhIQnhCMW93VmZUbFBjc2VLSlc1dzhjTnFIVW9NaUF4OFJzbHZ2czBndnp0ZVBsbGd3?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump gelooft dat koning Charles vertroebelde relatie tussen VS en VK kan herstellen - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcC1FNHR5dmdIZmFFSllteE0wc2FMZ0Z0SEYwcElqa0lBNWMzNk9nOFFzRWtzNWl5RzVlT093ZWRUbHd4Q2hEMkpyVFJtVVlxRE9WX2p5Z0hlMk0tWWIyOFNMMDBjT2t5RkpZN1JRTnV2TEhxLUxwZ2lKUGdVWDl6M2paRnc5eVB4N2NDcnVxVnk1eHhXMW53SnB2UmhfZVlPR1R6d2VJc0YwekZHTy1qMDlLY1RrTmx4ZkU0WFA5WEdqMUVLODNfTHpwaGQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Steeds minder populaire Trump schopt meer en meer ministers en toplui buiten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVlZFRkJUN3JyckFVeWJGa1RmRGRscHAzbUJ2MjQ2OVdySHdDR083LXlqLUJiSllhQXkwVWhHSUkwRGRVeUFXU0xJQTE1WkNKejE1SWZNYWRpV0I1S0hoakN0Qk8xTG9Sek11SVB2THQ1RWV1ZWFwZFBTVkFFV3ZyN3Qwa2VJdjJYNzByOU5EUG5oaVVmdTNiZGw2SVo5LWdOYU9NQ1J6YkJHdjRXV012M0dILU8zS1o1V2lJOGFvQjk0Q2U5Unc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Ook Belgische bedrijven claimen Amerikaanse tariefbetalingen terug: “Trump is er niet blij mee” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMjBEaW50WUZVemlfU2I5VDRxMVY2V0lVNmFQX3p5alV6b2ZxMG9LNXRNLUZfTnVNYVVoaUNZeXVOVGhPNkpPcWIyUmFOdWg2bE1paEJOMUlKNW42ODdLaWJ0NHZHSEVnM2hDbUxJYnVoYjFpRWRmTzlvc1BwUVF2NDgtYmtTNW1yeXVRTDU0ZThscUgyLTlqX3k3YXd1VUhaUzctQzEyZzZpTlUtSEpnXzVydEVIY3FTX0t1LWZ4NW1lU3dQVkN6dWNqQmxsbUpPZW1EaVA3elA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil Poetin op top G20 maar ‘betwijfelt dat hij komt’ - India bekritiseert Trump om ‘hellhole’-post",
+        "url": "https://www.hln.be/buitenland/trump-wil-poetin-op-top-g20-maar-betwijfelt-dat-hij-komt-india-bekritiseert-trump-om-hellhole-post~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump dreigt met heffingen tegen VK om techbelasting • Interne waakhond gaat ministerie van Justitie onderzoeken over afhandeling Epstein-dossier",
+        "url": "https://www.demorgen.be/snelnieuws/live-interne-waakhond-gaat-ministerie-van-justitie-onderzoeken-over-afhandeling-epstein-dossier~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: bestand tussen Israël en Libanon met drie weken verlengd, ‘zeer goede kans’ op vredesakkoord",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-bestand-tussen-israel-en-libanon-met-drie-weken-verlengd-zeer-goede-kans-op-vredesakkoord~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Nu Trump de geldkraan voor aidsbestrijding dichtdraait dreigt Zuid-Afrika ‘twintig jaar terug te gaan in de tijd’",
+        "url": "https://www.demorgen.be/nieuws/nu-trump-de-geldkraan-voor-aidsbestrijding-dichtdraait-dreigt-zuid-afrika-twintig-jaar-terug-te-gaan-in-de-tijd~bfd28d5a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS maakt plannen om Iraanse doelen in Straat van Hormuz aan te vallen als wapenstilstand mislukt - Trump: “Staakt-het-vuren Israël en Libanon met drie weken verlengd”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-vs-maakt-plannen-om-iraanse-doelen-in-straat-van-hormuz-aan-te-vallen-als-wapenstilstand-mislukt-trump-staakt-het-vuren-israel-en-libanon-met-drie-weken-verlengd/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS maakt plannen om Iraanse doelen in Straat van Hormuz aan te vallen als wapenstilstand mislukt - Trump: “Staakt-het-vuren Israël en Libanon met drie weken verlengd”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-vs-maakt-plannen-om-iraanse-doelen-in-straat-van-hormuz-aan-te-vallen-als-wapenstilstand-mislukt-trump-staakt-het-vuren-israel-en-libanon-met-drie-weken-verlengd/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : Trump annonce une prolongation \"de trois semaines\" de la trêve au Liban, pas d’avancée sur l’Iran",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-trump-annonce-une-prolongation-de-trois-semaines-de-la-treve-au-liban-pas-d-avancee-sur-l-iran-11714559",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient:  Trump annonce une prolongation du cessez-le-feu au Liban de \"trois semaines\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/04/24/direct-guerre-au-moyen-orient-trump-annonce-une-prolongation-du-cessez-le-feu-au-liban-de-trois-semaines-6GP6UZONKRGF3EAKJVVZJSMKOI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump annonce une prolongation de trois semaines du cessez-le-feu entre Israël et le Liban - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPZlFOMTVnaXpQdkViSDV2M09DSUhqYWhXWUFVdEFzeThmR3RFM1pYWndlYWJmNWdyWVdDTWgyaGRxTGRhcFRaSWk5NUEwcWpuQzdIWG9jSTNmZURuZ1dIYVpWU3cySEw3XzF3QWpBMTlaYTZhcGlESGNKanhXeUFkaFh2Q2JaNzlMQUgtOHJOMnF3N1I1bWlNRlRQSzZvZDFBZ3R5QUdoWGE1Rk1YOVh6RDQwMzRmaUNyZUJDQTlEb2ZyeDUyWHhGUHRvVnRLaDFYTnIyeTdqdFF5UHdiR05kbE5LUEk2TUdscV9SdVBBTWFyS19URkhDZnlFMDd1Slc2LXNLS0wyV0RWVEIxTUtITlM4NUxSNWw1UnNvNXpHeHBwQVhndHpTeU16ZGoxcmlDdTJJWGZR?oc=5",
+        "source": "lecho",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 10,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 13,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 22,
+      "crime": 7,
+      "eu": 10,
+      "politics": 15,
+      "be_gov": 15,
+      "culture": 13,
+      "tech": 7,
+      "economy": 9,
+      "sports": 16,
+      "health": 1,
+      "climate": 1,
+      "migration": 1,
+      "education": 0,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 30,
+      "crime": 11,
+      "eu": 12,
+      "politics": 25,
+      "be_gov": 19,
+      "culture": 14,
+      "tech": 15,
+      "economy": 12,
+      "sports": 31,
+      "health": 2,
+      "climate": 2,
+      "migration": 1,
+      "education": 0,
+      "weather": 11
+    }
   }
 ]
