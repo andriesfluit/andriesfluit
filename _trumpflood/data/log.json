@@ -6264,5 +6264,489 @@
       "education": 0,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-04-25",
+    "generated_at": "2026-04-25T07:31:05+02:00",
+    "last_checked_at": "2026-04-25T07:31:05+02:00",
+    "total_articles": 314,
+    "trump_articles": 6,
+    "percentage": 1.9,
+    "core_percentage": 1.9,
+    "core_percentage_name": 1.9,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 1.9,
+    "indirect_references": 0,
+    "wide_total_articles": 407,
+    "wide_trump_articles": 7,
+    "wide_percentage": 1.7,
+    "wide_trump_articles_expanded": 8,
+    "wide_percentage_expanded": 2.0,
+    "macro_percentage": 0.9,
+    "qualifying_outlets": 9,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 18,
+    "cross_outlet_dup_groups": 9,
+    "cross_outlet_dup_rate": 5.7,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.0,
+    "breadth": 0.21,
+    "deviation": null,
+    "smoothed_pct": null,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 9,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_politics": {
+        "fetched": 57,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_world": {
+        "fetched": 68,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 59,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 35,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 48,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 56,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 72,
+        "kept": 69,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.9
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 28.57
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 2,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 56,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "EU herontdekt dankzij Trump haar eigen ‘artikel 5’ - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPS0wzMWZUS183c3h2M0NXRm0wU0RteVlxMlBGclFmRWt3dkFRckF4RVpzQWowVzBmSDF4cldPb05fZm1lYlNZZnNVTi1CWUtkTnRxaXVNWjN4SFlvMlpmMkNhb0lSUzhISW9oTzZCUUpsNlZ0Rzc2YU1pYTBObHhUTzNrZzlHc2RwV2RvOE5veDhMU0RMaDRCOW54V1JnZ2Fy?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Zelfs radicaal-rechts Europa moet afstand nemen van Donald Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOS1LWmhlNTByTDVGWmJKYi1vYzVNY3N1OVRIYjQ5UWl4ekVEQ1pURS1odGNMbGRESGRYaG55OVM3MnhQc2tPQjJ1eDFHVEI3QkI0cEJQbV9sVS1aa1M5cjVad3lLdkpMZmtkVVlZTXRCQ1Nyc1VpWmQxeEkxd0RtVDl0TENvV0pDbEk5a0FseDV1a3puUmVWc1BzdEJYbmRCRzVvLTFJWnFGNG5yTHBvV1RDN2pmUQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS melden twee doden bij aanval op vermeende drugsboot • Trump wil doodstraf op federaal niveau uitbreiden",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-melden-twee-doden-bij-aanval-op-vermeende-drugsboot-trump-wil-doodstraf-op-federaal-niveau-uitbreiden~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: les émissaires de Trump attendus ce samedi au Pakistan pour de nouveaux pourparlers",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/25/direct-guerre-au-moyen-orient-nouvelles-frappes-au-liban-V52C4SX7V5F35D4U5XS6SLZ6ZM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Trump ne peut pas poster des déclarations dans tous les sens.” Derrière la guerre au Moyen-Orient, la frustration des médiateurs pakistanais.",
+        "url": "https://www.lalibre.be/international/2026/04/25/trump-ne-peut-pas-poster-des-declarations-dans-tous-les-sens-derriere-la-guerre-au-moyen-orient-la-frustration-des-mediateurs-pakistanais-GDUFOQBJ7RD3RD32OLQGIWCJXQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les États-Unis prêts à suspendre l’Espagne de l’Otan? La réponse ferme de Sánchez à Trump",
+        "url": "https://www.7sur7.be/monde/les-etats-unis-prets-a-suspendre-lespagne-de-lotan-la-reponse-ferme-de-sanchez-a-trump~a4ac41bb/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "EU herontdekt dankzij Trump haar eigen ‘artikel 5’ - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSDhDbXAtTWpfVGY2QV9XSnBFYklqT1RNTHlhNzU3V0Jzb3dlQTc2Q0g2U0NIV2hyc1pZUU9reFh4a0c0VEpBejEtTlFJY3hsY19FdEhzRTJWTEFxaFM3OGRxZ0dFNlBTRnl3eUhfMWg0RHZJUUZvOE81X1oyUG9RZmMzYnpNRUR5Y21hSXZfYkxLanhBNDFSQkdR?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "EU herontdekt dankzij Trump haar eigen ‘artikel 5’ - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPS0wzMWZUS183c3h2M0NXRm0wU0RteVlxMlBGclFmRWt3dkFRckF4RVpzQWowVzBmSDF4cldPb05fZm1lYlNZZnNVTi1CWUtkTnRxaXVNWjN4SFlvMlpmMkNhb0lSUzhISW9oTzZCUUpsNlZ0Rzc2YU1pYTBObHhUTzNrZzlHc2RwV2RvOE5veDhMU0RMaDRCOW54V1JnZ2Fy?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Zelfs radicaal-rechts Europa moet afstand nemen van Donald Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOS1LWmhlNTByTDVGWmJKYi1vYzVNY3N1OVRIYjQ5UWl4ekVEQ1pURS1odGNMbGRESGRYaG55OVM3MnhQc2tPQjJ1eDFHVEI3QkI0cEJQbV9sVS1aa1M5cjVad3lLdkpMZmtkVVlZTXRCQ1Nyc1VpWmQxeEkxd0RtVDl0TENvV0pDbEk5a0FseDV1a3puUmVWc1BzdEJYbmRCRzVvLTFJWnFGNG5yTHBvV1RDN2pmUQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS melden twee doden bij aanval op vermeende drugsboot • Trump wil doodstraf op federaal niveau uitbreiden",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-melden-twee-doden-bij-aanval-op-vermeende-drugsboot-trump-wil-doodstraf-op-federaal-niveau-uitbreiden~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE AMERIKA. Witte Huis-woordvoerster Karoline Leavitt met onmiddellijke ingang met zwangerschapsverlof",
+        "url": "https://www.gva.be/buitenland/live-amerika.-witte-huis-woordvoerster-karoline-leavitt-met-onmiddellijke-ingang-met-zwangerschapsverlof/76845705.html",
+        "source": "gva",
+        "name_only": false
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: les émissaires de Trump attendus ce samedi au Pakistan pour de nouveaux pourparlers",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/25/direct-guerre-au-moyen-orient-nouvelles-frappes-au-liban-V52C4SX7V5F35D4U5XS6SLZ6ZM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Trump ne peut pas poster des déclarations dans tous les sens.” Derrière la guerre au Moyen-Orient, la frustration des médiateurs pakistanais.",
+        "url": "https://www.lalibre.be/international/2026/04/25/trump-ne-peut-pas-poster-des-declarations-dans-tous-les-sens-derriere-la-guerre-au-moyen-orient-la-frustration-des-mediateurs-pakistanais-GDUFOQBJ7RD3RD32OLQGIWCJXQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les États-Unis prêts à suspendre l’Espagne de l’Otan? La réponse ferme de Sánchez à Trump",
+        "url": "https://www.7sur7.be/monde/les-etats-unis-prets-a-suspendre-lespagne-de-lotan-la-reponse-ferme-de-sanchez-a-trump~a4ac41bb/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 7,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 3,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 17,
+      "crime": 6,
+      "eu": 17,
+      "politics": 9,
+      "be_gov": 7,
+      "culture": 11,
+      "tech": 16,
+      "economy": 5,
+      "sports": 16,
+      "health": 1,
+      "climate": 3,
+      "migration": 1,
+      "education": 3,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 21,
+      "crime": 8,
+      "eu": 21,
+      "politics": 16,
+      "be_gov": 10,
+      "culture": 12,
+      "tech": 20,
+      "economy": 8,
+      "sports": 28,
+      "health": 1,
+      "climate": 3,
+      "migration": 1,
+      "education": 3,
+      "weather": 11
+    }
   }
 ]
