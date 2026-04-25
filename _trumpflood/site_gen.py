@@ -829,12 +829,17 @@ def _timeline(log_sorted_asc):
             return f"\u2265 {lo:g}%"
         return f"{lo:g}\u2013{hi:g}%"
 
+    weekend_legend = (
+        '<span class="legend-item">'
+        '<span class="legend-swatch legend-swatch--weekend"></span>'
+        'Weekend</span>'
+    )
     legend = " ".join(
         f'<span class="legend-item"><span class="legend-swatch" '
         f'style="background:{ZONE_COLORS[key]}"></span>'
-        f'{ZONE_EMOJI[key]} {name} <small>{_fmt_band(lo, hi)}</small></span>'
+        f'{name} <small>{_fmt_band(lo, hi)}</small></span>'
         for lo, hi, key, name in ZONES
-    )
+    ) + " " + weekend_legend
 
     context_block = _timeline_context(log_sorted_asc)
 
@@ -1885,6 +1890,10 @@ PAGE = """<!doctype html>
     border-radius: 2px;
   }}
   .legend small {{ color: #aaa; font-variant-numeric: tabular-nums; }}
+  .legend-swatch--weekend {{
+    background: rgba(10,25,41,0.08);
+    border: 1px solid rgba(10,25,41,0.15);
+  }}
   .backfilled {{
     color: var(--muted);
     font-size: 11px;
