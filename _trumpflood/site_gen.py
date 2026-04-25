@@ -765,6 +765,7 @@ def _timeline(log_sorted_asc):
 
     # Bars per day.
     bars = []
+    weekend_shades = []
     x_labels = []
     today = log_sorted_asc[-1].get("date") if log_sorted_asc else None
 
@@ -791,6 +792,21 @@ def _timeline(log_sorted_asc):
         opacity = "1" if is_today else ("0.55" if is_backfilled else "0.85")
         stroke = ' stroke="#0a1929" stroke-width="2"' if is_today else ""
         source_note = " · GDELT" if is_backfilled else ""
+
+        # Weekend column shading (Sa = 5, Su = 6).
+        try:
+            from datetime import date as _date
+            _dow = _date.fromisoformat(date_str).weekday()
+            if _dow >= 5:
+                slot_x = PAD_L + slot_w * i
+                weekend_shades.append(
+                    f'<rect x="{slot_x:.1f}" y="{PAD_T}" '
+                    f'width="{slot_w:.1f}" height="{chart_h}" '
+                    f'fill="#0a1929" opacity="0.05"/>'
+                )
+        except (ValueError, TypeError):
+            pass
+
         bars.append(
             f'<rect x="{x:.1f}" y="{bar_top:.1f}" width="{bar_w:.1f}" '
             f'height="{max(bar_h, 2):.1f}" rx="2" fill="{color}" '
@@ -829,6 +845,7 @@ def _timeline(log_sorted_asc):
   <div class="chart-wrap">
     <svg class="chart" viewBox="0 0 {W} {H}" preserveAspectRatio="xMidYMid meet">
       {''.join(band_rects)}
+      {''.join(weekend_shades)}
       {''.join(grid_lines)}
       {''.join(bars)}
       {''.join(x_labels)}
@@ -968,6 +985,25 @@ def _methodology(latest):
         "The rolling baseline needs a few more runs before it settles."
     )
 
+    # Weekend note: lower total volume on Sa/Su depresses share and breadth
+    # independently of Trump's actual prominence. Flag this transparently.
+    weekend_note = ""
+    try:
+        from datetime import date as _date
+        _latest_date = _date.fromisoformat(latest.get("date", ""))
+        if _latest_date.weekday() >= 5:          # 5 = Sat, 6 = Sun
+            day_name = "Saturday" if _latest_date.weekday() == 5 else "Sunday"
+            weekend_note = (
+                f'<p class="corpus-diag"><strong>Weekend ({day_name}).</strong> '
+                f"Belgian news output is substantially lower on weekends — "
+                f"fewer articles in the denominator means share and breadth "
+                f"figures are not directly comparable to weekday readings. "
+                f"A low zone score today may reflect reduced total volume "
+                f"rather than reduced Trump prominence.</p>"
+            )
+    except (ValueError, TypeError):
+        pass
+
     # Denominator-control diagnostics. These don't change the zone, but they
     # expose two ways the denominator can move independently of Trump
     # coverage: (1) fewer outlets publishing today, (2) more of today's
@@ -1067,6 +1103,7 @@ def _methodology(latest):
       <strong>{core_trump} by-name Trump matches = {core_pct}%</strong>
       (this is the share the zone uses; see the &ldquo;Trump match&rdquo;
       section below for how indirect references are handled separately).</p>
+      {weekend_note}
       {corpus_diag_p}
       {wide_p}
 
