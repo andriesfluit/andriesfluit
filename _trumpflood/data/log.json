@@ -6267,169 +6267,169 @@
   },
   {
     "date": "2026-04-25",
-    "generated_at": "2026-04-25T07:31:05+02:00",
-    "last_checked_at": "2026-04-25T13:24:49+02:00",
-    "total_articles": 314,
-    "trump_articles": 6,
-    "percentage": 1.9,
-    "core_percentage": 1.9,
-    "core_percentage_name": 1.9,
-    "trump_articles_expanded": 6,
-    "core_percentage_expanded": 1.9,
+    "generated_at": "2026-04-25T19:21:55+02:00",
+    "last_checked_at": "2026-04-25T19:21:55+02:00",
+    "total_articles": 718,
+    "trump_articles": 19,
+    "percentage": 2.6,
+    "core_percentage": 2.6,
+    "core_percentage_name": 2.6,
+    "trump_articles_expanded": 19,
+    "core_percentage_expanded": 2.6,
     "indirect_references": 0,
-    "wide_total_articles": 407,
-    "wide_trump_articles": 7,
-    "wide_percentage": 1.7,
-    "wide_trump_articles_expanded": 8,
-    "wide_percentage_expanded": 2.0,
-    "macro_percentage": 0.9,
-    "qualifying_outlets": 9,
+    "wide_total_articles": 993,
+    "wide_trump_articles": 26,
+    "wide_percentage": 2.6,
+    "wide_trump_articles_expanded": 27,
+    "wide_percentage_expanded": 2.7,
+    "macro_percentage": 3.2,
+    "qualifying_outlets": 29,
     "core_outlets_total": 19,
-    "core_outlets_active": 14,
-    "active_core_fraction": 0.737,
-    "cross_outlet_dup_headlines": 18,
-    "cross_outlet_dup_groups": 9,
-    "cross_outlet_dup_rate": 5.7,
-    "zone": "puddles",
-    "label": "Puddles are forming",
-    "narrative": "Present, but a minor figure in today's mix.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 67,
+    "cross_outlet_dup_groups": 33,
+    "cross_outlet_dup_rate": 9.3,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 2.0,
-    "breadth": 0.21,
+    "dominance": 4.75,
+    "breadth": 0.63,
     "deviation": null,
     "smoothed_pct": null,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 9,
+    "theme_rank": 7,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 15,
-        "kept": 15,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 3.45
       },
       "google_fr": {
         "fetched": 34,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_nl_politics": {
-        "fetched": 57,
-        "today": 6,
-        "kept": 6,
+        "today": 22,
+        "kept": 22,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 16.67
+        "share": 4.55
+      },
+      "google_nl_politics": {
+        "fetched": 65,
+        "today": 16,
+        "kept": 14,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 21.43
       },
       "google_nl_world": {
-        "fetched": 68,
-        "today": 6,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 66,
+        "today": 31,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 8,
-        "kept": 6,
+        "today": 26,
+        "kept": 21,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 59,
-        "today": 3,
-        "kept": 2,
+        "fetched": 64,
+        "today": 13,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 9,
-        "kept": 6,
+        "today": 42,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 35,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_world": {
-        "fetched": 48,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_business": {
-        "fetched": 56,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "vrt": {
-        "fetched": 50,
+        "fetched": 37,
         "today": 7,
         "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "standaard": {
-        "fetched": 100,
-        "today": 72,
-        "kept": 69,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 2.9
+      "google_fr_world": {
+        "fetched": 47,
+        "today": 12,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
       },
-      "hln": {
-        "fetched": 30,
-        "today": 24,
-        "kept": 24,
+      "google_fr_business": {
+        "fetched": 53,
+        "today": 14,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "demorgen": {
-        "fetched": 31,
-        "today": 19,
-        "kept": 19,
+      "vrt": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 5.26
+        "share": 2.13
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 93,
+        "kept": 69,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.45
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 22,
+        "kept": 22,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 13.64
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
-        "today": 49,
-        "kept": 49,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
-        "trump_expanded": 1,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "hbvl": {
@@ -6442,131 +6442,131 @@
       },
       "knack": {
         "fetched": 100,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 43,
+        "kept": 42,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.38
       },
       "sporza": {
         "fetched": 20,
-        "today": 1,
-        "kept": 1,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 15,
+        "kept": 15,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
       },
       "lalibre": {
         "fetched": 100,
-        "today": 7,
-        "kept": 7,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 28.57
+        "today": 47,
+        "kept": 47,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.38
       },
       "lecho": {
         "fetched": 100,
-        "today": 27,
-        "kept": 27,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 62,
+        "kept": 62,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.61
       },
       "dhnet": {
         "fetched": 100,
-        "today": 18,
-        "kept": 18,
+        "today": 99,
+        "kept": 99,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.02
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "septsursept": {
-        "fetched": 30,
-        "today": 2,
-        "kept": 2,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 50.0
-      },
-      "bx1": {
-        "fetched": 10,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "detijd_g": {
         "fetched": 100,
-        "today": 6,
-        "kept": 5,
+        "today": 18,
+        "kept": 12,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 4,
-        "kept": 4,
+        "today": 30,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 26,
+        "kept": 26,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 33,
+        "kept": 32,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 99,
-        "today": 7,
-        "kept": 7,
+        "today": 30,
+        "kept": 27,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
         "fetched": 100,
-        "today": 7,
-        "kept": 7,
+        "today": 16,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "tendances_g": {
+        "fetched": 51,
+        "today": 15,
+        "kept": 15,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
-      },
-      "tendances_g": {
-        "fetched": 56,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
       }
     },
     "core_sources": [
@@ -6592,15 +6592,33 @@
     ],
     "matches": [
       {
+        "title": "Direct, confronterend en intuïtief: dit is Karoline Leavitt, de woordvoerder die Donald Trump door zwangerschapsrust moet missen",
+        "url": "https://vrtnws.be/p.mRx3MnQy8",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
         "title": "EU herontdekt dankzij Trump haar eigen ‘artikel 5’ - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPS0wzMWZUS183c3h2M0NXRm0wU0RteVlxMlBGclFmRWt3dkFRckF4RVpzQWowVzBmSDF4cldPb05fZm1lYlNZZnNVTi1CWUtkTnRxaXVNWjN4SFlvMlpmMkNhb0lSUzhISW9oTzZCUUpsNlZ0Rzc2YU1pYTBObHhUTzNrZzlHc2RwV2RvOE5veDhMU0RMaDRCOW54V1JnZ2Fy?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Zelfs radicaal-rechts Europa moet afstand nemen van Donald Trump - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOS1LWmhlNTByTDVGWmJKYi1vYzVNY3N1OVRIYjQ5UWl4ekVEQ1pURS1odGNMbGRESGRYaG55OVM3MnhQc2tPQjJ1eDFHVEI3QkI0cEJQbV9sVS1aa1M5cjVad3lLdkpMZmtkVVlZTXRCQ1Nyc1VpWmQxeEkxd0RtVDl0TENvV0pDbEk5a0FseDV1a3puUmVWc1BzdEJYbmRCRzVvLTFJWnFGNG5yTHBvV1RDN2pmUQ?oc=5",
-        "source": "standaard",
+        "title": "Trump annuleert reis van VS-delegatie naar vredesonderhandeling over Iran in Pakistan: “We hebben alle troeven in handen”",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump annuleert reis van VS-delegatie naar vredesonderhandeling over Iran in Pakistan",
+        "url": "https://www.demorgen.be/snelnieuws/live-iraanse-president-roept-bevolking-op-elektriciteitsverbruik-te-beperken-trump-annuleert-reis-van-vs-delegatie-naar-vredesonderhandeling~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "De vernietiging van Irans ‘guerillaleger’ op zee was voor Trump geen prioriteit. Daar betaalt hij nu de prijs voor",
+        "url": "https://www.demorgen.be/nieuws/de-vernietiging-van-irans-guerillaleger-op-zee-was-voor-trump-geen-prioriteit-daar-betaalt-hij-nu-de-prijs-voor~b3304c9e3/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -6610,29 +6628,137 @@
         "name_only": true
       },
       {
-        "title": "DIRECT - Guerre au Moyen-Orient: les émissaires de Trump attendus ce samedi au Pakistan pour de nouveaux pourparlers",
+        "title": "LIVE MIDDEN-OOSTEN. Trump stuurt gezanten Witkoff en Kushner dan toch niet naar Islamabad",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-stuurt-gezanten-witkoff-en-kushner-dan-toch-niet-naar-islamabad/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Live Spanningen Midden-Oosten: Trump stuurt gezanten Witkoff en Kushner toch niet naar Islamabad - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNanZVUDdMSHVCc0U2UU9wQ3hIZDc1OE5sMmR1RzFmOFRnNnpZWW9KU3hCOHpfeVFwNFNHVTZjalJBZmk5OWRiazY1d0JLZTl0QWRadnl0emx5N0RGemM1emNJMTIzbjVHZEZWUGZxWG5vMDJ4WFlfRU1CRTczSHFLeVFjM2xTUXFKdjVja244Z2pUUjFXcUlMV2VjSDFMWTZnYVdWRjVOZEcyZTlGckFxck1XUlN1d0trR1Fvb1JpRUZlYnZHN05FNGlXTTRxRGJzcDVrOWV3?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : le chef de la diplomatie iranienne quitte le Pakistan après des entretiens, Donald Trump annule le déplacement de ses émissaires à Islamabad",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-le-chef-de-la-diplomatie-iranienne-quitte-le-pakistan-apres-des-entretiens-donald-trump-annule-le-deplacement-de-ses-emissaires-a-islamabad-11715183",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump annule le déplacement de ses émissaires au Pakistan, \"personne ne sait qui est aux commandes en Iran\"",
         "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/25/direct-guerre-au-moyen-orient-nouvelles-frappes-au-liban-V52C4SX7V5F35D4U5XS6SLZ6ZM/",
         "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "\"Trump ne peut pas poster des déclarations dans tous les sens.” Derrière la guerre au Moyen-Orient, la frustration des médiateurs pakistanais.",
+        "title": "\"Trump ne peut pas poster des déclarations dans tous les sens\" : derrière la guerre au Moyen-Orient, la frustration des médiateurs pakistanais",
         "url": "https://www.lalibre.be/international/2026/04/25/trump-ne-peut-pas-poster-des-declarations-dans-tous-les-sens-derriere-la-guerre-au-moyen-orient-la-frustration-des-mediateurs-pakistanais-GDUFOQBJ7RD3RD32OLQGIWCJXQ/",
         "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "Les États-Unis prêts à suspendre l’Espagne de l’Otan? La réponse ferme de Sánchez à Trump",
-        "url": "https://www.7sur7.be/monde/les-etats-unis-prets-a-suspendre-lespagne-de-lotan-la-reponse-ferme-de-sanchez-a-trump~a4ac41bb/",
+        "title": "Le prince Harry assure qu’il fera “toujours partie de la famille royale” et interpelle Trump lors de sa visite en Ukraine",
+        "url": "https://www.lalibre.be/international/europe/2026/04/25/le-prince-harry-assure-quil-fera-toujours-partie-de-la-famille-royale-et-interpelle-trump-lors-de-sa-visite-en-ukraine-FOOCNVKDRBBOBCPDLXXREBBZLI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Trump annule la mission diplomatique au Pakistan, Téhéran menace de riposter au blocus - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQeG9oVDhTS2RzYXhJTjdTeldleU1WeGpQUVJ6ZF90SDljdWs3QjNuZ0xOT0xzSS1ZMmtfYm1mdTM1bEoyTV85d2lneF8xbDZXUGRhblJybWM5d01IMWdIU0M5NWpJUWVNVUo3RURtaGh0MEdIQm5XMnQ5OHctUUJoSDJKRnV2dEpseHNVbWNHTjhUdzV3Uk1KSXlId3I2NXdXVG5CSm95aFJXWjlnVWhGXzBqLWdWSnlTUG9aQmoydnJ3Nko5YUl1MWo3Nm80RENzU3owWVpiRGZWaVVHYVFMS1VSTm9YaGRMT3U3NUZoMDN2U2F3cVlkRlczR3BwcjFHdUJmbDB4MA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient:  Trump dit avoir annulé le déplacement de ses émissaires au Pakistan, sans que ce soit une reprise de la guerre",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/25/direct-guerre-au-moyen-orient-un-2e-petrolier-arrive-en-irak-plusieurs-morts-dans-des-frappes-au-liban-25CQQUATTJEU5DFV6H3V7TP4IM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le prince Harry interpelle Donald Trump lors de sa visite en Ukraine, le président américain lui répond: \"Comment va sa femme ?\"",
+        "url": "https://www.dhnet.be/lifestyle/people/2026/04/25/le-prince-harry-interpelle-donald-trump-lors-de-sa-visite-en-ukraine-le-president-americain-lui-repond-comment-va-sa-femme-JAYZXDCXK5D3PCDIHJLWEA64RY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“C’est fini”: François Hollande estime que l’Europe devra vivre “seule” même après Trump",
+        "url": "https://www.7sur7.be/monde/cest-fini-francois-hollande-estime-que-leurope-devra-vivre-seule-meme-apres-trump~a0be7097/",
         "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“L’Iran ne peut pas faire entrer des terroristes”: le camp de Trump lance un nouvel avertissement avant le Mondial",
+        "url": "https://www.7sur7.be/monde/liran-ne-peut-pas-faire-entrer-des-terroristes-le-camp-de-trump-lance-un-nouvel-avertissement-avant-le-mondial~a8a40f0c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump annule le voyage de ses émissaires au Pakistan",
+        "url": "https://www.7sur7.be/monde/donald-trump-annule-le-voyage-de-ses-emissaires-au-pakistan~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Jean-François van Boxmeer (European Round Table for Industry): ‘Hoe omgaan met Trump? Dat is de vraag van één miljard dollar’ - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOeUhINklYYl9YYWVHOWRiaXpWVnZRYkdyQlFUVHJYN3FxN1JMRWlUOW5sT2dUUTBlelNodVBKU2lBSC1PRFJTSzExR0p3M2JpTmpHQ01BZm4xNkg5ZTJFTUhqSDBXSXZacmkxbi1VZWtWdXlaZlVnbXMtZWRBOWgxMVRxemZrR2E5dm1TSTA4SWt0aXdQMm5wTjRoMWltZzB5ZjZZRl9meHdtOW95S0diWTkxN0tUM3AwMWhwTjNUN2xfNnJzMHF4Rl9pbGRqeTk1SGliWW5LckM2WmJEeXR3V2RITTRqam1Ycnp4SnU5OE1EMklfOGVEczJpOFE1OVlFY2dV?oc=5",
+        "source": "trends_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "EU herontdekt dankzij Trump haar eigen ‘artikel 5’ - HBVL",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSDhDbXAtTWpfVGY2QV9XSnBFYklqT1RNTHlhNzU3V0Jzb3dlQTc2Q0g2U0NIV2hyc1pZUU9reFh4a0c0VEpBejEtTlFJY3hsY19FdEhzRTJWTEFxaFM3OGRxZ0dFNlBTRnl3eUhfMWg0RHZJUUZvOE81X1oyUG9RZmMzYnpNRUR5Y21hSXZfYkxLanhBNDFSQkdR?oc=5",
+        "title": "Paus Leo XIV werpt zich op als vredesbepleiter en spreekt katholieke basis in thuisland aan, tot woede van zijn landgenoot in het Witte Huis - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOSXFXSUJFSnNyMTVUTENZV3RzSjlMR3dsa3pNdDFJbl96XzZPMlFBRjhwRjFsYXJoeEhCUFRBTmxEQm84RUJHdnh0QVpLWWRMME1aZjEwaGtYalJwUTlYSUtlaUl3RE8yNl9VTGZfZlI5RFJaUlh5V29NeHhLM1dPT2FKZEFqM0d3RWZzazZ0QkRTMGZBUzdKRTFtRnFCU0tHU2xwb3FhZGlNd2E0STQ4elN6UmlFNkl1aVdmd2NON3RyZnVyenBVZkJ4X1ZDVG5PSEFzc1N0RDF3OXQ0bGpxSVlwd0toME53dG9oZzdWUGhlWE9wbmc2ampydTBnSkxHUElUMnlzbG81cXJsSzY3Q0t6Wm9uUGc?oc=5",
+        "source": "google_nl",
+        "name_only": false
+      },
+      {
+        "title": "“Iran kan geen terroristen binnenbrengen en doen alsof het journalisten zijn”: kamp-Trump komt met nieuwe waarschuwing richting WK - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPLUlLbHVubkU2Y3diRERRejl4R3F2NFd3MnhXQWd0UDF0NkpHWU9Cd2xvaGdmX2Z4d1QtQ1RLb3JsZkFGMWlQUlB4Tm5Cc1lfNnowS0VEWVJBQUFVS2xpTElSMUlRQ29oVmtkNTRXZzU1OV90ZGxtRTlScmQ4cmI1ODM1RHUxT2Vwa28xa1FUWHllMjNoSjNpOGNCX1lxWk41ekVrU2thSHp5Z20yMXB3a19hLW80aERIMGIxRUJOVWRoM3QyaS1lckhENDNLT3VYRUxQMzRxZDU2dUhqdXBGT0lNZk5xR0V5eTBwVGhMSEFCeWdndWk0?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "\"Trump ne peut pas poster des déclarations dans tous les sens\" : derrière la guerre au Moyen-Orient, la frustration des médiateurs pakistanais - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOWGp6VURrNFBWMDhTTnBtSjVxY1BHbU85bWZMdjhFaTktMFNrOFBkS0t6Zzh1OUpFdkcyV1JLeXVvQXpkbjg3QUVuWHZsdzl1MG5UaXFxbEZnNzhpV1c5dUM1b2N4czduOFJtb1ZCOHl2Z3ByT25jOHpjTzRMcnN3cmJxOTNXY0l1ckZUY01zRGlmc09DRVdPR2xUTkdzNFRMclVFeUE3ZWt5WW5aMmpZRHlqeVc1ZkFRQXJ1UkVLTEFwbE0xcTd6bnFLdFY0U040S0VDQV9uZThTWVNJNnl0b0hZNjBOZHhoaFljZ0hETnd2RnJoakZ2SDVKMEtLVmNHYlNPUFE2d2FCTVY3cnJDaGxtUkJFMlRGVEZjeGk1NjlDRVNXNWdTM0trbkw5Qi1jaFJVRW4wY0Y?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump beslist: Amerikaanse onderhandelaars reizen niet af naar Islamabad voor vredesgesprekken - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZnBESk5ZNDVONk9qNUkxMkVwREVBc0J3N2xENWhxZjhBR2h3aGpWQjBKSHpTVk5CcGRoUGM0VWpJOHYzOEdjWEtpSGthUUVIczROY1MzUTlJcVVPZG1rbW5kcVhPWlptVV91UWhYUWlicE56bThpdDJJbG1WQWE3VUFVNTZseENXUTVmRHBIbFZ6emxQVkhWUmtkYUhKOVd4SnJCenhTcE9SVldSX0FHOEwzNDk4YmtfcEctQ3VJOUcwamhkczYwcXhpWTRRNmRteWg2cXJGa2E0YklDYS1uOXVkaklZai1PMEZCa2NBMGJTQlBHZ0pRME1lS3VDQQ?oc=5",
         "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse justitie stopt strafonderzoek naar Federal Reserve dat door Trump was aangestuurd - HLN",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZGhWSUdNRTVrdGFKRzhUb0llMkxSN01hQ2N5Vm1QekNsSVdoV0hNeGhGNmFlZ0dNT0xlMFJiV3pRRVZPLVNNdTVSakFFaE8zZmxRcnRKTHlIQ3hxVWVXZzE5VEVVZjFUb19DNVRnaGo0M2lhcWNaU211Z1NwLVFQdVJjSWNPOGtSTXpWWDFieGRCRVhkSEJkQVhJU3FZRU41ajB6dkJlOTJrU2FiM3JLZjd6cWtaWGdIaFpfM0dLZm1GQTN4YmtHOXNMOGtxUQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Daar is “Dozy Don” weer: Trump lijkt opnieuw in slaap te vallen tijdens persconferentie - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdzd5cTNKYUFzWjZXWnJqQ0pwT1dxVDlnVXFYY2RNNTdqZ2I4cXZ2Tmx3dFhxbjBQSjBDV1VLc2xIa0Z2eDI1RUR5ck5BbUlyNnBmb1BnQzRPSWZSazZlaERSOUVpVGhOZG5CbDg1ZmhBTUtBTWRyRVEydy1sYi1LYVpWb2Z3dVRIQm10OGJkZmUyOS1wWFl5UFpjSTI5QmhUeTVqQlMzbThQZUdSS0t3TXoteVN6VE92ZlN5UDNnU0JDN3ZmTms5NQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Zelfs radicaal-rechts Europa moet afstand nemen van Donald Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOS1LWmhlNTByTDVGWmJKYi1vYzVNY3N1OVRIYjQ5UWl4ekVEQ1pURS1odGNMbGRESGRYaG55OVM3MnhQc2tPQjJ1eDFHVEI3QkI0cEJQbV9sVS1aa1M5cjVad3lLdkpMZmtkVVlZTXRCQ1Nyc1VpWmQxeEkxd0RtVDl0TENvV0pDbEk5a0FseDV1a3puUmVWc1BzdEJYbmRCRzVvLTFJWnFGNG5yTHBvV1RDN2pmUQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Le prince Harry assure qu'il fera \"toujours partie de la famille royale\" et interpelle Trump lors de sa visite en Ukraine - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQeC14OHJiMVJHekxHMk9xTUFvYTFmejJyckRsSGJoQWVFTlhPdG5yZXE0Wnd2ZWx4dkVvWW5KekNmSVZoaVhaUUNNSjMtUVEwSmZkdjJWWmJCUzFZZTJyLUF1QzUzcFBUSkNHMjNOUWlHdkFCQVVjeWFaRS1weVNwRnkxbklrc1ZERGhWUjlFR1VOb2dwYklfNlR6dUZWTXJVOEhHdTh3S3gwajN1M3lBUzlxaEw0VGtPUWpGSGZKT1hMSjFIRnhTVHRWQ3JQMDJ4Qk5IcVljWWVraEx5dEpFZXlIUENEeEwyOTlhQ2JPZmtLWTlySVpuNGpXMXloV2dLNFlWOXh5UTZzaWlGM2M0OEJ3WHJSb2h0M1R1NTN5UHJhWnR0cnQ1eQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Direct, confronterend en intuïtief: dit is Karoline Leavitt, de woordvoerder die Donald Trump door zwangerschapsrust moet missen",
+        "url": "https://vrtnws.be/p.mRx3MnQy8",
+        "source": "vrt",
         "name_only": true
       },
       {
@@ -6642,9 +6768,21 @@
         "name_only": true
       },
       {
-        "title": "Zelfs radicaal-rechts Europa moet afstand nemen van Donald Trump - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOS1LWmhlNTByTDVGWmJKYi1vYzVNY3N1OVRIYjQ5UWl4ekVEQ1pURS1odGNMbGRESGRYaG55OVM3MnhQc2tPQjJ1eDFHVEI3QkI0cEJQbV9sVS1aa1M5cjVad3lLdkpMZmtkVVlZTXRCQ1Nyc1VpWmQxeEkxd0RtVDl0TENvV0pDbEk5a0FseDV1a3puUmVWc1BzdEJYbmRCRzVvLTFJWnFGNG5yTHBvV1RDN2pmUQ?oc=5",
-        "source": "standaard",
+        "title": "Trump annuleert reis van VS-delegatie naar vredesonderhandeling over Iran in Pakistan: “We hebben alle troeven in handen”",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump annuleert reis van VS-delegatie naar vredesonderhandeling over Iran in Pakistan",
+        "url": "https://www.demorgen.be/snelnieuws/live-iraanse-president-roept-bevolking-op-elektriciteitsverbruik-te-beperken-trump-annuleert-reis-van-vs-delegatie-naar-vredesonderhandeling~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "De vernietiging van Irans ‘guerillaleger’ op zee was voor Trump geen prioriteit. Daar betaalt hij nu de prijs voor",
+        "url": "https://www.demorgen.be/nieuws/de-vernietiging-van-irans-guerillaleger-op-zee-was-voor-trump-geen-prioriteit-daar-betaalt-hij-nu-de-prijs-voor~b3304c9e3/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -6654,98 +6792,152 @@
         "name_only": true
       },
       {
-        "title": "LIVE AMERIKA. Witte Huis-woordvoerster Karoline Leavitt met onmiddellijke ingang met zwangerschapsverlof",
-        "url": "https://www.gva.be/buitenland/live-amerika.-witte-huis-woordvoerster-karoline-leavitt-met-onmiddellijke-ingang-met-zwangerschapsverlof/76845705.html",
-        "source": "gva",
-        "name_only": false
+        "title": "LIVE MIDDEN-OOSTEN. Trump stuurt gezanten Witkoff en Kushner dan toch niet naar Islamabad",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-stuurt-gezanten-witkoff-en-kushner-dan-toch-niet-naar-islamabad/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
       },
       {
-        "title": "DIRECT - Guerre au Moyen-Orient: les émissaires de Trump attendus ce samedi au Pakistan pour de nouveaux pourparlers",
+        "title": "Live Spanningen Midden-Oosten: Trump stuurt gezanten Witkoff en Kushner toch niet naar Islamabad - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNanZVUDdMSHVCc0U2UU9wQ3hIZDc1OE5sMmR1RzFmOFRnNnpZWW9KU3hCOHpfeVFwNFNHVTZjalJBZmk5OWRiazY1d0JLZTl0QWRadnl0emx5N0RGemM1emNJMTIzbjVHZEZWUGZxWG5vMDJ4WFlfRU1CRTczSHFLeVFjM2xTUXFKdjVja244Z2pUUjFXcUlMV2VjSDFMWTZnYVdWRjVOZEcyZTlGckFxck1XUlN1d0trR1Fvb1JpRUZlYnZHN05FNGlXTTRxRGJzcDVrOWV3?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : le chef de la diplomatie iranienne quitte le Pakistan après des entretiens, Donald Trump annule le déplacement de ses émissaires à Islamabad",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-le-chef-de-la-diplomatie-iranienne-quitte-le-pakistan-apres-des-entretiens-donald-trump-annule-le-deplacement-de-ses-emissaires-a-islamabad-11715183",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump annule le déplacement de ses émissaires au Pakistan, \"personne ne sait qui est aux commandes en Iran\"",
         "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/25/direct-guerre-au-moyen-orient-nouvelles-frappes-au-liban-V52C4SX7V5F35D4U5XS6SLZ6ZM/",
         "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "\"Trump ne peut pas poster des déclarations dans tous les sens.” Derrière la guerre au Moyen-Orient, la frustration des médiateurs pakistanais.",
+        "title": "\"Trump ne peut pas poster des déclarations dans tous les sens\" : derrière la guerre au Moyen-Orient, la frustration des médiateurs pakistanais",
         "url": "https://www.lalibre.be/international/2026/04/25/trump-ne-peut-pas-poster-des-declarations-dans-tous-les-sens-derriere-la-guerre-au-moyen-orient-la-frustration-des-mediateurs-pakistanais-GDUFOQBJ7RD3RD32OLQGIWCJXQ/",
         "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "Les États-Unis prêts à suspendre l’Espagne de l’Otan? La réponse ferme de Sánchez à Trump",
-        "url": "https://www.7sur7.be/monde/les-etats-unis-prets-a-suspendre-lespagne-de-lotan-la-reponse-ferme-de-sanchez-a-trump~a4ac41bb/",
+        "title": "Le prince Harry assure qu’il fera “toujours partie de la famille royale” et interpelle Trump lors de sa visite en Ukraine",
+        "url": "https://www.lalibre.be/international/europe/2026/04/25/le-prince-harry-assure-quil-fera-toujours-partie-de-la-famille-royale-et-interpelle-trump-lors-de-sa-visite-en-ukraine-FOOCNVKDRBBOBCPDLXXREBBZLI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Trump annule la mission diplomatique au Pakistan, Téhéran menace de riposter au blocus - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQeG9oVDhTS2RzYXhJTjdTeldleU1WeGpQUVJ6ZF90SDljdWs3QjNuZ0xOT0xzSS1ZMmtfYm1mdTM1bEoyTV85d2lneF8xbDZXUGRhblJybWM5d01IMWdIU0M5NWpJUWVNVUo3RURtaGh0MEdIQm5XMnQ5OHctUUJoSDJKRnV2dEpseHNVbWNHTjhUdzV3Uk1KSXlId3I2NXdXVG5CSm95aFJXWjlnVWhGXzBqLWdWSnlTUG9aQmoydnJ3Nko5YUl1MWo3Nm80RENzU3owWVpiRGZWaVVHYVFMS1VSTm9YaGRMT3U3NUZoMDN2U2F3cVlkRlczR3BwcjFHdUJmbDB4MA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient:  Trump dit avoir annulé le déplacement de ses émissaires au Pakistan, sans que ce soit une reprise de la guerre",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/25/direct-guerre-au-moyen-orient-un-2e-petrolier-arrive-en-irak-plusieurs-morts-dans-des-frappes-au-liban-25CQQUATTJEU5DFV6H3V7TP4IM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le prince Harry interpelle Donald Trump lors de sa visite en Ukraine, le président américain lui répond: \"Comment va sa femme ?\"",
+        "url": "https://www.dhnet.be/lifestyle/people/2026/04/25/le-prince-harry-interpelle-donald-trump-lors-de-sa-visite-en-ukraine-le-president-americain-lui-repond-comment-va-sa-femme-JAYZXDCXK5D3PCDIHJLWEA64RY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“C’est fini”: François Hollande estime que l’Europe devra vivre “seule” même après Trump",
+        "url": "https://www.7sur7.be/monde/cest-fini-francois-hollande-estime-que-leurope-devra-vivre-seule-meme-apres-trump~a0be7097/",
         "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“L’Iran ne peut pas faire entrer des terroristes”: le camp de Trump lance un nouvel avertissement avant le Mondial",
+        "url": "https://www.7sur7.be/monde/liran-ne-peut-pas-faire-entrer-des-terroristes-le-camp-de-trump-lance-un-nouvel-avertissement-avant-le-mondial~a8a40f0c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump annule le voyage de ses émissaires au Pakistan",
+        "url": "https://www.7sur7.be/monde/donald-trump-annule-le-voyage-de-ses-emissaires-au-pakistan~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Jean-François van Boxmeer (European Round Table for Industry): ‘Hoe omgaan met Trump? Dat is de vraag van één miljard dollar’ - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOeUhINklYYl9YYWVHOWRiaXpWVnZRYkdyQlFUVHJYN3FxN1JMRWlUOW5sT2dUUTBlelNodVBKU2lBSC1PRFJTSzExR0p3M2JpTmpHQ01BZm4xNkg5ZTJFTUhqSDBXSXZacmkxbi1VZWtWdXlaZlVnbXMtZWRBOWgxMVRxemZrR2E5dm1TSTA4SWt0aXdQMm5wTjRoMWltZzB5ZjZZRl9meHdtOW95S0diWTkxN0tUM3AwMWhwTjNUN2xfNnJzMHF4Rl9pbGRqeTk1SGliWW5LckM2WmJEeXR3V2RITTRqam1Ycnp4SnU5OE1EMklfOGVEczJpOFE1OVlFY2dV?oc=5",
+        "source": "trends_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 6,
+      "trump": 19,
       "putin": 0,
       "macron": 0,
-      "netanyahu": 1,
-      "zelensky": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
       "rutte": 0,
-      "von_der_leyen": 1,
-      "de_wever": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
       "bouchez": 0,
       "magnette": 0,
-      "prevot": 1,
+      "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
-      "jambon": 0,
+      "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 7,
+      "trump": 26,
       "putin": 1,
-      "macron": 0,
-      "netanyahu": 3,
-      "zelensky": 0,
+      "macron": 1,
+      "netanyahu": 2,
+      "zelensky": 2,
       "rutte": 0,
-      "von_der_leyen": 1,
-      "de_wever": 1,
+      "von_der_leyen": 0,
+      "de_wever": 2,
       "bouchez": 0,
       "magnette": 0,
-      "prevot": 1,
+      "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
-      "jambon": 0,
+      "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 17,
-      "crime": 6,
-      "eu": 17,
-      "politics": 9,
-      "be_gov": 7,
-      "culture": 11,
+      "war": 52,
+      "crime": 20,
+      "eu": 35,
+      "politics": 24,
+      "be_gov": 25,
+      "culture": 18,
       "tech": 16,
-      "economy": 5,
-      "sports": 16,
-      "health": 1,
-      "climate": 3,
-      "migration": 1,
-      "education": 3,
-      "weather": 7
+      "economy": 15,
+      "sports": 56,
+      "health": 9,
+      "climate": 5,
+      "migration": 4,
+      "education": 0,
+      "weather": 6
     },
     "wide_themes": {
-      "war": 21,
-      "crime": 8,
-      "eu": 21,
-      "politics": 16,
-      "be_gov": 10,
-      "culture": 12,
-      "tech": 20,
-      "economy": 8,
-      "sports": 28,
-      "health": 1,
-      "climate": 3,
-      "migration": 1,
-      "education": 3,
+      "war": 74,
+      "crime": 28,
+      "eu": 56,
+      "politics": 38,
+      "be_gov": 29,
+      "culture": 19,
+      "tech": 22,
+      "economy": 19,
+      "sports": 87,
+      "health": 13,
+      "climate": 7,
+      "migration": 7,
+      "education": 0,
       "weather": 11
     }
   }
