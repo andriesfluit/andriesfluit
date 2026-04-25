@@ -783,7 +783,10 @@ def _timeline(log_sorted_asc):
         x = x_center - bar_w / 2
         bar_top = y(pct)
         bar_h = (PAD_T + chart_h) - bar_top
-        color = _zone_color(pct)
+        zone = r.get("zone") or _zone_for(pct)
+        if zone == "flooded":
+            zone = "soaked"
+        color = ZONE_COLORS.get(zone, ZONE_COLORS["dry"])
         is_today = (date_str == today)
         is_backfilled = bool(r.get("backfilled"))
         opacity = "1" if is_today else ("0.55" if is_backfilled else "0.85")
@@ -854,6 +857,7 @@ def _timeline(log_sorted_asc):
     </svg>
   </div>
   <div class="legend">{legend}</div>
+  <p class="legend-note">Bar colour reflects the assessed zone (percentage + rank + dominance + breadth). Background bands show the percentage thresholds only.</p>
 </section>
 """
 
@@ -1887,6 +1891,7 @@ PAGE = """<!doctype html>
     border-radius: 2px;
   }}
   .legend small {{ color: #aaa; font-variant-numeric: tabular-nums; }}
+  .legend-note {{ font-size: 11px; color: var(--muted); margin: 4px 0 0; }}
   .legend-swatch--weekend {{
     background: rgba(10,25,41,0.08);
     border: 1px solid rgba(10,25,41,0.15);
