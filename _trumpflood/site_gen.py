@@ -783,10 +783,7 @@ def _timeline(log_sorted_asc):
         x = x_center - bar_w / 2
         bar_top = y(pct)
         bar_h = (PAD_T + chart_h) - bar_top
-        zone = r.get("zone") or _zone_for(pct)
-        if zone == "flooded":
-            zone = "soaked"
-        color = ZONE_COLORS.get(zone, ZONE_COLORS["dry"])
+        color = _zone_color(pct)
         is_today = (date_str == today)
         is_backfilled = bool(r.get("backfilled"))
         opacity = "1" if is_today else ("0.55" if is_backfilled else "0.85")
@@ -816,8 +813,8 @@ def _timeline(log_sorted_asc):
             f'</rect>'
         )
         if i in label_indices:
-            # Show MM-DD only.
-            short = date_str[5:] if len(date_str) >= 10 else date_str
+            # Show DD/MM (European format).
+            short = (date_str[8:10] + "/" + date_str[5:7]) if len(date_str) >= 10 else date_str
             x_labels.append(
                 f'<text x="{x_center:.1f}" y="{H - 10}" text-anchor="middle" '
                 f'font-size="11" fill="#8a8170" font-family="Inter, sans-serif">'
