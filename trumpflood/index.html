@@ -4,12 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Is Trump flooding the zone?</title>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JGVNLJ1K3S"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-JGVNLJ1K3S');
+  function loadGA() {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JGVNLJ1K3S';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-JGVNLJ1K3S');
+  }
+  if (localStorage.getItem('cookie_consent') === 'accepted') loadGA();
 </script>
 <meta property="og:type"        content="website">
 <meta property="og:url"         content="https://andriesfluit.be/trumpflood/">
@@ -981,6 +988,50 @@
     .band { padding: 6px 6px; }
     .band-name { font-size: 9px; letter-spacing: 0.02em; }
   }
+  #cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--ink);
+    color: #e8e4db;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    line-height: 1.4;
+    z-index: 9999;
+    box-shadow: 0 -2px 12px rgba(0,0,0,0.25);
+  }
+  #cookie-banner p {
+    margin: 0;
+    flex: 1;
+    min-width: 200px;
+  }
+  #cookie-banner a { color: #a8c4d8; }
+  .cookie-buttons { display: flex; gap: 10px; flex-shrink: 0; }
+  #cookie-accept, #cookie-decline {
+    padding: 7px 18px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  #cookie-accept {
+    background: #a8c4d8;
+    color: var(--ink);
+  }
+  #cookie-decline {
+    background: transparent;
+    color: #a8a090;
+    border: 1px solid #3a3a3a;
+  }
+  #cookie-accept:hover { background: #c4d8e8; }
+  #cookie-decline:hover { color: #e8e4db; border-color: #888; }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1523,6 +1574,31 @@
     }
 
     requestAnimationFrame(frame);
+  });
+})();
+</script>
+
+<div id="cookie-banner" role="dialog" aria-label="Cookie consent" style="display:none">
+  <p>This site uses Google Analytics to count visitors and measure time on page.
+     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.</p>
+  <div class="cookie-buttons">
+    <button id="cookie-accept">Accept</button>
+    <button id="cookie-decline">Decline</button>
+  </div>
+</div>
+<script>
+(function() {
+  if (localStorage.getItem('cookie_consent')) return;
+  var banner = document.getElementById('cookie-banner');
+  banner.style.display = 'flex';
+  document.getElementById('cookie-accept').addEventListener('click', function() {
+    localStorage.setItem('cookie_consent', 'accepted');
+    banner.style.display = 'none';
+    loadGA();
+  });
+  document.getElementById('cookie-decline').addEventListener('click', function() {
+    localStorage.setItem('cookie_consent', 'declined');
+    banner.style.display = 'none';
   });
 })();
 </script>
