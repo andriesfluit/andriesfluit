@@ -765,6 +765,7 @@ def _timeline(log_sorted_asc):
 
     # Bars per day.
     bars = []
+    annotations = []
     weekend_shades = []
     x_labels = []
     today = log_sorted_asc[-1].get("date") if log_sorted_asc else None
@@ -807,14 +808,28 @@ def _timeline(log_sorted_asc):
         except (ValueError, TypeError):
             pass
 
+        note = r.get("note", "")
+        note_suffix = f" — {html.escape(note)}" if note else ""
         bars.append(
             f'<rect x="{x:.1f}" y="{bar_top:.1f}" width="{bar_w:.1f}" '
             f'height="{max(bar_h, 2):.1f}" rx="2" fill="{color}" '
             f'opacity="{opacity}"{stroke}>'
             f'<title>{html.escape(date_str)}: {pct}% '
-            f'({r.get("trump_articles", 0)}/{r.get("total_articles", 0)}){source_note}</title>'
+            f'({r.get("trump_articles", 0)}/{r.get("total_articles", 0)}){source_note}{note_suffix}</title>'
             f'</rect>'
         )
+        if note:
+            dot_y = bar_top - 10
+            annotations.append(
+                f'<g>'
+                f'<circle cx="{x_center:.1f}" cy="{dot_y:.1f}" r="5" '
+                f'fill="#0a1929" opacity="0.75"/>'
+                f'<text x="{x_center:.1f}" y="{dot_y + 4:.1f}" text-anchor="middle" '
+                f'font-size="8" fill="white" font-family="Inter, sans-serif" '
+                f'font-weight="bold">!</text>'
+                f'<title>{html.escape(note)}</title>'
+                f'</g>'
+            )
         if i in label_indices:
             # Show DD/MM (European format).
             short = (date_str[8:10] + "/" + date_str[5:7]) if len(date_str) >= 10 else date_str
@@ -853,6 +868,7 @@ def _timeline(log_sorted_asc):
       {''.join(weekend_shades)}
       {''.join(grid_lines)}
       {''.join(bars)}
+      {''.join(annotations)}
       {''.join(x_labels)}
     </svg>
   </div>
