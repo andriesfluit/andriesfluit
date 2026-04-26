@@ -182,13 +182,5 @@ const PHOTOS = [
         location: 'Tromsø, Norway',
         date: 'January 2009',
         basePrice: 65
-    },
-    {
-        id: 'XXII',
-        key: 'print21',
-        src: 'img/img21.jpg',
-        location: 'Tromsø, Norway',
-        date: 'January 2009',
-        basePrice: 65
     }
 ];
