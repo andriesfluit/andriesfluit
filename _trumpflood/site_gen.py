@@ -1408,6 +1408,13 @@ PAGE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Is Trump flooding the zone?</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JGVNLJ1K3S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', 'G-JGVNLJ1K3S');
+</script>
 {og_meta}
 <style>
   :root {{
