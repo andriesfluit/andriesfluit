@@ -856,6 +856,20 @@ def _timeline(log_sorted_asc):
         for lo, hi, key, name in ZONES
     ) + " " + weekend_legend
 
+    annotated_days = [
+        r for r in log_sorted_asc if r.get("note")
+    ]
+    annotation_html = ""
+    if annotated_days:
+        items = []
+        for r in annotated_days:
+            d = r.get("date", "")
+            short = (d[8:10] + "/" + d[5:7]) if len(d) >= 10 else d
+            items.append(
+                f'<li><strong>{short}</strong> — {html.escape(r["note"])}</li>'
+            )
+        annotation_html = f'<ul class="annotation-list">{"".join(items)}</ul>'
+
     context_block = _timeline_context(log_sorted_asc)
 
     return f"""
@@ -874,6 +888,7 @@ def _timeline(log_sorted_asc):
   </div>
   <div class="legend">{legend}</div>
   <p class="legend-note">Bar colour reflects the assessed zone (percentage + rank + dominance + breadth). Background bands show the percentage thresholds only.</p>
+  {annotation_html}
 </section>
 """
 
@@ -1908,6 +1923,35 @@ PAGE = """<!doctype html>
   }}
   .legend small {{ color: #aaa; font-variant-numeric: tabular-nums; }}
   .legend-note {{ font-size: 11px; color: var(--muted); margin: 4px 0 0; }}
+  .annotation-list {{
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }}
+  .annotation-list li {{
+    font-size: 12px;
+    color: var(--muted);
+    padding-left: 18px;
+    position: relative;
+  }}
+  .annotation-list li::before {{
+    content: "!";
+    position: absolute;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    background: #0a1929;
+    color: white;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: bold;
+    top: 1px;
+  }}
   .legend-swatch--weekend {{
     background: rgba(10,25,41,0.08);
     border: 1px solid rgba(10,25,41,0.15);
