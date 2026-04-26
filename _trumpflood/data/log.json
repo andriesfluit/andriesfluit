@@ -6940,5 +6940,699 @@
       "education": 0,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-04-26",
+    "generated_at": "2026-04-26T07:57:29+02:00",
+    "last_checked_at": "2026-04-26T07:57:29+02:00",
+    "total_articles": 150,
+    "trump_articles": 19,
+    "percentage": 12.7,
+    "core_percentage": 12.7,
+    "core_percentage_name": 12.7,
+    "trump_articles_expanded": 21,
+    "core_percentage_expanded": 14.0,
+    "indirect_references": 2,
+    "wide_total_articles": 218,
+    "wide_trump_articles": 25,
+    "wide_percentage": 11.5,
+    "wide_trump_articles_expanded": 28,
+    "wide_percentage_expanded": 12.8,
+    "macro_percentage": 7.1,
+    "qualifying_outlets": 7,
+    "core_outlets_total": 19,
+    "core_outlets_active": 10,
+    "active_core_fraction": 0.526,
+    "cross_outlet_dup_headlines": 32,
+    "cross_outlet_dup_groups": 16,
+    "cross_outlet_dup_rate": 21.3,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 19.0,
+    "breadth": 0.7,
+    "deviation": null,
+    "smoothed_pct": 4.14,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 1,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_nl_politics": {
+        "fetched": 56,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 63,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 44,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 45,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "standaard": {
+        "fetched": 88,
+        "today": 13,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 27,
+        "kept": 27,
+        "trump": 5,
+        "trump_expanded": 6,
+        "share": 18.52
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 4,
+        "kept": 4,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 50.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 40,
+        "kept": 40,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 7.5
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 31,
+        "kept": 31,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 9.68
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 1,
+        "kept": 1,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 100.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 50.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "trends_g": {
+        "fetched": 69,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 65,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Schutter probeert White House Correspondents’ Dinner binnen te dringen: Trump geëvacueerd, verdachte gearresteerd",
+        "url": "https://vrtnws.be/p.0Y6B11NyZ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Wat weten we over de schutter die het Correspondents’ Dinner van het Witte Huis probeerde binnen te dringen?",
+        "url": "https://www.hln.be/buitenland/wat-weten-we-over-de-schutter-die-het-correspondents-dinner-van-het-witte-huis-probeerde-binnen-te-dringen~a1ca5ed7/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "KIJK. Beelden tonen chaos: Trump en vicepresident JD Vance in allerijl geëvacueerd na schietincident, aanwezigen duiken onder de tafel",
+        "url": "https://www.hln.be/nieuws/kijk-beelden-tonen-chaos-trump-en-vicepresident-jd-vance-in-allerijl-geevacueerd-na-schietincident-aanwezigen-duiken-onder-de-tafel~ad2f37c8/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Schietpartij zal me niet afschrikken van Iran-oorlog”",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Mexico en Canada betuigen steun aan Trump na schietincident",
+        "url": "https://www.hln.be/buitenland/mexico-en-canada-betuigen-steun-aan-trump-na-schietincident~a767cf22/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Poging tot aanslag bij persdiner Trump: president in veiligheid gebracht nadat schoten worden gelost, verdachte opgepakt",
+        "url": "https://www.hln.be/buitenland/poging-tot-aanslag-bij-persdiner-trump-president-in-veiligheid-gebracht-nadat-schoten-worden-gelost-verdachte-opgepakt~aefe328b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump spreekt pers toe na schietpartij bij Correspondents’ Dinner: “Niet bepaald een veilig gebouw”",
+        "url": "https://www.hln.be/buitenland/trump-spreekt-pers-toe-na-schietpartij-bij-correspondents-dinner-niet-bepaald-een-veilig-gebouw~a63592ba/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump spreekt pers toe na schietpartij bij Correspondents’ Dinner: ‘Niet bepaald een veilig gebouw’",
+        "url": "https://www.demorgen.be/snelnieuws/trump-spreekt-pers-toe-na-schietpartij-bij-correspondents-dinner-niet-bepaald-een-veilig-gebouw~b63592ba/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Schietpartij bij White House Correspondents’ Dinner: Trump en Vance in veiligheid gebracht, gewapende verdachte opgepakt",
+        "url": "https://www.demorgen.be/snelnieuws/schietpartij-bij-white-house-correspondents-dinner-trump-en-vance-in-veiligheid-gebracht-gewapende-verdachte-opgepakt~befe328b/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE. Schoten gelost tijdens persdiner van Trump - Beelden tonen hoe verdachte langs beveiliging rent",
+        "url": "https://www.nieuwsblad.be/buitenland/live.-schoten-gelost-tijdens-persdiner-van-trump-beelden-tonen-hoe-verdachte-langs-beveiliging-rent/148911615.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Traditioneel persdiner met Amerikaanse president brengt politiek, media en beroemdheden samen",
+        "url": "https://www.nieuwsblad.be/buitenland/traditioneel-persdiner-met-amerikaanse-president-brengt-politiek-media-en-beroemdheden-samen/148949496.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "Trump geëvacueerd na geweerschoten tijdens jaarlijks diner met journalisten, schutter opgepakt",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-geevacueerd-na-geweerschoten-tijdens-jaarlijks-diner-met-journalisten-schutter-opgepakt/148889663.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump ontvangt winnaars van cryptowedstrijd op Mar-a-Lago maar waarde van $TRUMP-munt zakt tijdens zijn toespraak verder weg",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-ontvangt-winnaars-van-cryptowedstrijd-op-mar-a-lago-maar-waarde-van-trump-munt-zakt-tijdens-zijn-toespraak-verder-weg/148820848.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE. Schoten gelost tijdens persdiner van Trump - Beelden tonen hoe verdachte langs beveiliging rent",
+        "url": "https://www.hbvl.be/buitenland/live.-schoten-gelost-tijdens-persdiner-van-trump-beelden-tonen-hoe-verdachte-langs-beveiliging-rent/149013248.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Incident White House Correspondents' Dinner : Schutter gearresteerd, Trump geëvacueerd en ongedeerd - Knack",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOak9XRW1hTjJfT1E1U09PcGY5TWxCLWQtek84SDlwbjJ6MTRCOXhIZ0M3eTQ1RGRkS3FuQ3M5anJTbDBpUHMxaHZ5eG1BU3d6TEZtcm1UTGtsZkZJNmNEX2dLRGlsRHpvaGgxRDA0UnAyVXk5WHRuWkRPNzgxUWFIN0d1S3RDUUFMNWhQaFNjd1lUcVN5ZkFCcjFPSGZFV1pjVV9sdXVhTmdhSGpDZEpVVmdhbTBmM3RoTlo2MGY3MWxaamlVT3lsWUFkVmNETDVsT0l2RDlFN1ZSeGpxSlV3T20zeGZTOUM3b014OUJHUGVrT1FvVmhfbU9TRFRUWEVIQzlicA?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump évacué et indemne après des tirs au dîner des correspondants à la Maison Blanche, le tireur arrêté (photos et videos)",
+        "url": "https://www.rtbf.be/article/donald-trump-evacue-et-indemne-apres-des-tirs-au-diner-des-correspondants-a-la-maison-blanche-le-tireur-arrete-photos-et-videos-11715469",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "”Restez à terre !” : Donald Trump évacué du Dîner des correspondants de la Maison-Blanche après des coups de feu",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/26/restez-a-terre-donald-trump-evacue-du-diner-des-correspondants-de-la-maison-blanche-apres-des-coups-de-feu-WDVOAUTY6ZD3LBCT2CI2SNXDNM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump évacué après des tirs lors d’un gala de presse à la Maison Blanche: un blessé, un suspect arrêté",
+        "url": "https://www.7sur7.be/monde/trump-evacue-apres-des-tirs-lors-dun-gala-de-presse-a-la-maison-blanche-un-blesse-un-suspect-arrete~af7f583a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump geëvacueerd van White House Correspondents' Dinner - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUUwtV1hWMEZYaXE0eGRKdjktN1lCQjNOM2ZaLWpCNnNUNkdDNVk3ekhXMWlZbmZlTjNrSGxUb0hEcmdpeTdEdjhqWmpaS3hmV0RGdDlNbXlrcVpCR0ZPSDI4X0w4RGNQM2p0cUNWNVBwMGxkaFlCRXFWejhCMFJiV0hiZWF0UHZpczRBNmluZE9yLVpkYV9HV3hXTGROcTFHeFgwaW1XbWI3T19fUjh1VGc0SVlUY1NVblRIdlJET0R4Znc?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump na schietincident geëvacueerd van White House Correspondents' Dinner - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSElodGNEaEk0UUxOQUxnTmo3QnNIOUY2cTFYT3lqOU9BNWtQOTY1ZmxCWkxTMllxVm5TS1JKNTM3ankwZWpDQTQ4S1FKUUtxbFZ0S2gtd3RiSDRCUmxNZm05YldvQVl5aU5jSEJrQVJnTWlZaXhlQmV2ZjZleDlSZ2dCLTlIV0lDQkFtVHJOZG5KVXg3Zm5tWVdfZ1hXSFM0NWlRUEY3RmxUUTdSZ1dLdzVwbXVaNVRzcHlfWjdUY0NLSC1jX01QWEx4S09TWW0xYzhNeFp5VlpqNFE?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Un gala organisé par Donald Trump évacué d’urgence : un tireur lourdement armé a tenté de faire irruption - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSWVBcXZSbVZ6YS0yMU14Y1dkWXFNNGp0Y3VXTXFlQ0w1Rmo2d2JjWWJCczdJb0JiRmlxMHMycFhqTndxdVJYNDg4dU1iUGV2bjU2amVBdmpWVnh0MGUwWXRRQ2RZODk3N2x3a3N1V3VtWGZERFBGT2Naa0FUdnJpVkZzeDdoR1pPcnNyOGw5aEs1THFZYXYtUzRCMFpzNDladWtPMjVBcFFHZjdubHcxb29mSXNXOFF3X1pENE5JSkRrWkRxbXVtY1h1a09IRjg2b3c?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump spreekt pers toe na schietpartij bij Correspondents’ Dinner: “Niet bepaald een veilig gebouw” - hln.be",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZDhTcVJyRFpyWTFjeHNRbkNDVjVjRE9VbFZUZGNmVi00NXYwQ194SGllLXJGTXZlSFg3MHo5THNQQVl1YURiMTREN1RTTmNCOHF1UUZ4N3hoNzdDc1lhUDVKbjJZMGFmRVl3ZGRveGxJR2o2VXdYS2lsR2hpTHJZeHlCR05fYmEzVkhXOFRicF9iQkQtVElYR1hoSHl2cFM0TnpzTDkwV0dGSlUzZHdId05HeGk4RTVLNnFNOU1XZ1hMS2NvN2ZGR016cmdTRDhT?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump évacué et indemne après des tirs au dîner des correspondants à la Maison Blanche, le tireur arrêté - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSzM4T21wbTRPcUFmMG1peDB1RDZhUFVlREJnUWtGOVpRQ2FGa3d3TG9Qa2ZZYjZYWHZUeFc5TTNQNTBJbndvNUg3ZUlBcXBobl9hcmJ4SVRZWXZaOTRCSlpWQ1JSbmlTcWE2UEppVTh5UnMwZ0puMmNLTmpROXVCeDd2d0tZR3BjZncwNFV3LXFTM2VJeHRPYkE3TlIxUVE5WkgxVndxaXljM1hxZVJQeXhXaDVZWHF1SmdLMmdHakhya1FXZG83VjJXWUpZbUpnT05vV0FXRW5WT0RCRk1PNQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump vertelt over het moment van de schoten en hoe Melania reageerde: “Eng geluid” - hln.be",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdllvMy13YW9ESk5nQ2ZrZ0hmVnJrbEFlcTBVdlBTczFFSEZVVGRaUERBMGhtMHpXN3g2S3ZFSENtcWY4WnI4NzdXdm1KOWpkaDlHRHBCVDg2czRfSzZtcURsX0Z4TXRMV0xlQ3puUHhCQ0pNSUMyY2NOcUVYWHhlVUYyeXVGWFBDQS15RnYxTVJfWGpyUFpBYmdSeEpTYnJPV05kLUFveGpRTXFrR08xT214Q19OeXJrUlhIVA?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Schutter probeert White House Correspondents’ Dinner binnen te dringen: Trump geëvacueerd, verdachte gearresteerd",
+        "url": "https://vrtnws.be/p.0Y6B11NyZ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Wat weten we over de schutter die het Correspondents’ Dinner van het Witte Huis probeerde binnen te dringen?",
+        "url": "https://www.hln.be/buitenland/wat-weten-we-over-de-schutter-die-het-correspondents-dinner-van-het-witte-huis-probeerde-binnen-te-dringen~a1ca5ed7/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "KIJK. Beelden tonen chaos: Trump en vicepresident JD Vance in allerijl geëvacueerd na schietincident, aanwezigen duiken onder de tafel",
+        "url": "https://www.hln.be/nieuws/kijk-beelden-tonen-chaos-trump-en-vicepresident-jd-vance-in-allerijl-geevacueerd-na-schietincident-aanwezigen-duiken-onder-de-tafel~ad2f37c8/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Schietpartij zal me niet afschrikken van Iran-oorlog”",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Mexico en Canada betuigen steun aan Trump na schietincident",
+        "url": "https://www.hln.be/buitenland/mexico-en-canada-betuigen-steun-aan-trump-na-schietincident~a767cf22/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Poging tot aanslag bij persdiner Trump: president in veiligheid gebracht nadat schoten worden gelost, verdachte opgepakt",
+        "url": "https://www.hln.be/buitenland/poging-tot-aanslag-bij-persdiner-trump-president-in-veiligheid-gebracht-nadat-schoten-worden-gelost-verdachte-opgepakt~aefe328b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump spreekt pers toe na schietpartij bij Correspondents’ Dinner: “Niet bepaald een veilig gebouw”",
+        "url": "https://www.hln.be/buitenland/trump-spreekt-pers-toe-na-schietpartij-bij-correspondents-dinner-niet-bepaald-een-veilig-gebouw~a63592ba/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump spreekt pers toe na schietpartij bij Correspondents’ Dinner: ‘Niet bepaald een veilig gebouw’",
+        "url": "https://www.demorgen.be/snelnieuws/trump-spreekt-pers-toe-na-schietpartij-bij-correspondents-dinner-niet-bepaald-een-veilig-gebouw~b63592ba/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Schietpartij bij White House Correspondents’ Dinner: Trump en Vance in veiligheid gebracht, gewapende verdachte opgepakt",
+        "url": "https://www.demorgen.be/snelnieuws/schietpartij-bij-white-house-correspondents-dinner-trump-en-vance-in-veiligheid-gebracht-gewapende-verdachte-opgepakt~befe328b/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE. Schoten gelost tijdens persdiner van Trump - Beelden tonen hoe verdachte langs beveiliging rent",
+        "url": "https://www.nieuwsblad.be/buitenland/live.-schoten-gelost-tijdens-persdiner-van-trump-beelden-tonen-hoe-verdachte-langs-beveiliging-rent/148911615.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Traditioneel persdiner met Amerikaanse president brengt politiek, media en beroemdheden samen",
+        "url": "https://www.nieuwsblad.be/buitenland/traditioneel-persdiner-met-amerikaanse-president-brengt-politiek-media-en-beroemdheden-samen/148949496.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "Trump geëvacueerd na geweerschoten tijdens jaarlijks diner met journalisten, schutter opgepakt",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-geevacueerd-na-geweerschoten-tijdens-jaarlijks-diner-met-journalisten-schutter-opgepakt/148889663.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump ontvangt winnaars van cryptowedstrijd op Mar-a-Lago maar waarde van $TRUMP-munt zakt tijdens zijn toespraak verder weg",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-ontvangt-winnaars-van-cryptowedstrijd-op-mar-a-lago-maar-waarde-van-trump-munt-zakt-tijdens-zijn-toespraak-verder-weg/148820848.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE. Schoten gelost tijdens persdiner van Trump - Beelden tonen hoe verdachte langs beveiliging rent",
+        "url": "https://www.gva.be/buitenland/live.-schoten-gelost-tijdens-persdiner-van-trump-beelden-tonen-hoe-verdachte-langs-beveiliging-rent/148911903.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Traditioneel persdiner met Amerikaanse president brengt politiek, media en beroemdheden samen",
+        "url": "https://www.gva.be/buitenland/traditioneel-persdiner-met-amerikaanse-president-brengt-politiek-media-en-beroemdheden-samen/148949893.html",
+        "source": "gva",
+        "name_only": false
+      },
+      {
+        "title": "Trump geëvacueerd na geweerschoten tijdens jaarlijks diner met journalisten, schutter opgepakt",
+        "url": "https://www.gva.be/buitenland/trump-geevacueerd-na-geweerschoten-tijdens-jaarlijks-diner-met-journalisten-schutter-opgepakt/148889857.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump ontvangt winnaars van cryptowedstrijd op Mar-a-Lago maar waarde van $TRUMP-munt zakt tijdens zijn toespraak verder weg",
+        "url": "https://www.gva.be/buitenland/trump-ontvangt-winnaars-van-cryptowedstrijd-op-mar-a-lago-maar-waarde-van-trump-munt-zakt-tijdens-zijn-toespraak-verder-weg/148822074.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE. Schoten gelost tijdens persdiner van Trump - Beelden tonen hoe verdachte langs beveiliging rent",
+        "url": "https://www.hbvl.be/buitenland/live.-schoten-gelost-tijdens-persdiner-van-trump-beelden-tonen-hoe-verdachte-langs-beveiliging-rent/149013248.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Incident White House Correspondents' Dinner : Schutter gearresteerd, Trump geëvacueerd en ongedeerd - Knack",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOak9XRW1hTjJfT1E1U09PcGY5TWxCLWQtek84SDlwbjJ6MTRCOXhIZ0M3eTQ1RGRkS3FuQ3M5anJTbDBpUHMxaHZ5eG1BU3d6TEZtcm1UTGtsZkZJNmNEX2dLRGlsRHpvaGgxRDA0UnAyVXk5WHRuWkRPNzgxUWFIN0d1S3RDUUFMNWhQaFNjd1lUcVN5ZkFCcjFPSGZFV1pjVV9sdXVhTmdhSGpDZEpVVmdhbTBmM3RoTlo2MGY3MWxaamlVT3lsWUFkVmNETDVsT0l2RDlFN1ZSeGpxSlV3T20zeGZTOUM3b014OUJHUGVrT1FvVmhfbU9TRFRUWEVIQzlicA?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump évacué et indemne après des tirs au dîner des correspondants à la Maison Blanche, le tireur arrêté (photos et videos)",
+        "url": "https://www.rtbf.be/article/donald-trump-evacue-et-indemne-apres-des-tirs-au-diner-des-correspondants-a-la-maison-blanche-le-tireur-arrete-photos-et-videos-11715469",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "”Restez à terre !” : Donald Trump évacué du Dîner des correspondants de la Maison-Blanche après des coups de feu",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/26/restez-a-terre-donald-trump-evacue-du-diner-des-correspondants-de-la-maison-blanche-apres-des-coups-de-feu-WDVOAUTY6ZD3LBCT2CI2SNXDNM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump évacué après des tirs lors d’un gala de presse à la Maison Blanche: un blessé, un suspect arrêté",
+        "url": "https://www.7sur7.be/monde/trump-evacue-apres-des-tirs-lors-dun-gala-de-presse-a-la-maison-blanche-un-blesse-un-suspect-arrete~af7f583a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump geëvacueerd van White House Correspondents' Dinner - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUUwtV1hWMEZYaXE0eGRKdjktN1lCQjNOM2ZaLWpCNnNUNkdDNVk3ekhXMWlZbmZlTjNrSGxUb0hEcmdpeTdEdjhqWmpaS3hmV0RGdDlNbXlrcVpCR0ZPSDI4X0w4RGNQM2p0cUNWNVBwMGxkaFlCRXFWejhCMFJiV0hiZWF0UHZpczRBNmluZE9yLVpkYV9HV3hXTGROcTFHeFgwaW1XbWI3T19fUjh1VGc0SVlUY1NVblRIdlJET0R4Znc?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump na schietincident geëvacueerd van White House Correspondents' Dinner - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSElodGNEaEk0UUxOQUxnTmo3QnNIOUY2cTFYT3lqOU9BNWtQOTY1ZmxCWkxTMllxVm5TS1JKNTM3ankwZWpDQTQ4S1FKUUtxbFZ0S2gtd3RiSDRCUmxNZm05YldvQVl5aU5jSEJrQVJnTWlZaXhlQmV2ZjZleDlSZ2dCLTlIV0lDQkFtVHJOZG5KVXg3Zm5tWVdfZ1hXSFM0NWlRUEY3RmxUUTdSZ1dLdzVwbXVaNVRzcHlfWjdUY0NLSC1jX01QWEx4S09TWW0xYzhNeFp5VlpqNFE?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Un gala organisé par Donald Trump évacué d’urgence : un tireur lourdement armé a tenté de faire irruption - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSWVBcXZSbVZ6YS0yMU14Y1dkWXFNNGp0Y3VXTXFlQ0w1Rmo2d2JjWWJCczdJb0JiRmlxMHMycFhqTndxdVJYNDg4dU1iUGV2bjU2amVBdmpWVnh0MGUwWXRRQ2RZODk3N2x3a3N1V3VtWGZERFBGT2Naa0FUdnJpVkZzeDdoR1pPcnNyOGw5aEs1THFZYXYtUzRCMFpzNDladWtPMjVBcFFHZjdubHcxb29mSXNXOFF3X1pENE5JSkRrWkRxbXVtY1h1a09IRjg2b3c?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 19,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 25,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 9,
+      "crime": 4,
+      "eu": 6,
+      "politics": 8,
+      "be_gov": 2,
+      "culture": 6,
+      "tech": 1,
+      "economy": 3,
+      "sports": 13,
+      "health": 0,
+      "climate": 2,
+      "migration": 0,
+      "education": 0,
+      "weather": 4
+    },
+    "wide_themes": {
+      "war": 11,
+      "crime": 7,
+      "eu": 10,
+      "politics": 14,
+      "be_gov": 2,
+      "culture": 7,
+      "tech": 1,
+      "economy": 6,
+      "sports": 20,
+      "health": 0,
+      "climate": 3,
+      "migration": 0,
+      "education": 0,
+      "weather": 6
+    }
   }
 ]
