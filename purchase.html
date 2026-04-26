@@ -429,7 +429,7 @@
             const photo = getSelectedPhoto();
             if (photo) {
                 document.getElementById('preview-image').src = photo.src;
-                document.getElementById('preview-image').alt = photo.title;
+                document.getElementById('preview-image').alt = '';
             }
         }
 
@@ -460,7 +460,7 @@
             PHOTOS.forEach(photo => {
                 const option = document.createElement('option');
                 option.value = photo.key;
-                option.textContent = `${photo.id} - ${photo.title}, ${photo.location}`;
+                option.textContent = `${photo.id} - ${photo.location}, ${photo.date}`;
                 printSelect.appendChild(option);
             });
 
@@ -501,7 +501,7 @@
                         const photo = getSelectedPhoto();
                         const size = getSelectedSize();
                         const amount = calculatePrice();
-                        const description = `${photo.id} - ${photo.title} (${size.label})`;
+                        const description = `${photo.id} - ${photo.location} (${size.label})`;
 
                         return actions.order.create({
                             purchase_units: [{
