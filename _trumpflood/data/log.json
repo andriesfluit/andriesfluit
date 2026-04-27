@@ -7635,5 +7635,699 @@
       "weather": 6
     },
     "note": "Shooting at White House Correspondents' Dinner — Trump evacuated. Exceptional news spike, not representative of structural media attention."
+  },
+  {
+    "date": "2026-04-27",
+    "generated_at": "2026-04-27T08:16:54+02:00",
+    "last_checked_at": "2026-04-27T08:16:54+02:00",
+    "total_articles": 374,
+    "trump_articles": 17,
+    "percentage": 4.5,
+    "core_percentage": 4.5,
+    "core_percentage_name": 4.5,
+    "trump_articles_expanded": 20,
+    "core_percentage_expanded": 5.3,
+    "indirect_references": 3,
+    "wide_total_articles": 491,
+    "wide_trump_articles": 25,
+    "wide_percentage": 5.1,
+    "wide_trump_articles_expanded": 29,
+    "wide_percentage_expanded": 5.9,
+    "macro_percentage": 5.2,
+    "qualifying_outlets": 15,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 53,
+    "cross_outlet_dup_groups": 26,
+    "cross_outlet_dup_rate": 14.2,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 3.4,
+    "breadth": 0.69,
+    "deviation": 1.73,
+    "smoothed_pct": 4.59,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 5,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 40.0
+      },
+      "google_nl_politics": {
+        "fetched": 49,
+        "today": 5,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 25.0
+      },
+      "google_nl_world": {
+        "fetched": 47,
+        "today": 10,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 66,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 47,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 34,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 33,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 53,
+        "kept": 40,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.5
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 37,
+        "kept": 37,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.7
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 3,
+        "share": 11.11
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "lecho": {
+        "fetched": 88,
+        "today": 33,
+        "kept": 33,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.06
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 26,
+        "kept": 25,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 8.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 11,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "trends_g": {
+        "fetched": 36,
+        "today": 4,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 37,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump speelt nieuwe aanslag meteen uit: “Zie je wel dat mijn balzaal nodig is” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX0tWeFdBdTh6UER3eEFkQWo1dHliQ2JVNVFsenphV0NYWjFmSVEwcXZ2aGFLTmR3TUxfUUFFbmJtbG5fRHFKLXBzcHN2M0dpZTMyV21uaHljcDJuX0NBNjF0T2F6Ry1UYTBzb3kwOTVjREFGekhrampvMFFkYzYya2x0TzFLaXBtb1A4cDFoTDFJZVdwTzFHc2E2V29jMEJwbW5xcmxpWndYUDJUQlgwaXN1VDlXTlJaUXhmcjgyNHBWWFhs?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump reageert fel op manifest van verijdelde schutter: “Ik ben geen pedofiel of verkrachter”",
+        "url": "https://www.hln.be/buitenland/trump-reageert-fel-op-manifest-van-verijdelde-schutter-ik-ben-geen-pedofiel-of-verkrachter~a1648d4f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "LIVE SCHIETPARTIJ PERSDINER. Trump reageert fel op vraag over manifest van schutter: “Ik heb niemand verkracht, ook al schrijft hij dat”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-schietpartij-persdiner.-trump-reageert-fel-op-vraag-over-manifest-van-schutter-ik-heb-niemand-verkracht-ook-al-schrijft-hij-dat/148911615.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Koning Charles op staatsbezoek bij Donald Trump: een uiterst wankele balanceeroefening",
+        "url": "https://www.nieuwsblad.be/binnenland/koning-charles-op-staatsbezoek-bij-donald-trump-een-uiterst-wankele-balanceeroefening/148565808.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE SCHIETPARTIJ PERSDINER. Trump reageert fel op vraag over manifest van schutter: “Ik heb niemand verkracht, ook al schrijft hij dat”",
+        "url": "https://www.hbvl.be/buitenland/live-schietpartij-persdiner.-trump-reageert-fel-op-vraag-over-manifest-van-schutter-ik-heb-niemand-verkracht-ook-al-schrijft-hij-dat/149013248.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : Trump reçoit le roi Charles dans la foulée de l’attaque au gala de la presse",
+        "url": "https://www.rtbf.be/article/etats-unis-trump-recoit-le-roi-charles-dans-la-foulee-de-l-attaque-au-gala-de-la-presse-11715778",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Tirs au gala des correspondants de la Maison blanche : le suspect présenté à la justice américaine",
+        "url": "https://www.rtbf.be/article/tirs-au-gala-des-correspondants-de-la-maison-blanche-le-suspect-presente-a-la-justice-americaine-11715767",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Tirs au gala des correspondants de la Maison blanche : où en est l’enquête ?",
+        "url": "https://www.rtbf.be/article/tirs-au-gala-des-correspondants-de-la-maison-blanche-ou-en-est-l-enquete-11715570",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Donald Trump reçoit le roi Charles, \"un mec super\", dans la foulée de l'attaque au gala de la presse",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/27/donald-trump-recoit-le-roi-charles-dans-la-foulee-de-lattaque-au-gala-de-la-presse-cest-un-mec-super-XQ3DS77LAVDETD4VUUUN3U76ZY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Barack Obama réagit à l'attaque qui a visé le gala à Washington avec Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/27/barack-obama-reagit-a-lattaque-qui-a-vise-le-gala-a-washington-avec-trump-3SLZFMR6P5GR5NYGB6RKV665WE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Abbas Araghchi reçu par Poutine à Moscou ce lundi, l'Iran fait une contre-proposition à Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNZHJ3OVlJWjh5bzd6OXh4aHVJYklMYWs1dGRZYjJWWFFiaUlXNURscVR6NUF0bW1CUHFVdWVuZWptT1l3SkN3WkdWbTZqRXhqUGhyTDJoRFBGQ09xUS0zeVBtTkpmZi1FN19WNGZzWk1ZbzRWSWo2Y0ZfVDNUNm9QeC1uMEEzckkteHNJRTczaTAtRUVON21Ga2JQcDdhdzFIQmtwTGYyMnpyb0lReXpBcXhRZV9mQ1VyUmtIMWFWRmlJMkx6REVPeWZyRVp3blduTE8zQXlza1RuSS1IRDJCMFN5TXJMbEpKamtqVUJscnpUVVkyUVpGaHNFbjZLVk1YM3ZfYjhpQzlHTEJRZXRPZEtpb1BvbDdhRnFLVW44UUlpY2tkUnZFMjRHZV90S0U?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: l'Iran propose à Trump de rouvrir Ormuz, mais de reporter les discussions sur le nucléaire - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPdTFQbzhPRGNWX0ViQUZzU0k4RVV0cGY3MmhfQW1pdExVR2labFdzLWhMTTc4VHRkbFZqUHVsd1dsakNBeHRBV18yQUlKYWVUcWV1dTFEcUw4R05iSHpPakU4OTExQTFSS3U4MkY3NjQ0UldoZVRSbEJXbEdFcjI0V1V5LUpvVlhmaHNPRlNSOTBfV1lHaE1oQk1acmtFVHpIcjFBMVMwdDAtbEhhdTF5bGZVX3FQbFRCRW5RTTRmWk56emxTM1NLV3RMaUxNWUhLVDFFaDNtU01UOUJlTTJ4RVY3VWR5b1dFWGs2b3NuSjZGQlN0ZDgwS25tQ0c1UHVyNUhxZ1JpaHp2OWo4a1NWSjdvS05qQmVpckotaGFoMGNmaUlrZS1rd1NSdw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Billets, transports, hôtels, bières: comment la Coupe du Monde aux USA, sous la rage taxatoire de Trump, va racketter les supporters",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/04/27/150-dollars-la-navette-30-dollars-la-biere-comment-la-coupe-du-monde-aux-usa-sous-la-rage-taxatoire-de-trump-va-racketter-les-supporters-A7YUPFU3VBB6BCN64DB5DCR76A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Barack Obama réagit à l'attaque qui a visé le gala à Washington avec Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/27/barack-obama-reagit-a-lattaque-qui-a-vise-le-gala-a-washington-avec-trump-OUY2CRREDRHDXHKXIAKYADSTBI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“C’est de ma faute”: Trump reconnaît ne pas avoir facilité la tâche des agents de sécurité",
+        "url": "https://www.7sur7.be/monde/cest-de-ma-faute-trump-reconnait-ne-pas-avoir-facilite-la-tache-des-agents-de-securite~a61f3c06/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Depuis Trump, la violence politique ressurgit aux Etats-Unis - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaE1yamJVTnBGNWwwT0FfVUhTbTlfSkJnb0ZoVkpmcjJabnN2WndxYmwzVTRyLVFpd0doVXBVOS1KOEJaaDAyRUVPOGNTbFVOTGlZcjBCOFlpcE5sWV83Vzl3cFduVGkwWkdiVEsycVJoUE5MWG9rZUxqSVE5VTMwTHU4ME1JeThnbUN3TFRSWnNKUU1oWWJrNnZlOWlnOUZ2cGtjNThoVVF5Qms?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump une nouvelle fois sanctifié par son statut de victime ? Pas si vite… - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdEE4TzJsOXBzLXdFaTg0UkJnc2pDa0YzSjI0T3VfanhPdzRzN2xQZWM2SURKXzVZeHNCTURaTWNaS3BlSVpGcHphZ2FrZmNwM1FSNFB1SlU5bl9kUXJVc18tRnNLTDg4T1doamdUdlF6SFVZNXZXci1IYU1ZOTZmVmprUzF3X053STdwdmRKR0M3UmxmR0V1UGowQW1YTVd0NFMyUy1PeVlkNk43blBmZVhtWFU2M3RkdWFB?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Barack Obama réagit après les tirs au gala de la Maison-Blanche - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOGZJVVdGSnRfdll2cGJ1clpTNllpSjR4SVU1T0pMcGhrTXMwQWpYLTJvVHMzTTlTbl9TVmw3VjlVVFpfZGNIRldPei03VmJzckJpM04tUzF0Qm1zdFZwckpIcWJzMGhPbGdaUzVhVDhWbXd6ei1BZUhpSTY2dmwzc3p1cXYwWkpBSTIzbGJaeUsyOC1NRlFRcVowUnRsZmt5ZmZZR25kTDZFZHlYLW9zQQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      },
+      {
+        "title": "« Même si nous ne connaissons pas encore les détails… » : Barack Obama sort du silence après les tirs lors d’un gala en présence de Donald Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUlN5RWV4ZDJYNDJTLUhKZXNtV2JwUjJ3d0lIMl9Kd2RTVTExVlVzOUkxdkZBLU5NY25JRVFlVXJqY3lMWXVlSEVJcEl6cV9RV0N1LS0tMW9PVm9HaUJ4VkVnajZwSjdqU1Z5QjctLVBQT2ROam1LdW9oRXJxdXhZMFhSQnFPY044b3Z5QkhOQVViQWFqOEFtQ3U0TjQwQ2ktenZneEVidFVTS096RGc2blNmTXpKOXN2bUFKQjA0eWlISEE1TGpQODFDSzdMamFzNGhVM2tucnJXWDBJUjBrbUFQVQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Le suspect présenté à la justice, un manifeste « très antichrétien », Trump « pas inquiet »… : voici ce que l’on sait après les tirs au Gala de la presse - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOS3p3c1dKdFJ5Um9MUnJaYkZvVVlsejEyeFpmNnByMUVjWG5PWm1BcWFhZE9QTk1lTVBVVFVOS1FYMmp0LV9oLUJNdEpJNFo4cUh2UWNBbWxiQmtDMU1Xa1JPbmJtT0NFazk2bWZpbGFWX00tV2pxN2NsQjZfc01XdWVEckRQXzlTcHJQek1vZ3IxYloxNjBERFRSZmEteU9EY1JHbEt4UEV1TnQzWWZaVi1tUWxjZGdXQlVGVTNiTm5qTTlQVFFwZUFBcE83Z2xmeEFDSFBtN2R2aF85TTZtMExUaw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump reageert fel op manifest van verijdelde schutter: “Ik ben geen pedofiel of verkrachter” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORjlqb2dFbW10cVAzNGZCVUxIU1Q5cFNyUHBCMzJqZXI4aGVMVVZsQnRIdTJ4alJ4ZXBaSG9JTER0dDB4eHpMYkUzdFFNenVLc2pzbE1QSDJIQjFKeXpZcmxIN1RQa2FPX2lLWUlYVEprNmVXTmYzSTdJeXoyY3djMkxOZksyU3JzdnJqc3RXbjhBMDAtUEZ0ZnlUNUYwaWl4TWYzaXRhZGhGTW1CM0xPUjlPVGlTaVRfMF9tamFrc3hubzJfek5MUFpR?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Barack Obama réagit à l'attaque qui a visé le gala à Washington avec Trump - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQzBOOTRPcGhKb2cyWmdfMEk3Ri0xb1BaSDNob0YyWlR5U2RIUXJ0akFTNVBJT2JsaWZhRkYyaXhyUkZxR2p0TEQzVVhKUFMzTUc0UTA0eTJZbV92U0k4N1Q2ZFEwMHlOcTJaeURnZjdrMk9qWXRSaFktNDRCOW1jbTlId0c2TGx0MWhJMmc0WmVGdEtDTlZ3SGVwUlVrQmJsUlV1OGxJZmVqRF9nOWxTY0hHcjVlcGdnUXBvTWZ3U3c3WnBvZVlrYkQtQTVPWGs1N0d3NjJEWWdueGxjbUtYVjJWMHhFcmNoeVg0UURncw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "150 dollars la navette, 30 dollars la bière: comment la Coupe du Monde aux USA, sous la rage taxatoire de Trump, va racketter les supporters - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOaTdXZk9HS0QwRzFmbWxQTE9kdm1sSkVEX2Z1bzJrTmdwbmlONEpQMk1IZGc0cm5zT2V4SUNoODNlMTU3dE1uVkwyc3U4UlFNZWJpXzBjbXF0NDZuOTFwWG93eUlhRjdmb1UxbHducUM1emIxSzl6dWc1SzEycE5nUmZoNGVDLWhVYmJ4TUFOcDhzNnpESTVrM294R1NqZVVaTF81MGJ1dWN3d3ZJd2cyUkRyQVIzNzBHX1IxN3U3ZWk0REhDVi12aGFaNWVJMWlSbFZqdC03VVRZQmtxaGFhQ1duWWphYmZ0RU94WnR5aVFjZVlmdllYX0JHdkRBekJ3MDdET2xXaWJ5bTktWER2RTBUWmdpNmN6V3BJZmI1SUNzMGxYRlRrNVJzZkNmZGtRQXlEbUw4QzJXMDRwT29YaElsZFZjbk5KSUZr?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Onbedoelde voorspelling van woordvoerster Witte Huis komt uit en gaat viraal: “Er gaan schoten worden gelost” - GVA",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbThXbmhBRWxPVzZJbHVlQ0c0NHFNRm95dVI1RHlaTDRSZnVYSFlvcTdYT3RuZTdXUTU3dEdEbXlqRlBBME40MC1ESWNOdF83eFQ3RDdoVmNqRzZNZU9tSHp5MmZ1eWx5aHpIbk51NWZmUjN0aW9XbUlRVTRMVU9QM283U1F3eVZSdzl5cHBfaTVIamk3NjRlbTlzWWpVanhmQTVNOE12TzRGMnN3Yy1lU3VPOG91SEtia3FXWE1KUmlNLXcxWjZOUDV1RjBneWVWbFFMZi1QTHVneE1BMTJPa2ZiZEpuUQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Koning Charles op staatsbezoek bij Donald Trump: een uiterst wankele balanceeroefening - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVEN4UDBaTzdIdm5MbWtha08xM2t6SGxXcVgtQ2l6YkUtMGgyQXlkZWo5ZEFxamIydXBrY2V6QXJBWldFMDhIUnBvMk84c0FZUUlEVkk2M2h0cTlvTGg5dmlOUUdKRG5lYlJTYmtXczNjVUtFdWdnNWhVSGY1QkRVa0FLTmtuajExTlFuc2ZBaGRpMFFmOGlPVk1tMWNTNmppQlBCX2hkN0lDTUNMWDdQNDN4SGxVMFJVR2RTcENSeE0zbHRMN1R1M0drU3VGX2ZnRUZv?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "LIVE SCHIETPARTIJ PERSDINER. Trump reageert fel op vraag over manifest van schutter: “Ik heb niemand verkracht, ook al schrijft hij dat” - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPeW9xWGpXOExhR25KWFVpMm5lRDhFU0JzY1QwRlp3Z3VkbmZaV0xjZmRLRUhRZWlMX3dnQkhCTERJY1pyU3E4Sm1MVF9XV2FmRmQ3cjdrWmg1RXhXNjRZaDhVTENkYXpYSVQ0QWdJOTJHRXhYa29yQ1QwUlhFWTBfV0dqQU51RWUtWGdCRXY1QURDY2Ztb2tyYndMMS0zdkFReFlmMnNrenlhUjY4Qi15VkJrblF6NExpTXBuYXgwVkVVVzh2ZHpGc3FUY25va050OENPV0Y0MW1ENFA5a3hyNjFLYnFfUDR3cEJWckVzMlNwWU91SkpOQl9XUEowdGNlNkJucnEtX21EUQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump speelt nieuwe aanslag meteen uit: “Zie je wel dat mijn balzaal nodig is” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX0tWeFdBdTh6UER3eEFkQWo1dHliQ2JVNVFsenphV0NYWjFmSVEwcXZ2aGFLTmR3TUxfUUFFbmJtbG5fRHFKLXBzcHN2M0dpZTMyV21uaHljcDJuX0NBNjF0T2F6Ry1UYTBzb3kwOTVjREFGekhrampvMFFkYzYya2x0TzFLaXBtb1A4cDFoTDFJZVdwTzFHc2E2V29jMEJwbW5xcmxpWndYUDJUQlgwaXN1VDlXTlJaUXhmcjgyNHBWWFhs?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump reageert fel op manifest van verijdelde schutter: “Ik ben geen pedofiel of verkrachter”",
+        "url": "https://www.hln.be/buitenland/trump-reageert-fel-op-manifest-van-verijdelde-schutter-ik-ben-geen-pedofiel-of-verkrachter~a1648d4f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "LIVE SCHIETPARTIJ PERSDINER. Trump reageert fel op vraag over manifest van schutter: “Ik heb niemand verkracht, ook al schrijft hij dat”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-schietpartij-persdiner.-trump-reageert-fel-op-vraag-over-manifest-van-schutter-ik-heb-niemand-verkracht-ook-al-schrijft-hij-dat/148911615.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Koning Charles op staatsbezoek bij Donald Trump: een uiterst wankele balanceeroefening",
+        "url": "https://www.nieuwsblad.be/binnenland/koning-charles-op-staatsbezoek-bij-donald-trump-een-uiterst-wankele-balanceeroefening/148565808.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE SCHIETPARTIJ PERSDINER. Trump reageert fel op vraag over manifest van schutter: “Ik heb niemand verkracht, ook al schrijft hij dat”",
+        "url": "https://www.gva.be/buitenland/live-schietpartij-persdiner.-trump-reageert-fel-op-vraag-over-manifest-van-schutter-ik-heb-niemand-verkracht-ook-al-schrijft-hij-dat/148911903.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Koning Charles op staatsbezoek bij Donald Trump: een uiterst wankele balanceeroefening",
+        "url": "https://www.gva.be/binnenland/koning-charles-op-staatsbezoek-bij-donald-trump-een-uiterst-wankele-balanceeroefening/149203069.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Schietincident bij diner in Washington leidt tot nieuwe vragen over beveiliging van president Donald Trump, zelfs schutter uit kritiek op beveiligingsniveau",
+        "url": "https://www.gva.be/buitenland/schietincident-bij-diner-in-washington-leidt-tot-nieuwe-vragen-over-beveiliging-van-president-donald-trump-zelfs-schutter-uit-kritiek-op-beveiligingsniveau/149422877.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE SCHIETPARTIJ PERSDINER. Trump reageert fel op vraag over manifest van schutter: “Ik heb niemand verkracht, ook al schrijft hij dat”",
+        "url": "https://www.hbvl.be/buitenland/live-schietpartij-persdiner.-trump-reageert-fel-op-vraag-over-manifest-van-schutter-ik-heb-niemand-verkracht-ook-al-schrijft-hij-dat/149013248.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : Trump reçoit le roi Charles dans la foulée de l’attaque au gala de la presse",
+        "url": "https://www.rtbf.be/article/etats-unis-trump-recoit-le-roi-charles-dans-la-foulee-de-l-attaque-au-gala-de-la-presse-11715778",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Tirs au gala des correspondants de la Maison blanche : le suspect présenté à la justice américaine",
+        "url": "https://www.rtbf.be/article/tirs-au-gala-des-correspondants-de-la-maison-blanche-le-suspect-presente-a-la-justice-americaine-11715767",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Tirs au gala des correspondants de la Maison blanche : où en est l’enquête ?",
+        "url": "https://www.rtbf.be/article/tirs-au-gala-des-correspondants-de-la-maison-blanche-ou-en-est-l-enquete-11715570",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Donald Trump reçoit le roi Charles, \"un mec super\", dans la foulée de l'attaque au gala de la presse",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/27/donald-trump-recoit-le-roi-charles-dans-la-foulee-de-lattaque-au-gala-de-la-presse-cest-un-mec-super-XQ3DS77LAVDETD4VUUUN3U76ZY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Barack Obama réagit à l'attaque qui a visé le gala à Washington avec Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/27/barack-obama-reagit-a-lattaque-qui-a-vise-le-gala-a-washington-avec-trump-3SLZFMR6P5GR5NYGB6RKV665WE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Abbas Araghchi reçu par Poutine à Moscou ce lundi, l'Iran fait une contre-proposition à Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNZHJ3OVlJWjh5bzd6OXh4aHVJYklMYWs1dGRZYjJWWFFiaUlXNURscVR6NUF0bW1CUHFVdWVuZWptT1l3SkN3WkdWbTZqRXhqUGhyTDJoRFBGQ09xUS0zeVBtTkpmZi1FN19WNGZzWk1ZbzRWSWo2Y0ZfVDNUNm9QeC1uMEEzckkteHNJRTczaTAtRUVON21Ga2JQcDdhdzFIQmtwTGYyMnpyb0lReXpBcXhRZV9mQ1VyUmtIMWFWRmlJMkx6REVPeWZyRVp3blduTE8zQXlza1RuSS1IRDJCMFN5TXJMbEpKamtqVUJscnpUVVkyUVpGaHNFbjZLVk1YM3ZfYjhpQzlHTEJRZXRPZEtpb1BvbDdhRnFLVW44UUlpY2tkUnZFMjRHZV90S0U?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: l'Iran propose à Trump de rouvrir Ormuz, mais de reporter les discussions sur le nucléaire - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPdTFQbzhPRGNWX0ViQUZzU0k4RVV0cGY3MmhfQW1pdExVR2labFdzLWhMTTc4VHRkbFZqUHVsd1dsakNBeHRBV18yQUlKYWVUcWV1dTFEcUw4R05iSHpPakU4OTExQTFSS3U4MkY3NjQ0UldoZVRSbEJXbEdFcjI0V1V5LUpvVlhmaHNPRlNSOTBfV1lHaE1oQk1acmtFVHpIcjFBMVMwdDAtbEhhdTF5bGZVX3FQbFRCRW5RTTRmWk56emxTM1NLV3RMaUxNWUhLVDFFaDNtU01UOUJlTTJ4RVY3VWR5b1dFWGs2b3NuSjZGQlN0ZDgwS25tQ0c1UHVyNUhxZ1JpaHp2OWo4a1NWSjdvS05qQmVpckotaGFoMGNmaUlrZS1rd1NSdw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Billets, transports, hôtels, bières: comment la Coupe du Monde aux USA, sous la rage taxatoire de Trump, va racketter les supporters",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/04/27/150-dollars-la-navette-30-dollars-la-biere-comment-la-coupe-du-monde-aux-usa-sous-la-rage-taxatoire-de-trump-va-racketter-les-supporters-A7YUPFU3VBB6BCN64DB5DCR76A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Barack Obama réagit à l'attaque qui a visé le gala à Washington avec Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/27/barack-obama-reagit-a-lattaque-qui-a-vise-le-gala-a-washington-avec-trump-OUY2CRREDRHDXHKXIAKYADSTBI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“C’est de ma faute”: Trump reconnaît ne pas avoir facilité la tâche des agents de sécurité",
+        "url": "https://www.7sur7.be/monde/cest-de-ma-faute-trump-reconnait-ne-pas-avoir-facilite-la-tache-des-agents-de-securite~a61f3c06/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Depuis Trump, la violence politique ressurgit aux Etats-Unis - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaE1yamJVTnBGNWwwT0FfVUhTbTlfSkJnb0ZoVkpmcjJabnN2WndxYmwzVTRyLVFpd0doVXBVOS1KOEJaaDAyRUVPOGNTbFVOTGlZcjBCOFlpcE5sWV83Vzl3cFduVGkwWkdiVEsycVJoUE5MWG9rZUxqSVE5VTMwTHU4ME1JeThnbUN3TFRSWnNKUU1oWWJrNnZlOWlnOUZ2cGtjNThoVVF5Qms?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump une nouvelle fois sanctifié par son statut de victime ? Pas si vite… - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdEE4TzJsOXBzLXdFaTg0UkJnc2pDa0YzSjI0T3VfanhPdzRzN2xQZWM2SURKXzVZeHNCTURaTWNaS3BlSVpGcHphZ2FrZmNwM1FSNFB1SlU5bl9kUXJVc18tRnNLTDg4T1doamdUdlF6SFVZNXZXci1IYU1ZOTZmVmprUzF3X053STdwdmRKR0M3UmxmR0V1UGowQW1YTVd0NFMyUy1PeVlkNk43blBmZVhtWFU2M3RkdWFB?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Barack Obama réagit après les tirs au gala de la Maison-Blanche - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOGZJVVdGSnRfdll2cGJ1clpTNllpSjR4SVU1T0pMcGhrTXMwQWpYLTJvVHMzTTlTbl9TVmw3VjlVVFpfZGNIRldPei03VmJzckJpM04tUzF0Qm1zdFZwckpIcWJzMGhPbGdaUzVhVDhWbXd6ei1BZUhpSTY2dmwzc3p1cXYwWkpBSTIzbGJaeUsyOC1NRlFRcVowUnRsZmt5ZmZZR25kTDZFZHlYLW9zQQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      },
+      {
+        "title": "« Même si nous ne connaissons pas encore les détails… » : Barack Obama sort du silence après les tirs lors d’un gala en présence de Donald Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUlN5RWV4ZDJYNDJTLUhKZXNtV2JwUjJ3d0lIMl9Kd2RTVTExVlVzOUkxdkZBLU5NY25JRVFlVXJqY3lMWXVlSEVJcEl6cV9RV0N1LS0tMW9PVm9HaUJ4VkVnajZwSjdqU1Z5QjctLVBQT2ROam1LdW9oRXJxdXhZMFhSQnFPY044b3Z5QkhOQVViQWFqOEFtQ3U0TjQwQ2ktenZneEVidFVTS096RGc2blNmTXpKOXN2bUFKQjA0eWlISEE1TGpQODFDSzdMamFzNGhVM2tucnJXWDBJUjBrbUFQVQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Le suspect présenté à la justice, un manifeste « très antichrétien », Trump « pas inquiet »… : voici ce que l’on sait après les tirs au Gala de la presse - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOS3p3c1dKdFJ5Um9MUnJaYkZvVVlsejEyeFpmNnByMUVjWG5PWm1BcWFhZE9QTk1lTVBVVFVOS1FYMmp0LV9oLUJNdEpJNFo4cUh2UWNBbWxiQmtDMU1Xa1JPbmJtT0NFazk2bWZpbGFWX00tV2pxN2NsQjZfc01XdWVEckRQXzlTcHJQek1vZ3IxYloxNjBERFRSZmEteU9EY1JHbEt4UEV1TnQzWWZaVi1tUWxjZGdXQlVGVTNiTm5qTTlQVFFwZUFBcE83Z2xmeEFDSFBtN2R2aF85TTZtMExUaw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 17,
+      "putin": 4,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 25,
+      "putin": 5,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 24,
+      "crime": 9,
+      "eu": 14,
+      "politics": 7,
+      "be_gov": 13,
+      "culture": 4,
+      "tech": 3,
+      "economy": 9,
+      "sports": 22,
+      "health": 3,
+      "climate": 10,
+      "migration": 1,
+      "education": 2,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 32,
+      "crime": 11,
+      "eu": 19,
+      "politics": 10,
+      "be_gov": 16,
+      "culture": 7,
+      "tech": 3,
+      "economy": 11,
+      "sports": 33,
+      "health": 4,
+      "climate": 13,
+      "migration": 2,
+      "education": 2,
+      "weather": 9
+    }
   }
 ]
