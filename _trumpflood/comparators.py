@@ -59,14 +59,55 @@ COMPARATORS = [
 # breadth, rank and dominance on one consistent yardstick).
 TRUMP_NAME_PATTERN = next(c["pattern"] for c in COMPARATORS if c["key"] == "trump")
 
+# Family members and Trump-branded properties. A headline whose only
+# `\btrump\b` match is one of these is dropped from the Donald-Trump count:
+# Trump Tower is a building, Eric Trump is the president's son, etc. Mixed
+# headlines ("Donald Trump met Trump Jr.") survive because the strip leaves
+# the standalone `Trump` token intact for re-matching.
+_TRUMP_NON_DONALD_PATTERN = re.compile(
+    r"(?:donald\s+)?trump\s+jr\.?(?=\b)"
+    r"|(?:donald\s+)?trump\s+junior\b"
+    r"|\beric\s+trump\b"
+    r"|\bivanka\s+trump\b"
+    r"|\bmelania\s+trump\b"
+    r"|\bbarron\s+trump\b"
+    r"|\btiffany\s+trump\b"
+    r"|\blara\s+trump\b"
+    r"|\btrump\s+towers?\b"
+    r"|\btrump\s+organi[sz]ation\b"
+    r"|\btrump\s+international\b"
+    r"|\btrump\s+hotels?\b"
+    r"|\btrump\s+plaza\b"
+    r"|\btrump\s+golf\b",
+    re.IGNORECASE,
+)
+
+
+def contains_donald_trump(title):
+    """True if the headline references Donald Trump himself (the president),
+    not just a relative or a Trump-branded property. Strips known family /
+    building patterns and rechecks for the bare `\\btrump\\b` token, so
+    mixed headlines like "Donald Trump met Trump Jr." still count once."""
+    if not title:
+        return False
+    if not TRUMP_NAME_PATTERN.search(title):
+        return False
+    stripped = _TRUMP_NON_DONALD_PATTERN.sub("", title)
+    return bool(TRUMP_NAME_PATTERN.search(stripped))
+
 
 def count_matches(titles):
     """Return {key: count} for each comparator across the given titles.
-    `titles` is materialized to a list so it can be iterated repeatedly."""
+    `titles` is materialized to a list so it can be iterated repeatedly.
+    The Trump key uses contains_donald_trump so Tower / Jr / Eric Trump etc.
+    do not inflate the count; the other comparators use their raw regex."""
     titles = list(titles)
     out = {}
     for c in COMPARATORS:
-        out[c["key"]] = sum(1 for t in titles if c["pattern"].search(t or ""))
+        if c["key"] == "trump":
+            out[c["key"]] = sum(1 for t in titles if contains_donald_trump(t))
+        else:
+            out[c["key"]] = sum(1 for t in titles if c["pattern"].search(t or ""))
     return out
 
 

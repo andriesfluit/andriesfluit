@@ -990,7 +990,8 @@ def _methodology(latest):
             )
         if smoothed_pct is not None:
             compare_line += (
-                f" The 7-day rolling average of the core share is "
+                f" The 7-day rolling average of the core share "
+                f"(live RSS days only, GDELT backfill excluded) is "
                 f"<strong>{smoothed_pct}%</strong>."
             )
         wide_p = f"<p>{compare_line}</p>"
@@ -1017,7 +1018,7 @@ def _methodology(latest):
             f"\u2014 (median was 0 over the last {min(expanded_days, 14)} days)"
         )
     smooth_inline = (
-        f"The 7-day rolling average of the core share is <strong>{smoothed_pct}%</strong>."
+        f"The 7-day rolling average of the core share (live RSS days only, GDELT backfill excluded) is <strong>{smoothed_pct}%</strong>."
         if smoothed_pct is not None else
         "The rolling baseline needs a few more runs before it settles."
     )

@@ -10,7 +10,7 @@ except ImportError:                         # pragma: no cover - fallback
     ZoneInfo = None  # type: ignore
 
 from assessor import assess_composite, assess_rank_based
-from comparators import TRUMP_NAME_PATTERN, count_matches as count_comparators
+from comparators import contains_donald_trump, count_matches as count_comparators
 from detector import contains_trump
 from fetcher import CORE_FEED_KEYS, fetch_all
 from image_gen import generate_image
@@ -19,10 +19,12 @@ from themes import count_matches as count_themes
 
 
 def _contains_trump_name(text):
-    """Name-only Trump match (matches the comparator's '\\btrump\\b').
-    Used for the share/breadth/rank that drive the zone, so Trump is on
-    the same yardstick as the other named figures."""
-    return bool(TRUMP_NAME_PATTERN.search(text or ""))
+    """Name-only Trump match: '\\btrump\\b' minus family / building noise
+    (Trump Tower, Trump Jr., Eric Trump, ...). Used for share / breadth /
+    rank, so Trump is measured on the same yardstick as the other named
+    figures and a slow Belgian news day with one 'Trump Tower' filler
+    headline cannot lift the zone."""
+    return contains_donald_trump(text)
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
@@ -200,9 +202,12 @@ def main():
     # ------ 7-day rolling average + deviation (name-only time series) ------
     # Both smoothed_pct and deviation read `core_percentage_name` off every
     # prior record, falling back to `core_percentage_expanded` for days
-    # recorded before name-only was the canonical series. Until we have
-    # >= 7 matching days in the archive, smoothed_pct is displayed as
-    # "baseline still building".
+    # recorded before name-only was the canonical series. GDELT-backfilled
+    # rows are excluded: they measured a different corpus with different
+    # rules, so mixing them into the live-RSS rolling average would be a
+    # denominator/methodology mismatch. Until we have >= 7 matching live
+    # days in the archive, smoothed_pct is displayed as "baseline still
+    # building".
     existing_log = []
     if LOG_FILE.exists():
         try:
@@ -220,6 +225,7 @@ def main():
         _prior_name_pct(r)
         for r in existing_log
         if r.get("date") != today.isoformat()
+        and not r.get("backfilled")
         and _prior_name_pct(r) is not None
     ]
     recent_core = prior_core_name[-6:]  # last 6 days (exclusive of today)

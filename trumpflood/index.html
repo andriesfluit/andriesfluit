@@ -1133,7 +1133,7 @@
       section below for how indirect references are handled separately).</p>
       <p class="corpus-diag"><strong>Weekend (Sunday).</strong> Belgian news output is substantially lower on weekends — fewer articles in the denominator means share and breadth figures are not directly comparable to weekday readings. A low zone score today may reflect reduced total volume rather than reduced Trump prominence.</p>
       <p class="corpus-diag">Corpus diagnostics: <strong>10 of 19</strong> core outlets active (≥ 5 kept headlines); <strong>21.3%</strong> of the kept core corpus (32 headlines across 16 wire-copy groups) runs verbatim in ≥ 2 outlets. These don’t change the zone; they make denominator drift visible. A shrinking outlet count or a spike in wire-copy rate can move share and breadth independently of any real change in Trump coverage.</p>
-      <p>Including every feed we fetch — Brussels-local (BX1, Bruzz), sport-only (Sporza), and the Google News aggregators that repackage outlets we already pull directly — the full <strong>wide</strong> corpus is <strong>218 headlines</strong> with <strong>25 by-name Trump matches = 11.5%</strong> (-1.2pt vs. core). The cross-check exists so we can spot a day where the two tiers diverge sharply, which usually signals an aggregator artefact rather than a real shift. The 7-day rolling average of the core share is <strong>4.14%</strong>.</p>
+      <p>Including every feed we fetch — Brussels-local (BX1, Bruzz), sport-only (Sporza), and the Google News aggregators that repackage outlets we already pull directly — the full <strong>wide</strong> corpus is <strong>218 headlines</strong> with <strong>25 by-name Trump matches = 11.5%</strong> (-1.2pt vs. core). The cross-check exists so we can spot a day where the two tiers diverge sharply, which usually signals an aggregator artefact rather than a real shift. The 7-day rolling average of the core share (live RSS days only, GDELT backfill excluded) is <strong>4.14%</strong>.</p>
 
       <h3>Trump match</h3>
       <p>A headline is a Trump headline if its title matches the regex
@@ -1251,7 +1251,7 @@
       always cleared the deviation floor as well. Requires at least 7
       prior days of data, which the archive builds up gradually.</p>
       <p class="signal-today">Today: <strong>— (median was 0 over the last 7 days)</strong>.
-      The 7-day rolling average of the core share is <strong>4.14%</strong>.</p>
+      The 7-day rolling average of the core share (live RSS days only, GDELT backfill excluded) is <strong>4.14%</strong>.</p>
 
       <h4 class="signal-h">Today against each zone</h4>
       <p>Each zone has a set of gates its day has to clear simultaneously.

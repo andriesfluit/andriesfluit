@@ -23,7 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from comparators import TRUMP_NAME_PATTERN  # noqa: E402
+from comparators import TRUMP_NAME_PATTERN, contains_donald_trump  # noqa: E402
 from detector import contains_trump  # noqa: E402
 
 LABELS_FILE = Path(__file__).parent / "labels.jsonl"
@@ -76,8 +76,9 @@ def main():
     print()
 
     for name, predicate in [
-        ("name-only", lambda t: TRUMP_NAME_PATTERN.search(t)),
-        ("expanded ", lambda t: contains_trump(t)),
+        ("name-raw    ", lambda t: TRUMP_NAME_PATTERN.search(t)),
+        ("name-donald ", lambda t: contains_donald_trump(t)),
+        ("expanded    ", lambda t: contains_trump(t)),
     ]:
         tp, fp, fn, tn = _score(labelled, predicate)
         precision, recall = _rate(tp, fp, fn)
@@ -87,9 +88,9 @@ def main():
 
     if args.show_disagreements:
         print()
-        print("Disagreements (name-only detector vs label):")
+        print("Disagreements (name-donald detector vs label):")
         for r in labelled:
-            predicted = bool(TRUMP_NAME_PATTERN.search(r["title"]))
+            predicted = bool(contains_donald_trump(r["title"]))
             if predicted != r["trump_relevant"]:
                 tag = "FP" if predicted else "FN"
                 print(f"  [{tag}] {r.get('date')} {r.get('source')}: {r['title']}")
