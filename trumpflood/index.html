@@ -487,14 +487,23 @@
   .gate-card-status {
     margin-top: 6px;
     margin-bottom: 8px;
-    font-size: 9px;
+    font-size: 9.5px;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.06em;
     color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
   }
-  .gate-card-pass .gate-card-status {
+  /* The gate sits AHEAD of the next-zone floor for this signal.
+     Shown in zone colour so the reader sees which gates are doing the
+     work toward the next upgrade. */
+  .gate-card-status.status-above {
     color: var(--zone-color);
-    font-weight: 700;
+  }
+  /* The gate sits BELOW the next-zone floor: this gate is what holds
+     the upgrade back. Shown in ink so the reader spots the constraint. */
+  .gate-card-status.status-below {
+    color: var(--ink);
   }
 
   @media (max-width: 600px) {
@@ -1382,7 +1391,7 @@
 
 <div class="tracker-zone-ladder"><div class="step"><div class="bar" style="background:var(--rule)"></div><span class="label">Dry</span></div><div class="step"><div class="bar" style="background:var(--rule)"></div><span class="label">Puddles</span></div><div class="step"><div class="bar" style="background:var(--rule)"></div><span class="label">Wet</span></div><div class="step active"><div class="bar" style="background:#1e3a5f"></div><span class="label">Soaked</span></div><div class="step"><div class="bar" style="background:var(--rule)"></div><span class="label">Flooding</span></div></div>
 
-<div class="gates-panel"><div class="gates-header"><span class="gates-zone-name" style="color:#1e3a5f">SOAKED</span><span class="gates-cleared-count">all four signals cleared</span></div><div class="gates-grid"><div class="gate-card gate-card-pass" style="--zone-color:#1e3a5f"><div class="gate-card-label" title="% of Belgian core headlines naming Trump">share</div><div class="gate-card-value">5.0%</div><div class="gate-card-hint">1 in 20 headlines</div><div class="gate-card-bar"></div><div class="gate-card-status">cleared</div></div><div class="gate-card gate-card-pass" style="--zone-color:#1e3a5f"><div class="gate-card-label" title="Trump mentions divided by sum of 16 other named figures">dominance</div><div class="gate-card-value">1.89×</div><div class="gate-card-hint">vs. 16 others</div><div class="gate-card-bar"></div><div class="gate-card-status">cleared</div></div><div class="gate-card gate-card-pass" style="--zone-color:#1e3a5f"><div class="gate-card-label" title="% of core outlets running at least one Trump headline">breadth</div><div class="gate-card-value">53%</div><div class="gate-card-hint">of outlets ran him</div><div class="gate-card-bar"></div><div class="gate-card-status">cleared</div></div><div class="gate-card gate-card-pass" style="--zone-color:#1e3a5f"><div class="gate-card-label" title="Trump's position among 17 named figures by name-only count">rank</div><div class="gate-card-value">#1</div><div class="gate-card-hint">of 17 named figures</div><div class="gate-card-bar"></div><div class="gate-card-status">cleared</div></div></div></div>
+<div class="gates-panel"><div class="gates-header"><span class="gates-zone-name" style="color:#1e3a5f">SOAKED</span><span class="gates-cleared-count">all four signals cleared</span></div><div class="gates-grid"><div class="gate-card gate-card-pass" style="--zone-color:#1e3a5f"><div class="gate-card-label" title="% of Belgian core headlines naming Trump">share</div><div class="gate-card-value">5.0%</div><div class="gate-card-hint">1 in 20 headlines</div><div class="gate-card-bar"></div><div class="gate-card-status status-above">+1.0pt to Flooding</div></div><div class="gate-card gate-card-pass" style="--zone-color:#1e3a5f"><div class="gate-card-label" title="Trump mentions divided by sum of 16 other named figures">dominance</div><div class="gate-card-value">1.89×</div><div class="gate-card-hint">vs. 16 others</div><div class="gate-card-bar"></div><div class="gate-card-status status-below">-0.1× to Flooding</div></div><div class="gate-card gate-card-pass" style="--zone-color:#1e3a5f"><div class="gate-card-label" title="% of core outlets running at least one Trump headline">breadth</div><div class="gate-card-value">53%</div><div class="gate-card-hint">of outlets ran him</div><div class="gate-card-bar"></div><div class="gate-card-status status-below">-2.0pp to Flooding</div></div><div class="gate-card gate-card-pass" style="--zone-color:#1e3a5f"><div class="gate-card-label" title="Trump's position among 17 named figures by name-only count">rank</div><div class="gate-card-value">#1</div><div class="gate-card-hint">of 17 named figures</div><div class="gate-card-bar"></div><div class="gate-card-status status-above">at top</div></div></div></div>
 
 <figure class="portrait-figure">
   <div class="frame portrait" data-water-color="#1e3a5f" data-water-target="56">

@@ -306,6 +306,78 @@ _GATE_TOOLTIPS = {
     "rank":      "Trump's position among 17 named figures by name-only count",
 }
 
+# Used by _gate_gap_text: zone progression for "next zone up" lookup,
+# and the threshold-key mapping per gate label.
+_ZONE_ORDER_UP = ["dry", "puddles", "wet", "soaked", "flooding"]
+_GATE_THRESHOLD_KEY = {
+    "share":     "pct",
+    "dominance": "dominance",
+    "breadth":   "breadth",
+    "rank":      "rank_max",
+}
+
+
+def _gate_gap_text(active_zone, gate_label, value, thresholds):
+    """Return (text, kind) describing how this gate sits relative to
+    the next zone up's floor. If the active zone is Flooding (top),
+    show the comfort margin against the Flooding floor instead.
+    `kind` is 'above', 'below', 'top' or '' (no info)."""
+    if value is None:
+        return ("", "")
+    key = _GATE_THRESHOLD_KEY.get(gate_label)
+    if not key:
+        return ("", "")
+
+    if active_zone == "flooding":
+        floor = thresholds.get("flooding", {}).get(key)
+        target_label = "above floor"
+        kind_top = True
+    else:
+        try:
+            idx = _ZONE_ORDER_UP.index(active_zone)
+        except ValueError:
+            return ("", "")
+        next_zone = _ZONE_ORDER_UP[idx + 1]
+        floor = thresholds.get(next_zone, {}).get(key)
+        target_label = next_zone.capitalize()
+        kind_top = False
+
+    if floor is None:
+        # No applicable floor (next zone doesn't gate this signal, or top).
+        return ("", "")
+
+    if gate_label == "rank":
+        # rank: lower is better, floor is the maximum rank allowed.
+        if value <= floor:
+            return ("at top" if kind_top or value == 1 else f"ok for {target_label}",
+                    "above")
+        return (f"needs #{floor} for {target_label}", "below")
+
+    # share / dominance / breadth: higher is better.
+    if gate_label == "share":
+        delta = value - floor
+        unit = "pt"
+    elif gate_label == "dominance":
+        delta = value - floor
+        unit = "×"  # multiplication sign
+    elif gate_label == "breadth":
+        delta = (value - floor) * 100  # 0..1 -> percentage points
+        unit = "pp"
+    else:
+        return ("", "")
+
+    if delta >= 0:
+        sign = "+"
+        if kind_top:
+            text = f"{sign}{delta:.1f}{unit} above floor"
+        else:
+            text = f"{sign}{delta:.1f}{unit} to {target_label}"
+        return (text, "above")
+    else:
+        # delta is negative; the value already starts with '-' when formatted
+        text = f"{delta:.1f}{unit} to {target_label}"
+        return (text, "below")
+
 
 def _gate_history_series(history, key, days=14):
     """Return the last `days` values of metric `key` from live records,
@@ -431,17 +503,37 @@ def _hero_gates_panel(latest):
          rank is not None and rank_ceil is not None and rank <= rank_ceil),
     ]
 
+    # Per-gate raw values (not the formatted strings) for the gap calc.
+    gate_values = {
+        "share":     pct,
+        "dominance": dominance,
+        "breadth":   breadth,
+        "rank":      rank,
+    }
+
     cards_html = []
     for gate_label, value_str, hint, is_gated, cleared in gates:
         if is_gated and cleared:
             cls = "gate-card gate-card-pass"
-            status = "cleared"
         elif is_gated and not cleared:
             cls = "gate-card gate-card-fail"
-            status = "below floor"
         else:
             cls = "gate-card gate-card-na"
-            status = "not gated"
+
+        gap_text, gap_kind = _gate_gap_text(
+            active_zone, gate_label, gate_values.get(gate_label), _T
+        )
+        # Colour the gap text by direction: 'above' (we are past the
+        # next-zone floor for this gate, so this gate is doing better
+        # than the rest) shows in zone colour; 'below' (this gate is
+        # holding the upgrade back) shows in muted ink so the reader
+        # spots it as the constraint.
+        if gap_kind == "above":
+            status_cls = "gate-card-status status-above"
+        elif gap_kind == "below":
+            status_cls = "gate-card-status status-below"
+        else:
+            status_cls = "gate-card-status"
 
         tooltip = _GATE_TOOLTIPS.get(gate_label, "")
 
@@ -451,7 +543,7 @@ def _hero_gates_panel(latest):
             f'<div class="gate-card-value">{value_str}</div>'
             f'<div class="gate-card-hint">{hint}</div>'
             f'<div class="gate-card-bar"></div>'
-            f'<div class="gate-card-status">{status}</div>'
+            f'<div class="{status_cls}">{gap_text}</div>'
             f'</div>'
         )
 
@@ -2209,14 +2301,23 @@ PAGE = """<!doctype html>
   .gate-card-status {{
     margin-top: 6px;
     margin-bottom: 8px;
-    font-size: 9px;
+    font-size: 9.5px;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.06em;
     color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
   }}
-  .gate-card-pass .gate-card-status {{
+  /* The gate sits AHEAD of the next-zone floor for this signal.
+     Shown in zone colour so the reader sees which gates are doing the
+     work toward the next upgrade. */
+  .gate-card-status.status-above {{
     color: var(--zone-color);
-    font-weight: 700;
+  }}
+  /* The gate sits BELOW the next-zone floor: this gate is what holds
+     the upgrade back. Shown in ink so the reader spots the constraint. */
+  .gate-card-status.status-below {{
+    color: var(--ink);
   }}
 
   @media (max-width: 600px) {{
