@@ -3075,7 +3075,7 @@ PAGE = """<!doctype html>
     <div>
       <div class="brand-eyebrow">trumpflood &middot; Belgian news monitor</div>
       <h1 class="brand">Is Trump flooding the zone?</h1>
-      <p class="brand-scope">We track how often Donald Trump&rsquo;s name appears in Belgian RSS news headlines, three times a day.</p>
+      <p class="brand-scope">Tracking how often Donald Trump&rsquo;s name appears in Belgian RSS news headlines, three times a day.</p>
     </div>
     <div class="brand-sub">{last_run}</div>
   </header>
