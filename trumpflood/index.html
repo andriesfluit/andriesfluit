@@ -1480,9 +1480,9 @@
     <div class="meth-body">
 
       <h3>Daily collection</h3>
-      <p>Three times a day &mdash; 06:00, 12:00 and 18:00 UTC, which is
-      08:00 / 14:00 / 20:00 Belgian local in summer (CEST) and
-      07:00 / 13:00 / 19:00 in winter (CET) &mdash;
+      <p>Three times a day, at 03:37, 10:37 and 16:37 UTC (which is
+      05:37 / 12:37 / 18:37 Belgian local in summer (CEST) and
+      04:37 / 11:37 / 17:37 in winter (CET)),
       a script fetches headlines from 33 Belgian RSS feeds:
       Google News BE (Dutch &amp; French general), 8 Google News BE topic feeds
       (politics, world, business, tech, sport in NL; politics, world, business in FR),
@@ -1676,12 +1676,21 @@
         published next to the headline number so you can see, on any
         given day, how much coverage an indirect-only readout would
         have added.</li>
-        <li><strong>Trump-the-family.</strong> The regex also matches
-        &ldquo;Trump Jr.&rdquo;, &ldquo;Eric Trump&rdquo;, &ldquo;Trump
-        Tower&rdquo;. Usually &le;2% noise but it’s there.</li>
+        <li><strong>Trump-the-family filtered out.</strong> The bare
+        <code>trump</code> regex would also match &ldquo;Trump
+        Jr.&rdquo;, &ldquo;Eric Trump&rdquo;, &ldquo;Trump Tower&rdquo;,
+        &ldquo;Trump Organization&rdquo; and similar. Each of those
+        patterns (Jr / Junior, Eric / Ivanka / Melania / Barron / Tiffany
+        / Lara, Tower / Hotel / Plaza / Golf / International /
+        Organization) is stripped from the headline before re-checking
+        for <code>trump</code>, so a building or relative on its own
+        does not drive the count. Mixed headlines like &ldquo;Donald
+        Trump met Trump Jr.&rdquo; still count once: stripping
+        &ldquo;Trump Jr.&rdquo; leaves &ldquo;Donald Trump&rdquo; for the
+        re-match.</li>
         <li><strong>Time-of-day sampling &amp; peak-of-day rule.</strong>
         Fetches run three times a day at fixed UTC slots
-        (06:00 / 12:00 / 18:00), which shifts by an hour between CEST
+        (03:37 / 10:37 / 16:37), which shifts by an hour between CEST
         and CET. RSS feeds only expose the latest N items, so an
         afternoon fetch may show fewer Trump headlines than the morning
         one because earlier pieces have scrolled off. To avoid
@@ -1731,8 +1740,8 @@
 
 
   <footer>
-    Sources: 31 Belgian RSS feeds, measured three times a day (06:00 / 12:00 / 18:00 UTC,
-    which is 08:00 / 14:00 / 20:00 Belgian local in summer and 07:00 / 13:00 / 19:00 in winter).
+    Sources: 33 Belgian RSS feeds, measured three times a day (03:37 / 10:37 / 16:37 UTC,
+    which is 05:37 / 12:37 / 18:37 Belgian local in summer and 04:37 / 11:37 / 17:37 in winter).
     Core tier (drives the headline number): VRT NWS, RTBF, De Standaard,
     De Morgen, HLN, Het Nieuwsblad, GVA, HBVL, Knack, La Libre, L&rsquo;Echo,
     DHnet, 7sur7, plus De Tijd, Le Soir, Sudinfo, L&rsquo;Avenir and RTL via
