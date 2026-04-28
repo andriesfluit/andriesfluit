@@ -28,3 +28,5 @@ _trumpflood/logs/
 _trumpflood/.DS_Store
 # Legacy per-day images + HTML output (publishing is now /trumpflood/ at repo root).
 _trumpflood/output/
+# Hero-layout variant previews (built by build_variants.py for design review).
+trumpflood/_variants/

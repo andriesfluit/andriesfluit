@@ -4,17 +4,31 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Is Trump flooding the zone?</title>
+<script>
+  function loadGA() {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JGVNLJ1K3S';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-JGVNLJ1K3S');
+  }
+  if (localStorage.getItem('cookie_consent') === 'accepted') loadGA();
+</script>
 <meta property="og:type"        content="website">
 <meta property="og:url"         content="https://andriesfluit.be/trumpflood/">
-<meta property="og:title"       content="Is Trump flooding the zone? — 2026-04-26">
-<meta property="og:description" content="Trump is flooding the zone · 12.7% of Belgian headlines name Trump today.">
-<meta property="og:image"       content="https://andriesfluit.be/trumpflood/2026-04-26.png">
+<meta property="og:title"       content="&quot;Yes, he is.&quot; 4.5% in FLOODING zone · Trumpflood">
+<meta property="og:description" content="FLOODING zone today: 4.5% of Belgian core headlines name Trump (17 of 374). Updated 3 times daily from 33 RSS feeds.">
+<meta property="og:image"       content="https://andriesfluit.be/trumpflood/2026-04-27.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="628">
 <meta name="twitter:card"       content="summary_large_image">
-<meta name="twitter:image"      content="https://andriesfluit.be/trumpflood/2026-04-26.png">
-<meta name="twitter:title"      content="Is Trump flooding the zone? — 2026-04-26">
-<meta name="twitter:description" content="Trump is flooding the zone · 12.7% of Belgian headlines name Trump today.">
+<meta name="twitter:image"      content="https://andriesfluit.be/trumpflood/2026-04-27.png">
+<meta name="twitter:title"      content="&quot;Yes, he is.&quot; 4.5% in FLOODING zone · Trumpflood">
+<meta name="twitter:description" content="FLOODING zone today: 4.5% of Belgian core headlines name Trump (17 of 374). Updated 3 times daily from 33 RSS feeds.">
 <style>
   :root {
     --ink: #0a1929;
@@ -86,6 +100,14 @@
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--muted);
+  }
+  .brand-scope {
+    margin: 8px 0 0;
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.45;
+    /* Single-line on desktop. Falls back to natural wrap only when the
+       viewport is too narrow (mobile) to fit the sentence. */
   }
 
   /* Hero */
@@ -366,6 +388,125 @@
     color: var(--ink);
     font-weight: 700;
   }
+
+  /* Gates panel: 4-card horizontal block summarising the active zone's
+     measured signals. Each card shows label + measured value + a coloured
+     status bar; the floor itself is hidden (zone-colour bar = cleared,
+     hatched bar = not gated for this zone, muted bar = below floor). The
+     full thresholds matrix lives in the methodology section below. */
+  .gates-panel {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .gates-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-variant-numeric: tabular-nums;
+  }
+  .gates-zone-name {
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .gates-cleared-count {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .gates-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  .gate-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.55);
+    border: 1px solid var(--rule);
+    padding: 10px 10px 0;
+    min-height: 130px;
+  }
+  .gate-card-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-bottom: 8px;
+    cursor: help;
+  }
+  .gate-card-value {
+    font-size: 28px;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .gate-card-hint {
+    margin-top: 4px;
+    font-size: 10.5px;
+    line-height: 1.25;
+    color: var(--muted);
+    font-style: italic;
+    flex: 1;
+  }
+  .gate-card-na .gate-card-hint {
+    opacity: 0.7;
+  }
+  .gate-card-bar {
+    margin-top: 12px;
+    height: 5px;
+    background: var(--rule);
+  }
+  .gate-card-pass .gate-card-bar {
+    background: var(--zone-color);
+  }
+  .gate-card-na .gate-card-bar {
+    background: repeating-linear-gradient(
+      45deg,
+      var(--rule),
+      var(--rule) 3px,
+      transparent 3px,
+      transparent 6px
+    );
+  }
+  .gate-card-na .gate-card-value {
+    color: var(--muted);
+  }
+  .gate-card-fail .gate-card-bar {
+    opacity: 0.4;
+  }
+  .gate-card-status {
+    margin-top: 6px;
+    margin-bottom: 8px;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+  }
+  .gate-card-pass .gate-card-status {
+    color: var(--zone-color);
+    font-weight: 700;
+  }
+
+  @media (max-width: 600px) {
+    .gates-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6px;
+    }
+    .gate-card { min-height: 118px; }
+    .gate-card-value { font-size: 24px; }
+    .gate-card-hint { font-size: 10px; }
+    .gates-zone-name { font-size: 18px; }
+  }
   .readout-indirect {
     margin-top: 14px;
     font-size: 13px;
@@ -613,7 +754,7 @@
   }
   .comp-row {
     display: grid;
-    grid-template-columns: 130px 1fr 110px;
+    grid-template-columns: 130px 1fr 150px;
     align-items: center;
     gap: 16px;
   }
@@ -649,6 +790,15 @@
   }
   .comp-stat strong { color: var(--ink); font-weight: 700; }
   .comp-share { color: #aaa; margin-left: 6px; font-size: 12px; }
+  .comp-delta {
+    margin-left: 6px;
+    font-size: 11px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .comp-delta.flat { opacity: 0.4; }
 
   .vs-others {
     margin-top: 16px;
@@ -656,31 +806,55 @@
     border-top: 1px dashed var(--rule);
   }
   .vs-line {
-    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 14px;
+    font-size: 14px;
     color: var(--ink);
-  }
-  .vs-line strong {
-    font-family: "Playfair Display", serif;
-    font-size: 22px;
-    font-weight: 800;
-    color: var(--accent);
-    margin: 0 4px;
-  }
-  .vs-vs {
-    font-style: italic;
-    color: var(--muted);
-    margin: 0 4px;
-  }
-  .vs-ratio {
     font-variant-numeric: tabular-nums;
+  }
+  .vs-stat {
     color: var(--muted);
-    margin-left: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 11px;
+  }
+  .vs-stat strong {
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-left: 4px;
+    font-variant-numeric: tabular-nums;
+  }
+  .vs-sep {
+    color: var(--rule);
   }
   .vs-verdict {
-    margin-top: 4px;
+    margin-top: 8px;
     font-size: 13px;
     color: var(--muted);
     font-style: italic;
+  }
+  .comp-row.comp-row-hidden {
+    grid-template-columns: 1fr;
+    padding-top: 8px;
+    border-top: 1px dashed var(--rule);
+    margin-top: 4px;
+  }
+  .comp-hidden-note {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .comp-hidden-note strong {
+    color: var(--ink);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .comp-hidden-names {
+    font-style: italic;
+    margin-left: 4px;
   }
 
   /* Themes panel: same shape as comparison but with theme rows. */
@@ -974,56 +1148,260 @@
     .band { padding: 6px 6px; }
     .band-name { font-size: 9px; letter-spacing: 0.02em; }
   }
+  #cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--ink);
+    color: #e8e4db;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    line-height: 1.4;
+    z-index: 9999;
+    box-shadow: 0 -2px 12px rgba(0,0,0,0.25);
+  }
+  #cookie-banner p {
+    margin: 0;
+    flex: 1;
+    min-width: 200px;
+  }
+  #cookie-banner a { color: #a8c4d8; }
+  .cookie-buttons { display: flex; gap: 10px; flex-shrink: 0; }
+  #cookie-accept, #cookie-decline {
+    padding: 7px 18px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  #cookie-accept {
+    background: #a8c4d8;
+    color: var(--ink);
+  }
+  #cookie-decline {
+    background: transparent;
+    color: #a8a090;
+    border: 1px solid #3a3a3a;
+  }
+  #cookie-accept:hover { background: #c4d8e8; }
+  #cookie-decline:hover { color: #e8e4db; border-color: #888; }
+
+  /* ── Data-first hero (variant E, now canonical) ───────────────────── */
+  .live-badge-row { margin: 0 0 14px; }
+  .live-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--ink);
+    border: 1px solid var(--rule); padding: 4px 10px;
+    background: rgba(255,255,255,0.55);
+  }
+  .live-badge .pulse {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #2ea44f;
+    box-shadow: 0 0 0 0 rgba(46, 164, 79, 0.65);
+    animation: live-pulse 2.4s ease-out infinite;
+  }
+  @keyframes live-pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(46,164,79,0.65); }
+    70%  { box-shadow: 0 0 0 8px rgba(46,164,79,0); }
+    100% { box-shadow: 0 0 0 0 rgba(46,164,79,0); }
+  }
+
+  .data-hero { margin-bottom: 22px; }
+  .data-hero .answer {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 44px; line-height: 1.0; font-weight: 900;
+    letter-spacing: -0.02em; margin: 0 0 16px;
+  }
+  .data-hero .stat-row {
+    display: flex; align-items: flex-end; gap: 28px;
+    flex-wrap: wrap; margin: 0;
+  }
+  .data-hero .pct-block {
+    display: flex; flex-direction: column; align-items: flex-start;
+  }
+  .data-hero .pct {
+    font-size: 76px; line-height: 1; font-weight: 800;
+    color: var(--zone-color); font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+  }
+  .data-hero .pct-symbol {
+    font-size: 44px; color: var(--muted); margin-left: 2px;
+  }
+  .data-hero .pct-label {
+    margin-top: 6px; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--muted);
+  }
+  .data-hero .hero-spark {
+    display: block; width: 200px; height: 44px; margin-bottom: 8px;
+  }
+  .data-hero .stat-meta-row {
+    display: flex; flex-wrap: wrap; align-items: baseline;
+    gap: 0 14px; margin-top: 6px;
+    font-size: 12px; color: var(--muted);
+    letter-spacing: 0.04em; font-variant-numeric: tabular-nums;
+  }
+  .data-hero .stat-meta-row .delta {
+    font-weight: 700; font-size: 13px; color: var(--ink);
+  }
+  .data-hero .stat-meta-row .delta.up { color: var(--zone-color); }
+  .data-hero .stat-meta-row .delta.down { color: var(--ink); }
+  .data-hero .stat-meta-row .label {
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--muted);
+  }
+  .data-hero .stat-meta-row .sep { color: var(--rule); }
+  .data-hero .sub {
+    font-size: 15px; color: var(--muted); margin: 14px 0 0;
+  }
+  .data-hero .sub strong { color: var(--ink); }
+
+  /* Horizontal zone ladder under the hero. */
+  .tracker-zone-ladder {
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    gap: 4px; max-width: 100%; margin: 0 0 22px;
+  }
+  .tracker-zone-ladder .step { position: relative; padding-top: 14px; }
+  .tracker-zone-ladder .step .bar {
+    height: 8px; background: var(--rule); border-radius: 1px;
+  }
+  .tracker-zone-ladder .step.active .bar {
+    height: 14px; margin-top: -6px;
+  }
+  .tracker-zone-ladder .step .label {
+    display: block; margin-top: 8px;
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+  .tracker-zone-ladder .step.active .label {
+    color: var(--ink); font-weight: 700;
+  }
+
+  /* Editorial portrait below the gates panel. Duotone via SVG filter,
+     no multiply stack. Water canvas overlay at low opacity for the
+     in-zone signal. Floating label aligns with the water surface. */
+  .portrait-figure {
+    margin: 28px auto 0;
+    max-width: 280px;
+    text-align: center;
+  }
+  .portrait-figure .frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    background: #f1ead7;
+  }
+  .portrait-figure .frame img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center top;
+  }
+  .portrait-figure .frame .water-canvas {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+  }
+  .portrait-figure .water-marker {
+    position: absolute;
+    right: -2px;
+    transform: translateY(-50%);
+    z-index: 4;
+    display: inline-flex; align-items: center;
+    font-size: 9.5px; font-weight: 700;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--ink); background: rgba(255,255,255,0.95);
+    padding: 4px 9px 4px 8px; white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+  }
+  .portrait-figure .water-marker::before {
+    content: ""; display: inline-block;
+    width: 14px; height: 2px;
+    background: var(--zone-color);
+    margin-right: 6px;
+  }
+  .portrait-figure figcaption {
+    margin-top: 10px;
+    font-size: 12px; color: var(--muted); font-style: italic;
+  }
+
+  @media (max-width: 760px) {
+    .data-hero .answer { font-size: 36px; }
+    .data-hero .pct { font-size: 60px; }
+    .data-hero .pct-symbol { font-size: 36px; }
+    .data-hero .hero-spark { width: 160px; height: 38px; }
+  }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute;" aria-hidden="true"><defs><filter id="duotone-dry" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0.299 0.587 0.114 0 0 0.299 0.587 0.114 0 0 0.299 0.587 0.114 0 0 0     0     0     1 0"/><feComponentTransfer><feFuncR type="table" tableValues="0.416 0.969"/><feFuncG type="table" tableValues="0.353 0.933"/><feFuncB type="table" tableValues="0.243 0.847"/></feComponentTransfer></filter><filter id="duotone-puddles" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0.299 0.587 0.114 0 0 0.299 0.587 0.114 0 0 0.299 0.587 0.114 0 0 0     0     0     1 0"/><feComponentTransfer><feFuncR type="table" tableValues="0.173 0.941"/><feFuncG type="table" tableValues="0.275 0.961"/><feFuncB type="table" tableValues="0.345 0.980"/></feComponentTransfer></filter><filter id="duotone-wet" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0.299 0.587 0.114 0 0 0.299 0.587 0.114 0 0 0.299 0.587 0.114 0 0 0     0     0     1 0"/><feComponentTransfer><feFuncR type="table" tableValues="0.110 0.925"/><feFuncG type="table" tableValues="0.208 0.953"/><feFuncB type="table" tableValues="0.282 0.973"/></feComponentTransfer></filter><filter id="duotone-soaked" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0.299 0.587 0.114 0 0 0.299 0.587 0.114 0 0 0.299 0.587 0.114 0 0 0     0     0     1 0"/><feComponentTransfer><feFuncR type="table" tableValues="0.039 0.902"/><feFuncG type="table" tableValues="0.102 0.933"/><feFuncB type="table" tableValues="0.180 0.969"/></feComponentTransfer></filter><filter id="duotone-flooding" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0.299 0.587 0.114 0 0 0.299 0.587 0.114 0 0 0.299 0.587 0.114 0 0 0     0     0     1 0"/><feComponentTransfer><feFuncR type="table" tableValues="0.290 0.992"/><feFuncG type="table" tableValues="0.075 0.918"/><feFuncB type="table" tableValues="0.063 0.886"/></feComponentTransfer></filter></defs></svg>
 <div class="wrap">
   <header class="masthead">
     <div>
       <div class="brand-eyebrow">trumpflood &middot; Belgian news monitor</div>
       <h1 class="brand">Is Trump flooding the zone?</h1>
+      <p class="brand-scope">We track how often Donald Trump&rsquo;s name appears in Belgian RSS news headlines, three times a day.</p>
     </div>
-    <div class="brand-sub">Last run: Sun 26 Apr 2026, 13:25 CEST</div>
+    <div class="brand-sub">Last run: Mon 27 Apr 2026, 08:16 CEST</div>
   </header>
 
   
-<section class="hero">
-  <div class="portrait-wrap">
-    <div class="portrait" data-water-color="#b03a2e" data-water-target="100" style="--water-color:#b03a2e;--water-target:100%">
-      <img src="trump.jpg" alt="Donald Trump">
-      <canvas class="water-canvas" aria-hidden="true"></canvas>
-    </div>
-    <div class="scale" aria-label="Flood zone scale">
-      <div class="band" style="bottom:0.00%;height:20.00%;--band-color:#c8b89a"><span class="band-name">Dry</span></div><div class="band" style="bottom:20.00%;height:20.00%;--band-color:#a8c4d8"><span class="band-name">Puddles</span></div><div class="band" style="bottom:40.00%;height:20.00%;--band-color:#4a7fa0"><span class="band-name">Wet</span></div><div class="band" style="bottom:60.00%;height:20.00%;--band-color:#1e3a5f"><span class="band-name">Soaked</span></div><div class="band active" style="bottom:80.00%;height:20.00%;--band-color:#b03a2e"><span class="band-name">Flooding</span></div>
-    </div>
+<section class="data-hero" style="--zone-color:#b03a2e">
+  <div class="live-badge-row">
+    <span class="live-badge"><span class="pulse"></span> Live · updated 08:16 CEST · 3 runs/day</span>
   </div>
-  <div class="readout">
-    <div class="readout-label">Trump is flooding the zone</div>
-    <hr class="readout-sep" />
-    <div class="readout-stat">
-      <span class="pct" style="color:#b03a2e">12.7<span class="pct-symbol">%</span></span>
+  <h2 class="answer">Yes, he is.</h2>
+  <div class="stat-row">
+    <div class="pct-block">
+      <span class="pct">4.5<span class="pct-symbol">%</span></span>
+      <span class="pct-label">share of Belgian news headlines today</span>
     </div>
-    <div class="readout-sub">
-      <strong>19</strong> of <strong>150</strong> Belgian core-tier
-      headlines name Trump
-    </div>
-    <hr class="readout-sep" />
-    <div class="readout-facts"><div class="fact">Rank <strong>#1</strong> of 17 named figures · 19.0× vs. the other 16 combined</div><div class="fact">In <strong>7 of 10</strong> national outlets</div><div class="fact">Next up: <strong>Magnette</strong> (1)</div></div>
-    <div class="readout-indirect">+ <strong>2</strong> more mention the White House, &ldquo;US president&rdquo; or similar (expanded: <strong>21</strong> = <strong>14.0%</strong>)</div>
+    <svg class="hero-spark" viewBox="0 0 200 44" xmlns="http://www.w3.org/2000/svg"><path d="M 4.0 36.0 L 20.0 34.3 L 36.0 37.4 L 52.0 34.6 L 68.0 36.6 L 84.0 38.0 L 100.0 36.0 L 116.0 28.7 L 132.0 35.5 L 148.0 32.9 L 164.0 34.6 L 180.0 6.0 L 196.0 29.2" fill="none" stroke="#cfcabd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="196.0" cy="29.2" r="3.5" fill="#b03a2e"/></svg>
   </div>
+  <div class="stat-meta-row">
+    <span class="delta down">-8.2pt</span>
+    <span class="label">vs. yesterday</span>
+    <span class="sep">·</span>
+    <span>min 1.4% · max 12.7% over 14 days</span>
+  </div>
+  <p class="sub"><strong>17</strong> of <strong>374</strong> headlines name Trump.</p>
 </section>
+
+<div class="tracker-zone-ladder"><div class="step"><div class="bar" style="background:var(--rule)"></div><span class="label">Dry</span></div><div class="step"><div class="bar" style="background:var(--rule)"></div><span class="label">Puddles</span></div><div class="step"><div class="bar" style="background:var(--rule)"></div><span class="label">Wet</span></div><div class="step"><div class="bar" style="background:var(--rule)"></div><span class="label">Soaked</span></div><div class="step active"><div class="bar" style="background:#b03a2e"></div><span class="label">Flooding</span></div></div>
+
+<div class="gates-panel"><div class="gates-header"><span class="gates-zone-name" style="color:#b03a2e">FLOODING</span><span class="gates-cleared-count">all four signals cleared</span></div><div class="gates-grid"><div class="gate-card gate-card-pass" style="--zone-color:#b03a2e"><div class="gate-card-label" title="% of Belgian core headlines naming Trump">share</div><div class="gate-card-value">4.5%</div><div class="gate-card-hint">1 in 22 headlines</div><div class="gate-card-bar"></div><div class="gate-card-status">cleared</div></div><div class="gate-card gate-card-pass" style="--zone-color:#b03a2e"><div class="gate-card-label" title="Trump mentions divided by sum of 16 other named figures">dominance</div><div class="gate-card-value">3.4×</div><div class="gate-card-hint">vs. 16 others</div><div class="gate-card-bar"></div><div class="gate-card-status">cleared</div></div><div class="gate-card gate-card-pass" style="--zone-color:#b03a2e"><div class="gate-card-label" title="% of core outlets running at least one Trump headline">breadth</div><div class="gate-card-value">69%</div><div class="gate-card-hint">of outlets ran him</div><div class="gate-card-bar"></div><div class="gate-card-status">cleared</div></div><div class="gate-card gate-card-pass" style="--zone-color:#b03a2e"><div class="gate-card-label" title="Trump's position among 17 named figures by name-only count">rank</div><div class="gate-card-value">#1</div><div class="gate-card-hint">of 17 named figures</div><div class="gate-card-bar"></div><div class="gate-card-status">cleared</div></div></div></div>
+
+<figure class="portrait-figure">
+  <div class="frame portrait" data-water-color="#b03a2e" data-water-target="70">
+    <img src="trump.jpg" alt="Donald Trump"
+         style="filter: url(#duotone-flooding);" />
+    <canvas class="water-canvas" aria-hidden="true"></canvas>
+    <span class="water-marker" style="top: 30.0%;">FLOODING</span>
+  </div>
+  <figcaption>Trump portrait, official White House photo by Shealah Craighead. Duotoned in today's zone colour. Water level marks the active zone on the thermometer above.</figcaption>
+</figure>
 
 
   
 <section class="block">
   <h2>Today vs. the rest</h2>
   <p class="block-intro">Trump against 16 other named figures in the same
-  150-headline core corpus.</p>
-  <div class="comparison"><div class="comp-row trump"><div class="comp-label">Trump</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:100.0%;background:#b03a2e"></div></div><div class="comp-stat"><strong>19</strong><span class="comp-share">12.7%</span></div></div><div class="comp-row"><div class="comp-label">Magnette</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:5.3%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>1</strong><span class="comp-share">0.7%</span></div></div><div class="comp-row"><div class="comp-label">Putin</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Macron</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Netanyahu</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Zelensky</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Rutte</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Von der Leyen</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">De Wever</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Bouchez</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Prévot</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Rousseau</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Francken</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Crevits</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Jambon</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Van Peteghem</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Verlinden</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-share">0.0%</span></div></div></div>
-  <div class="vs-others"><div class="vs-line"><strong>19</strong> Trump <span class="vs-vs">vs</span> <strong>1</strong> all other people combined <span class="vs-ratio">(19.00×)</span></div><div class="vs-verdict">Trump alone is more than all 16 others combined.</div></div>
+  374-headline core corpus. Arrows show change vs. yesterday.</p>
+  <div class="comparison"><div class="comp-row trump"><div class="comp-label">Trump</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:100.0%;background:#b03a2e"></div></div><div class="comp-stat"><strong>17</strong><span class="comp-delta down">▼2</span><span class="comp-share">4.5%</span></div></div><div class="comp-row"><div class="comp-label">Putin</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:23.5%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>4</strong><span class="comp-delta up">▲4</span><span class="comp-share">1.1%</span></div></div><div class="comp-row"><div class="comp-label">Francken</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:5.9%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>1</strong><span class="comp-delta up">▲1</span><span class="comp-share">0.3%</span></div></div><div class="comp-row"><div class="comp-label">Macron</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-delta flat">·</span><span class="comp-share">0.0%</span></div></div><div class="comp-row"><div class="comp-label">Netanyahu</div><div class="comp-bar-wrap"><div class="comp-bar" style="width:0.0%;background:#b8b1a0"></div></div><div class="comp-stat"><strong>0</strong><span class="comp-delta flat">·</span><span class="comp-share">0.0%</span></div></div><div class="comp-row comp-row-hidden"><div class="comp-hidden-note">+ <strong>12</strong> other figures with no mentions today <span class="comp-hidden-names">(Zelensky, Rutte, Von der Leyen, De Wever, Bouchez, Magnette, Prévot, Rousseau, Crevits, Jambon, Van Peteghem, Verlinden)</span></div></div></div>
+  <div class="vs-others"><div class="vs-line"><span class="vs-stat">Trump <strong>17</strong></span><span class="vs-sep">·</span><span class="vs-stat">16 others combined <strong>5</strong></span><span class="vs-sep">·</span><span class="vs-stat">ratio <strong>3.40×</strong></span></div><div class="vs-verdict">Trump alone is named more often today than the 16 other tracked figures combined.</div></div>
 </section>
 
 
@@ -1035,25 +1413,25 @@
   <div class="ctx-row">
     <div class="ctx-cell">
       <div class="ctx-label">Today</div>
-      <div class="ctx-value"><strong>12.7%</strong></div>
+      <div class="ctx-value"><strong>4.5%</strong></div>
     </div>
     <div class="ctx-cell">
-      <div class="ctx-label">vs. yesterday (04-25)</div>
-      <div class="ctx-value">▲ +10.1pt</div>
+      <div class="ctx-label">vs. yesterday (04-26)</div>
+      <div class="ctx-value">▼ -8.2pt</div>
     </div>
     <div class="ctx-cell">
-      <div class="ctx-label">vs. 11-day average (2.5%)</div>
-      <div class="ctx-value">▲ +10.2pt</div>
+      <div class="ctx-label">vs. 12-day average (3.3%)</div>
+      <div class="ctx-value">▲ +1.2pt</div>
     </div>
     <div class="ctx-cell">
       <div class="ctx-label">Rank in the series</div>
-      <div class="ctx-value"><strong>#1</strong> of 12 days</div>
+      <div class="ctx-value"><strong>#3</strong> of 13 days</div>
     </div>
     <div class="ctx-cell ctx-range">
-      <div class="ctx-label">Range over 11 prior days</div>
+      <div class="ctx-label">Range over 12 prior days</div>
       <div class="ctx-value">
         low <strong>1.6%</strong> (04-17)
-        · high <strong>4.7%</strong> (04-22)
+        · high <strong>12.7%</strong> (04-26)
       </div>
     </div>
   </div>
@@ -1062,26 +1440,26 @@
 
   <div class="chart-wrap">
     <svg class="chart" viewBox="0 0 800 260" preserveAspectRatio="xMidYMid meet">
-      <rect x="44" y="217.3" width="744" height="10.7" fill="#c8b89a" opacity="0.10"/><rect x="44" y="208.0" width="744" height="9.3" fill="#a8c4d8" opacity="0.10"/><rect x="44" y="194.6" width="744" height="13.4" fill="#4a7fa0" opacity="0.10"/><rect x="44" y="174.6" width="744" height="20.0" fill="#1e3a5f" opacity="0.10"/><rect x="44" y="16.0" width="744" height="158.6" fill="#b03a2e" opacity="0.10"/>
-      <rect x="230.0" y="16" width="62.0" height="212" fill="#0a1929" opacity="0.05"/><rect x="292.0" y="16" width="62.0" height="212" fill="#0a1929" opacity="0.05"/><rect x="664.0" y="16" width="62.0" height="212" fill="#0a1929" opacity="0.05"/><rect x="726.0" y="16" width="62.0" height="212" fill="#0a1929" opacity="0.05"/>
+      <rect x="44" y="217.3" width="744" height="10.7" fill="#c8b89a" opacity="0.18"/><rect x="44" y="208.0" width="744" height="9.3" fill="#a8c4d8" opacity="0.18"/><rect x="44" y="194.6" width="744" height="13.4" fill="#4a7fa0" opacity="0.18"/><rect x="44" y="174.6" width="744" height="20.0" fill="#1e3a5f" opacity="0.18"/><rect x="44" y="16.0" width="744" height="158.6" fill="#b03a2e" opacity="0.18"/>
+      <rect x="215.7" y="16" width="57.2" height="212" fill="#0a1929" opacity="0.05"/><rect x="272.9" y="16" width="57.2" height="212" fill="#0a1929" opacity="0.05"/><rect x="616.3" y="16" width="57.2" height="212" fill="#0a1929" opacity="0.05"/><rect x="673.5" y="16" width="57.2" height="212" fill="#0a1929" opacity="0.05"/>
       <line x1="44" x2="788" y1="228.0" y2="228.0" stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/><text x="36" y="232.0" text-anchor="end" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">0%</text><line x1="44" x2="788" y1="217.3" y2="217.3" stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/><text x="36" y="221.3" text-anchor="end" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">0.8%</text><line x1="44" x2="788" y1="208.0" y2="208.0" stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/><text x="36" y="212.0" text-anchor="end" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">1.5%</text><line x1="44" x2="788" y1="194.6" y2="194.6" stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/><text x="36" y="198.6" text-anchor="end" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">2.5%</text><line x1="44" x2="788" y1="174.6" y2="174.6" stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/><text x="36" y="178.6" text-anchor="end" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">4%</text>
-      <rect x="54.5" y="200.0" width="40.9" height="28.0" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-15: 2.1% (15/708)</title></rect><rect x="116.5" y="191.9" width="40.9" height="36.1" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-16: 2.7% (12/439)</title></rect><rect x="178.5" y="206.6" width="40.9" height="21.4" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-17: 1.6% (12/759)</title></rect><rect x="240.5" y="193.3" width="40.9" height="34.7" rx="2" fill="#1e3a5f" opacity="0.85"><title>2026-04-18: 2.6% (16/609)</title></rect><rect x="302.5" y="202.6" width="40.9" height="25.4" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-19: 1.9% (12/627)</title></rect><rect x="364.5" y="206.6" width="40.9" height="21.4" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-20: 1.6% (14/900)</title></rect><rect x="426.5" y="200.0" width="40.9" height="28.0" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-21: 2.1% (8/384)</title></rect><rect x="488.5" y="165.2" width="40.9" height="62.8" rx="2" fill="#1e3a5f" opacity="0.85"><title>2026-04-22: 4.7% (15/321)</title></rect><rect x="550.5" y="197.3" width="40.9" height="30.7" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-23: 2.3% (7/307)</title></rect><rect x="612.5" y="185.3" width="40.9" height="42.7" rx="2" fill="#1e3a5f" opacity="0.85"><title>2026-04-24: 3.2% (10/312)</title></rect><rect x="674.5" y="193.3" width="40.9" height="34.7" rx="2" fill="#1e3a5f" opacity="0.85"><title>2026-04-25: 2.6% (19/718)</title></rect><rect x="736.5" y="58.4" width="40.9" height="169.6" rx="2" fill="#b03a2e" opacity="1" stroke="#0a1929" stroke-width="2"><title>2026-04-26: 12.7% (19/150) — Schietpartij bij White House Correspondents&#x27; Dinner, Trump geëvacueerd — buitengewone nieuwsspike, niet representatief voor structurele media-aandacht</title></rect>
-      <g><circle cx="757.0" cy="48.4" r="5" fill="#0a1929" opacity="0.75"/><text x="757.0" y="52.4" text-anchor="middle" font-size="8" fill="white" font-family="Inter, sans-serif" font-weight="bold">!</text><title>Schietpartij bij White House Correspondents&#x27; Dinner, Trump geëvacueerd — buitengewone nieuwsspike, niet representatief voor structurele media-aandacht</title></g>
-      <text x="75.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">15/04</text><text x="137.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">16/04</text><text x="199.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">17/04</text><text x="261.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">18/04</text><text x="323.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">19/04</text><text x="385.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">20/04</text><text x="447.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">21/04</text><text x="509.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">22/04</text><text x="571.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">23/04</text><text x="633.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">24/04</text><text x="695.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">25/04</text><text x="757.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">26/04</text>
+      <rect x="53.7" y="200.0" width="37.8" height="28.0" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-15: 2.1% (15/708)</title></rect><rect x="111.0" y="191.9" width="37.8" height="36.1" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-16: 2.7% (12/439)</title></rect><rect x="168.2" y="206.6" width="37.8" height="21.4" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-17: 1.6% (12/759)</title></rect><rect x="225.4" y="193.3" width="37.8" height="34.7" rx="2" fill="#1e3a5f" opacity="0.85"><title>2026-04-18: 2.6% (16/609)</title></rect><rect x="282.7" y="202.6" width="37.8" height="25.4" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-19: 1.9% (12/627)</title></rect><rect x="339.9" y="206.6" width="37.8" height="21.4" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-20: 1.6% (14/900)</title></rect><rect x="397.1" y="200.0" width="37.8" height="28.0" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-21: 2.1% (8/384)</title></rect><rect x="454.3" y="165.2" width="37.8" height="62.8" rx="2" fill="#1e3a5f" opacity="0.85"><title>2026-04-22: 4.7% (15/321)</title></rect><rect x="511.6" y="197.3" width="37.8" height="30.7" rx="2" fill="#4a7fa0" opacity="0.85"><title>2026-04-23: 2.3% (7/307)</title></rect><rect x="568.8" y="185.3" width="37.8" height="42.7" rx="2" fill="#1e3a5f" opacity="0.85"><title>2026-04-24: 3.2% (10/312)</title></rect><rect x="626.0" y="193.3" width="37.8" height="34.7" rx="2" fill="#1e3a5f" opacity="0.85"><title>2026-04-25: 2.6% (19/718)</title></rect><rect x="683.3" y="58.4" width="37.8" height="169.6" rx="2" fill="#b03a2e" opacity="0.85"><title>2026-04-26: 12.7% (19/150) — Shooting at White House Correspondents&#x27; Dinner — Trump evacuated. Exceptional news spike, not representative of structural media attention.</title></rect><rect x="740.5" y="167.9" width="37.8" height="60.1" rx="2" fill="#b03a2e" opacity="1" stroke="#0a1929" stroke-width="2"><title>2026-04-27: 4.5% (17/374)</title></rect>
+      <g><circle cx="702.2" cy="48.4" r="5" fill="#0a1929" opacity="0.75"/><text x="702.2" y="52.4" text-anchor="middle" font-size="8" fill="white" font-family="Inter, sans-serif" font-weight="bold">!</text><title>Shooting at White House Correspondents&#x27; Dinner — Trump evacuated. Exceptional news spike, not representative of structural media attention.</title></g>
+      <text x="72.6" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">15/04</text><text x="187.1" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">17/04</text><text x="301.5" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">19/04</text><text x="416.0" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">21/04</text><text x="530.5" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">23/04</text><text x="644.9" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">25/04</text><text x="759.4" y="250" text-anchor="middle" font-size="11" fill="#8a8170" font-family="Inter, sans-serif">27/04</text>
     </svg>
   </div>
   <div class="legend"><span class="legend-item"><span class="legend-swatch" style="background:#c8b89a"></span>Dry <small>0–0.8%</small></span> <span class="legend-item"><span class="legend-swatch" style="background:#a8c4d8"></span>Puddles <small>0.8–1.5%</small></span> <span class="legend-item"><span class="legend-swatch" style="background:#4a7fa0"></span>Wet <small>1.5–2.5%</small></span> <span class="legend-item"><span class="legend-swatch" style="background:#1e3a5f"></span>Soaked <small>2.5–4%</small></span> <span class="legend-item"><span class="legend-swatch" style="background:#b03a2e"></span>Flooding <small>≥ 4%</small></span> <span class="legend-item"><span class="legend-swatch legend-swatch--weekend"></span>Weekend</span></div>
   <p class="legend-note">Bar colour reflects the assessed zone (percentage + rank + dominance + breadth). Background bands show the percentage thresholds only.</p>
-  <ul class="annotation-list"><li><strong>26/04</strong> — Schietpartij bij White House Correspondents&#x27; Dinner, Trump geëvacueerd — buitengewone nieuwsspike, niet representatief voor structurele media-aandacht</li></ul>
+  <ul class="annotation-list"><li><strong>26/04</strong> — Shooting at White House Correspondents&#x27; Dinner — Trump evacuated. Exceptional news spike, not representative of structural media attention.</li></ul>
 </section>
 
 
-  <section class="block"><h2>Today&rsquo;s mentions</h2><p class="block-intro">Name mentions first; indirect references (&ldquo;White House&rdquo;, &ldquo;US president&rdquo;, ...) are tagged and listed after.</p><ul class="mentions"><li><a href="https://vrtnws.be/p.0Y6B11NyZ" target="_blank" rel="noopener">Schutter probeert White House Correspondents’ Dinner binnen te dringen: Trump geëvacueerd, verdachte gearresteerd</a><span class="src">VRT NWS</span></li><li><a href="https://www.hln.be/nieuws/kijk-beelden-tonen-chaos-trump-en-vicepresident-jd-vance-in-allerijl-geevacueerd-na-schietincident-aanwezigen-duiken-onder-de-tafel~ad2f37c8/" target="_blank" rel="noopener">KIJK. Beelden tonen chaos: Trump en vicepresident JD Vance in allerijl geëvacueerd na schietincident, aanwezigen duiken onder de tafel</a><span class="src">HLN</span></li><li><a href="https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/" target="_blank" rel="noopener">Trump: “Schietpartij zal me niet afschrikken van Iran-oorlog”</a><span class="src">HLN</span></li><li><a href="https://www.hln.be/buitenland/mexico-en-canada-betuigen-steun-aan-trump-na-schietincident~a767cf22/" target="_blank" rel="noopener">Mexico en Canada betuigen steun aan Trump na schietincident</a><span class="src">HLN</span></li><li><a href="https://www.hln.be/buitenland/poging-tot-aanslag-bij-persdiner-trump-president-in-veiligheid-gebracht-nadat-schoten-worden-gelost-verdachte-opgepakt~aefe328b/" target="_blank" rel="noopener">Poging tot aanslag bij persdiner Trump: president in veiligheid gebracht nadat schoten worden gelost, verdachte opgepakt</a><span class="src">HLN</span></li><li><a href="https://www.hln.be/buitenland/trump-spreekt-pers-toe-na-schietpartij-bij-correspondents-dinner-niet-bepaald-een-veilig-gebouw~a63592ba/" target="_blank" rel="noopener">Trump spreekt pers toe na schietpartij bij Correspondents’ Dinner: “Niet bepaald een veilig gebouw”</a><span class="src">HLN</span></li><li><a href="https://www.demorgen.be/snelnieuws/trump-spreekt-pers-toe-na-schietpartij-bij-correspondents-dinner-niet-bepaald-een-veilig-gebouw~b63592ba/" target="_blank" rel="noopener">Trump spreekt pers toe na schietpartij bij Correspondents’ Dinner: ‘Niet bepaald een veilig gebouw’</a><span class="src">De Morgen</span></li><li><a href="https://www.demorgen.be/snelnieuws/schietpartij-bij-white-house-correspondents-dinner-trump-en-vance-in-veiligheid-gebracht-gewapende-verdachte-opgepakt~befe328b/" target="_blank" rel="noopener">Schietpartij bij White House Correspondents’ Dinner: Trump en Vance in veiligheid gebracht, gewapende verdachte opgepakt</a><span class="src">De Morgen</span></li><li><a href="https://www.nieuwsblad.be/buitenland/live.-schoten-gelost-tijdens-persdiner-van-trump-beelden-tonen-hoe-verdachte-langs-beveiliging-rent/148911615.html" target="_blank" rel="noopener">LIVE. Schoten gelost tijdens persdiner van Trump - Beelden tonen hoe verdachte langs beveiliging rent</a><span class="src">Het Nieuwsblad</span></li><li><a href="https://www.nieuwsblad.be/buitenland/trump-geevacueerd-na-geweerschoten-tijdens-jaarlijks-diner-met-journalisten-schutter-opgepakt/148889663.html" target="_blank" rel="noopener">Trump geëvacueerd na geweerschoten tijdens jaarlijks diner met journalisten, schutter opgepakt</a><span class="src">Het Nieuwsblad</span></li><li><a href="https://www.nieuwsblad.be/buitenland/trump-ontvangt-winnaars-van-cryptowedstrijd-op-mar-a-lago-maar-waarde-van-trump-munt-zakt-tijdens-zijn-toespraak-verder-weg/148820848.html" target="_blank" rel="noopener">Trump ontvangt winnaars van cryptowedstrijd op Mar-a-Lago maar waarde van $TRUMP-munt zakt tijdens zijn toespraak verder weg</a><span class="src">Het Nieuwsblad</span></li><li><a href="https://www.hbvl.be/buitenland/live.-schoten-gelost-tijdens-persdiner-van-trump-beelden-tonen-hoe-verdachte-langs-beveiliging-rent/149013248.html" target="_blank" rel="noopener">LIVE. Schoten gelost tijdens persdiner van Trump - Beelden tonen hoe verdachte langs beveiliging rent</a><span class="src">Het Belang van Limburg</span></li><li><a href="https://news.google.com/rss/articles/CBMihAJBVV95cUxOak9XRW1hTjJfT1E1U09PcGY5TWxCLWQtek84SDlwbjJ6MTRCOXhIZ0M3eTQ1RGRkS3FuQ3M5anJTbDBpUHMxaHZ5eG1BU3d6TEZtcm1UTGtsZkZJNmNEX2dLRGlsRHpvaGgxRDA0UnAyVXk5WHRuWkRPNzgxUWFIN0d1S3RDUUFMNWhQaFNjd1lUcVN5ZkFCcjFPSGZFV1pjVV9sdXVhTmdhSGpDZEpVVmdhbTBmM3RoTlo2MGY3MWxaamlVT3lsWUFkVmNETDVsT0l2RDlFN1ZSeGpxSlV3T20zeGZTOUM3b014OUJHUGVrT1FvVmhfbU9TRFRUWEVIQzlicA?oc=5" target="_blank" rel="noopener">Incident White House Correspondents&#x27; Dinner : Schutter gearresteerd, Trump geëvacueerd en ongedeerd - Knack</a><span class="src">Knack</span></li><li><a href="https://www.rtbf.be/article/donald-trump-evacue-et-indemne-apres-des-tirs-au-diner-des-correspondants-a-la-maison-blanche-le-tireur-arrete-photos-et-videos-11715469" target="_blank" rel="noopener">Donald Trump évacué et indemne après des tirs au dîner des correspondants à la Maison Blanche, le tireur arrêté (photos et videos)</a><span class="src">RTBF</span></li><li><a href="https://www.lalibre.be/international/amerique/2026/04/26/restez-a-terre-donald-trump-evacue-du-diner-des-correspondants-de-la-maison-blanche-apres-des-coups-de-feu-WDVOAUTY6ZD3LBCT2CI2SNXDNM/" target="_blank" rel="noopener">”Restez à terre !” : Donald Trump évacué du Dîner des correspondants de la Maison-Blanche après des coups de feu</a><span class="src">La Libre</span></li><li><a href="https://www.7sur7.be/monde/trump-evacue-apres-des-tirs-lors-dun-gala-de-presse-a-la-maison-blanche-un-blesse-un-suspect-arrete~af7f583a/" target="_blank" rel="noopener">Trump évacué après des tirs lors d’un gala de presse à la Maison Blanche: un blessé, un suspect arrêté</a><span class="src">7sur7</span></li><li><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUUwtV1hWMEZYaXE0eGRKdjktN1lCQjNOM2ZaLWpCNnNUNkdDNVk3ekhXMWlZbmZlTjNrSGxUb0hEcmdpeTdEdjhqWmpaS3hmV0RGdDlNbXlrcVpCR0ZPSDI4X0w4RGNQM2p0cUNWNVBwMGxkaFlCRXFWejhCMFJiV0hiZWF0UHZpczRBNmluZE9yLVpkYV9HV3hXTGROcTFHeFgwaW1XbWI3T19fUjh1VGc0SVlUY1NVblRIdlJET0R4Znc?oc=5" target="_blank" rel="noopener">Trump geëvacueerd van White House Correspondents&#x27; Dinner - De Tijd</a><span class="src">De Tijd</span></li><li><a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSElodGNEaEk0UUxOQUxnTmo3QnNIOUY2cTFYT3lqOU9BNWtQOTY1ZmxCWkxTMllxVm5TS1JKNTM3ankwZWpDQTQ4S1FKUUtxbFZ0S2gtd3RiSDRCUmxNZm05YldvQVl5aU5jSEJrQVJnTWlZaXhlQmV2ZjZleDlSZ2dCLTlIV0lDQkFtVHJOZG5KVXg3Zm5tWVdfZ1hXSFM0NWlRUEY3RmxUUTdSZ1dLdzVwbXVaNVRzcHlfWjdUY0NLSC1jX01QWEx4S09TWW0xYzhNeFp5VlpqNFE?oc=5" target="_blank" rel="noopener">Trump na schietincident geëvacueerd van White House Correspondents&#x27; Dinner - De Tijd</a><span class="src">De Tijd</span></li><li><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSWVBcXZSbVZ6YS0yMU14Y1dkWXFNNGp0Y3VXTXFlQ0w1Rmo2d2JjWWJCczdJb0JiRmlxMHMycFhqTndxdVJYNDg4dU1iUGV2bjU2amVBdmpWVnh0MGUwWXRRQ2RZODk3N2x3a3N1V3VtWGZERFBGT2Naa0FUdnJpVkZzeDdoR1pPcnNyOGw5aEs1THFZYXYtUzRCMFpzNDladWtPMjVBcFFHZjdubHcxb29mSXNXOFF3X1pENE5JSkRrWkRxbXVtY1h1a09IRjg2b3c?oc=5" target="_blank" rel="noopener">Un gala organisé par Donald Trump évacué d’urgence : un tireur lourdement armé a tenté de faire irruption - RTL Info</a><span class="src">RTL Info</span></li><li><a href="https://www.hln.be/buitenland/wat-weten-we-over-de-schutter-die-het-correspondents-dinner-van-het-witte-huis-probeerde-binnen-te-dringen~a1ca5ed7/" target="_blank" rel="noopener">Wat weten we over de schutter die het Correspondents’ Dinner van het Witte Huis probeerde binnen te dringen?</a> <span class="indirect-tag" title="Matched only via indirect reference (White House, US president, ...)">indirect</span><span class="src">HLN</span></li><li><a href="https://www.nieuwsblad.be/buitenland/traditioneel-persdiner-met-amerikaanse-president-brengt-politiek-media-en-beroemdheden-samen/148949496.html" target="_blank" rel="noopener">Traditioneel persdiner met Amerikaanse president brengt politiek, media en beroemdheden samen</a> <span class="indirect-tag" title="Matched only via indirect reference (White House, US president, ...)">indirect</span><span class="src">Het Nieuwsblad</span></li></ul></section>
+  <section class="block"><h2>Today&rsquo;s mentions</h2><p class="block-intro">Name mentions first; indirect references (&ldquo;White House&rdquo;, &ldquo;US president&rdquo;, ...) are tagged and listed after.</p><ul class="mentions"><li><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQX0tWeFdBdTh6UER3eEFkQWo1dHliQ2JVNVFsenphV0NYWjFmSVEwcXZ2aGFLTmR3TUxfUUFFbmJtbG5fRHFKLXBzcHN2M0dpZTMyV21uaHljcDJuX0NBNjF0T2F6Ry1UYTBzb3kwOTVjREFGekhrampvMFFkYzYya2x0TzFLaXBtb1A4cDFoTDFJZVdwTzFHc2E2V29jMEJwbW5xcmxpWndYUDJUQlgwaXN1VDlXTlJaUXhmcjgyNHBWWFhs?oc=5" target="_blank" rel="noopener">Trump speelt nieuwe aanslag meteen uit: “Zie je wel dat mijn balzaal nodig is” - De Standaard</a><span class="src">De Standaard</span></li><li><a href="https://www.hln.be/buitenland/trump-reageert-fel-op-manifest-van-verijdelde-schutter-ik-ben-geen-pedofiel-of-verkrachter~a1648d4f/" target="_blank" rel="noopener">Trump reageert fel op manifest van verijdelde schutter: “Ik ben geen pedofiel of verkrachter”</a><span class="src">HLN</span></li><li><a href="https://www.nieuwsblad.be/buitenland/live-schietpartij-persdiner.-trump-reageert-fel-op-vraag-over-manifest-van-schutter-ik-heb-niemand-verkracht-ook-al-schrijft-hij-dat/148911615.html" target="_blank" rel="noopener">LIVE SCHIETPARTIJ PERSDINER. Trump reageert fel op vraag over manifest van schutter: “Ik heb niemand verkracht, ook al schrijft hij dat”</a><span class="src">Het Nieuwsblad</span></li><li><a href="https://www.nieuwsblad.be/binnenland/koning-charles-op-staatsbezoek-bij-donald-trump-een-uiterst-wankele-balanceeroefening/148565808.html" target="_blank" rel="noopener">Koning Charles op staatsbezoek bij Donald Trump: een uiterst wankele balanceeroefening</a><span class="src">Het Nieuwsblad</span></li><li><a href="https://www.hbvl.be/buitenland/live-schietpartij-persdiner.-trump-reageert-fel-op-vraag-over-manifest-van-schutter-ik-heb-niemand-verkracht-ook-al-schrijft-hij-dat/149013248.html" target="_blank" rel="noopener">LIVE SCHIETPARTIJ PERSDINER. Trump reageert fel op vraag over manifest van schutter: “Ik heb niemand verkracht, ook al schrijft hij dat”</a><span class="src">Het Belang van Limburg</span></li><li><a href="https://www.rtbf.be/article/etats-unis-trump-recoit-le-roi-charles-dans-la-foulee-de-l-attaque-au-gala-de-la-presse-11715778" target="_blank" rel="noopener">Etats-Unis : Trump reçoit le roi Charles dans la foulée de l’attaque au gala de la presse</a><span class="src">RTBF</span></li><li><a href="https://www.lalibre.be/international/amerique/2026/04/27/donald-trump-recoit-le-roi-charles-dans-la-foulee-de-lattaque-au-gala-de-la-presse-cest-un-mec-super-XQ3DS77LAVDETD4VUUUN3U76ZY/" target="_blank" rel="noopener">Donald Trump reçoit le roi Charles, &quot;un mec super&quot;, dans la foulée de l&#x27;attaque au gala de la presse</a><span class="src">La Libre</span></li><li><a href="https://www.lalibre.be/international/amerique/2026/04/27/barack-obama-reagit-a-lattaque-qui-a-vise-le-gala-a-washington-avec-trump-3SLZFMR6P5GR5NYGB6RKV665WE/" target="_blank" rel="noopener">Barack Obama réagit à l&#x27;attaque qui a visé le gala à Washington avec Trump</a><span class="src">La Libre</span></li><li><a href="https://news.google.com/rss/articles/CBMirwJBVV95cUxNZHJ3OVlJWjh5bzd6OXh4aHVJYklMYWs1dGRZYjJWWFFiaUlXNURscVR6NUF0bW1CUHFVdWVuZWptT1l3SkN3WkdWbTZqRXhqUGhyTDJoRFBGQ09xUS0zeVBtTkpmZi1FN19WNGZzWk1ZbzRWSWo2Y0ZfVDNUNm9QeC1uMEEzckkteHNJRTczaTAtRUVON21Ga2JQcDdhdzFIQmtwTGYyMnpyb0lReXpBcXhRZV9mQ1VyUmtIMWFWRmlJMkx6REVPeWZyRVp3blduTE8zQXlza1RuSS1IRDJCMFN5TXJMbEpKamtqVUJscnpUVVkyUVpGaHNFbjZLVk1YM3ZfYjhpQzlHTEJRZXRPZEtpb1BvbDdhRnFLVW44UUlpY2tkUnZFMjRHZV90S0U?oc=5" target="_blank" rel="noopener">En direct | Guerre au Moyen-Orient: Abbas Araghchi reçu par Poutine à Moscou ce lundi, l&#x27;Iran fait une contre-proposition à Trump - L&#x27;Echo</a><span class="src">L&#x27;Echo</span></li><li><a href="https://news.google.com/rss/articles/CBMiqwJBVV95cUxPdTFQbzhPRGNWX0ViQUZzU0k4RVV0cGY3MmhfQW1pdExVR2labFdzLWhMTTc4VHRkbFZqUHVsd1dsakNBeHRBV18yQUlKYWVUcWV1dTFEcUw4R05iSHpPakU4OTExQTFSS3U4MkY3NjQ0UldoZVRSbEJXbEdFcjI0V1V5LUpvVlhmaHNPRlNSOTBfV1lHaE1oQk1acmtFVHpIcjFBMVMwdDAtbEhhdTF5bGZVX3FQbFRCRW5RTTRmWk56emxTM1NLV3RMaUxNWUhLVDFFaDNtU01UOUJlTTJ4RVY3VWR5b1dFWGs2b3NuSjZGQlN0ZDgwS25tQ0c1UHVyNUhxZ1JpaHp2OWo4a1NWSjdvS05qQmVpckotaGFoMGNmaUlrZS1rd1NSdw?oc=5" target="_blank" rel="noopener">En direct | Guerre au Moyen-Orient: l&#x27;Iran propose à Trump de rouvrir Ormuz, mais de reporter les discussions sur le nucléaire - L&#x27;Echo</a><span class="src">L&#x27;Echo</span></li><li><a href="https://www.dhnet.be/sports/football/coupe-du-monde/2026/04/27/150-dollars-la-navette-30-dollars-la-biere-comment-la-coupe-du-monde-aux-usa-sous-la-rage-taxatoire-de-trump-va-racketter-les-supporters-A7YUPFU3VBB6BCN64DB5DCR76A/" target="_blank" rel="noopener">Billets, transports, hôtels, bières: comment la Coupe du Monde aux USA, sous la rage taxatoire de Trump, va racketter les supporters</a><span class="src">DH.net</span></li><li><a href="https://www.dhnet.be/actu/monde/2026/04/27/barack-obama-reagit-a-lattaque-qui-a-vise-le-gala-a-washington-avec-trump-OUY2CRREDRHDXHKXIAKYADSTBI/" target="_blank" rel="noopener">Barack Obama réagit à l&#x27;attaque qui a visé le gala à Washington avec Trump</a><span class="src">DH.net</span></li><li><a href="https://www.7sur7.be/monde/cest-de-ma-faute-trump-reconnait-ne-pas-avoir-facilite-la-tache-des-agents-de-securite~a61f3c06/" target="_blank" rel="noopener">“C’est de ma faute”: Trump reconnaît ne pas avoir facilité la tâche des agents de sécurité</a><span class="src">7sur7</span></li><li><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaE1yamJVTnBGNWwwT0FfVUhTbTlfSkJnb0ZoVkpmcjJabnN2WndxYmwzVTRyLVFpd0doVXBVOS1KOEJaaDAyRUVPOGNTbFVOTGlZcjBCOFlpcE5sWV83Vzl3cFduVGkwWkdiVEsycVJoUE5MWG9rZUxqSVE5VTMwTHU4ME1JeThnbUN3TFRSWnNKUU1oWWJrNnZlOWlnOUZ2cGtjNThoVVF5Qms?oc=5" target="_blank" rel="noopener">Depuis Trump, la violence politique ressurgit aux Etats-Unis - Le Soir</a><span class="src">Le Soir</span></li><li><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdEE4TzJsOXBzLXdFaTg0UkJnc2pDa0YzSjI0T3VfanhPdzRzN2xQZWM2SURKXzVZeHNCTURaTWNaS3BlSVpGcHphZ2FrZmNwM1FSNFB1SlU5bl9kUXJVc18tRnNLTDg4T1doamdUdlF6SFVZNXZXci1IYU1ZOTZmVmprUzF3X053STdwdmRKR0M3UmxmR0V1UGowQW1YTVd0NFMyUy1PeVlkNk43blBmZVhtWFU2M3RkdWFB?oc=5" target="_blank" rel="noopener">Trump une nouvelle fois sanctifié par son statut de victime ? Pas si vite… - Le Soir</a><span class="src">Le Soir</span></li><li><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUlN5RWV4ZDJYNDJTLUhKZXNtV2JwUjJ3d0lIMl9Kd2RTVTExVlVzOUkxdkZBLU5NY25JRVFlVXJqY3lMWXVlSEVJcEl6cV9RV0N1LS0tMW9PVm9HaUJ4VkVnajZwSjdqU1Z5QjctLVBQT2ROam1LdW9oRXJxdXhZMFhSQnFPY044b3Z5QkhOQVViQWFqOEFtQ3U0TjQwQ2ktenZneEVidFVTS096RGc2blNmTXpKOXN2bUFKQjA0eWlISEE1TGpQODFDSzdMamFzNGhVM2tucnJXWDBJUjBrbUFQVQ?oc=5" target="_blank" rel="noopener">« Même si nous ne connaissons pas encore les détails… » : Barack Obama sort du silence après les tirs lors d’un gala en présence de Donald Trump - RTL Info</a><span class="src">RTL Info</span></li><li><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxOS3p3c1dKdFJ5Um9MUnJaYkZvVVlsejEyeFpmNnByMUVjWG5PWm1BcWFhZE9QTk1lTVBVVFVOS1FYMmp0LV9oLUJNdEpJNFo4cUh2UWNBbWxiQmtDMU1Xa1JPbmJtT0NFazk2bWZpbGFWX00tV2pxN2NsQjZfc01XdWVEckRQXzlTcHJQek1vZ3IxYloxNjBERFRSZmEteU9EY1JHbEt4UEV1TnQzWWZaVi1tUWxjZGdXQlVGVTNiTm5qTTlQVFFwZUFBcE83Z2xmeEFDSFBtN2R2aF85TTZtMExUaw?oc=5" target="_blank" rel="noopener">Le suspect présenté à la justice, un manifeste « très antichrétien », Trump « pas inquiet »… : voici ce que l’on sait après les tirs au Gala de la presse - RTL Info</a><span class="src">RTL Info</span></li><li><a href="https://www.rtbf.be/article/tirs-au-gala-des-correspondants-de-la-maison-blanche-le-suspect-presente-a-la-justice-americaine-11715767" target="_blank" rel="noopener">Tirs au gala des correspondants de la Maison blanche : le suspect présenté à la justice américaine</a> <span class="indirect-tag" title="Matched only via indirect reference (White House, US president, ...)">indirect</span><span class="src">RTBF</span></li><li><a href="https://www.rtbf.be/article/tirs-au-gala-des-correspondants-de-la-maison-blanche-ou-en-est-l-enquete-11715570" target="_blank" rel="noopener">Tirs au gala des correspondants de la Maison blanche : où en est l’enquête ?</a> <span class="indirect-tag" title="Matched only via indirect reference (White House, US president, ...)">indirect</span><span class="src">RTBF</span></li><li><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxOOGZJVVdGSnRfdll2cGJ1clpTNllpSjR4SVU1T0pMcGhrTXMwQWpYLTJvVHMzTTlTbl9TVmw3VjlVVFpfZGNIRldPei03VmJzckJpM04tUzF0Qm1zdFZwckpIcWJzMGhPbGdaUzVhVDhWbXd6ei1BZUhpSTY2dmwzc3p1cXYwWkpBSTIzbGJaeUsyOC1NRlFRcVowUnRsZmt5ZmZZR25kTDZFZHlYLW9zQQ?oc=5" target="_blank" rel="noopener">Barack Obama réagit après les tirs au gala de la Maison-Blanche - Le Soir</a> <span class="indirect-tag" title="Matched only via indirect reference (White House, US president, ...)">indirect</span><span class="src">Le Soir</span></li></ul></section>
 
   
 <section class="block">
   <h2>Daily log</h2>
-  <table class="log-table"><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-26</td><td class='label-cell'>Trump is flooding the zone</td><td class='num'>19/150</td><td class='num'>12.7%<span class='inline-bar' style='width:31px;background:#b03a2e'></span></td></tr><tr><td>2026-04-25</td><td class='label-cell'>The zone is soaked</td><td class='num'>19/718</td><td class='num'>2.6%<span class='inline-bar' style='width:6px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-24</td><td class='label-cell'>The zone is soaked</td><td class='num'>10/312</td><td class='num'>3.2%<span class='inline-bar' style='width:8px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-23</td><td class='label-cell'>The zone is getting wet</td><td class='num'>7/307</td><td class='num'>2.3%<span class='inline-bar' style='width:5px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-22</td><td class='label-cell'>The zone is soaked</td><td class='num'>15/321</td><td class='num'>4.7%<span class='inline-bar' style='width:11px;background:#b03a2e'></span></td></tr><tr><td>2026-04-21</td><td class='label-cell'>The zone is getting wet</td><td class='num'>8/384</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-20</td><td class='label-cell'>The zone is getting wet</td><td class='num'>14/900</td><td class='num'>1.6%<span class='inline-bar' style='width:4px;background:#4a7fa0'></span></td></tr></tbody></table><details class="history-more"><summary>Show full history (5 earlier days)</summary><table class="log-table"><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-19</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/627</td><td class='num'>1.9%<span class='inline-bar' style='width:4px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-18</td><td class='label-cell'>The zone is soaked</td><td class='num'>16/609</td><td class='num'>2.6%<span class='inline-bar' style='width:6px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-17</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/759</td><td class='num'>1.6%<span class='inline-bar' style='width:4px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#4a7fa0'></span></td></tr></tbody></table></details>
+  <table class="log-table"><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-27</td><td class='label-cell'>Trump is flooding the zone</td><td class='num'>17/374</td><td class='num'>4.5%<span class='inline-bar' style='width:11px;background:#b03a2e'></span></td></tr><tr><td>2026-04-26</td><td class='label-cell'>Trump is flooding the zone</td><td class='num'>19/150</td><td class='num'>12.7%<span class='inline-bar' style='width:31px;background:#b03a2e'></span></td></tr><tr><td>2026-04-25</td><td class='label-cell'>The zone is soaked</td><td class='num'>19/718</td><td class='num'>2.6%<span class='inline-bar' style='width:6px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-24</td><td class='label-cell'>The zone is soaked</td><td class='num'>10/312</td><td class='num'>3.2%<span class='inline-bar' style='width:8px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-23</td><td class='label-cell'>The zone is getting wet</td><td class='num'>7/307</td><td class='num'>2.3%<span class='inline-bar' style='width:5px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-22</td><td class='label-cell'>The zone is soaked</td><td class='num'>15/321</td><td class='num'>4.7%<span class='inline-bar' style='width:11px;background:#b03a2e'></span></td></tr><tr><td>2026-04-21</td><td class='label-cell'>The zone is getting wet</td><td class='num'>8/384</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#4a7fa0'></span></td></tr></tbody></table><details class="history-more"><summary>Show full history (6 earlier days)</summary><table class="log-table"><thead><tr><th>Date</th><th>Label</th><th>Matches</th><th>Share</th></tr></thead><tbody><tr><td>2026-04-20</td><td class='label-cell'>The zone is getting wet</td><td class='num'>14/900</td><td class='num'>1.6%<span class='inline-bar' style='width:4px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-19</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/627</td><td class='num'>1.9%<span class='inline-bar' style='width:4px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-18</td><td class='label-cell'>The zone is soaked</td><td class='num'>16/609</td><td class='num'>2.6%<span class='inline-bar' style='width:6px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-17</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/759</td><td class='num'>1.6%<span class='inline-bar' style='width:4px;background:#4a7fa0'></span></td></tr><tr><td>2026-04-16</td><td class='label-cell'>The zone is getting wet</td><td class='num'>12/439</td><td class='num'>2.7%<span class='inline-bar' style='width:6px;background:#1e3a5f'></span></td></tr><tr><td>2026-04-15</td><td class='label-cell'>The zone is getting wet</td><td class='num'>15/708</td><td class='num'>2.1%<span class='inline-bar' style='width:5px;background:#4a7fa0'></span></td></tr></tbody></table></details>
 </section>
 
 
@@ -1127,13 +1505,13 @@
       its national content largely overlaps with Het Nieuwsblad (same group).
       The full <strong>wide</strong> corpus is still
       computed and stored in <code>data/log.json</code> as a cross-check.
-      Today’s core corpus: <strong>150 headlines</strong>,
-      <strong>19 by-name Trump matches = 12.7%</strong>
+      Today’s core corpus: <strong>374 headlines</strong>,
+      <strong>17 by-name Trump matches = 4.5%</strong>
       (this is the share the zone uses; see the &ldquo;Trump match&rdquo;
       section below for how indirect references are handled separately).</p>
-      <p class="corpus-diag"><strong>Weekend (Sunday).</strong> Belgian news output is substantially lower on weekends — fewer articles in the denominator means share and breadth figures are not directly comparable to weekday readings. A low zone score today may reflect reduced total volume rather than reduced Trump prominence.</p>
-      <p class="corpus-diag">Corpus diagnostics: <strong>10 of 19</strong> core outlets active (≥ 5 kept headlines); <strong>21.3%</strong> of the kept core corpus (32 headlines across 16 wire-copy groups) runs verbatim in ≥ 2 outlets. These don’t change the zone; they make denominator drift visible. A shrinking outlet count or a spike in wire-copy rate can move share and breadth independently of any real change in Trump coverage.</p>
-      <p>Including every feed we fetch — Brussels-local (BX1, Bruzz), sport-only (Sporza), and the Google News aggregators that repackage outlets we already pull directly — the full <strong>wide</strong> corpus is <strong>218 headlines</strong> with <strong>25 by-name Trump matches = 11.5%</strong> (-1.2pt vs. core). The cross-check exists so we can spot a day where the two tiers diverge sharply, which usually signals an aggregator artefact rather than a real shift. The 7-day rolling average of the core share (live RSS days only, GDELT backfill excluded) is <strong>4.14%</strong>.</p>
+      
+      <p class="corpus-diag">Corpus diagnostics: <strong>16 of 19</strong> core outlets active (≥ 5 kept headlines); <strong>14.2%</strong> of the kept core corpus (53 headlines across 26 wire-copy groups) runs verbatim in ≥ 2 outlets. These don’t change the zone; they make denominator drift visible. A shrinking outlet count or a spike in wire-copy rate can move share and breadth independently of any real change in Trump coverage.</p>
+      <p>Including every feed we fetch — Brussels-local (BX1, Bruzz), sport-only (Sporza), and the Google News aggregators that repackage outlets we already pull directly — the full <strong>wide</strong> corpus is <strong>491 headlines</strong> with <strong>25 by-name Trump matches = 5.1%</strong> (+0.6pt vs. core). The cross-check exists so we can spot a day where the two tiers diverge sharply, which usually signals an aggregator artefact rather than a real shift. The 7-day rolling average of the core share (live RSS days only, GDELT backfill excluded) is <strong>4.59%</strong>.</p>
 
       <h3>Trump match</h3>
       <p>A headline is a Trump headline if its title matches the regex
@@ -1205,7 +1583,7 @@
       <p>The percentage of today&rsquo;s Belgian core-tier headlines
       that name Trump. Computed as
       <code>Trump-by-name headlines &divide; total core headlines &times; 100</code>.</p>
-      <p class="signal-today">Today: <strong>19/150 = 12.7%</strong>.
+      <p class="signal-today">Today: <strong>17/374 = 4.5%</strong>.
       A low number means Trump is not prominent in the news today,
       regardless of what other signals say.</p>
 
@@ -1215,7 +1593,7 @@
       Belgian; see the Comparators list). A value above 1.0&times;
       means Trump alone out-mentions the other sixteen
       <em>combined</em>.</p>
-      <p class="signal-today">Today: <strong>19.0×</strong>. This
+      <p class="signal-today">Today: <strong>3.4×</strong>. This
       catches the &ldquo;slow domestic day&rdquo; case where Trump scoops
       up all named-figure attention even when coverage volume is modest.</p>
 
@@ -1224,7 +1602,7 @@
       Trump-by-name headline today. Only outlets with &ge; 5 post-dedup
       headlines count toward the denominator so a near-empty feed
       doesn&rsquo;t skew the ratio.</p>
-      <p class="signal-today">Today: <strong>70% of core outlets ran a Trump story</strong>.
+      <p class="signal-today">Today: <strong>69% of core outlets ran a Trump story</strong>.
       A high dominance combined with low breadth means one outlet is
       obsessing; a high breadth means Belgian newsrooms collectively
       decided Trump deserves a spot today.</p>
@@ -1250,8 +1628,8 @@
       because any day that cleared the other four Flooding floors
       always cleared the deviation floor as well. Requires at least 7
       prior days of data, which the archive builds up gradually.</p>
-      <p class="signal-today">Today: <strong>— (median was 0 over the last 7 days)</strong>.
-      The 7-day rolling average of the core share (live RSS days only, GDELT backfill excluded) is <strong>4.14%</strong>.</p>
+      <p class="signal-today">Today: <strong>1.73× the 14-day median</strong>.
+      The 7-day rolling average of the core share (live RSS days only, GDELT backfill excluded) is <strong>4.59%</strong>.</p>
 
       <h4 class="signal-h">Today against each zone</h4>
       <p>Each zone has a set of gates its day has to clear simultaneously.
@@ -1260,7 +1638,7 @@
       hollow circle means the gate is not used for that zone. Dry is the
       fall-through when nothing above it clears.</p>
       <div class="zone-cards">
-        <div class="zone-card zone-card-cleared zone-card-active"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#b03a2e"></span><span class="zone-card-name">Flooding</span><span class="zone-card-badge">today</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>4.0%</strong> (today: 12.7%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Dominance &ge; <strong>2.0×</strong> (today: 19.0×)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Breadth &ge; <strong>55%</strong> of outlets (today: 70%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#1</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-cleared"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#1e3a5f"></span><span class="zone-card-name">Soaked</span><span class="zone-card-badge subtle">all gates clear</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>2.5%</strong> (today: 12.7%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Dominance &ge; <strong>1.2×</strong> (today: 19.0×)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Breadth &ge; <strong>40%</strong> of outlets (today: 70%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#1</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-cleared"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#4a7fa0"></span><span class="zone-card-name">Wet</span><span class="zone-card-badge subtle">all gates clear</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>1.5%</strong> (today: 12.7%)</li><li class="gate gate-na"><span class="gate-mark">○</span> Dominance <span class="gate-note">(not gated for this zone)</span></li><li class="gate gate-ok"><span class="gate-mark">✓</span> Breadth &ge; <strong>25%</strong> of outlets (today: 70%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#2</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-cleared"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#a8c4d8"></span><span class="zone-card-name">Puddles</span><span class="zone-card-badge subtle">all gates clear</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>0.8%</strong> (today: 12.7%)</li><li class="gate gate-na"><span class="gate-mark">○</span> Dominance <span class="gate-note">(not gated for this zone)</span></li><li class="gate gate-na"><span class="gate-mark">○</span> Breadth <span class="gate-note">(not gated for this zone)</span></li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#4</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-dry"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#c8b89a"></span><span class="zone-card-name">Dry</span></div><p class="zone-card-dry-note">Assigned when no zone above clears all of its gates.</p></div>
+        <div class="zone-card zone-card-cleared zone-card-active"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#b03a2e"></span><span class="zone-card-name">Flooding</span><span class="zone-card-badge">today</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>4.0%</strong> (today: 4.5%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Dominance &ge; <strong>2.0×</strong> (today: 3.4×)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Breadth &ge; <strong>55%</strong> of outlets (today: 69%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#1</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-cleared"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#1e3a5f"></span><span class="zone-card-name">Soaked</span><span class="zone-card-badge subtle">all gates clear</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>2.5%</strong> (today: 4.5%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Dominance &ge; <strong>1.2×</strong> (today: 3.4×)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Breadth &ge; <strong>40%</strong> of outlets (today: 69%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#1</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-cleared"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#4a7fa0"></span><span class="zone-card-name">Wet</span><span class="zone-card-badge subtle">all gates clear</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>1.5%</strong> (today: 4.5%)</li><li class="gate gate-na"><span class="gate-mark">○</span> Dominance <span class="gate-note">(not gated for this zone)</span></li><li class="gate gate-ok"><span class="gate-mark">✓</span> Breadth &ge; <strong>25%</strong> of outlets (today: 69%)</li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#2</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-cleared"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#a8c4d8"></span><span class="zone-card-name">Puddles</span><span class="zone-card-badge subtle">all gates clear</span></div><ul class="zone-gates"><li class="gate gate-ok"><span class="gate-mark">✓</span> Share &ge; <strong>0.8%</strong> (today: 4.5%)</li><li class="gate gate-na"><span class="gate-mark">○</span> Dominance <span class="gate-note">(not gated for this zone)</span></li><li class="gate gate-na"><span class="gate-mark">○</span> Breadth <span class="gate-note">(not gated for this zone)</span></li><li class="gate gate-ok"><span class="gate-mark">✓</span> Rank ≤ <strong>#4</strong> (today: #1)</li></ul></div><div class="zone-card zone-card-dry"><div class="zone-card-head"><span class="zone-card-swatch" style="background:#c8b89a"></span><span class="zone-card-name">Dry</span></div><p class="zone-card-dry-note">Assigned when no zone above clears all of its gates.</p></div>
       </div>
       <p>Thresholds in use today: version
       <code>v0-eyeballed</code>. The initial version
@@ -1336,7 +1714,7 @@
         days&rdquo;) and the manual review falls away.</li>
       </ul>
 
-      <h3>Source breakdown</h3><p>Per-feed counts for today’s run. <em>Fetched</em> is the raw feed size; <em>From today</em> is items whose <code>pubDate</code> falls on today’s Belgian local date.</p><table><thead><tr><th>Source</th><th>Fetched</th><th>From today</th></tr></thead><tbody><tr><td>Google News BE (NL)</td><td class='num'>34</td><td class='num'>14</td></tr><tr><td>Google News BE (FR)</td><td class='num'>34</td><td class='num'>4</td></tr><tr><td>GNews BE Politics (NL)</td><td class='num'>56</td><td class='num'>3</td></tr><tr><td>GNews BE World (NL)</td><td class='num'>70</td><td class='num'>9</td></tr><tr><td>GNews BE Business (NL)</td><td class='num'>70</td><td class='num'>4</td></tr><tr><td>GNews BE Tech (NL)</td><td class='num'>63</td><td class='num'>1</td></tr><tr><td>GNews BE Sports (NL)</td><td class='num'>70</td><td class='num'>8</td></tr><tr><td>GNews BE Politics (FR)</td><td class='num'>34</td><td class='num'>0</td></tr><tr><td>GNews BE World (FR)</td><td class='num'>44</td><td class='num'>1</td></tr><tr><td>GNews BE Business (FR)</td><td class='num'>45</td><td class='num'>2</td></tr><tr><td>VRT NWS</td><td class='num'>50</td><td class='num'>5</td></tr><tr><td>De Standaard</td><td class='num'>88</td><td class='num'>13</td></tr><tr><td>HLN</td><td class='num'>30</td><td class='num'>27</td></tr><tr><td>De Morgen</td><td class='num'>28</td><td class='num'>4</td></tr><tr><td>Het Nieuwsblad</td><td class='num'>50</td><td class='num'>40</td></tr><tr><td>Gazet van Antwerpen</td><td class='num'>50</td><td class='num'>31</td></tr><tr><td>Het Belang van Limburg</td><td class='num'>50</td><td class='num'>14</td></tr><tr><td>Knack</td><td class='num'>100</td><td class='num'>9</td></tr><tr><td>Sporza</td><td class='num'>20</td><td class='num'>0</td></tr><tr><td>Bruzz</td><td class='num'>100</td><td class='num'>1</td></tr><tr><td>RTBF</td><td class='num'>20</td><td class='num'>5</td></tr><tr><td>La Libre</td><td class='num'>100</td><td class='num'>7</td></tr><tr><td>L&#x27;Echo</td><td class='num'>100</td><td class='num'>2</td></tr><tr><td>DH.net</td><td class='num'>100</td><td class='num'>1</td></tr><tr><td>7sur7</td><td class='num'>30</td><td class='num'>1</td></tr><tr><td>BX1</td><td class='num'>10</td><td class='num'>0</td></tr><tr><td>De Tijd</td><td class='num'>100</td><td class='num'>4</td></tr><tr><td>Le Soir</td><td class='num'>100</td><td class='num'>11</td></tr><tr><td>Sudinfo</td><td class='num'>100</td><td class='num'>0</td></tr><tr><td>L&#x27;Avenir</td><td class='num'>100</td><td class='num'>11</td></tr><tr><td>RTL Info</td><td class='num'>99</td><td class='num'>3</td></tr><tr><td>Trends</td><td class='num'>69</td><td class='num'>0</td></tr><tr><td>Trends-Tendances</td><td class='num'>65</td><td class='num'>0</td></tr></tbody></table>
+      <h3>Source breakdown</h3><p>Per-feed counts for today’s run. <em>Fetched</em> is the raw feed size; <em>From today</em> is items whose <code>pubDate</code> falls on today’s Belgian local date.</p><table><thead><tr><th>Source</th><th>Fetched</th><th>From today</th></tr></thead><tbody><tr><td>Google News BE (NL)</td><td class='num'>34</td><td class='num'>21</td></tr><tr><td>Google News BE (FR)</td><td class='num'>34</td><td class='num'>5</td></tr><tr><td>GNews BE Politics (NL)</td><td class='num'>49</td><td class='num'>5</td></tr><tr><td>GNews BE World (NL)</td><td class='num'>47</td><td class='num'>10</td></tr><tr><td>GNews BE Business (NL)</td><td class='num'>70</td><td class='num'>10</td></tr><tr><td>GNews BE Tech (NL)</td><td class='num'>66</td><td class='num'>4</td></tr><tr><td>GNews BE Sports (NL)</td><td class='num'>47</td><td class='num'>8</td></tr><tr><td>GNews BE Politics (FR)</td><td class='num'>34</td><td class='num'>3</td></tr><tr><td>GNews BE World (FR)</td><td class='num'>33</td><td class='num'>3</td></tr><tr><td>GNews BE Business (FR)</td><td class='num'>20</td><td class='num'>0</td></tr><tr><td>VRT NWS</td><td class='num'>50</td><td class='num'>10</td></tr><tr><td>De Standaard</td><td class='num'>100</td><td class='num'>53</td></tr><tr><td>HLN</td><td class='num'>30</td><td class='num'>30</td></tr><tr><td>De Morgen</td><td class='num'>27</td><td class='num'>12</td></tr><tr><td>Het Nieuwsblad</td><td class='num'>50</td><td class='num'>50</td></tr><tr><td>Gazet van Antwerpen</td><td class='num'>50</td><td class='num'>50</td></tr><tr><td>Het Belang van Limburg</td><td class='num'>50</td><td class='num'>37</td></tr><tr><td>Knack</td><td class='num'>100</td><td class='num'>15</td></tr><tr><td>Sporza</td><td class='num'>20</td><td class='num'>3</td></tr><tr><td>Bruzz</td><td class='num'>100</td><td class='num'>4</td></tr><tr><td>RTBF</td><td class='num'>20</td><td class='num'>9</td></tr><tr><td>La Libre</td><td class='num'>100</td><td class='num'>16</td></tr><tr><td>L&#x27;Echo</td><td class='num'>88</td><td class='num'>33</td></tr><tr><td>DH.net</td><td class='num'>100</td><td class='num'>24</td></tr><tr><td>7sur7</td><td class='num'>30</td><td class='num'>7</td></tr><tr><td>BX1</td><td class='num'>10</td><td class='num'>4</td></tr><tr><td>De Tijd</td><td class='num'>100</td><td class='num'>47</td></tr><tr><td>Le Soir</td><td class='num'>100</td><td class='num'>26</td></tr><tr><td>Sudinfo</td><td class='num'>100</td><td class='num'>6</td></tr><tr><td>L&#x27;Avenir</td><td class='num'>100</td><td class='num'>1</td></tr><tr><td>RTL Info</td><td class='num'>99</td><td class='num'>11</td></tr><tr><td>Trends</td><td class='num'>36</td><td class='num'>4</td></tr><tr><td>Trends-Tendances</td><td class='num'>37</td><td class='num'>3</td></tr></tbody></table>
 
     </div>
   </details>
@@ -1516,6 +1894,31 @@
     }
 
     requestAnimationFrame(frame);
+  });
+})();
+</script>
+
+<div id="cookie-banner" role="dialog" aria-label="Cookie consent" style="display:none">
+  <p>This site uses Google Analytics to count visitors and measure time on page.
+     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.</p>
+  <div class="cookie-buttons">
+    <button id="cookie-accept">Accept</button>
+    <button id="cookie-decline">Decline</button>
+  </div>
+</div>
+<script>
+(function() {
+  if (localStorage.getItem('cookie_consent')) return;
+  var banner = document.getElementById('cookie-banner');
+  banner.style.display = 'flex';
+  document.getElementById('cookie-accept').addEventListener('click', function() {
+    localStorage.setItem('cookie_consent', 'accepted');
+    banner.style.display = 'none';
+    loadGA();
+  });
+  document.getElementById('cookie-decline').addEventListener('click', function() {
+    localStorage.setItem('cookie_consent', 'declined');
+    banner.style.display = 'none';
   });
 })();
 </script>
