@@ -1,24 +1,24 @@
 """Daily 1200x628 OG / share image for Trumpflood. Mirrors the visual
-identity of the live page: zone-color top band, kicker, question +
-conversational answer, big share %, vertical zone ladder, duotone-style
-Trump portrait with rising water, date + URL footer.
+identity of the live page: thin top accent band, kicker, question h1,
+conversational answer, big share % with label, sub-line with absolute
+counts, horizontal zone ladder, duotone-mapped Trump portrait on the
+right, date + URL footer.
 
 Used as og:image and twitter:image. A new PNG is committed every run by
 the GitHub Action (3x/day), so a LinkedIn share preview always reflects
 the current zone, percentage and answer.
 """
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont, ImageEnhance
+from PIL import Image, ImageDraw, ImageFont
 
 # LinkedIn URL-preview: 1200x628 (~1.91:1)
 W, H = 1200, 628
 
 # Site palette (kept aligned with site_gen.py CSS variables).
-PAPER  = (245, 243, 238)
-INK    = (10,  25,  41)
-MUTED  = (107, 99,  86)
-RULE_C = (216, 211, 197)
-WHITE  = (255, 255, 255)
+PAPER = (245, 243, 238)
+INK   = (10, 25, 41)
+MUTED = (107, 99, 86)
+RULE  = (216, 211, 197)
 
 ZONE_COLORS = {
     "dry":      (200, 184, 154),
@@ -27,11 +27,13 @@ ZONE_COLORS = {
     "soaked":   (30,  58,  95),
     "flooding": (176, 58,  46),
 }
-ZONE_ORDER  = ["flooding", "soaked", "wet", "puddles", "dry"]  # top -> bottom
-ZONE_LABELS = {"dry": "Dry", "puddles": "Puddles", "wet": "Wet",
-               "soaked": "Soaked", "flooding": "Flooding"}
 
-# Conversational answer per zone, mirrors site_gen.py _ZONE_ANSWERS.
+# Horizontal ladder, left -> right (matches the site's data-hero ladder).
+ZONE_ORDER_LTR = ["dry", "puddles", "wet", "soaked", "flooding"]
+ZONE_LABELS    = {"dry": "Dry", "puddles": "Puddles", "wet": "Wet",
+                  "soaked": "Soaked", "flooding": "Flooding"}
+
+# Conversational answer per zone (matches site_gen.py _ZONE_ANSWERS).
 ZONE_ANSWERS = {
     "dry":      "No Trump today.",
     "puddles":  "No, just puddles.",
@@ -40,14 +42,21 @@ ZONE_ANSWERS = {
     "flooding": "Yes, he is.",
 }
 
+# Duotone shadow / highlight pairs (match site_gen.py _ZONE_DUOTONE).
+ZONE_DUOTONE = {
+    "dry":      ((106, 90, 62),  (247, 238, 216)),
+    "puddles":  ((44,  70, 88),  (240, 245, 250)),
+    "wet":      ((28,  53, 72),  (236, 243, 248)),
+    "soaked":   ((10,  26, 46),  (230, 238, 247)),
+    "flooding": ((74,  19, 16),  (253, 234, 226)),
+}
+
 TRUMP_JPG = Path(__file__).parent.parent / "trumpflood" / "trump.jpg"
 
 _SERIF_BOLD = [
-    # Linux (GitHub Actions runner)
     "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf",
     "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
     "/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf",
-    # macOS (local dev)
     "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
     "/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf",
 ]
@@ -74,8 +83,7 @@ def _load(paths, size):
 
 
 def _wrap(draw, text, font, max_w):
-    words = text.split()
-    lines, line = [], ""
+    words, lines, line = text.split(), [], ""
     for w in words:
         cand = (line + " " + w).strip()
         if draw.textlength(cand, font=font) <= max_w:
@@ -94,40 +102,33 @@ def _lh(font):
     return bb[3] - bb[1]
 
 
-def _lighten(color, amount=55):
-    return tuple(min(255, c + amount) for c in color)
+def _duotone(img, shadow_rgb, highlight_rgb):
+    """Luminance-based duotone: convert to grayscale, then map each
+    intensity to a colour interpolated between shadow (dark) and
+    highlight (light). Matches the SVG feComponentTransfer filter on
+    the live page so the OG portrait reads as the same treatment."""
+    gray = img.convert("L")
+    lut_r = [int(shadow_rgb[0] + (highlight_rgb[0] - shadow_rgb[0]) * (i / 255)) for i in range(256)]
+    lut_g = [int(shadow_rgb[1] + (highlight_rgb[1] - shadow_rgb[1]) * (i / 255)) for i in range(256)]
+    lut_b = [int(shadow_rgb[2] + (highlight_rgb[2] - shadow_rgb[2]) * (i / 255)) for i in range(256)]
+    return Image.merge("RGB", (
+        gray.point(lut_r),
+        gray.point(lut_g),
+        gray.point(lut_b),
+    ))
 
 
-def _trump_strip(photo_w, photo_h, zone_color, water_pct):
-    """Grayscale + contrast(1.05) portrait with zone-colour water overlay,
-    mirroring the site's CSS filter + canvas animation."""
+def _portrait(target_w, target_h, zone):
+    """Crop, resize and duotone the portrait so it slots into the right
+    column of the OG card."""
     src = Image.open(TRUMP_JPG).convert("RGB")
-
-    scale    = photo_h / src.height
-    scaled_w = int(src.width * scale)
-    src      = src.resize((scaled_w, photo_h), Image.LANCZOS)
-    off_x    = max(0, (scaled_w - photo_w) // 2)
-    src      = src.crop((off_x, 0, off_x + photo_w, photo_h))
-
-    src = ImageEnhance.Contrast(
-        src.convert("L").convert("RGB")
-    ).enhance(1.05)
-
-    water_h = int(photo_h * water_pct)
-    if water_h > 0:
-        overlay = Image.new("RGBA", (photo_w, photo_h), (0, 0, 0, 0))
-        od      = ImageDraw.Draw(overlay)
-        r, g, b = zone_color
-        fade    = min(water_h, 60)
-        for row in range(water_h):
-            alpha = int(200 * min(row, fade) / fade)
-            od.line(
-                [(0, photo_h - water_h + row), (photo_w, photo_h - water_h + row)],
-                fill=(r, g, b, alpha),
-            )
-        src = Image.alpha_composite(src.convert("RGBA"), overlay).convert("RGB")
-
-    return src
+    scale = max(target_w / src.width, target_h / src.height)
+    new_w, new_h = int(src.width * scale), int(src.height * scale)
+    src = src.resize((new_w, new_h), Image.LANCZOS)
+    off_x = max(0, (new_w - target_w) // 2)
+    src = src.crop((off_x, 0, off_x + target_w, target_h))
+    shadow, highlight = ZONE_DUOTONE.get(zone, ZONE_DUOTONE["dry"])
+    return _duotone(src, shadow, highlight)
 
 
 def generate_image(
@@ -142,133 +143,117 @@ def generate_image(
     zc   = ZONE_COLORS.get(zone, ZONE_COLORS["dry"])
     answer = ZONE_ANSWERS.get(zone, "")
 
-    # Layout constants
-    BORDER  = 6     # top zone-color accent band
-    SCALE_W = 72    # vertical zone-ladder width
-    PHOTO_W = 300   # Trump portrait width
-    PAD     = 52    # right-column inset
-    FOOT_H  = 44    # footer height
-    PX      = SCALE_W + PHOTO_W                # right edge of left block
-    CX      = PX + PAD                         # right column left edge
-    CR      = W - PAD                          # right column right edge
-    CW      = CR - CX                          # right column width
+    # ── Layout ────────────────────────────────────────────────────────
+    BORDER     = 6
+    PAD_X      = 56
+    PAD_TOP    = 36
+    FOOT_H     = 50
+    PORTRAIT_W = 280
+    PORTRAIT_H = 350
+    GAP        = 36
+    LX         = PAD_X
+    RIGHT_X    = W - PAD_X - PORTRAIT_W
+    LEFT_W     = RIGHT_X - LX - GAP
 
-    # Fonts
-    kicker_f = _load(_SANS_BOLD,  18)
-    title_f  = _load(_SERIF_BOLD, 40)
-    answer_f = _load(_SERIF_BOLD, 70)
-    pct_f    = _load(_SANS_BOLD,  108)
-    pct_sym_f = _load(_SANS_BOLD, 60)
-    label_f  = _load(_SANS_BOLD,  16)
-    url_f    = _load(_SANS_REG,   16)
-    band_f   = _load(_SANS_BOLD,  11)
-    date_f   = _load(_SANS_REG,   17)
+    # ── Fonts ─────────────────────────────────────────────────────────
+    kicker_f  = _load(_SANS_BOLD,  16)
+    title_f   = _load(_SERIF_BOLD, 38)
+    answer_f  = _load(_SERIF_BOLD, 64)
+    pct_f     = _load(_SANS_BOLD,  102)
+    pct_sym_f = _load(_SANS_BOLD,  56)
+    label_f   = _load(_SANS_BOLD,  14)
+    sub_f     = _load(_SANS_REG,   16)
+    band_f    = _load(_SANS_BOLD,  11)
+    foot_f    = _load(_SANS_REG,   15)
 
-    # Top accent band in today's zone colour.
+    # ── Top accent band in today's zone colour ────────────────────────
     draw.rectangle([0, 0, W, BORDER], fill=zc)
 
-    # Vertical zone ladder on the left edge.
-    body_h = H - BORDER
-    band_h = body_h / len(ZONE_ORDER)
-    for i, z in enumerate(ZONE_ORDER):
-        color     = ZONE_COLORS[z]
-        is_active = (z == zone)
-        y0 = BORDER + int(i * band_h)
-        y1 = BORDER + int((i + 1) * band_h)
+    # ── Left column: text content (matches site reading order) ─────────
+    y = BORDER + PAD_TOP
+
+    # Kicker
+    kicker = "TRUMPFLOOD · BELGIAN NEWS MONITOR"
+    # Letter-spacing approximation: render with tracked spacing.
+    draw.text((LX, y), kicker, fill=MUTED, font=kicker_f)
+    y += _lh(kicker_f) + 18
+
+    # Question h1 (serif). Wrap if needed; usually fits one line.
+    title = "Is Trump flooding the zone?"
+    for line in _wrap(draw, title, title_f, LEFT_W):
+        draw.text((LX, y), line, fill=INK, font=title_f)
+        y += _lh(title_f) + 4
+    y += 10
+
+    # Conversational answer (larger serif, dominant).
+    for line in _wrap(draw, answer, answer_f, LEFT_W):
+        draw.text((LX, y), line, fill=INK, font=answer_f)
+        y += _lh(answer_f) + 4
+    y += 16
+
+    # Big percentage in zone colour with smaller % glyph in muted.
+    pct_str = f"{pct}"
+    pct_w   = draw.textlength(pct_str, font=pct_f)
+    pct_sym_w = draw.textlength("%", font=pct_sym_f)
+    pct_baseline = y + _lh(pct_f)
+    sym_y = pct_baseline - _lh(pct_sym_f) - 4
+    draw.text((LX, y), pct_str, fill=zc, font=pct_f)
+    draw.text((LX + pct_w + 4, sym_y), "%", fill=MUTED, font=pct_sym_f)
+    y += _lh(pct_f) + 8
+
+    # Label under the % (small uppercase muted).
+    draw.text((LX, y), "SHARE OF BELGIAN NEWS HEADLINES TODAY",
+              fill=MUTED, font=label_f)
+    y += _lh(label_f) + 16
+
+    # Sub-line with absolute counts.
+    sub = f"{trump_count} of {total} headlines name Trump."
+    draw.text((LX, y), sub, fill=INK, font=sub_f)
+    y += _lh(sub_f) + 28
+
+    # ── Horizontal zone ladder (Dry → Flooding) ─────────────────────────
+    LADDER_W = LEFT_W
+    ladder_top = y
+    seg_w = LADDER_W / len(ZONE_ORDER_LTR)
+    for i, key in enumerate(ZONE_ORDER_LTR):
+        is_active = (key == zone)
+        seg_x = LX + i * seg_w
+        bar_h = 12 if is_active else 6
+        bar_y = ladder_top + (12 - bar_h) // 2
+        bar_color = ZONE_COLORS[key] if is_active else RULE
         draw.rectangle(
-            [0, y0, SCALE_W, y1],
-            fill=color if is_active else _lighten(color, 55),
+            [seg_x, bar_y, seg_x + seg_w - 4, bar_y + bar_h],
+            fill=bar_color,
         )
-        name = ZONE_LABELS[z]
+        # Label below
+        name = ZONE_LABELS[key]
         nw   = draw.textlength(name, font=band_f)
+        lbl_x = seg_x + (seg_w - 4 - nw) / 2
         draw.text(
-            ((SCALE_W - nw) / 2, (y0 + y1) / 2 - 7),
+            (lbl_x, ladder_top + 18),
             name,
-            fill=WHITE if is_active else (155, 145, 135),
+            fill=INK if is_active else MUTED,
             font=band_f,
         )
 
-    # Trump portrait with zone-coloured water rising to today's zone level.
-    zone_idx  = ZONE_ORDER.index(zone) if zone in ZONE_ORDER else 0
-    water_pct = (len(ZONE_ORDER) - zone_idx) / len(ZONE_ORDER)
+    # ── Right column: duotone Trump portrait ──────────────────────────
     if TRUMP_JPG.exists():
-        portrait = _trump_strip(PHOTO_W, H - BORDER, zc, water_pct)
-        img.paste(portrait, (SCALE_W, BORDER))
-    draw.line([PX, BORDER, PX, H], fill=RULE_C, width=1)
+        portrait = _portrait(PORTRAIT_W, PORTRAIT_H, zone)
+        # Vertical position: align the portrait roughly with the
+        # answer + big % cluster on the left so the OG reads as a single
+        # composed block, not text-on-top + image-on-bottom.
+        py = BORDER + PAD_TOP + 40
+        img.paste(portrait, (RIGHT_X, py))
 
-    # Right column content. Vertical layout, top-anchored.
-    # Block heights are computed so the cluster sits centred between the
-    # top accent and the footer rule, with a tight rhythm:
-    #   kicker -> title -> answer -> big % -> label
-    kicker  = "TRUMPFLOOD · BELGIAN NEWS MONITOR"
-    title   = "Is Trump flooding the zone?"
-    pct_str = f"{pct}"
-    pct_sym = "%"
-    sub_lbl = "share of Belgian news headlines today"
-
-    title_lines = _wrap(draw, title, title_f, CW)
-    answer_lines = _wrap(draw, answer, answer_f, CW)
-
-    kicker_h    = _lh(kicker_f)
-    title_h     = sum(_lh(title_f) + 6 for _ in title_lines) - 6
-    answer_h    = sum(_lh(answer_f) + 6 for _ in answer_lines) - 6
-    pct_h       = _lh(pct_f)
-    label_h     = _lh(label_f)
-
-    gap_kicker_to_title  = 16
-    gap_title_to_answer  = 18
-    gap_answer_to_pct    = 26
-    gap_pct_to_label     = 12
-
-    block_total = (
-        kicker_h + gap_kicker_to_title +
-        title_h + gap_title_to_answer +
-        answer_h + gap_answer_to_pct +
-        pct_h + gap_pct_to_label +
-        label_h
-    )
-
-    avail_h = H - BORDER - FOOT_H
-    y = BORDER + max(40, (avail_h - block_total) // 2)
-
-    # Kicker
-    draw.text((CX, y), kicker, fill=MUTED, font=kicker_f)
-    y += kicker_h + gap_kicker_to_title
-
-    # Title (serif, multi-line if needed)
-    for line in title_lines:
-        draw.text((CX, y), line, fill=INK, font=title_f)
-        y += _lh(title_f) + 6
-    y -= 6
-    y += gap_title_to_answer
-
-    # Answer (larger serif, ink colour)
-    for line in answer_lines:
-        draw.text((CX, y), line, fill=INK, font=answer_f)
-        y += _lh(answer_f) + 6
-    y -= 6
-    y += gap_answer_to_pct
-
-    # Big percentage in zone colour, with smaller % symbol in muted.
-    pct_w     = draw.textlength(pct_str, font=pct_f)
-    pct_sym_w = draw.textlength(pct_sym, font=pct_sym_f)
-    # Vertical alignment: % symbol baseline matches the digits' baseline.
-    pct_baseline_y = y + _lh(pct_f)
-    sym_y = pct_baseline_y - _lh(pct_sym_f) - 6
-    draw.text((CX, y), pct_str, fill=zc, font=pct_f)
-    draw.text((CX + pct_w + 4, sym_y), pct_sym, fill=MUTED, font=pct_sym_f)
-    y += pct_h + gap_pct_to_label
-
-    # Subtitle label under the big number.
-    draw.text((CX, y), sub_lbl.upper(), fill=MUTED, font=label_f)
-
-    # Footer: date left, URL right, separator rule above.
-    foot_y   = H - FOOT_H + 8
+    # ── Footer: divider rule, date left, URL right ────────────────────
+    foot_y_rule = H - FOOT_H
+    draw.line([PAD_X, foot_y_rule, W - PAD_X, foot_y_rule],
+              fill=RULE, width=1)
+    foot_y = foot_y_rule + 14
     date_str = today.isoformat() if hasattr(today, "isoformat") else str(today)
-    draw.line([PX, foot_y - 8, W, foot_y - 8], fill=RULE_C, width=1)
-    draw.text((CX, foot_y), date_str, fill=MUTED, font=date_f)
+    draw.text((PAD_X, foot_y), date_str, fill=MUTED, font=foot_f)
     url_text = "andriesfluit.be/trumpflood"
-    uw = draw.textlength(url_text, font=url_f)
-    draw.text((CR - uw, foot_y), url_text, fill=MUTED, font=url_f)
+    uw = draw.textlength(url_text, font=foot_f)
+    draw.text((W - PAD_X - uw, foot_y), url_text, fill=MUTED, font=foot_f)
 
     img.save(str(path), "PNG")
