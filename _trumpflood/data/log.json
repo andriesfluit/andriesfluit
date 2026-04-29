@@ -8975,5 +8975,651 @@
       "education": 4,
       "weather": 5
     }
+  },
+  {
+    "date": "2026-04-29",
+    "generated_at": "2026-04-29T08:13:32+02:00",
+    "last_checked_at": "2026-04-29T08:13:32+02:00",
+    "total_articles": 309,
+    "trump_articles": 18,
+    "percentage": 5.8,
+    "core_percentage": 5.8,
+    "core_percentage_name": 5.8,
+    "trump_articles_expanded": 18,
+    "core_percentage_expanded": 5.8,
+    "indirect_references": 0,
+    "wide_total_articles": 428,
+    "wide_trump_articles": 22,
+    "wide_percentage": 5.1,
+    "wide_trump_articles_expanded": 23,
+    "wide_percentage_expanded": 5.4,
+    "macro_percentage": 6.6,
+    "qualifying_outlets": 13,
+    "core_outlets_total": 19,
+    "core_outlets_active": 15,
+    "active_core_fraction": 0.789,
+    "cross_outlet_dup_headlines": 20,
+    "cross_outlet_dup_groups": 10,
+    "cross_outlet_dup_rate": 6.5,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.5,
+    "breadth": 0.6,
+    "deviation": 1.81,
+    "smoothed_pct": 5.16,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 55,
+        "today": 7,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 25.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 56,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 40,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 51,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 59,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 61,
+        "kept": 45,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.22
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 13,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.26
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 36.36
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 13.64
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 7,
+        "kept": 7,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 42.86
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 99,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 85,
+        "today": 7,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 74,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Voormalig FBI-directeur James Comey aangeklaagd voor “bedreigen Trump” op sociale media - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMWNIWkFiYU5MQWt0eGd3Z2VGUWpCS0ZCYnUwbldWaEZ3RDF3QmZrNlFaUzFzT0R2V2JOaU5DTmIweWhlYk04WElCNWdlOHBnbTM2Z2J4TlhXYmFwN2g2a1hNay1PRXB0VUFuRkFheU5ueE01Nl9KNkZxUzRWY2EtZWJ3Xy1EWGI1Z3hMOE42YkdSOGVMTjFQMHRseldCVnlyczVZOUt4ZGdmMGJDUWs1OGJTMXdEd2liSll5NmkxLVhlZUtVS1pqeDFEb29jMURiREE?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Koning Charles neemt Trump op de korrel tijdens staatsbanket: “Zonder de Britten zouden de Amerikanen nu Frans spreken”",
+        "url": "https://www.hln.be/royalty/koning-charles-neemt-trump-op-de-korrel-tijdens-staatsbanket-zonder-de-britten-zouden-de-amerikanen-nu-frans-spreken~ad8786ed2/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Trump wil langdurige blokkade van Iran’ om economie en olie-export verder onder druk te zetten",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-beweert-dat-iran-straat-van-hormuz-zo-snel-mogelijk-wil-openen~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Amerikaanse topdiplomate in Oekraïne stopt vanwege onenigheid met Trump • Zelensky: Oekraïne wil surplus aan wapens exporteren",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-amerikaanse-topdiplomate-in-oekraine-stopt-vanwege-onenigheid-met-trump-zelensky-oekraine-wil-surplus-aan-wapens-exporteren~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Geweldig cadeau”: Trump prijst Brits kolonialisme tijdens staatsbanket, koning Charles grapt over verbouwingswerken aan Witte Huis",
+        "url": "https://www.nieuwsblad.be/buitenland/geweldig-cadeau-trump-prijst-brits-kolonialisme-tijdens-staatsbanket-koning-charles-grapt-over-verbouwingswerken-aan-witte-huis/150236901.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse paspoorten krijgen afbeelding van Donald Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/amerikaanse-paspoorten-krijgen-afbeelding-van-donald-trump/150236866.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-directeur du FBI Comey inculpé de \"menace contre la vie\" de Trump",
+        "url": "https://www.rtbf.be/article/l-ex-directeur-du-fbi-comey-inculpe-de-menace-contre-la-vie-de-trump-11716699",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Désaccord entre l'administration Trump et une diplomate de haut rang : la chargée d'affaires américaine en Ukraine va quitter son poste",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/04/29/desaccord-entre-ladministration-trump-et-une-diplomate-de-haut-rang-la-chargee-daffaires-americaine-en-ukraine-va-quitter-son-poste-GOZTPFDLERFPPJASFBVQNS2V64/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le nouveau caprice de Donald Trump : les États-Unis vont imprimer une version limitée du passeport américain avec le portrait du président",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/29/le-nouveau-caprice-de-donald-trump-les-etats-unis-vont-imprimer-une-version-limitee-du-passeport-americain-avec-le-portrait-du-president-AX3WUR7J3BFLJJ7R4ETKFIROJQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Sans les Britanniques, \"vous parleriez français\", plaisante Charles III face à Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/29/sans-les-britanniques-vous-parleriez-francais-plaisante-charles-iii-face-a-trump-HYOWGGTOEBBWJDJ2E5ULZOAS5M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Aux côtés de Charles III, Trump affirme que les Etats-Unis ont \"vaincu militairement\" l'Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/29/direct-guerre-au-moyen-orient-aux-cotes-de-charles-iii-trump-affirme-que-les-etats-unis-ont-vaincu-militairement-liran-JLY3JXH4ZZCBXPALCCIFRBQOP4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-directeur du FBI Comey inculpé de \"menace contre la vie\" de Trump : \"Je n'ai toujours pas peur\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/29/lex-directeur-du-fbi-comey-inculpe-de-menace-contre-la-vie-de-trump-je-nai-toujours-pas-peur-EB43U2SWBNDUXJR4BXUQD2G33A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient :  Trump affirme que les Etats-Unis ont \"vaincu militairement\" l'Iran",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/29/direct-guerre-au-moyen-orient-trump-affirme-que-les-etats-unis-ont-vaincu-militairement-liran-MLGCJIHBJVHCPPEE3TB7FXMDLA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle lubie pour Donald Trump : la Maison Blanche va vendre une version limitée du passeport américain avec son portrait",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/29/nouvelle-lubie-pour-donald-trump-la-maison-blanche-va-vendre-une-version-limitee-du-passeport-americain-avec-son-portrait-6ZPFVHFEJ5HJZP4234EIYAKVGA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump affirme que les États-Unis ont “vaincu militairement” l’Iran",
+        "url": "https://www.7sur7.be/monde/trump-affirme-que-les-etats-unis-ont-vaincu-militairement-liran~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Inculpé de “menace contre la vie” de Trump, l’ex-directeur du FBI réagit: “Je n’ai toujours pas peur”",
+        "url": "https://www.7sur7.be/monde/inculpe-de-menace-contre-la-vie-de-trump-lex-directeur-du-fbi-reagit-je-nai-toujours-pas-peur~a911839b/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Sans nous, vous parleriez français”: Charles III enchaîne les blagues face à Trump",
+        "url": "https://www.7sur7.be/monde/sans-nous-vous-parleriez-francais-charles-iii-enchaine-les-blagues-face-a-trump~va980cb66/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Sans les Britanniques, « vous parleriez français » : le discours rempli d’humour de Charles III devant Trump - Soirmag",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYUctZlBCWFh1eTN0NWNOc3ZLUGdPaDM3Y2dQVmtKQTduRW1wVGxpRzQ5a1hVdkRLX3NOTWZxanFJTjFkTWdrSjYyWjEyNVlPbnlEZThQTlRFY1VROEozOUdCbXNvb2JnaWpQZmtIcThIOXBvbGJCYVRLRnJXRnF5RmF0aEVPWG9BNDBDd0ZxNzlUaU1xcHRRXzZGODJxSVhtbkQ2bGk5NVFGNXpoRXY1NWhpZV8xdEtNU2VDV3pRcVdZLUp5M2c?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Amerikaanse paspoorten krijgen afbeelding van Donald Trump - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ1NUSF9XdldiN3ZoQlFOaFU1a1EtMlNzMVpQbUpWRFFSZXdpTHNtTWhVQi13bXRnRnAzY1VkYS1GQ3o4amdkNGtieEFuaUgyLWY0SFB2N1FhTkh5dEN1akF3eDVhSm1nN0tCeUVDQjdEdnpkTEI4aHo3dHJYMEhCd1hGWnNCWFdndTVCXy11Yi14ODJhNUhxWDAwaEtSaVp3VDZIc0VQeEMtdUdiWlVV?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "De zware job van talkshowhost in tijden van Trump: “Jimmy Kimmel zou onmiddellijk ontslagen moeten worden” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbF9LWmplXzktN0xrd3NKSzBlNjdZWjR6WGwzc1NQUFBYSmJrbHoxd3Fnemt3RjRJYjFTSnF2R0NVNzFsRDBCeGpuZ0tVQ3NwcjJUcUdBSFkweWdNRmMteG5kc292YnprejdQTDhvTmRyc282SWJHaGh1Y2JtWXNzU2xJZHRQMEZGQ3pQQVpJN19Na21fZHR2bHFYb3JyU200TmZMSkpqQ0M3U0JtYnlOY1FiV25hUXMzaDFOclN5c3FGQU95c1ExWF93WUx6TF9zVkI2dHZCcnlCeEt4WXJqV0tSamxIV3lic25n?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Zeg niet ‘ICE-agent’, maar ‘NICE-agent’: Witte Huis stuurt aan op naamsverandering - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNa2xoOFVPVW5fYUxHQmZnTEgyazJDTXVzc3JNTjVaUURuZUJ6ajVYVVl3YU9jamEtYko3cHVLclRkTXYxVUtqSGdBZ0Q5VDNVeGRxQllxTGpQdS03aUpKb3R1VUJBX2JLYXBXZmdpdTRnOURTbFRMbGd3azlsaWVKSjA5dmNnZHNxUnNqeGxXRXVmWnR6OXdjRlY2TW1yZmUwbVA0OWhLc1JXT19pRGZYRmt3cEdGVGNyOUdFMENxNDIyNlEtM0E?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "Voormalig FBI-directeur James Comey aangeklaagd voor “bedreigen Trump” op sociale media - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMWNIWkFiYU5MQWt0eGd3Z2VGUWpCS0ZCYnUwbldWaEZ3RDF3QmZrNlFaUzFzT0R2V2JOaU5DTmIweWhlYk04WElCNWdlOHBnbTM2Z2J4TlhXYmFwN2g2a1hNay1PRXB0VUFuRkFheU5ueE01Nl9KNkZxUzRWY2EtZWJ3Xy1EWGI1Z3hMOE42YkdSOGVMTjFQMHRseldCVnlyczVZOUt4ZGdmMGJDUWs1OGJTMXdEd2liSll5NmkxLVhlZUtVS1pqeDFEb29jMURiREE?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Koning Charles neemt Trump op de korrel tijdens staatsbanket: “Zonder de Britten zouden de Amerikanen nu Frans spreken”",
+        "url": "https://www.hln.be/royalty/koning-charles-neemt-trump-op-de-korrel-tijdens-staatsbanket-zonder-de-britten-zouden-de-amerikanen-nu-frans-spreken~ad8786ed2/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Trump wil langdurige blokkade van Iran’ om economie en olie-export verder onder druk te zetten",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-beweert-dat-iran-straat-van-hormuz-zo-snel-mogelijk-wil-openen~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Amerikaanse topdiplomate in Oekraïne stopt vanwege onenigheid met Trump • Zelensky: Oekraïne wil surplus aan wapens exporteren",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-amerikaanse-topdiplomate-in-oekraine-stopt-vanwege-onenigheid-met-trump-zelensky-oekraine-wil-surplus-aan-wapens-exporteren~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Geweldig cadeau”: Trump prijst Brits kolonialisme tijdens staatsbanket, koning Charles grapt over verbouwingswerken aan Witte Huis",
+        "url": "https://www.nieuwsblad.be/buitenland/geweldig-cadeau-trump-prijst-brits-kolonialisme-tijdens-staatsbanket-koning-charles-grapt-over-verbouwingswerken-aan-witte-huis/150236901.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse paspoorten krijgen afbeelding van Donald Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/amerikaanse-paspoorten-krijgen-afbeelding-van-donald-trump/150236866.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Geweldig cadeau”: Trump prijst Brits kolonialisme tijdens staatsbanket, koning Charles grapt over verbouwingswerken aan Witte Huis",
+        "url": "https://www.gva.be/buitenland/geweldig-cadeau-trump-prijst-brits-kolonialisme-tijdens-staatsbanket-koning-charles-grapt-over-verbouwingswerken-aan-witte-huis/150237060.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse paspoorten krijgen afbeelding van Donald Trump",
+        "url": "https://www.gva.be/buitenland/amerikaanse-paspoorten-krijgen-afbeelding-van-donald-trump/150236868.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-directeur du FBI Comey inculpé de \"menace contre la vie\" de Trump",
+        "url": "https://www.rtbf.be/article/l-ex-directeur-du-fbi-comey-inculpe-de-menace-contre-la-vie-de-trump-11716699",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Désaccord entre l'administration Trump et une diplomate de haut rang : la chargée d'affaires américaine en Ukraine va quitter son poste",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/04/29/desaccord-entre-ladministration-trump-et-une-diplomate-de-haut-rang-la-chargee-daffaires-americaine-en-ukraine-va-quitter-son-poste-GOZTPFDLERFPPJASFBVQNS2V64/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le nouveau caprice de Donald Trump : les États-Unis vont imprimer une version limitée du passeport américain avec le portrait du président",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/29/le-nouveau-caprice-de-donald-trump-les-etats-unis-vont-imprimer-une-version-limitee-du-passeport-americain-avec-le-portrait-du-president-AX3WUR7J3BFLJJ7R4ETKFIROJQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Sans les Britanniques, \"vous parleriez français\", plaisante Charles III face à Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/04/29/sans-les-britanniques-vous-parleriez-francais-plaisante-charles-iii-face-a-trump-HYOWGGTOEBBWJDJ2E5ULZOAS5M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Aux côtés de Charles III, Trump affirme que les Etats-Unis ont \"vaincu militairement\" l'Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/29/direct-guerre-au-moyen-orient-aux-cotes-de-charles-iii-trump-affirme-que-les-etats-unis-ont-vaincu-militairement-liran-JLY3JXH4ZZCBXPALCCIFRBQOP4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-directeur du FBI Comey inculpé de \"menace contre la vie\" de Trump : \"Je n'ai toujours pas peur\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/29/lex-directeur-du-fbi-comey-inculpe-de-menace-contre-la-vie-de-trump-je-nai-toujours-pas-peur-EB43U2SWBNDUXJR4BXUQD2G33A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient :  Trump affirme que les Etats-Unis ont \"vaincu militairement\" l'Iran",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/29/direct-guerre-au-moyen-orient-trump-affirme-que-les-etats-unis-ont-vaincu-militairement-liran-MLGCJIHBJVHCPPEE3TB7FXMDLA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle lubie pour Donald Trump : la Maison Blanche va vendre une version limitée du passeport américain avec son portrait",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/29/nouvelle-lubie-pour-donald-trump-la-maison-blanche-va-vendre-une-version-limitee-du-passeport-americain-avec-son-portrait-6ZPFVHFEJ5HJZP4234EIYAKVGA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump affirme que les États-Unis ont “vaincu militairement” l’Iran",
+        "url": "https://www.7sur7.be/monde/trump-affirme-que-les-etats-unis-ont-vaincu-militairement-liran~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Inculpé de “menace contre la vie” de Trump, l’ex-directeur du FBI réagit: “Je n’ai toujours pas peur”",
+        "url": "https://www.7sur7.be/monde/inculpe-de-menace-contre-la-vie-de-trump-lex-directeur-du-fbi-reagit-je-nai-toujours-pas-peur~a911839b/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Sans nous, vous parleriez français”: Charles III enchaîne les blagues face à Trump",
+        "url": "https://www.7sur7.be/monde/sans-nous-vous-parleriez-francais-charles-iii-enchaine-les-blagues-face-a-trump~va980cb66/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Sans les Britanniques, « vous parleriez français » : le discours rempli d’humour de Charles III devant Trump - Soirmag",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYUctZlBCWFh1eTN0NWNOc3ZLUGdPaDM3Y2dQVmtKQTduRW1wVGxpRzQ5a1hVdkRLX3NOTWZxanFJTjFkTWdrSjYyWjEyNVlPbnlEZThQTlRFY1VROEozOUdCbXNvb2JnaWpQZmtIcThIOXBvbGJCYVRLRnJXRnF5RmF0aEVPWG9BNDBDd0ZxNzlUaU1xcHRRXzZGODJxSVhtbkQ2bGk5NVFGNXpoRXY1NWhpZV8xdEtNU2VDV3pRcVdZLUp5M2c?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 18,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 1,
+      "francken": 4,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 22,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 1,
+      "francken": 5,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 16,
+      "crime": 10,
+      "eu": 20,
+      "politics": 14,
+      "be_gov": 14,
+      "culture": 3,
+      "tech": 13,
+      "economy": 14,
+      "sports": 10,
+      "health": 2,
+      "climate": 5,
+      "migration": 1,
+      "education": 2,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 18,
+      "crime": 13,
+      "eu": 26,
+      "politics": 22,
+      "be_gov": 19,
+      "culture": 4,
+      "tech": 17,
+      "economy": 20,
+      "sports": 17,
+      "health": 5,
+      "climate": 6,
+      "migration": 2,
+      "education": 2,
+      "weather": 5
+    }
   }
 ]
