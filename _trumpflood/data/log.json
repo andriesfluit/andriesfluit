@@ -9621,5 +9621,567 @@
       "education": 2,
       "weather": 5
     }
+  },
+  {
+    "date": "2026-04-30",
+    "generated_at": "2026-04-30T08:17:49+02:00",
+    "last_checked_at": "2026-04-30T08:17:49+02:00",
+    "total_articles": 344,
+    "trump_articles": 11,
+    "percentage": 3.2,
+    "core_percentage": 3.2,
+    "core_percentage_name": 3.2,
+    "trump_articles_expanded": 11,
+    "core_percentage_expanded": 3.2,
+    "indirect_references": 0,
+    "wide_total_articles": 479,
+    "wide_trump_articles": 16,
+    "wide_percentage": 3.3,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 3.3,
+    "macro_percentage": 3.4,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 38,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 11.0,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 0.44,
+    "deviation": 0.83,
+    "smoothed_pct": 5.29,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_politics": {
+        "fetched": 59,
+        "today": 6,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 64,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 41,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 43,
+        "today": 2,
+        "kept": 1,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 100.0
+      },
+      "google_fr_business": {
+        "fetched": 53,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 67,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 21.05
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 33,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 99,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Nieuwe klap voor wetenschap: Trump ontslaat voltallige adviesraad van de National Science Foundation - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNzRZNzRtT1RKNEJqUmo0R3ZGajVuNUpGa3hpeXg4b1ZjZVgtVXMwWVdUMUUzeGxzR0RJR2owX3BLM2ttUWhvc19ld3pSWEJ5M3gyZ3FLRmE0STNVZE1oM0o4b25VOEQ3ak5nRVdySHJaS0U4MWFuWl9RdUo2Z1owaFYybnNmSzQ0Nmh4NjJFdks3QXk4bmZuQnQ1QmgzbTQ2R0thaTMzM3E0WG5aWXNYOGJKejFXVW0xTXA1U2g5TlZkSjdjYXM4OHRTS3RZaDNUc01qbjBoMmdzcktVdGtRRWlPeFo?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Trump krijgt briefing over nieuwe militaire opties tegen Iran” - VS wil voor het eerst hypersonische raket inzetten",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump had ‘erg goed’ telefoongesprek met Poetin • Poetin stelt staakt-het-vuren in Oekraïne voor op feestdag van 9 mei",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-had-erg-goed-telefoongesprek-met-poetin-poetin-stelt-staakt-het-vuren-in-oekraine-voor-op-feestdag-van-9-mei~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump overweegt vermindering van troepen in Duitsland",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-overweegt-vermindering-van-troepen-in-duitsland~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘CENTCOM gaat Trump briefen over mogelijke nieuwe militaire acties tegen Iran’ • VS wil voor het eerst hypersonische raket inzetten",
+        "url": "https://www.demorgen.be/snelnieuws/live-centcom-gaat-trump-briefen-over-mogelijke-nieuwe-militaire-acties-tegen-iran-vs-wil-voor-het-eerst-hypersonische-raket-inzetten~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Na de druk van Trump: België haalt 3,44 procent voor nieuwe NAVO-norm",
+        "url": "https://www.demorgen.be/nieuws/na-de-druk-van-trump-belgie-haalt-3-44-procent-voor-nieuwe-navo-norm~bb6552bb/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Israëlisch leger omsingelt nieuw hulpkonvooi voor Gaza: “Gedreigd met ontvoering en geweld” - Trump onderhandelt telefonisch met Iran",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-israelisch-leger-omsingelt-nieuw-hulpkonvooi-voor-gaza-gedreigd-met-ontvoering-en-geweld-trump-onderhandelt-telefonisch-met-iran/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "MAGA-expert Laura Field: ‘De conservatieve beweging wil eigenlijk van Donald Trump af. Maar dat kan ze niet’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUC12d1VUVXdIQWl3MjFCRUx5ZnlUTHBYRElZRVZTVGpwQUJnZFplT1o3R1FULV9VLWRmdFBnMDZVWXduMXJwel9PWW81MldxTnA5WDd0OGhIYkdvQk13VzVtOUdoR1lVVldlTWV6VURNWFdDMy1MSFRkMDhMMGlrUGhzRG5zOFQzTS0ybDNHU3NBc1p2cURkTW9ITDY4V3ZRajllTkFnT1lUZU1aOEdydlJkRE9fNnhtUjh5TDdLMjgwOW81allUWGJzMXNkT3h0YjRvOUN2Zw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : vexé par les propos de Friedrich Merz, Donald Trump brandit une nouvelle menace",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/30/direct-guerre-au-moyen-orient-donald-trump-menace-de-retirer-des-troupes-americaines-dallemagne-Z4ME7BAGLJFWHP7BL6XTKDCVRU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Donald Trump n'a toujours pas digéré les propos du chancelier allemand et envisage une solution radicale",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/30/direct-guerre-au-moyen-orient-donald-trump-na-toujours-pas-digere-les-propos-du-chancelier-allemand-et-envisage-une-solution-radicale-KWQYHTF5OBF5PGPWIJZX47JFCU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Il ne sait pas de quoi il parle”: Trump menace de réduire ses troupes en Allemagne après une critique du chancelier",
+        "url": "https://www.7sur7.be/monde/il-ne-sait-pas-de-quoi-il-parle-trump-menace-de-reduire-ses-troupes-en-allemagne-apres-une-critique-du-chancelier~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Isolde Van den Eynde: “Het industriebeleid dat Volvo Gent kan redden, lijkt verdacht veel op het protectionisme van Trump” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSDV4a1N2Snk4Z3V4Nl9VTnNzV1JlNTFraXZyLUNDWGh2UzdTeXBKVF9xWFh3U1VXV0FMZnpNeGhuZGxtUVlGT1Q3aTNHbS01MTRQQTl2WDBoR0xxTnZTZkNOTTh1QWFyN0tpbnRKdmFkMjI4VTh6RUQ3T0U4T1pDTEJxQ3lpWlN4ajQxZHVIZmI2SWRPdlhndWs5YTk2a3hDNjF1dmdWdEdNNFp4bkhxZnExWkUwcERHUXl4Y0VfMEJBdmcwci1vdC1xSU5lelRvU2J0Q3EzQnVTSEVmeVZsQW9LT2xlTVA0OUE?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Donald Trump n'a toujours pas digéré les propos du chancelier allemand et envisage une solution radicale - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPTnI1TDJQMWp0RVRNb1IyX3lmdTFiNXdITWxSd0FOak1UekZody1oc3ItTTFDZC05dTU4Q2VudVdJUUI4RjkxOVdsZ183Ymc1cmVXVnJsNDJVQ1JabEkxYi01WUtPaVRLU0NUT2l1Mm50dTFZc28wYmhtUjVrVWtqdGNyYkRYenNBSVhsLThWMWRzOU9vSjBEQ3RFMnljQzNiMy05MzlrVUZ1ekw1bUtWd1BhUkktLW1OSnNyLXZfU3JRZG9KaDhOMWZRN0dLTnRPVHpfcUNHRDdJbDQ5d0VPX2p0b1FlSlZCWXJ1TVdFNE5pSm5LUnhwbUxEc0stUElQdVlmaFBYa1owM1VBQjJ4b1FyQUNZclUzekFNdF9VSUtXeWtsN00xelJ6Ti0?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Na de druk van Trump: België haalt 3,44 procent voor nieuwe NAVO-norm - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEhBQ3hWWHFVVzV6RHVHVFU4N01sa05vR2JrZkZVQldFOGtqQnY1TE9VcEdleHVtbXJfT2dMWXhFZjlYbkZ0TDE0OXBNallSQkhXU3pRdUkzellHX2tKRldRY3FHb0s5UnJVZ3dZSU5VaXdUT18yWi1KcmZJbkt0b2U4QXBqQ2hnVlhRaE1IaElZODZ3T3k2UzVjSmlyd3hRVTJtbFN3bXdtWlJPQVE?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Alleen maar ‘goed nieuws’ uit het oorlogskabinet van Trump, en dat zint J.D. Vance niet - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOC1ScXZremFsQnAwbjJWOEkzazNxalpIWVBNUzd1OHJ2UVJ5Tno3Y0ozTXpMSEZJd0s0RzdFWFJPYzQ1NTVjNEpJV2huZERibWZmZUUxYUV4cDQzZFVBVDlzVFdzekFuSjNPTGF1NW9SVWdHbl92ZkJrOFJCTm1DN2tMUE1fejVWNXA2Q3kxR2l0MGxfOU5VWEt0YzdsUGwwVll0ZElqdHZSR1dzUWl1UTRNRzgyNl9TNnhHcHVkejhydUFtYlJjX0pn?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Donald Trump menace de retirer des troupes américaines d'Allemagne - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNS3h2Y1Nub0RrVkZuWjF4SS0tRUNtQzQ4UF85VXhONGtqb3o3M3pKdmgxbXRoWDk0UVJXUFdzMWNadVFnb0tPM1FGSFJhOTdwNjRkQXFFVnZUUXV1QjlfSVFGX2ZPVVpMVU9ZS0tXai1yU2JZY0lnVllTcmxlS0VXdnVRMWlLLU9DLTJ0dEt3QWMwVTl0UVJWRXY4QmZySmVNUjFKUm5ITFJfZzRPbVFmRkZ4eXBUc3dhMER6UnJqNnJteTRybVlJRERybmR2bXAtRlc0dWpVYnVOZHJNaVY1ckpNNHFzbjBXWjRLLWxHMGd5RkNGWFRBblZEeGNHRHdzOGRqRjVtNy1LZlhSekhTZEdzN0ZMLS1G?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe klap voor wetenschap: Trump ontslaat voltallige adviesraad van de National Science Foundation - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNzRZNzRtT1RKNEJqUmo0R3ZGajVuNUpGa3hpeXg4b1ZjZVgtVXMwWVdUMUUzeGxzR0RJR2owX3BLM2ttUWhvc19ld3pSWEJ5M3gyZ3FLRmE0STNVZE1oM0o4b25VOEQ3ak5nRVdySHJaS0U4MWFuWl9RdUo2Z1owaFYybnNmSzQ0Nmh4NjJFdks3QXk4bmZuQnQ1QmgzbTQ2R0thaTMzM3E0WG5aWXNYOGJKejFXVW0xTXA1U2g5TlZkSjdjYXM4OHRTS3RZaDNUc01qbjBoMmdzcktVdGtRRWlPeFo?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Trump krijgt briefing over nieuwe militaire opties tegen Iran” - VS wil voor het eerst hypersonische raket inzetten",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump had ‘erg goed’ telefoongesprek met Poetin • Poetin stelt staakt-het-vuren in Oekraïne voor op feestdag van 9 mei",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-had-erg-goed-telefoongesprek-met-poetin-poetin-stelt-staakt-het-vuren-in-oekraine-voor-op-feestdag-van-9-mei~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump overweegt vermindering van troepen in Duitsland",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-overweegt-vermindering-van-troepen-in-duitsland~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘CENTCOM gaat Trump briefen over mogelijke nieuwe militaire acties tegen Iran’ • VS wil voor het eerst hypersonische raket inzetten",
+        "url": "https://www.demorgen.be/snelnieuws/live-centcom-gaat-trump-briefen-over-mogelijke-nieuwe-militaire-acties-tegen-iran-vs-wil-voor-het-eerst-hypersonische-raket-inzetten~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Na de druk van Trump: België haalt 3,44 procent voor nieuwe NAVO-norm",
+        "url": "https://www.demorgen.be/nieuws/na-de-druk-van-trump-belgie-haalt-3-44-procent-voor-nieuwe-navo-norm~bb6552bb/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Israëlisch leger omsingelt nieuw hulpkonvooi voor Gaza: “Gedreigd met ontvoering en geweld” - Trump onderhandelt telefonisch met Iran",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-israelisch-leger-omsingelt-nieuw-hulpkonvooi-voor-gaza-gedreigd-met-ontvoering-en-geweld-trump-onderhandelt-telefonisch-met-iran/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "MAGA-expert Laura Field: ‘De conservatieve beweging wil eigenlijk van Donald Trump af. Maar dat kan ze niet’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUC12d1VUVXdIQWl3MjFCRUx5ZnlUTHBYRElZRVZTVGpwQUJnZFplT1o3R1FULV9VLWRmdFBnMDZVWXduMXJwel9PWW81MldxTnA5WDd0OGhIYkdvQk13VzVtOUdoR1lVVldlTWV6VURNWFdDMy1MSFRkMDhMMGlrUGhzRG5zOFQzTS0ybDNHU3NBc1p2cURkTW9ITDY4V3ZRajllTkFnT1lUZU1aOEdydlJkRE9fNnhtUjh5TDdLMjgwOW81allUWGJzMXNkT3h0YjRvOUN2Zw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : vexé par les propos de Friedrich Merz, Donald Trump brandit une nouvelle menace",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/04/30/direct-guerre-au-moyen-orient-donald-trump-menace-de-retirer-des-troupes-americaines-dallemagne-Z4ME7BAGLJFWHP7BL6XTKDCVRU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Donald Trump n'a toujours pas digéré les propos du chancelier allemand et envisage une solution radicale",
+        "url": "https://www.dhnet.be/actu/monde/2026/04/30/direct-guerre-au-moyen-orient-donald-trump-na-toujours-pas-digere-les-propos-du-chancelier-allemand-et-envisage-une-solution-radicale-KWQYHTF5OBF5PGPWIJZX47JFCU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Il ne sait pas de quoi il parle”: Trump menace de réduire ses troupes en Allemagne après une critique du chancelier",
+        "url": "https://www.7sur7.be/monde/il-ne-sait-pas-de-quoi-il-parle-trump-menace-de-reduire-ses-troupes-en-allemagne-apres-une-critique-du-chancelier~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 11,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 4,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 16,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 7,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 20,
+      "crime": 10,
+      "eu": 13,
+      "politics": 15,
+      "be_gov": 17,
+      "culture": 4,
+      "tech": 12,
+      "economy": 9,
+      "sports": 14,
+      "health": 3,
+      "climate": 4,
+      "migration": 2,
+      "education": 4,
+      "weather": 11
+    },
+    "wide_themes": {
+      "war": 27,
+      "crime": 13,
+      "eu": 23,
+      "politics": 21,
+      "be_gov": 22,
+      "culture": 5,
+      "tech": 19,
+      "economy": 13,
+      "sports": 28,
+      "health": 5,
+      "climate": 4,
+      "migration": 3,
+      "education": 7,
+      "weather": 16
+    }
   }
 ]
