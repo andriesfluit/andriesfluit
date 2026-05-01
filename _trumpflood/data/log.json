@@ -10183,5 +10183,615 @@
       "education": 7,
       "weather": 16
     }
+  },
+  {
+    "date": "2026-05-01",
+    "generated_at": "2026-05-01T08:28:31+02:00",
+    "last_checked_at": "2026-05-01T08:28:31+02:00",
+    "total_articles": 237,
+    "trump_articles": 13,
+    "percentage": 5.5,
+    "core_percentage": 5.5,
+    "core_percentage_name": 5.5,
+    "trump_articles_expanded": 14,
+    "core_percentage_expanded": 5.9,
+    "indirect_references": 1,
+    "wide_total_articles": 338,
+    "wide_trump_articles": 20,
+    "wide_percentage": 5.9,
+    "wide_trump_articles_expanded": 21,
+    "wide_percentage_expanded": 6.2,
+    "macro_percentage": 3.8,
+    "qualifying_outlets": 10,
+    "core_outlets_total": 19,
+    "core_outlets_active": 13,
+    "active_core_fraction": 0.684,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 16.9,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 6.5,
+    "breadth": 0.69,
+    "deviation": 1.72,
+    "smoothed_pct": 5.61,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 1,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 54,
+        "today": 4,
+        "kept": 4,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 75.0
+      },
+      "google_nl_world": {
+        "fetched": 67,
+        "today": 7,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 44,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 43,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 43,
+        "today": 1,
+        "kept": 1,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 100.0
+      },
+      "google_fr_business": {
+        "fetched": 46,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 3.57
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 26,
+        "kept": 26,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.69
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 16,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 43,
+        "kept": 43,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.65
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 31,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 22.22
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 99,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Fotograaf Christopher Anderson blikt in ‘Index’ terug op ophefmakende Witte Huis-portretten en bedreiging door Epstein - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNdzR0UDdDMk1WelJXSFZBSEFNYVhydEJGWHl6M1IwTkx1YjBNakJzWlRSMzJSUmhtVXluMU9MaTlwSjZpQlpyRXRfVWhCbGFWT3VMSEFSOWRYTHg4Ym4tNWo5UUsybUxMWlJfUGNtNXBKRHNtTFc0WWZETDNLNnhaeEJIZFF3OFdPR2dSa3BIRmI1NGhwR2xQNXJIV3ZRdnNiTDk4aUdreHMyQlpGSUdLZ1BTdGNXWUk1NEdEaHB0NXFzWmUxdExOZklCbk1pdTVpOXhWemlhbXg4UFZlTWFCUVNqb1lWN0Q1WnhuMEQyWmx1dGRyN2dXYlZ4YnhNT1NTWVczc1V0ZDZEWEZq?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "Nieuwe beelden tonen moment waarop man probeerde binnen te dringen op persdiner Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNzMxM1BzZ2NTbjN3Y3RxODRpRWs3dUVlUjNSMFhLc1VhWU1HUWNUWWFqMGkzNWRuT1RKWmprRHN5OTBfWlZ1QllLMHR3dnVrdVBDRHJ2SlV2SGlmNnV2dlFXR3J4NktVZXBlS213SXR2OUV0dG1Ya3FRUEs4S1BaeC1CZnlEWlNYdXZhWnUyU1RHb2Z5Y25KV05aei11Zmx2YlpiMEp5LVIxTHprTHEtWDRyaE03SUtiSHlETlJ0UGdONVBfYU04RzNSaTlUdEktS0E?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe beelden tonen hoe gewapende verdachte in enkele seconden door de beveiliging bij persdiner Trump stormt",
+        "url": "https://www.hln.be/buitenland/nieuwe-beelden-tonen-hoe-gewapende-verdachte-in-enkele-seconden-door-de-beveiliging-bij-persdiner-trump-stormt~ad1dae3b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump schrapt heffing Schotse whisky ter ere van koning Charles",
+        "url": "https://www.hln.be/buitenland/trump-schrapt-heffing-schotse-whisky-ter-ere-van-koning-charles~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "“Draag zorg voor de moeizaam bereikte stabiliteit”: China waarschuwt VS over Taiwankwestie vlak voor gepland bezoek van Trump aan Peking",
+        "url": "https://www.nieuwsblad.be/buitenland/draag-zorg-voor-de-moeizaam-bereikte-stabiliteit-china-waarschuwt-vs-over-taiwankwestie-vlak-voor-gepland-bezoek-van-trump-aan-peking/150623806.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Een sprintje tussen tiental agenten door: zo probeerde schutter persdiner Trump binnen te dringen",
+        "url": "https://www.nieuwsblad.be/buitenland/een-sprintje-tussen-tiental-agenten-door-zo-probeerde-schutter-persdiner-trump-binnen-te-dringen/150617360.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Een sprintje tussen tiental agenten door: zo probeerde schutter persdiner Trump binnen te dringen",
+        "url": "https://www.hbvl.be/buitenland/een-sprintje-tussen-tiental-agenten-door-zo-probeerde-schutter-persdiner-trump-binnen-te-dringen/150631614.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Live President Trump: Mogelijk zelfmoordbriefje Epstein al jaren geheim - Knack",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTmlEMWhjT0tfcGtNNDNtVXg4NnM2NXY2YnFrd0ZLekhqdUt3dGFCa0NheUpLMmVjejhXcURRTDFFdlc5THBvcjdyWjRCYm5sWVluRmNSSkR0aTdnUFhEYnFFYVdibFB4WW9nTFdldFVFeDFtLWxwM0xOTmlidXA4N3c0NjB2NVhIa09pWXdYQjN5ZklIeWxPdGRHUmVlU1hzekV6N0xJTHVwby1iWndlOTZHRlluN1ZVSTZFVC1CWnRPOERkTnpV?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "À qui profite le blocus du détroit d’Ormuz ? Autour de Donald Trump, jeux de pouvoir et superprofits pétroliers",
+        "url": "https://www.rtbf.be/article/a-qui-profite-le-blocus-du-detroit-d-ormuz-autour-de-donald-trump-jeux-de-pouvoir-et-superprofits-petroliers-11717602",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : après l’Allemagne, Trump envisage de réduire les troupes américaines en Italie et en Espagne",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-apres-l-allemagne-trump-envisage-de-reduire-les-troupes-americaines-en-italie-et-en-espagne-11717890",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump défié par le Congrès sur l'autorisation de mener des opérations militaires - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPNExSbHI4R1BhSlNyYl9DZDVpaE0wRE44REtzX0pVQ2FGMnlfRVhpaTZQU0dBeTd4U0FaaHVNWC1WWHhpaTBMT1I3dXhycjVQRDVSeVZObkQxcUdyMVVGYkpieFFCZDItM2I2NW1Lb2xNVmk5U0VyUXlxel9lWkszS3ZtQ1NUck9Uck1FcVV5bGJwLXFWSUxQaHdTRkhITGhpS1ZKUjZLcDk2RDNfNGE1cTVpbjJKRXJQdDZNQlJ6WUltQXRXNmVZZ19aVnN0cUc4SHA5RnN2a1h3b3lzY19zQTR6dDFaUkUwUHhnanlkc1IyWnZ5b0U3amJmY3ZSSGNDalZQMm5pOVZVR3FFUm9vODQ2NHZ2QzVjM2ZLeGUxTUZrT3lXU3pUXw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Après l’Allemagne, Trump envisage de réduire ses troupes dans deux autres pays européens",
+        "url": "https://www.7sur7.be/monde/apres-lallemagne-trump-envisage-de-reduire-ses-troupes-dans-deux-autres-pays-europeens~a155e0f8/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump schrapt importtarieven voor Schotse whisky - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmFCcUZiX1o2WmNQektlM2NYNXZ6TUFmZWV2ZzRXV1dOYVdqTFVHQ2xhLU9FMExFb0dvbGFLcTZOanFyM0d0N01zU1dkR2s5UnhiV25tNldpNjh1aGhFbjdFaTRIbEhKaWFGMnNabXFXYTVxUnZla2tNT3NQd1p1OG1Zc21pM1Y5QWVidlVqUlQ3NUJNYkRJMGlkekl4dlBaaWNnbUVwd0hjQTQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "« On le voit tirer sur un agent » : la justice américaine dévoile une vidéo inédite du tireur suspecté d’avoir tenté d’assassiner Donald Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMmwzMmVUdkx0eVFKYlg0ZFhRd2JZY2pneUFSR3o3N2RjSi0yNHBDS05VOWtVLWNuM0YzcVlXc0RabVhaTVpJeVdMd0RQUlJPaDZqSG1fd2d0Z1RBWWdEUllIcThBT2hqWUVjTkFLOVlhVUt1SFEtLVVCc045M3hFSjBFdm5MTFZGOUxBNldnVl9Ydkl0SFUzSFRlOWtQYk5kYVdmc0wzMGFPQVcxcG5jMmJWVlpNT2xaMHBkd3EzLXZ2S1pGaFVFX1dMR19YVkVyenctQ1ZfZ2FfdzY5UlBJMA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Nieuwe beelden tonen hoe gewapende verdachte in enkele seconden door de beveiliging bij persdiner Trump stormt - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQ1JFODgzSU01R0s4WFZ5RzZlTUZvNTVYWXJINGc4dDQ4YVFLR3hWU1ZodlFqMHY3VU8xbldXUkpxTmRIMThqX0ZmU2k0X0d2OUYycmRsNjRWX2NaUElRczFHRjFGM0w2UVdaZF9HRmowOENfU2wzeURKd0tCTnNvc3RBaWhhaTBnaWgyTnFpZVFIc3RkZEd2djB1NHBMRXozdjlNRG43Q1ZGdGVwa2RrdzFzMTA5dkVoLXFMZFhnZTdTMmNRQVdTZXdfdEV3OU1lZkJaejEzMUJ0cnd1YnQzTDI5dDA?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Gent telt haar centen: “Onbezonnen acties van de regering Trump slaan ook een gat in het spaarvarken van de stad” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNnJrYzBJTzlpcmpvYVNLMjhrbEhKSDVzY3FEX3VVYjhRYjdkSmtoX09SZmZkQWtOdHlreVhja1pDT1ZUeDV6MWRvV19lb0c2TXhseG9XWVJmZ0pGSUhYODBJSVVUem8yRXJWTzBiUFRNTG5qaHc1VFVyTDJLdWFUTzlndHIzd2dyU1U1czZfTS0xYXFRaFFSNTFsU0prWlYzQldRejAwOVRnNU9JU2VfbTFRaFFhOHNSZExIR1E0WTVmNE5sYzJqd2ZhQTJ4cEpHcjFMbUltWHZpMTNs?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "“Draag zorg voor de moeizaam bereikte stabiliteit”: China waarschuwt VS over Taiwankwestie vlak voor gepland bezoek van Trump aan Peking - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNdGtsZTlYVzV4YXNrRXhJc3k1RzZrcTd0Ynl0ZjRLN3VVMGxfaDY5V0FXM3VqUzd2c3dNYW1DMzA4N2hfVnFxVlQ3ckdVT0lhell0bG5nTFV5VGxIaU81dUhrNkJUOUhtcDJBeXpqX3VGQ2lQd0YwRTRmQ3BJOUhxck13Y2NjaDF3RFVTdzZ1UWJGMk5UU29tTF95TFBUYmZDX1BHUWZ6TjVtcm5CampQaTQzQml5MmFySjlhdnFZVVlHVGZNeFpXV3gxTU0tVHhBSy1rZ2YxVkFWQ25ZWXY1LUhwN1gzcWRnQ0YzZnhvaUVDQzZZRG1sUEMtQUdLTWNXRGI1TU5nMnVYTUYxZW03c3Jfaw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Duitsland is “voorbereid” op eventuele terugtrekking Amerikaanse troepen vanwege misnoegde Trump - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbzFEaDFIdTN2OFBzbDFSMlhqSnl6dDdUSjBQT2xYOXFadjBBekpkMl9FWGttd3VyY3FDell1RWRUaFJZVktIamcxcFhMR3ZlZ1dMU1BRVXJqSDUyUHY0ZXNIT1U3TlhTaDI4UUo0YUd3bUdhZXhHcVNvN192Y1NsYmNfM2RnTTdqUERLeWluQkc0TGFRdk83aXpZdmFLRHhFb0k0Q2RtLS0xc0JRSGZjWlhTWkg5eTdyRGNJelRNUVEyaHY1ektYLVF5YUF0RTVCSDEzX0JvdmJNQQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "À qui profite le blocus du détroit d’Ormuz ? Autour de Donald Trump, jeux de pouvoir et superprofits pétroliers - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNlJkSUJlSnlhNHlEQURvZFM5RWQ5TXlPdDVhZVdlSEFCWGlZZDhFUEY0ZmNtdnYxa2JKTVA4VGlidnQ2clBFYU1TWmU0Xzd0NDdNWDA1XzhTMDU4LTJhSThzcWFkZldXcXJRQVhjX1JxTnd4SDJhNXN2UVdha192dzRaUmwyWmlRMlBfcEthQVhjU29ydG9iX1ZtX1YzaFBGVEFLeFVwM3ZNNmZBMUdkYmlvR2tVQWhIelpZb0pUOWxjc1BsbGdFSFh1aHFlWlhiMEF4dFlUdkVNRGxPU2c?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Fotograaf Christopher Anderson blikt in ‘Index’ terug op ophefmakende Witte Huis-portretten en bedreiging door Epstein - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNdzR0UDdDMk1WelJXSFZBSEFNYVhydEJGWHl6M1IwTkx1YjBNakJzWlRSMzJSUmhtVXluMU9MaTlwSjZpQlpyRXRfVWhCbGFWT3VMSEFSOWRYTHg4Ym4tNWo5UUsybUxMWlJfUGNtNXBKRHNtTFc0WWZETDNLNnhaeEJIZFF3OFdPR2dSa3BIRmI1NGhwR2xQNXJIV3ZRdnNiTDk4aUdreHMyQlpGSUdLZ1BTdGNXWUk1NEdEaHB0NXFzWmUxdExOZklCbk1pdTVpOXhWemlhbXg4UFZlTWFCUVNqb1lWN0Q1WnhuMEQyWmx1dGRyN2dXYlZ4YnhNT1NTWVczc1V0ZDZEWEZq?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "Nieuwe beelden tonen moment waarop man probeerde binnen te dringen op persdiner Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNzMxM1BzZ2NTbjN3Y3RxODRpRWs3dUVlUjNSMFhLc1VhWU1HUWNUWWFqMGkzNWRuT1RKWmprRHN5OTBfWlZ1QllLMHR3dnVrdVBDRHJ2SlV2SGlmNnV2dlFXR3J4NktVZXBlS213SXR2OUV0dG1Ya3FRUEs4S1BaeC1CZnlEWlNYdXZhWnUyU1RHb2Z5Y25KV05aei11Zmx2YlpiMEp5LVIxTHprTHEtWDRyaE03SUtiSHlETlJ0UGdONVBfYU04RzNSaTlUdEktS0E?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe beelden tonen hoe gewapende verdachte in enkele seconden door de beveiliging bij persdiner Trump stormt",
+        "url": "https://www.hln.be/buitenland/nieuwe-beelden-tonen-hoe-gewapende-verdachte-in-enkele-seconden-door-de-beveiliging-bij-persdiner-trump-stormt~ad1dae3b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump schrapt heffing Schotse whisky ter ere van koning Charles",
+        "url": "https://www.hln.be/buitenland/trump-schrapt-heffing-schotse-whisky-ter-ere-van-koning-charles~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "“Draag zorg voor de moeizaam bereikte stabiliteit”: China waarschuwt VS over Taiwankwestie vlak voor gepland bezoek van Trump aan Peking",
+        "url": "https://www.nieuwsblad.be/buitenland/draag-zorg-voor-de-moeizaam-bereikte-stabiliteit-china-waarschuwt-vs-over-taiwankwestie-vlak-voor-gepland-bezoek-van-trump-aan-peking/150623806.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Een sprintje tussen tiental agenten door: zo probeerde schutter persdiner Trump binnen te dringen",
+        "url": "https://www.nieuwsblad.be/buitenland/een-sprintje-tussen-tiental-agenten-door-zo-probeerde-schutter-persdiner-trump-binnen-te-dringen/150617360.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Draag zorg voor de moeizaam bereikte stabiliteit”: China waarschuwt VS over Taiwankwestie vlak voor gepland bezoek van Trump aan Peking",
+        "url": "https://www.gva.be/buitenland/draag-zorg-voor-de-moeizaam-bereikte-stabiliteit-china-waarschuwt-vs-over-taiwankwestie-vlak-voor-gepland-bezoek-van-trump-aan-peking/150623995.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Een sprintje tussen tiental agenten door: zo probeerde schutter persdiner Trump binnen te dringen",
+        "url": "https://www.gva.be/buitenland/een-sprintje-tussen-tiental-agenten-door-zo-probeerde-schutter-persdiner-trump-binnen-te-dringen/150618443.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Een sprintje tussen tiental agenten door: zo probeerde schutter persdiner Trump binnen te dringen",
+        "url": "https://www.hbvl.be/buitenland/een-sprintje-tussen-tiental-agenten-door-zo-probeerde-schutter-persdiner-trump-binnen-te-dringen/150631614.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Live President Trump: Mogelijk zelfmoordbriefje Epstein al jaren geheim - Knack",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTmlEMWhjT0tfcGtNNDNtVXg4NnM2NXY2YnFrd0ZLekhqdUt3dGFCa0NheUpLMmVjejhXcURRTDFFdlc5THBvcjdyWjRCYm5sWVluRmNSSkR0aTdnUFhEYnFFYVdibFB4WW9nTFdldFVFeDFtLWxwM0xOTmlidXA4N3c0NjB2NVhIa09pWXdYQjN5ZklIeWxPdGRHUmVlU1hzekV6N0xJTHVwby1iWndlOTZHRlluN1ZVSTZFVC1CWnRPOERkTnpV?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "À qui profite le blocus du détroit d’Ormuz ? Autour de Donald Trump, jeux de pouvoir et superprofits pétroliers",
+        "url": "https://www.rtbf.be/article/a-qui-profite-le-blocus-du-detroit-d-ormuz-autour-de-donald-trump-jeux-de-pouvoir-et-superprofits-petroliers-11717602",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : après l’Allemagne, Trump envisage de réduire les troupes américaines en Italie et en Espagne",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-apres-l-allemagne-trump-envisage-de-reduire-les-troupes-americaines-en-italie-et-en-espagne-11717890",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump défié par le Congrès sur l'autorisation de mener des opérations militaires - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPNExSbHI4R1BhSlNyYl9DZDVpaE0wRE44REtzX0pVQ2FGMnlfRVhpaTZQU0dBeTd4U0FaaHVNWC1WWHhpaTBMT1I3dXhycjVQRDVSeVZObkQxcUdyMVVGYkpieFFCZDItM2I2NW1Lb2xNVmk5U0VyUXlxel9lWkszS3ZtQ1NUck9Uck1FcVV5bGJwLXFWSUxQaHdTRkhITGhpS1ZKUjZLcDk2RDNfNGE1cTVpbjJKRXJQdDZNQlJ6WUltQXRXNmVZZ19aVnN0cUc4SHA5RnN2a1h3b3lzY19zQTR6dDFaUkUwUHhnanlkc1IyWnZ5b0U3amJmY3ZSSGNDalZQMm5pOVZVR3FFUm9vODQ2NHZ2QzVjM2ZLeGUxTUZrT3lXU3pUXw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Après l’Allemagne, Trump envisage de réduire ses troupes dans deux autres pays européens",
+        "url": "https://www.7sur7.be/monde/apres-lallemagne-trump-envisage-de-reduire-ses-troupes-dans-deux-autres-pays-europeens~a155e0f8/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump schrapt importtarieven voor Schotse whisky - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmFCcUZiX1o2WmNQektlM2NYNXZ6TUFmZWV2ZzRXV1dOYVdqTFVHQ2xhLU9FMExFb0dvbGFLcTZOanFyM0d0N01zU1dkR2s5UnhiV25tNldpNjh1aGhFbjdFaTRIbEhKaWFGMnNabXFXYTVxUnZla2tNT3NQd1p1OG1Zc21pM1Y5QWVidlVqUlQ3NUJNYkRJMGlkekl4dlBaaWNnbUVwd0hjQTQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "« On le voit tirer sur un agent » : la justice américaine dévoile une vidéo inédite du tireur suspecté d’avoir tenté d’assassiner Donald Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMmwzMmVUdkx0eVFKYlg0ZFhRd2JZY2pneUFSR3o3N2RjSi0yNHBDS05VOWtVLWNuM0YzcVlXc0RabVhaTVpJeVdMd0RQUlJPaDZqSG1fd2d0Z1RBWWdEUllIcThBT2hqWUVjTkFLOVlhVUt1SFEtLVVCc045M3hFSjBFdm5MTFZGOUxBNldnVl9Ydkl0SFUzSFRlOWtQYk5kYVdmc0wzMGFPQVcxcG5jMmJWVlpNT2xaMHBkd3EzLXZ2S1pGaFVFX1dMR19YVkVyenctQ1ZfZ2FfdzY5UlBJMA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 13,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 20,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 12,
+      "crime": 9,
+      "eu": 3,
+      "politics": 6,
+      "be_gov": 6,
+      "culture": 9,
+      "tech": 6,
+      "economy": 6,
+      "sports": 12,
+      "health": 1,
+      "climate": 1,
+      "migration": 1,
+      "education": 1,
+      "weather": 4
+    },
+    "wide_themes": {
+      "war": 18,
+      "crime": 14,
+      "eu": 4,
+      "politics": 10,
+      "be_gov": 7,
+      "culture": 11,
+      "tech": 11,
+      "economy": 8,
+      "sports": 20,
+      "health": 1,
+      "climate": 1,
+      "migration": 2,
+      "education": 1,
+      "weather": 9
+    }
   }
 ]
