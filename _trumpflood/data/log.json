@@ -11881,5 +11881,633 @@
       "education": 0,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-05-04",
+    "generated_at": "2026-05-04T08:30:06+02:00",
+    "last_checked_at": "2026-05-04T08:30:06+02:00",
+    "total_articles": 420,
+    "trump_articles": 16,
+    "percentage": 3.8,
+    "core_percentage": 3.8,
+    "core_percentage_name": 3.8,
+    "trump_articles_expanded": 16,
+    "core_percentage_expanded": 3.8,
+    "indirect_references": 0,
+    "wide_total_articles": 549,
+    "wide_trump_articles": 22,
+    "wide_percentage": 4.0,
+    "wide_trump_articles_expanded": 22,
+    "wide_percentage_expanded": 4.0,
+    "macro_percentage": 6.0,
+    "qualifying_outlets": 15,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 51,
+    "cross_outlet_dup_groups": 25,
+    "cross_outlet_dup_rate": 12.1,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 4.0,
+    "breadth": 0.65,
+    "deviation": 0.89,
+    "smoothed_pct": 4.59,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_politics": {
+        "fetched": 64,
+        "today": 10,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "google_nl_world": {
+        "fetched": 62,
+        "today": 11,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 62,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 61,
+        "today": 12,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 37,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 32,
+        "today": 4,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_business": {
+        "fetched": 26,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 62,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 13,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 86,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
+      },
+      "lecho": {
+        "fetched": 80,
+        "today": 23,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 75,
+        "kept": 75,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.33
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "trends_g": {
+        "fetched": 33,
+        "today": 4,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 32,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Oud-burgemeester New York en advocaat van Trump, Rudy Giuliani, in kritieke toestand opgenomen in ziekenhuis",
+        "url": "https://vrtnws.be/p.43Ld5BoWD",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Voormalige advocaat van Trump Rudy Giuliani in kritieke toestand opgenomen in ziekenhuis",
+        "url": "https://www.hln.be/buitenland/voormalige-advocaat-van-trump-rudy-giuliani-in-kritieke-toestand-opgenomen-in-ziekenhuis~a9ef5721/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Duitse bondskanselier Merz: “Trump wil heel Europa aanpakken met invoerheffingen”",
+        "url": "https://www.hln.be/economie/duitse-bondskanselier-merz-trump-wil-heel-europa-aanpakken-met-invoerheffingen~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump start ‘Project Freedom’: Amerikaanse marine gaat vanaf vandaag schepen in Straat van Hormuz begeleiden",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-amerikaanse-marine-gaat-vanaf-vandaag-schepen-in-straat-van-hormuz-begeleiden~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Rudy Giuliani, voormalig burgemeester van New York en ex-advocaat Trump, in kritieke toestand opgenomen in ziekenhuis",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-gaat-meer-dan-vijfduizend-militairen-weghalen-uit-duitsland~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Hoe driester Trump uithaalt, hoe beter. Hij verliest steun in de VS en geeft Europa een gouden kans”",
+        "url": "https://www.nieuwsblad.be/politiek/hoe-driester-trump-uithaalt-hoe-beter.-hij-verliest-steun-in-de-vs-en-geeft-europa-een-gouden-kans/150997645.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : les Etats-Unis vont aider des navires bloqués à franchir le détroit d'Ormuz, selon Donald Trump",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-les-etats-unis-vont-aider-des-navires-bloques-a-franchir-le-detroit-d-ormuz-selon-donald-trump-11718823",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-maire de New York Giuliani hospitalisé dans un état \"critique\", Trump réagit et attaque les démocrates",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/04/lex-maire-de-new-york-giuliani-hospitalise-dans-un-etat-critique-trump-reagit-et-attaque-les-democrates-BVEDX7SECBEWTI3AJB4DTFB33I/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient:  Trump annonce une grande opération ce lundi, un haut responsable iranien évoque des \"publications délirantes\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/05/04/direct-guerre-au-moyen-orient-trump-annonce-une-grande-operation-ce-lundi-un-haut-responsable-iranien-evoque-des-publications-delirantes-IR6A6XJSZ5FAZA745TIAD7X6L4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump annonce une grande opération liée au détroit d'Ormuz ce lundi, l’Iran rétorque par des menaces",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/04/direct-guerre-au-moyen-orient-trump-annonce-une-grande-operation-liee-au-detroit-dormuz-ce-lundi-DEWE2DBHCVC3XM24O3UMGBT6AU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "L’ancien avocat de Trump Rudy Giuliani hospitalisé dans un état critique",
+        "url": "https://www.7sur7.be/monde/lancien-avocat-de-trump-rudy-giuliani-hospitalise-dans-un-etat-critique~aa88e41f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Vooruitblik met tech-CEO Jeroen Lemaire | 'Trump wil met tarieven populariteit opkrikken' | 'EU moet minder focussen op AI-regels, meer op rekenkracht - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNV3ZENGxia0IzVGEycWtINDBFUDkxTnpvWmJfUV94VnBMRnhJWjNuVWtpS2NsQjZyTlVQMnRfekJhR1pQYzRJRzRXX0JmWE5BNndIVHpfMFFiemZkRWJETkhnOVZacTNkTm5obW1TUG1YR0psT2JnN0pxZHhOb09LaEk3cVZBVWV5T0VsUXNHSDlJMFRDTnNad1pzRHEyR2ROd1YzUXVmNDF1eTFScU9QYlE4MmFMdjZPc3BkYmtENTJEbW52U1BTMk8xeWxLYmpZLW5PU3BNMm16YzRjQXZCaUhBT3R5VHc1VmR2NWhEanlRRHllWFZ0UWpYNzNEUWJockQ3U2VUN0ctLTFfRXdnREpTODRyZUVYRVE?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Après Sanchez, Macron et Meloni, Merz tombe en disgrâce auprès de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWVE2WC1BQ1RNS2ktclRnNnNnQ2RtZkRzbmViY1ZPbkE5cS1tLW1JYmRjVndEYXM2V0NQd0pWdHpFU2pjaGdEdjU5Z295YkYwTENXZWVOMjRCTTlLa0xZa3RDbDFGaWhPZ2dvTWxnMmJlTmJIdmlncEhFS2Q0MXNTUTdVdTBuT01mWGxzQ2pRb08tUVE5aWs5RVVPUTRxVFd4ckVnQk5iazN4N2V6d0JEZjlOSnM1SzJ3?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Des pays du monde entier, qui n’ont rien à voir avec le conflit, nous ont demandé de libérer leurs bateaux » : Donald Trump annonce un déblocage du détroit d’Ormuz, l’Iran met en garde - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUUtMNzQwQmhqX0Y2VlJWVThSMl9wLVc3LW1IWkZBVXlPT2VWZGRrRXB3SVY3VmljZXc2aE9JSnVxMFRrMGQyeWg3MHFYdkhTdzhja2UyWmRDVHVHMnhpdTdLemhGcXNvNTN3X3J5RVlVWEFvR2Y4V25fbHFwUW9QUXNaYTZLNkhrdUpCazFEX04yUUprallVNUtaRzB4R1Nab2Z3c1d2YkFDZElnZENuMmNXUVBKdDF3SXhjbXNmZ3Btd2JySDR1cjFrVlpEVGFOOFVzOXRHMmlTYllYZGtBX2VJdw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« Des pays du monde entier nous ont demandé de l’aide » : Donald Trump annonce un déblocage du détroit d’Ormuz, l’Iran met en garde - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOM05YRHA1cTdrSko5YWZWRWw4aEVudlN5WGN3eWV4U3h2U0U5b2w5VDM3NWlnQVQ1aXdNY3dEMEpHVHJfYTFJRDlvbS1lU1JnRl9oc1FpRXJHLW9qY0lLRm96UkZPWVdnTjZ5UThsdTV3VWxqSFVWNW5RamRpOExnM3RnZm4tYVFnbExTR01MdzNqcEJzZng1OWJsNXcxY2FkWkFFYWlhU0ZYSHhxbFdXMmg5RXNFSjRHV2tNNUZhTzEwV2NhZGM5di1IMWRobWFFWk05V0g2N2JuRmVy?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump lance une opération de sauvetage pour débloquer le détroit d'Ormuz, où plus de 1.000 navires sont bloqués - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOeTU1TFkxQzRZa3g2ZUV0WEVyalh6R3V3RWIxSEVOaWFmcU5jM2FJVktTSkk5aEcyMVZqaUM5N1hlSnV2REpodmNVMHRNTW5FUUNxbWRYVkIyWXd2NU92ZUZhMWVkZjR0U0g3cVJSVmtmNnFEeVZRUGY4dDVibmhnRFJ4cVRJNHFORTFpMDVwbGZkQ09RdW9ueTdFbUdlaTA4ZXNSNGZjNFI2bFVUVWNmYW1tNkpheFdmc0prdnVwakt2bGwxX1JKVVgwZHBGTEV2cW81N1czSUNCZDJlSllCMTNqNTFuR0FxSDZKeEtn?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Isolde Van den Eynde: “Een nerveuze Trump over Iran is niet iets om ons in te verkneukelen” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ2Jxc0g4R3VhdVJEcWpoLWVDaVQwclp3QWlrd212OEo3V1JUY0hDckNReVhoZ3hFdHpqbVJGR0NmcnJISlJIdFNkb2l5TFlMbVJnQkVyc2NlZ25NS3hFeW5wLURBSkVrN1J0NnhfWVhkUXc4QW9NaHEzcVdZV3gtLUxGRGFUQS1mZ2tncVEycWN1U0lrVGVXbGJMQm5iWnhyWXFWb3M3RUxMbGk1bjYwZWRDbVM2bENFOUtVZ2ljc2xmaGc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Voormalige advocaat van Trump Rudy Giuliani in kritieke toestand opgenomen in ziekenhuis - HLN",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeWp3REhkY2VHcy05bndmLWlyek91TjRwZ3pmOVBhUjBtR3NUc3VoLUdqcW1wM0F5U0R5Z1ZpQ0JxZGRsbTdhM3RwdzZfTk5VcEl5M2MwcXpyWEI0VVN5VXdHSG1lVnE5bzN1RTJBUUhuVk9MalVPLXItQkhtN2p0dkhPOEpfOWtZeldNTmdrMFpjZ05oUTVVRlhIU1dkVVpUQWFBaERpSFVrWUxhdlNtemkwaUZ2SmJBMTczYURxZXNoZzFZeVhz?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump annonce une grande opération ce lundi, un haut responsable iranien évoque des \"publications délirantes\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNQS1iWk0wbmlKYmlob3F4aTI1dGFJNlFzM1dmeFJYdlFLdkRLaW5GMWtlbHlCeEpZLUlicllKc1pFNzlMOEJycVk1WnJNQkxJdkh0NkRIS1l2bmNtdy1yZGZqOTg2Mjc0RjFRQkhaMFc0MTNPVzRTLVk4TmZUa0RTV3JlYzloT2NWaFFxWm1DOG9HMS1tNTZJU2VIWE95a2pMZWYwQ2EyaHBEb0lCWGlGSzJkVVJQR1FQcVFTeEY2RkhSNUxTeEJyWmlsY2MwV0RIa3ZmV1pJd252QmVUbS1OVnI2Znl4cnd2bXoteGFlYUFsZWJadVA2cl96SUZBcE9OUDNUQlpaaU93MVJvY19ZYU9FS3IyRnJpb1U2NWszaC1JT1BVOUw2MGVtcjcwc0FCNzVMQ1JpS1hoLTRFRXVWVWYtOXZldVk1?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "“Hoe driester Trump uithaalt, hoe beter. Hij verliest steun in de VS en geeft Europa een gouden kans” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWVlZUmk4X0V6SjVEekdDVTJzRDVxcks0d1BKNy1CYWVnOXdaTmxTVTdESldIV0lZLUJrd0RDdVZtN1VGYWZ2ZjIxZl9RYjUxSFFpT2Y1Vy1iLU9UUHlrWFdEQXFid1NXazNEZWlFMnBNNU1RSXdZZWl1bWttS3JkcVFzLVJwUHNKSUdISUFBS2wzSHBmR0JGVm9DM0pxMUxuTFhZc2hXQi1OcnNVajZ4bGpkaWVEeW5Jc1FMVEd6Y2ltSFNwV196RHpKeUxzcHJGYVpFUUc4M3ozSW9RaElmX2ZB?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump blaast handelsoorlog met Europa weer aan - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU0JQTENGaG0wMDcyb1hEcFpoVEZQc19DQklNYmJ6UHNCRHQzMGFVSS1DSDc2a2ZOOGNFb2x5VWlWSV9TWG9udVJNbnhGdkxWNDVCSzVYVXF4eUdEQ1FBMnlKX0gzVWlaT1A5MU9ySVluQVZuYUtQNEpQXzR3YTJJbXNTTjQ2SkRDT1RMdU9Tb3psU3pTLU8tT3RYZw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "L’ex-maire de New York et ancien avocat de Trump, Rudy Giuliani, hospitalisé dans un état critique - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc0RoQUk3ZS1jT2hQZE9va1FfbVFhMHFzSkFrVUl4N0hNS2hrcFBkZG1xRTJ3cjZQMmhrNFFKV0IwQXhfYUJTMWxTYk80a1p1OTZnOFpEbjFoR1BFbnJUdDNxYnNrbEgyMzlNYkg1bC1qWG9Tc1RJNjdZMWdoZkx2OFFSaS1fem95UkRkS1ItT3BRNGQwV3hoT09MWkRLLWhhRVprVjQzU2ZNN3ZYWDdROGFOcXVRcWRldDJoMFE1MlBhNmNv?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Oud-burgemeester New York en advocaat van Trump, Rudy Giuliani, in kritieke toestand opgenomen in ziekenhuis",
+        "url": "https://vrtnws.be/p.43Ld5BoWD",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Voormalige advocaat van Trump Rudy Giuliani in kritieke toestand opgenomen in ziekenhuis",
+        "url": "https://www.hln.be/buitenland/voormalige-advocaat-van-trump-rudy-giuliani-in-kritieke-toestand-opgenomen-in-ziekenhuis~a9ef5721/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Duitse bondskanselier Merz: “Trump wil heel Europa aanpakken met invoerheffingen”",
+        "url": "https://www.hln.be/economie/duitse-bondskanselier-merz-trump-wil-heel-europa-aanpakken-met-invoerheffingen~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump start ‘Project Freedom’: Amerikaanse marine gaat vanaf vandaag schepen in Straat van Hormuz begeleiden",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-amerikaanse-marine-gaat-vanaf-vandaag-schepen-in-straat-van-hormuz-begeleiden~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Rudy Giuliani, voormalig burgemeester van New York en ex-advocaat Trump, in kritieke toestand opgenomen in ziekenhuis",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-gaat-meer-dan-vijfduizend-militairen-weghalen-uit-duitsland~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Hoe driester Trump uithaalt, hoe beter. Hij verliest steun in de VS en geeft Europa een gouden kans”",
+        "url": "https://www.nieuwsblad.be/politiek/hoe-driester-trump-uithaalt-hoe-beter.-hij-verliest-steun-in-de-vs-en-geeft-europa-een-gouden-kans/150997645.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : les Etats-Unis vont aider des navires bloqués à franchir le détroit d'Ormuz, selon Donald Trump",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-les-etats-unis-vont-aider-des-navires-bloques-a-franchir-le-detroit-d-ormuz-selon-donald-trump-11718823",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-maire de New York Giuliani hospitalisé dans un état \"critique\", Trump réagit et attaque les démocrates",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/04/lex-maire-de-new-york-giuliani-hospitalise-dans-un-etat-critique-trump-reagit-et-attaque-les-democrates-BVEDX7SECBEWTI3AJB4DTFB33I/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient:  Trump annonce une grande opération ce lundi, un haut responsable iranien évoque des \"publications délirantes\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/05/04/direct-guerre-au-moyen-orient-trump-annonce-une-grande-operation-ce-lundi-un-haut-responsable-iranien-evoque-des-publications-delirantes-IR6A6XJSZ5FAZA745TIAD7X6L4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump annonce une grande opération liée au détroit d'Ormuz ce lundi, l’Iran rétorque par des menaces",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/04/direct-guerre-au-moyen-orient-trump-annonce-une-grande-operation-liee-au-detroit-dormuz-ce-lundi-DEWE2DBHCVC3XM24O3UMGBT6AU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "L’ancien avocat de Trump Rudy Giuliani hospitalisé dans un état critique",
+        "url": "https://www.7sur7.be/monde/lancien-avocat-de-trump-rudy-giuliani-hospitalise-dans-un-etat-critique~aa88e41f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Vooruitblik met tech-CEO Jeroen Lemaire | 'Trump wil met tarieven populariteit opkrikken' | 'EU moet minder focussen op AI-regels, meer op rekenkracht - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNV3ZENGxia0IzVGEycWtINDBFUDkxTnpvWmJfUV94VnBMRnhJWjNuVWtpS2NsQjZyTlVQMnRfekJhR1pQYzRJRzRXX0JmWE5BNndIVHpfMFFiemZkRWJETkhnOVZacTNkTm5obW1TUG1YR0psT2JnN0pxZHhOb09LaEk3cVZBVWV5T0VsUXNHSDlJMFRDTnNad1pzRHEyR2ROd1YzUXVmNDF1eTFScU9QYlE4MmFMdjZPc3BkYmtENTJEbW52U1BTMk8xeWxLYmpZLW5PU3BNMm16YzRjQXZCaUhBT3R5VHc1VmR2NWhEanlRRHllWFZ0UWpYNzNEUWJockQ3U2VUN0ctLTFfRXdnREpTODRyZUVYRVE?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Après Sanchez, Macron et Meloni, Merz tombe en disgrâce auprès de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWVE2WC1BQ1RNS2ktclRnNnNnQ2RtZkRzbmViY1ZPbkE5cS1tLW1JYmRjVndEYXM2V0NQd0pWdHpFU2pjaGdEdjU5Z295YkYwTENXZWVOMjRCTTlLa0xZa3RDbDFGaWhPZ2dvTWxnMmJlTmJIdmlncEhFS2Q0MXNTUTdVdTBuT01mWGxzQ2pRb08tUVE5aWs5RVVPUTRxVFd4ckVnQk5iazN4N2V6d0JEZjlOSnM1SzJ3?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Des pays du monde entier, qui n’ont rien à voir avec le conflit, nous ont demandé de libérer leurs bateaux » : Donald Trump annonce un déblocage du détroit d’Ormuz, l’Iran met en garde - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUUtMNzQwQmhqX0Y2VlJWVThSMl9wLVc3LW1IWkZBVXlPT2VWZGRrRXB3SVY3VmljZXc2aE9JSnVxMFRrMGQyeWg3MHFYdkhTdzhja2UyWmRDVHVHMnhpdTdLemhGcXNvNTN3X3J5RVlVWEFvR2Y4V25fbHFwUW9QUXNaYTZLNkhrdUpCazFEX04yUUprallVNUtaRzB4R1Nab2Z3c1d2YkFDZElnZENuMmNXUVBKdDF3SXhjbXNmZ3Btd2JySDR1cjFrVlpEVGFOOFVzOXRHMmlTYllYZGtBX2VJdw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« Des pays du monde entier nous ont demandé de l’aide » : Donald Trump annonce un déblocage du détroit d’Ormuz, l’Iran met en garde - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOM05YRHA1cTdrSko5YWZWRWw4aEVudlN5WGN3eWV4U3h2U0U5b2w5VDM3NWlnQVQ1aXdNY3dEMEpHVHJfYTFJRDlvbS1lU1JnRl9oc1FpRXJHLW9qY0lLRm96UkZPWVdnTjZ5UThsdTV3VWxqSFVWNW5RamRpOExnM3RnZm4tYVFnbExTR01MdzNqcEJzZng1OWJsNXcxY2FkWkFFYWlhU0ZYSHhxbFdXMmg5RXNFSjRHV2tNNUZhTzEwV2NhZGM5di1IMWRobWFFWk05V0g2N2JuRmVy?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump lance une opération de sauvetage pour débloquer le détroit d'Ormuz, où plus de 1.000 navires sont bloqués - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOeTU1TFkxQzRZa3g2ZUV0WEVyalh6R3V3RWIxSEVOaWFmcU5jM2FJVktTSkk5aEcyMVZqaUM5N1hlSnV2REpodmNVMHRNTW5FUUNxbWRYVkIyWXd2NU92ZUZhMWVkZjR0U0g3cVJSVmtmNnFEeVZRUGY4dDVibmhnRFJ4cVRJNHFORTFpMDVwbGZkQ09RdW9ueTdFbUdlaTA4ZXNSNGZjNFI2bFVUVWNmYW1tNkpheFdmc0prdnVwakt2bGwxX1JKVVgwZHBGTEV2cW81N1czSUNCZDJlSllCMTNqNTFuR0FxSDZKeEtn?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 16,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 22,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 1,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 21,
+      "crime": 12,
+      "eu": 11,
+      "politics": 8,
+      "be_gov": 5,
+      "culture": 10,
+      "tech": 8,
+      "economy": 5,
+      "sports": 46,
+      "health": 14,
+      "climate": 4,
+      "migration": 2,
+      "education": 2,
+      "weather": 12
+    },
+    "wide_themes": {
+      "war": 29,
+      "crime": 16,
+      "eu": 19,
+      "politics": 14,
+      "be_gov": 8,
+      "culture": 13,
+      "tech": 12,
+      "economy": 7,
+      "sports": 65,
+      "health": 20,
+      "climate": 6,
+      "migration": 3,
+      "education": 4,
+      "weather": 17
+    }
   }
 ]
