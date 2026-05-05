@@ -12512,156 +12512,172 @@
   },
   {
     "date": "2026-05-05",
-    "generated_at": "2026-05-05T13:50:41+02:00",
-    "last_checked_at": "2026-05-05T13:50:41+02:00",
-    "total_articles": 672,
-    "trump_articles": 9,
-    "percentage": 1.3,
-    "core_percentage": 1.3,
-    "core_percentage_name": 1.3,
-    "trump_articles_expanded": 9,
-    "core_percentage_expanded": 1.3,
+    "generated_at": "2026-05-05T20:02:09+02:00",
+    "last_checked_at": "2026-05-05T20:02:09+02:00",
+    "total_articles": 855,
+    "trump_articles": 16,
+    "percentage": 1.9,
+    "core_percentage": 1.9,
+    "core_percentage_name": 1.9,
+    "trump_articles_expanded": 16,
+    "core_percentage_expanded": 1.9,
     "indirect_references": 0,
-    "wide_total_articles": 922,
-    "wide_trump_articles": 10,
-    "wide_percentage": 1.1,
-    "wide_trump_articles_expanded": 14,
-    "wide_percentage_expanded": 1.5,
-    "macro_percentage": 1.1,
-    "qualifying_outlets": 29,
+    "wide_total_articles": 1231,
+    "wide_trump_articles": 27,
+    "wide_percentage": 2.2,
+    "wide_trump_articles_expanded": 29,
+    "wide_percentage_expanded": 2.4,
+    "macro_percentage": 2.4,
+    "qualifying_outlets": 33,
     "core_outlets_total": 19,
-    "core_outlets_active": 18,
-    "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 35,
-    "cross_outlet_dup_groups": 17,
-    "cross_outlet_dup_rate": 5.2,
-    "zone": "puddles",
-    "label": "Puddles are forming",
-    "narrative": "Present, but a minor figure in today's mix.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 50,
+    "cross_outlet_dup_groups": 25,
+    "cross_outlet_dup_rate": 5.8,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.75,
-    "breadth": 0.39,
-    "deviation": 0.31,
-    "smoothed_pct": 4.06,
+    "dominance": 1.6,
+    "breadth": 0.58,
+    "deviation": 0.45,
+    "smoothed_pct": 4.14,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 12,
+    "theme_rank": 9,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 30,
-        "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 31,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
       },
       "google_fr": {
         "fetched": 34,
-        "today": 28,
-        "kept": 28,
+        "today": 27,
+        "kept": 27,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 50,
-        "today": 14,
-        "kept": 13,
-        "trump": 0,
+        "fetched": 43,
+        "today": 20,
+        "kept": 18,
+        "trump": 1,
         "trump_expanded": 2,
-        "share": 0.0
+        "share": 5.56
       },
       "google_nl_world": {
-        "fetched": 70,
-        "today": 24,
-        "kept": 17,
-        "trump": 0,
-        "trump_expanded": 2,
-        "share": 0.0
+        "fetched": 68,
+        "today": 40,
+        "kept": 35,
+        "trump": 4,
+        "trump_expanded": 5,
+        "share": 11.43
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 33,
-        "kept": 26,
+        "today": 51,
+        "kept": 45,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.85
+        "share": 2.22
       },
       "google_nl_tech": {
-        "fetched": 66,
-        "today": 14,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 67,
+        "today": 28,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
       },
       "google_nl_sport": {
-        "fetched": 68,
-        "today": 22,
-        "kept": 18,
+        "fetched": 70,
+        "today": 43,
+        "kept": 42,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 37,
-        "today": 8,
-        "kept": 8,
+        "fetched": 38,
+        "today": 14,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 50,
-        "today": 10,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 46,
+        "today": 17,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
       },
       "google_fr_business": {
-        "fetched": 52,
-        "today": 14,
-        "kept": 11,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 65,
+        "today": 31,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
       },
       "vrt": {
         "fetched": 50,
-        "today": 47,
-        "kept": 47,
+        "today": 45,
+        "kept": 45,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 54,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 83,
+        "kept": 66,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.03
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
       },
       "demorgen": {
         "fetched": 30,
-        "today": 21,
-        "kept": 21,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 14.29
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
       },
       "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
@@ -12669,85 +12685,69 @@
         "trump_expanded": 0,
         "share": 0.0
       },
-      "gva": {
-        "fetched": 50,
-        "today": 49,
-        "kept": 49,
+      "knack": {
+        "fetched": 100,
+        "today": 62,
+        "kept": 59,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "hbvl": {
-        "fetched": 49,
-        "today": 48,
-        "kept": 48,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.08
-      },
-      "knack": {
-        "fetched": 100,
-        "today": 63,
-        "kept": 60,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 1.67
-      },
       "sporza": {
         "fetched": 20,
-        "today": 12,
-        "kept": 12,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 13,
-        "kept": 13,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 17,
-        "kept": 17,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 46,
-        "kept": 46,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 89,
+        "kept": 89,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 3.37
       },
       "lecho": {
         "fetched": 100,
-        "today": 49,
-        "kept": 46,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 78,
+        "kept": 71,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.41
       },
       "dhnet": {
         "fetched": 100,
-        "today": 95,
-        "kept": 95,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 98,
+        "kept": 98,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.02
       },
       "septsursept": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.33
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
       },
       "bx1": {
         "fetched": 10,
@@ -12759,56 +12759,56 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 41,
-        "kept": 26,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.85
-      },
-      "lesoir_g": {
-        "fetched": 100,
-        "today": 43,
-        "kept": 42,
+        "today": 60,
+        "kept": 46,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "sudinfo_g": {
+      "lesoir_g": {
         "fetched": 100,
-        "today": 8,
-        "kept": 8,
+        "today": 47,
+        "kept": 45,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 12.5
+        "share": 2.22
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 17,
-        "kept": 17,
+        "today": 35,
+        "kept": 34,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 25,
-        "kept": 24,
+        "today": 41,
+        "kept": 40,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.17
+        "share": 2.5
       },
       "trends_g": {
-        "fetched": 36,
-        "today": 11,
-        "kept": 3,
+        "fetched": 37,
+        "today": 17,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 55,
-        "today": 12,
-        "kept": 12,
+        "fetched": 60,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -12837,45 +12837,87 @@
     ],
     "matches": [
       {
-        "title": "Trump lijkt van koers te veranderen: Witte Huis denkt aan strenger toezicht op AI",
-        "url": "https://www.demorgen.be/nieuws/trump-lijkt-van-koers-te-veranderen-witte-huis-denkt-aan-strenger-toezicht-op-ai~b4e5d3af/",
+        "title": "Pulitzer Prizes bekronen verhalen over kritische berichtgeving over regering-Trump en de gevaren van technologie - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMmhJcTF0by1MdHYyQ2RuRm9IbjZQQkFzNXRzZWVyWThyRTNqd0lkVVV1T1NMXzNabHJfV1hGRUhDbVcteE5tYWNadm1nSUdRZkVJOExXMHZDYWpqVy13RDJuUkdjdUhiYXZEd3JHT1ZfNk03Z1duYjJfQ1g2SHdDQmUzSUU1bXdqenpRaXphaDdJSzBhTEg1dy02enpINjlWM1dmVGdjMmpLMHAtY3lIeXhGQUxhZHMyOXlUY3pYbkRQWTZpZXlNMVV1OG9YMzNjcjJFcGs4WEttSXFvb3RMVg?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Pulitzer Prizes bekronen kritische berichtgeving over regering-Trump en verhalen over de gevaren van technologie - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSFZSWnVzTnNRanpmbnZpazlTQWJLMnVYb1ZmV3NzUUNfcVE3M1ljNGtreVlmbkd6TTEwUmJKY0VZeWJIX2ZNZW9hM0Z3R1Q1Wm0wSGlab192SDdvQ01SZ0JxTzlLdjhVNVZTcnhMVkJQMWlnY0E3Qmg3bHljNEpPZXRMNEF6UWNmYjlpTjNZZjJndUZSQWRhLVY5UkFZSVNQdHhPY28tYTlXdEdCSG1kT2JlTWNnMHptTUdVbEtxeFR4b25RQlYzM1dJYmFHVUlGNUwyUWpESjUyU25FeFg0cFpiY2F6dlhRRVFqWTN4OXloQ2tLQlhQallKZmtfZw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump haalt opnieuw uit naar paus en beschuldigt hem ervan “veel katholieken in gevaar te brengen”",
+        "url": "https://www.hln.be/buitenland/trump-haalt-opnieuw-uit-naar-paus-en-beschuldigt-hem-ervan-veel-katholieken-in-gevaar-te-brengen~a59509ba/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt oorlog tegen Iran “kleine schermutseling” - Emiraten melden nieuwe Iraanse drone- en raketaanvallen",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump verwijt paus Leo ‘veel katholieken in gevaar te brengen’ • Amerikaanse Justitie vraagt medewerkerslijsten op van verkiezingen in Georgia in 2020",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-verwijt-paus-leo-veel-katholieken-in-gevaar-te-brengen-amerikaanse-justitie-vraagt-medewerkerslijsten-op-van-verkiezingen-in-georgia-in-2020~b13cc951/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Trump dreigt: ‘Iran zal van de aardbodem worden weggevaagd’ als het Amerikaanse schepen aanvalt tijdens ‘Project Freedom’",
-        "url": "https://www.demorgen.be/snelnieuws/live-iran-meldt-burgerdoden-door-amerikaanse-aanvallen-op-twee-kleine-boten-project-freedom-is-project-deadlock~be9c4f82/",
-        "source": "demorgen",
+        "title": "LIVE MIDDEN-OOSTEN. Trump noemt oorlog tegen Iran een “kleine schermutseling”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-noemt-oorlog-tegen-iran-een-kleine-schermutseling/27532402.html",
+        "source": "nieuwsblad",
         "name_only": true
       },
       {
-        "title": "Rudy Giuliani, voormalig burgemeester van New York en ex-advocaat Trump, in kritieke toestand opgenomen in ziekenhuis",
-        "url": "https://www.demorgen.be/snelnieuws/live-rudy-giuliani-voormalig-burgemeester-van-new-york-en-ex-advocaat-trump-in-kritieke-toestand-opgenomen-in-ziekenhuis~b13cc951/",
-        "source": "demorgen",
+        "title": "Nouvelle attaque de Donald Trump contre le pape Léon XIV: \"Il met en danger beaucoup de catholiques\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/05/nouvelle-attaque-de-donald-trump-contre-le-pape-leon-xiv-il-met-en-danger-beaucoup-de-catholiques-MY43XF7Z4FH5DL5INBBBB7625Q/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "Obama voelt de druk van het Trump-tijdperk ook in zijn privéleven: “Geen huwelijkscrisis, wel botsende verwachtingen”",
-        "url": "https://www.hbvl.be/buitenland/obama-voelt-de-druk-van-het-trump-tijdperk-ook-in-zijn-priveleven-geen-huwelijkscrisis-wel-botsende-verwachtingen/151098786.html",
-        "source": "hbvl",
+        "title": "La question “super sensible”, les “carpettes face à Trump” et la chute en Bourse : une AG exceptionnelle en plein cœur de Bruxelles",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/05/05/la-question-kadri-super-sensible-les-carpettes-face-a-trump-et-leffondrement-en-bourse-une-ag-exceptionnelle-en-plein-coeur-de-bruxelles-Y74CETYTNNDZZDNMTSYQB4Q2FI/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "‘De agressie van Donald Trump maakt Duitsland sterker’ - Knack",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTHJjaV9ncVNlWnRwbjBKUWtGZzVOSG1VNUFHVk10MGVMUzJnS1hrQ1hWRWNxSUNEZEs1UU5fTHZsTmRpb2lKZXZwVHUyZnN1REZBSE1LUE9xclB4OXdJdkN2Z2hnLWdKV0ZoT0RDWEYza0RWX3A3eVJvWkQwUjVOc0R2OWRRdnhjRVYtZUVfOXNYZw?oc=5",
-        "source": "knack",
+        "title": "L’intelligence artificielle Mythos, \"trop dangereuse\", amène Donald Trump à un revirement en faveur d'un contrôle du secteur",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/05/lintelligence-artificielle-mythos-trop-dangereuse-amene-donald-trump-a-un-revirement-en-faveur-dun-controle-du-secteur-M7XIBVVWPRE53LQDUHDKH5G6WI/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "“Prête à tous les scénarios”: l’UE répond aux menaces de Trump sur les surtaxes douanières",
-        "url": "https://www.7sur7.be/monde/prete-a-tous-les-scenarios-lue-repond-aux-menaces-de-trump-sur-les-surtaxes-douanieres~aeb7c6ff/",
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump qualifie la guerre contre l'Iran de \"petit accrochage\" - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOV0lkbUg4bzNIaGprQUhUUnZEM3NlNEpCUURpdVhEV3N3YUNib1Vva3FsUHhVVjl2aFJsVTlOY2l6Zkhuc05kZ3IxZWdXN3NoWU9HTDZsMmsyczJkZ3I0R2tHMnhVejRXcHVpMkFKZ3VlY2VsbVhVa1RzTUNPRW5fRG15MzNBZDN3M29aalVlZ3I1djZFcF9adVByLXktTUIzTm41azNoWnJ0Q2ZZVktFZVA2YnlGTWZ1ejZjdlVEekNIRGVrMDVKYmJhX2FrX19qTFUwWTBnZi1idm94TVBpMzF2bWVaZ2M2VWJqOFowa2RCd3VueUVCRlRSYXQ3X3BPMFlJSEJJdnVSQVU?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Il met en danger beaucoup de catholiques\" : Donald Trump attaque de nouveau le pape Léon XIV",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/05/il-met-en-danger-beaucoup-de-catholiques-donald-trump-attaque-de-nouveau-le-pape-leon-xiv-TKUMD2DDJVDP7JIHWC2TMXPCFE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Nous sommes dans un petit accrochage sur le plan militaire”",
+        "url": "https://www.7sur7.be/monde/trump-nous-sommes-dans-un-petit-accrochage-sur-le-plan-militaire~a069546f/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Extra Trump-tarieven komen voor Europese autobouwers op het allerslechtste moment - De Tijd",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWmVKTDN5N29mZnhiZ1NremdQUlhmNjVMUWIyU0hoRUEyWHNsQlVrWUd6NTFCdVA4NXh4OGFoR1l3YWI2NFRVU2JlRXRmQmZzTEF3bW1xajFxLTBraHgwZnR5OUVhdkhtQXJfOXloeHQyQlE4ZkFGSTREZUw1aXJTVlFhdFJ3RGs0YnVjQ2VubjAteGl4a05weGx4R05CZnpMZ3dCNGVWTUlOTV9FZ0dQMUFZc0QxN3BiY2ZXaElsbkk2T1g5cS1mZmh2OA?oc=5",
-        "source": "detijd_g",
+        "title": "Trump dit avoir “toutes les cartes en main”... mais ne sait pas comment jouer à UNO",
+        "url": "https://www.7sur7.be/monde/trump-dit-avoir-toutes-les-cartes-en-main-mais-ne-sait-pas-comment-jouer-a-uno~a326fd1d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace et appelle l’Iran à « faire ce qui est intelligent » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMk5fRzgzU0ZqaEVMVnd0SWltRkh5UWZwLWY5Z2JLTzJwNjJqTjZZUnNMVDdNVjh1SGdMSGRBa3NPMURUUVQ1aGFGZTV4cWdQbGVDWDh1bnR0czVNMEw0UGJjSG1MWVpFQ2ZJcDlSOWhNaHB3MjJBUUNLdk1RV1JERExiQnNOTklzZjRYbV9CYXBlTFhoaVpmWWYyX0otSDhqb2dCSkNsdjZVdFExM0ZraDJIaw?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
@@ -12893,26 +12935,50 @@
     ],
     "wide_matches": [
       {
+        "title": "Trump haalt opnieuw uit naar paus en beschuldigt hem ervan “veel katholieken in gevaar te brengen” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbGZzOVpXM0QyYWcwSkxLWU1uaFlOQUhINGpyTVFEZ211em5xMlhqLVZ4d2dXLUlhVjZKSXlkcGFpZlBQVThITTdqeVN0Wk10T0dBVWZZbzR2TmVQRTRZUlJiNHZLU21rWmpSYi1SelY3WmlnbzJnaGhRekE2aXZxZ2pHbld5Qkw4MUdsWFNPeUdtNHN3a05NV3hiYngwYUhqdk9DTXFvZVNkWGJOQzZJX0lHbE1BV3V5Qk5UNEV4UWxMNFBzdGNlSTB4ODE3d0hDWWc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Obama voelt de druk van het Trump-tijdperk ook in zijn privéleven: “Geen huwelijkscrisis, wel botsende verwachtingen” - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQV042SW90a1kwYi1kS2NxU2FLaWhQOE9jYWNpaklleVRTMjVfeXdJdXo5U1M4cFBkTTNpU3VMSGRMZnJmZ25oemprVzV2M3NOWnFIajBsaFZBTWZvOHozT1o3MklkbXZYTklSNUJZZUNJTWVfZk9DSTZvT2hRcUdoMnc5eTVKSDFjTXB1Mm9sRmJlOTl2b0Y4WWVFdDdOM1NpMVNXRmM5ckR2a1ZFRmpCajQ3MXNoUThETndHNG9hRWl0dUpyVjNUUzA2aHNueFVwNmJmME1WZW1tdkdXUnJlaWJYRUltTHVpLWV2eV93Vk8?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
         "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte - Nieuwsblad",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSmdHMlRoaG5vQ2RDTWpSeURUc1R5dXJqNmR2bm5IVVplUExDczhJNFExTlM0RHpBdzczZ01ZVE0ycm9LWHV4WkZlQkpOTDRJX2hTemc2WF80aTY0ZGRyaUdQZWZ1R3g3bmtDUno0Vk8xZ2U5Z2IyeHcyZjA4RGx2elo3QnRQM1cwSElVc0RNemVDQ1k1RWp3NnNObzY0MjNrd0kydU9CakF6T2ktN25sQzhTVmdFQWRXQ2JqbVJpT1FqWFhMbjdVamZMejlidw?oc=5",
         "source": "google_nl_politics",
         "name_only": false
       },
       {
-        "title": "Obama over het leven na het Witte Huis: “Veroorzaakte spanning thuis en frustratie bij Michelle” - GVA",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa1BYeU52bDUzbFFsMkZ3em5EUzBjSVJVcGd2bFBoVXp3cERzYUtoa190YTJBelY0NzZpZHhxNFRLRGxnRkVyODU1czV1R01BaEtRdDNHTm1IUXhZb00zal9QVTlSazdHNXdLRVlJRVEwWTQ5OU1pN0dxa0h6VmhVSGF4VjdWd0VMZUFWVFRFT0twMGRXZmxvNk9xTDVWREdRTW1IbHV6LXJGQVZlYkk4QzZ1UGFYczQxdTV0dlZleXJfOVVGUHhGNDZ4ejdWUUhFeWhUSA?oc=5",
-        "source": "google_nl_politics",
-        "name_only": false
+        "title": "Trump “heeft alle kaarten”, maar vergeet dat hij UNO speelt - HLN",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZXkzNExCU3ROelU0QVhJMnoxaXV1N0VBOVJVMnJ6X0FzVm8wVWRxR044WnJCNXFuOUFtZ3lsUExzNVRkbWFFSXlUUnpTTHVGSDJKR0RFUV9xSURpakNvWllKb0FpcG01allIbUluUy1QVTNvOWhIQ2JPOXFEaEZxRm9WVkVRcURBQjNkbnNpcEsyMWdRSlE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
       },
       {
-        "title": "Obama over het leven na het Witte Huis: “Veroorzaakte spanning thuis en frustratie bij Michelle” - Nieuwsblad",
+        "title": "Trump blaast nieuw leven in theorie van ‘gestolen verkiezingen’ van 2020: Justitie vraagt namen op van medewerkers stembureau - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNWm95ZEgtVnh4bTRGaW44SktFaHRsSXNMZ18zelF6TEM0dVpyampaajl5UU9CYzVieVViejF0M2RFTGhTVGU3bkRLa1pJOGFDSlUwdlc4N2h5UG1FSWFqcE5lSWJIWjBITFE0LWxPd1lUNmx0OVJuU2hkd1QzMV8xbWlzem5nQlU4UXVsUDNIMmZnMWc0NDMwVVY1MUY2LUx6OExzczdwSjJwRkhlQndPT0RvZk51a25nLXhTNnB5WGZTQ1hRcXo2cGVlemtTQlNGUWtra0dISlNBTmQwTHI1UV8wcHRjV1hJbDI4RDRiZHdQSE9O?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Obama voelt de druk van het Trump-tijdperk ook in zijn privéleven: “Geen huwelijkscrisis, wel botsende verwachtingen” - Nieuwsblad",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYU1JSTV5RTFMUTExR0R0RVgzMURvakRYYVdRc1c0dUxickxxaV9LLVNJTDFMVGhBdzJLdTI1dlEyM2M4RnFNWC0yQlNiVm9LVlcweTJwOVdjR0JuYV9WVHRRamZtb0JONVkwYjdsczlFX1k2NzZEbWVTMWFyWnVrNmRkSy1DX096ZzdGdnBfS3NDNWRKYTdQZzZQMlV0STJWcEhoQTlHaVpybVdDTjNfdEliZUt3cDR6cWlReFQzQ1ZqMUFuMjgxeXJjZnBiYkxxY0p4ZU9VcDIxbjZwakE?oc=5",
         "source": "google_nl_world",
-        "name_only": false
+        "name_only": true
       },
       {
-        "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte - GVA",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZW1aU2hFZjdmZ21PMU5sMHlEOVNfcGdOb2RDLVVaOEkyTk1ONWpNM3pLRXhYYjZGUWZJci14eG9abkJkYlJvSzZWRlI3eFIyOW1xVmZOUUVFM2JOeDlYVE9MWlluQThFVkhfZHNOWTMxVmo5OC1yV0JYdnVfNTUyZHZ2T1VuazNWdDQ0OWpGMGVBTE81c2xEejB4MTVIUkdBeGd5cnpHRGMxOTJSSEdtNlZZSk9hN0hmWThTNVJWMEtYSUFx?oc=5",
+        "title": "‘De agressie van Donald Trump maakt Duitsland sterker’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTHJjaV9ncVNlWnRwbjBKUWtGZzVOSG1VNUFHVk10MGVMUzJnS1hrQ1hWRWNxSUNEZEs1UU5fTHZsTmRpb2lKZXZwVHUyZnN1REZBSE1LUE9xclB4OXdJdkN2Z2hnLWdKV0ZoT0RDWEYza0RWX3A3eVJvWkQwUjVOc0R2OWRRdnhjRVYtZUVfOXNYZw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS1ptZldVdkszWE5HNldZZGNMdTNEeGc5UHJOdDhzSExfNkg1QklnMnJjektXWEhTWU0teWw3NUF0SlV1X3pZM3ZsY1BLTll2WmlJcldMbmxpTUtyR01kN2ZLNldPTXY2ZXN6X0lrYjJmMjUzS0tqVjhzRGUtdmJGbjBpbmtoQm5pT0QzeUhnUzVoWHNTQmtYaFN5VFRqcVQ1VWJTQWQtemNqWGdnWktPblFXcEFacXlXUG9lbTdPVl94OW91LUE?oc=5",
         "source": "google_nl_world",
         "name_only": false
       },
@@ -12923,45 +12989,111 @@
         "name_only": true
       },
       {
-        "title": "Trump lijkt van koers te veranderen: Witte Huis denkt aan strenger toezicht op AI",
-        "url": "https://www.demorgen.be/nieuws/trump-lijkt-van-koers-te-veranderen-witte-huis-denkt-aan-strenger-toezicht-op-ai~b4e5d3af/",
+        "title": "Trump deelt AI-afbeelding van zichzelf op ‘Star wars day’, maar ziet een paar dingen over het hoofd - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNE1lOFROVFdSYWJkSDZsbVBUalFfUXBuS1dnM2RfaDBadEJueEpEV0dPQ3RXYUl5QXFNY1FMYUN4b2lVa2Y2alhoZUxpTE56SzJKZVJvZldPOUtuSUNXalJ0d3FTZmNmMm5XVkdFRUo0UUpDdThfbHdYaEh6VGR1VmFBTlNLdkpOR3NJSEhCUkIxRlZBX251Y1ZLbGxvb3NnejA4MkJpeGJhMERfZUdONFlWaVBwWlFfRGhGRHdYYzlIbjZXY2o4aEphNA?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "Trump dit avoir “toutes les cartes en main”... mais ne sait pas comment jouer à UNO - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdlM4NTlkSmtvVlM0SkMwVTMyWWhuSUx1aFVPTFZJc1BEZUF4MFdJaTNINWd3cGF3bDRaeXM2Tmp6aGFsR0Q5emJnVlVfaFVyYVhGbUhYT285eWVDY0dFQnhWM3pVeXV1OVNhd25lVmRmSTZvalk4bW53QUQ2Y2hnSXNkZVlYSi1rR2VJTm56ZF8tSXFyU2FjaDQxTklNSjJtZ2JVdU1jc3d1M2FVb0EyQk1KdmVFZw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "L’administration Trump bloque l’Europe sur Mythos et se réserve une IA décrite comme la plus dangereuse au monde - La Crème Du Gaming",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdVdndTBCenBJSU1oUVB1SnY0Qm1BSkNEMThTdTczaWlFVnB1blJ2Y2JzTmdHWENSTms0SU1wcEpVeDRNWXNPdkdaRldLUTRCZWVva0pTejZOUHlsM1I4enFOQS1LVHgzUzNfV3FSM0R1ZFFpc1dVcWV1a3g5REV1UGRCUVBCTzhNbEpOUEg1NU5KZVRzZjk2TFdabU1UOXNtQ01nVUQ4dGpNUjIxUFg0OU9SVGxWejNHWjduYmlPcXdGcGVSMkZVbkxKa3FxTzg2a2VRdnhxUEdKWXV1TUhTcTN2VU9WclF0ZnBOZVpoRDc3UUpfT3c?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Pulitzer Prizes bekronen verhalen over kritische berichtgeving over regering-Trump en de gevaren van technologie - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMmhJcTF0by1MdHYyQ2RuRm9IbjZQQkFzNXRzZWVyWThyRTNqd0lkVVV1T1NMXzNabHJfV1hGRUhDbVcteE5tYWNadm1nSUdRZkVJOExXMHZDYWpqVy13RDJuUkdjdUhiYXZEd3JHT1ZfNk03Z1duYjJfQ1g2SHdDQmUzSUU1bXdqenpRaXphaDdJSzBhTEg1dy02enpINjlWM1dmVGdjMmpLMHAtY3lIeXhGQUxhZHMyOXlUY3pYbkRQWTZpZXlNMVV1OG9YMzNjcjJFcGs4WEttSXFvb3RMVg?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Pulitzer Prizes bekronen kritische berichtgeving over regering-Trump en verhalen over de gevaren van technologie - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSFZSWnVzTnNRanpmbnZpazlTQWJLMnVYb1ZmV3NzUUNfcVE3M1ljNGtreVlmbkd6TTEwUmJKY0VZeWJIX2ZNZW9hM0Z3R1Q1Wm0wSGlab192SDdvQ01SZ0JxTzlLdjhVNVZTcnhMVkJQMWlnY0E3Qmg3bHljNEpPZXRMNEF6UWNmYjlpTjNZZjJndUZSQWRhLVY5UkFZSVNQdHhPY28tYTlXdEdCSG1kT2JlTWNnMHptTUdVbEtxeFR4b25RQlYzM1dJYmFHVUlGNUwyUWpESjUyU25FeFg0cFpiY2F6dlhRRVFqWTN4OXloQ2tLQlhQallKZmtfZw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump haalt opnieuw uit naar paus en beschuldigt hem ervan “veel katholieken in gevaar te brengen”",
+        "url": "https://www.hln.be/buitenland/trump-haalt-opnieuw-uit-naar-paus-en-beschuldigt-hem-ervan-veel-katholieken-in-gevaar-te-brengen~a59509ba/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt oorlog tegen Iran “kleine schermutseling” - Emiraten melden nieuwe Iraanse drone- en raketaanvallen",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump verwijt paus Leo ‘veel katholieken in gevaar te brengen’ • Amerikaanse Justitie vraagt medewerkerslijsten op van verkiezingen in Georgia in 2020",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-verwijt-paus-leo-veel-katholieken-in-gevaar-te-brengen-amerikaanse-justitie-vraagt-medewerkerslijsten-op-van-verkiezingen-in-georgia-in-2020~b13cc951/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Trump dreigt: ‘Iran zal van de aardbodem worden weggevaagd’ als het Amerikaanse schepen aanvalt tijdens ‘Project Freedom’",
-        "url": "https://www.demorgen.be/snelnieuws/live-iran-meldt-burgerdoden-door-amerikaanse-aanvallen-op-twee-kleine-boten-project-freedom-is-project-deadlock~be9c4f82/",
-        "source": "demorgen",
+        "title": "LIVE MIDDEN-OOSTEN. Trump noemt oorlog tegen Iran een “kleine schermutseling”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-noemt-oorlog-tegen-iran-een-kleine-schermutseling/27532402.html",
+        "source": "nieuwsblad",
         "name_only": true
       },
       {
-        "title": "Rudy Giuliani, voormalig burgemeester van New York en ex-advocaat Trump, in kritieke toestand opgenomen in ziekenhuis",
-        "url": "https://www.demorgen.be/snelnieuws/live-rudy-giuliani-voormalig-burgemeester-van-new-york-en-ex-advocaat-trump-in-kritieke-toestand-opgenomen-in-ziekenhuis~b13cc951/",
-        "source": "demorgen",
+        "title": "LIVE MIDDEN-OOSTEN. Trump waarschuwt: “Iran weet wat het niet moet doen”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-waarschuwt-iran-weet-wat-het-niet-moet-doen/76854338.html",
+        "source": "gva",
         "name_only": true
       },
       {
-        "title": "Obama voelt de druk van het Trump-tijdperk ook in zijn privéleven: “Geen huwelijkscrisis, wel botsende verwachtingen”",
-        "url": "https://www.hbvl.be/buitenland/obama-voelt-de-druk-van-het-trump-tijdperk-ook-in-zijn-priveleven-geen-huwelijkscrisis-wel-botsende-verwachtingen/151098786.html",
-        "source": "hbvl",
+        "title": "Nouvelle attaque de Donald Trump contre le pape Léon XIV: \"Il met en danger beaucoup de catholiques\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/05/nouvelle-attaque-de-donald-trump-contre-le-pape-leon-xiv-il-met-en-danger-beaucoup-de-catholiques-MY43XF7Z4FH5DL5INBBBB7625Q/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "‘De agressie van Donald Trump maakt Duitsland sterker’ - Knack",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTHJjaV9ncVNlWnRwbjBKUWtGZzVOSG1VNUFHVk10MGVMUzJnS1hrQ1hWRWNxSUNEZEs1UU5fTHZsTmRpb2lKZXZwVHUyZnN1REZBSE1LUE9xclB4OXdJdkN2Z2hnLWdKV0ZoT0RDWEYza0RWX3A3eVJvWkQwUjVOc0R2OWRRdnhjRVYtZUVfOXNYZw?oc=5",
-        "source": "knack",
+        "title": "La question “super sensible”, les “carpettes face à Trump” et la chute en Bourse : une AG exceptionnelle en plein cœur de Bruxelles",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/05/05/la-question-kadri-super-sensible-les-carpettes-face-a-trump-et-leffondrement-en-bourse-une-ag-exceptionnelle-en-plein-coeur-de-bruxelles-Y74CETYTNNDZZDNMTSYQB4Q2FI/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "“Prête à tous les scénarios”: l’UE répond aux menaces de Trump sur les surtaxes douanières",
-        "url": "https://www.7sur7.be/monde/prete-a-tous-les-scenarios-lue-repond-aux-menaces-de-trump-sur-les-surtaxes-douanieres~aeb7c6ff/",
+        "title": "L’intelligence artificielle Mythos, \"trop dangereuse\", amène Donald Trump à un revirement en faveur d'un contrôle du secteur",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/05/lintelligence-artificielle-mythos-trop-dangereuse-amene-donald-trump-a-un-revirement-en-faveur-dun-controle-du-secteur-M7XIBVVWPRE53LQDUHDKH5G6WI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump qualifie la guerre contre l'Iran de \"petit accrochage\" - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOV0lkbUg4bzNIaGprQUhUUnZEM3NlNEpCUURpdVhEV3N3YUNib1Vva3FsUHhVVjl2aFJsVTlOY2l6Zkhuc05kZ3IxZWdXN3NoWU9HTDZsMmsyczJkZ3I0R2tHMnhVejRXcHVpMkFKZ3VlY2VsbVhVa1RzTUNPRW5fRG15MzNBZDN3M29aalVlZ3I1djZFcF9adVByLXktTUIzTm41azNoWnJ0Q2ZZVktFZVA2YnlGTWZ1ejZjdlVEekNIRGVrMDVKYmJhX2FrX19qTFUwWTBnZi1idm94TVBpMzF2bWVaZ2M2VWJqOFowa2RCd3VueUVCRlRSYXQ3X3BPMFlJSEJJdnVSQVU?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Il met en danger beaucoup de catholiques\" : Donald Trump attaque de nouveau le pape Léon XIV",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/05/il-met-en-danger-beaucoup-de-catholiques-donald-trump-attaque-de-nouveau-le-pape-leon-xiv-TKUMD2DDJVDP7JIHWC2TMXPCFE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Nous sommes dans un petit accrochage sur le plan militaire”",
+        "url": "https://www.7sur7.be/monde/trump-nous-sommes-dans-un-petit-accrochage-sur-le-plan-militaire~a069546f/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Extra Trump-tarieven komen voor Europese autobouwers op het allerslechtste moment - De Tijd",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWmVKTDN5N29mZnhiZ1NremdQUlhmNjVMUWIyU0hoRUEyWHNsQlVrWUd6NTFCdVA4NXh4OGFoR1l3YWI2NFRVU2JlRXRmQmZzTEF3bW1xajFxLTBraHgwZnR5OUVhdkhtQXJfOXloeHQyQlE4ZkFGSTREZUw1aXJTVlFhdFJ3RGs0YnVjQ2VubjAteGl4a05weGx4R05CZnpMZ3dCNGVWTUlOTV9FZ0dQMUFZc0QxN3BiY2ZXaElsbkk2T1g5cS1mZmh2OA?oc=5",
-        "source": "detijd_g",
+        "title": "Trump dit avoir “toutes les cartes en main”... mais ne sait pas comment jouer à UNO",
+        "url": "https://www.7sur7.be/monde/trump-dit-avoir-toutes-les-cartes-en-main-mais-ne-sait-pas-comment-jouer-a-uno~a326fd1d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace et appelle l’Iran à « faire ce qui est intelligent » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMk5fRzgzU0ZqaEVMVnd0SWltRkh5UWZwLWY5Z2JLTzJwNjJqTjZZUnNMVDdNVjh1SGdMSGRBa3NPMURUUVQ1aGFGZTV4cWdQbGVDWDh1bnR0czVNMEw0UGJjSG1MWVpFQ2ZJcDlSOWhNaHB3MjJBUUNLdk1RV1JERExiQnNOTklzZjRYbV9CYXBlTFhoaVpmWWYyX0otSDhqb2dCSkNsdjZVdFExM0ZraDJIaw?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
@@ -12978,74 +13110,74 @@
       }
     ],
     "comparisons": {
-      "trump": 9,
+      "trump": 16,
       "putin": 2,
       "macron": 1,
       "netanyahu": 0,
       "zelensky": 3,
       "rutte": 0,
-      "von_der_leyen": 2,
-      "de_wever": 1,
-      "bouchez": 3,
+      "von_der_leyen": 1,
+      "de_wever": 0,
+      "bouchez": 1,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 2,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 10,
-      "putin": 6,
+      "trump": 27,
+      "putin": 7,
       "macron": 2,
       "netanyahu": 0,
       "zelensky": 4,
       "rutte": 0,
-      "von_der_leyen": 3,
-      "de_wever": 3,
-      "bouchez": 4,
+      "von_der_leyen": 1,
+      "de_wever": 2,
+      "bouchez": 2,
       "magnette": 1,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 3,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 21,
-      "crime": 31,
-      "eu": 41,
-      "politics": 25,
-      "be_gov": 27,
-      "culture": 17,
-      "tech": 15,
-      "economy": 12,
-      "sports": 29,
-      "health": 13,
-      "climate": 4,
-      "migration": 0,
-      "education": 4,
-      "weather": 12
+      "war": 39,
+      "crime": 36,
+      "eu": 44,
+      "politics": 31,
+      "be_gov": 26,
+      "culture": 28,
+      "tech": 16,
+      "economy": 27,
+      "sports": 58,
+      "health": 8,
+      "climate": 7,
+      "migration": 1,
+      "education": 7,
+      "weather": 10
     },
     "wide_themes": {
-      "war": 31,
-      "crime": 40,
-      "eu": 56,
-      "politics": 33,
-      "be_gov": 39,
-      "culture": 21,
-      "tech": 26,
-      "economy": 17,
-      "sports": 48,
-      "health": 14,
-      "climate": 6,
-      "migration": 0,
-      "education": 5,
-      "weather": 17
+      "war": 53,
+      "crime": 51,
+      "eu": 68,
+      "politics": 50,
+      "be_gov": 37,
+      "culture": 37,
+      "tech": 31,
+      "economy": 37,
+      "sports": 97,
+      "health": 10,
+      "climate": 11,
+      "migration": 2,
+      "education": 10,
+      "weather": 22
     }
   }
 ]
