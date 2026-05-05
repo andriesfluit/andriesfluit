@@ -12512,135 +12512,135 @@
   },
   {
     "date": "2026-05-05",
-    "generated_at": "2026-05-05T08:03:52+02:00",
-    "last_checked_at": "2026-05-05T08:03:52+02:00",
-    "total_articles": 356,
-    "trump_articles": 3,
-    "percentage": 0.8,
-    "core_percentage": 0.8,
-    "core_percentage_name": 0.8,
-    "trump_articles_expanded": 6,
-    "core_percentage_expanded": 1.7,
-    "indirect_references": 3,
-    "wide_total_articles": 470,
-    "wide_trump_articles": 4,
-    "wide_percentage": 0.9,
-    "wide_trump_articles_expanded": 9,
-    "wide_percentage_expanded": 1.9,
-    "macro_percentage": 1.0,
-    "qualifying_outlets": 13,
+    "generated_at": "2026-05-05T13:50:41+02:00",
+    "last_checked_at": "2026-05-05T13:50:41+02:00",
+    "total_articles": 672,
+    "trump_articles": 9,
+    "percentage": 1.3,
+    "core_percentage": 1.3,
+    "core_percentage_name": 1.3,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 1.3,
+    "indirect_references": 0,
+    "wide_total_articles": 922,
+    "wide_trump_articles": 10,
+    "wide_percentage": 1.1,
+    "wide_trump_articles_expanded": 14,
+    "wide_percentage_expanded": 1.5,
+    "macro_percentage": 1.1,
+    "qualifying_outlets": 29,
     "core_outlets_total": 19,
-    "core_outlets_active": 16,
-    "active_core_fraction": 0.842,
-    "cross_outlet_dup_headlines": 29,
-    "cross_outlet_dup_groups": 14,
-    "cross_outlet_dup_rate": 8.1,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 35,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 5.2,
     "zone": "puddles",
     "label": "Puddles are forming",
     "narrative": "Present, but a minor figure in today's mix.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.43,
-    "breadth": 0.19,
-    "deviation": 0.19,
-    "smoothed_pct": 3.99,
+    "dominance": 0.75,
+    "breadth": 0.39,
+    "deviation": 0.31,
+    "smoothed_pct": 4.06,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 13,
+    "theme_rank": 12,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 20,
-        "kept": 20,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 6,
-        "kept": 6,
+        "today": 28,
+        "kept": 28,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 53,
-        "today": 5,
-        "kept": 5,
+        "fetched": 50,
+        "today": 14,
+        "kept": 13,
         "trump": 0,
-        "trump_expanded": 0,
+        "trump_expanded": 2,
         "share": 0.0
       },
       "google_nl_world": {
-        "fetched": 64,
-        "today": 10,
-        "kept": 7,
+        "fetched": 70,
+        "today": 24,
+        "kept": 17,
         "trump": 0,
-        "trump_expanded": 1,
+        "trump_expanded": 2,
         "share": 0.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 10,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 33,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
       },
       "google_nl_tech": {
-        "fetched": 65,
-        "today": 3,
-        "kept": 1,
+        "fetched": 66,
+        "today": 14,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 61,
-        "today": 8,
-        "kept": 4,
+        "fetched": 68,
+        "today": 22,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 39,
-        "today": 4,
-        "kept": 4,
+        "fetched": 37,
+        "today": 8,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 42,
-        "today": 3,
-        "kept": 1,
+        "fetched": 50,
+        "today": 10,
+        "kept": 5,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_business": {
-        "fetched": 39,
-        "today": 1,
-        "kept": 0,
+        "fetched": 52,
+        "today": 14,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 14,
-        "kept": 14,
+        "today": 47,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 60,
-        "kept": 52,
+        "today": 54,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -12655,160 +12655,160 @@
       },
       "demorgen": {
         "fetched": 30,
-        "today": 14,
-        "kept": 14,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 7.14
+        "today": 21,
+        "kept": 21,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 14.29
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.0
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "gva": {
         "fetched": 50,
-        "today": 47,
-        "kept": 47,
-        "trump": 1,
-        "trump_expanded": 2,
-        "share": 2.13
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "hbvl": {
-        "fetched": 50,
-        "today": 40,
-        "kept": 40,
-        "trump": 0,
+        "fetched": 49,
+        "today": 48,
+        "kept": 48,
+        "trump": 1,
         "trump_expanded": 1,
-        "share": 0.0
+        "share": 2.08
       },
       "knack": {
         "fetched": 100,
-        "today": 46,
-        "kept": 44,
+        "today": 63,
+        "kept": 60,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.27
+        "share": 1.67
       },
       "sporza": {
         "fetched": 20,
-        "today": 4,
-        "kept": 4,
+        "today": 12,
+        "kept": 12,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 13,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 9,
-        "kept": 9,
+        "today": 17,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 15,
-        "kept": 15,
+        "today": 46,
+        "kept": 46,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lecho": {
         "fetched": 100,
-        "today": 15,
-        "kept": 14,
+        "today": 49,
+        "kept": 46,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 24,
-        "kept": 24,
+        "today": 95,
+        "kept": 95,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "septsursept": {
         "fetched": 30,
-        "today": 7,
-        "kept": 7,
-        "trump": 0,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
         "trump_expanded": 1,
-        "share": 0.0
+        "share": 3.33
       },
       "bx1": {
         "fetched": 10,
-        "today": 4,
-        "kept": 4,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 8,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 41,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 24,
-        "kept": 19,
+        "today": 43,
+        "kept": 42,
         "trump": 0,
-        "trump_expanded": 1,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 3,
-        "kept": 3,
+        "today": 17,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 8,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 25,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
       },
       "trends_g": {
-        "fetched": 38,
-        "today": 5,
-        "kept": 2,
+        "fetched": 36,
+        "today": 11,
+        "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 53,
-        "today": 5,
-        "kept": 5,
+        "fetched": 55,
+        "today": 12,
+        "kept": 12,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -12837,22 +12837,28 @@
     ],
     "matches": [
       {
+        "title": "Trump lijkt van koers te veranderen: Witte Huis denkt aan strenger toezicht op AI",
+        "url": "https://www.demorgen.be/nieuws/trump-lijkt-van-koers-te-veranderen-witte-huis-denkt-aan-strenger-toezicht-op-ai~b4e5d3af/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt: ‘Iran zal van de aardbodem worden weggevaagd’ als het Amerikaanse schepen aanvalt tijdens ‘Project Freedom’",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-meldt-burgerdoden-door-amerikaanse-aanvallen-op-twee-kleine-boten-project-freedom-is-project-deadlock~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
         "title": "Rudy Giuliani, voormalig burgemeester van New York en ex-advocaat Trump, in kritieke toestand opgenomen in ziekenhuis",
         "url": "https://www.demorgen.be/snelnieuws/live-rudy-giuliani-voormalig-burgemeester-van-new-york-en-ex-advocaat-trump-in-kritieke-toestand-opgenomen-in-ziekenhuis~b13cc951/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "LIVE MIDDEN-OOSTEN. Iran ontkent bewering Trump - Wellicht geen kerosinetekorten deze zomer in Europa",
-        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-ontkent-bewering-trump-wellicht-geen-kerosinetekorten-deze-zomer-in-europa/27532402.html",
-        "source": "nieuwsblad",
-        "name_only": true
-      },
-      {
-        "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte",
-        "url": "https://www.hbvl.be/buitenland/agenten-schieten-persoon-neer-in-buurt-van-witte-huis-kind-geraakt-door-verdachte/151082957.html",
+        "title": "Obama voelt de druk van het Trump-tijdperk ook in zijn privéleven: “Geen huwelijkscrisis, wel botsende verwachtingen”",
+        "url": "https://www.hbvl.be/buitenland/obama-voelt-de-druk-van-het-trump-tijdperk-ook-in-zijn-priveleven-geen-huwelijkscrisis-wel-botsende-verwachtingen/151098786.html",
         "source": "hbvl",
-        "name_only": false
+        "name_only": true
       },
       {
         "title": "‘De agressie van Donald Trump maakt Duitsland sterker’ - Knack",
@@ -12861,24 +12867,72 @@
         "name_only": true
       },
       {
-        "title": "Des tirs près de la Maison-Blanche, une personne abattue par le Secret Service: “Veuillez éviter le secteur”",
-        "url": "https://www.7sur7.be/monde/des-tirs-pres-de-la-maison-blanche-une-personne-abattue-par-le-secret-service-veuillez-eviter-le-secteur~a302991d/",
+        "title": "“Prête à tous les scénarios”: l’UE répond aux menaces de Trump sur les surtaxes douanières",
+        "url": "https://www.7sur7.be/monde/prete-a-tous-les-scenarios-lue-repond-aux-menaces-de-trump-sur-les-surtaxes-douanieres~aeb7c6ff/",
         "source": "septsursept",
-        "name_only": false
+        "name_only": true
       },
       {
-        "title": "Un blessé après un échange de tirs près de la Maison-Blanche - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbi04RHYwUUs2U0NxamVSc2hhSE1xUzUxXzg4ZWpCLVktZW9kOHZ2MkhEVzVfUHRGdFAwVEFJMVk5RTIxUFVHcXJmQlVrNXF5bTlzZGVITzhPNlpwdzZWSmlDSnpTR3B1RlRmRWVXNlpiRk1WdVZmT05JemFZcFBlOW83TTFVYnE5MkNnaE9XcE8xQ2M5Y1NFVWs4eWZ6RkRma1c3TFdZNnpZb3Yw?oc=5",
-        "source": "lesoir_g",
-        "name_only": false
+        "title": "Extra Trump-tarieven komen voor Europese autobouwers op het allerslechtste moment - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWmVKTDN5N29mZnhiZ1NremdQUlhmNjVMUWIyU0hoRUEyWHNsQlVrWUd6NTFCdVA4NXh4OGFoR1l3YWI2NFRVU2JlRXRmQmZzTEF3bW1xajFxLTBraHgwZnR5OUVhdkhtQXJfOXloeHQyQlE4ZkFGSTREZUw1aXJTVlFhdFJ3RGs0YnVjQ2VubjAteGl4a05weGx4R05CZnpMZ3dCNGVWTUlOTV9FZ0dQMUFZc0QxN3BiY2ZXaElsbkk2T1g5cS1mZmh2OA?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "La guerre au Moyen-Orient \"se déroule très bien\", dit Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQb3dqc2taNGNvTXVPRXg5elhkOTNWanJfcnRCZC0wTlJsSTNVbGpHUEhxMUZ2cDA4TF9UNWs2ei1IT21lUlFfY2Eyd1d4aUs3b1k2d1lfZHFTNnNDSXU2TlVXVDVQd2ItYllwUG9DQkRqeWJvNnM4aGE0aHVEa2Npemthb2dzYml3YVJtREhpYW9fT0VHSWx4eVhpbzlua2tySVhJZ28yMkhWM2NhbjJCWnZSR2N3WTVXMVVfZ0VNcldJelpTbWpOY3dSemZ6ajZMYm9obnRHZXB1UWprRmgtS0hFdC1MRTg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« Je suis le seul pigeon à l’avoir fait » : Trump s’est enrichi… d’1,4 milliards de dollars depuis son retour au pouvoir, mais d’où vient tout cet argent ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeGw3ek96TzZYVGlnV0pYTHNNdXVfRURMdlpfZ2x3d093VlRBVF9kYjkzdzZwcEhxclpfV0FiSEFOMkZ3ZXlva2JFYjNoTkR2bnZvTkphQnFVSS1CYktiUU5RV2drZ055LXdCelZQYTJQYkZPa2xQd0ZTT1N0S3pSR2U1X1F2YzJYejExWWtZdExvdHRIdmU4enhZajFwR3RKV3RXdHhUYWhaM0JaZnFfU2g2THhjdVMyemRUX0M1R09UVEZiSV9ENG9PZ21yM1Z6MmVIZVpTM3U2c3FqTi04T0hB?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "wide_matches": [
       {
         "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte - Nieuwsblad",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSmdHMlRoaG5vQ2RDTWpSeURUc1R5dXJqNmR2bm5IVVplUExDczhJNFExTlM0RHpBdzczZ01ZVE0ycm9LWHV4WkZlQkpOTDRJX2hTemc2WF80aTY0ZGRyaUdQZWZ1R3g3bmtDUno0Vk8xZ2U5Z2IyeHcyZjA4RGx2elo3QnRQM1cwSElVc0RNemVDQ1k1RWp3NnNObzY0MjNrd0kydU9CakF6T2ktN25sQzhTVmdFQWRXQ2JqbVJpT1FqWFhMbjdVamZMejlidw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Obama over het leven na het Witte Huis: “Veroorzaakte spanning thuis en frustratie bij Michelle” - GVA",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa1BYeU52bDUzbFFsMkZ3em5EUzBjSVJVcGd2bFBoVXp3cERzYUtoa190YTJBelY0NzZpZHhxNFRLRGxnRkVyODU1czV1R01BaEtRdDNHTm1IUXhZb00zal9QVTlSazdHNXdLRVlJRVEwWTQ5OU1pN0dxa0h6VmhVSGF4VjdWd0VMZUFWVFRFT0twMGRXZmxvNk9xTDVWREdRTW1IbHV6LXJGQVZlYkk4QzZ1UGFYczQxdTV0dlZleXJfOVVGUHhGNDZ4ejdWUUhFeWhUSA?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Obama over het leven na het Witte Huis: “Veroorzaakte spanning thuis en frustratie bij Michelle” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYU1JSTV5RTFMUTExR0R0RVgzMURvakRYYVdRc1c0dUxickxxaV9LLVNJTDFMVGhBdzJLdTI1dlEyM2M4RnFNWC0yQlNiVm9LVlcweTJwOVdjR0JuYV9WVHRRamZtb0JONVkwYjdsczlFX1k2NzZEbWVTMWFyWnVrNmRkSy1DX096ZzdGdnBfS3NDNWRKYTdQZzZQMlV0STJWcEhoQTlHaVpybVdDTjNfdEliZUt3cDR6cWlReFQzQ1ZqMUFuMjgxeXJjZnBiYkxxY0p4ZU9VcDIxbjZwakE?oc=5",
         "source": "google_nl_world",
         "name_only": false
+      },
+      {
+        "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte - GVA",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZW1aU2hFZjdmZ21PMU5sMHlEOVNfcGdOb2RDLVVaOEkyTk1ONWpNM3pLRXhYYjZGUWZJci14eG9abkJkYlJvSzZWRlI3eFIyOW1xVmZOUUVFM2JOeDlYVE9MWlluQThFVkhfZHNOWTMxVmo5OC1yV0JYdnVfNTUyZHZ2T1VuazNWdDQ0OWpGMGVBTE81c2xEejB4MTVIUkdBeGd5cnpHRGMxOTJSSEdtNlZZSk9hN0hmWThTNVJWMEtYSUFx?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "Trump lijkt van koers te veranderen: Witte Huis denkt aan strenger toezicht op AI - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaGZBOGp6alhZaVhSOENjdkUwbnM1VEREMUp0YW9JcEpibTJhZHRPNVdKdDZKTmJNc0U2Ums2S3JVX2NMTDRBNnVqUFpLMjVpNkFRbHRRNWJNNFIzd1RxQVVZM3FhOHFOdGNmekVyN2pienBBWDN0ZVhHSGZQVE5fTmU0OGt1NHBFS1ZtWDdNTFlvMHVYNk5PdlhzNnlULXJlNWtVaWRyZzZPNWJTeHh3T2dYNm93d1RON2hvY0hn?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Trump lijkt van koers te veranderen: Witte Huis denkt aan strenger toezicht op AI",
+        "url": "https://www.demorgen.be/nieuws/trump-lijkt-van-koers-te-veranderen-witte-huis-denkt-aan-strenger-toezicht-op-ai~b4e5d3af/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt: ‘Iran zal van de aardbodem worden weggevaagd’ als het Amerikaanse schepen aanvalt tijdens ‘Project Freedom’",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-meldt-burgerdoden-door-amerikaanse-aanvallen-op-twee-kleine-boten-project-freedom-is-project-deadlock~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
       },
       {
         "title": "Rudy Giuliani, voormalig burgemeester van New York en ex-advocaat Trump, in kritieke toestand opgenomen in ziekenhuis",
@@ -12887,28 +12941,10 @@
         "name_only": true
       },
       {
-        "title": "LIVE MIDDEN-OOSTEN. Iran ontkent bewering Trump - Wellicht geen kerosinetekorten deze zomer in Europa",
-        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-ontkent-bewering-trump-wellicht-geen-kerosinetekorten-deze-zomer-in-europa/27532402.html",
-        "source": "nieuwsblad",
-        "name_only": true
-      },
-      {
-        "title": "Marco Rubio moet brokken lijmen tussen Trump en de paus, en daar zal hij zijn handen mee vol hebben",
-        "url": "https://www.gva.be/buitenland/marco-rubio-moet-brokken-lijmen-tussen-trump-en-de-paus-en-daar-zal-hij-zijn-handen-mee-vol-hebben/151067002.html",
-        "source": "gva",
-        "name_only": true
-      },
-      {
-        "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte",
-        "url": "https://www.gva.be/buitenland/agenten-schieten-persoon-neer-in-buurt-van-witte-huis-kind-geraakt-door-verdachte/151082045.html",
-        "source": "gva",
-        "name_only": false
-      },
-      {
-        "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte",
-        "url": "https://www.hbvl.be/buitenland/agenten-schieten-persoon-neer-in-buurt-van-witte-huis-kind-geraakt-door-verdachte/151082957.html",
+        "title": "Obama voelt de druk van het Trump-tijdperk ook in zijn privéleven: “Geen huwelijkscrisis, wel botsende verwachtingen”",
+        "url": "https://www.hbvl.be/buitenland/obama-voelt-de-druk-van-het-trump-tijdperk-ook-in-zijn-priveleven-geen-huwelijkscrisis-wel-botsende-verwachtingen/151098786.html",
         "source": "hbvl",
-        "name_only": false
+        "name_only": true
       },
       {
         "title": "‘De agressie van Donald Trump maakt Duitsland sterker’ - Knack",
@@ -12917,47 +12953,59 @@
         "name_only": true
       },
       {
-        "title": "Des tirs près de la Maison-Blanche, une personne abattue par le Secret Service: “Veuillez éviter le secteur”",
-        "url": "https://www.7sur7.be/monde/des-tirs-pres-de-la-maison-blanche-une-personne-abattue-par-le-secret-service-veuillez-eviter-le-secteur~a302991d/",
+        "title": "“Prête à tous les scénarios”: l’UE répond aux menaces de Trump sur les surtaxes douanières",
+        "url": "https://www.7sur7.be/monde/prete-a-tous-les-scenarios-lue-repond-aux-menaces-de-trump-sur-les-surtaxes-douanieres~aeb7c6ff/",
         "source": "septsursept",
-        "name_only": false
+        "name_only": true
       },
       {
-        "title": "Un blessé après un échange de tirs près de la Maison-Blanche - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbi04RHYwUUs2U0NxamVSc2hhSE1xUzUxXzg4ZWpCLVktZW9kOHZ2MkhEVzVfUHRGdFAwVEFJMVk5RTIxUFVHcXJmQlVrNXF5bTlzZGVITzhPNlpwdzZWSmlDSnpTR3B1RlRmRWVXNlpiRk1WdVZmT05JemFZcFBlOW83TTFVYnE5MkNnaE9XcE8xQ2M5Y1NFVWs4eWZ6RkRma1c3TFdZNnpZb3Yw?oc=5",
-        "source": "lesoir_g",
-        "name_only": false
+        "title": "Extra Trump-tarieven komen voor Europese autobouwers op het allerslechtste moment - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWmVKTDN5N29mZnhiZ1NremdQUlhmNjVMUWIyU0hoRUEyWHNsQlVrWUd6NTFCdVA4NXh4OGFoR1l3YWI2NFRVU2JlRXRmQmZzTEF3bW1xajFxLTBraHgwZnR5OUVhdkhtQXJfOXloeHQyQlE4ZkFGSTREZUw1aXJTVlFhdFJ3RGs0YnVjQ2VubjAteGl4a05weGx4R05CZnpMZ3dCNGVWTUlOTV9FZ0dQMUFZc0QxN3BiY2ZXaElsbkk2T1g5cS1mZmh2OA?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "La guerre au Moyen-Orient \"se déroule très bien\", dit Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQb3dqc2taNGNvTXVPRXg5elhkOTNWanJfcnRCZC0wTlJsSTNVbGpHUEhxMUZ2cDA4TF9UNWs2ei1IT21lUlFfY2Eyd1d4aUs3b1k2d1lfZHFTNnNDSXU2TlVXVDVQd2ItYllwUG9DQkRqeWJvNnM4aGE0aHVEa2Npemthb2dzYml3YVJtREhpYW9fT0VHSWx4eVhpbzlua2tySVhJZ28yMkhWM2NhbjJCWnZSR2N3WTVXMVVfZ0VNcldJelpTbWpOY3dSemZ6ajZMYm9obnRHZXB1UWprRmgtS0hFdC1MRTg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« Je suis le seul pigeon à l’avoir fait » : Trump s’est enrichi… d’1,4 milliards de dollars depuis son retour au pouvoir, mais d’où vient tout cet argent ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeGw3ek96TzZYVGlnV0pYTHNNdXVfRURMdlpfZ2x3d093VlRBVF9kYjkzdzZwcEhxclpfV0FiSEFOMkZ3ZXlva2JFYjNoTkR2bnZvTkphQnFVSS1CYktiUU5RV2drZ055LXdCelZQYTJQYkZPa2xQd0ZTT1N0S3pSR2U1X1F2YzJYejExWWtZdExvdHRIdmU4enhZajFwR3RKV3RXdHhUYWhaM0JaZnFfU2g2THhjdVMyemRUX0M1R09UVEZiSV9ENG9PZ21yM1Z6MmVIZVpTM3U2c3FqTi04T0hB?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 3,
-      "putin": 1,
-      "macron": 1,
-      "netanyahu": 0,
-      "zelensky": 0,
-      "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 3,
-      "magnette": 1,
-      "prevot": 0,
-      "rousseau": 0,
-      "francken": 0,
-      "crevits": 0,
-      "jambon": 0,
-      "van_peteghem": 0,
-      "verlinden": 1
-    },
-    "wide_comparisons": {
-      "trump": 4,
+      "trump": 9,
       "putin": 2,
       "macron": 1,
       "netanyahu": 0,
-      "zelensky": 0,
+      "zelensky": 3,
       "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 5,
+      "von_der_leyen": 2,
+      "de_wever": 1,
+      "bouchez": 3,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 6,
+      "macron": 2,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 3,
+      "de_wever": 3,
+      "bouchez": 4,
       "magnette": 1,
       "prevot": 0,
       "rousseau": 0,
@@ -12965,39 +13013,39 @@
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 1
+      "verlinden": 0
     },
     "themes": {
-      "war": 14,
-      "crime": 15,
-      "eu": 23,
-      "politics": 11,
-      "be_gov": 17,
-      "culture": 7,
-      "tech": 5,
-      "economy": 6,
-      "sports": 26,
-      "health": 5,
-      "climate": 3,
+      "war": 21,
+      "crime": 31,
+      "eu": 41,
+      "politics": 25,
+      "be_gov": 27,
+      "culture": 17,
+      "tech": 15,
+      "economy": 12,
+      "sports": 29,
+      "health": 13,
+      "climate": 4,
       "migration": 0,
-      "education": 5,
-      "weather": 9
+      "education": 4,
+      "weather": 12
     },
     "wide_themes": {
-      "war": 19,
-      "crime": 16,
-      "eu": 27,
-      "politics": 19,
-      "be_gov": 22,
-      "culture": 10,
-      "tech": 7,
-      "economy": 8,
-      "sports": 39,
-      "health": 6,
+      "war": 31,
+      "crime": 40,
+      "eu": 56,
+      "politics": 33,
+      "be_gov": 39,
+      "culture": 21,
+      "tech": 26,
+      "economy": 17,
+      "sports": 48,
+      "health": 14,
       "climate": 6,
       "migration": 0,
-      "education": 6,
-      "weather": 13
+      "education": 5,
+      "weather": 17
     }
   }
 ]
