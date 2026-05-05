@@ -12509,5 +12509,495 @@
       "education": 4,
       "weather": 17
     }
+  },
+  {
+    "date": "2026-05-05",
+    "generated_at": "2026-05-05T08:03:52+02:00",
+    "last_checked_at": "2026-05-05T08:03:52+02:00",
+    "total_articles": 356,
+    "trump_articles": 3,
+    "percentage": 0.8,
+    "core_percentage": 0.8,
+    "core_percentage_name": 0.8,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 1.7,
+    "indirect_references": 3,
+    "wide_total_articles": 470,
+    "wide_trump_articles": 4,
+    "wide_percentage": 0.9,
+    "wide_trump_articles_expanded": 9,
+    "wide_percentage_expanded": 1.9,
+    "macro_percentage": 1.0,
+    "qualifying_outlets": 13,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 29,
+    "cross_outlet_dup_groups": 14,
+    "cross_outlet_dup_rate": 8.1,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.43,
+    "breadth": 0.19,
+    "deviation": 0.19,
+    "smoothed_pct": 3.99,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 13,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 53,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 64,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 65,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 61,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 39,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 42,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 39,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 52,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.13
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 40,
+        "kept": 40,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 46,
+        "kept": 44,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.27
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 38,
+        "today": 5,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 53,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Rudy Giuliani, voormalig burgemeester van New York en ex-advocaat Trump, in kritieke toestand opgenomen in ziekenhuis",
+        "url": "https://www.demorgen.be/snelnieuws/live-rudy-giuliani-voormalig-burgemeester-van-new-york-en-ex-advocaat-trump-in-kritieke-toestand-opgenomen-in-ziekenhuis~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Iran ontkent bewering Trump - Wellicht geen kerosinetekorten deze zomer in Europa",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-ontkent-bewering-trump-wellicht-geen-kerosinetekorten-deze-zomer-in-europa/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte",
+        "url": "https://www.hbvl.be/buitenland/agenten-schieten-persoon-neer-in-buurt-van-witte-huis-kind-geraakt-door-verdachte/151082957.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "‘De agressie van Donald Trump maakt Duitsland sterker’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTHJjaV9ncVNlWnRwbjBKUWtGZzVOSG1VNUFHVk10MGVMUzJnS1hrQ1hWRWNxSUNEZEs1UU5fTHZsTmRpb2lKZXZwVHUyZnN1REZBSE1LUE9xclB4OXdJdkN2Z2hnLWdKV0ZoT0RDWEYza0RWX3A3eVJvWkQwUjVOc0R2OWRRdnhjRVYtZUVfOXNYZw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Des tirs près de la Maison-Blanche, une personne abattue par le Secret Service: “Veuillez éviter le secteur”",
+        "url": "https://www.7sur7.be/monde/des-tirs-pres-de-la-maison-blanche-une-personne-abattue-par-le-secret-service-veuillez-eviter-le-secteur~a302991d/",
+        "source": "septsursept",
+        "name_only": false
+      },
+      {
+        "title": "Un blessé après un échange de tirs près de la Maison-Blanche - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbi04RHYwUUs2U0NxamVSc2hhSE1xUzUxXzg4ZWpCLVktZW9kOHZ2MkhEVzVfUHRGdFAwVEFJMVk5RTIxUFVHcXJmQlVrNXF5bTlzZGVITzhPNlpwdzZWSmlDSnpTR3B1RlRmRWVXNlpiRk1WdVZmT05JemFZcFBlOW83TTFVYnE5MkNnaE9XcE8xQ2M5Y1NFVWs4eWZ6RkRma1c3TFdZNnpZb3Yw?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSmdHMlRoaG5vQ2RDTWpSeURUc1R5dXJqNmR2bm5IVVplUExDczhJNFExTlM0RHpBdzczZ01ZVE0ycm9LWHV4WkZlQkpOTDRJX2hTemc2WF80aTY0ZGRyaUdQZWZ1R3g3bmtDUno0Vk8xZ2U5Z2IyeHcyZjA4RGx2elo3QnRQM1cwSElVc0RNemVDQ1k1RWp3NnNObzY0MjNrd0kydU9CakF6T2ktN25sQzhTVmdFQWRXQ2JqbVJpT1FqWFhMbjdVamZMejlidw?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "Rudy Giuliani, voormalig burgemeester van New York en ex-advocaat Trump, in kritieke toestand opgenomen in ziekenhuis",
+        "url": "https://www.demorgen.be/snelnieuws/live-rudy-giuliani-voormalig-burgemeester-van-new-york-en-ex-advocaat-trump-in-kritieke-toestand-opgenomen-in-ziekenhuis~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Iran ontkent bewering Trump - Wellicht geen kerosinetekorten deze zomer in Europa",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-ontkent-bewering-trump-wellicht-geen-kerosinetekorten-deze-zomer-in-europa/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Marco Rubio moet brokken lijmen tussen Trump en de paus, en daar zal hij zijn handen mee vol hebben",
+        "url": "https://www.gva.be/buitenland/marco-rubio-moet-brokken-lijmen-tussen-trump-en-de-paus-en-daar-zal-hij-zijn-handen-mee-vol-hebben/151067002.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte",
+        "url": "https://www.gva.be/buitenland/agenten-schieten-persoon-neer-in-buurt-van-witte-huis-kind-geraakt-door-verdachte/151082045.html",
+        "source": "gva",
+        "name_only": false
+      },
+      {
+        "title": "Agenten schieten persoon neer in buurt van Witte Huis, kind geraakt door verdachte",
+        "url": "https://www.hbvl.be/buitenland/agenten-schieten-persoon-neer-in-buurt-van-witte-huis-kind-geraakt-door-verdachte/151082957.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "‘De agressie van Donald Trump maakt Duitsland sterker’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTHJjaV9ncVNlWnRwbjBKUWtGZzVOSG1VNUFHVk10MGVMUzJnS1hrQ1hWRWNxSUNEZEs1UU5fTHZsTmRpb2lKZXZwVHUyZnN1REZBSE1LUE9xclB4OXdJdkN2Z2hnLWdKV0ZoT0RDWEYza0RWX3A3eVJvWkQwUjVOc0R2OWRRdnhjRVYtZUVfOXNYZw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Des tirs près de la Maison-Blanche, une personne abattue par le Secret Service: “Veuillez éviter le secteur”",
+        "url": "https://www.7sur7.be/monde/des-tirs-pres-de-la-maison-blanche-une-personne-abattue-par-le-secret-service-veuillez-eviter-le-secteur~a302991d/",
+        "source": "septsursept",
+        "name_only": false
+      },
+      {
+        "title": "Un blessé après un échange de tirs près de la Maison-Blanche - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbi04RHYwUUs2U0NxamVSc2hhSE1xUzUxXzg4ZWpCLVktZW9kOHZ2MkhEVzVfUHRGdFAwVEFJMVk5RTIxUFVHcXJmQlVrNXF5bTlzZGVITzhPNlpwdzZWSmlDSnpTR3B1RlRmRWVXNlpiRk1WdVZmT05JemFZcFBlOW83TTFVYnE5MkNnaE9XcE8xQ2M5Y1NFVWs4eWZ6RkRma1c3TFdZNnpZb3Yw?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      }
+    ],
+    "comparisons": {
+      "trump": 3,
+      "putin": 1,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 3,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 4,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 5,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 14,
+      "crime": 15,
+      "eu": 23,
+      "politics": 11,
+      "be_gov": 17,
+      "culture": 7,
+      "tech": 5,
+      "economy": 6,
+      "sports": 26,
+      "health": 5,
+      "climate": 3,
+      "migration": 0,
+      "education": 5,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 19,
+      "crime": 16,
+      "eu": 27,
+      "politics": 19,
+      "be_gov": 22,
+      "culture": 10,
+      "tech": 7,
+      "economy": 8,
+      "sports": 39,
+      "health": 6,
+      "climate": 6,
+      "migration": 0,
+      "education": 6,
+      "weather": 13
+    }
   }
 ]
