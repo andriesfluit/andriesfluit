@@ -13179,5 +13179,645 @@
       "education": 10,
       "weather": 22
     }
+  },
+  {
+    "date": "2026-05-06",
+    "generated_at": "2026-05-06T08:19:16+02:00",
+    "last_checked_at": "2026-05-06T08:19:16+02:00",
+    "total_articles": 339,
+    "trump_articles": 17,
+    "percentage": 5.0,
+    "core_percentage": 5.0,
+    "core_percentage_name": 5.0,
+    "trump_articles_expanded": 18,
+    "core_percentage_expanded": 5.3,
+    "indirect_references": 1,
+    "wide_total_articles": 465,
+    "wide_trump_articles": 21,
+    "wide_percentage": 4.5,
+    "wide_trump_articles_expanded": 22,
+    "wide_percentage_expanded": 4.7,
+    "macro_percentage": 4.2,
+    "qualifying_outlets": 16,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 35,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 10.3,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 5.67,
+    "breadth": 0.71,
+    "deviation": 1.18,
+    "smoothed_pct": 4.03,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_politics": {
+        "fetched": 40,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 62,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 65,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 37,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 42,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 63,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 62,
+        "kept": 45,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.44
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 16,
+        "kept": 16,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 18.75
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.12
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 39,
+        "kept": 39,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.56
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "trends_g": {
+        "fetched": 39,
+        "today": 7,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 82,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump overweegt bocht: meer toezicht op meest geavanceerde AI-modellen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY0s0S0NQOGZGRjR0QVdlTVVmMkM5TGIzc3BjUGY5dTRNeVFPYXlFT0t4Vmhsb2UzR2ZhLTZQckRUNDhkemZYdm9YcG9ib00xN1dnSVByaC1uYWNqSERtNDZuajhNSVdiTmllYUNIYnZETmFTdzRPVC0xTFNPbUQxRXBZLWZoTXJzM05RNkpZUjdYcjBYbVFFUFJCOExBd2VodUxNTmtfT0dpbXdBVXhMa2R6MFlUbnVxQzJsRGplc1djQ0Zh?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "The Washington Post krijgt Pulitzer prijs voor kritische berichtgeving over regering-Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZmoteV84WVV0RndUTVowT0hxSlQ1eGlKaDlXZ2hnakJ4RGdOUGt0bTdTbzBtUnMxTW0yVmJ3NWNmNFJiQ1MwMk5Lak1Dc19ybDBiSTlJYzV1MlE5Qnc0MDl2emg3TnczbWw0cTVzYk9faXMxZzVLWkxvd2JnUzczb1N3cW1UcndxbkxnSzlEcW00X29Rd2pXMVJsVmthWFlmcGpzcDZBeHo3Y3JJVjQxSVozUXRGaWJSeUZTUkZZRjY2UFRjVEVYTlhMSUswQzJWVGtJQy1aUHlGaEZIWkh6dA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "‘Project Freedom’ opgeschort: Trump zet operatie om Straat van Hormuz te heropenen al na 2 dagen op pauze",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Peilingen laten groeiende Trump-moeheid zien: groot deel vindt hem mentaal ongeschikt als leider VS",
+        "url": "https://www.demorgen.be/nieuws/peilingen-laten-groeiende-trump-moeheid-zien-groot-deel-vindt-hem-mentaal-ongeschikt-als-leider-vs~b490a5bf/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Amerikaans leger doodt drie vermoedelijke drugssmokkelaars in Stille Oceaan • Braziliaanse president ontmoet Trump morgen in Washington",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-verwijt-paus-leo-veel-katholieken-in-gevaar-te-brengen-amerikaanse-justitie-vraagt-medewerkerslijsten-op-van-verkiezingen-in-georgia-in-2020~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump pauzeert al na amper een dag pogingen Straat van Hormuz te openen, Iran noemt beslissing ‘falen van VS’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-pauzeert-al-na-amper-een-dag-pogingen-straat-van-hormuz-te-openen-iran-noemt-beslissing-falen-van-vs~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Paus reageert op nieuwe uithaal Trump: “Als iemand mij wil bekritiseren omdat ik het Evangelie verkondig, laat hij dat dan waarachtig doen”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-paus-reageert-op-nieuwe-uithaal-trump-als-iemand-mij-wil-bekritiseren-omdat-ik-het-evangelie-verkondig-laat-hij-dat-dan-waarachtig-doen/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Project Freedom wordt gepauzeerd” - Iran spreekt over “falen van VS”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-project-freedom-wordt-gepauzeerd-iran-spreekt-over-falen-van-vs/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Verdachte van moordpoging op Trump dan toch ook aangeklaagd voor aanval op agent tijdens persdiner",
+        "url": "https://www.nieuwsblad.be/buitenland/verdachte-van-moordpoging-op-trump-dan-toch-ook-aangeklaagd-voor-aanval-op-agent-tijdens-persdiner/151126272.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Verdachte van moordpoging op Trump dan toch ook aangeklaagd voor aanval op agent tijdens persdiner",
+        "url": "https://www.hbvl.be/buitenland/verdachte-van-moordpoging-op-trump-dan-toch-ook-aangeklaagd-voor-aanval-op-agent-tijdens-persdiner/151126517.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Direct - Guerre au Moyen-Orient : Donald Trump suspend le \"Projet Liberté\", l’opération d’escorte des navires dans le détroit d’Ormuz",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-donald-trump-suspend-le-projet-liberte-l-operation-d-escorte-des-navires-dans-le-detroit-d-ormuz-11719841",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Donald Trump suspend l'opération américaine dans le détroit d'Ormuz pour escorter des bateaux",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/05/06/direct-guerre-au-moyen-orient-donald-trump-suspend-loperation-americaine-dans-le-detroit-dormuz-pour-escorter-des-bateaux-EDWSHUI24FFZNN42QSJCUW5ZHA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump suspend les opérations d'escorte à travers le détroit d'Ormuz - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNNjN6NnktQVFONlRiNjRCUTRacGF2b1JGQ0V4TXQ0SnkzekxURklJRHY4SFlxZl80OEFvTEwxQ1hfUUh0bkZZeG1jRlJ6cjRyZ3Rpdks2eUI0VHhPQU1YSTZZbHV5STk0M3VzUHVsdk8tWjNycERtVzduczgyU3J5TE1IdDNiMF8zNWU0U2NCNEwySVQ0VmUzbEh2VUc0Wks0SkJhclNrS2VuRDRYMFlFa1lzMTdoSGMwaVZ0aHRTUzBWRHdpWWNrSVFyOTZxRlhtcWxjcHZmbHp5RjMwNlV4czhLby1EQWxlQUFrT0hOWldDMzJIV2l1aW1EYWpoYzA4aUNxSlljMmV6WDNpdTByQ3YtNGZLTEU?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient: Donald Trump suspend l'opération américaine dans le détroit d'Ormuz pour escorter des bateaux",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/06/direct-guerre-au-moyen-orient-donald-trump-suspend-loperation-americaine-dans-le-detroit-dormuz-pour-escorter-des-bateaux-7FYLVVFF6VA3VGNR7KJ3274KDE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump suspend son opération pour débloquer le détroit d’Ormuz",
+        "url": "https://www.7sur7.be/monde/trump-suspend-son-operation-pour-debloquer-le-detroit-dormuz~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Fusillade au dîner des correspondants de la Maison-Blanche : nouvelle inculpation pour l’assaillant - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON1VUWHJHam5GenN0cmtaV2NFQzlBT0pVSHhDMW5IY2lWMnl1amVqcHo4NTkwbEwwZ3QzTkN1NXJKUlRXSllEVWpZMU5HdkN6ZTRla3lnOFlLeVVxMHJyMWh6LVVMbW1LcE8yUEhzQ2ROZ081TmRsZElFSktEclBTT29xeWVLWkZWV3ViOGhpMkRBSXB4SjBXT0NKY015THdOSkkyOXJCLUtwZ0w1OEM3bURfaS0wMW52ZUdtRDctalp2NnVsZEE?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      },
+      {
+        "title": "Détroit d’Ormuz : Donald Trump suspend son opération militaire et évoque un possible accord avec l’Iran - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV1M5QUtFQ1M4S2trVXFITTBEdVFnRXlEVG5PRllfeW1jZUIyaVdFY2RLMHpkZzBhNUkwYVlsLU5MdEwxa0RsVURzM0pQa1FfTnpqVnlxcVlIYS1kSEtxRTM4Mm5sbVZ1ekZ3Y0l1aUpSQWwwQ3pWRXROZDVkckUyeGhfZXNSaTdYZWlSUTRIZTd4dVJSTk50NkxLMGZKSmQ4aS1HUU1CVFo1VzFzNEdGVHR3UUh0bFlvSmc5bmJOWnhhSlZuZUdN?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump suspend l'opération \"Project Freedom\", l'Iran se dit \"prêt au dialogue\", les Etats du Golfe s'inquiètent - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdnBOV3BUWlhPamZpbFVwaklMdlhVLW8xVE9zd0tteDU3VnY1aUM1MWpYS1JlSWdPRHU3ZS1QSkdwSHNqekJKRTJLSEMwN2Z4VUh2eHpPMGJ1WlVZZTREbnU4eGtjWVFCLUZlX1A2OHg2Qko3dEFoZTg2bzJDUURXbFhNYy1jaW9UY2hDcExyMWhQNlFjc1RvR2h5NWxjbW11c2JCT1VZbUJLc0ExSUhpS1Jwd2draXZfdmo4QXdoei1vSUFpX01vRmt2YzVoVElUM1V6ZmpwV1lndi1IVHFtcHktWQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Donald Trump suspend l'opération américaine dans le détroit d'Ormuz pour escorter des bateaux - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNbTRyZC1qdWx3XzBEc0ZiQ2FrYUk2MThyX3VaSDJlQ2p0SkVyWGlxWk9naS1JR01LUk14dTJIdDJZMXZBQ2VSSEtyR1N6SHFSVVdvOUNXTGpxTTBVZkZvNmZDOFEwWnNfeXFsN2s1cUxYVlBFVEx6ZWRzcXoxcnNUS0JpamhFcVpLcG84c0lLSTZuYnlWa1p5T1ZqVExEc2hkUktBTmt1UnBqNmtmc1h5M0dxSmZHbmV3OW4tWm5nZDZjSlVxbnRwVUtyLUtMQnZ3QWRjRmtxakNlSlBrUVZXekZpRVNfZTF1UWw1ZWo3eDdIY01lNF9sZ2NYUmhRMURhTWVTbkMtNHpDQmFXSHBWdnc1azVoc0RpRWg0R09tMWxPdjF5T2NQcTJPUmdJQ1JGNWRPbQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump overweegt bocht: meer toezicht op meest geavanceerde AI-modellen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY0s0S0NQOGZGRjR0QVdlTVVmMkM5TGIzc3BjUGY5dTRNeVFPYXlFT0t4Vmhsb2UzR2ZhLTZQckRUNDhkemZYdm9YcG9ib00xN1dnSVByaC1uYWNqSERtNDZuajhNSVdiTmllYUNIYnZETmFTdzRPVC0xTFNPbUQxRXBZLWZoTXJzM05RNkpZUjdYcjBYbVFFUFJCOExBd2VodUxNTmtfT0dpbXdBVXhMa2R6MFlUbnVxQzJsRGplc1djQ0Zh?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "The Washington Post krijgt Pulitzer prijs voor kritische berichtgeving over regering-Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZmoteV84WVV0RndUTVowT0hxSlQ1eGlKaDlXZ2hnakJ4RGdOUGt0bTdTbzBtUnMxTW0yVmJ3NWNmNFJiQ1MwMk5Lak1Dc19ybDBiSTlJYzV1MlE5Qnc0MDl2emg3TnczbWw0cTVzYk9faXMxZzVLWkxvd2JnUzczb1N3cW1UcndxbkxnSzlEcW00X29Rd2pXMVJsVmthWFlmcGpzcDZBeHo3Y3JJVjQxSVozUXRGaWJSeUZTUkZZRjY2UFRjVEVYTlhMSUswQzJWVGtJQy1aUHlGaEZIWkh6dA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "‘Project Freedom’ opgeschort: Trump zet operatie om Straat van Hormuz te heropenen al na 2 dagen op pauze",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Peilingen laten groeiende Trump-moeheid zien: groot deel vindt hem mentaal ongeschikt als leider VS",
+        "url": "https://www.demorgen.be/nieuws/peilingen-laten-groeiende-trump-moeheid-zien-groot-deel-vindt-hem-mentaal-ongeschikt-als-leider-vs~b490a5bf/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Amerikaans leger doodt drie vermoedelijke drugssmokkelaars in Stille Oceaan • Braziliaanse president ontmoet Trump morgen in Washington",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-verwijt-paus-leo-veel-katholieken-in-gevaar-te-brengen-amerikaanse-justitie-vraagt-medewerkerslijsten-op-van-verkiezingen-in-georgia-in-2020~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump pauzeert al na amper een dag pogingen Straat van Hormuz te openen, Iran noemt beslissing ‘falen van VS’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-pauzeert-al-na-amper-een-dag-pogingen-straat-van-hormuz-te-openen-iran-noemt-beslissing-falen-van-vs~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Paus reageert op nieuwe uithaal Trump: “Als iemand mij wil bekritiseren omdat ik het Evangelie verkondig, laat hij dat dan waarachtig doen”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-paus-reageert-op-nieuwe-uithaal-trump-als-iemand-mij-wil-bekritiseren-omdat-ik-het-evangelie-verkondig-laat-hij-dat-dan-waarachtig-doen/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Project Freedom wordt gepauzeerd” - Iran spreekt over “falen van VS”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-project-freedom-wordt-gepauzeerd-iran-spreekt-over-falen-van-vs/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Verdachte van moordpoging op Trump dan toch ook aangeklaagd voor aanval op agent tijdens persdiner",
+        "url": "https://www.nieuwsblad.be/buitenland/verdachte-van-moordpoging-op-trump-dan-toch-ook-aangeklaagd-voor-aanval-op-agent-tijdens-persdiner/151126272.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Paus reageert op nieuwe uithaal Trump: “Als iemand mij wil bekritiseren omdat ik het Evangelie verkondig, laat hij dat dan waarachtig doen”",
+        "url": "https://www.gva.be/buitenland/live-vs.-paus-reageert-op-nieuwe-uithaal-trump-als-iemand-mij-wil-bekritiseren-omdat-ik-het-evangelie-verkondig-laat-hij-dat-dan-waarachtig-doen/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Project Freedom wordt gepauzeerd” - Iran spreekt over “falen van VS”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-project-freedom-wordt-gepauzeerd-iran-spreekt-over-falen-van-vs/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Verdachte van moordpoging op Trump dan toch ook aangeklaagd voor aanval op agent tijdens persdiner",
+        "url": "https://www.gva.be/buitenland/verdachte-van-moordpoging-op-trump-dan-toch-ook-aangeklaagd-voor-aanval-op-agent-tijdens-persdiner/151126325.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Verdachte van moordpoging op Trump dan toch ook aangeklaagd voor aanval op agent tijdens persdiner",
+        "url": "https://www.hbvl.be/buitenland/verdachte-van-moordpoging-op-trump-dan-toch-ook-aangeklaagd-voor-aanval-op-agent-tijdens-persdiner/151126517.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Direct - Guerre au Moyen-Orient : Donald Trump suspend le \"Projet Liberté\", l’opération d’escorte des navires dans le détroit d’Ormuz",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-donald-trump-suspend-le-projet-liberte-l-operation-d-escorte-des-navires-dans-le-detroit-d-ormuz-11719841",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Donald Trump suspend l'opération américaine dans le détroit d'Ormuz pour escorter des bateaux",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/05/06/direct-guerre-au-moyen-orient-donald-trump-suspend-loperation-americaine-dans-le-detroit-dormuz-pour-escorter-des-bateaux-EDWSHUI24FFZNN42QSJCUW5ZHA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump suspend les opérations d'escorte à travers le détroit d'Ormuz - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNNjN6NnktQVFONlRiNjRCUTRacGF2b1JGQ0V4TXQ0SnkzekxURklJRHY4SFlxZl80OEFvTEwxQ1hfUUh0bkZZeG1jRlJ6cjRyZ3Rpdks2eUI0VHhPQU1YSTZZbHV5STk0M3VzUHVsdk8tWjNycERtVzduczgyU3J5TE1IdDNiMF8zNWU0U2NCNEwySVQ0VmUzbEh2VUc0Wks0SkJhclNrS2VuRDRYMFlFa1lzMTdoSGMwaVZ0aHRTUzBWRHdpWWNrSVFyOTZxRlhtcWxjcHZmbHp5RjMwNlV4czhLby1EQWxlQUFrT0hOWldDMzJIV2l1aW1EYWpoYzA4aUNxSlljMmV6WDNpdTByQ3YtNGZLTEU?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient: Donald Trump suspend l'opération américaine dans le détroit d'Ormuz pour escorter des bateaux",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/06/direct-guerre-au-moyen-orient-donald-trump-suspend-loperation-americaine-dans-le-detroit-dormuz-pour-escorter-des-bateaux-7FYLVVFF6VA3VGNR7KJ3274KDE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump suspend son opération pour débloquer le détroit d’Ormuz",
+        "url": "https://www.7sur7.be/monde/trump-suspend-son-operation-pour-debloquer-le-detroit-dormuz~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Fusillade au dîner des correspondants de la Maison-Blanche : nouvelle inculpation pour l’assaillant - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON1VUWHJHam5GenN0cmtaV2NFQzlBT0pVSHhDMW5IY2lWMnl1amVqcHo4NTkwbEwwZ3QzTkN1NXJKUlRXSllEVWpZMU5HdkN6ZTRla3lnOFlLeVVxMHJyMWh6LVVMbW1LcE8yUEhzQ2ROZ081TmRsZElFSktEclBTT29xeWVLWkZWV3ViOGhpMkRBSXB4SjBXT0NKY015THdOSkkyOXJCLUtwZ0w1OEM3bURfaS0wMW52ZUdtRDctalp2NnVsZEE?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      },
+      {
+        "title": "Détroit d’Ormuz : Donald Trump suspend son opération militaire et évoque un possible accord avec l’Iran - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV1M5QUtFQ1M4S2trVXFITTBEdVFnRXlEVG5PRllfeW1jZUIyaVdFY2RLMHpkZzBhNUkwYVlsLU5MdEwxa0RsVURzM0pQa1FfTnpqVnlxcVlIYS1kSEtxRTM4Mm5sbVZ1ekZ3Y0l1aUpSQWwwQ3pWRXROZDVkckUyeGhfZXNSaTdYZWlSUTRIZTd4dVJSTk50NkxLMGZKSmQ4aS1HUU1CVFo1VzFzNEdGVHR3UUh0bFlvSmc5bmJOWnhhSlZuZUdN?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump suspend l'opération \"Project Freedom\", l'Iran se dit \"prêt au dialogue\", les Etats du Golfe s'inquiètent - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdnBOV3BUWlhPamZpbFVwaklMdlhVLW8xVE9zd0tteDU3VnY1aUM1MWpYS1JlSWdPRHU3ZS1QSkdwSHNqekJKRTJLSEMwN2Z4VUh2eHpPMGJ1WlVZZTREbnU4eGtjWVFCLUZlX1A2OHg2Qko3dEFoZTg2bzJDUURXbFhNYy1jaW9UY2hDcExyMWhQNlFjc1RvR2h5NWxjbW11c2JCT1VZbUJLc0ExSUhpS1Jwd2draXZfdmo4QXdoei1vSUFpX01vRmt2YzVoVElUM1V6ZmpwV1lndi1IVHFtcHktWQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 17,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 21,
+      "putin": 4,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 26,
+      "crime": 4,
+      "eu": 10,
+      "politics": 11,
+      "be_gov": 7,
+      "culture": 9,
+      "tech": 6,
+      "economy": 16,
+      "sports": 18,
+      "health": 10,
+      "climate": 1,
+      "migration": 1,
+      "education": 5,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 34,
+      "crime": 7,
+      "eu": 14,
+      "politics": 18,
+      "be_gov": 14,
+      "culture": 9,
+      "tech": 8,
+      "economy": 19,
+      "sports": 32,
+      "health": 13,
+      "climate": 1,
+      "migration": 1,
+      "education": 6,
+      "weather": 11
+    }
   }
 ]
