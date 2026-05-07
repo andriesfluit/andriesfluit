@@ -13819,5 +13819,573 @@
       "education": 6,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-05-07",
+    "generated_at": "2026-05-07T08:24:28+02:00",
+    "last_checked_at": "2026-05-07T08:24:28+02:00",
+    "total_articles": 359,
+    "trump_articles": 13,
+    "percentage": 3.6,
+    "core_percentage": 3.6,
+    "core_percentage_name": 3.6,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 3.6,
+    "indirect_references": 0,
+    "wide_total_articles": 480,
+    "wide_trump_articles": 15,
+    "wide_percentage": 3.1,
+    "wide_trump_articles_expanded": 15,
+    "wide_percentage_expanded": 3.1,
+    "macro_percentage": 2.8,
+    "qualifying_outlets": 17,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 43,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 12.0,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.44,
+    "breadth": 0.44,
+    "deviation": 0.85,
+    "smoothed_pct": 4.09,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 41,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 64,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 54,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 42,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 53,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 65,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 61,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.26
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 41,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.52
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 73,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Regering-Trump haalt uit naar Europa in nieuw terrorismebeleid: “Vijandige groeperingen maken misbruik van open grenzen”",
+        "url": "https://www.hln.be/buitenland/regering-trump-haalt-uit-naar-europa-in-nieuw-terrorismebeleid-vijandige-groeperingen-maken-misbruik-van-open-grenzen~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump acht akkoord met Iran mogelijk binnen 24 uur na ‘heel goede gesprekken’",
+        "url": "https://www.demorgen.be/snelnieuws/live-israel-voert-aanval-uit-op-beiroet-eerste-aanval-op-libanese-hoofdstad-sinds-start-bestand~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Op het WK van Trump worden fans met de nieuwste technologie gescreend: ‘Je gezicht komt in een systeem om daar te blijven’",
+        "url": "https://www.demorgen.be/sport/op-het-wk-van-trump-worden-fans-met-de-nieuwste-technologie-gescreend-je-gezicht-komt-in-een-systeem-om-daar-te-blijven~b26646e6/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Iran akkoord dat het geen kernwapen mag hebben” - Commandant Hezbollah gedood bij Israëlisch bombardement op Beiroet",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-iran-akkoord-dat-het-geen-kernwapen-mag-hebben-commandant-hezbollah-gedood-bij-israelisch-bombardement-op-beiroet/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Regering-Trump haalt uit naar Europa in nieuw terrorismebeleid",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-regering-trump-haalt-uit-naar-europa-in-nieuw-terrorismebeleid/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump haalt uit naar Europa in nieuw terrorismebeleid",
+        "url": "https://www.nieuwsblad.be/buitenland/regering-trump-haalt-uit-naar-europa-in-nieuw-terrorismebeleid/151176825.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Hoe fors team Trump inhakt op de fundamenten van de democratie is zelfs te merken in Antwerpen”",
+        "url": "https://www.nieuwsblad.be/binnenland/hoe-fors-team-trump-inhakt-op-de-fundamenten-van-de-democratie-is-zelfs-te-merken-in-antwerpen/151161090.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Live President Trump: Regering-Trump haalt uit naar Europa in nieuw terrorismebeleid - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYTFqaFBkTFlGZml5cXFhcnhEUXZkdHZ2OTgxRkpDTndscHdpT3VZRzV3M0lRbTBSa1h5U0Y0b1JLZi1iRUk4aW1UbEs2enBsR0xvb0JUSVYtd3ZwUGZYSkdyblpUdE9RMFlWdGsyTVFkOFZJVDVRcXpPckpCSXNFZlhHb2JkSUNLZ01sNnFZUEFrRFVoR0hZeHh1UE0zaWI4UjQySkdSbTlrQ0IyOXZWSGpYdDRXMjJiQ0E2Tkl6VXdKVlpqZS1wWF9ySWJVNUFSaURxeDRjVkM?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump juge un accord \"très possible\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/07/direct-guerre-au-moyen-orient-trump-juge-un-accord-tres-possible-5UMLSPACTFG7XCZKIDHUEAO4KM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Critique du livre “Submersion” de Marc Dugain : “Tant Poutine que Trump sont des gens toxiques pour l’humanité”",
+        "url": "https://www.lalibre.be/culture/livres-bd/2026/05/07/critique-du-livre-submersion-de-marc-dugain-tant-poutine-que-trump-sont-des-gens-toxiques-pour-lhumanite-UCSQUDVC3ZDLRIE4KIP5WBTXSQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump optimiste sur la fin de la guerre - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPOTltVlRYTno4NE5fU25xa0lTbXpmM3lPdkZuQ3ZZSm5ydmpRQUNkeVRlYWtVbnMwZ21TZmJwVUhfZzFMOElyckNSSnlOcVdsakV1X043bFNFVUJRWllsSzdKUm5LemI1T1Nwa0Q3eDhEOXo5U01ENVdjTGxuS2lOZ0Y3U2N3ekpGNnpNS3FtWTZVLWs1WnhUdUhLZU1JQy1yT1ZmVXgyYXphODl3b19kSmpZcVJTU3JhQWhjazVTWmY2WHRZYXMza1NrNTc2aWRjb2pVVlFFMHZiUDFldGk2WVRDdmE4WFBjQzhYM014RFg3dw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "“De très bonnes discussions”: Trump juge “très possible” un accord avec l’Iran",
+        "url": "https://www.7sur7.be/monde/de-tres-bonnes-discussions-trump-juge-tres-possible-un-accord-avec-liran~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Les deux portes de Bezos (et celle où Trump s’est coincé) - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObnY4SWIyNXJwX0J1dGlnckFVT2FuaWZDX0JEdFdweC0yWHYtV2czdUhCY3Q2RVllN1FfQnY0c1d2bDNlNDBzMXBpZ3dlMXhXQUhMMFJOWmVSbkJQZEgwVjA1UUVDUi1HT0MwaFJRdXJ0b2laZDVaLTgxaDZ5WUpadFgxdzVJZmhiUVVLUjFkWWpZNGl6MkdqWU83OUxGQlZq?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Regering-Trump haalt uit naar Europa in nieuw terrorismebeleid: “Vijandige groeperingen maken misbruik van open grenzen”",
+        "url": "https://www.hln.be/buitenland/regering-trump-haalt-uit-naar-europa-in-nieuw-terrorismebeleid-vijandige-groeperingen-maken-misbruik-van-open-grenzen~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump acht akkoord met Iran mogelijk binnen 24 uur na ‘heel goede gesprekken’",
+        "url": "https://www.demorgen.be/snelnieuws/live-israel-voert-aanval-uit-op-beiroet-eerste-aanval-op-libanese-hoofdstad-sinds-start-bestand~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Op het WK van Trump worden fans met de nieuwste technologie gescreend: ‘Je gezicht komt in een systeem om daar te blijven’",
+        "url": "https://www.demorgen.be/sport/op-het-wk-van-trump-worden-fans-met-de-nieuwste-technologie-gescreend-je-gezicht-komt-in-een-systeem-om-daar-te-blijven~b26646e6/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Iran akkoord dat het geen kernwapen mag hebben” - Commandant Hezbollah gedood bij Israëlisch bombardement op Beiroet",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-iran-akkoord-dat-het-geen-kernwapen-mag-hebben-commandant-hezbollah-gedood-bij-israelisch-bombardement-op-beiroet/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Regering-Trump haalt uit naar Europa in nieuw terrorismebeleid",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-regering-trump-haalt-uit-naar-europa-in-nieuw-terrorismebeleid/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump haalt uit naar Europa in nieuw terrorismebeleid",
+        "url": "https://www.nieuwsblad.be/buitenland/regering-trump-haalt-uit-naar-europa-in-nieuw-terrorismebeleid/151176825.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Hoe fors team Trump inhakt op de fundamenten van de democratie is zelfs te merken in Antwerpen”",
+        "url": "https://www.nieuwsblad.be/binnenland/hoe-fors-team-trump-inhakt-op-de-fundamenten-van-de-democratie-is-zelfs-te-merken-in-antwerpen/151161090.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Iran akkoord dat het geen kernwapen mag hebben” - Commandant Hezbollah gedood bij Israëlisch bombardement op Beiroet",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-iran-akkoord-dat-het-geen-kernwapen-mag-hebben-commandant-hezbollah-gedood-bij-israelisch-bombardement-op-beiroet/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump haalt uit naar Europa in nieuw terrorismebeleid",
+        "url": "https://www.gva.be/buitenland/regering-trump-haalt-uit-naar-europa-in-nieuw-terrorismebeleid/151176886.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Live President Trump: Regering-Trump haalt uit naar Europa in nieuw terrorismebeleid - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYTFqaFBkTFlGZml5cXFhcnhEUXZkdHZ2OTgxRkpDTndscHdpT3VZRzV3M0lRbTBSa1h5U0Y0b1JLZi1iRUk4aW1UbEs2enBsR0xvb0JUSVYtd3ZwUGZYSkdyblpUdE9RMFlWdGsyTVFkOFZJVDVRcXpPckpCSXNFZlhHb2JkSUNLZ01sNnFZUEFrRFVoR0hZeHh1UE0zaWI4UjQySkdSbTlrQ0IyOXZWSGpYdDRXMjJiQ0E2Tkl6VXdKVlpqZS1wWF9ySWJVNUFSaURxeDRjVkM?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump juge un accord \"très possible\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/07/direct-guerre-au-moyen-orient-trump-juge-un-accord-tres-possible-5UMLSPACTFG7XCZKIDHUEAO4KM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Critique du livre “Submersion” de Marc Dugain : “Tant Poutine que Trump sont des gens toxiques pour l’humanité”",
+        "url": "https://www.lalibre.be/culture/livres-bd/2026/05/07/critique-du-livre-submersion-de-marc-dugain-tant-poutine-que-trump-sont-des-gens-toxiques-pour-lhumanite-UCSQUDVC3ZDLRIE4KIP5WBTXSQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump optimiste sur la fin de la guerre - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPOTltVlRYTno4NE5fU25xa0lTbXpmM3lPdkZuQ3ZZSm5ydmpRQUNkeVRlYWtVbnMwZ21TZmJwVUhfZzFMOElyckNSSnlOcVdsakV1X043bFNFVUJRWllsSzdKUm5LemI1T1Nwa0Q3eDhEOXo5U01ENVdjTGxuS2lOZ0Y3U2N3ekpGNnpNS3FtWTZVLWs1WnhUdUhLZU1JQy1yT1ZmVXgyYXphODl3b19kSmpZcVJTU3JhQWhjazVTWmY2WHRZYXMza1NrNTc2aWRjb2pVVlFFMHZiUDFldGk2WVRDdmE4WFBjQzhYM014RFg3dw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "“De très bonnes discussions”: Trump juge “très possible” un accord avec l’Iran",
+        "url": "https://www.7sur7.be/monde/de-tres-bonnes-discussions-trump-juge-tres-possible-un-accord-avec-liran~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Les deux portes de Bezos (et celle où Trump s’est coincé) - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObnY4SWIyNXJwX0J1dGlnckFVT2FuaWZDX0JEdFdweC0yWHYtV2czdUhCY3Q2RVllN1FfQnY0c1d2bDNlNDBzMXBpZ3dlMXhXQUhMMFJOWmVSbkJQZEgwVjA1UUVDUi1HT0MwaFJRdXJ0b2laZDVaLTgxaDZ5WUpadFgxdzVJZmhiUVVLUjFkWWpZNGl6MkdqWU83OUxGQlZq?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 13,
+      "putin": 3,
+      "macron": 3,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 15,
+      "putin": 4,
+      "macron": 4,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 23,
+      "crime": 15,
+      "eu": 20,
+      "politics": 19,
+      "be_gov": 4,
+      "culture": 7,
+      "tech": 15,
+      "economy": 6,
+      "sports": 12,
+      "health": 9,
+      "climate": 1,
+      "migration": 0,
+      "education": 1,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 26,
+      "crime": 19,
+      "eu": 25,
+      "politics": 27,
+      "be_gov": 5,
+      "culture": 7,
+      "tech": 22,
+      "economy": 11,
+      "sports": 23,
+      "health": 16,
+      "climate": 1,
+      "migration": 0,
+      "education": 2,
+      "weather": 9
+    }
   }
 ]
