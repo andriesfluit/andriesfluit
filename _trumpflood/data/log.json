@@ -14387,5 +14387,681 @@
       "education": 2,
       "weather": 9
     }
+  },
+  {
+    "date": "2026-05-08",
+    "generated_at": "2026-05-08T07:47:18+02:00",
+    "last_checked_at": "2026-05-08T07:47:18+02:00",
+    "total_articles": 345,
+    "trump_articles": 18,
+    "percentage": 5.2,
+    "core_percentage": 5.2,
+    "core_percentage_name": 5.2,
+    "trump_articles_expanded": 18,
+    "core_percentage_expanded": 5.2,
+    "indirect_references": 0,
+    "wide_total_articles": 458,
+    "wide_trump_articles": 28,
+    "wide_percentage": 6.1,
+    "wide_trump_articles_expanded": 28,
+    "wide_percentage_expanded": 6.1,
+    "macro_percentage": 4.6,
+    "qualifying_outlets": 14,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 38,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 11.0,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.0,
+    "breadth": 0.86,
+    "deviation": 1.22,
+    "smoothed_pct": 4.04,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 2,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_nl_politics": {
+        "fetched": 56,
+        "today": 7,
+        "kept": 7,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 28.57
+      },
+      "google_nl_world": {
+        "fetched": 66,
+        "today": 13,
+        "kept": 6,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 33.33
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 60,
+        "today": 6,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 36,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 45,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 74,
+        "kept": 64,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.56
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.38
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.55
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 50.0
+      },
+      "trends_g": {
+        "fetched": 78,
+        "today": 6,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Justitie in VS onderzoekt: oliehandelaren gokten op prijsdaling, net voor aankondigingen Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV21oek1UZ00xT1hIYXRvQ092S3kyMmNmdjI4MURybDM5VjZkVFVXSmtHdUZCNnFNWC1ubVJlWGpFR0NETDBCSnFlM0JTOFBDYV9vd0xLNHVtUHo5OW8zR2pnWURGZW5MbzJ0RDh1MkRfSnhwVWdFb1g5RDhFVzhjNndnRm1wNWRXOFdZQ2F6MzRUTnQ3V011anBBWDZ3T0JpSmRRb3VXbkNPUUNrT1hGbzc5dlplcDBmQXhTRGV4aVFmV1dBV3RGYnh1a2tUZ3VuUnROZDFRWkY?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS en Iran beschieten elkaar opnieuw bij Straat van Hormuz, maar ‘staakt-het-vuren blijft van kracht’, volgens Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-en-iran-beschieten-elkaar-bij-straat-van-hormuz-maar-staakt-het-vuren-blijft-van-kracht-volgens-trump~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Iran en Verenigde Staten vallen elkaar opnieuw aan, maar “staakt-het-vuren houdt toch stand”, zegt Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-en-verenigde-staten-vallen-elkaar-opnieuw-aan-maar-staakt-het-vuren-houdt-toch-stand-zegt-trump/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Chinese vuurwerkmakers profiteren van dooi tussen Trump en China vlak voor Amerikaanse feestdag",
+        "url": "https://www.nieuwsblad.be/buitenland/chinese-vuurwerkmakers-profiteren-van-dooi-tussen-trump-en-china-vlak-voor-amerikaanse-feestdag/151233532.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Chinese vuurwerkmakers profiteren van dooi tussen Trump en China vlak voor Amerikaanse feestdag",
+        "url": "https://www.hbvl.be/buitenland/chinese-vuurwerkmakers-profiteren-van-dooi-tussen-trump-en-china-vlak-voor-amerikaanse-feestdag/151233921.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis noemt ‘Star wars’-acteur Mark Hamill “ziek individu” na AI-afbeelding van Trump in graf",
+        "url": "https://www.hbvl.be/media-en-cultuur/witte-huis-noemt-star-wars-acteur-mark-hamill-ziek-individu-na-ai-afbeelding-van-trump-in-graf/151233308.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe juridische tegenslag voor Trump: handelsrechtbank verwerpt wereldwijde heffing van 10 procent - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMi1NT3NjSDdTdGk4ZXExdGJpb0FTb1VnMGtYTTVaa2puNFotUTNTcmZqLUhDaUZUSDRKSUt0amZsZHkzR2x0dnZ4cFVXR2hFX19sYmhrenpSM3dUeGpJQUpSdWd0RFA5YXdTLWhNNHJKSW91aVN6VFR5bVZfLS1UbUhLSE15ajN3N3U2UTdZWFRHbGtnZXlIa1hnbjBNZUlJSmE5c3RjbGpDcHEtVGFKSHo1cUtZZXYyTVdzTVFaR1JmSk11RWl4Uk9LYkU0MlNVX20wdnc0QUpkNjN3WGNTZktZbHZ6aVAyU3pr?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Direct - Guerre au Moyen-Orient : Trump appelle l'Iran à signer un accord \"rapidement\" après les frappes à Ormuz",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-trump-appelle-l-iran-a-signer-un-accord-rapidement-apres-les-frappes-a-ormuz-11720960",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump ne prévoit pas d'envahir Cuba, déclare le Brésilien Lula en visite à Washington",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/08/trump-ne-prevoit-pas-denvahir-cuba-declare-le-bresilien-lula-en-visite-a-washington-MCTASKPTCVGXXAPSNS5B7IBU7E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient: la situation chauffe dans le détroit d'Hormuz avec des frappes, Trump menace l'Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/08/direct-guerre-au-moyen-orient-la-situation-chauffe-dans-le-detroit-dhormuz-avec-des-frappes-trump-menace-liran-5ZTLUH6PBNEDZAE6KJPT5YVVHU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau revers judiciaire pour les droits de douane de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRzhjQ1IxMnVmeHJONkxHcUdZbVRsa1hTeUtkQWVmdzFjZnZkSFg1Yml4aHR3eXNlSXF3ZjJHTkk5UkRTQWc4ekpsV3NablIzR0FhWDI3cnZQMWk4TmxadGRyS2NfMWJ0R1RRQ3h5RTdZa25nUmxTb2phQkhuN2phd2JOQk5tMWFMeFJGdElwUUR3VUxIMW5uMmFGa2JxNWFDMmdFVk12MnRkSVdXbG5jbHFjOGxKUkg2V1FieWhCbF9naHB3cEJmUGtn?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump maintient que le cessez-le-feu est en vigueur malgré des échanges de frappes - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOY3VxZ0FreFZ2ai0yRVR0aE9sUHpJQ190UHRyVlNQTTd6ZDhoZEM2cnI0UzNubllLamNiU2Z1ZVZRdHZqUF9Pbi02ZDZfaVhuRW5FWk0yd2hpbWkxOTJTWkpYTW5xbl9XR09JQ3piRnlKVXFZVzVpOEpPbWlJSkJGd2piYm5FWWVwWTc3cmZTTkRFSi0yTG5ZR0VhUUdUWlZMU2NKbm82TzFTeTV1T2dOdkpPUFI3RDE0VWlKVHZOZHg1RENQdE5XbEh5dE10Q2ZKSVhVOHNfVTB2aWdfQzNySGdZRFV1TXh6TllPeHNPREg3SFNVX1NuTEFhdUtqRWtkbTFldlJzNWVTWnNWMmo5amxTSUNsQko1TW1ERGNDOE9kZ0xQUkVxdk02UQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient: malgré le cessez-le-feu, des frappes ont lieu dans le détroit d'Hormuz, Trump menace l'Iran",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/08/direct-guerre-au-moyen-orient-malgre-le-cessez-le-feu-des-frappes-ont-lieu-dans-le-detroit-dhormuz-trump-menace-liran-PKX7C6SD6VCRJDDBIU4MVZA6QQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Les États-Unis et l’Iran échangent des tirs dans le détroit d’Ormuz: “Nous les avons balayés”, réagit Trump",
+        "url": "https://www.7sur7.be/monde/les-etats-unis-et-liran-echangent-des-tirs-dans-le-detroit-dormuz-nous-les-avons-balayes-reagit-trump~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt aanvallen op Iran 'een liefdevol tikje' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbF8xX1BobTgzeFRvSGJPdjZIQU93eGxzd0hxX0Z3SjRLUG05NE5ZUXI5SVFNWHVtVW1tM2hidGdxWEpSSjlWTVU3UFdfNXZIbHFYNUtLVHkzQjluWnpPY0lUaml3TWlXSFRqUmMzODZHRTNYZ0xkQm04am8tVFdEQ1BGbjNHSFZjSWotNVpiUVFtT0ljODdoYV8xZGNDX0lxYjMteU1IRklOaVM0VWdUR0dvU3F5UQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump maintient que le cessez-le-feu avec l’Iran reste en vigueur malgré des échanges de frappes - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZFNBYk5qMGdMNmZicWlNa0NzNTFJMVhvdUxLNEVzQ09lMmVWMTNlbUM4dDdVbzY3b0JfckJncm9GRU1YSm1reThzVWRaVFhjN2xzdFptdVF3VkdCa2NSVkVORG9LaktCSnFDU0s4Z1NnUVlNZHhjZ09aOWw4ZkwwWWpRUmZZMFVxaDctZ0pnQ2pYY0hBcnJRc2dWSms1SVMwcW5TYTJjTHJIOHdrQkxBUmV4a0VMRXl3Qmx2SGc1MnA?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« S’ils ne signent pas rapidement l’accord, nous les frapperons bien plus violemment » : Trump menace l’Iran après de nouvelles attaques à Ormuz - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNa3IzU2VNa1lTdWxPeDhOVTBjNEZ6NjN5S2dONFRWWnhCYThZaTZObGw4MWVUUVJwZUo3RHJxMFVic3pCQlIzMmFINWF0UWJDUmF2R0pJVDktZ05VVF9EOXZMQk1yNk9WcVVackxpRzFxT2VKNnk4V1VkM0p6SFZFOXNhOVgwTGhJeVBZaGZyYlROR2VZYlh0cUsxcG14SXBnMnpKckh6N01kanJZYU5kNDJ3VHlEblFZWEhHVy1ZMDA2YXY0bWN2ZEhLR0Q5c2xZVkhFT0hIS2x6dXVmUGh0dmxiSQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« S’ils ne signent pas rapidement, nous les frapperons plus violemment » : Trump menace l’Iran après de nouvelles attaques à Ormuz… en plein cessez-le-feu - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdFQ5d0ZCWW5ZVVZJaHd6YTBDdGNCMHNfemY5RTRVenpkdXE0eXNKR04wakY0cVgzTlN6NDZsTU5wbEwzd21sa1JKRWJ4MXUtMmUyampkSmx1WkpHcVN3aXMwRzlsWXFaWU5Ick44d2lmai0tT1RwQklTelBxNk1IQ3d1d05GUjFGdlpzVGhtSkNWVXB4YXJrSnliUWhkSUo0anNWbHhkU0ZBaEgtVGNTbjhzNElkLW5WQ3FXb05VVEM4T1V6aC1oc1JrTGZhZmIycDVyR0RIZVhVQkc0NUJPcFN4Yw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Direct - Guerre au Moyen-Orient : Trump appelle l'Iran à signer un accord 'rapidement' après les frappes à Ormuz - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSTVvaEp3ekNQUlFsV0EtMHNRRDJZN3M1VVR0MmR3Q2Y0cmVnZ291YnFKckRMUUp3RGVFYTJEUDZMLTV0Nlhsc01CVXEyc3B1ckxPeXpBZzNvbVpjNmQ0VTREdnFzSDZUakljNVdFOHl5U3ZNSlpTbGc3VDlvT0Z4NTMzNWFmVXpGZDZpMGVpcFRuQWlBRWx1S0VLSVdaWXRFS0pPRXdQWDlsS2RpNGZ5d3lWNDQwRUJOVDB4dkhyVHN6VE9HYWRKRF82MUZyYl9TN3poYjY1cDlmZjg?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump deelt AI‑beeld waarop hij slapende Biden, Obama en Clinton belachelijk maakt - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeWs4UVBFMndwajNHMG9vYjQ0Tkd4MkR6NnhhYU90c09XaXNUdndCWmVsR3E2V05CZlBCLXFNZHpDdnVzSkZsM3JMcUhOdFdTSkZkVjZCTU5INjZHZEI2NkVhd0Nkc3NFYTRxcEJOVHEzMmxsT1B4akZIRGdRcDZWOTBxOXh1bm5Dc2pNWi1vNDdMN2J1b0preVc0REpiLUlZYWo1Q3ZHNHN6eVUwM2lDQU9rZEYzT3J3OENDUFd0dW1IMlF6X3lRZEpjTTBuVERZ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "CIA-rapport ontkent beweringen van Trump: “Iran is nog maanden bestand tegen blokkade Straat van Hormuz” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQjVsZWthZWVZRlBtNjZZLWkwWDFvYU1jb2djMV8tM3lmNVhWb2MzOGQ0YWQ0Q3dzRTFCZ2dJcTUwenotREJuM3QzaC10U09KYlRSMDc4OFlTbTI2eW5PTThwTU1jajdRVWVIZndBT0pQNzYwLU43QXd1eGdZLTYwQi0waFBtcEdiZXJ4OG9VMmNEaDQ3REl2eVUxaV9VQUtFN2d1MXd0a2Z6NFhDa2REMGFuMjgxeUxuX2NJTzRsNUpQX3Blcm1yR0dUZTVqNU00QWhzTHV3NFhTUC1tWVJRMjI2bnJpVDhy?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump deelt AI‑beeld waarop hij slapende Biden, Obama en Clinton belachelijk maakt - GVA",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb19qTEY3X0I0VHczczNzYkRwa0ctV2NzY0xLZVFtQUNXUWJ2bmFuWmJXbE8xeVdVcFVLakYzS20tR2xJU25NWDRTRTVJNFNGc3BlVFlVV1NGQVJzc0VGXzVCRmxfTDJzeTFmVktoYlhscEJXSlBfVldFY25kVGVldmRkY0Ewbk9DQmpDT0x4RE56MER6aUJ0TGR0czM0dnVhR0VjcXpsWVBoa1M3MmdnU3V4cVNhaUw0NHMwV3ZGS1d0WFI0aThKSTYyeUdMUkk?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Met wensdromen en bochtenwerk blijft Trump zichzelf vastrijden - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDJQUENVbkdzcU1JZmpCVC1CN3htdFdJOXlnb0Fkbk8yUjZWQi0zVlFnWjhTb0pTRVlBZXlEcEttSnRFV3lFMTFvTWRIRHlwbGpmY3cxNnpyZ25LenB2dEQtS201YXFrUG9lSjFxNUNPTHBDVGFVV0tRREFJTG1NNWdxWkRCZWw5NW1ESWxJbWtYWmNLSTBxQ1NXSjB1Ymp0WDlxWWpaTzBKT2lyRUk1NHpXQQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump deelt AI‑beeld waarop hij slapende Biden, Obama en Clinton belachelijk maakt - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPc2U2MzN2SWFQZlctWnBkclVGVGpjV01ybkF3SWVGclNEV3JEbGZfUE9OcE9YX2l3OHBqSXdkckh0SUdiRjNQM2hEc2VRd0pXX2R2QWZiLUpQb0pCSEJyQWhmVDRzSVE5bkZQVzRyS1VxZXBodWdkNC12TS0yaUF3ZXZBbTJaUlA3WTVGNnphZUNxWkRGTHNuUUlIRGg4Qnl0X2M1cUdxRzExTFJIUFpfNHM3WVVLNjU3cUU0Wkk5MWUwSWtfdkI4N3lXVldIYmpkVWJvbmM3V0U?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "L’IA « superpuissante » Mythos, nouvelle bombe géopolitique de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcUxWYU9GS1h0Q2J3enhtTjJlamVvMEZHZjZkU044Z0ZneDFEb0JlY09GWEhQakNsM2xEMzBLQXltdUVMUjV0RW1XTnlXZmFSbTdDaW1na2w3cktJZXpGS0tDaEx3NnhlbE5EVlJqRGhaYkRVbHVhcXJCWk9LN05NODNCNi1QZG5fUm1EY0RtN2VhZkRlbTYtOHdOWVdNRXZxclZ2ZmxhT3NYdWhhSElr?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Justitie in VS onderzoekt: oliehandelaren gokten op prijsdaling, net voor aankondigingen Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV21oek1UZ00xT1hIYXRvQ092S3kyMmNmdjI4MURybDM5VjZkVFVXSmtHdUZCNnFNWC1ubVJlWGpFR0NETDBCSnFlM0JTOFBDYV9vd0xLNHVtUHo5OW8zR2pnWURGZW5MbzJ0RDh1MkRfSnhwVWdFb1g5RDhFVzhjNndnRm1wNWRXOFdZQ2F6MzRUTnQ3V011anBBWDZ3T0JpSmRRb3VXbkNPUUNrT1hGbzc5dlplcDBmQXhTRGV4aVFmV1dBV3RGYnh1a2tUZ3VuUnROZDFRWkY?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS en Iran beschieten elkaar opnieuw bij Straat van Hormuz, maar ‘staakt-het-vuren blijft van kracht’, volgens Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-en-iran-beschieten-elkaar-bij-straat-van-hormuz-maar-staakt-het-vuren-blijft-van-kracht-volgens-trump~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Iran en Verenigde Staten vallen elkaar opnieuw aan, maar “staakt-het-vuren houdt toch stand”, zegt Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-iran-en-verenigde-staten-vallen-elkaar-opnieuw-aan-maar-staakt-het-vuren-houdt-toch-stand-zegt-trump/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Chinese vuurwerkmakers profiteren van dooi tussen Trump en China vlak voor Amerikaanse feestdag",
+        "url": "https://www.nieuwsblad.be/buitenland/chinese-vuurwerkmakers-profiteren-van-dooi-tussen-trump-en-china-vlak-voor-amerikaanse-feestdag/151233532.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Iran en Verenigde Staten vallen elkaar opnieuw aan, maar “staakt-het-vuren houdt toch stand”, zegt Trump",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-iran-en-verenigde-staten-vallen-elkaar-opnieuw-aan-maar-staakt-het-vuren-houdt-toch-stand-zegt-trump/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Chinese vuurwerkmakers profiteren van dooi tussen Trump en China vlak voor Amerikaanse feestdag",
+        "url": "https://www.gva.be/buitenland/chinese-vuurwerkmakers-profiteren-van-dooi-tussen-trump-en-china-vlak-voor-amerikaanse-feestdag/151233649.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Eén jaar paus Leo XIV: van de kerk in het midden houden tot een middenvinger voor Trump",
+        "url": "https://www.gva.be/buitenland/een-jaar-paus-leo-xiv-van-de-kerk-in-het-midden-houden-tot-een-middenvinger-voor-trump/151224368.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Chinese vuurwerkmakers profiteren van dooi tussen Trump en China vlak voor Amerikaanse feestdag",
+        "url": "https://www.hbvl.be/buitenland/chinese-vuurwerkmakers-profiteren-van-dooi-tussen-trump-en-china-vlak-voor-amerikaanse-feestdag/151233921.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis noemt ‘Star wars’-acteur Mark Hamill “ziek individu” na AI-afbeelding van Trump in graf",
+        "url": "https://www.hbvl.be/media-en-cultuur/witte-huis-noemt-star-wars-acteur-mark-hamill-ziek-individu-na-ai-afbeelding-van-trump-in-graf/151233308.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe juridische tegenslag voor Trump: handelsrechtbank verwerpt wereldwijde heffing van 10 procent - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMi1NT3NjSDdTdGk4ZXExdGJpb0FTb1VnMGtYTTVaa2puNFotUTNTcmZqLUhDaUZUSDRKSUt0amZsZHkzR2x0dnZ4cFVXR2hFX19sYmhrenpSM3dUeGpJQUpSdWd0RFA5YXdTLWhNNHJKSW91aVN6VFR5bVZfLS1UbUhLSE15ajN3N3U2UTdZWFRHbGtnZXlIa1hnbjBNZUlJSmE5c3RjbGpDcHEtVGFKSHo1cUtZZXYyTVdzTVFaR1JmSk11RWl4Uk9LYkU0MlNVX20wdnc0QUpkNjN3WGNTZktZbHZ6aVAyU3pr?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Direct - Guerre au Moyen-Orient : Trump appelle l'Iran à signer un accord \"rapidement\" après les frappes à Ormuz",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-trump-appelle-l-iran-a-signer-un-accord-rapidement-apres-les-frappes-a-ormuz-11720960",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump ne prévoit pas d'envahir Cuba, déclare le Brésilien Lula en visite à Washington",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/08/trump-ne-prevoit-pas-denvahir-cuba-declare-le-bresilien-lula-en-visite-a-washington-MCTASKPTCVGXXAPSNS5B7IBU7E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient: la situation chauffe dans le détroit d'Hormuz avec des frappes, Trump menace l'Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/08/direct-guerre-au-moyen-orient-la-situation-chauffe-dans-le-detroit-dhormuz-avec-des-frappes-trump-menace-liran-5ZTLUH6PBNEDZAE6KJPT5YVVHU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau revers judiciaire pour les droits de douane de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRzhjQ1IxMnVmeHJONkxHcUdZbVRsa1hTeUtkQWVmdzFjZnZkSFg1Yml4aHR3eXNlSXF3ZjJHTkk5UkRTQWc4ekpsV3NablIzR0FhWDI3cnZQMWk4TmxadGRyS2NfMWJ0R1RRQ3h5RTdZa25nUmxTb2phQkhuN2phd2JOQk5tMWFMeFJGdElwUUR3VUxIMW5uMmFGa2JxNWFDMmdFVk12MnRkSVdXbG5jbHFjOGxKUkg2V1FieWhCbF9naHB3cEJmUGtn?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump maintient que le cessez-le-feu est en vigueur malgré des échanges de frappes - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOY3VxZ0FreFZ2ai0yRVR0aE9sUHpJQ190UHRyVlNQTTd6ZDhoZEM2cnI0UzNubllLamNiU2Z1ZVZRdHZqUF9Pbi02ZDZfaVhuRW5FWk0yd2hpbWkxOTJTWkpYTW5xbl9XR09JQ3piRnlKVXFZVzVpOEpPbWlJSkJGd2piYm5FWWVwWTc3cmZTTkRFSi0yTG5ZR0VhUUdUWlZMU2NKbm82TzFTeTV1T2dOdkpPUFI3RDE0VWlKVHZOZHg1RENQdE5XbEh5dE10Q2ZKSVhVOHNfVTB2aWdfQzNySGdZRFV1TXh6TllPeHNPREg3SFNVX1NuTEFhdUtqRWtkbTFldlJzNWVTWnNWMmo5amxTSUNsQko1TW1ERGNDOE9kZ0xQUkVxdk02UQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient: malgré le cessez-le-feu, des frappes ont lieu dans le détroit d'Hormuz, Trump menace l'Iran",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/08/direct-guerre-au-moyen-orient-malgre-le-cessez-le-feu-des-frappes-ont-lieu-dans-le-detroit-dhormuz-trump-menace-liran-PKX7C6SD6VCRJDDBIU4MVZA6QQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Les États-Unis et l’Iran échangent des tirs dans le détroit d’Ormuz: “Nous les avons balayés”, réagit Trump",
+        "url": "https://www.7sur7.be/monde/les-etats-unis-et-liran-echangent-des-tirs-dans-le-detroit-dormuz-nous-les-avons-balayes-reagit-trump~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt aanvallen op Iran 'een liefdevol tikje' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbF8xX1BobTgzeFRvSGJPdjZIQU93eGxzd0hxX0Z3SjRLUG05NE5ZUXI5SVFNWHVtVW1tM2hidGdxWEpSSjlWTVU3UFdfNXZIbHFYNUtLVHkzQjluWnpPY0lUaml3TWlXSFRqUmMzODZHRTNYZ0xkQm04am8tVFdEQ1BGbjNHSFZjSWotNVpiUVFtT0ljODdoYV8xZGNDX0lxYjMteU1IRklOaVM0VWdUR0dvU3F5UQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump maintient que le cessez-le-feu avec l’Iran reste en vigueur malgré des échanges de frappes - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZFNBYk5qMGdMNmZicWlNa0NzNTFJMVhvdUxLNEVzQ09lMmVWMTNlbUM4dDdVbzY3b0JfckJncm9GRU1YSm1reThzVWRaVFhjN2xzdFptdVF3VkdCa2NSVkVORG9LaktCSnFDU0s4Z1NnUVlNZHhjZ09aOWw4ZkwwWWpRUmZZMFVxaDctZ0pnQ2pYY0hBcnJRc2dWSms1SVMwcW5TYTJjTHJIOHdrQkxBUmV4a0VMRXl3Qmx2SGc1MnA?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« S’ils ne signent pas rapidement l’accord, nous les frapperons bien plus violemment » : Trump menace l’Iran après de nouvelles attaques à Ormuz - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNa3IzU2VNa1lTdWxPeDhOVTBjNEZ6NjN5S2dONFRWWnhCYThZaTZObGw4MWVUUVJwZUo3RHJxMFVic3pCQlIzMmFINWF0UWJDUmF2R0pJVDktZ05VVF9EOXZMQk1yNk9WcVVackxpRzFxT2VKNnk4V1VkM0p6SFZFOXNhOVgwTGhJeVBZaGZyYlROR2VZYlh0cUsxcG14SXBnMnpKckh6N01kanJZYU5kNDJ3VHlEblFZWEhHVy1ZMDA2YXY0bWN2ZEhLR0Q5c2xZVkhFT0hIS2x6dXVmUGh0dmxiSQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« S’ils ne signent pas rapidement, nous les frapperons plus violemment » : Trump menace l’Iran après de nouvelles attaques à Ormuz… en plein cessez-le-feu - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdFQ5d0ZCWW5ZVVZJaHd6YTBDdGNCMHNfemY5RTRVenpkdXE0eXNKR04wakY0cVgzTlN6NDZsTU5wbEwzd21sa1JKRWJ4MXUtMmUyampkSmx1WkpHcVN3aXMwRzlsWXFaWU5Ick44d2lmai0tT1RwQklTelBxNk1IQ3d1d05GUjFGdlpzVGhtSkNWVXB4YXJrSnliUWhkSUo0anNWbHhkU0ZBaEgtVGNTbjhzNElkLW5WQ3FXb05VVEM4T1V6aC1oc1JrTGZhZmIycDVyR0RIZVhVQkc0NUJPcFN4Yw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 18,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 3,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 28,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 4,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 27,
+      "crime": 10,
+      "eu": 17,
+      "politics": 10,
+      "be_gov": 3,
+      "culture": 12,
+      "tech": 4,
+      "economy": 7,
+      "sports": 13,
+      "health": 5,
+      "climate": 3,
+      "migration": 0,
+      "education": 5,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 36,
+      "crime": 15,
+      "eu": 22,
+      "politics": 15,
+      "be_gov": 5,
+      "culture": 13,
+      "tech": 9,
+      "economy": 9,
+      "sports": 20,
+      "health": 6,
+      "climate": 4,
+      "migration": 0,
+      "education": 6,
+      "weather": 11
+    }
   }
 ]
