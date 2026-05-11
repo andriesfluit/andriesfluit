@@ -16025,5 +16025,669 @@
       "education": 2,
       "weather": 3
     }
+  },
+  {
+    "date": "2026-05-11",
+    "generated_at": "2026-05-11T08:55:55+02:00",
+    "last_checked_at": "2026-05-11T08:55:55+02:00",
+    "total_articles": 384,
+    "trump_articles": 20,
+    "percentage": 5.2,
+    "core_percentage": 5.2,
+    "core_percentage_name": 5.2,
+    "trump_articles_expanded": 20,
+    "core_percentage_expanded": 5.2,
+    "indirect_references": 0,
+    "wide_total_articles": 518,
+    "wide_trump_articles": 24,
+    "wide_percentage": 4.6,
+    "wide_trump_articles_expanded": 24,
+    "wide_percentage_expanded": 4.6,
+    "macro_percentage": 6.1,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 10.4,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 3.33,
+    "breadth": 0.72,
+    "deviation": 1.22,
+    "smoothed_pct": 3.6,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 12,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "google_nl_politics": {
+        "fetched": 48,
+        "today": 9,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_world": {
+        "fetched": 56,
+        "today": 11,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 66,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 51,
+        "today": 13,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 31,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 26,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 22,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 67,
+        "kept": 38,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 32,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 39,
+        "kept": 39,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.56
+      },
+      "knack": {
+        "fetched": 92,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 10,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 37,
+        "kept": 36,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.56
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 38,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 14,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "trends_g": {
+        "fetched": 24,
+        "today": 9,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 25,
+        "today": 6,
+        "kept": 6,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 33.33
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "“Volstrekt onaanvaardbaar”: dit is wat er in het Iraanse vredesvoorstel staat dat Trump in 2 zinnen afschoot",
+        "url": "https://www.hln.be/buitenland/volstrekt-onaanvaardbaar-dit-is-wat-er-in-het-iraanse-vredesvoorstel-staat-dat-trump-in-2-zinnen-afschoot~ad20ed22/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt Iraans vredesvoorstel volkomen onacceptabel, olieprijzen lopen op",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump noemt antwoord van Iran op Amerikaans vredesvoorstel ‘totaal onaanvaardbaar’: olieprijzen lopen fors op",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-noemt-antwoord-van-iran-op-amerikaans-vredesvoorstel-totaal-onaanvaardbaar-olieprijzen-lopen-fors-op~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - China bevestigt komst van Trump woensdag",
+        "url": "https://www.demorgen.be/snelnieuws/live-china-bevestigt-komst-van-trump-woensdag~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Families smeken Donald Trump om vrijlating van twee Amerikaanse gevangenen in China te bespreken met Xi Jinping",
+        "url": "https://www.nieuwsblad.be/buitenland/families-smeken-donald-trump-om-vrijlating-van-twee-amerikaanse-gevangenen-in-china-te-bespreken-met-xi-jinping/151354898.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Families smeken Donald Trump om vrijlating van twee Amerikaanse gevangenen in China te bespreken met Xi Jinping",
+        "url": "https://www.hbvl.be/buitenland/families-smeken-donald-trump-om-vrijlating-van-twee-amerikaanse-gevangenen-in-china-te-bespreken-met-xi-jinping/151355267.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : Trump juge \"totalement inacceptable\" la réponse de l’Iran pour mettre fin à la guerre",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-trump-juge-totalement-inacceptable-la-reponse-de-l-iran-pour-mettre-fin-a-la-guerre-11722180",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump rejette la réponse de l'Iran, le pétrole repart à la hausse",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/11/direct-guerre-au-moyen-orient-trump-rejette-la-reponse-de-liran-le-petrole-repart-a-la-hausse-KJVHAKW6ZFAY7OXYV3XQWHAQOI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump juge \"totalement inacceptable\" la réponse de l'Iran pour mettre fin au conflit - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNamU4TUh0MFdpeTBiZEZiblNKWU1VSWhvSGtaMTEwMWVWV2wyM3RZd0ZkdFNHcFBZYV9FY0Fidm8yREhBdUpPX3JGYnZDOXRtQmtYTW9BaXNBM0NaQ2E0VVQzRUUyV2NSUk5pd0dUNGJkTXZQVHVleXVyTFVJSHY2THFzczV0dHZTQnJvY1VxYmZwY1JxeGRDcDJqR1drSkdCZ0I0WTljTmxmNHFlbGRUX3FMRndnZTBzc2RWT0lBaERGcWYtd1RtMloxT0JlWHN0SjFjTXpWTXp3RFFMZ2tSRVFZNlZVT0F0Y205eE5TbnZmX1dId3YtMUZJRU9rRk1uRnowS1hNT0c5ak52TlQ2MTdSOG5NN2UyMnJhMXZLTDBIV056V29vMHpxUQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump rejette la réponse de l'Iran, le pétrole repart à la hausse",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/11/direct-guerre-au-moyen-orient-trump-rejette-la-reponse-de-liran-le-petrole-repart-a-la-hausse-IEFRI2BYEFF67OJOUJUYFHWTBY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump rejette la réponse “inacceptable” de l’Iran, le pétrole repart à la hausse",
+        "url": "https://www.7sur7.be/monde/trump-rejette-la-reponse-inacceptable-de-liran-le-petrole-repart-a-la-hausse~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump en visite en Chine du 13 au 15 mai pour “mettre la pression” sur Xi Jinping",
+        "url": "https://www.7sur7.be/monde/trump-en-visite-en-chine-du-13-au-15-mai-pour-mettre-la-pression-sur-xi-jinping~af667e14/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Weekvooruitblik met econome Dorien Emmers | Topontmoeting Trump-Xi | Vredesdeal Iran lijkt opnieuw veraf | Resultaten KBC, Cisco, Tencent, Alibaba - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNTk1RX0U1cVB6NEc1LWJnajlELXB0dzdRSjdzbkhTdk52TFhUSDZVTWtzZHdTQUo2Mkp2a0ZPQ3lSWXNONE03S3Z5Z2poYlVlVnFsdUNOd2R1dml6US1peDhNUkRKSzZaeWZUTU9keDNQOWN2dkc4SEdYWG1CRDY0LWd4Q1FaRERzRzN4cFFabGlLVDViVUJydFk3NWx3Z3laZzBhTGx0R3JDSEVZSWNTa2xUVjlIR0FHTi1NQUczNTdLeGZrRzdySzR6eTRsUzdoV0dwVTBUdVpzNU1mNlZTOF9nWUp5d3JXaFpZR1dYZmZlVkNUTGI4RFp5NjNxd1BqcHFxTmJLQTVual91cVNuTVJQSQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "'Totaal onaanvaardbaar': Trump verwerpt antwoord van Iran op zijn vredesvoorstel - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYjFhMHVMWDd5Qzl6S3paUGxnMEp6ZU1LN0IzTU51OHl5bWlYRnhmWDZ4SlJmelNLWXdqVG1CYnFONmN1bzc4eE5XTXFQSEQyS1FLWThvVnNvRmhDUWJHOWNYN1BfcG9uekx2Q2ZZUGdCZnk3Qm00c0JZRHBnQVlHMFJ3TFVRYUxlSmVkREsteUZOaU1xN2V2MGpQQVMwYjdEWGlqbVFpT2FNTXplUUhUU2ZDNi1CYjBRbWJraG1KeFlib0lySjhKajF3UWNpNjJ3bWlOcDltNVk0ZWc?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "La Chine confirme la visite de Donald Trump du 13 au 15 mai - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZGNncXd4RTRjOTliS0lpSVZYSUNnZGpGU0VfdlJZSFBOVWNJTElOd0ZkRW1vMFRQR2NxeFRsOC1GeXdqb1hQcEhhSFVyZ2t2QU9NYl9NQmQzbjJRNDU0Vklxc3BlTjdHWE14eDdJMzgyR3dzVG4xbGtrTW9pQzBKeEZhTTQyUlBMbHZmUkNIWFA0eU5CZ2JVWWR1NlpIbDMtUkdoN2FXTHRzd00?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« J’attends de la loyauté » : Donald Trump exige le soutien des juges de la Cour suprême pour ses politiques clés - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOGRUQkljcXJubGNSZkVIeXd5NEtpem94RVJ3NWdnODFxWHI0a1RTN3dENFpIeGx0T25qaVQxRVpfYjVyeU8tel9SVTlFaXVYYU9rbTlxVFJoaTJyNEFBV0VHZ1ZpM1RLME14QnlGM2ZtaTlXRTNTWW5KYmRRSVJaY3pjeFhBUW4xZGFIMTJfRFZKaEhqR2hBSTl3UFM4bUUzQUprVUlhM1pITUZRTWY1ZGtLZzRIVEZiaDZiVzVR?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump demande aux juges de la Cour suprême d’être « loyaux » envers ses politiques clés - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYzJicDhYNmd0dTE1ZGoxY244UzVuY2JySnFONlBVTjZDY2R4VjJYcVJUbkNjeTduRTdVRWlVVFdMdjVJSmJndDkxakJzLTA1U1B2dG4zYUNMNzZDZXViSi05QkFHQmZFTkhyTExQZUpPSjhtV2pTbDEySTkzUzJlbGJTVlN4TnFNOEVSeEMyZVg0dm9rbXlsUXQ4RTlTYXcySV91VVduRzhISUY5UW4wUmZCR1dqNmw3NlFLdHVIa2dFaFRxSjJNcEc1Q20tQUVDRUd0M2hDSWxqSDg?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« C’est totalement inacceptable » : Trump, furieux, rejette la réponse de l’Iran et fait bondir les prix du pétrole - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMXozbnRnTzltODRvR2RHNkdacFkza0ZpVXRsT20xdDRfU3B4azNZcnhOTjRJUjFyTnNSblFwcndFZXJWR2ZDTU42TUJPYXNFeko2TFZrc0N5WEJSTFF3U3oyVmdwR3JsNHEyWVJTWVVrV2xCWENZaHY2WlpzQVZBcmVjbU5VNVdQZ0dqV3RqR1VXOEtlaURuUURRTlJWRGttUHlDeG5GdmdBN2xxWGsxeDFwSWFmY2JZeXBoOU5FUGxuNW1hZkk5djdqTlRVRHZzMHNLaGxzUnZVV2xhaGF0OWJR?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "“Totalement inacceptable” : Trump rejette la réponse de l’Iran, le pétrole repart à la hausse - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOEdoal8wQVg2OUlPXzdkSE1jSVd1OFU3NnlQUXJpNldpZzZtMUJ3Z3ZBa1pWMTVnMUxXVGM4Z3cxMTkyNzI5OVVPcWJHbGR6S2ZyajhLQ0dyNFZUVTdQN3FfYjJ6OU9PZ0ZuZ1pVbTBPcHNoTlZXak9OOVBVdWVEaUpNWk9pY2tlT3BnUU5RRFk5M2VWYjJ4ZDR3dFpONTc2ZndveU1NVEthRmRreU1Sb1piZGdrOWtYMFM5VGFFRXJLYkhFR1dycEVkazZ5Tmtm?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump à Pékin : le cadeau qu’il ne voulait pas faire - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOekV0Q0kxeGFRczVDOFZtVHQ4T3F4MExXUXdwX1U0ekd0Q0dRQTNXRmQ0dzFLMF85cFgwZlVGRzJYVUlpeGUwY3NIVWlhdWtKOEhIMEN6UVY2STVhWk9tQl8yRjdqa0VndkxBLVhuNFdlVk5oQXBBX0NjdEp6UnQ2Y0NVUWVMRXh2UlJYS0V4SXNpV2ZjcHlpNGt3?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "“Volstrekt onaanvaardbaar”: dit is wat er in het Iraanse vredesvoorstel staat dat Trump in 2 zinnen afschoot - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSVpXUWJ4YWUwMTA3VFpWNlFhb0ppZTRBcEhjVWdSXzE3Mk9idzJVamVyNVJYcjctS0FtWkhYeFRlR21rSXVhRGZvVXNZcGhvOUtHYnl5dWJ0bWhUcGxrVE1BeDVvRnhvcDRVVlBteWRUZDMxbmx0bHBIdTRqcTZJQktYVkRPRlA3MHNTZUpHMUZkbE1FOTZzT2xRbkFfTVFkYy1DTF9ObWdKalpZaFFSQ0RqZ19iZkxGY0FmY1ZLbUhiSUtkQ0xsQ3FqeXRwamp3bUhqT1d1a1NyUTBPN1E?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : Trump juge 'totalement inacceptable' la réponse de l’Iran pour mettre fin à la guerre - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRVZTWjRqTDBmTFVlekh2bzJaeFRhbkQyaUVuRy1SUkdnRlhJcVNXRkVEdzlCdWprNmhTX0l2eWpGOFF5X05sTXQ2MmMyRmFuTnpJbmwxeXQtNE1Eak13QkNVbXF5bEwtaXdkVkp1NzA1NDBoUFc5eVZ1MUE2VGZlOWVLVGRXTXAtN3lWWm5BelNRVmRhNmlCai0zNWdzTE1NNFpsamhTN2Vtdk1hOTJLTDR6b0JHS29pamg1Z0RLS01WRTQ4cnlDdmZScHJzdmV3bDNveVVPU1dPc25FNVJOREQ3LUE?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Families smeken Donald Trump om vrijlating van twee Amerikaanse gevangenen in China te bespreken met Xi Jinping - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMEd6YjZ6NUdKN1AyQUZ0QzlXOHl0N3JHcUU5Z3hNcTdGVmxzTlh2c2pjNTFDT3VHckRaSC1mUmZYa0MwQ09Jb2laMmNtTmxNWXhEd1dWSm5scWNialh1TF9LcGhXNGZNNEdXdlhsbC1RM0oteUFCdmxnRWR4bkhJVlFzTllrNU1XenFfTGJ5bG9DVnVkeTM4b2lHYk5GeW1qaWswRUloQWdobjVnXzJVR1FxNE5JdWZYbVhQTzFzR2NsdFZVeWJSY2Fsc2F1clBVa0Z5SmlkT0tuYVRIN3VQM0FTeFluWGpKZ09BRC0tSlZwS2xRQXc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "“Volstrekt onaanvaardbaar”: dit is wat er in het Iraanse vredesvoorstel staat dat Trump in 2 zinnen afschoot",
+        "url": "https://www.hln.be/buitenland/volstrekt-onaanvaardbaar-dit-is-wat-er-in-het-iraanse-vredesvoorstel-staat-dat-trump-in-2-zinnen-afschoot~ad20ed22/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt Iraans vredesvoorstel volkomen onacceptabel, olieprijzen lopen op",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump noemt antwoord van Iran op Amerikaans vredesvoorstel ‘totaal onaanvaardbaar’: olieprijzen lopen fors op",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-noemt-antwoord-van-iran-op-amerikaans-vredesvoorstel-totaal-onaanvaardbaar-olieprijzen-lopen-fors-op~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - China bevestigt komst van Trump woensdag",
+        "url": "https://www.demorgen.be/snelnieuws/live-china-bevestigt-komst-van-trump-woensdag~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Families smeken Donald Trump om vrijlating van twee Amerikaanse gevangenen in China te bespreken met Xi Jinping",
+        "url": "https://www.nieuwsblad.be/buitenland/families-smeken-donald-trump-om-vrijlating-van-twee-amerikaanse-gevangenen-in-china-te-bespreken-met-xi-jinping/151354898.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Families smeken Donald Trump om vrijlating van twee Amerikaanse gevangenen in China te bespreken met Xi Jinping",
+        "url": "https://www.gva.be/buitenland/families-smeken-donald-trump-om-vrijlating-van-twee-amerikaanse-gevangenen-in-china-te-bespreken-met-xi-jinping/151354903.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Families smeken Donald Trump om vrijlating van twee Amerikaanse gevangenen in China te bespreken met Xi Jinping",
+        "url": "https://www.hbvl.be/buitenland/families-smeken-donald-trump-om-vrijlating-van-twee-amerikaanse-gevangenen-in-china-te-bespreken-met-xi-jinping/151355267.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : Trump juge \"totalement inacceptable\" la réponse de l’Iran pour mettre fin à la guerre",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-trump-juge-totalement-inacceptable-la-reponse-de-l-iran-pour-mettre-fin-a-la-guerre-11722180",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump rejette la réponse de l'Iran, le pétrole repart à la hausse",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/11/direct-guerre-au-moyen-orient-trump-rejette-la-reponse-de-liran-le-petrole-repart-a-la-hausse-KJVHAKW6ZFAY7OXYV3XQWHAQOI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump juge \"totalement inacceptable\" la réponse de l'Iran pour mettre fin au conflit - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNamU4TUh0MFdpeTBiZEZiblNKWU1VSWhvSGtaMTEwMWVWV2wyM3RZd0ZkdFNHcFBZYV9FY0Fidm8yREhBdUpPX3JGYnZDOXRtQmtYTW9BaXNBM0NaQ2E0VVQzRUUyV2NSUk5pd0dUNGJkTXZQVHVleXVyTFVJSHY2THFzczV0dHZTQnJvY1VxYmZwY1JxeGRDcDJqR1drSkdCZ0I0WTljTmxmNHFlbGRUX3FMRndnZTBzc2RWT0lBaERGcWYtd1RtMloxT0JlWHN0SjFjTXpWTXp3RFFMZ2tSRVFZNlZVT0F0Y205eE5TbnZmX1dId3YtMUZJRU9rRk1uRnowS1hNT0c5ak52TlQ2MTdSOG5NN2UyMnJhMXZLTDBIV056V29vMHpxUQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump rejette la réponse de l'Iran, le pétrole repart à la hausse",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/11/direct-guerre-au-moyen-orient-trump-rejette-la-reponse-de-liran-le-petrole-repart-a-la-hausse-IEFRI2BYEFF67OJOUJUYFHWTBY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump rejette la réponse “inacceptable” de l’Iran, le pétrole repart à la hausse",
+        "url": "https://www.7sur7.be/monde/trump-rejette-la-reponse-inacceptable-de-liran-le-petrole-repart-a-la-hausse~a069546f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump en visite en Chine du 13 au 15 mai pour “mettre la pression” sur Xi Jinping",
+        "url": "https://www.7sur7.be/monde/trump-en-visite-en-chine-du-13-au-15-mai-pour-mettre-la-pression-sur-xi-jinping~af667e14/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Weekvooruitblik met econome Dorien Emmers | Topontmoeting Trump-Xi | Vredesdeal Iran lijkt opnieuw veraf | Resultaten KBC, Cisco, Tencent, Alibaba - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNTk1RX0U1cVB6NEc1LWJnajlELXB0dzdRSjdzbkhTdk52TFhUSDZVTWtzZHdTQUo2Mkp2a0ZPQ3lSWXNONE03S3Z5Z2poYlVlVnFsdUNOd2R1dml6US1peDhNUkRKSzZaeWZUTU9keDNQOWN2dkc4SEdYWG1CRDY0LWd4Q1FaRERzRzN4cFFabGlLVDViVUJydFk3NWx3Z3laZzBhTGx0R3JDSEVZSWNTa2xUVjlIR0FHTi1NQUczNTdLeGZrRzdySzR6eTRsUzdoV0dwVTBUdVpzNU1mNlZTOF9nWUp5d3JXaFpZR1dYZmZlVkNUTGI4RFp5NjNxd1BqcHFxTmJLQTVual91cVNuTVJQSQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "'Totaal onaanvaardbaar': Trump verwerpt antwoord van Iran op zijn vredesvoorstel - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYjFhMHVMWDd5Qzl6S3paUGxnMEp6ZU1LN0IzTU51OHl5bWlYRnhmWDZ4SlJmelNLWXdqVG1CYnFONmN1bzc4eE5XTXFQSEQyS1FLWThvVnNvRmhDUWJHOWNYN1BfcG9uekx2Q2ZZUGdCZnk3Qm00c0JZRHBnQVlHMFJ3TFVRYUxlSmVkREsteUZOaU1xN2V2MGpQQVMwYjdEWGlqbVFpT2FNTXplUUhUU2ZDNi1CYjBRbWJraG1KeFlib0lySjhKajF3UWNpNjJ3bWlOcDltNVk0ZWc?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "La Chine confirme la visite de Donald Trump du 13 au 15 mai - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZGNncXd4RTRjOTliS0lpSVZYSUNnZGpGU0VfdlJZSFBOVWNJTElOd0ZkRW1vMFRQR2NxeFRsOC1GeXdqb1hQcEhhSFVyZ2t2QU9NYl9NQmQzbjJRNDU0Vklxc3BlTjdHWE14eDdJMzgyR3dzVG4xbGtrTW9pQzBKeEZhTTQyUlBMbHZmUkNIWFA0eU5CZ2JVWWR1NlpIbDMtUkdoN2FXTHRzd00?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« J’attends de la loyauté » : Donald Trump exige le soutien des juges de la Cour suprême pour ses politiques clés - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOGRUQkljcXJubGNSZkVIeXd5NEtpem94RVJ3NWdnODFxWHI0a1RTN3dENFpIeGx0T25qaVQxRVpfYjVyeU8tel9SVTlFaXVYYU9rbTlxVFJoaTJyNEFBV0VHZ1ZpM1RLME14QnlGM2ZtaTlXRTNTWW5KYmRRSVJaY3pjeFhBUW4xZGFIMTJfRFZKaEhqR2hBSTl3UFM4bUUzQUprVUlhM1pITUZRTWY1ZGtLZzRIVEZiaDZiVzVR?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump demande aux juges de la Cour suprême d’être « loyaux » envers ses politiques clés - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYzJicDhYNmd0dTE1ZGoxY244UzVuY2JySnFONlBVTjZDY2R4VjJYcVJUbkNjeTduRTdVRWlVVFdMdjVJSmJndDkxakJzLTA1U1B2dG4zYUNMNzZDZXViSi05QkFHQmZFTkhyTExQZUpPSjhtV2pTbDEySTkzUzJlbGJTVlN4TnFNOEVSeEMyZVg0dm9rbXlsUXQ4RTlTYXcySV91VVduRzhISUY5UW4wUmZCR1dqNmw3NlFLdHVIa2dFaFRxSjJNcEc1Q20tQUVDRUd0M2hDSWxqSDg?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« C’est totalement inacceptable » : Trump, furieux, rejette la réponse de l’Iran et fait bondir les prix du pétrole - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMXozbnRnTzltODRvR2RHNkdacFkza0ZpVXRsT20xdDRfU3B4azNZcnhOTjRJUjFyTnNSblFwcndFZXJWR2ZDTU42TUJPYXNFeko2TFZrc0N5WEJSTFF3U3oyVmdwR3JsNHEyWVJTWVVrV2xCWENZaHY2WlpzQVZBcmVjbU5VNVdQZ0dqV3RqR1VXOEtlaURuUURRTlJWRGttUHlDeG5GdmdBN2xxWGsxeDFwSWFmY2JZeXBoOU5FUGxuNW1hZkk5djdqTlRVRHZzMHNLaGxzUnZVV2xhaGF0OWJR?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "“Totalement inacceptable” : Trump rejette la réponse de l’Iran, le pétrole repart à la hausse - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOEdoal8wQVg2OUlPXzdkSE1jSVd1OFU3NnlQUXJpNldpZzZtMUJ3Z3ZBa1pWMTVnMUxXVGM4Z3cxMTkyNzI5OVVPcWJHbGR6S2ZyajhLQ0dyNFZUVTdQN3FfYjJ6OU9PZ0ZuZ1pVbTBPcHNoTlZXak9OOVBVdWVEaUpNWk9pY2tlT3BnUU5RRFk5M2VWYjJ4ZDR3dFpONTc2ZndveU1NVEthRmRreU1Sb1piZGdrOWtYMFM5VGFFRXJLYkhFR1dycEVkazZ5Tmtm?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump à Pékin : le cadeau qu’il ne voulait pas faire - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOekV0Q0kxeGFRczVDOFZtVHQ4T3F4MExXUXdwX1U0ekd0Q0dRQTNXRmQ0dzFLMF85cFgwZlVGRzJYVUlpeGUwY3NIVWlhdWtKOEhIMEN6UVY2STVhWk9tQl8yRjdqa0VndkxBLVhuNFdlVk5oQXBBX0NjdEp6UnQ2Y0NVUWVMRXh2UlJYS0V4SXNpV2ZjcHlpNGt3?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 20,
+      "putin": 3,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 24,
+      "putin": 5,
+      "macron": 1,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 30,
+      "crime": 14,
+      "eu": 11,
+      "politics": 17,
+      "be_gov": 7,
+      "culture": 7,
+      "tech": 5,
+      "economy": 14,
+      "sports": 20,
+      "health": 9,
+      "climate": 5,
+      "migration": 1,
+      "education": 4,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 38,
+      "crime": 19,
+      "eu": 16,
+      "politics": 24,
+      "be_gov": 9,
+      "culture": 8,
+      "tech": 6,
+      "economy": 17,
+      "sports": 32,
+      "health": 11,
+      "climate": 6,
+      "migration": 1,
+      "education": 5,
+      "weather": 10
+    }
   }
 ]
