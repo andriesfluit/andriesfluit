@@ -16689,5 +16689,573 @@
       "education": 5,
       "weather": 10
     }
+  },
+  {
+    "date": "2026-05-12",
+    "generated_at": "2026-05-12T08:28:32+02:00",
+    "last_checked_at": "2026-05-12T08:28:32+02:00",
+    "total_articles": 311,
+    "trump_articles": 12,
+    "percentage": 3.9,
+    "core_percentage": 3.9,
+    "core_percentage_name": 3.9,
+    "trump_articles_expanded": 12,
+    "core_percentage_expanded": 3.9,
+    "indirect_references": 0,
+    "wide_total_articles": 462,
+    "wide_trump_articles": 16,
+    "wide_percentage": 3.5,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 3.5,
+    "macro_percentage": 4.8,
+    "qualifying_outlets": 19,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 26,
+    "cross_outlet_dup_groups": 13,
+    "cross_outlet_dup_rate": 8.4,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 12.0,
+    "breadth": 0.44,
+    "deviation": 0.89,
+    "smoothed_pct": 3.89,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 45,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 61,
+        "today": 14,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_tech": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 40,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 42,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 38,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 25.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.17
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "trends_g": {
+        "fetched": 55,
+        "today": 5,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 57,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Live - Zes doden in Libanon na Israëlische bombardementen • Trump noemt Iraanse reactie op vredesvoorstel ‘stom’ en ‘stuk afval’",
+        "url": "https://www.demorgen.be/snelnieuws/live-zes-doden-in-libanon-na-israelische-bombardementen-trump-noemt-iraanse-reactie-op-vredesvoorstel-stom-en-stuk-afval~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Vance en Rubio samen naar het Witte Huis in 2028? Donald Trump spreekt van ‘dreamteam’",
+        "url": "https://www.demorgen.be/snelnieuws/live-musk-en-andere-amerikaanse-zakenlieden-vergezellen-trump-tijdens-bezoek-aan-china-meldt-bloomberg~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Geslepen messen achter een glimlach: Trump en Xi bereiden zich voor op bittere economische oorlog",
+        "url": "https://www.demorgen.be/nieuws/geslepen-messen-achter-een-glimlach-trump-en-xi-bereiden-zich-voor-op-bittere-economische-oorlog~b0b31cd7/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "De Russische opmars in Oekraïne stokt: hoe de droneoorlog Poetins belofte aan Trump dwarsboomt",
+        "url": "https://www.demorgen.be/nieuws/de-russische-opmars-in-oekraine-stokt-hoe-de-droneoorlog-poetins-belofte-aan-trump-dwarsboomt~b9134daa/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Vance en Rubio zouden “dream team” zijn in Witte Huis, zegt Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-vance-en-rubio-zouden-dream-team-zijn-in-witte-huis-zegt-trump/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump vertrekt “hoopvol” naar China, maar het is Xi Jinping die alle kaarten in handen heeft: “Trump begint met een achterstand”",
+        "url": "https://www.nieuwsblad.be/buitenland/donald-trump-vertrekt-hoopvol-naar-china-maar-het-is-xi-jinping-die-alle-kaarten-in-handen-heeft-trump-begint-met-een-achterstand/151385691.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "'Trump laat ego strelen in Peking' - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14d3lrVG82MW9oWUxwbTZ1SXk4T0dpYkFKRWFhbkwzd2tPZ2J6ZkNxUFNMQ19sUnk5WDRGZk1oTXZrd1FWMjUwQmNSbkNnQVphTndJTk95NXFhTWwxYkV5SE5aV01HR2l5MDRGaWVmUU9uZw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump s'attend à recevoir un \"gros câlin\" de Xi Jinping, mais Pékin pourrait doucher son enthousiasme",
+        "url": "https://www.lalibre.be/international/asie/2026/05/12/donald-trump-sattend-a-recevoir-un-gros-calin-de-xi-jinping-mais-pekin-pourrait-doucher-ses-attentes-5K64XLZUOFB7VLSSTW3UY7LHUE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Un climat de peur par rapport à Trump\" : comment l’Inde bloque le soutien des Brics à l’Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/12/un-climat-de-peur-par-rapport-a-trump-comment-linde-bloque-le-soutien-des-brics-a-liran-4JDB7BV4VZGP3BTDCCJSIJN5WA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "À New York, une bibliothèque ouvre pour montrer les liens entre Trump et Epstein: \"La vérité est difficile à nier lorsqu'elle est imprimée\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/12/a-new-york-une-bibliotheque-ouvre-pour-montrer-les-liens-entre-trump-et-epstein-la-verite-est-difficile-a-nier-lorsquelle-est-imprimee-YBL7YJUFOFGZRL6F55S2K3BGEE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un nouveau bilan de santé très attendu pour Donald Trump",
+        "url": "https://www.7sur7.be/monde/un-nouveau-bilan-de-sante-tres-attendu-pour-donald-trump~a1b3145e/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Santé de Donald Trump : la Maison Blanche annonce que le président américain passera des examens médicaux annuels le 26 mai - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUHp5WmxmVm5zY1l1XzY5eFdEUFd5dmp0V19ydDFzUTRkSDIxdmhXZmJhMTU5MTJKaTRLeFVqd2NRRXpjZ3c4bFhpZkxwRlZuNVY2aXRjTkh4M19hY0xKbzlYSW1TQnM3Z1JPMk1xUFd4cXI2anZQbmV1TVY2dm9lN3Y5b2dCUDJYZzBKdEVPbzljS1B6ZndaU0tzZm5IMktSUFh5U2JoWFR6VjM2Tm9ZdEJHcHp3OXdNd0N3MDJhUVFfbUkzcWk3UEUtWnJPVVZ2ZllqU3FFZ2JBb0h1?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "De Russische opmars in Oekraïne stokt: hoe de droneoorlog Poetins belofte aan Trump dwarsboomt - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVGY2OGxVNFhCMHNvN1VELVNXVjlMSVZJV3Zua29nQ2VoemZ2LWVQMkczZzlHTkJwVm84UTlqeV9ZbzB0SDNGcmtuV2tzNFBkMkhnWFNLQVUtWndtaXBOQzdSVEoxMTRUUVVSYmlkTm5Eejd5Z3JDME9ZUWIzWWNhTlc3Vi1GSWpSMUJtWS1FekZfYmlxVW84MVUzUTFoYnpmWW4yX0w1dkFadERZbTFvYk5XYi1wZWx6Q3FESk5QaXJidWs5WUd2U1FOQnlDMFk?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump vertrekt “hoopvol” naar China, maar het is Xi Jinping die alle kaarten in handen heeft: “Trump begint met een achterstand” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOb2R6WVF0TXo4WHJOb0gxUXRoQWJyVG10aWtSemd0emhKU2FnaE5zM1pjZHJRVVBUdlFYR2dfVHFmTi0wS3lZZnpoQWNxcFlPWEZHLUNrNlE0dGFHRUFNYmdwVXR5clZnZVJEX3A1bUR3dmdieDN1eFdUZmRadHBmcTZQbjJjNFVfUE1zNk50MlR4T1JDQkxYRkdubnZOZ3NwaF9veU8ySGt4YXU0NG85by1oRGRMVWVSclhvSGhUVHFPTEtDbzJqVnlLSXRjN3hnZkMxNHhSZEw5Ulp1ajZEd3VYNkxVQWVJdEZ0SGV0T05IWHlocGRpa3o1WEdlZWVhbW1LY0hEalBzbUVOdnc?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Live - Zes doden in Libanon na Israëlische bombardementen • Trump noemt Iraanse reactie op vredesvoorstel ‘stom’ en ‘stuk afval’",
+        "url": "https://www.demorgen.be/snelnieuws/live-zes-doden-in-libanon-na-israelische-bombardementen-trump-noemt-iraanse-reactie-op-vredesvoorstel-stom-en-stuk-afval~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Vance en Rubio samen naar het Witte Huis in 2028? Donald Trump spreekt van ‘dreamteam’",
+        "url": "https://www.demorgen.be/snelnieuws/live-musk-en-andere-amerikaanse-zakenlieden-vergezellen-trump-tijdens-bezoek-aan-china-meldt-bloomberg~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Geslepen messen achter een glimlach: Trump en Xi bereiden zich voor op bittere economische oorlog",
+        "url": "https://www.demorgen.be/nieuws/geslepen-messen-achter-een-glimlach-trump-en-xi-bereiden-zich-voor-op-bittere-economische-oorlog~b0b31cd7/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "De Russische opmars in Oekraïne stokt: hoe de droneoorlog Poetins belofte aan Trump dwarsboomt",
+        "url": "https://www.demorgen.be/nieuws/de-russische-opmars-in-oekraine-stokt-hoe-de-droneoorlog-poetins-belofte-aan-trump-dwarsboomt~b9134daa/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Vance en Rubio zouden “dream team” zijn in Witte Huis, zegt Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-vance-en-rubio-zouden-dream-team-zijn-in-witte-huis-zegt-trump/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump vertrekt “hoopvol” naar China, maar het is Xi Jinping die alle kaarten in handen heeft: “Trump begint met een achterstand”",
+        "url": "https://www.nieuwsblad.be/buitenland/donald-trump-vertrekt-hoopvol-naar-china-maar-het-is-xi-jinping-die-alle-kaarten-in-handen-heeft-trump-begint-met-een-achterstand/151385691.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Vance en Rubio zouden “dream team” zijn in Witte Huis, zegt Trump",
+        "url": "https://www.gva.be/buitenland/live-vs.-vance-en-rubio-zouden-dream-team-zijn-in-witte-huis-zegt-trump/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump vertrekt “hoopvol” naar China, maar het is Xi Jinping die alle kaarten in handen heeft: “Trump begint met een achterstand”",
+        "url": "https://www.gva.be/buitenland/donald-trump-vertrekt-hoopvol-naar-china-maar-het-is-xi-jinping-die-alle-kaarten-in-handen-heeft-trump-begint-met-een-achterstand/151400542.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "'Trump laat ego strelen in Peking' - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14d3lrVG82MW9oWUxwbTZ1SXk4T0dpYkFKRWFhbkwzd2tPZ2J6ZkNxUFNMQ19sUnk5WDRGZk1oTXZrd1FWMjUwQmNSbkNnQVphTndJTk95NXFhTWwxYkV5SE5aV01HR2l5MDRGaWVmUU9uZw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump s'attend à recevoir un \"gros câlin\" de Xi Jinping, mais Pékin pourrait doucher son enthousiasme",
+        "url": "https://www.lalibre.be/international/asie/2026/05/12/donald-trump-sattend-a-recevoir-un-gros-calin-de-xi-jinping-mais-pekin-pourrait-doucher-ses-attentes-5K64XLZUOFB7VLSSTW3UY7LHUE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Un climat de peur par rapport à Trump\" : comment l’Inde bloque le soutien des Brics à l’Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/12/un-climat-de-peur-par-rapport-a-trump-comment-linde-bloque-le-soutien-des-brics-a-liran-4JDB7BV4VZGP3BTDCCJSIJN5WA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "À New York, une bibliothèque ouvre pour montrer les liens entre Trump et Epstein: \"La vérité est difficile à nier lorsqu'elle est imprimée\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/12/a-new-york-une-bibliotheque-ouvre-pour-montrer-les-liens-entre-trump-et-epstein-la-verite-est-difficile-a-nier-lorsquelle-est-imprimee-YBL7YJUFOFGZRL6F55S2K3BGEE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un nouveau bilan de santé très attendu pour Donald Trump",
+        "url": "https://www.7sur7.be/monde/un-nouveau-bilan-de-sante-tres-attendu-pour-donald-trump~a1b3145e/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Santé de Donald Trump : la Maison Blanche annonce que le président américain passera des examens médicaux annuels le 26 mai - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUHp5WmxmVm5zY1l1XzY5eFdEUFd5dmp0V19ydDFzUTRkSDIxdmhXZmJhMTU5MTJKaTRLeFVqd2NRRXpjZ3c4bFhpZkxwRlZuNVY2aXRjTkh4M19hY0xKbzlYSW1TQnM3Z1JPMk1xUFd4cXI2anZQbmV1TVY2dm9lN3Y5b2dCUDJYZzBKdEVPbzljS1B6ZndaU0tzZm5IMktSUFh5U2JoWFR6VjM2Tm9ZdEJHcHp3OXdNd0N3MDJhUVFfbUkzcWk3UEUtWnJPVVZ2ZllqU3FFZ2JBb0h1?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 12,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 16,
+      "putin": 3,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 20,
+      "crime": 24,
+      "eu": 10,
+      "politics": 9,
+      "be_gov": 4,
+      "culture": 12,
+      "tech": 7,
+      "economy": 10,
+      "sports": 15,
+      "health": 5,
+      "climate": 3,
+      "migration": 1,
+      "education": 2,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 28,
+      "crime": 30,
+      "eu": 17,
+      "politics": 17,
+      "be_gov": 6,
+      "culture": 15,
+      "tech": 10,
+      "economy": 11,
+      "sports": 26,
+      "health": 5,
+      "climate": 4,
+      "migration": 2,
+      "education": 4,
+      "weather": 13
+    }
   }
 ]
