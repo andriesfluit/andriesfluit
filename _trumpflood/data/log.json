@@ -17257,5 +17257,681 @@
       "education": 4,
       "weather": 13
     }
+  },
+  {
+    "date": "2026-05-13",
+    "generated_at": "2026-05-13T08:39:47+02:00",
+    "last_checked_at": "2026-05-13T08:39:47+02:00",
+    "total_articles": 384,
+    "trump_articles": 19,
+    "percentage": 4.9,
+    "core_percentage": 4.9,
+    "core_percentage_name": 4.9,
+    "trump_articles_expanded": 19,
+    "core_percentage_expanded": 4.9,
+    "indirect_references": 0,
+    "wide_total_articles": 533,
+    "wide_trump_articles": 27,
+    "wide_percentage": 5.1,
+    "wide_trump_articles_expanded": 27,
+    "wide_percentage_expanded": 5.1,
+    "macro_percentage": 5.8,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 9.4,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.71,
+    "breadth": 0.59,
+    "deviation": 1.24,
+    "smoothed_pct": 3.87,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 14,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "google_nl_politics": {
+        "fetched": 40,
+        "today": 9,
+        "kept": 9,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 33.33
+      },
+      "google_nl_world": {
+        "fetched": 66,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 64,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 38,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 45,
+        "today": 7,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_fr_business": {
+        "fetched": 56,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 53,
+        "kept": 43,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.0
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 14,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 42,
+        "kept": 42,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.38
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 38,
+        "kept": 38,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.26
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 22.22
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 14,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 65,
+        "today": 9,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 83,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Na lange stilte gaan Groenland-onderhandelingen goede kant op: \"Eerste avontuur van Trump met echte gesprekken\"",
+        "url": "https://vrtnws.be/p.dLeLB9983",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump onderweg naar China voor driedaags bezoek met Xi Jingping",
+        "url": "https://vrtnws.be/p.nwOwwaWJD",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "“Obama is een duivelse kracht”: Trump deelt meer dan vijftig bizarre Truth Social-posts op één dag",
+        "url": "https://www.hln.be/buitenland/obama-is-een-duivelse-kracht-trump-deelt-meer-dan-vijftig-bizarre-truth-social-posts-op-een-dag~a7ba23ae/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Alle blikken gericht op China: Donald Trump en Xi Jinping ontmoeten elkaar in woelige tijden",
+        "url": "https://www.hln.be/buitenland/alle-blikken-gericht-op-china-donald-trump-en-xi-jinping-ontmoeten-elkaar-in-woelige-tijden~a4f171dc/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump is vertrokken op driedaags bezoek aan China, ook Elon Musk en Nvidia-topman reizen mee",
+        "url": "https://www.hln.be/buitenland/trump-is-vertrokken-op-driedaags-bezoek-aan-china-ook-elon-musk-en-nvidia-topman-reizen-mee~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Zes doden bij Russische luchtaanval in Dnipropetrovsk • Oorlog in Oekraïne ‘is zeer dicht bij einde’, zegt Trump",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-zes-doden-bij-russische-luchtaanval-in-dnipropetrovsk-oorlog-in-oekraine-is-zeer-dicht-bij-einde-zegt-trump~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Ongeveer alles wordt tussen China en Amerika bedisseld’: Jonathan Holslag over de topontmoeting tussen Xi Jinping en Trump",
+        "url": "https://www.demorgen.be/nieuws/ongeveer-alles-wordt-tussen-china-en-amerika-bedisseld-jonathan-holslag-over-de-topontmoeting-tussen-xi-jinping-en-trump~b134d71e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Onder Trump is de VS een pest geworden voor de EU. China is gebleven wat het was, cholera. In tegenstelling tot wat de ultranationalistische Europese partijen propageren, is er maar één reddingsboei”",
+        "url": "https://www.nieuwsblad.be/buitenland/onder-trump-is-de-vs-een-pest-geworden-voor-de-eu.-china-is-gebleven-wat-het-was-cholera.-in-tegenstelling-tot-wat-de-ultranationalistische-europese-partijen-propageren-is-er-maar-een-reddingsboei/151478476.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Met dank aan Trump: Belgische defensie-industrie groeit met 6 procent - Knack",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUTFOamw3ZmJvMjI2QV9XVzJUUEdhbkx4WkZFcXdaMFB3Tlk1RDlKdURVQUtSY3RlSU5vbFU0NDN2LVlMRFItdWFLaWhIRTVCN1BlUEs0cHhVRE1uQXJIeFc3WWNfN2RpeWgySTM0dUFSRE5ERVJKUi1nZzBzdHdCRTIyUHJBaUVRdGlWdjEwY2pqRmdXQTJ3czUxRkpVcHJoMUd5RmRtSQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Alle ogen gericht op China: Donald Trump en Xi Jinping ontmoeten elkaar in woelige tijden - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWVRaNVVmaWhpakdCZlpwbnZUY1ZqUXhGVkRheWRjblZ0a3E3dW1wOUZ3ZUhjRDBZcEk1NnRINXhWVWtzRHlPN0l2VzNMVVBTMThDYzNVbXJDZnRlZ0RxVGdMTW5fN0hFM3FzQjNpWEppQWVUM3lPNk9NOERCdmZlampNeWJnVmo3ak9VSHNZTTVRWGVIUGkxOXNKTnUza00wRTJwQ0k1MFFpX3paX0tTMlBPb0tIRTNwSFpMbmczZXBRMGZIenpwZDNnbjQwWHpfM1VVS2ZaWVFDQQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump retrouve Xi Jinping en Chine pour sa première visite en Chine depuis 2017",
+        "url": "https://www.rtbf.be/article/donald-trump-retrouve-xi-jinping-en-chine-pour-sa-premiere-visite-en-chine-depuis-2017-11723274",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : l’Iran écarte tout compromis après le rejet de sa proposition par Donald Trump",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-l-iran-ecarte-tout-compromis-apres-le-rejet-de-sa-proposition-par-donald-trump-11723327",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump pensait arriver en Chine en position de force, mais la situation est bien différente de ce qu'il espérait",
+        "url": "https://www.lalibre.be/international/2026/05/13/donald-trump-pensait-arriver-en-chine-en-position-de-force-mais-la-situation-est-bien-differente-de-ce-quil-esperait-D77LKFTIS5BGBLUT7MBLTXO3YM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En route vers la Chine, l'avion Air Force One avec Trump et Musk fait un arrêt surprise pour prendre un invité de marque",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/05/13/en-route-vers-la-chine-lavion-air-force-one-avec-trump-et-musk-fait-un-arret-surprise-pour-prendre-un-invite-de-marque-DSLA6SWEZVAYRKRJCITUHWT2AA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le “Dôme d’or” voulu par Trump estimé à 1.200 milliards de dollars",
+        "url": "https://www.7sur7.be/monde/le-dome-dor-voulu-par-trump-estime-a-1-200-milliards-de-dollars~af54d046/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump publie un dessin montrant le Venezuela comme “51e Etat” américain",
+        "url": "https://www.7sur7.be/monde/trump-publie-un-dessin-montrant-le-venezuela-comme-51e-etat-americain~a94ad725/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump publie un dessin montrant le Venezuela comme le « 51e Etat » américain - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWXRNbFJKdzFKNnBpNEpac3drbUhwTVcyaTVlVkc0NFBwZDQxXzRPV0Z1MzVoZ05sQWZQXzBBTG0yQUZnX29wUTFqS2RjV3EycTN6RGxCb1FqTWtMN0ZEOHR3T0FZMEwzTkVrRUtvWDJOemdyVGFSYTVmcFhsejItWWtRNWNjc0lBR1lkVmhoTmFoTE9QMlN0aUtRd0JXUlRtZjU2T0FhcFBiUFF1amk4Y2NaQVFjTzduZDNsRw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Le Congrès dévoile le coût du « Dôme d’or », bouclier antimissiles voulu par Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPemlvYTAtVHBucm1RTkNDV3pZWlo5aWdWMl9XZmlTV1RqbUlaajlFVGpxRlF1Tld1RTBUNUJ1Y1FPRXlBQmFjRlRnRmxOdlB4UWFBcUx6Q1FOUEQtbnRTb25QWmpQemF5ekoxZE9rQmVKdEo0MFR4dkM4RmZUT0dJZUNmZ2JXOTlaLVRDVHRrY2NmcGloRHplOEpXZ1ZtdUtFU3lwenBPTTVkaHRGdnRQV25ybTVMckxIM1BSamtSekk1QQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "La Chine, acteur discret, mais en position de force à l'heure de recevoir Donald Trump: \"L'enjeu est surtout économique\" - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQeDhGWlNGOTFHcXFWTGlldnJpRGxQSkg4QXVHNUxCZ2RYcUctSFV5T3g3Z2tBcUtlajl4QU96VVA2SWI3aGxSYUVQSlM4aU9qVUVIb2RBaDdFNGhyWWpUZ0ZEdUtRbzZfMlF0d0IwVldRei1RVDBUbkpCT3VjY09GNjZvbmFzMVQzUVVQOEJyUkpUQzNVS2d0VW41ZUloNnhzd2x2anZITkhJNHN5OGdEVTJwZEZKbks0MmUzakRWdF9vRERKbHJRaUNlbG1wTUx0bUptTUNMb2lkanl2RlZhWlk3S1JENkNnM2YxQzN4Yjd1Zlk1U1Qzem9WaW4?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Alle blikken gericht op China: Donald Trump en Xi Jinping ontmoeten elkaar in woelige tijden - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUzdlSDA4bUg0Vnk1SmdERGJNdVUzQncxdHFTd3MyNS10TktUSWdRak9IS0NNRmtPUElqbTNzTXc0dk80UUQyckc3cXNXUURFZ2NKRFhWSnlDZE1zSTFXaE5vc0lyZkdKR0Z1RDIzQ1NFT1N5YmlGRFpwRC1XU2ZGMzNKc0l6WTFLYXpFM2tCcnZyWEhSOFRNaDFBWTlob1ctZ0JPQS1ZcFcweDJiQlg5TlVXNjk5djRNbmIyVW40aUlNR0hqS0ZBQnR4MA?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "En route vers la Chine, l'avion Air Force One avec Trump et Musk fait un arrêt surprise pour prendre un invité de marque - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNVHdPWHpIWVU3UGE3S0FXRlI3YXIzcWxCYWs2QnVKcl9hVVRKbXZUSzhhQmkxcGhxeUlhYURDaTNKYUNwVVB3SE1ia1JSRmVfRDgxV0ctQVZpZVJuNmN0VjU1SXhVdC0xQnBsNW80UjhoUTNjaElvRGwtZmVwVUNRTmgwQ0NMRnhzbWhMVG84Mlo0dmdrUzlkU3dRYkFMaGdvcVQ4c1BuYjRSOF9wSzNuMGxiUmthdUl2SmRkYlFwYUZJSGR1cUJPRkVsa3RmeEVvSW9mbWRCZTB3NEIzSnUtdGUxbjNWQV9vdW5sS1Q5bzJkT2lZWmdiMTBCb21QcW5DWlFraXUyeVRXbW9IRFNvUDRlNVNqTEhsdXpGblFBUTlNZ2VNV2NQc0VmUUdEWk53aXNN?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : l’Iran écarte tout compromis après le rejet de sa proposition par Donald Trump - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeXd2T0JCbWh2cHNYTFF5ZGVlSXhTeXhBbmotVVFKSUVOeWpfSTBUVWx1N0pvV1c1MFJDZ2xYQ2RBVGp6djdYd2JRYW5Vd24tcDVwb2FWUUc3VFdqeHJ3dU5qNVo0bkN1TzliWlVjNV83MWtyS2RSeDNxUldCRkplQjk1b1pqMDBBREV3bVhxeHEtUTZ2cHhxb2lldlBVTVJNQ0dEeUgxdnE5S2Q1YzE2bEhpQWh3R2Iwa2YzOXNUTmNxdHNNQTV2RE1LajRiajQ5X3Q2M3lqMGRwV1M5bXc?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Niet alleen Taiwan volgt overleg tussen Xi en Trump met ingehouden adem: “Als er maar geen verrassingen zijn” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVk5XVVRReGtZR0Jva0M1YTZPaDlVOHpmdDFNRl9ieEZUc3M1bjdjb2FCLVNJMmJwWWRfVTVWVVBITGtMeXJZa2RnOW1UUFI1dmV3c3ZFTHhlUzk4VEsxdGd5V3dvNVB4MHBTMnhpTFZoeWE4VGs1UnNIQUk3WHBneFNRaXFKRDlJV3hDbGRQOWd2b3NfdkFXeEtxQm0wVm1jd1JpdXF4Sk5JUTVweFRXU3lLUEgtNWtuank0bUJjNzN1c3FSWEs5Um41VjYzWTF3ZVFCdzJmU3dtRTJVSzlHMDFRbHBvVkxFMnVraXZn?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Na lange stilte gaan Groenland-onderhandelingen goede kant op: \"Eerste avontuur van Trump met echte gesprekken\" - VRT",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcjJLX0huYk16ejByQlk4N2xRcll5S25RbmtnTDk1VEJWMjdkRE1uT015OG5ZTGl6M1JiN0tiaG4zVDcxd1h3S3FRTTVXbUhmSEdydVhXRENwVG5PXzdfcFNfOHVLenh2b3d1Um10TTNmTGhNMUpqcHhWZi02SFRseVBPQ05ZTTdybDZR?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "“Onder Trump is de VS een pest geworden voor de EU. China is gebleven wat het was, cholera. In tegenstelling tot wat de ultranationalistische Europese partijen propageren, is er maar één reddingsboei” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxQbGVmQ054RGFiMVQ5NEdSU2hTZ0o4eVdmWG9HdmdNa1BjZm1XVVJMVGM4WUJGZHN1UnlOX2k2bEJUZElVVzN0dFlmOWF0Szl0YzcwbE5TOG8xcy01aVhlRXJENV9LN2ZiWW1TSy1BbVZLVHVkR18yQ2Q4UVJZb2lCYkgxaVlkRHNDVG1kM2puS3V3UU1sZzh4aGJxNVVDZld5US1Sd3BoMnhtZU9TSHNxLXA4Y0NfaFFidE8xWkY1Z0swSklvdlhxNjVfUWJUMFpwSml2VDlVaGRVY3NEU1ktSFhXRXV1THRSa0wwdzRRb2xpV0tfcjhRSVB4a1JRZW9YY2VKTEZDMFBMR0hBVWlKaFZrdGJwVzRxX184RHAxWGItczQycC1LOS1ubkxJSDRCbUZfb01FenpmUm1zT3VrZjE2UW5peFlKZDVsU2hjRTFGdVBRVlZNLWpPTXJCV0xheGVNbTl0QQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "« Le 51e Etat » : le nouveau dessin polémique partagé par Donald Trump sur les réseaux sociaux - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV3FBM3FiQmg1WU1KbkdDaGt6amVzLWxuV2lyQWRPaERaLUwxeEtXcHlfVS1FLWJ5SURWX1dISXN0QnBrbVFLT2ZOdFJHQnB2c2c4QjZNVnBWV0dwblhPQTUyaGN0Rnc5RzNsNi1pYzQxOU9xdlF1aTJoNVZiSEhlc1FIWUJrTW1xV242UVk2UUF6ZjFCNWVYUm12Z29kM1kycTk1Um1sY0U4N05uN1Q2cVFqbm9sZVUtUFRwb3FQU25ZbWNxLTRtaDNSaUtHWWZGb2FrUl9fSVI2dkRpdklZMUFfT2g?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Na lange stilte gaan Groenland-onderhandelingen goede kant op: \"Eerste avontuur van Trump met echte gesprekken\"",
+        "url": "https://vrtnws.be/p.dLeLB9983",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump onderweg naar China voor driedaags bezoek met Xi Jingping",
+        "url": "https://vrtnws.be/p.nwOwwaWJD",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "“Obama is een duivelse kracht”: Trump deelt meer dan vijftig bizarre Truth Social-posts op één dag",
+        "url": "https://www.hln.be/buitenland/obama-is-een-duivelse-kracht-trump-deelt-meer-dan-vijftig-bizarre-truth-social-posts-op-een-dag~a7ba23ae/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Alle blikken gericht op China: Donald Trump en Xi Jinping ontmoeten elkaar in woelige tijden",
+        "url": "https://www.hln.be/buitenland/alle-blikken-gericht-op-china-donald-trump-en-xi-jinping-ontmoeten-elkaar-in-woelige-tijden~a4f171dc/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump is vertrokken op driedaags bezoek aan China, ook Elon Musk en Nvidia-topman reizen mee",
+        "url": "https://www.hln.be/buitenland/trump-is-vertrokken-op-driedaags-bezoek-aan-china-ook-elon-musk-en-nvidia-topman-reizen-mee~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Zes doden bij Russische luchtaanval in Dnipropetrovsk • Oorlog in Oekraïne ‘is zeer dicht bij einde’, zegt Trump",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-zes-doden-bij-russische-luchtaanval-in-dnipropetrovsk-oorlog-in-oekraine-is-zeer-dicht-bij-einde-zegt-trump~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Ongeveer alles wordt tussen China en Amerika bedisseld’: Jonathan Holslag over de topontmoeting tussen Xi Jinping en Trump",
+        "url": "https://www.demorgen.be/nieuws/ongeveer-alles-wordt-tussen-china-en-amerika-bedisseld-jonathan-holslag-over-de-topontmoeting-tussen-xi-jinping-en-trump~b134d71e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Onder Trump is de VS een pest geworden voor de EU. China is gebleven wat het was, cholera. In tegenstelling tot wat de ultranationalistische Europese partijen propageren, is er maar één reddingsboei”",
+        "url": "https://www.nieuwsblad.be/buitenland/onder-trump-is-de-vs-een-pest-geworden-voor-de-eu.-china-is-gebleven-wat-het-was-cholera.-in-tegenstelling-tot-wat-de-ultranationalistische-europese-partijen-propageren-is-er-maar-een-reddingsboei/151478476.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: \"Nieuwsberichten dat Iran het goed doet, zijn landsverraad\" - \"Iraanse militaire capaciteit is nog aanzienlijk volgens Amerikaanse inlichtingen\"",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-nieuwsberichten-dat-iran-het-goed-doet-zijn-landsverraad-iraanse-militaire-capaciteit-is-nog-aanzienlijk-volgens-amerikaanse-inlichtingen/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Met dank aan Trump: Belgische defensie-industrie groeit met 6 procent - Knack",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUTFOamw3ZmJvMjI2QV9XVzJUUEdhbkx4WkZFcXdaMFB3Tlk1RDlKdURVQUtSY3RlSU5vbFU0NDN2LVlMRFItdWFLaWhIRTVCN1BlUEs0cHhVRE1uQXJIeFc3WWNfN2RpeWgySTM0dUFSRE5ERVJKUi1nZzBzdHdCRTIyUHJBaUVRdGlWdjEwY2pqRmdXQTJ3czUxRkpVcHJoMUd5RmRtSQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Alle ogen gericht op China: Donald Trump en Xi Jinping ontmoeten elkaar in woelige tijden - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWVRaNVVmaWhpakdCZlpwbnZUY1ZqUXhGVkRheWRjblZ0a3E3dW1wOUZ3ZUhjRDBZcEk1NnRINXhWVWtzRHlPN0l2VzNMVVBTMThDYzNVbXJDZnRlZ0RxVGdMTW5fN0hFM3FzQjNpWEppQWVUM3lPNk9NOERCdmZlampNeWJnVmo3ak9VSHNZTTVRWGVIUGkxOXNKTnUza00wRTJwQ0k1MFFpX3paX0tTMlBPb0tIRTNwSFpMbmczZXBRMGZIenpwZDNnbjQwWHpfM1VVS2ZaWVFDQQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump retrouve Xi Jinping en Chine pour sa première visite en Chine depuis 2017",
+        "url": "https://www.rtbf.be/article/donald-trump-retrouve-xi-jinping-en-chine-pour-sa-premiere-visite-en-chine-depuis-2017-11723274",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : l’Iran écarte tout compromis après le rejet de sa proposition par Donald Trump",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-l-iran-ecarte-tout-compromis-apres-le-rejet-de-sa-proposition-par-donald-trump-11723327",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump pensait arriver en Chine en position de force, mais la situation est bien différente de ce qu'il espérait",
+        "url": "https://www.lalibre.be/international/2026/05/13/donald-trump-pensait-arriver-en-chine-en-position-de-force-mais-la-situation-est-bien-differente-de-ce-quil-esperait-D77LKFTIS5BGBLUT7MBLTXO3YM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En route vers la Chine, l'avion Air Force One avec Trump et Musk fait un arrêt surprise pour prendre un invité de marque",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/05/13/en-route-vers-la-chine-lavion-air-force-one-avec-trump-et-musk-fait-un-arret-surprise-pour-prendre-un-invite-de-marque-DSLA6SWEZVAYRKRJCITUHWT2AA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le “Dôme d’or” voulu par Trump estimé à 1.200 milliards de dollars",
+        "url": "https://www.7sur7.be/monde/le-dome-dor-voulu-par-trump-estime-a-1-200-milliards-de-dollars~af54d046/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump publie un dessin montrant le Venezuela comme “51e Etat” américain",
+        "url": "https://www.7sur7.be/monde/trump-publie-un-dessin-montrant-le-venezuela-comme-51e-etat-americain~a94ad725/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump publie un dessin montrant le Venezuela comme le « 51e Etat » américain - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWXRNbFJKdzFKNnBpNEpac3drbUhwTVcyaTVlVkc0NFBwZDQxXzRPV0Z1MzVoZ05sQWZQXzBBTG0yQUZnX29wUTFqS2RjV3EycTN6RGxCb1FqTWtMN0ZEOHR3T0FZMEwzTkVrRUtvWDJOemdyVGFSYTVmcFhsejItWWtRNWNjc0lBR1lkVmhoTmFoTE9QMlN0aUtRd0JXUlRtZjU2T0FhcFBiUFF1amk4Y2NaQVFjTzduZDNsRw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Le Congrès dévoile le coût du « Dôme d’or », bouclier antimissiles voulu par Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPemlvYTAtVHBucm1RTkNDV3pZWlo5aWdWMl9XZmlTV1RqbUlaajlFVGpxRlF1Tld1RTBUNUJ1Y1FPRXlBQmFjRlRnRmxOdlB4UWFBcUx6Q1FOUEQtbnRTb25QWmpQemF5ekoxZE9rQmVKdEo0MFR4dkM4RmZUT0dJZUNmZ2JXOTlaLVRDVHRrY2NmcGloRHplOEpXZ1ZtdUtFU3lwenBPTTVkaHRGdnRQV25ybTVMckxIM1BSamtSekk1QQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "La Chine, acteur discret, mais en position de force à l'heure de recevoir Donald Trump: \"L'enjeu est surtout économique\" - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQeDhGWlNGOTFHcXFWTGlldnJpRGxQSkg4QXVHNUxCZ2RYcUctSFV5T3g3Z2tBcUtlajl4QU96VVA2SWI3aGxSYUVQSlM4aU9qVUVIb2RBaDdFNGhyWWpUZ0ZEdUtRbzZfMlF0d0IwVldRei1RVDBUbkpCT3VjY09GNjZvbmFzMVQzUVVQOEJyUkpUQzNVS2d0VW41ZUloNnhzd2x2anZITkhJNHN5OGdEVTJwZEZKbks0MmUzakRWdF9vRERKbHJRaUNlbG1wTUx0bUptTUNMb2lkanl2RlZhWlk3S1JENkNnM2YxQzN4Yjd1Zlk1U1Qzem9WaW4?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 19,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 2,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 27,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 3,
+      "jambon": 0,
+      "van_peteghem": 2,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 23,
+      "crime": 15,
+      "eu": 12,
+      "politics": 10,
+      "be_gov": 12,
+      "culture": 9,
+      "tech": 5,
+      "economy": 12,
+      "sports": 36,
+      "health": 4,
+      "climate": 8,
+      "migration": 1,
+      "education": 3,
+      "weather": 12
+    },
+    "wide_themes": {
+      "war": 31,
+      "crime": 21,
+      "eu": 18,
+      "politics": 16,
+      "be_gov": 19,
+      "culture": 9,
+      "tech": 10,
+      "economy": 15,
+      "sports": 59,
+      "health": 6,
+      "climate": 11,
+      "migration": 2,
+      "education": 4,
+      "weather": 17
+    }
   }
 ]
