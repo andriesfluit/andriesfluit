@@ -18561,5 +18561,765 @@
       "education": 4,
       "weather": 6
     }
+  },
+  {
+    "date": "2026-05-15",
+    "generated_at": "2026-05-15T08:47:17+02:00",
+    "last_checked_at": "2026-05-15T08:47:17+02:00",
+    "total_articles": 353,
+    "trump_articles": 25,
+    "percentage": 7.1,
+    "core_percentage": 7.1,
+    "core_percentage_name": 7.1,
+    "trump_articles_expanded": 26,
+    "core_percentage_expanded": 7.4,
+    "indirect_references": 1,
+    "wide_total_articles": 469,
+    "wide_trump_articles": 33,
+    "wide_percentage": 7.0,
+    "wide_trump_articles_expanded": 34,
+    "wide_percentage_expanded": 7.2,
+    "macro_percentage": 6.7,
+    "qualifying_outlets": 15,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 61,
+    "cross_outlet_dup_groups": 29,
+    "cross_outlet_dup_rate": 17.3,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 25.0,
+    "breadth": 0.72,
+    "deviation": 1.61,
+    "smoothed_pct": 4.37,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_nl_politics": {
+        "fetched": 45,
+        "today": 5,
+        "kept": 5,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 40.0
+      },
+      "google_nl_world": {
+        "fetched": 50,
+        "today": 9,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 66,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 33,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 40,
+        "today": 3,
+        "kept": 1,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 100.0
+      },
+      "google_fr_business": {
+        "fetched": 38,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 50,
+        "today": 5,
+        "kept": 5,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 40.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 24,
+        "today": 19,
+        "kept": 19,
+        "trump": 4,
+        "trump_expanded": 5,
+        "share": 21.05
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.12
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 17.39
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 35,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.71
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 26,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.69
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 9,
+        "kept": 7,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 28.57
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump en Xi beginnen tweede gespreksdag met thee en wandeling door rozentuin: “Al veel goeds uit overleg gekomen”",
+        "url": "https://www.standaard.be/buitenland/trump-en-xi-beginnen-tweede-gespreksdag-met-thee-en-wandeling-door-rozentuin-al-veel-goeds-uit-overleg-gekomen/35131945.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Ik ga niet veel geduldiger zijn met Iran”, waarschuwt Trump na eerste dag met Xi Jinping",
+        "url": "https://www.standaard.be/buitenland/ik-ga-niet-veel-geduldiger-zijn-met-iran-waarschuwt-trump-na-eerste-dag-met-xi-jinping/35173881.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft een dikke duim: “Fantastische handelsakkoorden met China gesloten”",
+        "url": "https://www.hln.be/buitenland/trump-geeft-een-dikke-duim-fantastische-handelsakkoorden-met-china-gesloten~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump lijkt op politieke top met Xi zijn economische doelen slechts deels te hebben bereikt",
+        "url": "https://www.demorgen.be/nieuws/trump-lijkt-op-politieke-top-met-xi-zijn-economische-doelen-slechts-deels-te-hebben-bereikt~bec623b9/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: ‘Ik ga niet veel meer geduld hebben met Iran’ • China wil ‘zo snel mogelijk duurzaam staakt-het-vuren’",
+        "url": "https://www.demorgen.be/snelnieuws/live-emiraten-ontkennen-geheim-bezoek-van-netanyahu-iran-laat-groep-chinese-schepen-passeren-door-straat-van-hormuz~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump heeft ‘fantastische handelsdeals’ afgesloten met Xi tijdens bezoek aan China",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-nodigt-xi-uit-voor-bezoek-aan-witte-huis-in-september-rechter-blokkeert-amerikaanse-sancties-tegen-vn-rapporteur-francesca-albanese~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trumps Witte Huis viert onafhankelijkheid VS met gebedsdag vol christelijke sprekers",
+        "url": "https://www.demorgen.be/nieuws/trumps-witte-huis-viert-onafhankelijkheid-vs-met-gebedsdag-vol-christelijke-sprekers~b571719e/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "China spreekt duidelijke taal over Taiwan tegen Trump en eist nieuwe ‘strategische stabiliteit’",
+        "url": "https://www.demorgen.be/nieuws/china-spreekt-duidelijke-taal-over-taiwan-tegen-trump-en-eist-nieuwe-strategische-stabiliteit~b9deae36/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump: “Fantastische handelsdeals afgesloten” met Xi",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-fantastische-handelsdeals-afgesloten-met-xi/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "De gouden Trump-telefoon blijkt een complete leugen: al 59 miljoen dollar in de kassa, maar nog niet één toestel geleverd",
+        "url": "https://www.nieuwsblad.be/buitenland/de-gouden-trump-telefoon-blijkt-een-complete-leugen-al-59-miljoen-dollar-in-de-kassa-maar-nog-niet-een-toestel-geleverd/151625201.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump: “Fantastische handelsdeals afgesloten” met Xi",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-fantastische-handelsdeals-afgesloten-met-xi/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle rencontre entre Donald Trump et Xi Jinping lors du dernier jour de sommet à Pékin",
+        "url": "https://www.rtbf.be/article/nouvelle-rencontre-entre-donald-trump-et-xi-jinping-lors-du-dernier-jour-de-sommet-a-pekin-11724331",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Voyage de Donald Trump en Chine : que sont venus chercher les géants de la tech à Pékin ?",
+        "url": "https://www.rtbf.be/article/voyage-de-donald-trump-en-chine-que-sont-venus-chercher-les-geants-de-la-tech-a-pekin-11724025",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau délit d’initié pour Trump ? Le président américain impliqué dans des transactions boursières à plusieurs millions de dollars",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/05/15/trump-implique-dans-de-nombreuses-transactions-boursieres-liees-a-de-grandes-entreprises-plusieurs-centaines-de-millions-de-dollars-en-jeu-SM33FWORBJEG7HBDDTUDO35YR4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "”La ville portera longtemps les cicatrices laissées par ce fou” : A Washington, un projet de Trump divise",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/15/la-ville-portera-longtemps-les-cicatrices-laissees-par-ce-fou-a-washington-un-projet-de-trump-divise-KYN4JVX3TVF7LOUNPUKJ5RXLOU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "A Pékin, Trump revendique des accords commerciaux \"fantastiques\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/15/a-pekin-trump-revendique-des-accords-commerciaux-fantastiques-FNPTYOIP3VGURG2MX2UG5QKGAQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient:   Donald Trump se \"sentirait mieux\" si les Etats-Unis récupéraient l'uranium enrichi",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/15/direct-guerre-au-moyen-orient-donald-trump-se-sentirait-mieux-si-les-etats-unis-recuperaient-luranium-enrichi-IJSO3BI5NJC5NFMYXGETWQ5QIU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Jerome Powell, le banquier central qui a tenu tête à Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPanEzV0VyUHJ0ekFIWVpTTl9IYUJQVVVJOURYZlBKRWNsbHM3UHIyLWxIb1BDQWd1bFpndFN0VlBqT0QwOEhlSzluX1FKcEFpbWpHeHItVlhjUldXS1ZkVVpPSXpSMk5sbmJyN1hfZUNOTk1mT3ZKWk0yMC00VUM3NHdKLUFuQ25BVjZKSG5iY3ZKS0dwZHhFcFRkcnpBOHlMaVMzWmVvSWZhUURwMkdGTk5PMW92anVMWTBGWGhZMzBZUQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L'administration de Trump accuse Yale de discrimination raciale: \"Les étudiants noirs et hispaniques ont une chance bien plus élevée d'être admis\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/15/ladministration-de-trump-accuse-yale-de-discrimination-raciale-les-etudiants-noirs-et-hispaniques-ont-une-chance-bien-plus-elevee-detre-admis-DSFMF5QFYNE2LAZJJSANB4W6PI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Première journée de négociations \"positive\" entre Israël et le Liban, Pékin réclame à Trump un cessez-le-feu durable",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/15/direct-guerre-au-moyen-orient-premiere-journee-de-negociations-positive-entre-israel-et-le-liban-a-washington-ZXBM5AVWJJGYLB2DLTNUS2IV5I/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Amazon, Apple, Boeing: Trump impliqué dans des transactions boursières à plusieurs millions de dollars",
+        "url": "https://www.7sur7.be/monde/amazon-apple-boeing-trump-implique-dans-des-transactions-boursieres-a-plusieurs-millions-de-dollars~a1ffc4a1/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur la rencontre entre Xi Jinping et Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQjQzckFPZExkYkdBMm8tdnlLNjdqWlNUd0EtbDc4WnVBaElmcmoxcVUwUDYzaGx6QUVDcExrRUp0RG5hV0pYN2hwN3RuU0o2Nlk5cjJoWUxvZ291SlpLM2hsVUdHZFBzQ000eEdGaFVXRzJ4c0IycDVVelJ2d1RNTGpQWHdacEtXaERHeUpKVURSZ1YxMm5vbmJlbllBbDZTbWNrZDNTZGVUTkV2QmIzRktaSk0?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Des accords commerciaux fantastiques » : en Chine, Trump revendique ses premiers gains - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbnNqbktrR2lLQTRVVzhrV3BrN1dEMXlUZGwyOG14S05mU1RKejFlUC1KbklZZ0Y1elpiSldZcThRZmZHbVRmSHlHTzUxdWx1UE9ncEdmLTJHbm15WUhpc2dmYmZ0NWU4ZVFGOGNQalpXOE9zRHV0UkxuYnJmUXhmbHlNYTVtejFlQm1lRHV4TmRvUGZZTlhkR21UZEx0MmF4VVE4N2xhTHhYbExXdExTR2k4OXVnajE0RnJUbzhrYmo?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Apple, Amazon, Microsoft… les énormes transactions financières de Donald Trump qui interrogent - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVDByX0pGM09XbUZFWDNvSWFGT25qVXE2VHJUT21MZjNxN09QeUE5M2gwQlRfVV91ajBWeC1rQkNYOW1EREhObkd1N0djLUNDck1jSExyQ2xWOGJVaVZiN01RWTR1WERxMDZRTlJkemJsSm9FRkFsWGdSS3lVRzd5NXE4eE4xVnhmQjZYSnc3OGI2aVBWbXRHVVoyVldOQXlPSHBzeGZoazd5cE5oeUdGeVYwOWJ5TjhGeldNTFRrdWh0TkpKLXJ4TWRJTQ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Kevin Warsh à la tête de la Fed : le choix stratégique de Donald Trump avant une période décisive - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTWMyV3VmbEI5cnIzSnBiRGVSOUY4VEhXNjVOV1pISld3UTZlYUVuRnBnV2F3SEl6RnQ3cWRHcVFLX01FZzBkLUpWN0N2bWEzU2MySU95RmRqVWlYbE83c1JGTDU4eTg4X3ZOLWtDbF9oNGVSSS1NblRNcnJxOFdjdW1qbnJsMHRmQlVuV2Q1X2FZcWN6aTVpRDVHdFBZZElaZVBmblo0MERpejBmcUE2dWNiLWZKWDhhODdJZlRFelR1WEZzZW9rdGVsRllXZmdJa3dz?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump et Xi Jinping ont longuement discuté concernant Taïwan - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVW15NGFqQ3hKZm5lT1ByeGN6TVdnRGJYMmhlVXJjX3VoUUZYX28zc3ZsckgzbHloRGpDM2xXYWd2azNkX0QwaFhIeE5MWXJsQ2dSejhLSEdMY2dibjc3ODZiVVYwSkpJNEdCNVVlWTFqejFTNXlEYllvNWZCQy10RlpoSEE5SjBhZ0pCa1oxVW9KbkhybHVkOGNSVkNKSGcyem9lZ0htYmg2dUJzbUVKdlNyTjVnekJ2RThmVkxwemI3cGpCZWdWMA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Apple, Amazon, Microsoft… les énormes transactions financières de Donald Trump qui interrogent - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZDcwZDVQeV9YZnIwRThPNDN1Vmh2ZkxLNHBMSU5yTV9jc01DcmEwZ2xjcklUWTJTNDRiTlFSckdqV2M2Yy1VUFoxbnN2QkM0U3Q0OHNJam1qRThsM2JUYzdDVmVqN1FDUUhTeEJRT2RVSnM2UUY4c3dqa0djQlUxMnU5RE5QUEV1a1FDWDZVZ3M0YlN5aEI4X21fSE15cXlPdzBOWF9HZzlXVmdQaUk0d0JVbzJoZDEtNHRoRjZCVnhkejhSOTh2STJpM00zTy1SQ19YTDRuYlFSVmtycFpaV3QxZw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Xi beginnen tweede gespreksdag met thee en wandeling door rozentuin: “Al veel goeds uit overleg gekomen” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQY2pNTUczMVlHSnhRZXZKOFROREZ2Mk42Rk1xbk5INWdqX2g2V2g1Q0p3QjdQMTh2UVplTE1WbVNIYUxWMEFGbmlmdmd3aV95YXpTOGJwb3N2WjRpWTdtLXFUanNtczFEa09IYkJnckZJQWlnQ3VoOXFXRk11VFFXWVhoNnllRDJKR1V1dmp6QVY2YkxxQzFOS3BGMzNIM0k2MTcteC0yeFJBc0dUSWFPd0l3eXlTN29tRnVPclJjYjBwRWkydS00VnJCenpOME52OFF2a2JyMGN0UjlkZC05LWtYa1g2TVl6a2VwRkhWTHd3dw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump is vertrokken op driedaags bezoek aan China, ook Elon Musk en Nvidia-topman reizen mee | Nieuws - hln.be",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVFZsVV83Z1pmSVVwUkd6NXo4Rjg1MnhrejVRRzJnRFlCLWxfVmtuNmlLT213dGtRWXVsczdXdGFQaTkzT3BfTEhGNFVpZmhRWVNadThndnhzNnhWcXZxWmlTZjZNRTd2UzNEM2N2V3R6N2hsUm96RVZZUFp2MzhLYmNSa19PSHcwMUdJenBnem9YOThfU1hlOVIwQmhZMWVucU1ZQ3lETTNRcGpnbThPVG1hN2dvakxmWUJDYTFjZktId2pHTzZ5ZnNyYw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Het rapport van Powell: inflatiemisser wordt hem vergeven dankzij verzet tegen Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcW1ZaktGY21aekxWWG0zN2FqbHFzd3FtZGt3c0d0aVJ4YXduVU0xeFgtUlNDLXlhRk1nUmM5TjhiTzNDaXJwc2lheC02ekFPWmJoclF2Ymh6VVRwcWJHWkhXaVRBUGdqVk1hdFdNRU4xOHdWLXZ6eGNuQm9vM2hFWW5vOVQ1YVQybkotVUR6M1NFSmpkRmxIclVjLTBHWmZSeThHdmJNNUtkaXYzNnB3RnJteFM5YzluMFdlUi1TRmtpa2hSWEZzQzliaW1tdnhMRmV0TVRaNA?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "En direct : Donald Trump dit commencer à perdre patience avec l'Iran - France 24",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbkx0ZmtpOTlIamYyQ3Bjc3NRX0hlVWJiZmFqQkN4dldkeS1uZGliTXc5Ym9GTXp2SVRKM3VHdkN4bEg5em12ZWJ3cnRBMXd1clctWW5JQ3c2LVdmaG5LclBoeWk1WllvYUVkUU9BYVJQT2FHUEF1MjVBS3ItN01ubWt1ZGYzdUExcTVLZVRaWGMzLS1xZm9YOVJjdVI4VUc2YjFCZ3lYdUhLbjgxeTI2UW5JZHNfVTBzVzB5MzZHajBLNHM?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Xi beginnen tweede gespreksdag met thee en wandeling door rozentuin: “Al veel goeds uit overleg gekomen”",
+        "url": "https://www.standaard.be/buitenland/trump-en-xi-beginnen-tweede-gespreksdag-met-thee-en-wandeling-door-rozentuin-al-veel-goeds-uit-overleg-gekomen/35131945.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Ik ga niet veel geduldiger zijn met Iran”, waarschuwt Trump na eerste dag met Xi Jinping",
+        "url": "https://www.standaard.be/buitenland/ik-ga-niet-veel-geduldiger-zijn-met-iran-waarschuwt-trump-na-eerste-dag-met-xi-jinping/35173881.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft een dikke duim: “Fantastische handelsakkoorden met China gesloten”",
+        "url": "https://www.hln.be/buitenland/trump-geeft-een-dikke-duim-fantastische-handelsakkoorden-met-china-gesloten~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump lijkt op politieke top met Xi zijn economische doelen slechts deels te hebben bereikt",
+        "url": "https://www.demorgen.be/nieuws/trump-lijkt-op-politieke-top-met-xi-zijn-economische-doelen-slechts-deels-te-hebben-bereikt~bec623b9/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: ‘Ik ga niet veel meer geduld hebben met Iran’ • China wil ‘zo snel mogelijk duurzaam staakt-het-vuren’",
+        "url": "https://www.demorgen.be/snelnieuws/live-emiraten-ontkennen-geheim-bezoek-van-netanyahu-iran-laat-groep-chinese-schepen-passeren-door-straat-van-hormuz~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump heeft ‘fantastische handelsdeals’ afgesloten met Xi tijdens bezoek aan China",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-nodigt-xi-uit-voor-bezoek-aan-witte-huis-in-september-rechter-blokkeert-amerikaanse-sancties-tegen-vn-rapporteur-francesca-albanese~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trumps Witte Huis viert onafhankelijkheid VS met gebedsdag vol christelijke sprekers",
+        "url": "https://www.demorgen.be/nieuws/trumps-witte-huis-viert-onafhankelijkheid-vs-met-gebedsdag-vol-christelijke-sprekers~b571719e/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "China spreekt duidelijke taal over Taiwan tegen Trump en eist nieuwe ‘strategische stabiliteit’",
+        "url": "https://www.demorgen.be/nieuws/china-spreekt-duidelijke-taal-over-taiwan-tegen-trump-en-eist-nieuwe-strategische-stabiliteit~b9deae36/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump: “Fantastische handelsdeals afgesloten” met Xi",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-fantastische-handelsdeals-afgesloten-met-xi/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "De gouden Trump-telefoon blijkt een complete leugen: al 59 miljoen dollar in de kassa, maar nog niet één toestel geleverd",
+        "url": "https://www.nieuwsblad.be/buitenland/de-gouden-trump-telefoon-blijkt-een-complete-leugen-al-59-miljoen-dollar-in-de-kassa-maar-nog-niet-een-toestel-geleverd/151625201.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump: “Fantastische handelsdeals afgesloten” met Xi",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-fantastische-handelsdeals-afgesloten-met-xi/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "De gouden Trump-telefoon blijkt een complete leugen: al 59 miljoen dollar in de kassa, maar nog niet één toestel geleverd",
+        "url": "https://www.gva.be/buitenland/de-gouden-trump-telefoon-blijkt-een-complete-leugen-al-59-miljoen-dollar-in-de-kassa-maar-nog-niet-een-toestel-geleverd/151646932.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Luchthaven van Palm Beach krijgt vanaf juli naam van Donald Trump",
+        "url": "https://www.gva.be/buitenland/luchthaven-van-palm-beach-krijgt-vanaf-juli-naam-van-donald-trump/151698698.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump: “Fantastische handelsdeals afgesloten” met Xi",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-fantastische-handelsdeals-afgesloten-met-xi/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle rencontre entre Donald Trump et Xi Jinping lors du dernier jour de sommet à Pékin",
+        "url": "https://www.rtbf.be/article/nouvelle-rencontre-entre-donald-trump-et-xi-jinping-lors-du-dernier-jour-de-sommet-a-pekin-11724331",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Voyage de Donald Trump en Chine : que sont venus chercher les géants de la tech à Pékin ?",
+        "url": "https://www.rtbf.be/article/voyage-de-donald-trump-en-chine-que-sont-venus-chercher-les-geants-de-la-tech-a-pekin-11724025",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau délit d’initié pour Trump ? Le président américain impliqué dans des transactions boursières à plusieurs millions de dollars",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/05/15/trump-implique-dans-de-nombreuses-transactions-boursieres-liees-a-de-grandes-entreprises-plusieurs-centaines-de-millions-de-dollars-en-jeu-SM33FWORBJEG7HBDDTUDO35YR4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "”La ville portera longtemps les cicatrices laissées par ce fou” : A Washington, un projet de Trump divise",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/15/la-ville-portera-longtemps-les-cicatrices-laissees-par-ce-fou-a-washington-un-projet-de-trump-divise-KYN4JVX3TVF7LOUNPUKJ5RXLOU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "A Pékin, Trump revendique des accords commerciaux \"fantastiques\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/15/a-pekin-trump-revendique-des-accords-commerciaux-fantastiques-FNPTYOIP3VGURG2MX2UG5QKGAQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient:   Donald Trump se \"sentirait mieux\" si les Etats-Unis récupéraient l'uranium enrichi",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/15/direct-guerre-au-moyen-orient-donald-trump-se-sentirait-mieux-si-les-etats-unis-recuperaient-luranium-enrichi-IJSO3BI5NJC5NFMYXGETWQ5QIU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Jerome Powell, le banquier central qui a tenu tête à Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPanEzV0VyUHJ0ekFIWVpTTl9IYUJQVVVJOURYZlBKRWNsbHM3UHIyLWxIb1BDQWd1bFpndFN0VlBqT0QwOEhlSzluX1FKcEFpbWpHeHItVlhjUldXS1ZkVVpPSXpSMk5sbmJyN1hfZUNOTk1mT3ZKWk0yMC00VUM3NHdKLUFuQ25BVjZKSG5iY3ZKS0dwZHhFcFRkcnpBOHlMaVMzWmVvSWZhUURwMkdGTk5PMW92anVMWTBGWGhZMzBZUQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L'administration de Trump accuse Yale de discrimination raciale: \"Les étudiants noirs et hispaniques ont une chance bien plus élevée d'être admis\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/15/ladministration-de-trump-accuse-yale-de-discrimination-raciale-les-etudiants-noirs-et-hispaniques-ont-une-chance-bien-plus-elevee-detre-admis-DSFMF5QFYNE2LAZJJSANB4W6PI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Première journée de négociations \"positive\" entre Israël et le Liban, Pékin réclame à Trump un cessez-le-feu durable",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/15/direct-guerre-au-moyen-orient-premiere-journee-de-negociations-positive-entre-israel-et-le-liban-a-washington-ZXBM5AVWJJGYLB2DLTNUS2IV5I/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Amazon, Apple, Boeing: Trump impliqué dans des transactions boursières à plusieurs millions de dollars",
+        "url": "https://www.7sur7.be/monde/amazon-apple-boeing-trump-implique-dans-des-transactions-boursieres-a-plusieurs-millions-de-dollars~a1ffc4a1/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur la rencontre entre Xi Jinping et Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQjQzckFPZExkYkdBMm8tdnlLNjdqWlNUd0EtbDc4WnVBaElmcmoxcVUwUDYzaGx6QUVDcExrRUp0RG5hV0pYN2hwN3RuU0o2Nlk5cjJoWUxvZ291SlpLM2hsVUdHZFBzQ000eEdGaFVXRzJ4c0IycDVVelJ2d1RNTGpQWHdacEtXaERHeUpKVURSZ1YxMm5vbmJlbllBbDZTbWNrZDNTZGVUTkV2QmIzRktaSk0?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Des accords commerciaux fantastiques » : en Chine, Trump revendique ses premiers gains - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbnNqbktrR2lLQTRVVzhrV3BrN1dEMXlUZGwyOG14S05mU1RKejFlUC1KbklZZ0Y1elpiSldZcThRZmZHbVRmSHlHTzUxdWx1UE9ncEdmLTJHbm15WUhpc2dmYmZ0NWU4ZVFGOGNQalpXOE9zRHV0UkxuYnJmUXhmbHlNYTVtejFlQm1lRHV4TmRvUGZZTlhkR21UZEx0MmF4VVE4N2xhTHhYbExXdExTR2k4OXVnajE0RnJUbzhrYmo?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Apple, Amazon, Microsoft… les énormes transactions financières de Donald Trump qui interrogent - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVDByX0pGM09XbUZFWDNvSWFGT25qVXE2VHJUT21MZjNxN09QeUE5M2gwQlRfVV91ajBWeC1rQkNYOW1EREhObkd1N0djLUNDck1jSExyQ2xWOGJVaVZiN01RWTR1WERxMDZRTlJkemJsSm9FRkFsWGdSS3lVRzd5NXE4eE4xVnhmQjZYSnc3OGI2aVBWbXRHVVoyVldOQXlPSHBzeGZoazd5cE5oeUdGeVYwOWJ5TjhGeldNTFRrdWh0TkpKLXJ4TWRJTQ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Kevin Warsh à la tête de la Fed : le choix stratégique de Donald Trump avant une période décisive - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTWMyV3VmbEI5cnIzSnBiRGVSOUY4VEhXNjVOV1pISld3UTZlYUVuRnBnV2F3SEl6RnQ3cWRHcVFLX01FZzBkLUpWN0N2bWEzU2MySU95RmRqVWlYbE83c1JGTDU4eTg4X3ZOLWtDbF9oNGVSSS1NblRNcnJxOFdjdW1qbnJsMHRmQlVuV2Q1X2FZcWN6aTVpRDVHdFBZZElaZVBmblo0MERpejBmcUE2dWNiLWZKWDhhODdJZlRFelR1WEZzZW9rdGVsRllXZmdJa3dz?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump et Xi Jinping ont longuement discuté concernant Taïwan - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVW15NGFqQ3hKZm5lT1ByeGN6TVdnRGJYMmhlVXJjX3VoUUZYX28zc3ZsckgzbHloRGpDM2xXYWd2azNkX0QwaFhIeE5MWXJsQ2dSejhLSEdMY2dibjc3ODZiVVYwSkpJNEdCNVVlWTFqejFTNXlEYllvNWZCQy10RlpoSEE5SjBhZ0pCa1oxVW9KbkhybHVkOGNSVkNKSGcyem9lZ0htYmg2dUJzbUVKdlNyTjVnekJ2RThmVkxwemI3cGpCZWdWMA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 25,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 33,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 20,
+      "crime": 9,
+      "eu": 14,
+      "politics": 8,
+      "be_gov": 9,
+      "culture": 5,
+      "tech": 3,
+      "economy": 13,
+      "sports": 42,
+      "health": 4,
+      "climate": 7,
+      "migration": 2,
+      "education": 1,
+      "weather": 12
+    },
+    "wide_themes": {
+      "war": 28,
+      "crime": 13,
+      "eu": 19,
+      "politics": 16,
+      "be_gov": 11,
+      "culture": 5,
+      "tech": 5,
+      "economy": 16,
+      "sports": 59,
+      "health": 5,
+      "climate": 8,
+      "migration": 2,
+      "education": 2,
+      "weather": 18
+    }
   }
 ]
