@@ -19321,5 +19321,561 @@
       "education": 2,
       "weather": 18
     }
+  },
+  {
+    "date": "2026-05-16",
+    "generated_at": "2026-05-16T08:12:20+02:00",
+    "last_checked_at": "2026-05-16T08:12:20+02:00",
+    "total_articles": 339,
+    "trump_articles": 11,
+    "percentage": 3.2,
+    "core_percentage": 3.2,
+    "core_percentage_name": 3.2,
+    "trump_articles_expanded": 11,
+    "core_percentage_expanded": 3.2,
+    "indirect_references": 0,
+    "wide_total_articles": 431,
+    "wide_trump_articles": 15,
+    "wide_percentage": 3.5,
+    "wide_trump_articles_expanded": 15,
+    "wide_percentage_expanded": 3.5,
+    "macro_percentage": 3.1,
+    "qualifying_outlets": 14,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 11.8,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 3.67,
+    "breadth": 0.44,
+    "deviation": 0.73,
+    "smoothed_pct": 4.43,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 44,
+        "today": 9,
+        "kept": 9,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 22.22
+      },
+      "google_nl_world": {
+        "fetched": 55,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 66,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 51,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 38,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 35,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 39,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 50,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.26
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump zegt dat VS nummer twee van IS hebben uitgeschakeld in Nigeria: “Abu-Bilal al-Minuki zal de bevolking van Afrika niet langer terroriseren”",
+        "url": "https://www.hln.be/buitenland/trump-zegt-dat-vs-nummer-twee-van-is-hebben-uitgeschakeld-in-nigeria-abu-bilal-al-minuki-zal-de-bevolking-van-afrika-niet-langer-terroriseren~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Inflatie neemt verder toe in VS en tast de populariteit Trump aan",
+        "url": "https://www.demorgen.be/nieuws/inflatie-neemt-verder-toe-in-vs-en-tast-de-populariteit-trump-aan~bf14ffc5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump waarschuwt Taiwan: “Geen onafhankelijkheid uitroepen”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-waarschuwt-taiwan-geen-onafhankelijkheid-uitroepen/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Het China-bezoek van Trump symboliseert hoe de machtsverhouding in de wereld definitief kantelt in het voordeel van China”",
+        "url": "https://www.nieuwsblad.be/politiek/het-china-bezoek-van-trump-symboliseert-hoe-de-machtsverhouding-in-de-wereld-definitief-kantelt-in-het-voordeel-van-china/151733306.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Vorige week Trump, volgende week Poetin: waarom nodigt China plots parade van wereldleiders uit?",
+        "url": "https://www.nieuwsblad.be/buitenland/vorige-week-trump-volgende-week-poetin-waarom-nodigt-china-plots-parade-van-wereldleiders-uit/151720693.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump waarschuwt Taiwan: “Geen onafhankelijkheid uitroepen”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-waarschuwt-taiwan-geen-onafhankelijkheid-uitroepen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Vorige week Trump, volgende week Poetin: waarom nodigt China plots parade van wereldleiders uit?",
+        "url": "https://www.hbvl.be/buitenland/vorige-week-trump-volgende-week-poetin-waarom-nodigt-china-plots-parade-van-wereldleiders-uit/151793545.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Taïwan affirme être une nation \"indépendante\", malgré la mise en garde du président américain Donald Trump",
+        "url": "https://www.rtbf.be/article/taiwan-affirme-etre-une-nation-independante-malgre-la-mise-en-garde-du-president-americain-donald-trump-11724828",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Taïwan affirme être une nation \"indépendante\", après la mise en garde de Trump",
+        "url": "https://www.lalibre.be/international/asie/2026/05/16/taiwan-affirme-etre-une-nation-independante-apres-la-mise-en-garde-de-trump-2SVEEQVWCVHGLFGK4RMOVXVLDE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Taïwan répond à la mise en garde de Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/16/taiwan-repond-a-la-mise-en-garde-de-trump-FJJMGUZ73FHE7OEFNXC4Z3Q6QM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce qu’un chef de l’EI a été tué au Nigeria dans une opération de l’armée américaine",
+        "url": "https://www.7sur7.be/monde/trump-annonce-quun-chef-de-lei-a-ete-tue-au-nigeria-dans-une-operation-de-larmee-americaine~ada9b0515/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "“Het China-bezoek van Trump symboliseert hoe de machtsverhouding in de wereld definitief kantelt in het voordeel van China” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxObF8wRmhTRlVMdm1wR3RFbElCYURIanVETHdnTVdHUXJXOUNnMmxuSzVfOFVzZkd4UE5JUDg3SXlFdDQ4ZDhsdElaZ3V6cFV0YUNFN2M1bU5lX3RsaG9pQm1pcXZCakJVMVVvVmN0UTV3SmNIT3UyNXZydnRXRlljWFM0ZmFwOUFvWWlIQTJORGxpcWRFZkx1eGZDYjkxeWRpbmRzS1ZBenhpS1FrUWkyOGdoa3NVdDI4T1F2TXNPbzI3SXItYzlLcEhFLWNBelRMcTVCYUJHbWEwUDRhenhuOW1FMTNVUEk0TmNlUjRQM2VoWVlFeTFTS3pMbXY1NjMz?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Vorige week Trump, volgende week Poetin: waarom nodigt China plots parade van wereldleiders uit? - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaHJROVpjNm13UkdKWmVwbXNkTmJFbFh5S25rTXByU1FaUUEyMEI4eVh0eUZ0bEhEbW9qYjNWMHZHaktZNnRpSkZ2bFhzZ3NlU01ESnRjZXZNU21iRUpBMHRQV3Zvak44dUVsc3FhcXgza0NJSEFMWDM4ZEtqQXFhSloxbWVyMzBiV0loeS1UMGpFdHlPOURZQ0VMbm1lRVNsMnJUVmtSZ3o4dFZ3RjdKOUtVSU5nX2JDYVZtQVdUdXRGRWU4OE9vUDFMelBjUWVqWkNQZThkYzdwV2szMnc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump zegt dat VS nummer twee van IS hebben uitgeschakeld in Nigeria: “Abu-Bilal al-Minuki zal de bevolking van Afrika niet langer terroriseren”",
+        "url": "https://www.hln.be/buitenland/trump-zegt-dat-vs-nummer-twee-van-is-hebben-uitgeschakeld-in-nigeria-abu-bilal-al-minuki-zal-de-bevolking-van-afrika-niet-langer-terroriseren~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Inflatie neemt verder toe in VS en tast de populariteit Trump aan",
+        "url": "https://www.demorgen.be/nieuws/inflatie-neemt-verder-toe-in-vs-en-tast-de-populariteit-trump-aan~bf14ffc5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump waarschuwt Taiwan: “Geen onafhankelijkheid uitroepen”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-waarschuwt-taiwan-geen-onafhankelijkheid-uitroepen/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Het China-bezoek van Trump symboliseert hoe de machtsverhouding in de wereld definitief kantelt in het voordeel van China”",
+        "url": "https://www.nieuwsblad.be/politiek/het-china-bezoek-van-trump-symboliseert-hoe-de-machtsverhouding-in-de-wereld-definitief-kantelt-in-het-voordeel-van-china/151733306.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Vorige week Trump, volgende week Poetin: waarom nodigt China plots parade van wereldleiders uit?",
+        "url": "https://www.nieuwsblad.be/buitenland/vorige-week-trump-volgende-week-poetin-waarom-nodigt-china-plots-parade-van-wereldleiders-uit/151720693.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump waarschuwt Taiwan: “Geen onafhankelijkheid uitroepen”",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-waarschuwt-taiwan-geen-onafhankelijkheid-uitroepen/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Vorige week Trump, volgende week Poetin: waarom nodigt China plots parade van wereldleiders uit?",
+        "url": "https://www.gva.be/buitenland/vorige-week-trump-volgende-week-poetin-waarom-nodigt-china-plots-parade-van-wereldleiders-uit/151741719.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump waarschuwt Taiwan: “Geen onafhankelijkheid uitroepen”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-waarschuwt-taiwan-geen-onafhankelijkheid-uitroepen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Vorige week Trump, volgende week Poetin: waarom nodigt China plots parade van wereldleiders uit?",
+        "url": "https://www.hbvl.be/buitenland/vorige-week-trump-volgende-week-poetin-waarom-nodigt-china-plots-parade-van-wereldleiders-uit/151793545.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Taïwan affirme être une nation \"indépendante\", malgré la mise en garde du président américain Donald Trump",
+        "url": "https://www.rtbf.be/article/taiwan-affirme-etre-une-nation-independante-malgre-la-mise-en-garde-du-president-americain-donald-trump-11724828",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Taïwan affirme être une nation \"indépendante\", après la mise en garde de Trump",
+        "url": "https://www.lalibre.be/international/asie/2026/05/16/taiwan-affirme-etre-une-nation-independante-apres-la-mise-en-garde-de-trump-2SVEEQVWCVHGLFGK4RMOVXVLDE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Taïwan répond à la mise en garde de Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/16/taiwan-repond-a-la-mise-en-garde-de-trump-FJJMGUZ73FHE7OEFNXC4Z3Q6QM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce qu’un chef de l’EI a été tué au Nigeria dans une opération de l’armée américaine",
+        "url": "https://www.7sur7.be/monde/trump-annonce-quun-chef-de-lei-a-ete-tue-au-nigeria-dans-une-operation-de-larmee-americaine~ada9b0515/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 11,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 15,
+      "putin": 4,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 19,
+      "crime": 7,
+      "eu": 16,
+      "politics": 8,
+      "be_gov": 9,
+      "culture": 7,
+      "tech": 3,
+      "economy": 5,
+      "sports": 30,
+      "health": 4,
+      "climate": 2,
+      "migration": 0,
+      "education": 0,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 24,
+      "crime": 9,
+      "eu": 20,
+      "politics": 9,
+      "be_gov": 10,
+      "culture": 8,
+      "tech": 5,
+      "economy": 6,
+      "sports": 41,
+      "health": 4,
+      "climate": 2,
+      "migration": 1,
+      "education": 2,
+      "weather": 9
+    }
   }
 ]
