@@ -20445,5 +20445,531 @@
       "education": 0,
       "weather": 3
     }
+  },
+  {
+    "date": "2026-05-18",
+    "generated_at": "2026-05-18T09:47:14+02:00",
+    "last_checked_at": "2026-05-18T09:47:14+02:00",
+    "total_articles": 479,
+    "trump_articles": 9,
+    "percentage": 1.9,
+    "core_percentage": 1.9,
+    "core_percentage_name": 1.9,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 1.9,
+    "indirect_references": 0,
+    "wide_total_articles": 626,
+    "wide_trump_articles": 12,
+    "wide_percentage": 1.9,
+    "wide_trump_articles_expanded": 12,
+    "wide_percentage_expanded": 1.9,
+    "macro_percentage": 1.6,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 26,
+    "cross_outlet_dup_groups": 12,
+    "cross_outlet_dup_rate": 5.4,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.29,
+    "breadth": 0.39,
+    "deviation": 0.49,
+    "smoothed_pct": 4.03,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 9,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 54,
+        "today": 8,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
+      },
+      "google_nl_world": {
+        "fetched": 46,
+        "today": 13,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 69,
+        "today": 15,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 58,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 40,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 34,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 32,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 72,
+        "kept": 36,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.78
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "lecho": {
+        "fetched": 56,
+        "today": 25,
+        "kept": 25,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 71,
+        "kept": 67,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 37,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 34,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
+      },
+      "trends_g": {
+        "fetched": 41,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 35,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Nieuwe Fed-baas Kevin Warsh zit nu al klem tussen Trump en inflatie - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMlhXM1RDTGdTSXluM2ZQcjc3MFlnRGJSWTdtZWFZZ0lXTi1ubjEtZTUtWUlFWUl6UUFTa2VFRGlEdzh0VUdTQlVLWElOWHVmMVp4dnZXZFB6c2J1UkdCWTBkTGVfcV9fTnV3N2IwZ29lQ3B4N0VXdnBtSUM0S0oyMUxTVVVrV0Jsd3hNOWlaNlVzdWJsTzZ0VHc0eHJpSmJwOFU5Vmx6X2ZPVTJJWk1ZNDVfUkJSbnM?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Ex-bondgenoot van Trump waarschuwt voor “politieke revolutie” als de VS troepen naar Iran sturen",
+        "url": "https://www.hln.be/buitenland/ex-bondgenoot-van-trump-waarschuwt-voor-politieke-revolutie-als-de-vs-troepen-naar-iran-sturen~a0e293d67/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping ontvangt Poetin in Peking, vier dagen na bezoek van Trump",
+        "url": "https://www.hln.be/buitenland/xi-jinping-ontvangt-poetin-in-peking-vier-dagen-na-bezoek-van-trump~a8b868b6/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Leider Islamitische Jihad gedood bij Israëlische aanval in Libanon • Trump dreigt opnieuw met vernietiging van Iran: ‘De klok tikt’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-dreigt-opnieuw-met-vernietiging-van-iran-de-klok-tikt-vae-aanval-op-kerncentrale-vormt-gevaarlijke-escalatie~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Duizenden mensen verzamelen in Washington voor christelijke bijeenkomst met Trump-bondgenoten",
+        "url": "https://www.nieuwsblad.be/buitenland/duizenden-mensen-verzamelen-in-washington-voor-christelijke-bijeenkomst-met-trump-bondgenoten/151931692.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "\"Nous sommes en pleine guerre spirituelle\" : vaste rassemblement religieux pro-Trump à Washington",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/18/nous-sommes-en-pleine-guerre-spirituelle-vaste-rassemblement-religieux-pro-trump-a-washington-RP24NKSMOJA6TBOEQGXG6HWQVE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Nouvelles menaces d'anéantissement de Trump contre l'Iran - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRjM2OWlQeDZIT01yam5LVG02eGFBVDJRVGlFcDhGYjFGeDJpWUE1bUlhZXU2WTBfUDNIMS1ycTdSVDNpLTdZc2Zxb1AwWGtpTG5BMHBfM29aNTZoZDZ1clllUFVWa3g4Slo4MWdUUXltMmw0RjNrOExKQnVfNENJN0tNdW5uMGpaMWxIUVRKbTZGbG85ZjhRR3NSNWkzN0VfbG95aklPVHNDOHdrN25YTjdmOA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Nouvelles menaces d'anéantissement de Donald Trump contre l'Iran - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQV0t1U2RDM05qZEtwaVBCeWZvamFZVGhSUUJ2Q3I1dVJDMzdNTzhWeGdUTm5adFJXdmxaWlhrNWZkTEhxVlBtei03VU04Nm1hbU5lZFNoTWxaQzNqY1JLVXJURWRHanBRay05TVFuRGdWOWhObWNIVjAtSFJXbU13V01CUXRxZTE0ZTBXVHN6VVEzclhuNzNTdUFrZkhmcV9md1ViU3cxdXNKNFFLTWRtM0pwd3VnZWZqckdJUkNSR29qYkVNMW5tSExPZ0NxN25GU3ByM1l0TDNHNGRESDNoYXlGWndleFV0Mlp1RjN4TjRSOURTZF9URmx4VXdPRTdIQnJpQjZsYVF3dw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L'Iran va-t-il pouvoir jouer contre la Belgique à la Coupe du Monde? Donald Trump répond - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVmtuVWZkMkZrbUVscjRoMF9qWmFNRk9uM08tN3plR001XzR3ckd0SU5scElnOFhNNmkyR29hVnA1blRtVUw1NVZSN195TnA5bnJPOGZyMWdmNDNPbXVSZWRCR3BTYnphM0Z2MURLQkpST1hSZEtzRjJOU3lfSFZWS0REZnB3bzZqVnVUZXlCZWZ5X1c5MFNpRHNBVFFXeUNPbmNNdnJjOA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump voert druk op Iran op: 'De klok tikt' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdUJJVzZEM281ZHEyUU9EcDNtOGR4djVVdmdZOXctYjh1RUgycUJtdTRVZFJoQndhUXpuMFc4S2xSMnBsSElyZ2dCdHdOakpDZ2l5SUJ3aG11ZXVyYUtRVTF1V1gyeWJiOV9WUE1md0phc1hqcjhRLXFwM3VqaTN5dE9UVFFmenF1YXloUlJ5cTFqQU1LNlhzSlFsQVZ5MVp3dHhuNmk3MXgxUQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump verwijt de EU traagheid bij goedkeuring handelsakkoord. Is dat terecht? “Elke knieval maakt de bullebak agressiever” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOU0NsQWRHRThqSjBOQXNwaE4xZmViRVBJbWFHanJzQ0g4UnlaNzkzbHVfUUtrMGx6Z3FiV04xd2paSlVfakFMOE1VTllCYWJGTUdqd0VTai1WaDlManV4eElNM2dnVmZOejhLZDR2bkZiQ0RTaTl5a0l4eTdaUGlMbXZXTTFSRUJwUnZhUkpaMVZOSEthVFlxXzR4RTlXaXltLWhKdkhpMkRPTmJFanlESURBSlJQaUZLcjh4bXJRYjR4RmVhbTloSzYtQUFkTjZKM1ZIcndxdTZsb29pbFBIT3NFalNlUVotQmJiN1ZBenRtVzdoSXBEQkYtbG13aEU?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe Fed-baas Kevin Warsh zit nu al klem tussen Trump en inflatie - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMlhXM1RDTGdTSXluM2ZQcjc3MFlnRGJSWTdtZWFZZ0lXTi1ubjEtZTUtWUlFWUl6UUFTa2VFRGlEdzh0VUdTQlVLWElOWHVmMVp4dnZXZFB6c2J1UkdCWTBkTGVfcV9fTnV3N2IwZ29lQ3B4N0VXdnBtSUM0S0oyMUxTVVVrV0Jsd3hNOWlaNlVzdWJsTzZ0VHc0eHJpSmJwOFU5Vmx6X2ZPVTJJWk1ZNDVfUkJSbnM?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Ex-bondgenoot van Trump waarschuwt voor “politieke revolutie” als de VS troepen naar Iran sturen",
+        "url": "https://www.hln.be/buitenland/ex-bondgenoot-van-trump-waarschuwt-voor-politieke-revolutie-als-de-vs-troepen-naar-iran-sturen~a0e293d67/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping ontvangt Poetin in Peking, vier dagen na bezoek van Trump",
+        "url": "https://www.hln.be/buitenland/xi-jinping-ontvangt-poetin-in-peking-vier-dagen-na-bezoek-van-trump~a8b868b6/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Leider Islamitische Jihad gedood bij Israëlische aanval in Libanon • Trump dreigt opnieuw met vernietiging van Iran: ‘De klok tikt’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-dreigt-opnieuw-met-vernietiging-van-iran-de-klok-tikt-vae-aanval-op-kerncentrale-vormt-gevaarlijke-escalatie~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Duizenden mensen verzamelen in Washington voor christelijke bijeenkomst met Trump-bondgenoten",
+        "url": "https://www.nieuwsblad.be/buitenland/duizenden-mensen-verzamelen-in-washington-voor-christelijke-bijeenkomst-met-trump-bondgenoten/151931692.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Duizenden mensen verzamelen in Washington voor christelijke bijeenkomst met Trump-bondgenoten",
+        "url": "https://www.gva.be/buitenland/duizenden-mensen-verzamelen-in-washington-voor-christelijke-bijeenkomst-met-trump-bondgenoten/151931694.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "\"Nous sommes en pleine guerre spirituelle\" : vaste rassemblement religieux pro-Trump à Washington",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/18/nous-sommes-en-pleine-guerre-spirituelle-vaste-rassemblement-religieux-pro-trump-a-washington-RP24NKSMOJA6TBOEQGXG6HWQVE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Nouvelles menaces d'anéantissement de Trump contre l'Iran - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRjM2OWlQeDZIT01yam5LVG02eGFBVDJRVGlFcDhGYjFGeDJpWUE1bUlhZXU2WTBfUDNIMS1ycTdSVDNpLTdZc2Zxb1AwWGtpTG5BMHBfM29aNTZoZDZ1clllUFVWa3g4Slo4MWdUUXltMmw0RjNrOExKQnVfNENJN0tNdW5uMGpaMWxIUVRKbTZGbG85ZjhRR3NSNWkzN0VfbG95aklPVHNDOHdrN25YTjdmOA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Nouvelles menaces d'anéantissement de Donald Trump contre l'Iran - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQV0t1U2RDM05qZEtwaVBCeWZvamFZVGhSUUJ2Q3I1dVJDMzdNTzhWeGdUTm5adFJXdmxaWlhrNWZkTEhxVlBtei03VU04Nm1hbU5lZFNoTWxaQzNqY1JLVXJURWRHanBRay05TVFuRGdWOWhObWNIVjAtSFJXbU13V01CUXRxZTE0ZTBXVHN6VVEzclhuNzNTdUFrZkhmcV9md1ViU3cxdXNKNFFLTWRtM0pwd3VnZWZqckdJUkNSR29qYkVNMW5tSExPZ0NxN25GU3ByM1l0TDNHNGRESDNoYXlGWndleFV0Mlp1RjN4TjRSOURTZF9URmx4VXdPRTdIQnJpQjZsYVF3dw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L'Iran va-t-il pouvoir jouer contre la Belgique à la Coupe du Monde? Donald Trump répond - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVmtuVWZkMkZrbUVscjRoMF9qWmFNRk9uM08tN3plR001XzR3ckd0SU5scElnOFhNNmkyR29hVnA1blRtVUw1NVZSN195TnA5bnJPOGZyMWdmNDNPbXVSZWRCR3BTYnphM0Z2MURLQkpST1hSZEtzRjJOU3lfSFZWS0REZnB3bzZqVnVUZXlCZWZ5X1c5MFNpRHNBVFFXeUNPbmNNdnJjOA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 9,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 3,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 12,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 4,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 25,
+      "crime": 21,
+      "eu": 16,
+      "politics": 14,
+      "be_gov": 10,
+      "culture": 19,
+      "tech": 8,
+      "economy": 9,
+      "sports": 25,
+      "health": 11,
+      "climate": 6,
+      "migration": 0,
+      "education": 7,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 37,
+      "crime": 33,
+      "eu": 21,
+      "politics": 21,
+      "be_gov": 13,
+      "culture": 22,
+      "tech": 11,
+      "economy": 12,
+      "sports": 40,
+      "health": 15,
+      "climate": 8,
+      "migration": 0,
+      "education": 8,
+      "weather": 10
+    }
   }
 ]
