@@ -21851,5 +21851,651 @@
       "education": 6,
       "weather": 7
     }
+  },
+  {
+    "date": "2026-05-20",
+    "generated_at": "2026-05-20T09:02:14+02:00",
+    "last_checked_at": "2026-05-20T09:02:14+02:00",
+    "total_articles": 386,
+    "trump_articles": 15,
+    "percentage": 3.9,
+    "core_percentage": 3.9,
+    "core_percentage_name": 3.9,
+    "trump_articles_expanded": 16,
+    "core_percentage_expanded": 4.1,
+    "indirect_references": 1,
+    "wide_total_articles": 518,
+    "wide_trump_articles": 23,
+    "wide_percentage": 4.4,
+    "wide_trump_articles_expanded": 25,
+    "wide_percentage_expanded": 4.8,
+    "macro_percentage": 6.1,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 35,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 9.1,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.15,
+    "breadth": 0.56,
+    "deviation": 1.04,
+    "smoothed_pct": 3.94,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 4.76
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 14,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "google_nl_politics": {
+        "fetched": 51,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 48,
+        "today": 10,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 62,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 38,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_fr_world": {
+        "fetched": 48,
+        "today": 4,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 45,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 14,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.52
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 37,
+        "kept": 37,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.7
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 14.29
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 45,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "trends_g": {
+        "fetched": 80,
+        "today": 9,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 88,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Nieuwe balzaal Witte Huis zal dronebestendig zijn en eronder komt militair hospitaal: \"Geschenk aan Amerika\"",
+        "url": "https://vrtnws.be/p.LN6VoGlbv",
+        "source": "vrt",
+        "name_only": false
+      },
+      {
+        "title": "Trump neemt in juni deel aan de G7-top in Frankrijk",
+        "url": "https://www.hln.be/buitenland/trump-neemt-in-juni-deel-aan-de-g7-top-in-frankrijk~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Xi Jinping ontvangt Poetin in Peking, enkele dagen na Trump",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-twee-doden-en-meerdere-gewonden-in-oekraine-na-russische-aanvallen-xi-ontvangt-russische-president-poetin-in-peking~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Republikeinse voorverkiezingen als bloedbad: Trump laat ook Thomas Massie vallen",
+        "url": "https://www.demorgen.be/nieuws/republikeinse-voorverkiezingen-als-bloedbad-trump-laat-ook-thomas-massie-vallen~b2fcf747/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "De greep van Trump blijft sterk: criticus van president verliest Republikeinse voorverkiezing",
+        "url": "https://www.nieuwsblad.be/buitenland/de-greep-van-trump-blijft-sterk-criticus-van-president-verliest-republikeinse-voorverkiezing/152149605.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Chinese president Xi ontvangt Poetin in Peking, enkele dagen na Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-chinese-president-xi-ontvangt-poetin-in-peking-enkele-dagen-na-trump/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Akkoord binnen EU over uitvoering van handelsakkoord met VS - Belastingdienst mag Trump en zijn familie niet meer onderzoeken",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-akkoord-binnen-eu-over-uitvoering-van-handelsakkoord-met-vs-belastingdienst-mag-trump-en-zijn-familie-niet-meer-onderzoeken/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Sous la pression de Donald Trump, l'Union européenne est parvenue à un accord sur les droits de douane",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/20/sous-la-pression-de-donald-trump-lunion-europeenne-est-parvenue-a-un-accord-sur-les-droits-de-douane-NAOKKZAJ3ZEU3DMMHECUQAEB54/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump participera au sommet du G7 organisé mi-juin en France",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/20/donald-trump-participera-au-sommet-du-g7-organise-mi-juin-en-france-72HL5WQFEJCXRIJCU7ISJURZY4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Faites des conneries, vous allez voir\" : critique de Trump, ce républicain perd son pari électoral",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/20/faites-des-conneries-vous-allez-voir-critique-de-trump-ce-republicain-perd-son-pari-electoral-KJK2OSY3MBAHTM4P6ENYBXTHCY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Après les menaces de Trump, l’UE s’accorde pour appliquer l’accord commercial avec Washington",
+        "url": "https://www.7sur7.be/monde/apres-les-menaces-de-trump-lue-saccorde-pour-appliquer-laccord-commercial-avec-washington~a7df7784/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Républicain anti-Trump, Thomas Massie perd son pari électoral dans le Kentucky",
+        "url": "https://www.7sur7.be/monde/republicain-anti-trump-thomas-massie-perd-son-pari-electoral-dans-le-kentucky~aaf16b81/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump-criticus Massie verliest Republikeinse primary in Kentucky - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQczBnWUpwVXdaU2RLWDJxLWthSWI0UG5lRWJtTHJnNGNhSW9Hcm9xZVBQT0ZBNHdCb1lsM0pERHFVRmk0NWVILVJIZnV1SU9tSE5CeVVPRXV1UGFiZjBEOGlrQ0J6RTRPamp1b1F6S2xVell6X05ES0t6Zm55Mk8xUnhHbURtRFdfNFZqNGE0bnpMM18tN1c3SXUtSzd0NnpDZjVIdURrWFhpeks3REpxMFFLdDdtcnJfZFE5OWtFWWhVNXYyeUQ2NkFfSm9iUHc?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump participera au sommet du G7 en France en juin - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2F4TzN2Qnc4RGpicHRvMFREdl85WTlaNjg0Nno0TnJORzJFdEFHbnl6SmhqbWFrNGczaVprSmVaczJBdUhfVTVGM0pQZDhqTW52d0NEei1QV1BUVFRPakdZOTBRbTY5emNidnFqS3czazgxVWljWDRCLUV0Y2NLUEotZ28wOHBVUVV6cllncXlBR0t1a1pGQmZORG1XekhKNUQzZG03U3J1ckxSNE1F?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Pressée par Donald Trump, l’Union européenne parvient à un accord sur les droits de douane : voici ce qui a été décidé, avec un « mécanisme de suspension si les États-Unis ne respectent pas l’accord » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTHpEcVhxSmN4TkswcTVrWVYtTlZaVlFTLUJ2aC1Ea0JVdU5tSXFwY3k2ZU1Ebnc3LTFqWG5vamE3MmFObVJUcFkzemczMnN5aFlxT3VSbVFhSGczWXZrWHg3MDJ3TDN0NWVxMmNDemtFeE5TRHpHbU5RbnZFeUNMZGljRXRpbTduY1BhRlNBV3ZvVWlOS0JTd0ZBWXdJZjY3b1FGUE9QT1VTN2pjSjFCemlPdnFUN2gzY1hTWDdMdThoR2kxc25ycXlWcw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Pressée par Trump, l’Union européenne parvient à un accord sur les droits de douane : voici ce qui a été décidé - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTEdveXdLN3llVkYyc2xtV3gwYVZycm1mR3VjUjFhb09MUFJtMXZHUUhPem1YTXNjZUtiaTVwR1U3YjFKQmlqNWplMWgyeXNiUzQ4ejJEUDBPVTAxQlRzaGo0dzNkaDR5MmxwYV9DYVNDcjk0MU9xUUJxVnNydUdxUkw1UTRaVTVyTlI3N0MyTVBEMUhfLVdzdVoxRW9XMERrNlowWUUtQkNUZlRMS1V0Q2FlaDBUQ2VSSVlBUFVuRkduZGhKREtSYXhMNGl1NW9UNDVpaUtTLW5HNlZGMk9tdjVWYw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "De greep van Trump blijft sterk: criticus van president verliest Republikeinse voorverkiezing - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQlp2NFNvbnAtM2JKaTVWS1pwS1l2VEcyN1IwUTRybHpiRXItZGtVYmpUSktuNVNraG1hRWQ2RzZ2SF9RczFPdHYtdVp2LWhPZHkwS2tOUUI2N2M4RzhPR0V2MlIzdUFwWE94QkloSVNwYlVlRkEtZDlHbXpoNU5MQUFmR3Zld09POFBaYVhuTHFsTzhkRTVjUXZPQnFTT25STnkwRGJZbWRKR0xJTWVGRjdVbjhfWVJKYUdSd2RpWnV5b0NUa1NBcERGanlrdEdYd1dEM2hONzhpOWM5?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe balzaal Witte Huis zal dronebestendig zijn en eronder komt militair hospitaal: \"Geschenk aan Amerika\" - VRT",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkWFlKLWtsNm1IaDZERU8tdTJZTGRQcHZVRDV2X0ZMcXhnSGNYTDhfSUlKVWlNeF9STjJWaVhyODRDU09jUENSN1daWWNEbDNrdEVXNDhNU3dRb0hWVHVtNGRvUUdLdlNydnJJ?oc=5",
+        "source": "google_nl",
+        "name_only": false
+      },
+      {
+        "title": "Sous la pression de Donald Trump, l'Union européenne est parvenue à un accord sur les droits de douane - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNTHFwRm12QVhsQ0RrZFY4bGxMSXoyVS1hNnRpMVVQZDNISkpxa2pldW5LTU14a2VXdG5SZnFGV1VBVHgwdzl0bTFfM0RqWjlGZWlkSzRBVDI4R3lUdVpidC10ZktJclhpSmp1THpYNEFCMUhFQkY3UDNHemxZcXhOSmw0NmM2UTJTdHM2NVJ0Z29OUHc3cFBrblpPQ1h6YmY2RHd6TTU4ZEQtMmdJZXRzb2NoR1I3cWJfLTVnZXBQWWF1NGpyUHBxaktSdGgtS2Q4S1NPbDduWFJtOHNORXdEdnlkXzBaX1hiUHk0NGJKT2p4bDRJNFRsN2pMRmdNQUdvZk1mTDFTenItWjBHV0JwMUtNdw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "\"Faites des conneries, vous allez voir\" : critique de Trump, ce républicain perd son pari électoral - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOZFNETWVhenFJYWhfTXVGWHhZcGNxT1doV3A4ajBLdlQwNGt6VlRJMTNfcFBES29CT2sxRXZ2eE9RUWJNd1ZINnp4bzdMM1E1WFA2dUtjTVIyLWFSMG9pSl9UbDEtd2lQaGswNE1saktmSEp0VkQ4bXRkWkpsNHlkRmtyN3FQdEdDbVpVTkdqdURkcVhDNkNnUHFLMmdURFRvdDZUc2d0YVhkbjZqZTRfVGtYbWxrZk5HRWpwc0Vma3VzSzBMeUNxdzVwUTFLVGdLbk12S2M1Um1SM3VpRnZTaUpOdDJHeXlacTVaVjFlN2R0Q0g0bG1iWThNZ19BVjJscFJtRHhRdjZPQQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Wie door de regering-Trump als “slachtoffer van de overheid” wordt beschouwd, krijgt straks een smak belastinggeld - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQYldTOGxTWkN5VENzdXdVTzJ2RjIxenFiUUtkQ0p0d21MQVE2M2hXdDFTeHE0bGV3VnRnLWZib242WXUtckEwWkVjT0VMNGlzLWh2aG1GemdJZzJpYm5fZXhYZEg3TkE3RjdaaEF1YUdfRnBvYVhfSm1fbTFmVHF5bm8wSXBHM0x4Z21vRnBtZGNnb3Z1amxsNUtlVVl6QVlRSXppTHhXd3luVVlnY2RLWW1GYjl3MERuUm5wNmJwbF9CVllSNEtqbGJmQy1TRnlRZ3pUQ1RfVWlZNWxWOHVTLXNUX0J3YUZUdjJWWlpTbkkwTWNC?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "L’UE trouve un accord pour éviter de nouveaux droits de douane de Trump - 20 Minutes",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRGtqVlVaekUzQWREbXBnYzd5OWsxMmVRckNQMTZ5Y3dMcU9WRVZodVM5eEpndW9sV0VZSElyY2NNTEVBWEZPQm5yTE1QSnkybEZmUkZ4aVhUZGJGdlpqMERKbGhfZFpyMld2Q2pKYTVBdmxGM0hGTW95U0Y3Nnp2YlZsZmROellDV05UUF9DUHhBcW9Za29GX2NlX015aXdLX3hWSEZVT0EwTWtFeXdseDN3QnVBUWt4enVKNjZlLU9JX2s?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe balzaal Witte Huis zal dronebestendig zijn en eronder komt militair hospitaal: \"Geschenk aan Amerika\"",
+        "url": "https://vrtnws.be/p.LN6VoGlbv",
+        "source": "vrt",
+        "name_only": false
+      },
+      {
+        "title": "Trump neemt in juni deel aan de G7-top in Frankrijk",
+        "url": "https://www.hln.be/buitenland/trump-neemt-in-juni-deel-aan-de-g7-top-in-frankrijk~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Xi Jinping ontvangt Poetin in Peking, enkele dagen na Trump",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-twee-doden-en-meerdere-gewonden-in-oekraine-na-russische-aanvallen-xi-ontvangt-russische-president-poetin-in-peking~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Republikeinse voorverkiezingen als bloedbad: Trump laat ook Thomas Massie vallen",
+        "url": "https://www.demorgen.be/nieuws/republikeinse-voorverkiezingen-als-bloedbad-trump-laat-ook-thomas-massie-vallen~b2fcf747/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "De greep van Trump blijft sterk: criticus van president verliest Republikeinse voorverkiezing",
+        "url": "https://www.nieuwsblad.be/buitenland/de-greep-van-trump-blijft-sterk-criticus-van-president-verliest-republikeinse-voorverkiezing/152149605.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Chinese president Xi ontvangt Poetin in Peking, enkele dagen na Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-chinese-president-xi-ontvangt-poetin-in-peking-enkele-dagen-na-trump/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "De greep van Trump blijft sterk: criticus van president verliest Republikeinse voorverkiezing",
+        "url": "https://www.gva.be/buitenland/de-greep-van-trump-blijft-sterk-criticus-van-president-verliest-republikeinse-voorverkiezing/152150157.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Chinese president Xi ontvangt Poetin in Peking, enkele dagen na Trump",
+        "url": "https://www.gva.be/buitenland/live-oorlog-in-oekraine.-chinese-president-xi-ontvangt-poetin-in-peking-enkele-dagen-na-trump/76695337.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Akkoord binnen EU over uitvoering van handelsakkoord met VS - Belastingdienst mag Trump en zijn familie niet meer onderzoeken",
+        "url": "https://www.gva.be/buitenland/live-vs.-akkoord-binnen-eu-over-uitvoering-van-handelsakkoord-met-vs-belastingdienst-mag-trump-en-zijn-familie-niet-meer-onderzoeken/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Akkoord binnen EU over uitvoering van handelsakkoord met VS - Belastingdienst mag Trump en zijn familie niet meer onderzoeken",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-akkoord-binnen-eu-over-uitvoering-van-handelsakkoord-met-vs-belastingdienst-mag-trump-en-zijn-familie-niet-meer-onderzoeken/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Sous la pression de Donald Trump, l'Union européenne est parvenue à un accord sur les droits de douane",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/20/sous-la-pression-de-donald-trump-lunion-europeenne-est-parvenue-a-un-accord-sur-les-droits-de-douane-NAOKKZAJ3ZEU3DMMHECUQAEB54/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump participera au sommet du G7 organisé mi-juin en France",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/20/donald-trump-participera-au-sommet-du-g7-organise-mi-juin-en-france-72HL5WQFEJCXRIJCU7ISJURZY4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Faites des conneries, vous allez voir\" : critique de Trump, ce républicain perd son pari électoral",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/20/faites-des-conneries-vous-allez-voir-critique-de-trump-ce-republicain-perd-son-pari-electoral-KJK2OSY3MBAHTM4P6ENYBXTHCY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Après les menaces de Trump, l’UE s’accorde pour appliquer l’accord commercial avec Washington",
+        "url": "https://www.7sur7.be/monde/apres-les-menaces-de-trump-lue-saccorde-pour-appliquer-laccord-commercial-avec-washington~a7df7784/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Républicain anti-Trump, Thomas Massie perd son pari électoral dans le Kentucky",
+        "url": "https://www.7sur7.be/monde/republicain-anti-trump-thomas-massie-perd-son-pari-electoral-dans-le-kentucky~aaf16b81/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump-criticus Massie verliest Republikeinse primary in Kentucky - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQczBnWUpwVXdaU2RLWDJxLWthSWI0UG5lRWJtTHJnNGNhSW9Hcm9xZVBQT0ZBNHdCb1lsM0pERHFVRmk0NWVILVJIZnV1SU9tSE5CeVVPRXV1UGFiZjBEOGlrQ0J6RTRPamp1b1F6S2xVell6X05ES0t6Zm55Mk8xUnhHbURtRFdfNFZqNGE0bnpMM18tN1c3SXUtSzd0NnpDZjVIdURrWFhpeks3REpxMFFLdDdtcnJfZFE5OWtFWWhVNXYyeUQ2NkFfSm9iUHc?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump participera au sommet du G7 en France en juin - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2F4TzN2Qnc4RGpicHRvMFREdl85WTlaNjg0Nno0TnJORzJFdEFHbnl6SmhqbWFrNGczaVprSmVaczJBdUhfVTVGM0pQZDhqTW52d0NEei1QV1BUVFRPakdZOTBRbTY5emNidnFqS3czazgxVWljWDRCLUV0Y2NLUEotZ28wOHBVUVV6cllncXlBR0t1a1pGQmZORG1XekhKNUQzZG03U3J1ckxSNE1F?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Pressée par Donald Trump, l’Union européenne parvient à un accord sur les droits de douane : voici ce qui a été décidé, avec un « mécanisme de suspension si les États-Unis ne respectent pas l’accord » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTHpEcVhxSmN4TkswcTVrWVYtTlZaVlFTLUJ2aC1Ea0JVdU5tSXFwY3k2ZU1Ebnc3LTFqWG5vamE3MmFObVJUcFkzemczMnN5aFlxT3VSbVFhSGczWXZrWHg3MDJ3TDN0NWVxMmNDemtFeE5TRHpHbU5RbnZFeUNMZGljRXRpbTduY1BhRlNBV3ZvVWlOS0JTd0ZBWXdJZjY3b1FGUE9QT1VTN2pjSjFCemlPdnFUN2gzY1hTWDdMdThoR2kxc25ycXlWcw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Pressée par Trump, l’Union européenne parvient à un accord sur les droits de douane : voici ce qui a été décidé - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTEdveXdLN3llVkYyc2xtV3gwYVZycm1mR3VjUjFhb09MUFJtMXZHUUhPem1YTXNjZUtiaTVwR1U3YjFKQmlqNWplMWgyeXNiUzQ4ejJEUDBPVTAxQlRzaGo0dzNkaDR5MmxwYV9DYVNDcjk0MU9xUUJxVnNydUdxUkw1UTRaVTVyTlI3N0MyTVBEMUhfLVdzdVoxRW9XMERrNlowWUUtQkNUZlRMS1V0Q2FlaDBUQ2VSSVlBUFVuRkduZGhKREtSYXhMNGl1NW9UNDVpaUtTLW5HNlZGMk9tdjVWYw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 15,
+      "putin": 10,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 23,
+      "putin": 13,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 14,
+      "crime": 14,
+      "eu": 19,
+      "politics": 13,
+      "be_gov": 8,
+      "culture": 9,
+      "tech": 8,
+      "economy": 19,
+      "sports": 15,
+      "health": 8,
+      "climate": 1,
+      "migration": 0,
+      "education": 2,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 20,
+      "crime": 19,
+      "eu": 27,
+      "politics": 22,
+      "be_gov": 12,
+      "culture": 11,
+      "tech": 15,
+      "economy": 21,
+      "sports": 23,
+      "health": 9,
+      "climate": 1,
+      "migration": 1,
+      "education": 5,
+      "weather": 9
+    }
   }
 ]
