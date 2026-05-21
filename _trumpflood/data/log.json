@@ -22497,5 +22497,597 @@
       "education": 5,
       "weather": 9
     }
+  },
+  {
+    "date": "2026-05-21",
+    "generated_at": "2026-05-21T09:07:38+02:00",
+    "last_checked_at": "2026-05-21T09:07:38+02:00",
+    "total_articles": 414,
+    "trump_articles": 11,
+    "percentage": 2.7,
+    "core_percentage": 2.7,
+    "core_percentage_name": 2.7,
+    "trump_articles_expanded": 12,
+    "core_percentage_expanded": 2.9,
+    "indirect_references": 1,
+    "wide_total_articles": 556,
+    "wide_trump_articles": 18,
+    "wide_percentage": 3.2,
+    "wide_trump_articles_expanded": 20,
+    "wide_percentage_expanded": 3.6,
+    "macro_percentage": 2.9,
+    "qualifying_outlets": 20,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 51,
+    "cross_outlet_dup_groups": 25,
+    "cross_outlet_dup_rate": 12.3,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.38,
+    "breadth": 0.35,
+    "deviation": 0.72,
+    "smoothed_pct": 3.59,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 6.25
+      },
+      "google_nl_politics": {
+        "fetched": 40,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_world": {
+        "fetched": 52,
+        "today": 10,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 64,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 41,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 42,
+        "today": 6,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_fr_business": {
+        "fetched": 43,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 56,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.12
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 17.65
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 46,
+        "kept": 46,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.17
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 21,
+        "kept": 21,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.52
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 12,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Live - Trump en Netanyahu ‘ruziën aan telefoon’ over strategie Iran",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-bekijkt-nieuw-amerikaans-vredesvoorstel-trump-wil-land-nog-enkele-dagen-geven-om-het-juiste-antwoord-te-geven~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump voert verhit gesprek met “hysterische” Netanyahu over Iran: “Hij zal doen wat ik hem zeg dat hij moet doen”",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-voert-verhit-gesprek-met-hysterische-netanyahu-over-iran-hij-zal-doen-wat-ik-hem-zeg-dat-hij-moet-doen/152286367.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. “Trump en Netanyahu voeren verhit telefoongesprek”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-en-netanyahu-voeren-verhit-telefoongesprek/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump “wil niet zeggen” of VS met Castro zal doen wat het met Maduro deed",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-wil-niet-zeggen-of-vs-met-castro-zal-doen-wat-het-met-maduro-deed/152264980.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "USA : Dernier épisode du \"Late Show\" conspué par le président américain",
+        "url": "https://www.rtbf.be/article/usa-dernier-episode-du-late-show-conspue-par-le-president-americain-11727293",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Benjamin Netanyahu “hors de lui” après une discussion “longue et difficile” avec Donald Trump sur la guerre au Moyen-Orient",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/21/benjamin-netanyahu-hors-de-lui-apres-une-discussion-longue-et-difficile-avec-donald-trump-sur-la-guerre-au-moyen-orient-UE3TB2B6MFE33E7L7FKSXLPF5U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump affirme que les pourparlers avec l'Iran sont \"sur le fil\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/21/direct-guerre-au-moyen-orient-trump-affirme-que-les-pourparlers-avec-liran-sont-sur-le-fil-YXUA2KNFJNCIPNRGZI2HSS7WI4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump dicte toujours sa loi chez les Républicains",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/21/donald-trump-dicte-toujours-sa-loi-chez-les-republicains-DT3YUGLXLFAHXP2TDRDKEIGQEE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: L'Iran examine une offre américaine; \"dernière phase\" des négociations pour Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNZnpkTWdZczBjaXhycXlyazM5QXNWckE5azlwdm1xclJtNFRvWFB0c0JoZXNLckYwZU14MHQ1czdTMU5ERXVkVXRZdnFtQ0RGcUdLbFZuQnhJSzdwQ2s0OEZyVkRSZHdndU0yN1YtNW12aVhvR3hMQ1FQaWRBNkNleUNrVk1fcHhmRXNpanVQTG9YTjlJaWNMTFR4Mkt3TzM0TllwTnpiRzl1UUhMNGJSR2lXaEMwa2RaQmpSSHJYa2JhM2FrOV9qZV9oR2pseG53MDVaM0ZKUVRtMlFSRjBTd2VGcjRhdmkzOHhSckdCdFZGdVhENFFsSGgzSjNhNkJYSnpWOHJFTWlmN3lyYTRCTElaM3l2TEpuVzJiakZQTFRDVnpkdG40?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient: Trump affirme que les pourparlers avec l'Iran sont \"sur le fil\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/21/guerre-au-moyen-orient-trump-affirme-que-les-pourparlers-avec-liran-sont-sur-le-fil-6J5R2XW5BZEYXHQ4I27EV3JKNE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu “hors de lui” après un entretien téléphonique avec Trump sur la guerre au Moyen-Orient",
+        "url": "https://www.7sur7.be/monde/netanyahu-hors-de-lui-apres-un-entretien-telephonique-avec-trump-sur-la-guerre-au-moyen-orient~abcf55f5/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Trump affirme que les pourparlers avec l’Iran sont “sur le fil”",
+        "url": "https://www.7sur7.be/monde/guerre-au-moyen-orient-trump-affirme-que-les-pourparlers-avec-liran-sont-sur-le-fil~aef0cb91/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Guerre au Moyen-Orient: Trump affirme que les pourparlers avec l'Iran sont \"sur le fil\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZjdMYXNEcnpfN3FiRTBtVWVBbXZWOUhVREpRMUx5Y3RSZXVCYW1CZ3RkRU53WFJfelR2Z0xfZzZGT3hXTHdWRTlaSUJtYmlSdzV2YXBzc2pyZ2M5ZzVsVVpvNC1reC1LUUtmbk0ySXpDMDNWaE5lN2JJTnRiRDBFbnpRWjE1Z05JTk5mNlFJNGJfdEZoR0ZxSi0zNXBZeTI3b1VIcDdWNnQyaHQ1SUhvajFkMW5ld0ljS1l5VUI5b2F3cFFQZXBOUzhtcVYxbGlVd0lNUTJDWS10NHhPQzhCaHVpeThHZy1yS3c?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "USA : Dernier épisode du \"Late Show\" conspué par le président américain - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMXRwTENRZ2I1cW1CNDhhajdKcUZ4cFdSclFwSV9QODRKNDU5dXpmZC1YXzVlbVRyLVRQNVE5R3JKZXZBVnZTLThGVlVkVlJ0N3hsSUNVRFUzRjAyQTBIcFc0RlEwMFRCVy1Hc2Z0Y21kXzB2cVBBREgtNFlJcDJOdkd3NzhLMW5ZdG1EZ1dKWnVidVU3aExqWW5KTVd3NlZycUxta2YzYw?oc=5",
+        "source": "google_fr",
+        "name_only": false
+      },
+      {
+        "title": "Trump voert verhit gesprek met “hysterische” Netanyahu over Iran: “Hij zal doen wat ik hem zeg dat hij moet doen” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMVh2U2oyUmNuNlgxZnRhLU9mc19sUThDUXVaejhOZXFsSEtmSjN3eHV5TlFNa1pIczZwellLNGRFY2lFVnMzZjg2T24xM05ueDRMVDlObmZCRDJZV096U2VYeDFlb2ZaTUlzWjMzQ1lYdEJBeVpGWDNwcThQMFMyejBvcjYtSFF6SDBiZE5kd0RJWG1EN0t5WktKUEtadHdpQjZJd0NFSnI5WFNzNERRbjdGVTU0Y3VsQmRnU1FrTXBXWjBmMzVXMkhvNUN3VlpJTVVqellqQVpLTE11TjFnU0djcHhQcVJoTTJrUWY2cmk1dw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "De nederlaag van Thomas Massie, een partijgenoot van Trump, is een zege voor de president, maar niet per se voor de Republikeinen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNMzBMSk05OTM0TVpjTUJpUGVIT191UTJ6T3ZmYlViOEJkaDAxbkdnUFRWRHZlMWZzWVE4enRLbGJhcVpVMUVUZTM4V1hWOE53b2Z3c2FYbjNOLXBRcmxrN25oek16Z09qcG1hY2FWUE5zdzBaMG5QUjM0U0hPU3pyM2ZRNW5qclJuLU9sY3BXbkVzWDZZaWxMSUM2QVRmdUdDSENoTnVEbkRuUnFkanA0OXVWM1lqbjU0YWJpdnZLeWhtUUYzTC1RMGF6TVloNmI0RElVVlpsbzZfWkV1Q3A3MGdERDRxLVFhcGhEenVGNUQ2aVNEU2FpZmNVRC1vVnM5UmdBYVBNdjM?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Mèche blonde, 700 kilos et foule de curieux : le buffle « Donald Trump », sosie du président américain, affole le Bangladesh - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZ3N0cWtpMldMNHRKQXpEMlFWSThldzAtTkpjYk5BYWgzcC1hMEtVUWFpVnc3d2FMUkdfZnJDZ3FkbjFYcDhpa3dzYThlTEhaWXJNMWFPNVlhN090S1A4MVpFcVl4eHFTTEd1UGhuem9fY2V4R2xSeDVjaFpjaGRNOHl2aEd3TDN6UWU5clBGaFZBbS12YWRscHZRdFpLRHhRRjBxbmo4aXNfZXhlWnRLMXcxS3Z0UzlvYnUzSTR4MENNNVAyNS1RTFVjRktLaFhJMy14empnNkowbXlk?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump en Netanyahu ‘ruziën aan telefoon’ over strategie Iran",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-bekijkt-nieuw-amerikaans-vredesvoorstel-trump-wil-land-nog-enkele-dagen-geven-om-het-juiste-antwoord-te-geven~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump voert verhit gesprek met “hysterische” Netanyahu over Iran: “Hij zal doen wat ik hem zeg dat hij moet doen”",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-voert-verhit-gesprek-met-hysterische-netanyahu-over-iran-hij-zal-doen-wat-ik-hem-zeg-dat-hij-moet-doen/152286367.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. “Trump en Netanyahu voeren verhit telefoongesprek”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-en-netanyahu-voeren-verhit-telefoongesprek/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump “wil niet zeggen” of VS met Castro zal doen wat het met Maduro deed",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-wil-niet-zeggen-of-vs-met-castro-zal-doen-wat-het-met-maduro-deed/152264980.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump voert verhit gesprek met “hysterische” Netanyahu over Iran: “Hij zal doen wat ik hem zeg dat hij moet doen”",
+        "url": "https://www.gva.be/buitenland/trump-voert-verhit-gesprek-met-hysterische-netanyahu-over-iran-hij-zal-doen-wat-ik-hem-zeg-dat-hij-moet-doen/152286791.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. “Trump en Netanyahu voeren verhit telefoongesprek”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-en-netanyahu-voeren-verhit-telefoongesprek/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump “wil niet zeggen” of VS met Castro zal doen wat het met Maduro deed",
+        "url": "https://www.gva.be/buitenland/trump-wil-niet-zeggen-of-vs-met-castro-zal-doen-wat-het-met-maduro-deed/152268071.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "USA : Dernier épisode du \"Late Show\" conspué par le président américain",
+        "url": "https://www.rtbf.be/article/usa-dernier-episode-du-late-show-conspue-par-le-president-americain-11727293",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Benjamin Netanyahu “hors de lui” après une discussion “longue et difficile” avec Donald Trump sur la guerre au Moyen-Orient",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/21/benjamin-netanyahu-hors-de-lui-apres-une-discussion-longue-et-difficile-avec-donald-trump-sur-la-guerre-au-moyen-orient-UE3TB2B6MFE33E7L7FKSXLPF5U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump affirme que les pourparlers avec l'Iran sont \"sur le fil\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/21/direct-guerre-au-moyen-orient-trump-affirme-que-les-pourparlers-avec-liran-sont-sur-le-fil-YXUA2KNFJNCIPNRGZI2HSS7WI4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump dicte toujours sa loi chez les Républicains",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/21/donald-trump-dicte-toujours-sa-loi-chez-les-republicains-DT3YUGLXLFAHXP2TDRDKEIGQEE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: L'Iran examine une offre américaine; \"dernière phase\" des négociations pour Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNZnpkTWdZczBjaXhycXlyazM5QXNWckE5azlwdm1xclJtNFRvWFB0c0JoZXNLckYwZU14MHQ1czdTMU5ERXVkVXRZdnFtQ0RGcUdLbFZuQnhJSzdwQ2s0OEZyVkRSZHdndU0yN1YtNW12aVhvR3hMQ1FQaWRBNkNleUNrVk1fcHhmRXNpanVQTG9YTjlJaWNMTFR4Mkt3TzM0TllwTnpiRzl1UUhMNGJSR2lXaEMwa2RaQmpSSHJYa2JhM2FrOV9qZV9oR2pseG53MDVaM0ZKUVRtMlFSRjBTd2VGcjRhdmkzOHhSckdCdFZGdVhENFFsSGgzSjNhNkJYSnpWOHJFTWlmN3lyYTRCTElaM3l2TEpuVzJiakZQTFRDVnpkdG40?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient: Trump affirme que les pourparlers avec l'Iran sont \"sur le fil\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/21/guerre-au-moyen-orient-trump-affirme-que-les-pourparlers-avec-liran-sont-sur-le-fil-6J5R2XW5BZEYXHQ4I27EV3JKNE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu “hors de lui” après un entretien téléphonique avec Trump sur la guerre au Moyen-Orient",
+        "url": "https://www.7sur7.be/monde/netanyahu-hors-de-lui-apres-un-entretien-telephonique-avec-trump-sur-la-guerre-au-moyen-orient~abcf55f5/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Trump affirme que les pourparlers avec l’Iran sont “sur le fil”",
+        "url": "https://www.7sur7.be/monde/guerre-au-moyen-orient-trump-affirme-que-les-pourparlers-avec-liran-sont-sur-le-fil~aef0cb91/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 11,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 5,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 18,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 8,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 22,
+      "crime": 15,
+      "eu": 22,
+      "politics": 17,
+      "be_gov": 10,
+      "culture": 10,
+      "tech": 6,
+      "economy": 14,
+      "sports": 41,
+      "health": 2,
+      "climate": 12,
+      "migration": 1,
+      "education": 8,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 29,
+      "crime": 20,
+      "eu": 31,
+      "politics": 26,
+      "be_gov": 14,
+      "culture": 11,
+      "tech": 9,
+      "economy": 16,
+      "sports": 58,
+      "health": 2,
+      "climate": 12,
+      "migration": 1,
+      "education": 10,
+      "weather": 10
+    }
   }
 ]
