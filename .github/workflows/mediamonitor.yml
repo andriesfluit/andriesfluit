@@ -39,6 +39,13 @@ jobs:
       - name: Skip if already sent today
         id: gate
         run: |
+          # Manual "Run workflow" triggers always run — the idempotency gate
+          # is only there to dedupe the two scheduled crons (DST coverage).
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "Manual trigger — bypassing idempotency gate."
+            exit 0
+          fi
           STAMP_FILE="_mediamonitor/data/last_sent.txt"
           TODAY=$(TZ=Europe/Brussels date '+%Y-%m-%d')
           if [ -f "$STAMP_FILE" ] && [ "$(cat $STAMP_FILE)" = "$TODAY" ]; then
