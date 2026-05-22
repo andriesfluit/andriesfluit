@@ -26,6 +26,14 @@ _trumpflood/venv/
 _trumpflood/__pycache__/
 _trumpflood/logs/
 _trumpflood/.DS_Store
+
+# Mediamonitor: same idea.
+_mediamonitor/venv/
+_mediamonitor/__pycache__/
+_mediamonitor/logs/
+_mediamonitor/.DS_Store
+# Local dry-run previews
+_mediamonitor/data/preview-*
 # Legacy per-day images + HTML output (publishing is now /trumpflood/ at repo root).
 _trumpflood/output/
 # Hero-layout variant previews (built by build_variants.py for design review).
