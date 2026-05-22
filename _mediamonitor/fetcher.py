@@ -5,7 +5,9 @@ Brussels-local date filter, but returns the wider feed set from feeds.py
 and tracks per-article source tier.
 """
 
+import html as _html
 import logging
+import re
 from datetime import datetime, timezone
 
 import feedparser
@@ -44,6 +46,24 @@ _HEADERS = {
     "Accept": "application/rss+xml, application/xml, text/xml, */*",
     "Accept-Language": "nl-BE,nl;q=0.9,fr;q=0.8,en;q=0.7",
 }
+
+
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def _strip_html(s):
+    """Convert RSS-summary markup to plain text.
+
+    Google News feeds put HTML inside <description>: anchor tags to the
+    source outlet, &nbsp; padding, <font color> for the byline, related-link
+    lists. Left raw, that HTML survives our html.escape() in the renderer
+    and shows up as literal tags in the email body.
+    """
+    if not s:
+        return ""
+    s = _TAG_RE.sub(" ", s)
+    s = _html.unescape(s)
+    return re.sub(r"\s+", " ", s).strip()
 
 
 def _entry_date(entry):
@@ -96,12 +116,13 @@ def fetch_one(name, url, today):
         if not link or not title:
             continue
         # feedparser exposes the RSS <description>/<summary> under .summary.
-        # For Google News it contains a list of related links; for direct
-        # feeds it's the lede. Useful context for the LLM filter.
-        summary = (entry.get("summary") or "").strip()
+        # For Google News it contains anchor tags + related-link HTML; for
+        # direct feeds it's typically the lede. Strip HTML so the matcher
+        # sees plain text and the renderer doesn't show literal tags.
+        summary = _strip_html(entry.get("summary") or "")
         articles.append({
             "source": name,
-            "title": title,
+            "title": _strip_html(title),
             "link": link,
             "summary": summary,
         })
