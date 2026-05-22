@@ -23089,5 +23089,471 @@
       "education": 10,
       "weather": 10
     }
+  },
+  {
+    "date": "2026-05-22",
+    "generated_at": "2026-05-22T09:02:36+02:00",
+    "last_checked_at": "2026-05-22T09:02:36+02:00",
+    "total_articles": 416,
+    "trump_articles": 5,
+    "percentage": 1.2,
+    "core_percentage": 1.2,
+    "core_percentage_name": 1.2,
+    "trump_articles_expanded": 5,
+    "core_percentage_expanded": 1.2,
+    "indirect_references": 0,
+    "wide_total_articles": 563,
+    "wide_trump_articles": 6,
+    "wide_percentage": 1.1,
+    "wide_trump_articles_expanded": 6,
+    "wide_percentage_expanded": 1.1,
+    "macro_percentage": 1.0,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 50,
+    "cross_outlet_dup_groups": 25,
+    "cross_outlet_dup_rate": 12.0,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 0.31,
+    "deviation": 0.33,
+    "smoothed_pct": 2.74,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 44,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 45,
+        "today": 13,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 66,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 42,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 37,
+        "today": 4,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_business": {
+        "fetched": 40,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 72,
+        "kept": 62,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 38,
+        "kept": 38,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 99,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump weet niet of hij trouwfeest van oudste zoon dit weekend kan bijwonen: “Slechte timing, ik ben bezig met Iran”",
+        "url": "https://www.hln.be/buitenland/trump-weet-niet-of-hij-trouwfeest-van-oudste-zoon-dit-weekend-kan-bijwonen-slechte-timing-ik-ben-bezig-met-iran~va22c2c20/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Spionagediensten VS zien dat Iraanse wapenindustrie sneller op peil is dan Trump beweert",
+        "url": "https://www.demorgen.be/nieuws/spionagediensten-vs-zien-dat-iraanse-wapenindustrie-sneller-op-peil-is-dan-trump-beweert~b3773ef35/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "L'arche monumentale voulue par Trump à Washington approuvée par une commission",
+        "url": "https://www.rtbf.be/article/l-arche-monumentale-voulue-par-trump-a-washington-approuvee-par-une-commission-11727979",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump obtient le feu vert pour son arche monumentale à Washington",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/22/donald-trump-obtient-le-feu-vert-pour-son-arche-monumentale-a-washington-O3KLXCCWZFH6VCT2YTLXJJSVZU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump annonce l'envoi de 5.000 militaires américains en Pologne - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY2ZkRmI1QkdVTU1jSktLT3Y3Sy05SXVoWEYtNGdGOVBEdnRjQ3hjR1ZLQ1pxQ1IxQi1wOGZjZktZaDFOZXBNNUk5MXpXQ0dJanFFaFJBT3VzcWoxQzAtZjh2azRtU0QySHVGdkxFUk42QWFBTHVBdVBvRVp2b1BVYy0xQndGSkJxRkJuOTBUY2p2RXNVNFVCS3JpZHdEczZaSWVXdWlLRHBDbUtCVk1xNUJHOUMyNVdvaGQ1VHAyUkh6RUp1aFk2b1l1ODBuSkJyOGxIa0N3?oc=5",
+        "source": "lecho",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "L'arche monumentale voulue par Trump à Washington approuvée par une commission - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVlld1FJQ2VCTDJJeTFQUFlsNmxlaVROLUNncWJwenQ5QWxCdjMxb0lnWFg2U3ZfNzdOQjBtSXlXRzhGVE1oV2hnN1VDSWtPVjNtdk4tTEp5ckZQYTVIRVdtenhuem1EOFRoR1o4U0tpT2paSWRhaWRhc3FLbXlHZnZ0MHFrQ3RxYVNIUnl0LUxMRHdJck5jd2o4TExneUV1eWJGeFBXX1VBTWpVMkNqUkZsY1lXQQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump weet niet of hij trouwfeest van oudste zoon dit weekend kan bijwonen: “Slechte timing, ik ben bezig met Iran”",
+        "url": "https://www.hln.be/buitenland/trump-weet-niet-of-hij-trouwfeest-van-oudste-zoon-dit-weekend-kan-bijwonen-slechte-timing-ik-ben-bezig-met-iran~va22c2c20/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Spionagediensten VS zien dat Iraanse wapenindustrie sneller op peil is dan Trump beweert",
+        "url": "https://www.demorgen.be/nieuws/spionagediensten-vs-zien-dat-iraanse-wapenindustrie-sneller-op-peil-is-dan-trump-beweert~b3773ef35/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "L'arche monumentale voulue par Trump à Washington approuvée par une commission",
+        "url": "https://www.rtbf.be/article/l-arche-monumentale-voulue-par-trump-a-washington-approuvee-par-une-commission-11727979",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump obtient le feu vert pour son arche monumentale à Washington",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/22/donald-trump-obtient-le-feu-vert-pour-son-arche-monumentale-a-washington-O3KLXCCWZFH6VCT2YTLXJJSVZU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump annonce l'envoi de 5.000 militaires américains en Pologne - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY2ZkRmI1QkdVTU1jSktLT3Y3Sy05SXVoWEYtNGdGOVBEdnRjQ3hjR1ZLQ1pxQ1IxQi1wOGZjZktZaDFOZXBNNUk5MXpXQ0dJanFFaFJBT3VzcWoxQzAtZjh2azRtU0QySHVGdkxFUk42QWFBTHVBdVBvRVp2b1BVYy0xQndGSkJxRkJuOTBUY2p2RXNVNFVCS3JpZHdEczZaSWVXdWlLRHBDbUtCVk1xNUJHOUMyNVdvaGQ1VHAyUkh6RUp1aFk2b1l1ODBuSkJyOGxIa0N3?oc=5",
+        "source": "lecho",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 5,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 6,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 4,
+      "bouchez": 0,
+      "magnette": 2,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 23,
+      "crime": 17,
+      "eu": 21,
+      "politics": 10,
+      "be_gov": 13,
+      "culture": 8,
+      "tech": 3,
+      "economy": 16,
+      "sports": 24,
+      "health": 0,
+      "climate": 2,
+      "migration": 2,
+      "education": 3,
+      "weather": 14
+    },
+    "wide_themes": {
+      "war": 31,
+      "crime": 24,
+      "eu": 29,
+      "politics": 14,
+      "be_gov": 18,
+      "culture": 11,
+      "tech": 5,
+      "economy": 17,
+      "sports": 46,
+      "health": 0,
+      "climate": 2,
+      "migration": 4,
+      "education": 3,
+      "weather": 18
+    }
   }
 ]
