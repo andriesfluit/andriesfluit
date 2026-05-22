@@ -1,13 +1,13 @@
-"""Second-pass relevance filter via Claude.
+"""Strategic-relevance filter via Claude.
 
-Regex matching is intentionally loose, so this layer drops false positives
-that regex can't tell apart (e.g. 'Accent' as a normal word, 'BVA' the
-market-research firm, IKEA stories from other countries that happen to
-mention 'Brussel' in the body).
+The regex matcher casts a wide net across sector terms, competitors and
+adjacent themes. This second pass asks Claude — given each company's
+strategic brief — whether an item is worth flagging to the consultant,
+and if so under which topic.
 
-We do NOT generate strategic advice here — only a relevance verdict and a
-one-line nut graf. The user is a senior advisor; the email is a clean
-reading list, not a briefing memo.
+We deliberately do NOT generate reaction advice ('we suggest a press
+release'). The consultant does that. We only label relevance, topic and
+a one-line nut graf.
 """
 
 import json
@@ -29,35 +29,49 @@ def _client():
     return Anthropic(api_key=api_key)
 
 
-def _prompt(company_key, articles):
+_SYSTEM = (
+    "Je bent een mediamonitoring-assistent voor een Belgische strategische "
+    "communicatieadviseur. Per klant krijg je een briefing met de strategische "
+    "thema's, en een lijst kandidaat-artikels uit Belgische pers en sectorpers. "
+    "Voor elk artikel beoordeel je of de adviseur het zou willen zien: "
+    "ja als het rechtstreeks over de klant gaat, over een directe concurrent, "
+    "over regelgeving/beleid dat hen raakt, of over een sector- of "
+    "maatschappelijk thema waar zij geloofwaardig op zouden kunnen reageren "
+    "(via actie, interne of externe communicatie). Nee bij passing mentions, "
+    "naam-collisions, of sectornieuws zonder concreet aanknopingspunt voor "
+    "deze klant. Wees streng maar niet eng — twijfelgevallen liever wel dan niet. "
+    "Antwoord uitsluitend met geldige JSON."
+)
+
+
+def _user_prompt(company_key, articles):
     cfg = COMPANIES[company_key]
     lines = [
-        f"Bedrijf om te monitoren: {cfg['label']}",
+        f"KLANT: {cfg['label']}",
         "",
-        "Hieronder een lijst kandidaat-artikels uit Belgische pers (NL + FR) en sectorpers.",
-        "Voor ELK artikel: bepaal of het écht over dit bedrijf gaat. Drop alles wat een",
-        "naam-collisie is (bv. 'accent' als woord, 'BVA' marktonderzoek, IKEA buitenland)",
-        "of waar het bedrijf slechts in passing genoemd wordt zonder betekenis.",
+        "BRIEFING:",
+        cfg["brief"],
         "",
-        "Antwoord uitsluitend met geldige JSON: een array van objecten met velden:",
-        "  - idx (int, 0-based)",
-        "  - relevant (bool)",
-        "  - nut (string, max 15 woorden, NL, of '' als irrelevant)",
-        "",
-        "Artikels:",
+        "KANDIDAAT-ARTIKELS:",
     ]
     for i, art in enumerate(articles):
         snippet = (art.get("summary") or "").strip()
-        if len(snippet) > 280:
-            snippet = snippet[:280] + "…"
-        lines.append(f"[{i}] bron={art['source']} | titel: {art['title']}")
+        if len(snippet) > 300:
+            snippet = snippet[:300] + "…"
+        lines.append(f"[{i}] bron={art['source']}")
+        lines.append(f"     titel: {art['title']}")
         if snippet:
             lines.append(f"     samenvatting: {snippet}")
+    lines += [
+        "",
+        "Geef een JSON-array met één object per artikel:",
+        '  {"idx": int, "relevant": bool, "topic": "korte topictag NL (max 4 woorden)", "nut": "1 zin NL waarom dit deze klant raakt"}',
+        "Voor relevant=false mag topic en nut leeg (\"\").",
+    ]
     return "\n".join(lines)
 
 
 def _parse(text):
-    # Claude sometimes wraps in ```json fences. Strip.
     s = text.strip()
     if s.startswith("```"):
         s = s.split("```", 2)[1]
@@ -67,30 +81,42 @@ def _parse(text):
     return json.loads(s)
 
 
+# Cap input per company to keep prompt size + latency bounded on noisy days.
+# Most days will be well under this; the cap only kicks in if pattern flood.
+MAX_PER_COMPANY = 80
+
+
 def filter_company(company_key, articles):
-    """Return the subset of articles Claude marks relevant, each augmented
-    with a 'nut' field (one-line explainer)."""
+    """Return Claude-filtered relevant articles, each augmented with
+    'topic' and 'nut' fields."""
     if not articles:
         return []
+    if len(articles) > MAX_PER_COMPANY:
+        logger.warning(
+            "%s: %d candidates exceeds MAX_PER_COMPANY=%d, truncating",
+            company_key, len(articles), MAX_PER_COMPANY,
+        )
+        articles = articles[:MAX_PER_COMPANY]
+
     client = _client()
-    prompt = _prompt(company_key, articles)
     resp = client.messages.create(
         model=MODEL,
-        max_tokens=2048,
-        messages=[{"role": "user", "content": prompt}],
+        max_tokens=4096,
+        system=_SYSTEM,
+        messages=[{"role": "user", "content": _user_prompt(company_key, articles)}],
     )
     raw = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
     try:
         verdicts = _parse(raw)
     except Exception as e:
-        logger.warning("LLM filter parse failed for %s: %s\nRaw: %s", company_key, e, raw[:400])
-        # Fail open: keep everything, no nut graf.
-        return [{**a, "nut": ""} for a in articles]
+        logger.warning("LLM parse failed for %s: %s\nRaw: %s", company_key, e, raw[:400])
+        # Fail open with a clear marker so we notice in the mail.
+        return [{**a, "topic": "(filter failed)", "nut": ""} for a in articles]
 
-    kept = []
     by_idx = {v["idx"]: v for v in verdicts if isinstance(v, dict) and "idx" in v}
+    kept = []
     for i, art in enumerate(articles):
         v = by_idx.get(i)
         if v and v.get("relevant"):
-            kept.append({**art, "nut": v.get("nut", "")})
+            kept.append({**art, "topic": v.get("topic", ""), "nut": v.get("nut", "")})
     return kept

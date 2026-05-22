@@ -9,13 +9,19 @@ sectorpers toe (HR, retail, wegenbouw, filantropie).
 ```
 feeds.py        feed-catalogus (Belgische pers + sectorpers)
 fetcher.py      fetch + Brussels-local "today" filter (cloudscraper voor Cloudflare)
-companies.py    bedrijfs-configs met regex match-rules per bedrijf
-matcher.py      regex-matching van artikels op bedrijven
-llm_filter.py   Claude (Haiku) drop false positives en zet 1-lijn nut graf
-render.py       HTML + tekst e-mailbody
+companies.py    per klant: brief + brede pattern-set (brand + concurrenten + sector + beleid)
+matcher.py      brede regex-match op titel + RSS-samenvatting
+llm_filter.py   Claude Haiku oordeelt strategische relevantie tegen de brief,
+                kent topic-tag + 1-zin nut graf toe
+render.py       HTML + tekst e-mailbody met topic-tags
 mailer.py       SMTP via Gmail app-password
 main.py         orkestrator
 ```
+
+**Issue monitoring, geen brand monitoring.** De regex-set per klant is bewust
+breed: brand + directe concurrenten + sectorthema's + regelgeving + adjacente
+thema's waar de klant geloofwaardig op zou kunnen reageren. Claude doet de
+strategische filtering tegen de per-klant briefing.
 
 ## Lokaal draaien
 
@@ -58,11 +64,15 @@ Vereiste repo-secrets:
 
 ## Bedrijven aanpassen
 
-Bewerk `companies.py`. Elk bedrijf heeft één of meer rules met:
+Bewerk `companies.py`. Elke klant heeft:
 
-- `any`: lijst regex-patronen die in titel+samenvatting moeten matchen
-- `context_any` *(optioneel)*: minstens één van deze moet óók matchen (disambiguatie)
-- `none` *(optioneel)*: geen van deze mag matchen (exclusies)
+- `label`: zichtbare naam in de mail
+- `brief`: 2-4 zinnen die Claude lezen wanneer het beslist of een item strategisch
+  relevant is. Beschrijf wie de klant is, welke directe stakeholders, en welke
+  thema's waar ze geloofwaardig op kunnen reageren.
+- `patterns`: brede lijst regex-patronen (brand + concurrenten + sectorthema's +
+  beleid + adjacencies). Hoofdletter-ongevoelig, woordgrenzen. Liever te ruim:
+  ruis filtert Claude er wel uit.
 
-Een artikel hit een bedrijf als één van zijn rules vuurt. Daarna doet Claude
-de tweede pass.
+Een artikel hit een klant als één pattern vuurt. Daarna oordeelt Claude tegen
+de brief of het écht relevant is, en geeft een topictag + 1-zin nut graf.
