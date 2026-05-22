@@ -1,69 +1,111 @@
-"""HTML + plain-text email body for the daily briefing."""
+"""HTML + plain-text email body for the daily briefing.
+
+Designed for inbox readability: generous whitespace, clear hierarchy, no
+visual clutter. Inline styles only — most mail clients strip <style> blocks
+in <head>, so critical styling is doubled inline where it matters.
+"""
 
 import html
 
 from companies import COMPANIES
 
 
-_CSS = """
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-       color: #1a1a1a; max-width: 760px; margin: 0 auto; padding: 24px; }
-h1 { font-size: 22px; margin: 0 0 4px 0; }
-.lede { color: #555; font-size: 13px; margin-bottom: 24px; }
-h2 { font-size: 16px; margin: 28px 0 4px 0; padding-bottom: 4px;
-     border-bottom: 1px solid #e0e0e0; }
-.brief { color: #888; font-size: 12px; font-style: italic; margin-bottom: 8px; }
-.empty { color: #888; font-style: italic; font-size: 13px; }
-.item { margin: 14px 0; }
-.item a { color: #0a4ea5; text-decoration: none; font-weight: 500; }
-.item a:hover { text-decoration: underline; }
-.topic { display: inline-block; background: #eef3f9; color: #0a4ea5;
-         font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 3px;
-         margin-right: 6px; vertical-align: middle; }
-.meta { color: #777; font-size: 12px; margin-top: 2px; }
-.nut  { color: #333; font-size: 13px; margin-top: 2px; }
-.foot { margin-top: 32px; padding-top: 12px; border-top: 1px solid #eee;
-        color: #999; font-size: 11px; }
-"""
+# Inline-style helpers keep the markup readable below.
+_STY = {
+    "body":      "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;"
+                 "color:#1a1a1a;max-width:680px;margin:0 auto;padding:32px 24px;line-height:1.5;",
+    "h1":        "font-size:24px;font-weight:600;margin:0 0 8px 0;letter-spacing:-0.01em;",
+    "lede":      "color:#666;font-size:13px;margin:0 0 36px 0;",
+    "section":   "margin:40px 0 0 0;",
+    "h2":        "font-size:15px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;"
+                 "color:#0a4ea5;margin:0 0 4px 0;",
+    "count":     "font-size:13px;font-weight:400;color:#999;text-transform:none;letter-spacing:0;",
+    "h2_rule":   "border:0;border-top:2px solid #0a4ea5;width:32px;margin:0 0 16px 0;",
+    "empty":     "color:#999;font-style:italic;font-size:13px;margin:0;",
+    "item":      "margin:0 0 22px 0;padding:0;",
+    "topic":     "display:inline-block;background:#eef3f9;color:#0a4ea5;font-size:10px;"
+                 "font-weight:600;text-transform:uppercase;letter-spacing:0.04em;"
+                 "padding:2px 8px;border-radius:3px;margin-right:8px;vertical-align:middle;",
+    "title":     "font-size:15px;font-weight:600;color:#1a1a1a;text-decoration:none;line-height:1.35;",
+    "summary":   "color:#333;font-size:14px;margin:6px 0 0 0;line-height:1.55;",
+    "meta":      "color:#888;font-size:12px;margin:6px 0 0 0;",
+    "meta_link": "color:#888;text-decoration:none;",
+    "tag_pwall": "display:inline-block;background:#fbe9e9;color:#a13b3b;font-size:10px;"
+                 "font-weight:600;padding:1px 6px;border-radius:3px;margin-left:6px;",
+    "tag_snip":  "display:inline-block;background:#f3f3f3;color:#777;font-size:10px;"
+                 "font-weight:600;padding:1px 6px;border-radius:3px;margin-left:6px;",
+    "foot":      "margin-top:48px;padding-top:16px;border-top:1px solid #eee;"
+                 "color:#aaa;font-size:11px;line-height:1.5;",
+}
+
+
+def _source_tag(status):
+    """Small badge next to the summary to flag where the text comes from."""
+    if status == "rss_snippet_paywall":
+        return f"<span style=\"{_STY['tag_pwall']}\">achter betaalmuur</span>"
+    if status in ("rss_snippet_fail", "rss_snippet_thin", "rss_snippet_parsefail", "rss_snippet_noenrich"):
+        return f"<span style=\"{_STY['tag_snip']}\">enkel snippet</span>"
+    return ""
 
 
 def render_html(today_str, by_company, stats):
-    parts = [f"<!doctype html><html><head><meta charset='utf-8'><style>{_CSS}</style></head><body>"]
-    parts.append(f"<h1>Mediamonitor — {html.escape(today_str)}</h1>")
-    parts.append(
-        f"<div class='lede'>"
-        f"{stats['articles_total']} artikels gescand uit {stats['feeds_total']} bronnen, "
-        f"{stats['hits_pre']} ruwe hits, {stats['hits_post']} relevant na filter."
+    out = []
+    out.append("<!doctype html><html><head><meta charset='utf-8'></head>")
+    out.append(f"<body style=\"{_STY['body']}\">")
+
+    out.append(f"<h1 style=\"{_STY['h1']}\">Mediamonitor</h1>")
+    out.append(
+        f"<div style=\"{_STY['lede']}\">"
+        f"{html.escape(today_str)} &middot; {stats['articles_total']} artikels uit "
+        f"{stats['feeds_total']} bronnen &middot; {stats['hits_post']} relevant"
         f"</div>"
     )
 
     for key, cfg in COMPANIES.items():
         items = by_company.get(key) or []
-        parts.append(f"<h2>{html.escape(cfg['label'])} <span style='color:#999;font-weight:normal;font-size:12px;'>({len(items)})</span></h2>")
+        out.append(f"<section style=\"{_STY['section']}\">")
+        out.append(
+            f"<h2 style=\"{_STY['h2']}\">{html.escape(cfg['label'])} "
+            f"<span style=\"{_STY['count']}\">&middot; {len(items)}</span></h2>"
+        )
+        out.append(f"<hr style=\"{_STY['h2_rule']}\">")
         if not items:
-            parts.append("<div class='empty'>Geen relevante berichtgeving vandaag.</div>")
+            out.append(f"<p style=\"{_STY['empty']}\">Geen relevante berichtgeving vandaag.</p>")
+            out.append("</section>")
             continue
         for art in items:
-            title = html.escape(art["title"])
-            link  = html.escape(art["link"])
-            src   = html.escape(art["source"])
-            topic = html.escape(art.get("topic", ""))
-            nut   = html.escape(art.get("nut", ""))
-            topic_html = f"<span class='topic'>{topic}</span>" if topic else ""
-            parts.append(
-                f"<div class='item'>"
-                f"{topic_html}<a href='{link}'>{title}</a>"
-                f"<div class='meta'>{src}</div>"
-                + (f"<div class='nut'>{nut}</div>" if nut else "")
-                + "</div>"
-            )
+            title    = html.escape(art["title"])
+            link     = html.escape(art["link"])
+            src      = html.escape(art["source"])
+            topic    = html.escape(art.get("topic", ""))
+            summary  = html.escape(art.get("summary_long") or art.get("nut") or "")
+            srctag   = _source_tag(art.get("summary_source", ""))
+            topic_html = f"<span style=\"{_STY['topic']}\">{topic}</span>" if topic else ""
 
-    parts.append(
-        "<div class='foot'>Automatisch gegenereerd door _mediamonitor. "
-        "Bronnen: Belgische pers (NL+FR) + sectorpers. Topic-filtering door Claude.</div>"
+            out.append(f"<div style=\"{_STY['item']}\">")
+            out.append(
+                f"<div>{topic_html}"
+                f"<a href=\"{link}\" style=\"{_STY['title']}\">{title}</a></div>"
+            )
+            if summary:
+                out.append(f"<p style=\"{_STY['summary']}\">{summary}{srctag}</p>")
+            out.append(
+                f"<div style=\"{_STY['meta']}\">"
+                f"<a href=\"{link}\" style=\"{_STY['meta_link']}\">{src} &rsaquo;</a>"
+                f"</div>"
+            )
+            out.append("</div>")
+        out.append("</section>")
+
+    out.append(
+        f"<div style=\"{_STY['foot']}\">"
+        f"Automatisch gegenereerd door _mediamonitor. "
+        f"Bronnen: Belgische pers (NL+FR) + sectorpers. "
+        f"Topic-filtering en samenvatting door Claude, strikt uit de artikeltekst."
+        f"</div>"
     )
-    parts.append("</body></html>")
-    return "".join(parts)
+    out.append("</body></html>")
+    return "".join(out)
 
 
 def render_text(today_str, by_company):
@@ -72,16 +114,23 @@ def render_text(today_str, by_company):
         items = by_company.get(key) or []
         header = f"{cfg['label']} ({len(items)})"
         lines.append(header)
-        lines.append("-" * len(header))
+        lines.append("=" * len(header))
         if not items:
             lines.append("(geen relevante berichtgeving)")
         else:
             for art in items:
                 tag = f"[{art['topic']}] " if art.get("topic") else ""
-                lines.append(f"- {tag}{art['title']}")
+                lines.append(f"\n* {tag}{art['title']}")
+                summary = art.get("summary_long") or art.get("nut") or ""
+                if summary:
+                    lines.append(f"  {summary}")
+                src_status = art.get("summary_source", "")
+                marker = ""
+                if src_status == "rss_snippet_paywall":
+                    marker = " [achter betaalmuur]"
+                elif src_status.startswith("rss_snippet"):
+                    marker = " [enkel snippet]"
+                lines.append(f"  bron: {art['source']}{marker}")
                 lines.append(f"  {art['link']}")
-                if art.get("nut"):
-                    lines.append(f"  → {art['nut']}")
-                lines.append(f"  bron: {art['source']}")
         lines.append("")
     return "\n".join(lines)
