@@ -1,0 +1,88 @@
+name: mediamonitor daily run
+
+# Daily briefing at ~08:30 Brussels time.
+# Two crons so the same local time works across DST:
+#   06:37 UTC  → 08:37 CEST (summer)
+#   07:37 UTC  → 08:37 CET  (winter)
+# The "wrong" cron each season still fires (an hour early), so we add a
+# date-stamp idempotency check: if today's mail was already sent, the
+# second invocation skips.
+#
+# Off-the-hour (:37) avoids the top-of-hour scheduler stampede on GitHub.
+#
+# Also triggerable manually from the Actions tab.
+
+on:
+  schedule:
+    - cron: "37 6 * * *"
+    - cron: "37 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mediamonitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Skip if already sent today
+        id: gate
+        run: |
+          STAMP_FILE="_mediamonitor/data/last_sent.txt"
+          TODAY=$(TZ=Europe/Brussels date '+%Y-%m-%d')
+          if [ -f "$STAMP_FILE" ] && [ "$(cat $STAMP_FILE)" = "$TODAY" ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "Already sent for $TODAY; skipping."
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Set up Python
+        if: steps.gate.outputs.skip != 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: _mediamonitor/requirements.txt
+
+      - name: Install dependencies
+        if: steps.gate.outputs.skip != 'true'
+        working-directory: _mediamonitor
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run mediamonitor
+        if: steps.gate.outputs.skip != 'true'
+        working-directory: _mediamonitor
+        env:
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MONITOR_TO_ADDR:    ${{ secrets.MONITOR_TO_ADDR }}
+        run: |
+          python main.py
+
+      - name: Stamp today as sent
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          mkdir -p _mediamonitor/data
+          TZ=Europe/Brussels date '+%Y-%m-%d' > _mediamonitor/data/last_sent.txt
+          git config user.name "mediamonitor-bot"
+          git config user.email "mediamonitor-bot@andriesfluit.be"
+          git add _mediamonitor/data/last_sent.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "mediamonitor: sent $(cat _mediamonitor/data/last_sent.txt)"
+            git push
+          fi
