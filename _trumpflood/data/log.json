@@ -23762,263 +23762,263 @@
   },
   {
     "date": "2026-05-23",
-    "generated_at": "2026-05-23T08:24:06+02:00",
-    "last_checked_at": "2026-05-23T08:24:06+02:00",
-    "total_articles": 345,
-    "trump_articles": 6,
-    "percentage": 1.7,
-    "core_percentage": 1.7,
-    "core_percentage_name": 1.7,
-    "trump_articles_expanded": 7,
-    "core_percentage_expanded": 2.0,
-    "indirect_references": 1,
-    "wide_total_articles": 444,
-    "wide_trump_articles": 9,
-    "wide_percentage": 2.0,
-    "wide_trump_articles_expanded": 10,
-    "wide_percentage_expanded": 2.3,
-    "macro_percentage": 3.4,
-    "qualifying_outlets": 13,
+    "generated_at": "2026-05-23T13:44:23+02:00",
+    "last_checked_at": "2026-05-23T13:44:23+02:00",
+    "total_articles": 500,
+    "trump_articles": 12,
+    "percentage": 2.4,
+    "core_percentage": 2.4,
+    "core_percentage_name": 2.4,
+    "trump_articles_expanded": 12,
+    "core_percentage_expanded": 2.4,
+    "indirect_references": 0,
+    "wide_total_articles": 670,
+    "wide_trump_articles": 14,
+    "wide_percentage": 2.1,
+    "wide_trump_articles_expanded": 14,
+    "wide_percentage_expanded": 2.1,
+    "macro_percentage": 2.5,
+    "qualifying_outlets": 24,
     "core_outlets_total": 19,
-    "core_outlets_active": 17,
-    "active_core_fraction": 0.895,
-    "cross_outlet_dup_headlines": 48,
-    "cross_outlet_dup_groups": 24,
-    "cross_outlet_dup_rate": 13.9,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 45,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 9.0,
     "zone": "wet",
     "label": "The zone is getting wet",
     "narrative": "Among the top-covered figures today.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 2.0,
-    "breadth": 0.29,
-    "deviation": 0.5,
-    "smoothed_pct": 2.6,
+    "dominance": 6.0,
+    "breadth": 0.5,
+    "deviation": 0.71,
+    "smoothed_pct": 2.7,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 9,
+    "theme_rank": 7,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 11,
-        "kept": 11,
+        "today": 16,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 6,
-        "kept": 6,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 16.67
-      },
-      "google_nl_politics": {
-        "fetched": 50,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_world": {
-        "fetched": 42,
-        "today": 10,
-        "kept": 10,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 20.0
-      },
-      "google_nl_business": {
-        "fetched": 70,
-        "today": 3,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_tech": {
-        "fetched": 57,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_sport": {
-        "fetched": 70,
-        "today": 8,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_politics": {
-        "fetched": 37,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_world": {
-        "fetched": 31,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_business": {
-        "fetched": 40,
-        "today": 1,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "standaard": {
-        "fetched": 100,
-        "today": 68,
-        "kept": 61,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 1.64
-      },
-      "hln": {
-        "fetched": 30,
-        "today": 24,
-        "kept": 24,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 8.33
-      },
-      "demorgen": {
-        "fetched": 30,
-        "today": 19,
-        "kept": 19,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
-      },
-      "nieuwsblad": {
-        "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "gva": {
-        "fetched": 50,
-        "today": 48,
-        "kept": 48,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "hbvl": {
-        "fetched": 50,
-        "today": 48,
-        "kept": 48,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "knack": {
-        "fetched": 100,
-        "today": 13,
-        "kept": 13,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 7.69
-      },
-      "sporza": {
-        "fetched": 20,
-        "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "bruzz": {
-        "fetched": 100,
-        "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 7,
-        "kept": 7,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 14.29
-      },
-      "lalibre": {
-        "fetched": 100,
         "today": 15,
         "kept": 15,
         "trump": 1,
         "trump_expanded": 1,
         "share": 6.67
       },
-      "lecho": {
-        "fetched": 100,
-        "today": 27,
-        "kept": 26,
+      "google_nl_politics": {
+        "fetched": 46,
+        "today": 11,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "dhnet": {
-        "fetched": 100,
-        "today": 24,
-        "kept": 24,
+      "google_nl_world": {
+        "fetched": 40,
+        "today": 11,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "septsursept": {
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 55,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 36,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 35,
+        "today": 8,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_fr_business": {
+        "fetched": 42,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 28,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 64,
+        "kept": 56,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
         "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
         "today": 8,
         "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "bx1": {
-        "fetched": 10,
-        "today": 0,
-        "kept": 0,
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 36,
+        "kept": 36,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 67,
+        "kept": 67,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 9,
-        "kept": 9,
+        "today": 15,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 10,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -24033,32 +24033,32 @@
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 6,
-        "kept": 6,
+        "today": 11,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 99,
-        "today": 8,
-        "kept": 8,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
       },
       "trends_g": {
-        "fetched": 100,
-        "today": 12,
-        "kept": 10,
+        "fetched": 89,
+        "today": 19,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 15,
+        "kept": 15,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -24087,28 +24087,28 @@
     ],
     "matches": [
       {
-        "title": "Op kousenvoeten, zonder rechtstreekse aanval op Trump, neemt Stephen Colbert afscheid van The late show - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQLXNZdGlpeWwxRjJJelFJM3VVWE1zek9xQzhNb2o3bmdLdXlCbDNJUEdmU0NVMHp0VEhBUjlvdVhsWFVkNUwzbThGMjZNblZvZDEybHpMRjZ0U2x0QW1WcUlIZW9VNHVnSTBmSk5zNVRVcy1lYVEzcWhNMXU0ck5LV3N0XzdlTi1iTHduOHFEcmJBaUNOcDZDSTNqTDNub2UxNWtkYUJOSUM2cnJ0WFgtdDFoMVFFTXRZQ29xSGRfVkxjRWZOdG1LVTl4QU1iX19FTmhYZ1hvT21mMGZhSndkMDNzazlwMHllbkdWdzMzUQ?oc=5",
-        "source": "standaard",
-        "name_only": true
-      },
-      {
-        "title": "CBS News: “Regering-Trump bereidt nieuwe aanvallen op Iran voor”, nog geen informatie over waar of wanneer",
-        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "title": "KIJK. Witte Huis deelt AI-video waarin talkshowpresentator Colbert door Trump in container wordt gedumpt",
+        "url": "https://www.hln.be/buitenland/kijk-witte-huis-deelt-ai-video-waarin-talkshowpresentator-colbert-door-trump-in-container-wordt-gedumpt~vaf8bb3f12/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Trump Mobile onderzoekt datalek potentiële kopers nieuwe telefoon",
-        "url": "https://www.hln.be/buitenland/trump-mobile-onderzoekt-datalek-potentiele-kopers-nieuwe-telefoon~aa3ac50a/",
-        "source": "hln",
-        "name_only": true
-      },
-      {
-        "title": "Tegen de miljarden van Jared Kushner en Ivanka Trump heeft de Albanese natuur geen schijn van kans",
-        "url": "https://www.demorgen.be/nieuws/tegen-de-miljarden-van-jared-kushner-en-ivanka-trump-heeft-de-albanese-natuur-geen-schijn-van-kans~b3cf347b/",
+        "title": "▶ Witte Huis deelt AI-video waarin Trump talkshowpresentator Stephen Colbert in container gooit",
+        "url": "https://www.demorgen.be/snelnieuws/witte-huis-deelt-ai-video-waarin-trump-talkshowpresentator-stephen-colbert-in-container-gooit~bf8bb3f12/",
         "source": "demorgen",
-        "name_only": false
+        "name_only": true
+      },
+      {
+        "title": "Toeteren voor betaalbare benzine: “Slachtoffer van oorlogszuchtige beleid van Trump”",
+        "url": "https://www.nieuwsblad.be/regio/limburg/pelt/toeteren-voor-betaalbare-benzine-slachtoffer-van-oorlogszuchtige-beleid-van-trump/152881602.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Toeteren voor betaalbare benzine: “Slachtoffer van oorlogszuchtige beleid van Trump”",
+        "url": "https://www.hbvl.be/regio/limburg/pelt/toeteren-voor-betaalbare-benzine-slachtoffer-van-oorlogszuchtige-beleid-van-trump/152880909.html",
+        "source": "hbvl",
+        "name_only": true
       },
       {
         "title": "Blijf kalm, wees paraat en bouw drones die Shanghai kunnen treffen: hoe Taiwan met Donald Trump leerde omgaan - Knack",
@@ -24123,54 +24123,78 @@
         "name_only": true
       },
       {
+        "title": "L’administration Trump dénonce une justice « instrumentalisée » et crée un fonds qui embarrasse démocrates et… républicains",
+        "url": "https://www.rtbf.be/article/l-administration-trump-denonce-une-justice-instrumentalisee-et-cree-un-fonds-qui-embarrasse-democrates-et-republicains-11728164",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Le négociateur iranien promet une réponse \"écrasante\" si Trump reprend la guerre",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/23/direct-guerre-au-moyen-orient-liran-accuse-les-etats-unis-de-saboter-les-negociations-de-paix-QUJRHQ4HEJG3JJEUP55545PSWA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
         "title": "Donald Trump veut à présent indemniser les émeutiers du Capitole, entre autres…",
         "url": "https://www.lalibre.be/international/amerique/2026/05/23/donald-trump-veut-a-present-indemniser-les-emeutiers-du-capitole-entre-autres-VP4RGUTAUVC6HFQI7W6AZ2OII4/",
         "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“L’administration Trump prépare de nouvelles frappes contre l’Iran”",
+        "url": "https://www.7sur7.be/monde/ladministration-trump-prepare-de-nouvelles-frappes-contre-liran~af77d7dba/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Politique absurde et cruelle”: Trump durcit l’accès à la “green card”",
+        "url": "https://www.7sur7.be/monde/politique-absurde-et-cruelle-trump-durcit-lacces-a-la-green-card~aac410e5/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Le président Donald Trump n'exclut pas de nouvelles frappes contre l'Iran - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXlEZnZNRjFDUnhvcU4yajM4cjFhYjRiSDN5VlJMSkFnakZQVEJfMGo5andVUTBOb2VkZDBRSlhtUGhyYmxvSXhuNnl2SGd2ajZmMmVhakZKWm05YVVqdDRrX1dMN3I1TkZmUk5ERWxDTXQyYmVObFFYS21WZllKMWwyQnhWQ0NjdzNpVktfOEx1a2hxTnVnX3lmTE82VWp4YV92NURpQlF4UUNEdURFWlBaU2hYVzRya3FYMWFvdDdUMUpnSzJGSXM4bDk?oc=5",
+        "source": "rtl_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Donald Trump modifie son agenda et annule sa présence... au mariage de son fils, voici pourquoi - RTL Info",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSmZHaGdwUy0zUEVub1hObmVhUWk5M2Z1cHV3ZHJsSk9oUG5WRThVTmpIWlVzb2hPaklXSXQ4R2NHdTZ0Y2U0emFENHFGa0lUbm10bFFfSXIybHR1OHV2TkdKRTltemVzYW1mRTNOWVdlU1dWU0FxWXRNOTU2eWExcDZHWmdHWml6OTJHYlJhcUJzV2FaS1R2LTR4cjhhbUpzbmZ6TWVRSWZ2VnkydDM1WGZqZHRWbl8xUVFMWEJ1T0J0RDhTa09QWXR2eFo4V0xRRzZNN3dSSUtmVS1Cc0VR?oc=5",
+        "title": "De nouvelles frappes américaines en Iran ? Trump modifie son agenda, l’Iran accuse les USA de saboter les négociations - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUHhZVjY0N3dVOHdGVnUyOVZTa0VqYThlUjV3bDJTb29pTjlnYll2em8tSGZFMUpYbFNfYXhqM1NEcnMxT1F2MjRlcHpVU09TM09TS0lRN042dW9tUnVBZWQtYnY2V2xVamVsNkRYRlVwZHNUQ2drSjdJaG5BV2ZhbnpJcWNOYjIwdFpKZ0pWM0xqX2ZmSjNnWGhCbnhaWWt5YV9uVVJhT095ckF3ZlM2ZHczODBSa1pfS2V6Z3VMY0l5V1BJejhtTjBUTm1Da05LODR2RVJKb3otbmk5VXdhZUtVMXpQdWM?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Donald Trump is weer vriendelijker voor de Navo en niemand weet waarom - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVlJiZzhKUUNmM3hnVUFFSVV3TFZZXzdVa3pwaWFtRk9XYXhBZEFPTkVWQlItQ2d5bUlTcF95MDZIc1hSamZndGtQNmdWQi1lZVlrc1p3aU40WFVvbjN6dE11SEdUSHh2Q2FRaEZwV1g1MDZCNlZfOGhFelM1TE4yRnJEeEhNOE1SY0w5cF9RZmFpWkdVNURTWTZGUE9SV1FIb09yVDh0cFMyZlc5VTN1RjhjVHh4LTZpVDNZTXl3?oc=5",
-        "source": "google_nl_world",
+        "title": "“Politique absurde et cruelle”: Trump durcit l’accès à la “green card” - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcmY5QmhiZFpWOUtiSnIyLUgwRklFUndJOGpFbGZoSU1heUp0dnd1UXI4RWFGQXhEdnhnZTdBeTgyZUFleWJUdmdISkFiZUt0TmF5aWUtLVFNMWNRbFYtUDFnTXpPNDZnV0I2czdYNTJ6OXZQTEoxRVdlakNHY2JVOEk2bVdVaTdZMWVMLTRMSW52QkI0V1RUdy0xZVZZNUdHQ0Zv?oc=5",
+        "source": "google_fr_world",
         "name_only": true
       },
       {
-        "title": "Trump geeft verstek voor bruiloft van oudste zoon dit weekend: “Komt bijzonder ongelegen” - Nieuwsblad",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxON2FKTWtkV09nck9Pc2N4ZlFkcDBrQngxX2dVYzFuRE9iWDFrMjhmNmdiRmZ5ZnRSZktvXzgwcXBqd3Yxc0g1UUN6cHZ3Q0lHUlhrdUhJeFpORWlrTHZRMDY3QXhwd0lIanQ0UE5ZemJEUWZ6cG93cTI3djU4TzFRZmhTUm8teEkxQnlrc1dTMFhHdDV6QURWa3NIWUQ0eENGMHN1LW5yQ2NPcTFkRVdIcXhUZF83WmhWdkp0TE9PbHlwcmxKSEZTaW5Rci04dDgxeHFyWA?oc=5",
-        "source": "google_nl_world",
-        "name_only": true
-      },
-      {
-        "title": "Op kousenvoeten, zonder rechtstreekse aanval op Trump, neemt Stephen Colbert afscheid van The late show - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQLXNZdGlpeWwxRjJJelFJM3VVWE1zek9xQzhNb2o3bmdLdXlCbDNJUEdmU0NVMHp0VEhBUjlvdVhsWFVkNUwzbThGMjZNblZvZDEybHpMRjZ0U2x0QW1WcUlIZW9VNHVnSTBmSk5zNVRVcy1lYVEzcWhNMXU0ck5LV3N0XzdlTi1iTHduOHFEcmJBaUNOcDZDSTNqTDNub2UxNWtkYUJOSUM2cnJ0WFgtdDFoMVFFTXRZQ29xSGRfVkxjRWZOdG1LVTl4QU1iX19FTmhYZ1hvT21mMGZhSndkMDNzazlwMHllbkdWdzMzUQ?oc=5",
-        "source": "standaard",
-        "name_only": true
-      },
-      {
-        "title": "CBS News: “Regering-Trump bereidt nieuwe aanvallen op Iran voor”, nog geen informatie over waar of wanneer",
-        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "title": "KIJK. Witte Huis deelt AI-video waarin talkshowpresentator Colbert door Trump in container wordt gedumpt",
+        "url": "https://www.hln.be/buitenland/kijk-witte-huis-deelt-ai-video-waarin-talkshowpresentator-colbert-door-trump-in-container-wordt-gedumpt~vaf8bb3f12/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Trump Mobile onderzoekt datalek potentiële kopers nieuwe telefoon",
-        "url": "https://www.hln.be/buitenland/trump-mobile-onderzoekt-datalek-potentiele-kopers-nieuwe-telefoon~aa3ac50a/",
-        "source": "hln",
-        "name_only": true
-      },
-      {
-        "title": "Tegen de miljarden van Jared Kushner en Ivanka Trump heeft de Albanese natuur geen schijn van kans",
-        "url": "https://www.demorgen.be/nieuws/tegen-de-miljarden-van-jared-kushner-en-ivanka-trump-heeft-de-albanese-natuur-geen-schijn-van-kans~b3cf347b/",
+        "title": "▶ Witte Huis deelt AI-video waarin Trump talkshowpresentator Stephen Colbert in container gooit",
+        "url": "https://www.demorgen.be/snelnieuws/witte-huis-deelt-ai-video-waarin-trump-talkshowpresentator-stephen-colbert-in-container-gooit~bf8bb3f12/",
         "source": "demorgen",
-        "name_only": false
+        "name_only": true
+      },
+      {
+        "title": "Toeteren voor betaalbare benzine: “Slachtoffer van oorlogszuchtige beleid van Trump”",
+        "url": "https://www.nieuwsblad.be/regio/limburg/pelt/toeteren-voor-betaalbare-benzine-slachtoffer-van-oorlogszuchtige-beleid-van-trump/152881602.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Toeteren voor betaalbare benzine: “Slachtoffer van oorlogszuchtige beleid van Trump”",
+        "url": "https://www.hbvl.be/regio/limburg/pelt/toeteren-voor-betaalbare-benzine-slachtoffer-van-oorlogszuchtige-beleid-van-trump/152880909.html",
+        "source": "hbvl",
+        "name_only": true
       },
       {
         "title": "Blijf kalm, wees paraat en bouw drones die Shanghai kunnen treffen: hoe Taiwan met Donald Trump leerde omgaan - Knack",
@@ -24185,21 +24209,51 @@
         "name_only": true
       },
       {
+        "title": "L’administration Trump dénonce une justice « instrumentalisée » et crée un fonds qui embarrasse démocrates et… républicains",
+        "url": "https://www.rtbf.be/article/l-administration-trump-denonce-une-justice-instrumentalisee-et-cree-un-fonds-qui-embarrasse-democrates-et-republicains-11728164",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Le négociateur iranien promet une réponse \"écrasante\" si Trump reprend la guerre",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/23/direct-guerre-au-moyen-orient-liran-accuse-les-etats-unis-de-saboter-les-negociations-de-paix-QUJRHQ4HEJG3JJEUP55545PSWA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
         "title": "Donald Trump veut à présent indemniser les émeutiers du Capitole, entre autres…",
         "url": "https://www.lalibre.be/international/amerique/2026/05/23/donald-trump-veut-a-present-indemniser-les-emeutiers-du-capitole-entre-autres-VP4RGUTAUVC6HFQI7W6AZ2OII4/",
         "source": "lalibre",
         "name_only": true
+      },
+      {
+        "title": "“L’administration Trump prépare de nouvelles frappes contre l’Iran”",
+        "url": "https://www.7sur7.be/monde/ladministration-trump-prepare-de-nouvelles-frappes-contre-liran~af77d7dba/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Politique absurde et cruelle”: Trump durcit l’accès à la “green card”",
+        "url": "https://www.7sur7.be/monde/politique-absurde-et-cruelle-trump-durcit-lacces-a-la-green-card~aac410e5/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Le président Donald Trump n'exclut pas de nouvelles frappes contre l'Iran - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXlEZnZNRjFDUnhvcU4yajM4cjFhYjRiSDN5VlJMSkFnakZQVEJfMGo5andVUTBOb2VkZDBRSlhtUGhyYmxvSXhuNnl2SGd2ajZmMmVhakZKWm05YVVqdDRrX1dMN3I1TkZmUk5ERWxDTXQyYmVObFFYS21WZllKMWwyQnhWQ0NjdzNpVktfOEx1a2hxTnVnX3lmTE82VWp4YV92NURpQlF4UUNEdURFWlBaU2hYVzRya3FYMWFvdDdUMUpnSzJGSXM4bDk?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 6,
+      "trump": 12,
       "putin": 0,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 1,
+      "de_wever": 0,
       "bouchez": 1,
       "magnette": 0,
       "prevot": 1,
@@ -24211,14 +24265,14 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 9,
+      "trump": 14,
       "putin": 0,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 1,
+      "de_wever": 0,
       "bouchez": 1,
       "magnette": 0,
       "prevot": 1,
@@ -24230,34 +24284,34 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 15,
-      "crime": 7,
-      "eu": 6,
-      "politics": 11,
-      "be_gov": 9,
-      "culture": 10,
-      "tech": 4,
-      "economy": 7,
-      "sports": 20,
-      "health": 4,
+      "war": 17,
+      "crime": 13,
+      "eu": 20,
+      "politics": 18,
+      "be_gov": 8,
+      "culture": 13,
+      "tech": 7,
+      "economy": 8,
+      "sports": 44,
+      "health": 11,
       "climate": 2,
       "migration": 0,
       "education": 3,
-      "weather": 10
+      "weather": 11
     },
     "wide_themes": {
-      "war": 17,
-      "crime": 8,
-      "eu": 10,
-      "politics": 22,
+      "war": 28,
+      "crime": 16,
+      "eu": 27,
+      "politics": 38,
       "be_gov": 10,
-      "culture": 12,
-      "tech": 5,
-      "economy": 7,
-      "sports": 25,
-      "health": 4,
+      "culture": 17,
+      "tech": 11,
+      "economy": 13,
+      "sports": 62,
+      "health": 12,
       "climate": 2,
-      "migration": 1,
+      "migration": 0,
       "education": 4,
       "weather": 15
     }
