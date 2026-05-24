@@ -24393,5 +24393,639 @@
       "education": 5,
       "weather": 20
     }
+  },
+  {
+    "date": "2026-05-24",
+    "generated_at": "2026-05-24T08:51:16+02:00",
+    "last_checked_at": "2026-05-24T08:51:16+02:00",
+    "total_articles": 205,
+    "trump_articles": 5,
+    "percentage": 2.4,
+    "core_percentage": 2.4,
+    "core_percentage_name": 2.4,
+    "trump_articles_expanded": 17,
+    "core_percentage_expanded": 8.3,
+    "indirect_references": 12,
+    "wide_total_articles": 275,
+    "wide_trump_articles": 7,
+    "wide_percentage": 2.5,
+    "wide_trump_articles_expanded": 22,
+    "wide_percentage_expanded": 8.0,
+    "macro_percentage": 1.5,
+    "qualifying_outlets": 10,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 24,
+    "cross_outlet_dup_groups": 12,
+    "cross_outlet_dup_rate": 11.7,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.67,
+    "breadth": 0.36,
+    "deviation": 0.71,
+    "smoothed_pct": 2.83,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 43,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 43,
+        "today": 7,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 59,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 68,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 36,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 32,
+        "today": 3,
+        "kept": 3,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 66.67
+      },
+      "google_fr_business": {
+        "fetched": 24,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 3,
+        "share": 16.67
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 42,
+        "kept": 42,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 28,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 40,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "NV Amerika: hoe Donald Trump de publieke macht van de VS privatiseert",
+        "url": "https://vrtnws.be/p.Nv6Wk9Ala",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Man gedood die op agenten schoot in de buurt van het Witte Huis",
+        "url": "https://vrtnws.be/p.aD1An34la",
+        "source": "vrt",
+        "name_only": false
+      },
+      {
+        "title": "Schutter doodgeschoten door Secret Service nadat hij vuur opent aan controlepost Witte Huis - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWm9oYVZFNjdScUc1ajdBZmhxcXZ5U3RSX1NCOXJQTkVVeVFYUEJDZURNemE0NjZMYm40N3c0Tl9mRDJ0azZMeWFHdzlwTzd3UC1sRUpfb1JDQUFxdkR5dFV4VnVKVTFJMmdSTm5xdWM2czJERnhOV2FkNXctMjhsQV9VcXNLQ3BxWFRtMHRGd0RkRFo4b1p2TVI0ejRCcVZGeU9WbEt2cjBqQ2tXT2RTSGh0NzZsQUpBcS10M2dZODJkc014Mnk3UmtZb1k4MGdwVGIwNGxkQ09hQQ?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "Secret Service schiet man dood die vuur opende aan controlepost Witte Huis",
+        "url": "https://www.hln.be/buitenland/secret-service-schiet-man-dood-die-vuur-opende-aan-controlepost-witte-huis~a79c6d94/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Live - Trump: ‘Akkoord met Iran is grotendeels onderhandeld, Straat van Hormuz zal worden heropend’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-akkoord-met-iran-is-grotendeels-onderhandeld-straat-van-hormuz-zal-worden-heropend~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Man doodgeschoten nadat hij vuur opent aan controlepost Witte Huis",
+        "url": "https://www.demorgen.be/snelnieuws/live-secret-service-schiet-man-neer-die-vuur-opende-aan-controlepost-witte-huis-verdachte-overleden-in-ziekenhuis~b13cc951/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "Witte Huis korte tijd in lockdown na schietpartij in de buurt, verdachte in ziekenhuis overleden",
+        "url": "https://www.demorgen.be/nieuws/witte-huis-korte-tijd-in-lockdown-na-schietpartij-in-de-buurt-verdachte-in-ziekenhuis-overleden~b2232864/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "Secret Service schiet man dood nadat tientallen schoten weerklinken nabij Witte Huis",
+        "url": "https://www.nieuwsblad.be/buitenland/secret-service-schiet-man-dood-nadat-tientallen-schoten-weerklinken-nabij-witte-huis/152958373.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "Secret Service schiet man dood nadat tientallen schoten weerklinken nabij Witte Huis",
+        "url": "https://www.hbvl.be/buitenland/secret-service-schiet-man-dood-nadat-tientallen-schoten-weerklinken-nabij-witte-huis/152987193.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "Des coups de feu retentissent près de la Maison Blanche, le tireur abattu, il \"semblait obsédé\" par le bâtiment",
+        "url": "https://www.rtbf.be/article/des-coups-de-feu-retentissent-pres-de-la-maison-blanche-le-tireur-abattu-il-semblait-obsede-par-le-batiment-11728976",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Un compromis avec l’Iran \"largement négocié\" inclurait la réouverture du détroit d’Ormuz, selon Trump",
+        "url": "https://www.rtbf.be/article/un-compromis-avec-l-iran-largement-negocie-inclurait-la-reouverture-du-detroit-d-ormuz-selon-trump-11728990",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Les services secrets abattant un homme après des coups de feu près de la Maison-Blanche: \"Il avait des antécédents de violence\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/24/les-services-secrets-abattant-un-homme-apres-des-coups-de-feu-pres-de-la-maison-blanche-il-avait-des-antecedents-de-violence-NF65KYOIDZHWHMXVHNDMCKPJOU/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Coups de feu près de la Maison Blanche, le tireur abattu - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMmtGS2kyc3d1MklLUTJvVU1Wclpic2VEYlhXWWJXQmFqbnVrWHFxZ0xTSi1mREV4a1h6WElWNUU4bElqWk5BdFJNVnk4X1plSzlyUDFOdm1iUVNRYkRiblpGU0VYYmxXekQzN19iYlJONkRPcHV2V3lFSndEV1pSUnA5S0ktSnlxc243V3VHYjNWakV2S1VSeEdUNkdJaElnQVozN2pCRHV1SGtRYWJHRXNSbnBlbG82X040Z2lQZUY2UjBsOFE?oc=5",
+        "source": "lecho",
+        "name_only": false
+      },
+      {
+        "title": "Chaos près de la Maison Blanche à Washington: un homme ouvre le feu avant d'être abattu par le Secret Service, Donald Trump se trouvait à l'intérieur",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/24/chaos-pres-de-la-maison-blanche-a-washington-un-homme-ouvre-le-feu-avant-detre-abattu-par-le-secret-service-donald-trump-se-trouvait-a-linterieur-YHLAW5S7KBCM5OB3ZJQRWNDEN4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Un accord largement négocié avec l’Iran est sous réserve d’être finalisé”",
+        "url": "https://www.7sur7.be/monde/trump-un-accord-largement-negocie-avec-liran-est-sous-reserve-detre-finalise~af77d7dba/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Un homme ouvre le feu sur la Maison Blanche, le Secret Service l’abat",
+        "url": "https://www.7sur7.be/monde/un-homme-ouvre-le-feu-sur-la-maison-blanche-le-secret-service-labat~a2222b38/",
+        "source": "septsursept",
+        "name_only": false
+      },
+      {
+        "title": "Coups de feu près de la Maison-Blanche, le tireur abattu - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTi1maXR1UmJFaUJ4Q2hVY1ItSWw5TmJqbUU4RWM0ZFdfbmZ2MmRfWkhGWDVoQ3pVNVg2c2ZFMGFYc2s3VkozMmxob2FyQ01sUWFjOWg2R3BsRUtwTTdaWjBvLW13azZLWnRrOFBxOW9nM3g3c1JNR1E1QlJxZjVRNDhhN0R4YmRFZVlrekwtX2VaY1dkazN4U19fVENZbm1JZjZ1eGV3?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Man gedood die op agenten schoot in de buurt van het Witte Huis - VRT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUXV4ZTd1c1JINGd1T2hKajJOQ09YNF9BRC04aC1kZTg1U2NpM0N1aFdlVEttdFNhbHR3TXJhQWpkX2ZVZEl3U09RTFV3NVVlVXpYNUNtSTNKdGE3Y1J0b0UwVVp5Ty1xZVFrbjAtWDVuenptSnNQQXFWalJaRVNZRmpoaXZwSFE1c2c1RXZmMHZobjRvTEtUYXEwbE44bjVJMWtLcENXdw?oc=5",
+        "source": "google_nl",
+        "name_only": false
+      },
+      {
+        "title": "Des coups de feu retentissent près de la Maison Blanche, le tireur 'semblait obsédé' par le bâtiment - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQelcwSXlBQlRvU0paN0poZWN0UUNCZVNUSEtYeERLZjk2T1p4UWh6NTBfcTlDYTl5dnBHNGVSYl80S0ttSkk0dV9uLXFVU1NqQXl4TVhHc1RZLUV0OE1USy1NeTFSbjNYS2ZGTDRRb2ljRjEyeFI3RHg3c3RfMV9ZTHNDak5Majl3Qkp5T2VCWmlzV0h6MlhtSnNNeUFUQ1FhSzdzUUNHM3dWSkk4OFN6TVM4bzhmY2UzZFg4UGRrZjN1WVhGMW1YV1lhM1FzY3M?oc=5",
+        "source": "google_fr",
+        "name_only": false
+      },
+      {
+        "title": "Un compromis avec l’Iran 'largement négocié' inclurait la réouverture du détroit d’Ormuz, selon Trump - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcGsyRDh0dFpZRTV6TE9PU29IcnI2ZHN1RWM4cG1fMlU4MWhjbWlCVGRKZnUtUmFWblY1dGRhdm5uSVpTQVlQMG0xdlFFR2pxdmFlMW8tYVBMbklDY18wcHptbzRoN3BwTkt6RnM2RTRWMVdFREdlZS1zR1l1bzAxaVRkcDF6WDBBblQ2c0QtaFhpTXdjU1JMMTNuWlJHUm5zUHIwVElQSTdUWDgtX252ZVRla1YzZzA1ZjM3WnRpcVQwcU91aG9PVjB1MzVPSmNX?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump ciblé par une nouvelle tentative d’assassinat ? Un homme ouvre le feu près de la Maison Blanche, avant d’être abattu - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSVBadmRoQV9iWXluQmxyU0ZJY2FlaUxkQ190MVdNQVdzR0pyb0R4b3psUDN4OVdRcl93UkVib0dFclRzbG1ENnBKRmpzZ1ZVUEN4M3dPak5ISlYtb2NuQ0MwYzh3S3c5U0h3ejU5UC1acXJtclRaVHkzZkVCNEtHejh1NFZUTnBkMWJQMHB3TEJyeGwyODBjdm5GTE02X2FZRm1LTWtrM2FfR3JzcnFzbkVwaGdZVC1ZSktDZV9Pb1lGUHdJbXYxZjZWeURtNGFfQXdPNHE2QzVtRXBsNVJOUTF6Qjc?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "NV Amerika: hoe Donald Trump de publieke macht van de VS privatiseert",
+        "url": "https://vrtnws.be/p.Nv6Wk9Ala",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Man gedood die op agenten schoot in de buurt van het Witte Huis",
+        "url": "https://vrtnws.be/p.aD1An34la",
+        "source": "vrt",
+        "name_only": false
+      },
+      {
+        "title": "Schutter doodgeschoten door Secret Service nadat hij vuur opent aan controlepost Witte Huis - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWm9oYVZFNjdScUc1ajdBZmhxcXZ5U3RSX1NCOXJQTkVVeVFYUEJDZURNemE0NjZMYm40N3c0Tl9mRDJ0azZMeWFHdzlwTzd3UC1sRUpfb1JDQUFxdkR5dFV4VnVKVTFJMmdSTm5xdWM2czJERnhOV2FkNXctMjhsQV9VcXNLQ3BxWFRtMHRGd0RkRFo4b1p2TVI0ejRCcVZGeU9WbEt2cjBqQ2tXT2RTSGh0NzZsQUpBcS10M2dZODJkc014Mnk3UmtZb1k4MGdwVGIwNGxkQ09hQQ?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "Secret Service schiet man dood die vuur opende aan controlepost Witte Huis",
+        "url": "https://www.hln.be/buitenland/secret-service-schiet-man-dood-die-vuur-opende-aan-controlepost-witte-huis~a79c6d94/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Live - Trump: ‘Akkoord met Iran is grotendeels onderhandeld, Straat van Hormuz zal worden heropend’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-akkoord-met-iran-is-grotendeels-onderhandeld-straat-van-hormuz-zal-worden-heropend~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Man doodgeschoten nadat hij vuur opent aan controlepost Witte Huis",
+        "url": "https://www.demorgen.be/snelnieuws/live-secret-service-schiet-man-neer-die-vuur-opende-aan-controlepost-witte-huis-verdachte-overleden-in-ziekenhuis~b13cc951/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "Witte Huis korte tijd in lockdown na schietpartij in de buurt, verdachte in ziekenhuis overleden",
+        "url": "https://www.demorgen.be/nieuws/witte-huis-korte-tijd-in-lockdown-na-schietpartij-in-de-buurt-verdachte-in-ziekenhuis-overleden~b2232864/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "Secret Service schiet man dood nadat tientallen schoten weerklinken nabij Witte Huis",
+        "url": "https://www.nieuwsblad.be/buitenland/secret-service-schiet-man-dood-nadat-tientallen-schoten-weerklinken-nabij-witte-huis/152958373.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "Secret Service schiet man dood nadat tientallen schoten weerklinken nabij Witte Huis",
+        "url": "https://www.gva.be/buitenland/secret-service-schiet-man-dood-nadat-tientallen-schoten-weerklinken-nabij-witte-huis/152958435.html",
+        "source": "gva",
+        "name_only": false
+      },
+      {
+        "title": "Secret Service schiet man dood nadat tientallen schoten weerklinken nabij Witte Huis",
+        "url": "https://www.hbvl.be/buitenland/secret-service-schiet-man-dood-nadat-tientallen-schoten-weerklinken-nabij-witte-huis/152987193.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "Des coups de feu retentissent près de la Maison Blanche, le tireur abattu, il \"semblait obsédé\" par le bâtiment",
+        "url": "https://www.rtbf.be/article/des-coups-de-feu-retentissent-pres-de-la-maison-blanche-le-tireur-abattu-il-semblait-obsede-par-le-batiment-11728976",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Un compromis avec l’Iran \"largement négocié\" inclurait la réouverture du détroit d’Ormuz, selon Trump",
+        "url": "https://www.rtbf.be/article/un-compromis-avec-l-iran-largement-negocie-inclurait-la-reouverture-du-detroit-d-ormuz-selon-trump-11728990",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Les services secrets abattant un homme après des coups de feu près de la Maison-Blanche: \"Il avait des antécédents de violence\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/24/les-services-secrets-abattant-un-homme-apres-des-coups-de-feu-pres-de-la-maison-blanche-il-avait-des-antecedents-de-violence-NF65KYOIDZHWHMXVHNDMCKPJOU/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Coups de feu près de la Maison Blanche, le tireur abattu - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMmtGS2kyc3d1MklLUTJvVU1Wclpic2VEYlhXWWJXQmFqbnVrWHFxZ0xTSi1mREV4a1h6WElWNUU4bElqWk5BdFJNVnk4X1plSzlyUDFOdm1iUVNRYkRiblpGU0VYYmxXekQzN19iYlJONkRPcHV2V3lFSndEV1pSUnA5S0ktSnlxc243V3VHYjNWakV2S1VSeEdUNkdJaElnQVozN2pCRHV1SGtRYWJHRXNSbnBlbG82X040Z2lQZUY2UjBsOFE?oc=5",
+        "source": "lecho",
+        "name_only": false
+      },
+      {
+        "title": "Chaos près de la Maison Blanche à Washington: un homme ouvre le feu avant d'être abattu par le Secret Service, Donald Trump se trouvait à l'intérieur",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/24/chaos-pres-de-la-maison-blanche-a-washington-un-homme-ouvre-le-feu-avant-detre-abattu-par-le-secret-service-donald-trump-se-trouvait-a-linterieur-YHLAW5S7KBCM5OB3ZJQRWNDEN4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Un accord largement négocié avec l’Iran est sous réserve d’être finalisé”",
+        "url": "https://www.7sur7.be/monde/trump-un-accord-largement-negocie-avec-liran-est-sous-reserve-detre-finalise~af77d7dba/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Un homme ouvre le feu sur la Maison Blanche, le Secret Service l’abat",
+        "url": "https://www.7sur7.be/monde/un-homme-ouvre-le-feu-sur-la-maison-blanche-le-secret-service-labat~a2222b38/",
+        "source": "septsursept",
+        "name_only": false
+      },
+      {
+        "title": "Coups de feu près de la Maison-Blanche, le tireur abattu - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTi1maXR1UmJFaUJ4Q2hVY1ItSWw5TmJqbUU4RWM0ZFdfbmZ2MmRfWkhGWDVoQ3pVNVg2c2ZFMGFYc2s3VkozMmxob2FyQ01sUWFjOWg2R3BsRUtwTTdaWjBvLW13azZLWnRrOFBxOW9nM3g3c1JNR1E1QlJxZjVRNDhhN0R4YmRFZVlrekwtX2VaY1dkazN4U19fVENZbm1JZjZ1eGV3?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      }
+    ],
+    "comparisons": {
+      "trump": 5,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 7,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 19,
+      "crime": 3,
+      "eu": 8,
+      "politics": 5,
+      "be_gov": 3,
+      "culture": 5,
+      "tech": 1,
+      "economy": 1,
+      "sports": 14,
+      "health": 2,
+      "climate": 0,
+      "migration": 0,
+      "education": 5,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 22,
+      "crime": 4,
+      "eu": 14,
+      "politics": 12,
+      "be_gov": 5,
+      "culture": 6,
+      "tech": 4,
+      "economy": 2,
+      "sports": 16,
+      "health": 2,
+      "climate": 0,
+      "migration": 0,
+      "education": 6,
+      "weather": 14
+    }
   }
 ]
