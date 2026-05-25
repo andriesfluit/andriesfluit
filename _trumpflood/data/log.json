@@ -25030,38 +25030,38 @@
   },
   {
     "date": "2026-05-25",
-    "generated_at": "2026-05-25T10:06:23+02:00",
-    "last_checked_at": "2026-05-25T10:06:23+02:00",
-    "total_articles": 341,
-    "trump_articles": 2,
-    "percentage": 0.6,
-    "core_percentage": 0.6,
-    "core_percentage_name": 0.6,
-    "trump_articles_expanded": 2,
-    "core_percentage_expanded": 0.6,
-    "indirect_references": 0,
-    "wide_total_articles": 454,
-    "wide_trump_articles": 4,
-    "wide_percentage": 0.9,
-    "wide_trump_articles_expanded": 4,
-    "wide_percentage_expanded": 0.9,
-    "macro_percentage": 1.2,
-    "qualifying_outlets": 18,
+    "generated_at": "2026-05-25T15:47:16+02:00",
+    "last_checked_at": "2026-05-25T15:47:16+02:00",
+    "total_articles": 649,
+    "trump_articles": 9,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "core_percentage_name": 1.4,
+    "trump_articles_expanded": 10,
+    "core_percentage_expanded": 1.5,
+    "indirect_references": 1,
+    "wide_total_articles": 871,
+    "wide_trump_articles": 13,
+    "wide_percentage": 1.5,
+    "wide_trump_articles_expanded": 14,
+    "wide_percentage_expanded": 1.6,
+    "macro_percentage": 1.7,
+    "qualifying_outlets": 26,
     "core_outlets_total": 19,
     "core_outlets_active": 18,
     "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 38,
-    "cross_outlet_dup_groups": 19,
-    "cross_outlet_dup_rate": 11.1,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Barely registered today.",
-    "rank": 2,
+    "cross_outlet_dup_headlines": 50,
+    "cross_outlet_dup_groups": 25,
+    "cross_outlet_dup_rate": 7.7,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
     "n_people": 17,
-    "dominance": 0.18,
-    "breadth": 0.11,
-    "deviation": 0.18,
-    "smoothed_pct": 2.51,
+    "dominance": 1.5,
+    "breadth": 0.44,
+    "deviation": 0.41,
+    "smoothed_pct": 2.63,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
     "theme_rank": 12,
@@ -25069,96 +25069,96 @@
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 20,
-        "kept": 20,
+        "today": 27,
+        "kept": 27,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 12,
-        "kept": 12,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 8.33
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 46,
-        "today": 2,
-        "kept": 2,
+        "fetched": 50,
+        "today": 5,
+        "kept": 5,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 50.0
+        "share": 20.0
       },
       "google_nl_world": {
-        "fetched": 38,
-        "today": 5,
-        "kept": 1,
+        "fetched": 37,
+        "today": 11,
+        "kept": 6,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_business": {
-        "fetched": 70,
-        "today": 7,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 67,
+        "today": 24,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
       },
       "google_nl_tech": {
         "fetched": 70,
-        "today": 4,
-        "kept": 4,
+        "today": 14,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 60,
-        "today": 10,
-        "kept": 8,
+        "fetched": 53,
+        "today": 27,
+        "kept": 23,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 39,
+        "fetched": 34,
         "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_world": {
-        "fetched": 31,
-        "today": 6,
         "kept": 2,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_fr_business": {
-        "fetched": 13,
-        "today": 1,
-        "kept": 1,
+      "google_fr_world": {
+        "fetched": 34,
+        "today": 15,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "vrt": {
-        "fetched": 50,
-        "today": 11,
-        "kept": 11,
+      "google_fr_business": {
+        "fetched": 12,
+        "today": 5,
+        "kept": 4,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 9.09
+        "share": 25.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 32,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
       },
       "standaard": {
-        "fetched": 84,
-        "today": 36,
-        "kept": 6,
+        "fetched": 83,
+        "today": 52,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -25167,169 +25167,169 @@
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "demorgen": {
-        "fetched": 28,
-        "today": 7,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 26,
+        "today": 12,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 8.33
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 49,
-        "kept": 49,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
-        "today": 46,
-        "kept": 46,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 23,
-        "kept": 23,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
-        "fetched": 95,
-        "today": 25,
-        "kept": 25,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.0
+        "fetched": 100,
+        "today": 52,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 5,
-        "kept": 5,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 4,
-        "kept": 4,
+        "today": 11,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 13,
-        "kept": 13,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
       },
       "lalibre": {
         "fetched": 100,
-        "today": 17,
-        "kept": 17,
+        "today": 39,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lecho": {
         "fetched": 100,
-        "today": 19,
-        "kept": 19,
+        "today": 34,
+        "kept": 34,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 28,
-        "kept": 28,
+        "today": 72,
+        "kept": 72,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "septsursept": {
         "fetched": 30,
-        "today": 12,
-        "kept": 12,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bx1": {
         "fetched": 10,
-        "today": 0,
-        "kept": 0,
+        "today": 8,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 40,
-        "kept": 38,
+        "today": 76,
+        "kept": 72,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 25,
-        "kept": 23,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 54,
+        "kept": 52,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.85
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 12,
-        "kept": 12,
+        "today": 17,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 13,
-        "kept": 13,
+        "today": 38,
+        "kept": 37,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 99,
-        "today": 13,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 33,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
       },
       "trends_g": {
-        "fetched": 16,
-        "today": 5,
+        "fetched": 25,
+        "today": 12,
         "kept": 0,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0
       },
       "tendances_g": {
-        "fetched": 44,
-        "today": 5,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 54,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
       }
     },
     "core_sources": [
@@ -25361,23 +25361,77 @@
         "name_only": true
       },
       {
-        "title": "Live Spanningen Midden-Oosten: Trump vraagt Amerikaanse onderhandelaars om “geen haast te maken” met Iran-deal - Knack",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVmlJMURWMl9PSGpzX1dScHo2dUREU0V4b1ZLQk9xNUNUb240Tnp5UG1GYmQ0S2pSSTJ6NEJIMFZCb2U4d0ZHX0l6S3lsZHZTazZQVUpjZ2ZoN0hyQkdjbWI0aDRhY1JodGt1UW1OUGwyNHBXSnN4SWRrWkh2X3RYOW54ZWFPVF9vX3BGQ2ZrdkNoNTd5RWh5NWFfc3FqVGpLQ3BFNGg0RGxxQzRZWklNS19QMUdxM0w2aWhELWoyMmt2U1hwYzlhQVdidDhiUWNlOXh5YWhNbm9EbEJPTHhMMlc5VGh5dw?oc=5",
-        "source": "knack",
+        "title": "Iraanse delegatie aangekomen in Qatar voor onderhandelingen, Trump: “Of een geweldige deal voor iedereen, of helemaal geen deal en terug naar het front”",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump koppelt normalisering van banden met Israël door Arabische landen aan akkoord met Iran",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-tempert-meteen-verwachtingen-na-optimistische-uitspraken-van-rubio-akkoord-nog-lang-niet-in-zicht~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘NBC News’-journaliste gaat viraal met reactie op schietpartij bij Witte Huis: ‘Bedankt voor de memes, internet!’",
+        "url": "https://www.demorgen.be/snelnieuws/nbc-news-journaliste-gaat-viraal-met-reactie-op-schietpartij-bij-witte-huis-bedankt-voor-de-memes-internet~b2d77eb1/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Onderhandelingen met Iran verlopen voorspoedig” - Iran tempert verwachtingen voor snel vredesakkoord",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-onderhandelingen-met-iran-verlopen-voorspoedig-iran-tempert-verwachtingen-voor-snel-vredesakkoord/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Qui est Babak Zanjani, l’homme que l’Iran a sorti du couloir de la mort pour contourner les sanctions de Donald Trump &amp; Co",
+        "url": "https://www.rtbf.be/article/qui-est-babak-zanjani-l-homme-que-l-iran-a-sorti-du-couloir-de-la-mort-pour-contourner-les-sanctions-de-donald-trump-co-11729408",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : le changement de ton de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlzalItb1BJWWFMUEJLZWM4djFDeWV5dk9CLUJaWFJoaURva0Y3T3RkUmNvRFVJYkpDdnpuaDRkYWd2TDZVNVhNSUFwOW1tdlFkN2FwZG9aMEZaQUhZbVFxbnh4X0FRSG4wdjBocWJfS1Y1Ym94RWdXNkUzVXNYX1BicFBWa20zZXB0REUtVGduemxTaEZaU2pmalBZMXdYaWxhTHdjTF8zMGs?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Tous ces pays devraient être obligés de signer les accords d’Abraham » : Trump veut normaliser les relations entre Israël et les pays musulmans - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN185X3V1ZEZLd2xpSmZDSHFmZDhoTXVNaXhXb3UzUlVJRXNoOUY4YTFWXzNkeW9qZHliNWtuNGZUY3VFc1YwOU1qVnpWN0JZQ0V4elcxZ0gwbnllVXdUMS04NmNPSFQwdkhjSGlRQk55b2JKVmtIZlcxaDR6c1BUelk0OFhQTlZVLVp6clpVUG9pSzVpeXRCeVQ3enRSMm5pYXhwX0xPLXI0eVlCVkFycHRxN1g0ZGJWcDRaY0s4OWI4QmVL?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Iran : Trump et Téhéran tempèrent l'idée d'un accord conclu aujourd'hui - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb3hwLWRNU3ExdEZjeGE5a2dDLTR3V3FXSnNKRkVfbWk5RTRfU3NvWUNiV29lMEhpaWRVRXgzZ0tzN2F3VGJYb1V2QVY1QmZWelNYM2R4cm1OQTllYk41Ykc1UUlzR3h4Wk5iMWI1UFNzcjVXY0J4V3hGc1R0MlBTLTl1WHpDakhNdURMN2VObmhsOGhFb2VHTG8xS1dMOV9FaWk1SFNDTGJtb2R2NzI4azFIeTdpYXZ5QzNnUjBFNzJtVEJEbmc?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Combien coûte Donald Trump à l’économie américaine ? - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMnM4d3VfRDE3X0wxemx1Z1BLS1Jxa2VEMkluVlF6Zjk0ajNkQzczVGtQaC1qc0s5S1lNYXlMa2xXVWY5Q1F1QnI5RlF3TGNuYTFQeGdRSm80VTNENW1qeWFXVGhoeEpCZU5OTHBzblV3MDhlWWhUR2RXLWMzNERIbXZSZzlnZHRJbGlZTHhpNjk5c2tmeFpEa1FhbG83c21CalhGMmoxYw?oc=5",
+        "source": "tendances_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Guerre au Moyen-Orient : le changement de ton de Donald Trump - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlzalItb1BJWWFMUEJLZWM4djFDeWV5dk9CLUJaWFJoaURva0Y3T3RkUmNvRFVJYkpDdnpuaDRkYWd2TDZVNVhNSUFwOW1tdlFkN2FwZG9aMEZaQUhZbVFxbnh4X0FRSG4wdjBocWJfS1Y1Ym94RWdXNkUzVXNYX1BicFBWa20zZXB0REUtVGduemxTaEZaU2pmalBZMXdYaWxhTHdjTF8zMGs?oc=5",
-        "source": "google_fr",
-        "name_only": true
-      },
-      {
         "title": "Verstikkende olieblokkade en druk op politiek systeem: hoe Trump Cuba al maanden op de knieën probeert te krijgen - VRT",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOakZEd1ZTN09GYkhERl9zQU9UM2ZRN3V0SFlMV3JweDhURWFhR25nQ3lmTHhMV0hPX3k4NU1VcFRFSVlGdndGbGN0REtwLUk2aHdTaWVzWjhzdmlWaDlHQy1SSVoxcG1uU2dUckZmd1M3ZTlxcU1CRzMxMThrbnd3RFBlNFR2VjBa?oc=5",
         "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Kwetsbaarheid bij Trump Mobile legt mogelijk data van 27.000 klanten bloot - Tweakers",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOazZ6aVV1SmNOTDhNUjctR3FaZUJfdno1a3lIWTkxQkpFRTh0cDJsQ2JPSFpxUThLdmpMcWZkTDJjMjF5a3BFU29tQm5Cd0dWWklVa0xsdURSbG1HcDU4SnoxVHhFVFNzQUxDN1JUY3pobERGS1FZbGQxdFZaTDNFTW55WmEyWDYtLVJLUkNvWVdxbU02S0VkOVZLWU15TnF1SmtJSjcyT3hPa2dDbjVKbzVJVQ?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Qui est Babak Zanjani, l’homme que l’Iran a sorti du couloir de la mort pour contourner les sanctions de Donald Trump & Co - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTm1UVm95eVV0SkY3Q1NTUkNkcEJ3S0JZWEJPZ3FiRV9BQXE2ckg3VVJfWkJhelhrbVBhNkVtTnVnYTNKLThYUWpWV20xYWlrQjRvaWJyS2hzVHYwaHJZdEhoNTNkRG5KUmlvVkwxaTd0WlN0SU00UDBUWWhxdXVyLUVLa3dMX2pmVjBXQWt3dXFlbHlmbnNjOGcyNkpHRGV6TFRmbG5HY04tdzhJY29PLW00YkNaOGdWbFNUbldZV19XSkk0dTNldFJVUEQzYkxYV3NfVXlBMVNxa3kza0Z0SHRfRGJxYVVqMFRXdw?oc=5",
+        "source": "google_fr_business",
         "name_only": true
       },
       {
@@ -25387,14 +25441,68 @@
         "name_only": true
       },
       {
-        "title": "Live Spanningen Midden-Oosten: Trump vraagt Amerikaanse onderhandelaars om “geen haast te maken” met Iran-deal - Knack",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVmlJMURWMl9PSGpzX1dScHo2dUREU0V4b1ZLQk9xNUNUb240Tnp5UG1GYmQ0S2pSSTJ6NEJIMFZCb2U4d0ZHX0l6S3lsZHZTazZQVUpjZ2ZoN0hyQkdjbWI0aDRhY1JodGt1UW1OUGwyNHBXSnN4SWRrWkh2X3RYOW54ZWFPVF9vX3BGQ2ZrdkNoNTd5RWh5NWFfc3FqVGpLQ3BFNGg0RGxxQzRZWklNS19QMUdxM0w2aWhELWoyMmt2U1hwYzlhQVdidDhiUWNlOXh5YWhNbm9EbEJPTHhMMlc5VGh5dw?oc=5",
-        "source": "knack",
+        "title": "Iraanse delegatie aangekomen in Qatar voor onderhandelingen, Trump: “Of een geweldige deal voor iedereen, of helemaal geen deal en terug naar het front”",
+        "url": "https://www.hln.be/iran/oorlog-amerika-iran~ac88fede/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump koppelt normalisering van banden met Israël door Arabische landen aan akkoord met Iran",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-tempert-meteen-verwachtingen-na-optimistische-uitspraken-van-rubio-akkoord-nog-lang-niet-in-zicht~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘NBC News’-journaliste gaat viraal met reactie op schietpartij bij Witte Huis: ‘Bedankt voor de memes, internet!’",
+        "url": "https://www.demorgen.be/snelnieuws/nbc-news-journaliste-gaat-viraal-met-reactie-op-schietpartij-bij-witte-huis-bedankt-voor-de-memes-internet~b2d77eb1/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Onderhandelingen met Iran verlopen voorspoedig” - Iran tempert verwachtingen voor snel vredesakkoord",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-onderhandelingen-met-iran-verlopen-voorspoedig-iran-tempert-verwachtingen-voor-snel-vredesakkoord/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Onderhandelingen met Iran verlopen voorspoedig” - Iran tempert verwachtingen voor snel vredesakkoord",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-onderhandelingen-met-iran-verlopen-voorspoedig-iran-tempert-verwachtingen-voor-snel-vredesakkoord/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Qui est Babak Zanjani, l’homme que l’Iran a sorti du couloir de la mort pour contourner les sanctions de Donald Trump &amp; Co",
+        "url": "https://www.rtbf.be/article/qui-est-babak-zanjani-l-homme-que-l-iran-a-sorti-du-couloir-de-la-mort-pour-contourner-les-sanctions-de-donald-trump-co-11729408",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : le changement de ton de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjlzalItb1BJWWFMUEJLZWM4djFDeWV5dk9CLUJaWFJoaURva0Y3T3RkUmNvRFVJYkpDdnpuaDRkYWd2TDZVNVhNSUFwOW1tdlFkN2FwZG9aMEZaQUhZbVFxbnh4X0FRSG4wdjBocWJfS1Y1Ym94RWdXNkUzVXNYX1BicFBWa20zZXB0REUtVGduemxTaEZaU2pmalBZMXdYaWxhTHdjTF8zMGs?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Tous ces pays devraient être obligés de signer les accords d’Abraham » : Trump veut normaliser les relations entre Israël et les pays musulmans - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN185X3V1ZEZLd2xpSmZDSHFmZDhoTXVNaXhXb3UzUlVJRXNoOUY4YTFWXzNkeW9qZHliNWtuNGZUY3VFc1YwOU1qVnpWN0JZQ0V4elcxZ0gwbnllVXdUMS04NmNPSFQwdkhjSGlRQk55b2JKVmtIZlcxaDR6c1BUelk0OFhQTlZVLVp6clpVUG9pSzVpeXRCeVQ3enRSMm5pYXhwX0xPLXI0eVlCVkFycHRxN1g0ZGJWcDRaY0s4OWI4QmVL?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Iran : Trump et Téhéran tempèrent l'idée d'un accord conclu aujourd'hui - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb3hwLWRNU3ExdEZjeGE5a2dDLTR3V3FXSnNKRkVfbWk5RTRfU3NvWUNiV29lMEhpaWRVRXgzZ0tzN2F3VGJYb1V2QVY1QmZWelNYM2R4cm1OQTllYk41Ykc1UUlzR3h4Wk5iMWI1UFNzcjVXY0J4V3hGc1R0MlBTLTl1WHpDakhNdURMN2VObmhsOGhFb2VHTG8xS1dMOV9FaWk1SFNDTGJtb2R2NzI4azFIeTdpYXZ5QzNnUjBFNzJtVEJEbmc?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Combien coûte Donald Trump à l’économie américaine ? - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMnM4d3VfRDE3X0wxemx1Z1BLS1Jxa2VEMkluVlF6Zjk0ajNkQzczVGtQaC1qc0s5S1lNYXlMa2xXVWY5Q1F1QnI5RlF3TGNuYTFQeGdRSm80VTNENW1qeWFXVGhoeEpCZU5OTHBzblV3MDhlWWhUR2RXLWMzNERIbXZSZzlnZHRJbGlZTHhpNjk5c2tmeFpEa1FhbG83c21CalhGMmoxYw?oc=5",
+        "source": "tendances_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 2,
+      "trump": 9,
       "putin": 2,
       "macron": 0,
       "netanyahu": 0,
@@ -25403,65 +25511,65 @@
       "von_der_leyen": 0,
       "de_wever": 0,
       "bouchez": 0,
-      "magnette": 8,
+      "magnette": 4,
       "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 1
+      "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 4,
-      "putin": 2,
+      "trump": 13,
+      "putin": 3,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 1,
+      "de_wever": 0,
       "bouchez": 0,
-      "magnette": 10,
+      "magnette": 6,
       "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 1
+      "verlinden": 0
     },
     "themes": {
-      "war": 17,
-      "crime": 6,
-      "eu": 11,
-      "politics": 7,
-      "be_gov": 13,
-      "culture": 8,
-      "tech": 3,
-      "economy": 7,
-      "sports": 28,
-      "health": 4,
-      "climate": 1,
+      "war": 27,
+      "crime": 15,
+      "eu": 23,
+      "politics": 10,
+      "be_gov": 17,
+      "culture": 20,
+      "tech": 13,
+      "economy": 16,
+      "sports": 65,
+      "health": 10,
+      "climate": 4,
       "migration": 1,
-      "education": 2,
-      "weather": 9
+      "education": 1,
+      "weather": 15
     },
     "wide_themes": {
-      "war": 25,
-      "crime": 9,
-      "eu": 13,
-      "politics": 12,
-      "be_gov": 17,
-      "culture": 8,
-      "tech": 4,
-      "economy": 9,
-      "sports": 40,
-      "health": 7,
-      "climate": 2,
-      "migration": 3,
-      "education": 5,
-      "weather": 15
+      "war": 38,
+      "crime": 20,
+      "eu": 36,
+      "politics": 18,
+      "be_gov": 22,
+      "culture": 22,
+      "tech": 20,
+      "economy": 20,
+      "sports": 104,
+      "health": 13,
+      "climate": 5,
+      "migration": 1,
+      "education": 4,
+      "weather": 22
     }
   }
 ]
