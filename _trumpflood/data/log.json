@@ -26181,5 +26181,531 @@
       "education": 26,
       "weather": 45
     }
+  },
+  {
+    "date": "2026-05-27",
+    "generated_at": "2026-05-27T09:49:50+02:00",
+    "last_checked_at": "2026-05-27T09:49:50+02:00",
+    "total_articles": 408,
+    "trump_articles": 7,
+    "percentage": 1.7,
+    "core_percentage": 1.7,
+    "core_percentage_name": 1.7,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 2.2,
+    "indirect_references": 2,
+    "wide_total_articles": 542,
+    "wide_trump_articles": 10,
+    "wide_percentage": 1.8,
+    "wide_trump_articles_expanded": 12,
+    "wide_percentage_expanded": 2.2,
+    "macro_percentage": 2.6,
+    "qualifying_outlets": 19,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 42,
+    "cross_outlet_dup_groups": 21,
+    "cross_outlet_dup_rate": 10.3,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 0.33,
+    "deviation": 0.62,
+    "smoothed_pct": 2.09,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 55,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 48,
+        "today": 16,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 27,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 33,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_fr_business": {
+        "fetched": 35,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 46,
+        "kept": 36,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 39,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.9
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 41,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.44
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 77,
+        "today": 16,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 66,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Bouw vechtarena voor Trumps verjaardag gestart: gigantische metalen boog rijst op in tuin van Witte Huis",
+        "url": "https://www.hln.be/buitenland/bouw-vechtarena-voor-trumps-verjaardag-gestart-gigantische-metalen-boog-rijst-op-in-tuin-van-witte-huis~a8d54993/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Trump-getrouwe Republikein haalt het in voorverkiezingen in Texas, ook Democraten juichen",
+        "url": "https://www.demorgen.be/nieuws/trump-getrouwe-republikein-haalt-het-in-voorverkiezingen-in-texas-ook-democraten-juichen~b9514aa3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Arena voor kooigevecht in tuin van Witte Huis in opbouw • Ex-justitieminister Bondi wordt lid van Trumps AI-adviescommissie",
+        "url": "https://www.demorgen.be/snelnieuws/live-oud-president-biden-klaagt-justitie-aan-om-vrijgave-interviews-te-voorkomen-trump-corrupt~b13cc951/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "Trump baisse dans les sondages, encore… : “Les candidats républicains seront en péril”",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/27/trump-baisse-dans-les-sondages-encore-les-candidats-republicains-seront-en-peril-6JMHBB4W4NAUJP4THS37AQMJNQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le redécoupage électoral voulu par Trump freiné dans deux Etats américains",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/27/le-redecoupage-electoral-voulu-par-trump-freine-dans-deux-etats-americains-VPHNRB6HYNDGJCQDVOHBTZL7H4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'inexorable chute de Donald Trump dans les sondages inquiète jusque dans son propre camp: “Les candidats républicains seront en péril”",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/27/linexorable-chute-de-donald-trump-dans-les-sondages-inquiete-jusque-dans-son-propre-camp-les-candidats-republicains-seront-en-peril-MJSRDM36TRDINAJGUUVKGP4O5A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Au Texas, le candidat soutenu par Trump remporte la primaire républicaine",
+        "url": "https://www.7sur7.be/monde/au-texas-le-candidat-soutenu-par-trump-remporte-la-primaire-republicaine~ade2b654/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : le candidat soutenu par Donald Trump remporte les primaires républicaines au Texas - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPXzJUZ1c2NkxHdTVySGFTOW92cVlkRTdOVVZsR00tRXk5eWo4VXVFa1d1ZnJkYS1lemdxV05hNWhfYl8xbjhkTmZ2T0U4dHU3NDNzVlpBUkJJRlZIV0owSWota1NuemdXS3pRZkkzb2dZRmU2WDdDSVlvWTI2cUl1NUxWNmF1V1dIblZhS19YLWIxUktfdTFYa3FnV3h1RFc3cUNFYzdzYnZ3TnJ4Z2lBRHFwcXNmWHV5THc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Primaires républicaines : le candidat soutenu par Donald Trump l’emporte au Texas - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMHpfbXRmTXdPenNPMWcwMTd1QTVWSnZscTY5bHVFX2F1MnhkTlBPcUNsSGY2andJWHh5TVlZOEhwdG50UW9wU24yY3VJclFhcXFrbE8zSy1ZR1VkZmdTYlBFV1pvbGxIeHlQUjlrVU43QmY3WEFoTU43MlktMV9DeUotQXBhOXE4Rnd4QjlBNllVMzR5anhfbktMQ0dtWm9Yazc0Z0pVMWRNOUtNV1FxRVdEcHRiU0tocXowZXRqNGRZNG9EZDRnSGl3?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump-getrouwe Republikein haalt het in voorverkiezingen in Texas, ook Democraten juichen - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYUFSSGhsaWdYNnA1SXppVmJhTXBYc3N0Vk1vbzdoM1FqZTZlOGFLWTdpcHhTUVJtTldWa2Fxdy1IWWRDVjYtc2RvaHVOWmJsNG5pdFVlQkdJdVFRR1BCSGtCT3NsamVPS3BLbjVfUkxRNmtkeU5KV0l6cnpma0tqM0ZGWWw3eUU1dzdYRFB1Rm5veW5mY3JfZ2VhbzZpUE9pLXFOZFRDSW5WQVZZMjlWUTBYVElnam9mQ2E3bmJmM0Z3YVNCYXZhQg?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "L'inexorable chute de Donald Trump dans les sondages inquiète jusque dans son propre camp: \"Les candidats républicains seront en péril\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQeWt6eTZ5ZFFqeDMtWHpnclBiYk5oaUVvNE5TaS1Cc3N1Q2YtWUVnMkFFb1gzb3RJU0FKSlh1YmN5ZE5YM0MtX09xdHpId3NCWmd4QWFYb1o2UDBBMTJ5Xy00R0ZDenZFalctU1BWcWNsWGpWLWRCUGU1OEYyYWE5dWhJT2I0Sk1iMi1wYVVpYWxfbm9zbFhFTlEyXzFDTFljYUdnSktTbGROR01nc05abFNJY19SM1djbWVvbGhHZ1N6RzhJUEtjbGRxTF9VWmduUTM3Q3dibzZfRkZLeHAzRU9ISFJQUjZRMjhjU3dDSEdEY0g3UHdHM2FoOUVNMzhielBqWmNmOWJOVHVSNERaTzJidThYQU4yYk8tLS11Z3M4ZTRtZmQxMmFn?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Bouw vechtarena voor Trumps verjaardag gestart: gigantische metalen boog rijst op in tuin van Witte Huis",
+        "url": "https://www.hln.be/buitenland/bouw-vechtarena-voor-trumps-verjaardag-gestart-gigantische-metalen-boog-rijst-op-in-tuin-van-witte-huis~a8d54993/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Trump-getrouwe Republikein haalt het in voorverkiezingen in Texas, ook Democraten juichen",
+        "url": "https://www.demorgen.be/nieuws/trump-getrouwe-republikein-haalt-het-in-voorverkiezingen-in-texas-ook-democraten-juichen~b9514aa3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Arena voor kooigevecht in tuin van Witte Huis in opbouw • Ex-justitieminister Bondi wordt lid van Trumps AI-adviescommissie",
+        "url": "https://www.demorgen.be/snelnieuws/live-oud-president-biden-klaagt-justitie-aan-om-vrijgave-interviews-te-voorkomen-trump-corrupt~b13cc951/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Als Iran zich overgeeft, zullen de media schrijven dat het een briljante overwinning behaalde”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-als-iran-zich-overgeeft-zullen-de-media-schrijven-dat-het-een-briljante-overwinning-behaalde/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump baisse dans les sondages, encore… : “Les candidats républicains seront en péril”",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/27/trump-baisse-dans-les-sondages-encore-les-candidats-republicains-seront-en-peril-6JMHBB4W4NAUJP4THS37AQMJNQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le redécoupage électoral voulu par Trump freiné dans deux Etats américains",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/27/le-redecoupage-electoral-voulu-par-trump-freine-dans-deux-etats-americains-VPHNRB6HYNDGJCQDVOHBTZL7H4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'inexorable chute de Donald Trump dans les sondages inquiète jusque dans son propre camp: “Les candidats républicains seront en péril”",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/27/linexorable-chute-de-donald-trump-dans-les-sondages-inquiete-jusque-dans-son-propre-camp-les-candidats-republicains-seront-en-peril-MJSRDM36TRDINAJGUUVKGP4O5A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Au Texas, le candidat soutenu par Trump remporte la primaire républicaine",
+        "url": "https://www.7sur7.be/monde/au-texas-le-candidat-soutenu-par-trump-remporte-la-primaire-republicaine~ade2b654/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : le candidat soutenu par Donald Trump remporte les primaires républicaines au Texas - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPXzJUZ1c2NkxHdTVySGFTOW92cVlkRTdOVVZsR00tRXk5eWo4VXVFa1d1ZnJkYS1lemdxV05hNWhfYl8xbjhkTmZ2T0U4dHU3NDNzVlpBUkJJRlZIV0owSWota1NuemdXS3pRZkkzb2dZRmU2WDdDSVlvWTI2cUl1NUxWNmF1V1dIblZhS19YLWIxUktfdTFYa3FnV3h1RFc3cUNFYzdzYnZ3TnJ4Z2lBRHFwcXNmWHV5THc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Primaires républicaines : le candidat soutenu par Donald Trump l’emporte au Texas - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMHpfbXRmTXdPenNPMWcwMTd1QTVWSnZscTY5bHVFX2F1MnhkTlBPcUNsSGY2andJWHh5TVlZOEhwdG50UW9wU24yY3VJclFhcXFrbE8zSy1ZR1VkZmdTYlBFV1pvbGxIeHlQUjlrVU43QmY3WEFoTU43MlktMV9DeUotQXBhOXE4Rnd4QjlBNllVMzR5anhfbktMQ0dtWm9Yazc0Z0pVMWRNOUtNV1FxRVdEcHRiU0tocXowZXRqNGRZNG9EZDRnSGl3?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 19,
+      "crime": 17,
+      "eu": 15,
+      "politics": 17,
+      "be_gov": 12,
+      "culture": 11,
+      "tech": 9,
+      "economy": 3,
+      "sports": 27,
+      "health": 6,
+      "climate": 2,
+      "migration": 2,
+      "education": 12,
+      "weather": 14
+    },
+    "wide_themes": {
+      "war": 26,
+      "crime": 22,
+      "eu": 21,
+      "politics": 29,
+      "be_gov": 15,
+      "culture": 11,
+      "tech": 15,
+      "economy": 4,
+      "sports": 43,
+      "health": 9,
+      "climate": 3,
+      "migration": 2,
+      "education": 14,
+      "weather": 18
+    }
   }
 ]
