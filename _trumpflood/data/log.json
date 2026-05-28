@@ -26893,5 +26893,609 @@
       "education": 10,
       "weather": 27
     }
+  },
+  {
+    "date": "2026-05-28",
+    "generated_at": "2026-05-28T09:10:01+02:00",
+    "last_checked_at": "2026-05-28T09:10:01+02:00",
+    "total_articles": 393,
+    "trump_articles": 12,
+    "percentage": 3.1,
+    "core_percentage": 3.1,
+    "core_percentage_name": 3.1,
+    "trump_articles_expanded": 12,
+    "core_percentage_expanded": 3.1,
+    "indirect_references": 0,
+    "wide_total_articles": 541,
+    "wide_trump_articles": 22,
+    "wide_percentage": 4.1,
+    "wide_trump_articles_expanded": 22,
+    "wide_percentage_expanded": 4.1,
+    "macro_percentage": 4.8,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 35,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 8.9,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.4,
+    "breadth": 0.35,
+    "deviation": 1.15,
+    "smoothed_pct": 2.19,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_politics": {
+        "fetched": 54,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_nl_world": {
+        "fetched": 55,
+        "today": 15,
+        "kept": 11,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 36.36
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 64,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 38,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 42,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 49,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 43,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.33
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.16
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.7
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.38
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 44,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 87,
+        "today": 14,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 99,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Zeer omstreden Trump-kandidaat wint Republikeinse voorverkiezing in Texas en dat doet Democraten dromen van een senaatszetel - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPNzVEaU9VUGJpT2treXNxSllYLXJXdmh2VFByY3hjUzdkeTBoanJVeDliQVpQaHVJSlhpTFR0WGxHdi1WaTlZTVF5WEFzdkhxT1BwOFlsQVVKVmt5UnlVcEs5N1NXN0FRVmdDdHd3T2ZOZWNCbzBmSHYzaUpyanZkWFctWkMyeTZJZFg4QWw0QzVGeS1rMG12SjdoUGRzZE55MGVlTDJacHAtaDllRlZzZ3A3eGlxTU9SZVpMMGc1NXBHbkZzc0JneFFNR1l6b0NQZWJaS3BMVzVEbjd5TXduR3hYQ2RLeWpiY3duTk90LW8tbl9McU5sLTdoUmI2dE41N0V5ZllR?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Nu zelf onder vuur: onderzoek naar schrijfster die Trump beschuldigde van seksueel misbruik",
+        "url": "https://www.hln.be/buitenland/nu-zelf-onder-vuur-onderzoek-naar-schrijfster-die-trump-beschuldigde-van-seksueel-misbruik~af3e3c47/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans gerecht opent onderzoek naar schrijfster die Trump beschuldigde van seksueel misbruik",
+        "url": "https://www.nieuwsblad.be/buitenland/amerikaans-gerecht-opent-onderzoek-naar-schrijfster-die-trump-beschuldigde-van-seksueel-misbruik/153695089.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "‘Donald Trump’-buffel gered: overheid van Bangladesh voorkomt rituele slachting",
+        "url": "https://www.nieuwsblad.be/opmerkelijk/donald-trump-buffel-gered-overheid-van-bangladesh-voorkomt-rituele-slachting/153654695.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump steunt Armeense eerste minister bij verkiezingen op 7 juni",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-steunt-armeense-eerste-minister-bij-verkiezingen-op-7-juni/153659844.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Jill Biden dacht dat Joe Biden beroerte kreeg tijdens desastreus debat met Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-jill-biden-dacht-dat-joe-biden-beroerte-kreeg-tijdens-desastreus-debat-met-trump/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans gerecht opent onderzoek naar schrijfster die Trump beschuldigde van seksueel misbruik",
+        "url": "https://www.hbvl.be/buitenland/amerikaans-gerecht-opent-onderzoek-naar-schrijfster-die-trump-beschuldigde-van-seksueel-misbruik/153697840.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "‘Donald Trump’-buffel gered: overheid van Bangladesh voorkomt rituele slachting",
+        "url": "https://www.hbvl.be/opmerkelijk/donald-trump-buffel-gered-overheid-van-bangladesh-voorkomt-rituele-slachting/153669993.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Jill Biden dacht dat Joe Biden beroerte kreeg tijdens desastreus debat met Trump",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-jill-biden-dacht-dat-joe-biden-beroerte-kreeg-tijdens-desastreus-debat-met-trump/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Enquête contre une femme ayant accusé Trump d'agression sexuelle",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/28/enquete-contre-une-femme-ayant-accuse-trump-dagression-sexuelle-7GAI52X2XBABFEE74YNSIMT2U4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce soutenir le Premier ministre Pachinian aux élections arméniennes du 7 juin",
+        "url": "https://www.lalibre.be/international/asie/2026/05/28/trump-annonce-soutenir-le-premier-ministre-pachinian-aux-elections-armeniennes-du-7-juin-PACJHO5KPFGOTKPUOTPAGKOIVM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La femme de Joe Biden a cru qu’il faisait un AVC lors du débat face à Trump: “Je ne l’avais jamais vu comme ça”",
+        "url": "https://www.7sur7.be/monde/la-femme-de-joe-biden-a-cru-quil-faisait-un-avc-lors-du-debat-face-a-trump-je-ne-lavais-jamais-vu-comme-ca~a6cdd443/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "La grosse boulette de Donald Trump : le président confond les pays et menace de « pulvériser »... un allié des États-Unis - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc0RuMm5DdGpXRWZ5VW1VR01CbUFVWlVkcTd5NTJFQ2dwS3NVTTMxRTAxWTdpOWs1dEdDTmxSRlotbHI0N3B4eUY2V18wWUxZV1oxQXg2RXBXRTZVNWh6LWZ6amdPekhVelNXenZDTW53cTk3Q3VRLXV3ZThDMEFqdWlQeVhZbHhSVmc1VVB5VVRIWE91UjJVZ2dRWjViSFpOUy1KM1gwQjhIRVUtWWZxM3ZwUHc3dldVRlhrMjN6V0o3eXhVT1Y1UHVsdnN5aXRIRnI3MThweU9ZaTlfbHQ0Xw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Een versnelling hoger sinds Trump: in de ‘achtertuin‘ van de VS lijken de jaren zestig terug voor de CIA - GVA",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOb2hFSVRCQXRhVXhQNmprd0FycWJ0a095dWJzRHdvTDNVYUtjcnZXeGZBdTJ1emNRU19laE93X0FPQXB3eXpXLWdfcUhTdzlaRVExRTYzazRoS0dQUG9WSFNoSUhlTkJ2TWw3SFdITGFlaC1BZ2lGVmlDcEh1UC1uX1ByTExFOW83TExfTnM1VHRHUkhiMmFmeFh3Q3QxYUladEFlVVVZTHlDODdMRU9iLTVpY003SFNmVUR2MjQwTGJVc3FJcXBBOWRfY0FCdWtNZEJNQXlfMWJlVjE5TGdZ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Een versnelling hoger sinds Trump: in de ‘achtertuin‘ van de VS lijken de jaren zestig terug voor de CIA - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdkN0Z21zU2xieko4LWQ3OFZoeHlKM1pXNWM3Rlp6eXNNeWVlaVJRSEY3RjRkZlQ2VFYxNkQ5Uk9SSWItei1RUFphNWdKTi15bExlTXRWSmkzZnVOS1Q0Vk10d1dDQjhiNzVmdi1sWmQ5a21VNG04YlRhYjdsOGoxaXhBRms1YmVYbENFUHhzWXotQzhmdEk3d2F4UzRzTjhBMEc3azNZYldFQUtXWXRrV0xrTmNFWE0yQWFiaURoYU0zTFB0Tlk2dkgyWkZFZWpuMWpyc2RMWEdRS2JOM1FFeGUxRXB2U1Z6?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans gerecht opent onderzoek naar schrijfster die Trump beschuldigde van seksueel misbruik - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcGFjSVhUTmFXTEQxaWtfdXNlbmVSQkRSS1JoX3AycVhGd2diMFlqanZSVkgtLTRxenZ3TEg1UTJhVllydEQ0ZDBrTUR4TWU4LXgwUS1WVklFaEtlTmplemxMeW04anRnZENkT1RpUEx1ZzhJVzJEWEU5YWdKdTZYZEZFZ3ZMU1o4Z01BTW9CMWg4UDlva01uMWVhcy1fQmxadEluSXZJQ0VaYWQybkV3ZHJVZ3lXR3BGcWpOV0JyTF90TFNpT1VRMmNRVWtpbk1WU0lpd2RzeF9jaUhXXzVzZ2hn?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "‘The Simpsons’-schrijver die Trump voorspelde, doet nu zelf gooi naar presidentschap - GVA",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc2Z2ejVNWlVwUVlZRUU5T3pBZU5EenpVZ1o0TzRleXRKeWsxZnhQb0dJQWI2ejBSQTdxdFhXN2pSeHoxMTUzaVJMS05WVHZSNVZIN0NwS3hoU0oyVDJuUFU0SEp1LWtXWjlNQU1IMXcwRGdsUC13UTFRWGFHMXNRb0dWcWJrbmxQSTltLTg4MUtSMTQwZXlDNGNBaW5hTEl3eWJTMjFmcnpCVGYxN1pTN3dvUkhJSUM3Tm1PekViZm96QTZq?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "‘Donald Trump’-buffel gered: overheid van Bangladesh voorkomt rituele slachting - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQmJ6S2hRTVN1NDc1bWZuY2lONlBwNlExMm8xaHVUZHdURTJPSncyYUQ5MlVXT0kyTk1KS1BBWjdnbFY5dUplaVhaMzFMTnRzRGU0a1hLalFoNzdqczZxU1dheklwajlwMnpUTGNoVjZiMDhkWmJVZzZKRjg3UC1lSHpGQjJCSkp4ZVMzZ1ZSTktzem14NTREUzFZa0RoMjNlZHFqcEotSlZHQ2VDSnN5MUhibjRLTnR6LVpZMVBBRWZEeTRNOV9HYw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Zeer omstreden Trump-kandidaat wint Republikeinse voorverkiezing in Texas en dat doet Democraten dromen van een senaatszetel - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPNzVEaU9VUGJpT2treXNxSllYLXJXdmh2VFByY3hjUzdkeTBoanJVeDliQVpQaHVJSlhpTFR0WGxHdi1WaTlZTVF5WEFzdkhxT1BwOFlsQVVKVmt5UnlVcEs5N1NXN0FRVmdDdHd3T2ZOZWNCbzBmSHYzaUpyanZkWFctWkMyeTZJZFg4QWw0QzVGeS1rMG12SjdoUGRzZE55MGVlTDJacHAtaDllRlZzZ3A3eGlxTU9SZVpMMGc1NXBHbkZzc0JneFFNR1l6b0NQZWJaS3BMVzVEbjd5TXduR3hYQ2RLeWpiY3duTk90LW8tbl9McU5sLTdoUmI2dE41N0V5ZllR?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Nu zelf onder vuur: onderzoek naar schrijfster die Trump beschuldigde van seksueel misbruik",
+        "url": "https://www.hln.be/buitenland/nu-zelf-onder-vuur-onderzoek-naar-schrijfster-die-trump-beschuldigde-van-seksueel-misbruik~af3e3c47/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans gerecht opent onderzoek naar schrijfster die Trump beschuldigde van seksueel misbruik",
+        "url": "https://www.nieuwsblad.be/buitenland/amerikaans-gerecht-opent-onderzoek-naar-schrijfster-die-trump-beschuldigde-van-seksueel-misbruik/153695089.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "‘Donald Trump’-buffel gered: overheid van Bangladesh voorkomt rituele slachting",
+        "url": "https://www.nieuwsblad.be/opmerkelijk/donald-trump-buffel-gered-overheid-van-bangladesh-voorkomt-rituele-slachting/153654695.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump steunt Armeense eerste minister bij verkiezingen op 7 juni",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-steunt-armeense-eerste-minister-bij-verkiezingen-op-7-juni/153659844.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Jill Biden dacht dat Joe Biden beroerte kreeg tijdens desastreus debat met Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-jill-biden-dacht-dat-joe-biden-beroerte-kreeg-tijdens-desastreus-debat-met-trump/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans gerecht opent onderzoek naar schrijfster die Trump beschuldigde van seksueel misbruik",
+        "url": "https://www.gva.be/buitenland/amerikaans-gerecht-opent-onderzoek-naar-schrijfster-die-trump-beschuldigde-van-seksueel-misbruik/153695589.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "‘Donald Trump’-buffel gered: overheid van Bangladesh voorkomt rituele slachting",
+        "url": "https://www.gva.be/opmerkelijk/donald-trump-buffel-gered-overheid-van-bangladesh-voorkomt-rituele-slachting/153669990.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump steunt Armeense eerste minister bij verkiezingen op 7 juni",
+        "url": "https://www.gva.be/buitenland/trump-steunt-armeense-eerste-minister-bij-verkiezingen-op-7-juni/153662045.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Jill Biden dacht dat Joe Biden beroerte kreeg tijdens desastreus debat met Trump",
+        "url": "https://www.gva.be/buitenland/live-vs.-jill-biden-dacht-dat-joe-biden-beroerte-kreeg-tijdens-desastreus-debat-met-trump/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans gerecht opent onderzoek naar schrijfster die Trump beschuldigde van seksueel misbruik",
+        "url": "https://www.hbvl.be/buitenland/amerikaans-gerecht-opent-onderzoek-naar-schrijfster-die-trump-beschuldigde-van-seksueel-misbruik/153697840.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "‘Donald Trump’-buffel gered: overheid van Bangladesh voorkomt rituele slachting",
+        "url": "https://www.hbvl.be/opmerkelijk/donald-trump-buffel-gered-overheid-van-bangladesh-voorkomt-rituele-slachting/153669993.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Jill Biden dacht dat Joe Biden beroerte kreeg tijdens desastreus debat met Trump",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-jill-biden-dacht-dat-joe-biden-beroerte-kreeg-tijdens-desastreus-debat-met-trump/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Enquête contre une femme ayant accusé Trump d'agression sexuelle",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/28/enquete-contre-une-femme-ayant-accuse-trump-dagression-sexuelle-7GAI52X2XBABFEE74YNSIMT2U4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce soutenir le Premier ministre Pachinian aux élections arméniennes du 7 juin",
+        "url": "https://www.lalibre.be/international/asie/2026/05/28/trump-annonce-soutenir-le-premier-ministre-pachinian-aux-elections-armeniennes-du-7-juin-PACJHO5KPFGOTKPUOTPAGKOIVM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La femme de Joe Biden a cru qu’il faisait un AVC lors du débat face à Trump: “Je ne l’avais jamais vu comme ça”",
+        "url": "https://www.7sur7.be/monde/la-femme-de-joe-biden-a-cru-quil-faisait-un-avc-lors-du-debat-face-a-trump-je-ne-lavais-jamais-vu-comme-ca~a6cdd443/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 12,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 22,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 3,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 22,
+      "crime": 17,
+      "eu": 11,
+      "politics": 10,
+      "be_gov": 10,
+      "culture": 10,
+      "tech": 18,
+      "economy": 14,
+      "sports": 22,
+      "health": 5,
+      "climate": 3,
+      "migration": 1,
+      "education": 4,
+      "weather": 13
+    },
+    "wide_themes": {
+      "war": 31,
+      "crime": 24,
+      "eu": 17,
+      "politics": 23,
+      "be_gov": 13,
+      "culture": 16,
+      "tech": 24,
+      "economy": 18,
+      "sports": 29,
+      "health": 7,
+      "climate": 3,
+      "migration": 1,
+      "education": 4,
+      "weather": 17
+    }
   }
 ]
