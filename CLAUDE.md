@@ -16,5 +16,7 @@ Persoonlijke website van Andries Fluit, gehost op GitHub Pages (CNAME-bestand â†
 - Default ontwikkelbranch voor Claude-sessies: `claude/modest-mendel-ynh6k`.
 
 ## Persoonlijke memory (claudeOS)
-De inhoud van `~/Desktop/claudeOS/` op Andries' lokale machine is **niet** beschikbaar in cloud-sessies.
-Synchronisatie-opties staan in `.claude/README-claudeos.md` (indien aanwezig).
+Bron lokaal: `~/Documents/Claude/ClaudeOS/`.
+Gesynced naar private repo `andriesfluit/claudeos`.
+In cloud-sessies wordt de inhoud automatisch ingeladen via `.claude/hooks/session-start.sh`
+(vereist env var `CLAUDEOS_TOKEN` in de cloud-environment).
