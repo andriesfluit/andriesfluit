@@ -2,7 +2,10 @@
 *.DS_Store
 .idea/
 .vscode/
-.claude/
+.claude/*
+!.claude/settings.json
+!.claude/hooks/
+!.claude/hooks/**
 org/
 
 # Large duplicate images in root (originals are in img/)
