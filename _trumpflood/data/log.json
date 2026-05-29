@@ -27497,5 +27497,471 @@
       "education": 4,
       "weather": 17
     }
+  },
+  {
+    "date": "2026-05-29",
+    "generated_at": "2026-05-29T09:40:07+02:00",
+    "last_checked_at": "2026-05-29T09:40:07+02:00",
+    "total_articles": 405,
+    "trump_articles": 4,
+    "percentage": 1.0,
+    "core_percentage": 1.0,
+    "core_percentage_name": 1.0,
+    "trump_articles_expanded": 4,
+    "core_percentage_expanded": 1.0,
+    "indirect_references": 0,
+    "wide_total_articles": 555,
+    "wide_trump_articles": 7,
+    "wide_percentage": 1.3,
+    "wide_trump_articles_expanded": 7,
+    "wide_percentage_expanded": 1.3,
+    "macro_percentage": 1.3,
+    "qualifying_outlets": 17,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 46,
+    "cross_outlet_dup_groups": 23,
+    "cross_outlet_dup_rate": 11.4,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 4.0,
+    "breadth": 0.18,
+    "deviation": 0.37,
+    "smoothed_pct": 2.06,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 48,
+        "today": 9,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_world": {
+        "fetched": 60,
+        "today": 13,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 68,
+        "today": 10,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 39,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 50,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 54,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 54,
+        "today": 6,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 82,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Live - Vance: ‘Nog niet zeker of Trump akkoord met Iran over bestand zal goedkeuren’",
+        "url": "https://www.demorgen.be/snelnieuws/live-onderhandelaars-vs-en-iran-bereiken-akkoord-trump-moet-nog-definitief-groen-licht-geven~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Wordt Trump een ‘lame duck president’? Deal in Iran-oorlog is voor Amerikaanse president absoluut noodzakelijk",
+        "url": "https://www.demorgen.be/nieuws/wordt-trump-een-lame-duck-president-deal-in-iran-oorlog-is-voor-amerikaanse-president-absoluut-noodzakelijk~b5d23faf/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Les États-Unis et l’Iran admettent “des progrès” mais Trump temporise",
+        "url": "https://www.7sur7.be/monde/les-etats-unis-et-liran-admettent-des-progres-mais-trump-temporise~a9820ec7/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump ne nous abandonne pas. En réalité, il nous présente l’addition - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDB5UEJQWFNxdlJnaXE3S19wVFdPZmlxV2dpUTdZelhGNjNEM0ROM2xGZlBqWDVxaHdJRmw1bTJuY0tTR1lTX3BvaHh6OEl0MkpQdGRnLUYtV1gzQ1FwY3BRU2lMV1dzWUlIT3J4UUlodlBmX0kzQkNhVGxSbXdZeklQVTkwOUx1Q0Fja0owWnR6c05hWU1HcUNMbXE0UC1MeEs0dV9rSHUwc0UtbzRz?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Wordt Trump een ‘lame duck president’? Deal in Iran-oorlog is voor Amerikaanse president absoluut noodzakelijk - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWTE4XzZjdjNvcjgydTJMZlpwVTBYTXFGVEZUdWVhd0xybjRVNHBUeERjMExvRkgwTFdoeUdBYmhjOXZQd29YU2ZGczFXdjVqLUFPN1FDWmtXajk3Y1ZCajl5Yk9xSFE0b0szbUNXUlVlTnZ1bm1KeWdhNldCNV8zVGZqNVpuNFdzaUNmSFVoMTI2OXhMQVhrUVdraVVQTWhvNlREcm9qNU5jT05jbnJqRjQ5QVZVVzAzajRqT3NJMTRjQ1JYc05vWUk5RFBIdlhOUGV2Zk1Ua0UxSDRNSWIybC1R?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Limburgers in Alberta willen niet afscheuren van Canada: “Een goede deal met Trump? Vergeet het” - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNk9GUVp5dVZyQzZSUTRVdUM0YUFhMXlkbWVITzdwWWcxcjh4aC1JRmZhS2w2Tm9EQ096TzlxUXQ3bXRXbHRZS0lGRzI0Ry1rYVNIbWxscVFTQzA2ekU3eHVHck5US09PVHVXNV9POEI5SnlJYzR3Wmd5TC1aLTFzUU03REtOWkxSLVppS1RBeUJQQzE4X1hpTWZLQjFIV2gweS1YT1FNc3dSN2sxblNBdWIxa1QwLTZvaF9JWmV1ZVFVZGpxdHRsbGREVGY1OEhHUDhQbA?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt er nu ook mee Oman te bombarderen: mocht hij het doen, schiet hij letterlijk in eigen voet - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQkRBLU54S0R6T1BsMEpVc0FQaG10ZHY0c0Y4OUdMbl9kWjY3NVVlVUNGa25xUF9sREx3MXdHRm5POUlRNWtlX2xlZ2cxTV9Cc0dxMGNIZ0ZBTldzbExtZ3NxZEl5NnNqa1hKNnVzSlJJdkZmRDlHZ3NDcWp6bG80RS1ZU0p5UldvQldsY1oxVVgzMGJzM0t4c2Rmdm1DOG9oRWxERk1ZV0FZdWtodXVPMUV3UzNGTFpNRC1jUGt2QXI5SzZwVTUxdHhFQVVjalk3Mlk4Q0JxbkYyNkRwc3FzUGZhNnR2bTNa?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Live - Vance: ‘Nog niet zeker of Trump akkoord met Iran over bestand zal goedkeuren’",
+        "url": "https://www.demorgen.be/snelnieuws/live-onderhandelaars-vs-en-iran-bereiken-akkoord-trump-moet-nog-definitief-groen-licht-geven~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Wordt Trump een ‘lame duck president’? Deal in Iran-oorlog is voor Amerikaanse president absoluut noodzakelijk",
+        "url": "https://www.demorgen.be/nieuws/wordt-trump-een-lame-duck-president-deal-in-iran-oorlog-is-voor-amerikaanse-president-absoluut-noodzakelijk~b5d23faf/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Les États-Unis et l’Iran admettent “des progrès” mais Trump temporise",
+        "url": "https://www.7sur7.be/monde/les-etats-unis-et-liran-admettent-des-progres-mais-trump-temporise~a9820ec7/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump ne nous abandonne pas. En réalité, il nous présente l’addition - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDB5UEJQWFNxdlJnaXE3S19wVFdPZmlxV2dpUTdZelhGNjNEM0ROM2xGZlBqWDVxaHdJRmw1bTJuY0tTR1lTX3BvaHh6OEl0MkpQdGRnLUYtV1gzQ1FwY3BRU2lMV1dzWUlIT3J4UUlodlBmX0kzQkNhVGxSbXdZeklQVTkwOUx1Q0Fja0owWnR6c05hWU1HcUNMbXE0UC1MeEs0dV9rSHUwc0UtbzRz?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 4,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 7,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 36,
+      "crime": 14,
+      "eu": 25,
+      "politics": 19,
+      "be_gov": 5,
+      "culture": 8,
+      "tech": 3,
+      "economy": 10,
+      "sports": 29,
+      "health": 3,
+      "climate": 8,
+      "migration": 2,
+      "education": 3,
+      "weather": 24
+    },
+    "wide_themes": {
+      "war": 46,
+      "crime": 18,
+      "eu": 38,
+      "politics": 30,
+      "be_gov": 10,
+      "culture": 10,
+      "tech": 7,
+      "economy": 11,
+      "sports": 49,
+      "health": 4,
+      "climate": 9,
+      "migration": 3,
+      "education": 3,
+      "weather": 34
+    }
   }
 ]
