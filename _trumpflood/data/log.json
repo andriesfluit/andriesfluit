@@ -28143,5 +28143,513 @@
       "education": 16,
       "weather": 33
     }
+  },
+  {
+    "date": "2026-05-30",
+    "generated_at": "2026-05-30T08:37:24+02:00",
+    "last_checked_at": "2026-05-30T08:37:24+02:00",
+    "total_articles": 327,
+    "trump_articles": 8,
+    "percentage": 2.4,
+    "core_percentage": 2.4,
+    "core_percentage_name": 2.4,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 2.4,
+    "indirect_references": 0,
+    "wide_total_articles": 423,
+    "wide_trump_articles": 10,
+    "wide_percentage": 2.4,
+    "wide_trump_articles_expanded": 10,
+    "wide_percentage_expanded": 2.4,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 13,
+    "core_outlets_total": 19,
+    "core_outlets_active": 13,
+    "active_core_fraction": 0.684,
+    "cross_outlet_dup_headlines": 28,
+    "cross_outlet_dup_groups": 14,
+    "cross_outlet_dup_rate": 8.6,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.6,
+    "breadth": 0.38,
+    "deviation": 0.94,
+    "smoothed_pct": 2.13,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_politics": {
+        "fetched": 40,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 49,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 67,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 27,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 37,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 49,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 60,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "demorgen": {
+        "fetched": 32,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.17
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 6,
+        "kept": 6,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 33.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 70,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump is gezond maar te dik, zegt zijn dokter",
+        "url": "https://vrtnws.be/p.xZ9mVZEX0",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump moet volgens medisch rapport gewicht verliezen en meer bewegen",
+        "url": "https://www.hln.be/buitenland/trump-moet-volgens-medisch-rapport-gewicht-verliezen-en-meer-bewegen~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Arts Trump: ‘Volledig geschikt om taken als staatshoofd uit te voeren, maar moet afvallen’",
+        "url": "https://www.demorgen.be/snelnieuws/live-arts-trump-volledig-geschikt-om-taken-als-staatshoofd-uit-te-voeren-maar-moet-afvallen~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Nieuw medisch rapport stelt dat Trump in uitstekende gezondheid verkeert",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-nieuw-medisch-rapport-stelt-dat-trump-in-uitstekende-gezondheid-verkeert/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump houdt vast aan voorwaarden voor mogelijk akkoord met Iran: “Het mag geen kernwapens hebben”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-houdt-vast-aan-voorwaarden-voor-mogelijk-akkoord-met-iran-het-mag-geen-kernwapens-hebben/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Nieuw medisch rapport stelt dat Trump “in uitstekende gezondheid verkeert”, maar gewicht moet verliezen",
+        "url": "https://www.nieuwsblad.be/buitenland/nieuw-medisch-rapport-stelt-dat-trump-in-uitstekende-gezondheid-verkeert-maar-gewicht-moet-verliezen/154127285.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Le médecin de Trump se prononce: “Il doit perdre du poids et faire plus d’exercice”",
+        "url": "https://www.7sur7.be/monde/le-medecin-de-trump-se-prononce-il-doit-perdre-du-poids-et-faire-plus-dexercice~ae30160a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Pas d’arme nucléaire”: Trump ne signera  avec l’Iran que si ses “lignes rouges sont satisfaites”",
+        "url": "https://www.7sur7.be/monde/pas-darme-nucleaire-trump-ne-signera-avec-liran-que-si-ses-lignes-rouges-sont-satisfaites~af77d7dba/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Donald Trump est-il toujours en bonne santé ? Voici ce que pense le médecin présidentiel officiel - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNm5DcUI0MzR5X3J1czBTT3lHUnFna2E4TV8wWUZMNjlDcks2MkNmWW1PYlVaS0ZwMTlpbllzaDF2UXBvbzdxN3o0aDJoMjZycXdMN3FEem5udnhJdGROeTNReWpJaE14R1RueW1fTlRMUDRVQ3ZNaTc1bmdOcUhRNlV3MThKN2tXaUt5aXFoS0NXalhZYUJmb29TZ0tvNmU4RWJKTFRQMDBxVjRieHRiVGdsbWpIOVdCYmtuTXZBdWVEMHRCVVJmUTRDX3VZX3dhbzY1cWY4M3M3eVU?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump is gezond maar te dik, zegt zijn dokter",
+        "url": "https://vrtnws.be/p.xZ9mVZEX0",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump moet volgens medisch rapport gewicht verliezen en meer bewegen",
+        "url": "https://www.hln.be/buitenland/trump-moet-volgens-medisch-rapport-gewicht-verliezen-en-meer-bewegen~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Arts Trump: ‘Volledig geschikt om taken als staatshoofd uit te voeren, maar moet afvallen’",
+        "url": "https://www.demorgen.be/snelnieuws/live-arts-trump-volledig-geschikt-om-taken-als-staatshoofd-uit-te-voeren-maar-moet-afvallen~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Nieuw medisch rapport stelt dat Trump in uitstekende gezondheid verkeert",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-nieuw-medisch-rapport-stelt-dat-trump-in-uitstekende-gezondheid-verkeert/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump houdt vast aan voorwaarden voor mogelijk akkoord met Iran: “Het mag geen kernwapens hebben”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-houdt-vast-aan-voorwaarden-voor-mogelijk-akkoord-met-iran-het-mag-geen-kernwapens-hebben/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Nieuw medisch rapport stelt dat Trump “in uitstekende gezondheid verkeert”, maar gewicht moet verliezen",
+        "url": "https://www.nieuwsblad.be/buitenland/nieuw-medisch-rapport-stelt-dat-trump-in-uitstekende-gezondheid-verkeert-maar-gewicht-moet-verliezen/154127285.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Nieuw medisch rapport stelt dat Trump “in uitstekende gezondheid verkeert”, maar gewicht moet verliezen",
+        "url": "https://www.gva.be/buitenland/nieuw-medisch-rapport-stelt-dat-trump-in-uitstekende-gezondheid-verkeert-maar-gewicht-moet-verliezen/154128835.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Le médecin de Trump se prononce: “Il doit perdre du poids et faire plus d’exercice”",
+        "url": "https://www.7sur7.be/monde/le-medecin-de-trump-se-prononce-il-doit-perdre-du-poids-et-faire-plus-dexercice~ae30160a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Pas d’arme nucléaire”: Trump ne signera  avec l’Iran que si ses “lignes rouges sont satisfaites”",
+        "url": "https://www.7sur7.be/monde/pas-darme-nucleaire-trump-ne-signera-avec-liran-que-si-ses-lignes-rouges-sont-satisfaites~af77d7dba/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 8,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 1,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 12,
+      "crime": 14,
+      "eu": 11,
+      "politics": 5,
+      "be_gov": 11,
+      "culture": 7,
+      "tech": 8,
+      "economy": 8,
+      "sports": 16,
+      "health": 8,
+      "climate": 3,
+      "migration": 4,
+      "education": 2,
+      "weather": 14
+    },
+    "wide_themes": {
+      "war": 13,
+      "crime": 18,
+      "eu": 13,
+      "politics": 10,
+      "be_gov": 16,
+      "culture": 7,
+      "tech": 9,
+      "economy": 10,
+      "sports": 21,
+      "health": 12,
+      "climate": 3,
+      "migration": 6,
+      "education": 3,
+      "weather": 16
+    }
   }
 ]
