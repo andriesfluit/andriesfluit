@@ -125,7 +125,7 @@ BIKON = Profile(
     state_filename="last_sent_bikon.txt",
     subject_prefix="Bikon Radar",
     to_addr_env="BIKON_MONITOR_TO_ADDR",
-    default_to="andries.fluit@gmail.com",
+    default_to="andries@bikon.ai",
     render_footer=BIKON_FOOTER,
 )
 
