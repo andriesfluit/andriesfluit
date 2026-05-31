@@ -1,61 +1,146 @@
 #!/usr/bin/env python3
 """Daily mediamonitor pipeline.
 
-fetch → match (broad) → llm_filter (strategic relevance) →
-enrich (real article body) → summarize (strict 2-3 zinnen NL) → render → mail
+fetch (outlet feeds + per-company Google News search feeds, lookback window
+since last sent) → resolve canonical URLs → cross-source dedupe → regex
+match → LLM relevance filter (with 1-5 score) → enrich (real article body)
+→ summarize (strict 2-3 zinnen NL) → render (sort by score) → mail.
 """
 
 import argparse
 import logging
 import os
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 try:
     from zoneinfo import ZoneInfo
+    _BRUSSELS = ZoneInfo("Europe/Brussels")
 except ImportError:  # pragma: no cover
-    ZoneInfo = None
+    _BRUSSELS = None
 
 from companies import COMPANIES
 from enricher import enrich_many
-from feeds import all_feeds
+from feeds import all_feeds, all_feeds_with_searches
 from fetcher import fetch_all
-from llm_filter import filter_company
+from llm_filter import filter_company, MAX_PER_COMPANY
 from mailer import send as send_mail
-from matcher import group_hits
+from matcher import dedupe, group_hits, resolve_canonical
 from render import render_html, render_text
 from summarizer import summarize_batch
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
+LAST_SENT = DATA_DIR / "last_sent.txt"
+
+# How far back to look at most, even if last_sent.txt suggests further.
+# Caps backlog after long outages.
+MAX_LOOKBACK_HOURS = 96
+
+# Small overlap so an article published right at last-sent isn't missed
+# due to second-level clock skew.
+OVERLAP_MINUTES = 30
 
 
-def _today_brussels():
-    if ZoneInfo is not None:
-        return datetime.now(ZoneInfo("Europe/Brussels")).date()
-    return date.today()
+def _now_brussels():
+    if _BRUSSELS is not None:
+        return datetime.now(_BRUSSELS)
+    return datetime.now()
 
 
-def run(to_addr, dry_run=False, no_llm=False, no_enrich=False):
+def _compute_since(now_dt):
+    """Read last_sent.txt and return (since_dt, lookback_hours) for fetching.
+
+    Supports both legacy date-only ('YYYY-MM-DD') and new ISO datetime
+    formats. Falls back to 24h before now when missing or unparseable."""
+    fallback_hours = 24
+    if not LAST_SENT.exists():
+        return now_dt - timedelta(hours=fallback_hours), fallback_hours
+
+    raw = LAST_SENT.read_text(encoding="utf-8").strip()
+    parsed = None
+    try:
+        parsed = datetime.fromisoformat(raw)
+    except ValueError:
+        try:
+            # Legacy date-only format from earlier versions.
+            d = date.fromisoformat(raw)
+            parsed = datetime(d.year, d.month, d.day, 7, 30,
+                              tzinfo=_BRUSSELS) if _BRUSSELS else datetime(
+                d.year, d.month, d.day, 7, 30)
+        except ValueError:
+            parsed = None
+    if parsed is None:
+        return now_dt - timedelta(hours=fallback_hours), fallback_hours
+
+    if parsed.tzinfo is None and _BRUSSELS is not None:
+        parsed = parsed.replace(tzinfo=_BRUSSELS)
+    since_dt = parsed - timedelta(minutes=OVERLAP_MINUTES)
+    earliest = now_dt - timedelta(hours=MAX_LOOKBACK_HOURS)
+    if since_dt < earliest:
+        since_dt = earliest
+    lookback = max(1, int((now_dt - since_dt).total_seconds() // 3600) + 1)
+    return since_dt, lookback
+
+
+# Tier priority for pre-LLM truncation when a company exceeds MAX_PER_COMPANY
+# candidates. Search-tier means the brand/term explicitly matched in the
+# article, so it's the highest-signal source.
+_TIER_PRIORITY = {"search": 0, "sector": 1, "press": 2, None: 3}
+
+
+def _candidate_sort_key(art):
+    return (
+        _TIER_PRIORITY.get(art.get("tier"), 99),
+        # newer first
+        -(art["published_dt"].timestamp() if art.get("published_dt") else 0),
+    )
+
+
+def run(to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resolve=False):
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     DATA_DIR.mkdir(exist_ok=True)
 
-    today = _today_brussels()
-    today_str = today.isoformat()
+    now_dt = _now_brussels()
+    since_dt, lookback = _compute_since(now_dt)
+    today_str = now_dt.date().isoformat()
+    logging.info("lookback=%dh (since=%s, now=%s)", lookback, since_dt.isoformat(), now_dt.isoformat())
 
-    logging.info("fetching feeds for %s", today_str)
-    articles = fetch_all(today)
-    logging.info("%d articles fetched across %d feeds", len(articles), len(all_feeds()))
+    feeds = all_feeds_with_searches(COMPANIES, when_hours=lookback + 12)
+    logging.info("fetching %d feeds (%d outlet + per-company searches)",
+                 len(feeds), len(all_feeds()))
+    articles = fetch_all(since_dt, feeds=feeds)
+    logging.info("%d articles fetched in window", len(articles))
 
-    raw_hits = group_hits(articles)
+    # Resolve Google News redirects so duplicate stories from the outlet's
+    # direct feed AND its Google News mirror dedupe correctly.
+    if not no_resolve and articles:
+        resolve_canonical(articles)
+    else:
+        for a in articles:
+            a["canonical_url"] = a["link"]
+
+    deduped = dedupe(articles)
+    logging.info("after dedup: %d articles (was %d)", len(deduped), len(articles))
+
+    raw_hits = group_hits(deduped)
     pre_total = sum(len(v) for v in raw_hits.values())
-    logging.info("regex hits: %s (total=%d)",
+    logging.info("regex+origin hits: %s (total=%d)",
                  {k: len(v) for k, v in raw_hits.items()}, pre_total)
+
+    # Pre-LLM ranking & truncation so high-signal items survive the cap.
+    for key, items in raw_hits.items():
+        if len(items) > MAX_PER_COMPANY:
+            items.sort(key=_candidate_sort_key)
+            logging.warning("%s: %d candidates > cap %d, truncating to highest-signal",
+                            key, len(items), MAX_PER_COMPANY)
+            raw_hits[key] = items[:MAX_PER_COMPANY]
 
     # Stage 1: strategic relevance filter
     if no_llm:
-        filtered = {k: [{**a, "topic": "", "nut": ""} for a in v] for k, v in raw_hits.items()}
+        filtered = {k: [{**a, "topic": "", "nut": "", "score": 3} for a in v]
+                    for k, v in raw_hits.items()}
     else:
         filtered = {}
         for key, items in raw_hits.items():
@@ -72,7 +157,6 @@ def run(to_addr, dry_run=False, no_llm=False, no_enrich=False):
             for a in all_relevant:
                 counts[a.get("body_status", "fail")] += 1
             logging.info("enrich results: %s", counts)
-
             for key, items in filtered.items():
                 if items:
                     summarize_batch(items)
@@ -83,13 +167,22 @@ def run(to_addr, dry_run=False, no_llm=False, no_enrich=False):
                 a["summary_long"] = (a.get("summary") or "").strip()
                 a["summary_source"] = "rss_snippet_noenrich"
 
+    # Sort items per company by Claude score desc, then recency desc.
+    for items in filtered.values():
+        items.sort(key=lambda a: (
+            -(a.get("score") or 0),
+            -(a["published_dt"].timestamp() if a.get("published_dt") else 0),
+        ))
+
     post_total = sum(len(v) for v in filtered.values())
 
     stats = {
         "articles_total": len(articles),
-        "feeds_total":    len(all_feeds()),
+        "articles_deduped": len(deduped),
+        "feeds_total":    len(feeds),
         "hits_pre":       pre_total,
         "hits_post":      post_total,
+        "lookback_hours": lookback,
     }
     html_body = render_html(today_str, filtered, stats)
     text_body = render_text(today_str, filtered)
@@ -118,8 +211,14 @@ def main():
                    help="Skip the Claude filter and summary (testing / no API key).")
     p.add_argument("--no-enrich", action="store_true",
                    help="Skip article body fetching + summarization (faster, less detail).")
+    p.add_argument("--no-resolve", action="store_true",
+                   help="Skip Google News canonical URL resolution (faster, weaker dedup).")
     args = p.parse_args()
-    sys.exit(run(args.to, dry_run=args.dry_run, no_llm=args.no_llm, no_enrich=args.no_enrich))
+    sys.exit(run(args.to,
+                 dry_run=args.dry_run,
+                 no_llm=args.no_llm,
+                 no_enrich=args.no_enrich,
+                 no_resolve=args.no_resolve))
 
 
 if __name__ == "__main__":

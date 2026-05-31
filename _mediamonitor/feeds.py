@@ -72,7 +72,60 @@ def all_feeds():
     """Return the combined feed catalogue with a `tier` annotation per entry."""
     out = {}
     for k, v in BELGIAN_PRESS.items():
-        out[k] = {"url": v, "tier": "press"}
+        out[k] = {"url": v, "tier": "press", "company_key": None}
     for k, v in SECTOR_PRESS.items():
-        out[k] = {"url": v, "tier": "sector"}
+        out[k] = {"url": v, "tier": "sector", "company_key": None}
+    return out
+
+
+# -----------------------------------------------------------------------
+# Per-company Google News SEARCH feeds.
+# Outlet-wide feeds above only see what scrolls past the homepage. To catch
+# every mention of a brand, named competitor or policy term across the whole
+# Belgian press, we additionally query Google News' search index for each
+# term in nl-BE and fr-BE locales. Quoted "..." forces exact-phrase match,
+# which is the difference between catching "Accent Jobs" and drowning in
+# every article that mentions an accent grave.
+
+from urllib.parse import quote_plus
+
+
+def _gnews_search_url(term, locale, when_hours):
+    """Build a Google News RSS search URL for an exact-phrase term."""
+    quoted = f'"{term}"'
+    q = quote_plus(f"{quoted} when:{when_hours}h")
+    if locale == "nl":
+        return f"https://news.google.com/rss/search?q={q}&hl=nl-BE&gl=BE&ceid=BE:nl"
+    return f"https://news.google.com/rss/search?q={q}&hl=fr-BE&gl=BE&ceid=BE:fr"
+
+
+def search_feeds_for(company_key, company_cfg, when_hours):
+    """Return dict {feed_name: {url, tier, company_key}} for one company's
+    search terms. Each term expands to a nl-BE and a fr-BE Google News
+    search. when_hours should be sized roughly to the lookback window
+    plus some margin so Google's own date-filter doesn't pre-truncate."""
+    search_terms = company_cfg.get("search_terms") or {}
+    out = {}
+    for category, terms in search_terms.items():
+        for term in terms:
+            slug = _slugify(term)
+            for locale in ("nl", "fr"):
+                key = f"search_{company_key}_{category}_{slug}_{locale}"
+                out[key] = {
+                    "url": _gnews_search_url(term, locale, when_hours),
+                    "tier": "search",
+                    "company_key": company_key,
+                }
+    return out
+
+
+def _slugify(term):
+    return "".join(c.lower() if c.isalnum() else "_" for c in term).strip("_")[:48]
+
+
+def all_feeds_with_searches(companies, when_hours):
+    """Combine outlet-wide feeds with per-company search feeds."""
+    out = all_feeds()
+    for key, cfg in companies.items():
+        out.update(search_feeds_for(key, cfg, when_hours))
     return out

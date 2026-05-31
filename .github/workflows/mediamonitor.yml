@@ -1,21 +1,23 @@
 name: mediamonitor daily run
 
-# Daily briefing at ~08:30 Brussels time.
+# Weekday briefing aimed at the inbox by ~08:00 Brussels time.
 # Two crons so the same local time works across DST:
-#   06:37 UTC  → 08:37 CEST (summer)
-#   07:37 UTC  → 08:37 CET  (winter)
-# The "wrong" cron each season still fires (an hour early), so we add a
-# date-stamp idempotency check: if today's mail was already sent, the
-# second invocation skips.
+#   05:30 UTC  → 07:30 CEST (summer)
+#   06:30 UTC  → 07:30 CET  (winter)
+# Whichever cron is "wrong" for the current season fires an hour early and
+# skips via the idempotency gate (today already sent → exit). Run target
+# 07:30 leaves ~30 min for GitHub Actions scheduler drift + pipeline runtime
+# (fetch + dedup + LLM + enrichment ≈ 3-5 min on a busy day).
 #
-# Off-the-hour (:37) avoids the top-of-hour scheduler stampede on GitHub.
+# Only Mon-Fri. The lookback window in main.py uses last_sent.txt, so the
+# Monday mail automatically covers Friday evening → Monday morning.
 #
 # Also triggerable manually from the Actions tab.
 
 on:
   schedule:
-    - cron: "37 6 * * *"
-    - cron: "37 7 * * *"
+    - cron: "30 5 * * 1-5"
+    - cron: "30 6 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -28,7 +30,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repo
@@ -48,7 +50,10 @@ jobs:
           fi
           STAMP_FILE="_mediamonitor/data/last_sent.txt"
           TODAY=$(TZ=Europe/Brussels date '+%Y-%m-%d')
-          if [ -f "$STAMP_FILE" ] && [ "$(cat $STAMP_FILE)" = "$TODAY" ]; then
+          # last_sent.txt now holds an ISO datetime; we only care about the
+          # calendar-day prefix for the dedupe-the-two-DST-crons logic.
+          STAMPED_DAY=$( [ -f "$STAMP_FILE" ] && head -c 10 "$STAMP_FILE" || echo "" )
+          if [ "$STAMPED_DAY" = "$TODAY" ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
             echo "Already sent for $TODAY; skipping."
           else
@@ -81,15 +86,19 @@ jobs:
         run: |
           python main.py
 
-      - name: Stamp today as sent
+      - name: Stamp send time
         if: steps.gate.outputs.skip != 'true'
         run: |
           mkdir -p _mediamonitor/data
-          TZ=Europe/Brussels date '+%Y-%m-%d' > _mediamonitor/data/last_sent.txt
+          # ISO datetime with Brussels offset. main.py reads this to compute
+          # the lookback window for the NEXT run, so a precise timestamp
+          # (not just a date) prevents under- or over-coverage.
+          TZ=Europe/Brussels date '+%Y-%m-%dT%H:%M:%S%:z' > _mediamonitor/data/last_sent.txt
           git config user.name "mediamonitor-bot"
           git config user.email "mediamonitor-bot@andriesfluit.be"
           git add _mediamonitor/data/last_sent.txt
           if ! git diff --cached --quiet; then
-            git commit -m "mediamonitor: sent $(cat _mediamonitor/data/last_sent.txt)"
+            STAMP_DAY=$(head -c 10 _mediamonitor/data/last_sent.txt)
+            git commit -m "mediamonitor: sent $STAMP_DAY"
             git push
           fi

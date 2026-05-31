@@ -1,27 +1,37 @@
 # mediamonitor
 
 Dagelijkse mediamonitoring per e-mail voor een vaste lijst van bedrijven die
-ik adviseer. Hergebruikt het feed-arsenaal van `_trumpflood/` en voegt
-sectorpers toe (HR, retail, wegenbouw, filantropie).
+ik adviseer. Hergebruikt het feed-arsenaal van `_trumpflood/`, voegt
+sectorpers toe (HR, retail, wegenbouw, filantropie) en doet per-klant
+gerichte Google News-zoekopdrachten voor maximale dekking.
 
 ## Pipeline
 
 ```
-feeds.py        feed-catalogus (Belgische pers + sectorpers)
-fetcher.py      fetch + Brussels-local "today" filter (cloudscraper voor Cloudflare)
-companies.py    per klant: brief + brede pattern-set (brand + concurrenten + sector + beleid)
-matcher.py      brede regex-match op titel + RSS-samenvatting
+feeds.py        outlet-feeds (Belgische pers + sectorpers) + per-klant
+                Google News search-feeds (brand, concurrenten, beleid, breed)
+fetcher.py      parallelle fetch (10 workers) met rolling lookback-venster
+                vanaf last_sent.txt; Brussels-aware; cloudscraper voor Cloudflare
+matcher.py      cross-source dedup (canonical URL + difflib-titel-similarity 0.75)
+                + regex-match op titel + RSS-samenvatting
+companies.py    per klant: brief + patterns (loose match) + search_terms (Google News)
 llm_filter.py   Claude Haiku oordeelt strategische relevantie tegen de brief,
-                kent topic-tag + 1-zin nut graf toe
-render.py       HTML + tekst e-mailbody met topic-tags
+                kent topic-tag + 1-zin nut graf + score 1-5 toe
+enricher.py     fetch artikel-body via trafilatura (paywall-detectie)
+summarizer.py   Claude maakt 2-3 zinnen NL samenvatting strikt uit body
+                (fallback naar RSS-snippet bij paywall/fail, géén verzinsels)
+render.py       HTML + tekst e-mailbody, gesorteerd op relevance-score
 mailer.py       SMTP via Gmail app-password
 main.py         orkestrator
 ```
 
-**Issue monitoring, geen brand monitoring.** De regex-set per klant is bewust
-breed: brand + directe concurrenten + sectorthema's + regelgeving + adjacente
-thema's waar de klant geloofwaardig op zou kunnen reageren. Claude doet de
-strategische filtering tegen de per-klant briefing.
+**Issue monitoring, geen brand monitoring.** Per klant ~30-50 Google
+News-zoekopdrachten op merknaam, concurrenten, beleidstermen en brede thema's,
+in nl-BE én fr-BE. Claude filtert strategisch tegen de per-klant briefing.
+
+**Geen verzinsels.** De summarizer mag enkel parafraseren wat in de
+gefetchte artikel-body staat. Bij paywall of fetch-fail valt hij terug
+op de RSS-snippet verbatim met `achter betaalmuur` of `enkel snippet` badge.
 
 ## Lokaal draaien
 
@@ -30,10 +40,13 @@ cd _mediamonitor
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
-# Preview zonder mail of LLM:
-python main.py --dry-run --no-llm
+# Preview zonder mail, LLM, body-fetch of URL-resolve:
+python main.py --dry-run --no-llm --no-enrich --no-resolve
 
-# Preview met LLM (vereist ANTHROPIC_API_KEY):
+# Preview met alleen Claude relevance-filter (sneller, zonder body-fetch):
+ANTHROPIC_API_KEY=sk-ant-... python main.py --dry-run --no-enrich
+
+# Volledige preview (vereist ANTHROPIC_API_KEY):
 ANTHROPIC_API_KEY=sk-ant-... python main.py --dry-run
 
 # Echt versturen (vereist ook GMAIL_APP_PASSWORD):
@@ -44,7 +57,8 @@ GMAIL_APP_PASSWORD=xxxx-xxxx-xxxx-xxxx \
 
 ## GitHub Actions
 
-Workflow `.github/workflows/mediamonitor.yml` draait dagelijks ~08:30 Brussel-tijd.
+Workflow `.github/workflows/mediamonitor.yml` draait Mon–Fri tegen 07:30 Brussel,
+zodat de mail ~08:00 in de inbox ligt.
 Vereiste repo-secrets:
 
 | Secret               | Inhoud                                            |
@@ -67,12 +81,25 @@ Vereiste repo-secrets:
 Bewerk `companies.py`. Elke klant heeft:
 
 - `label`: zichtbare naam in de mail
-- `brief`: 2-4 zinnen die Claude lezen wanneer het beslist of een item strategisch
-  relevant is. Beschrijf wie de klant is, welke directe stakeholders, en welke
-  thema's waar ze geloofwaardig op kunnen reageren.
-- `patterns`: brede lijst regex-patronen (brand + concurrenten + sectorthema's +
-  beleid + adjacencies). Hoofdletter-ongevoelig, woordgrenzen. Liever te ruim:
-  ruis filtert Claude er wel uit.
+- `brief`: 2-4 zinnen die Claude leest wanneer hij beslist of een item
+  strategisch relevant is. Beschrijf wie de klant is, welke directe
+  stakeholders, en welke thema's waar ze geloofwaardig op kunnen reageren.
+- `patterns`: brede lijst regex-patronen voor matching op outlet-feeds
+  (brand + concurrenten + sectorthema's + beleid + adjacencies).
+  Hoofdletter-ongevoelig, woordgrenzen. Liever te ruim — Claude filtert.
+- `search_terms`: per categorie (brand / competitors / policy / broad) een
+  lijst exacte zoekfrases. Elke term wordt geëxpandeerd naar een nl-BE +
+  fr-BE Google News search-feed (exact-phrase via "...").
 
-Een artikel hit een klant als één pattern vuurt. Daarna oordeelt Claude tegen
-de brief of het écht relevant is, en geeft een topictag + 1-zin nut graf.
+Een artikel hit een klant als een pattern vuurt OF als de search-feed-origine
+de klant identificeert. Daarna oordeelt Claude (relevant + score 1-5 + topic
+tag + 1-zin nut graf). De mail toont items per klant gesorteerd op score.
+
+## Tuning na verloop van tijd
+
+- Te veel ruis voor een klant → `search_terms.broad` inkrimpen of te brede
+  termen verplaatsen naar `patterns` (vangt alleen via outlet-feeds, niet
+  via search).
+- Te weinig coverage → search-term toevoegen aan de juiste categorie.
+- Duplicaten die niet worden samengevoegd → in `matcher.py` `title_threshold`
+  van 0.75 lichtjes verlagen, of bekijken of de canonical URL-resolve faalt.
