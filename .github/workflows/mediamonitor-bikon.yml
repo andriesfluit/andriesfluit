@@ -1,30 +1,27 @@
-name: mediamonitor daily run
+name: mediamonitor bikon radar
 
-# Weekday briefing aimed at the inbox by ~08:00 Brussels time.
+# Bikon business/market/tech radar. Lighter cadence than the akkanto monitor:
+# Mon/Wed/Fri only, aimed at the inbox by ~08:00 Brussels time.
 # Two crons so the same local time works across DST:
-#   05:30 UTC  → 07:30 CEST (summer)
-#   06:30 UTC  → 07:30 CET  (winter)
-# Whichever cron is "wrong" for the current season fires an hour early and
-# skips via the idempotency gate (today already sent → exit). Run target
-# 07:30 leaves ~30 min for GitHub Actions scheduler drift + pipeline runtime
-# (fetch + dedup + LLM + enrichment ≈ 3-5 min on a busy day).
-#
-# Only Mon-Fri. The lookback window in main.py uses last_sent.txt, so the
-# Monday mail automatically covers Friday evening → Monday morning.
+#   05:40 UTC  → 07:40 CEST (summer)
+#   06:40 UTC  → 07:40 CET  (winter)
+# Staggered ~10 min after the akkanto monitor (05:30/06:30) so the two
+# workflows do not race on git push (they commit different state files;
+# both also `git pull --rebase` before pushing for safety).
 #
 # Also triggerable manually from the Actions tab.
 
 on:
   schedule:
-    - cron: "30 5 * * 1-5"
-    - cron: "30 6 * * 1-5"
+    - cron: "40 5 * * 1,3,5"
+    - cron: "40 6 * * 1,3,5"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: mediamonitor
+  group: mediamonitor-bikon
   cancel-in-progress: false
 
 jobs:
@@ -48,10 +45,8 @@ jobs:
             echo "Manual trigger — bypassing idempotency gate."
             exit 0
           fi
-          STAMP_FILE="_mediamonitor/data/last_sent.txt"
+          STAMP_FILE="_mediamonitor/data/last_sent_bikon.txt"
           TODAY=$(TZ=Europe/Brussels date '+%Y-%m-%d')
-          # last_sent.txt now holds an ISO datetime; we only care about the
-          # calendar-day prefix for the dedupe-the-two-DST-crons logic.
           STAMPED_DAY=$( [ -f "$STAMP_FILE" ] && head -c 10 "$STAMP_FILE" || echo "" )
           if [ "$STAMPED_DAY" = "$TODAY" ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
@@ -75,32 +70,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run mediamonitor
+      - name: Run bikon radar
         if: steps.gate.outputs.skip != 'true'
         working-directory: _mediamonitor
         env:
-          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
-          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          MONITOR_TO_ADDR:    ${{ secrets.MONITOR_TO_ADDR }}
+          ANTHROPIC_API_KEY:      ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER:             ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD:     ${{ secrets.GMAIL_APP_PASSWORD }}
+          BIKON_MONITOR_TO_ADDR:  ${{ secrets.BIKON_MONITOR_TO_ADDR }}
         run: |
-          python main.py
+          python main.py --profile bikon
 
       - name: Stamp send time
         if: steps.gate.outputs.skip != 'true'
         run: |
           mkdir -p _mediamonitor/data
-          # ISO datetime with Brussels offset. main.py reads this to compute
-          # the lookback window for the NEXT run, so a precise timestamp
-          # (not just a date) prevents under- or over-coverage.
-          TZ=Europe/Brussels date '+%Y-%m-%dT%H:%M:%S%:z' > _mediamonitor/data/last_sent.txt
+          TZ=Europe/Brussels date '+%Y-%m-%dT%H:%M:%S%:z' > _mediamonitor/data/last_sent_bikon.txt
           git config user.name "mediamonitor-bot"
           git config user.email "mediamonitor-bot@andriesfluit.be"
-          git add _mediamonitor/data/last_sent.txt
+          git add _mediamonitor/data/last_sent_bikon.txt
           if ! git diff --cached --quiet; then
-            STAMP_DAY=$(head -c 10 _mediamonitor/data/last_sent.txt)
-            git commit -m "mediamonitor: sent $STAMP_DAY"
-            # Rebase on top of anything the Bikon track pushed since checkout
+            STAMP_DAY=$(head -c 10 _mediamonitor/data/last_sent_bikon.txt)
+            git commit -m "mediamonitor-bikon: sent $STAMP_DAY"
+            # Rebase on top of anything the akkanto track pushed since checkout
             # so the two workflows never collide on push.
             git pull --rebase --autostash
             git push

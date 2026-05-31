@@ -21,7 +21,6 @@ from urllib.parse import urlparse
 
 import requests
 
-from companies import COMPANIES
 from fetcher import _HEADERS  # reuse browser-y headers from fetcher
 
 try:
@@ -35,13 +34,24 @@ except ImportError:
 logger = logging.getLogger(__name__)
 
 
-_COMPILED = {
-    key: [re.compile(p, re.IGNORECASE) for p in cfg["patterns"]]
-    for key, cfg in COMPANIES.items()
-}
+# Compiled patterns are cached per companies-dict (keyed by id) so each
+# profile compiles its regexes once. COMPANIES and BIKON_COMPANIES are both
+# module-level singletons, so their id() is stable for the whole run.
+_COMPILED_CACHE = {}
 
 
-def match_article(article):
+def _compiled_for(companies):
+    cached = _COMPILED_CACHE.get(id(companies))
+    if cached is None:
+        cached = {
+            key: [re.compile(p, re.IGNORECASE) for p in cfg["patterns"]]
+            for key, cfg in companies.items()
+        }
+        _COMPILED_CACHE[id(companies)] = cached
+    return cached
+
+
+def match_article(article, companies):
     """Return the list of company keys this article hits.
 
     A search-tier article's `origin_company_key` is an implicit hit even
@@ -49,11 +59,11 @@ def match_article(article):
     term is present in the body."""
     hits = set()
     text = f"{article['title']} {article.get('summary', '')}"
-    for key, patterns in _COMPILED.items():
+    for key, patterns in _compiled_for(companies).items():
         if any(p.search(text) for p in patterns):
             hits.add(key)
     origin = article.get("origin_company_key")
-    if origin and origin in COMPANIES:
+    if origin and origin in companies:
         hits.add(origin)
     return sorted(hits)
 
@@ -178,10 +188,10 @@ def dedupe(articles, title_threshold=0.75):
 
 # -----------------------------------------------------------------------
 
-def group_hits(articles):
+def group_hits(articles, companies):
     """Return {company_key: [articles, ...]} based on match_article."""
-    by_company = {key: [] for key in COMPANIES}
+    by_company = {key: [] for key in companies}
     for art in articles:
-        for key in match_article(art):
+        for key in match_article(art, companies):
             by_company[key].append(art)
     return by_company

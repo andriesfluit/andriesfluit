@@ -68,12 +68,18 @@ CLOUDSCRAPER_FALLBACKS = {
 }
 
 
-def all_feeds():
-    """Return the combined feed catalogue with a `tier` annotation per entry."""
+def all_feeds(belgian=None, sector=None):
+    """Return the combined outlet-feed catalogue with a `tier` per entry.
+
+    Defaults to the akkanto catalogue (Belgian generalist + sector press).
+    A profile can pass its own catalogues; e.g. the Bikon radar passes its
+    business/tech/funding outlets as `belgian` and an empty `sector`."""
+    belgian = BELGIAN_PRESS if belgian is None else belgian
+    sector = SECTOR_PRESS if sector is None else sector
     out = {}
-    for k, v in BELGIAN_PRESS.items():
+    for k, v in belgian.items():
         out[k] = {"url": v, "tier": "press", "company_key": None}
-    for k, v in SECTOR_PRESS.items():
+    for k, v in sector.items():
         out[k] = {"url": v, "tier": "sector", "company_key": None}
     return out
 
@@ -123,9 +129,12 @@ def _slugify(term):
     return "".join(c.lower() if c.isalnum() else "_" for c in term).strip("_")[:48]
 
 
-def all_feeds_with_searches(companies, when_hours):
-    """Combine outlet-wide feeds with per-company search feeds."""
-    out = all_feeds()
+def all_feeds_with_searches(companies, when_hours, outlet_feeds=None):
+    """Combine outlet-wide feeds with per-company search feeds.
+
+    `outlet_feeds` lets a profile inject its own pre-assembled outlet
+    catalogue; falls back to the akkanto default when omitted."""
+    out = dict(outlet_feeds) if outlet_feeds is not None else all_feeds()
     for key, cfg in companies.items():
         out.update(search_feeds_for(key, cfg, when_hours))
     return out

@@ -14,8 +14,6 @@ import json
 import logging
 import os
 
-from companies import COMPANIES
-
 logger = logging.getLogger(__name__)
 
 MODEL = "claude-haiku-4-5"
@@ -29,32 +27,11 @@ def _client():
     return Anthropic(api_key=api_key)
 
 
-_SYSTEM = (
-    "Je bent een mediamonitoring-assistent voor een Belgische strategische "
-    "communicatieadviseur. Per klant krijg je een briefing met de strategische "
-    "thema's, en een lijst kandidaat-artikels uit Belgische pers en sectorpers. "
-    "Voor elk artikel beoordeel je of de adviseur het zou willen zien: "
-    "ja als het rechtstreeks over de klant gaat, over een directe concurrent, "
-    "over regelgeving/beleid dat hen raakt, of over een sector- of "
-    "maatschappelijk thema waar zij geloofwaardig op zouden kunnen reageren "
-    "(via actie, interne of externe communicatie). Nee bij passing mentions, "
-    "naam-collisions, of sectornieuws zonder concreet aanknopingspunt voor "
-    "deze klant. Wees streng maar niet eng — twijfelgevallen liever wel dan niet.\n\n"
-    "Voor elk relevant item geef je ook een prioriteits-score 1-5:\n"
-    "  5 = rechtstreeks over de klant, mogelijk reactie vereist\n"
-    "  4 = directe concurrent, of regelgeving die hen rechtstreeks raakt\n"
-    "  3 = sectornieuws met duidelijk aanknopingspunt voor de klant\n"
-    "  2 = adjacent thema, mogelijk relevant\n"
-    "  1 = grensgeval, twijfelachtig\n"
-    "Voor relevant=false: score=0.\n\n"
-    "Antwoord uitsluitend met geldige JSON."
-)
-
-
-def _user_prompt(company_key, articles):
-    cfg = COMPANIES[company_key]
+def _user_prompt(company_key, articles, companies, include_action=False):
+    cfg = companies[company_key]
+    header = "SPOOR" if include_action else "KLANT"
     lines = [
-        f"KLANT: {cfg['label']}",
+        f"{header}: {cfg['label']}",
         "",
         "BRIEFING:",
         cfg["brief"],
@@ -69,12 +46,20 @@ def _user_prompt(company_key, articles):
         lines.append(f"     titel: {art['title']}")
         if snippet:
             lines.append(f"     samenvatting: {snippet}")
-    lines += [
-        "",
-        "Geef een JSON-array met één object per artikel:",
-        '  {"idx": int, "relevant": bool, "score": int 0-5, "topic": "korte topictag NL (max 4 woorden)", "nut": "1 zin NL waarom dit deze klant raakt"}',
-        "Voor relevant=false mag topic en nut leeg (\"\") en score=0.",
-    ]
+    if include_action:
+        lines += [
+            "",
+            "Geef een JSON-array met één object per artikel:",
+            '  {"idx": int, "relevant": bool, "score": int 0-5, "topic": "korte topictag NL (max 4 woorden)", "nut": "1 zin NL waarom dit nuttig is voor Bikon", "actie": "korte concrete actie voor Andries (max 12 woorden), of \\"\\" als geen"}',
+            "Voor relevant=false mag topic, nut en actie leeg (\"\") en score=0.",
+        ]
+    else:
+        lines += [
+            "",
+            "Geef een JSON-array met één object per artikel:",
+            '  {"idx": int, "relevant": bool, "score": int 0-5, "topic": "korte topictag NL (max 4 woorden)", "nut": "1 zin NL waarom dit deze klant raakt"}',
+            "Voor relevant=false mag topic en nut leeg (\"\") en score=0.",
+        ]
     return "\n".join(lines)
 
 
@@ -93,9 +78,9 @@ def _parse(text):
 MAX_PER_COMPANY = 80
 
 
-def filter_company(company_key, articles):
+def filter_company(company_key, articles, companies, system_prompt, include_action=False):
     """Return Claude-filtered relevant articles, each augmented with
-    'topic' and 'nut' fields."""
+    'topic', 'nut' (and 'actie' when the profile asks for it) fields."""
     if not articles:
         return []
     if len(articles) > MAX_PER_COMPANY:
@@ -109,8 +94,9 @@ def filter_company(company_key, articles):
     resp = client.messages.create(
         model=MODEL,
         max_tokens=4096,
-        system=_SYSTEM,
-        messages=[{"role": "user", "content": _user_prompt(company_key, articles)}],
+        system=system_prompt,
+        messages=[{"role": "user",
+                   "content": _user_prompt(company_key, articles, companies, include_action)}],
     )
     raw = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
     try:
@@ -118,7 +104,8 @@ def filter_company(company_key, articles):
     except Exception as e:
         logger.warning("LLM parse failed for %s: %s\nRaw: %s", company_key, e, raw[:400])
         # Fail open with a clear marker so we notice in the mail.
-        return [{**a, "topic": "(filter failed)", "nut": "", "score": 3} for a in articles]
+        return [{**a, "topic": "(filter failed)", "nut": "", "actie": "", "score": 3}
+                for a in articles]
 
     by_idx = {v["idx"]: v for v in verdicts if isinstance(v, dict) and "idx" in v}
     kept = []
@@ -134,6 +121,7 @@ def filter_company(company_key, articles):
                 **art,
                 "topic": v.get("topic", ""),
                 "nut":   v.get("nut", ""),
+                "actie": v.get("actie", ""),
                 "score": score,
             })
     return kept
