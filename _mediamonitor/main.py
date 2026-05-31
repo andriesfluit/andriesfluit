@@ -97,13 +97,19 @@ def _candidate_sort_key(art):
     )
 
 
-def run(profile, to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resolve=False):
+def run(profile, to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resolve=False,
+        lookback_override=None):
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     DATA_DIR.mkdir(exist_ok=True)
     last_sent_path = DATA_DIR / profile.state_filename
 
     now_dt = _now_brussels()
-    since_dt, lookback = _compute_since(now_dt, last_sent_path)
+    if lookback_override:
+        lookback = int(lookback_override)
+        since_dt = now_dt - timedelta(hours=lookback)
+        logging.info("forced lookback=%dh (test run, state file ignored)", lookback)
+    else:
+        since_dt, lookback = _compute_since(now_dt, last_sent_path)
     today_str = now_dt.date().isoformat()
     logging.info("profile=%s lookback=%dh (since=%s, now=%s)",
                  profile.name, lookback, since_dt.isoformat(), now_dt.isoformat())
@@ -221,6 +227,9 @@ def main():
                    help="Skip article body fetching + summarization (faster, less detail).")
     p.add_argument("--no-resolve", action="store_true",
                    help="Skip Google News canonical URL resolution (faster, weaker dedup).")
+    p.add_argument("--lookback-hours", type=int, default=None,
+                   help="Force the lookback window in hours, ignoring the state file "
+                        "(for test runs). The caller is responsible for not stamping.")
     args = p.parse_args()
     profile = get_profile(args.profile)
     to_addr = args.to or os.environ.get(profile.to_addr_env) or profile.default_to
@@ -228,7 +237,8 @@ def main():
                  dry_run=args.dry_run,
                  no_llm=args.no_llm,
                  no_enrich=args.no_enrich,
-                 no_resolve=args.no_resolve))
+                 no_resolve=args.no_resolve,
+                 lookback_override=args.lookback_hours))
 
 
 if __name__ == "__main__":
