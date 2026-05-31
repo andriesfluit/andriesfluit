@@ -20,19 +20,18 @@ try:
 except ImportError:  # pragma: no cover
     _BRUSSELS = None
 
-from companies import COMPANIES
 from enricher import enrich_many
-from feeds import all_feeds, all_feeds_with_searches
+from feeds import all_feeds_with_searches
 from fetcher import fetch_all
 from llm_filter import filter_company, MAX_PER_COMPANY
 from mailer import send as send_mail
 from matcher import dedupe, group_hits, resolve_canonical
+from profiles import get_profile
 from render import render_html, render_text
 from summarizer import summarize_batch
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
-LAST_SENT = DATA_DIR / "last_sent.txt"
 
 # How far back to look at most, even if last_sent.txt suggests further.
 # Caps backlog after long outages.
@@ -49,16 +48,16 @@ def _now_brussels():
     return datetime.now()
 
 
-def _compute_since(now_dt):
-    """Read last_sent.txt and return (since_dt, lookback_hours) for fetching.
+def _compute_since(now_dt, last_sent_path):
+    """Read the state file and return (since_dt, lookback_hours) for fetching.
 
     Supports both legacy date-only ('YYYY-MM-DD') and new ISO datetime
     formats. Falls back to 24h before now when missing or unparseable."""
     fallback_hours = 24
-    if not LAST_SENT.exists():
+    if not last_sent_path.exists():
         return now_dt - timedelta(hours=fallback_hours), fallback_hours
 
-    raw = LAST_SENT.read_text(encoding="utf-8").strip()
+    raw = last_sent_path.read_text(encoding="utf-8").strip()
     parsed = None
     try:
         parsed = datetime.fromisoformat(raw)
@@ -98,18 +97,21 @@ def _candidate_sort_key(art):
     )
 
 
-def run(to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resolve=False):
+def run(profile, to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resolve=False):
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     DATA_DIR.mkdir(exist_ok=True)
+    last_sent_path = DATA_DIR / profile.state_filename
 
     now_dt = _now_brussels()
-    since_dt, lookback = _compute_since(now_dt)
+    since_dt, lookback = _compute_since(now_dt, last_sent_path)
     today_str = now_dt.date().isoformat()
-    logging.info("lookback=%dh (since=%s, now=%s)", lookback, since_dt.isoformat(), now_dt.isoformat())
+    logging.info("profile=%s lookback=%dh (since=%s, now=%s)",
+                 profile.name, lookback, since_dt.isoformat(), now_dt.isoformat())
 
-    feeds = all_feeds_with_searches(COMPANIES, when_hours=lookback + 12)
+    feeds = all_feeds_with_searches(profile.companies, when_hours=lookback + 12,
+                                    outlet_feeds=profile.outlet_feeds)
     logging.info("fetching %d feeds (%d outlet + per-company searches)",
-                 len(feeds), len(all_feeds()))
+                 len(feeds), len(profile.outlet_feeds))
     articles = fetch_all(since_dt, feeds=feeds)
     logging.info("%d articles fetched in window", len(articles))
 
@@ -124,7 +126,7 @@ def run(to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resolve=False)
     deduped = dedupe(articles)
     logging.info("after dedup: %d articles (was %d)", len(deduped), len(articles))
 
-    raw_hits = group_hits(deduped)
+    raw_hits = group_hits(deduped, profile.companies)
     pre_total = sum(len(v) for v in raw_hits.values())
     logging.info("regex+origin hits: %s (total=%d)",
                  {k: len(v) for k, v in raw_hits.items()}, pre_total)
@@ -144,7 +146,8 @@ def run(to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resolve=False)
     else:
         filtered = {}
         for key, items in raw_hits.items():
-            filtered[key] = filter_company(key, items)
+            filtered[key] = filter_company(key, items, profile.companies,
+                                           profile.llm_system, profile.include_action)
             logging.info("LLM filter %s: %d → %d", key, len(items), len(filtered[key]))
 
     # Stage 2: enrich + summarize the survivors
@@ -184,19 +187,21 @@ def run(to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resolve=False)
         "hits_post":      post_total,
         "lookback_hours": lookback,
     }
-    html_body = render_html(today_str, filtered, stats)
-    text_body = render_text(today_str, filtered)
+    html_body = render_html(today_str, filtered, stats, profile.companies,
+                            title=profile.subject_prefix, footer=profile.render_footer)
+    text_body = render_text(today_str, filtered, profile.companies,
+                            title=profile.subject_prefix)
 
     if dry_run:
-        out_html = DATA_DIR / f"preview-{today_str}.html"
-        out_txt  = DATA_DIR / f"preview-{today_str}.txt"
+        out_html = DATA_DIR / f"preview-{profile.name}-{today_str}.html"
+        out_txt  = DATA_DIR / f"preview-{profile.name}-{today_str}.txt"
         out_html.write_text(html_body, encoding="utf-8")
         out_txt.write_text(text_body, encoding="utf-8")
-        print(f"DRY RUN — wrote {out_html} and {out_txt}")
+        print(f"DRY RUN wrote {out_html} and {out_txt}")
         print(f"Stats: {stats}")
         return 0
 
-    subject = f"Mediamonitor — {today_str} ({post_total} items)"
+    subject = f"{profile.subject_prefix} - {today_str} ({post_total} items)"
     send_mail(subject, html_body, text_body, to_addr)
     logging.info("mail sent to %s", to_addr)
     return 0
@@ -204,7 +209,10 @@ def run(to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resolve=False)
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--to", default=os.environ.get("MONITOR_TO_ADDR", "andries.fluit@akkanto.com"))
+    p.add_argument("--profile", default="akkanto", choices=("akkanto", "bikon"),
+                   help="Which monitoring track to run.")
+    p.add_argument("--to", default=None,
+                   help="Recipient. Defaults to the profile's env var, then its default address.")
     p.add_argument("--dry-run", action="store_true",
                    help="Write HTML+text to data/ instead of sending mail.")
     p.add_argument("--no-llm", action="store_true",
@@ -214,7 +222,9 @@ def main():
     p.add_argument("--no-resolve", action="store_true",
                    help="Skip Google News canonical URL resolution (faster, weaker dedup).")
     args = p.parse_args()
-    sys.exit(run(args.to,
+    profile = get_profile(args.profile)
+    to_addr = args.to or os.environ.get(profile.to_addr_env) or profile.default_to
+    sys.exit(run(profile, to_addr,
                  dry_run=args.dry_run,
                  no_llm=args.no_llm,
                  no_enrich=args.no_enrich,

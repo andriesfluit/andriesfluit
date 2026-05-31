@@ -7,7 +7,12 @@ in <head>, so critical styling is doubled inline where it matters.
 
 import html
 
-from companies import COMPANIES
+_DEFAULT_TITLE = "Mediamonitor"
+_DEFAULT_FOOTER = (
+    "Automatisch gegenereerd door _mediamonitor. "
+    "Bronnen: Belgische pers (NL+FR) + sectorpers. "
+    "Topic-filtering en samenvatting door Claude, strikt uit de artikeltekst."
+)
 
 
 # Inline-style helpers keep the markup readable below.
@@ -28,6 +33,8 @@ _STY = {
                  "padding:2px 8px;border-radius:3px;margin-right:8px;vertical-align:middle;",
     "title":     "font-size:15px;font-weight:600;color:#1a1a1a;text-decoration:none;line-height:1.35;",
     "summary":   "color:#333;font-size:14px;margin:6px 0 0 0;line-height:1.55;",
+    "actie":     "color:#0a4ea5;font-size:13px;margin:6px 0 0 0;line-height:1.5;"
+                 "background:#f1f6fc;padding:6px 10px;border-radius:4px;",
     "meta":      "color:#888;font-size:12px;margin:6px 0 0 0;",
     "meta_link": "color:#888;text-decoration:none;",
     "tag_pwall": "display:inline-block;background:#fbe9e9;color:#a13b3b;font-size:10px;"
@@ -48,12 +55,13 @@ def _source_tag(status):
     return ""
 
 
-def render_html(today_str, by_company, stats):
+def render_html(today_str, by_company, stats, companies,
+                title=_DEFAULT_TITLE, footer=_DEFAULT_FOOTER):
     out = []
     out.append("<!doctype html><html><head><meta charset='utf-8'></head>")
     out.append(f"<body style=\"{_STY['body']}\">")
 
-    out.append(f"<h1 style=\"{_STY['h1']}\">Mediamonitor</h1>")
+    out.append(f"<h1 style=\"{_STY['h1']}\">{html.escape(title)}</h1>")
     lookback = stats.get("lookback_hours")
     window = f"laatste {lookback}u" if lookback else "vandaag"
     out.append(
@@ -64,7 +72,7 @@ def render_html(today_str, by_company, stats):
         f"</div>"
     )
 
-    for key, cfg in COMPANIES.items():
+    for key, cfg in companies.items():
         items = by_company.get(key) or []
         out.append(f"<section style=\"{_STY['section']}\">")
         out.append(
@@ -92,6 +100,11 @@ def render_html(today_str, by_company, stats):
             )
             if summary:
                 out.append(f"<p style=\"{_STY['summary']}\">{summary}{srctag}</p>")
+            actie = html.escape(art.get("actie") or "")
+            if actie:
+                out.append(
+                    f"<p style=\"{_STY['actie']}\"><strong>Actie:</strong> {actie}</p>"
+                )
             out.append(
                 f"<div style=\"{_STY['meta']}\">"
                 f"<a href=\"{link}\" style=\"{_STY['meta_link']}\">{src} &rsaquo;</a>"
@@ -100,20 +113,14 @@ def render_html(today_str, by_company, stats):
             out.append("</div>")
         out.append("</section>")
 
-    out.append(
-        f"<div style=\"{_STY['foot']}\">"
-        f"Automatisch gegenereerd door _mediamonitor. "
-        f"Bronnen: Belgische pers (NL+FR) + sectorpers. "
-        f"Topic-filtering en samenvatting door Claude, strikt uit de artikeltekst."
-        f"</div>"
-    )
+    out.append(f"<div style=\"{_STY['foot']}\">{html.escape(footer)}</div>")
     out.append("</body></html>")
     return "".join(out)
 
 
-def render_text(today_str, by_company):
-    lines = [f"Mediamonitor — {today_str}", ""]
-    for key, cfg in COMPANIES.items():
+def render_text(today_str, by_company, companies, title=_DEFAULT_TITLE):
+    lines = [f"{title} - {today_str}", ""]
+    for key, cfg in companies.items():
         items = by_company.get(key) or []
         header = f"{cfg['label']} ({len(items)})"
         lines.append(header)
@@ -127,6 +134,8 @@ def render_text(today_str, by_company):
                 summary = art.get("summary_long") or art.get("nut") or ""
                 if summary:
                     lines.append(f"  {summary}")
+                if art.get("actie"):
+                    lines.append(f"  ACTIE: {art['actie']}")
                 src_status = art.get("summary_source", "")
                 marker = ""
                 if src_status == "rss_snippet_paywall":
