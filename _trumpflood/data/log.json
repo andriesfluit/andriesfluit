@@ -28789,5 +28789,585 @@
       "education": 7,
       "weather": 26
     }
+  },
+  {
+    "date": "2026-05-31",
+    "generated_at": "2026-05-31T09:34:00+02:00",
+    "last_checked_at": "2026-05-31T09:34:00+02:00",
+    "total_articles": 248,
+    "trump_articles": 14,
+    "percentage": 5.6,
+    "core_percentage": 5.6,
+    "core_percentage_name": 5.6,
+    "trump_articles_expanded": 14,
+    "core_percentage_expanded": 5.6,
+    "indirect_references": 0,
+    "wide_total_articles": 351,
+    "wide_trump_articles": 16,
+    "wide_percentage": 4.6,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 4.6,
+    "macro_percentage": 4.4,
+    "qualifying_outlets": 11,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 44,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 17.7,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 4.67,
+    "breadth": 0.57,
+    "deviation": 2.2,
+    "smoothed_pct": 2.71,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 33,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_politics": {
+        "fetched": 52,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 50,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 64,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 28,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 31,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 29,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 53,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 27,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 8,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.22
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 26,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.69
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 8,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 52,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 52,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Na afzegging resem aan artiesten: Trump zélf headliner op feest voor 250ste verjaardag van VS",
+        "url": "https://www.hln.be/buitenland/na-afzegging-resem-aan-artiesten-trump-zelf-headliner-op-feest-voor-250ste-verjaardag-van-vs~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Drie doden bij nieuwe Amerikaanse aanval op boot in Stille Oceaan • Trump wordt zelf headliner op feest voor 250e verjaardag van VS",
+        "url": "https://www.demorgen.be/snelnieuws/live-drie-doden-bij-nieuwe-amerikaanse-aanval-op-boot-in-stille-oceaan-trump-wordt-zelf-headliner-op-feest-voor-250e-verjaardag-van-vs~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Amerikaanse media: Trump wil aanpassingen Iran-deal • VS: schip aangevallen dat ‘op weg was naar Iraanse haven’",
+        "url": "https://www.demorgen.be/snelnieuws/live-adviseur-khamenei-trump-ondermijnt-diplomatie-met-blokkade-en-buitensporige-eisen-israel-kondigt-nieuwe-aanvallen-in-zuid-libanon-aan~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump haalt uit naar afhakers van jubileumfestival en overweegt dan maar zelf op te treden: “Overbetaalde derderangsartiesten”",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-haalt-uit-naar-afhakers-van-jubileumfestival-en-overweegt-dan-maar-zelf-op-te-treden-overbetaalde-derderangsartiesten/154249369.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump haalt uit naar afhakers van jubileumfestival en overweegt dan maar zelf op te treden: “Overbetaalde derderangsartiesten”",
+        "url": "https://www.hbvl.be/media-en-cultuur/trump-haalt-uit-naar-afhakers-van-jubileumfestival-en-overweegt-dan-maar-zelf-op-te-treden-overbetaalde-derderangsartiesten/154249759.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Le plus grand président de l'histoire\", \"des foules plus importantes qu'Elvis\" : Trump veut se produire en meeting pour les 250 ans des USA",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/31/le-plus-grand-president-de-lhistoire-des-foules-plus-importantes-quelvis-trump-veut-se-produire-en-meeting-pour-les-250-ans-des-usa-45ULO2OQ3JEQFBZK4SIETXX2PI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-président de la Fed reçoit un prix pour avoir résisté aux pressions de Trump : \"Des années d'attaques personnelles et de menaces\"",
+        "url": "https://www.lalibre.be/economie/2026/05/31/lex-president-de-la-fed-recoit-un-prix-pour-avoir-resiste-aux-pressions-de-trump-des-annees-dattaques-personnelles-et-de-menaces-3ADBBD43YVHIDJZKGOVKYV7H3A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump affirme avoir reçu de l'Iran l'engagement à ne pas se doter de l'arme nucléaire",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/31/direct-guerre-au-moyen-orient-trump-affirme-avoir-recu-de-liran-lengagement-a-ne-pas-se-doter-de-larme-nucleaire-IZSS3X5D4BA5ZATCJS7T2UJZWA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-président de la Fed reçoit un prix pour avoir résisté aux pressions de Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNODZ1Wm11VW5FVTNYOV9ablVMWjhNa2trbU52UU5PVWo5WnBPY3djNFRkV0JzTS0zMUFvcjVzdF9rMEl4TDRJbjlYa3ozNEdVU1V5NDQxWjZrMTNtWmJ5emlDa0g3SkswOURnU0w5RXIwMXlrX2R2cGg2dlE1OHhjclFZLUVWM3dCWEI1VGpVdWVNOXM0VFpYenpOekUwTWJadTdrX1JORlpPRlVrMmFQLTlrSUNJMXBucFZQWnNpcWVRb1FkcFdrVmVybWRnMHJjSUhYblRVY1Q?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Trump affirme avoir reçu de l'Iran l'engagement à ne pas se doter de l'arme nucléaire - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOWDV0V0QwWDFvZDFIc2QxcTAwWk9sMlozNHJWZVNMYVJ6RHlYcm1INDVVYWlQR3JreUs3MmJmSnJXeTlkdmNxLUFjb19YbnJ0WUs2NUdNdnBTOWNreWVBOWx5TmxFX05wX3FaLUN0bTc1NWZWV3FzZDAxMldjd1dGdU43SVVKQzBtQjNPMFZYd2R3dm52bmVDeVdpVmUwcmQwdUlMZWlQeC1idDRCakRURHpfMTNOTkFoUF91Rmx0V3NHMi1jdklPNWtNMXdRd2p3YkRjbE9DeFZwMmlYSmVOT2c0MEU3bkcwUFpRVENkNDNvU3RDMWNnb3Vtemk1dkV6VV92NUp6OEttRlN0Q2w3N1dXVW1YVl9lQTZ5dkZnbW9CaUdVR1E?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Donald Trump affirme avoir reçu de l'Iran l'engagement à ne pas se doter de l'arme nucléaire",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/31/direct-guerre-au-moyen-orient-israel-annonce-etendre-son-offensive-au-liban-73EDJMQIPNCLHIMX7EYUQIFLKE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-président de la Fed Jerome Powell reçoit un prix pour avoir résisté aux pressions de Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/31/lex-president-de-la-fed-jerome-powell-recoit-un-prix-pour-avoir-resiste-aux-pressions-de-trump-2KI6ZIYDQNCRLKY6ZUAHDE5I2Y/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump veut se produire en meeting à la place de musiciens pour l’anniversaire des Etats-Unis",
+        "url": "https://www.7sur7.be/monde/trump-veut-se-produire-en-meeting-a-la-place-de-musiciens-pour-lanniversaire-des-etats-unis~a4670998/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump affirme que l’Iran “a accepté” de ne pas se doter de l’arme nucléaire - Israël va étendre son offensive au Liban",
+        "url": "https://www.7sur7.be/monde/trump-affirme-que-liran-a-accepte-de-ne-pas-se-doter-de-larme-nucleaire-israel-va-etendre-son-offensive-au-liban~af77d7dba/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Donald Trump affirme avoir reçu de l’Iran l’engagement à ne pas se doter de l’arme nucléaire - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUEFydlpHdzdzYjdHcEdvOXE4MnFXVkJVaE5qOEtmSVNPOXB1R2pBdUN4TDFzWGplbUxRdFFuZFcyY1VqUEdoTTJEcXhDMjJ2RXZNVzNaN1JkZnNpTXhnWjVncWVMSEhzSkZFcTJaWDNlbVZZakJnXzh6dXZnY2QzRWIzaE1yQU9iYmtDVTF0cXo4OGs5LWMxMEEtRjRHS0p5bTUwSG1OV1l4a000LU5oZVZ1YjI3THdXS3VzcmxJZGdfekE?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Na afzegging resem aan artiesten: Trump zélf headliner op feest voor 250ste verjaardag van VS",
+        "url": "https://www.hln.be/buitenland/na-afzegging-resem-aan-artiesten-trump-zelf-headliner-op-feest-voor-250ste-verjaardag-van-vs~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Drie doden bij nieuwe Amerikaanse aanval op boot in Stille Oceaan • Trump wordt zelf headliner op feest voor 250e verjaardag van VS",
+        "url": "https://www.demorgen.be/snelnieuws/live-drie-doden-bij-nieuwe-amerikaanse-aanval-op-boot-in-stille-oceaan-trump-wordt-zelf-headliner-op-feest-voor-250e-verjaardag-van-vs~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Amerikaanse media: Trump wil aanpassingen Iran-deal • VS: schip aangevallen dat ‘op weg was naar Iraanse haven’",
+        "url": "https://www.demorgen.be/snelnieuws/live-adviseur-khamenei-trump-ondermijnt-diplomatie-met-blokkade-en-buitensporige-eisen-israel-kondigt-nieuwe-aanvallen-in-zuid-libanon-aan~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump haalt uit naar afhakers van jubileumfestival en overweegt dan maar zelf op te treden: “Overbetaalde derderangsartiesten”",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-haalt-uit-naar-afhakers-van-jubileumfestival-en-overweegt-dan-maar-zelf-op-te-treden-overbetaalde-derderangsartiesten/154249369.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump haalt uit naar afhakers van jubileumfestival en overweegt dan maar zelf op te treden: “Overbetaalde derderangsartiesten”",
+        "url": "https://www.gva.be/buitenland/trump-haalt-uit-naar-afhakers-van-jubileumfestival-en-overweegt-dan-maar-zelf-op-te-treden-overbetaalde-derderangsartiesten/154249758.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump haalt uit naar afhakers van jubileumfestival en overweegt dan maar zelf op te treden: “Overbetaalde derderangsartiesten”",
+        "url": "https://www.hbvl.be/media-en-cultuur/trump-haalt-uit-naar-afhakers-van-jubileumfestival-en-overweegt-dan-maar-zelf-op-te-treden-overbetaalde-derderangsartiesten/154249759.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Le plus grand président de l'histoire\", \"des foules plus importantes qu'Elvis\" : Trump veut se produire en meeting pour les 250 ans des USA",
+        "url": "https://www.lalibre.be/international/amerique/2026/05/31/le-plus-grand-president-de-lhistoire-des-foules-plus-importantes-quelvis-trump-veut-se-produire-en-meeting-pour-les-250-ans-des-usa-45ULO2OQ3JEQFBZK4SIETXX2PI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-président de la Fed reçoit un prix pour avoir résisté aux pressions de Trump : \"Des années d'attaques personnelles et de menaces\"",
+        "url": "https://www.lalibre.be/economie/2026/05/31/lex-president-de-la-fed-recoit-un-prix-pour-avoir-resiste-aux-pressions-de-trump-des-annees-dattaques-personnelles-et-de-menaces-3ADBBD43YVHIDJZKGOVKYV7H3A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump affirme avoir reçu de l'Iran l'engagement à ne pas se doter de l'arme nucléaire",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/05/31/direct-guerre-au-moyen-orient-trump-affirme-avoir-recu-de-liran-lengagement-a-ne-pas-se-doter-de-larme-nucleaire-IZSS3X5D4BA5ZATCJS7T2UJZWA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-président de la Fed reçoit un prix pour avoir résisté aux pressions de Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNODZ1Wm11VW5FVTNYOV9ablVMWjhNa2trbU52UU5PVWo5WnBPY3djNFRkV0JzTS0zMUFvcjVzdF9rMEl4TDRJbjlYa3ozNEdVU1V5NDQxWjZrMTNtWmJ5emlDa0g3SkswOURnU0w5RXIwMXlrX2R2cGg2dlE1OHhjclFZLUVWM3dCWEI1VGpVdWVNOXM0VFpYenpOekUwTWJadTdrX1JORlpPRlVrMmFQLTlrSUNJMXBucFZQWnNpcWVRb1FkcFdrVmVybWRnMHJjSUhYblRVY1Q?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Trump affirme avoir reçu de l'Iran l'engagement à ne pas se doter de l'arme nucléaire - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOWDV0V0QwWDFvZDFIc2QxcTAwWk9sMlozNHJWZVNMYVJ6RHlYcm1INDVVYWlQR3JreUs3MmJmSnJXeTlkdmNxLUFjb19YbnJ0WUs2NUdNdnBTOWNreWVBOWx5TmxFX05wX3FaLUN0bTc1NWZWV3FzZDAxMldjd1dGdU43SVVKQzBtQjNPMFZYd2R3dm52bmVDeVdpVmUwcmQwdUlMZWlQeC1idDRCakRURHpfMTNOTkFoUF91Rmx0V3NHMi1jdklPNWtNMXdRd2p3YkRjbE9DeFZwMmlYSmVOT2c0MEU3bkcwUFpRVENkNDNvU3RDMWNnb3Vtemk1dkV6VV92NUp6OEttRlN0Q2w3N1dXVW1YVl9lQTZ5dkZnbW9CaUdVR1E?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Donald Trump affirme avoir reçu de l'Iran l'engagement à ne pas se doter de l'arme nucléaire",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/31/direct-guerre-au-moyen-orient-israel-annonce-etendre-son-offensive-au-liban-73EDJMQIPNCLHIMX7EYUQIFLKE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-président de la Fed Jerome Powell reçoit un prix pour avoir résisté aux pressions de Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/05/31/lex-president-de-la-fed-jerome-powell-recoit-un-prix-pour-avoir-resiste-aux-pressions-de-trump-2KI6ZIYDQNCRLKY6ZUAHDE5I2Y/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump veut se produire en meeting à la place de musiciens pour l’anniversaire des Etats-Unis",
+        "url": "https://www.7sur7.be/monde/trump-veut-se-produire-en-meeting-a-la-place-de-musiciens-pour-lanniversaire-des-etats-unis~a4670998/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump affirme que l’Iran “a accepté” de ne pas se doter de l’arme nucléaire - Israël va étendre son offensive au Liban",
+        "url": "https://www.7sur7.be/monde/trump-affirme-que-liran-a-accepte-de-ne-pas-se-doter-de-larme-nucleaire-israel-va-etendre-son-offensive-au-liban~af77d7dba/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 14,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 16,
+      "putin": 5,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 10,
+      "crime": 9,
+      "eu": 18,
+      "politics": 1,
+      "be_gov": 6,
+      "culture": 6,
+      "tech": 3,
+      "economy": 5,
+      "sports": 23,
+      "health": 1,
+      "climate": 5,
+      "migration": 0,
+      "education": 2,
+      "weather": 13
+    },
+    "wide_themes": {
+      "war": 12,
+      "crime": 12,
+      "eu": 22,
+      "politics": 1,
+      "be_gov": 7,
+      "culture": 8,
+      "tech": 5,
+      "economy": 5,
+      "sports": 31,
+      "health": 2,
+      "climate": 6,
+      "migration": 0,
+      "education": 2,
+      "weather": 19
+    }
   }
 ]
