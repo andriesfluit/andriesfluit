@@ -1,17 +1,15 @@
-"""Topic profiles for the Bikon radar — business/market/tech intelligence.
+"""Topic profiles for the Bikon radar: business/market/tech intelligence.
 
 Same shape as companies.py (label / brief / patterns / search_terms), but the
 "companies" here are thematic SPOREN (tracks) rather than akkanto clients. The
 LLM filter judges each item for usefulness to Bikon's business or product, not
 for "can the client react".
 
-Five buckets:
-  1. competitors_funding   — named competitors + RegTech/AI-advisory funding
-  2. ai_regulation         — EU AI Act, FSMA, NBB, DORA, GDPR+AI
-  3. ai_tech_buildradar    — applicable gen-AI technique (RAG, knowledge graphs,
-                             agents, evaluation) + reliability/positioning
-  4. market_pensions       — pension reform + bancassurance/insurer AI
-  5. expansion_verticals   — HR/payroll, tax, legal, customs (vertical 2 signals)
+Three buckets:
+  1. competitors_funding: named competitors + RegTech/AI-advisory funding
+  2. ai_regulation:       EU AI Act, FSMA, NBB, DORA, GDPR+AI
+  3. ai_tech_buildradar:  applicable gen-AI technique (RAG, knowledge graphs,
+                          agents, evaluation) + reliability/positioning
 
 Discipline mirrors companies.py: patterns cast a tight high-signal net over the
 outlet feeds, search_terms do most of the work (each expands to a nl-BE + fr-BE
@@ -127,90 +125,38 @@ BIKON_COMPANIES = {
                 "knowledge graph AI", "RAG reranking", "LLM evaluation benchmark",
                 "grounded AI citations", "domain-specific LLM", "fine-tuning LLM",
                 "vector database", "AI agents enterprise",
+                "hybrid search retrieval", "semantic chunking", "query rewriting RAG",
+                "ColBERT late interaction", "cross-encoder reranker",
+                "long context LLM", "context engineering", "RAG evaluation RAGAS",
+                "LLM as a judge", "structured outputs LLM", "function calling LLM",
+                "multi-agent systems", "agent orchestration", "knowledge graph RAG",
+                "Microsoft GraphRAG", "retrieval evaluation", "embedding model benchmark",
+                "hallucination detection", "guardrails LLM", "model context protocol",
             ],
             "broad": [
                 "LLM hallucination", "RAG accuracy regulated",
-                "enterprise AI reliability",
+                "enterprise AI reliability", "RAG production",
+                "AI evaluation framework", "trustworthy AI regulated",
             ],
         },
     },
 
-    # -----------------------------------------------------------------
-    "market_pensions": {
-        "label": "Markt: pensioenen & bancassurance",
-        "brief": (
-            "Markt- en klantsignalen in Bikon's eerste vertical (Belgische "
-            "pensioenen) en bij de doelklanten (bancassureurs en verzekeraars). "
-            "Pensioenhervorming, mypension.be, Federale Pensioendienst (FPD/SFPD), "
-            "aanvullend pensioen en tweede pijler, pensioenombudsman, financiële "
-            "geletterdheid. Doelklanten: Belfius, BNP Paribas Fortis, KBC, ING, "
-            "AG Insurance en hun AI-, chatbot- of advies-initiatieven; ook "
-            "sociale secretariaten en verzekeraars. Nut voor Bikon: sales- en "
-            "partnershipsignalen, timing, en context voor de pensioen-pitch."
-        ),
-        "patterns": [
-            r"\bpensioen", r"\bpension\b", r"\bmypension\b",
-            r"\bSFPD\b", r"\bFPD\b", r"\bFederale\s+Pensioendienst\b",
-            r"\bpensioenhervorming\b", r"\br[ée]forme\s+des\s+pensions\b",
-            r"\baanvullend\s+pensioen\b", r"\btweede\s+pijler\b",
-            r"\bdeuxi[èe]me\s+pilier\b", r"\bpensioenombudsman\b",
-            r"\bBelfius\b", r"\bBNP\s+Paribas\s+Fortis\b", r"\bKBC\b",
-            r"\bING\b", r"\bAG\s+Insurance\b", r"\bbancassur",
-            r"\bsociaal\s+secretariaat\b", r"\bsecr[ée]tariat\s+social\b",
-        ],
-        "search_terms": {
-            "brand": [
-                "pensioenhervorming", "réforme des pensions", "mypension",
-                "aanvullend pensioen", "tweede pijler pensioen",
-                "pensioenombudsman",
-            ],
-            "customers": [
-                "Belfius AI", "KBC AI", "BNP Paribas Fortis AI",
-                "ING België AI", "AG Insurance AI", "bancassurance AI",
-            ],
-        },
-    },
-
-    # -----------------------------------------------------------------
-    "expansion_verticals": {
-        "label": "Expansie-verticals (HR, tax, legal, customs)",
-        "brief": (
-            "Vroege signalen in Bikon's volgende verticals na pensioenen: "
-            "HR/payroll, fiscaliteit, juridisch advies en douane. Relevant: "
-            "AI-toepassingen, complexiteit en compliance-druk in deze domeinen, en "
-            "bewegingen bij grote spelers (sociale secretariaten zoals SD Worx, "
-            "Acerta, Partena, Liantis, Securex; accountants- en advocatenkantoren; "
-            "douane-actoren). Nut voor Bikon: bepalen welke vertical als tweede "
-            "rijp is en wie mogelijke klant of concurrent wordt."
-        ),
-        "patterns": [
-            r"\bpayroll\b", r"\bloonadministratie\b",
-            r"\bSD\s+Worx\b", r"\bAcerta\b", r"\bPartena\b", r"\bLiantis\b",
-            r"\bSecurex\b",
-            r"\bfiscaliteit\b", r"\bbelastingadvies\b", r"\btax\s+advis",
-            r"\baccountant", r"\bboekhoud",
-            r"\bjuridisch\s+advies\b", r"\badvocaten", r"\bnotaris",
-            r"\bdouane\b", r"\bcustoms\b",
-        ],
-        "search_terms": {
-            "verticals": [
-                "SD Worx AI", "Acerta AI", "payroll AI", "HR tech België",
-                "legal tech België", "AI advocaten", "AI accountant",
-                "AI fiscaliteit", "douane AI", "AI tax advisory",
-            ],
-        },
-    },
 }
 
 
 # -----------------------------------------------------------------------
 # Bikon outlet-feed catalogue. Replaces the akkanto Belgian/sector press.
-# Mostly Google News site: queries (when:2d) so the per-day filter in
-# fetcher.py keeps only fresh items; international outlets use en-US locale
-# for better ranking, Belgian ones use nl-BE / fr-BE.
+# Mostly Google News site: queries (when:4d, trimmed to the real lookback by
+# fetcher.py); international outlets use en-US locale for better ranking,
+# Belgian ones use nl-BE / fr-BE. Note: Google News indexes news sites well
+# but personal/dev blogs only patchily, so the spoor-3 search_terms above are
+# the main driver for technique coverage; these blog outlets are a bonus.
 
 def _gn(site, hl="en-US", gl="US", ceid="US:en"):
-    return (f"https://news.google.com/rss/search?q=site:{site}+when:2d"
+    # when:4d covers the longest gap between Bikon sends (Fri -> Mon, ~72h)
+    # with margin. fetcher.py then trims to the exact lookback window, so
+    # nothing older than the last send leaks in.
+    return (f"https://news.google.com/rss/search?q=site:{site}+when:4d"
             f"&hl={hl}&gl={gl}&ceid={ceid}")
 
 
@@ -245,10 +191,32 @@ BIKON_OUTLET_FEEDS = {
     "euractiv":    _gn("euractiv.com"),
     "politico_eu": _gn("politico.eu"),
 
-    # Build-radar: AI-engineering / research-blogs
-    "huggingface": _gn("huggingface.co"),
-    "langchain":   _gn("blog.langchain.dev"),
-    "llamaindex":  _gn("llamaindex.ai"),
-    "anthropic":   _gn("anthropic.com"),
-    "deepmind":    _gn("deepmind.google"),
+    # Build-radar: AI-technique news (well-indexed in Google News)
+    "thedecoder":    _gn("the-decoder.com"),
+    "marktechpost":  _gn("marktechpost.com"),
+    "venturebeat_ai": _gn("venturebeat.com/ai"),
+
+    # Build-radar: model labs
+    "huggingface":   _gn("huggingface.co"),
+    "anthropic":     _gn("anthropic.com"),
+    "deepmind":      _gn("deepmind.google"),
+    "openai":        _gn("openai.com"),
+    "googleresearch": _gn("research.google"),
+    "mistral":       _gn("mistral.ai"),
+    "cohere":        _gn("cohere.com"),
+
+    # Build-radar: retrieval / RAG / vector tooling
+    "langchain":     _gn("blog.langchain.dev"),
+    "llamaindex":    _gn("llamaindex.ai"),
+    "pinecone":      _gn("pinecone.io"),
+    "weaviate":      _gn("weaviate.io"),
+    "qdrant":        _gn("qdrant.tech"),
+    "jina":          _gn("jina.ai"),
+    "databricks":    _gn("databricks.com"),
+
+    # Build-radar: practitioner blogs
+    "simonwillison": _gn("simonwillison.net"),
+    "thegradient":   _gn("thegradient.pub"),
+    "raschka":       _gn("magazine.sebastianraschka.com"),
+    "eugeneyan":     _gn("eugeneyan.com"),
 }
