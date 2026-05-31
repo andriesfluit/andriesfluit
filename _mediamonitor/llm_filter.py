@@ -39,7 +39,14 @@ _SYSTEM = (
     "maatschappelijk thema waar zij geloofwaardig op zouden kunnen reageren "
     "(via actie, interne of externe communicatie). Nee bij passing mentions, "
     "naam-collisions, of sectornieuws zonder concreet aanknopingspunt voor "
-    "deze klant. Wees streng maar niet eng — twijfelgevallen liever wel dan niet. "
+    "deze klant. Wees streng maar niet eng — twijfelgevallen liever wel dan niet.\n\n"
+    "Voor elk relevant item geef je ook een prioriteits-score 1-5:\n"
+    "  5 = rechtstreeks over de klant, mogelijk reactie vereist\n"
+    "  4 = directe concurrent, of regelgeving die hen rechtstreeks raakt\n"
+    "  3 = sectornieuws met duidelijk aanknopingspunt voor de klant\n"
+    "  2 = adjacent thema, mogelijk relevant\n"
+    "  1 = grensgeval, twijfelachtig\n"
+    "Voor relevant=false: score=0.\n\n"
     "Antwoord uitsluitend met geldige JSON."
 )
 
@@ -65,8 +72,8 @@ def _user_prompt(company_key, articles):
     lines += [
         "",
         "Geef een JSON-array met één object per artikel:",
-        '  {"idx": int, "relevant": bool, "topic": "korte topictag NL (max 4 woorden)", "nut": "1 zin NL waarom dit deze klant raakt"}',
-        "Voor relevant=false mag topic en nut leeg (\"\").",
+        '  {"idx": int, "relevant": bool, "score": int 0-5, "topic": "korte topictag NL (max 4 woorden)", "nut": "1 zin NL waarom dit deze klant raakt"}',
+        "Voor relevant=false mag topic en nut leeg (\"\") en score=0.",
     ]
     return "\n".join(lines)
 
@@ -111,12 +118,22 @@ def filter_company(company_key, articles):
     except Exception as e:
         logger.warning("LLM parse failed for %s: %s\nRaw: %s", company_key, e, raw[:400])
         # Fail open with a clear marker so we notice in the mail.
-        return [{**a, "topic": "(filter failed)", "nut": ""} for a in articles]
+        return [{**a, "topic": "(filter failed)", "nut": "", "score": 3} for a in articles]
 
     by_idx = {v["idx"]: v for v in verdicts if isinstance(v, dict) and "idx" in v}
     kept = []
     for i, art in enumerate(articles):
         v = by_idx.get(i)
         if v and v.get("relevant"):
-            kept.append({**art, "topic": v.get("topic", ""), "nut": v.get("nut", "")})
+            try:
+                score = int(v.get("score", 3))
+            except (TypeError, ValueError):
+                score = 3
+            score = max(1, min(5, score))
+            kept.append({
+                **art,
+                "topic": v.get("topic", ""),
+                "nut":   v.get("nut", ""),
+                "score": score,
+            })
     return kept

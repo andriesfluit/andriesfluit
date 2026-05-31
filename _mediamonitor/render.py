@@ -54,9 +54,12 @@ def render_html(today_str, by_company, stats):
     out.append(f"<body style=\"{_STY['body']}\">")
 
     out.append(f"<h1 style=\"{_STY['h1']}\">Mediamonitor</h1>")
+    lookback = stats.get("lookback_hours")
+    window = f"laatste {lookback}u" if lookback else "vandaag"
     out.append(
         f"<div style=\"{_STY['lede']}\">"
-        f"{html.escape(today_str)} &middot; {stats['articles_total']} artikels uit "
+        f"{html.escape(today_str)} &middot; {window} &middot; "
+        f"{stats.get('articles_deduped', stats['articles_total'])} unieke artikels uit "
         f"{stats['feeds_total']} bronnen &middot; {stats['hits_post']} relevant"
         f"</div>"
     )

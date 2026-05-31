@@ -8,6 +8,7 @@ and tracks per-article source tier.
 import html as _html
 import logging
 import re
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 import feedparser
@@ -66,7 +67,9 @@ def _strip_html(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def _entry_date(entry):
+def _entry_datetime(entry):
+    """Return the entry's publication datetime in Brussels-local tz,
+    or None if no timestamp is parseable."""
     for key in ("published_parsed", "updated_parsed"):
         val = entry.get(key)
         if val:
@@ -76,8 +79,8 @@ def _entry_date(entry):
                 tzinfo=timezone.utc,
             )
             if _BRUSSELS is not None:
-                return utc_dt.astimezone(_BRUSSELS).date()
-            return utc_dt.date()
+                return utc_dt.astimezone(_BRUSSELS)
+            return utc_dt
     return None
 
 
@@ -87,7 +90,15 @@ def _get(name, url):
     return requests.get(url, headers=_HEADERS, timeout=20)
 
 
-def fetch_one(name, url, today):
+def fetch_one(name, url, since_dt, tier=None):
+    """Fetch one feed; return articles published at-or-after since_dt.
+
+    Articles without a parseable timestamp are KEPT when they come from
+    a search-tier feed (Google News already date-filters via when:Xh),
+    and DROPPED when they come from generalist outlet feeds (where an
+    undated entry might be ancient evergreen content). Kept-undated
+    items are marked `date_unknown=True` so downstream sorting and dedup
+    can deprioritize them."""
     try:
         resp = _get(name, url)
         resp.raise_for_status()
@@ -108,8 +119,13 @@ def fetch_one(name, url, today):
     parsed = feedparser.parse(resp.content)
     articles = []
     for entry in parsed.entries or []:
-        d = _entry_date(entry)
-        if d != today:
+        entry_dt = _entry_datetime(entry)
+        date_unknown = entry_dt is None
+        if date_unknown:
+            # Only trust an undated entry when the feed itself date-bounds it.
+            if tier != "search":
+                continue
+        elif entry_dt < since_dt:
             continue
         link = entry.get("link")
         title = (entry.get("title") or "").strip()
@@ -125,16 +141,37 @@ def fetch_one(name, url, today):
             "title": _strip_html(title),
             "link": link,
             "summary": summary,
+            "published_dt": entry_dt,         # datetime or None
+            "date_unknown": date_unknown,
         })
     return articles
 
 
-def fetch_all(today):
-    """Return [{source, tier, title, link, summary}, ...] for today's articles."""
+def fetch_all(since_dt, feeds=None, max_workers=10):
+    """Fetch every configured feed in parallel and return a flat list of articles.
+
+    `since_dt` is a Brussels-local timezone-aware datetime; articles older
+    than that are filtered out. `feeds` defaults to the outlet-wide catalogue
+    via all_feeds(); pass a custom dict (e.g. all_feeds_with_searches(...))
+    to include per-company search feeds.
+
+    With ~200 search feeds the sequential version would blow the workflow
+    timeout. 10 concurrent fetches keeps total wall time around 30-60 s
+    while staying conservative for Google News rate limits."""
+    if feeds is None:
+        feeds = all_feeds()
+
+    def task(item):
+        name, meta = item
+        tier = meta.get("tier")
+        results = fetch_one(name, meta["url"], since_dt, tier=tier)
+        for art in results:
+            art["tier"] = tier
+            art["origin_company_key"] = meta.get("company_key")
+        return results
+
     out = []
-    feeds = all_feeds()
-    for name, meta in feeds.items():
-        for art in fetch_one(name, meta["url"], today):
-            art["tier"] = meta["tier"]
-            out.append(art)
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        for batch in ex.map(task, feeds.items()):
+            out.extend(batch)
     return out

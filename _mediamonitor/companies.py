@@ -1,20 +1,23 @@
 """Topic profiles per company — issue monitoring, not brand monitoring.
 
 For each company we list a BRIEF (used by the LLM filter to judge strategic
-relevance) and a flat list of regex PATTERNS that cast a wide net across
-sector terms, competitors, policy/regulation, and adjacent themes. The
-matcher fires loosely; the LLM then judges strategic relevance against
-the brief.
+relevance), a flat list of regex PATTERNS that cast a wide net for matching
+articles pulled from outlet feeds, and SEARCH_TERMS that get expanded into
+per-company Google News search feeds (NL + FR Belgian locale, quoted exact
+phrases to dodge word collisions like 'accent').
 
 Patterns are case-insensitive and use word-boundary semantics (matcher.py
 compiles with re.IGNORECASE). Multilingual where it matters (NL + FR).
 
 Discipline:
-  - Include brand + direct competitors + sector verticals + regulatory
-    levers + adjacent themes where a reaction (actie / interne comms /
-    externe comms) is plausible.
-  - Do NOT include such generic words that we drown ('Belgium', 'werk').
-    The LLM is the second pass but it can't rescue a feed flood.
+  - patterns: include brand + direct competitors + sector verticals +
+    regulatory levers + adjacent themes where a reaction (actie /
+    interne comms / externe comms) is plausible.
+  - search_terms: 4 categories (brand / competitors / policy / broad).
+    Categories have no runtime effect — they're for tuning only.
+    Every term is queried as an exact phrase ("...") in both nl-BE and
+    fr-BE Google News locales.
+  - Do NOT include generic words that drown the LLM ('Belgium', 'werk').
 """
 
 COMPANIES = {
@@ -59,6 +62,30 @@ COMPANIES = {
             r"\bindexering\s+lonen", r"\bverpakkingstaks\b",
             r"\bkinderarbeid\b", r"\btravail\s+des\s+enfants\b",
         ],
+        "search_terms": {
+            # City-specific brand searches were intentionally dropped — exact
+            # phrases like "IKEA Anderlecht" rarely appear; articles say
+            # "IKEA opent in Anderlecht" instead. The outlet-feed scan already
+            # picks those up via the \bIKEA\b + Belgian anchor pattern.
+            "brand": [
+                "IKEA België", "IKEA Belgique",
+            ],
+            "competitors": [
+                "Maisons du Monde", "JYSK", "Kwantum", "Conforama",
+            ],
+            "policy": [
+                "verpakkingstaks meubels",
+                "circulaire economie meubels",
+                "économie circulaire ameublement",
+                "kinderarbeid retail",
+            ],
+            "broad": [
+                "meubelmarkt België",
+                "marché du meuble Belgique",
+                "detailhandel België",
+                "retailsector België",
+            ],
+        },
     },
 
     # -----------------------------------------------------------------
@@ -109,6 +136,33 @@ COMPANIES = {
             r"\bburn[- ]?out\b", r"\bhybride\s+werk\b", r"\bt[eé]l[eé]travail\b",
             r"\bgeneratie\s+Z\b", r"\bg[eé]n[eé]ration\s+Z\b",
         ],
+        "search_terms": {
+            "brand": [
+                "Accent Jobs", "Accent Group",
+                "Accent Construct", "Accent Logistics", "Accent Industry",
+                "Accent Select", "Accent Business",
+                "NowJobs", "House of HR",
+            ],
+            "competitors": [
+                "Randstad België", "Adecco België", "Manpower België",
+                "Tempo-Team", "Federgon",
+                "Daoust", "Synergie interim", "Konvert", "ASAP.be",
+            ],
+            "policy": [
+                "flexi-jobs", "flexi-jobs uitbreiding",
+                "arbeidsdeal", "deal pour l'emploi",
+                "studentenarbeid", "travail étudiant",
+                "schijnzelfstandigheid", "faux indépendant",
+                "arbeidsmigratie België",
+            ],
+            "broad": [
+                "krapte arbeidsmarkt",
+                "pénurie main d'œuvre Belgique",
+                "uitzendsector België",
+                "secteur intérim Belgique",
+                "jongerentewerkstelling",
+            ],
+        },
     },
 
     # -----------------------------------------------------------------
@@ -156,6 +210,33 @@ COMPANIES = {
             r"\bwerknemerswelzijn\b", r"\bworkplace\s+mental\s+(?:health|wellbeing)\b",
             r"\bburn[- ]?out\b", r"\bpsychosociale?\s+risico",
         ],
+        "search_terms": {
+            "brand": [
+                "Helios Foundation", "Fondation Helios", "Stichting Helios",
+            ],
+            "competitors": [
+                "Chapter Zero Brussels",
+                "Essenscia decarbonisatie",
+                "SWIFT chair ULB VUB",
+                "STEAM chair VUB",
+            ],
+            "policy": [
+                "klimaatakkoord België industrie",
+                "accord climat industrie Belgique",
+                "net zero België",
+                "decarbonisatie Belgische industrie",
+                "décarbonation industrie belge",
+                "workplace mental health België",
+                "bien-être mental travail Belgique",
+            ],
+            "broad": [
+                "private filantropie klimaat",
+                "philanthropie privée climat",
+                "ESG België",
+                "burn-out preventie werkgevers",
+                "prévention burn-out employeurs",
+            ],
+        },
     },
 
     # -----------------------------------------------------------------
@@ -200,5 +281,29 @@ COMPANIES = {
             r"\bverkeersveiligheid\b", r"\bs[eé]curit[eé]\s+routi[eè]re\b",
             r"\bmobiliteitsplan\b", r"\bplan\s+de\s+mobilit[eé]\b",
         ],
+        "search_terms": {
+            "brand": [
+                "Belgische Vereniging Asfaltproducenten",
+                "Association Belge Producteurs Enrobés",
+                "ABPE asfalt", "BVA asfalt",
+            ],
+            "competitors": [
+                "Embuild", "Confederatie Bouw", "Confédération Construction",
+                "Febelcem", "Fedbeton", "Bouwunie",
+            ],
+            "policy": [
+                "PFAS asfalt", "PFAS enrobé",
+                "openbare aanbesteding wegen", "marché public voirie",
+                "AWV budget", "SPW Mobilité budget",
+                "CO2 wegenbouw", "CO2 construction routière",
+                "circulaire economie bouw", "économie circulaire construction",
+            ],
+            "broad": [
+                "wegenwerken België", "travaux routiers Belgique",
+                "wegeninfrastructuur België",
+                "verkeersveiligheid België", "sécurité routière Belgique",
+                "fietsinfrastructuur België",
+            ],
+        },
     },
 }
