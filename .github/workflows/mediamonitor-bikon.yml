@@ -16,6 +16,11 @@ on:
     - cron: "40 5 * * 1,3,5"
     - cron: "40 6 * * 1,3,5"
   workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: "Force lookback window in hours (test run). Leave empty for a normal run. A test run does NOT update the schedule clock."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -79,10 +84,17 @@ jobs:
           GMAIL_APP_PASSWORD:     ${{ secrets.GMAIL_APP_PASSWORD }}
           BIKON_MONITOR_TO_ADDR:  ${{ secrets.BIKON_MONITOR_TO_ADDR }}
         run: |
-          python main.py --profile bikon
+          if [ -n "${{ github.event.inputs.lookback_hours }}" ]; then
+            echo "Test run: forced lookback of ${{ github.event.inputs.lookback_hours }}h (schedule clock untouched)."
+            python main.py --profile bikon --lookback-hours "${{ github.event.inputs.lookback_hours }}"
+          else
+            python main.py --profile bikon
+          fi
 
       - name: Stamp send time
-        if: steps.gate.outputs.skip != 'true'
+        # Skip stamping on forced-lookback test runs so they do not disturb the
+        # Mon/Wed/Fri schedule clock.
+        if: steps.gate.outputs.skip != 'true' && github.event.inputs.lookback_hours == ''
         run: |
           mkdir -p _mediamonitor/data
           TZ=Europe/Brussels date '+%Y-%m-%dT%H:%M:%S%:z' > _mediamonitor/data/last_sent_bikon.txt
