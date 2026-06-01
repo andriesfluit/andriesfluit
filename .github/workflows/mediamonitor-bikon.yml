@@ -43,11 +43,13 @@ jobs:
       - name: Skip if already sent today
         id: gate
         run: |
-          # Manual "Run workflow" triggers always run. The idempotency gate
-          # is only there to dedupe the two scheduled crons (DST coverage).
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          # Force-run only for explicit test dispatches (a lookback_hours
+          # override). Every other trigger (scheduled cron, or a plain dispatch
+          # from the cloud cron backstop) dedupes on the day stamp, so firing
+          # the dispatch daily is idempotent and never double-sends.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.lookback_hours }}" ]; then
             echo "skip=false" >> $GITHUB_OUTPUT
-            echo "Manual trigger, bypassing idempotency gate."
+            echo "Forced test run (lookback ${{ github.event.inputs.lookback_hours }}h)."
             exit 0
           fi
           STAMP_FILE="_mediamonitor/data/last_sent_bikon.txt"

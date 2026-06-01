@@ -19,6 +19,11 @@ on:
     - cron: "30 5 * * 1-5"
     - cron: "30 6 * * 1-5"
   workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: "Force lookback window in hours (test run). Leave empty for a normal run. A test run does NOT update the schedule clock."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -41,11 +46,13 @@ jobs:
       - name: Skip if already sent today
         id: gate
         run: |
-          # Manual "Run workflow" triggers always run — the idempotency gate
-          # is only there to dedupe the two scheduled crons (DST coverage).
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          # Force-run only for explicit test dispatches (a lookback_hours
+          # override). Every other trigger (scheduled cron, or a plain dispatch
+          # from the cloud cron backstop) dedupes on the day stamp, so firing
+          # the dispatch daily is idempotent and never double-sends.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.lookback_hours }}" ]; then
             echo "skip=false" >> $GITHUB_OUTPUT
-            echo "Manual trigger — bypassing idempotency gate."
+            echo "Forced test run (lookback ${{ github.event.inputs.lookback_hours }}h)."
             exit 0
           fi
           STAMP_FILE="_mediamonitor/data/last_sent.txt"
@@ -84,10 +91,17 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MONITOR_TO_ADDR:    ${{ secrets.MONITOR_TO_ADDR }}
         run: |
-          python main.py
+          if [ -n "${{ github.event.inputs.lookback_hours }}" ]; then
+            echo "Test run: forced lookback of ${{ github.event.inputs.lookback_hours }}h (schedule clock untouched)."
+            python main.py --lookback-hours "${{ github.event.inputs.lookback_hours }}"
+          else
+            python main.py
+          fi
 
       - name: Stamp send time
-        if: steps.gate.outputs.skip != 'true'
+        # Skip stamping on forced-lookback test runs so they do not disturb the
+        # weekday schedule clock.
+        if: steps.gate.outputs.skip != 'true' && github.event.inputs.lookback_hours == ''
         run: |
           mkdir -p _mediamonitor/data
           # ISO datetime with Brussels offset. main.py reads this to compute
