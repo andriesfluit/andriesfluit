@@ -29369,5 +29369,525 @@
       "education": 2,
       "weather": 19
     }
+  },
+  {
+    "date": "2026-06-01",
+    "generated_at": "2026-06-01T11:03:03+02:00",
+    "last_checked_at": "2026-06-01T11:03:03+02:00",
+    "total_articles": 559,
+    "trump_articles": 8,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "core_percentage_name": 1.4,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 1.4,
+    "indirect_references": 0,
+    "wide_total_articles": 733,
+    "wide_trump_articles": 11,
+    "wide_percentage": 1.5,
+    "wide_trump_articles_expanded": 12,
+    "wide_percentage_expanded": 1.6,
+    "macro_percentage": 1.4,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 21,
+    "cross_outlet_dup_groups": 10,
+    "cross_outlet_dup_rate": 3.8,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.8,
+    "breadth": 0.33,
+    "deviation": 0.52,
+    "smoothed_pct": 2.71,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 50,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 48,
+        "today": 12,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "google_nl_business": {
+        "fetched": 69,
+        "today": 19,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 35,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 27,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 25,
+        "today": 7,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 69,
+        "kept": 37,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.7
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 42,
+        "kept": 42,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.76
+      },
+      "lecho": {
+        "fetched": 89,
+        "today": 37,
+        "kept": 37,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.7
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 55,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 74,
+        "kept": 70,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 23,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 25,
+        "today": 11,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 35,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Dat de Belgische kiezer zich afkeert van Trump, is behoorlijk paradoxaal - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZk5ldXByUW9oaXk5aGRWS3dBT1ZOc1RLcTVtZG1reEQyRlZBMTJvV1Nzak5SekxWalZodmxEMlQwdDNfMTlLVUwwbkdKVlV6ZGRQUTR4c096ejdwUm5Bd3RWbXVxUnNxX1hjUTRaeGtGVFlXRDNDNkNXbWhpZ2wtNFRQTXJ0ZFltbVM2dHl3Y0kwMUkwM1JDMER6YW5HY1B0UWluWUx4X3VObDVkWnRDeDgxdmM0QnJ0U2ZZ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Hij is volledig verlamd”: bron onthult dat Netanyahu mogelijke deal tussen VS en Iran als “ronduit rampzalig” beschouwt en Trump schuld geeft van “debacle”",
+        "url": "https://www.hln.be/buitenland/hij-is-volledig-verlamd-bron-onthult-dat-netanyahu-mogelijke-deal-tussen-vs-en-iran-als-ronduit-rampzalig-beschouwt-en-trump-schuld-geeft-van-debacle~a3d312a6e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Belgen keren zich af van Trump: ruim de helft van onze landgenoten beschouwt VS als tegenstander",
+        "url": "https://www.hln.be/binnenland/belgen-keren-zich-af-van-trump-ruim-de-helft-van-onze-landgenoten-beschouwt-vs-als-tegenstander~a0acb6f0/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Iran valt Amerikaanse basis aan na nieuwe ‘zelfverdedigingsaanvallen’ VS • Trump gelooft nog in akkoord: ‘Blijf rustig, alles komt goed’",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-valt-amerikaanse-basis-aan-na-nieuwe-zelfverdedigingsaanvallen-vs-trump-gelooft-nog-in-akkoord-blijf-rustig-alles-komt-goed~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "EN DIRECT - Guerre au Moyen-Orient: Macron salue les \"efforts déterminés\" de Trump",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/06/01/en-direct-guerre-au-moyen-orient-les-etats-unis-et-liran-sattaquent-mutuellement-malgre-le-cessez-le-feu-FHNFHD77AFGRRPCW5BZOECHOIY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump et le refus de la science",
+        "url": "https://www.lalibre.be/debats/opinions/2026/06/01/trump-et-le-refus-de-la-science-ZMQTAONTVNGUVOMS5K5QUUQGMU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-président de la Fed reçoit un prix pour avoir résisté aux pressions de Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNODZ1Wm11VW5FVTNYOV9ablVMWjhNa2trbU52UU5PVWo5WnBPY3djNFRkV0JzTS0zMUFvcjVzdF9rMEl4TDRJbjlYa3ozNEdVU1V5NDQxWjZrMTNtWmJ5emlDa0g3SkswOURnU0w5RXIwMXlrX2R2cGg2dlE1OHhjclFZLUVWM3dCWEI1VGpVdWVNOXM0VFpYenpOekUwTWJadTdrX1JORlpPRlVrMmFQLTlrSUNJMXBucFZQWnNpcWVRb1FkcFdrVmVybWRnMHJjSUhYblRVY1Q?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "“Détendez-vous, tout finira par s’arranger”: Trump répond aux critiques sur l’absence d’accord avec l’Iran",
+        "url": "https://www.7sur7.be/monde/detendez-vous-tout-finira-par-sarranger-trump-repond-aux-critiques-sur-labsence-daccord-avec-liran~af77d7dba/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Ook een ‘somber’ land als het onze moet niet weten van Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcjc0ZDJPbDYxcmpRWGF5RkRxaWZqQmpPZ3ZsdVAyN3BObW1mZ1ZwWGEzc1dYNE45bm45S3VBODZKNXVvQ0QzeFMxczVKV08wM29QR09LbU9GekNpLW5NS1UzbFh1RVJhamZFNG9RanNZdUJReDJqX0lRdFJTOWYzeWFLMF96bnY3dVNvMDVCdUxGMHBmUG5hUjEzblgxeXNMbTBHQWJwNUMzdw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis stelt ICE-arrestaties voor als ‘strijd tegen buitenaardse wezens’ - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRGJsMXltclBqVFQtcXdZaktxakh4MUNpbEVLMV90WWItdGVOTU9HNnBoajNtSzVUOUpaRWFOd1ZZOVJXRUlRNTNOYWZmd3A2X2J3Ukw0WlpsTmZJV1RYdmduRm04a0dHMnlfMnNJOEFFY0lYNDlZMjgzclF1NVJmSVNsWngtWWFTdkU1YTVDNnpzMExlZktDb0xBRDNCMGtQS2dyTWh0NDhTRE4wSDNqTkgzaUlVbERVQnU5YnJJNA?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Nieuw medisch rapport stelt dat Trump in uitstekende gezondheid verkeert - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTFl6X2VtVkdwYktkT2k1UnlZWXR4Mk15MzFBR1dqblduczNSbzlOS21TNDNXOFdCTkN0aXNfOEZoWTdfakZDaXhURkZTQWdtcXl5aHJGZEM2TWtNcUljd3plZk5QakhJOXRyRTFTOW5KM3RaZ1VLcEZxcHlqUEVhU3FYNGQyUFhQUHp5Wk9rZWVKVmRKOHBiNVczajdVOC0ySmNjckhNeUs1bGxKcU5pdHNLWUQ2TTc5ZW1xMVdxQ1dwb0xsT0lqVGxhWVg?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Dat de Belgische kiezer zich afkeert van Trump, is behoorlijk paradoxaal - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZk5ldXByUW9oaXk5aGRWS3dBT1ZOc1RLcTVtZG1reEQyRlZBMTJvV1Nzak5SekxWalZodmxEMlQwdDNfMTlLVUwwbkdKVlV6ZGRQUTR4c096ejdwUm5Bd3RWbXVxUnNxX1hjUTRaeGtGVFlXRDNDNkNXbWhpZ2wtNFRQTXJ0ZFltbVM2dHl3Y0kwMUkwM1JDMER6YW5HY1B0UWluWUx4X3VObDVkWnRDeDgxdmM0QnJ0U2ZZ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Hij is volledig verlamd”: bron onthult dat Netanyahu mogelijke deal tussen VS en Iran als “ronduit rampzalig” beschouwt en Trump schuld geeft van “debacle”",
+        "url": "https://www.hln.be/buitenland/hij-is-volledig-verlamd-bron-onthult-dat-netanyahu-mogelijke-deal-tussen-vs-en-iran-als-ronduit-rampzalig-beschouwt-en-trump-schuld-geeft-van-debacle~a3d312a6e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Belgen keren zich af van Trump: ruim de helft van onze landgenoten beschouwt VS als tegenstander",
+        "url": "https://www.hln.be/binnenland/belgen-keren-zich-af-van-trump-ruim-de-helft-van-onze-landgenoten-beschouwt-vs-als-tegenstander~a0acb6f0/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Iran valt Amerikaanse basis aan na nieuwe ‘zelfverdedigingsaanvallen’ VS • Trump gelooft nog in akkoord: ‘Blijf rustig, alles komt goed’",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-valt-amerikaanse-basis-aan-na-nieuwe-zelfverdedigingsaanvallen-vs-trump-gelooft-nog-in-akkoord-blijf-rustig-alles-komt-goed~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump na nieuwe Amerikaanse aanvallen op Iran: “Alles komt uiteindelijk goed”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-na-nieuwe-amerikaanse-aanvallen-op-iran-alles-komt-uiteindelijk-goed/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "EN DIRECT - Guerre au Moyen-Orient: Macron salue les \"efforts déterminés\" de Trump",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/06/01/en-direct-guerre-au-moyen-orient-les-etats-unis-et-liran-sattaquent-mutuellement-malgre-le-cessez-le-feu-FHNFHD77AFGRRPCW5BZOECHOIY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump et le refus de la science",
+        "url": "https://www.lalibre.be/debats/opinions/2026/06/01/trump-et-le-refus-de-la-science-ZMQTAONTVNGUVOMS5K5QUUQGMU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'ex-président de la Fed reçoit un prix pour avoir résisté aux pressions de Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNODZ1Wm11VW5FVTNYOV9ablVMWjhNa2trbU52UU5PVWo5WnBPY3djNFRkV0JzTS0zMUFvcjVzdF9rMEl4TDRJbjlYa3ozNEdVU1V5NDQxWjZrMTNtWmJ5emlDa0g3SkswOURnU0w5RXIwMXlrX2R2cGg2dlE1OHhjclFZLUVWM3dCWEI1VGpVdWVNOXM0VFpYenpOekUwTWJadTdrX1JORlpPRlVrMmFQLTlrSUNJMXBucFZQWnNpcWVRb1FkcFdrVmVybWRnMHJjSUhYblRVY1Q?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "“Détendez-vous, tout finira par s’arranger”: Trump répond aux critiques sur l’absence d’accord avec l’Iran",
+        "url": "https://www.7sur7.be/monde/detendez-vous-tout-finira-par-sarranger-trump-repond-aux-critiques-sur-labsence-daccord-avec-liran~af77d7dba/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 8,
+      "putin": 1,
+      "macron": 2,
+      "netanyahu": 1,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 1,
+      "macron": 2,
+      "netanyahu": 2,
+      "zelensky": 5,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 33,
+      "crime": 12,
+      "eu": 35,
+      "politics": 18,
+      "be_gov": 12,
+      "culture": 12,
+      "tech": 14,
+      "economy": 14,
+      "sports": 36,
+      "health": 15,
+      "climate": 4,
+      "migration": 2,
+      "education": 7,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 41,
+      "crime": 22,
+      "eu": 40,
+      "politics": 26,
+      "be_gov": 14,
+      "culture": 14,
+      "tech": 21,
+      "economy": 16,
+      "sports": 48,
+      "health": 22,
+      "climate": 4,
+      "migration": 5,
+      "education": 7,
+      "weather": 10
+    }
   }
 ]
