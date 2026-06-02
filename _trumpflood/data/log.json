@@ -29892,38 +29892,38 @@
   },
   {
     "date": "2026-06-02",
-    "generated_at": "2026-06-02T10:15:05+02:00",
-    "last_checked_at": "2026-06-02T16:38:24+02:00",
-    "total_articles": 425,
-    "trump_articles": 7,
-    "percentage": 1.6,
-    "core_percentage": 1.6,
-    "core_percentage_name": 1.6,
-    "trump_articles_expanded": 7,
-    "core_percentage_expanded": 1.6,
-    "indirect_references": 0,
-    "wide_total_articles": 582,
-    "wide_trump_articles": 11,
-    "wide_percentage": 1.9,
-    "wide_trump_articles_expanded": 11,
-    "wide_percentage_expanded": 1.9,
-    "macro_percentage": 2.6,
-    "qualifying_outlets": 19,
+    "generated_at": "2026-06-02T21:57:08+02:00",
+    "last_checked_at": "2026-06-02T21:57:08+02:00",
+    "total_articles": 833,
+    "trump_articles": 14,
+    "percentage": 1.7,
+    "core_percentage": 1.7,
+    "core_percentage_name": 1.7,
+    "trump_articles_expanded": 16,
+    "core_percentage_expanded": 1.9,
+    "indirect_references": 2,
+    "wide_total_articles": 1206,
+    "wide_trump_articles": 24,
+    "wide_percentage": 2.0,
+    "wide_trump_articles_expanded": 26,
+    "wide_percentage_expanded": 2.2,
+    "macro_percentage": 2.8,
+    "qualifying_outlets": 31,
     "core_outlets_total": 19,
-    "core_outlets_active": 17,
-    "active_core_fraction": 0.895,
-    "cross_outlet_dup_headlines": 26,
-    "cross_outlet_dup_groups": 13,
-    "cross_outlet_dup_rate": 6.1,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 67,
+    "cross_outlet_dup_groups": 33,
+    "cross_outlet_dup_rate": 8.0,
     "zone": "wet",
     "label": "The zone is getting wet",
     "narrative": "Among the top-covered figures today.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.4,
-    "breadth": 0.29,
-    "deviation": 0.63,
-    "smoothed_pct": 2.69,
+    "dominance": 0.93,
+    "breadth": 0.44,
+    "deviation": 0.67,
+    "smoothed_pct": 2.7,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
     "theme_rank": 12,
@@ -29931,115 +29931,115 @@
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 19,
-        "kept": 19,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 10.53
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_politics": {
-        "fetched": 51,
-        "today": 8,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_world": {
-        "fetched": 40,
-        "today": 7,
-        "kept": 4,
+        "today": 25,
+        "kept": 25,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 25.0
+        "share": 4.0
+      },
+      "google_nl_politics": {
+        "fetched": 47,
+        "today": 20,
+        "kept": 20,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.0
+      },
+      "google_nl_world": {
+        "fetched": 53,
+        "today": 33,
+        "kept": 26,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 11.54
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 16,
-        "kept": 12,
+        "today": 47,
+        "kept": 41,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 8.33
+        "share": 2.44
       },
       "google_nl_tech": {
-        "fetched": 57,
-        "today": 11,
-        "kept": 8,
+        "fetched": 62,
+        "today": 48,
+        "kept": 40,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 18,
-        "kept": 15,
+        "today": 46,
+        "kept": 42,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 38,
-        "today": 4,
-        "kept": 4,
+        "fetched": 32,
+        "today": 9,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 41,
-        "today": 4,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 43,
+        "today": 18,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
       },
       "google_fr_business": {
-        "fetched": 47,
-        "today": 4,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 53,
+        "today": 18,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
       },
       "vrt": {
         "fetched": 50,
-        "today": 22,
-        "kept": 22,
+        "today": 47,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 60,
-        "kept": 43,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.33
+        "today": 96,
+        "kept": 56,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
         "trump": 1,
-        "trump_expanded": 1,
+        "trump_expanded": 2,
         "share": 3.33
       },
       "demorgen": {
-        "fetched": 29,
-        "today": 19,
-        "kept": 19,
-        "trump": 3,
+        "fetched": 26,
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
         "trump_expanded": 3,
-        "share": 15.79
+        "share": 8.7
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -30051,144 +30051,144 @@
       },
       "gva": {
         "fetched": 50,
-        "today": 49,
-        "kept": 49,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 39,
-        "kept": 39,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 21,
-        "kept": 21,
+        "today": 36,
+        "kept": 35,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 11,
-        "kept": 11,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 7,
-        "kept": 7,
+        "today": 29,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 12,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 23,
-        "kept": 23,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 36,
-        "kept": 36,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.78
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 58,
-        "kept": 58,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "septsursept": {
-        "fetched": 30,
         "today": 17,
         "kept": 17,
         "trump": 1,
         "trump_expanded": 1,
         "share": 5.88
       },
+      "lalibre": {
+        "fetched": 100,
+        "today": 88,
+        "kept": 88,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.14
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 82,
+        "kept": 80,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 3.75
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 100,
+        "kept": 100,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 13.33
+      },
       "bx1": {
         "fetched": 10,
-        "today": 7,
-        "kept": 7,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 10,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 62,
+        "kept": 40,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.5
       },
       "lesoir_g": {
-        "fetched": 100,
-        "today": 7,
-        "kept": 7,
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0.0
+        "share": 0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 3,
-        "kept": 3,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 16,
-        "kept": 15,
+        "today": 53,
+        "kept": 53,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 98,
-        "today": 19,
-        "kept": 17,
+        "fetched": 100,
+        "today": 57,
+        "kept": 54,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 39,
-        "today": 3,
-        "kept": 1,
+        "fetched": 55,
+        "today": 29,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 53,
-        "today": 6,
-        "kept": 6,
+        "fetched": 74,
+        "today": 33,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -30217,22 +30217,22 @@
     ],
     "matches": [
       {
-        "title": "Israël stond klaar om Beiroet opnieuw te bombarderen, maar Trump besliste er anders over - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONlRFWmtUMDJvZmVHLWdVUFdvU1Vyaks2bDl0ZXhvVFdGbTBlUkI4MlYtYTJZakhmazlIY0FhcThtSnNGVXBNTzlTVjdnVXozcGhEd254Y2ZST1B6Uy1DbldYVklIbkVUaXJaZ01PU0EwYzFXcnd5ZDRzMWU5dnM3Uml3aTduMDB0MVRmMnBfSDlONkx1TGZNZDRRY1VMSk1DSndhNUZNam4yc3R0ZmpRRDBKTlJTQTBGa21acmJCV1diOFBydUdBa1JjemRlWjNSTC1oUg?oc=5",
-        "source": "standaard",
-        "name_only": true
-      },
-      {
-        "title": "Regering-Trump trekt omstreden compensatiefonds voor “slachtoffers van justitie” in, melden media",
-        "url": "https://www.hln.be/buitenland/regering-trump-trekt-omstreden-compensatiefonds-voor-slachtoffers-van-justitie-in-melden-media~a79c6d94/",
+        "title": "Trump tekent decreet dat AI voor het eerst aan regels onderwerpt",
+        "url": "https://www.hln.be/buitenland/trump-tekent-decreet-dat-ai-voor-het-eerst-aan-regels-onderwerpt~a79c6d94/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - Axios: Trump noemt Netanyahu in telefoongesprek ‘knettergek’ na Israëlisch dreigement Beiroet te bombarderen: ‘Wat ben je in godsnaam aan het doen?’",
-        "url": "https://www.demorgen.be/snelnieuws/live-axios-trump-noemt-netanyahu-in-telefoongesprek-knettergek-na-israelisch-dreigement-beiroet-te-bombareren-wat-ben-je-in-godsnaam-aan-het-doen~be9c4f82/",
+        "title": "“Blijf van ons land af”: luxeresort dat Ivanka Trump en Jared Kushner willen bouwen op privé-eiland in Middellandse Zee krijgt wind van voren",
+        "url": "https://www.hln.be/buitenland/blijf-van-ons-land-af-luxeresort-dat-ivanka-trump-en-jared-kushner-willen-bouwen-op-prive-eiland-in-middellandse-zee-krijgt-wind-van-voren~ad330345/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Corruptieonderzoek in Albanië naar luxeresorts van Jared Kushner en Ivanka Trump",
+        "url": "https://www.demorgen.be/nieuws/corruptieonderzoek-in-albanie-naar-luxeresorts-van-jared-kushner-en-ivanka-trump~b06a2626/",
         "source": "demorgen",
-        "name_only": true
+        "name_only": false
       },
       {
         "title": "‘Ernstigste corruptie in moderne Amerikaanse geschiedenis’: controversieel miljardenfonds voor medestanders Trump komt er voorlopig toch niet",
@@ -30241,9 +30241,27 @@
         "name_only": true
       },
       {
-        "title": "In het tijdperk-Trump trekt Canada richting Europa: gas voor Duitsland, wapens uit Zweden",
-        "url": "https://www.demorgen.be/nieuws/in-het-tijdperk-trump-trekt-canada-richting-europa-gas-voor-duitsland-wapens-uit-zweden~bd0cae7d/",
+        "title": "Live - Na vertrek van Tulsi Gabbard: Trump benoemt vertrouweling Bill Pulte tot hoofd inlichtingendiensten",
+        "url": "https://www.demorgen.be/snelnieuws/live-na-vertrek-van-tulsi-gabbard-trump-benoemt-bill-pulte-tot-waarnemend-directeur-van-nationale-inlichtingendiensten~b13cc951/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Bill Pulte, proche de Trump sans expérience en sécurité nationale, nommé à la tête du renseignement américain",
+        "url": "https://www.rtbf.be/article/bill-pulte-proche-de-trump-sans-experience-en-securite-nationale-nomme-a-la-tete-du-renseignement-americain-11734080",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Un fidèle, responsable d'une agence fédérale du logement : voici la personnalité que Trump a décidé de nommer à la tête du renseignement",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/02/un-fidele-responsable-dune-agence-federale-du-logement-voici-la-personnalite-que-trump-a-decide-de-nommer-a-la-tete-du-renseignement-SGHL5RAUE5HOBIVFZD425ZLABY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Cybersécurité: Trump finit par adopter une régulation de l'IA - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdkwybGZJTVptaGx1M3NJTl90dTlOQXc2MHcyN3pIUHJSc2oyY1oxbFBxdmdDUFBzTGxZTEg2WnBpWFZxNVdyaDh1dnRQQmxXcl9Db3RrT1J3am9XUlFNaHo1OFduRFJMUG1kbF9VdURRU0ZaaDlkNzdfaVJTdXYtUmQ5aGUxcTdKYjZJeExzVU9QUWh6MGRBamxRQmNuN244LUxCT2hMMy1lUUhVeER0ekItUVlfbkkteGEtN01UQ3hOTmlfOUhoMGJ3?oc=5",
+        "source": "lecho",
         "name_only": true
       },
       {
@@ -30253,28 +30271,88 @@
         "name_only": true
       },
       {
-        "title": "Trump semble perdre patience avec Netanyahu: “Tu es complètement fou”",
-        "url": "https://www.7sur7.be/monde/trump-semble-perdre-patience-avec-netanyahu-tu-es-completement-fou~a1dba6bc/",
+        "title": "Trump nomme à la tête du renseignement un responsable d'une agence fédérale du logement - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQVEzTlkwR3E0WEpHMjhtTms2UGRiUjAwbGtPcE9scm00OHFwRDdTeTNGd1dreklCeEFKSmk2NGUzYmJsNmNaTkNVXzc2N3E4c2dvcGlhVVJ4elBFYmN6RE04NG5jSDdLbUs4YkMySEM2bklCQ0t2aEIzVWR0NU9ReEp3Skhlalh3MUh2ZjlCTTNIQmtPdWVtVHVhVFBhLWZVbEpDSW0wS2p2bGd2NUxPdjJvd2t0bEZlTW9uUlNkUVN2THFaVXd4c2NjNU0tcUhaVzNSdDUtX0NseV9Vd0NzLTl1bEUtdEV6d2dvbVVyZmc?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Cette décision de Donald Trump qui suscite la polémique et fait craindre le pire aux démocrates: \"Un gars super\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/02/cette-decision-de-donald-trump-qui-suscite-la-polemique-et-fait-craindre-le-pire-aux-democrate-un-gars-super-MSVAOXIGP5CCPAFB5TBQOGMTSA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau coup contre le climat: l’administration Trump démantèle un réseau d’observation océanique",
+        "url": "https://www.7sur7.be/monde/nouveau-coup-contre-le-climat-ladministration-trump-demantele-un-reseau-dobservation-oceanique~a7b33ad3/",
         "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Cybersécurité: Trump finit par adopter une régulation de l’IA",
+        "url": "https://www.7sur7.be/monde/cybersecurite-trump-finit-par-adopter-une-regulation-de-lia~a8acea7b/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump nomme un proche sans expérience à la tête de la sécurité nationale",
+        "url": "https://www.7sur7.be/monde/trump-nomme-un-proche-sans-experience-a-la-tete-de-la-securite-nationale~ae80a24a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Une dictature des monstres”: Richard Gere s’en prend à Trump",
+        "url": "https://www.7sur7.be/people/une-dictature-des-monstres-richard-gere-sen-prend-a-trump~a095dafd/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump staat voor grote test: kan hij Netanyahu intomen? - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMjk3YVlNTFh0MEUwVU9BZ21FZVZ0c3JJSk9RYzVqa2FDalFoM2NBdnNoRGRyd1NtYm1fei11ZlpfWkRzVUZXaEpOaHdtUWM2TU5rbnc4d2NhYXRVSERRbzRNTHhMNUdBeGdnWURSS1Z4cGVPYnNHX056aTJ1cWsxSDJqSVB2dWptMjdmSEZCOHJNb2FQQVhOVmF1R2tpUnpXU19YMWNvNWxOOFZybks1X28tTThPdk55NFdB?oc=5",
+        "source": "detijd_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "‘Ernstigste corruptie in moderne Amerikaanse geschiedenis’: controversieel miljardenfonds voor medestanders Trump komt er voorlopig toch niet - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNeFR0UlJpNVk2QW1YcWtIRzBLVFpPcnZQTjBwaUs5UWtkYXBqSk1feERGOGdtb3VPOFBXdXR3N2dxb0ZDTWp5R1U0VFpXang0ZFJKTEFTRjJsREMzRnhtdVNPQ1B2a3dGdFV0RkNBSTZoS2pGbVRMSUpHMzBNc2RhWDczOWZtd1ZSQU1mWXEzUHpRRDAwXzd6VWtUUEkyZXp5eVpGZng5N1dqd3hxNVBkVnFtRVdxU0pkNVNZLUdDemVRSFZ6T0ZZamt5SnNqZS1OMGJITXhLVTg3MUIyb2pyWUNhbGZNTnpSQ3QyM1hVTHBhMmk1djV0M0tDN2JndGtxWU5jbnVuZEp2X2M?oc=5",
-        "source": "google_nl",
+        "title": "Le coup de folie de Donald Trump : le président américain place un simple fonctionnaire… à la tête des services de renseignement - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT3Q0VG9PLVVvajZVdlVtZkNCUkd4RWQ3M0tOSnpzYXpoSFFTdEUzSXNEMV9zSlJZSF9icVpvd3JXWEs2eE5tbFFOLVBYZVJWZER6bTBBdzdJOFlMRUtqNU84cTZqVjNZT0VtRzVaOVZWeU8tVHdLWGRvRGlKa1RlRU84LW14dl9MOW1RMklTeWViQ0hPU2pBNlNCSEF4Qjc0WktVNFFQUm1DMHZVcTV3c2Q0S1E5ZzRDb3BXUm9KZjFiQzVyejNRV2l0Yi12ODdYU3hYMU9NOWY?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Speciaal aanklager Albanië onderzoekt corruptie rond luxeresorts van Kushner en Trump - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbzdGSnVJM3o1ZlFoUjVBREhydmlBaG5NVkpLYUlYcVZlUzhiNnBMaW5QcGhBZTJqZVBHQ2NZUjE3MG40aWdLdXpGVTVxNkI0VzRTUk81WTk0YmhGNjRjMGVXTWNGcHpnMlBoc1NfRi1YVTlZNkp2Wk5jdFRfRzBGaF9XUE9WNXlRYVhkQlJsNkZ4a0g4MmttTG5OSnVMYXh1UWs5eFRJUFJSRkdoU3NfT3hBMmVCdGUxbEQ2Yk5FSWhIaVJY?oc=5",
+        "source": "google_nl_politics",
         "name_only": true
       },
       {
         "title": "Trump noemt Netanyahu in telefoongesprek 'knettergek' - De Tijd",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZlJOcTd2bjNDTkdaWG9XVUl3ZU9wRUNRSDRTV3dMYmt4WGJMakI3MDczbHI4UHFiNzd1cmt1VHMtUmc5VU5PSjZ2aGR4My1ndFg3dkJLYkF6LXJDc1ZhS2Z4YTgxaExXSmgxem5td2UwMzUzdzEtZ0g3cEVNSS1ib2Z3TzA3NGpvbnJrcDlqb3d2TjZldjM2dkczOFcyTTAwMU9kQ2NIekZZNmg3SXFGNzJ1SzktSzV2YVBSbG5LZEdDYl9weklZWW9ZaEY?oc=5",
-        "source": "google_nl",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "‘Ernstigste corruptie in moderne Amerikaanse geschiedenis’: controversieel miljardenfonds voor medestanders Trump komt er voorlopig toch niet - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNeFR0UlJpNVk2QW1YcWtIRzBLVFpPcnZQTjBwaUs5UWtkYXBqSk1feERGOGdtb3VPOFBXdXR3N2dxb0ZDTWp5R1U0VFpXang0ZFJKTEFTRjJsREMzRnhtdVNPQ1B2a3dGdFV0RkNBSTZoS2pGbVRMSUpHMzBNc2RhWDczOWZtd1ZSQU1mWXEzUHpRRDAwXzd6VWtUUEkyZXp5eVpGZng5N1dqd3hxNVBkVnFtRVdxU0pkNVNZLUdDemVRSFZ6T0ZZamt5SnNqZS1OMGJITXhLVTg3MUIyb2pyWUNhbGZNTnpSQ3QyM1hVTHBhMmk1djV0M0tDN2JndGtxWU5jbnVuZEp2X2M?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Israël stond klaar om Beiroet opnieuw te bombarderen, maar Trump besliste er anders over - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONlRFWmtUMDJvZmVHLWdVUFdvU1Vyaks2bDl0ZXhvVFdGbTBlUkI4MlYtYTJZakhmazlIY0FhcThtSnNGVXBNTzlTVjdnVXozcGhEd254Y2ZST1B6Uy1DbldYVklIbkVUaXJaZ01PU0EwYzFXcnd5ZDRzMWU5dnM3Uml3aTduMDB0MVRmMnBfSDlONkx1TGZNZDRRY1VMSk1DSndhNUZNam4yc3R0ZmpRRDBKTlJTQTBGa21acmJCV1diOFBydUdBa1JjemRlWjNSTC1oUg?oc=5",
+        "source": "google_nl_world",
         "name_only": true
       },
       {
         "title": "Trump zegt enkel met de oorlog in Iran bezig te zijn, maar de realiteit lijkt hem tegen te spreken - HBVL",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNN0QwTTVDRDVwWFpBYnlkMHBTeXJyZ0gwOGRxNTNRZ0Z4ZDR5Y250cUNuVmh2ZHBrMTBNN2lmdUMyVkF3aDVPaHdhTlljNldJUl96NUlha0x4dk45WlRwcWZoZ1ZyaFpkcDgwLWEyMFo1eGhKSlpjcml1c0RVS3k3cG5VOS1CWWhyLXIzNzdBTUFvOWlxdmNYWENCN2xpdldMeEFQam53TFl5Q1NMaTEyTV96YnZSa1hGQWZOdnZ5cWNmNC1IandUOXFSek5SVXhESmtlMngwWDBWc1E?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Toch nieuwe beschietingen tussen Israël en Hezbollah, Trump noemde Netanyahu in telefoongesprek “knettergek” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQOTZhVXVNRFI0T1JjcXZjZDU0WjY2NURncHdVVzJTQ3RPZERwR0FaWDRjNGtBRGY3SkdaWWIyV3JxQ0d1cTd1ZVJLZFhHVkRicFE4Z3ozb1Zra1A2UEszck8xbmJDUDNJQWRUejB2eGJjNWdBRl9TQXFnNXlsTTA1ZXhUbG5xN3FldXotdjlhZHA5TC1BTVdBM29oRGd6SzNMcngzUnBxcXlqUC1HSmMxc29Ba2lEaEhDRmJYd2xCdG5GS0JtRk1mQ2Qzc0JMbFZUUU5LeVM0QnVGRVFKcnVYeV9ScTA0c1ZtcFJSSUIzclVoWms1dV9rWXhFWFhXWnZZYXB6NXN0OA?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
@@ -30285,22 +30363,34 @@
         "name_only": true
       },
       {
-        "title": "Israël stond klaar om Beiroet opnieuw te bombarderen, maar Trump besliste er anders over - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONlRFWmtUMDJvZmVHLWdVUFdvU1Vyaks2bDl0ZXhvVFdGbTBlUkI4MlYtYTJZakhmazlIY0FhcThtSnNGVXBNTzlTVjdnVXozcGhEd254Y2ZST1B6Uy1DbldYVklIbkVUaXJaZ01PU0EwYzFXcnd5ZDRzMWU5dnM3Uml3aTduMDB0MVRmMnBfSDlONkx1TGZNZDRRY1VMSk1DSndhNUZNam4yc3R0ZmpRRDBKTlJTQTBGa21acmJCV1diOFBydUdBa1JjemRlWjNSTC1oUg?oc=5",
-        "source": "standaard",
+        "title": "“Une dictature des monstres”: Richard Gere s’en prend à Trump - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ1kyeFpOa29jMTdtbFU5XzA5b0UxNlgzSV9SQmwtay1HWi1WR0dMd0tuQTZta2ZUQldCZGVoVW5pMHlFWGQ5WUYzMkxLN3Q1WFpFR19Gd0JaakxKMS1VcmFpZTk3TVpucmlCZ1NRenVZSmdaUm9fdU95N2NOb2tvdnRhSWRBS1NDZXdibjFKcjFRSnhRM2hjNDRHUQ?oc=5",
+        "source": "google_fr_world",
         "name_only": true
       },
       {
-        "title": "Regering-Trump trekt omstreden compensatiefonds voor “slachtoffers van justitie” in, melden media",
-        "url": "https://www.hln.be/buitenland/regering-trump-trekt-omstreden-compensatiefonds-voor-slachtoffers-van-justitie-in-melden-media~a79c6d94/",
+        "title": "Les places européennes optimistes après des propos de Donald Trump - Zonebourse",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa3hLYTZ4T2FsM0FlaTdzNHVMaWpiNW02Z0lpdENhclRDelBDMTR5QTkzMngtTG81RVRjbEpSYThDaVZ3X2pzSFYwcEhNVEpjWlVZb3JIWkJBelJrRUU2UWJ3N1A4SDhuN05hMTBrSDlTMHpHTFVadUxaRmp6UmNTSXRHY294bzVvUW9TemRROHB4WUgwV0NldjRyTncxZGg0U0wyUjJfcTNoU3Z4c3ZJa1hHbGNxLTVLSy1ieXdxR3h0bU5ZeUE?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Trump tekent decreet dat AI voor het eerst aan regels onderwerpt",
+        "url": "https://www.hln.be/buitenland/trump-tekent-decreet-dat-ai-voor-het-eerst-aan-regels-onderwerpt~a79c6d94/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - Axios: Trump noemt Netanyahu in telefoongesprek ‘knettergek’ na Israëlisch dreigement Beiroet te bombarderen: ‘Wat ben je in godsnaam aan het doen?’",
-        "url": "https://www.demorgen.be/snelnieuws/live-axios-trump-noemt-netanyahu-in-telefoongesprek-knettergek-na-israelisch-dreigement-beiroet-te-bombareren-wat-ben-je-in-godsnaam-aan-het-doen~be9c4f82/",
+        "title": "“Blijf van ons land af”: luxeresort dat Ivanka Trump en Jared Kushner willen bouwen op privé-eiland in Middellandse Zee krijgt wind van voren",
+        "url": "https://www.hln.be/buitenland/blijf-van-ons-land-af-luxeresort-dat-ivanka-trump-en-jared-kushner-willen-bouwen-op-prive-eiland-in-middellandse-zee-krijgt-wind-van-voren~ad330345/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Corruptieonderzoek in Albanië naar luxeresorts van Jared Kushner en Ivanka Trump",
+        "url": "https://www.demorgen.be/nieuws/corruptieonderzoek-in-albanie-naar-luxeresorts-van-jared-kushner-en-ivanka-trump~b06a2626/",
         "source": "demorgen",
-        "name_only": true
+        "name_only": false
       },
       {
         "title": "‘Ernstigste corruptie in moderne Amerikaanse geschiedenis’: controversieel miljardenfonds voor medestanders Trump komt er voorlopig toch niet",
@@ -30309,9 +30399,27 @@
         "name_only": true
       },
       {
-        "title": "In het tijdperk-Trump trekt Canada richting Europa: gas voor Duitsland, wapens uit Zweden",
-        "url": "https://www.demorgen.be/nieuws/in-het-tijdperk-trump-trekt-canada-richting-europa-gas-voor-duitsland-wapens-uit-zweden~bd0cae7d/",
+        "title": "Live - Na vertrek van Tulsi Gabbard: Trump benoemt vertrouweling Bill Pulte tot hoofd inlichtingendiensten",
+        "url": "https://www.demorgen.be/snelnieuws/live-na-vertrek-van-tulsi-gabbard-trump-benoemt-bill-pulte-tot-waarnemend-directeur-van-nationale-inlichtingendiensten~b13cc951/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Bill Pulte, proche de Trump sans expérience en sécurité nationale, nommé à la tête du renseignement américain",
+        "url": "https://www.rtbf.be/article/bill-pulte-proche-de-trump-sans-experience-en-securite-nationale-nomme-a-la-tete-du-renseignement-americain-11734080",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Un fidèle, responsable d'une agence fédérale du logement : voici la personnalité que Trump a décidé de nommer à la tête du renseignement",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/02/un-fidele-responsable-dune-agence-federale-du-logement-voici-la-personnalite-que-trump-a-decide-de-nommer-a-la-tete-du-renseignement-SGHL5RAUE5HOBIVFZD425ZLABY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Cybersécurité: Trump finit par adopter une régulation de l'IA - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdkwybGZJTVptaGx1M3NJTl90dTlOQXc2MHcyN3pIUHJSc2oyY1oxbFBxdmdDUFBzTGxZTEg2WnBpWFZxNVdyaDh1dnRQQmxXcl9Db3RrT1J3am9XUlFNaHo1OFduRFJMUG1kbF9VdURRU0ZaaDlkNzdfaVJTdXYtUmQ5aGUxcTdKYjZJeExzVU9QUWh6MGRBamxRQmNuN244LUxCT2hMMy1lUUhVeER0ekItUVlfbkkteGEtN01UQ3hOTmlfOUhoMGJ3?oc=5",
+        "source": "lecho",
         "name_only": true
       },
       {
@@ -30321,25 +30429,61 @@
         "name_only": true
       },
       {
-        "title": "Trump semble perdre patience avec Netanyahu: “Tu es complètement fou”",
-        "url": "https://www.7sur7.be/monde/trump-semble-perdre-patience-avec-netanyahu-tu-es-completement-fou~a1dba6bc/",
+        "title": "Trump nomme à la tête du renseignement un responsable d'une agence fédérale du logement - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQVEzTlkwR3E0WEpHMjhtTms2UGRiUjAwbGtPcE9scm00OHFwRDdTeTNGd1dreklCeEFKSmk2NGUzYmJsNmNaTkNVXzc2N3E4c2dvcGlhVVJ4elBFYmN6RE04NG5jSDdLbUs4YkMySEM2bklCQ0t2aEIzVWR0NU9ReEp3Skhlalh3MUh2ZjlCTTNIQmtPdWVtVHVhVFBhLWZVbEpDSW0wS2p2bGd2NUxPdjJvd2t0bEZlTW9uUlNkUVN2THFaVXd4c2NjNU0tcUhaVzNSdDUtX0NseV9Vd0NzLTl1bEUtdEV6d2dvbVVyZmc?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Cette décision de Donald Trump qui suscite la polémique et fait craindre le pire aux démocrates: \"Un gars super\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/02/cette-decision-de-donald-trump-qui-suscite-la-polemique-et-fait-craindre-le-pire-aux-democrate-un-gars-super-MSVAOXIGP5CCPAFB5TBQOGMTSA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau coup contre le climat: l’administration Trump démantèle un réseau d’observation océanique",
+        "url": "https://www.7sur7.be/monde/nouveau-coup-contre-le-climat-ladministration-trump-demantele-un-reseau-dobservation-oceanique~a7b33ad3/",
         "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Cybersécurité: Trump finit par adopter une régulation de l’IA",
+        "url": "https://www.7sur7.be/monde/cybersecurite-trump-finit-par-adopter-une-regulation-de-lia~a8acea7b/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump nomme un proche sans expérience à la tête de la sécurité nationale",
+        "url": "https://www.7sur7.be/monde/trump-nomme-un-proche-sans-experience-a-la-tete-de-la-securite-nationale~ae80a24a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Une dictature des monstres”: Richard Gere s’en prend à Trump",
+        "url": "https://www.7sur7.be/people/une-dictature-des-monstres-richard-gere-sen-prend-a-trump~a095dafd/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump staat voor grote test: kan hij Netanyahu intomen? - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMjk3YVlNTFh0MEUwVU9BZ21FZVZ0c3JJSk9RYzVqa2FDalFoM2NBdnNoRGRyd1NtYm1fei11ZlpfWkRzVUZXaEpOaHdtUWM2TU5rbnc4d2NhYXRVSERRbzRNTHhMNUdBeGdnWURSS1Z4cGVPYnNHX056aTJ1cWsxSDJqSVB2dWptMjdmSEZCOHJNb2FQQVhOVmF1R2tpUnpXU19YMWNvNWxOOFZybks1X28tTThPdk55NFdB?oc=5",
+        "source": "detijd_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 7,
-      "putin": 1,
-      "macron": 0,
-      "netanyahu": 3,
+      "trump": 14,
+      "putin": 2,
+      "macron": 3,
+      "netanyahu": 1,
       "zelensky": 1,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 0,
-      "magnette": 0,
+      "de_wever": 2,
+      "bouchez": 4,
+      "magnette": 1,
       "prevot": 0,
-      "rousseau": 0,
+      "rousseau": 1,
       "francken": 0,
       "crevits": 0,
       "jambon": 0,
@@ -30347,18 +30491,18 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 11,
-      "putin": 1,
-      "macron": 0,
-      "netanyahu": 4,
-      "zelensky": 1,
+      "trump": 24,
+      "putin": 5,
+      "macron": 4,
+      "netanyahu": 3,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 2,
-      "bouchez": 0,
-      "magnette": 0,
+      "de_wever": 4,
+      "bouchez": 6,
+      "magnette": 1,
       "prevot": 0,
-      "rousseau": 0,
+      "rousseau": 1,
       "francken": 0,
       "crevits": 0,
       "jambon": 0,
@@ -30366,36 +30510,36 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 18,
-      "crime": 26,
-      "eu": 20,
-      "politics": 18,
-      "be_gov": 11,
-      "culture": 10,
-      "tech": 12,
-      "economy": 18,
-      "sports": 31,
-      "health": 3,
-      "climate": 3,
-      "migration": 0,
-      "education": 10,
-      "weather": 8
+      "war": 32,
+      "crime": 31,
+      "eu": 39,
+      "politics": 38,
+      "be_gov": 37,
+      "culture": 17,
+      "tech": 36,
+      "economy": 40,
+      "sports": 70,
+      "health": 15,
+      "climate": 4,
+      "migration": 2,
+      "education": 15,
+      "weather": 14
     },
     "wide_themes": {
-      "war": 22,
-      "crime": 30,
-      "eu": 31,
-      "politics": 31,
-      "be_gov": 16,
-      "culture": 13,
-      "tech": 17,
-      "economy": 22,
-      "sports": 50,
-      "health": 4,
-      "climate": 4,
-      "migration": 0,
-      "education": 16,
-      "weather": 12
+      "war": 46,
+      "crime": 44,
+      "eu": 68,
+      "politics": 63,
+      "be_gov": 48,
+      "culture": 21,
+      "tech": 56,
+      "economy": 54,
+      "sports": 101,
+      "health": 18,
+      "climate": 8,
+      "migration": 2,
+      "education": 19,
+      "weather": 21
     }
   }
 ]
