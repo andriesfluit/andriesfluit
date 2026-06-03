@@ -30544,101 +30544,101 @@
   },
   {
     "date": "2026-06-03",
-    "generated_at": "2026-06-03T17:20:11+02:00",
-    "last_checked_at": "2026-06-03T17:20:11+02:00",
-    "total_articles": 744,
-    "trump_articles": 13,
-    "percentage": 1.7,
-    "core_percentage": 1.7,
-    "core_percentage_name": 1.7,
-    "trump_articles_expanded": 13,
-    "core_percentage_expanded": 1.7,
+    "generated_at": "2026-06-03T22:03:51+02:00",
+    "last_checked_at": "2026-06-03T22:03:51+02:00",
+    "total_articles": 907,
+    "trump_articles": 24,
+    "percentage": 2.6,
+    "core_percentage": 2.6,
+    "core_percentage_name": 2.6,
+    "trump_articles_expanded": 24,
+    "core_percentage_expanded": 2.6,
     "indirect_references": 0,
-    "wide_total_articles": 1011,
-    "wide_trump_articles": 18,
-    "wide_percentage": 1.8,
-    "wide_trump_articles_expanded": 18,
-    "wide_percentage_expanded": 1.8,
-    "macro_percentage": 1.9,
-    "qualifying_outlets": 30,
+    "wide_total_articles": 1253,
+    "wide_trump_articles": 36,
+    "wide_percentage": 2.9,
+    "wide_trump_articles_expanded": 36,
+    "wide_percentage_expanded": 2.9,
+    "macro_percentage": 3.7,
+    "qualifying_outlets": 32,
     "core_outlets_total": 19,
     "core_outlets_active": 19,
     "active_core_fraction": 1.0,
-    "cross_outlet_dup_headlines": 34,
-    "cross_outlet_dup_groups": 17,
-    "cross_outlet_dup_rate": 4.6,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "cross_outlet_dup_headlines": 66,
+    "cross_outlet_dup_groups": 33,
+    "cross_outlet_dup_rate": 7.3,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.87,
-    "breadth": 0.47,
-    "deviation": 0.77,
-    "smoothed_pct": 2.66,
+    "dominance": 1.85,
+    "breadth": 0.79,
+    "deviation": 1.18,
+    "smoothed_pct": 2.79,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 12,
+    "theme_rank": 9,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 27,
-        "kept": 27,
+        "today": 26,
+        "kept": 26,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 16,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
       },
       "google_nl_politics": {
         "fetched": 51,
-        "today": 11,
-        "kept": 10,
+        "today": 14,
+        "kept": 14,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 10.0
+        "share": 7.14
       },
       "google_nl_world": {
-        "fetched": 49,
-        "today": 15,
-        "kept": 13,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 7.69
+        "fetched": 52,
+        "today": 24,
+        "kept": 20,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 41,
-        "kept": 37,
+        "today": 49,
+        "kept": 43,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 69,
-        "today": 20,
-        "kept": 17,
+        "fetched": 68,
+        "today": 34,
+        "kept": 27,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 66,
-        "today": 26,
-        "kept": 22,
+        "fetched": 70,
+        "today": 45,
+        "kept": 40,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 29,
+        "fetched": 30,
         "today": 7,
         "kept": 7,
         "trump": 1,
@@ -30646,140 +30646,140 @@
         "share": 14.29
       },
       "google_fr_world": {
-        "fetched": 42,
-        "today": 11,
-        "kept": 8,
-        "trump": 2,
-        "trump_expanded": 2,
+        "fetched": 46,
+        "today": 20,
+        "kept": 16,
+        "trump": 4,
+        "trump_expanded": 4,
         "share": 25.0
       },
       "google_fr_business": {
-        "fetched": 42,
-        "today": 11,
-        "kept": 10,
+        "fetched": 51,
+        "today": 23,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 45,
-        "kept": 45,
+        "today": 44,
+        "kept": 44,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.22
+        "share": 2.27
       },
       "standaard": {
         "fetched": 100,
-        "today": 79,
-        "kept": 45,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 98,
+        "kept": 53,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.89
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.33
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
       },
       "demorgen": {
-        "fetched": 29,
-        "today": 20,
-        "kept": 20,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 15.0
+        "fetched": 27,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "knack": {
         "fetched": 100,
-        "today": 36,
-        "kept": 36,
+        "today": 41,
+        "kept": 38,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 14,
-        "kept": 14,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 26,
-        "kept": 26,
+        "today": 33,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 19,
-        "kept": 19,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 67,
-        "kept": 67,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 4.48
+        "today": 90,
+        "kept": 90,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 4.44
       },
       "lecho": {
         "fetched": 100,
-        "today": 64,
-        "kept": 63,
+        "today": 82,
+        "kept": 80,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 1.59
+        "share": 1.25
       },
       "dhnet": {
         "fetched": 100,
-        "today": 93,
-        "kept": 91,
+        "today": 94,
+        "kept": 93,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 1.1
+        "share": 1.08
       },
       "septsursept": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 13.33
       },
       "bx1": {
         "fetched": 10,
@@ -30791,56 +30791,56 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 41,
-        "kept": 24,
+        "today": 57,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 42,
-        "kept": 42,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.38
+        "today": 54,
+        "kept": 51,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.92
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 52,
+        "kept": 52,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.92
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 46,
-        "kept": 46,
+        "today": 61,
+        "kept": 61,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 98,
-        "today": 28,
-        "kept": 26,
+        "fetched": 99,
+        "today": 40,
+        "kept": 40,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.85
+        "share": 2.5
       },
       "trends_g": {
-        "fetched": 77,
-        "today": 26,
-        "kept": 19,
+        "fetched": 75,
+        "today": 31,
+        "kept": 28,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 5.26
+        "share": 3.57
       },
       "tendances_g": {
-        "fetched": 86,
-        "today": 32,
-        "kept": 32,
+        "fetched": 80,
+        "today": 36,
+        "kept": 36,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -30875,14 +30875,26 @@
         "name_only": true
       },
       {
-        "title": "Er blijken “cruciale details” te ontbreken in medisch rapport van Trump, volgens artsen",
-        "url": "https://www.hln.be/buitenland/er-blijken-cruciale-details-te-ontbreken-in-medisch-rapport-van-trump-volgens-artsen~a7772564/",
+        "title": "Europa’s dilemma: technologisch ‘soeverein’ worden én Trump niet tegen de borst stoten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU3l4QURQb25tM1hYVEhEbnp2VE0tQmVrN0F2azNxdktIZDdaUkY2STVhRWk5R0hLYjVON3pLaDlXaU11bHpPNU96clNCZHk4WDY1R0FYQ3VqRFNjenM2MldEMVVYLTVpZEhLTXgzZjVIeWhMVVVJZEVEQmJSQm1fbUFxUkZZNDA3MjlDdURYMnhTU3FaNzFHYURIb0syNU5OaS1SSXpkREFiMFZ2bnlmZ0sxWHVfc1BiVTNES1VVV1YydlBCZF9wWXVjWQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Hoe staat Trump ervoor, 5 maanden voor de midterms? Onze VS-correspondente Greet De Keyser blikt vooruit: “Niet alle Republikeinen volgen Trump blindelings”",
+        "url": "https://www.hln.be/verkiezingen-vs/hoe-staat-trump-ervoor-5-maanden-voor-de-midterms-onze-vs-correspondente-greet-de-keyser-blikt-vooruit-niet-alle-republikeinen-volgen-trump-blindelings~a8f4605d/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - Tegenvaller voor Trump in Iowa: zijn MAGA-kandidaat verliest Republikeinse voorverkiezing • Hooggerechtshof staat Republikeinse kieskaart toe in Alabama",
-        "url": "https://www.demorgen.be/snelnieuws/live-tegenvaller-voor-trump-in-iowa-zijn-maga-kandidaat-verliest-republikeinse-voorverkiezing-hooggerechtshof-staat-republikeinse-kieskaart-toe-in-alabama~b13cc951/",
+        "title": "Trump wil dat Vance en Rubio binnen twee jaar gooi naar presidentschap doen: “Zou onklopbaar zijn”",
+        "url": "https://www.hln.be/buitenland/trump-wil-dat-vance-en-rubio-binnen-twee-jaar-gooi-naar-presidentschap-doen-zou-onklopbaar-zijn~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Netanyahu minimaliseert ruzie met Trump en claimt eensgezindheid over Libanon",
+        "url": "https://www.demorgen.be/snelnieuws/live-1-dode-en-63-gewonden-bij-iraanse-aanval-op-luchthaven-koeweit-beelden-tonen-zware-schade-in-terminal~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
@@ -30893,14 +30905,32 @@
         "name_only": true
       },
       {
-        "title": "‘Toen ik tankte, dacht ik: oei, dit doet pijn’: hoe kijken Trump-kiezers naar de torenhoge benzineprijzen?",
-        "url": "https://www.demorgen.be/nieuws/toen-ik-tankte-dacht-ik-oei-dit-doet-pijn-hoe-kijken-trump-kiezers-naar-de-torenhoge-benzineprijzen~b31d7eb3/",
-        "source": "demorgen",
+        "title": "Plots haalt een Trump-favoriet het niet in de voorverkiezingen: wat is er gebeurd in Iowa?",
+        "url": "https://www.nieuwsblad.be/buitenland/plots-haalt-een-trump-favoriet-het-niet-in-de-voorverkiezingen-wat-is-er-gebeurd-in-iowa/155045489.html",
+        "source": "nieuwsblad",
         "name_only": true
       },
       {
-        "title": "DIRECT - Guerre au Moyen-Orient : Trump dit qu'il \"aimerait rencontrer\" le guide suprême iranien Mojtaba Khamenei",
-        "url": "https://www.lalibre.be/international/moyen-orient/2026/06/03/direct-guerre-au-moyen-orient-larmee-americaine-affirme-avoir-repousse-des-attaques-de-missiles-iraniens-dans-le-golfe-UJRNGQHVCBC6DO5EFXR6DXJADM/",
+        "title": "Plots haalt een Trump-favoriet het niet in de voorverkiezingen: wat is er gebeurd in Iowa?",
+        "url": "https://www.hbvl.be/buitenland/plots-haalt-een-trump-favoriet-het-niet-in-de-voorverkiezingen-wat-is-er-gebeurd-in-iowa/155124355.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Netanyahu minimise sa brouille avec Trump et affirme qu’ils sont d’accord sur le Liban",
+        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-netanyahu-minimise-sa-brouille-avec-trump-et-affirme-qu-ils-sont-d-accord-sur-le-liban-11734783",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump assistera au prochain sommet de l'Otan en Turquie",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/03/trump-assistera-au-prochain-sommet-de-lotan-en-turquie-CXHWSR7RXBHLTOCFONYGSH3KWM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Alors que l’Iran cible encore le Koweït et le Bahreïn suite à des attaques américaines, Trump accuse Netanyahou d'être \"complètement fou\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/06/03/liran-cible-encore-le-koweit-et-le-bahrein-suite-a-des-attaques-americaines-6SQ72WPOP5GCBEM2QBNLI2THC4/",
         "source": "lalibre",
         "name_only": true
       },
@@ -30917,21 +30947,57 @@
         "name_only": true
       },
       {
-        "title": "L'administration Trump taxe l'Europe de laxisme face au travail forcé pour proposer de nouveaux droits de douane - lecho.be",
+        "title": "L'administration Trump taxe l'Europe de laxisme face au travail forcé pour proposer de nouveaux droits de douane - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPeWdMT203SmgzQ1ZiLTVyQkhvdFZCQmh1aXpSZFA2c21FRkdsT2liVnMxZl90Q1R5X3BvOTVtRldDNWJCaEhEQ1BzYWMtOTdaRl94dElaTzBHcEdwSEpOU0R3OFlxWjBCYUlJNjNRU2xBRE9vdmEtR01kNE9sbjU3OW1ObXF4endWclYtN05ycTNLQXJSd2o2V2VfS01yTXZMcG9IZW9kTzJFRWIwWE9TVjNjanJsaFBiVXFPRUl4X01uWDQ3RFRJTUN0el8wdXM0REFKYmYzT1JRNXcxTjlwVW56aS1PMDh6U0FQam85ZEZSd0UteTQ2ZnVTU3FFNmxIdUVXN0s2d05fRkZfZ0xaVHhB?oc=5",
         "source": "lecho",
         "name_only": true
       },
       {
-        "title": "DIRECT - Guerre au Moyen-Orient : Trump dit qu'il \"aimerait rencontrer\" le guide suprême iranien Mojtaba Khamenei",
-        "url": "https://www.dhnet.be/actu/monde/2026/06/03/direct-guerre-au-moyen-orient-trump-dit-quil-aimerait-rencontrer-le-guide-supreme-iranien-mojtaba-khamenei-NSU2YKGBEFHVRAR6C32O6RCJBY/",
+        "title": "Donald Trump: prix Nobel  de la mauvaise foi!",
+        "url": "https://www.dhnet.be/actu/edito/2026/06/03/donald-trump-prix-nobel-de-la-mauvaise-foi-AG6OTXJX65EDVEFMFEMBRCSMZY/",
         "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu minimise une brouille avec Trump et affirme qu’ils sont d’accord sur le Liban",
+        "url": "https://www.7sur7.be/monde/netanyahu-minimise-une-brouille-avec-trump-et-affirme-quils-sont-daccord-sur-le-liban~ac11163d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump assistera au prochain sommet de l’Otan en Turquie: “Le sommet le plus important de l’histoire”",
+        "url": "https://www.7sur7.be/monde/trump-assistera-au-prochain-sommet-de-lotan-en-turquie-le-sommet-le-plus-important-de-lhistoire~a6aceb11/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trop bon pour être vrai? Ces “détails cruciaux” qui manquent au bilan de santé de Trump",
+        "url": "https://www.7sur7.be/monde/trop-bon-pour-etre-vrai-ces-details-cruciaux-qui-manquent-au-bilan-de-sante-de-trump~a7772564/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump évoque une possible union Vance-Rubio pour la présidentielle 2028: “Imbattable”",
+        "url": "https://www.7sur7.be/monde/trump-evoque-une-possible-union-vance-rubio-pour-la-presidentielle-2028-imbattable~a5c726cf/",
+        "source": "septsursept",
         "name_only": true
       },
       {
         "title": "Netanyahou affirme partager avec Trump l’objectif de désarmer le Hezbollah et démilitariser le Liban - Le Soir",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSFhRX1NsbEdpbjV5bTB2Q2k3ZnVpaHRJcXBJVmFmNl83cWNQZmk1OUIwZTEtYzJRbzB0TzNnazZLSzBWd1NqU0EwbHlxcWNFdFZEV0ZZUjVaQ2Q4SlU2Z2h6c1p3ZEp4RzBlNWVPYjU5UVV6X1pPMXFCWlk5bFFMSHowZGlGRXZVaHNuRkwzaUpHZEZDRkJST1RyY3JGX1lONl83ZjZJUG9HcTM1RXE3ekFCZHFOVlNwekhlaDRUTTZPUQ?oc=5",
         "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump assistera au prochain sommet de l’Otan en Turquie - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSnJZckhxUk8wN1VZZmZEZnZIMjVpX0JDSTBfclY2S1VEUWw3MTZOYmM2ZjBEUGoxQXFJLTR4MGhoT1lnR1VMbVl4RzBNanAwQ2VPeVFseEJDSmROVWlzaVNyMnAxWWtSR0lfdVp0QUNpUXdpdTI4OXRlQ1JzcThaVWhDeThOWE55TzQ5UjBHelNVNHVWZDZ6cEFwMGhXenc0cjR6OQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump sera-t-il présent au prochain sommet de l’Otan, « sans doute le plus important de l’histoire de l’organisation » ? - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWWIwZ2x3eExfU3ZmMmRzekFjOEJHSTNDUlcyWEFfeGsxb3hUaTBDd00yOXZEdE1heVVmTEd1aFRaNzlhN1FWRTFfSk1sY3NVakNMZVRudjNhX1dlUkNtbjZLM2VvTUZwZGJKLVRrOENGSTdVU09PZDNwOVNQS3QydTFiNVVzdTVVUlNWazNVTlVZR3JJODdtbXo5MWRXZW5GZ19iNWhoWkN3VFFRUW9WUS02U1d5S3I0dHN5RkNHeTNVMEhrRXQ0WA?oc=5",
+        "source": "sudinfo_g",
         "name_only": true
       },
       {
@@ -30949,14 +31015,38 @@
     ],
     "wide_matches": [
       {
+        "title": "Guerre au Moyen-Orient : Netanyahu minimise sa brouille avec Trump et affirme qu’ils sont d’accord sur le Liban - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaGl0SlRfNVNLeWxJd2QyVVF5eXZqc2x2eGV3RURKaDNfMnB4a0JLMXlXdkFkaFFvUEhBOS1YNFNNNDVGeUJ4ZGZmWk9sTHNwWmJPeU84SmRpTW1Mc0lsMjdkUjcwdkNNUl9FbVc3RmJuOUVOYTJ2eFlJdHdCZDIxbGZLWmNTMEV6NmxibEdlbmhQU1hQbzBmT2RLM2RjazRuZUg2T1l3UW1aZHBxeUpsZEYyT2x4S2V4THZ5SFIya0RSbEQ1bkhGODdRWmtpQnl0VElVVUpUeWdoVTlLZzJr?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "En direct : Netanyahu dit que Trump et lui \"sont d'accord sur les points essentiels concernant l'Iran\" - France 24",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSjQzcU1aM3dyblBfVXlTRlNaSzFfZmkyTzdPTWtkTF92T1lFRWY1bDdTUmFVci1ocTRUN2xWdGNfVnNSME9VWUFLaUJvdDhKSThqXzZHQTh5bXhCcndoT0JlZk0wRTFyMFF6bjZXR0dIYkJralpLZkpWT2VkVDZ4OGxHa05pRmhFbE5zR2hyUjY4SVZxckZuV0J2VmdrOHQ0M0lFSUxETzMybmJkVF92T1lJZkk5eWVocDl1VlU2VUhJcEl6YUp3REZfcw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
         "title": "Trump zwaait met nieuwe importheffingen voor EU, dit keer om dwangarbeid - RTL.nl",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON1p3N0dCYTh6Tno4dVR6cDFBZlVTVG5kb0JrWjYxbllrZm9vUnpXZkF1d01tbHduZXMyQnkzc1lVeU45NVd3QXpwQ3FwUTNLTHJmdXJMVjJabnF5Qk43cTEyQnFCR21wVlhzUzZJWTBfQVFrT3lEYUlvS1RjMzlIclR4YXNYcV9nRUpiNTNUVVEzSkdzNEpoSE9xQUpaWTEzSWhnQzQteDQxVTZ6ZklkN2xYMHM?oc=5",
         "source": "google_nl_politics",
         "name_only": true
       },
       {
+        "title": "Plots haalt een Trump-favoriet het niet in de voorverkiezingen: wat is er gebeurd in Iowa? - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRnVNOGtVZWlMZHgtM3NHNkNYS3hsWnBVSG11YUh4c0RVXy1zNDg0LVpwOVIzOEJzSEdVb2NPMHFibmxLZ2pIdjNlemFrRGJzREowZTBrU1dvSnp3Znh5VVF6aW15YktHdWNTSkVYNjFRUjhkNFdxM1hTd1VzdS1CWTVCVnNMTU1VZGNwTUJ5SGdtaEFRRnNJYi0zREdfeDI0QmMxRnY3MDZ5NzlTanU5VEdxbll3RmF6NnJRa1RnRDRWMnlHVkwwNUFidHRWM19ybHdfSGo5aw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
         "title": "Regering-Trump ziet af van omstreden compensatiefonds voor slachtoffers van Amerikaanse justitie - VRT",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSDJ2aERjQ2Y2WDE5a09YUm1tSkxZelNjZTMydV9CSGMwYi16SzdxUjA0RFJrNWNFcnoxRnNuaTAyOTB0SHA4bmpfZUM1N1VtdUc4WEpPUjVjRFM4aVNGMElFektvaFdIQ3NOWHBoQ1dVdUpua3E5cmh6ZWVFcm9jX00xbDdtdGFETlRoaWJRTzNNVW5LRXZubW1R?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump haalt hypermoderne onderzoeksapparatuur weer weg uit de oceaan: \"Ook militair gezien is dit zeer dom\" - VRT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRzBHYm5RUkVGUENkckp2aWtZR1BNdFA1VHpqY0ZEcEZydzRJTDkzM19tX3BGRW1FNkFKektJYmg2N1FaZGpBQkxEamN3Mi1xUlFvWllyNThpS1RMZVFXWG50dHhQLU1RWGNDdHMxS1R3OGJ2MDRnR1J1TTZkU0dHR2tGdHdfTnlLV2RaQ25nTTlqSHZiTl9vc2k1a2g2ODJaaF9QdlJtcw?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
@@ -30973,8 +31063,20 @@
         "name_only": true
       },
       {
-        "title": "Le nouveau projet immobilier du couple Kushner-Trump suscite la polémique - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWlNsWEYxQ3BNbTVsd0U3QUhUUUV2eE9rUmtZTTZsZENJS0xXNzFYNC05X3hvY3NXMFpncDhicEV3LWVGLXZYQzh1ckY0OWVJdVFjU3BiUWFpVVM1MDBBd0lBTDRVRWJUYU4wOUR4NXJIQkRZZmppazVRbTNnSG9aSHpuTnQxVlVsM1N0TFo4OVJzY1VYUmQyQV8xVUFoLWZwZWE5bndYZXFwQWdsSXA5b19IcEpIM3FIUnFxay01TUpsdm50eDZpT0R6cXlEU1JjZk1CZnFPNVNpVkdqYzgzUmNBRFh6UlNUSFpSQm1kcW5qdXRicUMxQzF5M1k3elhlSkYxR21WajB5aXpLZHhHb1lDQQ?oc=5",
+        "title": "Trump assistera au prochain sommet de l’Otan en Turquie: “Le sommet le plus important de l’histoire” - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSHZkVzBLSDFHNTV1SGF2WDBJWHpjR19rckljem5aSHpPM1luemwyOUl2ZGZLQWE3elRQRkhubWsyY19ublQ1UUpiSElYSVNCMWRpemZlN3I4c08tQmMzZzNCclY1ZUxBQ0dzcFk3LW5JdDBZV18xekZoVl9ZYTNRSWd0YTJnaVd4NklCclR0cnpUa0JrY3duaFIyaW1PUTYybjRJVU1DNXcxbW9hWWM0MEk4RVRuaXIwaTJITFFGbWpSRUpXZDltb2ZGRzc?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trop bon pour être vrai? Ces “détails cruciaux” qui manquent au bilan de santé de Trump - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSk1XOEt4d3VFOTZUdTIwXzJxZDE5LVVUT01ZMTgzR3pieHF2dGdWMkR0ZDNJOXBPSnhHLWJuUGhzZlZ5X3VQalRTS2VBcUphcTJxSFZfMFVDUTBUd1R5YTI2V28wUzJVUm9NRmY2dmdVMGxsMXprS3ZDbmZqT0M1Q3I4TmRkU3VYMlpDU0taRjF0TU5uWmVfSENmTW04cW9Neno1TVRmNnVoandnakJIY1NSRExlcHR3T3UxbHBR?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump évoque une possible union Vance-Rubio pour la présidentielle 2028: “Imbattable” - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZktCVzVmYTNybndQTVdXWXVVN0NXTGNrR0J1LW5vYnlUX1p4SXlUZ1NZZ0F6VWstZ1gxRGhxREZaWWUta1NrajJROU5JNjI3OE9JM29Zb1dhV3d5Z2NGYllOUlVadThTSjR0ZzUzSmhFcWRGRDdaeGc1aGV5SUVJdmpBcHo3UFdBTEtmTG9qcjJIZUNzZ2tBd19iZ1RrS0dwZE5VUEJpTXk5c1BQT0NGN0oxTWhHclY3aXow?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
@@ -30985,14 +31087,26 @@
         "name_only": true
       },
       {
-        "title": "Er blijken “cruciale details” te ontbreken in medisch rapport van Trump, volgens artsen",
-        "url": "https://www.hln.be/buitenland/er-blijken-cruciale-details-te-ontbreken-in-medisch-rapport-van-trump-volgens-artsen~a7772564/",
+        "title": "Europa’s dilemma: technologisch ‘soeverein’ worden én Trump niet tegen de borst stoten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU3l4QURQb25tM1hYVEhEbnp2VE0tQmVrN0F2azNxdktIZDdaUkY2STVhRWk5R0hLYjVON3pLaDlXaU11bHpPNU96clNCZHk4WDY1R0FYQ3VqRFNjenM2MldEMVVYLTVpZEhLTXgzZjVIeWhMVVVJZEVEQmJSQm1fbUFxUkZZNDA3MjlDdURYMnhTU3FaNzFHYURIb0syNU5OaS1SSXpkREFiMFZ2bnlmZ0sxWHVfc1BiVTNES1VVV1YydlBCZF9wWXVjWQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Hoe staat Trump ervoor, 5 maanden voor de midterms? Onze VS-correspondente Greet De Keyser blikt vooruit: “Niet alle Republikeinen volgen Trump blindelings”",
+        "url": "https://www.hln.be/verkiezingen-vs/hoe-staat-trump-ervoor-5-maanden-voor-de-midterms-onze-vs-correspondente-greet-de-keyser-blikt-vooruit-niet-alle-republikeinen-volgen-trump-blindelings~a8f4605d/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - Tegenvaller voor Trump in Iowa: zijn MAGA-kandidaat verliest Republikeinse voorverkiezing • Hooggerechtshof staat Republikeinse kieskaart toe in Alabama",
-        "url": "https://www.demorgen.be/snelnieuws/live-tegenvaller-voor-trump-in-iowa-zijn-maga-kandidaat-verliest-republikeinse-voorverkiezing-hooggerechtshof-staat-republikeinse-kieskaart-toe-in-alabama~b13cc951/",
+        "title": "Trump wil dat Vance en Rubio binnen twee jaar gooi naar presidentschap doen: “Zou onklopbaar zijn”",
+        "url": "https://www.hln.be/buitenland/trump-wil-dat-vance-en-rubio-binnen-twee-jaar-gooi-naar-presidentschap-doen-zou-onklopbaar-zijn~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Netanyahu minimaliseert ruzie met Trump en claimt eensgezindheid over Libanon",
+        "url": "https://www.demorgen.be/snelnieuws/live-1-dode-en-63-gewonden-bij-iraanse-aanval-op-luchthaven-koeweit-beelden-tonen-zware-schade-in-terminal~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
@@ -31003,14 +31117,38 @@
         "name_only": true
       },
       {
-        "title": "‘Toen ik tankte, dacht ik: oei, dit doet pijn’: hoe kijken Trump-kiezers naar de torenhoge benzineprijzen?",
-        "url": "https://www.demorgen.be/nieuws/toen-ik-tankte-dacht-ik-oei-dit-doet-pijn-hoe-kijken-trump-kiezers-naar-de-torenhoge-benzineprijzen~b31d7eb3/",
-        "source": "demorgen",
+        "title": "Plots haalt een Trump-favoriet het niet in de voorverkiezingen: wat is er gebeurd in Iowa?",
+        "url": "https://www.nieuwsblad.be/buitenland/plots-haalt-een-trump-favoriet-het-niet-in-de-voorverkiezingen-wat-is-er-gebeurd-in-iowa/155045489.html",
+        "source": "nieuwsblad",
         "name_only": true
       },
       {
-        "title": "DIRECT - Guerre au Moyen-Orient : Trump dit qu'il \"aimerait rencontrer\" le guide suprême iranien Mojtaba Khamenei",
-        "url": "https://www.lalibre.be/international/moyen-orient/2026/06/03/direct-guerre-au-moyen-orient-larmee-americaine-affirme-avoir-repousse-des-attaques-de-missiles-iraniens-dans-le-golfe-UJRNGQHVCBC6DO5EFXR6DXJADM/",
+        "title": "Plots haalt een Trump-favoriet het niet in de voorverkiezingen: wat is er gebeurd in Iowa?",
+        "url": "https://www.gva.be/buitenland/plots-haalt-een-trump-favoriet-het-niet-in-de-voorverkiezingen-wat-is-er-gebeurd-in-iowa/155103086.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Plots haalt een Trump-favoriet het niet in de voorverkiezingen: wat is er gebeurd in Iowa?",
+        "url": "https://www.hbvl.be/buitenland/plots-haalt-een-trump-favoriet-het-niet-in-de-voorverkiezingen-wat-is-er-gebeurd-in-iowa/155124355.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Netanyahu minimise sa brouille avec Trump et affirme qu’ils sont d’accord sur le Liban",
+        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-netanyahu-minimise-sa-brouille-avec-trump-et-affirme-qu-ils-sont-d-accord-sur-le-liban-11734783",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump assistera au prochain sommet de l'Otan en Turquie",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/03/trump-assistera-au-prochain-sommet-de-lotan-en-turquie-CXHWSR7RXBHLTOCFONYGSH3KWM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Alors que l’Iran cible encore le Koweït et le Bahreïn suite à des attaques américaines, Trump accuse Netanyahou d'être \"complètement fou\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/06/03/liran-cible-encore-le-koweit-et-le-bahrein-suite-a-des-attaques-americaines-6SQ72WPOP5GCBEM2QBNLI2THC4/",
         "source": "lalibre",
         "name_only": true
       },
@@ -31027,21 +31165,57 @@
         "name_only": true
       },
       {
-        "title": "L'administration Trump taxe l'Europe de laxisme face au travail forcé pour proposer de nouveaux droits de douane - lecho.be",
+        "title": "L'administration Trump taxe l'Europe de laxisme face au travail forcé pour proposer de nouveaux droits de douane - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPeWdMT203SmgzQ1ZiLTVyQkhvdFZCQmh1aXpSZFA2c21FRkdsT2liVnMxZl90Q1R5X3BvOTVtRldDNWJCaEhEQ1BzYWMtOTdaRl94dElaTzBHcEdwSEpOU0R3OFlxWjBCYUlJNjNRU2xBRE9vdmEtR01kNE9sbjU3OW1ObXF4endWclYtN05ycTNLQXJSd2o2V2VfS01yTXZMcG9IZW9kTzJFRWIwWE9TVjNjanJsaFBiVXFPRUl4X01uWDQ3RFRJTUN0el8wdXM0REFKYmYzT1JRNXcxTjlwVW56aS1PMDh6U0FQam85ZEZSd0UteTQ2ZnVTU3FFNmxIdUVXN0s2d05fRkZfZ0xaVHhB?oc=5",
         "source": "lecho",
         "name_only": true
       },
       {
-        "title": "DIRECT - Guerre au Moyen-Orient : Trump dit qu'il \"aimerait rencontrer\" le guide suprême iranien Mojtaba Khamenei",
-        "url": "https://www.dhnet.be/actu/monde/2026/06/03/direct-guerre-au-moyen-orient-trump-dit-quil-aimerait-rencontrer-le-guide-supreme-iranien-mojtaba-khamenei-NSU2YKGBEFHVRAR6C32O6RCJBY/",
+        "title": "Donald Trump: prix Nobel  de la mauvaise foi!",
+        "url": "https://www.dhnet.be/actu/edito/2026/06/03/donald-trump-prix-nobel-de-la-mauvaise-foi-AG6OTXJX65EDVEFMFEMBRCSMZY/",
         "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu minimise une brouille avec Trump et affirme qu’ils sont d’accord sur le Liban",
+        "url": "https://www.7sur7.be/monde/netanyahu-minimise-une-brouille-avec-trump-et-affirme-quils-sont-daccord-sur-le-liban~ac11163d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump assistera au prochain sommet de l’Otan en Turquie: “Le sommet le plus important de l’histoire”",
+        "url": "https://www.7sur7.be/monde/trump-assistera-au-prochain-sommet-de-lotan-en-turquie-le-sommet-le-plus-important-de-lhistoire~a6aceb11/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trop bon pour être vrai? Ces “détails cruciaux” qui manquent au bilan de santé de Trump",
+        "url": "https://www.7sur7.be/monde/trop-bon-pour-etre-vrai-ces-details-cruciaux-qui-manquent-au-bilan-de-sante-de-trump~a7772564/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump évoque une possible union Vance-Rubio pour la présidentielle 2028: “Imbattable”",
+        "url": "https://www.7sur7.be/monde/trump-evoque-une-possible-union-vance-rubio-pour-la-presidentielle-2028-imbattable~a5c726cf/",
+        "source": "septsursept",
         "name_only": true
       },
       {
         "title": "Netanyahou affirme partager avec Trump l’objectif de désarmer le Hezbollah et démilitariser le Liban - Le Soir",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSFhRX1NsbEdpbjV5bTB2Q2k3ZnVpaHRJcXBJVmFmNl83cWNQZmk1OUIwZTEtYzJRbzB0TzNnazZLSzBWd1NqU0EwbHlxcWNFdFZEV0ZZUjVaQ2Q4SlU2Z2h6c1p3ZEp4RzBlNWVPYjU5UVV6X1pPMXFCWlk5bFFMSHowZGlGRXZVaHNuRkwzaUpHZEZDRkJST1RyY3JGX1lONl83ZjZJUG9HcTM1RXE3ekFCZHFOVlNwekhlaDRUTTZPUQ?oc=5",
         "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump assistera au prochain sommet de l’Otan en Turquie - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSnJZckhxUk8wN1VZZmZEZnZIMjVpX0JDSTBfclY2S1VEUWw3MTZOYmM2ZjBEUGoxQXFJLTR4MGhoT1lnR1VMbVl4RzBNanAwQ2VPeVFseEJDSmROVWlzaVNyMnAxWWtSR0lfdVp0QUNpUXdpdTI4OXRlQ1JzcThaVWhDeThOWE55TzQ5UjBHelNVNHVWZDZ6cEFwMGhXenc0cjR6OQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump sera-t-il présent au prochain sommet de l’Otan, « sans doute le plus important de l’histoire de l’organisation » ? - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWWIwZ2x3eExfU3ZmMmRzekFjOEJHSTNDUlcyWEFfeGsxb3hUaTBDd00yOXZEdE1heVVmTEd1aFRaNzlhN1FWRTFfSk1sY3NVakNMZVRudjNhX1dlUkNtbjZLM2VvTUZwZGJKLVRrOENGSTdVU09PZDNwOVNQS3QydTFiNVVzdTVVUlNWazNVTlVZR3JJODdtbXo5MWRXZW5GZ19iNWhoWkN3VFFRUW9WUS02U1d5S3I0dHN5RkNHeTNVMEhrRXQ0WA?oc=5",
+        "source": "sudinfo_g",
         "name_only": true
       },
       {
@@ -31058,16 +31232,16 @@
       }
     ],
     "comparisons": {
-      "trump": 13,
-      "putin": 7,
+      "trump": 24,
+      "putin": 4,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 3,
+      "netanyahu": 3,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 3,
-      "magnette": 2,
+      "de_wever": 1,
+      "bouchez": 2,
+      "magnette": 1,
       "prevot": 0,
       "rousseau": 0,
       "francken": 0,
@@ -31077,16 +31251,16 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 18,
-      "putin": 11,
+      "trump": 36,
+      "putin": 8,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 3,
+      "netanyahu": 5,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 5,
-      "magnette": 2,
+      "de_wever": 1,
+      "bouchez": 4,
+      "magnette": 1,
       "prevot": 1,
       "rousseau": 0,
       "francken": 0,
@@ -31096,36 +31270,36 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 40,
-      "crime": 39,
-      "eu": 36,
-      "politics": 38,
-      "be_gov": 29,
-      "culture": 15,
-      "tech": 21,
-      "economy": 28,
-      "sports": 35,
-      "health": 15,
-      "climate": 4,
-      "migration": 1,
-      "education": 17,
-      "weather": 6
-    },
-    "wide_themes": {
-      "war": 52,
-      "crime": 50,
+      "war": 34,
+      "crime": 46,
       "eu": 50,
-      "politics": 54,
-      "be_gov": 35,
-      "culture": 19,
-      "tech": 35,
-      "economy": 37,
-      "sports": 56,
-      "health": 19,
-      "climate": 5,
-      "migration": 1,
+      "politics": 50,
+      "be_gov": 40,
+      "culture": 24,
+      "tech": 26,
+      "economy": 30,
+      "sports": 48,
+      "health": 11,
+      "climate": 4,
+      "migration": 3,
       "education": 20,
       "weather": 8
+    },
+    "wide_themes": {
+      "war": 53,
+      "crime": 67,
+      "eu": 69,
+      "politics": 69,
+      "be_gov": 49,
+      "culture": 30,
+      "tech": 46,
+      "economy": 37,
+      "sports": 84,
+      "health": 16,
+      "climate": 6,
+      "migration": 3,
+      "education": 22,
+      "weather": 15
     }
   }
 ]
