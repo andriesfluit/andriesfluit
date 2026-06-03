@@ -176,12 +176,15 @@ def run(profile, to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resol
                 a["summary_long"] = (a.get("summary") or "").strip()
                 a["summary_source"] = "rss_snippet_noenrich"
 
-    # Sort items per company by Claude score desc, then recency desc.
+    # Sort items per bucket by Claude score desc, then recency desc, and cap
+    # the number shown. A noisy bucket (e.g. bikon's technique track) should
+    # not bloat the mail; a smaller message also avoids Gmail throttling.
     for items in filtered.values():
         items.sort(key=lambda a: (
             -(a.get("score") or 0),
             -(a["published_dt"].timestamp() if a.get("published_dt") else 0),
         ))
+        del items[profile.max_per_bucket:]
 
     post_total = sum(len(v) for v in filtered.values())
 
