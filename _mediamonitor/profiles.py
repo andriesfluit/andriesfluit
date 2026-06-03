@@ -31,6 +31,7 @@ class Profile:
     to_addr_env: str
     default_to: str
     render_footer: str
+    max_per_bucket: int
 
 
 # --- akkanto: the original client issue-monitor framing -----------------
@@ -114,6 +115,7 @@ AKKANTO = Profile(
     to_addr_env="MONITOR_TO_ADDR",
     default_to="andries.fluit@akkanto.com",
     render_footer=AKKANTO_FOOTER,
+    max_per_bucket=40,
 )
 
 BIKON = Profile(
@@ -127,6 +129,7 @@ BIKON = Profile(
     to_addr_env="BIKON_MONITOR_TO_ADDR",
     default_to="andries@bikon.ai",
     render_footer=BIKON_FOOTER,
+    max_per_bucket=15,
 )
 
 PROFILES = {"akkanto": AKKANTO, "bikon": BIKON}
