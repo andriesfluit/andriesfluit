@@ -30541,5 +30541,501 @@
       "education": 19,
       "weather": 21
     }
+  },
+  {
+    "date": "2026-06-03",
+    "generated_at": "2026-06-03T10:35:49+02:00",
+    "last_checked_at": "2026-06-03T10:35:49+02:00",
+    "total_articles": 475,
+    "trump_articles": 6,
+    "percentage": 1.3,
+    "core_percentage": 1.3,
+    "core_percentage_name": 1.3,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 1.5,
+    "indirect_references": 1,
+    "wide_total_articles": 624,
+    "wide_trump_articles": 8,
+    "wide_percentage": 1.3,
+    "wide_trump_articles_expanded": 9,
+    "wide_percentage_expanded": 1.4,
+    "macro_percentage": 1.5,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 14,
+    "cross_outlet_dup_groups": 7,
+    "cross_outlet_dup_rate": 2.9,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.43,
+    "breadth": 0.28,
+    "deviation": 0.59,
+    "smoothed_pct": 2.6,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 12,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 52,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 48,
+        "today": 12,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 67,
+        "today": 6,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 62,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_fr_world": {
+        "fetched": 42,
+        "today": 3,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 55,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 32,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 63,
+        "kept": 37,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 73,
+        "kept": 73,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 66,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 77,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Regering-Trump ziet af van omstreden compensatiefonds voor slachtoffers van Amerikaanse justitie",
+        "url": "https://vrtnws.be/p.Wk6M9o9Ex",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "“Wie had gedacht dat zo’n maniak president van de Verenigde Staten kon worden?”: acteur Richard Gere haalt fel uit naar Trump",
+        "url": "https://www.hln.be/celebrities/wie-had-gedacht-dat-zon-maniak-president-van-de-verenigde-staten-kon-worden-acteur-richard-gere-haalt-fel-uit-naar-trump~a730b43b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Tegenvaller voor Trump in Iowa: zijn MAGA-kandidaat verliest Republikeinse voorverkiezing • Hooggerechtshof staat Republikeinse kieskaart toe in Alabama",
+        "url": "https://www.demorgen.be/snelnieuws/live-tegenvaller-voor-trump-in-iowa-zijn-maga-kandidaat-verliest-republikeinse-voorverkiezing-hooggerechtshof-staat-republikeinse-kieskaart-toe-in-alabama~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Toen ik tankte, dacht ik: oei, dit doet pijn’: hoe kijken Trump-kiezers naar de torenhoge benzineprijzen?",
+        "url": "https://www.demorgen.be/nieuws/toen-ik-tankte-dacht-ik-oei-dit-doet-pijn-hoe-kijken-trump-kiezers-naar-de-torenhoge-benzineprijzen~b31d7eb3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "”L’Albanie n’est pas à vendre” : le nouveau projet immobilier du couple Kushner-Trump suscite la polémique",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/03/lalbanie-nest-pas-a-vendre-le-nouveau-projet-immobilier-du-couple-kushner-trump-suscite-la-polemique-EJTLV6VMWNGIHOZIEPJ23LLANU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le projet fou d'Ivanka Trump suscite la polémique : \"L’Albanie n’est pas à vendre !”",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/03/le-projet-fou-divanka-trump-suscite-la-polemique-lalbanie-nest-pas-a-vendre-VIM6BSPVIFHYJJ4IOZRJ4UODSE/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
+        "title": "Le gouvernement Trump renonce à son “fonds anti-instrumentalisation” de la justice",
+        "url": "https://www.7sur7.be/monde/le-gouvernement-trump-renonce-a-son-fonds-anti-instrumentalisation-de-la-justice~a4acac57/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Regering-Trump ziet af van omstreden compensatiefonds voor slachtoffers van Amerikaanse justitie - VRT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSDJ2aERjQ2Y2WDE5a09YUm1tSkxZelNjZTMydV9CSGMwYi16SzdxUjA0RFJrNWNFcnoxRnNuaTAyOTB0SHA4bmpfZUM1N1VtdUc4WEpPUjVjRFM4aVNGMElFektvaFdIQ3NOWHBoQ1dVdUpua3E5cmh6ZWVFcm9jX00xbDdtdGFETlRoaWJRTzNNVW5LRXZubW1R?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Sept Etats démocrates attaquent en justice le « deal » de TotalEnergies et de l’administration Trump pour renoncer à l’éolien en mer - Le Monde.fr",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQYkcxMDFJU0NyY2JXRXVmcl8wclM5V1VUSUxxSWc4R2dSejdUeWVKZmdCY2FLZGpENEc4ZjJfMEFqMmFvYU5zNVp5XzlITGE2WnpfdnhnUkhKWlBLbTViSHdzZTFzYU1tWGtuOUJEbjd4bW5tdHJwQTRUbzczNGpCTHN5VXQzWWZxZlBWeG1DWEt6RTE5Ulp5Y1VHQmEwUWRrQWREbVJFdHlPTk45ZE5CWVNvMjFmM3dhdVZNdnNKYWVJdUZCZlA4aXZZSnhwZ2FpUlV4RzVqR3diRzRwVi1WU0E2UFBPZUVscHlKTU9WeGtqMzY5ekZfM2wzRlplZkNkeno5UkFlY0w1RDlJS0REam1EczBuT3FETEE?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump ziet af van omstreden compensatiefonds voor slachtoffers van Amerikaanse justitie",
+        "url": "https://vrtnws.be/p.Wk6M9o9Ex",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "“Wie had gedacht dat zo’n maniak president van de Verenigde Staten kon worden?”: acteur Richard Gere haalt fel uit naar Trump",
+        "url": "https://www.hln.be/celebrities/wie-had-gedacht-dat-zon-maniak-president-van-de-verenigde-staten-kon-worden-acteur-richard-gere-haalt-fel-uit-naar-trump~a730b43b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Tegenvaller voor Trump in Iowa: zijn MAGA-kandidaat verliest Republikeinse voorverkiezing • Hooggerechtshof staat Republikeinse kieskaart toe in Alabama",
+        "url": "https://www.demorgen.be/snelnieuws/live-tegenvaller-voor-trump-in-iowa-zijn-maga-kandidaat-verliest-republikeinse-voorverkiezing-hooggerechtshof-staat-republikeinse-kieskaart-toe-in-alabama~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Toen ik tankte, dacht ik: oei, dit doet pijn’: hoe kijken Trump-kiezers naar de torenhoge benzineprijzen?",
+        "url": "https://www.demorgen.be/nieuws/toen-ik-tankte-dacht-ik-oei-dit-doet-pijn-hoe-kijken-trump-kiezers-naar-de-torenhoge-benzineprijzen~b31d7eb3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "”L’Albanie n’est pas à vendre” : le nouveau projet immobilier du couple Kushner-Trump suscite la polémique",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/03/lalbanie-nest-pas-a-vendre-le-nouveau-projet-immobilier-du-couple-kushner-trump-suscite-la-polemique-EJTLV6VMWNGIHOZIEPJ23LLANU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le projet fou d'Ivanka Trump suscite la polémique : \"L’Albanie n’est pas à vendre !”",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/03/le-projet-fou-divanka-trump-suscite-la-polemique-lalbanie-nest-pas-a-vendre-VIM6BSPVIFHYJJ4IOZRJ4UODSE/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
+        "title": "Le gouvernement Trump renonce à son “fonds anti-instrumentalisation” de la justice",
+        "url": "https://www.7sur7.be/monde/le-gouvernement-trump-renonce-a-son-fonds-anti-instrumentalisation-de-la-justice~a4acac57/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 5,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 1,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 4,
+      "magnette": 1,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 8,
+      "putin": 8,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 1,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 6,
+      "magnette": 1,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 25,
+      "crime": 27,
+      "eu": 22,
+      "politics": 21,
+      "be_gov": 25,
+      "culture": 12,
+      "tech": 8,
+      "economy": 19,
+      "sports": 42,
+      "health": 9,
+      "climate": 1,
+      "migration": 4,
+      "education": 11,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 34,
+      "crime": 34,
+      "eu": 25,
+      "politics": 30,
+      "be_gov": 31,
+      "culture": 13,
+      "tech": 11,
+      "economy": 25,
+      "sports": 57,
+      "health": 17,
+      "climate": 2,
+      "migration": 4,
+      "education": 13,
+      "weather": 10
+    }
   }
 ]
