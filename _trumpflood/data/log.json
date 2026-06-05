@@ -31845,5 +31845,579 @@
       "education": 11,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-06-05",
+    "generated_at": "2026-06-05T09:53:20+02:00",
+    "last_checked_at": "2026-06-05T09:53:20+02:00",
+    "total_articles": 401,
+    "trump_articles": 12,
+    "percentage": 3.0,
+    "core_percentage": 3.0,
+    "core_percentage_name": 3.0,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 3.2,
+    "indirect_references": 1,
+    "wide_total_articles": 555,
+    "wide_trump_articles": 15,
+    "wide_percentage": 2.7,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 2.9,
+    "macro_percentage": 3.4,
+    "qualifying_outlets": 19,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 9.0,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.86,
+    "breadth": 0.47,
+    "deviation": 1.36,
+    "smoothed_pct": 2.9,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 55,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 51,
+        "today": 12,
+        "kept": 9,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 22.22
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 65,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 32,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 47,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 60,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 51,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 18,
+        "kept": 18,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 42,
+        "kept": 42,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.76
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 12.5
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Na rel over naamsverandering: Kennedy Center laat naam Trump van gevel verwijderen",
+        "url": "https://www.hln.be/buitenland/na-rel-over-naamsverandering-kennedy-center-laat-naam-trump-van-gevel-verwijderen~a52627a9/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Congres verhoogt druk op Trump om Iran-oorlog te beëindigen, met steun van groep Republikeinen",
+        "url": "https://www.demorgen.be/nieuws/congres-verhoogt-druk-op-trump-om-iran-oorlog-te-beeindigen-met-steun-van-groep-republikeinen~b1c0ffdb/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump: een ‘opperdief’ in oorlogstijd. Dit komt Amerika én zijn bondgenoten duur te staan",
+        "url": "https://www.demorgen.be/meningen/trump-een-opperdief-in-oorlogstijd-dit-komt-amerika-en-zijn-bondgenoten-duur-te-staan~b3199cbc/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump schrapt concert tijdens jubileumviering - Medewerkers Kennedy Center moeten verwijzingen naar Trump meteen verwijderen",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-schrapt-concert-tijdens-jubileumviering-medewerkers-kennedy-center-moeten-verwijzingen-naar-trump-meteen-verwijderen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump investit 700 millions de dollars dans le charbon, l'opposition furieuse",
+        "url": "https://www.rtbf.be/article/donald-trump-investit-700-millions-de-dollars-dans-le-charbon-l-opposition-furieuse-11735504",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Nous ne voulons pas de chanteurs sans talent\" : Trump remplace un concert prévu pour l'anniversaire des Etats-Unis par un meeting",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/05/nous-ne-voulons-pas-de-chanteurs-sans-talent-trump-remplace-un-concert-prevu-pour-lanniversaire-des-etats-unis-par-un-meeting-FUT55YDKLRHWBCQEVCPCI4MBPE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump affirme qu'il \"s'occupera\" de Cuba après \"en avoir terminé\" avec l'Iran : \"J'aime faire une chose à la fois\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/05/washington-place-sous-sanctions-le-president-cubain-et-des-membres-de-la-famille-castro-YKEBTLC4Y5C57LA6X2ASSWAPYQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce vouloir construire une promenade à son nom près d'un monument emblématique de Washington: \"Ça va être magnifique\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/05/trump-annonce-vouloir-construire-une-promenade-a-son-nom-pres-dun-monument-emblematique-de-washington-ca-va-etre-magnifique-KJLKCZEZ2RFZVPJKT2REBT2BAE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce qu'il assistera à la finale NBA à New York",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/05/trump-annonce-quil-assistera-a-la-finale-nba-a-new-york-W3PO4SJW4FBGZIILT4LEPBKG5A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump veut construire une promenade à son nom près d’un monument emblématique de Washington",
+        "url": "https://www.7sur7.be/monde/trump-veut-construire-une-promenade-a-son-nom-pres-dun-monument-emblematique-de-washington~a0e47f6d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Un gouvernement corrompu”: le combat de MMA à la Maison-Blanche suscite des critiques au sein de l’UFC",
+        "url": "https://www.7sur7.be/monde/un-gouvernement-corrompu-le-combat-de-mma-a-la-maison-blanche-suscite-des-critiques-au-sein-de-lufc~ad1cc87d/",
+        "source": "septsursept",
+        "name_only": false
+      },
+      {
+        "title": "“Il peut stopper Netanyahu”: les Palestiniens en appellent à Trump pour mettre fin aux projets israéliens d’annexion",
+        "url": "https://www.7sur7.be/monde/il-peut-stopper-netanyahu-les-palestiniens-en-appellent-a-trump-pour-mettre-fin-aux-projets-israeliens-dannexion~a629bf31/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Nous ne voulons pas de chanteurs sans talent, avec des cachets énormes qui vous endorment » : Donald Trump remplace un concert prévu pour le 250e anniversaire des États-Unis par un meeting - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb3F3aUFkYlRkNHFKeWVmMG85V3Y5LXJINkVjLW01S2dXS0xFYl92aGNFOWdncVI4UnZzVUVNRVpFdE8zR2hyTHphTkFUUG5YUkRnTEtySU5DSENydnYxYXlQQnpsaGk5T2c3WVl3UmtUZG1YY1NveUNDTXN1SFM0Zmloc2QzMnFlYjBrcHJZNmV3dmJNTGJWMUMtTU15M3RDcjRBSmJ5MENJNm1YYW92dUJjT2dWVC1DSFprZDBEeXVSS1NMTmwzUmdn?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump: een ‘opperdief’ in oorlogstijd. Dit komt Amerika én zijn bondgenoten duur te staan - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN1ZLRFZiRUd5a3JJdHFJVGtWcVppRGtONmY0UGtmS0xkMi0tTjlYbVI0TFFCdGlSVk04blVjRVIzR0VDaVprT29SbFpWdmF3bTlPN2R6NlM5SmF1TmVjRy04R2hXNy1FbC1yZGZ4MnpmblNLMUd1cGNQVDRDdnRtZUhUdnpULUdKMjduZUZicVdma1BtYWtMcFZqejgwOWhyRGJjb2VrU3RIMzdSeFJ4dlBKN2FENmRoNlpmVE9tUDFVWmhabnBn?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump schrapt concert tijdens jubileumviering - Medewerkers Kennedy Center moeten verwijzingen naar Trump meteen verwijderen - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOWE5CLTVBTkpJc0JBWFU2TGdRUWRUTnQ0OGNlT3pWVUhsRGl4RUNiNWUxcE5ya05qeWpuTTB6M2JKQnJncEs0ZWM3eWljNzFTNlc5N05Sb1RNY04zNGJTVHgxMGNjYWFqYVpmM2hfTHZ1b19jb3dZdGl1NUppeUJaaFRpamNia1VfUVFIRWhhWDJad25hY2c0UGVGcXlyNW14R3dGT1VpQlNwQktVUm9SUjhpMWtFdjZGcWR4UjVsbXhiazRXSHBfRlZOemFVdTl3T2h4dTJvdGNqTGwtSEFiRmRRYWhFSk16aFQ5MGh1WGNqb3dISm5Ba3R5b3hUNkpZX1EzTUJEY1o2SEJHcHRV?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Na rel over naamsverandering: Kennedy Center laat naam Trump van gevel verwijderen",
+        "url": "https://www.hln.be/buitenland/na-rel-over-naamsverandering-kennedy-center-laat-naam-trump-van-gevel-verwijderen~a52627a9/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Congres verhoogt druk op Trump om Iran-oorlog te beëindigen, met steun van groep Republikeinen",
+        "url": "https://www.demorgen.be/nieuws/congres-verhoogt-druk-op-trump-om-iran-oorlog-te-beeindigen-met-steun-van-groep-republikeinen~b1c0ffdb/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump: een ‘opperdief’ in oorlogstijd. Dit komt Amerika én zijn bondgenoten duur te staan",
+        "url": "https://www.demorgen.be/meningen/trump-een-opperdief-in-oorlogstijd-dit-komt-amerika-en-zijn-bondgenoten-duur-te-staan~b3199cbc/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump schrapt concert tijdens jubileumviering - Medewerkers Kennedy Center moeten verwijzingen naar Trump meteen verwijderen",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-schrapt-concert-tijdens-jubileumviering-medewerkers-kennedy-center-moeten-verwijzingen-naar-trump-meteen-verwijderen/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump schrapt concert tijdens jubileumviering - Medewerkers Kennedy Center moeten verwijzingen naar Trump meteen verwijderen",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-schrapt-concert-tijdens-jubileumviering-medewerkers-kennedy-center-moeten-verwijzingen-naar-trump-meteen-verwijderen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump investit 700 millions de dollars dans le charbon, l'opposition furieuse",
+        "url": "https://www.rtbf.be/article/donald-trump-investit-700-millions-de-dollars-dans-le-charbon-l-opposition-furieuse-11735504",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Nous ne voulons pas de chanteurs sans talent\" : Trump remplace un concert prévu pour l'anniversaire des Etats-Unis par un meeting",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/05/nous-ne-voulons-pas-de-chanteurs-sans-talent-trump-remplace-un-concert-prevu-pour-lanniversaire-des-etats-unis-par-un-meeting-FUT55YDKLRHWBCQEVCPCI4MBPE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump affirme qu'il \"s'occupera\" de Cuba après \"en avoir terminé\" avec l'Iran : \"J'aime faire une chose à la fois\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/05/washington-place-sous-sanctions-le-president-cubain-et-des-membres-de-la-famille-castro-YKEBTLC4Y5C57LA6X2ASSWAPYQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce vouloir construire une promenade à son nom près d'un monument emblématique de Washington: \"Ça va être magnifique\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/05/trump-annonce-vouloir-construire-une-promenade-a-son-nom-pres-dun-monument-emblematique-de-washington-ca-va-etre-magnifique-KJLKCZEZ2RFZVPJKT2REBT2BAE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce qu'il assistera à la finale NBA à New York",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/05/trump-annonce-quil-assistera-a-la-finale-nba-a-new-york-W3PO4SJW4FBGZIILT4LEPBKG5A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump veut construire une promenade à son nom près d’un monument emblématique de Washington",
+        "url": "https://www.7sur7.be/monde/trump-veut-construire-une-promenade-a-son-nom-pres-dun-monument-emblematique-de-washington~a0e47f6d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Un gouvernement corrompu”: le combat de MMA à la Maison-Blanche suscite des critiques au sein de l’UFC",
+        "url": "https://www.7sur7.be/monde/un-gouvernement-corrompu-le-combat-de-mma-a-la-maison-blanche-suscite-des-critiques-au-sein-de-lufc~ad1cc87d/",
+        "source": "septsursept",
+        "name_only": false
+      },
+      {
+        "title": "“Il peut stopper Netanyahu”: les Palestiniens en appellent à Trump pour mettre fin aux projets israéliens d’annexion",
+        "url": "https://www.7sur7.be/monde/il-peut-stopper-netanyahu-les-palestiniens-en-appellent-a-trump-pour-mettre-fin-aux-projets-israeliens-dannexion~a629bf31/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Nous ne voulons pas de chanteurs sans talent, avec des cachets énormes qui vous endorment » : Donald Trump remplace un concert prévu pour le 250e anniversaire des États-Unis par un meeting - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb3F3aUFkYlRkNHFKeWVmMG85V3Y5LXJINkVjLW01S2dXS0xFYl92aGNFOWdncVI4UnZzVUVNRVpFdE8zR2hyTHphTkFUUG5YUkRnTEtySU5DSENydnYxYXlQQnpsaGk5T2c3WVl3UmtUZG1YY1NveUNDTXN1SFM0Zmloc2QzMnFlYjBrcHJZNmV3dmJNTGJWMUMtTU15M3RDcjRBSmJ5MENJNm1YYW92dUJjT2dWVC1DSFprZDBEeXVSS1NMTmwzUmdn?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 12,
+      "putin": 6,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 5,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 15,
+      "putin": 9,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 7,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 16,
+      "crime": 8,
+      "eu": 23,
+      "politics": 24,
+      "be_gov": 11,
+      "culture": 14,
+      "tech": 10,
+      "economy": 10,
+      "sports": 27,
+      "health": 7,
+      "climate": 1,
+      "migration": 1,
+      "education": 18,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 20,
+      "crime": 12,
+      "eu": 28,
+      "politics": 37,
+      "be_gov": 13,
+      "culture": 18,
+      "tech": 12,
+      "economy": 11,
+      "sports": 41,
+      "health": 8,
+      "climate": 1,
+      "migration": 1,
+      "education": 28,
+      "weather": 7
+    }
   }
 ]
