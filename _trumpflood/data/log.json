@@ -32419,5 +32419,465 @@
       "education": 28,
       "weather": 7
     }
+  },
+  {
+    "date": "2026-06-06",
+    "generated_at": "2026-06-06T08:43:43+02:00",
+    "last_checked_at": "2026-06-06T08:43:43+02:00",
+    "total_articles": 344,
+    "trump_articles": 4,
+    "percentage": 1.2,
+    "core_percentage": 1.2,
+    "core_percentage_name": 1.2,
+    "trump_articles_expanded": 4,
+    "core_percentage_expanded": 1.2,
+    "indirect_references": 0,
+    "wide_total_articles": 448,
+    "wide_trump_articles": 5,
+    "wide_percentage": 1.1,
+    "wide_trump_articles_expanded": 6,
+    "wide_percentage_expanded": 1.3,
+    "macro_percentage": 1.1,
+    "qualifying_outlets": 13,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 34,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 9.9,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.29,
+    "breadth": 0.25,
+    "deviation": 0.48,
+    "smoothed_pct": 2.6,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 12,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 50,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 40,
+        "today": 6,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 62,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 41,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 28,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 54,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 68,
+        "kept": 59,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.69
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Succesauteur Jess Walter bundelt het Amerikaanse sentiment in zijn nieuwe roman: “Ik denk niet dat je een klootzak bent als je op Trump hebt gestemd” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxONXFfakk5MTg4OXM4MG9RREtrT0k3TWlGNnBzWm0wLUF1OVVwWm9lclRWRnMycTVZV3kwVU0ycmhuM2ZGVUFYV3dMVk5XQjN1X1RQTHZTelJZN3Q5SU1VbWN1bDhQdkJNMDlidHFucl84RWhMcU9HSTVYOVctQjNLcWZqZXdCa0NjRXhrWGUyZV8ySW8xY3czQ0xvSjF6ZEJuVXJZOG01UGdmdlFFMDlKREIzZTV1eDNkUlNkSTM5NnBOWlRGZVFYeTl6OGNGalhrQmZIVUlRcXlISGo4SDNJeUFKOUtaei1RREszMGxoNFVSMDJLWFhjOVB5bDFaNGZnQlg2WXlFX0VFeFlxb3BWMlk0REpXWG9UR1phRkQtb3V0eEU?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Zijn arts raadt 80 milligram aan, maar Trump neemt vier keer zoveel: waarom zou je dagelijks aspirine nemen?",
+        "url": "https://www.hln.be/gezondheid/zijn-arts-raadt-80-milligram-aan-maar-trump-neemt-vier-keer-zoveel-waarom-zou-je-dagelijks-aspirine-nemen~a80afbfd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Het democratische bestel zal winnen van Donald Trump’: Frédéric Martel sprak met de vijanden van het Westen",
+        "url": "https://www.demorgen.be/nieuws/het-democratische-bestel-zal-winnen-van-donald-trump-frederic-martel-sprak-met-de-vijanden-van-het-westen~b259b2f8/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS onderschept Iraanse raketaanval op Koeweit en Bahrein - Trump: “Iran heeft nog een vijfde van raketten”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-vs-onderschept-iraanse-raketaanval-op-koeweit-en-bahrein-trump-iran-heeft-nog-een-vijfde-van-raketten/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Luxeresort van Ivanka Trump in natuurgebied leidt tot massaprotesten in Albanië - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPczZGWENINk1aV2FWQUgxN2ZOLXNham1mTGsybFQySjJIVWpWNmxGR1VsM2RKN2pFQk13eHBWVmJ4X2VDa0E3Umk4NThHc0tJVzlYN1BSYWg2MXVWRktVSzhFUkQtaW8tb2E1ekQxdUtLWDlzNXlEWVRUUU8xbHFfWTJrX0ZGQkUzdUVWQ1VEa3lXVW5VakEzTlFMMlN4eW9fODBWS2NDYnFUUTNnLTVybG5FQjUyT3NEc21XWnJTWFlGd08ya05lZnBn?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Succesauteur Jess Walter bundelt het Amerikaanse sentiment in zijn nieuwe roman: “Ik denk niet dat je een klootzak bent als je op Trump hebt gestemd” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxONXFfakk5MTg4OXM4MG9RREtrT0k3TWlGNnBzWm0wLUF1OVVwWm9lclRWRnMycTVZV3kwVU0ycmhuM2ZGVUFYV3dMVk5XQjN1X1RQTHZTelJZN3Q5SU1VbWN1bDhQdkJNMDlidHFucl84RWhMcU9HSTVYOVctQjNLcWZqZXdCa0NjRXhrWGUyZV8ySW8xY3czQ0xvSjF6ZEJuVXJZOG01UGdmdlFFMDlKREIzZTV1eDNkUlNkSTM5NnBOWlRGZVFYeTl6OGNGalhrQmZIVUlRcXlISGo4SDNJeUFKOUtaei1RREszMGxoNFVSMDJLWFhjOVB5bDFaNGZnQlg2WXlFX0VFeFlxb3BWMlk0REpXWG9UR1phRkQtb3V0eEU?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Zijn arts raadt 80 milligram aan, maar Trump neemt vier keer zoveel: waarom zou je dagelijks aspirine nemen?",
+        "url": "https://www.hln.be/gezondheid/zijn-arts-raadt-80-milligram-aan-maar-trump-neemt-vier-keer-zoveel-waarom-zou-je-dagelijks-aspirine-nemen~a80afbfd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Het democratische bestel zal winnen van Donald Trump’: Frédéric Martel sprak met de vijanden van het Westen",
+        "url": "https://www.demorgen.be/nieuws/het-democratische-bestel-zal-winnen-van-donald-trump-frederic-martel-sprak-met-de-vijanden-van-het-westen~b259b2f8/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS onderschept Iraanse raketaanval op Koeweit en Bahrein - Trump: “Iran heeft nog een vijfde van raketten”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-vs-onderschept-iraanse-raketaanval-op-koeweit-en-bahrein-trump-iran-heeft-nog-een-vijfde-van-raketten/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Honderd dagen oorlog in Iran bewijzen strategisch analfabetisme van Trump",
+        "url": "https://www.gva.be/buitenland/honderd-dagen-oorlog-in-iran-bewijzen-strategisch-analfabetisme-van-trump/155354938.html",
+        "source": "gva",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 4,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 7
+    },
+    "wide_comparisons": {
+      "trump": 5,
+      "putin": 5,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 10
+    },
+    "themes": {
+      "war": 18,
+      "crime": 7,
+      "eu": 16,
+      "politics": 8,
+      "be_gov": 9,
+      "culture": 8,
+      "tech": 9,
+      "economy": 6,
+      "sports": 29,
+      "health": 7,
+      "climate": 1,
+      "migration": 2,
+      "education": 2,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 22,
+      "crime": 8,
+      "eu": 21,
+      "politics": 12,
+      "be_gov": 13,
+      "culture": 9,
+      "tech": 12,
+      "economy": 9,
+      "sports": 41,
+      "health": 11,
+      "climate": 1,
+      "migration": 4,
+      "education": 2,
+      "weather": 9
+    }
   }
 ]
