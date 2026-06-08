@@ -33435,5 +33435,525 @@
       "education": 12,
       "weather": 15
     }
+  },
+  {
+    "date": "2026-06-08",
+    "generated_at": "2026-06-08T10:30:21+02:00",
+    "last_checked_at": "2026-06-08T10:30:21+02:00",
+    "total_articles": 512,
+    "trump_articles": 7,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "core_percentage_name": 1.4,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 1.4,
+    "indirect_references": 0,
+    "wide_total_articles": 657,
+    "wide_trump_articles": 13,
+    "wide_percentage": 2.0,
+    "wide_trump_articles_expanded": 13,
+    "wide_percentage_expanded": 2.0,
+    "macro_percentage": 1.6,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 68,
+    "cross_outlet_dup_groups": 34,
+    "cross_outlet_dup_rate": 13.3,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.17,
+    "breadth": 0.33,
+    "deviation": 0.74,
+    "smoothed_pct": 2.06,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 27,
+        "kept": 27,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.41
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 52,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_world": {
+        "fetched": 37,
+        "today": 10,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 63,
+        "today": 8,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 68,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 36,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 34,
+        "today": 3,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_business": {
+        "fetched": 24,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 63,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 65,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 63,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 52,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
+      },
+      "trends_g": {
+        "fetched": 33,
+        "today": 11,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 54,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "▶ ‘Bedankt, schat. Veel plezier’: Trump gooit microfoon neer en stopt interview met NBC voortijdig",
+        "url": "https://www.demorgen.be/nieuws/bedankt-schat-veel-plezier-trump-gooit-microfoon-neer-en-stopt-interview-met-nbc-voortijdig~b2980cda/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Iran en Israël bestoken elkaar opnieuw met raketten ondanks waarschuwing Trump: dit weten we al over nieuwe escalatie in Midden-Oosten",
+        "url": "https://www.nieuwsblad.be/buitenland/iran-en-israel-bestoken-elkaar-opnieuw-met-raketten-ondanks-waarschuwing-trump-dit-weten-we-al-over-nieuwe-escalatie-in-midden-oosten/156131651.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Iran en Israël bestoken elkaar opnieuw met raketten ondanks waarschuwing Trump: dit weten we al over nieuwe escalatie in Midden-Oosten",
+        "url": "https://www.hbvl.be/buitenland/iran-en-israel-bestoken-elkaar-opnieuw-met-raketten-ondanks-waarschuwing-trump-dit-weten-we-al-over-nieuwe-escalatie-in-midden-oosten/156136684.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“Morts” sur papier: le projet glaçant qu’aurait imaginé l’administration Trump",
+        "url": "https://www.7sur7.be/monde/morts-sur-papier-le-projet-glacant-quaurait-imagine-ladministration-trump~aba6c071/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Israël frappe l’Iran, malgré les appels de Trump à la retenue",
+        "url": "https://www.7sur7.be/monde/israel-frappe-liran-malgre-les-appels-de-trump-a-la-retenue~aee9c79c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Stupide ou corrompue » : Donald Trump s’emporte face à une journaliste et met un terme à une interview - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSzBCbzVIUmZ5N1pZcElSWUpRVFRYUUg3dlI5bUlsWWplUm1Ma3ZRM2VXSi1lM3VSeUNZaTUzSkV6VWtYb2RZRE1nbGtUX3NhZGh3WFZyTW45a2FlX1dGY0tiVkpnVlEtX3B5VTNQNEdUVVRuOUJjb2JiME9rNTNCODNhVmNrVmp1Uy1aNnhscE9LYjdJSEsyZVFpQTI1S1hEdmZ6QWJ6QjlycE5EOWtLZ09ncEhGLXlfNW1uWWViZGw1eWZ6UFJHSDk3dTFUQk1tb1VLa0FFNlF2c21CWVBONVR4Yw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Israël frappe un site pétrochimique en Iran et ravive les craintes de Trump - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZjRHX2FtMU10U3BEZDFYTGVEWFloRlJVWVdzN3FUajhYeWNrd0F6N0ZDX1NnTG5UNWZWOFlYRnZJQlNMd2Y2SWhRZVNJU1ZyTUdsd1piS2NkdGVWaG94X2NxbFFMRWhfR0JSeXZHTVlmQl9vcHV4MHZ3aVpERTFqTDdMWDF1SjFZOERmU1JhTnZDR1JWZ3hmMWNBdkh0Y3hwQmxLeDVMNWktNWNkWEd1SVFHakhhVmhEZGdhbEJEdXc?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Iran en Israël bestoken elkaar opnieuw met raketten ondanks waarschuwing Trump: dit weten we al over nieuwe escalatie in Midden-Oosten - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQc3BaWU9vUmVOZHl5RXJNOU5fZnBtNVhTcklCTlpmOG85MktRV3J3aUY3dl8yYmtJNnVGUTYxazdndjV2b254RkZNR0d3TnVDdzNEd2xXT3JPeTJ2YzZUZ29hVXItaUpOWXlXYXpPR2FfOEQtaW8tY0trMlVkSnBIOHcxSndEWDVfdlBDdUlPOXY1bU1yRmo2Y3BvMUlVbFJTM3FEUVpSczVhOXpiUlY2MzBlOG9RWUdMdE5sNV9vcXhvbDdGNG82SUJZQS0wNmhFdmV5WHdvOUN0aXpOTjVpQUEtaFRvUFFIMVc1ZTgzbmFRN1dLWWVyYl9wdU1mWHl3WGJMcjMzZVVmNmIwNktOazJfVQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Een stamp richting Trump, een hart onder de riem voor premier Pedro Sánchez: paus toont in Spanje dat hij een politieke stem wil zijn - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPdGJkWktPWWZtc1NvbWtzT3BXSjNnVkMyaTZYNjlENW5OU2Q2dEdrY1JzZEczeEtYOTdfcEliS2hveWdrS2N5SUl4Q3drbFg5ZVJwY1lwZXFkaXBlZHRFa29ZSFBCb2Z6aHZHOVdWWWxWNF9lbHVOSWdKaU9sc0Vwb1Z4M0dzT1JGWXl3MXBHdnFhSnpHS0ZpLXpUTGRTZXdKN3RGN3ZZU2dYRmJTeGtwVVVrYlNDUUpzYXZBZnpXOGdxcTc5cXlXU25KZHd2b2M2WldDR3UxZ3VPVDVFaXRJZXJmdGdVOF9wZ2VyRmxQbGtJcXdmenlnTUV1aFpiZXdDZGltQnlGTF9wOENBQmJJ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil Britse eilandengroep kopen en dwarsboomt daarmee mogelijk de plannen van premier Keir Starmer - GVA",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSTAyTzNOMm8zTTJoZGFoUG92eHBEQTU2Y1RVRm9sa1J3QTdqbXF6ZFBza1BHNDRDSThGRXVNWjVGUmM4WWtsMmRlaFk5NUhqamNNeWhXUHp3aE9Sa0RRSHE5TU5QejVCU2VpNnE1VDd1dEpZcFJHQmM4ZUdoSG9fNWpUUldpY3I2QldoWUM5d2JxVi1uSFZnLV8zX21TQjgwTXVWOU0xWFFVZGxIVVF1SGZBdmxNb2d4eWQ3ZVNDVkFLNmZJSVNqbjNOb25RQzlNUUI5UElmMG9aMURxb1RHQUxB?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "“Morts” sur papier: le projet glaçant qu’aurait imaginé l’administration Trump - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeEt5UUxlWmNsRGNXR0lBWW5FUjhRdktKalhVYTNFLTFoWl9FU3lSQXlJSzFMU2FMNFJ0LW13NlllU3F3SDFvWGxyUm9DRkRZQUhvZG1iUVVOSTM3a2hYRk8yVVgyenY1SVNDWFQyYW0zbDFJR21rMVBfeENDV0U1bHBHMHNKZG1KcXdNV2p2WWdqdU1CaldGX3BHYi1ONjUwRlZiY054bTdDQTFlQTAw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "▶ ‘Bedankt, schat. Veel plezier’: Trump gooit microfoon neer en stopt interview met NBC voortijdig",
+        "url": "https://www.demorgen.be/nieuws/bedankt-schat-veel-plezier-trump-gooit-microfoon-neer-en-stopt-interview-met-nbc-voortijdig~b2980cda/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Iran en Israël bestoken elkaar opnieuw met raketten ondanks waarschuwing Trump: dit weten we al over nieuwe escalatie in Midden-Oosten",
+        "url": "https://www.nieuwsblad.be/buitenland/iran-en-israel-bestoken-elkaar-opnieuw-met-raketten-ondanks-waarschuwing-trump-dit-weten-we-al-over-nieuwe-escalatie-in-midden-oosten/156131651.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Iran en Israël bestoken elkaar opnieuw met raketten ondanks waarschuwing Trump: dit weten we al over nieuwe escalatie in Midden-Oosten",
+        "url": "https://www.gva.be/buitenland/iran-en-israel-bestoken-elkaar-opnieuw-met-raketten-ondanks-waarschuwing-trump-dit-weten-we-al-over-nieuwe-escalatie-in-midden-oosten/156134179.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Israël valt militaire doelwitten in Iran aan - Trump: “Netanyahu heeft “geen keuze en moet Iran-akkoord aanvaarden”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-israel-valt-militaire-doelwitten-in-iran-aan-trump-netanyahu-heeft-geen-keuze-en-moet-iran-akkoord-aanvaarden/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Iran en Israël bestoken elkaar opnieuw met raketten ondanks waarschuwing Trump: dit weten we al over nieuwe escalatie in Midden-Oosten",
+        "url": "https://www.hbvl.be/buitenland/iran-en-israel-bestoken-elkaar-opnieuw-met-raketten-ondanks-waarschuwing-trump-dit-weten-we-al-over-nieuwe-escalatie-in-midden-oosten/156136684.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“Morts” sur papier: le projet glaçant qu’aurait imaginé l’administration Trump",
+        "url": "https://www.7sur7.be/monde/morts-sur-papier-le-projet-glacant-quaurait-imagine-ladministration-trump~aba6c071/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Israël frappe l’Iran, malgré les appels de Trump à la retenue",
+        "url": "https://www.7sur7.be/monde/israel-frappe-liran-malgre-les-appels-de-trump-a-la-retenue~aee9c79c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Stupide ou corrompue » : Donald Trump s’emporte face à une journaliste et met un terme à une interview - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSzBCbzVIUmZ5N1pZcElSWUpRVFRYUUg3dlI5bUlsWWplUm1Ma3ZRM2VXSi1lM3VSeUNZaTUzSkV6VWtYb2RZRE1nbGtUX3NhZGh3WFZyTW45a2FlX1dGY0tiVkpnVlEtX3B5VTNQNEdUVVRuOUJjb2JiME9rNTNCODNhVmNrVmp1Uy1aNnhscE9LYjdJSEsyZVFpQTI1S1hEdmZ6QWJ6QjlycE5EOWtLZ09ncEhGLXlfNW1uWWViZGw1eWZ6UFJHSDk3dTFUQk1tb1VLa0FFNlF2c21CWVBONVR4Yw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Israël frappe un site pétrochimique en Iran et ravive les craintes de Trump - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZjRHX2FtMU10U3BEZDFYTGVEWFloRlJVWVdzN3FUajhYeWNrd0F6N0ZDX1NnTG5UNWZWOFlYRnZJQlNMd2Y2SWhRZVNJU1ZyTUdsd1piS2NkdGVWaG94X2NxbFFMRWhfR0JSeXZHTVlmQl9vcHV4MHZ3aVpERTFqTDdMWDF1SjFZOERmU1JhTnZDR1JWZ3hmMWNBdkh0Y3hwQmxLeDVMNWktNWNkWEd1SVFHakhhVmhEZGdhbEJEdXc?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 1,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 13,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 39,
+      "crime": 15,
+      "eu": 24,
+      "politics": 19,
+      "be_gov": 7,
+      "culture": 9,
+      "tech": 9,
+      "economy": 7,
+      "sports": 22,
+      "health": 3,
+      "climate": 4,
+      "migration": 3,
+      "education": 7,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 46,
+      "crime": 20,
+      "eu": 32,
+      "politics": 30,
+      "be_gov": 13,
+      "culture": 9,
+      "tech": 14,
+      "economy": 7,
+      "sports": 33,
+      "health": 6,
+      "climate": 5,
+      "migration": 4,
+      "education": 9,
+      "weather": 9
+    }
   }
 ]
