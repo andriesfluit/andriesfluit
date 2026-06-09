@@ -34123,5 +34123,693 @@
       "education": 15,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-06-09",
+    "generated_at": "2026-06-09T09:04:08+02:00",
+    "last_checked_at": "2026-06-09T09:04:08+02:00",
+    "total_articles": 401,
+    "trump_articles": 19,
+    "percentage": 4.7,
+    "core_percentage": 4.7,
+    "core_percentage_name": 4.7,
+    "trump_articles_expanded": 19,
+    "core_percentage_expanded": 4.7,
+    "indirect_references": 0,
+    "wide_total_articles": 535,
+    "wide_trump_articles": 28,
+    "wide_percentage": 5.2,
+    "wide_trump_articles_expanded": 29,
+    "wide_percentage_expanded": 5.4,
+    "macro_percentage": 5.5,
+    "qualifying_outlets": 20,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 41,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 10.2,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.11,
+    "breadth": 0.53,
+    "deviation": 2.19,
+    "smoothed_pct": 2.61,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 51,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "google_nl_world": {
+        "fetched": 46,
+        "today": 15,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 67,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 38,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 13.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 18,
+        "kept": 18,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.51
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 38,
+        "kept": 38,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.26
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 39,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.13
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "trends_g": {
+        "fetched": 54,
+        "today": 13,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 73,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump beweert nog maar eens dat vredesdeal dichtbij is - Amerikaanse helikopter neergestort bij Straat van Hormuz: bemanning gered",
+        "url": "https://www.hln.be/buitenland/trump-beweert-nog-maar-eens-dat-vredesdeal-dichtbij-is-amerikaanse-helikopter-neergestort-bij-straat-van-hormuz-bemanning-gered~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Trump uitgejouwd tijdens NBA-finale in New York: “Ik denk dat het vooral gejuich was”",
+        "url": "https://www.hln.be/buitenland/kijk-trump-uitgejouwd-tijdens-nba-finale-in-new-york-ik-denk-dat-het-vooral-gejuich-was~ad1502fa/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "🎧 “Trump heeft mogelijks erger voorkomen”: luistert Israëlisch premier Netanyahu nu toch naar Trump? Professor David Criekemans analyseert",
+        "url": "https://www.hln.be/home/trump-heeft-mogelijks-erger-voorkomen-luistert-israelisch-premier-netanyahu-nu-toch-naar-trump-professor-david-criekemans-analyseert~a68fbdd3/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "President Trump uitgejouwd door de fans in New York, San Antonio wint derde wedstrijd",
+        "url": "https://www.hln.be/nba/president-trump-uitgejouwd-door-de-fans-in-new-york-san-antonio-wint-derde-wedstrijd~a5eeed15/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: akkoord met Iran mogelijk ‘binnen twee of drie dagen’ • Amerikaanse Apache-gevechtshelikopter neergestort bij Straat van Hormuz",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-akkoord-met-iran-mogelijk-binnen-twee-of-drie-dagen-amerikaanse-apache-gevechtshelikopter-neergestort-bij-straat-van-hormuz~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "▶ Luid boegeroep voor Trump tijdens volkslied bij NBA-finale in New York, president dommelt even in",
+        "url": "https://www.demorgen.be/snelnieuws/luid-boegeroep-voor-trump-tijdens-volkslied-bij-nba-finale-in-new-york-president-dommelt-even-in~b1c1eb78/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans president Donald Trump massaal uitgejouwd tijdens NBA-finale: “Ik denk dat het vooral gejuich was”",
+        "url": "https://www.nieuwsblad.be/nieuws/amerikaans-president-donald-trump-massaal-uitgejouwd-tijdens-nba-finale-ik-denk-dat-het-vooral-gejuich-was/156318399.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump zegt “in laatste fase” te zitten van goede deal met Iran - Amerikaanse gevechtshelikopter stort neer nabij Straat van Hormuz",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-zegt-in-laatste-fase-te-zitten-van-goede-deal-met-iran-amerikaanse-gevechtshelikopter-stort-neer-nabij-straat-van-hormuz/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump massaal uitgejouwd tijdens NBA-finale",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-massaal-uitgejouwd-tijdens-nba-finale/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans president Donald Trump massaal uitgejouwd tijdens NBA-finale: “Ik denk dat het vooral gejuich was”",
+        "url": "https://www.hbvl.be/sport/zaalsporten/basketbal/amerikaans-president-donald-trump-massaal-uitgejouwd-tijdens-nba-finale-ik-denk-dat-het-vooral-gejuich-was/156319523.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "VIDEO. En dan was er nog een striemend fluitconcert aan zijn adres: Knicks-fan Donald Trump ziet San Antonio Spurs NBA-finale nieuw leven inblazen",
+        "url": "https://www.hbvl.be/sport/zaalsporten/basketbal/video.-en-dan-was-er-nog-een-striemend-fluitconcert-aan-zijn-adres-knicks-fan-donald-trump-ziet-san-antonio-spurs-nba-finale-nieuw-leven-inblazen/156323042.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : hué à New York avant un match de la finale NBA, Trump assure qu’il s’agissait d’encouragements",
+        "url": "https://www.rtbf.be/article/etats-unis-hue-a-new-york-avant-un-match-de-la-finale-nba-trump-assure-qu-il-s-agissait-d-encouragements-11737355",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump, hué lors de son apparition aux finales de NBA à New York, finit par s'endormir pendant le match (VIDEO)",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/09/donald-trump-hue-lors-de-son-apparition-aux-finales-de-nba-a-new-york-finit-par-sendormir-pendant-le-match-video-XBR7HP2FFZD67MHZPPX7ICBUII/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Gracié par Trump, cet émeutier du Capitole brigue un mandat de député : “Le but principal n’était pas d’être violent”",
+        "url": "https://www.lalibre.be/international/2026/06/09/gracie-par-trump-cet-emeutier-du-capitole-brigue-un-mandat-de-depute-le-but-principal-netait-pas-detre-violent-JWK72UXGGBFMXPB2ZSHAOP7GYU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Finale NBA: les Spurs de Wembanyama se relancent chez les Knicks, Donald Trump copieusement hué par le Madison Square Garden (VIDEO)",
+        "url": "https://www.dhnet.be/sports/basket/2026/06/09/finale-nba-les-spurs-de-wembanyama-se-relancent-chez-les-knicks-qui-ne-menent-plus-que-2-1-DHC73D6VURBPNMIPSOKKHZCYM4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump hué pendant l'hymne national d'un match de NBA avant de... s'endormir pendant la rencontre (VIDEOS)",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/09/trump-hue-pendant-lhymne-national-dun-match-de-nba-avant-de-sendormir-pendant-la-rencontre-videos-WHPGKIXTKVDV7CLPWJC6ZYXM3Y/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump copieusement hué à New York avant un match de finale NBA",
+        "url": "https://www.7sur7.be/monde/donald-trump-copieusement-hue-a-new-york-avant-un-match-de-finale-nba~a4d3c3a9/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Après le Canada et le Groenland, Donald Trump veut acheter un nouveau territoire - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORTRmbXpLalZsNEJUMWZrdWsxT0lNdkdCTDNyUlktRUVNbndsWVNpVm1iYjE2aXpoSmw1ckdDaDVfazZvVno5VDRLdHdRZzM2WlpiWjJ0eFV6ZXZ2aG9jdmFxN2tRRnNqQUk4ZTlZLXhhbElfOUpmcnFOM2hZOVhGSDZzUHhUZHlXcVRhQXVHUG0zQlhmSUlONENBaU5vTHNoLWdCYTBNVlhkQzN1Tm0tcFdXRG10NzBIZVBweW9fY0ZGaDA0eWdtSUxPLU9YNW1MZFpNNjB0cw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Après le Canada et le Groenland, Donald Trump voudrait acheter un nouveau territoire... perdu au beau milieu de l’océan - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTXFRUGY4ZFBFSUhybUhFbUczRWNiQlR1QjVGdC1WYlp2QjRHM1lfVWtXZk4wV2JCcHg4U2Y4R3lqMGZRMUswUzR4T1dZYnhJeWxiSVlSSkRWN2tUMzFRTi1CZlVRYVlqRE9SVERmYTY2SUlSanVWSnNCand3LUxoS0F0SmowRXg3c1puSkkxemNhZ1Y1TFNMTTVtbG1XRVd3RmJDU0Q5WkNOamExeDlaZUpzeWltdC1lOFZBMFd0ZWkzYnVncmFGRlVIRmstYUpEMU5jVGU3c0p6dw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Iran blijft gespierde oorlogstaal gebruiken: “De Iraanse leiders vertrouwen Trump niet, dus stellen ze hem op de proef” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOeVJDaFRTZ0ZUclBKdXdEdXltWnNrX2hvUE16dWJkcHFSdmtZMWtyS3cycHpoMXNfbVFqak9ucExwTmlYM0ROOVBQNG10YmtjbHFUMG41d3lTaEZGOVNlVVVRWVRKNkg4Qk1Kc1l4Ykw4VndVNmFMdk8zMEpVTGN6bnM3ME9OdWdyV3djTnZFeTZkanhtMEFVZXlYZF9UNmZZU0NoNHJjR3h6c2RqenA4TVN4djM0dnRyWTRvUm8tTGVtTmFYTjBJX2RXZmtzaTRUR2hockJHT3lZOUtEQWZTdk5scHdvZHVRcmVaYWtLU2NHekV6MHRFOW1B?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump uitgejouwd bij basketbalwedstrijd in New York - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY3QtaG4zTUI2ODhFUmZhTjB0WndIcFdweS1wVVR5VzV5RHhRLVNBMk9RcHlVaUs0b2pDTFhMSldQLWduUk5Ob2ZfRUN6andoWThDNGt6Mjcwc1JWVm1WT2J4Rm9QU3kyOUN4cHlUTGtKaEFzbllRQ3EyWVpWMWhOTElqeE9IYnVBZUNNbkxDa19fZlByM2ZGeGEtSndkRGtsVl9QRg?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Poetin wil niet praten met Europa, hij rekent nog altijd op Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRHotTlUwSERTbGg3OHktOXBxNlcyY3A4a1I1SHZSdUNvYVdJa1VtckZMLXBrVDFMdk1POTU0bl9QSnNpVklsNXRKT1B5LVVTTHBHa1A2X2pZUzUtTHU3LXpsVS1EdTRSWE93MThkUWQ4M1JsdXh6NzhEZ1pKMU5pbGYzZUl5N20yOEhCb3haQnF3Tzh6STB5YWljYjAtM2VESkNMNzM0NzNycHJpbFlrSURfWkdfZw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "‘De klauw’: het podium voor de omstreden kooigevechten aan het Witte Huis is van Belgische makelij - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQazJVbFlRQVJ0a2NwUkg1WTBZM1VqQ1p0endkcEhUNUtGMmVrRWk4bWlfNXFGQnMyckt1YlhzZjZkQkVLLTZMejZta3l0aE5yODRnUnlybUs2Tkc0WDJrb0xkWFJUeXM1WnpPbXlkUVlKZFByYjc1OVZpWUFmb2hZeG8wRzFNSkR1T1dDVWQtUjNaRWQtRHh0UFNMSUpoVGtmem1xX1pqU2t1TUp1LWtuNTVubXd5blZoQjRxRlgyQ21qRWRhWUE0ZlphWWozd05CVFE?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Hoe hard Trump ook tegenspartelt, Netanyahu blijft oorlog zoeken - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV05taTZpbkhXQmY1M19GaGZYdWtRamo3UHE5cFc1aGpEeUlRZkhTV0hpOXRLU29lSVQ1TUpUM1ZaZXRkQ0xWNm9VQm1PNXlDaVZMX3JQNExHcC1KLVhmLS10NEJxb25VRGxveHVvb3UwcnpqZ1JhZm1zUnhlbFFsbEpaZkptMG5nbEZnZ2t2X0d1QjZ0a0NCSzQyWnZTeVBtUWR0UF9wMFdTeGJzVHdDWU1UZzc?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump beweert nog maar eens dat vredesdeal dichtbij is - Amerikaanse helikopter neergestort bij Straat van Hormuz: bemanning gered",
+        "url": "https://www.hln.be/buitenland/trump-beweert-nog-maar-eens-dat-vredesdeal-dichtbij-is-amerikaanse-helikopter-neergestort-bij-straat-van-hormuz-bemanning-gered~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Trump uitgejouwd tijdens NBA-finale in New York: “Ik denk dat het vooral gejuich was”",
+        "url": "https://www.hln.be/buitenland/kijk-trump-uitgejouwd-tijdens-nba-finale-in-new-york-ik-denk-dat-het-vooral-gejuich-was~ad1502fa/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "🎧 “Trump heeft mogelijks erger voorkomen”: luistert Israëlisch premier Netanyahu nu toch naar Trump? Professor David Criekemans analyseert",
+        "url": "https://www.hln.be/home/trump-heeft-mogelijks-erger-voorkomen-luistert-israelisch-premier-netanyahu-nu-toch-naar-trump-professor-david-criekemans-analyseert~a68fbdd3/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "President Trump uitgejouwd door de fans in New York, San Antonio wint derde wedstrijd",
+        "url": "https://www.hln.be/nba/president-trump-uitgejouwd-door-de-fans-in-new-york-san-antonio-wint-derde-wedstrijd~a5eeed15/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: akkoord met Iran mogelijk ‘binnen twee of drie dagen’ • Amerikaanse Apache-gevechtshelikopter neergestort bij Straat van Hormuz",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-akkoord-met-iran-mogelijk-binnen-twee-of-drie-dagen-amerikaanse-apache-gevechtshelikopter-neergestort-bij-straat-van-hormuz~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "▶ Luid boegeroep voor Trump tijdens volkslied bij NBA-finale in New York, president dommelt even in",
+        "url": "https://www.demorgen.be/snelnieuws/luid-boegeroep-voor-trump-tijdens-volkslied-bij-nba-finale-in-new-york-president-dommelt-even-in~b1c1eb78/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans president Donald Trump massaal uitgejouwd tijdens NBA-finale: “Ik denk dat het vooral gejuich was”",
+        "url": "https://www.nieuwsblad.be/nieuws/amerikaans-president-donald-trump-massaal-uitgejouwd-tijdens-nba-finale-ik-denk-dat-het-vooral-gejuich-was/156318399.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump zegt “in laatste fase” te zitten van goede deal met Iran - Amerikaanse gevechtshelikopter stort neer nabij Straat van Hormuz",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-zegt-in-laatste-fase-te-zitten-van-goede-deal-met-iran-amerikaanse-gevechtshelikopter-stort-neer-nabij-straat-van-hormuz/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump massaal uitgejouwd tijdens NBA-finale",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-massaal-uitgejouwd-tijdens-nba-finale/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans president Donald Trump massaal uitgejouwd tijdens NBA-finale: “Ik denk dat het vooral gejuich was”",
+        "url": "https://www.gva.be/sport/zaalsporten/basketbal/amerikaans-president-donald-trump-massaal-uitgejouwd-tijdens-nba-finale-ik-denk-dat-het-vooral-gejuich-was/156319525.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump zegt “in laatste fase” te zitten van goede deal met Iran - Amerikaanse gevechtshelikopter stort neer nabij Straat van Hormuz",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-zegt-in-laatste-fase-te-zitten-van-goede-deal-met-iran-amerikaanse-gevechtshelikopter-stort-neer-nabij-straat-van-hormuz/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "VIDEO. En dan was er nog een striemend fluitconcert aan zijn adres: Knicks-fan Donald Trump ziet San Antonio Spurs NBA-finale nieuw leven inblazen",
+        "url": "https://www.gva.be/sport/zaalsporten/basketbal/video.-en-dan-was-er-nog-een-striemend-fluitconcert-aan-zijn-adres-knicks-fan-donald-trump-ziet-san-antonio-spurs-nba-finale-nieuw-leven-inblazen/156323043.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump massaal uitgejouwd tijdens NBA-finale",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-massaal-uitgejouwd-tijdens-nba-finale/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans president Donald Trump massaal uitgejouwd tijdens NBA-finale: “Ik denk dat het vooral gejuich was”",
+        "url": "https://www.hbvl.be/sport/zaalsporten/basketbal/amerikaans-president-donald-trump-massaal-uitgejouwd-tijdens-nba-finale-ik-denk-dat-het-vooral-gejuich-was/156319523.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "VIDEO. En dan was er nog een striemend fluitconcert aan zijn adres: Knicks-fan Donald Trump ziet San Antonio Spurs NBA-finale nieuw leven inblazen",
+        "url": "https://www.hbvl.be/sport/zaalsporten/basketbal/video.-en-dan-was-er-nog-een-striemend-fluitconcert-aan-zijn-adres-knicks-fan-donald-trump-ziet-san-antonio-spurs-nba-finale-nieuw-leven-inblazen/156323042.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "San Antonio leeft nog: Wembanyama bezorgt Spurs eerste zege tegen New York, met Donald Trump als (niet zo) aandachtige kijker",
+        "url": "https://sporza.be/nl/2026/06/09/san-antonio-leeft-nog-wembanyama-bezorgt-spurs-eerste-zege-tegen-new-york-met-donald-trump-als-niet-zo-aandachtige-kijker~1780977938082/",
+        "source": "sporza",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : hué à New York avant un match de la finale NBA, Trump assure qu’il s’agissait d’encouragements",
+        "url": "https://www.rtbf.be/article/etats-unis-hue-a-new-york-avant-un-match-de-la-finale-nba-trump-assure-qu-il-s-agissait-d-encouragements-11737355",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump, hué lors de son apparition aux finales de NBA à New York, finit par s'endormir pendant le match (VIDEO)",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/09/donald-trump-hue-lors-de-son-apparition-aux-finales-de-nba-a-new-york-finit-par-sendormir-pendant-le-match-video-XBR7HP2FFZD67MHZPPX7ICBUII/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Gracié par Trump, cet émeutier du Capitole brigue un mandat de député : “Le but principal n’était pas d’être violent”",
+        "url": "https://www.lalibre.be/international/2026/06/09/gracie-par-trump-cet-emeutier-du-capitole-brigue-un-mandat-de-depute-le-but-principal-netait-pas-detre-violent-JWK72UXGGBFMXPB2ZSHAOP7GYU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Finale NBA: les Spurs de Wembanyama se relancent chez les Knicks, Donald Trump copieusement hué par le Madison Square Garden (VIDEO)",
+        "url": "https://www.dhnet.be/sports/basket/2026/06/09/finale-nba-les-spurs-de-wembanyama-se-relancent-chez-les-knicks-qui-ne-menent-plus-que-2-1-DHC73D6VURBPNMIPSOKKHZCYM4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump hué pendant l'hymne national d'un match de NBA avant de... s'endormir pendant la rencontre (VIDEOS)",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/09/trump-hue-pendant-lhymne-national-dun-match-de-nba-avant-de-sendormir-pendant-la-rencontre-videos-WHPGKIXTKVDV7CLPWJC6ZYXM3Y/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump copieusement hué à New York avant un match de finale NBA",
+        "url": "https://www.7sur7.be/monde/donald-trump-copieusement-hue-a-new-york-avant-un-match-de-finale-nba~a4d3c3a9/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Après le Canada et le Groenland, Donald Trump veut acheter un nouveau territoire - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORTRmbXpLalZsNEJUMWZrdWsxT0lNdkdCTDNyUlktRUVNbndsWVNpVm1iYjE2aXpoSmw1ckdDaDVfazZvVno5VDRLdHdRZzM2WlpiWjJ0eFV6ZXZ2aG9jdmFxN2tRRnNqQUk4ZTlZLXhhbElfOUpmcnFOM2hZOVhGSDZzUHhUZHlXcVRhQXVHUG0zQlhmSUlONENBaU5vTHNoLWdCYTBNVlhkQzN1Tm0tcFdXRG10NzBIZVBweW9fY0ZGaDA0eWdtSUxPLU9YNW1MZFpNNjB0cw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Après le Canada et le Groenland, Donald Trump voudrait acheter un nouveau territoire... perdu au beau milieu de l’océan - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTXFRUGY4ZFBFSUhybUhFbUczRWNiQlR1QjVGdC1WYlp2QjRHM1lfVWtXZk4wV2JCcHg4U2Y4R3lqMGZRMUswUzR4T1dZYnhJeWxiSVlSSkRWN2tUMzFRTi1CZlVRYVlqRE9SVERmYTY2SUlSanVWSnNCand3LUxoS0F0SmowRXg3c1puSkkxemNhZ1Y1TFNMTTVtbG1XRVd3RmJDU0Q5WkNOamExeDlaZUpzeWltdC1lOFZBMFd0ZWkzYnVncmFGRlVIRmstYUpEMU5jVGU3c0p6dw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 19,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 2,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 28,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 3,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 2,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 21,
+      "crime": 20,
+      "eu": 14,
+      "politics": 19,
+      "be_gov": 9,
+      "culture": 6,
+      "tech": 13,
+      "economy": 13,
+      "sports": 43,
+      "health": 2,
+      "climate": 4,
+      "migration": 1,
+      "education": 7,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 26,
+      "crime": 25,
+      "eu": 18,
+      "politics": 29,
+      "be_gov": 10,
+      "culture": 9,
+      "tech": 15,
+      "economy": 15,
+      "sports": 54,
+      "health": 2,
+      "climate": 5,
+      "migration": 1,
+      "education": 10,
+      "weather": 12
+    }
   }
 ]
