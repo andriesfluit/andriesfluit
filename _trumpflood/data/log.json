@@ -34811,5 +34811,555 @@
       "education": 10,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-06-10",
+    "generated_at": "2026-06-10T09:54:09+02:00",
+    "last_checked_at": "2026-06-10T09:54:09+02:00",
+    "total_articles": 419,
+    "trump_articles": 7,
+    "percentage": 1.7,
+    "core_percentage": 1.7,
+    "core_percentage_name": 1.7,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 2.1,
+    "indirect_references": 2,
+    "wide_total_articles": 567,
+    "wide_trump_articles": 11,
+    "wide_percentage": 1.9,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 2.8,
+    "macro_percentage": 2.6,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 23,
+    "cross_outlet_dup_groups": 11,
+    "cross_outlet_dup_rate": 5.5,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.75,
+    "breadth": 0.28,
+    "deviation": 0.69,
+    "smoothed_pct": 2.49,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 9,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "google_nl_politics": {
+        "fetched": 63,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 56,
+        "today": 11,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 49,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 39,
+        "today": 3,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_business": {
+        "fetched": 53,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 51,
+        "kept": 29,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.9
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.41
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 51,
+        "kept": 51,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.96
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 5.88
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 92,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Hoe vaak moet Trump nog vloeken voor Netanyahu’s sabotagepolitiek stopt? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZk83UzJ2SnNRdTFFR0E1Qm9DNk85MTFQSGZoLURwNndXZ29XOXJ5MERrbGwxNHJ3djB4NkFUa3g2X1lzRU5VNkFyenJHNW9KQVdoaEh0WURwRGdoTFhCODVGdmVZT1lOcEwzZGRTaHF5M2tEUzRrS1poa3JGLXZtejNYWnpKUUxnSjFIcGllQnZXSlkxSTg5WXVaUFhlQWhmanBjTEczWmpRN0dwWG1sNWx1OWVJTDVEd1c2Um9B?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "De Fifa beloofde “het meest inclusieve WK ooit”, de Trump-regering heeft andere prioriteiten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb1dRSVdlRXZ0SnE3ei1NdUNJbVNBUjJBMklIRlZMUlozQ3E3T2Z2NmdXcDUxM3JhcHpNVnplVkgtRFdLZG9xbzJKQi11UGFaQjJvZDl0M2hKN2E3SThGZU1menllMW9FSWxPQVFHeW85REgyZFAwNmZpVy1samYzcFpIcnBuejA5UXd1aUUtY0h0WElsNDlBODR2clBPTFY2dEN3ZlVPSF9RM0cyRHo0dS1tR3JvSnRmS2JUS1RCVDQxMEJpY2l6SU5GSFZpSzQ3?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Oekraïense dronecampagne begint vruchten af te werpen: toon in Witte Huis slaat om",
+        "url": "https://www.hbvl.be/binnenland/oekraense-dronecampagne-begint-vruchten-af-te-werpen-toon-in-witte-huis-slaat-om/156539411.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump frappe l'Iran, qui réplique avec des attaques sur des bases américaines au Bahreïn et en Jordanie",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/10/direct-guerre-au-moyen-orient-trump-frappe-liran-qui-replique-avec-des-attaques-sur-des-bases-americaines-au-bahrein-et-en-jordanie-MUGYBVKEPBH6BJD6VO5BV45KFU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: les États-Unis bombardent plusieurs villes en Iran, après que Trump accuse Téhéran d'avoir abattu un hélicoptère - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQRzZtQndLbTMwTzRXLWpIQWxkVjZYZ3dXbWswX3lESG9VX3hjMXNXZ1U0OVFzc0lHU2NiZW4yZWhrYVJIOV9PTUhWQ0h3THlZTUwyMnBKNHdYaGVRUG1SYzB6SUthN3cxV1MyemhxNl9KVU9YbEtBNy1jSFhHNERfOG5zOWM4RV80U0g2VHRqdm83a3d3bFdibFNvMlhySXYzWUhWWERsbzFBQkZDUHczWU9IdUFvLVM2RTQ1SE9WTTIwOEJPbmtycDJmQUJNLTI1cHRTS2JfMmpuMVVZYzh0S2xrNFJkaGw2ZFAxM0NFYUJ1blFud3NqcVZBcjZWRW1Vckx0YXI3YTB0Y3hsRThmY09FUXBvUU1mZ19SNncyUjZqYnQ3ZDJMS3BVYjZBdk9RZUNsMkU4VXB1aE1zSi1ScndJOVZJMmhh?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Coupe du monde: Donald Trump et le grand spectacle de la puissance - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM1hOcnBINXFsaXpEdFUtVGgzeDViMDZocVp5dE1tNTExVE11bGFCdHhiMzN4TWZkTHAxTE1lQXNkSkpVVFhsUnVaczBIckZuWDR5d2g1TGVLTEZZeVJsTUw5bnQtaGt3WlFaeV9xODNzSVZJSm0ySF9NVHh4WUE4dFBRM2otSVdFZ1RaVUtiZ1p1WjB3TW1aYi1KTExuRDZxQ2tXS1hmcTdDSWR1VFp2aUNCTzFjSGZUQl9Ga2xOSVAzN1dydWo2QTBmRGlkY3BSalJB?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Le football, Trump s’en fout, mais tout le monde se tait\": comment le président américain va faire du Mondial 2026 son terrain de jeu",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/10/le-football-trump-sen-fout-mais-tout-le-monde-se-tait-comment-le-president-americain-va-faire-du-mondial-2026-son-terrain-de-jeu-ELEPSWXL6ZAOJGCXLSNLKVCVOQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Naruto: le président américain déclenche la colère des fans japonais",
+        "url": "https://www.7sur7.be/monde/trump-en-naruto-le-president-americain-declenche-la-colere-des-fans-japonais~a37c100f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“De bonnes raisons”: la Maison-Blanche assume l’exclusion d’un arbitre somalien",
+        "url": "https://www.7sur7.be/mondial/de-bonnes-raisons-la-maison-blanche-assume-lexclusion-dun-arbitre-somalien~a3e91e5e/",
+        "source": "septsursept",
+        "name_only": false
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump frappe l'Iran, qui réplique avec des attaques sur des bases américaines au Bahreïn et en Jordanie - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNc2VOeUhZeHYwMlB2VUlNNGdaSTBPRTVtUlM0VVN1THY0ZjZHLWhFZy1xeG4yUWlxbGdLakc1Mm51NEtNN09hWURwR2F0NjNBV21ENFhldFJwNm1zWGtDU1daZ3JqbmhNaDdDMGEtR1RKR1BJaWdUbVItYm44Rl8tWDZOS1JDSmJtWU8yOHlnVC1RN3VrQ09lS2VOWWpBRmJyLWNVVHFZRVhaalZjZ1ctVUViNWQ4SVVsbnh2WnoxVXlrNlBZV1E5aDZMdU1DMnVkWEpjSkFWQTYzd3RrVmlxVGNvd2R2TGk0ZmwtM05KWDNtUGRSS2hfTDVpWXVWQldKWXcydFlxLUpIVDN5M3pZRWhkTFpIdFIyS3d2dlpCSmhKbHU5S2pwZndjYXZLODc3WXRoSjZoSDZVMEpIMG1hUXVrWTRnUGdy?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Japon: 20.000 personnes signent une pétition contre les publications \"manga\" de Trump - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTWlTd28zMWpYbDVDZW1KajNiVWdmcTRmYWpEd1h3UGVsbzdsQVhLbHR6V1E0aS1UTVRSWWRSYUxhYWNULVhZOW5HUjRRelZTWWlEN2IyajhUMzNGRjREeGVDaFVqb0syaG9sb0gySDhpYnRLVTZJUXFmbm90dHIwNWJGVkx2UWU0MVU1YUxxUkx6czdkbTdqSll6OW5hbzVSS1dGUjZTWlk2M2M0RHFxTE0tWkJBR25MRWI5RFd0Q2ZlT3o1ODlQYWpQRGZ0eS1lMTUxLTVtb2VUeWMwdUswZHhFNHNOb1ZBdXZxT0lwbl9MUQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Oekraïense dronecampagne begint vruchten af te werpen: toon in Witte Huis slaat om - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUDNmbFcyTzEzQ0RyWEg0b2JTdU82ZVBHbVI0NjJRMGh3TFU3SUVKMENPZGZxOHpfdUhUYXF4dnFPdGhiYlpUWkhVNXJxUHh6SnN2QVlKRzlsZ2dyVVl6NThBcEhkZzVLb2Nmclc2UnU5SXV6NS1kZjRIenVXTGFCOE1LeTdRanJhSzAxcV8wTTQ2RFhuSGxOenctaENBQ0EzUFhHYjNHYnFFVGZxS09ScEpNQjkzQldLajliOFBNMWlIZVliMnA3cHRGWnZGOFJrMW5rNEU2VXVHdS1MYUVmZWFXU3J4cmo1aWZQTEw2YTAxa2ZOWXp0clh3?oc=5",
+        "source": "google_nl_business",
+        "name_only": false
+      },
+      {
+        "title": "Les Européens toujours plus défiants face à l’Amérique de Donald Trump (infographies) - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSFFUcG44T01raGJ3X09LcTZsM1FlUFIycFl1WGxXOEtrb01fbWo4YzJWbW5ZZ0hERFFQRjBZeDVfN2lTb2IwYW5ZcU1wREpTSW1fV2lhUEpjLWI1OWs5Qzh1V21nRUVxeXQtY0Z5T1hZSGdDeHVkdUU2RUFFZlRhaGY1dTA4OHdhVWtobjEweWdWa0dZZE13eVJha1cycXlmQUJIaDRrWXU2bFFwOWtaYm05bGkydmFIb1FVeWMxcENHZWdOUEtJ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Hoe vaak moet Trump nog vloeken voor Netanyahu’s sabotagepolitiek stopt? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZk83UzJ2SnNRdTFFR0E1Qm9DNk85MTFQSGZoLURwNndXZ29XOXJ5MERrbGwxNHJ3djB4NkFUa3g2X1lzRU5VNkFyenJHNW9KQVdoaEh0WURwRGdoTFhCODVGdmVZT1lOcEwzZGRTaHF5M2tEUzRrS1poa3JGLXZtejNYWnpKUUxnSjFIcGllQnZXSlkxSTg5WXVaUFhlQWhmanBjTEczWmpRN0dwWG1sNWx1OWVJTDVEd1c2Um9B?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "De Fifa beloofde “het meest inclusieve WK ooit”, de Trump-regering heeft andere prioriteiten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb1dRSVdlRXZ0SnE3ei1NdUNJbVNBUjJBMklIRlZMUlozQ3E3T2Z2NmdXcDUxM3JhcHpNVnplVkgtRFdLZG9xbzJKQi11UGFaQjJvZDl0M2hKN2E3SThGZU1menllMW9FSWxPQVFHeW85REgyZFAwNmZpVy1samYzcFpIcnBuejA5UXd1aUUtY0h0WElsNDlBODR2clBPTFY2dEN3ZlVPSF9RM0cyRHo0dS1tR3JvSnRmS2JUS1RCVDQxMEJpY2l6SU5GSFZpSzQ3?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Oekraïense dronecampagne begint vruchten af te werpen: toon in Witte Huis slaat om",
+        "url": "https://www.gva.be/binnenland/oekraense-dronecampagne-begint-vruchten-af-te-werpen-toon-in-witte-huis-slaat-om/156483919.html",
+        "source": "gva",
+        "name_only": false
+      },
+      {
+        "title": "Trump vecht op ‘onze’ bodem: podium voor zijn kooigevechten is van Belgische makelij",
+        "url": "https://www.gva.be/binnenland/trump-vecht-op-onze-bodem-podium-voor-zijn-kooigevechten-is-van-belgische-makelij/156479061.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Oekraïense dronecampagne begint vruchten af te werpen: toon in Witte Huis slaat om",
+        "url": "https://www.hbvl.be/binnenland/oekraense-dronecampagne-begint-vruchten-af-te-werpen-toon-in-witte-huis-slaat-om/156539411.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "Witte Huis had \"goede redenen\" om Somalische scheids terug te sturen en deel Iraanse omkadering te weren",
+        "url": "https://sporza.be/nl/2026/04/29/witte-huis-had-goede-redenen-om-somalische-scheids-terug-te-sturen-en-deel-iraanse-omkadering-te-weren~1777469291113/",
+        "source": "sporza",
+        "name_only": false
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump frappe l'Iran, qui réplique avec des attaques sur des bases américaines au Bahreïn et en Jordanie",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/10/direct-guerre-au-moyen-orient-trump-frappe-liran-qui-replique-avec-des-attaques-sur-des-bases-americaines-au-bahrein-et-en-jordanie-MUGYBVKEPBH6BJD6VO5BV45KFU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: les États-Unis bombardent plusieurs villes en Iran, après que Trump accuse Téhéran d'avoir abattu un hélicoptère - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQRzZtQndLbTMwTzRXLWpIQWxkVjZYZ3dXbWswX3lESG9VX3hjMXNXZ1U0OVFzc0lHU2NiZW4yZWhrYVJIOV9PTUhWQ0h3THlZTUwyMnBKNHdYaGVRUG1SYzB6SUthN3cxV1MyemhxNl9KVU9YbEtBNy1jSFhHNERfOG5zOWM4RV80U0g2VHRqdm83a3d3bFdibFNvMlhySXYzWUhWWERsbzFBQkZDUHczWU9IdUFvLVM2RTQ1SE9WTTIwOEJPbmtycDJmQUJNLTI1cHRTS2JfMmpuMVVZYzh0S2xrNFJkaGw2ZFAxM0NFYUJ1blFud3NqcVZBcjZWRW1Vckx0YXI3YTB0Y3hsRThmY09FUXBvUU1mZ19SNncyUjZqYnQ3ZDJMS3BVYjZBdk9RZUNsMkU4VXB1aE1zSi1ScndJOVZJMmhh?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Coupe du monde: Donald Trump et le grand spectacle de la puissance - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM1hOcnBINXFsaXpEdFUtVGgzeDViMDZocVp5dE1tNTExVE11bGFCdHhiMzN4TWZkTHAxTE1lQXNkSkpVVFhsUnVaczBIckZuWDR5d2g1TGVLTEZZeVJsTUw5bnQtaGt3WlFaeV9xODNzSVZJSm0ySF9NVHh4WUE4dFBRM2otSVdFZ1RaVUtiZ1p1WjB3TW1aYi1KTExuRDZxQ2tXS1hmcTdDSWR1VFp2aUNCTzFjSGZUQl9Ga2xOSVAzN1dydWo2QTBmRGlkY3BSalJB?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Le football, Trump s’en fout, mais tout le monde se tait\": comment le président américain va faire du Mondial 2026 son terrain de jeu",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/10/le-football-trump-sen-fout-mais-tout-le-monde-se-tait-comment-le-president-americain-va-faire-du-mondial-2026-son-terrain-de-jeu-ELEPSWXL6ZAOJGCXLSNLKVCVOQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Naruto: le président américain déclenche la colère des fans japonais",
+        "url": "https://www.7sur7.be/monde/trump-en-naruto-le-president-americain-declenche-la-colere-des-fans-japonais~a37c100f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“De bonnes raisons”: la Maison-Blanche assume l’exclusion d’un arbitre somalien",
+        "url": "https://www.7sur7.be/mondial/de-bonnes-raisons-la-maison-blanche-assume-lexclusion-dun-arbitre-somalien~a3e91e5e/",
+        "source": "septsursept",
+        "name_only": false
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 12,
+      "crime": 13,
+      "eu": 8,
+      "politics": 21,
+      "be_gov": 5,
+      "culture": 5,
+      "tech": 6,
+      "economy": 11,
+      "sports": 34,
+      "health": 1,
+      "climate": 2,
+      "migration": 5,
+      "education": 8,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 18,
+      "crime": 19,
+      "eu": 11,
+      "politics": 35,
+      "be_gov": 6,
+      "culture": 7,
+      "tech": 10,
+      "economy": 15,
+      "sports": 49,
+      "health": 3,
+      "climate": 3,
+      "migration": 7,
+      "education": 9,
+      "weather": 13
+    }
   }
 ]
