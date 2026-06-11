@@ -35535,5 +35535,483 @@
       "education": 15,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-06-11",
+    "generated_at": "2026-06-11T10:23:05+02:00",
+    "last_checked_at": "2026-06-11T10:23:05+02:00",
+    "total_articles": 474,
+    "trump_articles": 6,
+    "percentage": 1.3,
+    "core_percentage": 1.3,
+    "core_percentage_name": 1.3,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 1.3,
+    "indirect_references": 0,
+    "wide_total_articles": 639,
+    "wide_trump_articles": 7,
+    "wide_percentage": 1.1,
+    "wide_trump_articles_expanded": 7,
+    "wide_percentage_expanded": 1.1,
+    "macro_percentage": 0.9,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 8.4,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.67,
+    "breadth": 0.24,
+    "deviation": 0.53,
+    "smoothed_pct": 2.34,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_nl_politics": {
+        "fetched": 61,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 49,
+        "today": 11,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 55,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 23,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 49,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 37,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 55,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 12.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 37,
+        "kept": 37,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 65,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.54
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Wie is het grootst, Trump of het WK? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTW9ObHVraTVwSDVtSDhJREhvck41ZHNlSElVbDBLNXE1WkNXWUNROW1DS2d6Y0FKbV9QVHlHbWsza0ZnRU16YS1YZWtyOVZiT05FWi1QQ1ZLYnZBcUlzdVdyRmx0OUVzT3d0R2JmOXlpdEZIZV9jYndyTG1kMzQ0X1RPTG5ramVVRDNsVFVlbklmZw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Zonder Donald Trump was het WK hier niet mogelijk geweest”: FIFA-voorzitter Gianni Infantino reageert vlak voor WK op alle kritiek",
+        "url": "https://www.hln.be/wk-voetbal/zonder-donald-trump-was-het-wk-hier-niet-mogelijk-geweest-fifa-voorzitter-gianni-infantino-reageert-vlak-voor-wk-op-alle-kritiek~va331f83b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "\"Là où Obama a échoué, Trump est déterminé à réussir\"",
+        "url": "https://www.lalibre.be/sports/2026/06/11/le-foot-et-trump-cest-complique-la-ou-obama-a-echoue-il-est-determine-a-reussir-KBHMFLG4DFGJRMRATXCDVQITDU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les hommes du président, ou la fascination de Trump pour les \"beaux mecs\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/11/les-hommes-du-president-ou-la-fascination-de-trump-pour-les-beaux-mecs-QJIMNMNGUZHKPACVZAQOBY4WF4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump reste obsédé par les fraudes électorales : \"Vous êtes une chaîne partiale et malhonnête\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/11/donald-trump-reste-obsede-par-les-fraudes-electorales-vous-etes-une-chaine-partiale-et-malhonnete-QGBLTPYJTRC5BBVB6ATPU5UBJ4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Coupe du monde 2026: \"Il aurait été impossible d'organiser le Mondial 2026\" sans Trump, souligne Infantino",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/06/11/coupe-du-monde-2026-il-aurait-ete-impossible-dorganiser-le-mondial-2026-sans-trump-souligne-infantino-PU5DCR3CKVFG7PCSIEB2NCLAIE/",
+        "source": "dhnet",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Coupe du monde 2026: \"Il aurait été impossible d'organiser le Mondial 2026\" sans Trump, souligne Infantino - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNc3hseDFiaGNON01uQnBXU21HaXc2MnFvYmMwbXpzcmJBTXdOLWJMdTFJUmJ5WEpxZFEzc0Zib1NCV3NzU3RFbUtkR2ZpX3JHZS1WaUNvdWtPRVkyT0dBWWtGS2M4U3VYQmFfd2ltdWNab3U5ME5JeU5qNVZIZ2k2aUltQlI1NjZTaTJ3Q05kSV9uTXhVVUdEV1k4V1d1bVMzWTNLZ09qX1ZSeDF2X0RGV0FjSkktU1ZjaTdFQ0paZERhQ2xQVjh0bkRUQm9JZXFIcXlfbEV3WWlUT2JrVHZmSVZROG0yVmo4U3F0U2JaaUNsb19fZ2Z2V3hUalV4bUc3SGZiejFydkZRd2RtblJQenFjcHJjRGE3QjVDRA?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Wie is het grootst, Trump of het WK? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTW9ObHVraTVwSDVtSDhJREhvck41ZHNlSElVbDBLNXE1WkNXWUNROW1DS2d6Y0FKbV9QVHlHbWsza0ZnRU16YS1YZWtyOVZiT05FWi1QQ1ZLYnZBcUlzdVdyRmx0OUVzT3d0R2JmOXlpdEZIZV9jYndyTG1kMzQ0X1RPTG5ramVVRDNsVFVlbklmZw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Zonder Donald Trump was het WK hier niet mogelijk geweest”: FIFA-voorzitter Gianni Infantino reageert vlak voor WK op alle kritiek",
+        "url": "https://www.hln.be/wk-voetbal/zonder-donald-trump-was-het-wk-hier-niet-mogelijk-geweest-fifa-voorzitter-gianni-infantino-reageert-vlak-voor-wk-op-alle-kritiek~va331f83b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "\"Là où Obama a échoué, Trump est déterminé à réussir\"",
+        "url": "https://www.lalibre.be/sports/2026/06/11/le-foot-et-trump-cest-complique-la-ou-obama-a-echoue-il-est-determine-a-reussir-KBHMFLG4DFGJRMRATXCDVQITDU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les hommes du président, ou la fascination de Trump pour les \"beaux mecs\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/11/les-hommes-du-president-ou-la-fascination-de-trump-pour-les-beaux-mecs-QJIMNMNGUZHKPACVZAQOBY4WF4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump reste obsédé par les fraudes électorales : \"Vous êtes une chaîne partiale et malhonnête\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/11/donald-trump-reste-obsede-par-les-fraudes-electorales-vous-etes-une-chaine-partiale-et-malhonnete-QGBLTPYJTRC5BBVB6ATPU5UBJ4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Coupe du monde 2026: \"Il aurait été impossible d'organiser le Mondial 2026\" sans Trump, souligne Infantino",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/06/11/coupe-du-monde-2026-il-aurait-ete-impossible-dorganiser-le-mondial-2026-sans-trump-souligne-infantino-PU5DCR3CKVFG7PCSIEB2NCLAIE/",
+        "source": "dhnet",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 7,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 7,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 20,
+      "crime": 23,
+      "eu": 23,
+      "politics": 15,
+      "be_gov": 17,
+      "culture": 3,
+      "tech": 11,
+      "economy": 15,
+      "sports": 40,
+      "health": 2,
+      "climate": 2,
+      "migration": 2,
+      "education": 8,
+      "weather": 4
+    },
+    "wide_themes": {
+      "war": 31,
+      "crime": 28,
+      "eu": 35,
+      "politics": 19,
+      "be_gov": 21,
+      "culture": 4,
+      "tech": 11,
+      "economy": 18,
+      "sports": 53,
+      "health": 3,
+      "climate": 2,
+      "migration": 2,
+      "education": 13,
+      "weather": 10
+    }
   }
 ]
