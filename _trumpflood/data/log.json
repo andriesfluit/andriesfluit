@@ -35538,154 +35538,154 @@
   },
   {
     "date": "2026-06-11",
-    "generated_at": "2026-06-11T16:25:15+02:00",
-    "last_checked_at": "2026-06-11T16:25:15+02:00",
-    "total_articles": 790,
-    "trump_articles": 18,
-    "percentage": 2.3,
-    "core_percentage": 2.3,
-    "core_percentage_name": 2.3,
-    "trump_articles_expanded": 21,
-    "core_percentage_expanded": 2.7,
-    "indirect_references": 3,
-    "wide_total_articles": 1075,
-    "wide_trump_articles": 28,
-    "wide_percentage": 2.6,
-    "wide_trump_articles_expanded": 31,
-    "wide_percentage_expanded": 2.9,
-    "macro_percentage": 3.1,
-    "qualifying_outlets": 31,
+    "generated_at": "2026-06-11T21:21:05+02:00",
+    "last_checked_at": "2026-06-11T21:21:05+02:00",
+    "total_articles": 965,
+    "trump_articles": 31,
+    "percentage": 3.2,
+    "core_percentage": 3.2,
+    "core_percentage_name": 3.2,
+    "trump_articles_expanded": 32,
+    "core_percentage_expanded": 3.3,
+    "indirect_references": 1,
+    "wide_total_articles": 1332,
+    "wide_trump_articles": 42,
+    "wide_percentage": 3.2,
+    "wide_trump_articles_expanded": 43,
+    "wide_percentage_expanded": 3.2,
+    "macro_percentage": 3.3,
+    "qualifying_outlets": 33,
     "core_outlets_total": 19,
     "core_outlets_active": 19,
     "active_core_fraction": 1.0,
-    "cross_outlet_dup_headlines": 30,
-    "cross_outlet_dup_groups": 15,
-    "cross_outlet_dup_rate": 3.8,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "cross_outlet_dup_headlines": 68,
+    "cross_outlet_dup_groups": 34,
+    "cross_outlet_dup_rate": 7.0,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.8,
-    "breadth": 0.47,
-    "deviation": 0.94,
-    "smoothed_pct": 2.49,
+    "dominance": 3.1,
+    "breadth": 0.68,
+    "deviation": 1.31,
+    "smoothed_pct": 2.61,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 8,
+    "theme_rank": 7,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 32,
-        "kept": 32,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 6.25
+        "today": 31,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
       },
       "google_fr": {
         "fetched": 34,
-        "today": 21,
-        "kept": 21,
+        "today": 28,
+        "kept": 28,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.76
+        "share": 3.57
       },
       "google_nl_politics": {
-        "fetched": 67,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 57,
+        "today": 16,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
       },
       "google_nl_world": {
-        "fetched": 51,
-        "today": 18,
-        "kept": 11,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 49,
+        "today": 29,
+        "kept": 26,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.69
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 35,
-        "kept": 29,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.45
+        "today": 48,
+        "kept": 44,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.55
       },
       "google_nl_tech": {
-        "fetched": 57,
-        "today": 13,
-        "kept": 10,
+        "fetched": 58,
+        "today": 23,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 37,
-        "kept": 33,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.03
+        "today": 48,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 46,
-        "today": 9,
-        "kept": 9,
+        "fetched": 43,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 46,
-        "today": 16,
-        "kept": 13,
+        "fetched": 48,
+        "today": 23,
+        "kept": 18,
         "trump": 3,
         "trump_expanded": 3,
-        "share": 23.08
+        "share": 16.67
       },
       "google_fr_business": {
-        "fetched": 56,
-        "today": 18,
-        "kept": 16,
+        "fetched": 55,
+        "today": 24,
+        "kept": 21,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 6.25
+        "share": 4.76
       },
       "vrt": {
         "fetched": 50,
-        "today": 46,
-        "kept": 46,
+        "today": 43,
+        "kept": 43,
         "trump": 0,
-        "trump_expanded": 1,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 77,
-        "kept": 54,
+        "today": 97,
+        "kept": 71,
         "trump": 3,
         "trump_expanded": 3,
-        "share": 5.56
+        "share": 4.23
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 1,
-        "trump_expanded": 2,
-        "share": 3.33
-      },
-      "demorgen": {
-        "fetched": 30,
-        "today": 23,
-        "kept": 23,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 8.7
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 26,
+        "kept": 26,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.69
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -35699,9 +35699,9 @@
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.0
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "hbvl": {
         "fetched": 50,
@@ -35713,59 +35713,59 @@
       },
       "knack": {
         "fetched": 100,
-        "today": 50,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 57,
+        "kept": 56,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.57
       },
       "sporza": {
         "fetched": 20,
-        "today": 19,
-        "kept": 19,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 23,
-        "kept": 23,
+        "today": 33,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 14,
-        "kept": 14,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 14.29
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
       },
       "lalibre": {
         "fetched": 100,
-        "today": 65,
-        "kept": 65,
-        "trump": 5,
-        "trump_expanded": 5,
-        "share": 7.69
+        "today": 89,
+        "kept": 89,
+        "trump": 6,
+        "trump_expanded": 6,
+        "share": 6.74
       },
       "lecho": {
         "fetched": 100,
-        "today": 63,
-        "kept": 60,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 1.67
+        "today": 82,
+        "kept": 80,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.5
       },
       "dhnet": {
         "fetched": 100,
-        "today": 99,
-        "kept": 99,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 2.02
+        "today": 100,
+        "kept": 100,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 4.0
       },
       "septsursept": {
         "fetched": 30,
@@ -35785,59 +35785,59 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 29,
-        "kept": 21,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 46,
+        "kept": 35,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.71
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 36,
-        "kept": 35,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 49,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 21,
-        "kept": 21,
+        "today": 48,
+        "kept": 48,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 29,
-        "kept": 29,
+        "today": 44,
+        "kept": 44,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 42,
-        "kept": 39,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 59,
+        "kept": 55,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 5.45
       },
       "trends_g": {
         "fetched": 100,
-        "today": 32,
-        "kept": 21,
+        "today": 39,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
         "fetched": 100,
-        "today": 54,
-        "kept": 53,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 1.89
+        "today": 66,
+        "kept": 64,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.12
       }
     },
     "core_sources": [
@@ -35863,12 +35863,6 @@
     ],
     "matches": [
       {
-        "title": "Van Werchter naar Washington: podiumbouwer Stageco uit Haacht bouwt vechtarena voor Witte Huis",
-        "url": "https://vrtnws.be/p.11dNq56L7",
-        "source": "vrt",
-        "name_only": false
-      },
-      {
         "title": "Wie is het grootst, Trump of het WK? - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTW9ObHVraTVwSDVtSDhJREhvck41ZHNlSElVbDBLNXE1WkNXWUNROW1DS2d6Y0FKbV9QVHlHbWsza0ZnRU16YS1YZWtyOVZiT05FWi1QQ1ZLYnZBcUlzdVdyRmx0OUVzT3d0R2JmOXlpdEZIZV9jYndyTG1kMzQ0X1RPTG5ramVVRDNsVFVlbklmZw?oc=5",
         "source": "standaard",
@@ -35887,16 +35881,22 @@
         "name_only": true
       },
       {
-        "title": "Trump verwittigt dat er vanavond “zeer zware aanval” op Iran komt: “In niet zo verre toekomst nemen we ook eiland Kharg in”",
-        "url": "https://www.hln.be/buitenland/trump-verwittigt-dat-er-vanavond-zeer-zware-aanval-op-iran-komt-in-niet-zo-verre-toekomst-nemen-we-ook-eiland-kharg-in~a99e0324/",
+        "title": "Trump ziet af van aanvallen op Iran en zinspeelt op akkoord: “Voorbarig”, reageren Iraanse staatsmedia",
+        "url": "https://www.hln.be/buitenland/trump-ziet-af-van-aanvallen-op-iran-en-zinspeelt-op-akkoord-voorbarig-reageren-iraanse-staatsmedia~a99e0324/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "\"Je hebt het vanaf het begin al verpest!\": Epstein-dossier blijkt vorig jaar blinde paniek veroorzaakt te hebben in Witte Huis",
-        "url": "https://www.hln.be/buitenland/je-hebt-het-vanaf-het-begin-al-verpest-epstein-dossier-blijkt-vorig-jaar-blinde-paniek-veroorzaakt-te-hebben-in-witte-huis~a5211545/",
+        "title": "Twintig uur per dag, minstens twee jaar lang: triomfboog van Trump wordt titanenwerk",
+        "url": "https://www.hln.be/buitenland/twintig-uur-per-dag-minstens-twee-jaar-lang-triomfboog-van-trump-wordt-titanenwerk~a79c6d94/",
         "source": "hln",
-        "name_only": false
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump blaast aanvallen vanavond op Iran af na te dreigen met inname van olie-eiland Kharg, Iran ontkent akkoord over voorlopig bestand of deal met VS",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-blaast-aanvallen-vanavond-op-iran-af-na-te-dreigen-met-inname-van-olie-eiland-kharg-iran-ontkent-akkoord-over-voorlopig-bestand-of-deal-met-vs~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
       },
       {
         "title": "Wat een moddergevecht bij zender CBS zegt over het medialandschap onder Trump",
@@ -35905,32 +35905,44 @@
         "name_only": true
       },
       {
-        "title": "Live - Trump: VS zal Iran vanavond ‘zeer hard’ treffen, president dreigt met innemen van olie-eiland Kharg",
-        "url": "https://www.demorgen.be/snelnieuws/live-trump-vs-zal-iran-vanavond-zeer-hard-treffen-president-dreigt-met-innemen-van-olie-eiland-kharg~be9c4f82/",
-        "source": "demorgen",
+        "title": "Trump blaast aangekondigde aanvallen af, vanwege \"besprekingen met Iraans leiderschap\" - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYkhLWUd3N3hHRHJZeE5IZ2RnSDJZa29NNW5ReU1NLVNCeXFXNXZQeTUtUTFEQ3N3UHQ1Q29NQ0lWWEZKWEE1aEJFclk2aUNoUElOMllHVnZCN0xxSXJ0eV9QRTZtOWlvSWhNbE5kZzYwQmpGQy0yeF9vOWZoTTBJV2NTc1E2TDk4SEtMQ1JrNm1MT0dUUDlfeVoycEhxcnltUVRPMmtvSktjbUtXekpGVl9vVnBMTWlBZkdBRVJrUWRPZkhleFVTRTJyVkhudWttUkw0TWk0X1BwcnVKUGpWUkVoeERTaFoySlQ4QjRR?oc=5",
+        "source": "knack",
         "name_only": true
       },
       {
-        "title": "Direct – Guerre au Moyen-Orient : Trump dit qu'il va frapper l'Iran \"très fort ce soir\" et que les États-Unis vont bientôt s'emparer de sites pétroliers iraniens",
-        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-trump-dit-qu-il-va-frapper-l-iran-tres-fort-ce-soir-et-que-les-etats-unis-vont-bientot-s-emparer-de-sites-petroliers-iraniens-11738639",
+        "title": "Een kooi voor het Witte Huis: Trump viert 80e verjaardag met vuistgevechten - Knack",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQThpaV9tM1JzSlQ5cG10OUxFdGlxbnlEVE5IS2xOTjl2TGhIaS1sVHJyMThXazN5ekxrTWp6emJONVo0TUFERzJFVUd1SFpzLWIwWE9XQURPX2RzWGprMFNwWjJMaThfZGdyaE1HZjJRdXFKZTlGZnNXYXFZMmlSTDlSQTRGSlU?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : Donald Trump annonce qu'il annule les frappes de jeudi contre l'Iran, Téhéran dément",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-donald-trump-annonce-qu-il-annule-les-frappes-de-jeudi-contre-l-iran-teheran-dement-11738639",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "Guerre au Moyen-Orient : la paix avec l’Iran, mission impossible pour Trump ? \"On a des deux côtés des extrémistes qui se répondent sans fin\"",
-        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-la-paix-avec-l-iran-mission-impossible-pour-trump-on-a-des-deux-cotes-des-extremistes-qui-se-repondent-sans-fin-11738918",
-        "source": "rtbf",
+        "title": "Trump menace de saisir l’île de Kharg, avant de calmer le jeu... et d'évoquer un accord \"tout proche\"",
+        "url": "https://www.lalibre.be/international/2026/06/11/trump-menace-de-saisir-lile-de-kharg-avant-de-calmer-le-jeu-et-devoquer-un-accord-tout-proche-GGD2NY2SXVBKDMV32SAOMX6IFE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient : Trump annonce qu'il annule les frappes de jeudi contre l'Iran après des discussions \"au plus haut niveau\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/11/direct-guerre-au-moyen-orient-a-nouveau-bombarde-par-les-etats-unis-liran-promet-de-refermer-le-detroit-dormuz-U3QGFBEZ6FHN5JEG25EFBKMZ5Q/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "”Ils vont en faire un énorme scandale” : comment l’administration Trump a paniqué en pleine affaire Epstein",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/11/ils-vont-en-faire-un-enorme-scandale-comment-ladministration-trump-a-panique-en-pleine-affaire-epstein-NKPW6A4LJZDJHNSTRZ64DT3J74/",
+        "source": "lalibre",
         "name_only": true
       },
       {
         "title": "”Ça le fait passer pour un idiot”, “Son équipe devrait avoir honte” : une ancienne alliée de Donald Trump critique la stratégie du président en Iran",
         "url": "https://www.lalibre.be/international/amerique/2026/06/11/ca-le-fait-passer-pour-un-idiot-son-equipe-devrait-avoir-honte-une-ancienne-alliee-de-donald-trump-critique-la-strategie-du-president-en-iran-RCVUIYZJYJE5NGKSDVP2ITOY2E/",
-        "source": "lalibre",
-        "name_only": true
-      },
-      {
-        "title": "DIRECT- Guerre au Moyen-Orient :  Trump dit qu'il va frapper l'Iran \"très fort ce soir\"",
-        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/11/direct-guerre-au-moyen-orient-a-nouveau-bombarde-par-les-etats-unis-liran-promet-de-refermer-le-detroit-dormuz-U3QGFBEZ6FHN5JEG25EFBKMZ5Q/",
         "source": "lalibre",
         "name_only": true
       },
@@ -35947,15 +35959,27 @@
         "name_only": true
       },
       {
-        "title": "Donald Trump reste obsédé par les fraudes électorales : \"Vous êtes une chaîne partiale et malhonnête\"",
-        "url": "https://www.lalibre.be/international/amerique/2026/06/11/donald-trump-reste-obsede-par-les-fraudes-electorales-vous-etes-une-chaine-partiale-et-malhonnete-QGBLTPYJTRC5BBVB6ATPU5UBJ4/",
-        "source": "lalibre",
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump annonce de nouvelles frappes sur l'Iran ce soir, les infrastructures pétrolières ciblées - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNcEJmWXlYeW5JOW9vWkFXcVpYMkxBR0JTNHJhWTk5N3V6VVNQNXpaR3plbTJSSE9EclhQNVl5c0ZZTlV5UVczZHAwVnBZYk1aUWVrcDVONzdFX0x0dm1pbi1qZmNJNWpUQ3NRVmVnbFNpZzA5SXRpRjFaemlOTWtob1VRdXo3c2dOV3JCWnVJV1doUEJxWTNVaThzdnlVWF84Wk5OVGNsRXhrUDBKTEphXy1QcFlBZGZSVGlmMXp3U0lQUUtJX19MMVBDR1pUSlFzQ0pFRVczaXFfNFgyOVU0OUxXUzhLbGk5cWdxNTBXb0VRZVZPdEN0b2l0VlR5U2dvRWwyQnZYVmtJWFlobVZiZklHVzNxWEw1bzNjM1FPSnF0MFdKRTRDQzJTX3lrdV9abEFJN3VCVlVTdw?oc=5",
+        "source": "lecho",
         "name_only": true
       },
       {
         "title": "Revue de presse | Donald Trump a besoin d'une nouvelle stratégie sur l'Iran - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaWhqNE1QYWdydjdidmI5ZFhHcG80RDUwWGFPbElzakc2bzlhbW5NaVZmS19nVkpKNkozMmhMTnZjcUVzeVFodWJuM2NsVFAwQnRJSE5HdGh2X2gzQ0k3VVhHS2NlVzlGc2gyWV9RQzZqa3JlLS1fWHc5LTg5WkI3SF9JS185TThYSFRIdmJNMUlvXzVEN2pRa2xsc2xROFpydzdtRVQ3LTBaa182dUtqQUUzNWFaX0t5ZjcyamJjWGwwd1BBd0FCTg?oc=5",
         "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump annonce qu'il annule les frappes de jeudi contre l'Iran après des discussions \"au plus haut niveau\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/11/direct-guerre-au-moyen-orient-liran-a-nouveau-bombarde-par-les-etats-unis-promet-de-refermer-le-detroit-dormuz-ER6XDDINGBAA3C3PRRYBXM52MQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Trump perd patience face à l’Iran, qui conserve plusieurs cartes en main “et une inconnue pourrait tout bouleverser”",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/11/guerre-au-moyen-orient-trump-perd-patience-face-a-liran-qui-conserve-plusieurs-cartes-en-main-et-une-inconnue-pourrait-tout-bouleverser-AZRKC2ZLAFHY3GLYABSVFOHCHU/",
+        "source": "dhnet",
         "name_only": true
       },
       {
@@ -35971,15 +35995,57 @@
         "name_only": true
       },
       {
-        "title": "“Vous avez tout gâché dès le début!”: dans les coulisses de la Maison-Blanche durant l’affaire des “Epstein Files”",
-        "url": "https://www.7sur7.be/monde/vous-avez-tout-gache-des-le-debut-dans-les-coulisses-de-la-maison-blanche-durant-laffaire-des-epstein-files~a5211545/",
+        "title": "Nouveau record pour Donald Trump: jamais un président américain n’avait été suivi par autant de médecins",
+        "url": "https://www.7sur7.be/monde/nouveau-record-pour-donald-trump-jamais-un-president-americain-navait-ete-suivi-par-autant-de-medecins~a2a497d7/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“C’est un énorme problème”: comment l’affaire Epstein a semé la panique à la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/cest-un-enorme-probleme-comment-laffaire-epstein-a-seme-la-panique-a-la-maison-blanche~a5211545/",
         "source": "septsursept",
         "name_only": false
       },
       {
-        "title": "“Nous allons frapper très fort ce soir”: Trump menace à nouveau l’Iran",
-        "url": "https://www.7sur7.be/monde/nous-allons-frapper-tres-fort-ce-soir-trump-menace-a-nouveau-liran~a8fabb59/",
-        "source": "septsursept",
+        "title": "Wall Street schiet hoger nadat Trump Iran-aanvallen annuleert - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaVMtdUNpdmd6eGtsWGFiZDduTjdEcVN0SnZIYU5jc0xlVk9xcUZQN01XdVJUTlJsNm9XQlVwWUp1dVNVdk11TXFTbW1rbzdOY1dPZUtlVVFMNUVENDV3QWFnOXVsQVFUT21JdkpranRscVh0cHhRbG5NT0FHLW1CcjRYdHN4LVlfWWhuTDZfSWhxQkI2bjJ0aUlWS05pWEpZcWk3aFdyRDgtQ0R3enl4elNUQ0pyd1FWd2Z1aEFPQU5UWE8zcmpNalJFSWlkNmRSNDdnM1VxVmlPWGt5cGc?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Wall Street schiet hoger nu Trump Iran-aanvallen schrapt - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM2FYM1AxblcxcGxwc2FvVnR3XzFmVEFXM3hqLXhMT2JNbW5VaW1LOE9LRzRIWWpKcDhOOWZRQ2RiTTBFYTJZSklhbUoxUVBiaE5jeUxqUWhkUVdKWDVWcDRzYWlXMDFNRTEwM2ZFV3h6NTVTUzFNSmljQ1MzZ0dFc29mLXd5ZXg3cUJ6QmJmRmFLakpSYURrNTZPcEswaHJIb0xDcXF1MkdFaXdMakpIbGNrd0k4VkR1d1QwNkdwbTlIWDNGbW5FU3lqTVlDS0d2SWtsT3N1VQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump affirme que les Etats-Unis vont bientôt s’emparer de sites pétroliers iraniens - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZHltTjZtV0lEZDJYTGptaHVqQWoxR0dQVm9jQ2d3Uk5Ud09hTi1uS1ZaZGx4MDBlekNweXF2MWJkbG9jSDh5WmNoRkRabHVNYWZIMGVqdkZyUVcyRmRfRUVhdmNQeEMzNXdhY3dSV3NfbGJ5bnFmcDBHaVNCNURLVU5RbzdTemJYRjN1VnlXYzBmQ09qMjBMbkQ3VUNXdy1zbXE2Y3pCcFJNX2owUWhHSi1NNDhDNnhzd3VOZmhYcw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Que pensent les jeunes Américains de la politique de Donald Trump ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTEdpS0poazJ1dlNrN0dZeGJleEd3M2F0R3hkNGtveVdlbXV0a3FtbV9Fd3VZZ25JTHRWaTFWb2RGOTdkYmp4QjJpWi1xc1pnSUxEQkhkWm9Sa2VLMm9mV184SXpmS3ROWEUzNzJjcVRPS0tzOTBQY1VEM1VWdUd3anl0UEZyaklYSjNJb1hfelBDUlJxVkRwUW0wM2N5NEN4cEg4ZjRxWVJKbTluYVJzanNFbkNVckpLZ3VBajVaclZ0ekVu?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi Donald Trump veut-il à nouveau frapper l'Iran très fort ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZFJQQW9MT3N3Znk4c09TZnk0cTJTMDhwc1prNGxjZG5NOHQzNlNDcWlVaTNxZXpweUdkRW94Q3B4UFlwRmVTX19kVEZ2c0tteFhLN0xyNDhUZkhDajlXQVd0R0VTV0RVeFN1US1YNEJSdnpKUkswR3V0Yk82MjRreHFYdzQxS2NpNVYzalh4VWlWdm42QWNlMEpBTm9XeTVldlRmZ1JZQVBvR29UZVkxOWI3QlFzYm1PYlp2RmJiYw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "La volte-face de Donald Trump : le président américain annule les frappes contre l’Iran et évoque la « signature » prochaine d’un accord - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVGJBME55ZXFOWFFLenEzYmdZclN2amhBWmlMQmU5eHZrZFNEdHZDSk5KWXlaTTl2TkQxeXhhZEluY25rYUxKM3ZQa1g0S2IyZjByT3V6Zk1DMFdsbWh2WWtXSkZLNWZzbGtMM09JRDB2STlLam9JOVhCVUZWTVpwcm85NGdzN05CSHZndXJXTE0xSHlmVGxjY21FeHB2c0hINFNEN3BOZF9tNUtKNjJ2UGs3by1JaVhQY3ZFU1VRYXBFc2pFRTNVeVZpNXdlLWdaZXRORG5KUmtJTEtpQTlvMXhR?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce qu’il annule les frappes de ce jeudi contre l’Iran - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVkd0dXBVZE9zQWkyaHdXVFdwTTI3RGVtM2J3OFdYVzl6MzZncjR2bWM0YXpnSndqVENPRTBQY3QxSE44Q2tta05UNVJwbEV3aUdxSnllNU0wNzJqM1NrcXI4aU9fcU1HNXdiTnVGazhsME93bDM1U09pSE9VN0VqUzM3TWQ4SEYxTjh6ZmdRSUVYNktYaUhTZGoyTktCU2FZQWZkWHdXMjBscGRJdXpN?oc=5",
+        "source": "tendances_g",
         "name_only": true
       },
       {
@@ -35991,38 +36057,50 @@
     ],
     "wide_matches": [
       {
-        "title": "Trump probeert voor de tweede dag op rij Iran tot andere gedachten te bombarderen - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN2ZtUjhiV3VoNUdMbUFMX2xTcmFkVlB1YVhvTTYxTVNLa2M3QkRFbVZNdkJQNHphem5vR0JJX2xkbU9HUW9yLVlYYkhLREdldjR2T0x1ME03b3JiSFM5ZkRyVGhSdnd5b1g4bVV4VHVoUjk2RlBnV2c2UlVJM0tBNDM5bDdvTHlWdno4SE95a3hDMEhOcnQ1eWhiNFBxWlFIb3luUkttQXdZdUZpZ1hPcEFTZFhiV25DMlMxMjZjRi1YZlF0Q1Ffb0c2LWk?oc=5",
-        "source": "google_nl",
-        "name_only": true
-      },
-      {
         "title": "Trump beweerde al zeker 38 keer dat vredesdeal tussen VS en Iran “zeer nabij” was: “Hij raakt de grenzen van wat nog kan qua communicatie” - Nieuwsblad",
         "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPdi1FbEJkQ1l1bEN3Q3hBM1NIb2pwMDZGQTFMcUxjMEdrYkFEbGEzVXBIUkQ4bWZaM0hSZHlxelQwY0lLLUNCSjRZaTFKZTNUVVJIdDM4dnRId0dnUUp1T090RHItYkI2VWZBRmZIT0lhb1pqd1VOZm5KTVdpczQzUEdyQVFhZVMyNjlOOEN6X19CWldGY3lYSUlqb280V3JyM3Z2NWdxNG1TMWViUEFDbklLZ21za3d0RXI3X0YtRzR0YnVFbEphQ3JleVJRb0pHdmI0Q1FUNjVwdlQ0ZlpBVWFUMTRYSkVmZDB3aGh0U2wtX3RyYmxXQzVnZktWZ2RUOHpTcFctMkZIWlprTXNkbVU5Yw?oc=5",
         "source": "google_nl",
         "name_only": true
       },
       {
-        "title": "\"Là où Obama a échoué, Trump est déterminé à réussir\" - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcktJSDNualVxWXd2UmpMc2pickxVZ3B4d05yVnEtZTMwNm1JQzZJRjlNS3J5QzlVYTc1VGprSnVYdDlHSm5vNVFrMWhLbGJvaldRbTJoeFY1YkhZVWVqanAyRGl5U3B0UDFVTDZpT1diRU51SDdoclQxNk5pdXN0cmFaLWc5b0NNQkhVLUY5ekJtX3k3N2hEVTZoN0Ewalc2WWNuQ0tNdlJyWjAwT1JaWjhlUlk2VV9vQ3RaMDYydlBubkR1YlpiaWVyeHpOVm5JOWIxYzVaVUJvRFNzTVJNOUNn?oc=5",
+        "title": "Direct – Guerre au Moyen-Orient : Donald Trump annonce qu'il annule les frappes de jeudi contre l'Iran, Téhéran dément - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNaS1iYlVFX3lILXNtY2ZLR3o5VUVDcGRkUC1QZnhVYVZfZmltQ084dVFaa0VhTnNsNHNkNWRneGYzdWhEUmotbkZocE9WT3E4bU5vVzl5S2RqUDlUMmo1VzNQWHpWUWo5djk2MVkxakkxaWVjaXdVY1JfRzZ3VnNQWGdvRlJJcWt0OUpndzBISS1ieGQ4VGFiWWFDZl9oX08waVF5R01ScTFOTVJqWU1yTEs4VWU5RWNuYW1HRXUxN0pvMjNBeXF3Ukp3dVk0MmNUcTVGQzJRMUlKbnREUFhXQlRXZkhsN0JPYVpmeUFQbW1WZ285dGI0cWVlTHJNd2pfQ0U5NHltU1AwWHNGUC1URE1rbU1ST2J3VGJBQQ?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "VIDEO Trump over gestegen inflatie in de VS: \"Ik hou van inflatie\" - VRT",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa0NBMmRVMmJCYi1GdHVWUzJKVjFfS3BiV2JSNG16MVA5OEx5dS1STGV6ck96bFhuOV9uNFZLX3cyT2xSUmZxQmlaZ1lHTnZLRF82Y0k2VGdmNkVyYkF3em5HejF3V1BLVDJpbGg2RVg3T0NJR3JrdmZZYWlEazBEY0JR?oc=5",
+        "title": "Flamingo-protest tegen resort schoonzoon Trump neemt Albanese politiek in het vizier - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTm1yNHJaNXNGUmhBWGEwWmNuYXZvWGNRVGdzV21Lc3duYWRRTXN5VWtKcmNsT1Y1YUdURlN0bTFGZjYxckxZbmxkMllTZWpNbEs5OWJOSnJFT3hHMF95eE14OTJybnBJMlpGUWluazItX1hxWlBSSXBvNGJUSi1GQkNHcGlxY3hZNXpHODd0ZW9ZNWQycFdsT1FMYTgwUnU0SV9xdzAtTDF4anRBLVZtUGZDWHJ4RW5Kbnl1VnloWGdWNHNIWmo1QjZHYUVWbjNCOE5VZWY5bHBReUNEdmRTSmRRNC1CN1U?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt ‘totale controle’ te grijpen over Iraanse olie- en gasmarkt - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMi1ZTndpcWlLdVdVeDYtYjRsYlB0RHFuOFBiWlBBLURyWkNJdjU5X2kycDNJeGdJMlZiS08xcWpzM3NnaGtRR3EzUHRkcGF5b2toMGNnY3VaZEtUV1hoRDVfUzAzcjV3NEpLcU1mRmFOeHpRYWdLM0R3a3FRQ2VUR05rdmtyWDhZaS1mcFlFOF9vVncwTWxaN2o0S05RVFhpalF4WDhzNVRBT2NNLWFxM3dQOXNoeGtNNlhHMm1EZ1JKTXR1d0dLRHpBd1VfV0xp?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump probeert voor de tweede dag op rij Iran tot andere gedachten te bombarderen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN2ZtUjhiV3VoNUdMbUFMX2xTcmFkVlB1YVhvTTYxTVNLa2M3QkRFbVZNdkJQNHphem5vR0JJX2xkbU9HUW9yLVlYYkhLREdldjR2T0x1ME03b3JiSFM5ZkRyVGhSdnd5b1g4bVV4VHVoUjk2RlBnV2c2UlVJM0tBNDM5bDdvTHlWdno4SE95a3hDMEhOcnQ1eWhiNFBxWlFIb3luUkttQXdZdUZpZ1hPcEFTZFhiV25DMlMxMjZjRi1YZlF0Q1Ffb0c2LWk?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Nasdaq sluit 2 procent lager na dreigementen Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY3NNRlR3SXJTeElLZlpsZElJZmNNbXloMFZKclpDMFZUaGpRc0xWRGpuS0tPMkZnOS0zb2dVaklnUnhiSEV0T00zZ25UdGx0dHIwYXo4UUhNLVdCSTh6NHZRSWxVM0Jhb3lIeXBnam9xVTB6TVNGUDNaUzdDdVhXSndGLVRmRS1qM2JnWkpLOHdYRmg1QmdoVDhpcU5JVV9UaDJEcUZXMjB3cG9nakVlSFFESkJvWVZQTXVxUzV3NUV5MURPYkVleUdGc3RpcHM?oc=5",
         "source": "google_nl_business",
         "name_only": true
       },
       {
-        "title": "“Zonder Donald Trump was het WK hier niet mogelijk geweest”: FIFA-voorzitter Gianni Infantino reageert vlak voor WK op alle kritiek - HLN",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRmlXSkhfakRJelEtd1Y2a2ZGRUc1aWFSenRUaXFJU3lIQjQwTW1sZDlSVklRQXAyZFdqZHRDUFF6TVJSN1UxX0VRYzUyTXNFSWYwN1VqTWZZUWpMZFV2R1A0LUdiVTRyVFRLeGtMQmFuTmd5NThPZzA5ZTJBNzJnZFpENldPWXVqTlRwMm01ckhkSEQ4VWl5LTJ2ZHR0Vk9xY092S1kwVV9FZndHaUd0MDE4ZkZGWTJsZHlxYk9mb3pGczhzQlVaS0hCYmtaMkdHdm9XQXNjUGtxQ3pXMS16dWpISlNXR0xKenpzNkdzbkZaWW1hM3FMWHNiX2o?oc=5",
-        "source": "google_nl_sport",
+        "title": "Teardown bevestigt: Trump T1-telefoon is gouden midrange HTC met andere accu - Tweakers",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdmROanU1N3lyblg3SGdxMFlTVnVxWHdtTjFORkdNRVBRdkQ3OHhTbjk1WUh6eWxfQ3FzU2pVb1hNejlPMHdDeDF3SGJLRDFuSzFrMzJsUldrRzhxTFpkd2k3eEp3TW9XS05LOTBVVFpFdUk3WHNnLXc2bkZJd1lKdmw3Z0lzc0pjbm9qR2FROWVEYnV6eVM0anhVbEo3cWFHZEJwSWhZa0p1Q2dQbDR3ODdDLVBXQQ?oc=5",
+        "source": "google_nl_business",
         "name_only": true
       },
       {
         "title": "En direct | Guerre au Moyen-Orient: Donald Trump annonce de nouvelles frappes sur l'Iran ce soir, les infrastructures pétrolières ciblées - L'Echo",
-        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNcEJmWXlYeW5JOW9vWkFXcVpYMkxBR0JTNHJhWTk5N3V6VVNQNXpaR3plbTJSSE9EclhQNVl5c0ZZTlV5UVczZHAwVnBZYk1aUWVrcDVONzdFX0x0dm1pbi1qZmNJNWpUQ3NRVmVnbFNpZzA5SXRpRjFaemlOTWtob1VRdXo3c2dOV3JCWnVJV1doUEJxWTNVaThzdnlVWF84Wk5OVGNsRXhrUDBKTEphXy1QcFlBZGZSVGlmMXp3U0lQUUtJX19MMVBDR1pUSlFzQ0pFRVczaXFfNFgyOVU0OUxXUzhLbGk5cWdxNTBXb0VRZVZPdEN0b2l0VlR5U2dvRWwyQnZYVmtJWFlobVZiZklHVzNxWEw1bzNjM1FPSnF0MFdKRTRDQzJTX3lrdV9abEFJN3VCVlVTdw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNcEktVHZPcFJmUFlYVTdqb1Y4SGNWWjNvQU9uSkw0OFpmQXFvSmhiaHVtQTd6UEVCd0hZdlBVMVc1QzhzX0luMUlDLVdlN25LSWVWRzdORVBFZ1psdGQzdDl0bnUwai1iODdWaDN2ckFzdXIwVzF5WFA5SmxYdU96STNhX2dBMkZTM2R0NUlFTEM4NE1EWS1YVVRvWWNEcVZnZTlkUG9KejY4QVlJQmxuOFlBOTA1cjNvNzlYOWd1b0lYbkpzU1BtZTJ0a1o2UU5td2xVQU5faFFEU001NU5abGc3dkpCdlRzX1lGZ3plX0JOM051cXdmellDb0xVZw?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
@@ -36033,22 +36111,16 @@
         "name_only": true
       },
       {
-        "title": "Direct – Guerre au Moyen-Orient : Trump dit qu'il va frapper l'Iran 'très fort ce soir' et que les États-Unis vont bientôt s'emparer de sites pétroliers iraniens - RTBF",
-        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNaS1iYlVFX3lILXNtY2ZLR3o5VUVDcGRkUC1QZnhVYVZfZmltQ084dVFaa0VhTnNsNHNkNWRneGYzdWhEUmotbkZocE9WT3E4bU5vVzl5S2RqUDlUMmo1VzNQWHpWUWo5djk2MVkxakkxaWVjaXdVY1JfRzZ3VnNQWGdvRlJJcWt0OUpndzBISS1ieGQ4VGFiWWFDZl9oX08waVF5R01ScTFOTVJqWU1yTEs4VWU5RWNuYW1HRXUxN0pvMjNBeXF3Ukp3dVk0MmNUcTVGQzJRMUlKbnREUFhXQlRXZkhsN0JPYVpmeUFQbW1WZ285dGI0cWVlTHJNd2pfQ0U5NHltU1AwWHNGUC1URE1rbU1ST2J3VGJBQQ?oc=5",
+        "title": "Nouveau record pour Donald Trump: jamais un président américain n’avait été suivi par autant de médecins - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOd2ZGUXo4ZFR3bllnUVMxMlNkS1NHZFBncUtVbzNZUU4xTlZyb2xmZDUxNjJfNDc4djlHRDFQcTVxMkRRRlZVUWl3c2MxQ2pmQkU2UVl0OUU1UTlicFBXTHp5bE9KcjgzNnYzM0p1VDRtaF9GZWkwNHh6WUtPRHJrMUc2cTFzRVliYzB6ZmJKU2ZTOXRlaUIyNzE0Z0RqaUcyeDJsc2Z5YlZ6ekpCLWpWaDBudjVBRjdIZEV2TXpFLURsSm9Lc2tnRUZFdC1EbUF6anN0T3B3?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
       {
-        "title": "\"J'adore l’inflation\", déclare Donald Trump, alors que les prix repartent à la hausse - Euronews.com",
+        "title": "\"J'adore l’inflation\", déclare Donald Trump, alors que les prix repartent à la hausse - Euronews",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTlFlbHVPYUZMandoVVZQV0M5THdPb2sxdEktVS1ZMFdGZTRkNUR2NWFyb0R4M1FuV1FqY0RHd2praTFrb1VrckF2TlFTUE9pSGFGa0FBU0xTU2FCSWFhS1pGMHlLR0lMd19KRHJiaTRkTU45UTJMcGVPREVvTmF0ZlpYY0h4QnhOZUJvVndvY2RXQ1hCdS1oNUtOaUNjYU54eWxMQlBicVR2ZzBZc2dwTmJnczFtQkU?oc=5",
         "source": "google_fr_business",
         "name_only": true
-      },
-      {
-        "title": "Van Werchter naar Washington: podiumbouwer Stageco uit Haacht bouwt vechtarena voor Witte Huis",
-        "url": "https://vrtnws.be/p.11dNq56L7",
-        "source": "vrt",
-        "name_only": false
       },
       {
         "title": "Wie is het grootst, Trump of het WK? - De Standaard",
@@ -36069,16 +36141,22 @@
         "name_only": true
       },
       {
-        "title": "Trump verwittigt dat er vanavond “zeer zware aanval” op Iran komt: “In niet zo verre toekomst nemen we ook eiland Kharg in”",
-        "url": "https://www.hln.be/buitenland/trump-verwittigt-dat-er-vanavond-zeer-zware-aanval-op-iran-komt-in-niet-zo-verre-toekomst-nemen-we-ook-eiland-kharg-in~a99e0324/",
+        "title": "Trump ziet af van aanvallen op Iran en zinspeelt op akkoord: “Voorbarig”, reageren Iraanse staatsmedia",
+        "url": "https://www.hln.be/buitenland/trump-ziet-af-van-aanvallen-op-iran-en-zinspeelt-op-akkoord-voorbarig-reageren-iraanse-staatsmedia~a99e0324/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "\"Je hebt het vanaf het begin al verpest!\": Epstein-dossier blijkt vorig jaar blinde paniek veroorzaakt te hebben in Witte Huis",
-        "url": "https://www.hln.be/buitenland/je-hebt-het-vanaf-het-begin-al-verpest-epstein-dossier-blijkt-vorig-jaar-blinde-paniek-veroorzaakt-te-hebben-in-witte-huis~a5211545/",
+        "title": "Twintig uur per dag, minstens twee jaar lang: triomfboog van Trump wordt titanenwerk",
+        "url": "https://www.hln.be/buitenland/twintig-uur-per-dag-minstens-twee-jaar-lang-triomfboog-van-trump-wordt-titanenwerk~a79c6d94/",
         "source": "hln",
-        "name_only": false
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump blaast aanvallen vanavond op Iran af na te dreigen met inname van olie-eiland Kharg, Iran ontkent akkoord over voorlopig bestand of deal met VS",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-blaast-aanvallen-vanavond-op-iran-af-na-te-dreigen-met-inname-van-olie-eiland-kharg-iran-ontkent-akkoord-over-voorlopig-bestand-of-deal-met-vs~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
       },
       {
         "title": "Wat een moddergevecht bij zender CBS zegt over het medialandschap onder Trump",
@@ -36087,38 +36165,44 @@
         "name_only": true
       },
       {
-        "title": "Live - Trump: VS zal Iran vanavond ‘zeer hard’ treffen, president dreigt met innemen van olie-eiland Kharg",
-        "url": "https://www.demorgen.be/snelnieuws/live-trump-vs-zal-iran-vanavond-zeer-hard-treffen-president-dreigt-met-innemen-van-olie-eiland-kharg~be9c4f82/",
-        "source": "demorgen",
+        "title": "Trump blaast aangekondigde aanvallen af, vanwege \"besprekingen met Iraans leiderschap\" - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYkhLWUd3N3hHRHJZeE5IZ2RnSDJZa29NNW5ReU1NLVNCeXFXNXZQeTUtUTFEQ3N3UHQ1Q29NQ0lWWEZKWEE1aEJFclk2aUNoUElOMllHVnZCN0xxSXJ0eV9QRTZtOWlvSWhNbE5kZzYwQmpGQy0yeF9vOWZoTTBJV2NTc1E2TDk4SEtMQ1JrNm1MT0dUUDlfeVoycEhxcnltUVRPMmtvSktjbUtXekpGVl9vVnBMTWlBZkdBRVJrUWRPZkhleFVTRTJyVkhudWttUkw0TWk0X1BwcnVKUGpWUkVoeERTaFoySlQ4QjRR?oc=5",
+        "source": "knack",
         "name_only": true
       },
       {
-        "title": "LIVE MIDDEN-OOSTEN. Trump waarschuwt: “We zullen Iran hard treffen vanavond, en eiland Kharg in niet verre toekomst innemen”",
-        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-waarschuwt-we-zullen-iran-hard-treffen-vanavond-en-eiland-kharg-in-niet-verre-toekomst-innemen/76854338.html",
-        "source": "gva",
+        "title": "Een kooi voor het Witte Huis: Trump viert 80e verjaardag met vuistgevechten - Knack",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQThpaV9tM1JzSlQ5cG10OUxFdGlxbnlEVE5IS2xOTjl2TGhIaS1sVHJyMThXazN5ekxrTWp6emJONVo0TUFERzJFVUd1SFpzLWIwWE9XQURPX2RzWGprMFNwWjJMaThfZGdyaE1HZjJRdXFKZTlGZnNXYXFZMmlSTDlSQTRGSlU?oc=5",
+        "source": "knack",
         "name_only": true
       },
       {
-        "title": "Direct – Guerre au Moyen-Orient : Trump dit qu'il va frapper l'Iran \"très fort ce soir\" et que les États-Unis vont bientôt s'emparer de sites pétroliers iraniens",
-        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-trump-dit-qu-il-va-frapper-l-iran-tres-fort-ce-soir-et-que-les-etats-unis-vont-bientot-s-emparer-de-sites-petroliers-iraniens-11738639",
+        "title": "Direct – Guerre au Moyen-Orient : Donald Trump annonce qu'il annule les frappes de jeudi contre l'Iran, Téhéran dément",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-donald-trump-annonce-qu-il-annule-les-frappes-de-jeudi-contre-l-iran-teheran-dement-11738639",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "Guerre au Moyen-Orient : la paix avec l’Iran, mission impossible pour Trump ? \"On a des deux côtés des extrémistes qui se répondent sans fin\"",
-        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-la-paix-avec-l-iran-mission-impossible-pour-trump-on-a-des-deux-cotes-des-extremistes-qui-se-repondent-sans-fin-11738918",
-        "source": "rtbf",
+        "title": "Trump menace de saisir l’île de Kharg, avant de calmer le jeu... et d'évoquer un accord \"tout proche\"",
+        "url": "https://www.lalibre.be/international/2026/06/11/trump-menace-de-saisir-lile-de-kharg-avant-de-calmer-le-jeu-et-devoquer-un-accord-tout-proche-GGD2NY2SXVBKDMV32SAOMX6IFE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient : Trump annonce qu'il annule les frappes de jeudi contre l'Iran après des discussions \"au plus haut niveau\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/11/direct-guerre-au-moyen-orient-a-nouveau-bombarde-par-les-etats-unis-liran-promet-de-refermer-le-detroit-dormuz-U3QGFBEZ6FHN5JEG25EFBKMZ5Q/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "”Ils vont en faire un énorme scandale” : comment l’administration Trump a paniqué en pleine affaire Epstein",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/11/ils-vont-en-faire-un-enorme-scandale-comment-ladministration-trump-a-panique-en-pleine-affaire-epstein-NKPW6A4LJZDJHNSTRZ64DT3J74/",
+        "source": "lalibre",
         "name_only": true
       },
       {
         "title": "”Ça le fait passer pour un idiot”, “Son équipe devrait avoir honte” : une ancienne alliée de Donald Trump critique la stratégie du président en Iran",
         "url": "https://www.lalibre.be/international/amerique/2026/06/11/ca-le-fait-passer-pour-un-idiot-son-equipe-devrait-avoir-honte-une-ancienne-alliee-de-donald-trump-critique-la-strategie-du-president-en-iran-RCVUIYZJYJE5NGKSDVP2ITOY2E/",
-        "source": "lalibre",
-        "name_only": true
-      },
-      {
-        "title": "DIRECT- Guerre au Moyen-Orient :  Trump dit qu'il va frapper l'Iran \"très fort ce soir\"",
-        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/11/direct-guerre-au-moyen-orient-a-nouveau-bombarde-par-les-etats-unis-liran-promet-de-refermer-le-detroit-dormuz-U3QGFBEZ6FHN5JEG25EFBKMZ5Q/",
         "source": "lalibre",
         "name_only": true
       },
@@ -36135,15 +36219,27 @@
         "name_only": true
       },
       {
-        "title": "Donald Trump reste obsédé par les fraudes électorales : \"Vous êtes une chaîne partiale et malhonnête\"",
-        "url": "https://www.lalibre.be/international/amerique/2026/06/11/donald-trump-reste-obsede-par-les-fraudes-electorales-vous-etes-une-chaine-partiale-et-malhonnete-QGBLTPYJTRC5BBVB6ATPU5UBJ4/",
-        "source": "lalibre",
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump annonce de nouvelles frappes sur l'Iran ce soir, les infrastructures pétrolières ciblées - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNcEJmWXlYeW5JOW9vWkFXcVpYMkxBR0JTNHJhWTk5N3V6VVNQNXpaR3plbTJSSE9EclhQNVl5c0ZZTlV5UVczZHAwVnBZYk1aUWVrcDVONzdFX0x0dm1pbi1qZmNJNWpUQ3NRVmVnbFNpZzA5SXRpRjFaemlOTWtob1VRdXo3c2dOV3JCWnVJV1doUEJxWTNVaThzdnlVWF84Wk5OVGNsRXhrUDBKTEphXy1QcFlBZGZSVGlmMXp3U0lQUUtJX19MMVBDR1pUSlFzQ0pFRVczaXFfNFgyOVU0OUxXUzhLbGk5cWdxNTBXb0VRZVZPdEN0b2l0VlR5U2dvRWwyQnZYVmtJWFlobVZiZklHVzNxWEw1bzNjM1FPSnF0MFdKRTRDQzJTX3lrdV9abEFJN3VCVlVTdw?oc=5",
+        "source": "lecho",
         "name_only": true
       },
       {
         "title": "Revue de presse | Donald Trump a besoin d'une nouvelle stratégie sur l'Iran - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaWhqNE1QYWdydjdidmI5ZFhHcG80RDUwWGFPbElzakc2bzlhbW5NaVZmS19nVkpKNkozMmhMTnZjcUVzeVFodWJuM2NsVFAwQnRJSE5HdGh2X2gzQ0k3VVhHS2NlVzlGc2gyWV9RQzZqa3JlLS1fWHc5LTg5WkI3SF9JS185TThYSFRIdmJNMUlvXzVEN2pRa2xsc2xROFpydzdtRVQ3LTBaa182dUtqQUUzNWFaX0t5ZjcyamJjWGwwd1BBd0FCTg?oc=5",
         "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump annonce qu'il annule les frappes de jeudi contre l'Iran après des discussions \"au plus haut niveau\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/11/direct-guerre-au-moyen-orient-liran-a-nouveau-bombarde-par-les-etats-unis-promet-de-refermer-le-detroit-dormuz-ER6XDDINGBAA3C3PRRYBXM52MQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Trump perd patience face à l’Iran, qui conserve plusieurs cartes en main “et une inconnue pourrait tout bouleverser”",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/11/guerre-au-moyen-orient-trump-perd-patience-face-a-liran-qui-conserve-plusieurs-cartes-en-main-et-une-inconnue-pourrait-tout-bouleverser-AZRKC2ZLAFHY3GLYABSVFOHCHU/",
+        "source": "dhnet",
         "name_only": true
       },
       {
@@ -36159,15 +36255,57 @@
         "name_only": true
       },
       {
-        "title": "“Vous avez tout gâché dès le début!”: dans les coulisses de la Maison-Blanche durant l’affaire des “Epstein Files”",
-        "url": "https://www.7sur7.be/monde/vous-avez-tout-gache-des-le-debut-dans-les-coulisses-de-la-maison-blanche-durant-laffaire-des-epstein-files~a5211545/",
+        "title": "Nouveau record pour Donald Trump: jamais un président américain n’avait été suivi par autant de médecins",
+        "url": "https://www.7sur7.be/monde/nouveau-record-pour-donald-trump-jamais-un-president-americain-navait-ete-suivi-par-autant-de-medecins~a2a497d7/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“C’est un énorme problème”: comment l’affaire Epstein a semé la panique à la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/cest-un-enorme-probleme-comment-laffaire-epstein-a-seme-la-panique-a-la-maison-blanche~a5211545/",
         "source": "septsursept",
         "name_only": false
       },
       {
-        "title": "“Nous allons frapper très fort ce soir”: Trump menace à nouveau l’Iran",
-        "url": "https://www.7sur7.be/monde/nous-allons-frapper-tres-fort-ce-soir-trump-menace-a-nouveau-liran~a8fabb59/",
-        "source": "septsursept",
+        "title": "Wall Street schiet hoger nadat Trump Iran-aanvallen annuleert - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaVMtdUNpdmd6eGtsWGFiZDduTjdEcVN0SnZIYU5jc0xlVk9xcUZQN01XdVJUTlJsNm9XQlVwWUp1dVNVdk11TXFTbW1rbzdOY1dPZUtlVVFMNUVENDV3QWFnOXVsQVFUT21JdkpranRscVh0cHhRbG5NT0FHLW1CcjRYdHN4LVlfWWhuTDZfSWhxQkI2bjJ0aUlWS05pWEpZcWk3aFdyRDgtQ0R3enl4elNUQ0pyd1FWd2Z1aEFPQU5UWE8zcmpNalJFSWlkNmRSNDdnM1VxVmlPWGt5cGc?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Wall Street schiet hoger nu Trump Iran-aanvallen schrapt - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM2FYM1AxblcxcGxwc2FvVnR3XzFmVEFXM3hqLXhMT2JNbW5VaW1LOE9LRzRIWWpKcDhOOWZRQ2RiTTBFYTJZSklhbUoxUVBiaE5jeUxqUWhkUVdKWDVWcDRzYWlXMDFNRTEwM2ZFV3h6NTVTUzFNSmljQ1MzZ0dFc29mLXd5ZXg3cUJ6QmJmRmFLakpSYURrNTZPcEswaHJIb0xDcXF1MkdFaXdMakpIbGNrd0k4VkR1d1QwNkdwbTlIWDNGbW5FU3lqTVlDS0d2SWtsT3N1VQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump affirme que les Etats-Unis vont bientôt s’emparer de sites pétroliers iraniens - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZHltTjZtV0lEZDJYTGptaHVqQWoxR0dQVm9jQ2d3Uk5Ud09hTi1uS1ZaZGx4MDBlekNweXF2MWJkbG9jSDh5WmNoRkRabHVNYWZIMGVqdkZyUVcyRmRfRUVhdmNQeEMzNXdhY3dSV3NfbGJ5bnFmcDBHaVNCNURLVU5RbzdTemJYRjN1VnlXYzBmQ09qMjBMbkQ3VUNXdy1zbXE2Y3pCcFJNX2owUWhHSi1NNDhDNnhzd3VOZmhYcw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Que pensent les jeunes Américains de la politique de Donald Trump ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTEdpS0poazJ1dlNrN0dZeGJleEd3M2F0R3hkNGtveVdlbXV0a3FtbV9Fd3VZZ25JTHRWaTFWb2RGOTdkYmp4QjJpWi1xc1pnSUxEQkhkWm9Sa2VLMm9mV184SXpmS3ROWEUzNzJjcVRPS0tzOTBQY1VEM1VWdUd3anl0UEZyaklYSjNJb1hfelBDUlJxVkRwUW0wM2N5NEN4cEg4ZjRxWVJKbTluYVJzanNFbkNVckpLZ3VBajVaclZ0ekVu?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi Donald Trump veut-il à nouveau frapper l'Iran très fort ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZFJQQW9MT3N3Znk4c09TZnk0cTJTMDhwc1prNGxjZG5NOHQzNlNDcWlVaTNxZXpweUdkRW94Q3B4UFlwRmVTX19kVEZ2c0tteFhLN0xyNDhUZkhDajlXQVd0R0VTV0RVeFN1US1YNEJSdnpKUkswR3V0Yk82MjRreHFYdzQxS2NpNVYzalh4VWlWdm42QWNlMEpBTm9XeTVldlRmZ1JZQVBvR29UZVkxOWI3QlFzYm1PYlp2RmJiYw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "La volte-face de Donald Trump : le président américain annule les frappes contre l’Iran et évoque la « signature » prochaine d’un accord - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVGJBME55ZXFOWFFLenEzYmdZclN2amhBWmlMQmU5eHZrZFNEdHZDSk5KWXlaTTl2TkQxeXhhZEluY25rYUxKM3ZQa1g0S2IyZjByT3V6Zk1DMFdsbWh2WWtXSkZLNWZzbGtMM09JRDB2STlLam9JOVhCVUZWTVpwcm85NGdzN05CSHZndXJXTE0xSHlmVGxjY21FeHB2c0hINFNEN3BOZF9tNUtKNjJ2UGs3by1JaVhQY3ZFU1VRYXBFc2pFRTNVeVZpNXdlLWdaZXRORG5KUmtJTEtpQTlvMXhR?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce qu’il annule les frappes de ce jeudi contre l’Iran - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVkd0dXBVZE9zQWkyaHdXVFdwTTI3RGVtM2J3OFdYVzl6MzZncjR2bWM0YXpnSndqVENPRTBQY3QxSE44Q2tta05UNVJwbEV3aUdxSnllNU0wNzJqM1NrcXI4aU9fcU1HNXdiTnVGazhsME93bDM1U09pSE9VN0VqUzM3TWQ4SEYxTjh6ZmdRSUVYNktYaUhTZGoyTktCU2FZQWZkWHdXMjBscGRJdXpN?oc=5",
+        "source": "tendances_g",
         "name_only": true
       },
       {
@@ -36178,74 +36316,74 @@
       }
     ],
     "comparisons": {
-      "trump": 18,
+      "trump": 31,
       "putin": 0,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 5,
+      "de_wever": 6,
       "bouchez": 2,
       "magnette": 0,
       "prevot": 0,
-      "rousseau": 0,
-      "francken": 2,
+      "rousseau": 1,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 42,
+      "putin": 0,
+      "macron": 3,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 12,
+      "bouchez": 3,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 1
     },
-    "wide_comparisons": {
-      "trump": 28,
-      "putin": 0,
-      "macron": 2,
-      "netanyahu": 1,
-      "zelensky": 0,
-      "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 8,
-      "bouchez": 4,
-      "magnette": 0,
-      "prevot": 0,
-      "rousseau": 1,
-      "francken": 2,
-      "crevits": 0,
-      "jambon": 0,
-      "van_peteghem": 0,
-      "verlinden": 2
-    },
     "themes": {
-      "war": 38,
-      "crime": 31,
-      "eu": 58,
-      "politics": 29,
-      "be_gov": 29,
-      "culture": 17,
-      "tech": 15,
-      "economy": 29,
-      "sports": 75,
+      "war": 44,
+      "crime": 32,
+      "eu": 85,
+      "politics": 28,
+      "be_gov": 33,
+      "culture": 20,
+      "tech": 17,
+      "economy": 33,
+      "sports": 102,
       "health": 8,
-      "climate": 5,
-      "migration": 6,
-      "education": 13,
+      "climate": 8,
+      "migration": 10,
+      "education": 12,
       "weather": 5
     },
     "wide_themes": {
-      "war": 54,
-      "crime": 42,
-      "eu": 78,
-      "politics": 48,
-      "be_gov": 41,
+      "war": 61,
+      "crime": 50,
+      "eu": 110,
+      "politics": 53,
+      "be_gov": 50,
       "culture": 22,
-      "tech": 21,
-      "economy": 40,
-      "sports": 101,
+      "tech": 31,
+      "economy": 43,
+      "sports": 146,
       "health": 13,
-      "climate": 5,
-      "migration": 9,
-      "education": 17,
-      "weather": 7
+      "climate": 9,
+      "migration": 12,
+      "education": 15,
+      "weather": 6
     }
   }
 ]
