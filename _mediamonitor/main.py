@@ -156,6 +156,16 @@ def run(profile, to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resol
                                            profile.llm_system, profile.include_action)
             logging.info("LLM filter %s: %d → %d", key, len(items), len(filtered[key]))
 
+    # Rank by Claude score then recency, and cap per bucket BEFORE enrichment:
+    # only fetch bodies for the items the mail will actually show. A noisy
+    # bucket otherwise made us enrich several times more than we display.
+    for items in filtered.values():
+        items.sort(key=lambda a: (
+            -(a.get("score") or 0),
+            -(a["published_dt"].timestamp() if a.get("published_dt") else 0),
+        ))
+        del items[profile.max_per_bucket:]
+
     # Stage 2: enrich + summarize the survivors
     if not no_enrich and not no_llm:
         all_relevant = [a for items in filtered.values() for a in items]
@@ -175,16 +185,6 @@ def run(profile, to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resol
             for a in items:
                 a["summary_long"] = (a.get("summary") or "").strip()
                 a["summary_source"] = "rss_snippet_noenrich"
-
-    # Sort items per bucket by Claude score desc, then recency desc, and cap
-    # the number shown. A noisy bucket (e.g. bikon's technique track) should
-    # not bloat the mail; a smaller message also avoids Gmail throttling.
-    for items in filtered.values():
-        items.sort(key=lambda a: (
-            -(a.get("score") or 0),
-            -(a["published_dt"].timestamp() if a.get("published_dt") else 0),
-        ))
-        del items[profile.max_per_bucket:]
 
     post_total = sum(len(v) for v in filtered.values())
 
