@@ -78,6 +78,12 @@ def _parse(text):
 MAX_PER_COMPANY = 80
 
 
+# Filter in chunks so the JSON response never outgrows max_tokens. One 80-item
+# response truncated mid-array, failed to parse, and fail-open then kept the
+# whole (unfiltered) bucket. ~25 items per call stays well within budget.
+_CHUNK_SIZE = 25
+
+
 def filter_company(company_key, articles, companies, system_prompt, include_action=False):
     """Return Claude-filtered relevant articles, each augmented with
     'topic', 'nut' (and 'actie' when the profile asks for it) fields."""
@@ -91,6 +97,15 @@ def filter_company(company_key, articles, companies, system_prompt, include_acti
         articles = articles[:MAX_PER_COMPANY]
 
     client = _client()
+    kept = []
+    for start in range(0, len(articles), _CHUNK_SIZE):
+        chunk = articles[start:start + _CHUNK_SIZE]
+        kept.extend(_filter_chunk(company_key, chunk, companies,
+                                  system_prompt, include_action, client))
+    return kept
+
+
+def _filter_chunk(company_key, articles, companies, system_prompt, include_action, client):
     resp = client.messages.create(
         model=MODEL,
         max_tokens=4096,

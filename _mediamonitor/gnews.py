@@ -101,7 +101,7 @@ def _batchexecute_url(b64, session, timeout):
     return None
 
 
-def decode(url, session=None, timeout=8):
+def decode(url, session=None, timeout=6):
     """Return the real publisher URL for a Google News link, or `url` itself."""
     if "news.google.com" not in url:
         return url
