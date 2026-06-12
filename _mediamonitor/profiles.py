@@ -14,9 +14,14 @@ so there are no `if profile == ...` branches anywhere else.
 
 from dataclasses import dataclass
 
-from bikon_companies import BIKON_COMPANIES, BIKON_OUTLET_FEEDS
+from bikon_companies import (
+    BIKON_COMPANIES,
+    BIKON_FUNDING_FEEDS,
+    BIKON_OUTLET_FEEDS,
+    BIKON_TECH_FEEDS,
+)
 from companies import COMPANIES
-from feeds import all_feeds
+from feeds import all_feeds, outlet_catalogue
 
 
 @dataclass(frozen=True)
@@ -121,7 +126,11 @@ AKKANTO = Profile(
 BIKON = Profile(
     name="bikon",
     companies=BIKON_COMPANIES,
-    outlet_feeds=all_feeds(belgian=BIKON_OUTLET_FEEDS, sector={}),
+    outlet_feeds=outlet_catalogue(
+        (BIKON_OUTLET_FEEDS, "sector", None),
+        (BIKON_TECH_FEEDS, "sector", "ai_tech_buildradar"),
+        (BIKON_FUNDING_FEEDS, "sector", "competitors_funding"),
+    ),
     llm_system=BIKON_SYSTEM,
     include_action=True,
     state_filename="last_sent_bikon.txt",

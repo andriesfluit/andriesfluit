@@ -16,6 +16,8 @@ from concurrent.futures import ThreadPoolExecutor
 
 import requests
 
+from gnews import decode as _decode_gnews
+
 try:
     import cloudscraper
     _SCRAPER = cloudscraper.create_scraper(
@@ -77,6 +79,9 @@ def enrich_one(url):
     """Return (status, text). status ∈ {"ok", "paywall", "fail"}."""
     if trafilatura is None:
         return "fail", ""
+    # Google News links resolve only to a JS-redirect page; decode to the real
+    # publisher URL first so trafilatura has actual article HTML to parse.
+    url = _decode_gnews(url)
     try:
         resp = _fetch(url)
         if resp.status_code != 200:
@@ -104,7 +109,7 @@ def enrich_one(url):
 def enrich_many(articles, max_workers=8):
     """Annotate each article in-place with `body_status` and `body_text`."""
     def task(art):
-        status, text = enrich_one(art["link"])
+        status, text = enrich_one(art.get("canonical_url") or art["link"])
         art["body_status"] = status
         art["body_text"] = text
         return art

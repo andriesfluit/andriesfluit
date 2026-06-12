@@ -96,32 +96,56 @@ def all_feeds(belgian=None, sector=None):
 from urllib.parse import quote_plus
 
 
+_LOCALES = {
+    "nl": ("nl-BE", "BE", "BE:nl"),
+    "fr": ("fr-BE", "BE", "BE:fr"),
+    "en": ("en-US", "US", "US:en"),
+}
+
+
 def _gnews_search_url(term, locale, when_hours):
     """Build a Google News RSS search URL for an exact-phrase term."""
     quoted = f'"{term}"'
     q = quote_plus(f"{quoted} when:{when_hours}h")
-    if locale == "nl":
-        return f"https://news.google.com/rss/search?q={q}&hl=nl-BE&gl=BE&ceid=BE:nl"
-    return f"https://news.google.com/rss/search?q={q}&hl=fr-BE&gl=BE&ceid=BE:fr"
+    hl, gl, ceid = _LOCALES.get(locale, _LOCALES["nl"])
+    return f"https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
 
 
 def search_feeds_for(company_key, company_cfg, when_hours):
     """Return dict {feed_name: {url, tier, company_key}} for one company's
-    search terms. Each term expands to a nl-BE and a fr-BE Google News
-    search. when_hours should be sized roughly to the lookback window
-    plus some margin so Google's own date-filter doesn't pre-truncate."""
+    search terms. Each term expands to one Google News search per locale.
+
+    Locales default to nl-BE + fr-BE (the akkanto clients' world); a bucket can
+    override with a `locales` key, e.g. ("en",) for the English-language
+    technique track or ("nl","fr","en") for funding/regulation. when_hours is
+    sized to the lookback plus margin so Google's date-filter doesn't truncate."""
     search_terms = company_cfg.get("search_terms") or {}
+    locales = company_cfg.get("locales") or ("nl", "fr")
     out = {}
     for category, terms in search_terms.items():
         for term in terms:
             slug = _slugify(term)
-            for locale in ("nl", "fr"):
+            for locale in locales:
                 key = f"search_{company_key}_{category}_{slug}_{locale}"
                 out[key] = {
                     "url": _gnews_search_url(term, locale, when_hours),
                     "tier": "search",
                     "company_key": company_key,
                 }
+    return out
+
+
+def outlet_catalogue(*groups):
+    """Assemble an outlet-feed dict from (catalogue, tier, company_key) groups.
+
+    Lets a profile route a whole source into a specific bucket via company_key
+    (e.g. arXiv or a vendor blog -> ai_tech_buildradar) instead of relying on a
+    pattern match. company_key=None keeps the akkanto behaviour (match by
+    regex across all buckets)."""
+    out = {}
+    for catalogue, tier, company_key in groups:
+        for name, url in catalogue.items():
+            out[name] = {"url": url, "tier": tier, "company_key": company_key}
     return out
 
 
