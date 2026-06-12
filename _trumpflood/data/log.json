@@ -36385,5 +36385,717 @@
       "education": 15,
       "weather": 6
     }
+  },
+  {
+    "date": "2026-06-12",
+    "generated_at": "2026-06-12T10:10:23+02:00",
+    "last_checked_at": "2026-06-12T10:10:23+02:00",
+    "total_articles": 480,
+    "trump_articles": 16,
+    "percentage": 3.3,
+    "core_percentage": 3.3,
+    "core_percentage_name": 3.3,
+    "trump_articles_expanded": 21,
+    "core_percentage_expanded": 4.4,
+    "indirect_references": 5,
+    "wide_total_articles": 642,
+    "wide_trump_articles": 22,
+    "wide_percentage": 3.4,
+    "wide_trump_articles_expanded": 31,
+    "wide_percentage_expanded": 4.8,
+    "macro_percentage": 4.0,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 7.5,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 5.33,
+    "breadth": 0.37,
+    "deviation": 1.35,
+    "smoothed_pct": 2.66,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 13,
+        "kept": 13,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 23.08
+      },
+      "google_nl_politics": {
+        "fetched": 51,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "google_nl_world": {
+        "fetched": 50,
+        "today": 8,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 49,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 6.25
+      },
+      "google_fr_politics": {
+        "fetched": 38,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_fr_world": {
+        "fetched": 44,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 48,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 49,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.12
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 19,
+        "kept": 19,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.79
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 2,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.45
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 61,
+        "kept": 61,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.28
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 3.45
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 20.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Ariane Grande boos op Witte Huis: \"Gebruik mijn muziek niet voor afschuwelijke onzin\"",
+        "url": "https://vrtnws.be/p.JN60JenKw",
+        "source": "vrt",
+        "name_only": false
+      },
+      {
+        "title": "Trump annuleert “krachtige bombardementen” en kondigt plots akkoord met Iran aan, Teheran ontkent - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMnhnRjFMVnk3Z3pydndpUkFzQzFOOUM3RnFxck9NMjQtaDZCeEY0U29SWEdPRXdSNGlsdGl4djVjVktDQzFLZkFBV2lpTnJja2hETUhSMDBmdWJxNUtoUF9OU0tuS1JIT0pia1Aza2ZTa3lsNUR3cEIwanV1N1hudXZNdkYyVFJ2U3ZOWDE0ZG9sbU96Vk90VVlGdU9lYUp4OW5lZEJRN3MzNE5zYi1qVlA0RGhTbUpRUFd0VG9tUGx5dGl3ek9BZzlqWG81VTI4WEFpeS05N25FUGllc0E?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump cancelt “krachtige bombardementen” en kondigt plots akkoord met Iran aan - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOHVBdDVRbnF6ZHI4dWp5SVNBRzJyQVNLaFZHRGNncmJ5YlRKZTRjVGJNbjhwSWtTSHZQaWxRUjhVejBySURWZ0hlSWdiTVNDd2VpbTVPYnlSenJOU0hJa25Sa1VVREE4R1hYTG55ZFBFQ2M3alBiVU9yMWQ5Z3pFYl9FOWthVTcyZVgyakhFTnFqRGpuQklDMkV2N0ZmdlZrdnZfRjlaSTFyTHNpdDVMRXFmZGZkTW9jWGVGZnhGb0dDU2VCelE?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump cancelt “krachtige bombardementen” en kondigt plots akkoord met Iran aan, Teheran ontkent - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSFpXbGluZWJ0dUNoVE13M2p5clZjNE42UmRWdm9WSTZtcGd0TEUxMW9hWU1UVDhJOUZYSjd5emwxMHpDSEZ5bkNXcHJ5U3labDZZVUpJcFVGZVZzVkZSRGZrTmxldGc4LV9vaHdYVFNhWEk0aTdJUzM1Wl9WenhqWFgwMmpEbWRkYmVLakNzVVQtc3I4SGJka3pEdE92SURHNUhOZUw4U2k1R3gxYi1KT1UwTkUtaDJfbHR4YmJjMnJVN1FQYkk2akh3dW1HR0RpQWlTZFlEanBIeU0?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Mysterieuze cijfers “8647” duiken op nabij Witte Huis: “Elke bedreiging tegen president Trump nemen we uiterst ernstig”",
+        "url": "https://www.hln.be/buitenland/mysterieuze-cijfers-8647-duiken-op-nabij-witte-huis-elke-bedreiging-tegen-president-trump-nemen-we-uiterst-ernstig~ae0d10aa/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump in beroep tegen bevel om zijn naam te verwijderen van Kennedy Center",
+        "url": "https://www.hln.be/buitenland/trump-in-beroep-tegen-bevel-om-zijn-naam-te-verwijderen-van-kennedy-center~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Dreigen en juichen wisselen elkaar af: is er echt een doorbraak als Trump dat zegt?",
+        "url": "https://www.demorgen.be/nieuws/dreigen-en-juichen-wisselen-elkaar-af-is-er-echt-een-doorbraak-als-trump-dat-zegt~b39865b8/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘VS willen NAVO-steun in Europa fors terugschroeven’ • Trump draagt Jay Clayton voor als nieuw hoofd inlichtingendiensten",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-draagt-jay-clayton-voor-als-nieuw-hoofd-inlichtingendiensten-vals-alarm-leidt-tot-gedeeltelijke-lockdown-pentagon~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Iran ontkent akkoord met VS en stopt tanker bij Straat van Hormuz • Trump denkt dat deal dit weekend kan worden ondertekend: ‘Waarschijnlijk in Europa’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-denkt-dat-deal-met-iran-dit-weekend-kan-worden-ondertekend-waarschijnlijk-in-europa-iran-ontkent-akkoord-over-voorlopig-bestand-met-vs~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Krankzinnig” en “politiek geweld:” Witte Huis boos nadat omstreden cijfercombinatie opduikt in grasveld in Washington D.C.",
+        "url": "https://www.nieuwsblad.be/buitenland/krankzinnig-en-politiek-geweld-witte-huis-boos-nadat-omstreden-cijfercombinatie-opduikt-in-grasveld-in-washington-d.c./156918589.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "“Krankzinnig” en “politiek geweld:” Witte Huis boos nadat omstreden cijfercombinatie opduikt in grasveld in Washington D.C.",
+        "url": "https://www.hbvl.be/buitenland/krankzinnig-en-politiek-geweld-witte-huis-boos-nadat-omstreden-cijfercombinatie-opduikt-in-grasveld-in-washington-d.c./156962083.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "“Stop met mijn muziek te gebruiken voor deze barbaarse nonsens”: Ariana Grande haalt hard uit naar Witte Huis",
+        "url": "https://www.hbvl.be/media-en-cultuur/stop-met-mijn-muziek-te-gebruiken-voor-deze-barbaarse-nonsens-ariana-grande-haalt-hard-uit-naar-witte-huis/156921168.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "La Belgique s'invite dans le combat de l'année à la Maison-Blanche, et retient l'attention de Trump",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/06/12/il-y-aura-un-peu-de-belgique-lors-de-levenement-mma-organise-a-la-maison-blanche-on-ne-la-detruira-peut-etre-jamais-VWROVO6BSVA57K7YPQ6VUCUKFA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Téhéran tempère après l’annonce d’un accord par Donald Trump",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/06/12/direct-guerre-au-moyen-orient-teheran-tempere-apres-lannonce-dun-accord-par-donald-trump-NAGKGCO54VBORISM6N4Q4WNZ4U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient : Trump assure qu'un \"très bon accord\" a été trouvé, Téhéran dit ne pas avoir tranché",
+        "url": "https://www.dhnet.be/actu/2026/06/12/direct-guerre-au-moyen-orient-trump-assure-quun-tres-bon-accord-a-ete-trouve-teheran-dit-ne-pas-avoir-tranche-KG2567C2URET7HS4CCSVRWIKVA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Avec Trump, le ballon ne tourne plus rond !",
+        "url": "https://www.dhnet.be/actu/edito/2026/06/12/avec-trump-le-ballon-ne-tourne-plus-rond-O4LBBVKFMJFBHBTIWN4KUZVMTA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“8647”: de mystérieux chiffres apparaissent près de la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/8647-de-mysterieux-chiffres-apparaissent-pres-de-la-maison-blanche~a973c12e/",
+        "source": "septsursept",
+        "name_only": false
+      },
+      {
+        "title": "Téhéran nie avoir tranché sur l’accord brandi par Trump",
+        "url": "https://www.7sur7.be/monde/teheran-nie-avoir-tranche-sur-laccord-brandi-par-trump~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump fête ses 80 ans : est-il trop âgé pour gouverner ? Voici ce que dit la science des dirigeants vieux - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSHFDX0traUo2ZTJuMHEtQVBEN1E3dV8wVkJaUGVhX3NJTmh6RzJUaHo0ZC00NzlORGVzc0c4THgwR0JlMEVobjVFTDdDYnpSWkZiWDZQVlhacnMyYjNmUjVTNWJ6QzhPbUxSVVFXVkVxckJ4TFRka09ETk42c3Z6UVVFQU9zUjR6VDVOLVlSRXozalBQRkwzMkw3NTdnQlEtXzhTMFNrdTFmdDRWblZVYnRtT2ZZd2FWcmFtdkhFX09ZSzB6OHJ4WWstVFlMU2J2X1dKN2o1UjE1TDM2dmdfWUxhTFA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump promet un accord de paix avec l'Iran... pour la 38e fois - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVzNlQ3J6SFdLd25BdmRMWkpvb1c0bDJtVFF0akhadjYzcUdFenBQZ3NWYmN1blE5UmhDeXZRUmI2VjBpdWFWNXRGV0dCMzdvckRmd1hVbXlBdUxETUtyeFh1bWF6WGdocndyanJ4aTQ5YjFDSzVwZ2lHblBqUEc5TDNyeGhYd004YmluYlFFUnlrRWxPcWRtbHQwMnNPbndsU0xObUM2eTU4dDZQRVd3SVE0LUc5dXU2Q2lqQmNTX0tWWEtv?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce pour la 38e fois un accord proche avec l’Iran : pourquoi devrait-on y croire ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWEs3LV9Lam1SM3BtRjBpSnJuWlBLM1dwQ3BTdS1oNHhKQzNDUFdua0wxekdTRmRtWHBJU1lTWTRlUVlBXzNiek1oRkF3X01ReDlsM0s3Y0gyM1NJM2JfTE12bHZvR0dDTVZBOXl3Q21IOHF0ZS1SWmNMeVA2a0hST3o5TDhHWXlTemVVajNOVG03QzdOUldTNGdzM1hJbWlsRUtYaEFtNkFUOUZQQkE4ck5VZTNKSEpXSGpQTzZWQjRxenNJTW00amlBMFlHOWZhdUx5c1RvOHE4TVFpdTQwRg?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "“Krankzinnig” en “politiek geweld:” Witte Huis boos nadat omstreden cijfercombinatie opduikt in grasveld in Washington D.C. - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNLVBYX2hRNFVNUVk4cFhrNERsNjV4bDVyVklSUjdPdEs1anliQ0o4Q3N2ZEJDNENWNGdta3kwbnBJNVYwbnFlb05maDdTNGZlSTBkZkFFVnJYVXYtWnpmOGxJR0VYdXJjU3cwdWw2ZGVzZDZ4V19scmVWZmhmcElsUlZ0QWZCLWV3QXAxWGRpTjJIUWM3VFh0dVVKMTM2cnNoYjBxUGR6c1ZpQUUwNjhadmt3czhpRXMyQUNXN0tiMlRXdVpPOW5OQWpJUlJzRktpc2FGLUo3RGpXN2ZDQVBhSXg1QmdrRlhIbl9uZ0QyQUcwcG9tTFlGT25ibDNURUk?oc=5",
+        "source": "google_nl",
+        "name_only": false
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Téhéran tempère après l'annonce d'un accord par Donald Trump - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNc3hTb0lHblgzTnd6cW5kdXRSUXhXUjZwLTI4SGsyaktlMTlCdkZ3YVlFZXhaLTBuZnR4bTZLQ1lwMndSZnpiUnF3ZGdtcDBIMmJiUlFBSGtsVkFSTUMxeEltQlBGMzU1VG9WTlBWWDVjaHRrdHpFT3lTTF9VRG4yV2FLNTN5azlhdE05MVd5VVY4aldQcDIyQnR2T2tfR2o1MXZKd3M1Vk04NEJwRHZVYW15UGM2c3k1UXBqMVZrNFNJbkhoYVItNC05MlhoWC1sNWxQemhhQktVVkNyd3Y1MnQ0emlhQkVta3BfaEZkWTBuMEh2dHctZVNVYUpnT3hSVmhRLThRVnA?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "La ligne dure de Donald Trump sur l’Otan se confirme : les États-Unis réduisent drastiquement leur soutien en Europe - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbGQ0THg5aURJLWMtdVJuWW1KV001TEladTNYZUFYaDZHNU9FdjduVmJyUWMzcUdHZ2FHb2g3dEJXRkk1QThFU3BzTFRrU0YyX2JfWnN3SGhxTzYtQk9tUHFvX2RVWkNkVTQ0S2NvYzV2bnFxVDVsd2JUOFRINDFFN2N4LW0wYlVPUUM3eWVkQWpzWUlfUlE0NTRMLVhCUWR3OGQ1VC02RnhhdzRKa3h3ZF9md3I5UTNSeHAxYWtjeUFfZFNxOC0tRVpFaWRkVmJJSERXTVdtUDZEX2Vadnpn?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Avec Trump, le ballon ne tourne plus rond ! - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcjh1NFcydFB3WjFvWW9tN3lJNnlLUkN0eWljYTRXc0hXRU9HMXdJdklmSDQxQVRDNWhzYWp1UF9NWFZWbWZFSDZtOThMTktzQml6NmE4WFlDS1czazEwZFJ6RUtXZ0NZNXhFTnpxcTZRU29CSXRGVVJoZThqY0JHUHo2eG00Uzl2ZjNGQjRHMXNwd1hWd1FsNXBOT3Jla1d5amVIRm8ySk5MU1U2d2pyNg?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Cijfercombinatie 8647 duikt op in gras bij park in Washington, Witte Huis noemt het “politiek geweld” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWjhmdmk2Nl9YTURIemZRNHRiaWg4VUlyazBabEVIdmhmY2pBa2VkSG5IZ1ZfeGU2eUhmTkNySFhweHdVbjhIenBnRFl0dWhVOGpRb2hOb05sX0xyZjJGbGM0RjJTS1o4VW5sZGZEYnV3Y1prdTBoenFSaXdQNzVadDdiU2VwVmZBd21XdmJMNGVVWEF2cWUyR0ZSV2lySUdvNW5XTTBHNEdBTnZubTdoTVJBZ1BDRmthWmFWT3BkS1VuekE2XzZLU19qRWdSNDhheUs3QUF4Qm1HeXVMX1ZmUTd4dw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "New York Times: Trump haalt deel Amerikaanse NAVO-vliegtuigen weg uit Europa - NOS",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ1RuYTJQWHN0ZE5DMTdtZEUzVWdIRWlVREh5NXB4LXA5Vlh6elUwdV9hblFXaEZ0dFZhTWVLQm9NZkxDVC1ZTzRJZ3pUOWZfMDFhOWxERG51eV9lc2VROERWbWtiZVpqNGdEQ2FXRHNJU3VPZ0RrczNmcDQ5LWxSZGtDTHVtanFiTjZBWk42X3BrUXdoeTk5OWUzdTFzZDhTSV9fM2ZaVTRRZw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Voor Amerika’s 250ste verjaardag (en zijn tachtigste) maakt Trump van het Witte Huis een arena voor kooigevechten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOZ2NOZEZyaDFGTy1YSUdKcXBfY2Y3ZXNWalpJQUItTnd4RjNoQ21TWEsyc0ZCb05RZlJXbFBBWDcwd2kwUU8wOWFicTFyNlNrXzUyQ01YYWdUQnpKaHA4a2U0aEJSQzI4NklTRWYxNVVJRHNVUHRtendLa21WVUVEZzd5RUZhMTctaV9RcUNHdEk2X0FSdXk1X3lmTHFwOGwtY3VIQzE0RFlPMC1xemJtemJiX21wbU5YbldVOUdjdFFaOVRMZGI1ZmFBQXB2TWszOUVvNUNMeXNuZ1NQS3N2RWR4M3VYaE5xTTlBNVNEOVhUcmM?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "Het is wachten op het moment dat de narcistische Amerikaanse president zichzelf tot hoofdact van het WK verklaart - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQYjN4YUN2RVF1ZzlaZ0RkVEphV2hScnAwejE2OFdfOFV0ejhBZ2p2UHZjMVhGTjVMTjdWSXlJTVkzejhOVXZabWlxQUpQRzRlTG55c0Z0ZExjeUpMZnZjb3N2NmdpUW9nSm5MeDJZUDBiRlpMN3U4a3FmcFAwZDJROGxWWEtaRW1kVDIwYm03bjZYNk9jVnpnY3lISjZyRmUtRkhCLTh2TzEyTk1SRE9JN09yZEUyMHVOT0ZIdURfcnNnMGN3RGNFNHljQkVRdjhUaXNiRlFzTWljWHpldG4yRno3bHNpVUI2SGEzcQ?oc=5",
+        "source": "google_nl_sport",
+        "name_only": false
+      },
+      {
+        "title": "Que signifient les chiffres anti-Trump «86 47» apparus mystérieusement sur la pelouse du National Mall de Washington? - Le Temps",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMkNaUFo2U0pKRWFLTHVhYzR4QjJhYWNTWWdUTVlIcHNMYlJuVVBFdU5MdHZQUXREbDdWb1BzU3N3WGRndG95bm1NbTlmdG5SaDlWcFR3UE9vN0duazJGOGozT1lIOGhSellUNjFINXoxelZzS040eEp1TERreWFHc3ZIeTBPZFp1WmRBUEhfVDMzS0dQRk1wRGhqdVNXWlB4XzZQaUR6ODFJcDhuOXBZSm5wenFzY1N3Z3Vrc0p3bHZ0eGVfLWtDTTJsenRiQXBXMnhoc2NBd3hKYWc?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Ariane Grande boos op Witte Huis: \"Gebruik mijn muziek niet voor afschuwelijke onzin\"",
+        "url": "https://vrtnws.be/p.JN60JenKw",
+        "source": "vrt",
+        "name_only": false
+      },
+      {
+        "title": "Trump annuleert “krachtige bombardementen” en kondigt plots akkoord met Iran aan, Teheran ontkent - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMnhnRjFMVnk3Z3pydndpUkFzQzFOOUM3RnFxck9NMjQtaDZCeEY0U29SWEdPRXdSNGlsdGl4djVjVktDQzFLZkFBV2lpTnJja2hETUhSMDBmdWJxNUtoUF9OU0tuS1JIT0pia1Aza2ZTa3lsNUR3cEIwanV1N1hudXZNdkYyVFJ2U3ZOWDE0ZG9sbU96Vk90VVlGdU9lYUp4OW5lZEJRN3MzNE5zYi1qVlA0RGhTbUpRUFd0VG9tUGx5dGl3ek9BZzlqWG81VTI4WEFpeS05N25FUGllc0E?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump cancelt “krachtige bombardementen” en kondigt plots akkoord met Iran aan - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOHVBdDVRbnF6ZHI4dWp5SVNBRzJyQVNLaFZHRGNncmJ5YlRKZTRjVGJNbjhwSWtTSHZQaWxRUjhVejBySURWZ0hlSWdiTVNDd2VpbTVPYnlSenJOU0hJa25Sa1VVREE4R1hYTG55ZFBFQ2M3alBiVU9yMWQ5Z3pFYl9FOWthVTcyZVgyakhFTnFqRGpuQklDMkV2N0ZmdlZrdnZfRjlaSTFyTHNpdDVMRXFmZGZkTW9jWGVGZnhGb0dDU2VCelE?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump cancelt “krachtige bombardementen” en kondigt plots akkoord met Iran aan, Teheran ontkent - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSFpXbGluZWJ0dUNoVE13M2p5clZjNE42UmRWdm9WSTZtcGd0TEUxMW9hWU1UVDhJOUZYSjd5emwxMHpDSEZ5bkNXcHJ5U3labDZZVUpJcFVGZVZzVkZSRGZrTmxldGc4LV9vaHdYVFNhWEk0aTdJUzM1Wl9WenhqWFgwMmpEbWRkYmVLakNzVVQtc3I4SGJka3pEdE92SURHNUhOZUw4U2k1R3gxYi1KT1UwTkUtaDJfbHR4YmJjMnJVN1FQYkk2akh3dW1HR0RpQWlTZFlEanBIeU0?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Mysterieuze cijfers “8647” duiken op nabij Witte Huis: “Elke bedreiging tegen president Trump nemen we uiterst ernstig”",
+        "url": "https://www.hln.be/buitenland/mysterieuze-cijfers-8647-duiken-op-nabij-witte-huis-elke-bedreiging-tegen-president-trump-nemen-we-uiterst-ernstig~ae0d10aa/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump in beroep tegen bevel om zijn naam te verwijderen van Kennedy Center",
+        "url": "https://www.hln.be/buitenland/trump-in-beroep-tegen-bevel-om-zijn-naam-te-verwijderen-van-kennedy-center~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Dreigen en juichen wisselen elkaar af: is er echt een doorbraak als Trump dat zegt?",
+        "url": "https://www.demorgen.be/nieuws/dreigen-en-juichen-wisselen-elkaar-af-is-er-echt-een-doorbraak-als-trump-dat-zegt~b39865b8/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘VS willen NAVO-steun in Europa fors terugschroeven’ • Trump draagt Jay Clayton voor als nieuw hoofd inlichtingendiensten",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-draagt-jay-clayton-voor-als-nieuw-hoofd-inlichtingendiensten-vals-alarm-leidt-tot-gedeeltelijke-lockdown-pentagon~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Iran ontkent akkoord met VS en stopt tanker bij Straat van Hormuz • Trump denkt dat deal dit weekend kan worden ondertekend: ‘Waarschijnlijk in Europa’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-denkt-dat-deal-met-iran-dit-weekend-kan-worden-ondertekend-waarschijnlijk-in-europa-iran-ontkent-akkoord-over-voorlopig-bestand-met-vs~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Krankzinnig” en “politiek geweld:” Witte Huis boos nadat omstreden cijfercombinatie opduikt in grasveld in Washington D.C.",
+        "url": "https://www.nieuwsblad.be/buitenland/krankzinnig-en-politiek-geweld-witte-huis-boos-nadat-omstreden-cijfercombinatie-opduikt-in-grasveld-in-washington-d.c./156918589.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "“Krankzinnig” en “politiek geweld:” Witte Huis boos nadat omstreden cijfercombinatie opduikt in grasveld in Washington D.C.",
+        "url": "https://www.gva.be/buitenland/krankzinnig-en-politiek-geweld-witte-huis-boos-nadat-omstreden-cijfercombinatie-opduikt-in-grasveld-in-washington-d.c./156918728.html",
+        "source": "gva",
+        "name_only": false
+      },
+      {
+        "title": "“Krankzinnig” en “politiek geweld:” Witte Huis boos nadat omstreden cijfercombinatie opduikt in grasveld in Washington D.C.",
+        "url": "https://www.hbvl.be/buitenland/krankzinnig-en-politiek-geweld-witte-huis-boos-nadat-omstreden-cijfercombinatie-opduikt-in-grasveld-in-washington-d.c./156962083.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "“Stop met mijn muziek te gebruiken voor deze barbaarse nonsens”: Ariana Grande haalt hard uit naar Witte Huis",
+        "url": "https://www.hbvl.be/media-en-cultuur/stop-met-mijn-muziek-te-gebruiken-voor-deze-barbaarse-nonsens-ariana-grande-haalt-hard-uit-naar-witte-huis/156921168.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "La Belgique s'invite dans le combat de l'année à la Maison-Blanche, et retient l'attention de Trump",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/06/12/il-y-aura-un-peu-de-belgique-lors-de-levenement-mma-organise-a-la-maison-blanche-on-ne-la-detruira-peut-etre-jamais-VWROVO6BSVA57K7YPQ6VUCUKFA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Téhéran tempère après l’annonce d’un accord par Donald Trump",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/06/12/direct-guerre-au-moyen-orient-teheran-tempere-apres-lannonce-dun-accord-par-donald-trump-NAGKGCO54VBORISM6N4Q4WNZ4U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient : Trump assure qu'un \"très bon accord\" a été trouvé, Téhéran dit ne pas avoir tranché",
+        "url": "https://www.dhnet.be/actu/2026/06/12/direct-guerre-au-moyen-orient-trump-assure-quun-tres-bon-accord-a-ete-trouve-teheran-dit-ne-pas-avoir-tranche-KG2567C2URET7HS4CCSVRWIKVA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Avec Trump, le ballon ne tourne plus rond !",
+        "url": "https://www.dhnet.be/actu/edito/2026/06/12/avec-trump-le-ballon-ne-tourne-plus-rond-O4LBBVKFMJFBHBTIWN4KUZVMTA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“8647”: de mystérieux chiffres apparaissent près de la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/8647-de-mysterieux-chiffres-apparaissent-pres-de-la-maison-blanche~a973c12e/",
+        "source": "septsursept",
+        "name_only": false
+      },
+      {
+        "title": "Téhéran nie avoir tranché sur l’accord brandi par Trump",
+        "url": "https://www.7sur7.be/monde/teheran-nie-avoir-tranche-sur-laccord-brandi-par-trump~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump fête ses 80 ans : est-il trop âgé pour gouverner ? Voici ce que dit la science des dirigeants vieux - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSHFDX0traUo2ZTJuMHEtQVBEN1E3dV8wVkJaUGVhX3NJTmh6RzJUaHo0ZC00NzlORGVzc0c4THgwR0JlMEVobjVFTDdDYnpSWkZiWDZQVlhacnMyYjNmUjVTNWJ6QzhPbUxSVVFXVkVxckJ4TFRka09ETk42c3Z6UVVFQU9zUjR6VDVOLVlSRXozalBQRkwzMkw3NTdnQlEtXzhTMFNrdTFmdDRWblZVYnRtT2ZZd2FWcmFtdkhFX09ZSzB6OHJ4WWstVFlMU2J2X1dKN2o1UjE1TDM2dmdfWUxhTFA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump promet un accord de paix avec l'Iran... pour la 38e fois - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVzNlQ3J6SFdLd25BdmRMWkpvb1c0bDJtVFF0akhadjYzcUdFenBQZ3NWYmN1blE5UmhDeXZRUmI2VjBpdWFWNXRGV0dCMzdvckRmd1hVbXlBdUxETUtyeFh1bWF6WGdocndyanJ4aTQ5YjFDSzVwZ2lHblBqUEc5TDNyeGhYd004YmluYlFFUnlrRWxPcWRtbHQwMnNPbndsU0xObUM2eTU4dDZQRVd3SVE0LUc5dXU2Q2lqQmNTX0tWWEtv?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce pour la 38e fois un accord proche avec l’Iran : pourquoi devrait-on y croire ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWEs3LV9Lam1SM3BtRjBpSnJuWlBLM1dwQ3BTdS1oNHhKQzNDUFdua0wxekdTRmRtWHBJU1lTWTRlUVlBXzNiek1oRkF3X01ReDlsM0s3Y0gyM1NJM2JfTE12bHZvR0dDTVZBOXl3Q21IOHF0ZS1SWmNMeVA2a0hST3o5TDhHWXlTemVVajNOVG03QzdOUldTNGdzM1hJbWlsRUtYaEFtNkFUOUZQQkE4ck5VZTNKSEpXSGpQTzZWQjRxenNJTW00amlBMFlHOWZhdUx5c1RvOHE4TVFpdTQwRg?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 16,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 22,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 22,
+      "crime": 22,
+      "eu": 25,
+      "politics": 15,
+      "be_gov": 18,
+      "culture": 7,
+      "tech": 13,
+      "economy": 10,
+      "sports": 34,
+      "health": 6,
+      "climate": 1,
+      "migration": 9,
+      "education": 5,
+      "weather": 18
+    },
+    "wide_themes": {
+      "war": 27,
+      "crime": 31,
+      "eu": 33,
+      "politics": 27,
+      "be_gov": 21,
+      "culture": 7,
+      "tech": 18,
+      "economy": 13,
+      "sports": 51,
+      "health": 8,
+      "climate": 1,
+      "migration": 9,
+      "education": 8,
+      "weather": 24
+    }
   }
 ]
