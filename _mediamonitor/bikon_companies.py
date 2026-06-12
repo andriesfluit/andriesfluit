@@ -14,8 +14,12 @@ Three buckets:
 Discipline mirrors companies.py: patterns cast a tight high-signal net over the
 outlet feeds, search_terms do most of the work (each expands to a nl-BE + fr-BE
 Google News exact-phrase search via feeds.search_feeds_for). Bikon's world is
-more English than the akkanto clients, so terms are mixed NL/FR/EN.
+more English than the akkanto clients, so terms are mixed NL/FR/EN. Each bucket
+sets its own search `locales`: the technique track searches en-US, funding and
+regulation add en to nl+fr.
 """
+
+from urllib.parse import quote_plus
 
 BIKON_COMPANIES = {
     # -----------------------------------------------------------------
@@ -53,6 +57,7 @@ BIKON_COMPANIES = {
                 "AI advisory platform", "Belgische AI startup funding",
             ],
         },
+        "locales": ("nl", "fr", "en"),
     },
 
     # -----------------------------------------------------------------
@@ -90,6 +95,7 @@ BIKON_COMPANIES = {
                 "EU AI Act consultatie",
             ],
         },
+        "locales": ("nl", "fr", "en"),
     },
 
     # -----------------------------------------------------------------
@@ -138,24 +144,31 @@ BIKON_COMPANIES = {
                 "enterprise AI reliability", "RAG production",
                 "AI evaluation framework", "trustworthy AI regulated",
             ],
+            "vendors": [
+                "LlamaIndex", "Pinecone", "Weaviate", "Cohere", "Mistral AI",
+            ],
         },
+        "locales": ("en",),
     },
 
 }
 
 
 # -----------------------------------------------------------------------
-# Bikon outlet-feed catalogue. Replaces the akkanto Belgian/sector press.
-# Mostly Google News site: queries (when:4d, trimmed to the real lookback by
-# fetcher.py); international outlets use en-US locale for better ranking,
-# Belgian ones use nl-BE / fr-BE. Note: Google News indexes news sites well
-# but personal/dev blogs only patchily, so the spoor-3 search_terms above are
-# the main driver for technique coverage; these blog outlets are a bonus.
+# Bikon feed catalogue, in three groups (assembled in profiles.py):
+#   - BIKON_OUTLET_FEEDS  : general news, matched by the bucket patterns.
+#   - BIKON_TECH_FEEDS    : curated technique sources, routed straight to the
+#                           build radar (native RSS + arXiv).
+#   - BIKON_FUNDING_FEEDS : startup/funding sources, routed to competitors.
+# News outlets use Google News site: queries (well indexed there). Blogs and
+# arXiv use their NATIVE feeds: Google News barely indexes dev blogs, and a
+# native link is also directly fetchable by the enricher (so we get real
+# article bodies instead of snippets).
 
 def _gn(site, hl="en-US", gl="US", ceid="US:en"):
-    # when:4d covers the longest gap between Bikon sends (Fri -> Mon, ~72h)
-    # with margin. fetcher.py then trims to the exact lookback window, so
-    # nothing older than the last send leaks in.
+    # when:4d covers the longest gap between Bikon sends (Fri -> Mon, ~72h);
+    # fetcher.py trims to the exact lookback so nothing older than the last
+    # send leaks in.
     return (f"https://news.google.com/rss/search?q=site:{site}+when:4d"
             f"&hl={hl}&gl={gl}&ceid={ceid}")
 
@@ -168,6 +181,7 @@ def _gn_be_fr(site):
     return _gn(site, hl="fr-BE", gl="BE", ceid="BE:fr")
 
 
+# General news (company_key=None -> matched by the bucket patterns).
 BIKON_OUTLET_FEEDS = {
     # Belgische business / tech-pers
     "detijd":      _gn_be_nl("tijd.be"),
@@ -176,47 +190,42 @@ BIKON_OUTLET_FEEDS = {
     "trends_fr":   _gn_be_fr("trends.levif.be"),
     "datanews_nl": _gn_be_nl("datanews.knack.be"),
     "datanews_fr": _gn_be_fr("datanews.levif.be"),
-
-    # Internationale tech/AI + Europese startup-funding + RegTech/fintech
+    # Internationale tech / fintech / EU-beleid
     "techcrunch":  _gn("techcrunch.com"),
     "sifted":      _gn("sifted.eu"),
-    "techeu":      _gn("tech.eu"),
-    "eustartups":  _gn("eu-startups.com"),
     "finextra":    _gn("finextra.com"),
     "theregister": _gn("theregister.com"),
     "mittech":     _gn("technologyreview.com"),
     "venturebeat": _gn("venturebeat.com"),
-
-    # EU-regelgeving / beleid
     "euractiv":    _gn("euractiv.com"),
     "politico_eu": _gn("politico.eu"),
+}
 
-    # Build-radar: AI-technique news (well-indexed in Google News)
-    "thedecoder":    _gn("the-decoder.com"),
-    "marktechpost":  _gn("marktechpost.com"),
-    "venturebeat_ai": _gn("venturebeat.com/ai"),
+# arXiv API query feeds (Atom, feedparser-compatible). The <summary> is the
+# full abstract, so these are rich even without body enrichment.
+_ARXIV = ("https://export.arxiv.org/api/query?start=0&max_results=15"
+          "&sortBy=submittedDate&sortOrder=descending&search_query=")
 
-    # Build-radar: model labs
-    "huggingface":   _gn("huggingface.co"),
-    "anthropic":     _gn("anthropic.com"),
-    "deepmind":      _gn("deepmind.google"),
-    "openai":        _gn("openai.com"),
-    "googleresearch": _gn("research.google"),
-    "mistral":       _gn("mistral.ai"),
-    "cohere":        _gn("cohere.com"),
+# Curated gen-AI technique sources, routed to ai_tech_buildradar (native RSS).
+BIKON_TECH_FEEDS = {
+    "thedecoder":     "https://the-decoder.com/feed/",
+    "marktechpost":   "https://www.marktechpost.com/feed/",
+    "venturebeat_ai": "https://venturebeat.com/category/ai/feed/",
+    "huggingface":    "https://huggingface.co/blog/feed.xml",
+    "langchain":      "https://blog.langchain.dev/rss/",
+    "simonwillison":  "https://simonwillison.net/atom/everything/",
+    "thegradient":    "https://thegradient.pub/rss/",
+    "raschka":        "https://magazine.sebastianraschka.com/feed",
+    "eugeneyan":      "https://eugeneyan.com/rss/",
+    "arxiv_ir":       _ARXIV + "cat:cs.IR",
+    "arxiv_rag":      _ARXIV + quote_plus(
+        '(cat:cs.CL OR cat:cs.AI) AND (abs:retrieval OR abs:RAG OR abs:agent '
+        'OR abs:hallucination OR abs:"knowledge graph")'),
+}
 
-    # Build-radar: retrieval / RAG / vector tooling
-    "langchain":     _gn("blog.langchain.dev"),
-    "llamaindex":    _gn("llamaindex.ai"),
-    "pinecone":      _gn("pinecone.io"),
-    "weaviate":      _gn("weaviate.io"),
-    "qdrant":        _gn("qdrant.tech"),
-    "jina":          _gn("jina.ai"),
-    "databricks":    _gn("databricks.com"),
-
-    # Build-radar: practitioner blogs
-    "simonwillison": _gn("simonwillison.net"),
-    "thegradient":   _gn("thegradient.pub"),
-    "raschka":       _gn("magazine.sebastianraschka.com"),
-    "eugeneyan":     _gn("eugeneyan.com"),
+# Startup / funding sources, routed to competitors_funding (native RSS).
+BIKON_FUNDING_FEEDS = {
+    "bloovi":     "https://www.bloovi.be/feed",
+    "eustartups": "https://www.eu-startups.com/feed/",
+    "techeu":     "https://tech.eu/feed/",
 }
