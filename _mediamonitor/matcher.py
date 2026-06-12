@@ -15,21 +15,8 @@ Two-step pipeline:
 
 import logging
 import re
-from concurrent.futures import ThreadPoolExecutor
 from difflib import SequenceMatcher
 from urllib.parse import urlparse
-
-import requests
-
-from fetcher import _HEADERS  # reuse browser-y headers from fetcher
-
-try:
-    import cloudscraper
-    _SCRAPER = cloudscraper.create_scraper(
-        browser={"browser": "chrome", "platform": "darwin", "mobile": False}
-    )
-except ImportError:
-    _SCRAPER = None
 
 logger = logging.getLogger(__name__)
 
@@ -69,40 +56,24 @@ def match_article(article, companies):
 
 
 # -----------------------------------------------------------------------
-# Canonical URL resolution for Google News redirect links.
-# Google News RSS gives us https://news.google.com/rss/articles/CBMi...?oc=5
-# which 30x-redirects to the real outlet URL. We resolve via a HEAD with
-# follow_redirects so the same story doesn't appear twice.
+# Canonical URL annotation for Google News redirect links.
+# New-style Google News article IDs (since 2024) no longer HTTP-redirect to
+# the outlet — resolving them needs Google's batchexecute endpoint (two
+# requests per article, see gnews.py). Doing that for the full fetch corpus
+# (~1000 articles/day) would burn minutes on network calls, so here we only
+# apply gnews.decode_offline (instant, works for legacy CBMi-style IDs) and
+# leave new-style links for main.py to resolve AFTER the LLM filter, when
+# only a few dozen articles remain. Title-similarity dedup below covers the
+# google-mirror-vs-direct-feed duplicates the URL pass can't see.
 
-def _resolve_one(url):
-    if "news.google.com" not in url:
-        return url
-    try:
-        client = _SCRAPER or requests
-        # HEAD often suffices; some hosts don't support it, fall back to GET.
-        for method in ("head", "get"):
-            try:
-                r = getattr(client, method)(
-                    url, headers=_HEADERS, timeout=8,
-                    allow_redirects=True, stream=(method == "get"),
-                )
-                if r.url and "news.google.com" not in r.url:
-                    return r.url
-            except Exception:
-                continue
-    except Exception as e:
-        logger.debug("URL resolve failed for %s: %s", url, e)
-    return url
+from gnews import decode_offline
 
 
-def resolve_canonical(articles, max_workers=8):
-    """Annotate each article with `canonical_url` (resolved or same as link)."""
-    def task(art):
-        art["canonical_url"] = _resolve_one(art["link"])
-        return art
-
-    with ThreadPoolExecutor(max_workers=max_workers) as ex:
-        list(ex.map(task, articles))
+def resolve_canonical(articles, max_workers=None):
+    """Annotate each article with `canonical_url` (offline decode only)."""
+    for art in articles:
+        decoded = decode_offline(art["link"]) if "news.google.com" in art["link"] else None
+        art["canonical_url"] = decoded or art["link"]
     return articles
 
 

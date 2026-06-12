@@ -30,7 +30,13 @@ COMPANIES = {
             "Arlon, Hasselt) + online. Strategische thema's: woninginrichting, "
             "retail, duurzame productie, circulariteit, supply chain, "
             "koopkracht en consumentengedrag, e-commerce/omnichannel, "
-            "winkelvastgoed, retailwerkgelegenheid, mobiliteit naar winkels."
+            "winkelvastgoed, retailwerkgelegenheid, mobiliteit naar winkels. "
+            "NIET relevant: nieuws over IKEA of meubelconcurrenten in het "
+            "buitenland — vooral Frankrijk (Franse winkels, Franse promoties, "
+            "Franse arbeidsconflicten, Franse rechtszaken) — tenzij het "
+            "expliciete gevolgen heeft voor België of voor IKEA België "
+            "(bv. een internationale terugroepactie, een groepsstrategie "
+            "die ook Belgische winkels raakt)."
         ),
         "patterns": [
             # Brand

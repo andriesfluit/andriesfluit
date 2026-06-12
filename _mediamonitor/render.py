@@ -86,7 +86,9 @@ def render_html(today_str, by_company, stats, companies,
             continue
         for art in items:
             title    = html.escape(art["title"])
-            link     = html.escape(art["link"])
+            # Resolved outlet URL when available — a reader clicking through
+            # should land on the newspaper, not on a news.google.com redirect.
+            link     = html.escape(art.get("canonical_url") or art["link"])
             src      = html.escape(art["source"])
             topic    = html.escape(art.get("topic", ""))
             summary  = html.escape(art.get("summary_long") or art.get("nut") or "")
@@ -143,6 +145,6 @@ def render_text(today_str, by_company, companies, title=_DEFAULT_TITLE):
                 elif src_status.startswith("rss_snippet"):
                     marker = " [enkel snippet]"
                 lines.append(f"  bron: {art['source']}{marker}")
-                lines.append(f"  {art['link']}")
+                lines.append(f"  {art.get('canonical_url') or art['link']}")
         lines.append("")
     return "\n".join(lines)

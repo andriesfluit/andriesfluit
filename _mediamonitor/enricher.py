@@ -104,7 +104,9 @@ def enrich_one(url):
 def enrich_many(articles, max_workers=8):
     """Annotate each article in-place with `body_status` and `body_text`."""
     def task(art):
-        status, text = enrich_one(art["link"])
+        # Prefer the resolved outlet URL — fetching the news.google.com
+        # redirect page yields a JS bootstrap document trafilatura can't parse.
+        status, text = enrich_one(art.get("canonical_url") or art["link"])
         art["body_status"] = status
         art["body_text"] = text
         return art

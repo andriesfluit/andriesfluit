@@ -23,6 +23,7 @@ except ImportError:  # pragma: no cover
 from enricher import enrich_many
 from feeds import all_feeds_with_searches
 from fetcher import fetch_all
+from gnews import resolve_articles as resolve_gnews
 from llm_filter import filter_company, MAX_PER_COMPANY
 from mailer import send as send_mail
 from matcher import dedupe, group_hits, resolve_canonical
@@ -160,6 +161,13 @@ def run(profile, to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resol
     if not no_enrich and not no_llm:
         all_relevant = [a for items in filtered.values() for a in items]
         if all_relevant:
+            # New-style Google News links don't HTTP-redirect to the outlet;
+            # resolve them via the batchexecute decoder now that only a few
+            # dozen articles remain (two requests per article). This gives
+            # the enricher a real outlet URL to pull the body from and the
+            # mail a direct link to the newspaper instead of news.google.com.
+            if not no_resolve:
+                resolve_gnews(all_relevant)
             logging.info("enriching %d articles (fetching bodies)", len(all_relevant))
             enrich_many(all_relevant)
             counts = {"ok": 0, "paywall": 0, "fail": 0}
