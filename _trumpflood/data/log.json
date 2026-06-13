@@ -37097,5 +37097,513 @@
       "education": 8,
       "weather": 24
     }
+  },
+  {
+    "date": "2026-06-13",
+    "generated_at": "2026-06-13T09:34:39+02:00",
+    "last_checked_at": "2026-06-13T09:34:39+02:00",
+    "total_articles": 381,
+    "trump_articles": 9,
+    "percentage": 2.4,
+    "core_percentage": 2.4,
+    "core_percentage_name": 2.4,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 2.4,
+    "indirect_references": 0,
+    "wide_total_articles": 511,
+    "wide_trump_articles": 9,
+    "wide_percentage": 1.8,
+    "wide_trump_articles_expanded": 9,
+    "wide_percentage_expanded": 1.8,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 17,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 35,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 9.2,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.5,
+    "breadth": 0.37,
+    "deviation": 0.91,
+    "smoothed_pct": 2.83,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 57,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 54,
+        "today": 13,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 44,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 39,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 40,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 55,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 63,
+        "kept": 53,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.89
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 89,
+        "today": 11,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 93,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "In rood Seattle, thuishaven van de Belgen op het WK, is Trump de duivel - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUFZJYUg2LUduYkZsTElXSl9EWDh0d2lIdVd4WWdVdGZmSmx1MHRmbEJXaTZOT2syeVl4UkpKUHZhWlB1c3RMS19yZDNidThoV3pScE5Ka0VEck05YW5ZQml1ZmZZR25qY3NGX2hFUVJkaG01YllfVFhtNDdraE5PWkdBcnp2TjgwZDVpTWI3Vll5c1hTdkVaSkFhOGVPS2FOQVBWUzBnZ3d3MkVjbGFURmlIbl9VXzVLaExMMA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Jullie maken een grote kans op de wereldtitel”: Donald Trump legt lat hoog voor Verenigde Staten, die na dat telefoontje indruk maken",
+        "url": "https://www.hln.be/wk-voetbal/jullie-maken-een-grote-kans-op-de-wereldtitel-donald-trump-legt-lat-hoog-voor-verenigde-staten-die-na-dat-telefoontje-indruk-maken~a5721b26/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump over doden van beruchte Venezolaanse bendeleider: “We zullen deze meedogenloze moordenaars vinden. Altijd en overal”",
+        "url": "https://www.hln.be/buitenland/trump-over-doden-van-beruchte-venezolaanse-bendeleider-we-zullen-deze-meedogenloze-moordenaars-vinden-altijd-en-overal~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: VS hebben leider van beruchte Venezolaanse bende gedood: ‘Snelle en dodelijke kinetische aanval’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-vs-hebben-leider-van-beruchte-venezolaanse-bende-gedood-snelle-en-dodelijke-kinetische-aanval~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Als Infantino ergens met Trump is, heb je het gevoel dat je een tweeling ziet’",
+        "url": "https://www.demorgen.be/wk-voetbal/als-infantino-ergens-met-trump-is-heb-je-het-gevoel-dat-je-een-tweeling-ziet~bb2a74f2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump zegt dat VS leider van bende Tren de Aragua hebben gedood",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-zegt-dat-vs-leider-van-bende-tren-de-aragua-hebben-gedood/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Tachtig is prachtig. Maar is dat ook echt zo voor Donald Trump?",
+        "url": "https://www.hbvl.be/buitenland/tachtig-is-prachtig.-maar-is-dat-ook-echt-zo-voor-donald-trump/157052458.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "'Is Amerika een halve dictatuur geworden? Trump wordt gewoon teruggefloten door zijn eigen rechters' - Knack",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNkhYUkNLdFZ4VGlxa3NOQmpEYmNYZmZJTjhYY3llZ3ByYVpYTkxKYnJDd1VCN3dKcWttLTZTRW9zd1VsNWVQLXhyZ2RFcWZCUF9BbF9YQkdIbnVsdERTeHBid0t4aWJacHJoREdZTUVfUmlvTTVNcWxqelhvU1RQMGItNHZRcFRaUEx5eFFyMWg4dXJ1cERWSDhsU2wzN0RGNEY4aGdVR0pzdG1NUGRROG9mLU56b01venk5VDZHTkJuamJ4bEVkTVRjdl95dw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Kroll invite : Strip’ sur l’anniversaire de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRHRHNkc1OUhtazZyODVfdVFPSXNFMlhtc2J6Tzd3dFBvbVVEdU5XSFNObV9LRkx6UDdJRHNrWEVDS1ZNQmNLSjc0eTV0TmgxVUhUdkJPaFZCT1Z6SFE5SEdncmNJWWxJSklsZl9mdWFISG01d1JjSTY3UjJpMUFKOUg0b3d0Q1BDNzB2WWRxc1Rwd2FDejZEbF9mY25tZm5tc1E?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "In rood Seattle, thuishaven van de Belgen op het WK, is Trump de duivel - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUFZJYUg2LUduYkZsTElXSl9EWDh0d2lIdVd4WWdVdGZmSmx1MHRmbEJXaTZOT2syeVl4UkpKUHZhWlB1c3RMS19yZDNidThoV3pScE5Ka0VEck05YW5ZQml1ZmZZR25qY3NGX2hFUVJkaG01YllfVFhtNDdraE5PWkdBcnp2TjgwZDVpTWI3Vll5c1hTdkVaSkFhOGVPS2FOQVBWUzBnZ3d3MkVjbGFURmlIbl9VXzVLaExMMA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Jullie maken een grote kans op de wereldtitel”: Donald Trump legt lat hoog voor Verenigde Staten, die na dat telefoontje indruk maken",
+        "url": "https://www.hln.be/wk-voetbal/jullie-maken-een-grote-kans-op-de-wereldtitel-donald-trump-legt-lat-hoog-voor-verenigde-staten-die-na-dat-telefoontje-indruk-maken~a5721b26/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump over doden van beruchte Venezolaanse bendeleider: “We zullen deze meedogenloze moordenaars vinden. Altijd en overal”",
+        "url": "https://www.hln.be/buitenland/trump-over-doden-van-beruchte-venezolaanse-bendeleider-we-zullen-deze-meedogenloze-moordenaars-vinden-altijd-en-overal~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: VS hebben leider van beruchte Venezolaanse bende gedood: ‘Snelle en dodelijke kinetische aanval’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-vs-hebben-leider-van-beruchte-venezolaanse-bende-gedood-snelle-en-dodelijke-kinetische-aanval~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Als Infantino ergens met Trump is, heb je het gevoel dat je een tweeling ziet’",
+        "url": "https://www.demorgen.be/wk-voetbal/als-infantino-ergens-met-trump-is-heb-je-het-gevoel-dat-je-een-tweeling-ziet~bb2a74f2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump zegt dat VS leider van bende Tren de Aragua hebben gedood",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-zegt-dat-vs-leider-van-bende-tren-de-aragua-hebben-gedood/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Tachtig is prachtig. Maar is dat ook echt zo voor Donald Trump?",
+        "url": "https://www.hbvl.be/buitenland/tachtig-is-prachtig.-maar-is-dat-ook-echt-zo-voor-donald-trump/157052458.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "'Is Amerika een halve dictatuur geworden? Trump wordt gewoon teruggefloten door zijn eigen rechters' - Knack",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNkhYUkNLdFZ4VGlxa3NOQmpEYmNYZmZJTjhYY3llZ3ByYVpYTkxKYnJDd1VCN3dKcWttLTZTRW9zd1VsNWVQLXhyZ2RFcWZCUF9BbF9YQkdIbnVsdERTeHBid0t4aWJacHJoREdZTUVfUmlvTTVNcWxqelhvU1RQMGItNHZRcFRaUEx5eFFyMWg4dXJ1cERWSDhsU2wzN0RGNEY4aGdVR0pzdG1NUGRROG9mLU56b01venk5VDZHTkJuamJ4bEVkTVRjdl95dw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Kroll invite : Strip’ sur l’anniversaire de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRHRHNkc1OUhtazZyODVfdVFPSXNFMlhtc2J6Tzd3dFBvbVVEdU5XSFNObV9LRkx6UDdJRHNrWEVDS1ZNQmNLSjc0eTV0TmgxVUhUdkJPaFZCT1Z6SFE5SEdncmNJWWxJSklsZl9mdWFISG01d1JjSTY3UjJpMUFKOUg0b3d0Q1BDNzB2WWRxc1Rwd2FDejZEbF9mY25tZm5tc1E?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 9,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 9,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 1,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 23,
+      "crime": 8,
+      "eu": 12,
+      "politics": 14,
+      "be_gov": 14,
+      "culture": 6,
+      "tech": 8,
+      "economy": 4,
+      "sports": 37,
+      "health": 1,
+      "climate": 5,
+      "migration": 1,
+      "education": 3,
+      "weather": 12
+    },
+    "wide_themes": {
+      "war": 29,
+      "crime": 11,
+      "eu": 15,
+      "politics": 22,
+      "be_gov": 18,
+      "culture": 7,
+      "tech": 14,
+      "economy": 7,
+      "sports": 45,
+      "health": 1,
+      "climate": 5,
+      "migration": 2,
+      "education": 5,
+      "weather": 15
+    }
   }
 ]
