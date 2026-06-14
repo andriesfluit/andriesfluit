@@ -37884,154 +37884,154 @@
   },
   {
     "date": "2026-06-14",
-    "generated_at": "2026-06-14T10:03:36+02:00",
-    "last_checked_at": "2026-06-14T14:27:28+02:00",
-    "total_articles": 301,
-    "trump_articles": 9,
-    "percentage": 3.0,
-    "core_percentage": 3.0,
-    "core_percentage_name": 3.0,
-    "trump_articles_expanded": 11,
-    "core_percentage_expanded": 3.7,
-    "indirect_references": 2,
-    "wide_total_articles": 406,
-    "wide_trump_articles": 11,
-    "wide_percentage": 2.7,
-    "wide_trump_articles_expanded": 13,
-    "wide_percentage_expanded": 3.2,
-    "macro_percentage": 3.2,
-    "qualifying_outlets": 14,
+    "generated_at": "2026-06-14T20:01:42+02:00",
+    "last_checked_at": "2026-06-14T20:01:42+02:00",
+    "total_articles": 703,
+    "trump_articles": 27,
+    "percentage": 3.8,
+    "core_percentage": 3.8,
+    "core_percentage_name": 3.8,
+    "trump_articles_expanded": 30,
+    "core_percentage_expanded": 4.3,
+    "indirect_references": 3,
+    "wide_total_articles": 955,
+    "wide_trump_articles": 33,
+    "wide_percentage": 3.5,
+    "wide_trump_articles_expanded": 36,
+    "wide_percentage_expanded": 3.8,
+    "macro_percentage": 3.7,
+    "qualifying_outlets": 25,
     "core_outlets_total": 19,
-    "core_outlets_active": 15,
-    "active_core_fraction": 0.789,
-    "cross_outlet_dup_headlines": 50,
-    "cross_outlet_dup_groups": 25,
-    "cross_outlet_dup_rate": 16.6,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 72,
+    "cross_outlet_dup_groups": 36,
+    "cross_outlet_dup_rate": 10.2,
     "zone": "soaked",
     "label": "The zone is soaked",
     "narrative": "Most-mentioned figure by a wide margin.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 4.5,
-    "breadth": 0.53,
-    "deviation": 1.13,
-    "smoothed_pct": 3.2,
+    "dominance": 1.23,
+    "breadth": 0.83,
+    "deviation": 1.43,
+    "smoothed_pct": 3.31,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 4,
+    "theme_rank": 5,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 12,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr": {
-        "fetched": 34,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_politics": {
-        "fetched": 60,
-        "today": 3,
-        "kept": 3,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 33.33
-      },
-      "google_nl_world": {
-        "fetched": 46,
-        "today": 10,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_business": {
-        "fetched": 70,
-        "today": 3,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_tech": {
-        "fetched": 50,
-        "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_sport": {
-        "fetched": 70,
-        "today": 9,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_politics": {
-        "fetched": 32,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_world": {
-        "fetched": 31,
-        "today": 2,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_business": {
-        "fetched": 28,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 10,
-        "kept": 10,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 10.0
-      },
-      "standaard": {
-        "fetched": 100,
-        "today": 39,
-        "kept": 8,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
-      },
-      "hln": {
-        "fetched": 30,
         "today": 30,
         "kept": 30,
         "trump": 1,
         "trump_expanded": 1,
         "share": 3.33
       },
-      "demorgen": {
-        "fetched": 28,
-        "today": 6,
-        "kept": 6,
+      "google_fr": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
         "trump": 0,
-        "trump_expanded": 1,
+        "trump_expanded": 0,
         "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 61,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_nl_world": {
+        "fetched": 40,
+        "today": 18,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 23,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 52,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 43,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
+      },
+      "google_fr_politics": {
+        "fetched": 35,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_fr_business": {
+        "fetched": 25,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 42,
+        "kept": 42,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.38
+      },
+      "standaard": {
+        "fetched": 93,
+        "today": 73,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 2,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 17,
+        "kept": 17,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 17.65
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -38043,117 +38043,37 @@
       },
       "gva": {
         "fetched": 50,
-        "today": 46,
-        "kept": 46,
+        "today": 49,
+        "kept": 49,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.17
+        "share": 2.04
       },
       "hbvl": {
         "fetched": 50,
-        "today": 27,
-        "kept": 27,
+        "today": 49,
+        "kept": 49,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.7
+        "share": 2.04
       },
       "knack": {
         "fetched": 100,
-        "today": 25,
-        "kept": 25,
+        "today": 71,
+        "kept": 68,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.0
+        "share": 1.47
       },
       "sporza": {
         "fetched": 20,
-        "today": 16,
-        "kept": 16,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
-        "fetched": 100,
-        "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 16,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 17,
-        "kept": 17,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 14,
-        "kept": 14,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 33,
-        "kept": 33,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.03
-      },
-      "septsursept": {
-        "fetched": 30,
-        "today": 11,
-        "kept": 11,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 9.09
-      },
-      "bx1": {
-        "fetched": 10,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "detijd_g": {
-        "fetched": 100,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lesoir_g": {
-        "fetched": 100,
-        "today": 29,
-        "kept": 29,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 6.9
-      },
-      "sudinfo_g": {
-        "fetched": 100,
-        "today": 8,
-        "kept": 8,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lavenir_g": {
         "fetched": 100,
         "today": 9,
         "kept": 9,
@@ -38161,26 +38081,106 @@
         "trump_expanded": 0,
         "share": 0.0
       },
-      "rtl_g": {
-        "fetched": 99,
-        "today": 5,
-        "kept": 3,
+      "rtbf": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 39,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 7.69
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 96,
+        "kept": 96,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 4.17
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 9,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "trends_g": {
-        "fetched": 57,
-        "today": 7,
-        "kept": 0,
+      "detijd_g": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 33,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.06
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 69,
+        "kept": 67,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.99
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.45
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 42,
+        "kept": 42,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 38,
+        "kept": 34,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.94
+      },
+      "trends_g": {
+        "fetched": 37,
+        "today": 11,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "tendances_g": {
-        "fetched": 64,
-        "today": 3,
-        "kept": 3,
+        "fetched": 30,
+        "today": 12,
+        "kept": 12,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -38215,15 +38215,39 @@
         "name_only": true
       },
       {
+        "title": "Blokkering van Anthropic AI-modellen door Witte Huis alarmeert Europa - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaHhmWjgtQWdZMlh4VWVDTEZNUGxLSXI1WFEwRFBLUEFGeXIzc3lDTXk2WnNOUno3MFlKUnpFa1FoZUV3eURqS0kzRWJuU2RuSVR2SFVVbTAwMmZSOVVGUGpnbHBTVElVRmtpTHd2N2ZBOVhObEczeGVObEV5ZlF0eU1SckNsN1dNelgxNTdfdldaZHFSaVQ3VUxOMkpicHFublFsMEV4TmJIV2xJbnNWQVNHTW84bjYtVkE?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
         "title": "Twee AI-modellen van Anthropic geblokkeerd op vraag van Witte Huis wegens beveiligingslek - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOLUllZTdudXB3MTFnZ2xfaTZpcVBlcDFyeHdIYllBVGVvZEtCZFJoSllCamUtTEJTQ2NhallLNFR4NFVvNVlybjlMQUFudFZCMFFDa0VMYmg4cS1oZ3RlSDJOS2JoLWR2NTFuU3ZKXzhpZVgwNTNIZmFkYlVrZDZUcTVtMmoyRFpIcGpnRHd3ekJyeGYwUHdiazA4VG0xcGtiS2dQdW5aUEJKNHUtd2ZwSU5RMlBjV1phaExVai1DMUlNQXNTdmIzcnhKREM2Y3V6elVrNQ?oc=5",
         "source": "standaard",
         "name_only": false
       },
       {
-        "title": "Vijf doden bij Israëlische aanvallen in Libanon - Iran slaat terug na aankondiging Trump: “Ondertekening zondag is uitgesloten”",
-        "url": "https://www.hln.be/buitenland/vijf-doden-bij-israelische-aanvallen-in-libanon-iran-slaat-terug-na-aankondiging-trump-ondertekening-zondag-is-uitgesloten~a99e0324/",
+        "title": "Axios: Trump verwacht ondertekening van akkoord “binnen enkele uren”",
+        "url": "https://www.hln.be/buitenland/axios-trump-verwacht-ondertekening-van-akkoord-binnen-enkele-uren~a99e0324/",
         "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump kan de geschiedenis niet langer vervalsen: rechters verbieden zijn ‘aanpassingen’",
+        "url": "https://www.demorgen.be/nieuws/trump-kan-de-geschiedenis-niet-langer-vervalsen-rechters-verbieden-zijn-aanpassingen~b0595203/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Zowel Zelensky als Poetin bellen met Trump op zijn verjaardag • Grote brand na Oekraïense droneaanvallen op industriële sites in Rusland",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-grote-brand-na-oekraiense-droneaanvallen-op-industriele-sites-in-rusland-73-jarige-vrouw-gedood-door-russische-droneaanval-bij-zaporizja~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump verwacht ondertekening akkoord met Iran ‘binnen enkele uren’, ondanks aanval Israël: ‘Netanyahu heeft geen greintje gezond verstand’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-verwacht-ondertekening-van-akkoord-met-iran-binnen-enkele-uren-aanval-van-israel-had-niet-mogen-gebeuren~be9c4f82/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -38233,53 +38257,167 @@
         "name_only": false
       },
       {
-        "title": "“Compleet tactloos, maar Donald Trump doet wat hij wilt”: alles wat u moet weten over het UFC-evenement aan het Witte Huis",
-        "url": "https://www.nieuwsblad.be/sport/vechtsporten/mma/compleet-tactloos-maar-donald-trump-doet-wat-hij-wilt-alles-wat-u-moet-weten-over-het-ufc-evenement-aan-het-witte-huis/157056202.html",
+        "title": "LIVE MIDDEN-OOSTEN. Trump verwacht ondertekening van akkoord “binnen enkele uren”: “Waarom moest Bibi weer zo’n verdomde aanval uitvoeren? Ik was zo pissig”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-verwacht-ondertekening-van-akkoord-binnen-enkele-uren-waarom-moest-bibi-weer-zon-verdomde-aanval-uitvoeren-ik-was-zo-pissig/27532402.html",
         "source": "nieuwsblad",
         "name_only": true
       },
       {
-        "title": "“Compleet tactloos, maar Donald Trump doet wat hij wilt”: alles wat u moet weten over het UFC-evenement aan het Witte Huis",
-        "url": "https://www.hbvl.be/sport/compleet-tactloos-maar-donald-trump-doet-wat-hij-wilt-alles-wat-u-moet-weten-over-het-ufc-evenement-aan-het-witte-huis/157059541.html",
+        "title": "Trump wil een deal met Iran als verjaardagscadeau, maar valt er wel veel te vieren? “Het is niet voor niets dat de Iraniërs hier mee instemmen”",
+        "url": "https://www.hbvl.be/buitenland/trump-wil-een-deal-met-iran-als-verjaardagscadeau-maar-valt-er-wel-veel-te-vieren-het-is-niet-voor-niets-dat-de-iraniers-hier-mee-instemmen/157175261.html",
         "source": "hbvl",
         "name_only": true
       },
       {
-        "title": "Live Spanningen Midden-Oosten: Trump: \"Akkoord wordt morgen ondertekend\" - Knack",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLWRZQmVYVUVMS3ZZallqY1hQNGg3cGtBV0NvQXNBZFR0UUZlV0ZCdDRXMTVmQXhKYzMyZnlnRXlQTlJ4LWpYaG5odnFjOFJ1QUwtUlhVRnY5ZVU4VGNGVW5pVnNScHNvRExudU5YUnkycEV1dFFjbTVpMjlVLXFZcFNlc2E1eVNzSjdNQkhyRUZ6UmdwaWxReF9BaTRIUTQyalg3ZlBUbW5jV1Vta1Raa0V3?oc=5",
+        "title": "Live Spanningen Midden-Oosten: Trump roept Israël op om aanvallen op Libanon te stoppen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUEdVY1RQMXRrc2N5NUIxWXplVFZwMmFTWEZpOC1hLV9QYTd6Qk9ScG9Zb1JTTG9yc1MzX19xb1FSWU41Mm5SdDdLZVJFd1Q5blNRbjZ1ZldUSnlsXzZyM1ZOTDZNSDBLSWhzanE2OVRINllkSlFGTHNTMXc3TldrdVhhMzdpaXJSVzJQQlVTY181aEl4djBxU1ZOblR6RVFRZUVuQWp5UmFfR2t5enhJaGxtTncyRXYwQ2FvWFhkTXpVakRJa2FxbkNB?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "Donald Trump, l'homme qui a bouleversé l'Amérique, souffle ce dimanche ses 80 bougies",
-        "url": "https://www.dhnet.be/actu/monde/2026/06/14/donald-trump-lhomme-qui-a-bouleverse-lamerique-souffle-ce-dimanche-ses-80-bougies-UFXHCBKRKREANGGU2W7A7EKQWU/",
+        "title": "Guerre au Moyen-Orient : l'Iran avertit d'une réponse \"imminente\" au raid israélien sur la banlieue sud de Beyrouth, Trump parle d'un accord \"dans quelques heures\"",
+        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-l-iran-avertit-d-une-reponse-imminente-au-raid-israelien-sur-la-banlieue-sud-de-beyrouth-trump-parle-d-un-accord-dans-quelques-heures-11740488",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Poutine et Zelensky ont appelé Trump pour son anniversaire et parler de la guerre en Ukraine : voilà ce qu'ils ont dit au président américain",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/06/14/zelensky-a-discute-de-la-guerre-avec-trump-en-lappelant-pour-son-anniversaire-3UJEOU7LIFCUFA6L334AHIMM64/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Moyen-Orient Trump dit qu'un accord sera signé \"dans quelques heures\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/14/direct-moyen-orient-un-accord-entre-les-etats-unis-et-liran-sera-t-il-signe-ce-dimanche-UMD77EVLEZHCLGSHGTNE4R5X3A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump promet \"le plus grand spectacle au monde\" à la Maison Blanche pour ses 80 ans: l'événement fait grincer des dents (PHOTOS)",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/14/donald-trump-promet-le-plus-grand-spectacle-au-monde-a-la-maison-blanche-pour-ses-80-ans-levenement-fait-grincer-des-dents-photos-Y6EG433GKJDARCFYLYMKKKHPVI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Trump annonce un accord avec l’Iran, Téhéran réfute, les tensions montent après des frappes israéliennes au Liban - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNaENkLTNRRDZuQWxYZEJtTXlIaVdZNjJRN0ZLZk1XTlhaQTZUMHAtTGp2TWFmcnI2dHVyZFNMRUxRSGpEdVgyY3k3YXhnd3hFQXBsSlBaY2kzWU9DNFRBVDNsVTR5ZGd6MnZ2RmJQQXZyTXdVUmZQZGNzV1RDQWhDSGIwdTlteVdYb3htVE1nUWJfUy1LMllidFNpUnY0Qk1NOHlJZFdLXzlPVnAtQWQtenl3ZzZHSnE2aG5iRlNtT3I2bG5DQmpicEdLVTE5SllCcHFJOGprTElzNTh1WFdTcmdyLTNuM0xvM2tVcUtwd1Q5TXNoU0hlaUFLRGJfNG1FcmtXUkVObDBjTmdiczRjZklHN3FUOWRyTlhtMEJycFdRUVBXSjlGRTlFTnRmQXNGZ1RneTl3?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump annonce qu'un accord sera signé \"dans quelques heures\" avec l'Iran",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/14/direct-guerre-au-moyen-orient-teheran-na-pas-encore-pris-de-decision-finale-pour-un-accord-G4FCISAJ65E3PCATEBWZ6QS3MM/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Donald Trump affirme que l’Iran “vient d’accepter de ne jamais se doter d’une arme nucléaire”",
-        "url": "https://www.7sur7.be/monde/donald-trump-affirme-que-liran-vient-daccepter-de-ne-jamais-se-doter-dune-arme-nucleaire~a8fabb59/",
+        "title": "Poutine et Trump se sont mis d'accord pour que les émissaires américains se rendent \"bientôt\" en Russie",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/14/poutine-et-trump-se-sont-mis-daccord-pour-que-les-emissaires-americains-se-rendent-bientot-en-russie-7TSWVSS47NCXDDMYVA2IY7MDUM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Ceci n’est pas une fake news, Donald Trump aime vraiment le soccer : “Le tournoi peut lui permettre de ne pas perdre son immense pouvoir”",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/06/14/ceci-nest-pas-une-fake-news-donald-trump-aime-vraiment-le-soccer-le-tournoi-peut-lui-permettre-de-ne-pas-perdre-son-immense-pouvoir-WS7GMS5JXBHAXHINFGFSWDHQOQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Pour ses 80 ans ce dimanche, Donald Trump promet \"le plus grand spectacle au monde\", mais l'événement fait grincer des dents aux USA (PHOTOS)",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/14/pour-ses-80-ans-ce-dimanche-donald-trump-promet-le-plus-grand-spectacle-au-monde-mais-levenement-fait-grincer-des-dents-aux-usa-photos-7GCB7QB4X5ADTFXYACU3YDANJE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump évoque un accord retardé par Israël, mais qui sera signé “dans quelques heures” avec l’Iran",
+        "url": "https://www.7sur7.be/monde/trump-evoque-un-accord-retarde-par-israel-mais-qui-sera-signe-dans-quelques-heures-avec-liran~a8fabb59/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Accord de paix au Moyen-Orient : Trump annonce une signature aujourd’hui, l’Iran ne confirme pas - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXVRUXRTeXo2ZUM3UEtjRE1HS2lFSmNMYk9yaFhRYW1nMmQ5MENNV2FsVnFVNm43VlVVSGNaTHcwcy02SF9jRlZHR1FmNHREWXFQb3RBdFphc2ZwY0FXTlU4bGp3b1lyYkIzNnMwc0o2b3gxLWNZd0FmbXRNaWthbjVndWpQNzdGalJqdm1GS3FEOGJKYWtnZ0h1d2RSZ0hpVFNJMjVLeWRfMHRDSTBZQnVEejl0aW13VE5COV9Ick90Tlh3?oc=5",
+        "title": "Poutine et Trump d’accord pour que les émissaires américains se rendent bientôt en Russie",
+        "url": "https://www.7sur7.be/monde/poutine-et-trump-daccord-pour-que-les-emissaires-americains-se-rendent-bientot-en-russie~a926f6c1/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Une soirée à 60 millions de dollars: une fête XXL à la Maison-Blanche pour l’anniversaire de Trump",
+        "url": "https://www.7sur7.be/monde/une-soiree-a-60-millions-de-dollars-une-fete-xxl-a-la-maison-blanche-pour-lanniversaire-de-trump~a552709e/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "De groene erfenis van Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUjFXSmZZWnU5YkNnMzFORy1KcWVYSXBxbml3NWFDUUpiV0xORzJvQ2I0bFJOX0twLURPNy0wNmpwQVFxbEJEaUVhTFE0b3MzbmN5bFlfLWZTWVYwVU1HVFlvU3hYbERaaDNKRkJaZk9JVHFfNEVSQkRHVDVKYzhUcnM4bXptUQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump roept Israël op te stoppen met aanvallen op Libanon - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSHM3YnJFTy1DVlJ6RFNaZE1pUmNrRTZORkdjc1B0b2xwRl9wX2d1T2hrUjJJNnpNdExqNDhLY0FqMldFbnFmM3pzQTNKa1VqQWRlMmYwOWZOTkhCeklPX1VXdnRIVWVCTWlqblZ6ajA1MnB5NzVEUXljejRDOFZBNVRsMFVrNDJweGQweWxMbW4yWTVZM04waWlQQ1J5bklGMGk4NE55RERqclZ3dXN4V2N1Y2xjVmx6X013MUFfSDRjV3owd1Z5Y0ktR2JFdw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Selon Donald Trump, un accord avec l’Iran sera signé « dans quelques heures » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM1lRUlNwdTl6VG4yRW9ITjlVV3ZZcHJKamJMVFdfaGgwcW1qMURyVXA4UjA3U0ZvZTBvRHEtaUdCQ2pfVzBxQm5zMnFHa0hSaE8yWmRBYWRUeXUwV1dpb1pTa0JOclYtekpOU20tZjJCVTk5TW85R0wwQWVzV1hTbWRoNmdPMFdveUZoM0IxcXdKcEczU2EtSExNdzlESk5SMkFKUDdjLW9lTTEyNS03R0dJZURTSmJmLXpV?oc=5",
         "source": "lesoir_g",
         "name_only": true
       },
       {
-        "title": "Donald Trump invite le MMA à la Maison-Blanche pour son anniversaire (photos) - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTWlMY1ZfVjZ5WGlmZjJ0OWlLV21wRkNBTXRYS1I3TXVTS3BGOFZVMkpua3dqTmFMc2RhNG1KTExzWkFOT1B6R0xfcWQwcDA2SGtoVnFmeGV5WHptTTVtUzhiZFl1U2xYSU90WU1OLS16OXBiN1hEZVpUYUt3Rk1ISngyQjJDdG9zU2FSVU9ObnB4S29GZkFLTHYxZ0xnRVVfOE1rLVAxdF83MFhUZm5DUHV6VnFNeEpEckttNjZn?oc=5",
+        "title": "« Ne gâchons pas tout ! » : Donald Trump regrette les frappes israéliennes sur Beyrouth - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOX1dNSWZQVU9UNHhXTjE0d1ItaFcyRnZZRjBldndPSmNzZE9jUFBGVFd4YUVJRWNLYzFYclVxeE0tZXhwakQxQmp5Vi1EVktjenB5cmFEU2x4dndYR0lmN2pKaG1XZ1pER1RGaXZUNVhTc21CVnExX3JRZVEzeDA1VkFhcWI0ejZacldnb0M5dzNoRnBCWlBhU3ZJNGcxdkdERFVsSU5qTDhUVHhXQTI2UnZEOXItTERTWW5JUlN4ZU5nd1FSYXc?oc=5",
         "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Vladimir Poutine et Donald Trump sont d’accord ! Des émissaires américains se rendront « bientôt » en Russie - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT0xseTJKS0J2bkdjMENNZTdoNUJHMGxzR1dZN1NaRzBHRlFvSmp3cnBSdmRoYWJVMW1nMlVkNGNISXRLc1VSYlBRczhiVHFTN2l3NGg0dnpZM3VwaE5zQ1JMMUh4QlIwckF3bG5WekxoeldnRDVya1hXeHNraEtlMDhyNzVjckpxYjM4cEs3VXZzdndUeC1yRWpnQjhDd1RrVWVCQVlQVk5oQzhBSEh3TjJ2QU54LURXWkNURVVKVVJEWnBq?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Vladimir Poutine et Donald Trump sont tombés d’accord ! Des émissaires américains se rendront « bientôt » en Russie - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOREdURXY4dUFkV2JOUWt3TzdHdUdCaXphUHY3MzBtZXh6WVpXUFZ6Umk4VVlXRVNuY3NieFF6MEhhdndnYmR3dGo1bFc4LTBWSE5YUWZ5Zkg1dXpEZEtkaWIxZDFXVzlFazJOcmUwZ2dVeDZpaHhQdnNpVnVJbHM2Qk8zNDFiQnhQQkRVMzVDZ3dOQnpaMVI1UzBFbmZ6NkppSGZjcTRrY183d29nT1NZRFBiU1Q5UmE2cjhzdlBRMXdLRXhOalR0Ynp3?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Le président Donald Trump fête ses 80 ans ce 14 juin à la Maison blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdnozRHhScXl0bE5QMVVZZ2dKMGo1RHMwMy1pTHRab2xucE5pd3oyR2ZnamtRUngxNnUyd2NNV0pqZE4zekZiZmVZRFZVazNCWlRCOC16bnlhaG9xQ1pVQUlhNE4yaTRaay1fR216LWF5SG1uYkdqbEJzQjdtajZRNk9UaGN0VENuR096aDdTOGtpc2hYRFNtZ2VxNVVOVFo2YWlvVUExVThTb1lPOGVGTWRMeEV1djdIUmxxcTVtNFoycWNVNGdJOFF5TQ?oc=5",
+        "source": "rtl_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
+        "title": "Trump wil een deal met Iran als verjaardagscadeau, maar valt er wel veel te vieren? “Het is niet voor niets dat de Iraniërs hier mee instemmen” - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNQjFDQUhQX0xVUnRLQl9BT3dwN0Zaa2UxY3lrUEZKemFtZlh5UEd4a2IzdlhTeElubl9PeVA4MVRlOUc0TktfN3BDTm1OZnJtbEE4S3hucUN6VzB6NXRnSTFZS1FORzFlZk1wVnQ4c3dKY1V4eHlQRi1JVllTVlloZmRVYm5yQXNJaUQxenVBM0cwSnFudENLV3QxRzFkZFZ4cjFQWUFrSXhWSW9SMWI2d1lrZXRHbUF1a0ZsYm1LNHhKdklMWlg0aHRkMi1RbS11dEVKUHdSN2dicE1WVHAtMlVseDBHaXFPd3NjLUZKM1EyRmY0d0ZSZ0VtX1VqNGpnZ3M2ODJRNEJYNXdUcS1GWkhrNA?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
         "title": "President Trump dineert met Macron in paleis van Versailles - Nieuwsblad",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZUZIUDhiVjMwV1U0SEh4VXJwYV9fMVpaQzl0Q2wyV1FLQzZJcDdHZEJURUw0WmU4eFhxemJxb042YTdEWlRhRm1vOEpxYnlVRUNiTHpiT05qb2JtY3NVbGE1LUxORXRRTDJDOEVMUk1ndmk5MVp0YVBCa2lZdG56R1FwT0JjNnVWUFhaeXdabjRtSkRJNDBSeDItTXBZc2hyeFBnSEVCQjA5MWlmczFLLQ?oc=5",
         "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil een deal met Iran als verjaardagscadeau, maar valt er wel veel te vieren? “Het is niet voor niets dat de Iraniërs hier mee instemmen” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNZThFQV9ESTQ4U2tBVGxtLUFuNFNzSEFJWTl0UUFpNzdDODdibERicV9vVjFNTUpHeFk2UU1pOENTaHd5WVZWTWNOY0VZVEwzWWs3Nm5LUjFBMlQ3UnFvaW9WYXowcDhSZ0NqNFdXMUM1YXdvR3NJYk50LXhIMGEyczdHcWw0WExTeXJqc0EzaGhBVWhCb0MyVEZBQXZkbE9fOThVR0U1RmJFU2E1RzFmZG5UTnpzMmt2a3FlSDZJdEEyR19ISnF0Tnc4NDFpVVNSbU1IaUtIN1BEVUgwWGVmUTJVNlh1cHFweHBEOG42QklDQml1bHB2dFR6SHVOc0ZDcms4RmFVd3dUSk1ldmhIWUEwNkV0M3d5a2tFTA?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "“Compleet tactloos, maar Donald Trump doet wat hij wilt”: alles wat u moet weten over het UFC-evenement aan het Witte Huis - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNVG5LVGVneXNyQVBQVVl5SS03ZFU5VHBvcG5JZ0JmVHRfOG9nLXdJa19xZm9ZbHJhRlBtVEFROHJBQktlemduUjFuWXZMLW44SGFEYzBIOWEtWGFPVjc5ak1NRTNDMGFhNWFSZmJwSmREbnZOWlhrQlp6WTlYekRiN0Joc3NQd1dNZWtYQlluUVpiTHFUbHY5WnBBRFRsVnNMeTMzSG5uZU9NV3lRWk5vVl9Xb3VwZm5jM1duSV8zb2JDWWtNUXpoU1Z0WWRVdU1VZWc5Qm5HZjFJSHQ3bHIxTHBPYk52WjZUNGxjUEZmcEk3eUlVQkdSTklhVU8xbEVEZjlvUzY2dFRZd1IzQjRB?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "Poutine et Trump d’accord pour que les émissaires américains se rendent bientôt en Russie - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWmUweVFHVVZzTEtHbm4zdGpxN2RwanZfSDNrNEM4WlV4T1N4WnR5Vk1OdnotTEZ0N2JMX3VsdFhJSk1qS3FjWG9uY3NWdjVwbVY3eXNxQXlBUnZFZzNqbDVaMV9CdV95Tk1BWXR3SklEa3dnYkoxVEkycDVZdU4zT0pSdjh1VVhxM3dIWFp3cXZKZ1FhWkgxQ2o2QnZJNENaa19kblpjaTdiaWJOUE5Cak9zaWFjQVZMMUZqbFk1UHQ4LU0?oc=5",
+        "source": "google_fr_world",
         "name_only": true
       },
       {
@@ -38289,15 +38427,39 @@
         "name_only": true
       },
       {
+        "title": "Blokkering van Anthropic AI-modellen door Witte Huis alarmeert Europa - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaHhmWjgtQWdZMlh4VWVDTEZNUGxLSXI1WFEwRFBLUEFGeXIzc3lDTXk2WnNOUno3MFlKUnpFa1FoZUV3eURqS0kzRWJuU2RuSVR2SFVVbTAwMmZSOVVGUGpnbHBTVElVRmtpTHd2N2ZBOVhObEczeGVObEV5ZlF0eU1SckNsN1dNelgxNTdfdldaZHFSaVQ3VUxOMkpicHFublFsMEV4TmJIV2xJbnNWQVNHTW84bjYtVkE?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
         "title": "Twee AI-modellen van Anthropic geblokkeerd op vraag van Witte Huis wegens beveiligingslek - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOLUllZTdudXB3MTFnZ2xfaTZpcVBlcDFyeHdIYllBVGVvZEtCZFJoSllCamUtTEJTQ2NhallLNFR4NFVvNVlybjlMQUFudFZCMFFDa0VMYmg4cS1oZ3RlSDJOS2JoLWR2NTFuU3ZKXzhpZVgwNTNIZmFkYlVrZDZUcTVtMmoyRFpIcGpnRHd3ekJyeGYwUHdiazA4VG0xcGtiS2dQdW5aUEJKNHUtd2ZwSU5RMlBjV1phaExVai1DMUlNQXNTdmIzcnhKREM2Y3V6elVrNQ?oc=5",
         "source": "standaard",
         "name_only": false
       },
       {
-        "title": "Vijf doden bij Israëlische aanvallen in Libanon - Iran slaat terug na aankondiging Trump: “Ondertekening zondag is uitgesloten”",
-        "url": "https://www.hln.be/buitenland/vijf-doden-bij-israelische-aanvallen-in-libanon-iran-slaat-terug-na-aankondiging-trump-ondertekening-zondag-is-uitgesloten~a99e0324/",
+        "title": "Axios: Trump verwacht ondertekening van akkoord “binnen enkele uren”",
+        "url": "https://www.hln.be/buitenland/axios-trump-verwacht-ondertekening-van-akkoord-binnen-enkele-uren~a99e0324/",
         "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump kan de geschiedenis niet langer vervalsen: rechters verbieden zijn ‘aanpassingen’",
+        "url": "https://www.demorgen.be/nieuws/trump-kan-de-geschiedenis-niet-langer-vervalsen-rechters-verbieden-zijn-aanpassingen~b0595203/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Zowel Zelensky als Poetin bellen met Trump op zijn verjaardag • Grote brand na Oekraïense droneaanvallen op industriële sites in Rusland",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-grote-brand-na-oekraiense-droneaanvallen-op-industriele-sites-in-rusland-73-jarige-vrouw-gedood-door-russische-droneaanval-bij-zaporizja~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump verwacht ondertekening akkoord met Iran ‘binnen enkele uren’, ondanks aanval Israël: ‘Netanyahu heeft geen greintje gezond verstand’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-verwacht-ondertekening-van-akkoord-met-iran-binnen-enkele-uren-aanval-van-israel-had-niet-mogen-gebeuren~be9c4f82/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -38307,123 +38469,213 @@
         "name_only": false
       },
       {
-        "title": "“Compleet tactloos, maar Donald Trump doet wat hij wilt”: alles wat u moet weten over het UFC-evenement aan het Witte Huis",
-        "url": "https://www.nieuwsblad.be/sport/vechtsporten/mma/compleet-tactloos-maar-donald-trump-doet-wat-hij-wilt-alles-wat-u-moet-weten-over-het-ufc-evenement-aan-het-witte-huis/157056202.html",
+        "title": "LIVE MIDDEN-OOSTEN. Trump verwacht ondertekening van akkoord “binnen enkele uren”: “Waarom moest Bibi weer zo’n verdomde aanval uitvoeren? Ik was zo pissig”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-verwacht-ondertekening-van-akkoord-binnen-enkele-uren-waarom-moest-bibi-weer-zon-verdomde-aanval-uitvoeren-ik-was-zo-pissig/27532402.html",
         "source": "nieuwsblad",
         "name_only": true
       },
       {
-        "title": "“Compleet tactloos, maar Donald Trump doet wat hij wilt”: alles wat u moet weten over het UFC-evenement aan het Witte Huis",
-        "url": "https://www.gva.be/sport/compleet-tactloos-maar-donald-trump-doet-wat-hij-wilt-alles-wat-u-moet-weten-over-het-ufc-evenement-aan-het-witte-huis/157059546.html",
+        "title": "LIVE MIDDEN-OOSTEN. Trump verwacht ondertekening van akkoord “binnen enkele uren”: “Waarom moest Bibi weer zo’n verdomde aanval uitvoeren? Ik was zo pissig”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-verwacht-ondertekening-van-akkoord-binnen-enkele-uren-waarom-moest-bibi-weer-zon-verdomde-aanval-uitvoeren-ik-was-zo-pissig/76854338.html",
         "source": "gva",
         "name_only": true
       },
       {
-        "title": "“Compleet tactloos, maar Donald Trump doet wat hij wilt”: alles wat u moet weten over het UFC-evenement aan het Witte Huis",
-        "url": "https://www.hbvl.be/sport/compleet-tactloos-maar-donald-trump-doet-wat-hij-wilt-alles-wat-u-moet-weten-over-het-ufc-evenement-aan-het-witte-huis/157059541.html",
+        "title": "Trump wil een deal met Iran als verjaardagscadeau, maar valt er wel veel te vieren? “Het is niet voor niets dat de Iraniërs hier mee instemmen”",
+        "url": "https://www.hbvl.be/buitenland/trump-wil-een-deal-met-iran-als-verjaardagscadeau-maar-valt-er-wel-veel-te-vieren-het-is-niet-voor-niets-dat-de-iraniers-hier-mee-instemmen/157175261.html",
         "source": "hbvl",
         "name_only": true
       },
       {
-        "title": "Live Spanningen Midden-Oosten: Trump: \"Akkoord wordt morgen ondertekend\" - Knack",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLWRZQmVYVUVMS3ZZallqY1hQNGg3cGtBV0NvQXNBZFR0UUZlV0ZCdDRXMTVmQXhKYzMyZnlnRXlQTlJ4LWpYaG5odnFjOFJ1QUwtUlhVRnY5ZVU4VGNGVW5pVnNScHNvRExudU5YUnkycEV1dFFjbTVpMjlVLXFZcFNlc2E1eVNzSjdNQkhyRUZ6UmdwaWxReF9BaTRIUTQyalg3ZlBUbW5jV1Vta1Raa0V3?oc=5",
+        "title": "Live Spanningen Midden-Oosten: Trump roept Israël op om aanvallen op Libanon te stoppen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUEdVY1RQMXRrc2N5NUIxWXplVFZwMmFTWEZpOC1hLV9QYTd6Qk9ScG9Zb1JTTG9yc1MzX19xb1FSWU41Mm5SdDdLZVJFd1Q5blNRbjZ1ZldUSnlsXzZyM1ZOTDZNSDBLSWhzanE2OVRINllkSlFGTHNTMXc3TldrdVhhMzdpaXJSVzJQQlVTY181aEl4djBxU1ZOblR6RVFRZUVuQWp5UmFfR2t5enhJaGxtTncyRXYwQ2FvWFhkTXpVakRJa2FxbkNB?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "Donald Trump, l'homme qui a bouleversé l'Amérique, souffle ce dimanche ses 80 bougies",
-        "url": "https://www.dhnet.be/actu/monde/2026/06/14/donald-trump-lhomme-qui-a-bouleverse-lamerique-souffle-ce-dimanche-ses-80-bougies-UFXHCBKRKREANGGU2W7A7EKQWU/",
+        "title": "Guerre au Moyen-Orient : l'Iran avertit d'une réponse \"imminente\" au raid israélien sur la banlieue sud de Beyrouth, Trump parle d'un accord \"dans quelques heures\"",
+        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-l-iran-avertit-d-une-reponse-imminente-au-raid-israelien-sur-la-banlieue-sud-de-beyrouth-trump-parle-d-un-accord-dans-quelques-heures-11740488",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Poutine et Zelensky ont appelé Trump pour son anniversaire et parler de la guerre en Ukraine : voilà ce qu'ils ont dit au président américain",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/06/14/zelensky-a-discute-de-la-guerre-avec-trump-en-lappelant-pour-son-anniversaire-3UJEOU7LIFCUFA6L334AHIMM64/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Moyen-Orient Trump dit qu'un accord sera signé \"dans quelques heures\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/14/direct-moyen-orient-un-accord-entre-les-etats-unis-et-liran-sera-t-il-signe-ce-dimanche-UMD77EVLEZHCLGSHGTNE4R5X3A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump promet \"le plus grand spectacle au monde\" à la Maison Blanche pour ses 80 ans: l'événement fait grincer des dents (PHOTOS)",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/14/donald-trump-promet-le-plus-grand-spectacle-au-monde-a-la-maison-blanche-pour-ses-80-ans-levenement-fait-grincer-des-dents-photos-Y6EG433GKJDARCFYLYMKKKHPVI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Guerre au Moyen-Orient: Trump annonce un accord avec l’Iran, Téhéran réfute, les tensions montent après des frappes israéliennes au Liban - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNaENkLTNRRDZuQWxYZEJtTXlIaVdZNjJRN0ZLZk1XTlhaQTZUMHAtTGp2TWFmcnI2dHVyZFNMRUxRSGpEdVgyY3k3YXhnd3hFQXBsSlBaY2kzWU9DNFRBVDNsVTR5ZGd6MnZ2RmJQQXZyTXdVUmZQZGNzV1RDQWhDSGIwdTlteVdYb3htVE1nUWJfUy1LMllidFNpUnY0Qk1NOHlJZFdLXzlPVnAtQWQtenl3ZzZHSnE2aG5iRlNtT3I2bG5DQmpicEdLVTE5SllCcHFJOGprTElzNTh1WFdTcmdyLTNuM0xvM2tVcUtwd1Q5TXNoU0hlaUFLRGJfNG1FcmtXUkVObDBjTmdiczRjZklHN3FUOWRyTlhtMEJycFdRUVBXSjlGRTlFTnRmQXNGZ1RneTl3?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient : Trump annonce qu'un accord sera signé \"dans quelques heures\" avec l'Iran",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/14/direct-guerre-au-moyen-orient-teheran-na-pas-encore-pris-de-decision-finale-pour-un-accord-G4FCISAJ65E3PCATEBWZ6QS3MM/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Donald Trump affirme que l’Iran “vient d’accepter de ne jamais se doter d’une arme nucléaire”",
-        "url": "https://www.7sur7.be/monde/donald-trump-affirme-que-liran-vient-daccepter-de-ne-jamais-se-doter-dune-arme-nucleaire~a8fabb59/",
+        "title": "Poutine et Trump se sont mis d'accord pour que les émissaires américains se rendent \"bientôt\" en Russie",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/14/poutine-et-trump-se-sont-mis-daccord-pour-que-les-emissaires-americains-se-rendent-bientot-en-russie-7TSWVSS47NCXDDMYVA2IY7MDUM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Ceci n’est pas une fake news, Donald Trump aime vraiment le soccer : “Le tournoi peut lui permettre de ne pas perdre son immense pouvoir”",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/06/14/ceci-nest-pas-une-fake-news-donald-trump-aime-vraiment-le-soccer-le-tournoi-peut-lui-permettre-de-ne-pas-perdre-son-immense-pouvoir-WS7GMS5JXBHAXHINFGFSWDHQOQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Pour ses 80 ans ce dimanche, Donald Trump promet \"le plus grand spectacle au monde\", mais l'événement fait grincer des dents aux USA (PHOTOS)",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/14/pour-ses-80-ans-ce-dimanche-donald-trump-promet-le-plus-grand-spectacle-au-monde-mais-levenement-fait-grincer-des-dents-aux-usa-photos-7GCB7QB4X5ADTFXYACU3YDANJE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump évoque un accord retardé par Israël, mais qui sera signé “dans quelques heures” avec l’Iran",
+        "url": "https://www.7sur7.be/monde/trump-evoque-un-accord-retarde-par-israel-mais-qui-sera-signe-dans-quelques-heures-avec-liran~a8fabb59/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Accord de paix au Moyen-Orient : Trump annonce une signature aujourd’hui, l’Iran ne confirme pas - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXVRUXRTeXo2ZUM3UEtjRE1HS2lFSmNMYk9yaFhRYW1nMmQ5MENNV2FsVnFVNm43VlVVSGNaTHcwcy02SF9jRlZHR1FmNHREWXFQb3RBdFphc2ZwY0FXTlU4bGp3b1lyYkIzNnMwc0o2b3gxLWNZd0FmbXRNaWthbjVndWpQNzdGalJqdm1GS3FEOGJKYWtnZ0h1d2RSZ0hpVFNJMjVLeWRfMHRDSTBZQnVEejl0aW13VE5COV9Ick90Tlh3?oc=5",
+        "title": "Poutine et Trump d’accord pour que les émissaires américains se rendent bientôt en Russie",
+        "url": "https://www.7sur7.be/monde/poutine-et-trump-daccord-pour-que-les-emissaires-americains-se-rendent-bientot-en-russie~a926f6c1/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Une soirée à 60 millions de dollars: une fête XXL à la Maison-Blanche pour l’anniversaire de Trump",
+        "url": "https://www.7sur7.be/monde/une-soiree-a-60-millions-de-dollars-une-fete-xxl-a-la-maison-blanche-pour-lanniversaire-de-trump~a552709e/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "De groene erfenis van Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUjFXSmZZWnU5YkNnMzFORy1KcWVYSXBxbml3NWFDUUpiV0xORzJvQ2I0bFJOX0twLURPNy0wNmpwQVFxbEJEaUVhTFE0b3MzbmN5bFlfLWZTWVYwVU1HVFlvU3hYbERaaDNKRkJaZk9JVHFfNEVSQkRHVDVKYzhUcnM4bXptUQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump roept Israël op te stoppen met aanvallen op Libanon - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSHM3YnJFTy1DVlJ6RFNaZE1pUmNrRTZORkdjc1B0b2xwRl9wX2d1T2hrUjJJNnpNdExqNDhLY0FqMldFbnFmM3pzQTNKa1VqQWRlMmYwOWZOTkhCeklPX1VXdnRIVWVCTWlqblZ6ajA1MnB5NzVEUXljejRDOFZBNVRsMFVrNDJweGQweWxMbW4yWTVZM04waWlQQ1J5bklGMGk4NE55RERqclZ3dXN4V2N1Y2xjVmx6X013MUFfSDRjV3owd1Z5Y0ktR2JFdw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Selon Donald Trump, un accord avec l’Iran sera signé « dans quelques heures » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM1lRUlNwdTl6VG4yRW9ITjlVV3ZZcHJKamJMVFdfaGgwcW1qMURyVXA4UjA3U0ZvZTBvRHEtaUdCQ2pfVzBxQm5zMnFHa0hSaE8yWmRBYWRUeXUwV1dpb1pTa0JOclYtekpOU20tZjJCVTk5TW85R0wwQWVzV1hTbWRoNmdPMFdveUZoM0IxcXdKcEczU2EtSExNdzlESk5SMkFKUDdjLW9lTTEyNS03R0dJZURTSmJmLXpV?oc=5",
         "source": "lesoir_g",
         "name_only": true
       },
       {
-        "title": "Donald Trump invite le MMA à la Maison-Blanche pour son anniversaire (photos) - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTWlMY1ZfVjZ5WGlmZjJ0OWlLV21wRkNBTXRYS1I3TXVTS3BGOFZVMkpua3dqTmFMc2RhNG1KTExzWkFOT1B6R0xfcWQwcDA2SGtoVnFmeGV5WHptTTVtUzhiZFl1U2xYSU90WU1OLS16OXBiN1hEZVpUYUt3Rk1ISngyQjJDdG9zU2FSVU9ObnB4S29GZkFLTHYxZ0xnRVVfOE1rLVAxdF83MFhUZm5DUHV6VnFNeEpEckttNjZn?oc=5",
+        "title": "« Ne gâchons pas tout ! » : Donald Trump regrette les frappes israéliennes sur Beyrouth - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOX1dNSWZQVU9UNHhXTjE0d1ItaFcyRnZZRjBldndPSmNzZE9jUFBGVFd4YUVJRWNLYzFYclVxeE0tZXhwakQxQmp5Vi1EVktjenB5cmFEU2x4dndYR0lmN2pKaG1XZ1pER1RGaXZUNVhTc21CVnExX3JRZVEzeDA1VkFhcWI0ejZacldnb0M5dzNoRnBCWlBhU3ZJNGcxdkdERFVsSU5qTDhUVHhXQTI2UnZEOXItTERTWW5JUlN4ZU5nd1FSYXc?oc=5",
         "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Vladimir Poutine et Donald Trump sont d’accord ! Des émissaires américains se rendront « bientôt » en Russie - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT0xseTJKS0J2bkdjMENNZTdoNUJHMGxzR1dZN1NaRzBHRlFvSmp3cnBSdmRoYWJVMW1nMlVkNGNISXRLc1VSYlBRczhiVHFTN2l3NGg0dnpZM3VwaE5zQ1JMMUh4QlIwckF3bG5WekxoeldnRDVya1hXeHNraEtlMDhyNzVjckpxYjM4cEs3VXZzdndUeC1yRWpnQjhDd1RrVWVCQVlQVk5oQzhBSEh3TjJ2QU54LURXWkNURVVKVVJEWnBq?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Vladimir Poutine et Donald Trump sont tombés d’accord ! Des émissaires américains se rendront « bientôt » en Russie - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOREdURXY4dUFkV2JOUWt3TzdHdUdCaXphUHY3MzBtZXh6WVpXUFZ6Umk4VVlXRVNuY3NieFF6MEhhdndnYmR3dGo1bFc4LTBWSE5YUWZ5Zkg1dXpEZEtkaWIxZDFXVzlFazJOcmUwZ2dVeDZpaHhQdnNpVnVJbHM2Qk8zNDFiQnhQQkRVMzVDZ3dOQnpaMVI1UzBFbmZ6NkppSGZjcTRrY183d29nT1NZRFBiU1Q5UmE2cjhzdlBRMXdLRXhOalR0Ynp3?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Le président Donald Trump fête ses 80 ans ce 14 juin à la Maison blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdnozRHhScXl0bE5QMVVZZ2dKMGo1RHMwMy1pTHRab2xucE5pd3oyR2ZnamtRUngxNnUyd2NNV0pqZE4zekZiZmVZRFZVazNCWlRCOC16bnlhaG9xQ1pVQUlhNE4yaTRaay1fR216LWF5SG1uYkdqbEJzQjdtajZRNk9UaGN0VENuR096aDdTOGtpc2hYRFNtZ2VxNVVOVFo2YWlvVUExVThTb1lPOGVGTWRMeEV1djdIUmxxcTVtNFoycWNVNGdJOFF5TQ?oc=5",
+        "source": "rtl_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 9,
-      "putin": 0,
+      "trump": 27,
+      "putin": 6,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 1,
+      "netanyahu": 1,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 0,
-      "bouchez": 1,
-      "magnette": 0,
+      "bouchez": 9,
+      "magnette": 1,
       "prevot": 0,
-      "rousseau": 0,
-      "francken": 0,
+      "rousseau": 1,
+      "francken": 1,
       "crevits": 0,
-      "jambon": 0,
+      "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 11,
-      "putin": 0,
+      "trump": 33,
+      "putin": 7,
       "macron": 1,
-      "netanyahu": 0,
-      "zelensky": 1,
+      "netanyahu": 1,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 0,
-      "bouchez": 1,
-      "magnette": 0,
+      "bouchez": 13,
+      "magnette": 1,
       "prevot": 0,
-      "rousseau": 0,
-      "francken": 0,
+      "rousseau": 1,
+      "francken": 2,
       "crevits": 0,
-      "jambon": 0,
+      "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 15,
-      "crime": 5,
-      "eu": 7,
-      "politics": 15,
-      "be_gov": 3,
-      "culture": 7,
-      "tech": 6,
-      "economy": 2,
-      "sports": 50,
-      "health": 2,
-      "climate": 4,
-      "migration": 0,
-      "education": 0,
-      "weather": 8
+      "war": 42,
+      "crime": 30,
+      "eu": 37,
+      "politics": 23,
+      "be_gov": 17,
+      "culture": 11,
+      "tech": 9,
+      "economy": 4,
+      "sports": 102,
+      "health": 4,
+      "climate": 1,
+      "migration": 3,
+      "education": 2,
+      "weather": 10
     },
     "wide_themes": {
-      "war": 19,
-      "crime": 11,
-      "eu": 7,
-      "politics": 21,
-      "be_gov": 3,
-      "culture": 8,
-      "tech": 11,
-      "economy": 3,
-      "sports": 62,
-      "health": 2,
-      "climate": 4,
-      "migration": 0,
-      "education": 0,
-      "weather": 10
+      "war": 58,
+      "crime": 42,
+      "eu": 47,
+      "politics": 37,
+      "be_gov": 22,
+      "culture": 14,
+      "tech": 17,
+      "economy": 7,
+      "sports": 135,
+      "health": 5,
+      "climate": 3,
+      "migration": 4,
+      "education": 2,
+      "weather": 14
     }
   }
 ]
