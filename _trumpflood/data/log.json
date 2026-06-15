@@ -38677,5 +38677,609 @@
       "education": 2,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-06-15",
+    "generated_at": "2026-06-15T11:46:01+02:00",
+    "last_checked_at": "2026-06-15T11:46:01+02:00",
+    "total_articles": 658,
+    "trump_articles": 14,
+    "percentage": 2.1,
+    "core_percentage": 2.1,
+    "core_percentage_name": 2.1,
+    "trump_articles_expanded": 14,
+    "core_percentage_expanded": 2.1,
+    "indirect_references": 0,
+    "wide_total_articles": 832,
+    "wide_trump_articles": 19,
+    "wide_percentage": 2.3,
+    "wide_trump_articles_expanded": 20,
+    "wide_percentage_expanded": 2.4,
+    "macro_percentage": 2.6,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 46,
+    "cross_outlet_dup_groups": 23,
+    "cross_outlet_dup_rate": 7.0,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.08,
+    "breadth": 0.56,
+    "deviation": 0.79,
+    "smoothed_pct": 3.29,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 9,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "google_nl_politics": {
+        "fetched": 63,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 31,
+        "today": 12,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_business": {
+        "fetched": 68,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 52,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 41,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 33,
+        "today": 6,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 24,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 70,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 42,
+        "kept": 42,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 37,
+        "kept": 37,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.7
+      },
+      "lecho": {
+        "fetched": 80,
+        "today": 25,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 76,
+        "kept": 76,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.32
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 81,
+        "kept": 77,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 64,
+        "kept": 60,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.67
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.41
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 26,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 31,
+        "today": 10,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 27,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Donald Trump vertrokken richting G7-top in Frankrijk, eerste leiders komen aan",
+        "url": "https://vrtnws.be/p.oLbVVWVMe",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Wordt het Trump tegen de rest op G7-top in Evian?",
+        "url": "https://vrtnws.be/p.Yb6OOoPKN",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Irandeal is een vernederend verjaardagsgeschenk voor Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeVU0bW1pRGtZWDZValQ1MVNQTFI1MkNZTTczMDQ2R2xzb1NHX3AyTWxjcGVXTk5MNVBKTnVneklXejdnWnV2VHgydFpDWmlTeF9PblVVS3ozZ0pGQTFycmh3aWFFM2U3bHNKVmVIR1J1dElkOVlKR1VqWGxYVlBxOF9tZnJKdlRnc0dUUEhJVVhyLVNIcEFWZG5jRmUwZDBUOTRDTm5ieEVsdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Spiegelvijver van Trump in Washington kleurt groen door algen na peperdure renovatie voor jubileum",
+        "url": "https://www.hln.be/buitenland/kijk-spiegelvijver-van-trump-in-washington-kleurt-groen-door-algen-na-peperdure-renovatie-voor-jubileum~af7a5cc3/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt alweer met nieuwe aanvallen op Iran en noemt Netanyahu “erg moeilijke mens”",
+        "url": "https://www.hln.be/buitenland/trump-dreigt-alweer-met-nieuwe-aanvallen-op-iran-en-noemt-netanyahu-erg-moeilijke-mens~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "JD Vance hint op presidentschap 2028: “Ik verwacht dat Trump zeer positief zal reageren, ongeacht wat ik uiteindelijk ook besluit te doen”",
+        "url": "https://www.hln.be/buitenland/jd-vance-hint-op-presidentschap-2028-ik-verwacht-dat-trump-zeer-positief-zal-reageren-ongeacht-wat-ik-uiteindelijk-ook-besluit-te-doen~a4b72251/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: ‘Zonder nucleaire deal kunnen we militaire aanvallen op Iran hernemen’ • Iran: ‘VS verantwoordelijk voor einde aanvallen Israël op Libanon’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-zonder-nucleaire-deal-kunnen-we-militaire-aanvallen-op-iran-hernemen-iran-vs-verantwoordelijk-voor-einde-aanvallen-israel-op-libanon~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "VIDEO. UFC-sensatie voor de ogen van Donald Trump: Ciryl Gane maakt statement van jewelste met KO tegen Alex Pereira, Justin Gaethje sloopt Ilia Topuria in schaduw van Witte Huis",
+        "url": "https://www.hbvl.be/sport/video.-ufc-sensatie-voor-de-ogen-van-donald-trump-ciryl-gane-maakt-statement-van-jewelste-met-ko-tegen-alex-pereira-justin-gaethje-sloopt-ilia-topuria-in-schaduw-van-witte-huis/157201670.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Une scène hallucinante sur la pelouse de la Maison-Blanche pour le plus grand bonheur de Donald Trump : \"C'est dingue\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/15/une-scene-hallucinante-sur-la-pelouse-de-la-maison-blanche-pour-le-plus-grand-bonheur-de-donald-trump-cest-dingue-NIV6N4KHL5GQHJ5SEARDXCR53A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Pendant que Donald Trump fête son anniversaire, Jane Fonda, Julia Roberts et Robert De Niro lui volent la vedette : “Qu’il ferme sa gueule !”",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/15/pendant-que-donald-trump-fete-son-anniversaire-jane-fonda-julia-roberts-et-robert-de-niro-lui-volent-la-vedette-quil-ferme-ta-gueule-KSBALLJDAJEBDCOEI6T2EK56GQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Polémique lors de l’anniversaire de Trump: “Michelle Obama est un homme”",
+        "url": "https://www.7sur7.be/monde/polemique-lors-de-lanniversaire-de-trump-michelle-obama-est-un-homme~a13e251f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Que le pétrole coule à flots ! » : les mots de Donald Trump à l’annonce d’un accord avec l’Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVG5lYklmUzI2NWpRZWdIcmp3TU1nY2Fla1BGejBOSTRRT0VRQ2lrb3FkZDVIZXRXSlBaRC12SXpaTDVhcDJHN0lSTm9Xdmo5S0hDMExwdDlRVXlhNkVfTGFNRkdXWWhXUThlWXBqRDBQRG5nWXh4UU9jUmhiT2VEckRtbFlaajNlQ3VhSk5Gc1FRVlZIS2NYNmE5M25OOENjczRPZnJYbE1oUFRWbldHYUxldC1WYUsyeVlGS1FXRHhoQQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Que le pétrole coule à flots ! » : les premiers mots de Donald Trump après l’annonce de l’accord entre les Etats-Unis et l’Iran - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR2x6WkZERXEzSDhKMEM5bnZ3QTgtYVM1NXVuMmFiSmJRMC1aWDJURzhfSEhhaTlfOW10cDdxRnI0SDh0ME4tN3Y2b2MweWdVZUJyVG5zLWRUNDBvMEc1VFJCQ2hLODFwY2t0TGh1QUI1Z2NxNWVHSUhfUE53NE5XQmdQM0d5aW1Ib0VOR0VzMWxnVFp3QnZjS2pmeU9vWjBqZzJtaXFDNV9GajN0RE80ekk1dENQQmVmRjRiY0lmNy1oWUVFU2JNOTBn?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "De l’UFC à la Maison Blanche : les images de la soirée de combats MMA en présence de Donald Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWVJ1TUdCRmVOUUZfWndQQUF6Sk80djNqOXZvVXNob1AwME90bFY3OWVpS2VSM2tuc0JxS195U0owQmtuMWRmR2U1a1ExdG00QzJZUU9YazdnOWp0Q0VhaDlzMmdsM2lCTEhfMzRiTG1pZ3BBUGxraWZnaFBSbzZLSHlFMklGS1FmUjl2RmxjbkFnMDNLcFR2SXYyR1dmdVVtS1E4YjhQa1hYOG9kMXA0Mlg1cjlSc3NBd0dKa0hyNkt4N19jV3FLRjE3dw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Jarige Donald Trump is grote ster van \"Freedom 250\", een bevreemdend UFC-spektakel in tuin van Witte Huis - sporza.be",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVVZTTnNPd21xeVV0YmlCWnRvR1Y1Qmd1OXJGcjBUaGxMd3d6Z2QtOGFRZTRqcjV5cTNMeHM3WDdlVWdiS0hIUUFaZ3lGUG9zV1l3QnBvUV9ZOGRRdkU0MEFLYWVtUmY2Y25hQ0dTSnpaVXFLcjBIa1ppT1ZpUGN2ckkwUldVWFd2LTFxN2NwWHN6LWZ2ekM2RElYT210Q183VnFPTVF5RzZNYkZmNUo5LS1zNE5GNURwRmNndXFlTXRrSllIZDNxc2RjaFRmQ0dmSERmY2pyRHVyMmRmNklCXzRkcw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Les images de la soirée de combats MMA à la Maison Blanche en présence de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWUdTTkUyUGtrSUJodUJxYTFHWTloVkJ6M212N083VEF3Y3NDN1VkQnJVQjIxNklzVUFSRlp6cnRqd2UzeEZEemdDSGgzdWFSY2RFNzR3OWF1Q3hmaTNyS1BraHZRZW5pR09ZOHFoMENOWE1QUjZFc0ZhcEZiYWNaeEZVWGtsbmhpdVJlM3RDQlR4UVZ0cTduUjU3WjlWREFSSnc0WF9HZTI5YndXR2d1MVplUmNUc18tZHdHZnlNY2prZjBk?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Bloed, zweet en 'Iran-truths': wereldpolitiek in de marge kooigevecht Witte Huis - NOS",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORWVWOGxTUVY3amZrT0x6MUZta1dZMzhaSWtYNzlUTk5oQkNhdmMwN3Y0VGxRT25zWjJVYlNmeWc4VGx0VUdpTWQ4R2FZbl8yQlZOLWl5SnlUZGlhM1RFbXQyZ0tnQzgxSElLbFdaOWl5TXYyaGpMNEdhaGJWZnoyaGZrVTdZSlpPaHJsMVI3d3dpQnFrZW5Mc1ItWnB5Nm9BQmlIcjZ1c3JWT2c?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "“Ik was zo pissed off”: Trump was niet gediend met nieuwe poging Israël om staakt-het-vuren te dwarsbomen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORTZaZ3FxQmlGMUphamdPRktIVXRuZExEZVBDb1gyQnU1Q3VLdXRXWjJEN0Nrem1zejFQM2k5T0VhY0NKUXBnVFAwaTB6V3RBdVZvU3pwRXRtaFJXSWM0T29rcHljYWhIZjc3V3NHNTktMUp0VWk2T0FKMTNVZEczd19VdVNDU1hlYWZJUGZCSXZ1SVhfOXdjdG1MN0ZrZ0hKTlRXX3BBc3E4VFhnM01SVE5hX3oyN2ZPeWRN?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump vertrokken richting G7-top in Frankrijk, eerste leiders komen aan",
+        "url": "https://vrtnws.be/p.oLbVVWVMe",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Wordt het Trump tegen de rest op G7-top in Evian?",
+        "url": "https://vrtnws.be/p.Yb6OOoPKN",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Irandeal is een vernederend verjaardagsgeschenk voor Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeVU0bW1pRGtZWDZValQ1MVNQTFI1MkNZTTczMDQ2R2xzb1NHX3AyTWxjcGVXTk5MNVBKTnVneklXejdnWnV2VHgydFpDWmlTeF9PblVVS3ozZ0pGQTFycmh3aWFFM2U3bHNKVmVIR1J1dElkOVlKR1VqWGxYVlBxOF9tZnJKdlRnc0dUUEhJVVhyLVNIcEFWZG5jRmUwZDBUOTRDTm5ieEVsdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Spiegelvijver van Trump in Washington kleurt groen door algen na peperdure renovatie voor jubileum",
+        "url": "https://www.hln.be/buitenland/kijk-spiegelvijver-van-trump-in-washington-kleurt-groen-door-algen-na-peperdure-renovatie-voor-jubileum~af7a5cc3/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt alweer met nieuwe aanvallen op Iran en noemt Netanyahu “erg moeilijke mens”",
+        "url": "https://www.hln.be/buitenland/trump-dreigt-alweer-met-nieuwe-aanvallen-op-iran-en-noemt-netanyahu-erg-moeilijke-mens~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "JD Vance hint op presidentschap 2028: “Ik verwacht dat Trump zeer positief zal reageren, ongeacht wat ik uiteindelijk ook besluit te doen”",
+        "url": "https://www.hln.be/buitenland/jd-vance-hint-op-presidentschap-2028-ik-verwacht-dat-trump-zeer-positief-zal-reageren-ongeacht-wat-ik-uiteindelijk-ook-besluit-te-doen~a4b72251/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: ‘Zonder nucleaire deal kunnen we militaire aanvallen op Iran hernemen’ • Iran: ‘VS verantwoordelijk voor einde aanvallen Israël op Libanon’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-zonder-nucleaire-deal-kunnen-we-militaire-aanvallen-op-iran-hernemen-iran-vs-verantwoordelijk-voor-einde-aanvallen-israel-op-libanon~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump ziet kooivechters stevig tekeergaan op zijn verjaardagsfeestje, winnaar haalt lelijk uit naar Michelle Obama",
+        "url": "https://www.gva.be/buitenland/donald-trump-ziet-kooivechters-stevig-tekeergaan-op-zijn-verjaardagsfeestje-winnaar-haalt-lelijk-uit-naar-michelle-obama/157206817.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "VIDEO. UFC-sensatie voor de ogen van Donald Trump: Ciryl Gane maakt statement van jewelste met KO tegen Alex Pereira, Justin Gaethje sloopt Ilia Topuria in schaduw van Witte Huis",
+        "url": "https://www.gva.be/sport/video.-ufc-sensatie-voor-de-ogen-van-donald-trump-ciryl-gane-maakt-statement-van-jewelste-met-ko-tegen-alex-pereira-justin-gaethje-sloopt-ilia-topuria-in-schaduw-van-witte-huis/157201671.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "VIDEO. UFC-sensatie voor de ogen van Donald Trump: Ciryl Gane maakt statement van jewelste met KO tegen Alex Pereira, Justin Gaethje sloopt Ilia Topuria in schaduw van Witte Huis",
+        "url": "https://www.hbvl.be/sport/video.-ufc-sensatie-voor-de-ogen-van-donald-trump-ciryl-gane-maakt-statement-van-jewelste-met-ko-tegen-alex-pereira-justin-gaethje-sloopt-ilia-topuria-in-schaduw-van-witte-huis/157201670.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Une scène hallucinante sur la pelouse de la Maison-Blanche pour le plus grand bonheur de Donald Trump : \"C'est dingue\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/15/une-scene-hallucinante-sur-la-pelouse-de-la-maison-blanche-pour-le-plus-grand-bonheur-de-donald-trump-cest-dingue-NIV6N4KHL5GQHJ5SEARDXCR53A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Pendant que Donald Trump fête son anniversaire, Jane Fonda, Julia Roberts et Robert De Niro lui volent la vedette : “Qu’il ferme sa gueule !”",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/15/pendant-que-donald-trump-fete-son-anniversaire-jane-fonda-julia-roberts-et-robert-de-niro-lui-volent-la-vedette-quil-ferme-ta-gueule-KSBALLJDAJEBDCOEI6T2EK56GQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Polémique lors de l’anniversaire de Trump: “Michelle Obama est un homme”",
+        "url": "https://www.7sur7.be/monde/polemique-lors-de-lanniversaire-de-trump-michelle-obama-est-un-homme~a13e251f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Que le pétrole coule à flots ! » : les mots de Donald Trump à l’annonce d’un accord avec l’Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVG5lYklmUzI2NWpRZWdIcmp3TU1nY2Fla1BGejBOSTRRT0VRQ2lrb3FkZDVIZXRXSlBaRC12SXpaTDVhcDJHN0lSTm9Xdmo5S0hDMExwdDlRVXlhNkVfTGFNRkdXWWhXUThlWXBqRDBQRG5nWXh4UU9jUmhiT2VEckRtbFlaajNlQ3VhSk5Gc1FRVlZIS2NYNmE5M25OOENjczRPZnJYbE1oUFRWbldHYUxldC1WYUsyeVlGS1FXRHhoQQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Que le pétrole coule à flots ! » : les premiers mots de Donald Trump après l’annonce de l’accord entre les Etats-Unis et l’Iran - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR2x6WkZERXEzSDhKMEM5bnZ3QTgtYVM1NXVuMmFiSmJRMC1aWDJURzhfSEhhaTlfOW10cDdxRnI0SDh0ME4tN3Y2b2MweWdVZUJyVG5zLWRUNDBvMEc1VFJCQ2hLODFwY2t0TGh1QUI1Z2NxNWVHSUhfUE53NE5XQmdQM0d5aW1Ib0VOR0VzMWxnVFp3QnZjS2pmeU9vWjBqZzJtaXFDNV9GajN0RE80ekk1dENQQmVmRjRiY0lmNy1oWUVFU2JNOTBn?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "De l’UFC à la Maison Blanche : les images de la soirée de combats MMA en présence de Donald Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWVJ1TUdCRmVOUUZfWndQQUF6Sk80djNqOXZvVXNob1AwME90bFY3OWVpS2VSM2tuc0JxS195U0owQmtuMWRmR2U1a1ExdG00QzJZUU9YazdnOWp0Q0VhaDlzMmdsM2lCTEhfMzRiTG1pZ3BBUGxraWZnaFBSbzZLSHlFMklGS1FmUjl2RmxjbkFnMDNLcFR2SXYyR1dmdVVtS1E4YjhQa1hYOG9kMXA0Mlg1cjlSc3NBd0dKa0hyNkt4N19jV3FLRjE3dw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 14,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 1,
+      "bouchez": 2,
+      "magnette": 1,
+      "prevot": 5,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 19,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 1,
+      "bouchez": 2,
+      "magnette": 1,
+      "prevot": 6,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 65,
+      "crime": 32,
+      "eu": 25,
+      "politics": 23,
+      "be_gov": 14,
+      "culture": 16,
+      "tech": 16,
+      "economy": 27,
+      "sports": 65,
+      "health": 5,
+      "climate": 8,
+      "migration": 2,
+      "education": 5,
+      "weather": 13
+    },
+    "wide_themes": {
+      "war": 80,
+      "crime": 41,
+      "eu": 33,
+      "politics": 25,
+      "be_gov": 16,
+      "culture": 19,
+      "tech": 18,
+      "economy": 30,
+      "sports": 78,
+      "health": 10,
+      "climate": 9,
+      "migration": 2,
+      "education": 7,
+      "weather": 18
+    }
   }
 ]
