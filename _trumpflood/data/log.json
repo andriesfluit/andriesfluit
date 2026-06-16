@@ -39482,135 +39482,135 @@
   },
   {
     "date": "2026-06-16",
-    "generated_at": "2026-06-16T11:11:35+02:00",
-    "last_checked_at": "2026-06-16T11:11:35+02:00",
-    "total_articles": 533,
-    "trump_articles": 10,
-    "percentage": 1.9,
-    "core_percentage": 1.9,
-    "core_percentage_name": 1.9,
-    "trump_articles_expanded": 11,
-    "core_percentage_expanded": 2.1,
-    "indirect_references": 1,
-    "wide_total_articles": 720,
-    "wide_trump_articles": 14,
-    "wide_percentage": 1.9,
-    "wide_trump_articles_expanded": 16,
-    "wide_percentage_expanded": 2.2,
-    "macro_percentage": 1.5,
-    "qualifying_outlets": 25,
+    "generated_at": "2026-06-16T17:32:27+02:00",
+    "last_checked_at": "2026-06-16T17:32:27+02:00",
+    "total_articles": 783,
+    "trump_articles": 35,
+    "percentage": 4.5,
+    "core_percentage": 4.5,
+    "core_percentage_name": 4.5,
+    "trump_articles_expanded": 39,
+    "core_percentage_expanded": 5.0,
+    "indirect_references": 4,
+    "wide_total_articles": 1092,
+    "wide_trump_articles": 52,
+    "wide_percentage": 4.8,
+    "wide_trump_articles_expanded": 57,
+    "wide_percentage_expanded": 5.2,
+    "macro_percentage": 5.9,
+    "qualifying_outlets": 33,
     "core_outlets_total": 19,
-    "core_outlets_active": 18,
-    "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 43,
-    "cross_outlet_dup_groups": 21,
-    "cross_outlet_dup_rate": 8.1,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 46,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 5.9,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.25,
-    "breadth": 0.39,
-    "deviation": 0.7,
-    "smoothed_pct": 2.97,
+    "dominance": 2.92,
+    "breadth": 0.74,
+    "deviation": 1.67,
+    "smoothed_pct": 3.34,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 10,
+    "theme_rank": 4,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 23,
-        "kept": 23,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
-        "trump_expanded": 0,
+        "trump_expanded": 1,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 19,
-        "kept": 19,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
       },
       "google_nl_politics": {
-        "fetched": 65,
-        "today": 7,
-        "kept": 7,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 14.29
-      },
-      "google_nl_world": {
-        "fetched": 46,
+        "fetched": 66,
         "today": 13,
-        "kept": 9,
+        "kept": 11,
         "trump": 3,
         "trump_expanded": 3,
-        "share": 33.33
+        "share": 27.27
+      },
+      "google_nl_world": {
+        "fetched": 52,
+        "today": 17,
+        "kept": 12,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 25.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 22,
-        "kept": 18,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 46,
+        "kept": 41,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.44
       },
       "google_nl_tech": {
-        "fetched": 59,
-        "today": 9,
-        "kept": 6,
+        "fetched": 56,
+        "today": 24,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 46,
-        "today": 12,
-        "kept": 8,
+        "fetched": 50,
+        "today": 28,
+        "kept": 24,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 40,
-        "today": 5,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 43,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
       },
       "google_fr_world": {
-        "fetched": 34,
-        "today": 3,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 56,
+        "today": 29,
+        "kept": 26,
+        "trump": 6,
+        "trump_expanded": 6,
+        "share": 23.08
       },
       "google_fr_business": {
-        "fetched": 38,
-        "today": 5,
-        "kept": 4,
+        "fetched": 39,
+        "today": 16,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 27,
-        "kept": 27,
+        "today": 44,
+        "kept": 44,
         "trump": 0,
-        "trump_expanded": 0,
+        "trump_expanded": 1,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 62,
-        "kept": 31,
+        "today": 78,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -39619,105 +39619,105 @@
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 13.33
       },
       "demorgen": {
         "fetched": 29,
-        "today": 20,
-        "kept": 20,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.0
+        "today": 22,
+        "kept": 22,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 13.64
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 49,
-        "kept": 49,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 48,
-        "kept": 48,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.08
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
       },
       "knack": {
         "fetched": 100,
-        "today": 41,
-        "kept": 41,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.44
+        "today": 57,
+        "kept": 55,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.64
       },
       "sporza": {
         "fetched": 20,
-        "today": 16,
-        "kept": 16,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 11,
-        "kept": 11,
+        "today": 26,
+        "kept": 26,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 15,
-        "kept": 15,
-        "trump": 2,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
         "trump_expanded": 2,
-        "share": 13.33
+        "share": 5.56
       },
       "lalibre": {
         "fetched": 100,
-        "today": 24,
-        "kept": 24,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.17
+        "today": 63,
+        "kept": 63,
+        "trump": 6,
+        "trump_expanded": 6,
+        "share": 9.52
       },
       "lecho": {
         "fetched": 100,
-        "today": 31,
-        "kept": 30,
+        "today": 62,
+        "kept": 58,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.33
+        "share": 1.72
       },
       "dhnet": {
         "fetched": 100,
-        "today": 71,
-        "kept": 71,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 99,
+        "kept": 99,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 5.05
       },
       "septsursept": {
         "fetched": 30,
-        "today": 27,
-        "kept": 27,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
+        "today": 30,
+        "kept": 30,
+        "trump": 6,
+        "trump_expanded": 6,
+        "share": 20.0
       },
       "bx1": {
         "fetched": 10,
@@ -39729,56 +39729,56 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 20,
-        "kept": 13,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 41,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 39,
-        "kept": 39,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 7.69
+        "today": 44,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 25,
-        "kept": 25,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 13,
-        "kept": 13,
+        "today": 33,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 99,
-        "today": 20,
-        "kept": 18,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 34,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
       },
       "trends_g": {
         "fetched": 44,
-        "today": 12,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 19,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
       },
       "tendances_g": {
-        "fetched": 51,
-        "today": 12,
-        "kept": 12,
+        "fetched": 50,
+        "today": 21,
+        "kept": 21,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -39807,38 +39807,134 @@
     ],
     "matches": [
       {
-        "title": "‘Nieuwsinfluencers’ verdringen klassieke media bij jongeren: ‘Na een hele dag werken, is het gezicht van Donald Trump wel het laatste dat ze willen zien’",
-        "url": "https://www.demorgen.be/nieuws/nieuwsinfluencers-verdringen-klassieke-media-bij-jongeren-na-een-hele-dag-werken-is-het-gezicht-van-donald-trump-wel-het-laatste-dat-ze-willen-zien~be8017a9/",
+        "title": "Terreuraanval tijdens UFC-gevecht aan Witte Huis verhinderd, zegt FBI-directeur Patel",
+        "url": "https://vrtnws.be/p.VL7G9N6oA",
+        "source": "vrt",
+        "name_only": false
+      },
+      {
+        "title": "KIJK. Truc van Macron om te voorkomen dat Trump G7 voortijdig zou verlaten lijkt geslaagd: “Ik hou nu eenmaal van mooie plekken”",
+        "url": "https://www.hln.be/buitenland/kijk-truc-van-macron-om-te-voorkomen-dat-trump-g7-voortijdig-zou-verlaten-lijkt-geslaagd-ik-hou-nu-eenmaal-van-mooie-plekken~a80f6c6f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Prijzen voor diesel en benzine naar laagste niveau in drie maanden - Trump bereid om sancties tegen Russische olie opnieuw in te voeren",
+        "url": "https://www.hln.be/economie/prijzen-voor-diesel-en-benzine-naar-laagste-niveau-in-drie-maanden-trump-bereid-om-sancties-tegen-russische-olie-opnieuw-in-te-voeren~a634e96a/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Balzaal Witte Huis kost helft meer dan wat Trump altijd heeft beweerd",
+        "url": "https://www.hln.be/buitenland/balzaal-witte-huis-kost-helft-meer-dan-wat-trump-altijd-heeft-beweerd~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Zit oorlogsminister Pete Hegseth op de wip? “Trump overweegt om tegenstanders Iran-deal in zijn regering te ontslaan”",
+        "url": "https://www.hln.be/buitenland/zit-oorlogsminister-pete-hegseth-op-de-wip-trump-overweegt-om-tegenstanders-iran-deal-in-zijn-regering-te-ontslaan~adc8f06e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump bereid om sancties tegen Russische olie opnieuw in te voeren • ‘Restauratie beschadigde kathedraal in Kiev kan twee jaar duren’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-oekraine-trump-na-ontmoeting-met-zelensky-op-g7-top-rusland-moet-een-deal-sluiten-g7-landen-willen-druk-op-rusland-opvoeren-met-extra-sancties~b38bed0a/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Trump investeerde miljoenen in renovatie van spiegelvijver, maar water kleurt meteen na heropening groen",
-        "url": "https://www.hbvl.be/opmerkelijk/trump-investeerde-miljoenen-in-renovatie-van-spiegelvijver-maar-water-kleurt-meteen-na-heropening-groen/157263232.html",
+        "title": "Live - FBI voorkwam mogelijke terreuraanslag bij kooigevecht Witte Huis: vijf verdachten aangehouden",
+        "url": "https://www.demorgen.be/snelnieuws/live-fbi-voorkwam-mogelijke-terreuraanslag-bij-kooigevecht-witte-huis-vijf-verdachten-aangehouden~b13cc951/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "Kosten balzaal Witte Huis lopen op tot 600 miljoen dollar: ‘Helft duurder dan wat Trump zegt en ook belastingbetaler draagt bij’",
+        "url": "https://www.demorgen.be/snelnieuws/kosten-balzaal-witte-huis-lopen-op-tot-600-miljoen-dollar-helft-duurder-dan-wat-trump-zegt-en-ook-belastingbetaler-draagt-bij~bc1f59d3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "▶ Opnieuw cadeautje van Merz voor Trump: Amerikaanse president krijgt gespersonaliseerd Duits voetbalshirtje met rugnummer 47",
+        "url": "https://www.demorgen.be/snelnieuws/opnieuw-cadeautje-van-merz-voor-trump-amerikaanse-president-krijgt-gespersonaliseerd-duits-voetbalshirtje-met-rugnummer-47~bab8f951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump is Oekraïne nu “prioriteit”, en dat maakt de EU en Kiev zeer ongerust",
+        "url": "https://www.nieuwsblad.be/binnenland/volgens-trump-is-oekrane-nu-prioriteit-en-dat-maakt-de-eu-en-kiev-zeer-ongerust/157285934.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump is Oekraïne nu “prioriteit”, en dat maakt de EU en Kiev zeer ongerust",
+        "url": "https://www.hbvl.be/binnenland/volgens-trump-is-oekrane-nu-prioriteit-en-dat-maakt-de-eu-en-kiev-zeer-ongerust/157313366.html",
         "source": "hbvl",
         "name_only": true
       },
       {
-        "title": "‘Trump die Iran economisch beloont. Dit is geen deal, dit is hallucinant’ - Trends.be",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93Y3Vvd0Y5QWxUdGtnOVBhVkszbGFRbTRpNm9qaDdRT056SkEwb2o2dnRiaTFpS0dOS1ZuT3U3d2lQYzBVQXFIWFF0MmZ2TjRHM1RscnV2QTZkSjN4?oc=5",
+        "title": "FBI verijdelde mogelijke terreuraanslag tijdens kooigevecht aan Witte Huis op verjaardag Trump",
+        "url": "https://www.hbvl.be/buitenland/fbi-verijdelde-mogelijke-terreuraanslag-tijdens-kooigevecht-aan-witte-huis-op-verjaardag-trump/157307373.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Brengen bevroren Iraanse miljarden Trump in een lastig parket? - Knack",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUzNHSEVJOHNZV1YyU0hoWEFSYnZnbU4tR1hSSGtTTG9RcU9pTVBSZHlrMEhLRlJvM1pPQklwUnY0VmE2LXAzLTk0Qnc5VlB6NzF3MEIwcDhQanpTTUtRU0ZrNklJODkyNkl2QU9fV3NLMGRiN1dQdlBXYXk4c3BEejJaRHdLUkFEdm9lYVlnZWJueUJnanlyWk94UFk?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "Donald Trump relance les tensions : l’UE sous la menace de nouvelles surtaxes",
+        "title": "Live President Trump: Kosten balzaal Witte Huis zouden oplopen tot 600 miljoen dollar - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMTBESjlxRnZiY21vc1o1bG1xbnY3eEViYVNFM3I5MU5oeUdncUxUVm1iaThhcUFYdDVPQlpsYkZSTjU1bTFlTXVmNHNiUG11b3N2ZklscGwzcTJIdVdURW1XUGtGbHByejZfOHFGR213czVBY3dyNnVlMS1tVHRFTW5aVVZOY0VJd2pVNUpKT2VYNkRwbFpHTFlqTHVrcW1McUtsT1dkS1I5Mlh2UEJqM3J5cHhNSUU1MFFTX21CSVZ6Mm9RdUhjVWg5WUgtR050X1RBSVBrTktKZw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "La salle de bal de la Maison Blanche va coûter 600 millions de dollars, la moitié à charge du contribuable américain",
+        "url": "https://www.rtbf.be/article/la-salle-de-bal-de-la-maison-blanche-va-couter-600-millions-de-dollars-la-moitie-a-charge-du-contribuable-americain-11741725",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Donald Trump relance les tensions : l’UE sous la menace de nouvelles surtaxes",
         "url": "https://www.rtbf.be/article/donald-trump-relance-les-tensions-l-ue-sous-la-menace-de-nouvelles-surtaxes-11741404",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "Le détroit d’Ormuz \"complètement ouvert\" vendredi, annonce Trump après l’accord avec l’Iran",
-        "url": "https://www.rtbf.be/article/le-detroit-d-ormuz-completement-ouvert-vendredi-annonce-trump-apres-l-accord-avec-l-iran-11741387",
-        "source": "rtbf",
+        "title": "Donald Trump de nouveau face à un mauvais record dans les sondages",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/16/donald-trump-de-nouveau-face-a-un-mauvais-record-dans-les-sondages-W755XZXKQJBVZOYDWWARRUE44E/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "DIRECT- Guerre au Moyen-Orient: Trump annonce la date d'ouverture du  détroit d'Ormuz , \"Que le pétrole coule à flots !\"",
-        "url": "https://www.lalibre.be/international/moyen-orient/2026/06/16/direct-guerre-au-moyen-orient-trump-annonce-la-date-douverture-du-detroit-dormuz-que-le-petrole-coule-a-flots-GYWITZ7D3NBSRERTGJWTB6O7MA/",
+        "title": "”La question est de savoir jusqu’où les Américains veulent aller” : quels leviers possède Trump pour faire plier Israël sur le retrait de ses troupes ?",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/16/la-question-est-de-savoir-jusquou-les-americains-veulent-aller-quels-leviers-possede-trump-pour-faire-plier-israel-sur-le-retrait-de-ses-troupes-7KC4NUZMJVD2TJ5KJABM73BNHQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Le pétrole coule à flot désormais\" : après l'accord de paix en Iran, Trump menace Poutine",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/06/16/le-petrole-coule-a-flot-desormais-apres-laccord-de-paix-en-iran-trump-menace-poutine-W7Z7POWOKVE6ZLLV2DVF6U2WTQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Les attaques planifiées ont été stoppées net\" : comment le 80e anniversaire de Donald Trump aurait pu virer au drame",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/16/les-attaques-planifiees-ont-ete-stoppees-net-comment-le-80e-anniversaire-de-donald-trump-aurait-pu-virer-au-drame-O6ADKE3TVBDKROPINPNPHVIB2U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Trump estime que \"la Russie devrait conclure un accord\" avec l'Ukraine",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/06/16/guerre-en-ukraine-trump-estime-que-la-russie-devrait-conclure-un-accord-avec-lukraine-IEN7RBR6B5DVJPTW4SN6OIQCVQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump va-t-il rompre avec le protocole de la FIFA lors de cette Coupe du monde ?",
+        "url": "https://www.lalibre.be/sports/football/coupe-du-monde/2026/06/16/donald-trump-va-t-il-rompre-avec-le-protocole-de-la-fifa-lors-de-cette-coupe-du-monde-STCTFYGQFJCQ5LPE6FOWRLWX5U/",
         "source": "lalibre",
         "name_only": true
       },
@@ -39849,36 +39945,132 @@
         "name_only": true
       },
       {
-        "title": "Eric Trump nie avoir voulu tricher pour parier sur les combats de MMA à la Maison-Blanche",
-        "url": "https://www.7sur7.be/monde/eric-trump-nie-avoir-voulu-tricher-pour-parier-sur-les-combats-de-mma-a-la-maison-blanche~a774ada7/",
+        "title": "Un véritable signal d’alarme pour Trump: ce que révèlent les derniers sondages",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/16/un-veritable-signal-dalarme-pour-trump-ce-que-revele-les-derniers-sondages-6P7AEBP7GVAENAP3QCAM5X565E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient: Trump s'en prend à Netanyahu, on connaît le lieu et la date de la signature de l'accord Iran/USA",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/16/direct-guerre-au-moyen-orient-trump-sen-prend-a-netanyahy-KRP766Z3WZFXJH6IXKDCVUJUX4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle polémique autour de la salle de bal de la Maison Blanche: voici ce que Trump et son administration tenterait de cacher",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/16/nouvelle-polemique-autour-de-la-salle-de-bal-de-la-maison-blanche-voici-ce-que-trump-et-son-administration-tenterait-de-cacher-PVIZ4RL3BVBJPPTGHXPXZYSGGY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"La Russie devrait conclure un accord\": Trump prend une décision qui risque de déplaire à Poutine",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/16/pour-trump-la-russie-devrait-conclure-un-accord-avec-lukraine-VL6IUPGNOVEEFBAG4QDXSPYG4Y/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a-t-il échappé à un nouvel attentat? Des révélations faites sur un événement survenu le jour de son anniversaire",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/16/donald-trump-a-t-il-echappe-a-un-nouvel-attentat-des-revelations-faites-sur-un-evenement-survenu-le-jour-de-son-anniversaire-ZELLPRH76RFK7NGPGPVVBERSXY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le coût astronomique de la salle de bal de Trump à la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/le-cout-astronomique-de-la-salle-de-bal-de-trump-a-la-maison-blanche~ae40e734/",
         "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Pete Hegseth sur la sellette? “Trump envisage de limoger les opposants à l’accord sur l’Iran”",
+        "url": "https://www.7sur7.be/monde/pete-hegseth-sur-la-sellette-trump-envisage-de-limoger-les-opposants-a-laccord-sur-liran~adc8f06e/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump critique la stratégie d’Israël au Liban: “Bibi doit être plus responsable”",
+        "url": "https://www.7sur7.be/monde/trump-critique-la-strategie-disrael-au-liban-bibi-doit-etre-plus-responsable~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "La fête d’anniversaire de Trump ciblée par une menace d’attentat, selon le FBI",
+        "url": "https://www.7sur7.be/monde/la-fete-danniversaire-de-trump-ciblee-par-une-menace-dattentat-selon-le-fbi~a70af5d8/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump à nouveau disposé à rétablir les sanctions contre le pétrole russe",
+        "url": "https://www.7sur7.be/monde/trump-a-nouveau-dispose-a-retablir-les-sanctions-contre-le-petrole-russe~a462b3c6/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Sérieux doutes” : la CIA refroidit l’optimisme de Trump sur l’Iran",
+        "url": "https://www.7sur7.be/monde/serieux-doutes-la-cia-refroidit-loptimisme-de-trump-sur-liran~aa029d22/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump versus Anthropic: Europa betaalt de prijs - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BUEdBT1B0MVpXUVpEVGt3QVBfVmZIZmwzTDdxeEFfZktEdHJwVFU5MzZwRnEwYXowNDNaZnFzQ0ZjOU1xZWNLdE5YUTQ1UUhSd3dCTVpBZ3U5WmNpdlV3?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Maison-Blanche : le coût exorbitant de la salle de bal à moitié financé par l’argent public - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM1ZDYmRXYW1Oa3ZVajd4Q2h0WTlDLXg1aDRORXNJU011WHVYTGV1c1pPdkxqZFR1T1JkdEVfU3I4TzRQOGtOeVkzMWhqQzhVZmtwYXllTHFINkxCQllWdjZPNXN1Y2tMX3ZrY1RaUlZFMG5KamwtVXYtMmRwdVJWT0hWVlJtNmZCTVZ3eWcwU3FxV2lnR2ZNY2NlWkZqbVZPX1AxWEc3WVAzT0hyS3dtek51SklJaUxSVzdPckt0ZEMzTy13dFE?oc=5",
+        "source": "lesoir_g",
         "name_only": false
       },
       {
-        "title": "Le détroit d’Ormuz « complètement ouvert » vendredi, annonce Trump après l’accord avec l’Iran - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVUdYNURZeEhSbXNrd19malNUcFVmdURCTmFxaXRTX0s0M3NIcWd0bmdoaGJicVZGbDY5UzRDbEkzc1Rqak5kaXZhbWJrbkN6Y0I0V1JCZWl2bnpCcnJwenlDeTdqMVBmRGhLNXgwSWdWOFRwUlZOeFRBaUtXMmxCeXBWVklaWFpfNk95ZjM4TGJMUW1zQ2YxTXpYTTF4M1V1dE1FdjJxNk9NQXBJOS1zMk9KWkptbTRtUzZrdmhPbXlwanZYZEE?oc=5",
-        "source": "lesoir_g",
+        "title": "Tout est permis pour Donald Trump à la Coupe du monde : la Fifa prête à le laisser soulever le trophée ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORmZyMXJqcTVGVHd6V0pwdHBLYUlwQTFjUUNKa3BYbUV4TXZ3OVRJOUpaTkhOaWx4WnZfeXVPYVJzU2NFN0g4dkNxYm5UWXFzR1FQc21NQ2s0NGRmNjk4N0tkTFMtTVB6UWlaTnlVLUZuNnFkYWVYRC1HclJYa25rMFpRME9GcmRoUFBIY01KbWFRbDEzTVU0YUNsejFxdExtZDhpSDNUWGx2NWtWeWktX1RBa0lpR3gyQmUxZGJleW5wV3RXYUIw?oc=5",
+        "source": "sudinfo_g",
         "name_only": true
       },
       {
-        "title": "« Trump nous a trahis » : l’accord avec Washington laisse les Iraniens seuls face à la dictature - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOalNyR3RiQ2NsdEVQUXRqb3E1Wm9Oak5NQUlBMDNjMmtpdmZ3QzBaOWl4T0JxVHVKUnpFenNUR3g1RkQxZGJfX0JWYzFYX1NjdDhzRnNMVnBncXJ4M0JJZkNpaGdtM21Rd0xMOHhxMmphWHJsel9uc2xVTWVXbzREVmdCZmpkWVNVSXdfMkdlT2JqNkZrX25fSWczdmdERFlsV3BWaC03OVJTTjVzXzl3bE0tdG8zUlhENHRLdlhtMkg?oc=5",
-        "source": "lesoir_g",
+        "title": "Une « menace potentielle » d’attentat déjouée pour le show d’anniversaire de Donald Trump à la Maison Blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZnVMZndESDdYRVV0RFgtQVpDMkpIU1VKTFJSSk5CbGx6OVlFN2NGd3VxTkhTZGlwNjNmZ1hRdktVWDR6ZktDN3p2aXFVdTRmV2lXUmRJSmRDdGdPOW5HbFhSRkRSempvZm1YdU03Y0xRWFVuVXU5c21lVVNMYkR4ZE5uLVphUHNDazY0MWlmSS0zSUxETkJ4VDdxUE04cGVOVzcwMWh4TEpIZ1VjMlF1ZkxqSFEzclNTVkxuQ3NNZl9IbjJabGo3NG8xOWlQaG5RODRoNXZxc2lMTHBLLVNOdg?oc=5",
+        "source": "rtl_g",
         "name_only": true
       },
       {
-        "title": "L’Ukraine sollicite un soutien renforcé de Trump face à la Russie - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNHFmX3p1cTF1VHhaRVhNcTBIemhxc2pCTVN0MldWT3FiMUJSZTFFUlU5WUhNUkwwa0xMQV9ZazZzTUVHYWw5ZUU2WC1FM1V4WmZ2bXFWZW5uelBSYW5vSGQtcGtBbW5KLWlyQlN0M3BncHYwWmtVcFh4cUdZeWVyYkczSUtjUjRBaUlEWEU3MXdtZ3NYT2FpOTg0V3hrN0N3REhlTW9aTGEtZ2FtWlRF?oc=5",
-        "source": "lesoir_g",
+        "title": "‘Trump die Iran economisch beloont. Dit is geen deal, dit is hallucinant’ - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93Y3Vvd0Y5QWxUdGtnOVBhVkszbGFRbTRpNm9qaDdRT056SkEwb2o2dnRiaTFpS0dOS1ZuT3U3d2lQYzBVQXFIWFF0MmZ2TjRHM1RscnV2QTZkSjN4?oc=5",
+        "source": "trends_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Eric Trump nie avoir voulu tricher afin de parier sur les matchs de MMA à la Maison-Blanche - 7sur7.be",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ0ZEamhfTkhpZmdKU1hCOGx0MTBRVmd4UmxwdXRSbUFsWWhfSVdwNk13eUNiS1ZjVFNIMzg2OElhWElDbEdsa0RIQnQ3czAzZ1BMa3k4R3QwZENDSUJxQlE0V0VsbDlGNXhCeE9IeDNBTGlOcE9jUExCMGtQSjhZSXNqamZ6Z21GQldsUHlCWDdLeXp4R0FWdmlEM3ppeFB2N0xtYnVwNU0wYWxuN2doLXF2ZW1pWmFWVlo1SkxCcElKN3BySWt3?oc=5",
-        "source": "google_fr",
+        "title": "Terreuraanval tijdens UFC-gevecht aan Witte Huis verhinderd, zegt FBI-directeur Patel - VRT",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOXJmU043bEVwZVE5b1dsV2xMclQ1NFBsSzlFZWdfMVhCX3VNYmh3eXpSWkFvekFMTVYxZE13OTRKMnNmRko2QmJ1aEdORGgwR2Y3ZjhCU3dPb2lWZFlJbGkwWWlpbHd3TWJlRHAydUZjVE5KYWFIQkZfZWNqdjZNU2tqM3dDaGRpbDJRU3JRSXB3dw?oc=5",
+        "source": "google_nl",
         "name_only": false
+      },
+      {
+        "title": "\"Le pétrole coule à flot désormais\" : après l'accord de paix en Iran, Trump menace Poutine - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOdlBTUFF6SmYyVW81ekhZdTRSUVFQMHJJZ3VPMVoycmZad2RWNjN6amhQb3FOWlhiMG8xTmRUNUExYVc0T0VBUzN2b09wTlNTc2pXWnFZVzhhX0lFc2k3RlFsUVRYOFVfdFRvZlQ0T1BHTmZzMldUWnk0cHJJWU1IQWFtSWhNX3p3dGJuOXVuUFItTTg5NXhnZm45MGxCTUI4Skw1LW50SXI2Q1c4bFRiME1BU3JWdXpHekVmRXYwQ3c2THl2V0xjaTk2NkdzbFJFbTR3UVRtdWhpZEY3emNrTHlCN09WMjhtdG5VVWd4UnNyT1dCdlpQU1F5N3NyUG1ZMGxMU3JIc0p2MWtmUG9HSVBkZTRuWmg5?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "\"Les attaques planifiées ont été stoppées net\" : comment le 80e anniversaire de Donald Trump aurait pu virer au drame - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQNURsdzU1RzllNm5udlQ2M2dhXzNDMlBHeWg3eHdwcUJNYzc5dHluWXNFeFMybXdJSXphVTE5Y1lJSHhOeG9PYXdNT25iMFpJSU1lanZHeVZOQVVEWFVwRVE5ZEYtR0R2N3VsLWZHZDRBcF95TXJoMEtTY1RNRHFYa09yZzNtZ0RMb3VOT1NUd3dNeUtrOUNuOEtwV2RLZl9DaFRZdUlqMU8wVGUtbURhSy1sSmhCUmxBQ2p6eExCMjNBQlNMck1uSDJTTjF3SjFGRDNnenloVC1ocjBzVi1xY0NLS1ZKQzFNMjBTYnpWRWViRzZjclhSVjAzSFREQzZMcFM1a09vQlg2Tlo3YjhzMEVZd1ZwTVNUMnpuUEZSN0dIdjBU?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump is Oekraïne nu “prioriteit”, en dat maakt de EU en Kiev zeer ongerust - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcXNLam5RTmVpMnVhUVdhNGVnVklKcFBIVzlhVHhyZnRtOVNNZzNmMUZObUlHdWNERGhWVGZXZkMwVU5hU1liVjBBVnRqOG02VjBfMmRHWG1fQ2k3am1uR2syQm82S0ZQT0ctNTlWRTF6ZHFkdmxaaXFDTWtNZnMxQzJudEJCdk5tN3Z1cS1VaFptaUpobnVxRXFqNHpDd0p6blpidEhtRmJQMm1uUmhhUzlheEJxd1NVNUUzc0JCWWNNcVk?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Opnieuw cadeautje van Merz voor Trump: Amerikaanse president krijgt gespersonaliseerd Duits voetbalshirtje met rugnummer 47 - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQY3RrVTMyeEE4Z0xVY0RXTmlTaUQ1bzdDYklaaV82MEZ2V3kzcnhaY0NaVmdYTjhTT09ubE1rYjZIOURKUDl2NWFQMFdmajZDUmh6SUFRVFZsX0VQZ0U4bHhNdzJwVDJXTXd6S2lZYjUydTVYaExoNmZMb2NhNUNNdUxZdUZBVFhBV0FDdkFBN092RkIxUW5rczhwRlR0WVBWYzd4ek5KcGR5ZHhLS2VwMGw0UmhVcGxYVW83eTA1VVhrUC1zZHZtdjE4VW5ZcVJNa1RvS29VWjdnM0RVMXlKQW1tT1M0ckg5RFZfWVI1ZEFqUThteEVfdDZfNA?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
       },
       {
         "title": "LIVE MIDDEN-OOSTEN. “Deal getekend tussen Iran en VS”, bevestigt president Trump, maar “nog geen definitief akkoord”, zegt Iraanse president - Nieuwsblad",
@@ -39905,38 +40097,188 @@
         "name_only": true
       },
       {
-        "title": "‘Nieuwsinfluencers’ verdringen klassieke media bij jongeren: ‘Na een hele dag werken, is het gezicht van Donald Trump wel het laatste dat ze willen zien’",
-        "url": "https://www.demorgen.be/nieuws/nieuwsinfluencers-verdringen-klassieke-media-bij-jongeren-na-een-hele-dag-werken-is-het-gezicht-van-donald-trump-wel-het-laatste-dat-ze-willen-zien~be8017a9/",
+        "title": "‘Nieuwsinfluencers’ verdringen klassieke media bij jongeren: ‘Na een hele dag werken, is het gezicht van Donald Trump wel het laatste dat ze willen zien’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQeFhYT3RWR1lnQUd5NFhCWm9rekZrNWlyaVhMLU5fTHNRS1VCUnkxWEtVY3BxWmlCY2tId0VkdVpnQWl1RmpnU2xKdWp2ZllGam1RVklxaGFOTHBqWUJhYVo0M0xvX0EzVnZpMU1fTXVBTTRaYnhKNzFONExnYXpIeE1DQmY2cUM1M0hWOXJDb21lV1U0XzVVdmN5cERWTW9tT1Fxem1jTERoaFk3SWNieC1CLVlZTE9HeVV2bXZCWDVnUnBadjhjTnV1X3hrd0ZURjRqby0tNVhJazI3UV9aejctV3RfVkNzMl9VcUIzNjFpcXotek1LcTNLUzlGb0ctVG5WaGNfa1BFUlRhbnlMeGJoZDR3V00?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "La salle de bal de la Maison Blanche voulue par Donald Trump coûtera jusqu’à 600 millions de dollars, dont la moitié venant de fonds publics, selon le « Washington Post » - Le Monde.fr",
+        "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNX2NFZ1VZN2J3ZXR5ZGY1ZE52aDhIVzZxQllKU0J1elBoRlNyTmlCb0RrX0R3eEcwRDJQMWVQSTZFRWF3ci1ySjFJWk9wQkdnNTdnUDA1ZDFkU1lLMjloekd4dFQwcXY1N2s4eXM2T3RkVTN3bmhqeWVyMXlFRzdvMDBIRjZyOTJ3QlRXNGFtcE95THEyLVdBNTZlblVHZUNwdFVHYUdPbWEtTE8wWFc0bndjSmd6Z0pvcnYybTlGSGt5c1RsXzFOLTl6SDRRYmxwclZOXzdBRFZXb0xSRlFKcWFxSFhvZlFyUTZOVjM0c1NwbXZrNzlKbDV5X1F0NWlDc2lzUDRYZ0VIUnJxbUs3dHFnRlZNZVRBTmRaaURsSEdfamJZSVU0YlBuN0N0SUJ3VEswODlVNW9xTkx1?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "« Trump nous a trahis » : l’accord avec Washington laisse les Iraniens seuls face à la dictature - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOalNyR3RiQ2NsdEVQUXRqb3E1Wm9Oak5NQUlBMDNjMmtpdmZ3QzBaOWl4T0JxVHVKUnpFenNUR3g1RkQxZGJfX0JWYzFYX1NjdDhzRnNMVnBncXJ4M0JJZkNpaGdtM21Rd0xMOHhxMmphWHJsel9uc2xVTWVXbzREVmdCZmpkWVNVSXdfMkdlT2JqNkZrX25fSWczdmdERFlsV3BWaC03OVJTTjVzXzl3bE0tdG8zUlhENHRLdlhtMkg?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a-t-il menti sur la construction de la salle de bal à 600 millions de dollars de la Maison Blanche ? Voici ce que révèlent des documents dénichés par la presse américaine - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTXBpRERJTF8tMHQ3cXV0MGtjOTgtRDd0TnNRNFAyNjU2LWs4aHFMMUkxUEpvWXJ3aXVzVW9DTWZFenc3TmRYM2ZqRWZnNVBHVm9TUmo2VlFRTV9Nd3p5TDljTFdjU21fdDBFRE9hWWdYSE5RNHgzNldZUzd4cnNFVU03VWNuRnd2bWJvWUFTWjEyM0lEU2hHRWo2YUp6YjNGV1M2cWN5ejh6d2dMNWsydVNYMjBFVGk3b3VPaEp1S3lzSmdQSHM1MTdB?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient: Trump s'en prend à Netanyahu - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUTJkbFh3T3FJREZ2bU5mNklQcnhJcmlDQjh4Vm5YOVhaY2FQVVlZMlAzUEFlaDhXN1ZjMENVM29PQmI0RTZqVlprbVljaVZXbEVpOEhvZmg5bWNXZE9adm93Mi1IZTZ6Q1hScmQzOXd2eDJMcHJTSzNYUFBFTWVZVnlGMmNnRWhBcVo3OUdCcGN4a3YtLXN0QXR5WXRESklIT3U1MkI3WGNudzNObTZuRUttcWFOUmtJVzBHTHZoQVZ3dHJlcjBv?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "« Ils n’y arriveront pas » : pourquoi l’accord entre Trump et l’Iran laisse les experts sceptiques ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRUd0dWFHTlJYMG9JZWp4ZzhxYzFGWFFRdTR2NkJwci1sTDRIWVZTdXJzcl93R1ZMeC00RVllSThVS1RDYmhSU2tyRVdLMnk2ck9nRVlCZTN2eGpwTl9ZWGVNQWFYM0dmaEYxdXRqVjZnejAxZnRmb1B6bzY2aGhkTmZUTWNfMllTYlE1R29kNnVhTEx2WExmZ3VtY2F6UEJHQzZrc2NiOXJDQ18wMnY4Q3FwOGJoNTZJOUtSZ01Memc4WDFXUURHck1qM2FwVFE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "« L’Albanie n’est pas à vendre » : la famille Trump veut acquérir un bout du pays, le peuple albanais descend en masse dans la rue - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNXRIeTdxVXpCOHUyQmR4YmxhNF84SXI4dHBOb0lPYzY3MU84TEIyVldZWWtObTFuVEEyLUN3MEM3OUF6Y3pNUjF0MGlyb2F0cjh3MEU5YmgzdVVjeEk1bjlEUUpCUkRyNkRSYUxRMV9hczB1bkdxcE1yd0c0WXhLMXV4QmFnR0hLbElZbHB6a3JBNHlDSllIRUV4MVF4N2ZJYkx6d1FQRUd2dVMyalNiRUhmTTV0ckhHS3AwODRUQ2dtdVMtUzB4elZuci1rZTMzS3Y0?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "La revue de presse : face aux guerres ratées de Trump et Poutine, l’Europe a tout à gagner - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbUpjWGtpYUZWR1ZDWU90MHI5NDlEclJIcmFNT1U4VVUzbkx2M2k4XzNyYjcxX3o1QWNIa1B2QVU4dk9aV2s3OVd5TUJTV3JYb0NnS1FMLTJuVEZubmlBTnpaM1AtVHpURC00OTFJMFlXRkhRaUVJZ0pOYkNnOTJXY1VyQmVuUXp5UGpWN2FzYmx5M1N5TlJCUDhyWkVYMU5lVmM2WFlFaFd4QlVLV1NraFE2QVUxbElLRm0zcDlWeVFuZw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Terreuraanval tijdens UFC-gevecht aan Witte Huis verhinderd, zegt FBI-directeur Patel",
+        "url": "https://vrtnws.be/p.VL7G9N6oA",
+        "source": "vrt",
+        "name_only": false
+      },
+      {
+        "title": "KIJK. Truc van Macron om te voorkomen dat Trump G7 voortijdig zou verlaten lijkt geslaagd: “Ik hou nu eenmaal van mooie plekken”",
+        "url": "https://www.hln.be/buitenland/kijk-truc-van-macron-om-te-voorkomen-dat-trump-g7-voortijdig-zou-verlaten-lijkt-geslaagd-ik-hou-nu-eenmaal-van-mooie-plekken~a80f6c6f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Prijzen voor diesel en benzine naar laagste niveau in drie maanden - Trump bereid om sancties tegen Russische olie opnieuw in te voeren",
+        "url": "https://www.hln.be/economie/prijzen-voor-diesel-en-benzine-naar-laagste-niveau-in-drie-maanden-trump-bereid-om-sancties-tegen-russische-olie-opnieuw-in-te-voeren~a634e96a/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Balzaal Witte Huis kost helft meer dan wat Trump altijd heeft beweerd",
+        "url": "https://www.hln.be/buitenland/balzaal-witte-huis-kost-helft-meer-dan-wat-trump-altijd-heeft-beweerd~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Zit oorlogsminister Pete Hegseth op de wip? “Trump overweegt om tegenstanders Iran-deal in zijn regering te ontslaan”",
+        "url": "https://www.hln.be/buitenland/zit-oorlogsminister-pete-hegseth-op-de-wip-trump-overweegt-om-tegenstanders-iran-deal-in-zijn-regering-te-ontslaan~adc8f06e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump bereid om sancties tegen Russische olie opnieuw in te voeren • ‘Restauratie beschadigde kathedraal in Kiev kan twee jaar duren’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-oekraine-trump-na-ontmoeting-met-zelensky-op-g7-top-rusland-moet-een-deal-sluiten-g7-landen-willen-druk-op-rusland-opvoeren-met-extra-sancties~b38bed0a/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Trump investeerde miljoenen in renovatie van spiegelvijver, maar water kleurt meteen na heropening groen",
-        "url": "https://www.hbvl.be/opmerkelijk/trump-investeerde-miljoenen-in-renovatie-van-spiegelvijver-maar-water-kleurt-meteen-na-heropening-groen/157263232.html",
+        "title": "Live - FBI voorkwam mogelijke terreuraanslag bij kooigevecht Witte Huis: vijf verdachten aangehouden",
+        "url": "https://www.demorgen.be/snelnieuws/live-fbi-voorkwam-mogelijke-terreuraanslag-bij-kooigevecht-witte-huis-vijf-verdachten-aangehouden~b13cc951/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "Kosten balzaal Witte Huis lopen op tot 600 miljoen dollar: ‘Helft duurder dan wat Trump zegt en ook belastingbetaler draagt bij’",
+        "url": "https://www.demorgen.be/snelnieuws/kosten-balzaal-witte-huis-lopen-op-tot-600-miljoen-dollar-helft-duurder-dan-wat-trump-zegt-en-ook-belastingbetaler-draagt-bij~bc1f59d3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "▶ Opnieuw cadeautje van Merz voor Trump: Amerikaanse president krijgt gespersonaliseerd Duits voetbalshirtje met rugnummer 47",
+        "url": "https://www.demorgen.be/snelnieuws/opnieuw-cadeautje-van-merz-voor-trump-amerikaanse-president-krijgt-gespersonaliseerd-duits-voetbalshirtje-met-rugnummer-47~bab8f951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump is Oekraïne nu “prioriteit”, en dat maakt de EU en Kiev zeer ongerust",
+        "url": "https://www.nieuwsblad.be/binnenland/volgens-trump-is-oekrane-nu-prioriteit-en-dat-maakt-de-eu-en-kiev-zeer-ongerust/157285934.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump is Oekraïne nu “prioriteit”, en dat maakt de EU en Kiev zeer ongerust",
+        "url": "https://www.gva.be/binnenland/volgens-trump-is-oekrane-nu-prioriteit-en-dat-maakt-de-eu-en-kiev-zeer-ongerust/157298789.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump is Oekraïne nu “prioriteit”, en dat maakt de EU en Kiev zeer ongerust",
+        "url": "https://www.hbvl.be/binnenland/volgens-trump-is-oekrane-nu-prioriteit-en-dat-maakt-de-eu-en-kiev-zeer-ongerust/157313366.html",
         "source": "hbvl",
         "name_only": true
       },
       {
-        "title": "‘Trump die Iran economisch beloont. Dit is geen deal, dit is hallucinant’ - Trends.be",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93Y3Vvd0Y5QWxUdGtnOVBhVkszbGFRbTRpNm9qaDdRT056SkEwb2o2dnRiaTFpS0dOS1ZuT3U3d2lQYzBVQXFIWFF0MmZ2TjRHM1RscnV2QTZkSjN4?oc=5",
+        "title": "FBI verijdelde mogelijke terreuraanslag tijdens kooigevecht aan Witte Huis op verjaardag Trump",
+        "url": "https://www.hbvl.be/buitenland/fbi-verijdelde-mogelijke-terreuraanslag-tijdens-kooigevecht-aan-witte-huis-op-verjaardag-trump/157307373.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Brengen bevroren Iraanse miljarden Trump in een lastig parket? - Knack",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUzNHSEVJOHNZV1YyU0hoWEFSYnZnbU4tR1hSSGtTTG9RcU9pTVBSZHlrMEhLRlJvM1pPQklwUnY0VmE2LXAzLTk0Qnc5VlB6NzF3MEIwcDhQanpTTUtRU0ZrNklJODkyNkl2QU9fV3NLMGRiN1dQdlBXYXk4c3BEejJaRHdLUkFEdm9lYVlnZWJueUJnanlyWk94UFk?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "Donald Trump relance les tensions : l’UE sous la menace de nouvelles surtaxes",
+        "title": "Live President Trump: Kosten balzaal Witte Huis zouden oplopen tot 600 miljoen dollar - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMTBESjlxRnZiY21vc1o1bG1xbnY3eEViYVNFM3I5MU5oeUdncUxUVm1iaThhcUFYdDVPQlpsYkZSTjU1bTFlTXVmNHNiUG11b3N2ZklscGwzcTJIdVdURW1XUGtGbHByejZfOHFGR213czVBY3dyNnVlMS1tVHRFTW5aVVZOY0VJd2pVNUpKT2VYNkRwbFpHTFlqTHVrcW1McUtsT1dkS1I5Mlh2UEJqM3J5cHhNSUU1MFFTX21CSVZ6Mm9RdUhjVWg5WUgtR050X1RBSVBrTktKZw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "La salle de bal de la Maison Blanche va coûter 600 millions de dollars, la moitié à charge du contribuable américain",
+        "url": "https://www.rtbf.be/article/la-salle-de-bal-de-la-maison-blanche-va-couter-600-millions-de-dollars-la-moitie-a-charge-du-contribuable-americain-11741725",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Donald Trump relance les tensions : l’UE sous la menace de nouvelles surtaxes",
         "url": "https://www.rtbf.be/article/donald-trump-relance-les-tensions-l-ue-sous-la-menace-de-nouvelles-surtaxes-11741404",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "Le détroit d’Ormuz \"complètement ouvert\" vendredi, annonce Trump après l’accord avec l’Iran",
-        "url": "https://www.rtbf.be/article/le-detroit-d-ormuz-completement-ouvert-vendredi-annonce-trump-apres-l-accord-avec-l-iran-11741387",
-        "source": "rtbf",
+        "title": "Donald Trump de nouveau face à un mauvais record dans les sondages",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/16/donald-trump-de-nouveau-face-a-un-mauvais-record-dans-les-sondages-W755XZXKQJBVZOYDWWARRUE44E/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "DIRECT- Guerre au Moyen-Orient: Trump annonce la date d'ouverture du  détroit d'Ormuz , \"Que le pétrole coule à flots !\"",
-        "url": "https://www.lalibre.be/international/moyen-orient/2026/06/16/direct-guerre-au-moyen-orient-trump-annonce-la-date-douverture-du-detroit-dormuz-que-le-petrole-coule-a-flots-GYWITZ7D3NBSRERTGJWTB6O7MA/",
+        "title": "”La question est de savoir jusqu’où les Américains veulent aller” : quels leviers possède Trump pour faire plier Israël sur le retrait de ses troupes ?",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/16/la-question-est-de-savoir-jusquou-les-americains-veulent-aller-quels-leviers-possede-trump-pour-faire-plier-israel-sur-le-retrait-de-ses-troupes-7KC4NUZMJVD2TJ5KJABM73BNHQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Le pétrole coule à flot désormais\" : après l'accord de paix en Iran, Trump menace Poutine",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/06/16/le-petrole-coule-a-flot-desormais-apres-laccord-de-paix-en-iran-trump-menace-poutine-W7Z7POWOKVE6ZLLV2DVF6U2WTQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Les attaques planifiées ont été stoppées net\" : comment le 80e anniversaire de Donald Trump aurait pu virer au drame",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/16/les-attaques-planifiees-ont-ete-stoppees-net-comment-le-80e-anniversaire-de-donald-trump-aurait-pu-virer-au-drame-O6ADKE3TVBDKROPINPNPHVIB2U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Trump estime que \"la Russie devrait conclure un accord\" avec l'Ukraine",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/06/16/guerre-en-ukraine-trump-estime-que-la-russie-devrait-conclure-un-accord-avec-lukraine-IEN7RBR6B5DVJPTW4SN6OIQCVQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump va-t-il rompre avec le protocole de la FIFA lors de cette Coupe du monde ?",
+        "url": "https://www.lalibre.be/sports/football/coupe-du-monde/2026/06/16/donald-trump-va-t-il-rompre-avec-le-protocole-de-la-fifa-lors-de-cette-coupe-du-monde-STCTFYGQFJCQ5LPE6FOWRLWX5U/",
         "source": "lalibre",
         "name_only": true
       },
@@ -39947,99 +40289,171 @@
         "name_only": true
       },
       {
-        "title": "Eric Trump nie avoir voulu tricher pour parier sur les combats de MMA à la Maison-Blanche",
-        "url": "https://www.7sur7.be/monde/eric-trump-nie-avoir-voulu-tricher-pour-parier-sur-les-combats-de-mma-a-la-maison-blanche~a774ada7/",
+        "title": "Un véritable signal d’alarme pour Trump: ce que révèlent les derniers sondages",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/16/un-veritable-signal-dalarme-pour-trump-ce-que-revele-les-derniers-sondages-6P7AEBP7GVAENAP3QCAM5X565E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient: Trump s'en prend à Netanyahu, on connaît le lieu et la date de la signature de l'accord Iran/USA",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/16/direct-guerre-au-moyen-orient-trump-sen-prend-a-netanyahy-KRP766Z3WZFXJH6IXKDCVUJUX4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle polémique autour de la salle de bal de la Maison Blanche: voici ce que Trump et son administration tenterait de cacher",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/16/nouvelle-polemique-autour-de-la-salle-de-bal-de-la-maison-blanche-voici-ce-que-trump-et-son-administration-tenterait-de-cacher-PVIZ4RL3BVBJPPTGHXPXZYSGGY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"La Russie devrait conclure un accord\": Trump prend une décision qui risque de déplaire à Poutine",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/16/pour-trump-la-russie-devrait-conclure-un-accord-avec-lukraine-VL6IUPGNOVEEFBAG4QDXSPYG4Y/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a-t-il échappé à un nouvel attentat? Des révélations faites sur un événement survenu le jour de son anniversaire",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/16/donald-trump-a-t-il-echappe-a-un-nouvel-attentat-des-revelations-faites-sur-un-evenement-survenu-le-jour-de-son-anniversaire-ZELLPRH76RFK7NGPGPVVBERSXY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le coût astronomique de la salle de bal de Trump à la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/le-cout-astronomique-de-la-salle-de-bal-de-trump-a-la-maison-blanche~ae40e734/",
         "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Pete Hegseth sur la sellette? “Trump envisage de limoger les opposants à l’accord sur l’Iran”",
+        "url": "https://www.7sur7.be/monde/pete-hegseth-sur-la-sellette-trump-envisage-de-limoger-les-opposants-a-laccord-sur-liran~adc8f06e/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump critique la stratégie d’Israël au Liban: “Bibi doit être plus responsable”",
+        "url": "https://www.7sur7.be/monde/trump-critique-la-strategie-disrael-au-liban-bibi-doit-etre-plus-responsable~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "La fête d’anniversaire de Trump ciblée par une menace d’attentat, selon le FBI",
+        "url": "https://www.7sur7.be/monde/la-fete-danniversaire-de-trump-ciblee-par-une-menace-dattentat-selon-le-fbi~a70af5d8/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump à nouveau disposé à rétablir les sanctions contre le pétrole russe",
+        "url": "https://www.7sur7.be/monde/trump-a-nouveau-dispose-a-retablir-les-sanctions-contre-le-petrole-russe~a462b3c6/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Sérieux doutes” : la CIA refroidit l’optimisme de Trump sur l’Iran",
+        "url": "https://www.7sur7.be/monde/serieux-doutes-la-cia-refroidit-loptimisme-de-trump-sur-liran~aa029d22/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump versus Anthropic: Europa betaalt de prijs - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BUEdBT1B0MVpXUVpEVGt3QVBfVmZIZmwzTDdxeEFfZktEdHJwVFU5MzZwRnEwYXowNDNaZnFzQ0ZjOU1xZWNLdE5YUTQ1UUhSd3dCTVpBZ3U5WmNpdlV3?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Maison-Blanche : le coût exorbitant de la salle de bal à moitié financé par l’argent public - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM1ZDYmRXYW1Oa3ZVajd4Q2h0WTlDLXg1aDRORXNJU011WHVYTGV1c1pPdkxqZFR1T1JkdEVfU3I4TzRQOGtOeVkzMWhqQzhVZmtwYXllTHFINkxCQllWdjZPNXN1Y2tMX3ZrY1RaUlZFMG5KamwtVXYtMmRwdVJWT0hWVlJtNmZCTVZ3eWcwU3FxV2lnR2ZNY2NlWkZqbVZPX1AxWEc3WVAzT0hyS3dtek51SklJaUxSVzdPckt0ZEMzTy13dFE?oc=5",
+        "source": "lesoir_g",
         "name_only": false
       },
       {
-        "title": "Le détroit d’Ormuz « complètement ouvert » vendredi, annonce Trump après l’accord avec l’Iran - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVUdYNURZeEhSbXNrd19malNUcFVmdURCTmFxaXRTX0s0M3NIcWd0bmdoaGJicVZGbDY5UzRDbEkzc1Rqak5kaXZhbWJrbkN6Y0I0V1JCZWl2bnpCcnJwenlDeTdqMVBmRGhLNXgwSWdWOFRwUlZOeFRBaUtXMmxCeXBWVklaWFpfNk95ZjM4TGJMUW1zQ2YxTXpYTTF4M1V1dE1FdjJxNk9NQXBJOS1zMk9KWkptbTRtUzZrdmhPbXlwanZYZEE?oc=5",
-        "source": "lesoir_g",
+        "title": "Tout est permis pour Donald Trump à la Coupe du monde : la Fifa prête à le laisser soulever le trophée ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORmZyMXJqcTVGVHd6V0pwdHBLYUlwQTFjUUNKa3BYbUV4TXZ3OVRJOUpaTkhOaWx4WnZfeXVPYVJzU2NFN0g4dkNxYm5UWXFzR1FQc21NQ2s0NGRmNjk4N0tkTFMtTVB6UWlaTnlVLUZuNnFkYWVYRC1HclJYa25rMFpRME9GcmRoUFBIY01KbWFRbDEzTVU0YUNsejFxdExtZDhpSDNUWGx2NWtWeWktX1RBa0lpR3gyQmUxZGJleW5wV3RXYUIw?oc=5",
+        "source": "sudinfo_g",
         "name_only": true
       },
       {
-        "title": "« Trump nous a trahis » : l’accord avec Washington laisse les Iraniens seuls face à la dictature - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOalNyR3RiQ2NsdEVQUXRqb3E1Wm9Oak5NQUlBMDNjMmtpdmZ3QzBaOWl4T0JxVHVKUnpFenNUR3g1RkQxZGJfX0JWYzFYX1NjdDhzRnNMVnBncXJ4M0JJZkNpaGdtM21Rd0xMOHhxMmphWHJsel9uc2xVTWVXbzREVmdCZmpkWVNVSXdfMkdlT2JqNkZrX25fSWczdmdERFlsV3BWaC03OVJTTjVzXzl3bE0tdG8zUlhENHRLdlhtMkg?oc=5",
-        "source": "lesoir_g",
+        "title": "Une « menace potentielle » d’attentat déjouée pour le show d’anniversaire de Donald Trump à la Maison Blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZnVMZndESDdYRVV0RFgtQVpDMkpIU1VKTFJSSk5CbGx6OVlFN2NGd3VxTkhTZGlwNjNmZ1hRdktVWDR6ZktDN3p2aXFVdTRmV2lXUmRJSmRDdGdPOW5HbFhSRkRSempvZm1YdU03Y0xRWFVuVXU5c21lVVNMYkR4ZE5uLVphUHNDazY0MWlmSS0zSUxETkJ4VDdxUE04cGVOVzcwMWh4TEpIZ1VjMlF1ZkxqSFEzclNTVkxuQ3NNZl9IbjJabGo3NG8xOWlQaG5RODRoNXZxc2lMTHBLLVNOdg?oc=5",
+        "source": "rtl_g",
         "name_only": true
       },
       {
-        "title": "L’Ukraine sollicite un soutien renforcé de Trump face à la Russie - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNHFmX3p1cTF1VHhaRVhNcTBIemhxc2pCTVN0MldWT3FiMUJSZTFFUlU5WUhNUkwwa0xMQV9ZazZzTUVHYWw5ZUU2WC1FM1V4WmZ2bXFWZW5uelBSYW5vSGQtcGtBbW5KLWlyQlN0M3BncHYwWmtVcFh4cUdZeWVyYkczSUtjUjRBaUlEWEU3MXdtZ3NYT2FpOTg0V3hrN0N3REhlTW9aTGEtZ2FtWlRF?oc=5",
-        "source": "lesoir_g",
+        "title": "‘Trump die Iran economisch beloont. Dit is geen deal, dit is hallucinant’ - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93Y3Vvd0Y5QWxUdGtnOVBhVkszbGFRbTRpNm9qaDdRT056SkEwb2o2dnRiaTFpS0dOS1ZuT3U3d2lQYzBVQXFIWFF0MmZ2TjRHM1RscnV2QTZkSjN4?oc=5",
+        "source": "trends_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 10,
-      "putin": 2,
-      "macron": 0,
-      "netanyahu": 2,
-      "zelensky": 2,
+      "trump": 35,
+      "putin": 5,
+      "macron": 1,
+      "netanyahu": 1,
+      "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 1,
-      "bouchez": 1,
+      "de_wever": 0,
+      "bouchez": 2,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
       "jambon": 0,
-      "van_peteghem": 0,
+      "van_peteghem": 3,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 14,
-      "putin": 3,
-      "macron": 0,
+      "trump": 52,
+      "putin": 10,
+      "macron": 2,
       "netanyahu": 3,
-      "zelensky": 3,
+      "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 2,
-      "bouchez": 1,
+      "de_wever": 1,
+      "bouchez": 2,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 1,
       "francken": 0,
       "crevits": 0,
       "jambon": 0,
-      "van_peteghem": 0,
+      "van_peteghem": 3,
       "verlinden": 1
     },
     "themes": {
-      "war": 32,
-      "crime": 13,
-      "eu": 25,
-      "politics": 13,
-      "be_gov": 16,
-      "culture": 9,
+      "war": 43,
+      "crime": 31,
+      "eu": 51,
+      "politics": 30,
+      "be_gov": 18,
+      "culture": 23,
       "tech": 14,
-      "economy": 17,
-      "sports": 42,
-      "health": 8,
-      "climate": 6,
-      "migration": 1,
+      "economy": 27,
+      "sports": 65,
+      "health": 12,
+      "climate": 12,
+      "migration": 2,
       "education": 7,
-      "weather": 12
+      "weather": 21
     },
     "wide_themes": {
-      "war": 47,
-      "crime": 19,
-      "eu": 33,
-      "politics": 25,
-      "be_gov": 22,
-      "culture": 13,
-      "tech": 22,
-      "economy": 19,
-      "sports": 58,
-      "health": 14,
-      "climate": 6,
-      "migration": 2,
-      "education": 8,
-      "weather": 21
+      "war": 58,
+      "crime": 45,
+      "eu": 72,
+      "politics": 50,
+      "be_gov": 29,
+      "culture": 26,
+      "tech": 27,
+      "economy": 33,
+      "sports": 93,
+      "health": 19,
+      "climate": 15,
+      "migration": 3,
+      "education": 9,
+      "weather": 27
     }
   }
 ]
