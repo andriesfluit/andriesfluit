@@ -40455,5 +40455,495 @@
       "education": 9,
       "weather": 27
     }
+  },
+  {
+    "date": "2026-06-17",
+    "generated_at": "2026-06-17T10:49:35+02:00",
+    "last_checked_at": "2026-06-17T10:49:35+02:00",
+    "total_articles": 467,
+    "trump_articles": 5,
+    "percentage": 1.1,
+    "core_percentage": 1.1,
+    "core_percentage_name": 1.1,
+    "trump_articles_expanded": 5,
+    "core_percentage_expanded": 1.1,
+    "indirect_references": 0,
+    "wide_total_articles": 649,
+    "wide_trump_articles": 10,
+    "wide_percentage": 1.5,
+    "wide_trump_articles_expanded": 10,
+    "wide_percentage_expanded": 1.5,
+    "macro_percentage": 1.5,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 34,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 7.3,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 0.22,
+    "deviation": 0.39,
+    "smoothed_pct": 3.2,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 64,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_nl_tech": {
+        "fetched": 56,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 68,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 45,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 61,
+        "today": 7,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 31,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 40,
+        "kept": 37,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 56,
+        "kept": 56,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 16,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 61,
+        "today": 14,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 58,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "G7 (en dus Trump) plant extra sancties tegen Rusland en militaire middelen voor Oekraïne: \"Opvallend\"",
+        "url": "https://vrtnws.be/p.bDMGGEllL",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Live - President Zuid-Korea vraagt Trump hulp om vrede te sluiten met Noord-Korea: ‘Net zoals hij deed in het Midden-Oosten’",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-kondigen-miljard-dollar-aan-humanitaire-hulp-aan-voor-vn-agentschappen~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Iran staat sterker dan ooit aan de onderhandelingstafel: waarom Trump weinig hefboom heeft in nieuwe nucleaire gesprekken",
+        "url": "https://www.demorgen.be/nieuws/iran-staat-sterker-dan-ooit-aan-de-onderhandelingstafel-waarom-trump-weinig-hefboom-heeft-in-nieuwe-nucleaire-gesprekken~b7e0b9f7/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Un nouveau projet pharaonique de Trump suscite la controverse",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/17/un-nouveau-projet-pharaonique-de-trump-suscite-la-controverse-VCVZ6LOHXNEOLAAWX5XTIRCAS4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le président sud-coréen appelle Trump à la rescousse pour faire la paix avec Kim Jong Un",
+        "url": "https://www.7sur7.be/monde/le-president-sud-coreen-appelle-trump-a-la-rescousse-pour-faire-la-paix-avec-kim-jong-un~a74d0510/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "G7 (en dus Trump) plant extra sancties tegen Rusland en militaire middelen voor Oekraïne: \"Opvallend\" - VRT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdVBBVEpKaUtEaHozTkpZVGtJZXYtX3g5X1hQN0g1M0VqNlJMRE5HcEg2ZVY3MlB0NFFkMG5obVNFb2pIRFBEZC1ITGZLd3RlbTlSRjlGdHo5SUxJTzlQXzNFdllJNzZlOTRielpwdTdTVHRRbzFKWTJhU1RpMlQxc2pLajFKb2h4ZjJwY0FKSVV5OGp3aFB2M3YtMHkxYWFHei1pazQ1RQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Wat koopt Europa met de dreun die Trump krijgt in Iran? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc1dLZVl1eXMxbzN3cFdGcW5fQmx1aGdIMnJOWWEzS0dSZ2ZIcDRWZnZrbmVZT2M5cU9WTUo0VVRXLUcySU9RTXVKZEFuYVVhb3NMQzYxSG4zRGpmZGZSTDY5emktOF8zclpVTXhQeFVhaDV2YjM1eS1sNnJ1eEVvN1NDV01NaXZRaTctaURBWF9OdmdMOG9iOWozWDdsYVF2ekprdw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Iran staat sterker dan ooit aan de onderhandelingstafel: waarom Trump weinig hefboom heeft in nieuwe nucleaire gesprekken - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQXYxTlpJU0ozNWVIU0d2ZUhYc24wZXN3M0s5Q2lKWlBYaW9DcVhWMkJFcTZfLVNBc3d0MENlRkEzX3VreGpDQklGMWhHODF2R3Jzcm9yaVlHN3RhRE5nQzVVMnl1OWtZc0ZSdThLc0FBVC1jRjUwdk15MjllR2Y2YjlpdWk2cmRvMlpvcEg5S0ZTbEltNklQdzFIUGF6ellIclg1bUdHQmJqNUhyR19PYTlEXzd5dGpOU0JNb0c5aEItVW12SzljVnBaYlRnbVRMOWtKUlZCTUdvOXktcTJGVl9jQnNnVThyNTlqMl9HaEpjbW8?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Un nouveau projet pharaonique de Trump suscite la controverse - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQlVnLWJwU2JwNFp6SWQ2ME9xUjN6MkxBNUpWSXo2SkdGZFBNRTA3dGhVVUhnS0RjTllKaVBCUkhtd3pKRGJfM3hTakxBN05KeEJzOGxYTWpfdDJjemEzakVXMVNkQXM1dmpIQmQzMFdHdTBQbDkxU1NXT1NKa1lMamstOHppMy1TdWJUUGl5bXlXZjBaaDNnV2tLTlh6cm9kMnlDVlY2Uzk1YVZFYzRhTnNZTGgxNFloQm5MOGZDOU5EQ3pNM2RGZ1ptbjFISDBfVkc2eUdsUU9DN1pyekRB?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "G7 (en dus Trump) plant extra sancties tegen Rusland en militaire middelen voor Oekraïne: \"Opvallend\"",
+        "url": "https://vrtnws.be/p.bDMGGEllL",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Live - President Zuid-Korea vraagt Trump hulp om vrede te sluiten met Noord-Korea: ‘Net zoals hij deed in het Midden-Oosten’",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-kondigen-miljard-dollar-aan-humanitaire-hulp-aan-voor-vn-agentschappen~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Iran staat sterker dan ooit aan de onderhandelingstafel: waarom Trump weinig hefboom heeft in nieuwe nucleaire gesprekken",
+        "url": "https://www.demorgen.be/nieuws/iran-staat-sterker-dan-ooit-aan-de-onderhandelingstafel-waarom-trump-weinig-hefboom-heeft-in-nieuwe-nucleaire-gesprekken~b7e0b9f7/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "President Zuid-Korea vraagt Trump hulp om vrede te sluiten met Noord-Korea: “Zoals in Midden-Oosten”",
+        "url": "https://www.gva.be/buitenland/president-zuid-korea-vraagt-trump-hulp-om-vrede-te-sluiten-met-noord-korea-zoals-in-midden-oosten/157334154.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Un nouveau projet pharaonique de Trump suscite la controverse",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/17/un-nouveau-projet-pharaonique-de-trump-suscite-la-controverse-VCVZ6LOHXNEOLAAWX5XTIRCAS4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le président sud-coréen appelle Trump à la rescousse pour faire la paix avec Kim Jong Un",
+        "url": "https://www.7sur7.be/monde/le-president-sud-coreen-appelle-trump-a-la-rescousse-pour-faire-la-paix-avec-kim-jong-un~a74d0510/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 5,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 30,
+      "crime": 17,
+      "eu": 23,
+      "politics": 9,
+      "be_gov": 7,
+      "culture": 7,
+      "tech": 5,
+      "economy": 5,
+      "sports": 52,
+      "health": 9,
+      "climate": 2,
+      "migration": 3,
+      "education": 10,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 45,
+      "crime": 22,
+      "eu": 33,
+      "politics": 15,
+      "be_gov": 10,
+      "culture": 15,
+      "tech": 8,
+      "economy": 10,
+      "sports": 76,
+      "health": 12,
+      "climate": 4,
+      "migration": 4,
+      "education": 12,
+      "weather": 8
+    }
   }
 ]
