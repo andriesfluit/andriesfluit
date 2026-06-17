@@ -40458,135 +40458,135 @@
   },
   {
     "date": "2026-06-17",
-    "generated_at": "2026-06-17T10:49:35+02:00",
-    "last_checked_at": "2026-06-17T10:49:35+02:00",
-    "total_articles": 467,
-    "trump_articles": 5,
-    "percentage": 1.1,
-    "core_percentage": 1.1,
-    "core_percentage_name": 1.1,
-    "trump_articles_expanded": 5,
-    "core_percentage_expanded": 1.1,
+    "generated_at": "2026-06-17T16:09:27+02:00",
+    "last_checked_at": "2026-06-17T16:09:27+02:00",
+    "total_articles": 735,
+    "trump_articles": 16,
+    "percentage": 2.2,
+    "core_percentage": 2.2,
+    "core_percentage_name": 2.2,
+    "trump_articles_expanded": 16,
+    "core_percentage_expanded": 2.2,
     "indirect_references": 0,
-    "wide_total_articles": 649,
-    "wide_trump_articles": 10,
-    "wide_percentage": 1.5,
-    "wide_trump_articles_expanded": 10,
-    "wide_percentage_expanded": 1.5,
-    "macro_percentage": 1.5,
-    "qualifying_outlets": 23,
+    "wide_total_articles": 983,
+    "wide_trump_articles": 23,
+    "wide_percentage": 2.3,
+    "wide_trump_articles_expanded": 25,
+    "wide_percentage_expanded": 2.5,
+    "macro_percentage": 2.8,
+    "qualifying_outlets": 30,
     "core_outlets_total": 19,
-    "core_outlets_active": 18,
-    "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 34,
-    "cross_outlet_dup_groups": 17,
-    "cross_outlet_dup_rate": 7.3,
-    "zone": "puddles",
-    "label": "Puddles are forming",
-    "narrative": "Present, but a minor figure in today's mix.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 64,
+    "cross_outlet_dup_groups": 32,
+    "cross_outlet_dup_rate": 8.7,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.0,
-    "breadth": 0.22,
-    "deviation": 0.39,
-    "smoothed_pct": 3.2,
+    "dominance": 1.33,
+    "breadth": 0.53,
+    "deviation": 0.77,
+    "smoothed_pct": 3.36,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 11,
+    "theme_rank": 8,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 26,
-        "kept": 26,
+        "today": 27,
+        "kept": 27,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.85
+        "share": 3.7
       },
       "google_fr": {
         "fetched": 34,
-        "today": 16,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
       },
       "google_nl_politics": {
-        "fetched": 64,
+        "fetched": 62,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_world": {
+        "fetched": 67,
+        "today": 20,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "google_nl_tech": {
+        "fetched": 57,
         "today": 6,
         "kept": 5,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_nl_world": {
-        "fetched": 70,
-        "today": 12,
-        "kept": 8,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 12.5
-      },
-      "google_nl_business": {
-        "fetched": 70,
-        "today": 19,
-        "kept": 13,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 7.69
-      },
-      "google_nl_tech": {
-        "fetched": 56,
-        "today": 6,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
       "google_nl_sport": {
-        "fetched": 68,
-        "today": 14,
-        "kept": 11,
+        "fetched": 69,
+        "today": 22,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 45,
-        "today": 2,
-        "kept": 2,
+        "fetched": 43,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 2,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 51,
+        "today": 11,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_fr_world": {
-        "fetched": 61,
-        "today": 7,
-        "kept": 3,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 33.33
-      },
       "google_fr_business": {
-        "fetched": 70,
-        "today": 10,
-        "kept": 10,
+        "fetched": 65,
+        "today": 19,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 31,
-        "kept": 31,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.23
+        "today": 47,
+        "kept": 47,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 58,
-        "kept": 33,
+        "today": 71,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -40595,17 +40595,17 @@
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.0
       },
       "demorgen": {
-        "fetched": 29,
-        "today": 17,
-        "kept": 17,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 11.76
+        "fetched": 27,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -40625,67 +40625,67 @@
       },
       "hbvl": {
         "fetched": 50,
-        "today": 49,
-        "kept": 49,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "knack": {
         "fetched": 100,
-        "today": 28,
-        "kept": 28,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 43,
+        "kept": 42,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.38
       },
       "sporza": {
         "fetched": 20,
-        "today": 17,
-        "kept": 17,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 10,
-        "kept": 10,
+        "today": 22,
+        "kept": 22,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 16,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
       },
       "lalibre": {
         "fetched": 100,
-        "today": 29,
-        "kept": 29,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.45
+        "today": 68,
+        "kept": 68,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 4.41
       },
       "lecho": {
         "fetched": 100,
-        "today": 40,
-        "kept": 37,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 64,
+        "kept": 61,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.64
       },
       "dhnet": {
         "fetched": 100,
-        "today": 56,
-        "kept": 56,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 95,
+        "kept": 95,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.11
       },
       "septsursept": {
         "fetched": 30,
@@ -40697,64 +40697,64 @@
       },
       "bx1": {
         "fetched": 10,
-        "today": 8,
-        "kept": 8,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 16,
-        "kept": 13,
+        "today": 36,
+        "kept": 28,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 13,
-        "kept": 13,
+        "today": 35,
+        "kept": 31,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 14,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 9,
-        "kept": 9,
+        "today": 39,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 99,
-        "today": 16,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 100,
+        "today": 34,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.45
       },
       "trends_g": {
-        "fetched": 61,
-        "today": 14,
-        "kept": 2,
+        "fetched": 70,
+        "today": 24,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 58,
-        "today": 7,
-        "kept": 7,
+        "fetched": 64,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -40783,21 +40783,57 @@
     ],
     "matches": [
       {
-        "title": "G7 (en dus Trump) plant extra sancties tegen Rusland en militaire middelen voor Oekraïne: \"Opvallend\"",
-        "url": "https://vrtnws.be/p.bDMGGEllL",
-        "source": "vrt",
+        "title": "Drones met explosieven en scherpschutters: wat we al weten over de verdachten die een aanslag op Trump beraamden",
+        "url": "https://www.hln.be/buitenland/drones-met-explosieven-en-scherpschutters-wat-we-al-weten-over-de-verdachten-die-een-aanslag-op-trump-beraamden~aee3e230/",
+        "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - President Zuid-Korea vraagt Trump hulp om vrede te sluiten met Noord-Korea: ‘Net zoals hij deed in het Midden-Oosten’",
-        "url": "https://www.demorgen.be/snelnieuws/live-vs-kondigen-miljard-dollar-aan-humanitaire-hulp-aan-voor-vn-agentschappen~b13cc951/",
+        "title": "“I am the boss”: Trump maakt opvallende entree op laatste dag van G7-top",
+        "url": "https://www.hln.be/buitenland/i-am-the-boss-trump-maakt-opvallende-entree-op-laatste-dag-van-g7-top~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt akkoord met Iran “niet definitief”: “Als ik het er toch niet mee eens ben, gaan we weer op ze schieten en bommen op hun hoofd gooien”",
+        "url": "https://www.hln.be/buitenland/trump-noemt-akkoord-met-iran-niet-definitief-als-ik-het-er-toch-niet-mee-eens-ben-gaan-we-weer-op-ze-schieten-en-bommen-op-hun-hoofd-gooien~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - President Trump noemt akkoord met Iran niet definitief • Iran: ‘Amerikaanse maritieme blokkade is opgeheven, enkele schepen zijn al gepasseerd’",
+        "url": "https://www.demorgen.be/snelnieuws/live-president-trump-noemt-akkoord-met-iran-niet-definitief-iran-straat-van-hormuz-is-open-enkele-schepen-zijn-al-gepasseerd~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Iran staat sterker dan ooit aan de onderhandelingstafel: waarom Trump weinig hefboom heeft in nieuwe nucleaire gesprekken",
-        "url": "https://www.demorgen.be/nieuws/iran-staat-sterker-dan-ooit-aan-de-onderhandelingstafel-waarom-trump-weinig-hefboom-heeft-in-nieuwe-nucleaire-gesprekken~b7e0b9f7/",
-        "source": "demorgen",
+        "title": "Komt de wereldwijde oliehandel weer op gang nu de Straat van Hormuz heropent? “Reders willen zekerheid, geen grote verklaringen van Trump”",
+        "url": "https://www.hbvl.be/economie/komt-de-wereldwijde-oliehandel-weer-op-gang-nu-de-straat-van-hormuz-heropent-reders-willen-zekerheid-geen-grote-verklaringen-van-trump/157350395.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump zadelt Israël op met ‘glorieuze mislukking’: de gevolgen van de Irandeal voor het Midden-Oosten - Knack",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYWU3Z3JkbVJ4SjdMSXJBRS1MdlFnOV9TcTg2ZWtjWk16WEQ1alNFUGZrRkJybHlJU0o4TVQ3bkdfa2ZEWEJScWlwaGh6RFZkcFZCSHZQUWdrcXNfUjNnN0I4ZUR5eW5BSGNWTTBycjNtV1E0ZFVFeVUyQmhfcjlncjBtUmNULVlWT1BwcXRHZXNyUFE4aVdpeDNnMHM4T2MyTzRpVEN4YVRSTHRFLXhRdmI3eER6Slp2VU93MTk3blFYX1JDUDZUMVJBMEtMX0U?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient  : Trump menace de recommencer à \"balancer des bombes\" si l'Iran \"ne se comporte pas bien\"",
+        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-trump-menace-de-recommencer-a-balancer-des-bombes-si-l-iran-ne-se-comporte-pas-bien-11742421",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"I am the boss\"... Donald Trump fait du Donald Trump face aux autres dirigeants des pays du G7 et récolte quelques rires",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/17/i-am-the-boss-donald-trump-fait-du-donald-trump-face-aux-autres-dirigeants-des-pays-du-g7-et-recolte-quelques-rires-RLNIHGTN3JALDH7FT3DYN6EEIA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient : Trump menace de recommencer à \"balancer des bombes\" si l'Iran \"ne se comporte pas bien\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/17/direct-guerre-au-moyen-orient-deux-petroliers-iraniens-ont-franchi-la-zone-du-blocus-americain-R4JWACYNNFBTZPK44Z6DIJSE3M/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -40807,22 +40843,70 @@
         "name_only": true
       },
       {
-        "title": "Le président sud-coréen appelle Trump à la rescousse pour faire la paix avec Kim Jong Un",
-        "url": "https://www.7sur7.be/monde/le-president-sud-coreen-appelle-trump-a-la-rescousse-pour-faire-la-paix-avec-kim-jong-un~a74d0510/",
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump menace l'Iran deux jours avant la signature de l'accord - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOa3pkMkVnamItaGV0TFF1MFBNVXBVY3RWb2JJd1I3bzU4bTF6UGFXZ1pIUXBLYXQ2MjlMZzRLb3ZsOWV1XzNSTnlXdmtfV1RhQzRIdDFfM2ZlcWtkUWdrNXVSUnp4cTAxNHM0UTY3ZzlZa1RWU1c1Qm1PX1VLeWRtUGF0LW11MlZRQ3hBVGduN1NsdEhNc1FmOUhsZlJiVXlKUnVkbTd3WkFacC1CSjdmeTloUWhxaWx1VnA0aUphc3ZVVG56aVl2UXJlb2VGX0pJNkVxZ00zV185czg4Y0lPMXBzY3MzYUJBVTI4dEZJdzlNTFlDZDRCX0JjM0ZDbkZkS0x3elBWRnd0UXJzZzFYNll4YlhaMXR3OTl5a1NXaw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient : Trump menace de recommencer à \"balancer des bombes\" si l'Iran \"ne se comporte pas bien\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/17/direct-guerre-au-moyen-orient-deux-petroliers-iraniens-ont-franchi-la-zone-du-blocus-americain-Z3HICJVNTBAENDIRL337RLDMC4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"I am the boss\"... Donald Trump fait du Donald Trump face aux autres dirigeants des pays du G7 et récolte quelques rires",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/17/i-am-the-boss-donald-trump-fait-du-donald-trump-face-aux-autres-dirigeants-des-pays-du-g7-et-recolte-quelques-rires-EQL7DWF4JNBMBO2222EV3QJ6XI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Si l'Iran ne se comporte pas bien, on recommencera à larguer des bombes”",
+        "url": "https://www.7sur7.be/monde/trump-si-l-iran-ne-se-comporte-pas-bien-on-recommencera-a-larguer-des-bombes~a8fabb59/",
         "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Sommet du G7 : nouvelle série de sanctions contre la Russie approuvée par Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQN0VsN3A2LVZ3Y1paNkxfcUgtX0RwSGFTdm5VZWhINWxvekRuelF2VWVaVFFmUkh4eUFkYTBoYmhFTzlBakNrNW9jemt3R0NFZlU1SWNkSXFZVmdlM3NGNGc2emhNTVFoSGxqQjc3bFIzOXhhWFJUQS1nNjl4cHlkNU1RRzF6MlFhWl9GblZ0cVpEb2NKenNHYmtjVlRhNFJ4VjI0MFBPRXZyTGZBRkRsVW5iSzgzZzNvbnhTQUJ4a2RSdTI3RFp6d1hLWHk2bjVoV3BFSA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Donald Trump menace de recommencer à « balancer des bombes » si l’Iran « ne se comporte pas bien » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQnMzaFBVejJHQVBGLXJxcV9XbmlOUFJIOExYaC1FYXFsR29wQjQyc3FlSUVpa0czbHBZZklSMGxrSG9aZWVxcGNFaFZhdlphVFdnVGk5NmV6bkh2OUhMQkFGQmpPWDczTVJYWXFKS1d1eml0a1dHc2UzaEpQQTBvLWVMd2RWNEx4OGM0WkhoQ3M3NXRYTmtqMHZ3T2kxa3ptNjc3b2lJcFJYejhlNmZEZHA4SU41dDJKNFNJelZYU3ZMV2Q1M1dsVi1QU3lOR2VZMzhpS3R0TlVtUVBLbnAtcm1CYmc?oc=5",
+        "source": "rtl_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "G7 (en dus Trump) plant extra sancties tegen Rusland en militaire middelen voor Oekraïne: \"Opvallend\" - VRT",
+        "title": "G7 (en dus Trump) plant extra sancties tegen Rusland en militaire middelen voor Oekraïne: \"Opvallend\" - vrt.be",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdVBBVEpKaUtEaHozTkpZVGtJZXYtX3g5X1hQN0g1M0VqNlJMRE5HcEg2ZVY3MlB0NFFkMG5obVNFb2pIRFBEZC1ITGZLd3RlbTlSRjlGdHo5SUxJTzlQXzNFdllJNzZlOTRielpwdTdTVHRRbzFKWTJhU1RpMlQxc2pLajFKb2h4ZjJwY0FKSVV5OGp3aFB2M3YtMHkxYWFHei1pazQ1RQ?oc=5",
         "source": "google_nl",
         "name_only": true
       },
       {
+        "title": "\"I am the boss\"... Donald Trump fait du Donald Trump face aux autres dirigeants des pays du G7 et récolte quelques rires - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPTzU0aXp6TzJkS0dSRXdobXVQUEplb2xVa0RPbGh6M3RuWVBiQndRWEg0YTdMSVRoLU1HOFJUVEwxNnV3Sno5YTROU3VIUHBXR0hic2hKUV9UMVdqX2FHTkdOX3JYR1pGZjhWelJVZ0lQYWZWMWFWN0NtYTUtUlVqdWExemYxQ2NvQkw3NVpHUkhhb0xLc0hjZVgyVEEyYXl2UW1sRjFnT09iRU1XcHhleTdqREJjdjIyRWQ5R2YzZUNIb2FjbVBaQ2c0VlZyWC1mLTh5V3ZhTmYxdzJFS0ktNVJfaFBobXAzd1dCY0Jfa1FOLW45MHlqdVZQZUxjYzZLaDFVMTBHM1hUbjFkU1Y0aFpZVzU?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "“Ik ben de baas”: Trump begroet wereldleiders op G7-top na gezamenlijke verklaring over Oekraïne - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSTVJYnFVdlZWMEpUOU9tZDRiTkp3OGFQR2k0LV9xY2FkSXpEVFNmSUx3OHByZlkyZy1EWnJDOHdNZkFnLWdDbXJsQnd3X3V0M0VoMkxtaTNQQnNGVVowRlB4RjlrYUt0Qnl5NTMtam8wbEVuRmRtaTFoc3VrUVNZUW9ua0FkQkl3ZHU1eHVDYUMyQVlLam5sOU5SSmUyNVFCYXg4UnJNT2hwR3lPREZoS3cyTlI0MHF3OUpSVk9SMWZmbHBHakcyTGhrdnJSOS04TXVmekU0OFg1Zw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
         "title": "Wat koopt Europa met de dreun die Trump krijgt in Iran? - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc1dLZVl1eXMxbzN3cFdGcW5fQmx1aGdIMnJOWWEzS0dSZ2ZIcDRWZnZrbmVZT2M5cU9WTUo0VVRXLUcySU9RTXVKZEFuYVVhb3NMQzYxSG4zRGpmZGZSTDY5emktOF8zclpVTXhQeFVhaDV2YjM1eS1sNnJ1eEVvN1NDV01NaXZRaTctaURBWF9OdmdMOG9iOWozWDdsYVF2ekprdw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt akkoord met Iran “niet definitief”: “Als ik het er toch niet mee eens ben, gaan we weer op ze schieten en bommen op hun hoofd gooien” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPQmtBWTVOUmZjQ0pMS0FuS3A2UWZpZzFDTXpPNGRJZ1ZZQnM0N1YxTEhXalprempraVRYYXEzZld3blBTUnlnQlN0REhZZ1JqUlduSUtDNkk3UzNYX0tCOERLVW9QQklDbEc2eWRnNjVuR3NRZFB2Sk5SUFB6cWVSTDZic3IwVkpzSS1Xa0tpa0FxSV94QmkxanBHY0Z4UnUzc0FaYzZQNGFmYVB0ZTc1UEtrdjJ0SXc2SWtFY0ZLaFI5eEdudTY3VFdRZklwd21aLXRQdE9tWWVteUdEOV9oTDNEUDhOMlBHQzk2c1BCU2JIRW83NmFRZk9QX09EUTBBS09BVUtZUWJSQWc?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
@@ -40833,33 +40917,75 @@
         "name_only": true
       },
       {
-        "title": "Un nouveau projet pharaonique de Trump suscite la controverse - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQlVnLWJwU2JwNFp6SWQ2ME9xUjN6MkxBNUpWSXo2SkdGZFBNRTA3dGhVVUhnS0RjTllKaVBCUkhtd3pKRGJfM3hTakxBN05KeEJzOGxYTWpfdDJjemEzakVXMVNkQXM1dmpIQmQzMFdHdTBQbDkxU1NXT1NKa1lMamstOHppMy1TdWJUUGl5bXlXZjBaaDNnV2tLTlh6cm9kMnlDVlY2Uzk1YVZFYzRhTnNZTGgxNFloQm5MOGZDOU5EQ3pNM2RGZ1ptbjFISDBfVkc2eUdsUU9DN1pyekRB?oc=5",
-        "source": "google_fr_world",
+        "title": "La salle de bal de la Maison-Blanche va coûter 600 millions de dollars - Radio-Canada",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT25CcFJEbjJRMm5qMFQ4MmtLNTFhMno3d0oyck9ST2h6c0cxaGw0SHdJZC0tYS1Jck94ZHR4VjhQVWZZd1F4dFZwNHdhX2RHWjA1MTdVUG5wUzlZQTUyaEJvRzVnWHl3MVcteXd3dVZSOWk2T2pHRVVXeG5ubGYtSVd6UlJQbWlQNF9LOVhWZWNuUmdO?oc=5",
+        "source": "google_fr_politics",
+        "name_only": false
+      },
+      {
+        "title": "Réplique du Bureau ovale, terrain de basket... À Chicago, Barack Obama inaugure un centre dédié à son passage à la Maison-Blanche - Le Figaro",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQbzc3WDhkX0FNd0VQenFPVFByaFhlcnBrb29ZcEJGNTZScGNjTmJFUXl1ZXBjUEVHNkt3ckRZMVA5YzFyQi1MaXAxN3BlMnE4YUN3SzJyQ1ZKaHBGUjdEajNPRFI5czVZaDhSOGNEZ3ZBZk44UkdicTh4NWo3cnVCQ2pLeXI4QXhiV21XNzg0Z0dJMGFJamg1N1pKREkxbXdmcDdwbzVnWVAtZDNyOEhqaE1iUU9qQUFyX2RIbjZ4WF81NTc2SEdtMmgzYnI4SnBfWFllQzJaNWNsSldZdXozUXhHd1NRaEViVm9Ja1poclZ5TENqZG1HUmN0R2NoaGxf?oc=5",
+        "source": "google_fr_politics",
+        "name_only": false
+      },
+      {
+        "title": "Drones met explosieven en scherpschutters: wat we al weten over de verdachten die een aanslag op Trump beraamden",
+        "url": "https://www.hln.be/buitenland/drones-met-explosieven-en-scherpschutters-wat-we-al-weten-over-de-verdachten-die-een-aanslag-op-trump-beraamden~aee3e230/",
+        "source": "hln",
         "name_only": true
       },
       {
-        "title": "G7 (en dus Trump) plant extra sancties tegen Rusland en militaire middelen voor Oekraïne: \"Opvallend\"",
-        "url": "https://vrtnws.be/p.bDMGGEllL",
-        "source": "vrt",
+        "title": "“I am the boss”: Trump maakt opvallende entree op laatste dag van G7-top",
+        "url": "https://www.hln.be/buitenland/i-am-the-boss-trump-maakt-opvallende-entree-op-laatste-dag-van-g7-top~a79c6d94/",
+        "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - President Zuid-Korea vraagt Trump hulp om vrede te sluiten met Noord-Korea: ‘Net zoals hij deed in het Midden-Oosten’",
-        "url": "https://www.demorgen.be/snelnieuws/live-vs-kondigen-miljard-dollar-aan-humanitaire-hulp-aan-voor-vn-agentschappen~b13cc951/",
+        "title": "Trump noemt akkoord met Iran “niet definitief”: “Als ik het er toch niet mee eens ben, gaan we weer op ze schieten en bommen op hun hoofd gooien”",
+        "url": "https://www.hln.be/buitenland/trump-noemt-akkoord-met-iran-niet-definitief-als-ik-het-er-toch-niet-mee-eens-ben-gaan-we-weer-op-ze-schieten-en-bommen-op-hun-hoofd-gooien~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - President Trump noemt akkoord met Iran niet definitief • Iran: ‘Amerikaanse maritieme blokkade is opgeheven, enkele schepen zijn al gepasseerd’",
+        "url": "https://www.demorgen.be/snelnieuws/live-president-trump-noemt-akkoord-met-iran-niet-definitief-iran-straat-van-hormuz-is-open-enkele-schepen-zijn-al-gepasseerd~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Iran staat sterker dan ooit aan de onderhandelingstafel: waarom Trump weinig hefboom heeft in nieuwe nucleaire gesprekken",
-        "url": "https://www.demorgen.be/nieuws/iran-staat-sterker-dan-ooit-aan-de-onderhandelingstafel-waarom-trump-weinig-hefboom-heeft-in-nieuwe-nucleaire-gesprekken~b7e0b9f7/",
-        "source": "demorgen",
-        "name_only": true
-      },
-      {
-        "title": "President Zuid-Korea vraagt Trump hulp om vrede te sluiten met Noord-Korea: “Zoals in Midden-Oosten”",
-        "url": "https://www.gva.be/buitenland/president-zuid-korea-vraagt-trump-hulp-om-vrede-te-sluiten-met-noord-korea-zoals-in-midden-oosten/157334154.html",
+        "title": "LIVE OORLOG IN OEKRAÏNE. “I am the boss”: Donald Trump schuift mee aan tafel met andere G7-leiders",
+        "url": "https://www.gva.be/buitenland/live-oorlog-in-oekraine.-i-am-the-boss-donald-trump-schuift-mee-aan-tafel-met-andere-g7-leiders/76695337.html",
         "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Komt de wereldwijde oliehandel weer op gang nu de Straat van Hormuz heropent? “Reders willen zekerheid, geen grote verklaringen van Trump”",
+        "url": "https://www.hbvl.be/economie/komt-de-wereldwijde-oliehandel-weer-op-gang-nu-de-straat-van-hormuz-heropent-reders-willen-zekerheid-geen-grote-verklaringen-van-trump/157350395.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump zadelt Israël op met ‘glorieuze mislukking’: de gevolgen van de Irandeal voor het Midden-Oosten - Knack",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYWU3Z3JkbVJ4SjdMSXJBRS1MdlFnOV9TcTg2ZWtjWk16WEQ1alNFUGZrRkJybHlJU0o4TVQ3bkdfa2ZEWEJScWlwaGh6RFZkcFZCSHZQUWdrcXNfUjNnN0I4ZUR5eW5BSGNWTTBycjNtV1E0ZFVFeVUyQmhfcjlncjBtUmNULVlWT1BwcXRHZXNyUFE4aVdpeDNnMHM4T2MyTzRpVEN4YVRSTHRFLXhRdmI3eER6Slp2VU93MTk3blFYX1JDUDZUMVJBMEtMX0U?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient  : Trump menace de recommencer à \"balancer des bombes\" si l'Iran \"ne se comporte pas bien\"",
+        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-trump-menace-de-recommencer-a-balancer-des-bombes-si-l-iran-ne-se-comporte-pas-bien-11742421",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"I am the boss\"... Donald Trump fait du Donald Trump face aux autres dirigeants des pays du G7 et récolte quelques rires",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/17/i-am-the-boss-donald-trump-fait-du-donald-trump-face-aux-autres-dirigeants-des-pays-du-g7-et-recolte-quelques-rires-RLNIHGTN3JALDH7FT3DYN6EEIA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient : Trump menace de recommencer à \"balancer des bombes\" si l'Iran \"ne se comporte pas bien\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/17/direct-guerre-au-moyen-orient-deux-petroliers-iraniens-ont-franchi-la-zone-du-blocus-americain-R4JWACYNNFBTZPK44Z6DIJSE3M/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -40869,81 +40995,111 @@
         "name_only": true
       },
       {
-        "title": "Le président sud-coréen appelle Trump à la rescousse pour faire la paix avec Kim Jong Un",
-        "url": "https://www.7sur7.be/monde/le-president-sud-coreen-appelle-trump-a-la-rescousse-pour-faire-la-paix-avec-kim-jong-un~a74d0510/",
+        "title": "En direct | Guerre au Moyen-Orient: Donald Trump menace l'Iran deux jours avant la signature de l'accord - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOa3pkMkVnamItaGV0TFF1MFBNVXBVY3RWb2JJd1I3bzU4bTF6UGFXZ1pIUXBLYXQ2MjlMZzRLb3ZsOWV1XzNSTnlXdmtfV1RhQzRIdDFfM2ZlcWtkUWdrNXVSUnp4cTAxNHM0UTY3ZzlZa1RWU1c1Qm1PX1VLeWRtUGF0LW11MlZRQ3hBVGduN1NsdEhNc1FmOUhsZlJiVXlKUnVkbTd3WkFacC1CSjdmeTloUWhxaWx1VnA0aUphc3ZVVG56aVl2UXJlb2VGX0pJNkVxZ00zV185czg4Y0lPMXBzY3MzYUJBVTI4dEZJdzlNTFlDZDRCX0JjM0ZDbkZkS0x3elBWRnd0UXJzZzFYNll4YlhaMXR3OTl5a1NXaw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient : Trump menace de recommencer à \"balancer des bombes\" si l'Iran \"ne se comporte pas bien\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/17/direct-guerre-au-moyen-orient-deux-petroliers-iraniens-ont-franchi-la-zone-du-blocus-americain-Z3HICJVNTBAENDIRL337RLDMC4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"I am the boss\"... Donald Trump fait du Donald Trump face aux autres dirigeants des pays du G7 et récolte quelques rires",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/17/i-am-the-boss-donald-trump-fait-du-donald-trump-face-aux-autres-dirigeants-des-pays-du-g7-et-recolte-quelques-rires-EQL7DWF4JNBMBO2222EV3QJ6XI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Si l'Iran ne se comporte pas bien, on recommencera à larguer des bombes”",
+        "url": "https://www.7sur7.be/monde/trump-si-l-iran-ne-se-comporte-pas-bien-on-recommencera-a-larguer-des-bombes~a8fabb59/",
         "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Sommet du G7 : nouvelle série de sanctions contre la Russie approuvée par Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQN0VsN3A2LVZ3Y1paNkxfcUgtX0RwSGFTdm5VZWhINWxvekRuelF2VWVaVFFmUkh4eUFkYTBoYmhFTzlBakNrNW9jemt3R0NFZlU1SWNkSXFZVmdlM3NGNGc2emhNTVFoSGxqQjc3bFIzOXhhWFJUQS1nNjl4cHlkNU1RRzF6MlFhWl9GblZ0cVpEb2NKenNHYmtjVlRhNFJ4VjI0MFBPRXZyTGZBRkRsVW5iSzgzZzNvbnhTQUJ4a2RSdTI3RFp6d1hLWHk2bjVoV3BFSA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Donald Trump menace de recommencer à « balancer des bombes » si l’Iran « ne se comporte pas bien » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQnMzaFBVejJHQVBGLXJxcV9XbmlOUFJIOExYaC1FYXFsR29wQjQyc3FlSUVpa0czbHBZZklSMGxrSG9aZWVxcGNFaFZhdlphVFdnVGk5NmV6bkh2OUhMQkFGQmpPWDczTVJYWXFKS1d1eml0a1dHc2UzaEpQQTBvLWVMd2RWNEx4OGM0WkhoQ3M3NXRYTmtqMHZ3T2kxa3ptNjc3b2lJcFJYejhlNmZEZHA4SU41dDJKNFNJelZYU3ZMV2Q1M1dsVi1QU3lOR2VZMzhpS3R0TlVtUVBLbnAtcm1CYmc?oc=5",
+        "source": "rtl_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 5,
-      "putin": 0,
+      "trump": 16,
+      "putin": 3,
       "macron": 0,
       "netanyahu": 0,
-      "zelensky": 2,
+      "zelensky": 3,
       "rutte": 0,
-      "von_der_leyen": 0,
+      "von_der_leyen": 1,
       "de_wever": 1,
-      "bouchez": 0,
+      "bouchez": 2,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 1,
-      "crevits": 1,
+      "francken": 2,
+      "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 10,
-      "putin": 0,
+      "trump": 23,
+      "putin": 3,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 3,
       "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 1,
-      "bouchez": 0,
+      "von_der_leyen": 1,
+      "de_wever": 2,
+      "bouchez": 2,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 1,
-      "crevits": 1,
+      "francken": 3,
+      "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 30,
-      "crime": 17,
-      "eu": 23,
-      "politics": 9,
-      "be_gov": 7,
-      "culture": 7,
-      "tech": 5,
-      "economy": 5,
-      "sports": 52,
-      "health": 9,
-      "climate": 2,
-      "migration": 3,
+      "war": 42,
+      "crime": 28,
+      "eu": 46,
+      "politics": 18,
+      "be_gov": 14,
+      "culture": 23,
+      "tech": 17,
+      "economy": 9,
+      "sports": 71,
+      "health": 11,
+      "climate": 3,
+      "migration": 2,
       "education": 10,
-      "weather": 6
+      "weather": 11
     },
     "wide_themes": {
-      "war": 45,
-      "crime": 22,
-      "eu": 33,
-      "politics": 15,
-      "be_gov": 10,
-      "culture": 15,
-      "tech": 8,
-      "economy": 10,
-      "sports": 76,
+      "war": 62,
+      "crime": 39,
+      "eu": 60,
+      "politics": 26,
+      "be_gov": 20,
+      "culture": 34,
+      "tech": 19,
+      "economy": 11,
+      "sports": 103,
       "health": 12,
-      "climate": 4,
-      "migration": 4,
-      "education": 12,
-      "weather": 8
+      "climate": 5,
+      "migration": 3,
+      "education": 11,
+      "weather": 17
     }
   }
 ]
