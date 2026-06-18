@@ -41101,5 +41101,495 @@
       "education": 11,
       "weather": 17
     }
+  },
+  {
+    "date": "2026-06-18",
+    "generated_at": "2026-06-18T10:26:28+02:00",
+    "last_checked_at": "2026-06-18T10:26:28+02:00",
+    "total_articles": 452,
+    "trump_articles": 6,
+    "percentage": 1.3,
+    "core_percentage": 1.3,
+    "core_percentage_name": 1.3,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 1.3,
+    "indirect_references": 0,
+    "wide_total_articles": 649,
+    "wide_trump_articles": 9,
+    "wide_percentage": 1.4,
+    "wide_trump_articles_expanded": 9,
+    "wide_percentage_expanded": 1.4,
+    "macro_percentage": 1.4,
+    "qualifying_outlets": 20,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 8.8,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.55,
+    "breadth": 0.29,
+    "deviation": 0.46,
+    "smoothed_pct": 3.09,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 12,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 62,
+        "today": 8,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_world": {
+        "fetched": 57,
+        "today": 13,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 60,
+        "today": 10,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 30,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 48,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 40,
+        "today": 6,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 42,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 66,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 52,
+        "kept": 52,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.92
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "trends_g": {
+        "fetched": 78,
+        "today": 13,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 82,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Live - VS en Iran hebben akkoord ondertekend, Trump zette handtekening in kasteel van Versailles • Kans ‘bijzonder groot’ dat Belgische mijnenjager naar Straat van Hormuz gaat, zegt Francken",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-en-iran-hebben-akkoord-ondertekend-trump-zette-handtekening-in-kasteel-van-versailles-kans-bijzonder-groot-dat-belgische-mijnenjager-naar-straat-van-hormuz-gaat-zegt-francken~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Balogun VS Donald Trump : quand le nouveau héros national défie le président américain sur le \"droit du sol\"",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/06/18/balogun-vs-donald-trump-quand-le-nouveau-heros-notional-defie-le-president-americain-sur-le-droit-du-sol-YQTA56OGB5GH5G5LVXHTY5GDXY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "LVD, de machinebouwer die meewerkt aan de race in space: ‘Als Trump meer fabrieken wil in de VS, komen wij in de picture’ - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQbm5NdXlhQm9CMFIxX3JTaG5ZSTM3RmJSMlNSUXk1Q3JSSEI3SlpYV2puUmJaS1RDU21zLUNDMlB0c1gtYXZQMERiU2N6NXA1U05PU251T0hHQnFwanNZSVJENHlBdnlmbEFMNVZNbXNQSzRDcUVjY01DcVo3amxVc1BRbEt4aXhQRnhnTVVwcjVXMS1ueHB6ZEpjVWtuem9vcy14M2FJLThsMEJxSEtDMGJvU0xWQTk2RWVoR2FrSjcwZ3pfM2k4V2hTLWVMSXV2WmlYLUhwN1pIMXk1blN6Z1RnS1FVM3hjdE4ybWZ4ZnhSUlkzNXFRN1UtRHpPczduS0pCeEd4VGQ4cDQ5ZGU5bWhzdTRid3M2X2JYZlhldWdBdw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Les images de la signature de l’accord entre les Etats-Unis et l’Iran par Trump à Versailles (photos et vidéo) - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVmxNM0FMVmE2YnViUDVpMjljRWtaczNNYktJdjNtdGtOdTFoR2xpVzJwTWpkeGg4MzBDanNFTFlISnNOMmkwZF9mQmFTTkNUMzM3NzctV1Z2X0hzYnl6UVdTXzJ4TFZELUszNDlZWFFEaWcyZUpzTHF0SE54WlBSMEdpNmpZSUVTeE51QjdLVWw2Y1lfaEdWbjFGX25KRFhUS2dwNDd4RmFqRU5QSU9FQ2s4V0RYVS15NlNqX25GdHNORE0?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump signe l’accord avec l’Iran à Versailles : voici les principaux points du protocole pour mettre fin à la guerre au Moyen-Orient - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORExoSFd1X0NCYVR2MEF3NUFpZ0VsY0JrV25qYlBaOXlPMC1MRHlIa1MyUjJNaGw4cFJ6bGxITVpUT3Z0MGVjUm1RT0RvN3JpSHBqc1pzN3RUclpnekw2T0lpNFdqZVBNNVJvcEVIbnFvLVBSeENsa3p4MXIwb1hGSHdlOUd3VVRwUTg3ZXR4ak5WRmFJcDNMVWJmV3BzcEJwVktDbm5nWldzRmFDZS1udTNJRGIzcG9pcktDRkhzRkV2ZkFOYWdCZGk2b1FIVXVEclAtNDgyTl80QQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a signé l'accord de paix avec l'Iran lors d'un diner à Versailles - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUVdLQ1RwYjgxQmxVZXprT1BqMVE0dV9GQVZkMDdSNFJka043X0lrYThRQkY0RXNkRmhPRlozQ1diUEFDaVppTkNJbDl5bXNVYWJobXRiM0s5U1laSDIyMkZKQzNldVRwQmlXb003dFN5a2ZvS3dJemV3cGxNd0stMURSNFg0VE51bWxkUzlVdU9pM2xuaVJWVFg0TEZkaC1hTkhNd0FibnJVLVAweGFBZElyUTRkMmdEQzZjYjU3b2diVWNFRlEwSmg1Vjc?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Iran en VS ondertekenen tijdelijke overeenkomst, Trump erkent dat er “klein meningsverschil” is over Libanon met Israël - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZHVIRlRYZ2tmcFAyeUpneUxpR25ZWk1QRDZ2d3hMOFdfMG56S1R4YWFnMWRJX1BWLXFIS0EzcnVsS1hRS0RkVURGRThMZXkwR0ZJT3RubXJsVUdJTS1VdkhDYUZzQTZENFcxZ3I2SU1uNURtbFB0ZWxiX2VGNjBreVdGUm5tRllnY0ViQW1ucllNWGhnQ3lBTGZsal9iMUY1SXBuNmxweVFkUUsxdHROUTdNTjdKZHJ5UTRzRms4T1ctZEkxcnBKa2V5bU5WRWhGUXJMOWRESHRHanZ2c3hfM3lOb2RoUTVMMWZuWg?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Staatsdiner in Versailles: Trump onder de indruk van “mooiste paleis ter wereld” - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ044NTc2bE90UnNSRERZWU9FQ2U5cjhMa3NRVkI1UzVFNXFXc0cwcTZGX0FuLUMyS0RrdDlscXRlak93MDBTbnEzaXVKM05xMjk5RmZXMHQ4RU1FLWtXNjY2ejZKcjBaVkJxZjV6S1liNDJ3T1Zza0NPV2lBNXdrV0RPWnE2aDlLY0NwMm1tMjU5ZHB6a0RDQjJ6Ri10QlZXWXRCRE1CZllUNjdrcVRaWnVZMHFScEZGYWtxMlRtTkw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans leger blijft “nog een tijdje” in de Golfregio, zegt Trump - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSW9KM3Noc0QtZUVNWGw0ZmNwSmo3b2pXLTFiem83dl9rbDI5MTl3MU9lLUJOS2xwVWZpLU1vVU9CbVhxcDJmOXA1MFF6eUduMUgtNGdfcTBFd3Z3ZlZsTl9TVk51Q2lKckxBQkVPNjVfai1ycFNSc1FBMFJwMWNTdG1rdEtZU19LWHFxX18yVnY1ZGR3a2NKRUlsWEFOaEVWcnFpaEhPal8?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS en Iran hebben akkoord ondertekend, Trump zette handtekening in kasteel van Versailles • Kans ‘bijzonder groot’ dat Belgische mijnenjager naar Straat van Hormuz gaat, zegt Francken",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-en-iran-hebben-akkoord-ondertekend-trump-zette-handtekening-in-kasteel-van-versailles-kans-bijzonder-groot-dat-belgische-mijnenjager-naar-straat-van-hormuz-gaat-zegt-francken~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Balogun VS Donald Trump : quand le nouveau héros national défie le président américain sur le \"droit du sol\"",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/06/18/balogun-vs-donald-trump-quand-le-nouveau-heros-notional-defie-le-president-americain-sur-le-droit-du-sol-YQTA56OGB5GH5G5LVXHTY5GDXY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "LVD, de machinebouwer die meewerkt aan de race in space: ‘Als Trump meer fabrieken wil in de VS, komen wij in de picture’ - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQbm5NdXlhQm9CMFIxX3JTaG5ZSTM3RmJSMlNSUXk1Q3JSSEI3SlpYV2puUmJaS1RDU21zLUNDMlB0c1gtYXZQMERiU2N6NXA1U05PU251T0hHQnFwanNZSVJENHlBdnlmbEFMNVZNbXNQSzRDcUVjY01DcVo3amxVc1BRbEt4aXhQRnhnTVVwcjVXMS1ueHB6ZEpjVWtuem9vcy14M2FJLThsMEJxSEtDMGJvU0xWQTk2RWVoR2FrSjcwZ3pfM2k4V2hTLWVMSXV2WmlYLUhwN1pIMXk1blN6Z1RnS1FVM3hjdE4ybWZ4ZnhSUlkzNXFRN1UtRHpPczduS0pCeEd4VGQ4cDQ5ZGU5bWhzdTRid3M2X2JYZlhldWdBdw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Les images de la signature de l’accord entre les Etats-Unis et l’Iran par Trump à Versailles (photos et vidéo) - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVmxNM0FMVmE2YnViUDVpMjljRWtaczNNYktJdjNtdGtOdTFoR2xpVzJwTWpkeGg4MzBDanNFTFlISnNOMmkwZF9mQmFTTkNUMzM3NzctV1Z2X0hzYnl6UVdTXzJ4TFZELUszNDlZWFFEaWcyZUpzTHF0SE54WlBSMEdpNmpZSUVTeE51QjdLVWw2Y1lfaEdWbjFGX25KRFhUS2dwNDd4RmFqRU5QSU9FQ2s4V0RYVS15NlNqX25GdHNORE0?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump signe l’accord avec l’Iran à Versailles : voici les principaux points du protocole pour mettre fin à la guerre au Moyen-Orient - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORExoSFd1X0NCYVR2MEF3NUFpZ0VsY0JrV25qYlBaOXlPMC1MRHlIa1MyUjJNaGw4cFJ6bGxITVpUT3Z0MGVjUm1RT0RvN3JpSHBqc1pzN3RUclpnekw2T0lpNFdqZVBNNVJvcEVIbnFvLVBSeENsa3p4MXIwb1hGSHdlOUd3VVRwUTg3ZXR4ak5WRmFJcDNMVWJmV3BzcEJwVktDbm5nWldzRmFDZS1udTNJRGIzcG9pcktDRkhzRkV2ZkFOYWdCZGk2b1FIVXVEclAtNDgyTl80QQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a signé l'accord de paix avec l'Iran lors d'un diner à Versailles - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUVdLQ1RwYjgxQmxVZXprT1BqMVE0dV9GQVZkMDdSNFJka043X0lrYThRQkY0RXNkRmhPRlozQ1diUEFDaVppTkNJbDl5bXNVYWJobXRiM0s5U1laSDIyMkZKQzNldVRwQmlXb003dFN5a2ZvS3dJemV3cGxNd0stMURSNFg0VE51bWxkUzlVdU9pM2xuaVJWVFg0TEZkaC1hTkhNd0FibnJVLVAweGFBZElyUTRkMmdEQzZjYjU3b2diVWNFRlEwSmg1Vjc?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 4,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 9,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 5,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 39,
+      "crime": 14,
+      "eu": 16,
+      "politics": 15,
+      "be_gov": 17,
+      "culture": 9,
+      "tech": 12,
+      "economy": 18,
+      "sports": 45,
+      "health": 4,
+      "climate": 8,
+      "migration": 1,
+      "education": 5,
+      "weather": 16
+    },
+    "wide_themes": {
+      "war": 52,
+      "crime": 24,
+      "eu": 25,
+      "politics": 26,
+      "be_gov": 22,
+      "culture": 10,
+      "tech": 18,
+      "economy": 22,
+      "sports": 63,
+      "health": 6,
+      "climate": 14,
+      "migration": 3,
+      "education": 11,
+      "weather": 20
+    }
   }
 ]
