@@ -41747,5 +41747,543 @@
       "education": 12,
       "weather": 32
     }
+  },
+  {
+    "date": "2026-06-19",
+    "generated_at": "2026-06-19T10:54:24+02:00",
+    "last_checked_at": "2026-06-19T10:54:24+02:00",
+    "total_articles": 439,
+    "trump_articles": 6,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "core_percentage_name": 1.4,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 2.1,
+    "indirect_references": 3,
+    "wide_total_articles": 640,
+    "wide_trump_articles": 10,
+    "wide_percentage": 1.6,
+    "wide_trump_articles_expanded": 14,
+    "wide_percentage_expanded": 2.2,
+    "macro_percentage": 1.7,
+    "qualifying_outlets": 22,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 20,
+    "cross_outlet_dup_groups": 10,
+    "cross_outlet_dup_rate": 4.6,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.6,
+    "breadth": 0.22,
+    "deviation": 0.49,
+    "smoothed_pct": 2.86,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 12,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 3.45
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.52
+      },
+      "google_nl_politics": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 64,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 24,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 39,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 68,
+        "today": 11,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 66,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 50,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 56,
+        "kept": 56,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 27,
+        "kept": 27,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.41
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "trends_g": {
+        "fetched": 75,
+        "today": 18,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 80,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "L'accord de Trump avec l'Iran fragilise Netanyahou : la fin de \"Bibi le magicien\" ?",
+        "url": "https://www.rtbf.be/article/l-accord-de-trump-avec-l-iran-fragilise-netanyahou-la-fin-de-bibi-le-magicien-11743089",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Un jour, une carte : avec Donald Trump au Château de Versailles, le retour de la diplomatie des ors de la République",
+        "url": "https://www.rtbf.be/article/un-jour-une-carte-avec-donald-trump-au-chateau-de-versailles-le-retour-de-la-diplomatie-des-ors-de-la-republique-11742977",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Le Premier ministre albanais soupçonne l’Iran d’être à l’origine des manifestations contre le projet hôtelier d’Ivanka Trump et Jared Kushner",
+        "url": "https://www.lalibre.be/international/europe/2026/06/19/le-premier-ministre-albanais-soupconne-liran-detre-a-lorigine-des-manifestations-contre-le-projet-hotelier-divanka-trump-et-jared-kushner-VX7DHE46HZAQTNGU5CZWOMDHQU/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Le vice-président américain JD Vance reporte son déplacement à Genève, prévu pour négocier avec l'Iran - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQZlNuTExnRDRuVDFibG9GMi1kODZSZ25SNk9QQ2JFemVHVTF4OFU3c0pHZDhpYjc3QW9FSkZKakZ1Zi1QWG83UnQxOVQxRHBLWW1lbEtwNmhFSWF5OVNJWDhGb19BY0RRNWhORWVvYWo2R0hXZnNOTUVPODhVQmV5d25KZVBYbW1BV1VmRF93dV9lYzhYLWVnclVpNG9nWU1GbVJ2a08zVWk2dnBreDl5VkQxLWpUbFdSMC0tcFdCRG1TUVZnNVFwbWFVZEZFUTNuUVFKQ01hNlI4UHlteTczNm1MTDloYjBoQ2VMYy14QURlUzVycFFiNVVvbUQzRkVyRnVRLUdQajZ1ajJOYnRV?oc=5",
+        "source": "lecho",
+        "name_only": false
+      },
+      {
+        "title": "Pour l'Albanie, l’Iran serait à l’origine des manifestations contre le projet hôtelier d’Ivanka Trump: \"Nous n'avons qu'un seul ennemi\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/19/pour-lalbanie-liran-serait-a-lorigine-des-manifestations-contre-le-projet-hotelier-divanka-trump-nous-navons-quun-seul-ennemi-6DLVZHK3DRDOFAO5FWRW5I22S4/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
+        "title": "Après l’Iran, Trump veut se concentrer sur la Corée du Nord, selon Séoul",
+        "url": "https://www.7sur7.be/monde/apres-liran-trump-veut-se-concentrer-sur-la-coree-du-nord-selon-seoul~a0cc4fff/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Tout le Liban doit brûler”: face à Trump, Israël adopte une posture belliciste",
+        "url": "https://www.7sur7.be/monde/tout-le-liban-doit-bruler-face-a-trump-israel-adopte-une-posture-belliciste~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Clap de fin pour le \"Late Show\" honni de Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZHBULWw5alRVSm9STVdfYU5iNWF0RkJCVWZ1SEEzT24ta3I1UTMzM1dRSG82YmhKSEszenVERF9UcTBkeUpFeVJ3Q3F6T0NCcVhYZDhnTHU0M05rNUZxZUxzTE9vU0haSjlUbXZmU3ZEZXpzVjRqWFVIbGM2N2N2QV9FaFBpekgwMXFrVC1oRTIxYzI3SlFJZmx4THJLbVcyM1lFNFhmcjNlZFlkNW84QlFWNDB5RnNlREVpZEY0MlpoeURYVmxEM3Y2c2UzYTkwbHc?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Maintenant qu’un accord est trouvé avec l’Iran, Donald Trump a les yeux tournés vers un autre pays : « Le moment est venu de prêter attention à cette question - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORzVIbGJsWUd1M194a1lCcVZ4bXpEbDNMdG5naXV1N015ejNuRUNidWloTVV3TUhSVGtPclNOT2ZHVFZ5bjlPQzZGbVFUVlhlZkotVHRUbGt4TjhOQ3J1YVlLNkFrVlpHZEFidWttZ2w1OGNPRXQ1a0x3TFU1anJZYmtIVnY3UWdOMWxJc3BWMWY2cnMxMnhpYWN4QkxraDU3cXZORXBPR29PMlpFQ19hTUF4MTFFYXVwOF9BRDBDbjdicl9LQzRSdDFiYnRXYkVyaU02cmZDWWw1WXo4RG5xeUVlaw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Zwijgt Witte Huis opnieuw Juneteenth dood? - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcWdlYU95eDE5eGluek9OY0ozeWNLR1QyVjNkM2pHcmJQLU1ySVRhSVI3YWZBNTNQZ3JOTWdQMk56eFFwc1hIYmRBQjdPU1ItZkkwMUI0VXhFMjdOU1VSbXpUbTc5dnJqSF80QVg2Qnk1OXROeDVVYzlzNF9PMllJSG85WU1xN3BCZmctbGpwZ3JhdkJUZUtqRWZZeWNlZGlwMk5r?oc=5",
+        "source": "google_nl",
+        "name_only": false
+      },
+      {
+        "title": "Trump beweert dat overeenkomst “onvoorwaardelijke overgave Iran” is - Netanyahu sluit terugtrekking uit Zuid-Libanon uit - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNGt3c2phMHltS0Z0VkFxZUQ4ejV0MlRZaUxIZGhMdUV5enVwVE5LQ1F5V3VtYUJkZWU4X05DaUozVlZFei1sNUp3cEFiSGFIMDJRWmtZRjA5QzVOWTNxdVU4czRSZnU1MUh6TWpvUmdqRlM4eGNIVXl1OUJfVkthdE9wdDMxUnU5UEJKUS15MHVWMnZPWXJnM0RyX2VOSVdkX05hRmx4V1AzWDN1RjM3R2hPWUN3UW9HRDN6X24tX1FMZHg1cnB6Nm9hbzR4T012dU5GTWRsREhpMmt3MUN4dUFvR05uUUxvak5BNw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Maintenant qu’un accord est trouvé avec l’Iran, Donald Trump a les yeux tournés vers un autre pays : « Le moment est venu de prêter attention à cette question » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUml1cUxlYW1yeGpFazl6a0o2WmVEa3FWZU93UEhrZVJKWHViV1Z1c3VibTBFdVE4SVdsNTh1dGZ6SlBmZjduNmlEMFA3SGE2VDJnWkVEaGxmendIWWd2VjRrV2lMdmlNWkVxWmtVbi1SVHpWWWlrRkUySjdTdVEwWEdWdnFpVXFnUVlxU3BLR1p5SkNNZ0tsRGFhdm9XekhoVEVHenUxbjFUYlMtZFlOQU1qdUo2X2xmQi1LdHNPT3FaRV9uenpTWkRiSQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "“Tout le Liban doit brûler”: face à Trump, Israël adopte une posture belliciste - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUVXTVVrME5zalZvb0Q3RzVBcDA0VE9Cb0pVcDZadXozWVhmeWp5Q19GWkFqWk15NzFoWTZWSkNLb1BaX0JrQ0RmdUhZRGtRYk1GMjhTam04Y3VWbVVnT2h6QlY0ZExmMGpwaDJHZjVXY2tEWUhEajljSnJ5QUhvRGZxa0d4RHZwY3NlazFiNU8wbzdLT0FpaE1WdlBHbE5DSGtvcE44Nno5b2hSaVNLcHZ3?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Na Iran wil Trump zich richten op Noord-Korea, aldus de Zuid-Koreaanse president",
+        "url": "https://www.gva.be/buitenland/live-vs.-na-iran-wil-trump-zich-richten-op-noord-korea-aldus-de-zuid-koreaanse-president/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "L'accord de Trump avec l'Iran fragilise Netanyahou : la fin de \"Bibi le magicien\" ?",
+        "url": "https://www.rtbf.be/article/l-accord-de-trump-avec-l-iran-fragilise-netanyahou-la-fin-de-bibi-le-magicien-11743089",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Un jour, une carte : avec Donald Trump au Château de Versailles, le retour de la diplomatie des ors de la République",
+        "url": "https://www.rtbf.be/article/un-jour-une-carte-avec-donald-trump-au-chateau-de-versailles-le-retour-de-la-diplomatie-des-ors-de-la-republique-11742977",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Le Premier ministre albanais soupçonne l’Iran d’être à l’origine des manifestations contre le projet hôtelier d’Ivanka Trump et Jared Kushner",
+        "url": "https://www.lalibre.be/international/europe/2026/06/19/le-premier-ministre-albanais-soupconne-liran-detre-a-lorigine-des-manifestations-contre-le-projet-hotelier-divanka-trump-et-jared-kushner-VX7DHE46HZAQTNGU5CZWOMDHQU/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Le vice-président américain JD Vance reporte son déplacement à Genève, prévu pour négocier avec l'Iran - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQZlNuTExnRDRuVDFibG9GMi1kODZSZ25SNk9QQ2JFemVHVTF4OFU3c0pHZDhpYjc3QW9FSkZKakZ1Zi1QWG83UnQxOVQxRHBLWW1lbEtwNmhFSWF5OVNJWDhGb19BY0RRNWhORWVvYWo2R0hXZnNOTUVPODhVQmV5d25KZVBYbW1BV1VmRF93dV9lYzhYLWVnclVpNG9nWU1GbVJ2a08zVWk2dnBreDl5VkQxLWpUbFdSMC0tcFdCRG1TUVZnNVFwbWFVZEZFUTNuUVFKQ01hNlI4UHlteTczNm1MTDloYjBoQ2VMYy14QURlUzVycFFiNVVvbUQzRkVyRnVRLUdQajZ1ajJOYnRV?oc=5",
+        "source": "lecho",
+        "name_only": false
+      },
+      {
+        "title": "Pour l'Albanie, l’Iran serait à l’origine des manifestations contre le projet hôtelier d’Ivanka Trump: \"Nous n'avons qu'un seul ennemi\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/19/pour-lalbanie-liran-serait-a-lorigine-des-manifestations-contre-le-projet-hotelier-divanka-trump-nous-navons-quun-seul-ennemi-6DLVZHK3DRDOFAO5FWRW5I22S4/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
+        "title": "Après l’Iran, Trump veut se concentrer sur la Corée du Nord, selon Séoul",
+        "url": "https://www.7sur7.be/monde/apres-liran-trump-veut-se-concentrer-sur-la-coree-du-nord-selon-seoul~a0cc4fff/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Tout le Liban doit brûler”: face à Trump, Israël adopte une posture belliciste",
+        "url": "https://www.7sur7.be/monde/tout-le-liban-doit-bruler-face-a-trump-israel-adopte-une-posture-belliciste~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Clap de fin pour le \"Late Show\" honni de Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZHBULWw5alRVSm9STVdfYU5iNWF0RkJCVWZ1SEEzT24ta3I1UTMzM1dRSG82YmhKSEszenVERF9UcTBkeUpFeVJ3Q3F6T0NCcVhYZDhnTHU0M05rNUZxZUxzTE9vU0haSjlUbXZmU3ZEZXpzVjRqWFVIbGM2N2N2QV9FaFBpekgwMXFrVC1oRTIxYzI3SlFJZmx4THJLbVcyM1lFNFhmcjNlZFlkNW84QlFWNDB5RnNlREVpZEY0MlpoeURYVmxEM3Y2c2UzYTkwbHc?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Maintenant qu’un accord est trouvé avec l’Iran, Donald Trump a les yeux tournés vers un autre pays : « Le moment est venu de prêter attention à cette question - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORzVIbGJsWUd1M194a1lCcVZ4bXpEbDNMdG5naXV1N015ejNuRUNidWloTVV3TUhSVGtPclNOT2ZHVFZ5bjlPQzZGbVFUVlhlZkotVHRUbGt4TjhOQ3J1YVlLNkFrVlpHZEFidWttZ2w1OGNPRXQ1a0x3TFU1anJZYmtIVnY3UWdOMWxJc3BWMWY2cnMxMnhpYWN4QkxraDU3cXZORXBPR29PMlpFQ19hTUF4MTFFYXVwOF9BRDBDbjdicl9LQzRSdDFiYnRXYkVyaU02cmZDWWw1WXo4RG5xeUVlaw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 4,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 5
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 7,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 6
+    },
+    "themes": {
+      "war": 44,
+      "crime": 20,
+      "eu": 15,
+      "politics": 27,
+      "be_gov": 10,
+      "culture": 9,
+      "tech": 9,
+      "economy": 15,
+      "sports": 26,
+      "health": 4,
+      "climate": 5,
+      "migration": 2,
+      "education": 7,
+      "weather": 19
+    },
+    "wide_themes": {
+      "war": 64,
+      "crime": 30,
+      "eu": 24,
+      "politics": 40,
+      "be_gov": 15,
+      "culture": 13,
+      "tech": 14,
+      "economy": 22,
+      "sports": 42,
+      "health": 5,
+      "climate": 6,
+      "migration": 2,
+      "education": 9,
+      "weather": 26
+    }
   }
 ]
