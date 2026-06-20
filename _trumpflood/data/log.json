@@ -42384,135 +42384,135 @@
   },
   {
     "date": "2026-06-20",
-    "generated_at": "2026-06-20T14:16:19+02:00",
-    "last_checked_at": "2026-06-20T14:16:19+02:00",
-    "total_articles": 551,
-    "trump_articles": 10,
-    "percentage": 1.8,
-    "core_percentage": 1.8,
-    "core_percentage_name": 1.8,
-    "trump_articles_expanded": 10,
-    "core_percentage_expanded": 1.8,
+    "generated_at": "2026-06-20T19:57:19+02:00",
+    "last_checked_at": "2026-06-20T19:57:19+02:00",
+    "total_articles": 731,
+    "trump_articles": 18,
+    "percentage": 2.5,
+    "core_percentage": 2.5,
+    "core_percentage_name": 2.5,
+    "trump_articles_expanded": 18,
+    "core_percentage_expanded": 2.5,
     "indirect_references": 0,
-    "wide_total_articles": 772,
-    "wide_trump_articles": 17,
-    "wide_percentage": 2.2,
-    "wide_trump_articles_expanded": 17,
-    "wide_percentage_expanded": 2.2,
+    "wide_total_articles": 1024,
+    "wide_trump_articles": 27,
+    "wide_percentage": 2.6,
+    "wide_trump_articles_expanded": 27,
+    "wide_percentage_expanded": 2.6,
     "macro_percentage": 3.3,
-    "qualifying_outlets": 25,
+    "qualifying_outlets": 30,
     "core_outlets_total": 19,
     "core_outlets_active": 19,
     "active_core_fraction": 1.0,
-    "cross_outlet_dup_headlines": 46,
-    "cross_outlet_dup_groups": 23,
-    "cross_outlet_dup_rate": 8.3,
+    "cross_outlet_dup_headlines": 49,
+    "cross_outlet_dup_groups": 24,
+    "cross_outlet_dup_rate": 6.7,
     "zone": "wet",
     "label": "The zone is getting wet",
     "narrative": "Among the top-covered figures today.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.43,
-    "breadth": 0.42,
-    "deviation": 0.72,
-    "smoothed_pct": 2.64,
+    "dominance": 3.6,
+    "breadth": 0.63,
+    "deviation": 1.0,
+    "smoothed_pct": 2.74,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 10,
+    "theme_rank": 8,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 26,
-        "kept": 26,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 11.54
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "google_fr": {
         "fetched": 34,
-        "today": 20,
-        "kept": 20,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.0
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
       },
       "google_nl_politics": {
-        "fetched": 55,
-        "today": 6,
-        "kept": 6,
+        "fetched": 53,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
-        "fetched": 68,
-        "today": 16,
-        "kept": 12,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 8.33
+        "fetched": 70,
+        "today": 27,
+        "kept": 22,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 13.64
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 21,
-        "kept": 19,
+        "today": 36,
+        "kept": 33,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 5.26
+        "share": 3.03
       },
       "google_nl_tech": {
-        "fetched": 60,
+        "fetched": 62,
         "today": 12,
-        "kept": 7,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 32,
-        "kept": 25,
+        "today": 43,
+        "kept": 38,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 39,
-        "today": 5,
-        "kept": 5,
+        "fetched": 42,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 61,
-        "today": 14,
-        "kept": 11,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 51,
+        "today": 19,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
       },
       "google_fr_business": {
-        "fetched": 67,
-        "today": 9,
-        "kept": 7,
+        "fetched": 44,
+        "today": 12,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 29,
-        "kept": 29,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 46,
+        "kept": 46,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.17
       },
       "standaard": {
         "fetched": 100,
-        "today": 67,
-        "kept": 67,
+        "today": 88,
+        "kept": 72,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -42521,35 +42521,27 @@
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "demorgen": {
-        "fetched": 28,
-        "today": 20,
-        "kept": 20,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 10.0
+        "fetched": 27,
+        "today": 22,
+        "kept": 22,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 13.64
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.0
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "gva": {
-        "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.0
-      },
-      "hbvl": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
@@ -42557,130 +42549,138 @@
         "trump_expanded": 0,
         "share": 0.0
       },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
       "knack": {
         "fetched": 100,
-        "today": 22,
-        "kept": 21,
+        "today": 41,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 17,
-        "kept": 17,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 11,
-        "kept": 11,
+        "today": 17,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 15,
-        "kept": 15,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 6.67
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 35,
-        "kept": 35,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.86
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 39,
-        "kept": 39,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.56
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 88,
-        "kept": 88,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 1.14
-      },
-      "septsursept": {
-        "fetched": 30,
         "today": 18,
         "kept": 18,
         "trump": 1,
         "trump_expanded": 1,
         "share": 5.56
       },
+      "lalibre": {
+        "fetched": 100,
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 99,
+        "kept": 99,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.02
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
       "bx1": {
         "fetched": 10,
-        "today": 5,
-        "kept": 5,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 10,
-        "kept": 10,
+        "today": 18,
+        "kept": 17,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 20.0
+        "share": 11.76
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 23,
-        "kept": 19,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 48,
+        "kept": 46,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.17
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 7,
-        "kept": 7,
+        "today": 28,
+        "kept": 27,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 12,
-        "kept": 12,
+        "today": 27,
+        "kept": 27,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 32,
-        "kept": 27,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 49,
+        "kept": 44,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.27
       },
       "trends_g": {
-        "fetched": 76,
-        "today": 12,
-        "kept": 6,
+        "fetched": 67,
+        "today": 10,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 56,
-        "today": 8,
-        "kept": 8,
+        "fetched": 46,
+        "today": 11,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -42709,6 +42709,18 @@
     ],
     "matches": [
       {
+        "title": "Fotoruzie escaleert: Trump blijft erbij dat \"onpopulaire\" Meloni \"keer op keer\" om foto smeekte",
+        "url": "https://vrtnws.be/p.bDMMYXZyA",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Foto-rel tussen Trump en Meloni escaleert: Italiaanse premier wil dat president stopt met “voortdurende aanvallen”",
+        "url": "https://www.hln.be/buitenland/foto-rel-tussen-trump-en-meloni-escaleert-italiaanse-premier-wil-dat-president-stopt-met-voortdurende-aanvallen~a6f78fac/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
         "title": "Björn Soenens ziet een ‘verzwakte’ Trump: ‘Dat kan twee dingen betekenen’",
         "url": "https://www.demorgen.be/nieuws/bjorn-soenens-ziet-een-verzwakte-trump-dat-kan-twee-dingen-betekenen~b587e1c6/",
         "source": "demorgen",
@@ -42721,15 +42733,27 @@
         "name_only": true
       },
       {
-        "title": "Trump legt de schuld bij vandalen nu ook blauwe coating van beruchte spiegelvijver afbladdert: “Chemicaliën gebruikt om ons prachtige werk te vernielen”",
-        "url": "https://www.nieuwsblad.be/binnenland/trump-legt-de-schuld-bij-vandalen-nu-ook-blauwe-coating-van-beruchte-spiegelvijver-afbladdert-chemicalien-gebruikt-om-ons-prachtige-werk-te-vernielen/157524892.html",
-        "source": "nieuwsblad",
+        "title": "Obama’s openen museum en bibliotheek in Chicago, en dat gaat niet zonder verdoken uithalen naar Trump",
+        "url": "https://www.demorgen.be/snelnieuws/obama-s-openen-museum-en-bibliotheek-in-chicago-en-dat-gaat-niet-zonder-verdoken-uithalen-naar-trump~be2a22aa/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump legt de schuld bij vandalen nu ook blauwe coating van spiegelvijver afbladdert: “Ons prachtige werk vernield met chemicaliën”",
+        "url": "https://www.hbvl.be/binnenland/trump-legt-de-schuld-bij-vandalen-nu-ook-blauwe-coating-van-spiegelvijver-afbladdert-ons-prachtige-werk-vernield-met-chemicalien/157531335.html",
+        "source": "hbvl",
         "name_only": true
       },
       {
         "title": "Donald Trump a reçu son nouvel Air Force One : une \"Maison Blanche volante\" offerte par le Qatar et qui suscite des interrogations",
         "url": "https://www.rtbf.be/article/donald-trump-a-recu-son-nouvel-air-force-one-une-maison-blanche-volante-offerte-par-le-qatar-et-qui-suscite-des-interrogations-11744124",
         "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a soudain exigé de signer le protocole d'accord avec l’Iran à Versailles: il fallu tout improviser",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/20/donald-trump-a-soudain-exige-de-signer-le-protocole-daccord-avec-liran-a-versailles-il-fallu-tout-improviser-62GOUOWZPNH2FEYI3D626D6CFA/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -42745,9 +42769,21 @@
         "name_only": true
       },
       {
+        "title": "Donald Trump en rajoute une couche à propos de Giorgia Meloni: \"Elle se débrouille mal en Italie en termes de popularité\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/20/donald-trump-en-rajoute-une-couche-a-propos-de-giorgia-meloni-elle-se-debrouille-mal-en-italie-en-termes-de-popularite-YQI34EGA55BSHAFMR2QEE7SNOI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
         "title": "Trump et les États-Unis reçoivent un cadeau à plusieurs centaines de millions de dollars de la part du Qatar: \"Il serait stupide de ne pas accepter\"",
         "url": "https://www.dhnet.be/actu/monde/2026/06/20/trump-et-les-etats-unis-recoivent-un-cadeau-a-plusieurs-centaines-de-millions-de-dollars-de-la-part-du-qatar-il-serait-stupide-de-ne-pas-accepter-CPM7XKKQLVERHE4A743BBXHIVM/",
         "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Elle m’a demandé une photo, encore et encore”: Trump attise la dispute diplomatique avec Giorgia Meloni",
+        "url": "https://www.7sur7.be/monde/elle-ma-demande-une-photo-encore-et-encore-trump-attise-la-dispute-diplomatique-avec-giorgia-meloni~a802aed4/",
+        "source": "septsursept",
         "name_only": true
       },
       {
@@ -42767,36 +42803,54 @@
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdWtNcUc2S0xhR1pQU0o0QnJscVh2WlcyOGZfM2VrOHd6TE5IWFQzYk11bUR3Y3VQTTlLZUZXaTZ5X0FNaThvbXktRVVTcnpad090a3NWQ2JBMUtBbWt0OG0yZlpHMnFrX2JlWHJoNnNTUmI2M052dWs2a2FaNTc0VHpsaURJSW1FdWhDTHNjaGUzRWE2VGtmRWpERUlZSzVacEFOdWNfVVZQZFBsSG12b0E1dU5Ia0lYa0UwRk5FbUF3NlJmX2FiaExnTW5PeXlOb09WTlhxR2JmVXRl?oc=5",
         "source": "detijd_g",
         "name_only": true
-      }
-    ],
-    "wide_matches": [
-      {
-        "title": "‘Italië smeekt niet’: Giorgia Meloni haalt uit naar Donald Trump na uitspraak over ‘gebedelde’ foto - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLWRjSWVHX005c3B1QlpTeURPSDFJNGJMVWxRMjNoUTNyanluX0RteVY1bTg0am9MLUhJRXJteUUxY0tPRVNZNXNjWDZ4VFU5YzVhNElfRFJqa0dkOGRjU0JwbjRKNkZUcUdxRm1waHlWc21MSWdWSi14UC1SbGd5ai1JSWk2bDM0TzkzQ1V4TlpMLWxjZmg1Z1VzVGNob0RXRXF3Y091MzVzN1dkMlFHaDZ3a3NJek5LcThGU2xIQUlXdkRwUk5nVWZud3Q1NWFM?oc=5",
-        "source": "google_nl",
-        "name_only": true
       },
       {
-        "title": "Björn Soenens ziet een ‘verzwakte’ Trump: ‘Dat kan twee dingen betekenen’ - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNkJwYXBSakRvb21HMmFUeGpEMkFVdUNKVEFLZ1g0MUctNEd3VTFHVGxSZWgyeWJFYUpRNHVFalhrVEFvUTQtUnYtY0xLVDYxYzktSUg4bGxHcmRuNkQzbDU2bXpvNUp2THFTNkJhcnFaZ2RQSVBDc2JpUGM4QjFMUlhQZlVaSnB2akxCbGN5dGVPbi1PTUNtSnIzbnN4alo2b2RLOXRMUWdPbnB3R1E?oc=5",
-        "source": "google_nl",
-        "name_only": true
-      },
-      {
-        "title": "Trump stelt Qatarese luxejet voor als nieuwe Air Force One, ondanks controverse - De Tijd",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNS3ZyeXktY2g3d2RjdFBqQzVFS0RqSTg2SHRINUN2YUpOdGlVNVQ1TGZyd1JHU2VPVmJSYUdrTmNkazVUbi1DakN5d1VsZUJpX1F3Z0hlcmNUWGJuTlBIQkZXVDZKSTVuRjdtN21mcnNZTDJhWG44R3lzUnF5M1JaV29XanV1eUwtYzFjN2xpWEhyLXZ2bUJmSnF3WU5seWpqU0JhNlR4S3FkdnNrNmlHZm9haGJjRmg2Mmgyb293ZWc0eXVCV3NvZnBCcFdhVVJHdG13T01rZm9ETTgzalBTdDJR?oc=5",
-        "source": "google_nl",
+        "title": "Meloni qualifie d’« insensées » les « attaques constantes et injustifiées » de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSXpsUUV6X252c2JWYlExdjBRWkVBQjhUQXZBSnRlUmZBNWdxNDNFbjZma2pzaS1WWldmLW82OXYzY1dpcjVXLTl0bVZnSHZKRDlwMmRRcG80VmgyZXFGZFZiZlRYd0p3SkEwVnF0ZGw4U2hjUzVZbFVlOTMtYVBpaW5EbEYyd2VZbWUtZV9SbTdYWWJaTDZoNFJqNUpZTUtXdl8wbktielcwU3VlNVFwRVZMem9QQkN5eUtUS3ZSck1yZw?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
         "title": "« Il était temps de changer » : Donald Trump présente le nouvel avion présidentiel malgré l’énorme polémique qui l’entoure - RTL Info",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWG8xQ3lXUTV2X1FlX0tpTHZrTVE1WjRIaHBmZlJrbXUtcExLMmdVU1dIc050ejVaZksybmFLYTJHRnF2akZqZU0xUllUUFhIUklta19VaGx2dGVzMk93M09iYUhVWjFVcExKNENGYlFyY0J5Zjl4OGRPN2dWQ2NscUV2ZW1GaDZGUnVwZ1JXd2RZTlNzNlhDY2R0NDZ6c01ScUZ6Nzdtb0h4ZjZZSHlBel9FOGNZTnJnc1pVcHNhRXc5Um02bzEyVHRxREstdWRIeHN3NDVNQ2RiTXhVcDRV?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Fotoruzie escaleert: Trump blijft erbij dat \"onpopulaire\" Meloni \"keer op keer\" om foto smeekte - VRT",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pYXlBZmVwWndfaGcyejgyM205eE12XzJtX3NJc2NpOVpudWxYbXVXaXNYTjVqdE1maWk1X1haNTZndXlRZWYzekt6NnJXNnJTUlUtdVJFNWwxak9GMzU5YV9IX2stVEdjY2o1eHZyUGYyaWY1MDlvag?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a soudain exigé de signer le protocole d'accord avec l'Iran à Versailles: il fallu tout improviser - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxObEpkMXQxMzBKWUdPaldBVDBseDNfcTRmWTdyc21VRU5JeE40N1g2X29oRUxLbXotNmFiV3pxVzljbVJFYU1INkFOSW0wRk54c2NwUXl3TkxfdUd0WEdJLXI0NnFvVEdlZmpfSmtFTER1b2pjX2laMm9OUWJJTnZzWUVSbHFiV0hnV3NDc1REUmNSb2NndnN3NWs4TnY5Q1RmNnc3NUlIal9XRTQ3VXlhSXpWTE8tTXZkMGo5QzJEOVlFQXpoYl81dTc2Y1RhYWtFaDUtMjVhMHE2QmljYkZGaHo4QlNoWGwwaXAyZ2NFaXI0VnhXSGFrVkcybU81d3NBd0JCOTFORkdUYng0QkZzY3FzbXBKMENSZ1BwMUh1YTFpckMxYlZ6a1pn?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Trump legt de schuld bij vandalen nu ook blauwe coating van beruchte spiegelvijver afbladdert: “Chemicaliën gebruikt om ons prachtige werk te vernielen” - Nieuwsblad",
-        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPeFEzVjFyQ005MWlPMkpjQnJWdWo3UXBPXzB4RmNnaEFnc0YtOXFYbHlSUFk0akh2TEs0TWQyc1hldTd5clpMUTgtcHhZRmZVQ1BJVTZTRTVGckZaSXl1S0NLYmpRM3N5UmZrb3pQeFdxbnQxZGMybWFjdnRqUzNSU2JJMENGX2xlYjdwSkRrS3Q5Uml2OUZhVHVXTHRiUDhQTUh2dUVkX2dvNzdwQjBCcHBjdFhueWlPT2N4WlI4T3RYdGR3VjZtS3hZYWlVWU9pSTk1QW1NeXVzRjZ3MFFSZXZSaDhyM3hwUms1VGVMMUdtVlhXRnRhWWRRbTBkZ0tRN01EUVJ3QzczaXVSVWNoRmtZd0FiRGt5S05VMTVINTZDUU5TUUFLOA?oc=5",
+        "title": "« Elle voulait tellement, elle m’a fait de la peine », « Nous ne supplions pas » : le torchon brûle entre Trump et Meloni à cause d’une histoire de… photo - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcG1ZM1ZGRmw3bzFIb1FQNTNzR21TVHp2UWJhck1PeDh6Y3h6S2tMWlQydmdTRXVZSWhBVXFBbHJMUTlSWHdzUy1XN0M5T2JzRV9Eb0VXOWhmR3JiUmZCdUVJaEY5a0d6VVlYV0NBWk9qQ2hPOU1GOXR0eFpMUGZKQkVxSnVsbnlJbGx0QTdBUVVGa3V5Zlh2YTZ5MHlyY2Z3XzRuXzh3TDlfRkVGOVUxd1VqOHBzdjVYRlhDRFNqV19NTXdvelVETU9sY24wVUtyOGdIdGNoRWFpWTI3VGRobkFBMXo?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump legt de schuld bij vandalen nu ook blauwe coating van spiegelvijver afbladdert: “Ons prachtige werk vernield met chemicaliën” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQc2Rra3JhUkVsbUhRVldJZUpSTU9zOE1iS24zTlJmcGdqZ0RwdUZ6alA4TVViZDBkWkUwbm9WNklPZ05vX1drUXZnOVVjNDExM0xvYmhteDI4QS1BTm5jOEFVcWZxMVFrOEcwc2lOVmw0QndNU0FIZURzbGlXQmt1SWEtLWpsTUpGbThhNC1pWFZiMVZCUlphcWlJcElBa05rSm5saHVEdGtKNXBSUUF2ZkhBT0tXNm9qMkw0b2NUVUlfWWpXblk1T0Z0b1JPNVl2enM2RkFRNXJoTGZ4Q1czNnh0dUlka01ENWJXQXo0UGUycm5FN2pWend2OWViMEE3ZmJHMEpTOGdKdUtj?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump stelt Qatarese luxejet voor als nieuwe Air Force One, ondanks controverse - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNS3ZyeXktY2g3d2RjdFBqQzVFS0RqSTg2SHRINUN2YUpOdGlVNVQ1TGZyd1JHU2VPVmJSYUdrTmNkazVUbi1DakN5d1VsZUJpX1F3Z0hlcmNUWGJuTlBIQkZXVDZKSTVuRjdtN21mcnNZTDJhWG44R3lzUnF5M1JaV29XanV1eUwtYzFjN2xpWEhyLXZ2bUJmSnF3WU5seWpqU0JhNlR4S3FkdnNrNmlHZm9haGJjRmg2Mmgyb293ZWc0eXVCV3NvZnBCcFdhVVJHdG13T01rZm9ETTgzalBTdDJR?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Verenigde Staten noemen hervormingen in Cuba “rookgordijn” - Trump toont Qatarese 747 die onderdeel Air Force One-vloot wordt | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWXNES1h6S0RneVdKR19CcDBvdC02WUhibXZQV0hyT2UwNC1jNmxaM1NDNVZVTVRfSXFPVlV4YTVVcGJfUnh0Z0VWcDNyMllaMWkyemlpZC0yR0hwanVUTFdTSEtzWWdJWnhmS3NGelczZFlTS0Z0Qm91dWp0UF9yNjk4MmRSVVV6N2hBM092ZXZsc0pYOEdtSVpEY19xTWJiSktHZ1ZiNVBqV0duTURMR1A0bTdaREJiUTV1cll5VHpTREI0TVB6V05pRFhUbDhfWWhZcWJjT3VQbXJneEE3Skt3RGJMdUNsSWo0ck5RS040dlk?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
@@ -42807,6 +42861,30 @@
         "name_only": true
       },
       {
+        "title": "Donald Trump a reçu son nouvel Air Force One : une 'Maison Blanche volante' offerte par le Qatar et qui suscite des interrogations - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNempuQW9hanJpb3p2TGItdnVKSWE2d3FGRXVZQzBSNnNvdXhhbG1Uck42aVN1SmtEbTd0ZUFlNkktZzBVeFpwclJqZ2xqOHhiTVlsMjZMTGZMQkt1QnVFeUNvRldPSHVJV091NjZwajJ6ellHTHcyQVliYUxZWmN1ekVqNFpBTWxjZVpOeS15Y3o2RTBteUY5eXdHSE9nN3VJVzc2VGVoeHNjM3g0QkRxRzRZTWUtMEphM2gyUzB5Q010X0diN1pLTGM0Zld0QXRNNTlOTWNnekJIMzhwNWFvdEswdjllU3FTb3ZpSXNJN3VLUQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "États-Unis: Ce projet cher à Donald Trump vire au fiasco total - L'essentiel",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZHVIUUpZXy1Bd0I5YVRhcmlyQU81VW1vN1B2YWNfdWxxbUlEeHdZRGFSY2tQZFFDT01kR0tuQ2hVTHdCM3kya2plYU8tWXJfaUxfTEZ4R2o3bnNvV3ljaW5rUERRTUUzTnFPODJaRjd1R3ItVjB4RFpUWWMyeGZtczlXS18xbzAweWJfbHNhOVM0Y04wY19vN3dFNFF4aFRqcEJkSlRsa25rZw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Fotoruzie escaleert: Trump blijft erbij dat \"onpopulaire\" Meloni \"keer op keer\" om foto smeekte",
+        "url": "https://vrtnws.be/p.bDMMYXZyA",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Foto-rel tussen Trump en Meloni escaleert: Italiaanse premier wil dat president stopt met “voortdurende aanvallen”",
+        "url": "https://www.hln.be/buitenland/foto-rel-tussen-trump-en-meloni-escaleert-italiaanse-premier-wil-dat-president-stopt-met-voortdurende-aanvallen~a6f78fac/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
         "title": "Björn Soenens ziet een ‘verzwakte’ Trump: ‘Dat kan twee dingen betekenen’",
         "url": "https://www.demorgen.be/nieuws/bjorn-soenens-ziet-een-verzwakte-trump-dat-kan-twee-dingen-betekenen~b587e1c6/",
         "source": "demorgen",
@@ -42819,21 +42897,27 @@
         "name_only": true
       },
       {
-        "title": "Trump legt de schuld bij vandalen nu ook blauwe coating van beruchte spiegelvijver afbladdert: “Chemicaliën gebruikt om ons prachtige werk te vernielen”",
-        "url": "https://www.nieuwsblad.be/binnenland/trump-legt-de-schuld-bij-vandalen-nu-ook-blauwe-coating-van-beruchte-spiegelvijver-afbladdert-chemicalien-gebruikt-om-ons-prachtige-werk-te-vernielen/157524892.html",
-        "source": "nieuwsblad",
+        "title": "Obama’s openen museum en bibliotheek in Chicago, en dat gaat niet zonder verdoken uithalen naar Trump",
+        "url": "https://www.demorgen.be/snelnieuws/obama-s-openen-museum-en-bibliotheek-in-chicago-en-dat-gaat-niet-zonder-verdoken-uithalen-naar-trump~be2a22aa/",
+        "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Trump legt de schuld bij vandalen nu ook blauwe coating van beruchte spiegelvijver afbladdert: “Chemicaliën gebruikt om ons prachtige werk te vernielen”",
-        "url": "https://www.gva.be/binnenland/trump-legt-de-schuld-bij-vandalen-nu-ook-blauwe-coating-van-beruchte-spiegelvijver-afbladdert-chemicalien-gebruikt-om-ons-prachtige-werk-te-vernielen/157530743.html",
-        "source": "gva",
+        "title": "Trump legt de schuld bij vandalen nu ook blauwe coating van spiegelvijver afbladdert: “Ons prachtige werk vernield met chemicaliën”",
+        "url": "https://www.hbvl.be/binnenland/trump-legt-de-schuld-bij-vandalen-nu-ook-blauwe-coating-van-spiegelvijver-afbladdert-ons-prachtige-werk-vernield-met-chemicalien/157531335.html",
+        "source": "hbvl",
         "name_only": true
       },
       {
         "title": "Donald Trump a reçu son nouvel Air Force One : une \"Maison Blanche volante\" offerte par le Qatar et qui suscite des interrogations",
         "url": "https://www.rtbf.be/article/donald-trump-a-recu-son-nouvel-air-force-one-une-maison-blanche-volante-offerte-par-le-qatar-et-qui-suscite-des-interrogations-11744124",
         "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a soudain exigé de signer le protocole d'accord avec l’Iran à Versailles: il fallu tout improviser",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/06/20/donald-trump-a-soudain-exige-de-signer-le-protocole-daccord-avec-liran-a-versailles-il-fallu-tout-improviser-62GOUOWZPNH2FEYI3D626D6CFA/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -42849,9 +42933,21 @@
         "name_only": true
       },
       {
+        "title": "Donald Trump en rajoute une couche à propos de Giorgia Meloni: \"Elle se débrouille mal en Italie en termes de popularité\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/20/donald-trump-en-rajoute-une-couche-a-propos-de-giorgia-meloni-elle-se-debrouille-mal-en-italie-en-termes-de-popularite-YQI34EGA55BSHAFMR2QEE7SNOI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
         "title": "Trump et les États-Unis reçoivent un cadeau à plusieurs centaines de millions de dollars de la part du Qatar: \"Il serait stupide de ne pas accepter\"",
         "url": "https://www.dhnet.be/actu/monde/2026/06/20/trump-et-les-etats-unis-recoivent-un-cadeau-a-plusieurs-centaines-de-millions-de-dollars-de-la-part-du-qatar-il-serait-stupide-de-ne-pas-accepter-CPM7XKKQLVERHE4A743BBXHIVM/",
         "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Elle m’a demandé une photo, encore et encore”: Trump attise la dispute diplomatique avec Giorgia Meloni",
+        "url": "https://www.7sur7.be/monde/elle-ma-demande-une-photo-encore-et-encore-trump-attise-la-dispute-diplomatique-avec-giorgia-meloni~a802aed4/",
+        "source": "septsursept",
         "name_only": true
       },
       {
@@ -42871,14 +42967,26 @@
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdWtNcUc2S0xhR1pQU0o0QnJscVh2WlcyOGZfM2VrOHd6TE5IWFQzYk11bUR3Y3VQTTlLZUZXaTZ5X0FNaThvbXktRVVTcnpad090a3NWQ2JBMUtBbWt0OG0yZlpHMnFrX2JlWHJoNnNTUmI2M052dWs2a2FaNTc0VHpsaURJSW1FdWhDTHNjaGUzRWE2VGtmRWpERUlZSzVacEFOdWNfVVZQZFBsSG12b0E1dU5Ia0lYa0UwRk5FbUF3NlJmX2FiaExnTW5PeXlOb09WTlhxR2JmVXRl?oc=5",
         "source": "detijd_g",
         "name_only": true
+      },
+      {
+        "title": "Meloni qualifie d’« insensées » les « attaques constantes et injustifiées » de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSXpsUUV6X252c2JWYlExdjBRWkVBQjhUQXZBSnRlUmZBNWdxNDNFbjZma2pzaS1WWldmLW82OXYzY1dpcjVXLTl0bVZnSHZKRDlwMmRRcG80VmgyZXFGZFZiZlRYd0p3SkEwVnF0ZGw4U2hjUzVZbFVlOTMtYVBpaW5EbEYyd2VZbWUtZV9SbTdYWWJaTDZoNFJqNUpZTUtXdl8wbktielcwU3VlNVFwRVZMem9QQkN5eUtUS3ZSck1yZw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Il était temps de changer » : Donald Trump présente le nouvel avion présidentiel malgré l’énorme polémique qui l’entoure - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWG8xQ3lXUTV2X1FlX0tpTHZrTVE1WjRIaHBmZlJrbXUtcExLMmdVU1dIc050ejVaZksybmFLYTJHRnF2akZqZU0xUllUUFhIUklta19VaGx2dGVzMk93M09iYUhVWjFVcExKNENGYlFyY0J5Zjl4OGRPN2dWQ2NscUV2ZW1GaDZGUnVwZ1JXd2RZTlNzNlhDY2R0NDZ6c01ScUZ6Nzdtb0h4ZjZZSHlBel9FOGNZTnJnc1pVcHNhRXc5Um02bzEyVHRxREstdWRIeHN3NDVNQ2RiTXhVcDRV?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 10,
-      "putin": 2,
+      "trump": 18,
+      "putin": 0,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 5,
+      "netanyahu": 1,
+      "zelensky": 4,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 0,
@@ -42893,14 +43001,14 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 17,
-      "putin": 2,
+      "trump": 27,
+      "putin": 0,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 8,
+      "netanyahu": 1,
+      "zelensky": 7,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 1,
+      "de_wever": 3,
       "bouchez": 0,
       "magnette": 0,
       "prevot": 0,
@@ -42912,36 +43020,36 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 17,
-      "crime": 14,
-      "eu": 15,
-      "politics": 19,
-      "be_gov": 13,
-      "culture": 12,
+      "war": 35,
+      "crime": 19,
+      "eu": 27,
+      "politics": 36,
+      "be_gov": 14,
+      "culture": 21,
       "tech": 16,
-      "economy": 7,
-      "sports": 42,
-      "health": 3,
-      "climate": 3,
-      "migration": 1,
-      "education": 1,
-      "weather": 27
+      "economy": 10,
+      "sports": 71,
+      "health": 9,
+      "climate": 6,
+      "migration": 0,
+      "education": 3,
+      "weather": 31
     },
     "wide_themes": {
-      "war": 27,
-      "crime": 19,
-      "eu": 24,
-      "politics": 28,
-      "be_gov": 16,
-      "culture": 15,
-      "tech": 24,
-      "economy": 10,
-      "sports": 72,
-      "health": 3,
-      "climate": 5,
-      "migration": 2,
-      "education": 1,
-      "weather": 35
+      "war": 58,
+      "crime": 22,
+      "eu": 36,
+      "politics": 53,
+      "be_gov": 18,
+      "culture": 26,
+      "tech": 25,
+      "economy": 15,
+      "sports": 115,
+      "health": 12,
+      "climate": 10,
+      "migration": 1,
+      "education": 5,
+      "weather": 41
     }
   }
 ]
