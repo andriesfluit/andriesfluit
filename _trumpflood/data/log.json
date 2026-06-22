@@ -43619,5 +43619,633 @@
       "education": 0,
       "weather": 22
     }
+  },
+  {
+    "date": "2026-06-22",
+    "generated_at": "2026-06-22T11:32:35+02:00",
+    "last_checked_at": "2026-06-22T11:32:35+02:00",
+    "total_articles": 491,
+    "trump_articles": 15,
+    "percentage": 3.1,
+    "core_percentage": 3.1,
+    "core_percentage_name": 3.1,
+    "trump_articles_expanded": 15,
+    "core_percentage_expanded": 3.1,
+    "indirect_references": 0,
+    "wide_total_articles": 688,
+    "wide_trump_articles": 23,
+    "wide_percentage": 3.3,
+    "wide_trump_articles_expanded": 23,
+    "wide_percentage_expanded": 3.3,
+    "macro_percentage": 3.2,
+    "qualifying_outlets": 22,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 46,
+    "cross_outlet_dup_groups": 23,
+    "cross_outlet_dup_rate": 9.4,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.5,
+    "breadth": 0.5,
+    "deviation": 1.05,
+    "smoothed_pct": 2.76,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
+      },
+      "google_nl_politics": {
+        "fetched": 49,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 53,
+        "today": 13,
+        "kept": 6,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 50.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 69,
+        "today": 21,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 27,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 49,
+        "today": 9,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_fr_business": {
+        "fetched": 37,
+        "today": 5,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 33,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 12.12
+      },
+      "lecho": {
+        "fetched": 97,
+        "today": 32,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 66,
+        "kept": 66,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.03
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 29,
+        "kept": 29,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.9
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 52,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "trends_g": {
+        "fetched": 30,
+        "today": 11,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 30,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump-aanhanger wint nipt presidentsverkiezing Colombia volgens voorlopige resultaten",
+        "url": "https://www.demorgen.be/snelnieuws/trump-aanhanger-wint-nipt-presidentsverkiezing-colombia-volgens-voorlopige-resultaten~bcbc6ea2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Ze haatten me. En kijk nu eens naar hen’: nieuw boek toont Trump op het hoogtepunt van zijn macht",
+        "url": "https://www.demorgen.be/nieuws/ze-haatten-me-en-kijk-nu-eens-naar-hen-nieuw-boek-toont-trump-op-het-hoogtepunt-van-zijn-macht~b375d62f/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump zegt dat Reflecting Pool “onmiddellijk” gerepareerd wordt",
+        "url": "https://www.hbvl.be/buitenland/trump-zegt-dat-reflecting-pool-onmiddellijk-gerepareerd-wordt/134944418.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Présidentielle en Colombie : le candidat pro-Trump, Abelardo de la Espriella, remporte la victoire sur le fil",
+        "url": "https://www.rtbf.be/article/presidentielle-en-colombie-le-candidat-pro-trump-abelardo-de-la-espriella-remporte-la-victoire-sur-le-fil-11744881",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "40 milliards de dollars de dépenses et une inflation record : la facture de la guerre en Iran touche les Américains malgré les paroles de Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/22/40-milliards-de-dollars-de-depenses-et-une-inflation-record-la-facture-de-la-guerre-en-iran-touche-les-americains-malgre-les-paroles-de-trump-D7YP22D3YBD4BPOJGO2WGSTZRU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un homme de 67 ans accusé d’avoir vandalisé le projet phare de Trump : “Des années de prison”",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/22/un-homme-de-67-ans-accuse-davoir-vandalise-le-projet-phare-de-trump-des-annees-de-prison-VHJUTMO33VCXNOUNDYBULZQIRY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Présidentielle en Colombie: victoire sur le fil du candidat pro-Trump qui promet une \"nouvelle ère\", heurts entre police et manifestants",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/22/presidentielle-en-colombie-victoire-sur-le-fil-du-candidat-pro-trump-qui-promet-une-nouvelle-ere-heurts-entre-police-et-manifestants-KOY25XQSXBFOLBGWDJGGLJ4PNM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Accord avec l’Iran, une bonne nouvelle politique pour Donald Trump ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/22/accord-avec-liran-une-bonne-nouvelle-politique-pour-donald-trump-SLBI3SPBFNHM7G3BMWK25USBDM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En Colombie, le candidat de la droite dure pro-Trump remporte l'élection présidentielle et promet \"une nouvelle ère\" - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOV3NmMnRHSE9vQVJFenEwZVhsWlpCOWR1bXZjaEw4UmhVNzl3ZXJtM1BfOENEUWZXN2xCMXZfenc2WlVfWVZYRUkzMkVtZndEZEQ0TVpVWDRJaWtFa0h4Y1J1bW54YXNhRnlxR2IyWnNteWo1Y1d1M0pONGI5cTN0Z0lFOXZWVUlTaXdsYlNkZXJYUDNlNEJQc1JwcERweHd0R1pDcTducUk4bkxjX2t4OVp2UFpLczl0c3N6VFBIRjFvaWxDVmYzT3gxLThNQU9OOXpwWjdZaVlGTGo3cWlULVBsZFBwSXNKSnd5NWRmZlpJckxYd3JRemVSQUFmbzE5T3FSYWRGYWVzUzkwbjMwUllIOGQ2eHp5TV9Lb1pxS05FUFk?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La Colombie appelée à choisir entre la gauche au pouvoir et une droite pro-Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZ2dKWFRKbkZfeVNOcUNJS1lZaDljLW9Qem8zQ1VuMmdrRV9QVUpORWk3cGdCMDNnVFFhUi14UGFXOG51a19NQnBMa2JOQnFXVWROVm1hUnVyV2l1NjlTYTlORjlJZGt0VjY1LUdKRVZVbWlEc290ZlEyWXc0OGVkSy0xcEVUUXhGYlkySFVZTFJVREtOYWp4endhVW1vblQ3NXByVHljRmxTMGFfVE5sV2piZDdHMm54b00tLUZJcGZJbTRJWHBQMGw4NEdqZkVrMi1NbkdKV3FySUV5N2M5emhYWF9CU2NnODVKdi0zb21uUEZsUU53?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Colombie: le candidat pro-Trump se présente comme \"président élu\" sur X, Marco Rubio le félicite",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/22/election-presidentielle-en-colombie-le-candidat-pro-trump-se-presente-comme-president-elu-sur-x-marco-rubio-le-felicite-73K4C7UKOBB3JD5BYYOEM66XAU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Quand Donald Trump souhaite \"des années de prison\" à cet ancien athlète olympique",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/22/quand-donald-trump-souhaite-des-annees-de-prison-a-cet-ancien-athlete-olympique-V4FTBQROPRFYBDNQHKJMYMXJXY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La rénovation du miroir d’eau de Washington vire au fiasco: Trump accuse un kayakiste olympique de vandalisme",
+        "url": "https://www.7sur7.be/monde/la-renovation-du-miroir-deau-de-washington-vire-au-fiasco-trump-accuse-un-kayakiste-olympique-de-vandalisme~aca6aa49/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Abelardo de la Espriella, soutenu par Trump, élu président de la Colombie",
+        "url": "https://www.7sur7.be/monde/abelardo-de-la-espriella-soutenu-par-trump-elu-president-de-la-colombie~a109d2dc/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "La Colombie vire à droite avec la victoire à la présidentielle d’un candidat pro-Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaHR6UFp0OEljRWVoZXpiUFEzamlOSjlybDg0U1dvRG5nWlpMZkVIb3p5ZXFJZ0NEb0tyVVN3WXhRRkVZYUdKYXEwcU94QThQbkN1dDluNVp1c2V4THU3c0JkekFzdTROU2lLaXlzZTd2RlBGdjlxYV9WcjdPbU5OVEw4OW1nSXpxUnU3Tk56NHFlekMtQ051NkUwY3o2LVBmbXJKQm5Oa3dROVJKdVBFM0hZeFRQN2c2cmx6NFZhSWc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Gouden versieringen plakken met superlijm en een obsessie met Epstein: de belangrijkste onthullingen uit een nieuw boek over Trump - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQeWRCZFVDN3UyM1RDdWJ6VWZlS28zZUdCLURBTVdPWWUtYm5OSmwwejVOSEJwdTg4T2tGZGdGUy1zdXg2dzNLdVZsQW40OW5EM0ZIcEhQRC1IMnZ1QXpJRzZaR0FSNWc3NEdtaERkMnJfemwwREdxMVdFQlRKNkJNOUdDN01iUXNieFQyRFRWcVhYYjBfb3pUNnRqWTRZTWVwRGJSZ2QtdUlHSVdFNDh5MVVUVjdnQWN0TFRQbDllMzZpMWF0TTNIeEtHazlFZ1VuRjQwejA5S1NzLUdfbHBRVGxTTnlBLXJfVUZ4YjlLdXVFRzY1eDNoYVR4c05VOTQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump zegt dat Reflecting Pool “onmiddellijk” gerepareerd wordt - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX2txcE9hd2VpWjRaZ2Nxc0FrbmZUOTQzMUF1MHFyanR6cnUyaEU5SG5aSjBXd2Q1M1VCaUdkWjJEbWpETHd1bzZoeXRLRzd2aUpvSFktT1FiajdnNGpiSU1RV2JiN1A1andCeE4yLUhGd2xSZEpsdUlTVHNYcktSM2Z3cktfRTZQZG5sZUNBV3ZHM2ZJRGdyakR0MmgzYmpMckpTaFpnejFKX2hKX3NTMQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Colombie: le candidat pro-Trump se présente comme \"président élu\" sur X, Marco Rubio le félicite - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQcHlZOFd5RUtFUlNfeDktYkVZSmY2RmM2WmdZSE4tYXQzSEhfbTJ2aVNRcDRjT0JzT2NMWkhyNll4OUZHZGdTSWl2blJ2OEhqUmlxTElXMmNZbzJ1d0s3SF81RlItMHZLMTBtQ0RnLXdub2I3UlJBVlJaVUQ4VUJ5dDl0ZWZrRWtpMHY1MXZoOTBsNUEwSXU2bVFCUEpicUdPdm45UnRFakU5TmtCNHYtaEF1T2ROaHVJYnQ4bk80dm84OC1tUVhiYk9ZUDNDSlV5TFNmbGpmb3VrQ202YzRUaDZsTG5pbTVjRFFUYUwzTkQtaURRYWI2VHNVVk9ldEprbG5DakphTkJmUU9Ub2xiUkpUSlBpZzV3X1E?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Un homme de 67 ans accusé d'avoir vandalisé le projet phare de Trump : \"Des années de prison\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQb2dEWU93THk3dkdNRmdPYzdMWldoSEF2Slp5RHU2UTVFcnhvRFBaaXdnRldTSEZjUDRhNG1Vd2doRHktWVU2d2ZEalQ5Ymc1OFhYZ1lCTC1DTGdUVTd6NGRSaFgwc2w5TkJKWGFyMDNRWGFuZ1VzV0Y2aVowdm1zTnluRjVRNjZkUU9IZ1dRQzZJMFF1OHFJY0VaajlhM0RrdERveVM4T1h6dVhzOTdYbHNkcFFld2JXcFZvRU1rektjTXFiV2h5VS1QUDcxbGJtOHA2U1ZXcEdJcWhXYVFWWWpEZ2JrSGpGcUx0TURheEVlR0FTX254MGtmMWVWZlVCMmNn?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Renovatie van iconische spiegelvijver mislukt volledig: Trump geeft olympische kanovaarder en andere “vandalen” de schuld - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbDR3aG93UEhlby1yZXRpNi1yVFNETzczODNHdEh2X2NEZklWZjdKeVR4dDg5ZTZzNWxvVHlHa2JXdTUtZDZYUmN5YmJKbEtwc3RyNUNHMWFCd2F6MFMtZXBTbWdjMkp2clhveVByQm03V0lvZFE2dGJFQ2Faa2RPX21VYXJKWUVCNjJaTHppbDdVNUptRENZcWJqVE9WbWl6RTFfdXJ6Rl9WNFItSDhkRDRNeU9DRHNKemhBSFVrVC10RWN0SU9fdXhwRVdqZ2llV0dONmZTMTA0cHo2OU1OOFNENkhEaXVXZnNhamMwdw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump had gelijk. De oorlog eindigde met een overgave - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORGxmX2ROM0k5enFYQVcwVmRzbGluM1NWRXBrakt4VzhXa2UtVVIwbkNLWGJhNHRVUk5EdFUzX0Jzb1pOYzg4SHlFclZMRy12d191c3VaM0VxR01qYWJyWVVRNXdYQnhDSVowWFU0cjBiMGFFYWR5cGc0SmFvRHJGSnluOHFjLXlKTFJQX1Z5MXRvU2JDc1ZLMDlUYw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "250 jaar VS is voor Trump toch vooral 80 jaar hijzelf - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRi1nQ2h5RXlDdzRUbFY5YUhZaWVxWUs3N1FROEswMkJtRzZJRXF6cWg4WHhFaDhVWW9mVFotOHZvUXprVlpPdlFZVW1TclVSbVVMcGRORWdSNEIyNDR4dXU0REdpZ0tNaUxUQXZXa1JXWFpqV1ZjdzlXdU1WeDVIRGNmMzg0SHV5RmlfYk1Ka3pGTnNrQjNKZ0dqRmQ1V2Z1UVdLamswSWdjSTg?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Présidentielle en Colombie : le candidat pro-Trump, Abelardo de la Espriella, remporte la victoire sur le fil - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeDhQVm8tQ1FfZS1LZVA2OWxOUU1kYjRyWS1aYmxqY04tSXhJZjdFX2NyNVhKb3ZZNDZsRXYzVUtRS0xHeC1ZRWt3eXZSeXpncVByd203d2lLZkFDQ3ZlWGpUMi1HZjZHQzhmaUFrSXhwUEFyd0h2UjFld1c3SkpKbDdtOTRSOG9PSDYxS3hpWFdtaGg2X2JPN1p1OGlSSTlyUFJxQTVHYjVaRzhNSzJoTmZCLTVvbHNsYnpLZmFtdGhoSE1aZVl4ZUVmeVBpQm5LQkRESWNyQUdDdw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump-aanhanger wint nipt presidentsverkiezing Colombia volgens voorlopige resultaten",
+        "url": "https://www.demorgen.be/snelnieuws/trump-aanhanger-wint-nipt-presidentsverkiezing-colombia-volgens-voorlopige-resultaten~bcbc6ea2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Ze haatten me. En kijk nu eens naar hen’: nieuw boek toont Trump op het hoogtepunt van zijn macht",
+        "url": "https://www.demorgen.be/nieuws/ze-haatten-me-en-kijk-nu-eens-naar-hen-nieuw-boek-toont-trump-op-het-hoogtepunt-van-zijn-macht~b375d62f/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump zegt dat Reflecting Pool “onmiddellijk” gerepareerd wordt",
+        "url": "https://www.hbvl.be/buitenland/trump-zegt-dat-reflecting-pool-onmiddellijk-gerepareerd-wordt/134944418.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Présidentielle en Colombie : le candidat pro-Trump, Abelardo de la Espriella, remporte la victoire sur le fil",
+        "url": "https://www.rtbf.be/article/presidentielle-en-colombie-le-candidat-pro-trump-abelardo-de-la-espriella-remporte-la-victoire-sur-le-fil-11744881",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "40 milliards de dollars de dépenses et une inflation record : la facture de la guerre en Iran touche les Américains malgré les paroles de Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/22/40-milliards-de-dollars-de-depenses-et-une-inflation-record-la-facture-de-la-guerre-en-iran-touche-les-americains-malgre-les-paroles-de-trump-D7YP22D3YBD4BPOJGO2WGSTZRU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un homme de 67 ans accusé d’avoir vandalisé le projet phare de Trump : “Des années de prison”",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/22/un-homme-de-67-ans-accuse-davoir-vandalise-le-projet-phare-de-trump-des-annees-de-prison-VHJUTMO33VCXNOUNDYBULZQIRY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Présidentielle en Colombie: victoire sur le fil du candidat pro-Trump qui promet une \"nouvelle ère\", heurts entre police et manifestants",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/22/presidentielle-en-colombie-victoire-sur-le-fil-du-candidat-pro-trump-qui-promet-une-nouvelle-ere-heurts-entre-police-et-manifestants-KOY25XQSXBFOLBGWDJGGLJ4PNM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Accord avec l’Iran, une bonne nouvelle politique pour Donald Trump ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/22/accord-avec-liran-une-bonne-nouvelle-politique-pour-donald-trump-SLBI3SPBFNHM7G3BMWK25USBDM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En Colombie, le candidat de la droite dure pro-Trump remporte l'élection présidentielle et promet \"une nouvelle ère\" - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOV3NmMnRHSE9vQVJFenEwZVhsWlpCOWR1bXZjaEw4UmhVNzl3ZXJtM1BfOENEUWZXN2xCMXZfenc2WlVfWVZYRUkzMkVtZndEZEQ0TVpVWDRJaWtFa0h4Y1J1bW54YXNhRnlxR2IyWnNteWo1Y1d1M0pONGI5cTN0Z0lFOXZWVUlTaXdsYlNkZXJYUDNlNEJQc1JwcERweHd0R1pDcTducUk4bkxjX2t4OVp2UFpLczl0c3N6VFBIRjFvaWxDVmYzT3gxLThNQU9OOXpwWjdZaVlGTGo3cWlULVBsZFBwSXNKSnd5NWRmZlpJckxYd3JRemVSQUFmbzE5T3FSYWRGYWVzUzkwbjMwUllIOGQ2eHp5TV9Lb1pxS05FUFk?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La Colombie appelée à choisir entre la gauche au pouvoir et une droite pro-Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZ2dKWFRKbkZfeVNOcUNJS1lZaDljLW9Qem8zQ1VuMmdrRV9QVUpORWk3cGdCMDNnVFFhUi14UGFXOG51a19NQnBMa2JOQnFXVWROVm1hUnVyV2l1NjlTYTlORjlJZGt0VjY1LUdKRVZVbWlEc290ZlEyWXc0OGVkSy0xcEVUUXhGYlkySFVZTFJVREtOYWp4endhVW1vblQ3NXByVHljRmxTMGFfVE5sV2piZDdHMm54b00tLUZJcGZJbTRJWHBQMGw4NEdqZkVrMi1NbkdKV3FySUV5N2M5emhYWF9CU2NnODVKdi0zb21uUEZsUU53?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Colombie: le candidat pro-Trump se présente comme \"président élu\" sur X, Marco Rubio le félicite",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/22/election-presidentielle-en-colombie-le-candidat-pro-trump-se-presente-comme-president-elu-sur-x-marco-rubio-le-felicite-73K4C7UKOBB3JD5BYYOEM66XAU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Quand Donald Trump souhaite \"des années de prison\" à cet ancien athlète olympique",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/22/quand-donald-trump-souhaite-des-annees-de-prison-a-cet-ancien-athlete-olympique-V4FTBQROPRFYBDNQHKJMYMXJXY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La rénovation du miroir d’eau de Washington vire au fiasco: Trump accuse un kayakiste olympique de vandalisme",
+        "url": "https://www.7sur7.be/monde/la-renovation-du-miroir-deau-de-washington-vire-au-fiasco-trump-accuse-un-kayakiste-olympique-de-vandalisme~aca6aa49/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Abelardo de la Espriella, soutenu par Trump, élu président de la Colombie",
+        "url": "https://www.7sur7.be/monde/abelardo-de-la-espriella-soutenu-par-trump-elu-president-de-la-colombie~a109d2dc/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "La Colombie vire à droite avec la victoire à la présidentielle d’un candidat pro-Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaHR6UFp0OEljRWVoZXpiUFEzamlOSjlybDg0U1dvRG5nWlpMZkVIb3p5ZXFJZ0NEb0tyVVN3WXhRRkVZYUdKYXEwcU94QThQbkN1dDluNVp1c2V4THU3c0JkekFzdTROU2lLaXlzZTd2RlBGdjlxYV9WcjdPbU5OVEw4OW1nSXpxUnU3Tk56NHFlekMtQ051NkUwY3o2LVBmbXJKQm5Oa3dROVJKdVBFM0hZeFRQN2c2cmx6NFZhSWc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 15,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 5,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 4
+    },
+    "wide_comparisons": {
+      "trump": 23,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 8,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 7
+    },
+    "themes": {
+      "war": 45,
+      "crime": 15,
+      "eu": 8,
+      "politics": 27,
+      "be_gov": 16,
+      "culture": 14,
+      "tech": 8,
+      "economy": 15,
+      "sports": 38,
+      "health": 4,
+      "climate": 3,
+      "migration": 1,
+      "education": 3,
+      "weather": 16
+    },
+    "wide_themes": {
+      "war": 60,
+      "crime": 22,
+      "eu": 13,
+      "politics": 37,
+      "be_gov": 24,
+      "culture": 19,
+      "tech": 16,
+      "economy": 19,
+      "sports": 61,
+      "health": 7,
+      "climate": 3,
+      "migration": 1,
+      "education": 4,
+      "weather": 26
+    }
   }
 ]
