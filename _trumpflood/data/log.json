@@ -44247,5 +44247,477 @@
       "education": 4,
       "weather": 26
     }
+  },
+  {
+    "date": "2026-06-23",
+    "generated_at": "2026-06-23T09:04:45+02:00",
+    "last_checked_at": "2026-06-23T09:04:45+02:00",
+    "total_articles": 405,
+    "trump_articles": 2,
+    "percentage": 0.5,
+    "core_percentage": 0.5,
+    "core_percentage_name": 0.5,
+    "trump_articles_expanded": 5,
+    "core_percentage_expanded": 1.2,
+    "indirect_references": 3,
+    "wide_total_articles": 581,
+    "wide_trump_articles": 3,
+    "wide_percentage": 0.5,
+    "wide_trump_articles_expanded": 7,
+    "wide_percentage_expanded": 1.2,
+    "macro_percentage": 0.9,
+    "qualifying_outlets": 20,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 43,
+    "cross_outlet_dup_groups": 21,
+    "cross_outlet_dup_rate": 10.6,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Barely registered today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 0.11,
+    "deviation": 0.16,
+    "smoothed_pct": 2.19,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 12,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 39,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 56,
+        "today": 15,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 68,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 63,
+        "today": 16,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 26,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 60,
+        "today": 5,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 51,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 74,
+        "kept": 51,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 40,
+        "kept": 40,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 80,
+        "today": 8,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 72,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Nieuw boek onthult opmerkelijke scènes in Witte Huis: Trump plakt gouden decoratie met secondelijm en scheldt ministers uit",
+        "url": "https://www.hln.be/nieuws/nieuw-boek-onthult-opmerkelijke-scenes-in-witte-huis-trump-plakt-gouden-decoratie-met-secondelijm-en-scheldt-ministers-uit~aee2fae2/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Twee extra arrestaties voor plannen aanslag tijdens kooigevechten bij Witte Huis • ‘Verdwenen moeder van tv-presentatrice Savannah Guthrie overleden’",
+        "url": "https://www.demorgen.be/snelnieuws/live-twee-extra-arrestaties-voor-plannen-aanslag-tijdens-kooigevechten-bij-witte-huis~b13cc951/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "États-Unis : la sortie du livre \"Regime Change\" ravive les inquiétudes sur la présence d’une taupe à la Maison-Blanche",
+        "url": "https://www.rtbf.be/article/etats-unis-la-sortie-du-livre-regime-change-ravive-les-inquietudes-sur-la-presence-d-une-taupe-a-la-maison-blanche-11745124",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Deux arrestations supplémentaires pour l'attentat déjoué à la Maison Blanche",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/23/deux-arrestations-supplementaires-pour-lattentat-dejoue-a-la-maison-blanche-F6LIMR7UXNH7JA6EH2GDXZSYLM/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "“Ce sera appliqué”: Trump menace de prison quiconque endommagerait le bassin qu’il a fait rénover",
+        "url": "https://www.7sur7.be/monde/ce-sera-applique-trump-menace-de-prison-quiconque-endommagerait-le-bassin-quil-a-fait-renover~ab82d45a/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Nieuw boek onthult opmerkelijke scènes in Witte Huis: Trump plakt gouden decoratie met secondelijm en scheldt ministers uit - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRDhXMVNDZGNldkJLdWlSX2lESEJwQTdRaW5kZ1FZVHZ4bFNmWmJ4QVBVNkxaVDJTY3VaZUh6ZldCd0g5Tk05b1IwQ204Qk5QaUF4N1VjMXlLaFd6OWtmZTRNeWJ2dTJzMmtiaGdEb3NSckZnUEN2ZUZwNFl3dzhVX2h1RDFxMTlCZm96U0E4UEQxMzEwMG5yMDAzb2NVYVAzeXdOVHFRN2Vpb2djQlNqcFJ5WFFnMF81blBmVlFFcmlQUmhPYU90bnVwd2VKUGh3enQ0RE1vYmhvN0pJSzZ1U0oyczJNNmJvTU1wSXNUUQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "États-Unis : la sortie du livre 'Regime Change' ravive les inquiétudes sur la présence d’une taupe à la Maison-Blanche - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPazFySno4T19YVFQ1Q0tEVlpXdW5SQUstZ2FFM0pSZlpEX05HWU1nSktGdE5GLXZ1THdIUk40SDBGeURBc0NKdHVta21tNWRQZHZxSnRTVy1renFyakNGUGM4VnQ3YkZrM09MV2dzWk5hR0F2eGg2dGdtMzl2U3hKeDllbnEwNm1KUnE0VE11ZXJVQndrY1Z0VnE5S2JKcVgtalFpNU10dkpKRDk1RV9KOVhLTGsyT3V4S0FFTVFKUmpZWGVaR3YwQ1JGaHlIVW5QM2tuSmdzOWtxN3l5dF9pRW1YNGdUQQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": false
+      },
+      {
+        "title": "Nieuw boek onthult opmerkelijke scènes in Witte Huis: Trump plakt gouden decoratie met secondelijm en scheldt ministers uit",
+        "url": "https://www.hln.be/nieuws/nieuw-boek-onthult-opmerkelijke-scenes-in-witte-huis-trump-plakt-gouden-decoratie-met-secondelijm-en-scheldt-ministers-uit~aee2fae2/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Twee extra arrestaties voor plannen aanslag tijdens kooigevechten bij Witte Huis • ‘Verdwenen moeder van tv-presentatrice Savannah Guthrie overleden’",
+        "url": "https://www.demorgen.be/snelnieuws/live-twee-extra-arrestaties-voor-plannen-aanslag-tijdens-kooigevechten-bij-witte-huis~b13cc951/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "États-Unis : la sortie du livre \"Regime Change\" ravive les inquiétudes sur la présence d’une taupe à la Maison-Blanche",
+        "url": "https://www.rtbf.be/article/etats-unis-la-sortie-du-livre-regime-change-ravive-les-inquietudes-sur-la-presence-d-une-taupe-a-la-maison-blanche-11745124",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Deux arrestations supplémentaires pour l'attentat déjoué à la Maison Blanche",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/23/deux-arrestations-supplementaires-pour-lattentat-dejoue-a-la-maison-blanche-F6LIMR7UXNH7JA6EH2GDXZSYLM/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "“Ce sera appliqué”: Trump menace de prison quiconque endommagerait le bassin qu’il a fait rénover",
+        "url": "https://www.7sur7.be/monde/ce-sera-applique-trump-menace-de-prison-quiconque-endommagerait-le-bassin-quil-a-fait-renover~ab82d45a/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 3,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 2
+    },
+    "themes": {
+      "war": 13,
+      "crime": 9,
+      "eu": 13,
+      "politics": 18,
+      "be_gov": 12,
+      "culture": 12,
+      "tech": 5,
+      "economy": 6,
+      "sports": 32,
+      "health": 1,
+      "climate": 5,
+      "migration": 2,
+      "education": 2,
+      "weather": 19
+    },
+    "wide_themes": {
+      "war": 19,
+      "crime": 12,
+      "eu": 19,
+      "politics": 27,
+      "be_gov": 14,
+      "culture": 17,
+      "tech": 9,
+      "economy": 9,
+      "sports": 47,
+      "health": 3,
+      "climate": 7,
+      "migration": 2,
+      "education": 5,
+      "weather": 29
+    }
   }
 ]
