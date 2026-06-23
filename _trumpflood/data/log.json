@@ -44250,38 +44250,38 @@
   },
   {
     "date": "2026-06-23",
-    "generated_at": "2026-06-23T09:04:45+02:00",
-    "last_checked_at": "2026-06-23T15:25:00+02:00",
-    "total_articles": 405,
-    "trump_articles": 2,
-    "percentage": 0.5,
-    "core_percentage": 0.5,
-    "core_percentage_name": 0.5,
-    "trump_articles_expanded": 5,
-    "core_percentage_expanded": 1.2,
-    "indirect_references": 3,
-    "wide_total_articles": 581,
-    "wide_trump_articles": 3,
-    "wide_percentage": 0.5,
-    "wide_trump_articles_expanded": 7,
-    "wide_percentage_expanded": 1.2,
-    "macro_percentage": 0.9,
-    "qualifying_outlets": 20,
+    "generated_at": "2026-06-23T20:27:26+02:00",
+    "last_checked_at": "2026-06-23T20:27:26+02:00",
+    "total_articles": 928,
+    "trump_articles": 7,
+    "percentage": 0.8,
+    "core_percentage": 0.8,
+    "core_percentage_name": 0.8,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 0.9,
+    "indirect_references": 1,
+    "wide_total_articles": 1277,
+    "wide_trump_articles": 15,
+    "wide_percentage": 1.2,
+    "wide_trump_articles_expanded": 17,
+    "wide_percentage_expanded": 1.3,
+    "macro_percentage": 1.6,
+    "qualifying_outlets": 32,
     "core_outlets_total": 19,
-    "core_outlets_active": 18,
-    "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 43,
-    "cross_outlet_dup_groups": 21,
-    "cross_outlet_dup_rate": 10.6,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 67,
+    "cross_outlet_dup_groups": 33,
+    "cross_outlet_dup_rate": 7.2,
     "zone": "dry",
     "label": "The zone is dry",
     "narrative": "Barely registered today.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.0,
-    "breadth": 0.11,
-    "deviation": 0.16,
-    "smoothed_pct": 2.19,
+    "dominance": 0.3,
+    "breadth": 0.26,
+    "deviation": 0.25,
+    "smoothed_pct": 2.23,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
     "theme_rank": 12,
@@ -44289,96 +44289,96 @@
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 23,
-        "kept": 23,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 32,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
       },
       "google_fr": {
         "fetched": 34,
-        "today": 13,
-        "kept": 13,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "google_nl_politics": {
-        "fetched": 39,
-        "today": 8,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_world": {
-        "fetched": 56,
-        "today": 15,
+        "fetched": 38,
+        "today": 13,
         "kept": 12,
         "trump": 1,
         "trump_expanded": 1,
         "share": 8.33
       },
+      "google_nl_world": {
+        "fetched": 57,
+        "today": 33,
+        "kept": 28,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 14.29
+      },
       "google_nl_business": {
         "fetched": 70,
-        "today": 16,
-        "kept": 12,
+        "today": 42,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 68,
-        "today": 8,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 61,
+        "today": 29,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
       },
       "google_nl_sport": {
-        "fetched": 63,
-        "today": 16,
-        "kept": 12,
+        "fetched": 54,
+        "today": 35,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 26,
-        "today": 6,
-        "kept": 6,
+        "fetched": 37,
+        "today": 14,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 60,
-        "today": 5,
-        "kept": 2,
+        "fetched": 63,
+        "today": 33,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 1,
         "share": 0.0
       },
       "google_fr_business": {
-        "fetched": 51,
-        "today": 8,
-        "kept": 7,
+        "fetched": 68,
+        "today": 36,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 23,
-        "kept": 23,
+        "today": 47,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 74,
-        "kept": 51,
+        "today": 89,
+        "kept": 69,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -44392,12 +44392,12 @@
         "share": 3.33
       },
       "demorgen": {
-        "fetched": 31,
-        "today": 18,
-        "kept": 18,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
+        "fetched": 29,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -44417,136 +44417,136 @@
       },
       "hbvl": {
         "fetched": 50,
-        "today": 44,
-        "kept": 44,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 23,
-        "kept": 22,
+        "today": 54,
+        "kept": 51,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 16,
-        "kept": 16,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 2,
+        "kept": 2,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 10,
-        "kept": 10,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
-        "trump_expanded": 1,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 20,
-        "kept": 20,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
+        "today": 76,
+        "kept": 76,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 1.32
       },
       "lecho": {
         "fetched": 100,
-        "today": 24,
-        "kept": 24,
+        "today": 82,
+        "kept": 80,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 40,
-        "kept": 40,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 97,
+        "kept": 97,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.06
       },
       "septsursept": {
         "fetched": 30,
-        "today": 14,
-        "kept": 14,
+        "today": 30,
+        "kept": 30,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 7.14
+        "share": 3.33
       },
       "bx1": {
         "fetched": 10,
-        "today": 4,
-        "kept": 4,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 10,
-        "kept": 8,
+        "today": 52,
+        "kept": 40,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 20,
-        "kept": 19,
+        "today": 64,
+        "kept": 59,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 7,
-        "kept": 7,
+        "today": 42,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 8,
-        "kept": 8,
+        "today": 42,
+        "kept": 42,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 8,
-        "kept": 8,
+        "today": 49,
+        "kept": 43,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 80,
-        "today": 8,
-        "kept": 2,
+        "fetched": 100,
+        "today": 49,
+        "kept": 35,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 72,
-        "today": 7,
-        "kept": 7,
+        "fetched": 100,
+        "today": 47,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -44575,22 +44575,28 @@
     ],
     "matches": [
       {
-        "title": "Nieuw boek onthult opmerkelijke scènes in Witte Huis: Trump plakt gouden decoratie met secondelijm en scheldt ministers uit",
-        "url": "https://www.hln.be/nieuws/nieuw-boek-onthult-opmerkelijke-scenes-in-witte-huis-trump-plakt-gouden-decoratie-met-secondelijm-en-scheldt-ministers-uit~aee2fae2/",
+        "title": "Netanyahu “hysterisch” over nieuwe afspraken die Trump maakt met Iran over Libanon",
+        "url": "https://www.hln.be/buitenland/netanyahu-hysterisch-over-nieuwe-afspraken-die-trump-maakt-met-iran-over-libanon~a8c7bcd5/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - Twee extra arrestaties voor plannen aanslag tijdens kooigevechten bij Witte Huis • ‘Verdwenen moeder van tv-presentatrice Savannah Guthrie overleden’",
-        "url": "https://www.demorgen.be/snelnieuws/live-twee-extra-arrestaties-voor-plannen-aanslag-tijdens-kooigevechten-bij-witte-huis~b13cc951/",
+        "title": "Gezamenlijke belangen zijn ver te zoeken, maar toch kan Trump niet zonder Netanyahu",
+        "url": "https://www.demorgen.be/nieuws/gezamenlijke-belangen-zijn-ver-te-zoeken-maar-toch-kan-trump-niet-zonder-netanyahu~bc15a341/",
         "source": "demorgen",
-        "name_only": false
+        "name_only": true
       },
       {
-        "title": "États-Unis : la sortie du livre \"Regime Change\" ravive les inquiétudes sur la présence d’une taupe à la Maison-Blanche",
-        "url": "https://www.rtbf.be/article/etats-unis-la-sortie-du-livre-regime-change-ravive-les-inquietudes-sur-la-presence-d-une-taupe-a-la-maison-blanche-11745124",
-        "source": "rtbf",
-        "name_only": false
+        "title": "Live - Trump: ‘Iran heeft wél ingestemd voor nucleaire inspecties’, maar Iran ontkent • Oman en Iran onderzoeken kosten voor beheer Straat van Hormuz",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-ontkent-akkoord-over-nieuwe-nucleaire-inspecties-trump-iran-heeft-wel-ingestemd~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Après la démission de Starmer, Donald Trump a eu une réaction qui risque fortement de déplaire à l’ex-Premier ministre",
+        "url": "https://www.lalibre.be/international/europe/2026/06/23/apres-la-demission-de-starmer-donald-trump-a-eu-une-reaction-qui-risque-fortement-de-deplaire-a-lex-premier-ministre-BK676GO66VDZNDR6AWNKQA5NKA/",
+        "source": "lalibre",
+        "name_only": true
       },
       {
         "title": "Deux arrestations supplémentaires pour l'attentat déjoué à la Maison Blanche",
@@ -44599,17 +44605,71 @@
         "name_only": false
       },
       {
-        "title": "“Ce sera appliqué”: Trump menace de prison quiconque endommagerait le bassin qu’il a fait rénover",
-        "url": "https://www.7sur7.be/monde/ce-sera-applique-trump-menace-de-prison-quiconque-endommagerait-le-bassin-quil-a-fait-renover~ab82d45a/",
+        "title": "Gianni Infantino annonce que c'est Donald Trump qui remettra le trophée aux vainqueurs de la Coupe du monde",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/06/23/gianni-infantino-annonce-que-cest-donald-trump-qui-remettra-le-trophee-aux-vainqueurs-de-la-coupe-du-monde-MBYSPHSNFBGL7GK4J5DOBSSDCU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: Moscou s'en prend aux Etats-Unis après le revirement inattendu de Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/23/guerre-en-ukraine-moscou-sen-prend-aux-etats-unis-apres-le-revirement-inattendu-de-donald-trump-4HAFF74A75AE3N4CNGEQ7CC6OI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Infantino annonce que Trump remettra bien le trophée de la Coupe du monde au gagnant",
+        "url": "https://www.7sur7.be/mondial/infantino-annonce-que-trump-remettra-bien-le-trophee-de-la-coupe-du-monde-au-gagnant~a62eaff3/",
         "source": "septsursept",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
+        "title": "Iran heeft ingestemd met “nucleaire inspecties”, beweert Trump | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMDFqZ09OZ2QwcG54dV9MOFYxNENKdUlqd3FoNGk1YUxMTU83dmw4enY4azFXN015amEtclQzLWhtV1ZIODJOWmdpQmZRcDVHbmlmWVlsWWRZRFlObEdONG5CSXpUWTQzTkZxNlJCbUdCaVM5QnBHa0E5QW5qWTdyRkkyRjVWb09JQ0xVSVhTYzV5VndiTEpyV3pwUTljeDVt?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Après la démission de Starmer, Donald Trump a eu une réaction qui risque fortement de déplaire à l'ex-Premier ministre - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPejdTNWVOcW52dHl4cU81RUQyWjNkcjhHNmRBZmsza2lHeU5wZTgtWmp5bUNrbDFWWXhsMkdSaS1GXy1NekpldjJWY3Y0WGZXUXlSc0gycW04T29HUmhjQ0pFbXB5cW0zRWc2OU4zb3VqVU9oMks4RDNvWVNzRkJybE9xUVRNWHBWYy1iRmpYX2lhX0hSeTVHSUVQa25CT0FYLVQzNjVseEg1U242UkY2XzlwUjRHRTl4RkV2NlFYa0cwYVFiWFFJM0ZPQ3dVWlZLVkpUaFlBSHNWQW9SUzBIZHRnVFhDZVcxc3RfcjI2dDY0NEV4bm0yN2M2ZmM3MDZCQ0o3eU5TU3l3b0dYVXplQncxdXZiMjllWkRjMHYxcU1acVN2dnc?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Meloni op ramkoers: ‘Het trumpisme is in Europa radioactief geworden, ook bij rechtse leiders’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbzJSX1A1Y3pLMEJCME9BUFM2WlZWQjJ1VXozNzRhT2JuLVUta2VqQUVnVGF1bDBHdTZrUmVXa2dLbjNzdDRKY0lxbHZPQTBTY0E1SGtGVkFCcjZSdXM2UzJCdXZQdXJfU2pzNVFNRlRwQXJUNm5DbHJiSUQ3Mnp0SXVXNU5BV3I3RG1jaXhpODVMb0NLNWtBclRyaktXSllOVlB4dGdCSzRka3ozNXlGTg?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Gezamenlijke belangen zijn ver te zoeken, maar toch kan Trump niet zonder Netanyahu - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbGQ3QjNYZkVuM0VnNW50eFZXQzlMVGVQZkxzNWM5UlQ2bjBST0RWQzZMMXNBV2QyMk5aRU9VTWhfOHFTUVdTQXFCS1Q2b2J6ZmNSNWhJd1RPVDV5cmNfY1FnRVNkaDZpT1k2QmpJSE03RVZOQXJBeWdXZnRFTV9tdGZYcndYZkQtZS1ZZjcxYV9FUVpRNk9RXy1JQVhVTHMyWGtQek9lMm9iT1c4dGgzUTEwaDhkMDRDMFFLblQzTWw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Live Amerika | Trump “blijft grootste vertrouwen hebben in nationale veiligheidsteam” na gelekt oorlogsplan - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORlYtcEpoSmFBS0MzQ3FyNWdmY0lJa0htUXVsX3dqd3FYM1RwVWlVazVHVy1NQmdyZHFBd3pBVUwwb2MxTnlHemlWVkpsUHVMc0lHMkZjNkwxQVVLRjNxbDJEemNZd2ZyV3ZWQVEtNGVONDZMYjF3Y19nY2VlVVQwM0Z0UWhfOFo4bzdUWHdEUGMwd01rYWh3NEdpZnltOWFNTk9CRnpzckhoMXRuWG5ubVdhVk91c29vMFZCTjM3a0cyZEYwTHRzdEx6VE1vZEVRSkIzS3U0QXRMX29vWGFMemZBQldNZ1NrVzdOWUI2blFiMEtqVzZLZlNkcw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
         "title": "Nieuw boek onthult opmerkelijke scènes in Witte Huis: Trump plakt gouden decoratie met secondelijm en scheldt ministers uit - HLN",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRDhXMVNDZGNldkJLdWlSX2lESEJwQTdRaW5kZ1FZVHZ4bFNmWmJ4QVBVNkxaVDJTY3VaZUh6ZldCd0g5Tk05b1IwQ204Qk5QaUF4N1VjMXlLaFd6OWtmZTRNeWJ2dTJzMmtiaGdEb3NSckZnUEN2ZUZwNFl3dzhVX2h1RDFxMTlCZm96U0E4UEQxMzEwMG5yMDAzb2NVYVAzeXdOVHFRN2Vpb2djQlNqcFJ5WFFnMF81blBmVlFFcmlQUmhPYU90bnVwd2VKUGh3enQ0RE1vYmhvN0pJSzZ1U0oyczJNNmJvTU1wSXNUUQ?oc=5",
         "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu “hysterisch” over nieuwe afspraken die Trump maakt met Iran over Libanon - HLN",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcFFuYnNsNTRLX2dfN2pteHVqS2ZhSGtOdEFnbE1nWGQwY2txczJ5UnNZdTRDQXhVQlYwcUJtdDJGZFRZSWVCSWhuNGJwTUxhaFFmdFlzazY1M1p5Vm11Z1I2eW5OX0xpbmhDM1hLN1hZZndIY0JOQl9yaWF4eEI0SjBBWEZYR2phODB3b0FQa3NWemc1WThpdnp4OFRHY09KVnhwdUo4d285UXQxWXhITmRoRHVlcVd4ZW1ZVQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump tekent presidentiële besluiten over quantumtechnologie, gevaar voor Bitcoin? - BLOX | Nieuws",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pLWFFTFpTZ3k3N3ZGbi1TN0NSTTRKendHa2xQaWlETF9DUG1xRGRWd0pwQXhfcV95bFByU1RieloxQjU4akNaRExzT192N3IwNWIxYTR0TF9nd1VCNjdxZkNlcjF2Ujgx?oc=5",
+        "source": "google_nl_tech",
         "name_only": true
       },
       {
@@ -44619,22 +44679,28 @@
         "name_only": false
       },
       {
-        "title": "Nieuw boek onthult opmerkelijke scènes in Witte Huis: Trump plakt gouden decoratie met secondelijm en scheldt ministers uit",
-        "url": "https://www.hln.be/nieuws/nieuw-boek-onthult-opmerkelijke-scenes-in-witte-huis-trump-plakt-gouden-decoratie-met-secondelijm-en-scheldt-ministers-uit~aee2fae2/",
+        "title": "Netanyahu “hysterisch” over nieuwe afspraken die Trump maakt met Iran over Libanon",
+        "url": "https://www.hln.be/buitenland/netanyahu-hysterisch-over-nieuwe-afspraken-die-trump-maakt-met-iran-over-libanon~a8c7bcd5/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - Twee extra arrestaties voor plannen aanslag tijdens kooigevechten bij Witte Huis • ‘Verdwenen moeder van tv-presentatrice Savannah Guthrie overleden’",
-        "url": "https://www.demorgen.be/snelnieuws/live-twee-extra-arrestaties-voor-plannen-aanslag-tijdens-kooigevechten-bij-witte-huis~b13cc951/",
+        "title": "Gezamenlijke belangen zijn ver te zoeken, maar toch kan Trump niet zonder Netanyahu",
+        "url": "https://www.demorgen.be/nieuws/gezamenlijke-belangen-zijn-ver-te-zoeken-maar-toch-kan-trump-niet-zonder-netanyahu~bc15a341/",
         "source": "demorgen",
-        "name_only": false
+        "name_only": true
       },
       {
-        "title": "États-Unis : la sortie du livre \"Regime Change\" ravive les inquiétudes sur la présence d’une taupe à la Maison-Blanche",
-        "url": "https://www.rtbf.be/article/etats-unis-la-sortie-du-livre-regime-change-ravive-les-inquietudes-sur-la-presence-d-une-taupe-a-la-maison-blanche-11745124",
-        "source": "rtbf",
-        "name_only": false
+        "title": "Live - Trump: ‘Iran heeft wél ingestemd voor nucleaire inspecties’, maar Iran ontkent • Oman en Iran onderzoeken kosten voor beheer Straat van Hormuz",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-ontkent-akkoord-over-nieuwe-nucleaire-inspecties-trump-iran-heeft-wel-ingestemd~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Après la démission de Starmer, Donald Trump a eu une réaction qui risque fortement de déplaire à l’ex-Premier ministre",
+        "url": "https://www.lalibre.be/international/europe/2026/06/23/apres-la-demission-de-starmer-donald-trump-a-eu-une-reaction-qui-risque-fortement-de-deplaire-a-lex-premier-ministre-BK676GO66VDZNDR6AWNKQA5NKA/",
+        "source": "lalibre",
+        "name_only": true
       },
       {
         "title": "Deux arrestations supplémentaires pour l'attentat déjoué à la Maison Blanche",
@@ -44643,81 +44709,93 @@
         "name_only": false
       },
       {
-        "title": "“Ce sera appliqué”: Trump menace de prison quiconque endommagerait le bassin qu’il a fait rénover",
-        "url": "https://www.7sur7.be/monde/ce-sera-applique-trump-menace-de-prison-quiconque-endommagerait-le-bassin-quil-a-fait-renover~ab82d45a/",
+        "title": "Gianni Infantino annonce que c'est Donald Trump qui remettra le trophée aux vainqueurs de la Coupe du monde",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/06/23/gianni-infantino-annonce-que-cest-donald-trump-qui-remettra-le-trophee-aux-vainqueurs-de-la-coupe-du-monde-MBYSPHSNFBGL7GK4J5DOBSSDCU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: Moscou s'en prend aux Etats-Unis après le revirement inattendu de Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/23/guerre-en-ukraine-moscou-sen-prend-aux-etats-unis-apres-le-revirement-inattendu-de-donald-trump-4HAFF74A75AE3N4CNGEQ7CC6OI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Infantino annonce que Trump remettra bien le trophée de la Coupe du monde au gagnant",
+        "url": "https://www.7sur7.be/mondial/infantino-annonce-que-trump-remettra-bien-le-trophee-de-la-coupe-du-monde-au-gagnant~a62eaff3/",
         "source": "septsursept",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 2,
-      "putin": 0,
+      "trump": 7,
+      "putin": 2,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 0,
-      "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 1,
-      "magnette": 0,
-      "prevot": 0,
-      "rousseau": 0,
-      "francken": 0,
-      "crevits": 0,
-      "jambon": 0,
-      "van_peteghem": 0,
-      "verlinden": 1
-    },
-    "wide_comparisons": {
-      "trump": 3,
-      "putin": 0,
-      "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 0,
+      "netanyahu": 2,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 1,
-      "bouchez": 1,
+      "bouchez": 2,
       "magnette": 0,
       "prevot": 0,
-      "rousseau": 0,
+      "rousseau": 4,
       "francken": 0,
-      "crevits": 0,
+      "crevits": 4,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 2
+      "verlinden": 6
+    },
+    "wide_comparisons": {
+      "trump": 15,
+      "putin": 4,
+      "macron": 0,
+      "netanyahu": 4,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 6,
+      "francken": 0,
+      "crevits": 6,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 9
     },
     "themes": {
-      "war": 13,
-      "crime": 9,
-      "eu": 13,
-      "politics": 18,
-      "be_gov": 12,
-      "culture": 12,
-      "tech": 5,
-      "economy": 6,
-      "sports": 32,
+      "war": 39,
+      "crime": 37,
+      "eu": 60,
+      "politics": 33,
+      "be_gov": 34,
+      "culture": 18,
+      "tech": 17,
+      "economy": 27,
+      "sports": 59,
       "health": 1,
-      "climate": 5,
-      "migration": 2,
-      "education": 2,
-      "weather": 19
+      "climate": 11,
+      "migration": 4,
+      "education": 7,
+      "weather": 51
     },
     "wide_themes": {
-      "war": 19,
-      "crime": 12,
-      "eu": 19,
-      "politics": 27,
-      "be_gov": 14,
-      "culture": 17,
-      "tech": 9,
-      "economy": 9,
-      "sports": 47,
-      "health": 3,
-      "climate": 7,
-      "migration": 2,
-      "education": 5,
-      "weather": 29
+      "war": 62,
+      "crime": 49,
+      "eu": 85,
+      "politics": 55,
+      "be_gov": 39,
+      "culture": 25,
+      "tech": 31,
+      "economy": 34,
+      "sports": 88,
+      "health": 5,
+      "climate": 17,
+      "migration": 4,
+      "education": 7,
+      "weather": 69
     }
   }
 ]
