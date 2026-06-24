@@ -44797,5 +44797,507 @@
       "education": 7,
       "weather": 69
     }
+  },
+  {
+    "date": "2026-06-24",
+    "generated_at": "2026-06-24T09:02:04+02:00",
+    "last_checked_at": "2026-06-24T09:02:04+02:00",
+    "total_articles": 381,
+    "trump_articles": 7,
+    "percentage": 1.8,
+    "core_percentage": 1.8,
+    "core_percentage_name": 1.8,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 1.8,
+    "indirect_references": 0,
+    "wide_total_articles": 546,
+    "wide_trump_articles": 10,
+    "wide_percentage": 1.8,
+    "wide_trump_articles_expanded": 10,
+    "wide_percentage_expanded": 1.8,
+    "macro_percentage": 2.2,
+    "qualifying_outlets": 20,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 32,
+    "cross_outlet_dup_groups": 16,
+    "cross_outlet_dup_rate": 8.4,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.4,
+    "breadth": 0.26,
+    "deviation": 0.62,
+    "smoothed_pct": 2.17,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_politics": {
+        "fetched": 36,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 61,
+        "today": 14,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 62,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 42,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 74,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 18,
+        "kept": 18,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 47,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.26
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 35,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 95,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Amerikaanse Senaat stemt tegen oorlog Iran zonder goedkeuring Congres: Trump noemt Republikeinen die voor tekst stemden “losers”",
+        "url": "https://www.hln.be/buitenland/amerikaanse-senaat-stemt-tegen-oorlog-iran-zonder-goedkeuring-congres-trump-noemt-republikeinen-die-voor-tekst-stemden-losers~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Republikeinen laten ongenoegen blijken: Senaat draagt Trump op om Iran-oorlog te beëindigen, president reageert kwaad",
+        "url": "https://www.demorgen.be/nieuws/republikeinen-laten-ongenoegen-blijken-senaat-draagt-trump-op-om-iran-oorlog-te-beeindigen-president-reageert-kwaad~b98727c4/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump furieus dat pompprijzen niet snel genoeg dalen • Hegseth duwt hoogste Amerikaanse legercommandant in Europa naar uitgang",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-furieus-dat-pompprijzen-niet-snel-genoeg-dalen-klanten-worden-afgezet-ice-mag-geen-mensen-meer-oppakken-in-gerechtsgebouwen-beslist-rechter~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump laat brandstofprijzen onderzoeken omdat ze niet snel genoeg zakken: “Klanten worden afgezet”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-laat-brandstofprijzen-onderzoeken-omdat-ze-niet-snel-genoeg-zakken-klanten-worden-afgezet/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Amerikaanse Senaat verbiedt Trump om oorlog in Iran te hervatten, president is boos: “Losers maken mijn werk alleen maar moeilijker”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-amerikaanse-senaat-verbiedt-trump-om-oorlog-in-iran-te-hervatten-president-is-boos-losers-maken-mijn-werk-alleen-maar-moeilijker/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle obsession de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/24/la-nouvelle-obsession-de-donald-trump-J6IZFSJKEJFZRJQST23G7OVZZM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“Ils apportent aide et réconfort à l’ennemi”: Trump répond au vote “inopportun et insensé” du Sénat",
+        "url": "https://www.7sur7.be/monde/ils-apportent-aide-et-reconfort-a-lennemi-trump-repond-au-vote-inopportun-et-insense-du-senat~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Une résolution du Congrès fait enrager Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUWhmNU1Mem9MOGNWdkcwVVdMeUF5Mi0wcUEycDdPY0FRZFBPVktNSjJ2dXI4MDY4Vk9LNWZsVV9EamFoTkNOS2R2cHc4eS1kdEpnenlWNlAxNTRoUjFIM3UtM2hUdmk2aVZRaHpJaUpwYjJ3aEtSaEN2NncxRG5DZUpaNTRacXBFTWhfNWw2czA0Q2RrSi0w?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse Senaat stemt tegen oorlog Iran zonder goedkeuring Congres: Trump noemt Republikeinen die voor tekst stemden “losers”",
+        "url": "https://www.hln.be/buitenland/amerikaanse-senaat-stemt-tegen-oorlog-iran-zonder-goedkeuring-congres-trump-noemt-republikeinen-die-voor-tekst-stemden-losers~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Republikeinen laten ongenoegen blijken: Senaat draagt Trump op om Iran-oorlog te beëindigen, president reageert kwaad",
+        "url": "https://www.demorgen.be/nieuws/republikeinen-laten-ongenoegen-blijken-senaat-draagt-trump-op-om-iran-oorlog-te-beeindigen-president-reageert-kwaad~b98727c4/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump furieus dat pompprijzen niet snel genoeg dalen • Hegseth duwt hoogste Amerikaanse legercommandant in Europa naar uitgang",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-furieus-dat-pompprijzen-niet-snel-genoeg-dalen-klanten-worden-afgezet-ice-mag-geen-mensen-meer-oppakken-in-gerechtsgebouwen-beslist-rechter~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump laat brandstofprijzen onderzoeken omdat ze niet snel genoeg zakken: “Klanten worden afgezet”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-laat-brandstofprijzen-onderzoeken-omdat-ze-niet-snel-genoeg-zakken-klanten-worden-afgezet/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Amerikaanse Senaat verbiedt Trump om oorlog in Iran te hervatten, president is boos: “Losers maken mijn werk alleen maar moeilijker”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-amerikaanse-senaat-verbiedt-trump-om-oorlog-in-iran-te-hervatten-president-is-boos-losers-maken-mijn-werk-alleen-maar-moeilijker/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump laat brandstofprijzen onderzoeken omdat ze niet snel genoeg zakken: “Klanten worden afgezet”",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-laat-brandstofprijzen-onderzoeken-omdat-ze-niet-snel-genoeg-zakken-klanten-worden-afgezet/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Amerikaanse Senaat verbiedt Trump om oorlog in Iran te hervatten, president is boos: “Losers maken mijn werk alleen maar moeilijker”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-amerikaanse-senaat-verbiedt-trump-om-oorlog-in-iran-te-hervatten-president-is-boos-losers-maken-mijn-werk-alleen-maar-moeilijker/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle obsession de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/24/la-nouvelle-obsession-de-donald-trump-J6IZFSJKEJFZRJQST23G7OVZZM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“Ils apportent aide et réconfort à l’ennemi”: Trump répond au vote “inopportun et insensé” du Sénat",
+        "url": "https://www.7sur7.be/monde/ils-apportent-aide-et-reconfort-a-lennemi-trump-repond-au-vote-inopportun-et-insense-du-senat~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 9,
+      "crime": 10,
+      "eu": 13,
+      "politics": 10,
+      "be_gov": 8,
+      "culture": 4,
+      "tech": 2,
+      "economy": 4,
+      "sports": 27,
+      "health": 3,
+      "climate": 2,
+      "migration": 2,
+      "education": 2,
+      "weather": 25
+    },
+    "wide_themes": {
+      "war": 16,
+      "crime": 12,
+      "eu": 19,
+      "politics": 19,
+      "be_gov": 10,
+      "culture": 6,
+      "tech": 4,
+      "economy": 5,
+      "sports": 38,
+      "health": 6,
+      "climate": 2,
+      "migration": 3,
+      "education": 2,
+      "weather": 34
+    }
   }
 ]
