@@ -45299,5 +45299,513 @@
       "education": 2,
       "weather": 34
     }
+  },
+  {
+    "date": "2026-06-25",
+    "generated_at": "2026-06-25T09:01:50+02:00",
+    "last_checked_at": "2026-06-25T09:01:50+02:00",
+    "total_articles": 375,
+    "trump_articles": 8,
+    "percentage": 2.1,
+    "core_percentage": 2.1,
+    "core_percentage_name": 2.1,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 2.1,
+    "indirect_references": 0,
+    "wide_total_articles": 542,
+    "wide_trump_articles": 10,
+    "wide_percentage": 1.8,
+    "wide_trump_articles_expanded": 10,
+    "wide_percentage_expanded": 1.8,
+    "macro_percentage": 2.8,
+    "qualifying_outlets": 20,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 51,
+    "cross_outlet_dup_groups": 25,
+    "cross_outlet_dup_rate": 13.6,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.89,
+    "breadth": 0.44,
+    "deviation": 0.72,
+    "smoothed_pct": 2.24,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 46,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 67,
+        "today": 18,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 64,
+        "today": 5,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 39,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 58,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 69,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 42,
+        "kept": 42,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.38
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "trends_g": {
+        "fetched": 97,
+        "today": 17,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 91,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "\"Jullie hebben ons laten vallen\", zegt Trump tegen  NAVO-baas Mark Rutte in Witte Huis",
+        "url": "https://vrtnws.be/p.7n8XZ5BVW",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: 'NAVO heeft ons laten vallen' • Topman Rutte pareert kritiek",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-navo-heeft-ons-laten-vallen-topman-rutte-pareert-kritiek~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump vraagt tientallen miljarden extra voor Iran-oorlog • Betrokkenheid VS bij bombardement op Iraanse school in twijfel getrokken door Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-vraagt-tientallen-miljarden-extra-voor-iranoorlog-betrokkenheid-vs-bij-bombardement-op-iraanse-school-in-twijfel-getrokken-door-trump~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "250 ans des États-Unis : Donald Trump utilise les célébrations pour mettre en avant son action",
+        "url": "https://www.rtbf.be/article/250-ans-des-etats-unis-donald-trump-utilise-les-celebrations-pour-mettre-en-avant-son-action-11747030",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump lance les festivités des 250 ans des États-Unis : \"L'Amérique est de retour\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/25/trump-lance-les-festivites-des-250-ans-des-etats-unis-et-transforme-la-soiree-en-meeting-politique-WAJUJBNKMZDFZGRMD24D4YCJDE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump met en doute une implication américaine dans le bombardement d'une école en Iran: \"Peut-être que ce n'était pas notre missile\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/25/donald-trump-met-en-doute-une-implication-americaine-dans-le-bombardement-dune-ecole-en-iran-peut-etre-que-ce-netait-pas-notre-missile-2W3Z7MGLYFHVLNEES5OUASPPPA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Ils nous ont laissé tomber”: Trump s’en prend aux membres de l’Otan devant Mark Rutte",
+        "url": "https://www.7sur7.be/belgique/ils-nous-ont-laisse-tomber-trump-sen-prend-aux-membres-de-lotan-devant-mark-rutte~a029de8f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Si on n’arrive pas à faire du Trump intelligent, on peut dire au revoir à ce qu’il nous reste d’industrie” - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNnlUckJNYjVmLVRHc082cThKVlBoSGJ6cG9BZ1ZJMnh5dE95MXFydy1yNWpUODR6clNkSVY5aVp2VXFJb293SDFDdDFUc3VuUzFiVjA0eEVKRGxzODFIY3AzeUx4VTNkcHh5bG8tTHphUDhpOGZDVU1FRXd0U3VhQ3B5OXl3ZllhWVo3RzhpTUhkN2pDS29hVDRya0stb1piSEhWS1VsZGY4RHpnNG1LcFBtWExsSXBLdC1Sa3lPdE5pdG5JZjhrZjR5QVhtdFBjbFV3eUpTdUpDSmM?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "\"Jullie hebben ons laten vallen\", zegt Trump tegen NAVO-baas Mark Rutte in Witte Huis - VRT",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YblFqZWpGdVNMZTdQb1g5STVvVGhNYnFEcEFpVkZ0a2kyVU91WUJlMUxKSXpXVnJaYU1hV3NGdmRUcU5VZC1qY2w5M0IwZTloMWQ3WXBrSDY1d3RIZy1Qanp2NHhiczRWWjRqb2dfY0o?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil tientallen miljarden extra voor oorlog tegen Iran: “President vraagt belastingbetaler om de puinhoop op te ruimen” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYjRlcEg2Z19wU2pOUFRSLW5GWHRvT3NnRVFmV2hBczJMd0pUM1dpN3RGMXYxUTVCQ01SMV8yeUlGdFk4Q1JSX3IxbF9UbFRXNFpRc2NJNXdMUDN4dWRKQ2xPNEh1ZXhicnRCUDk0ZzRycDh0S3h2TjdHSnB1OUNiUUNTVnBvb3RPS0k3LVJwcU9vWHhCRFVFaHM5Vm9DaFhOUERLTXkyN2Z1MV9VNUpxbWR2ekRZYklRR3B2aDlPTW9Yelh2bWg3ZnRfV2dkT1NjWlJSd1RXa2JFYml3M2dBLWpMN0JPdnYzR1pIZjlEYVdYOWM?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "\"Jullie hebben ons laten vallen\", zegt Trump tegen  NAVO-baas Mark Rutte in Witte Huis",
+        "url": "https://vrtnws.be/p.7n8XZ5BVW",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: 'NAVO heeft ons laten vallen' • Topman Rutte pareert kritiek",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-navo-heeft-ons-laten-vallen-topman-rutte-pareert-kritiek~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump vraagt tientallen miljarden extra voor Iran-oorlog • Betrokkenheid VS bij bombardement op Iraanse school in twijfel getrokken door Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-vraagt-tientallen-miljarden-extra-voor-iranoorlog-betrokkenheid-vs-bij-bombardement-op-iraanse-school-in-twijfel-getrokken-door-trump~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "250 ans des États-Unis : Donald Trump utilise les célébrations pour mettre en avant son action",
+        "url": "https://www.rtbf.be/article/250-ans-des-etats-unis-donald-trump-utilise-les-celebrations-pour-mettre-en-avant-son-action-11747030",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump lance les festivités des 250 ans des États-Unis : \"L'Amérique est de retour\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/25/trump-lance-les-festivites-des-250-ans-des-etats-unis-et-transforme-la-soiree-en-meeting-politique-WAJUJBNKMZDFZGRMD24D4YCJDE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump met en doute une implication américaine dans le bombardement d'une école en Iran: \"Peut-être que ce n'était pas notre missile\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/25/donald-trump-met-en-doute-une-implication-americaine-dans-le-bombardement-dune-ecole-en-iran-peut-etre-que-ce-netait-pas-notre-missile-2W3Z7MGLYFHVLNEES5OUASPPPA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Ils nous ont laissé tomber”: Trump s’en prend aux membres de l’Otan devant Mark Rutte",
+        "url": "https://www.7sur7.be/belgique/ils-nous-ont-laisse-tomber-trump-sen-prend-aux-membres-de-lotan-devant-mark-rutte~a029de8f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Si on n’arrive pas à faire du Trump intelligent, on peut dire au revoir à ce qu’il nous reste d’industrie” - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNnlUckJNYjVmLVRHc082cThKVlBoSGJ6cG9BZ1ZJMnh5dE95MXFydy1yNWpUODR6clNkSVY5aVp2VXFJb293SDFDdDFUc3VuUzFiVjA0eEVKRGxzODFIY3AzeUx4VTNkcHh5bG8tTHphUDhpOGZDVU1FRXd0U3VhQ3B5OXl3ZllhWVo3RzhpTUhkN2pDS29hVDRya0stb1piSEhWS1VsZGY4RHpnNG1LcFBtWExsSXBLdC1Sa3lPdE5pdG5JZjhrZjR5QVhtdFBjbFV3eUpTdUpDSmM?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 8,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 3,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 1,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 4,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 10,
+      "crime": 14,
+      "eu": 17,
+      "politics": 6,
+      "be_gov": 8,
+      "culture": 9,
+      "tech": 5,
+      "economy": 9,
+      "sports": 19,
+      "health": 2,
+      "climate": 3,
+      "migration": 2,
+      "education": 3,
+      "weather": 24
+    },
+    "wide_themes": {
+      "war": 16,
+      "crime": 19,
+      "eu": 20,
+      "politics": 14,
+      "be_gov": 10,
+      "culture": 13,
+      "tech": 9,
+      "economy": 14,
+      "sports": 27,
+      "health": 6,
+      "climate": 3,
+      "migration": 3,
+      "education": 5,
+      "weather": 34
+    }
   }
 ]
