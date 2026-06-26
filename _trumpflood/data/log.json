@@ -45810,303 +45810,303 @@
   },
   {
     "date": "2026-06-26",
-    "generated_at": "2026-06-26T09:08:59+02:00",
-    "last_checked_at": "2026-06-26T14:33:12+02:00",
-    "total_articles": 377,
-    "trump_articles": 3,
-    "percentage": 0.8,
-    "core_percentage": 0.8,
-    "core_percentage_name": 0.8,
-    "trump_articles_expanded": 3,
-    "core_percentage_expanded": 0.8,
+    "generated_at": "2026-06-26T20:14:30+02:00",
+    "last_checked_at": "2026-06-26T20:14:30+02:00",
+    "total_articles": 942,
+    "trump_articles": 16,
+    "percentage": 1.7,
+    "core_percentage": 1.7,
+    "core_percentage_name": 1.7,
+    "trump_articles_expanded": 16,
+    "core_percentage_expanded": 1.7,
     "indirect_references": 0,
-    "wide_total_articles": 545,
-    "wide_trump_articles": 4,
-    "wide_percentage": 0.7,
-    "wide_trump_articles_expanded": 4,
-    "wide_percentage_expanded": 0.7,
-    "macro_percentage": 1.5,
-    "qualifying_outlets": 18,
+    "wide_total_articles": 1327,
+    "wide_trump_articles": 24,
+    "wide_percentage": 1.8,
+    "wide_trump_articles_expanded": 24,
+    "wide_percentage_expanded": 1.8,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 32,
     "core_outlets_total": 19,
-    "core_outlets_active": 17,
-    "active_core_fraction": 0.895,
-    "cross_outlet_dup_headlines": 32,
-    "cross_outlet_dup_groups": 16,
-    "cross_outlet_dup_rate": 8.5,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Barely registered today.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 70,
+    "cross_outlet_dup_groups": 35,
+    "cross_outlet_dup_rate": 7.4,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 3.0,
-    "breadth": 0.12,
-    "deviation": 0.31,
-    "smoothed_pct": 2.09,
+    "dominance": 1.0,
+    "breadth": 0.63,
+    "deviation": 0.65,
+    "smoothed_pct": 2.21,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 13,
+    "theme_rank": 11,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 24,
-        "kept": 24,
+        "today": 30,
+        "kept": 30,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.17
+        "share": 3.33
       },
       "google_fr": {
         "fetched": 34,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
       },
       "google_nl_politics": {
-        "fetched": 46,
-        "today": 4,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 54,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 12,
-        "kept": 8,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 40,
+        "kept": 35,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 8.57
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 12,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 40,
+        "kept": 37,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.7
       },
       "google_nl_tech": {
-        "fetched": 60,
-        "today": 5,
-        "kept": 5,
+        "fetched": 63,
+        "today": 27,
+        "kept": 22,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 20,
-        "kept": 16,
+        "today": 50,
+        "kept": 46,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 42,
-        "today": 3,
-        "kept": 3,
+        "fetched": 39,
+        "today": 9,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 70,
-        "today": 5,
-        "kept": 5,
+        "fetched": 62,
+        "today": 30,
+        "kept": 26,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_business": {
         "fetched": 63,
-        "today": 2,
-        "kept": 2,
+        "today": 34,
+        "kept": 28,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 19,
-        "kept": 19,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "standaard": {
-        "fetched": 50,
-        "today": 12,
-        "kept": 12,
+        "today": 47,
+        "kept": 47,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 8.33
+        "share": 2.13
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 92,
+        "kept": 86,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.16
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
       },
       "demorgen": {
         "fetched": 28,
-        "today": 14,
-        "kept": 14,
+        "today": 23,
+        "kept": 23,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 14.29
+        "share": 8.7
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 45,
-        "kept": 45,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 24,
-        "kept": 23,
+        "today": 61,
+        "kept": 59,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 19,
-        "kept": 19,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 6,
-        "kept": 6,
+        "today": 27,
+        "kept": 27,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 89,
+        "kept": 89,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 3.37
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 72,
+        "kept": 70,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.43
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 100,
+        "kept": 99,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.01
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 10,
         "today": 10,
         "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "lalibre": {
-        "fetched": 100,
-        "today": 21,
-        "kept": 21,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 28,
-        "kept": 27,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 58,
-        "kept": 58,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "septsursept": {
-        "fetched": 30,
-        "today": 17,
-        "kept": 17,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "bx1": {
-        "fetched": 10,
-        "today": 7,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
       "detijd_g": {
         "fetched": 100,
-        "today": 7,
-        "kept": 6,
+        "today": 62,
+        "kept": 53,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 19,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 46,
+        "kept": 44,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.27
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 62,
+        "kept": 59,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.69
       },
       "lavenir_g": {
-        "fetched": 100,
-        "today": 8,
-        "kept": 8,
+        "fetched": 99,
+        "today": 49,
+        "kept": 49,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 98,
-        "today": 11,
-        "kept": 9,
+        "fetched": 99,
+        "today": 42,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 89,
-        "today": 10,
-        "kept": 3,
+        "fetched": 88,
+        "today": 30,
+        "kept": 22,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 78,
-        "today": 4,
-        "kept": 4,
+        "fetched": 90,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -46135,119 +46135,317 @@
     ],
     "matches": [
       {
-        "title": "Volgens JD Vance werden Trump en Nixon door dezelfde “deep state” geviseerd: “Watergate zou vandaag na een dag gaan liggen”",
-        "url": "https://www.standaard.be/buitenland/volgens-jd-vance-werden-trump-en-nixon-door-dezelfde-deep-state-geviseerd-watergate-zou-vandaag-na-een-dag-gaan-liggen/35131945.html",
+        "title": "\"Zo kwaad als wilde wesp\": hoe zowel oorlog in Iran als nieuwe kieswet Donald Trump op ramkoers met zijn senatoren brengt",
+        "url": "https://vrtnws.be/p.oLbXDNwXe",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump mag honderdduizenden Haïtiaanse en Syrische migranten deporteren - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN2tyVVZSazBzekprWVRKeE1Kc0h6REZJMGUwcWg3SkhXLXZoXzVhUEpkWnU5Y1p4WnI2VU1ueGFqMkZaNENPM0lsRkVBR0twYVdYLVdMSDI1dXhZeHIxTTl3dXUwRG90VnFiTWpKdXRsU0FBLUFLcEVRdVlhNGhOTXNzZkNReFBEOHhwdkEzYXFSZ0YycDdrLWxMWU9BYlVfV19LcGREV0h4QlJXNTVNVS1Beml1RTlpaV9jc3JKQjlqblQwYS1kMw?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Opsteker voor Trump: Hooggerechtshof geeft groen licht voor snoeihard immigratiebeleid",
-        "url": "https://www.demorgen.be/nieuws/opsteker-voor-trump-hooggerechtshof-geeft-groen-licht-voor-snoeihard-immigratiebeleid~b9a09845d/",
+        "title": "Trump noemt aanval op schip “dwaze” schending van bestand - Israël, Libanon en VS kondigen ondertekening kaderakkoord aan",
+        "url": "https://www.hln.be/buitenland/trump-noemt-aanval-op-schip-dwaze-schending-van-bestand-israel-libanon-en-vs-kondigen-ondertekening-kaderakkoord-aan~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt met “heffing van 100 procent” voor Europese landen die digitale diensten van Amerikaanse bedrijven willen belasten",
+        "url": "https://www.hln.be/economie/trump-dreigt-met-heffing-van-100-procent-voor-europese-landen-die-digitale-diensten-van-amerikaanse-bedrijven-willen-belasten~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "▶ Dan toch niet zo’n bromance: Donald Trump gaat de mist in met complimenten voor ongetrouwde Mark Rutte en diens ‘prachtige echtgenote’",
+        "url": "https://www.demorgen.be/snelnieuws/dan-toch-niet-zo-n-bromance-donald-trump-gaat-de-mist-in-met-complimenten-voor-ongetrouwde-mark-rutte-en-diens-prachtige-echtgenote~bfb5a5c3/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "ICC-rechters slepen Trump-regering voor de rechter vanwege sancties die ‘permanente angst en machteloosheid’ veroorzaken",
-        "url": "https://www.demorgen.be/nieuws/icc-rechters-slepen-trump-regering-voor-de-rechter-vanwege-sancties-die-permanente-angst-en-machteloosheid-veroorzaken~ba224a11/",
+        "title": "Live - Trump dreigt met importtarief van 100 procent voor Europese landen die digitaks invoeren",
+        "url": "https://www.demorgen.be/snelnieuws/live-voormalig-trump-adviseur-john-bolton-pleit-schuldig-in-zaak-over-vertrouwelijke-informatie~b13cc951/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt met nieuwe handelsoorlog tegen Europa: “100 procent invoerheffing voor landen met digitale taks”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-dreigt-met-nieuwe-handelsoorlog-tegen-europa-100-procent-invoerheffing-voor-landen-met-digitale-taks/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : John Bolton, ex-conseiller de Trump, plaide coupable de rétention de documents classifiés",
+        "url": "https://www.rtbf.be/article/etats-unis-john-bolton-ex-conseiller-de-trump-plaide-coupable-de-retention-de-documents-classifies-11748152",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Droits de douane : Donald Trump remet un coup de pression commerciale sur les Européens",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/06/26/donald-trump-remet-un-coup-de-pression-commerciale-sur-les-europeens-EZ3KIBPIVZG2HFH7R7IM3T4Z4I/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle gaffe de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/26/la-nouvelle-gaffe-de-donald-trump-HAKP7IC5KRFP7NGTBQ65GVFFZA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "John Bolton, ex-conseiller de Trump, plaide coupable de rétention de documents classifiés",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/26/john-bolton-ex-conseiller-de-trump-plaide-coupable-de-retention-de-documents-classifies-GLKOWRFL5JCLJOMNAYNQBA7754/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace d'imposer des droits de douane de 100% aux pays européens qui taxeraient les services numériques - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQMVA2dGxybnY0REpvVHBzc1otaUpocjJ6czY4RzdaX0Nua2NMb0FaRUVta3VpemdoSkhmWm5VZC1LRXhObkpMeDB6WXBuNmFiV0x2RVBLRnN3NmxFVlJYNGZBcWphREtaZ21Lb05NS2ladlByNjN2NFUwOTRVYWhBZTJwdUZkSmwyTjR3LW1ndkJ4bGxqaG5HOEdDR0M2WDVKSUFtZnVJQjMxTkl5bnQwNUI0ZEhzVXE0X3dqYkdZbkY5R3dCMG5Qa1FLbTVTaHduWm9HamJHNHVpeE5hamstVXR0ZmI2SjlDQl9HMk5keGlGaDVuQXZaSnMzdkdCeE9VbmxPaHhVYk43UQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle gaffe de Donald Trump face à Mark Rutte : il complimente son épouse... qui n'existe pas",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/26/la-nouvelle-gaffe-de-donald-trump-face-a-mark-rutte-il-complimente-son-epouse-qui-nexiste-pas-6H2V4NH67FEW5DTPI4DJJI2PCM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump complimente Rutte et “sa magnifique épouse” (qu’il n’a pas du tout)",
+        "url": "https://www.7sur7.be/monde/trump-complimente-rutte-et-sa-magnifique-epouse-quil-na-pas-du-tout~afb5a5c3/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "A Bruxelles, la célébration des 250 ans des Etats-Unis sous l’ombre de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUW04VTd4TUNncmR1eDZfM1JsSWZPYzNEVHRiQkZxTjNHbEtBRV9vOENqQ0hHSG5DUElQQkdONDVFeVVMLWNMT3E4TG83MmIzRXBwWWZRX093eDRxQW1IekstTnBkYWdTci1xbmFkQjVfVlBoX2ZiREkyMEtuRGQzRkVLSndrVVRpUlV5ZTgtV0RtX1ROWGFLUTJJU0pKMjZuVFFWQ0xQaEZvbC1sMnFHSktQM012N19TaWxKaA?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Tout pays qui imposerait une telle taxe aurait pour réponse, un droit de douane de 100 % » : Donald Trump remet un coup de pression commerciale sur les Européens - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMTE2ZDNJMTlQWVI1emZNZDBqaVIyMDdKcjhxbFRoSW9vTFBDSDk3b3RBV05RTmN5SnVqUVBOS0pJZG45c0d0RGU5U1NDWFdPSUpybUdiMHNsSG5HUUxQYkR2Wm1uWm8tWTg0VkRuN3RvRjFoWjFESUhGcUxPYlhpakNxVmUyemUtNTNmVUUxS1VWcUVBV2FKWlA2NHcwTUhmVGdIMnpiTFMzSkVtMUo5X1VrUTJnb0x4Ri0yWmRMR0xPTmZMcnZuOTl3?oc=5",
+        "source": "sudinfo_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Het feest voor 250 jaar VS is amper begonnen en Trump heeft er al een ode aan zichzelf van gemaakt - Nieuwsblad",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeFBPS2R3T3htNHgzbzM1eEFkd3lFQVRTblBNcTJKbDZSbm5rRkUweEd6OHY2WDM1UU9vRDE5Uko5QzlHbHY3WDZ1c2hfM2V0d0ZBNl8zU1dia1hTRy1ITHlIWmlaUU93X3lwa2FQRjk0SU5fMGVOOTVzZ2M5aVhaSnk4ZU5MSWNhbjl0RlkyYVdkd2tPalZjNGo1WFprcDI5UEpHVVZnV1E3OGM3dVFKVENCSlBkaTRJTGNrWVppZFBOcHBVRGJIWkpiWHdxbzRvdGN4VW1XNEY3Y0pBX2hNaEZLdlk?oc=5",
+        "title": "Trump noemt aanval op schip “dwaze” schending van bestand - Israël, Libanon en VS kondigen ondertekening kaderakkoord aan | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWEtEMUpWRHptNm1jc1hDRXlzWHdjR3o3cHVVNl8xRUtMRUZyZ010Wms3ZG5BbktuNnhsS2pLTjFTejBZQVY1THBiMUdpdjNMWEZvdjhVQVNrQVZkek40OWVXSVlXbVRGTEVlX1l3eUhjc1RwYW9zSkJXclRwZVE2T2xzakJUX3g0aFg3RE1rQk5qbmpYTVdON00yYS1lVmZJNjIxOEdNZ2YyZmRSeWtUdmdBZE5yYXZ1OFNYX0NWaHhXNkJ5RTBhQ1ZwLVhXLW9mRU9MVnVNUXM2ZWd6YTFkQWgyRTNMQVlpM21UaA?oc=5",
         "source": "google_nl",
         "name_only": true
       },
       {
-        "title": "Volgens JD Vance werden Trump en Nixon door dezelfde “deep state” geviseerd: “Watergate zou vandaag na een dag gaan liggen”",
-        "url": "https://www.standaard.be/buitenland/volgens-jd-vance-werden-trump-en-nixon-door-dezelfde-deep-state-geviseerd-watergate-zou-vandaag-na-een-dag-gaan-liggen/35131945.html",
+        "title": "Donald Trump évoque la « magnifique épouse » du secrétaire général de l’OTAN... alors qu’il est célibataire - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVUdrS2lMbHFPcHhhVlh5Wkh4ZDZsZWgwRjlqelJMUng3dF8wOTBSOXBIb1hCdGxsUjJleUJobVpjLTEzWXVSRW5XRnhncDBjZWlldEtJLXVVSDFqcGtHY3FPNWlfUjNsYU5nWl9Lc1lvTGFyVzZidmM2U016WEczVXI3RTZaTFVPTEN4Qm91a1RRd2dpY0daQTNoMUxScDVsYUtCZzJBMERWZ0ZYVDdHc3ZvZy1PM0dRcjJ1MV8yOTJ2NS12N1hfRGM3YnJQaTZveGVrTHhOS3lvZ09aY3JMUw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Internationaal Strafhof sleept regering-Trump voor Amerikaanse rechter om sancties - bnr.nl",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLWoxb18tSV9LMHNNTjhlQXU3Wm9kdlI1SjNvY3hsOEptejBHcWZ6VFkxczZaR3o2UG1feGltaWFMaUZuUE4ycWNtX3ZWWHo4RG14a0RKS05GQ1NxRE5MQ2Q5WDJwSDBNSk4wOUw5TWxuNlRZMV9wOTBfWFlxMEozVVV6a2tHZjU2aDVQU0NBUU5rQTlYR2hEUnV0dDVTdTVLRHBwYnJjR2E0UE5kSVlfNWRCLWtiSWJIRXNrOHVBTlV4SmxiY2c?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "\"Zo kwaad als wilde wesp\": hoe zowel oorlog in Iran als nieuwe kieswet Donald Trump op ramkoers met zijn senatoren brengt - VRT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYkZaOUozRkpreWhwdGhXZ1RBNWlIa1FJTHZnV0h3QzdYVnVrV3g2cl9BZ3VmTGxVQWNVc3h0VmhiQXFvMW03bk1Sa0NpQUJLTnQtOXNvaUgwcEs3R3N4R1RydEhhQl85TmMxQi1iR3ViYjNvZVJlYVExUEUwRDJOWS1WYlNFaFVwa3k2a3NRMEt3ME5JUlNXaGllbk9jMmVIc1Zta1BQMA?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Dan toch niet zo’n bromance: Donald Trump gaat de mist in met complimenten voor ongetrouwde Mark Rutte en diens ‘prachtige echtgenote’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOa0szck1GVllza29DNGJOZGdRSzZ0M3MzWnhvNWVuLTVwOFJrVkRucy1SZHVPRDloNjlGTmpKMEpGaDNvM3BTMVVRbVB6bWpHaWVjaWhnWHJFQkhGVTFzVmZLQzYtZG9XVFlpMEczV2xnY3JnX0dsaXFNR1ZPUXp1QUJWbDJjeUZNMklYcTN0ZkhlWTVQRWgyWk91aElnUG1xemZtdDJRY2VBbm1kaHpBSG9wTHhkUW1sVG1UTVMtamllYzFTSEV2aEFvQlJ2ellCc2xKdnN5Zjh1SDNpLTE0TDJjQ0FPb0s3QXJJY3FkQ0xMZnB3WlRUQTlWQ0pCclctcWJFTndUcw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Live Amerika | Trump “blijft grootste vertrouwen hebben in nationale veiligheidsteam” na gelekt oorlogsplan - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOWnY4VDhjcmNYV0VOaHVieUxQVGZXUGtaUzVCbGVGUDFwQnNDQ1poOUdyeElyWFZ1TEMxTXUwem82WmlJSWtVVEhOYk54STRvU25zQTRrUTVOMmdzekJKazNtaXg1R0poNWQxczJCTmhVeUlpNE5aV1M1Mm9DRDhPSTItWjRfd2VNejdCUUNnSkJoN2ZkZHZQNjBPY2ZTZ0NQZEg1MFhIek9yU05LLUJZb0dfc3F0bmZmRGp0VU4xX1hJUWJ5QjVDSTd4SllETks2dWtfdVZHc051R2Y0b2xiam5CSWNrdkZTWU5iLTd3YVJueXNsOUhtd1loOF8?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt met “heffing van 100 procent” voor Europese landen die digitale diensten van Amerikaanse bedrijven willen belasten - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQXU4SFRuWXpHN2pPSmV0SVVlam1wTzRLdXdyZk5oZFd2SE1DM2d1MUNiX1A0bEY0MS1vYlc5OUl6Uk50RnJDRlN5NHRWR2JxMWZPUS0xVGpHbGVDYmtqTms2VkluSk10d1R3czFTQ2ppTXFtT1R3NUdLX2UxRUl2OEloWEhUcUFXWjhNOXNjcTYtd2xqOHJSSzdKbWVQT1VpbW5ITVNqczRkckFQTnVaSG8yWm53ZFdZVnpWTDY2UUwza1pDeS1PLXBQbEZRMWw4NDNsLVNDLW5IaVEtYkd0LWN3Ml90Yno3UDI2SXFuVUJuc3dXMHc?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "\"Zo kwaad als wilde wesp\": hoe zowel oorlog in Iran als nieuwe kieswet Donald Trump op ramkoers met zijn senatoren brengt",
+        "url": "https://vrtnws.be/p.oLbXDNwXe",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump mag honderdduizenden Haïtiaanse en Syrische migranten deporteren - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN2tyVVZSazBzekprWVRKeE1Kc0h6REZJMGUwcWg3SkhXLXZoXzVhUEpkWnU5Y1p4WnI2VU1ueGFqMkZaNENPM0lsRkVBR0twYVdYLVdMSDI1dXhZeHIxTTl3dXUwRG90VnFiTWpKdXRsU0FBLUFLcEVRdVlhNGhOTXNzZkNReFBEOHhwdkEzYXFSZ0YycDdrLWxMWU9BYlVfV19LcGREV0h4QlJXNTVNVS1Beml1RTlpaV9jc3JKQjlqblQwYS1kMw?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Opsteker voor Trump: Hooggerechtshof geeft groen licht voor snoeihard immigratiebeleid",
-        "url": "https://www.demorgen.be/nieuws/opsteker-voor-trump-hooggerechtshof-geeft-groen-licht-voor-snoeihard-immigratiebeleid~b9a09845d/",
+        "title": "Trump noemt aanval op schip “dwaze” schending van bestand - Israël, Libanon en VS kondigen ondertekening kaderakkoord aan",
+        "url": "https://www.hln.be/buitenland/trump-noemt-aanval-op-schip-dwaze-schending-van-bestand-israel-libanon-en-vs-kondigen-ondertekening-kaderakkoord-aan~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt met “heffing van 100 procent” voor Europese landen die digitale diensten van Amerikaanse bedrijven willen belasten",
+        "url": "https://www.hln.be/economie/trump-dreigt-met-heffing-van-100-procent-voor-europese-landen-die-digitale-diensten-van-amerikaanse-bedrijven-willen-belasten~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "▶ Dan toch niet zo’n bromance: Donald Trump gaat de mist in met complimenten voor ongetrouwde Mark Rutte en diens ‘prachtige echtgenote’",
+        "url": "https://www.demorgen.be/snelnieuws/dan-toch-niet-zo-n-bromance-donald-trump-gaat-de-mist-in-met-complimenten-voor-ongetrouwde-mark-rutte-en-diens-prachtige-echtgenote~bfb5a5c3/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "ICC-rechters slepen Trump-regering voor de rechter vanwege sancties die ‘permanente angst en machteloosheid’ veroorzaken",
-        "url": "https://www.demorgen.be/nieuws/icc-rechters-slepen-trump-regering-voor-de-rechter-vanwege-sancties-die-permanente-angst-en-machteloosheid-veroorzaken~ba224a11/",
+        "title": "Live - Trump dreigt met importtarief van 100 procent voor Europese landen die digitaks invoeren",
+        "url": "https://www.demorgen.be/snelnieuws/live-voormalig-trump-adviseur-john-bolton-pleit-schuldig-in-zaak-over-vertrouwelijke-informatie~b13cc951/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt met nieuwe handelsoorlog tegen Europa: “100 procent invoerheffing voor landen met digitale taks”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-dreigt-met-nieuwe-handelsoorlog-tegen-europa-100-procent-invoerheffing-voor-landen-met-digitale-taks/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt met nieuwe handelsoorlog tegen Europa: “100 procent invoerheffing voor landen met digitale taks”",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-dreigt-met-nieuwe-handelsoorlog-tegen-europa-100-procent-invoerheffing-voor-landen-met-digitale-taks/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : John Bolton, ex-conseiller de Trump, plaide coupable de rétention de documents classifiés",
+        "url": "https://www.rtbf.be/article/etats-unis-john-bolton-ex-conseiller-de-trump-plaide-coupable-de-retention-de-documents-classifies-11748152",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Droits de douane : Donald Trump remet un coup de pression commerciale sur les Européens",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/06/26/donald-trump-remet-un-coup-de-pression-commerciale-sur-les-europeens-EZ3KIBPIVZG2HFH7R7IM3T4Z4I/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle gaffe de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/26/la-nouvelle-gaffe-de-donald-trump-HAKP7IC5KRFP7NGTBQ65GVFFZA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "John Bolton, ex-conseiller de Trump, plaide coupable de rétention de documents classifiés",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/26/john-bolton-ex-conseiller-de-trump-plaide-coupable-de-retention-de-documents-classifies-GLKOWRFL5JCLJOMNAYNQBA7754/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace d'imposer des droits de douane de 100% aux pays européens qui taxeraient les services numériques - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQMVA2dGxybnY0REpvVHBzc1otaUpocjJ6czY4RzdaX0Nua2NMb0FaRUVta3VpemdoSkhmWm5VZC1LRXhObkpMeDB6WXBuNmFiV0x2RVBLRnN3NmxFVlJYNGZBcWphREtaZ21Lb05NS2ladlByNjN2NFUwOTRVYWhBZTJwdUZkSmwyTjR3LW1ndkJ4bGxqaG5HOEdDR0M2WDVKSUFtZnVJQjMxTkl5bnQwNUI0ZEhzVXE0X3dqYkdZbkY5R3dCMG5Qa1FLbTVTaHduWm9HamJHNHVpeE5hamstVXR0ZmI2SjlDQl9HMk5keGlGaDVuQXZaSnMzdkdCeE9VbmxPaHhVYk43UQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle gaffe de Donald Trump face à Mark Rutte : il complimente son épouse... qui n'existe pas",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/26/la-nouvelle-gaffe-de-donald-trump-face-a-mark-rutte-il-complimente-son-epouse-qui-nexiste-pas-6H2V4NH67FEW5DTPI4DJJI2PCM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump complimente Rutte et “sa magnifique épouse” (qu’il n’a pas du tout)",
+        "url": "https://www.7sur7.be/monde/trump-complimente-rutte-et-sa-magnifique-epouse-quil-na-pas-du-tout~afb5a5c3/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "A Bruxelles, la célébration des 250 ans des Etats-Unis sous l’ombre de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUW04VTd4TUNncmR1eDZfM1JsSWZPYzNEVHRiQkZxTjNHbEtBRV9vOENqQ0hHSG5DUElQQkdONDVFeVVMLWNMT3E4TG83MmIzRXBwWWZRX093eDRxQW1IekstTnBkYWdTci1xbmFkQjVfVlBoX2ZiREkyMEtuRGQzRkVLSndrVVRpUlV5ZTgtV0RtX1ROWGFLUTJJU0pKMjZuVFFWQ0xQaEZvbC1sMnFHSktQM012N19TaWxKaA?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Tout pays qui imposerait une telle taxe aurait pour réponse, un droit de douane de 100 % » : Donald Trump remet un coup de pression commerciale sur les Européens - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMTE2ZDNJMTlQWVI1emZNZDBqaVIyMDdKcjhxbFRoSW9vTFBDSDk3b3RBV05RTmN5SnVqUVBOS0pJZG45c0d0RGU5U1NDWFdPSUpybUdiMHNsSG5HUUxQYkR2Wm1uWm8tWTg0VkRuN3RvRjFoWjFESUhGcUxPYlhpakNxVmUyemUtNTNmVUUxS1VWcUVBV2FKWlA2NHcwTUhmVGdIMnpiTFMzSkVtMUo5X1VrUTJnb0x4Ri0yWmRMR0xPTmZMcnZuOTl3?oc=5",
+        "source": "sudinfo_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 3,
-      "putin": 1,
+      "trump": 16,
+      "putin": 4,
       "macron": 0,
       "netanyahu": 0,
-      "zelensky": 0,
-      "rutte": 0,
+      "zelensky": 1,
+      "rutte": 3,
       "von_der_leyen": 0,
-      "de_wever": 0,
+      "de_wever": 5,
       "bouchez": 0,
       "magnette": 0,
-      "prevot": 0,
+      "prevot": 1,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 0
+      "verlinden": 1
     },
     "wide_comparisons": {
-      "trump": 4,
-      "putin": 2,
-      "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 0,
-      "rutte": 0,
+      "trump": 24,
+      "putin": 9,
+      "macron": 1,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 5,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 0,
+      "de_wever": 6,
+      "bouchez": 1,
       "magnette": 0,
-      "prevot": 0,
+      "prevot": 1,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 0
+      "verlinden": 1
     },
     "themes": {
-      "war": 11,
-      "crime": 5,
-      "eu": 21,
-      "politics": 8,
-      "be_gov": 4,
-      "culture": 7,
-      "tech": 4,
-      "economy": 8,
-      "sports": 36,
-      "health": 2,
-      "climate": 11,
-      "migration": 1,
-      "education": 4,
-      "weather": 29
+      "war": 28,
+      "crime": 19,
+      "eu": 42,
+      "politics": 22,
+      "be_gov": 26,
+      "culture": 24,
+      "tech": 23,
+      "economy": 19,
+      "sports": 87,
+      "health": 15,
+      "climate": 12,
+      "migration": 3,
+      "education": 7,
+      "weather": 72
     },
     "wide_themes": {
-      "war": 14,
-      "crime": 8,
-      "eu": 29,
-      "politics": 10,
-      "be_gov": 7,
-      "culture": 11,
-      "tech": 5,
-      "economy": 12,
-      "sports": 51,
-      "health": 2,
-      "climate": 15,
-      "migration": 2,
-      "education": 6,
-      "weather": 43
+      "war": 48,
+      "crime": 32,
+      "eu": 68,
+      "politics": 38,
+      "be_gov": 33,
+      "culture": 30,
+      "tech": 34,
+      "economy": 30,
+      "sports": 130,
+      "health": 21,
+      "climate": 19,
+      "migration": 4,
+      "education": 12,
+      "weather": 103
     }
   }
 ]
