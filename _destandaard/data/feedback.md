@@ -7,8 +7,12 @@ notitie. De volgende digest leest dit en stelt zich bij.
 De **Verrassing**-sectie blijft bewust gevarieerd: negatieve feedback op een
 verrassing levert een *ander* verrassend onderwerp op, geen kleinere sectie.
 
-Voorbeeld (verwijderen mag):
+Voorbeeld (regels in dit codeblok worden genegeerd):
 
-    0626-a1 + meer van dit soort duiding
-    0626-a5 - te lang blijven hangen in dit dossier
-    0626-v2 + verrassend goeie keuze
+```
+MMDD-a1 + meer van dit soort duiding
+MMDD-a5 - te lang blijven hangen in dit dossier
+MMDD-v2 + verrassend goeie keuze
+```
+
+Zet je echte feedback hieronder, buiten het codeblok:

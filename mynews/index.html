@@ -42,6 +42,7 @@
 
         /* Reader */
         .toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;}
+        .toolbar-actions{display:flex;gap:.5rem;}
         .toolbar .meta{font-size:.82rem;color:var(--text-light);}
         .rode{background:#f0ece2;border-left:3px solid var(--accent);padding:.9rem 1.1rem;border-radius:0 8px 8px 0;margin-bottom:2rem;font-size:.95rem;}
         .section-title{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);border-bottom:1px solid var(--border);padding-bottom:.5rem;margin:2rem 0 1.2rem;}
@@ -110,7 +111,10 @@
         <section id="reader" hidden>
             <div class="toolbar">
                 <div class="meta" id="reader-meta"></div>
-                <button class="ghost" id="edit-prefs">Voorkeuren</button>
+                <div class="toolbar-actions">
+                    <button class="ghost" id="edit-prefs">Voorkeuren</button>
+                    <button class="ghost" id="reset-prefs">Reset</button>
+                </div>
             </div>
             <div id="reader-body"></div>
         </section>
@@ -272,6 +276,13 @@
     });
     $("#prev").addEventListener("click",()=>showStep(step-1));
     $("#edit-prefs").addEventListener("click",startWizard);
+    $("#reset-prefs").addEventListener("click",()=>{
+        if(confirm("Alle voorkeuren én feedback op dit toestel wissen en opnieuw beginnen?")){
+            localStorage.removeItem(PREFS_KEY);
+            localStorage.removeItem(FB_KEY);
+            startWizard();
+        }
+    });
 
     if(loadPrefs()) renderReader(); else startWizard();
     </script>
