@@ -20,13 +20,16 @@ from pathlib import Path
 from digest import build_digest, KERN_COUNT, VERRASSING_COUNT, VERRASSING_MIN
 from feedback import load_feedback_context, record_shown
 from parse import parse_bundle
-from render import render_html, render_markdown
+from render import render_html, render_json, render_markdown
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 INCOMING_DIR = DATA_DIR / "incoming"
 DIGEST_DIR = DATA_DIR / "digests"
 PREFERENCES = ROOT / "preferences.md"
+
+# The MyNews web reader (static site) fetches the digest as JSON from here.
+SITE_DATA_DIR = ROOT.parent / "mynews" / "data"
 
 # Personal digest → your own inbox. Override with --to or DESTANDAARD_TO_ADDR.
 # Defaulting here means the pipeline reuses mediamonitor's existing Gmail
@@ -99,6 +102,15 @@ def run(input_path=None, to_addr=None, dry_run=False, no_llm=False,
     out_md = DIGEST_DIR / f"De_Standaard_{date or edition}.md"
     out_md.write_text(md, encoding="utf-8")
     logging.info("wrote %s", out_md)
+
+    # JSON for the MyNews web reader: an archived dated copy + latest.json.
+    data = render_json(meta, digest)
+    blob = json.dumps(data, ensure_ascii=False, indent=2)
+    (DIGEST_DIR / f"De_Standaard_{date or edition}.json").write_text(blob, encoding="utf-8")
+    SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    (SITE_DATA_DIR / f"{date or edition}.json").write_text(blob, encoding="utf-8")
+    (SITE_DATA_DIR / "latest.json").write_text(blob, encoding="utf-8")
+    logging.info("wrote MyNews JSON to %s", SITE_DATA_DIR)
 
     # Record what we showed so future feedback handles resolve. Skip on no-llm
     # smoke tests so they don't pollute the history.
