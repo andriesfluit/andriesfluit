@@ -55,6 +55,7 @@
         .card h3{font-size:1.12rem;font-weight:600;margin:.15rem 0 .3rem;line-height:1.35;}
         .card .cmeta{font-size:.78rem;color:var(--text-light);margin-bottom:.6rem;}
         .card .stars{color:var(--accent);}
+        .src-badge{color:var(--accent);font-weight:500;}
         .card .why{font-style:italic;color:#555;font-size:.9rem;margin-bottom:.55rem;}
         .card .body{font-size:.94rem;}
         .fb{display:flex;gap:.5rem;margin-top:.9rem;}
@@ -219,10 +220,11 @@
         const author=a.author?` · ${a.author}`:"";
         const sc=withScore?` · <span class="stars">${stars(a.score||3)}</span>`:"";
         const cur=fb[a.handle]||"";
-        return `<div class="card" data-handle="${a.handle}">
+        const bron=a.bron?` · <span class="src-badge">${escapeHtml(a.bron)}</span>`:"";
+        return `<div class="card" data-handle="${a.handle}" data-source="${a.source||''}">
             <div class="hnd">${a.handle||""}</div>
             <h3>${escapeHtml(a.title)}</h3>
-            <div class="cmeta">p${a.page??""} · ${escapeHtml(a.rubriek)}${author}${sc}</div>
+            <div class="cmeta">p${a.page??""} · ${escapeHtml(a.rubriek)}${bron}${author}${sc}</div>
             ${a.waarom?`<div class="why">${escapeHtml(a.waarom)}</div>`:""}
             <div class="body">${escapeHtml(a.samenvatting)}</div>
             <div class="fb">
@@ -233,36 +235,36 @@
     }
     function escapeHtml(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 
-    let currentSource=null;
-    function enabledSources(){
-        const p=loadPrefs();
-        const chosen=(p&&p.sources&&p.sources.length)?p.sources:SOURCES.map(s=>s[0]);
-        return SOURCES.map(s=>s[0]).filter(k=>chosen.includes(k));
+    let currentFilter="all", lastDigest=null;
+    function buildFilterTabs(d){
+        const tabs=$("#source-tabs");
+        const present=[...new Set([...(d.kern||[]),...(d.verrassing||[])].map(a=>a.source).filter(Boolean))];
+        if(present.length<=1){tabs.innerHTML="";return;}
+        const opts=[["all","Alles"],...present.map(s=>[s,SOURCE_LABELS[s]||s])];
+        tabs.innerHTML=opts.map(([k,l])=>`<button data-filter="${k}" class="${k===currentFilter?'on':''}">${l}</button>`).join("");
+        tabs.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{currentFilter=b.dataset.filter;applyFilter();buildFilterTabs(lastDigest);}));
     }
-    function renderSourceTabs(){
-        const tabs=$("#source-tabs"); const list=enabledSources();
-        if(list.length<=1){tabs.innerHTML="";return;}
-        tabs.innerHTML=list.map(k=>`<button data-src="${k}" class="${k===currentSource?'on':''}">${SOURCE_LABELS[k]||k}</button>`).join("");
-        tabs.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>renderReader(b.dataset.src)));
+    function applyFilter(){
+        $("#reader-body").querySelectorAll(".card").forEach(c=>{
+            c.style.display=(currentFilter==="all"||c.dataset.source===currentFilter)?"":"none";
+        });
     }
-    async function renderReader(sourceKey){
+    async function renderReader(){
         $("#wizard").hidden=true; $("#reader").hidden=false;
-        const list=enabledSources();
-        currentSource=(sourceKey&&list.includes(sourceKey))?sourceKey:(list[0]||"destandaard");
-        renderSourceTabs();
         const body=$("#reader-body");
         body.innerHTML=`<div class="empty">Laden…</div>`;
         let d;
         try{
-            const r=await fetch(`data/${currentSource}/latest.json`,{cache:"no-store"});
+            const r=await fetch("data/latest.json",{cache:"no-store"});
             if(!r.ok) throw new Error(r.status);
             d=await r.json();
         }catch(e){
-            body.innerHTML=`<div class="empty">Nog geen digest voor ${SOURCE_LABELS[currentSource]||currentSource}.<br><small>De pipeline publiceert <code>data/${currentSource}/latest.json</code> na de volgende run.</small></div>`;
-            $("#reader-meta").textContent="";
+            body.innerHTML=`<div class="empty">Nog geen digest beschikbaar.<br><small>De pipeline publiceert <code>data/latest.json</code> na de volgende run.</small></div>`;
+            $("#reader-meta").textContent=""; $("#source-tabs").innerHTML="";
             return;
         }
-        $("#reader-meta").textContent=`${SOURCE_LABELS[currentSource]||''} · ${d.date} · editie ${d.edition} · ${d.article_count} artikels`;
+        lastDigest=d;
+        $("#reader-meta").textContent=`${d.date} · ${d.label||''} · ${d.article_count} artikels gescand`;
         let h="";
         if(d.rode_draad) h+=`<div class="rode"><strong>Rode draad.</strong> ${escapeHtml(d.rode_draad)}</div>`;
         h+=`<div class="section-title">Op maat</div>`;
@@ -273,6 +275,7 @@
             h+=d.verrassing.map(a=>cardHtml(a,false)).join("");
         }
         body.innerHTML=h;
+        buildFilterTabs(d); applyFilter();
         // wire feedback
         body.querySelectorAll(".card").forEach(card=>{
             card.querySelectorAll(".fb button").forEach(btn=>{
