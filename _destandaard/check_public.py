@@ -28,9 +28,52 @@ def get(url, timeout=25):
         return None, url, str(e).encode()
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None
+
+
+def get_raw(url, timeout=25):
+    """Fetch WITHOUT following redirects, returning (status, headers, body)."""
+    opener = urllib.request.build_opener(_NoRedirect)
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Referer": BASE + "/"})
+    try:
+        with opener.open(req, timeout=timeout) as r:
+            return r.status, dict(r.headers), r.read()
+    except urllib.error.HTTPError as e:
+        return e.code, dict(e.headers), (e.read() or b"")
+    except Exception as e:  # noqa: BLE001
+        return None, {}, str(e).encode()
+
+
+def discover_edition():
+    """Try, without login, to find today's edition ID. Prints what it learns."""
+    print("[0] Editie-ID-discovery (geen login):")
+    # a) Landing redirect target (Location header), without following it.
+    st, hdrs, body = get_raw(BASE + "/")
+    loc = hdrs.get("Location") or hdrs.get("location") or ""
+    print(f"    GET / (no-redirect) -> HTTP {st} · Location={loc or '—'}")
+    snippet = body.decode("utf-8", "ignore").strip().replace("\n", " ")[:200]
+    print(f"    body[:200]={snippet!r}")
+    found = re.findall(r"(\d{3,6})", loc) + re.findall(r"/data/(\d{3,6})/", snippet)
+    # b) A few likely discovery endpoints.
+    for path in ("/data/config.json", "/config.json", "/data/publications.json",
+                 "/api/editions/latest", "/data/latest.json"):
+        st, _, body = get(BASE + path)
+        print(f"    GET {path} -> HTTP {st} · {len(body)} bytes")
+        if st == 200:
+            found += re.findall(r"(\d{3,6})", body.decode("utf-8", "ignore"))
+    cands = sorted(set(found), key=lambda x: -int(x))
+    print(f"    kandidaat-editie-id's: {cands[:10] or 'geen'}")
+    return cands
+
+
 def main():
     ed = sys.argv[1] if len(sys.argv) > 1 else "3307"
     print(f"== Probe De Standaard e-paper (geen login) — editie {ed} ==\n")
+
+    discover_edition()
+    print()
 
     # 1. Landing page: status + any edition-id-like patterns in the HTML/JS.
     st, final, body = get(BASE + "/")
