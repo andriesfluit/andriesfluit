@@ -1,188 +1,42 @@
 {
-  "source": "",
+  "source": "combined",
   "label": "De Standaard + De Tijd",
   "date": "2026-06-26",
-  "edition": "",
+  "sources_line": "De Standaard 3307 · De Tijd 3330",
   "article_count": 112,
-  "rode_draad": "Een recordhittegolf forceert keuzes — over infrastructuur, energie, beleid en de grenzen van groei — terwijl AI-investeringen en Belgische begrotingsspanningen de economische agenda domineren.",
+  "rode_draad": "Test.",
   "kern": [
     {
       "handle": "ds-0626-a1",
-      "title": "Piek van deze hittegolf ligt 3,5 graden hoger door klimaatverandering",
-      "bron": "De Standaard",
+      "title": "Hittegolf — gecombineerd",
+      "bron": "De Standaard + De Tijd",
       "source": "destandaard",
+      "sources": [
+        "destandaard",
+        "detijd"
+      ],
       "rubriek": "Vooraan",
       "page": 1,
       "author": "",
-      "waarom": "Directe klimaatwetenschap over de huidige hittegolf, precies het type onderbouwd onderzoek dat hij wil volgen.",
-      "samenvatting": "Onderzoekers van World Weather Attribution concluderen dat de huidige Europese hittegolf zonder klimaatverandering 'virtueel onmogelijk' was geweest. De piektemperaturen liggen 3,5 graden hoger dan in een wereld zonder CO₂-uitstoot, en in 45 procent van de Europese meetstations worden historische records gebroken. Dat onderscheidt deze golf fundamenteel van vergelijkbare periodes in 1976 — toen lag de globale temperatuur slechts 0,3 graden boven het pre-industriële peil, nu is dat 1,4 graden.",
-      "score": 5
+      "score": 5,
+      "waarom": "Beide kranten.",
+      "samenvatting": "De Standaard meldt X. De Tijd benadrukt Y."
     },
     {
-      "handle": "ds-0626-a2",
-      "title": "Zeepbel of niet? AI draait bijna break-even",
-      "bron": "De Standaard",
-      "source": "destandaard",
+      "handle": "dt-0626-a2",
+      "title": "Enkel De Tijd",
+      "bron": "De Tijd",
+      "source": "detijd",
+      "sources": [
+        "detijd"
+      ],
       "rubriek": "Economie",
-      "page": 16,
+      "page": 4,
       "author": "",
-      "waarom": "Rechtstreeks relevant voor zijn AI-startup: concrete cijfers over of de AI-economie al draagvlak heeft onder de investeringsgolf.",
-      "samenvatting": "Een studie van Exponential View berekent dat alle AI-aanbieders (exclusief China) de voorbije twaalf maanden 110 miljard dollar verdienden, met een geannualiseerde run rate van 175 miljard dollar — al groter dan de volledige streamingmarkt. Groeimotoren zijn betaalde AI-agents zoals Claude Code, waarbij tokenverbruik stevig doorrekent. De vraag of AI een zeepbel is, klinkt daarmee minder urgent, al worden bedrijven wel wakker van de kostprijs van intensief gebruik.",
-      "score": 5
-    },
-    {
-      "handle": "dt-0626-a3",
-      "title": "Een rijkentaks in België: praktisch haalbaar, maar politieke sciencefiction",
-      "bron": "De Tijd",
-      "source": "detijd",
-      "rubriek": "Politiek & Economie",
-      "page": 8,
-      "author": "",
-      "waarom": "Kernvraag voor de Belgische begrotingspolitiek: de rijkentaks raakt rechtstreeks aan de coalitiedynamiek en aan het ondernemersklimaat dat hij volgt.",
-      "samenvatting": "Twee regeringspartijen — Vooruit en Les Engagés — willen een rijkentaks invoeren om de verwachte begrotingsput van 10 miljard te dichten. Vooruit viseert vermogens boven 1 miljoen euro (0,3%, opbrengst 1 mrd), Les Engagés start al bij 500.000 euro (progressief tot 0,6%, opbrengst tot 2 mrd). MR en N-VA zijn fel gekant; Odoo-topman Pinckaers dreigt België te verlaten. De politieke haalbaarheid binnen Arizona is bijzonder klein, maar de druk neemt toe naarmate het Monitoringcomité-rapport van 6 juli nadert.",
-      "score": 5
-    },
-    {
-      "handle": "ds-0626-a4",
-      "title": "Trump-fluisteraar Rutte ergert zijn Europese bondgenoten",
-      "bron": "De Standaard",
-      "source": "destandaard",
-      "rubriek": "Buitenland",
-      "page": 14,
-      "author": "",
-      "waarom": "Navo-geopolitiek en de Europees-Amerikaanse machtsdynamiek zijn een kernprioriteit voor hem.",
-      "samenvatting": "Navo-secretaris-generaal Rutte trok naar het Witte Huis met visuele 'Trump Trillion'-presentaties om de Amerikaanse president aan boord te houden voor de top in Ankara (7 juli). Toch blijven de Europees-Amerikaanse verhoudingen verzuurd: Trump stelt het bondgenootschap ter discussie, is boos over geopolitieke kwesties en wilde aanvankelijk niet eens naar Ankara komen. De vraag is of Ruttes vleiende aanpak volstaat om Europa een betrouwbare partner te houden.",
-      "score": 4
-    },
-    {
-      "handle": "ds-0626-a5",
-      "title": "Hoe rijkentaks van Les Engagés de premier nog meer kopzorgen bezorgt",
-      "bron": "De Standaard",
-      "source": "destandaard",
-      "rubriek": "Buitenland",
-      "page": 12,
-      "author": "",
-      "waarom": "Belgische coalitiedynamiek op het scherpst: een intern begrotingsconflict dat de Arizona-coalitie onder druk zet.",
-      "samenvatting": "Nadat Vooruit al eerder een rijkentaks lanceerde, sloot Les Engagés zich deze week aan — wat een onverwacht front vormt tégen coalitiepartners MR en N-VA. MR-voorzitter Bouchez spreekt van 'georganiseerde diefstal'; Odoo-oprichter Pinckaers, eigenaar van een unicorn van 10 miljard euro, dreigt publiekelijk met vertrek. Les Engagés verdedigt zich door te stellen dat ook ondernemers de belasting steunen, maar de politieke en juridische haalbaarheid blijft twijfelachtig.",
-      "score": 4
-    },
-    {
-      "handle": "ds-0626-a6",
-      "title": "Regering bouwt team om te onderhandelen met Engie over kerncentrales",
-      "bron": "De Standaard",
-      "source": "destandaard",
-      "rubriek": "Economie",
-      "page": 16,
-      "author": "",
-      "waarom": "Grote economische en beleidsoperatie die de energietoekomst van België bepaalt, met concrete details over het onderhandelingsteam.",
-      "samenvatting": "Premier De Wever onthulde in de Kamer het team dat de nationalisering van de Belgische kerncentrales moet begeleiden: Rothschild & Co (strategie), Arthur D. Little (commercieel), KPMG (financieel) en Eubelius (juridisch). Engie heeft decennia kernenergiekennis; de Belgische overheid moet met gelijke wapens aan tafel. Een technisch adviseur voor de staat van de reactoren zelf ontbreekt nog — Tractebel valt af wegens belangenconflict met moederbedrijf Engie.",
-      "score": 4
-    },
-    {
-      "handle": "dt-0626-a7",
-      "title": "Micron schiet bijna vijfde hoger en redt het AI-feestje op de beurs",
-      "bron": "De Tijd",
-      "source": "detijd",
-      "rubriek": "Vooraan",
-      "page": 3,
-      "author": "",
-      "waarom": "Sterke beursbarometer voor de AI-infrastructuurmarkt die rechtstreeks zijn sector raakt.",
-      "samenvatting": "Micron overtrof de analistenverwachtingen ruimschoots: 41,46 miljard dollar kwartaalomzet en een prognose van 49-51 miljard voor het volgende kwartaal — 16 procent boven consensus. Het aandeel steeg 16 procent en flirt met een beurswaarde van 1.380 miljard dollar. De resultaten bewijzen dat de vraag naar geheugenchips voor AI-datacenters structureel blijft, niet conjunctureel: brutowinstmarges van 86 procent tonen dat Micron zijn prijzen grotendeels zelf bepaalt.",
-      "score": 4
-    },
-    {
-      "handle": "dt-0626-a8",
-      "title": "‘België is door begroting een van slechtste leerlingen van de klas’",
-      "bron": "De Tijd",
-      "source": "detijd",
-      "rubriek": "Beleggen",
-      "page": 18,
-      "author": "",
-      "waarom": "Macro-economische duiding voor België en Europa, met concrete prognoses die ondernemers en investeerders direct raken.",
-      "samenvatting": "BNP Paribas Fortis verlaagt zijn groeiprognose voor de Belgische economie van 1,1 naar 0,7 procent voor 2026, met een verwachte inflatie van 3,5 procent. België en Frankrijk zijn 'slechtste leerlingen van de klas' op begrotingsvlak. Positieve noot: de bank verwacht dat AI-productiviteitswinsten de negatieve effecten van demografie en invoertarieven ruimschoots compenseren — al profiteren de VS meer dan Europa van die revolutie.",
-      "score": 4
-    },
-    {
-      "handle": "ds-0626-a9",
-      "title": "Alweer donkere wolk boven privatisering Belfius",
-      "bron": "De Standaard",
-      "source": "destandaard",
-      "rubriek": "Vooraan",
-      "page": 2,
-      "author": "",
-      "waarom": "Privatisering Belfius is een grote economisch-politieke operatie die hij volgt; dit stuk geeft de redactionele duiding.",
-      "samenvatting": "De Arco-coöperanten eisen via Deminor en Arcoclaim een deel van de Belfius-privatiseringsopbrengst, op basis van een belofte uit 2018 van de regering-Michel. De juridische basis is wankel — een regering is niet verplicht beloftes van voorgangers na te komen — maar politiek is het een hoofdpijndossier voor CD&V. Naast dit juridisch risico lopen ook een mogelijke fusie met Ethias en de vraag of vermogende families als enige aandeelhouders mogen instappen de privatisering verder vertraging op.",
-      "score": 3
-    },
-    {
-      "handle": "dt-0626-a10",
-      "title": "‘Een eenmalige belasting voor schuldafbouw? In de jaren 40 kon het ’",
-      "bron": "De Tijd",
-      "source": "detijd",
-      "rubriek": "De Verdieping",
-      "page": 6,
-      "author": "",
-      "waarom": "Historische fiscale analyse die de context geeft voor de actuele rijkentaksdiscussie — verdiepende duiding op het politiek-economisch dossier dat hij volgt.",
-      "samenvatting": "Postdoctoraal onderzoeker Simon Watteyne (ULB) schetst hoe België sinds 1830 amper twee ernstige fiscale hervormingen kende — telkens na verwoestende oorlogen. De Belgische traditie om bij elke crisis arbeidsinkomen extra te belasten terwijl kapitaal buiten schot blijft, vindt zijn oorsprong in de politieke machtsstructuren van de negentiende eeuw. De recente meerwaardebelasting is een eerste correctie, maar de strijd over een rijkentaks herhaalt een patroon van meer dan een eeuw.",
-      "score": 3
+      "score": 4,
+      "waarom": "Eén krant.",
+      "samenvatting": "Alleen De Tijd."
     }
   ],
-  "verrassing": [
-    {
-      "handle": "ds-0626-v1",
-      "title": "Archeologen zoeken in kerkdorp naar vesting van Ambiorix",
-      "bron": "De Standaard",
-      "source": "destandaard",
-      "rubriek": "Regio",
-      "page": 43,
-      "author": "",
-      "waarom": "Ver buiten zijn dagelijkse radar: archeologie als spiegel van hoe we onze eigen oorsprong reconstrueren — een onderwerp dat zelden in economie- of technieuws opduikt.",
-      "samenvatting": "Archeologen van het Vlaamse agentschap Onroerend Erfgoed zijn begonnen met opgravingen bij het Tongerse kerkdorp Berg, op zoek naar Atuatuca — de legendarische vesting van Ambiorix en de Eburonen, beschreven door Julius Caesar in De Bello Gallico. Nooit eerder werd een Eburoons oppidum gevonden; eerdere zoekacties leverden niets op. Minister Ben Weyts was aanwezig bij de start, wat het politieke gewicht van de zoektocht onderstreept. Als de hypothese klopt, zou het de eerste schriftelijke bron over onze streken letterlijk een locatie geven."
-    },
-    {
-      "handle": "dt-0626-v2",
-      "title": "Tieners zijn kwetsbaarder voor phishing dan hun grootouders",
-      "bron": "De Tijd",
-      "source": "detijd",
-      "rubriek": "Ondernemen",
-      "page": 15,
-      "author": "",
-      "waarom": "Verrassende omkeringen van aannames over digitale vaardigheid en kwetsbaarheid — een relevant tegendraads inzicht voor wie met technologie en jonge gebruikers werkt.",
-      "samenvatting": "Uit een studie van iVox voor Bancontact blijkt dat Belgische tieners véél kwetsbaarder zijn voor phishing dan 55-plussers: slechts 50 procent zou een vals bankgesprek negeren, tegenover 95 procent bij ouderen. Bij verdachte QR-codes en wedstrijdlinks liggen de cijfers nog slechter. Fomo en vertrouwen in influencers ondermijnen de waakzaamheid van digital natives — wat het gangbare beeld dat ouderen het meeste risico lopen, op zijn kop zet."
-    },
-    {
-      "handle": "ds-0626-v3",
-      "title": "Na 100 jaar weer thuis: National Trust herkent wandtapijt Brits kasteel bij Belgische handelaar",
-      "bron": "De Standaard",
-      "source": "destandaard",
-      "rubriek": "DS2",
-      "page": 32,
-      "author": "",
-      "waarom": "Een minutieuze detectivegeschiedenis over erfgoed, markt en geheugen — het soort verhaal dat zijn kijk op hoe kennis bewaard en herontdekt wordt verrijkt.",
-      "samenvatting": "Een conservator van de British National Trust herkende op de kunstbeurs Tefaf in Maastricht een zestiende-eeuws wandtapijt dat al meer dan honderd jaar vermist was uit het Britse kasteel Oxburgh. Het stuk werd te koop aangeboden door de Mechelse textielspecialist Koninklijke Manufactuur De Wit, met een richtprijs van 300.000-400.000 euro. Na reconstructie van het reispad — via een Parijse kunsthandelaar, een New Yorkse bestemming en stoomboot SS Paris in 1925 — kon de National Trust het wandtapijt terukkopen. Zes van de zeven originele wandtapijten zijn nog altijd spoorloos."
-    },
-    {
-      "handle": "dt-0626-v4",
-      "title": "In Duitsland ligt de bal eindelijk op de stip",
-      "bron": "De Tijd",
-      "source": "detijd",
-      "rubriek": "Opinie",
-      "page": 11,
-      "author": "",
-      "waarom": "Een buitenlands perspectief op pensioenhervorming — een structureel Europees probleem dat hij zelden vanuit de Duitse invalshoek leest.",
-      "samenvatting": "Duitsland heeft voor het eerst in jaren een breed gedragen pensioenhervorming op tafel: geleidelijke verhoging van de pensioenleeftijd gekoppeld aan levensverwachting, afschaffing van vervroegde pensioenen en een nieuwe kapitaalmarktpijler. Die koerswijziging — meer gedwongen beleggen — is een opvallende bocht weg van Europese collectieve oplossingen zoals euro-obligaties. De auteur stelt dat als Duitsland het zelf doet, de politieke druk voor een Europese spaar- en investeringsunie wegvalt."
-    },
-    {
-      "handle": "dt-0626-v5",
-      "title": "Een op de drie speelpleinen moet inschrijvingsstop doorvoeren",
-      "bron": "De Tijd",
-      "source": "detijd",
-      "rubriek": "Politiek & Economie",
-      "page": 10,
-      "author": "",
-      "waarom": "Een onverwacht sociaal knelpunt dat zichtbaar maakt hoe de groeiende vraag naar kinderopvang botst op een personeelsmarkt die niet meegroeit.",
-      "samenvatting": "Het aantal kinderen in Vlaamse speelpleinwerkingen steeg van 140.000 (2021) naar meer dan 200.000 (2025), maar een derde van de werkingen moet al een inschrijvingsstop doorvoeren wegens capaciteitsgebrek. De zoektocht naar animatoren verloopt moeizaam: het statuut is onaantrekkelijk en de rekrutering kost meer moeite dan vroeger. Voor veel ouders is de speelpleinwerking — gemiddeld 6,88 euro per dag — de meest betaalbare vakantie-opvang, waardoor de druk alleen maar toeneemt."
-    }
-  ],
-  "generated_at": "2026-06-26T10:16:53+00:00"
+  "verrassing": []
 }

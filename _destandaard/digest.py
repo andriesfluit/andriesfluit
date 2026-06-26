@@ -55,13 +55,17 @@ voorkeuren — sterk, belangrijk of verrassend genoeg dat ze hem een nieuw \
 perspectief geven. Maximaal divers gespreid over rubrieken. Dit is geen \
 restpost: kies hier met zorg om hem uit zijn echokamer te houden.
 
-MEERDERE KRANTEN (belangrijk)
+MEERDERE KRANTEN — SAMENVOEGEN (belangrijk)
 - Bij elk artikel staat de bron (krant). De twee kranten dekken vaak DEZELFDE \
-verhalen. Kies elk verhaal maar ÉÉN keer: bij overlap neem je de sterkste of \
-meest complete versie en laat je de andere weg. Geen twee items over hetzelfde \
-nieuwsfeit.
-- Streef naar een mooie mix uit beide kranten waar dat natuurlijk is, maar \
-relevantie en kwaliteit gaan voor krantbalans.
+verhalen. Maak hier NOOIT twee aparte items van.
+- Behandelen beide kranten hetzelfde onderwerp, voeg ze samen tot ÉÉN item: zet \
+beide artikelnummers in 'idxs'. Schrijf dan één alinea die de berichtgeving \
+combineert, en differentieer in de tekst waar het iets toevoegt — bv. "De Tijd \
+benadrukt …, terwijl De Standaard meldt dat …". De twee bronnen verschijnen \
+automatisch bovenaan het item.
+- Dekt maar één krant het verhaal, dan bevat 'idxs' één nummer.
+- Blijf strikt bij de feiten uit BEIDE meegeleverde teksten; verzin geen brug \
+tussen de twee.
 
 STRIKTE REGELS
 - Samenvattingen UITSLUITEND uit de meegeleverde artikeltekst. Niets aanvullen \
@@ -83,9 +87,12 @@ dag waarop alles binnen zijn voorkeuren lijkt te vallen.
 Antwoord UITSLUITEND met geldige JSON, exact in dit schema:
 {
   "rode_draad": "optioneel: 1 zin over de dominante lijn van de dag, of \\"\\"",
-  "kern": [{"idx": int, "score": int 1-5, "waarom": "1 zin", "samenvatting": "korte alinea met duiding"}],
-  "verrassing": [{"idx": int, "waarom": "1 zin", "samenvatting": "korte alinea met duiding"}]
-}"""
+  "kern": [{"idxs": [int, ...], "score": int 1-5, "waarom": "1 zin", "samenvatting": "korte alinea met duiding"}],
+  "verrassing": [{"idxs": [int, ...], "waarom": "1 zin", "samenvatting": "korte alinea met duiding"}]
+}
+
+'idxs' bevat meestal één artikelnummer; twee (of meer) bij overlap tussen de \
+kranten over hetzelfde onderwerp."""
 
 
 def _user_prompt(articles, preferences, feedback_context, kern_n, verr_n, verr_min):
@@ -144,27 +151,44 @@ def build_digest(articles, preferences, feedback_context="",
         logger.error("digest parse failed: %s\nRaw: %s", e, raw[:600])
         raise
 
+    seen = set()
+
     def resolve(entries, extra_keys):
+        """Each entry's 'idxs' may list one OR several articles about the same
+        story (an overlap between the two papers). We merge them into one item:
+        the primary article supplies title/page/rubriek, the sources/labels are
+        the union, and the model's samenvatting already weaves both papers."""
         out = []
-        seen = set()
         for v in entries or []:
-            idx = v.get("idx")
-            if not isinstance(idx, int) or idx < 0 or idx >= len(articles) or idx in seen:
+            idxs = v.get("idxs")
+            if not idxs and isinstance(v.get("idx"), int):
+                idxs = [v["idx"]]
+            idxs = [i for i in (idxs or [])
+                    if isinstance(i, int) and 0 <= i < len(articles) and i not in seen]
+            if not idxs:
                 continue
-            seen.add(idx)
-            art = dict(articles[idx])
+            for i in idxs:
+                seen.add(i)
+            art = dict(articles[idxs[0]])
+            srcs, brons = [], []
+            for i in idxs:
+                s, b = articles[i].get("source"), articles[i].get("bron")
+                if s and s not in srcs:
+                    srcs.append(s)
+                if b and b not in brons:
+                    brons.append(b)
+            art["sources"] = srcs
+            if brons:
+                art["bron"] = " + ".join(brons)
             art["waarom"] = (v.get("waarom") or "").strip()
             art["samenvatting"] = (v.get("samenvatting") or "").strip()
             for k in extra_keys:
                 art[k] = v.get(k)
             out.append(art)
-        return out, seen
+        return out
 
-    kern, kern_idx = resolve(verdict.get("kern"), ["score"])
-    verrassing, _ = resolve(
-        [v for v in (verdict.get("verrassing") or []) if v.get("idx") not in kern_idx],
-        [],
-    )
+    kern = resolve(verdict.get("kern"), ["score"])
+    verrassing = resolve(verdict.get("verrassing"), [])
 
     # Normalise scores to 1-5.
     for a in kern:
