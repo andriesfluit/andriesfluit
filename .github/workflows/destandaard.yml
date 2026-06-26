@@ -1,20 +1,27 @@
 name: destandaard digest
 
-# Capture is manual (your logged-in browser dumps the raw JSON). This workflow
-# runs the rest: it fires when a new *.raw.json is pushed to the incoming
-# folder, builds the digest, mails it, commits the digest + history back, and
-# removes the processed raw JSON so the repo stays lean. Also runnable by hand.
+# Fully autonomous: every night around 02:00 Brussels the job fetches that
+# day's De Standaard edition straight from the public Twipe CDN (no login —
+# see check_public.py), builds the personal digest, mails it, and publishes
+# the JSON the MyNews web reader consumes.
+#
+# Two crons so the same local time works across DST (GitHub cron is UTC):
+#   00:07 UTC -> 02:07 CEST (summer)
+#   01:07 UTC -> 02:07 CET  (winter)
+# The "wrong" cron for the season fires an hour off and main.py --auto skips
+# via its idempotency gate (today's digest already built -> exit 0). The :07
+# offset dodges the top-of-hour scheduler stampede.
 
 on:
-  push:
-    paths:
-      - "_destandaard/data/incoming/*.raw.json"
+  schedule:
+    - cron: "7 0 * * *"
+    - cron: "7 1 * * *"
   workflow_dispatch:
     inputs:
-      input:
-        description: "Path to a .raw.json (leave empty for newest in incoming/)."
-        required: false
-        default: ""
+      force:
+        description: "Rebuild even if today's digest already exists"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -48,41 +55,30 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build + mail digest
-        id: build
         working-directory: _destandaard
         env:
           ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_USER:          ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD:  ${{ secrets.GMAIL_APP_PASSWORD }}
           # Optional: leave unset to use the default recipient in main.py.
-          # Reuses mediamonitor's existing Gmail secrets — no new secret needed.
           DESTANDAARD_TO_ADDR: ${{ secrets.DESTANDAARD_TO_ADDR }}
         run: |
-          INPUT="${{ github.event.inputs.input }}"
-          if [ -z "$INPUT" ]; then
-            INPUT=$(ls -t data/incoming/*.raw.json 2>/dev/null | head -n1 || true)
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            python main.py --auto --force
+          else
+            python main.py --auto
           fi
-          if [ -z "$INPUT" ]; then
-            echo "No raw capture to process; nothing to do."
-            echo "processed=" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-          echo "Processing $INPUT"
-          python main.py --input "$INPUT"
-          echo "processed=$INPUT" >> $GITHUB_OUTPUT
 
-      - name: Commit digest + cleanup raw
-        if: steps.build.outputs.processed != ''
-        working-directory: _destandaard
+      - name: Commit digest + state
         run: |
           git config user.name "destandaard-bot"
           git config user.email "destandaard-bot@andriesfluit.be"
-          # Remove the processed raw capture so the repo doesn't accumulate
-          # a few hundred KB per day.
-          git rm -f --ignore-unmatch "${{ steps.build.outputs.processed }}"
-          git add data/digests/ data/history.jsonl
+          git add _destandaard/data/digests/ _destandaard/data/history.jsonl \
+                  _destandaard/data/last_edition.json mynews/data/
           if ! git diff --cached --quiet; then
             git commit -m "destandaard: digest for $(TZ=Europe/Brussels date '+%Y-%m-%d')"
             git pull --rebase --autostash
             git push
+          else
+            echo "No new digest to commit."
           fi

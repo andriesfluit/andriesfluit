@@ -31,6 +31,25 @@ PREFERENCES = ROOT / "preferences.md"
 # The MyNews web reader (static site) fetches the digest as JSON from here.
 SITE_DATA_DIR = ROOT.parent / "mynews" / "data"
 
+# Remembers the last edition we built, so the autonomous fetcher can predict
+# today's edition ID (De Standaard's main edition steps +2 per day).
+STATE_FILE = DATA_DIR / "last_edition.json"
+
+
+def _load_state():
+    try:
+        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {"id": 3307, "date": "2026-06-26"}
+
+
+def _save_state(edition, date):
+    try:
+        STATE_FILE.write_text(json.dumps({"id": int(edition), "date": date}),
+                              encoding="utf-8")
+    except (ValueError, OSError) as e:
+        logging.warning("kon editie-state niet schrijven: %s", e)
+
 # Personal digest → your own inbox. Override with --to or DESTANDAARD_TO_ADDR.
 # Defaulting here means the pipeline reuses mediamonitor's existing Gmail
 # secrets and needs no new repo secret of its own.
@@ -53,19 +72,33 @@ def _assign_handles(date, kern, verrassing):
 
 
 def run(input_path=None, to_addr=None, dry_run=False, no_llm=False,
-        kern_n=KERN_COUNT, verr_n=VERRASSING_COUNT):
+        kern_n=KERN_COUNT, verr_n=VERRASSING_COUNT, auto=False, force=False):
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     for d in (DATA_DIR, INCOMING_DIR, DIGEST_DIR):
         d.mkdir(exist_ok=True)
 
-    raw_path = Path(input_path) if input_path else _newest_raw()
-    if not raw_path or not raw_path.exists():
-        logging.error("no raw capture found. Run the bookmarklet and put the "
-                      ".raw.json in %s, or pass --input.", INCOMING_DIR)
-        return 2
-    logging.info("parsing %s", raw_path)
+    if auto:
+        # Autonomous: fetch today's edition straight from the public CDN, no
+        # login. Skip if we already built today's digest (idempotent crons).
+        from capture import fetch_bundle, _today
+        target = _today()
+        if not force and (SITE_DATA_DIR / f"{target}.json").exists():
+            logging.info("digest voor %s bestaat al; niets te doen", target)
+            return 0
+        state = _load_state()
+        bundle = fetch_bundle(state.get("id"), state.get("date"), target_date=target)
+        if not bundle or not bundle.get("publications"):
+            logging.warning("geen editie voor %s beschikbaar (nog niet gepubliceerd?)", target)
+            return 3
+    else:
+        raw_path = Path(input_path) if input_path else _newest_raw()
+        if not raw_path or not raw_path.exists():
+            logging.error("no raw capture found. Run the bookmarklet and put the "
+                          ".raw.json in %s, or pass --input (of gebruik --auto).", INCOMING_DIR)
+            return 2
+        logging.info("parsing %s", raw_path)
+        bundle = json.loads(raw_path.read_text(encoding="utf-8"))
 
-    bundle = json.loads(raw_path.read_text(encoding="utf-8"))
     parsed = parse_bundle(bundle)
     articles = parsed["articles"]
     date = parsed["date"]
@@ -112,6 +145,9 @@ def run(input_path=None, to_addr=None, dry_run=False, no_llm=False,
     (SITE_DATA_DIR / "latest.json").write_text(blob, encoding="utf-8")
     logging.info("wrote MyNews JSON to %s", SITE_DATA_DIR)
 
+    if auto:
+        _save_state(edition, date)
+
     # Record what we showed so future feedback handles resolve. Skip on no-llm
     # smoke tests so they don't pollute the history.
     if not no_llm:
@@ -140,6 +176,11 @@ def md_to_text(md):
 
 def main():
     p = argparse.ArgumentParser()
+    p.add_argument("--auto", action="store_true",
+                   help="Fetch today's edition straight from the public CDN (no login). "
+                        "Default mode for the nightly cron.")
+    p.add_argument("--force", action="store_true",
+                   help="With --auto: rebuild even if today's digest already exists.")
     p.add_argument("--input", default=None,
                    help="Path to a .raw.json capture. Defaults to newest in data/incoming/.")
     p.add_argument("--to", default=None,
@@ -154,7 +195,8 @@ def main():
 
     to_addr = args.to or os.environ.get("DESTANDAARD_TO_ADDR") or DEFAULT_TO
     sys.exit(run(input_path=args.input, to_addr=to_addr, dry_run=args.dry_run,
-                 no_llm=args.no_llm, kern_n=args.kern, verr_n=args.verrassing))
+                 no_llm=args.no_llm, kern_n=args.kern, verr_n=args.verrassing,
+                 auto=args.auto, force=args.force))
 
 
 if __name__ == "__main__":
