@@ -41,3 +41,10 @@ _mediamonitor/data/preview-*
 _trumpflood/output/
 # Hero-layout variant previews (built by build_variants.py for design review).
 trumpflood/_variants/
+
+# Destandaard: commit source + digests + history + feedback; skip runtime junk.
+_destandaard/venv/
+_destandaard/__pycache__/
+_destandaard/.DS_Store
+# Local dry-run HTML previews (the committed digest is the .md).
+_destandaard/data/digests/*.html
