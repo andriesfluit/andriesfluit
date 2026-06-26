@@ -57,7 +57,8 @@ restpost: kies hier met zorg om hem uit zijn echokamer te houden.
 
 STRIKTE REGELS
 - Samenvattingen UITSLUITEND uit de meegeleverde artikeltekst. Niets aanvullen \
-uit eigen kennis. Verzin NOOIT cijfers, namen, citaten of feiten. 2-3 zinnen, \
+uit eigen kennis. Verzin NOOIT cijfers, namen, citaten of feiten. Een korte \
+alinea (3-5 zinnen) met duiding — wat is er gebeurd én waarom het ertoe doet — \
 Nederlands, neutrale toon.
 - 'waarom' is één korte zin: bij KERN waarom het bij hem past, bij VERRASSING \
 waarom het hem zou kunnen verrassen of verrijken.
@@ -74,8 +75,8 @@ dag waarop alles binnen zijn voorkeuren lijkt te vallen.
 Antwoord UITSLUITEND met geldige JSON, exact in dit schema:
 {
   "rode_draad": "optioneel: 1 zin over de dominante lijn van de dag, of \\"\\"",
-  "kern": [{"idx": int, "score": int 1-5, "waarom": "1 zin", "samenvatting": "2-3 zinnen"}],
-  "verrassing": [{"idx": int, "waarom": "1 zin", "samenvatting": "2-3 zinnen"}]
+  "kern": [{"idx": int, "score": int 1-5, "waarom": "1 zin", "samenvatting": "korte alinea met duiding"}],
+  "verrassing": [{"idx": int, "waarom": "1 zin", "samenvatting": "korte alinea met duiding"}]
 }"""
 
 
