@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Daily e-paper digest pipeline — multi-source.
+"""Daily personal news digest — combined across sources.
 
-For each configured source (De Standaard, De Tijd, …) the nightly run fetches
-that day's edition straight from the public Twipe CDN (no login), builds the
-personal digest with Claude (KERN op maat + protected VERRASSING, folding in
-that source's feedback), mails it, and publishes the JSON the MyNews web reader
-consumes — all per source.
+Each night the run fetches that day's edition of every source (De Standaard, De
+Tijd, …) straight from the public Twipe CDN (no login), pools all articles, and
+asks Claude for ONE combined digest: KERN op maat + protected VERRASSING, with
+duplicate stories across the two papers merged. Every item keeps its source
+label. Result: one mail and one MyNews page — your single place for all the news
+that interests you.
 """
 
 import argparse
@@ -29,8 +30,16 @@ DIGEST_DIR = DATA_DIR / "digests"
 PREFERENCES = ROOT / "preferences.md"
 SITE_DATA_DIR = ROOT.parent / "mynews" / "data"
 
-# Personal digest → your own inbox. Override with --to or DESTANDAARD_TO_ADDR.
 DEFAULT_TO = "andries.fluit@gmail.com"
+
+# Combined digest spans two papers, so aim a little higher than a single source.
+COMBINED_KERN = 10
+COMBINED_VERR = 5
+
+# Feedback/history live under one "combined" namespace — one place.
+FEEDBACK_KEY = "combined"
+
+_SHORT = {k: v["short"] for k, v in sources_mod.SOURCES.items()}
 
 
 def _state_file(key):
@@ -52,142 +61,133 @@ def _save_state(key, edition, date):
         logging.warning("kon editie-state niet schrijven: %s", e)
 
 
-def _assign_handles(short, date, kern, verrassing):
-    """Short, source- and date-scoped feedback handles, e.g. ds-0626-a3."""
+def _assign_handles(date, kern, verrassing):
+    """Source-prefixed, date-scoped handles with a global counter per bucket,
+    e.g. ds-0626-a1, dt-0626-a2 (kern) / ds-0626-v1 (verrassing)."""
     mmdd = "".join(date.split("-")[1:]) if date else datetime.now().strftime("%m%d")
     for n, a in enumerate(kern, 1):
-        a["handle"] = f"{short}-{mmdd}-a{n}"
+        a["handle"] = f"{_SHORT.get(a.get('source'), 'xx')}-{mmdd}-a{n}"
     for n, a in enumerate(verrassing, 1):
-        a["handle"] = f"{short}-{mmdd}-v{n}"
+        a["handle"] = f"{_SHORT.get(a.get('source'), 'xx')}-{mmdd}-v{n}"
 
 
-def build_source(cfg, preferences, to_addr=None, dry_run=False, no_llm=False,
-                 kern_n=KERN_COUNT, verr_n=VERRASSING_COUNT,
-                 auto=False, force=False, input_path=None):
-    """Build (and optionally mail) the digest for one source. Returns 0 on
-    success, 3 when no edition is available yet."""
-    key, label, short = cfg["key"], cfg["label"], cfg["short"]
-    site_dir = SITE_DATA_DIR / key
-    site_dir.mkdir(parents=True, exist_ok=True)
-
-    if auto:
-        from capture import fetch_bundle, _today
-        target = _today()
-        if not force and (site_dir / f"{target}.json").exists():
-            logging.info("[%s] digest voor %s bestaat al; overslaan", key, target)
-            return 0
+def _gather(target, force):
+    """Fetch + parse every source for `target`; return (pool, editions)."""
+    from capture import fetch_bundle
+    pool, editions = [], []
+    for key in sources_mod.ORDER:
+        cfg = sources_mod.get(key)
         state = _load_state(cfg)
         bundle = fetch_bundle(cfg["base"], state.get("id"), state.get("date"),
                               target_date=target)
         if not bundle or not bundle.get("publications"):
-            logging.warning("[%s] geen editie voor %s beschikbaar", key, target)
-            return 3
-    else:
-        if not input_path or not Path(input_path).exists():
-            logging.error("[%s] --input vereist (of gebruik --auto)", key)
-            return 2
-        bundle = json.loads(Path(input_path).read_text(encoding="utf-8"))
+            logging.warning("[%s] geen editie voor %s", key, target)
+            continue
+        parsed = parse_bundle(bundle)
+        for a in parsed["articles"]:
+            a["bron"] = cfg["label"]
+            a["source"] = cfg["key"]
+        pool += parsed["articles"]
+        _save_state(key, parsed["edition"], parsed["date"])
+        editions.append(f"{cfg['label']} {parsed['edition']}")
+        logging.info("[%s] %d artikels (editie %s)", key, len(parsed["articles"]),
+                     parsed["edition"])
+    return pool, editions
 
-    parsed = parse_bundle(bundle)
-    articles = parsed["articles"]
-    date = parsed["date"]
-    edition = parsed["edition"]
-    if not articles:
-        logging.error("[%s] geen artikels geparseerd", key)
-        return 2
-    logging.info("[%s] %d artikels (editie %s, %s)", key, len(articles), edition, date)
+
+def run(to_addr=None, dry_run=False, no_llm=False, force=False,
+        kern_n=COMBINED_KERN, verr_n=COMBINED_VERR, input_path=None):
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
+    for d in (DATA_DIR, INCOMING_DIR, DIGEST_DIR, SITE_DATA_DIR):
+        d.mkdir(parents=True, exist_ok=True)
+    preferences = PREFERENCES.read_text(encoding="utf-8") if PREFERENCES.exists() else \
+        "Geen voorkeuren ingesteld — kies een brede, evenwichtige selectie."
+
+    from capture import _today
+    target = _today()
+    if not force and (SITE_DATA_DIR / f"{target}.json").exists():
+        logging.info("digest voor %s bestaat al; niets te doen", target)
+        return 0
+
+    if input_path:
+        # Single-source manual capture (testing): treat it as the whole pool.
+        bundle = json.loads(Path(input_path).read_text(encoding="utf-8"))
+        parsed = parse_bundle(bundle)
+        for a in parsed["articles"]:
+            a["bron"] = "(handmatig)"
+            a["source"] = "destandaard"
+        pool, editions = parsed["articles"], [f"editie {parsed['edition']}"]
+    else:
+        pool, editions = _gather(target, force)
+
+    if not pool:
+        logging.warning("geen enkele editie beschikbaar voor %s", target)
+        return 3
+    logging.info("totaal %d artikels uit %d kranten", len(pool), len(editions))
 
     if no_llm:
         kern = [{**a, "score": 3, "waarom": "", "samenvatting": a.get("intro", "")}
-                for a in articles[:kern_n]]
+                for a in pool[:kern_n]]
         verrassing = [{**a, "waarom": "", "samenvatting": a.get("intro", "")}
-                      for a in articles[kern_n:kern_n + verr_n]]
+                      for a in pool[kern_n:kern_n + verr_n]]
         digest = {"rode_draad": "", "kern": kern, "verrassing": verrassing}
     else:
-        fb = load_feedback_context(DATA_DIR, key)
+        fb = load_feedback_context(DATA_DIR, FEEDBACK_KEY)
         if fb:
-            logging.info("[%s] feedback-context (%d tekens)", key, len(fb))
-        digest = build_digest(articles, preferences, fb, kern_n=kern_n, verr_n=verr_n)
+            logging.info("feedback-context (%d tekens)", len(fb))
+        digest = build_digest(pool, preferences, fb, kern_n=kern_n, verr_n=verr_n)
 
-    logging.info("[%s] digest: %d kern, %d verrassing", key,
-                 len(digest["kern"]), len(digest["verrassing"]))
+    logging.info("digest: %d kern, %d verrassing", len(digest["kern"]), len(digest["verrassing"]))
+    _assign_handles(target, digest["kern"], digest["verrassing"])
 
-    _assign_handles(short, date, digest["kern"], digest["verrassing"])
-    meta = {"date": date, "edition": edition, "article_count": len(articles),
-            "source": key, "label": label}
+    meta = {"date": target, "article_count": len(pool),
+            "label": "De Standaard + De Tijd", "sources_line": " · ".join(editions)}
 
     md = render_markdown(meta, digest)
     html = render_html(meta, digest)
-    data = render_json(meta, digest)
-    blob = json.dumps(data, ensure_ascii=False, indent=2)
+    blob = json.dumps(render_json(meta, digest), ensure_ascii=False, indent=2)
 
-    DIGEST_DIR.mkdir(exist_ok=True)
-    (DIGEST_DIR / f"{key}_{date or edition}.md").write_text(md, encoding="utf-8")
-    (site_dir / f"{date or edition}.json").write_text(blob, encoding="utf-8")
-    (site_dir / "latest.json").write_text(blob, encoding="utf-8")
-    logging.info("[%s] geschreven naar %s", key, site_dir)
+    (DIGEST_DIR / f"combined_{target}.md").write_text(md, encoding="utf-8")
+    (SITE_DATA_DIR / f"{target}.json").write_text(blob, encoding="utf-8")
+    (SITE_DATA_DIR / "latest.json").write_text(blob, encoding="utf-8")
+    logging.info("geschreven naar %s", SITE_DATA_DIR)
 
     if not no_llm:
-        record_shown(DATA_DIR, key, date, digest["kern"], digest["verrassing"])
-        if auto:
-            _save_state(key, edition, date)
+        record_shown(DATA_DIR, FEEDBACK_KEY, target, digest["kern"], digest["verrassing"])
 
     if dry_run or no_llm:
-        (site_dir / f"{date or edition}.html").write_text(html, encoding="utf-8")
-        logging.info("[%s] DRY RUN", key)
+        (SITE_DATA_DIR / f"{target}.html").write_text(html, encoding="utf-8")
+        logging.info("DRY RUN")
         return 0
 
     if to_addr and os.environ.get("GMAIL_APP_PASSWORD"):
         from mailer import send as send_mail
-        subject = f"{label} — digest {date} ({len(digest['kern'])}+{len(digest['verrassing'])})"
+        subject = (f"Jouw nieuwsdigest — {target} "
+                   f"({len(digest['kern'])}+{len(digest['verrassing'])})")
         send_mail(subject, html, md, to_addr)
-        logging.info("[%s] mail verstuurd naar %s", key, to_addr)
+        logging.info("mail verstuurd naar %s", to_addr)
     else:
-        logging.info("[%s] geen mail (geen GMAIL_APP_PASSWORD)", key)
+        logging.info("geen mail (geen GMAIL_APP_PASSWORD)")
     return 0
-
-
-def run(source_keys, **kw):
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
-    for d in (DATA_DIR, INCOMING_DIR, DIGEST_DIR):
-        d.mkdir(exist_ok=True)
-    preferences = PREFERENCES.read_text(encoding="utf-8") if PREFERENCES.exists() else \
-        "Geen voorkeuren ingesteld — kies een brede, evenwichtige selectie."
-
-    rc = 0
-    for key in source_keys:
-        cfg = sources_mod.get(key)
-        try:
-            r = build_source(cfg, preferences, **kw)
-            rc = rc or (r if r not in (0, 3) else 0)
-        except Exception as e:  # one source failing shouldn't sink the others
-            logging.exception("[%s] gefaald: %s", key, e)
-            rc = 1
-    return rc
 
 
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--auto", action="store_true",
-                   help="Fetch today's edition(s) from the public CDN (no login).")
-    p.add_argument("--force", action="store_true",
-                   help="With --auto: rebuild even if today's digest already exists.")
-    p.add_argument("--source", default=None, choices=list(sources_mod.SOURCES),
-                   help="Only this source (default: all in sources.ORDER).")
-    p.add_argument("--input", default=None,
-                   help="Path to a .raw.json capture (single source, with --source).")
+                   help="Fetch today's editions from the public CDN (default mode).")
+    p.add_argument("--force", action="store_true", help="Rebuild even if today exists.")
+    p.add_argument("--input", default=None, help="A .raw.json capture (single-source test).")
     p.add_argument("--to", default=None, help="Email recipient.")
     p.add_argument("--dry-run", action="store_true", help="Write files, never mail.")
     p.add_argument("--no-llm", action="store_true", help="Skip Claude (smoke test).")
-    p.add_argument("--kern", type=int, default=KERN_COUNT)
-    p.add_argument("--verrassing", type=int, default=VERRASSING_COUNT)
+    p.add_argument("--kern", type=int, default=COMBINED_KERN)
+    p.add_argument("--verrassing", type=int, default=COMBINED_VERR)
     args = p.parse_args()
 
-    keys = [args.source] if args.source else list(sources_mod.ORDER)
     to_addr = args.to or os.environ.get("DESTANDAARD_TO_ADDR") or DEFAULT_TO
-    sys.exit(run(keys, to_addr=to_addr, dry_run=args.dry_run, no_llm=args.no_llm,
-                 kern_n=args.kern, verr_n=args.verrassing, auto=args.auto,
-                 force=args.force, input_path=args.input))
+    sys.exit(run(to_addr=to_addr, dry_run=args.dry_run, no_llm=args.no_llm,
+                 force=args.force, kern_n=args.kern, verr_n=args.verrassing,
+                 input_path=args.input))
 
 
 if __name__ == "__main__":

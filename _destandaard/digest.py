@@ -44,8 +44,8 @@ def _client():
 
 
 _SYSTEM = """Je bent de persoonlijke krantenredacteur van Andries. Elke ochtend \
-krijg je de volledige editie van De Standaard en stel je voor hem een digest \
-samen uit twee delen.
+krijg je de volledige edities van meerdere kranten (De Standaard én De Tijd) en \
+stel je voor hem ÉÉN gecombineerde digest samen uit twee delen.
 
 1. KERN (op maat). De artikels die het best aansluiten bij zijn voorkeuren en \
 bij wat hij eerder waardeerde. Gerangschikt van meest naar minst relevant.
@@ -54,6 +54,14 @@ bij wat hij eerder waardeerde. Gerangschikt van meest naar minst relevant.
 voorkeuren — sterk, belangrijk of verrassend genoeg dat ze hem een nieuw \
 perspectief geven. Maximaal divers gespreid over rubrieken. Dit is geen \
 restpost: kies hier met zorg om hem uit zijn echokamer te houden.
+
+MEERDERE KRANTEN (belangrijk)
+- Bij elk artikel staat de bron (krant). De twee kranten dekken vaak DEZELFDE \
+verhalen. Kies elk verhaal maar ÉÉN keer: bij overlap neem je de sterkste of \
+meest complete versie en laat je de andere weg. Geen twee items over hetzelfde \
+nieuwsfeit.
+- Streef naar een mooie mix uit beide kranten waar dat natuurlijk is, maar \
+relevantie en kwaliteit gaan voor krantbalans.
 
 STRIKTE REGELS
 - Samenvattingen UITSLUITEND uit de meegeleverde artikeltekst. Niets aanvullen \
@@ -92,7 +100,8 @@ def _user_prompt(articles, preferences, feedback_context, kern_n, verr_n, verr_m
     ]
     for i, a in enumerate(articles):
         body = (a.get("body") or "")[:_BODY_CHAR_LIMIT]
-        lines.append(f"\n[{i}] rubriek={a['rubriek']} · p{a.get('page')}"
+        bron = f"bron={a['bron']} · " if a.get("bron") else ""
+        lines.append(f"\n[{i}] {bron}rubriek={a['rubriek']} · p{a.get('page')}"
                      + (f" · {a['author']}" if a.get("author") else ""))
         lines.append(f"     titel: {a['title']}")
         if a.get("intro"):
