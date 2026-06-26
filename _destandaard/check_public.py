@@ -111,6 +111,24 @@ def main():
         except Exception as e:  # noqa: BLE001
             print(f"    kon niet parsen: {e}")
 
+    # 4. Range scan: are NEARBY edition IDs also publicly fetchable by ID?
+    # If yes, a cron can find today's edition by probing the numeric
+    # neighbourhood and matching PublicationDate — no login needed.
+    base_ed = int(ed)
+    print(f"\n[4] ID-scan {base_ed-5}..{base_ed+8} (package-datum per ID):")
+    for cand in range(base_ed - 5, base_ed + 9):
+        url = f"{BASE}/data/{cand}/data/GetContentPackagePublications-{cand}-V3.json"
+        st, _, body = get(url)
+        info = ""
+        if st == 200:
+            try:
+                pkg = json.loads(body)
+                info = (f"datum={(pkg.get('PublicationDate') or '')[:10]} "
+                        f"naam={(pkg.get('ContentPackagePublication') or [{}])[0].get('PublicationName','?')}")
+            except Exception:
+                info = "(200, onparseerbaar)"
+        print(f"    {cand}: HTTP {st} {info}")
+
     print("\n== Conclusie ==")
     print("Als [2] én [3] HTTP 200 geven mét volledige tekst -> endpoints zijn")
     print("publiek; een 2u-cron kan zonder login scrapen (mits we het editie-ID")
