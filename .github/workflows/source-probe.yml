@@ -1,0 +1,38 @@
+name: source probe (public endpoints?)
+
+# One-off diagnostic: checks whether a Twipe e-paper source is reachable
+# without login, and learns its edition-ID/day pattern. Triggers on push of
+# the probe script or manually with base/edition inputs.
+
+on:
+  push:
+    paths:
+      - "_destandaard/check_source.py"
+  workflow_dispatch:
+    inputs:
+      base:
+        description: "Base URL (e.g. https://krant.tijd.be)"
+        required: true
+        default: "https://krant.tijd.be"
+      edition:
+        description: "Edition ID to probe"
+        required: true
+        default: "3330"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Probe source
+        run: |
+          python _destandaard/check_source.py \
+            "${{ github.event.inputs.base || 'https://krant.tijd.be' }}" \
+            "${{ github.event.inputs.edition || '3330' }}"
