@@ -23,6 +23,8 @@ def render_json(meta, digest):
         return d
 
     return {
+        "source": meta.get("source", ""),
+        "label": meta.get("label", ""),
         "date": meta.get("date", ""),
         "edition": meta.get("edition", ""),
         "article_count": meta.get("article_count", 0),

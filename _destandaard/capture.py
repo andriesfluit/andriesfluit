@@ -1,16 +1,14 @@
-"""Autonomous capture — fetch today's De Standaard edition WITHOUT login.
+"""Autonomous capture — fetch today's edition of a Twipe e-paper WITHOUT login.
 
-The probe (check_public.py) established two facts:
-  1. The per-edition Twipe JSON — both the package and the full-text content
-     items — is public on the CDN. Only edition *discovery* sits behind the
-     Mediahuis SSO.
-  2. Edition IDs are sequential: De Standaard's main edition steps +2 per
-     calendar day (3303=24 Jun, 3305=25 Jun, 3307=26 Jun), and nearby IDs are
-     publicly fetchable by ID.
+The probe (check_source.py) established that for both De Standaard and De Tijd:
+  1. The per-edition Twipe JSON — package and full-text content items — is
+     public on the CDN. Only edition *discovery* sits behind SSO.
+  2. Edition IDs are sequential, stepping +2 per calendar day, and nearby IDs
+     are publicly fetchable by ID.
 
 So we find today's edition by predicting its ID from the last known one and
 scanning the numeric neighbourhood, picking the package whose PublicationDate
-matches today's Brussels date. No credentials required.
+matches today's Brussels date. No credentials. `base` selects the source.
 """
 
 import json
@@ -29,13 +27,8 @@ logger = logging.getLogger(__name__)
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/120 Safari/537.36")
-BASE = "https://epaper.standaard.be"
 
-# Anchor used when no state file exists yet: 3307 == 2026-06-26.
-SEED_ID = 3307
-SEED_DATE = "2026-06-26"
-
-# Bound how many candidate editions we probe, so a missing edition never makes
+# Bound how many candidate editions we probe so a missing edition never makes
 # the run hammer the CDN.
 _MAX_PROBES = 24
 
@@ -45,8 +38,8 @@ def _today():
     return now.date().isoformat()
 
 
-def _get_json(url, timeout=30):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Referer": BASE + "/"})
+def _get_json(base, url, timeout=30):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Referer": base + "/"})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
             if r.status != 200:
@@ -56,22 +49,19 @@ def _get_json(url, timeout=30):
         return None
 
 
-def _package(ed):
-    url = f"{BASE}/data/{ed}/data/GetContentPackagePublications-{ed}-V3.json"
-    return _get_json(url)
+def _package(base, ed):
+    return _get_json(base, f"{base}/data/{ed}/data/GetContentPackagePublications-{ed}-V3.json")
 
 
 def _candidate_ids(last_id, last_date, target_date):
-    """Ordered list of edition IDs to probe: prediction first, then a scan."""
+    """Ordered edition IDs to probe: prediction first, then a forward scan."""
     cands = []
     try:
         diff = (date.fromisoformat(target_date) - date.fromisoformat(last_date)).days
         pred = last_id + 2 * diff
-        # Prediction plus small offsets to absorb the odd skipped/extra day.
         cands += [pred + o for o in (0, 1, -1, 2, -2, 3, -3, 4, -4)]
     except (ValueError, TypeError):
         pass
-    # Fallback: a forward scan from the last known id (editions only grow).
     cands += [last_id + i for i in range(0, 16)]
     seen, ordered = set(), []
     for c in cands:
@@ -81,10 +71,10 @@ def _candidate_ids(last_id, last_date, target_date):
     return ordered[:_MAX_PROBES]
 
 
-def discover_edition(last_id, last_date, target_date):
+def discover_edition(base, last_id, last_date, target_date):
     """Return (edition_id, package_dict) for target_date, or (None, None)."""
     for ed in _candidate_ids(last_id, last_date, target_date):
-        pkg = _package(ed)
+        pkg = _package(base, ed)
         if not pkg:
             continue
         d = (pkg.get("PublicationDate") or "")[:10]
@@ -94,19 +84,15 @@ def discover_edition(last_id, last_date, target_date):
     return None, None
 
 
-def fetch_bundle(last_id=None, last_date=None, target_date=None):
-    """Fetch the full edition for target_date (default: today, Brussels) and
-    return a bundle in the same shape capture/bookmarklet.js produces, or None
-    if no edition for that date is published yet."""
+def fetch_bundle(base, last_id, last_date, target_date=None):
+    """Fetch the full edition for target_date (default: today, Brussels) from
+    `base`, returning a bundle in the bookmarklet's shape, or None if no edition
+    for that date is published yet."""
     target = target_date or _today()
-    last_id = last_id or SEED_ID
-    last_date = last_date or SEED_DATE
-
-    logger.info("zoek editie voor %s (vanaf laatst bekende %s/%s)",
-                target, last_id, last_date)
-    ed, pkg = discover_edition(last_id, last_date, target)
+    logger.info("zoek editie voor %s op %s (vanaf %s/%s)", target, base, last_id, last_date)
+    ed, pkg = discover_edition(base, last_id, last_date, target)
     if not ed:
-        logger.warning("geen editie gevonden met datum %s", target)
+        logger.warning("geen editie gevonden met datum %s op %s", target, base)
         return None
 
     logger.info("editie %s gevonden voor %s", ed, target)
@@ -115,7 +101,7 @@ def fetch_bundle(last_id=None, last_date=None, target_date=None):
         if not p.get("TextAvailable"):
             continue
         pub_id = p.get("PublicationID")
-        ci = _get_json(f"{BASE}/data/{ed}/data/GetPublicationContentItems-{pub_id}.json")
+        ci = _get_json(base, f"{base}/data/{ed}/data/GetPublicationContentItems-{pub_id}.json")
         if ci:
             publications.append({"id": pub_id, "name": p.get("PublicationName"), "content": ci})
         else:

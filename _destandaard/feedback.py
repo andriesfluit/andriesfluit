@@ -1,22 +1,19 @@
-"""The feedback loop.
+"""The feedback loop, per source.
 
-Two flat files in data/ close the loop between digests:
+Two flat files per source live in data/:
 
-  history.jsonl   one line per shown item, written every run. Lets a feedback
-                  handle (e.g. "0626-a3") be resolved back to its title,
-                  rubriek and tier (kern vs verrassing) later.
+  {key}_history.jsonl   one line per shown item, written every run. Lets a
+                        feedback handle (e.g. "ds-0626-a3") be resolved back to
+                        its title, rubriek and tier (kern vs verrassing).
 
-  feedback.md     Andries appends lines like:
-                      0626-a3 + meer van dit soort duiding
-                      0626-v1 -
-                  (handle, then + or -, then an optional free-text note.)
+  {key}_feedback.md     Andries appends lines like:
+                            ds-0626-a3 + meer van dit soort duiding
+                            dt-0626-v1 -
 
-On the next run we read feedback.md, join it with history, and build a compact
-"geleerde voorkeuren" text block that is handed to the editor model. That block
-steers the KERN selection and the quality bar — but NOT the size or diversity
-of the verrassing section. The anti-echo-chamber guarantee lives in the prompt
-(digest.py): negative feedback on a surprise topic makes the model pick a
-*different* surprise, never shrink the surprise quota.
+Handles are source-prefixed (ds/dt) so the two papers never collide. On the
+next run we read the source's feedback, join it with that source's history, and
+hand a compact "geleerde voorkeuren" block to the editor model — steering the
+KERN selection and quality bar, never the size/diversity of VERRASSING.
 """
 
 import json
@@ -26,20 +23,21 @@ from collections import Counter
 
 logger = logging.getLogger(__name__)
 
-HISTORY_FILE = "history.jsonl"
-FEEDBACK_FILE = "feedback.md"
-
-_FEEDBACK_LINE = re.compile(r"^\s*(\d{4}-[av]\d+)\s*([+-])\s*(.*?)\s*$")
-
-# Only fold in the most recent feedback so the prompt stays bounded and the
-# model tracks evolving taste rather than the entire history.
+_FEEDBACK_LINE = re.compile(r"^\s*([a-z]{2}-\d{4}-[av]\d+)\s*([+-])\s*(.*?)\s*$")
 _MAX_FEEDBACK_ITEMS = 60
 
 
-def record_shown(data_dir, date, kern, verrassing):
-    """Append one history line per shown item. `kern`/`verrassing` are lists of
-    dicts that already carry a `handle` and the underlying article fields."""
-    path = data_dir / HISTORY_FILE
+def _history_file(key):
+    return f"{key}_history.jsonl"
+
+
+def _feedback_file(key):
+    return f"{key}_feedback.md"
+
+
+def record_shown(data_dir, key, date, kern, verrassing):
+    """Append one history line per shown item for this source."""
+    path = data_dir / _history_file(key)
     rows = []
     for tier, items in (("kern", kern), ("verrassing", verrassing)):
         for it in items:
@@ -57,8 +55,8 @@ def record_shown(data_dir, date, kern, verrassing):
     logger.info("recorded %d shown items to %s", len(rows), path.name)
 
 
-def _load_history(data_dir):
-    path = data_dir / HISTORY_FILE
+def _load_history(data_dir, key):
+    path = data_dir / _history_file(key)
     by_handle = {}
     if not path.exists():
         return by_handle
@@ -74,23 +72,19 @@ def _load_history(data_dir):
     return by_handle
 
 
-def load_feedback_context(data_dir):
-    """Return a human-readable Dutch block summarising prior feedback, or "".
-
-    Resolves each feedback handle through history so the model sees the title
-    and rubriek it reacted to, plus an aggregate per-rubriek tally."""
-    fb_path = data_dir / FEEDBACK_FILE
+def load_feedback_context(data_dir, key):
+    """Return a Dutch block summarising prior feedback for this source, or ""."""
+    fb_path = data_dir / _feedback_file(key)
     if not fb_path.exists():
         return ""
 
-    history = _load_history(data_dir)
+    history = _load_history(data_dir, key)
     likes, dislikes = [], []
     rubriek_signal = Counter()
 
     in_fence = False
     for line in fb_path.read_text(encoding="utf-8").splitlines():
-        # Skip fenced code blocks so the example lines in the template are not
-        # parsed as real feedback.
+        # Skip fenced code blocks so the template examples aren't parsed.
         if line.lstrip().startswith("```"):
             in_fence = not in_fence
             continue
