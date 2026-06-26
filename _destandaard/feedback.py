@@ -87,7 +87,15 @@ def load_feedback_context(data_dir):
     likes, dislikes = [], []
     rubriek_signal = Counter()
 
+    in_fence = False
     for line in fb_path.read_text(encoding="utf-8").splitlines():
+        # Skip fenced code blocks so the example lines in the template are not
+        # parsed as real feedback.
+        if line.lstrip().startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
         m = _FEEDBACK_LINE.match(line)
         if not m:
             continue
