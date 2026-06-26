@@ -41,8 +41,11 @@
         .dots span.on{background:var(--accent);}
 
         /* Reader */
-        .toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;}
+        .toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;}
         .toolbar-actions{display:flex;gap:.5rem;}
+        .source-tabs{display:flex;gap:.5rem;margin-bottom:1.5rem;flex-wrap:wrap;}
+        .source-tabs button{padding:.35rem .9rem;font-size:.85rem;border-radius:999px;border:1px solid var(--border);background:transparent;color:var(--text-light);cursor:pointer;}
+        .source-tabs button.on{border-color:var(--text);color:var(--text);background:#fff;}
         .toolbar .meta{font-size:.82rem;color:var(--text-light);}
         .rode{background:#f0ece2;border-left:3px solid var(--accent);padding:.9rem 1.1rem;border-radius:0 8px 8px 0;margin-bottom:2rem;font-size:.95rem;}
         .section-title{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);border-bottom:1px solid var(--border);padding-bottom:.5rem;margin:2rem 0 1.2rem;}
@@ -116,6 +119,7 @@
                     <button class="ghost" id="reset-prefs">Reset</button>
                 </div>
             </div>
+            <div class="source-tabs" id="source-tabs"></div>
             <div id="reader-body"></div>
         </section>
     </main>
@@ -145,7 +149,9 @@
     ];
     const SOURCES = [
         ["destandaard","De Standaard","Je e-paper-abonnement.",true],
+        ["detijd","De Tijd","Je krant.tijd.be-abonnement.",true],
     ];
+    const SOURCE_LABELS = Object.fromEntries(SOURCES.map(s=>[s[0],s[1]]));
 
     const PREFS_KEY="mynews_prefs", FB_KEY="mynews_feedback";
     const $=s=>document.querySelector(s);
@@ -227,20 +233,36 @@
     }
     function escapeHtml(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 
-    async function renderReader(){
+    let currentSource=null;
+    function enabledSources(){
+        const p=loadPrefs();
+        const chosen=(p&&p.sources&&p.sources.length)?p.sources:SOURCES.map(s=>s[0]);
+        return SOURCES.map(s=>s[0]).filter(k=>chosen.includes(k));
+    }
+    function renderSourceTabs(){
+        const tabs=$("#source-tabs"); const list=enabledSources();
+        if(list.length<=1){tabs.innerHTML="";return;}
+        tabs.innerHTML=list.map(k=>`<button data-src="${k}" class="${k===currentSource?'on':''}">${SOURCE_LABELS[k]||k}</button>`).join("");
+        tabs.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>renderReader(b.dataset.src)));
+    }
+    async function renderReader(sourceKey){
         $("#wizard").hidden=true; $("#reader").hidden=false;
+        const list=enabledSources();
+        currentSource=(sourceKey&&list.includes(sourceKey))?sourceKey:(list[0]||"destandaard");
+        renderSourceTabs();
         const body=$("#reader-body");
+        body.innerHTML=`<div class="empty">Laden…</div>`;
         let d;
         try{
-            const r=await fetch("data/latest.json",{cache:"no-store"});
+            const r=await fetch(`data/${currentSource}/latest.json`,{cache:"no-store"});
             if(!r.ok) throw new Error(r.status);
             d=await r.json();
         }catch(e){
-            body.innerHTML=`<div class="empty">Nog geen digest beschikbaar.<br><small>De pipeline publiceert hier <code>data/latest.json</code> na de volgende run.</small></div>`;
+            body.innerHTML=`<div class="empty">Nog geen digest voor ${SOURCE_LABELS[currentSource]||currentSource}.<br><small>De pipeline publiceert <code>data/${currentSource}/latest.json</code> na de volgende run.</small></div>`;
             $("#reader-meta").textContent="";
             return;
         }
-        $("#reader-meta").textContent=`${d.date} · editie ${d.edition} · ${d.article_count} artikels`;
+        $("#reader-meta").textContent=`${SOURCE_LABELS[currentSource]||''} · ${d.date} · editie ${d.edition} · ${d.article_count} artikels`;
         let h="";
         if(d.rode_draad) h+=`<div class="rode"><strong>Rode draad.</strong> ${escapeHtml(d.rode_draad)}</div>`;
         h+=`<div class="section-title">Op maat</div>`;
