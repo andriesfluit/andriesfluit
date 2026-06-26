@@ -221,7 +221,8 @@
         const sc=withScore?` · <span class="stars">${stars(a.score||3)}</span>`:"";
         const cur=fb[a.handle]||"";
         const bron=a.bron?` · <span class="src-badge">${escapeHtml(a.bron)}</span>`:"";
-        return `<div class="card" data-handle="${a.handle}" data-source="${a.source||''}">
+        const srcs=(a.sources&&a.sources.length)?a.sources:(a.source?[a.source]:[]);
+        return `<div class="card" data-handle="${a.handle}" data-sources="${srcs.join(' ')}">
             <div class="hnd">${a.handle||""}</div>
             <h3>${escapeHtml(a.title)}</h3>
             <div class="cmeta">p${a.page??""} · ${escapeHtml(a.rubriek)}${bron}${author}${sc}</div>
@@ -238,7 +239,7 @@
     let currentFilter="all", lastDigest=null;
     function buildFilterTabs(d){
         const tabs=$("#source-tabs");
-        const present=[...new Set([...(d.kern||[]),...(d.verrassing||[])].map(a=>a.source).filter(Boolean))];
+        const present=[...new Set([...(d.kern||[]),...(d.verrassing||[])].flatMap(a=>(a.sources&&a.sources.length)?a.sources:(a.source?[a.source]:[])))];
         if(present.length<=1){tabs.innerHTML="";return;}
         const opts=[["all","Alles"],...present.map(s=>[s,SOURCE_LABELS[s]||s])];
         tabs.innerHTML=opts.map(([k,l])=>`<button data-filter="${k}" class="${k===currentFilter?'on':''}">${l}</button>`).join("");
@@ -246,7 +247,8 @@
     }
     function applyFilter(){
         $("#reader-body").querySelectorAll(".card").forEach(c=>{
-            c.style.display=(currentFilter==="all"||c.dataset.source===currentFilter)?"":"none";
+            const srcs=(c.dataset.sources||"").split(" ").filter(Boolean);
+            c.style.display=(currentFilter==="all"||srcs.includes(currentFilter))?"":"none";
         });
     }
     async function renderReader(){

@@ -14,6 +14,7 @@ def render_json(meta, digest):
             "title": a.get("title", ""),
             "bron": a.get("bron", ""),
             "source": a.get("source", ""),
+            "sources": a.get("sources") or ([a["source"]] if a.get("source") else []),
             "rubriek": a.get("rubriek", ""),
             "page": a.get("page"),
             "author": a.get("author", ""),
