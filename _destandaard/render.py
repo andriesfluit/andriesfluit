@@ -1,7 +1,36 @@
-"""Render the digest to Markdown (the file Andries keeps / drops in a project)
-and to HTML (the email body). Both show the feedback handles so he can react."""
+"""Render the digest to Markdown (the file Andries keeps / drops in a project),
+to HTML (the email body), and to JSON (consumed by the MyNews web reader).
+All show the feedback handles so he can react."""
 
 import html as _html
+from datetime import datetime, timezone
+
+
+def render_json(meta, digest):
+    """Compact JSON the MyNews page fetches and renders client-side."""
+    def item(a, with_score):
+        d = {
+            "handle": a.get("handle", ""),
+            "title": a.get("title", ""),
+            "rubriek": a.get("rubriek", ""),
+            "page": a.get("page"),
+            "author": a.get("author", ""),
+            "waarom": a.get("waarom", ""),
+            "samenvatting": a.get("samenvatting", ""),
+        }
+        if with_score:
+            d["score"] = a.get("score", 3)
+        return d
+
+    return {
+        "date": meta.get("date", ""),
+        "edition": meta.get("edition", ""),
+        "article_count": meta.get("article_count", 0),
+        "rode_draad": digest.get("rode_draad", ""),
+        "kern": [item(a, True) for a in digest["kern"]],
+        "verrassing": [item(a, False) for a in digest["verrassing"]],
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
 
 
 def _stars(score):
