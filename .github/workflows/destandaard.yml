@@ -1,0 +1,86 @@
+name: destandaard digest
+
+# Capture is manual (your logged-in browser dumps the raw JSON). This workflow
+# runs the rest: it fires when a new *.raw.json is pushed to the incoming
+# folder, builds the digest, mails it, commits the digest + history back, and
+# removes the processed raw JSON so the repo stays lean. Also runnable by hand.
+
+on:
+  push:
+    paths:
+      - "_destandaard/data/incoming/*.raw.json"
+  workflow_dispatch:
+    inputs:
+      input:
+        description: "Path to a .raw.json (leave empty for newest in incoming/)."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: destandaard
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: _destandaard/requirements.txt
+
+      - name: Install dependencies
+        working-directory: _destandaard
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build + mail digest
+        id: build
+        working-directory: _destandaard
+        env:
+          ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER:          ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD:  ${{ secrets.GMAIL_APP_PASSWORD }}
+          DESTANDAARD_TO_ADDR: ${{ secrets.DESTANDAARD_TO_ADDR }}
+        run: |
+          INPUT="${{ github.event.inputs.input }}"
+          if [ -z "$INPUT" ]; then
+            INPUT=$(ls -t data/incoming/*.raw.json 2>/dev/null | head -n1 || true)
+          fi
+          if [ -z "$INPUT" ]; then
+            echo "No raw capture to process; nothing to do."
+            echo "processed=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "Processing $INPUT"
+          python main.py --input "$INPUT"
+          echo "processed=$INPUT" >> $GITHUB_OUTPUT
+
+      - name: Commit digest + cleanup raw
+        if: steps.build.outputs.processed != ''
+        working-directory: _destandaard
+        run: |
+          git config user.name "destandaard-bot"
+          git config user.email "destandaard-bot@andriesfluit.be"
+          # Remove the processed raw capture so the repo doesn't accumulate
+          # a few hundred KB per day.
+          git rm -f --ignore-unmatch "${{ steps.build.outputs.processed }}"
+          git add data/digests/ data/history.jsonl
+          if ! git diff --cached --quiet; then
+            git commit -m "destandaard: digest for $(TZ=Europe/Brussels date '+%Y-%m-%d')"
+            git pull --rebase --autostash
+            git push
+          fi
