@@ -54,6 +54,8 @@ jobs:
           ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_USER:          ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD:  ${{ secrets.GMAIL_APP_PASSWORD }}
+          # Optional: leave unset to use the default recipient in main.py.
+          # Reuses mediamonitor's existing Gmail secrets — no new secret needed.
           DESTANDAARD_TO_ADDR: ${{ secrets.DESTANDAARD_TO_ADDR }}
         run: |
           INPUT="${{ github.event.inputs.input }}"

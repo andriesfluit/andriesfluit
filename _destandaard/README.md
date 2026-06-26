@@ -72,16 +72,18 @@ Output komt in `data/digests/De_Standaard_{datum}.md` (+ `.html` bij dry-run).
 de digest, mailt hem, commit het digest-bestand + `history.jsonl` terug en
 verwijdert de verwerkte ruwe JSON zodat de repo niet aandikt.
 
-Vereiste repo-secrets:
+**Geen nieuwe secrets nodig.** De pijplijn hergebruikt de secrets die
+`_mediamonitor/` al gebruikt:
 
-| Secret               | Inhoud                                   |
-|----------------------|------------------------------------------|
-| `ANTHROPIC_API_KEY`  | Claude API key voor de redacteur-AI      |
-| `GMAIL_USER`         | Verzendend gmail-adres                    |
-| `GMAIL_APP_PASSWORD` | 16-cijferig Gmail app-wachtwoord         |
-| `DESTANDAARD_TO_ADDR`| Ontvangend adres                          |
+| Secret               | Inhoud                              | Status        |
+|----------------------|-------------------------------------|---------------|
+| `ANTHROPIC_API_KEY`  | Claude API key voor de redacteur-AI | bestaat al    |
+| `GMAIL_USER`         | Verzendend gmail-adres              | bestaat al    |
+| `GMAIL_APP_PASSWORD` | 16-cijferig Gmail app-wachtwoord    | bestaat al    |
+| `DESTANDAARD_TO_ADDR`| Ontvangend adres (optioneel)        | niet nodig — valt terug op de default in `main.py` |
 
-(Gmail app-wachtwoord aanmaken: zie de uitleg in `_mediamonitor/README.md`.)
+De ontvanger staat standaard op je eigen gmail (`DEFAULT_TO` in `main.py`); zet
+`DESTANDAARD_TO_ADDR` alleen als je hem ergens anders wil ontvangen.
 
 ## Afstemmen
 

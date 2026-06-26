@@ -28,6 +28,11 @@ INCOMING_DIR = DATA_DIR / "incoming"
 DIGEST_DIR = DATA_DIR / "digests"
 PREFERENCES = ROOT / "preferences.md"
 
+# Personal digest → your own inbox. Override with --to or DESTANDAARD_TO_ADDR.
+# Defaulting here means the pipeline reuses mediamonitor's existing Gmail
+# secrets and needs no new repo secret of its own.
+DEFAULT_TO = "andries.fluit@gmail.com"
+
 
 def _newest_raw():
     candidates = sorted(INCOMING_DIR.glob("*.raw.json"),
@@ -106,11 +111,13 @@ def run(input_path=None, to_addr=None, dry_run=False, no_llm=False,
         print(f"DRY RUN wrote {out_md} and {out_html}")
         return 0
 
-    if to_addr:
+    if to_addr and os.environ.get("GMAIL_APP_PASSWORD"):
         from mailer import send as send_mail
         subject = f"De Standaard — digest {date} ({len(digest['kern'])}+{len(digest['verrassing'])})"
         send_mail(subject, html, md_to_text(md), to_addr)
         logging.info("mail sent to %s", to_addr)
+    else:
+        logging.info("no mail sent (no GMAIL_APP_PASSWORD); digest written to %s", out_md)
     return 0
 
 
@@ -133,7 +140,7 @@ def main():
     p.add_argument("--verrassing", type=int, default=VERRASSING_COUNT)
     args = p.parse_args()
 
-    to_addr = args.to or os.environ.get("DESTANDAARD_TO_ADDR")
+    to_addr = args.to or os.environ.get("DESTANDAARD_TO_ADDR") or DEFAULT_TO
     sys.exit(run(input_path=args.input, to_addr=to_addr, dry_run=args.dry_run,
                  no_llm=args.no_llm, kern_n=args.kern, verr_n=args.verrassing))
 

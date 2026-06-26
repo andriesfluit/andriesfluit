@@ -9,18 +9,25 @@ zit.
 > deze voorkeuren te houden. Dit bestand stuurt dus alleen wat je *sowieso* wil zien.
 
 ## Wat ik graag lees
-<!-- VUL AAN. Voorbeelden hieronder — vervang door wat echt voor jou geldt. -->
-- Binnen- en buitenlandse politiek met duiding (niet de losse nieuwsfeitjes).
-- Economie en ondernemen, zeker waar het raakt aan communicatie, beleid of
-  reputatie.
-- Klimaat, energie en de maatschappelijke discussie eromheen.
-- Media, technologie en de impact van AI op samenleving en werk.
-- Sterk geschreven opinie en analyse, ook als ik het oneens kan zijn met de auteur.
+<!-- Een eerste versie op basis van je profiel — schrap of scherp aan wat niet klopt. -->
+- Belgische en Europese politiek met strategische duiding: coalities, beleid,
+  machtsverhoudingen, wie wint of verliest — niet de losse procedurefeitjes.
+- Strategische communicatie, reputatie en crisismanagement: hoe bedrijven,
+  politici en organisaties met druk, framing en media omgaan.
+- AI en technologie, vooral de maatschappelijke en zakelijke impact (ik bouw
+  zelf aan een AI-startup).
+- Media en journalistiek zelf: de sector, mediakritiek, desinformatie.
+- Economie en ondernemen, met extra aandacht voor sectoren waar ik mee werk:
+  arbeidsmarkt/HR, retail, infrastructuur en wegenbouw, filantropie.
+- Internationale politiek, zeker de VS (Trump, machtsdynamiek) en geopolitiek
+  dat op Europa terugslaat.
+- Klimaat en energie, vooral het beleids- en maatschappelijk debat.
+- Sterk geschreven reportage, long reads en opinie — ook standpunten waar ik
+  het oneens mee kan zijn.
 
 ## Wat ik meestal mag overslaan
-<!-- VUL AAN. -->
 - Routine-sportverslagen (uitslagen, transfers) — tenzij er een breder verhaal in zit.
-- Pure lifestyle/consumptie-stukken.
+- Pure lifestyle-, consumptie- en royalty-stukken.
 - Korte nieuwsflitsen zonder context.
 
 ## Toon en vorm
