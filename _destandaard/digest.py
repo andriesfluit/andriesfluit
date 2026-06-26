@@ -138,7 +138,10 @@ def build_digest(articles, preferences, feedback_context="",
     client = _client()
     resp = client.messages.create(
         model=MODEL,
-        max_tokens=4096,
+        # Combined digest = up to ~15 items with paragraph summaries (sometimes
+        # merging two papers), so the JSON response can run long. 4096 truncated
+        # it mid-string; give ample headroom.
+        max_tokens=8192,
         system=_SYSTEM,
         messages=[{"role": "user",
                    "content": _user_prompt(articles, preferences, feedback_context,
