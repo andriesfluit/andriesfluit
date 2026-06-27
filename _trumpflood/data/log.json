@@ -46447,5 +46447,501 @@
       "education": 12,
       "weather": 103
     }
+  },
+  {
+    "date": "2026-06-27",
+    "generated_at": "2026-06-27T08:43:16+02:00",
+    "last_checked_at": "2026-06-27T08:43:16+02:00",
+    "total_articles": 362,
+    "trump_articles": 6,
+    "percentage": 1.7,
+    "core_percentage": 1.7,
+    "core_percentage_name": 1.7,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 1.9,
+    "indirect_references": 1,
+    "wide_total_articles": 495,
+    "wide_trump_articles": 8,
+    "wide_percentage": 1.6,
+    "wide_trump_articles_expanded": 9,
+    "wide_percentage_expanded": 1.8,
+    "macro_percentage": 2.3,
+    "qualifying_outlets": 16,
+    "core_outlets_total": 19,
+    "core_outlets_active": 15,
+    "active_core_fraction": 0.789,
+    "cross_outlet_dup_headlines": 34,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 9.4,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 3.0,
+    "breadth": 0.33,
+    "deviation": 0.72,
+    "smoothed_pct": 2.1,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 9,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 51,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_tech": {
+        "fetched": 63,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 57,
+        "today": 13,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 36,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 63,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 56,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 64,
+        "kept": 60,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 1.67
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 72,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 72,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "De aardbevingen in Venezuela zijn ook voor Trump een test - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUjRDSE5CWnBpWTNtc19DdkdJWko1YXEzNmRKYktHWHhnbnZUY1NJaC1ydDFaSVNGdThJTGt4QjJ5WlZ5UzZXU0d1S3JrSFNrTHJxQVZlM1Q3QmVtMUhzWE9nam9hRHVVMWNodkdSS1Y2NzNVRzNsZDY4T2YydGFwUUhteHN6ZmotTEY0aUNjUi1pOGZBcDB5STNidmhxaFpicjAwY0ZhM3Zsa2pl?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "OpenAI apetrots: ook GPT 5.6 is volgens Witte Huis te gevaarlijk om uit te brengen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQWdlZU1KXzBqaG1XOC1LbkdWN2NFQm5MN0c3QlpvV1dhMVAyeldFVGgyZ2M1Rnh2cmctWm5aVHNwT0pLSEhUdk5vMUFyRGdTUzZHMUE4UzdjTnc0VVNtSlV4TUZXcEE3ODh2ZHc1UzJvX2lSZ2RnVlpxbktLQy1PaGx3VUdtSk5CRFMyMkZJQ0JidF93bUxvOTNESVJkLThHOXpfME1DUWFqLTU1MlpxdExqZlhvMllvNTVDZTA3NTY2Zl9JYWwwV1dyYXIxczBEME1kSQ?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "Voetbalcolumnist Simon Kuper maakt eerste balans op halfweg het WK: ‘Donald Trump is bang om uitgefloten te worden’",
+        "url": "https://www.demorgen.be/wk-voetbal/voetbalcolumnist-simon-kuper-maakt-eerste-balans-op-halfweg-het-wk-donald-trump-is-bang-om-uitgefloten-te-worden~be260aa1/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "JD Vance en Marco Rubio strijden om de macht na Trump: ‘Dit is ‘The Apprentice’ in het Witte Huis’",
+        "url": "https://www.demorgen.be/nieuws/jd-vance-en-marco-rubio-strijden-om-de-macht-na-trump-dit-is-the-apprentice-in-het-witte-huis~b296d2b9/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Séismes au Venezuela : comment Donald Trump saisit l’occasion pour renforcer l’emprise américaine sur le pays",
+        "url": "https://www.rtbf.be/article/seismes-au-venezuela-comment-donald-trump-saisit-l-occasion-pour-renforcer-l-emprise-americaine-sur-le-pays-11748097",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle lubie de Donald Trump: aucun président américain ne l'avait fait jusqu'ici (PHOTO)",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/27/la-nouvelle-lubie-de-donald-trump-aucun-president-americain-ne-lavait-fait-jusquici-photo-KBDNITHPQRAEHACDCCQGDIFWMA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“Bienvenue, mais soyez sages”: Trump dévoile un nouveau passeport... à son effigie",
+        "url": "https://www.7sur7.be/monde/bienvenue-mais-soyez-sages-trump-devoile-un-nouveau-passeport-a-son-effigie~a59f1829/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "De aardbevingen in Venezuela zijn ook voor Trump een test: overleeft zijn enige buitenlandse ‘succesverhaal’? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeWIwbVpISGpIcGhKWEdCbVZRSEttLVBRUl9BczlNc0wwT3ZXLUpRNnlTQXkwMGEzekl3VENGYWYyOVFfYmc2NUNPdUlXUkY0cnFLNDB4SEVoMGw4anZkSndtOVlSSmJDNGMwY0NhcE02bERSSEZIZnNZZkRUcV9KWU9aR1RSWkk5eTZ1LVRNaUJQRVRkVW5HUVJWVDhCSFRZWXRtYlo5WGZDV2VtYWQyM3l2M1pVb1NySzhPTTZnN3BlUzVtejRScktxTld2VHhYZEttSEM3UjBzMU92Z19qOXFhN2NvNXNsR0pwSg?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt met “heffing van 100 procent” voor Europese landen die digitale diensten van Amerikaanse bedrijven willen belasten - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQXU4SFRuWXpHN2pPSmV0SVVlam1wTzRLdXdyZk5oZFd2SE1DM2d1MUNiX1A0bEY0MS1vYlc5OUl6Uk50RnJDRlN5NHRWR2JxMWZPUS0xVGpHbGVDYmtqTms2VkluSk10d1R3czFTQ2ppTXFtT1R3NUdLX2UxRUl2OEloWEhUcUFXWjhNOXNjcTYtd2xqOHJSSzdKbWVQT1VpbW5ITVNqczRkckFQTnVaSG8yWm53ZFdZVnpWTDY2UUwza1pDeS1PLXBQbEZRMWw4NDNsLVNDLW5IaVEtYkd0LWN3Ml90Yno3UDI2SXFuVUJuc3dXMHc?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "De aardbevingen in Venezuela zijn ook voor Trump een test - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUjRDSE5CWnBpWTNtc19DdkdJWko1YXEzNmRKYktHWHhnbnZUY1NJaC1ydDFaSVNGdThJTGt4QjJ5WlZ5UzZXU0d1S3JrSFNrTHJxQVZlM1Q3QmVtMUhzWE9nam9hRHVVMWNodkdSS1Y2NzNVRzNsZDY4T2YydGFwUUhteHN6ZmotTEY0aUNjUi1pOGZBcDB5STNidmhxaFpicjAwY0ZhM3Zsa2pl?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "OpenAI apetrots: ook GPT 5.6 is volgens Witte Huis te gevaarlijk om uit te brengen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQWdlZU1KXzBqaG1XOC1LbkdWN2NFQm5MN0c3QlpvV1dhMVAyeldFVGgyZ2M1Rnh2cmctWm5aVHNwT0pLSEhUdk5vMUFyRGdTUzZHMUE4UzdjTnc0VVNtSlV4TUZXcEE3ODh2ZHc1UzJvX2lSZ2RnVlpxbktLQy1PaGx3VUdtSk5CRFMyMkZJQ0JidF93bUxvOTNESVJkLThHOXpfME1DUWFqLTU1MlpxdExqZlhvMllvNTVDZTA3NTY2Zl9JYWwwV1dyYXIxczBEME1kSQ?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "Voetbalcolumnist Simon Kuper maakt eerste balans op halfweg het WK: ‘Donald Trump is bang om uitgefloten te worden’",
+        "url": "https://www.demorgen.be/wk-voetbal/voetbalcolumnist-simon-kuper-maakt-eerste-balans-op-halfweg-het-wk-donald-trump-is-bang-om-uitgefloten-te-worden~be260aa1/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "JD Vance en Marco Rubio strijden om de macht na Trump: ‘Dit is ‘The Apprentice’ in het Witte Huis’",
+        "url": "https://www.demorgen.be/nieuws/jd-vance-en-marco-rubio-strijden-om-de-macht-na-trump-dit-is-the-apprentice-in-het-witte-huis~b296d2b9/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Séismes au Venezuela : comment Donald Trump saisit l’occasion pour renforcer l’emprise américaine sur le pays",
+        "url": "https://www.rtbf.be/article/seismes-au-venezuela-comment-donald-trump-saisit-l-occasion-pour-renforcer-l-emprise-americaine-sur-le-pays-11748097",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle lubie de Donald Trump: aucun président américain ne l'avait fait jusqu'ici (PHOTO)",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/27/la-nouvelle-lubie-de-donald-trump-aucun-president-americain-ne-lavait-fait-jusquici-photo-KBDNITHPQRAEHACDCCQGDIFWMA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“Bienvenue, mais soyez sages”: Trump dévoile un nouveau passeport... à son effigie",
+        "url": "https://www.7sur7.be/monde/bienvenue-mais-soyez-sages-trump-devoile-un-nouveau-passeport-a-son-effigie~a59f1829/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 8,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 18,
+      "crime": 9,
+      "eu": 9,
+      "politics": 5,
+      "be_gov": 10,
+      "culture": 13,
+      "tech": 3,
+      "economy": 10,
+      "sports": 70,
+      "health": 3,
+      "climate": 2,
+      "migration": 1,
+      "education": 1,
+      "weather": 18
+    },
+    "wide_themes": {
+      "war": 27,
+      "crime": 14,
+      "eu": 12,
+      "politics": 11,
+      "be_gov": 13,
+      "culture": 15,
+      "tech": 7,
+      "economy": 11,
+      "sports": 99,
+      "health": 7,
+      "climate": 3,
+      "migration": 1,
+      "education": 1,
+      "weather": 27
+    }
   }
 ]
