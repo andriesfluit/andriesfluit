@@ -14,7 +14,7 @@ import json
 import logging
 import os
 import sys
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 from digest import build_digest, KERN_COUNT, VERRASSING_COUNT
@@ -74,9 +74,13 @@ def _assign_handles(date, kern, verrassing):
 def _gather(target, force):
     """Fetch + parse every source for `target`; return (pool, editions)."""
     from capture import fetch_bundle
+    weekday = date.fromisoformat(target).weekday()
     pool, editions = [], []
     for key in sources_mod.ORDER:
         cfg = sources_mod.get(key)
+        if weekday not in cfg.get("days", set(range(7))):
+            logging.info("[%s] geen verschijningsdag vandaag — overslaan", key)
+            continue
         state = _load_state(cfg)
         bundle = fetch_bundle(cfg["base"], state.get("id"), state.get("date"),
                               target_date=target)
