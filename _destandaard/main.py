@@ -121,8 +121,11 @@ def run(to_addr=None, dry_run=False, no_llm=False, force=False,
         pool, editions = _gather(target, force)
 
     if not pool:
-        logging.warning("geen enkele editie beschikbaar voor %s", target)
-        return 3
+        # Expected on Sundays/holidays: no paper is published that day. Treat it
+        # as a clean no-op (exit 0) so the nightly cron doesn't send a spurious
+        # "Run failed" mail; the previous digest simply stays in place.
+        logging.info("geen editie voor %s (zon-/feestdag?) — niets te doen", target)
+        return 0
     logging.info("totaal %d artikels uit %d kranten", len(pool), len(editions))
 
     if no_llm:
