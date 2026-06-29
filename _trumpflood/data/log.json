@@ -47511,5 +47511,561 @@
       "education": 3,
       "weather": 45
     }
+  },
+  {
+    "date": "2026-06-29",
+    "generated_at": "2026-06-29T10:33:54+02:00",
+    "last_checked_at": "2026-06-29T10:33:54+02:00",
+    "total_articles": 475,
+    "trump_articles": 10,
+    "percentage": 2.1,
+    "core_percentage": 2.1,
+    "core_percentage_name": 2.1,
+    "trump_articles_expanded": 10,
+    "core_percentage_expanded": 2.1,
+    "indirect_references": 0,
+    "wide_total_articles": 653,
+    "wide_trump_articles": 16,
+    "wide_percentage": 2.5,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 2.5,
+    "macro_percentage": 2.8,
+    "qualifying_outlets": 24,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 44,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 9.3,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.0,
+    "breadth": 0.39,
+    "deviation": 0.98,
+    "smoothed_pct": 1.77,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 14,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "google_nl_politics": {
+        "fetched": 33,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 54,
+        "today": 15,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 60,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 32,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 58,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 26,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 49,
+        "today": 34,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 70,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 99,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.45
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 43,
+        "kept": 43,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.33
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 38,
+        "kept": 36,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.78
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 21,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 30,
+        "today": 5,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 34,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "China bouwt aan ‘het nieuwe Singapore’ in Peru, Trump bekijkt het met argusogen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONTBSUVpkYWN4U3lzTzNpd2s4MzJiT2dpSWxzQ1hrMUFfbUpOVFpBM3VIdVpvUzYtNnF2X2NaczhYNmVxOVhfdmdZbmFWc3ZTS2l1eVpLVHZiM09rTFdkOW91RDA4OHhSUEszdl9JTlR2dzFKbDAxTVpUbTNFMUQzTERnMkt2cC1Gc3B1bVBKa2ZkY01ZOE9zMk9rNzFCaGNWUU91ZHBhU1RwUlVQWkZMZEo5cFlLWS1yYzd3cUt5dlltNC00d3c?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Ik weet zeker dat het Belgische volk dat nooit is vergeten”: Trump vol lof over eigen leger tijdens Amerikaans feest in Brussel",
+        "url": "https://www.hln.be/brussel/ik-weet-zeker-dat-het-belgische-volk-dat-nooit-is-vergeten-trump-vol-lof-over-eigen-leger-tijdens-amerikaans-feest-in-brussel~a799b214/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Biden noemt Trump een “loser” en schildert hem af als “incompetent, corrupt en ijdel”",
+        "url": "https://www.hln.be/buitenland/kijk-biden-noemt-trump-een-loser-en-schildert-hem-af-als-incompetent-corrupt-en-ijdel~adbec400/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "▶ Biden haalt uit naar ‘ijdelheidsprojecten’ Trump en noemt zijn opvolger ‘loser’",
+        "url": "https://www.demorgen.be/nieuws/biden-haalt-uit-naar-ijdelheidsprojecten-trump-en-noemt-zijn-opvolger-loser~b419a604/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump bedreigt Iran met militaire middelen over Straat van Hormuz: spanningen in Golf lopen weer op",
+        "url": "https://www.demorgen.be/niet-te-missen/trump-bedreigt-iran-met-militaire-middelen-over-straat-van-hormuz-spanningen-in-golf-lopen-weer-op~b5fbad9b/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "250 ans des États-Unis : De Wever joue Coolidge contre Trump",
+        "url": "https://www.rtbf.be/article/250-ans-des-etats-unis-de-wever-joue-coolidge-contre-trump-11749348",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "”Un vrai loser” : deux ans après son dernier débat télévisé, Joe Biden attaque Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/29/un-vrai-loser-deux-ans-apres-son-dernier-debat-televise-joe-biden-attaque-donald-trump-GHFNBLMGHVB4HNUT7NOLQKQV7I/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Grosse bague en diamant offerte à Trump et couac sur l’hymne US : La Libre a assisté au show à l’américaine de Bill White au Cinquantenaire",
+        "url": "https://www.lalibre.be/belgique/societe/2026/06/29/grosse-bague-en-diamant-offerte-a-trump-et-couac-sur-lhymne-us-la-libre-a-assiste-au-show-a-lamericaine-de-bill-white-au-cinquantenaire-N2YJSXSFQZDWPOC2SG6HB4FIQU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Deux ans après son dernier débat télévisé, Joe Biden attaque Donald Trump: \"Un vrai loser”",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/29/deux-ans-apres-son-dernier-debat-televise-joe-biden-attaque-donald-trump-un-vrai-loser-U6EO25Y7ZBDLXOHO72CUDNHYEU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Deux ans après leur dernier débat, Joe Biden tacle Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1VhWEdLdmxCTEIyS0NKSEd3bFdBdjZ3U1FGMzdZT19UcDlVMG56akRMMWNBWS1rRklYZDcwLXpwblYxYlFqLS04MDE3YjMxUC1lZVNXaHpIeHBVcXRMaXM0dFdqd2RLTFhnbllBQ3B1cWozWlhBWUhHOFJTVmt5cXN3ZlZoSTNCQ0dvLURVUXpZQm5BLVMyZ3ZnVzlSMlUwLWphWFhvMmtneUVjdl84?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump blijft ‘historische akkoorden’ sluiten die de bommen niet stoppen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWWl1ZElhN09Uc1cwUmtFWW1VYkZQcG9fRVVCQkh5bWhXVFZvME1YQmxzVm9kNHFPZUVZRkUxUGRBRWM2QjdOaVZ3LTNKanhfX3E5dlNJNkJvb3hJWS1EakI0dTgxWEE4N1UxSGxhc1pnYzlhYTRjaFpWNzBMZ2VrQnphY0ltY2JrMzhFSWREd0ZFV0VNQ1R5VzJNMVZYa0MxRDVzV3NRM1BxY184Y1FXQ2NsVTNOYlNrNXRsaw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "250 ans des États-Unis : De Wever joue Coolidge contre Trump - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNmF3SGR5cXZKaThZMWZTY2VETWdCdDd4cFcwN1NmM1JBMF9EenRYWnpEQ2lPdWdJcllDbzdqV2MzdXhLN2RHRUY1ZmJlZVRGakNjeGFvVjllLXJpX1NzOTc3QVFadXFwNG9JQ2JJdlZyLUV4eTlOQVdPUWtwd0x0X0xlbDY2cjNPYjlKeFVFclIzc1NMV1Y5QmJVZw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace d'anéantir l'Iran après des frappes sur des bases américaines - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdFA0ZnJuQlZlVmxvdy1pVEVPcjUwQy1tdGlWSFJlNzJhTzUyVmVVQmxJbUFGbXNXMGVjVzdEZnJjTlpjSnozRmI5T0Y0ZXY4M2haZmVqWElBeHlCVG1qblRPc1ZOWTloU3BNU25jRFg1dy14eXR0bkEtOUlpWGxhZjNMaXNMVWVXWElhV2Fwc1hZdmNxU19yakZxRE9zc1hKdFVwMERhU1NuUHNaakVRNUlHaFlCbkNQN0s0MkNmaXVlNG1RZkpLMkhLTU9weS04N0lrQzYzaW9FVlFaU2xvLWpB?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Biden noemt Trump een “loser” en schildert hem af als “incompetent, corrupt en ijdel” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbEI1VzhfYnM2blp5b3dlbVhxYU11cG1WUWYyZFgtdzBfR1FvRGRraWFka2ZOcmVydGlzSVV1WjVYamc2N3BJNjVCT1R5WURIN1dpTGFBV3A3dTRJMjNBOFBDTTVPRHpSZHJCbFgxNjRRcjhEZi10U1p6SmdsNDdtZmg0cW5BdzdHMXVrU0cybmNMT2E2dXFMSUdyZkliTFJ5VW1pODRvYTI5RUdoWW5jNHVRMHJBeHBrU05Xd0VZaXdxSnc?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "China bouwt aan ‘het nieuwe Singapore’ in Peru, Trump bekijkt het met argusogen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONTBSUVpkYWN4U3lzTzNpd2s4MzJiT2dpSWxzQ1hrMUFfbUpOVFpBM3VIdVpvUzYtNnF2X2NaczhYNmVxOVhfdmdZbmFWc3ZTS2l1eVpLVHZiM09rTFdkOW91RDA4OHhSUEszdl9JTlR2dzFKbDAxTVpUbTNFMUQzTERnMkt2cC1Gc3B1bVBKa2ZkY01ZOE9zMk9rNzFCaGNWUU91ZHBhU1RwUlVQWkZMZEo5cFlLWS1yYzd3cUt5dlltNC00d3c?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Ik weet zeker dat het Belgische volk dat nooit is vergeten”: Trump vol lof over eigen leger tijdens Amerikaans feest in Brussel",
+        "url": "https://www.hln.be/brussel/ik-weet-zeker-dat-het-belgische-volk-dat-nooit-is-vergeten-trump-vol-lof-over-eigen-leger-tijdens-amerikaans-feest-in-brussel~a799b214/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Biden noemt Trump een “loser” en schildert hem af als “incompetent, corrupt en ijdel”",
+        "url": "https://www.hln.be/buitenland/kijk-biden-noemt-trump-een-loser-en-schildert-hem-af-als-incompetent-corrupt-en-ijdel~adbec400/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "▶ Biden haalt uit naar ‘ijdelheidsprojecten’ Trump en noemt zijn opvolger ‘loser’",
+        "url": "https://www.demorgen.be/nieuws/biden-haalt-uit-naar-ijdelheidsprojecten-trump-en-noemt-zijn-opvolger-loser~b419a604/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump bedreigt Iran met militaire middelen over Straat van Hormuz: spanningen in Golf lopen weer op",
+        "url": "https://www.demorgen.be/niet-te-missen/trump-bedreigt-iran-met-militaire-middelen-over-straat-van-hormuz-spanningen-in-golf-lopen-weer-op~b5fbad9b/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Biden haalt ongewoon hard uit naar Trump en noemt hem “een onbekwame, corrupte loser”",
+        "url": "https://www.gva.be/buitenland/biden-haalt-ongewoon-hard-uit-naar-trump-en-noemt-hem-een-onbekwame-corrupte-loser/157958996.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Het Jubelpark lag voor een dag in het Amerika van Trump",
+        "url": "https://www.bruzz.be/actua/politiek/jubelpark-lag-voor-een-dag-het-amerika-van-trump-2026-06-29",
+        "source": "bruzz",
+        "name_only": true
+      },
+      {
+        "title": "250 ans des États-Unis : De Wever joue Coolidge contre Trump",
+        "url": "https://www.rtbf.be/article/250-ans-des-etats-unis-de-wever-joue-coolidge-contre-trump-11749348",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "”Un vrai loser” : deux ans après son dernier débat télévisé, Joe Biden attaque Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/06/29/un-vrai-loser-deux-ans-apres-son-dernier-debat-televise-joe-biden-attaque-donald-trump-GHFNBLMGHVB4HNUT7NOLQKQV7I/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Grosse bague en diamant offerte à Trump et couac sur l’hymne US : La Libre a assisté au show à l’américaine de Bill White au Cinquantenaire",
+        "url": "https://www.lalibre.be/belgique/societe/2026/06/29/grosse-bague-en-diamant-offerte-a-trump-et-couac-sur-lhymne-us-la-libre-a-assiste-au-show-a-lamericaine-de-bill-white-au-cinquantenaire-N2YJSXSFQZDWPOC2SG6HB4FIQU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Deux ans après son dernier débat télévisé, Joe Biden attaque Donald Trump: \"Un vrai loser”",
+        "url": "https://www.dhnet.be/actu/monde/2026/06/29/deux-ans-apres-son-dernier-debat-televise-joe-biden-attaque-donald-trump-un-vrai-loser-U6EO25Y7ZBDLXOHO72CUDNHYEU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Deux ans après leur dernier débat, Joe Biden tacle Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1VhWEdLdmxCTEIyS0NKSEd3bFdBdjZ3U1FGMzdZT19UcDlVMG56akRMMWNBWS1rRklYZDcwLXpwblYxYlFqLS04MDE3YjMxUC1lZVNXaHpIeHBVcXRMaXM0dFdqd2RLTFhnbllBQ3B1cWozWlhBWUhHOFJTVmt5cXN3ZlZoSTNCQ0dvLURVUXpZQm5BLVMyZ3ZnVzlSMlUwLWphWFhvMmtneUVjdl84?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 10,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 16,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 6,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 24,
+      "crime": 18,
+      "eu": 33,
+      "politics": 19,
+      "be_gov": 12,
+      "culture": 9,
+      "tech": 10,
+      "economy": 4,
+      "sports": 37,
+      "health": 6,
+      "climate": 4,
+      "migration": 2,
+      "education": 5,
+      "weather": 28
+    },
+    "wide_themes": {
+      "war": 31,
+      "crime": 31,
+      "eu": 43,
+      "politics": 22,
+      "be_gov": 18,
+      "culture": 10,
+      "tech": 17,
+      "economy": 6,
+      "sports": 51,
+      "health": 7,
+      "climate": 6,
+      "migration": 2,
+      "education": 6,
+      "weather": 36
+    }
   }
 ]
