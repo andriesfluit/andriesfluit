@@ -48683,5 +48683,507 @@
       "education": 12,
       "weather": 24
     }
+  },
+  {
+    "date": "2026-07-01",
+    "generated_at": "2026-07-01T09:56:50+02:00",
+    "last_checked_at": "2026-07-01T09:56:50+02:00",
+    "total_articles": 408,
+    "trump_articles": 6,
+    "percentage": 1.5,
+    "core_percentage": 1.5,
+    "core_percentage_name": 1.5,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 1.5,
+    "indirect_references": 0,
+    "wide_total_articles": 580,
+    "wide_trump_articles": 11,
+    "wide_percentage": 1.9,
+    "wide_trump_articles_expanded": 11,
+    "wide_percentage_expanded": 1.9,
+    "macro_percentage": 1.8,
+    "qualifying_outlets": 19,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 32,
+    "cross_outlet_dup_groups": 16,
+    "cross_outlet_dup_rate": 7.8,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.0,
+    "breadth": 0.24,
+    "deviation": 0.75,
+    "smoothed_pct": 1.87,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_nl_politics": {
+        "fetched": 47,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 66,
+        "today": 6,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_nl_sport": {
+        "fetched": 58,
+        "today": 13,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 33,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 59,
+        "today": 4,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 52,
+        "kept": 36,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.14
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 12,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 59,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Live - Trump verdiende in 2025 minstens 1,2 miljard dollar met crypto en bijbels • Ongebruikelijk partijcongres aangekondigd voor Republikeinen",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-kondigt-ongebruikelijk-partijcongres-republikeinen-aan-voor-tussentijdse-verkiezingen-regering-schrapt-beperkingen-op-krachtigste-ai-modellen-van-anthropic~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "\"Des actions dans l'intérêt du peuple supérieur américain\": en 2025, Trump a gagné plus d'un milliard de dollars en crypto",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/01/des-actions-dans-linteret-du-peuple-superieur-americain-en-2025-trump-a-gagne-plus-dun-milliard-de-dollars-en-crypto-2U7IMRFAWBAJHOVMTJRK2ZMN5A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Cela n'a jamais été fait auparavant!\" : l'annonce exceptionelle de Trump qui risque de bousculer les équilibres chez les Républicains",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/01/cela-na-jamais-ete-fait-auparavant-lannonce-exceptionelle-de-trump-qui-risque-de-bousculer-les-equilibres-chez-les-republicains-ATKRCBORRVHKTFJIA7T3B2EVP4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les Diables sont enfin là où on les attendait depuis le tirage chez Donald Trump : le tournoi de la Belgique peut commencer",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/01/les-diables-sont-enfin-la-ou-on-les-attendait-depuis-le-tirage-chez-donald-trump-le-tournoi-de-la-belgique-peut-commencer-VSUKZSRU2FBM7PM5BGDNXPMRKQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce une convention exceptionnelle de son parti avant les Midterms",
+        "url": "https://www.7sur7.be/monde/trump-annonce-une-convention-exceptionnelle-de-son-parti-avant-les-midterms~a9bb7a50/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "1,2 milliard en 2025: comment Trump a dopé sa fortune grâce aux cryptomonnaies",
+        "url": "https://www.7sur7.be/monde/1-2-milliard-en-2025-comment-trump-a-dope-sa-fortune-grace-aux-cryptomonnaies~a55ffb81/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Supreme Court stuurt Trump wandelen: wie in VS geboren wordt, is en blijft automatisch Amerikaan - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNGFRY0JJTFYxZGlkQ1l0UzVEdFd6YXJObjNZclFxb202dFk0SVNTYlg2TTMzUDZDTTZjT1NCVV9VMlJkOFJKYWNLam9aNUd4dGY2YV9GYWxJbDd1cGdzSUozZWxVQ18tZUpucXhiTG5WS0tYQ2haSDdZdFoxanU0cGtWZzVoY1RGdTBSdzZrTFRYM2ZGcXBoSkFhQnUzYlNLY0ppMHhweXppNnRZaHJaT20xTlQzaXJabnpBV2k2QW8xQzUxLXkybzFFVGpPd2tfZXdyUnFDX1diUzFETURJ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "La volte-face de Trump face à un géant de la tech - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeTluV21NTnRPaVc4SjJWeWVVWDMtcTFwc1NHX0tnSGx5cHlsam52Z0p2aUpmbHpVRFN2QWxTaGc3OUFkM0I0RGUzeGVkN3hQbjZFaUpSa0R6YjEtZzBtQnBNTTAxWWcxX0FrZi1WRnZfTjNweWhBY3BUN0EzTTVxTDhXS1lXUHhhSFBmbm9kVjktUzM4VGt1WFZhMA?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump haalde minstens 2,2 miljard dollar binnen in eerste jaar na terugkeer naar Witte Huis - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRE1sQmJFRUVQSWFVUnBvUUxkQWljNVJYTUI0Qk5YWWVMSjIwOW9XSmlQSHNfTlhMS1V0aUNLZDFHRlBBOWxwMl91cUFrazRlSW9JSDRvX29QMDM1SFlDMWFJLW82UHFqb1ZaYXdZZzNCdF8xaS1Mdm1JMEMxUW5sUjN5NHB0ZFZVSWhfZXBHOWFzbDlNeWkzZ1dPbmprM2htbGJmUGxsY2dNM1VQUmNCTGdWVjNKMkdzWGZYZGRIUW5JYWVaTzdTLWkzdS1qNnptTnRWY2JSTFlHc2htamJDQWpKR3dyOGNBc1pna0p3?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump meldt zeker 1,2 miljard dollar inkomsten uit crypto in 2025 - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXBzbWV3d3dodFZhQVBrVkYyVVN3UW5KXzEyMVQ4M21YX0sxMHNON3B1X2lJbTdiZXM2SUxZMnUwZFRkV3lLbjdNU0pIN1VCc1FGUUMzNFBkWDloVzg3SDR0bjYtZVRDSHdGR0t4ZXEtSW5UVFJlcE1abVIxVXloVlotSVJpa0IzbEljSUtfc0tGSGpXYm80SEh3S041bGFpUTZGZ3gtM1I3ZnBfSVlweW9GSUlqb3c?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "\"Cela n'a jamais été fait auparavant!\" : l'annonce exceptionelle de Trump qui risque de bousculer les équilibres chez les Républicains - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQa1pWU3AyRWVZSUZfZ25PaWczbnFwYWMwTEU4bG5ncnowejZ5azBwX0JYUzRndmo0NE5vTXU5dEY3eTIyMzYzX2FsR1dvbi1yMDkwdWxMbWs0b1ZBNzVNMlBEM0xObHdaVjc0elBEWXRIdGxfZXlsaXl3N0tYUWhHUXJEVnRtRXFkV252emFhZUFfVjlCVWhuMVJoMnAxTzBRa3lmUjFMeWdwV0hud3JfblFnU3J5R1RWMlpHajNLclRuQ3B3dXhtajhjYXNrVDROOUFLOE5HS2FKZEtUU2hkTlBzaXNXckVHZWdmemsweEwwZWV5RG82enBaRFdFMzU5TVRKQlA1cnZNV3l4U2oyUG1mVFhHQ1VuYlUweGdFUE92a1ladm5UR0JDSEUydGZodl82MVd3NA?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump verdiende in 2025 minstens 1,2 miljard dollar met crypto en bijbels • Ongebruikelijk partijcongres aangekondigd voor Republikeinen",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-kondigt-ongebruikelijk-partijcongres-republikeinen-aan-voor-tussentijdse-verkiezingen-regering-schrapt-beperkingen-op-krachtigste-ai-modellen-van-anthropic~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "\"Des actions dans l'intérêt du peuple supérieur américain\": en 2025, Trump a gagné plus d'un milliard de dollars en crypto",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/01/des-actions-dans-linteret-du-peuple-superieur-americain-en-2025-trump-a-gagne-plus-dun-milliard-de-dollars-en-crypto-2U7IMRFAWBAJHOVMTJRK2ZMN5A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Cela n'a jamais été fait auparavant!\" : l'annonce exceptionelle de Trump qui risque de bousculer les équilibres chez les Républicains",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/01/cela-na-jamais-ete-fait-auparavant-lannonce-exceptionelle-de-trump-qui-risque-de-bousculer-les-equilibres-chez-les-republicains-ATKRCBORRVHKTFJIA7T3B2EVP4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les Diables sont enfin là où on les attendait depuis le tirage chez Donald Trump : le tournoi de la Belgique peut commencer",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/01/les-diables-sont-enfin-la-ou-on-les-attendait-depuis-le-tirage-chez-donald-trump-le-tournoi-de-la-belgique-peut-commencer-VSUKZSRU2FBM7PM5BGDNXPMRKQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce une convention exceptionnelle de son parti avant les Midterms",
+        "url": "https://www.7sur7.be/monde/trump-annonce-une-convention-exceptionnelle-de-son-parti-avant-les-midterms~a9bb7a50/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "1,2 milliard en 2025: comment Trump a dopé sa fortune grâce aux cryptomonnaies",
+        "url": "https://www.7sur7.be/monde/1-2-milliard-en-2025-comment-trump-a-dope-sa-fortune-grace-aux-cryptomonnaies~a55ffb81/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 10,
+      "crime": 14,
+      "eu": 14,
+      "politics": 5,
+      "be_gov": 9,
+      "culture": 10,
+      "tech": 7,
+      "economy": 10,
+      "sports": 29,
+      "health": 2,
+      "climate": 5,
+      "migration": 1,
+      "education": 2,
+      "weather": 16
+    },
+    "wide_themes": {
+      "war": 16,
+      "crime": 19,
+      "eu": 19,
+      "politics": 10,
+      "be_gov": 16,
+      "culture": 13,
+      "tech": 12,
+      "economy": 15,
+      "sports": 50,
+      "health": 6,
+      "climate": 7,
+      "migration": 1,
+      "education": 2,
+      "weather": 21
+    }
   }
 ]
