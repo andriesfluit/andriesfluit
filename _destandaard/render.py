@@ -18,11 +18,10 @@ def render_json(meta, digest):
             "rubriek": a.get("rubriek", ""),
             "page": a.get("page"),
             "author": a.get("author", ""),
-            "waarom": a.get("waarom", ""),
             "samenvatting": a.get("samenvatting", ""),
         }
-        if with_score:
-            d["score"] = a.get("score", 3)
+        # score stays out of the payload the reader renders; kern arrives
+        # pre-sorted by relevance, so array order already carries the ranking.
         return d
 
     return {
@@ -36,10 +35,6 @@ def render_json(meta, digest):
         "verrassing": [item(a, False) for a in digest["verrassing"]],
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
-
-
-def _stars(score):
-    return "★" * int(score) + "☆" * (5 - int(score))
 
 
 def render_markdown(meta, digest):
@@ -60,11 +55,8 @@ def render_markdown(meta, digest):
         meta_line = f"*p{a.get('page')} · {a['rubriek']}{src}*"
         if a.get("author"):
             meta_line = f"*p{a.get('page')} · {a['rubriek']}{src} · {a['author']}*"
-        out.append(f"{meta_line} · {_stars(a.get('score', 3))}")
+        out.append(meta_line)
         out.append("")
-        if a.get("waarom"):
-            out.append(f"_{a['waarom']}_")
-            out.append("")
         out.append(a.get("samenvatting", ""))
         out.append("")
 
@@ -81,9 +73,6 @@ def render_markdown(meta, digest):
             meta_line = f"*p{a.get('page')} · {a['rubriek']}{src} · {a['author']}*"
         out.append(meta_line)
         out.append("")
-        if a.get("waarom"):
-            out.append(f"_{a['waarom']}_")
-            out.append("")
         out.append(a.get("samenvatting", ""))
         out.append("")
 
@@ -116,17 +105,13 @@ def render_html(meta, digest):
 
     def article_block(a, show_score):
         author = f" · {_h(a['author'])}" if a.get("author") else ""
-        score = f" · <span style='color:#c8860a'>{_stars(a.get('score', 3))}</span>" if show_score else ""
         src = (f" · <span style='color:#c8860a;font-weight:500'>{_h(a['bron'])}</span>"
                if a.get("bron") else "")
-        why = (f"<p style='margin:4px 0;color:#555;font-style:italic'>{_h(a['waarom'])}</p>"
-               if a.get("waarom") else "")
         return f"""
         <div style="margin:0 0 22px 0">
           <div style="font-size:12px;color:#999;font-family:monospace">{_h(a['handle'])}</div>
           <h3 style="margin:2px 0 2px 0;font-size:17px;line-height:1.3">{_h(a['title'])}</h3>
-          <div style="font-size:12px;color:#888">p{_h(str(a.get('page')))} · {_h(a['rubriek'])}{src}{author}{score}</div>
-          {why}
+          <div style="font-size:12px;color:#888">p{_h(str(a.get('page')))} · {_h(a['rubriek'])}{src}{author}</div>
           <p style="margin:6px 0;line-height:1.5">{_h(a.get('samenvatting',''))}</p>
         </div>"""
 

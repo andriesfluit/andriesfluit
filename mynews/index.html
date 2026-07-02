@@ -214,19 +214,16 @@
     }
 
     // ---- Reader ----
-    const stars=n=>"★".repeat(n)+"☆".repeat(5-n);
     function cardHtml(a,withScore){
         const fb=loadFb();
         const author=a.author?` · ${a.author}`:"";
-        const sc=withScore?` · <span class="stars">${stars(a.score||3)}</span>`:"";
         const cur=fb[a.handle]||"";
         const bron=a.bron?` · <span class="src-badge">${escapeHtml(a.bron)}</span>`:"";
         const srcs=(a.sources&&a.sources.length)?a.sources:(a.source?[a.source]:[]);
         return `<div class="card" data-handle="${a.handle}" data-sources="${srcs.join(' ')}">
             <div class="hnd">${a.handle||""}</div>
             <h3>${escapeHtml(a.title)}</h3>
-            <div class="cmeta">p${a.page??""} · ${escapeHtml(a.rubriek)}${bron}${author}${sc}</div>
-            ${a.waarom?`<div class="why">${escapeHtml(a.waarom)}</div>`:""}
+            <div class="cmeta">p${a.page??""} · ${escapeHtml(a.rubriek)}${bron}${author}</div>
             <div class="body">${escapeHtml(a.samenvatting)}</div>
             <div class="fb">
                 <button data-v="+" class="${cur==='+'?'on':''}">👍</button>
