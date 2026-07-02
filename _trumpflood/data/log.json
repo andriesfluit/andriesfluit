@@ -49317,5 +49317,429 @@
       "education": 2,
       "weather": 32
     }
+  },
+  {
+    "date": "2026-07-02",
+    "generated_at": "2026-07-02T08:55:56+02:00",
+    "last_checked_at": "2026-07-02T08:55:56+02:00",
+    "total_articles": 378,
+    "trump_articles": 2,
+    "percentage": 0.5,
+    "core_percentage": 0.5,
+    "core_percentage_name": 0.5,
+    "trump_articles_expanded": 2,
+    "core_percentage_expanded": 0.5,
+    "indirect_references": 0,
+    "wide_total_articles": 542,
+    "wide_trump_articles": 2,
+    "wide_percentage": 0.4,
+    "wide_trump_articles_expanded": 2,
+    "wide_percentage_expanded": 0.4,
+    "macro_percentage": 0.6,
+    "qualifying_outlets": 19,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 30,
+    "cross_outlet_dup_groups": 15,
+    "cross_outlet_dup_rate": 7.9,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Barely registered today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 0.12,
+    "deviation": 0.27,
+    "smoothed_pct": 1.67,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 13,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 42,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 68,
+        "today": 15,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 66,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 50,
+        "today": 10,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 37,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 55,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 51,
+        "kept": 42,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.38
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 36,
+        "kept": 36,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 61,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump laat superkrachtige taalmodellen van Anthropic weer overal toe, maar controle wordt de norm - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTGdKREdrQVFnQ3dvaHZvZy1UUE45V0dXYWN4Ylg0WmtCVmtnTDY2RWpGQUlpbjhKWlRMQUJHb0VReERsUkZlRnF3OFRHNV9OY2dUcEhDb1BSWk1vdlQtM1REenNEbHhIS19ubkZUeV9WQ3lqZndpQXpIR1RZM1NIYTNBVHpYTXZGTmFSaTJ0UkUzdzkxcGFmdl81TjFFMkR6QmN3QjRKMlNpVHJPclhPTkJVV0RrTk1Yd29WdVVHb1NDX29oTFQwbWtzakxwMDIzUmd1eDlncnlrcDI5WXc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump et les cryptomonnaies : des promesses politiques au service du secteur… et de ses propres intérêts",
+        "url": "https://www.rtbf.be/article/donald-trump-et-les-cryptomonnaies-des-promesses-politiques-au-service-du-secteur-et-de-ses-propres-interets-11750672",
+        "source": "rtbf",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump laat superkrachtige taalmodellen van Anthropic weer overal toe, maar controle wordt de norm - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTGdKREdrQVFnQ3dvaHZvZy1UUE45V0dXYWN4Ylg0WmtCVmtnTDY2RWpGQUlpbjhKWlRMQUJHb0VReERsUkZlRnF3OFRHNV9OY2dUcEhDb1BSWk1vdlQtM1REenNEbHhIS19ubkZUeV9WQ3lqZndpQXpIR1RZM1NIYTNBVHpYTXZGTmFSaTJ0UkUzdzkxcGFmdl81TjFFMkR6QmN3QjRKMlNpVHJPclhPTkJVV0RrTk1Yd29WdVVHb1NDX29oTFQwbWtzakxwMDIzUmd1eDlncnlrcDI5WXc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump et les cryptomonnaies : des promesses politiques au service du secteur… et de ses propres intérêts",
+        "url": "https://www.rtbf.be/article/donald-trump-et-les-cryptomonnaies-des-promesses-politiques-au-service-du-secteur-et-de-ses-propres-interets-11750672",
+        "source": "rtbf",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 2,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 16,
+      "crime": 4,
+      "eu": 8,
+      "politics": 11,
+      "be_gov": 8,
+      "culture": 5,
+      "tech": 4,
+      "economy": 7,
+      "sports": 49,
+      "health": 10,
+      "climate": 2,
+      "migration": 2,
+      "education": 3,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 20,
+      "crime": 7,
+      "eu": 13,
+      "politics": 21,
+      "be_gov": 14,
+      "culture": 8,
+      "tech": 8,
+      "economy": 8,
+      "sports": 77,
+      "health": 16,
+      "climate": 2,
+      "migration": 2,
+      "education": 3,
+      "weather": 13
+    }
   }
 ]
