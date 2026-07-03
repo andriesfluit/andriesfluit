@@ -37,6 +37,44 @@ def render_json(meta, digest):
     }
 
 
+def _count(n):
+    return f"{n} artikel" if n == 1 else f"{n} artikels"
+
+
+def _meta_line(a):
+    """Secondary info on one compact line, rubriek first as the scan anchor,
+    the feedback handle last and dimmed. Order: rubriek · krant · pagina ·
+    auteur · handle. Any missing piece is simply skipped."""
+    bits = []
+    if a.get("rubriek"):
+        bits.append(f"**{a['rubriek'].upper()}**")
+    if a.get("bron"):
+        bits.append(a["bron"])
+    if a.get("page") is not None:
+        bits.append(f"p{a['page']}")
+    if a.get("author"):
+        bits.append(a["author"])
+    line = " · ".join(bits)
+    if a.get("handle"):
+        # keep the feedback code present but visually last / lowest
+        line = f"{line} · `{a['handle']}`" if line else f"`{a['handle']}`"
+    return line
+
+
+def _articles_block(out, items):
+    """Numbered items: title as the lead (H3), one meta line, then the
+    duiding paragraph. Numbering + a blank-line rhythm give the vertical
+    hierarchy that makes the text version scannable."""
+    for i, a in enumerate(items, 1):
+        out.append(f"### {i}. {a['title']}")
+        meta_line = _meta_line(a)
+        if meta_line:
+            out.append(meta_line)
+        out.append("")
+        out.append(a.get("samenvatting", ""))
+        out.append("")
+
+
 def render_markdown(meta, digest):
     date = meta.get("date", "")
     sources_line = meta.get("sources_line") or meta.get("label") or "editie " + str(meta.get("edition", ""))
@@ -47,34 +85,16 @@ def render_markdown(meta, digest):
         out.append(f"> **Rode draad.** {digest['rode_draad']}")
         out.append("")
 
-    out.append("## Op maat")
+    out.append(f"## Op maat · {_count(len(digest['kern']))}")
     out.append("")
-    for a in digest["kern"]:
-        out.append(f"### `{a['handle']}` · {a['title']}")
-        src = f" · {a['bron']}" if a.get("bron") else ""
-        meta_line = f"*p{a.get('page')} · {a['rubriek']}{src}*"
-        if a.get("author"):
-            meta_line = f"*p{a.get('page')} · {a['rubriek']}{src} · {a['author']}*"
-        out.append(meta_line)
-        out.append("")
-        out.append(a.get("samenvatting", ""))
-        out.append("")
+    _articles_block(out, digest["kern"])
 
-    out.append("## Verrassing — buiten je bubbel")
+    out.append(f"## Verrassing · {_count(len(digest['verrassing']))}")
     out.append("")
-    out.append("_Bewust gekozen buiten je opgegeven voorkeuren, om je geen "
-               "echokamer in te sturen._")
+    out.append("_Buiten je opgegeven voorkeuren gekozen, om je geen echokamer "
+               "in te sturen._")
     out.append("")
-    for a in digest["verrassing"]:
-        out.append(f"### `{a['handle']}` · {a['title']}")
-        src = f" · {a['bron']}" if a.get("bron") else ""
-        meta_line = f"*p{a.get('page')} · {a['rubriek']}{src}*"
-        if a.get("author"):
-            meta_line = f"*p{a.get('page')} · {a['rubriek']}{src} · {a['author']}*"
-        out.append(meta_line)
-        out.append("")
-        out.append(a.get("samenvatting", ""))
-        out.append("")
+    _articles_block(out, digest["verrassing"])
 
     out.append("---")
     out.append("")
