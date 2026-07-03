@@ -21,7 +21,9 @@ regulation add en to nl+fr.
 
 from urllib.parse import quote_plus
 
-BIKON_COMPANIES = {
+# All three chapters stay defined here so re-enabling is a one-line change.
+# The radar only exposes the buckets listed in ENABLED_BUCKETS (see below).
+_ALL_BIKON_COMPANIES = {
     # -----------------------------------------------------------------
     "competitors_funding": {
         "label": "Concurrenten & RegTech/AI-funding",
@@ -152,6 +154,15 @@ BIKON_COMPANIES = {
     },
 
 }
+
+
+# Voorlopig toont de radar enkel het laatste hoofdstuk: de build-radar.
+# Wil je de andere sporen terug? Zet hun key hier terug in de tuple, in de
+# gewenste volgorde (bv. ("competitors_funding", "ai_regulation",
+# "ai_tech_buildradar")). De definities hierboven blijven gewoon staan.
+ENABLED_BUCKETS = ("ai_tech_buildradar",)
+
+BIKON_COMPANIES = {k: _ALL_BIKON_COMPANIES[k] for k in ENABLED_BUCKETS}
 
 
 # -----------------------------------------------------------------------
