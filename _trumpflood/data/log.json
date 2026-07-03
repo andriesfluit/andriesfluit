@@ -49741,5 +49741,543 @@
       "education": 3,
       "weather": 13
     }
+  },
+  {
+    "date": "2026-07-03",
+    "generated_at": "2026-07-03T08:50:09+02:00",
+    "last_checked_at": "2026-07-03T08:50:09+02:00",
+    "total_articles": 369,
+    "trump_articles": 9,
+    "percentage": 2.4,
+    "core_percentage": 2.4,
+    "core_percentage_name": 2.4,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 2.4,
+    "indirect_references": 0,
+    "wide_total_articles": 509,
+    "wide_trump_articles": 14,
+    "wide_percentage": 2.8,
+    "wide_trump_articles_expanded": 14,
+    "wide_percentage_expanded": 2.8,
+    "macro_percentage": 2.6,
+    "qualifying_outlets": 16,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 44,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 11.9,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 3.0,
+    "breadth": 0.38,
+    "deviation": 1.3,
+    "smoothed_pct": 1.77,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 9,
+        "kept": 9,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 22.22
+      },
+      "google_nl_politics": {
+        "fetched": 54,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_nl_world": {
+        "fetched": 63,
+        "today": 12,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 42,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 37,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 67,
+        "today": 3,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_business": {
+        "fetched": 52,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 64,
+        "kept": 55,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 5.45
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 99,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 53,
+        "today": 8,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Enkele dagen voor NAVO-top: Trump haalt opnieuw uit naar andere lidstaten",
+        "url": "https://vrtnws.be/p.vLVnjbwaa",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Met zijn bezoek aan Lampedusa bevestigt paus Leo XIV zijn aandacht voor migratie (en stuurt hij Trump een boodschap) - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQbHJGNmRzQXZUcjEwbFA5QVMzd045LVZXTFllN1lWZlA3RVlua2tTNC1HNG9meFRvSzlxcnYtaENGTzEzdzdMWVJMWUxpME5wUkxDWWM1NnJ2LW1LbVdUVmRFMmxJYzNMNHpjRE1wU1g3cjJYY0pSVkVNNkNBY2ZmVVpacU02clZ4aktXM19ac3JOdV82X1o3QVRyRDN4TEZwMlBnQ0szZmpTRnhTYTVGbko2WF9xdHVWN0dwellETHl2RVBzUG5DWXBxMXlaS21scG8wamh0a2JfZFNaSlo3Zm01aDYtWkVYTmR0aGtEdjNveVI2YUtvVA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Macht, wraak en willekeur: het tweede presidentschap van Donald Trump verteld van binnenuit - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTjNHY3p1MnBYdmU4MDNYS2V0MWZnNkJmNTdMWjJ4eGJTblFlbXpFY1FkQjRzdlVTdmJSNUFYc1ZwV0NVbGNzRV9DNE9SakVQQWJmT0lnb09YTTIyd0hGTGtUbDFqODJSU2xraFUtdE8xcEE0cVFfU1Uzb0hwcU12cGtIWkdOb213X2JNZ2Y1T2pERXNMaGVIM1M2UzR5cHdVa0FiQ1NzZnVEb0JHUnpaaHczcXZjZ1JPUE5VMVJ1RTk0ZEsxTFZ2ZUlDbHMyYnBuVWxIQkN5MA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump ondermijnt toezichthouders en bedreigt zo de privacy van Europese burgers - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNVdlYnkyZ3ZPTTFyVnF5ekhPN0RUbzMwb2NON1locXVfb2tTUHNWZkp6Q0I0a0ZOM0ZRejZvTi03QXBoQW1PMkhkRWduLUhVM1F4R2ViTEY2dDVZYmdWQ242aTJKQmJNRVJEU3hZLV93WjRCanYwTXJ2cUhjaGd5YmVuUnFnUllCN0kxM1N5U2J3YTNoX3NjVzlPVjhXajFEOWRzcjJjRHBJc0pCOHJMN04yM0doX2tVM2thXzNLNjdCNHlMV2c?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "🎧 “Dit komt Trump goed uit”: onze Amerika-correspondente ziet hoe politieke problemen aan de kant worden geschoven voor 4th of July (met 250 kaarsjes)",
+        "url": "https://www.hln.be/nieuws/dit-komt-trump-goed-uit-onze-amerika-correspondente-ziet-hoe-politieke-problemen-aan-de-kant-worden-geschoven-voor-4th-of-july-met-250-kaarsjes~ae6b58f0/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "A quelques jours d'un sommet de l'Otan, la sortie remarquée de Donald Trump: \"Ridicule\"",
+        "url": "https://www.lalibre.be/international/europe/2026/07/03/a-quelques-jours-dun-sommet-de-lotan-la-sortie-remarquee-de-donald-trump-ridicule-DYCK7VIHZZDOBHONSRDAD7S66A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les bonnes affaires de Donald Trump et de ses fils: \"J’ai découvert que tout le monde s’en fichait, et j’ai le droit de le faire\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/03/les-bonnes-affaires-de-donald-trump-et-de-ses-fils-jai-decouvert-que-tout-le-monde-sen-fichait-et-jai-le-droit-de-le-faire-CO4TN7NBFVG2RMPOVTTFF4LCII/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Voici pourquoi Donald Trump ne sera pas présent à Belgique – USA, mais les Diables n’y sont pour rien",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/03/voici-pourquoi-donald-trump-ne-sera-pas-present-a-belgique-usa-mais-les-diables-ny-sont-pour-rien-BNCYLWETQ5DTPBIIZSFVPHG7SU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Ridicule”: Trump ne veut pas d’une relation “unilatérale” avec l’Otan",
+        "url": "https://www.7sur7.be/monde/ridicule-trump-ne-veut-pas-dune-relation-unilaterale-avec-lotan~a69e23d3/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Donald Trump juge « ridicule » que les Etats-Unis maintiennent leur soutien à l’Otan - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaVlZVWtsSkUtODZBU0FRN3ZJTFJiQlRaaFp3QUJVd3dVUmNINzV0WnRKQktRdG5zdFJHRVA2djlwS19IZXpRUGN2b0hmNi1aZFVmTnBKeUxtSVFPdXNieDhXN1lfb18xakVmTURNTm1NNWVpT3RYa1FaMWdhMHpCRGZ4cFFTS3VuZzU3emgyM1ZtQ0dDU0FFRWQwdXJ2SmhMNmlxWFBnb1VMSzFtQk1iV0VSY0p0cVVTay01RkNKU1ZaR28?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Les bonnes affaires de Donald Trump et de ses fils: \"J'ai découvert que tout le monde s'en fichait, et j'ai le droit de le faire\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQQ0h0QUlwYmlKR0FUSHRDeFI4NFNNNlF0N2xmWkZOTUZIWUFXeUVKNzlQZUN3NVBIVTZLT2c1elE4WDRFcVR0YVFLNHFLTlI4dUdKLUxtMlVnSXpCdkRncTh4MXdJYUhJSEFvSUZpZmQ0NWZydmNBVVlRZGlMWHl1UzctRmV4YURibXZrRzNsdHI2Q3RyREIyMzN5RmwtQWt5MjZtOFhiX0E3TzZnZ0JZWlhRVFUwekVKb1BCNjlFMEhtRkJrdjVpTE1PczZrbllHeE9ncTR3bDg0bUZNY21kNk56cDhrbWJJZ2Ztemlnb0FFSEoxbExlMTEwek9QZHhkV1loOW5oS01zckphQ3ZWSEpzQ1FLMzZER3pVanRVLUxlVm5KSE1Fc1dIOHNvRnVf?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Rellen bij nieuw protest tegen vastgoedproject familie Trump in Albanië - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ1NlLWE4UFpDZnhjU0NVODNmZjNPUWtnNHZqcElzWmpabnktZFFhUVdDdHBORmRORGFRa3FRelFJeUxYM0hqQ2hSczNxS0lITlZ4ckVZQUtQZTlFaDI4OTVPQ3JIRUhlLU9mX0pPUG1HcXBZRE8wZ0tIZW5ULW9MMXB0N0NPOFhlM2UxTG5CaXFLYlVnMFA1b01LbkptaUdHTDBYTmVvWHVRUkhlRFlwYzB2S2R5WWZkdlhqSDNVdTg?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump maakt bizarre grap over een “trio” met zijn eigen zonen - HLN",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaDNlaFNzVDVGVlpOcFE3R29aYnJXd1IyU1J4UEVIUmlNcGxHemQzWHFvdlR1ejVPRFh5bllkTGlnT25XTXVXUEtjMkJrY2R6U005T1B2aVJoTFdqVWR0MXNkUkdMejJPYzZkVlNHLWo0M0pfNzF1bUd5N0FleXpZTkVkOVd2dXZXcUs4cWwtTElkblFFeG9Tc0pFdEZVN1l2?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "A quelques jours d'un sommet de l'Otan, la sortie remarquée de Donald Trump: \"Ridicule\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTkpxZFJDWmpTcjZnN1h3NFZmY0ZubFBiWm10WFBMWWMtamRPdDlDWUVRWkhZbFEzUGQtT1ZLajJnc3IzVko5VEJFMlBxZzgyd20wQmpoVmxGOWMwLTZrUWZzLXVsUzJLOHVVeHNVUFJDUDJKOWpKbkF2eVA5Ym9LYi1DdmN1TnZMTHN4QzZacF9yY0FscjR0OTg3TlZtU3ZHajhnQXdmMV93ZU5xWV9RTDluRkVUT3h6WWZzbG1SekpzUV9JZ1dRTlFOQmF1d1BsZjlpcWVwQU8zdkpfMjY0TDNOVEtVX01nci1uRjVuRm0tWkdLTGRr?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Enkele dagen voor NAVO-top: Trump haalt opnieuw uit naar andere lidstaten",
+        "url": "https://vrtnws.be/p.vLVnjbwaa",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Met zijn bezoek aan Lampedusa bevestigt paus Leo XIV zijn aandacht voor migratie (en stuurt hij Trump een boodschap) - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQbHJGNmRzQXZUcjEwbFA5QVMzd045LVZXTFllN1lWZlA3RVlua2tTNC1HNG9meFRvSzlxcnYtaENGTzEzdzdMWVJMWUxpME5wUkxDWWM1NnJ2LW1LbVdUVmRFMmxJYzNMNHpjRE1wU1g3cjJYY0pSVkVNNkNBY2ZmVVpacU02clZ4aktXM19ac3JOdV82X1o3QVRyRDN4TEZwMlBnQ0szZmpTRnhTYTVGbko2WF9xdHVWN0dwellETHl2RVBzUG5DWXBxMXlaS21scG8wamh0a2JfZFNaSlo3Zm01aDYtWkVYTmR0aGtEdjNveVI2YUtvVA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Macht, wraak en willekeur: het tweede presidentschap van Donald Trump verteld van binnenuit - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTjNHY3p1MnBYdmU4MDNYS2V0MWZnNkJmNTdMWjJ4eGJTblFlbXpFY1FkQjRzdlVTdmJSNUFYc1ZwV0NVbGNzRV9DNE9SakVQQWJmT0lnb09YTTIyd0hGTGtUbDFqODJSU2xraFUtdE8xcEE0cVFfU1Uzb0hwcU12cGtIWkdOb213X2JNZ2Y1T2pERXNMaGVIM1M2UzR5cHdVa0FiQ1NzZnVEb0JHUnpaaHczcXZjZ1JPUE5VMVJ1RTk0ZEsxTFZ2ZUlDbHMyYnBuVWxIQkN5MA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump ondermijnt toezichthouders en bedreigt zo de privacy van Europese burgers - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNVdlYnkyZ3ZPTTFyVnF5ekhPN0RUbzMwb2NON1locXVfb2tTUHNWZkp6Q0I0a0ZOM0ZRejZvTi03QXBoQW1PMkhkRWduLUhVM1F4R2ViTEY2dDVZYmdWQ242aTJKQmJNRVJEU3hZLV93WjRCanYwTXJ2cUhjaGd5YmVuUnFnUllCN0kxM1N5U2J3YTNoX3NjVzlPVjhXajFEOWRzcjJjRHBJc0pCOHJMN04yM0doX2tVM2thXzNLNjdCNHlMV2c?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "🎧 “Dit komt Trump goed uit”: onze Amerika-correspondente ziet hoe politieke problemen aan de kant worden geschoven voor 4th of July (met 250 kaarsjes)",
+        "url": "https://www.hln.be/nieuws/dit-komt-trump-goed-uit-onze-amerika-correspondente-ziet-hoe-politieke-problemen-aan-de-kant-worden-geschoven-voor-4th-of-july-met-250-kaarsjes~ae6b58f0/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "A quelques jours d'un sommet de l'Otan, la sortie remarquée de Donald Trump: \"Ridicule\"",
+        "url": "https://www.lalibre.be/international/europe/2026/07/03/a-quelques-jours-dun-sommet-de-lotan-la-sortie-remarquee-de-donald-trump-ridicule-DYCK7VIHZZDOBHONSRDAD7S66A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les bonnes affaires de Donald Trump et de ses fils: \"J’ai découvert que tout le monde s’en fichait, et j’ai le droit de le faire\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/03/les-bonnes-affaires-de-donald-trump-et-de-ses-fils-jai-decouvert-que-tout-le-monde-sen-fichait-et-jai-le-droit-de-le-faire-CO4TN7NBFVG2RMPOVTTFF4LCII/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Voici pourquoi Donald Trump ne sera pas présent à Belgique – USA, mais les Diables n’y sont pour rien",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/03/voici-pourquoi-donald-trump-ne-sera-pas-present-a-belgique-usa-mais-les-diables-ny-sont-pour-rien-BNCYLWETQ5DTPBIIZSFVPHG7SU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Ridicule”: Trump ne veut pas d’une relation “unilatérale” avec l’Otan",
+        "url": "https://www.7sur7.be/monde/ridicule-trump-ne-veut-pas-dune-relation-unilaterale-avec-lotan~a69e23d3/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 9,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 14,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 16,
+      "crime": 8,
+      "eu": 22,
+      "politics": 8,
+      "be_gov": 6,
+      "culture": 15,
+      "tech": 8,
+      "economy": 8,
+      "sports": 24,
+      "health": 1,
+      "climate": 8,
+      "migration": 2,
+      "education": 1,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 20,
+      "crime": 16,
+      "eu": 33,
+      "politics": 19,
+      "be_gov": 11,
+      "culture": 19,
+      "tech": 11,
+      "economy": 12,
+      "sports": 35,
+      "health": 1,
+      "climate": 11,
+      "migration": 2,
+      "education": 2,
+      "weather": 11
+    }
   }
 ]
