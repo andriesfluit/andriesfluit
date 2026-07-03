@@ -51,12 +51,11 @@
         .section-title{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);border-bottom:1px solid var(--border);padding-bottom:.5rem;margin:2rem 0 1.2rem;}
         .section-note{font-size:.82rem;color:var(--text-light);font-style:italic;margin:-.6rem 0 1.2rem;}
         .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.3rem 1.4rem;margin-bottom:1rem;}
-        .card .hnd{font-family:ui-monospace,monospace;font-size:.7rem;color:#aaa;}
+        .card .hnd{font-family:ui-monospace,monospace;font-size:.7rem;color:#bbb;}
         .card h3{font-size:1.12rem;font-weight:600;margin:.15rem 0 .3rem;line-height:1.35;}
         .card .cmeta{font-size:.78rem;color:var(--text-light);margin-bottom:.6rem;}
-        .card .stars{color:var(--accent);}
+        .card .rub{color:var(--accent);font-weight:600;text-transform:uppercase;letter-spacing:.03em;}
         .src-badge{color:var(--accent);font-weight:500;}
-        .card .why{font-style:italic;color:#555;font-size:.9rem;margin-bottom:.55rem;}
         .card .body{font-size:.94rem;}
         .fb{display:flex;gap:.5rem;margin-top:.9rem;}
         .fb button{padding:.3rem .7rem;font-size:.95rem;background:transparent;color:var(--text-light);border:1px solid var(--border);}
@@ -214,16 +213,21 @@
     }
 
     // ---- Reader ----
-    function cardHtml(a,withScore){
+    function cardHtml(a,i){
         const fb=loadFb();
-        const author=a.author?` · ${a.author}`:"";
         const cur=fb[a.handle]||"";
-        const bron=a.bron?` · <span class="src-badge">${escapeHtml(a.bron)}</span>`:"";
+        // Meta hierarchy matches the mail/text: rubriek first as the scan
+        // anchor, then krant · pagina · auteur, feedback-code last and dimmed.
+        const bits=[];
+        if(a.rubriek) bits.push(`<span class="rub">${escapeHtml(a.rubriek)}</span>`);
+        if(a.bron) bits.push(`<span class="src-badge">${escapeHtml(a.bron)}</span>`);
+        if(a.page!=null&&a.page!=="") bits.push(`p${escapeHtml(String(a.page))}`);
+        if(a.author) bits.push(escapeHtml(a.author));
+        if(a.handle) bits.push(`<span class="hnd">${escapeHtml(a.handle)}</span>`);
         const srcs=(a.sources&&a.sources.length)?a.sources:(a.source?[a.source]:[]);
         return `<div class="card" data-handle="${a.handle}" data-sources="${srcs.join(' ')}">
-            <div class="hnd">${a.handle||""}</div>
-            <h3>${escapeHtml(a.title)}</h3>
-            <div class="cmeta">p${a.page??""} · ${escapeHtml(a.rubriek)}${bron}${author}</div>
+            <h3>${i}. ${escapeHtml(a.title)}</h3>
+            <div class="cmeta">${bits.join(" · ")}</div>
             <div class="body">${escapeHtml(a.samenvatting)}</div>
             <div class="fb">
                 <button data-v="+" class="${cur==='+'?'on':''}">👍</button>
@@ -266,12 +270,13 @@
         $("#reader-meta").textContent=`${d.date} · ${d.label||''} · ${d.article_count} artikels gescand`;
         let h="";
         if(d.rode_draad) h+=`<div class="rode"><strong>Rode draad.</strong> ${escapeHtml(d.rode_draad)}</div>`;
-        h+=`<div class="section-title">Op maat</div>`;
-        h+=(d.kern||[]).map(a=>cardHtml(a,true)).join("");
+        const cnt=n=>n===1?`${n} artikel`:`${n} artikels`;
+        h+=`<div class="section-title">Op maat · ${cnt((d.kern||[]).length)}</div>`;
+        h+=(d.kern||[]).map((a,i)=>cardHtml(a,i+1)).join("");
         if((d.verrassing||[]).length){
-            h+=`<div class="section-title">Verrassing — buiten je bubbel</div>`;
+            h+=`<div class="section-title">Verrassing · ${cnt(d.verrassing.length)}</div>`;
             h+=`<div class="section-note">Bewust gekozen buiten je voorkeuren, om je geen echokamer in te sturen.</div>`;
-            h+=d.verrassing.map(a=>cardHtml(a,false)).join("");
+            h+=d.verrassing.map((a,i)=>cardHtml(a,i+1)).join("");
         }
         body.innerHTML=h;
         buildFilterTabs(d); applyFilter();
