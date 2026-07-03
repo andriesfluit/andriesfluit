@@ -123,14 +123,23 @@ AKKANTO = Profile(
     max_per_bucket=40,
 )
 
+# Feed groups routed to a bucket that is currently disabled (see
+# ENABLED_BUCKETS in bikon_companies.py) are skipped, so we don't fetch
+# funding/regulation feeds while only the build-radar is active. General-news
+# feeds (company_key=None) are always kept.
+_BIKON_FEED_GROUPS = [
+    (BIKON_OUTLET_FEEDS, "sector", None),
+    (BIKON_TECH_FEEDS, "sector", "ai_tech_buildradar"),
+    (BIKON_FUNDING_FEEDS, "sector", "competitors_funding"),
+]
+_BIKON_ACTIVE_GROUPS = [
+    g for g in _BIKON_FEED_GROUPS if g[2] is None or g[2] in BIKON_COMPANIES
+]
+
 BIKON = Profile(
     name="bikon",
     companies=BIKON_COMPANIES,
-    outlet_feeds=outlet_catalogue(
-        (BIKON_OUTLET_FEEDS, "sector", None),
-        (BIKON_TECH_FEEDS, "sector", "ai_tech_buildradar"),
-        (BIKON_FUNDING_FEEDS, "sector", "competitors_funding"),
-    ),
+    outlet_feeds=outlet_catalogue(*_BIKON_ACTIVE_GROUPS),
     llm_system=BIKON_SYSTEM,
     include_action=True,
     state_filename="last_sent_bikon.txt",
