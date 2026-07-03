@@ -72,8 +72,6 @@ STRIKTE REGELS
 uit eigen kennis. Verzin NOOIT cijfers, namen, citaten of feiten. Een korte \
 alinea (3-5 zinnen) met duiding — wat is er gebeurd én waarom het ertoe doet — \
 Nederlands, neutrale toon.
-- 'waarom' is één korte zin: bij KERN waarom het bij hem past, bij VERRASSING \
-waarom het hem zou kunnen verrassen of verrijken.
 - Geen artikel mag in beide buckets staan.
 
 ANTI-ECHOKAMER (belangrijk)
@@ -87,12 +85,13 @@ dag waarop alles binnen zijn voorkeuren lijkt te vallen.
 Antwoord UITSLUITEND met geldige JSON, exact in dit schema:
 {
   "rode_draad": "optioneel: 1 zin over de dominante lijn van de dag, of \\"\\"",
-  "kern": [{"idxs": [int, ...], "score": int 1-5, "waarom": "1 zin", "samenvatting": "korte alinea met duiding"}],
-  "verrassing": [{"idxs": [int, ...], "waarom": "1 zin", "samenvatting": "korte alinea met duiding"}]
+  "kern": [{"idxs": [int, ...], "score": int 1-5, "samenvatting": "korte alinea met duiding"}],
+  "verrassing": [{"idxs": [int, ...], "samenvatting": "korte alinea met duiding"}]
 }
 
 'idxs' bevat meestal één artikelnummer; twee (of meer) bij overlap tussen de \
-kranten over hetzelfde onderwerp."""
+kranten over hetzelfde onderwerp.
+'score' (alleen KERN) rangschikt intern van meest naar minst relevant."""
 
 
 def _user_prompt(articles, preferences, feedback_context, kern_n, verr_n, verr_min):
@@ -130,8 +129,9 @@ def _parse(text):
 def build_digest(articles, preferences, feedback_context="",
                  kern_n=KERN_COUNT, verr_n=VERRASSING_COUNT, verr_min=VERRASSING_MIN):
     """Return {rode_draad, kern, verrassing} where each kern/verrassing entry is
-    a full article dict augmented with score/waarom/samenvatting. idx values
-    from the model are resolved back to articles here."""
+    a full article dict augmented with samenvatting (and score on kern, used
+    only for internal ranking). idx values from the model are resolved back to
+    articles here."""
     if not articles:
         return {"rode_draad": "", "kern": [], "verrassing": []}
 
@@ -183,7 +183,6 @@ def build_digest(articles, preferences, feedback_context="",
             art["sources"] = srcs
             if brons:
                 art["bron"] = " + ".join(brons)
-            art["waarom"] = (v.get("waarom") or "").strip()
             art["samenvatting"] = (v.get("samenvatting") or "").strip()
             for k in extra_keys:
                 art[k] = v.get(k)
