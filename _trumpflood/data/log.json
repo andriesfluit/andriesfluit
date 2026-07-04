@@ -50279,5 +50279,537 @@
       "education": 2,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-07-04",
+    "generated_at": "2026-07-04T08:36:30+02:00",
+    "last_checked_at": "2026-07-04T08:36:30+02:00",
+    "total_articles": 350,
+    "trump_articles": 9,
+    "percentage": 2.6,
+    "core_percentage": 2.6,
+    "core_percentage_name": 2.6,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 2.6,
+    "indirect_references": 0,
+    "wide_total_articles": 481,
+    "wide_trump_articles": 13,
+    "wide_percentage": 2.7,
+    "wide_trump_articles_expanded": 13,
+    "wide_percentage_expanded": 2.7,
+    "macro_percentage": 3.0,
+    "qualifying_outlets": 14,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 26,
+    "cross_outlet_dup_groups": 13,
+    "cross_outlet_dup_rate": 7.4,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.8,
+    "breadth": 0.57,
+    "deviation": 1.33,
+    "smoothed_pct": 1.9,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 58,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_world": {
+        "fetched": 63,
+        "today": 11,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 66,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 60,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 36,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 59,
+        "today": 3,
+        "kept": 3,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 66.67
+      },
+      "google_fr_business": {
+        "fetched": 68,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 74,
+        "kept": 66,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.17
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 43,
+        "kept": 41,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.44
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 99,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 66,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 66,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump beweert dat Iran ‘niet kan wachten’ om akkoord te sluiten - Duizenden mensen bij uitvaart ayatollah Khamenei in Teheran",
+        "url": "https://www.hln.be/buitenland/trump-beweert-dat-iran-niet-kan-wachten-om-akkoord-te-sluiten-duizenden-mensen-bij-uitvaart-ayatollah-khamenei-in-teheran~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump beweert dat Iran ‘niet kan wachten’ om akkoord te sluiten • Frankrijk trekt vliegdekschip terug uit Midden-Oosten",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-waarschuwt-vs-en-israel-daags-voor-rouwceremonies-ali-khamenei~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Maggie Haberman, Witte Huis-correspondent van ‘The New York Times’: ‘Donald Trump is een wandelend moreel risico’",
+        "url": "https://www.demorgen.be/nieuws/maggie-haberman-witte-huis-correspondent-van-the-new-york-times-donald-trump-is-een-wandelend-moreel-risico~b0b81310/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Ceremonie geleid door Adam Sandler, op maat gemaakte Dior-outfits en Trump probeert show te stelen: dit was de trouw van Taylor Swift en Travis Kelce",
+        "url": "https://www.nieuwsblad.be/nieuws/ceremonie-geleid-door-adam-sandler-op-maat-gemaakte-dior-outfits-en-trump-probeert-show-te-stelen-dit-was-de-trouw-van-taylor-swift-en-travis-kelce/158259541.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Ceremonie geleid door Adam Sandler, op maat gemaakte Dior-outfits en Trump probeert show te stelen: dit was de trouw van Taylor Swift en Travis Kelce",
+        "url": "https://www.hbvl.be/media-en-cultuur/ceremonie-geleid-door-adam-sandler-op-maat-gemaakte-dior-outfits-en-trump-probeert-show-te-stelen-dit-was-de-trouw-van-taylor-swift-en-travis-kelce/158260726.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Défaite de Donald Trump en 2020 : un bureau électoral de Géorgie est sous la loupe de 260 experts du FBI",
+        "url": "https://www.rtbf.be/article/defaite-de-donald-trump-en-2020-un-bureau-electoral-de-georgie-est-sous-la-loupe-de-260-experts-du-fbi-11752136",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "A la veille des 250 ans des Etats-Unis, Trump décrit une identité américaine attaquée : \"une résurgence de la menace communiste sur notre sol\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/04/a-la-veille-des-250-ans-des-etats-unis-trump-decrit-une-identite-americaine-attaquee-une-resurgence-de-la-menace-communiste-sur-notre-sol-2RI3GT56HBDUDF2ZMLZIJHACEA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Édito | L’Amérique de Trump, 250 ans d’histoire aux mains d’un seul homme - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlNCYkF0MUtjX3lHYWtZZ1V6RG5LUEJ2UzJ5eXV4cVJfUjd2UEJOTW5EaDdrY2JET1BEY2NjY2hiZWhIMTRTUVY0SmlLUVRVZVBsSGdiLVY5RkRHV0VnUm9TU3NxVXpxczcwS1BJRjM4SEQwV1d4d2lXMHA1MElfa1JiYXNhUUJWRkFVcHpWSU5nNjdjVGVLVGRoUHZYSjJsdXRBMHRYcmMyOGw4T2owcXdyTEdSa3FPZi1PbQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "À la veille des 250 ans des Etats-Unis, Trump s'attaque à ses opposants: \"Une résurgence de la menace communiste sur notre sol\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/04/a-la-veille-des-250-ans-des-etats-unis-trump-sattaque-a-ses-opposants-une-resurgence-de-la-menace-communiste-sur-notre-sol-RGIXK5RC6NFP5N2QTGLWROD6WE/",
+        "source": "dhnet",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Foeteren op Trump was het makkelijke deel - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRS1sQk0yZFlmN3cxcXFkXzdnWG5oN0FPY2ZjM1hQUjNtU0g1WVhqV2dkeDV4cXV2MGJMSEJLd2JNZWZsM3FwaWdTTldiVGUteDJidDlLc0FTNDU3V3ZFU21KSzBvWnBuOHRKcG1rLWpSWjZ1ZE1Md1ZjbGN0U25NTkxtS1hQdExRRkF2SDU2N19kMUU?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "« Une résurgence de la menace communiste sur notre sol » : Donald Trump dénonce une « nouvelle offensive » contre l’identité américaine - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQV3VIS3RKT3hMUVM0TW80cXFkVjFVLVdGR1FqY0xQSURNQmpJamk1cnN3TWVUXzg4cWFxc3h4bG5VTXZwWDV0Smh1bEdoYS10SzI0RjVRWGFadG00S1RGZTVWWW1sUDdaR2RiWjcwdWI2OXV2Y2hkUi1KT2cxcU11VE1HRlhjWTJGMXNka1R3MzN6bm9jWDNXeElkdmItVlVNcnFTMFg3eTJteVkxNU9JSlNkUlpNTXdIVnRVMHduRDQ3RXJ6eU9CVFFaNUQ4Z1Q0MHVuTl95M3NudEpzSkw2Mg?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Défaite de Donald Trump en 2020 : un bureau électoral de Géorgie est sous la loupe de 260 experts du FBI - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWW1vWmNCbXd1YU94RVZ5NzBpSVpwdDc3WUhrZzdRaTNoa3dVVjYtQ2dCUy1lSTc4WnhBUXFNY0N5TEpLT3VtTXQ0VlF2czlRSTNuaGpyYjZTZEVRU3VwQk9sYW1QdkNycXgtNnBwY0RLX0dxdzdpcmNoTFhSUjBPUzYxZURaYmFiX2h4NHAzRVVjZkl4b0lsb1VuekdwVG1QenZSdTQta2dndkY3cGtleG5GQkNhUjlLWEJsaFBodzBEazVYQjRQUHIyUzR0cEk3dlVjY3Bn?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump beweert dat Iran ‘niet kan wachten’ om akkoord te sluiten - Duizenden mensen bij uitvaart ayatollah Khamenei in Teheran",
+        "url": "https://www.hln.be/buitenland/trump-beweert-dat-iran-niet-kan-wachten-om-akkoord-te-sluiten-duizenden-mensen-bij-uitvaart-ayatollah-khamenei-in-teheran~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump beweert dat Iran ‘niet kan wachten’ om akkoord te sluiten • Frankrijk trekt vliegdekschip terug uit Midden-Oosten",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-waarschuwt-vs-en-israel-daags-voor-rouwceremonies-ali-khamenei~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Maggie Haberman, Witte Huis-correspondent van ‘The New York Times’: ‘Donald Trump is een wandelend moreel risico’",
+        "url": "https://www.demorgen.be/nieuws/maggie-haberman-witte-huis-correspondent-van-the-new-york-times-donald-trump-is-een-wandelend-moreel-risico~b0b81310/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Ceremonie geleid door Adam Sandler, op maat gemaakte Dior-outfits en Trump probeert show te stelen: dit was de trouw van Taylor Swift en Travis Kelce",
+        "url": "https://www.nieuwsblad.be/nieuws/ceremonie-geleid-door-adam-sandler-op-maat-gemaakte-dior-outfits-en-trump-probeert-show-te-stelen-dit-was-de-trouw-van-taylor-swift-en-travis-kelce/158259541.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Ceremonie geleid door Adam Sandler, op maat gemaakte Dior-outfits en Trump probeert show te stelen: dit was de trouw van Taylor Swift en Travis Kelce",
+        "url": "https://www.gva.be/buitenland/ceremonie-geleid-door-adam-sandler-op-maat-gemaakte-dior-outfits-en-trump-probeert-show-te-stelen-dit-was-de-trouw-van-taylor-swift-en-travis-kelce/158259955.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Ceremonie geleid door Adam Sandler, op maat gemaakte Dior-outfits en Trump probeert show te stelen: dit was de trouw van Taylor Swift en Travis Kelce",
+        "url": "https://www.hbvl.be/media-en-cultuur/ceremonie-geleid-door-adam-sandler-op-maat-gemaakte-dior-outfits-en-trump-probeert-show-te-stelen-dit-was-de-trouw-van-taylor-swift-en-travis-kelce/158260726.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Défaite de Donald Trump en 2020 : un bureau électoral de Géorgie est sous la loupe de 260 experts du FBI",
+        "url": "https://www.rtbf.be/article/defaite-de-donald-trump-en-2020-un-bureau-electoral-de-georgie-est-sous-la-loupe-de-260-experts-du-fbi-11752136",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "A la veille des 250 ans des Etats-Unis, Trump décrit une identité américaine attaquée : \"une résurgence de la menace communiste sur notre sol\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/04/a-la-veille-des-250-ans-des-etats-unis-trump-decrit-une-identite-americaine-attaquee-une-resurgence-de-la-menace-communiste-sur-notre-sol-2RI3GT56HBDUDF2ZMLZIJHACEA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Édito | L’Amérique de Trump, 250 ans d’histoire aux mains d’un seul homme - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlNCYkF0MUtjX3lHYWtZZ1V6RG5LUEJ2UzJ5eXV4cVJfUjd2UEJOTW5EaDdrY2JET1BEY2NjY2hiZWhIMTRTUVY0SmlLUVRVZVBsSGdiLVY5RkRHV0VnUm9TU3NxVXpxczcwS1BJRjM4SEQwV1d4d2lXMHA1MElfa1JiYXNhUUJWRkFVcHpWSU5nNjdjVGVLVGRoUHZYSjJsdXRBMHRYcmMyOGw4T2owcXdyTEdSa3FPZi1PbQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "À la veille des 250 ans des Etats-Unis, Trump s'attaque à ses opposants: \"Une résurgence de la menace communiste sur notre sol\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/04/a-la-veille-des-250-ans-des-etats-unis-trump-sattaque-a-ses-opposants-une-resurgence-de-la-menace-communiste-sur-notre-sol-RGIXK5RC6NFP5N2QTGLWROD6WE/",
+        "source": "dhnet",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 9,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 3,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 13,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 4,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 9,
+      "crime": 11,
+      "eu": 4,
+      "politics": 5,
+      "be_gov": 12,
+      "culture": 7,
+      "tech": 6,
+      "economy": 7,
+      "sports": 37,
+      "health": 3,
+      "climate": 2,
+      "migration": 0,
+      "education": 2,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 11,
+      "crime": 15,
+      "eu": 8,
+      "politics": 10,
+      "be_gov": 17,
+      "culture": 9,
+      "tech": 7,
+      "economy": 10,
+      "sports": 56,
+      "health": 6,
+      "climate": 3,
+      "migration": 0,
+      "education": 3,
+      "weather": 13
+    }
   }
 ]
