@@ -50811,5 +50811,693 @@
       "education": 3,
       "weather": 13
     }
+  },
+  {
+    "date": "2026-07-05",
+    "generated_at": "2026-07-05T08:56:03+02:00",
+    "last_checked_at": "2026-07-05T08:56:03+02:00",
+    "total_articles": 218,
+    "trump_articles": 19,
+    "percentage": 8.7,
+    "core_percentage": 8.7,
+    "core_percentage_name": 8.7,
+    "trump_articles_expanded": 20,
+    "core_percentage_expanded": 9.2,
+    "indirect_references": 1,
+    "wide_total_articles": 305,
+    "wide_trump_articles": 26,
+    "wide_percentage": 8.5,
+    "wide_trump_articles_expanded": 28,
+    "wide_percentage_expanded": 9.2,
+    "macro_percentage": 7.7,
+    "qualifying_outlets": 10,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 32,
+    "cross_outlet_dup_groups": 16,
+    "cross_outlet_dup_rate": 14.7,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 4.75,
+    "breadth": 0.71,
+    "deviation": 4.46,
+    "smoothed_pct": 2.83,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 54,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 62,
+        "today": 8,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 62,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 68,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 24,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 53,
+        "today": 5,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_business": {
+        "fetched": 59,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 28.57
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 53,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 8,
+        "kept": 8,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 37.5
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.67
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 34,
+        "kept": 34,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 8.82
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 7.69
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 7,
+        "kept": 7,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 28.57
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 58,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 39,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump richt pijlen op politieke tegenstanders in toespraak voor 250 jaar VS: \"Communisme is een kanker\"",
+        "url": "https://vrtnws.be/p.mRkq9mbNQ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Tienduizenden Albanezen betogen voor de 35e keer tegen Trump-resort, met 'taart in cement' voor jarige premier",
+        "url": "https://vrtnws.be/p.ewoWlexoK",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Spectaculair vuurwerk in Washington voor 250 jaar VS, Trump waarschuwt in speech voor communisme: “Het is als kanker. Je moet het eruit snijden, snel”",
+        "url": "https://www.hln.be/buitenland/spectaculair-vuurwerk-in-washington-voor-250-jaar-vs-trump-waarschuwt-in-speech-voor-communisme-het-is-als-kanker-je-moet-het-eruit-snijden-snel~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Poetin belt met Trump over Oekraïne",
+        "url": "https://www.hln.be/buitenland/poetin-belt-met-trump-over-oekraine~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Op de 250ste verjaardag van de Verenigde Staten is de partijdige speech van president Trump de apotheose na een dag vol onrust",
+        "url": "https://www.demorgen.be/nieuws/op-de-250ste-verjaardag-van-de-verenigde-staten-is-de-partijdige-speech-van-president-trump-de-apotheose-na-een-dag-vol-onrust~b9ba2b5b/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Poetin belt met Trump over Oekraïne, meldt Kremlin • Rusland meldt Oekraïense droneaanvallen op Sint-Petersburg",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-poetin-belt-met-trump-over-oekraine-meldt-kremlin-rusland-meldt-oekraiense-droneaanvallen-op-sint-petersburg~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Uren na evacuatie festivalterrein geeft Trump alsnog toespraak ter ere van 250ste verjaardag van VS: ‘Communisme is als kanker. Je moet het eruit snijden, en snel’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-speecht-met-uren-vertraging-op-viering-250-jaar-verenigde-staten-en-waarschuwt-voor-communisme-festivalterrein-op-national-mall-geevacueerd-door-onweer~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Noodweer gooit 250 jaar VS-viering overhoop: Trump spreekt uren later, vuurwerk moet de meubelen redden",
+        "url": "https://www.nieuwsblad.be/buitenland/noodweer-gooit-250-jaar-vs-viering-overhoop-trump-spreekt-uren-later-vuurwerk-moet-de-meubelen-redden/158280249.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Tienduizenden Albanezen protesteren tegen luxehotel gelinkt aan familie Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/tienduizenden-albanezen-protesteren-tegen-luxehotel-gelinkt-aan-familie-trump/158279656.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Wie geen Spaans sprak, kreeg de bal niet”: een duik in het voetbalverleden van Donald Trump",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/wie-geen-spaans-sprak-kreeg-de-bal-niet-een-duik-in-het-voetbalverleden-van-donald-trump/158160391.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Wie geen Spaans sprak, kreeg de bal niet”: een duik in het voetbalverleden van Donald Trump",
+        "url": "https://www.hbvl.be/sport/voetbal/wie-geen-spaans-sprak-kreeg-de-bal-niet-een-duik-in-het-voetbalverleden-van-donald-trump/158258995.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Independance day\" et 250 ans des USA : à Washington, la météo joue les trouble-fêtes, Trump dépeint les États-Unis en \"chef-d'œuvre de l'humanité\"",
+        "url": "https://www.rtbf.be/article/independance-day-et-250-ans-des-usa-a-washington-la-meteo-joue-les-trouble-fetes-trump-depeint-les-etats-unis-en-chef-d-uvre-de-l-humanite-11752983",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Révolution des flamants roses\" en Albanie : énorme mobilisation à Tirana contre le projet immobilier d’Ivanka Trump et Jared Kushner",
+        "url": "https://www.rtbf.be/article/revolution-des-flamants-roses-en-albanie-enorme-mobilisation-a-tirana-contre-le-projet-immobilier-d-ivanka-trump-et-jared-kushner-11752963",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "“Un village Potemkine” : visite de la “Grande foire américaine” voulue par Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/05/un-village-potemkine-visite-de-la-grande-foire-americaine-voulue-par-donald-trump-AFW2RXOPHNFFDOE4IO7H5OVOAI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "250 ans des États-Unis: les grands desseins de Trump refroidis par la météo - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcXFHRmYzd183S2dGWXdkT3A1MzMzU1lELTNqTnh3SWp3NDRaY2QwNTJ5X3hDNE1MUUctd3VKbXFxQ1poNHdZUkF0dko1WXY3M01PTDE1YnA3NjIwSWxHUVNqd3I5TlM0UXpMOXIxMm5LSDJBTjFFUEtRbFpIUG1ROGNjRFpIclBCRDU3WnBsQ09YQm1DSE5lbEZ1Y29hb1dWdFlxd04wWVhDODRwbDRUcUhueGd6R0N0Y3NWcnBuMldLS0JLN3hUVzMxSmJobENXd0lFc3FEd25oUUp1WkRz?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Le lieu des festivités évacué face à une menace d’orage, Trump fait un discours à charge contre le communisme",
+        "url": "https://www.7sur7.be/monde/le-lieu-des-festivites-evacue-face-a-une-menace-dorage-trump-fait-un-discours-a-charge-contre-le-communisme~a7b41e3a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Poutine et Trump ont discuté de la guerre en Ukraine par téléphone",
+        "url": "https://www.7sur7.be/monde/poutine-et-trump-ont-discute-de-la-guerre-en-ukraine-par-telephone~ae4b7336/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Mobilisation massive contre un projet immobilier lié à la famille Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeG9jQVlxTHVNWS03ZEZHMkpSS0h3S0ZxR3FwRW8tUDA5OUp6bjUxaTk1RFJjSDk1S2tzbjRVT0NEQXpWN2QyVUtpbndWMmlGWjB3UGJBeUZISGdxaEhtSW1zb3h0V2ZhQWVxWW9JTVVNX1RnVlVsamlNQ2RmRVN2aXJHby1HRjB2TmxBc2haazRGQmh6aWVfMjZyMTdXUHVMdVJpZDV5S0hNdWRKX3FPRVRuc0dNSEIz?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump dépeint les États-Unis en « chef-d’œuvre » pour leurs 250 ans, mais alerte sur la « menace communiste » : « Nous ne laisserons pas ça arriver » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZ05GanFlZEZKeEhwYUt2NmppZm1XVFEwc25KV0l2RXcwRXFBZ3lwRVpUS3p6dnJBc283dXhndGRSNkxtOVZmTFZiVkotT21QRFY1czRHMkFYM2pRSURFZzVrUU54azFjTV9hdTE2RVFvdjdkYzB1NWtpYnFOM1pIQUtoakc0SWhoa2U5b09iZC1Kd3g3a2VldS1iWDhoNWNmUnF5Yzkwd1hDSXNGWEl6eE9IQTYxZkYzWlN2a2VlWW4yeW9NLVE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« On n’a rien à voir avec Trump ! » : au Danemark, la plus grande célébration du 4 juillet hors États-Unis en mal d’enthousiasme - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMXQ4b2RpUmhKSDdBQXJxbWdhZW5vY2VNOEZncmhwMmRtU1I5c254ekxTWHo4Rkl3VzRLb0hFcXZDUXRsTGJQS2pZRFUySHEwOWM2YUJ3ZjhIMEEyaEwwTjZlaTAxUVZkZGc3OG1ULXU3ekJyUGp6OEJjUDJsT0o5TVFXQTJidlBIUlJBR2ZfU1BjVllXZkxxWW1BZDhtZllTWXRNaTN0V1JaanBUS1JBVjdyc2dPV1VVNE9xTTN4aGR3U2t6VGhTRjlTcGo?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump speecht met uren vertraging bij viering 250 jaar VS: \"Niets kan ons afschrikken\" - VRT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU1JMM0djWlE5NENYNXBCQzd4eDV1U2piMEsxUDBlRVUweVYzZ25Wd3pYLVpwaUZ2SF9PM2RtcThMSGh4d3JkVzdXZWo1YldNdGMtWG5yVFNpVEd5djNPWXpDLTVsb2hGTUVMSFNGSS1JZkx0Y3dTM1FqYThlTDVZc05zNzhhelJmT0xoeFRZNDl0a1FBdDRSdGhkSWh6WmNySDczOUxR?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Poetin belt met Trump over Oekraïne - HLN",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVGlIa0hYRTdUME1JenNnTUlTV3hkZGpYU2JrNGttdUxXZm9iSHB2Q2M3ZDl1MXlsTHlNWXJrLU1oajlaSFJqcTFFeEpPLU1GaGx6RkI2dlRCVVRITUhrS2hTemdlQ1BTS0dNUGJvUDZDNFp0RHRKZTVqcjU1MmJBQw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "“Wie geen Spaans sprak, kreeg de bal niet”: een duik in het voetbalverleden van Donald Trump - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdnVSMUs3UXBaWFZvcTctaDhaREZ4YzYtMlh4MmUzNTAtZGxqQ25ObU01TUdQR204R19qQzJRVlZwV0FvaGxYVGVTRTlBSU5uZzNPaEU0VUNjTWpoVHpoa3F5TXJqQmlBN3BxRVBDcTBlbHNRRVVJRkFydHZjTl9ybDdMeTVYNDhmRWoyUkNDWVdHV25jczFONk5jZjV6YTZPN1JBcmYzSGYzUk03UWxRaTZjdFItakxySjNWNVhiTTdwWWFoU0xMcGU0TEE5VnhRWG9BTHRNd0hJa1E?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "'Révolution des flamants roses' en Albanie : énorme mobilisation à Tirana contre le projet immobilier d’Ivanka Trump et Jared Kushner - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOUHpFOW9zYk5RVng0bGl3Zm9IekxpblFveVZsNnBWYklpQzRPYW93c3VELWw5Z2dSVW9wT0dPbGl6WThNOC1KbmstSDdveExWLVhENnV5YWMzaVFBU2RURWhsbW9sYUZGY3p3NUdFN05zajZlZmRCZ3ZleDdUTDZfOVBHOWVaTXZQQnp4M3BtNllGSk5oTjRlV1dOZ2k3di00dzc4T0NfUmt3dkxyaTM0d0RIbHdtYjJvS3FMTUZOSHV6RE1GNlJJdEVIbW15VTdvcHlKT0l4bDdETkFKZTQ5RGt5b2ZZTDNGMGFiRWxlSGI2MDVka3F4NnBB?oc=5",
+        "source": "google_fr_politics",
+        "name_only": false
+      },
+      {
+        "title": "Coup de téléphone entre Poutine et Trump : les deux présidents se sont entretenus à propos de la guerre en Ukraine - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbXpBS0xSd0NlMVp1WkZuQV9vczU5VzZ4U2REcEJxeW14b1VuVkliRl9JUmZvWDZVS084UXJqN0xiWWlNeDhKeFFkODBvZFc1MF85a3JOZjBkVUVIS3dzbVhHVVktZWFDeGVvdTBGaUdadFZmYV9EOTBIRVBKZDFwdFNLT19VLW1sS2pxTkpBX2FCWU5KT3VBUGZMRzUxY0xSYmpIdXVOdXNJcVlKLXZsdDZFTXo1YnNRckhSbnFQYXVpNTFUdV82aWdkSHEtTUNhRWRuWmN3RzdETG1wUm1KYjlVYw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump richt pijlen op politieke tegenstanders in toespraak voor 250 jaar VS: \"Communisme is een kanker\"",
+        "url": "https://vrtnws.be/p.mRkq9mbNQ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Tienduizenden Albanezen betogen voor de 35e keer tegen Trump-resort, met 'taart in cement' voor jarige premier",
+        "url": "https://vrtnws.be/p.ewoWlexoK",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Spectaculair vuurwerk in Washington voor 250 jaar VS, Trump waarschuwt in speech voor communisme: “Het is als kanker. Je moet het eruit snijden, snel”",
+        "url": "https://www.hln.be/buitenland/spectaculair-vuurwerk-in-washington-voor-250-jaar-vs-trump-waarschuwt-in-speech-voor-communisme-het-is-als-kanker-je-moet-het-eruit-snijden-snel~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Poetin belt met Trump over Oekraïne",
+        "url": "https://www.hln.be/buitenland/poetin-belt-met-trump-over-oekraine~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Op de 250ste verjaardag van de Verenigde Staten is de partijdige speech van president Trump de apotheose na een dag vol onrust",
+        "url": "https://www.demorgen.be/nieuws/op-de-250ste-verjaardag-van-de-verenigde-staten-is-de-partijdige-speech-van-president-trump-de-apotheose-na-een-dag-vol-onrust~b9ba2b5b/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Poetin belt met Trump over Oekraïne, meldt Kremlin • Rusland meldt Oekraïense droneaanvallen op Sint-Petersburg",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-poetin-belt-met-trump-over-oekraine-meldt-kremlin-rusland-meldt-oekraiense-droneaanvallen-op-sint-petersburg~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Uren na evacuatie festivalterrein geeft Trump alsnog toespraak ter ere van 250ste verjaardag van VS: ‘Communisme is als kanker. Je moet het eruit snijden, en snel’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-speecht-met-uren-vertraging-op-viering-250-jaar-verenigde-staten-en-waarschuwt-voor-communisme-festivalterrein-op-national-mall-geevacueerd-door-onweer~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Noodweer gooit 250 jaar VS-viering overhoop: Trump spreekt uren later, vuurwerk moet de meubelen redden",
+        "url": "https://www.nieuwsblad.be/buitenland/noodweer-gooit-250-jaar-vs-viering-overhoop-trump-spreekt-uren-later-vuurwerk-moet-de-meubelen-redden/158280249.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Tienduizenden Albanezen protesteren tegen luxehotel gelinkt aan familie Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/tienduizenden-albanezen-protesteren-tegen-luxehotel-gelinkt-aan-familie-trump/158279656.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Wie geen Spaans sprak, kreeg de bal niet”: een duik in het voetbalverleden van Donald Trump",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/wie-geen-spaans-sprak-kreeg-de-bal-niet-een-duik-in-het-voetbalverleden-van-donald-trump/158160391.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Noodweer gooit 250 jaar VS-viering overhoop: Trump spreekt uren later, vuurwerk moet de meubelen redden",
+        "url": "https://www.gva.be/buitenland/noodweer-gooit-250-jaar-vs-viering-overhoop-trump-spreekt-uren-later-vuurwerk-moet-de-meubelen-redden/158280974.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Tienduizenden Albanezen protesteren tegen luxehotel gelinkt aan familie Trump",
+        "url": "https://www.gva.be/buitenland/tienduizenden-albanezen-protesteren-tegen-luxehotel-gelinkt-aan-familie-trump/158279671.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "“Wie geen Spaans sprak, kreeg de bal niet”: een duik in het voetbalverleden van Donald Trump",
+        "url": "https://www.gva.be/sport/voetbal/wie-geen-spaans-sprak-kreeg-de-bal-niet-een-duik-in-het-voetbalverleden-van-donald-trump/158258996.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "“Wie geen Spaans sprak, kreeg de bal niet”: een duik in het voetbalverleden van Donald Trump",
+        "url": "https://www.hbvl.be/sport/voetbal/wie-geen-spaans-sprak-kreeg-de-bal-niet-een-duik-in-het-voetbalverleden-van-donald-trump/158258995.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Independance day\" et 250 ans des USA : à Washington, la météo joue les trouble-fêtes, Trump dépeint les États-Unis en \"chef-d'œuvre de l'humanité\"",
+        "url": "https://www.rtbf.be/article/independance-day-et-250-ans-des-usa-a-washington-la-meteo-joue-les-trouble-fetes-trump-depeint-les-etats-unis-en-chef-d-uvre-de-l-humanite-11752983",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Révolution des flamants roses\" en Albanie : énorme mobilisation à Tirana contre le projet immobilier d’Ivanka Trump et Jared Kushner",
+        "url": "https://www.rtbf.be/article/revolution-des-flamants-roses-en-albanie-enorme-mobilisation-a-tirana-contre-le-projet-immobilier-d-ivanka-trump-et-jared-kushner-11752963",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "“Un village Potemkine” : visite de la “Grande foire américaine” voulue par Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/05/un-village-potemkine-visite-de-la-grande-foire-americaine-voulue-par-donald-trump-AFW2RXOPHNFFDOE4IO7H5OVOAI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "250 ans des États-Unis: les grands desseins de Trump refroidis par la météo - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcXFHRmYzd183S2dGWXdkT3A1MzMzU1lELTNqTnh3SWp3NDRaY2QwNTJ5X3hDNE1MUUctd3VKbXFxQ1poNHdZUkF0dko1WXY3M01PTDE1YnA3NjIwSWxHUVNqd3I5TlM0UXpMOXIxMm5LSDJBTjFFUEtRbFpIUG1ROGNjRFpIclBCRDU3WnBsQ09YQm1DSE5lbEZ1Y29hb1dWdFlxd04wWVhDODRwbDRUcUhueGd6R0N0Y3NWcnBuMldLS0JLN3hUVzMxSmJobENXd0lFc3FEd25oUUp1WkRz?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Le lieu des festivités évacué face à une menace d’orage, Trump fait un discours à charge contre le communisme",
+        "url": "https://www.7sur7.be/monde/le-lieu-des-festivites-evacue-face-a-une-menace-dorage-trump-fait-un-discours-a-charge-contre-le-communisme~a7b41e3a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Poutine et Trump ont discuté de la guerre en Ukraine par téléphone",
+        "url": "https://www.7sur7.be/monde/poutine-et-trump-ont-discute-de-la-guerre-en-ukraine-par-telephone~ae4b7336/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Mobilisation massive contre un projet immobilier lié à la famille Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeG9jQVlxTHVNWS03ZEZHMkpSS0h3S0ZxR3FwRW8tUDA5OUp6bjUxaTk1RFJjSDk1S2tzbjRVT0NEQXpWN2QyVUtpbndWMmlGWjB3UGJBeUZISGdxaEhtSW1zb3h0V2ZhQWVxWW9JTVVNX1RnVlVsamlNQ2RmRVN2aXJHby1HRjB2TmxBc2haazRGQmh6aWVfMjZyMTdXUHVMdVJpZDV5S0hNdWRKX3FPRVRuc0dNSEIz?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump dépeint les États-Unis en « chef-d’œuvre » pour leurs 250 ans, mais alerte sur la « menace communiste » : « Nous ne laisserons pas ça arriver » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZ05GanFlZEZKeEhwYUt2NmppZm1XVFEwc25KV0l2RXcwRXFBZ3lwRVpUS3p6dnJBc283dXhndGRSNkxtOVZmTFZiVkotT21QRFY1czRHMkFYM2pRSURFZzVrUU54azFjTV9hdTE2RVFvdjdkYzB1NWtpYnFOM1pIQUtoakc0SWhoa2U5b09iZC1Kd3g3a2VldS1iWDhoNWNmUnF5Yzkwd1hDSXNGWEl6eE9IQTYxZkYzWlN2a2VlWW4yeW9NLVE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« On n’a rien à voir avec Trump ! » : au Danemark, la plus grande célébration du 4 juillet hors États-Unis en mal d’enthousiasme - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMXQ4b2RpUmhKSDdBQXJxbWdhZW5vY2VNOEZncmhwMmRtU1I5c254ekxTWHo4Rkl3VzRLb0hFcXZDUXRsTGJQS2pZRFUySHEwOWM2YUJ3ZjhIMEEyaEwwTjZlaTAxUVZkZGc3OG1ULXU3ekJyUGp6OEJjUDJsT0o5TVFXQTJidlBIUlJBR2ZfU1BjVllXZkxxWW1BZDhtZllTWXRNaTN0V1JaanBUS1JBVjdyc2dPV1VVNE9xTTN4aGR3U2t6VGhTRjlTcGo?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 19,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 26,
+      "putin": 5,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 5,
+      "crime": 2,
+      "eu": 7,
+      "politics": 8,
+      "be_gov": 4,
+      "culture": 3,
+      "tech": 2,
+      "economy": 0,
+      "sports": 25,
+      "health": 6,
+      "climate": 1,
+      "migration": 0,
+      "education": 0,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 9,
+      "crime": 2,
+      "eu": 10,
+      "politics": 11,
+      "be_gov": 5,
+      "culture": 5,
+      "tech": 2,
+      "economy": 0,
+      "sports": 36,
+      "health": 8,
+      "climate": 1,
+      "migration": 0,
+      "education": 1,
+      "weather": 12
+    }
   }
 ]
