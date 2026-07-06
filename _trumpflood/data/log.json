@@ -51499,5 +51499,657 @@
       "education": 1,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-07-06",
+    "generated_at": "2026-07-06T10:05:05+02:00",
+    "last_checked_at": "2026-07-06T10:05:05+02:00",
+    "total_articles": 492,
+    "trump_articles": 17,
+    "percentage": 3.5,
+    "core_percentage": 3.5,
+    "core_percentage_name": 3.5,
+    "trump_articles_expanded": 17,
+    "core_percentage_expanded": 3.5,
+    "indirect_references": 0,
+    "wide_total_articles": 653,
+    "wide_trump_articles": 25,
+    "wide_percentage": 3.8,
+    "wide_trump_articles_expanded": 25,
+    "wide_percentage_expanded": 3.8,
+    "macro_percentage": 4.7,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 45,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 9.1,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Most-mentioned figure by a wide margin.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.43,
+    "breadth": 0.67,
+    "deviation": 1.79,
+    "smoothed_pct": 3.03,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_nl_politics": {
+        "fetched": 45,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 45,
+        "today": 11,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 67,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 52,
+        "today": 13,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "google_fr_politics": {
+        "fetched": 28,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 48,
+        "today": 6,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_business": {
+        "fetched": 33,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 57,
+        "kept": 43,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.98
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 15,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 37,
+        "kept": 37,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.7
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.41
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 42,
+        "kept": 42,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.76
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 71,
+        "kept": 68,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.47
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 22,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 33,
+        "today": 4,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 34,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Donald Trump en FIFA-baas Gianni Infantino: echte makkers of is het van moeten?",
+        "url": "https://vrtnws.be/p.dLebQj9GP",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Navo-top wordt rondje armworstelen met Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSWNMTV82QTFiWFh5cS1aSllpMUtXTTQ3NlJVQ1RPTjZVSXV6OEZ3TTVqRTFnQ081Z0pfRkZWbkVKeVdhY3B3ZkVJVS1mZ2FMNy16MkRjb2ZReW1INHl4VEhtNHd6U2VpVWtyRFRZY1hyZ1pxUHNqNmN5VThaMkNlN0FEUUxZZFVDLVpvZml2NzNHOXB5aVFybmNBTQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "De Navo-top in Ankara wordt een rondje armworstelen met Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOanNubDltRUEzSmQ2Tm9uU3BOY3VBbHR3VXJ3cVFXVVR0ZXNtaGRlZXBxWVVEdHpRXzJkS0k2bmNnckMzaGhTN2dRQWRlNm92R1N3bXpmbkJRTEtVTERLeUpmZmNsdm9GbHVmdHFEZ1YtNWRFa0dRMTZWdkVlTWhvb1JZVHVBVVBHODdocTZHQnlJM04xYllfSUR0ejJUTGdsRGE0TllPTElmOGtvd3RES3dR?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "De Navo-top in Ankara wordt rondje armworstelen met de Amerikaanse president Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmpmWWZ1WnVTTUE2OEhZOHRQLVdzTFIyemxDZzNFT3F2alJta1BhN05mUUw4Tm9aejhwUWZJS3RkS1Rmd3lRbFdTYTNBanZ6SVowMEU1ZkdRSm5jZ3dsclNFbDRvbnhLRnhzWkhjcklIVDBiT1BjX3dGUHhTR21rMm5iMmtoVmNkSEV5MFVDZ3VyR1lvd21ucmxFOVJOMTY5bFBYajBpS0hSWHZjYVQ2aGJiOGdkTnhxRUZFdl9Lb3NvV0k3czFUdkVYUkxfdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“FIFA duwt het voetbal richting het EPO-tijdperk van de koers”: onze chef voetbal over Infantino en Trump in de zaak-Balogun",
+        "url": "https://www.hln.be/rode-duivels/fifa-duwt-het-voetbal-richting-het-epo-tijdperk-van-de-koers-onze-chef-voetbal-over-infantino-en-trump-in-de-zaak-balogun~aaefab6b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump belde met FIFA om schorsing van VS-sterspeler Balogun ongedaan te maken na rode kaart: dit weten we over de controversiële beslissing",
+        "url": "https://www.demorgen.be/wk-voetbal/trump-belde-met-fifa-om-schorsing-van-vs-sterspeler-balogun-ongedaan-te-maken-na-rode-kaart-dit-weten-we-over-de-controversiele-beslissing~ba2c00f2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Defensiespecialist Sven Biscop: ‘Europa is in NAVO nog veel te timide tegenover Trump’",
+        "url": "https://www.demorgen.be/nieuws/defensiespecialist-sven-biscop-europa-is-in-navo-nog-veel-te-timide-tegenover-trump~bc7e3709/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse topschutter Folarin Balogun mag (na vermeende inmenging van Donald Trump) tóch spelen tegen Rode Duivels, bond heeft tot 14u tijd voor verweer",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/amerikaanse-topschutter-folarin-balogun-mag-na-vermeende-inmenging-van-donald-trump-toch-spelen-tegen-rode-duivels-bond-heeft-tot-14u-tijd-voor-verweer/158300333.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse topschutter Folarin Balogun mag (na vermeende inmenging van Donald Trump) tóch spelen tegen Rode Duivels, bond heeft tot 14u tijd voor verweer",
+        "url": "https://www.hbvl.be/sport/voetbal/amerikaanse-topschutter-folarin-balogun-mag-na-vermeende-inmenging-van-donald-trump-toch-spelen-tegen-rode-duivels-bond-heeft-tot-14u-tijd-voor-verweer/158300502.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Le Morning – \" Les Diables ont trouvé leur mission… Merci Donald Trump\" : nos envoyés spéciaux préfacent un huitième de finale sous tension",
+        "url": "https://www.rtbf.be/article/le-morning-les-diables-ont-trouve-leur-mission-merci-donald-trump-nos-envoyes-speciaux-prefacent-un-huitieme-de-finale-sous-tension-11753351",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "250 ans de l’indépendance des États-Unis: de lucratives cérémonies pour Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/06/250-ans-de-lindependance-des-etats-unis-de-lucratives-ceremonies-pour-donald-trump-PTTK4Q5FRZERTJZIFR62PTOQK4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Devenir américain malgré Donald Trump : “C’était comme une nouvelle naissance”",
+        "url": "https://www.lalibre.be/international/2026/07/06/devenir-americain-malgre-donald-trump-cetait-comme-une-nouvelle-naissance-UGHT7FREYBFELCF2M6AOEP2VKY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Ingérence\" dans le Mondial, un \"précédent dangereux\"... Après un coup de fil de Trump, la Fifa blanchit Balogun - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORkk0LWpxOC0xLVNHZnBnUVVHLUZ1NG5uQjh5VlgzUmdYUnJEWURKUGtyZ1hUQm9ubzhGUVNTMV91bmFXTVlkeUV3Z1gyajh0LVJQLW9wSmtEckg4dnVoREpnRTZ2OTI3MTRGNUdKdW9rQ2x0YVpSOVluSUVmekZYRWFNM3lycHVlS2ZVMEU3ajltVzZjZjhnZjRfeEJpTTRyR2Rmanlza24xY2QtV2Z1TXFaRjZ5TmpuRjBYM3FjTk9BYzZLay1aOFI0Q0FIemZsdlFCLUxuanB3UC1zNkhIRjQ2WXpGWWY5ZlpPTXlHS1JGS1RxYzNNZGNFcw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Notre sport, pas le leur\", \"Où cela va-t-il s'arrêter?\": les stars du ballon rond montent au créneau contre la FIFA et l'ingérence de Donald Trump",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/07/06/notre-sport-pas-le-leur-ou-cela-va-t-il-sarreter-les-stars-du-ballon-rond-montent-au-creneau-contre-la-fifa-et-lingerence-de-donald-trump-IJ6T4LDOQNHZFA3U6TSRAPC45Q/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le décrassage spécial Coupe du monde : \"Donald Trump a écrit le discours de Rudi Garcia\", nos journalistes débattent avant le match des Diables rouges",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/06/le-decrassage-special-coupe-du-monde-donald-trump-a-ecrit-le-discours-de-rudi-garcia-nos-journalistes-debattent-avant-le-match-des-diables-rouges-ZIDIID5WSFGQZNRZEGSBNEQG6E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse spits Balogun mag toch spelen tegen België na FIFA-achterpoortje en druk van Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRkFveVZhNXlVdFVMVnltN0s4YjZiR3prMXBWTDk3eFhSX09IbkkzMmtkNTRLODUtNXZITUhqdmZjN1o1WHlsa2k4UVBBMy12ZEYwM0E5dDNJU1piN0NhOHFCdGhnSU1fTGRtSE1va0xpZV9XT0VFU1F6ZjlqLTlaUE9tckJYcm91bEVyb0dVdWtxNGRCNXNlZXFrZW5OS19KRUdiNThERXczbHNNT2lweVVuLTZMSGlnRFJ2clpOYlplcU9PZkdwMWs4S3MxcTROUW9ia1h0MlljY05maHlEZmxR?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Football panique à la Maison Blanche: Donald Trump, inquiet, s'en prend aux communistes démocrates et aux Diables rouges - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNckt5aDRlU2xTcGZLSGZ0ZGZFYnRwTXp5ak9jbHhwSVdhSUxYRHJ2UzN6N3pZRW01NFlXTl9sNERSNlhLSVY2NnBrLXNMaHBfRE9JQmRrMkNQOTFJeGw5UXRFX3ByRW9LZVdNYXdTdFhneFZBYWg1WHF3SUxOTmVpQndIMG82Wk1rTFdZUHNEQjBhSzQxbHV5Z3FQbW1qN3MtOE9PSFF5c3oxa0o2SGRfVVVQM0RycmZxTUsxMHNIUl9rR2s0Z2cwOGprM0dpLW9OaGQ5ejI1Sk15QzExN1d3ZEdXMU85bGhxX043dWpnZ1lsRXRSTFRTc0o3R1V1Q2hYU3E2VnFR?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Defensiespecialist Sven Biscop: ‘Europa is in NAVO nog veel te timide tegenover Trump’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWkJORjJHV3h6MXI5aGRWeGdDSUQ0ZDBadk1tTFNLbUthZjhBVHNfcFN2aHdOYkxwYnplZlpRaU9tYUxWdzQyeER5cF9HNFRnVW1BMnBpVkw1bVdiTlY5d0JobjlGOUVxRG5qRmVXSE5lRmdNVFRZXzZYaUM3TF8ybEJPOEx6OTkyMk5GU1RURG9WVTd2TWpSd2JaV000QTExVjRRSE40V1g5TEViZS04eXJTRExkRVNiTldSNFBBNTZXZw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Le décrassage spécial Coupe du monde : \"Donald Trump a écrit le discours de Rudi Garcia\", nos journalistes débattent avant le match des Diables rouges - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNYnNXZjA5SFpQR2RJQVVlejkxNHJiMm1RX3FKdWZaVXc1aUVhMFVVZmdZR2ctN0xYdjJIR1d1S1UycHU0d2trRjktSzhOMzBSOW9KUjVaMUdKemlPQU5jR19ndl9BUU13eHBlRUFUR01SUU9sbmdMWk9RcnhiWWVxbklNTHB2NXlQUE1ORHk0WDBub2xNRnJrNFdsQWZaU0RzUmV4MkY1STJWRnJuMmcwa3Bnc0dWcXBHTE5yeXQ1aDY2ZW9RYXh2aEVVWG8tRWY3SjdwbVBsbUVCY0ZBM1QtYjJramFQamNzcjlHSUpCR2YybXhJS29JMkZXZ0NZVmNzMjdiZnIzaUlFSnMyT3BpckxRVnVFeWI1THpJUFkzYjZDbk5BSnpvNExTdUM0T3FkeV92T2dpRXNmQ2JzZE51RWFzTEQzdFlIaVN4Um5scnF0bHRsUnc?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse topschutter Folarin Balogun mag (na vermeende inmenging van Donald Trump) tóch spelen tegen Rode Duivels, bond heeft tot 14u tijd voor verweer - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQZlhyUlktaHRjNGZsRE9WUWNHNUdSUWZmUmswNi12UHYtTjRqWHN4TmtyaVpkNjduakw2bGh0akNydEl3Qmg1UC1oOFc3bS1fNFFUZGNUMTlDUEpyYmI3VWl0b1A3SGppV1pPdDdjSU1JUEdrZkVxVXpsc3lyUXpXLTFXalFFRVE3S1NGak9QTlJCb3J2MktXUTJ1dXlQR2hUNk5HTi1md0hkdnlrRDFDTWFNNUZoMkVkRXBnQjc2bnFzMTE2RXVSblhYVHZEUlIzb3h2SF9RYi1ZMVFkX2tzQ2dPMDV2THhzYzkzXzl1MHEtcEFmWnRMU1FqUlpsZm9felFUMUdRQ2VaYkUtUUh3V0tWbzFMTU4zeHF4ejJyTHJSQmZpZng5Znc2UDZiVW8?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump en FIFA-baas Gianni Infantino: echte makkers of is het van moeten? - VRT",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaWdjZ0MyNTQ0RHNaQ2R5TVpLZVMxV2NiWjNLSHVENEZEU09KQ042WVNiOGxvSVlJLW9PQ3FtSjlqRDNqbzJzOHhlYmhGQmRIMUVnemtKbUdJeVROaXRJVE5xV3BOc3dQc3N5dG42dTNWbzZoWkdvX1ZMMHVsazdKWktaQllza2FWU0tkaVNnYmxBU1U?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "250 ans de l'indépendance des États-Unis: de lucratives cérémonies pour Donald Trump - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMERsNWZibWRnRVFoR3luZF91enAxWFF1bnM5b0hValJBdHpTckhxTF9pUm1fQWtwXzFfb0lNYTE3aEV3bUN3a1lYaXBJaXVIUUtKMFdqT3VPMDAxZXJNYjBjT2VreWV6SjNNWVdqeldoeU1yZmZPX2ZCVmhaSXJqVzJIT2hqQWM3enh1SU4wMmVqbGFnOU9hUzR6VE5DU2FJMUxLdTdQQVJueV9UTl9yaDRvcFNubm5Fd093Uk1oSTdyS2JxY1dQekhISjhDaXRnU24yakttWkdxMDdUYUg3Tm51YXNDN0ZZSlgxTDlIalBXY2o5eXlzQVg3cw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump en FIFA-baas Gianni Infantino: echte makkers of is het van moeten?",
+        "url": "https://vrtnws.be/p.dLebQj9GP",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Navo-top wordt rondje armworstelen met Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSWNMTV82QTFiWFh5cS1aSllpMUtXTTQ3NlJVQ1RPTjZVSXV6OEZ3TTVqRTFnQ081Z0pfRkZWbkVKeVdhY3B3ZkVJVS1mZ2FMNy16MkRjb2ZReW1INHl4VEhtNHd6U2VpVWtyRFRZY1hyZ1pxUHNqNmN5VThaMkNlN0FEUUxZZFVDLVpvZml2NzNHOXB5aVFybmNBTQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "De Navo-top in Ankara wordt een rondje armworstelen met Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOanNubDltRUEzSmQ2Tm9uU3BOY3VBbHR3VXJ3cVFXVVR0ZXNtaGRlZXBxWVVEdHpRXzJkS0k2bmNnckMzaGhTN2dRQWRlNm92R1N3bXpmbkJRTEtVTERLeUpmZmNsdm9GbHVmdHFEZ1YtNWRFa0dRMTZWdkVlTWhvb1JZVHVBVVBHODdocTZHQnlJM04xYllfSUR0ejJUTGdsRGE0TllPTElmOGtvd3RES3dR?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "De Navo-top in Ankara wordt rondje armworstelen met de Amerikaanse president Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmpmWWZ1WnVTTUE2OEhZOHRQLVdzTFIyemxDZzNFT3F2alJta1BhN05mUUw4Tm9aejhwUWZJS3RkS1Rmd3lRbFdTYTNBanZ6SVowMEU1ZkdRSm5jZ3dsclNFbDRvbnhLRnhzWkhjcklIVDBiT1BjX3dGUHhTR21rMm5iMmtoVmNkSEV5MFVDZ3VyR1lvd21ucmxFOVJOMTY5bFBYajBpS0hSWHZjYVQ2aGJiOGdkTnhxRUZFdl9Lb3NvV0k3czFUdkVYUkxfdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“FIFA duwt het voetbal richting het EPO-tijdperk van de koers”: onze chef voetbal over Infantino en Trump in de zaak-Balogun",
+        "url": "https://www.hln.be/rode-duivels/fifa-duwt-het-voetbal-richting-het-epo-tijdperk-van-de-koers-onze-chef-voetbal-over-infantino-en-trump-in-de-zaak-balogun~aaefab6b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump belde met FIFA om schorsing van VS-sterspeler Balogun ongedaan te maken na rode kaart: dit weten we over de controversiële beslissing",
+        "url": "https://www.demorgen.be/wk-voetbal/trump-belde-met-fifa-om-schorsing-van-vs-sterspeler-balogun-ongedaan-te-maken-na-rode-kaart-dit-weten-we-over-de-controversiele-beslissing~ba2c00f2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Defensiespecialist Sven Biscop: ‘Europa is in NAVO nog veel te timide tegenover Trump’",
+        "url": "https://www.demorgen.be/nieuws/defensiespecialist-sven-biscop-europa-is-in-navo-nog-veel-te-timide-tegenover-trump~bc7e3709/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse topschutter Folarin Balogun mag (na vermeende inmenging van Donald Trump) tóch spelen tegen Rode Duivels, bond heeft tot 14u tijd voor verweer",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/amerikaanse-topschutter-folarin-balogun-mag-na-vermeende-inmenging-van-donald-trump-toch-spelen-tegen-rode-duivels-bond-heeft-tot-14u-tijd-voor-verweer/158300333.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "DISCUSSIE. Heeft Trump zich gemoeid met de teruggedraaide schorsing van Balogun?",
+        "url": "https://www.gva.be/sport/voetbal/discussie.-heeft-trump-zich-gemoeid-met-de-teruggedraaide-schorsing-van-balogun/158311482.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse topschutter Folarin Balogun mag (na vermeende inmenging van Donald Trump) tóch spelen tegen Rode Duivels, bond heeft tot 14u tijd voor verweer",
+        "url": "https://www.gva.be/sport/voetbal/amerikaanse-topschutter-folarin-balogun-mag-na-vermeende-inmenging-van-donald-trump-toch-spelen-tegen-rode-duivels-bond-heeft-tot-14u-tijd-voor-verweer/158300503.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse topschutter Folarin Balogun mag (na vermeende inmenging van Donald Trump) tóch spelen tegen Rode Duivels, bond heeft tot 14u tijd voor verweer",
+        "url": "https://www.hbvl.be/sport/voetbal/amerikaanse-topschutter-folarin-balogun-mag-na-vermeende-inmenging-van-donald-trump-toch-spelen-tegen-rode-duivels-bond-heeft-tot-14u-tijd-voor-verweer/158300502.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Eerste telefoontje zou woensdag al gebeurd zijn: meer details komen naar buiten van mogelijke rol die Donald Trump speelde in zaak-Balogun",
+        "url": "https://sporza.be/nl/2026/07/05/eerste-telefoontje-zou-woensdag-al-gebeurd-zijn-meer-details-komen-naar-buiten-van-mogelijke-rol-die-donald-trump-speelde-in-zaak-balogun~1783272724938/",
+        "source": "sporza",
+        "name_only": true
+      },
+      {
+        "title": "Le Morning – \" Les Diables ont trouvé leur mission… Merci Donald Trump\" : nos envoyés spéciaux préfacent un huitième de finale sous tension",
+        "url": "https://www.rtbf.be/article/le-morning-les-diables-ont-trouve-leur-mission-merci-donald-trump-nos-envoyes-speciaux-prefacent-un-huitieme-de-finale-sous-tension-11753351",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "250 ans de l’indépendance des États-Unis: de lucratives cérémonies pour Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/06/250-ans-de-lindependance-des-etats-unis-de-lucratives-ceremonies-pour-donald-trump-PTTK4Q5FRZERTJZIFR62PTOQK4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Devenir américain malgré Donald Trump : “C’était comme une nouvelle naissance”",
+        "url": "https://www.lalibre.be/international/2026/07/06/devenir-americain-malgre-donald-trump-cetait-comme-une-nouvelle-naissance-UGHT7FREYBFELCF2M6AOEP2VKY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Ingérence\" dans le Mondial, un \"précédent dangereux\"... Après un coup de fil de Trump, la Fifa blanchit Balogun - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORkk0LWpxOC0xLVNHZnBnUVVHLUZ1NG5uQjh5VlgzUmdYUnJEWURKUGtyZ1hUQm9ubzhGUVNTMV91bmFXTVlkeUV3Z1gyajh0LVJQLW9wSmtEckg4dnVoREpnRTZ2OTI3MTRGNUdKdW9rQ2x0YVpSOVluSUVmekZYRWFNM3lycHVlS2ZVMEU3ajltVzZjZjhnZjRfeEJpTTRyR2Rmanlza24xY2QtV2Z1TXFaRjZ5TmpuRjBYM3FjTk9BYzZLay1aOFI0Q0FIemZsdlFCLUxuanB3UC1zNkhIRjQ2WXpGWWY5ZlpPTXlHS1JGS1RxYzNNZGNFcw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Notre sport, pas le leur\", \"Où cela va-t-il s'arrêter?\": les stars du ballon rond montent au créneau contre la FIFA et l'ingérence de Donald Trump",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/07/06/notre-sport-pas-le-leur-ou-cela-va-t-il-sarreter-les-stars-du-ballon-rond-montent-au-creneau-contre-la-fifa-et-lingerence-de-donald-trump-IJ6T4LDOQNHZFA3U6TSRAPC45Q/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le décrassage spécial Coupe du monde : \"Donald Trump a écrit le discours de Rudi Garcia\", nos journalistes débattent avant le match des Diables rouges",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/06/le-decrassage-special-coupe-du-monde-donald-trump-a-ecrit-le-discours-de-rudi-garcia-nos-journalistes-debattent-avant-le-match-des-diables-rouges-ZIDIID5WSFGQZNRZEGSBNEQG6E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse spits Balogun mag toch spelen tegen België na FIFA-achterpoortje en druk van Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRkFveVZhNXlVdFVMVnltN0s4YjZiR3prMXBWTDk3eFhSX09IbkkzMmtkNTRLODUtNXZITUhqdmZjN1o1WHlsa2k4UVBBMy12ZEYwM0E5dDNJU1piN0NhOHFCdGhnSU1fTGRtSE1va0xpZV9XT0VFU1F6ZjlqLTlaUE9tckJYcm91bEVyb0dVdWtxNGRCNXNlZXFrZW5OS19KRUdiNThERXczbHNNT2lweVVuLTZMSGlnRFJ2clpOYlplcU9PZkdwMWs4S3MxcTROUW9ia1h0MlljY05maHlEZmxR?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Football panique à la Maison Blanche: Donald Trump, inquiet, s'en prend aux communistes démocrates et aux Diables rouges - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNckt5aDRlU2xTcGZLSGZ0ZGZFYnRwTXp5ak9jbHhwSVdhSUxYRHJ2UzN6N3pZRW01NFlXTl9sNERSNlhLSVY2NnBrLXNMaHBfRE9JQmRrMkNQOTFJeGw5UXRFX3ByRW9LZVdNYXdTdFhneFZBYWg1WHF3SUxOTmVpQndIMG82Wk1rTFdZUHNEQjBhSzQxbHV5Z3FQbW1qN3MtOE9PSFF5c3oxa0o2SGRfVVVQM0RycmZxTUsxMHNIUl9rR2s0Z2cwOGprM0dpLW9OaGQ5ejI1Sk15QzExN1d3ZEdXMU85bGhxX043dWpnZ1lsRXRSTFRTc0o3R1V1Q2hYU3E2VnFR?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 17,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 25,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 21,
+      "crime": 15,
+      "eu": 33,
+      "politics": 13,
+      "be_gov": 10,
+      "culture": 4,
+      "tech": 5,
+      "economy": 10,
+      "sports": 47,
+      "health": 5,
+      "climate": 4,
+      "migration": 0,
+      "education": 3,
+      "weather": 13
+    },
+    "wide_themes": {
+      "war": 28,
+      "crime": 22,
+      "eu": 43,
+      "politics": 23,
+      "be_gov": 11,
+      "culture": 6,
+      "tech": 7,
+      "economy": 11,
+      "sports": 65,
+      "health": 7,
+      "climate": 4,
+      "migration": 0,
+      "education": 3,
+      "weather": 21
+    }
   }
 ]
