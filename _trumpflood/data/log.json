@@ -52223,5 +52223,735 @@
       "education": 3,
       "weather": 20
     }
+  },
+  {
+    "date": "2026-07-07",
+    "generated_at": "2026-07-07T09:02:45+02:00",
+    "last_checked_at": "2026-07-07T09:02:45+02:00",
+    "total_articles": 411,
+    "trump_articles": 24,
+    "percentage": 5.8,
+    "core_percentage": 5.8,
+    "core_percentage_name": 5.8,
+    "trump_articles_expanded": 24,
+    "core_percentage_expanded": 5.8,
+    "indirect_references": 0,
+    "wide_total_articles": 540,
+    "wide_trump_articles": 31,
+    "wide_percentage": 5.7,
+    "wide_trump_articles_expanded": 31,
+    "wide_percentage_expanded": 5.7,
+    "macro_percentage": 6.1,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 58,
+    "cross_outlet_dup_groups": 29,
+    "cross_outlet_dup_rate": 14.1,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 4.0,
+    "breadth": 0.75,
+    "deviation": 2.97,
+    "smoothed_pct": 3.83,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 46,
+        "today": 6,
+        "kept": 6,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 33.33
+      },
+      "google_nl_world": {
+        "fetched": 59,
+        "today": 13,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 59,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 37,
+        "today": 7,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_fr_politics": {
+        "fetched": 24,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 45,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 64,
+        "kept": 51,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 39,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 7.69
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 21,
+        "kept": 21,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 14.29
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 15,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 20.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 15,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "trends_g": {
+        "fetched": 42,
+        "today": 7,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 32,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "\"Waarschijnlijk overweegt Trump om importheffing van 100 procent op Belgisch bier in te voeren\": buitenlandse media steken draak met VS na oplawaai van Rode Duivels",
+        "url": "https://www.hln.be/rode-duivels/waarschijnlijk-overweegt-trump-om-importheffing-van-100-procent-op-belgisch-bier-in-te-voeren-buitenlandse-media-steken-draak-met-vs-na-oplawaai-van-rode-duivels~a0963d7c/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Wat zal Donald Trump hiervan denken? Rode Duivels vieren goal door beroemd dansje van Amerikaanse president na te bootsen",
+        "url": "https://www.hln.be/rode-duivels/wat-zal-donald-trump-hiervan-denken-rode-duivels-vieren-goal-door-beroemd-dansje-van-amerikaanse-president-na-te-bootsen~a5537ce8/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Niets dan lof voor herboren Rode Duivels in buitenlandse pers: ‘België ging gewoon voetballen, alsof Trump en Infantino lucht waren’",
+        "url": "https://www.demorgen.be/wk-voetbal/niets-dan-lof-voor-herboren-rode-duivels-in-buitenlandse-pers-belgie-ging-gewoon-voetballen-alsof-trump-en-infantino-lucht-waren~ba575e26/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Overvol café De Karper ziet Rode Duivels triomferen: bier, zweet en een luid 'Fuck Donald Trump' bij elke goal",
+        "url": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/overvol-cafe-de-karper-ziet-rode-duivels-triomferen-bier-zweet-en-een-luid-fuck-donald-trump-bij-elke-goal/158360590.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "IN BEELD. Rode Duivels vieren doelpunt van Romelu Lukaku met ‘Trump-dans’ en delen nadien hun vreugde in de tribune met hun familie",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/in-beeld.-rode-duivels-vieren-doelpunt-van-romelu-lukaku-met-trump-dans-en-delen-nadien-hun-vreugde-in-de-tribune-met-hun-familie/158359976.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Trump: “Oplossing komt veel dichterbij” na gesprekken met Poetin en Zelensky - Ruim 430 drones uitgeschakeld op weg naar Moskou",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-trump-oplossing-komt-veel-dichterbij-na-gesprekken-met-poetin-en-zelensky-ruim-430-drones-uitgeschakeld-op-weg-naar-moskou/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "ANALYSE. “Trump 1 - België 4, en nu volgt de echte test tegen het grote Spanje”",
+        "url": "https://www.nieuwsblad.be/sport/sportregio/analyse.-trump-1-belgie-4-en-nu-volgt-de-echte-test-tegen-het-grote-spanje/158360461.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "IN BEELD. Rode Duivels vieren doelpunt van Romelu Lukaku met ‘Trump-dans’ en delen nadien hun vreugde in de tribune met hun familie",
+        "url": "https://www.hbvl.be/sport/voetbal/in-beeld.-rode-duivels-vieren-doelpunt-van-romelu-lukaku-met-trump-dans-en-delen-nadien-hun-vreugde-in-de-tribune-met-hun-familie/158360029.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "ANALYSE. “Trump 1 - België 4, en nu volgt de echte test tegen het grote Spanje”",
+        "url": "https://www.hbvl.be/sport/voetbal/analyse.-trump-1-belgie-4-en-nu-volgt-de-echte-test-tegen-het-grote-spanje/158359161.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Le mythe du \"brave petit belge\" réactivé par Donald Trump",
+        "url": "https://www.rtbf.be/article/le-mythe-du-brave-petit-belge-reactive-par-donald-trump-11753969",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Les Diables rouges s'imposent malgré les manigances de Trump, \"la dernière\" de Ronaldo, démission de Martinez: voici ce qu'il s'est passé cette nuit",
+        "url": "https://www.lalibre.be/sports/football/coupe-du-monde/2026/07/07/les-diables-rouges-simposent-malgre-les-manigances-de-trump-la-derniere-de-ronaldo-demission-de-martinez-voici-ce-quil-sest-passe-cette-nuit-AF5CB23MXJD5DN7VUG2WFFS45M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Sommet d’Ankara : l’attitude ambiguë de Donald Trump et des États-Unis doit provoquer “un sursaut européen” au sein de l’Otan",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/07/07/sommet-dankara-lattitude-ambigue-de-donald-trump-et-des-etats-unis-doit-provoquer-un-sursaut-europeen-au-sein-de-lotan-2E4IT4XRSJHPHCBHB2I5WPFDAA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Ils avaient le président Trump, on avait le Roi Charles : la Belgique écarte facilement les États-Unis pour défier l’ogre espagnol",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/07/ils-avaient-le-president-trump-on-avait-le-roi-charles-la-belgique-ecarte-facilement-les-etats-unis-pour-defier-logre-espagnol-Z6T2RHYZJJDFVCMUO6JMQOJSLQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump et Balogun n’ont rien changé: les Diables rouges réussissent enfin un bon match et rejoignent l’Espagne en quart de finale (1-4)",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/07/06/ngoy-raskin-et-lukebakio-favoris-les-compos-probables-detats-unis-belgique-direct-a-2h-4SQQI67MW5E2VEDKA6PNAJNXAI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Les Diables rouges ont fêté le but de Lukaku avec la danse de… Donald Trump (VIDEO)",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/07/les-diables-rouges-ont-fete-le-but-de-lukaku-avec-la-danse-de-donald-trump-video-3UTHMZ3CQ5CRTBFGWWZ5BB5PN4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Une résurgence communiste”: avant les élections, Trump ressort la peur du grand méchant Rouge",
+        "url": "https://www.7sur7.be/monde/une-resurgence-communiste-avant-les-elections-trump-ressort-la-peur-du-grand-mechant-rouge~a9da73a7/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Le plan des Européens pour tenter d'amadouer Donald Trump",
+        "url": "https://www.7sur7.be/monde/le-plan-des-europeens-pour-tenter-d-amadouer-donald-trump~a7d1aa12/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Aucun coup de fil de Trump ne pourra changer les choses”: la presse étrangère encense les Diables après leur masterclass",
+        "url": "https://www.7sur7.be/diables-rouges/aucun-coup-de-fil-de-trump-ne-pourra-changer-les-choses-la-presse-etrangere-encense-les-diables-apres-leur-masterclass~a0963d7c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "VS 1 - België 4: kunnen Trump & Infantino WK nog beïnvloeden? | Vlaamse stroom goedkoper, gas duurder | SK Hynix mikt op recordlancering op Nasdaq - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPRlJfYUhtS21aM2JoS2NjX1JaSG1pbU9SbzRIYWxXZk9ob0FiVDhpeWNSTTRiMHg0amNmbHpyajVPQmlFWWI0UFFRZGhtZ1YtSlNWNHdVQWJ1S1dFcXRUcnpFeW90bWVpQmNrSFFtUUxJc0RrWlZqMS1haDZCdGJsdmNDU1NoUFkwOHhkQ0MtcEkzM2wzZXFoN014WmFMdVl0cndVUlk5ZC11M3BPWnUyLXl5OElKTDNaV2JtQnZ0S3E5d1RaR0hJVTJVSGYzMDBVcnppQ0Q2eVkydlloVTVVdTNSaEcxel95Mk9GS1V5dTNqMEJhVHI1Z2tGSW5ISUJWN0VLU0FGYjk4WGJZNmxhRFY4Zw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "« Annule ça » : l’Union belge chambre Donald Trump sur les réseaux sociaux - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb2tjendKMXZ2SGJpal9fSVFfT3YyT2R1SEl0cGI4WTd1Y1ZKNmQ2WDdwWVRhdmhXN0xrYXdSM2dkd0F4ekk1X3hfN3FiRW83c1ZpbENSUTBLSFdBZkhFQUlkT3VTSEZxQU1qZ25sM3NtY1ZaOFVEeS1WVEFZczllOTQtNGpYc1VnZnNwbVdiTU5hWWxUdkFzVnA1WElMZ0JyNkltNGFEbkZNbUN4VG5hMHhCVDFFdw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Philippe Albert débriefe Belgique-Etats-Unis : « Une fameuse claque dans le visage d’Infantino et Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUmU1ZlpiWHBYNDhESGlTQTZKRFRUX0JLWVJ1TWZvQmRtcnFEY19qZ0UycHF1ZzV5NENsY2xjVFZXcm5md09kbWF4N05USW5CTUtDekhXUjBMX091Y2Jyb01SZDJJMXRXYXhuWHBxZnNCZUszdnc3YlBvYk81bnRKSUtpTU12V3NyRGo1aHN1SUVIS29vWUsxcWZfR0kwOGpwSnJYUnFnUUdBSEdJYnZ0U2RoVEZkenpxUDRhZHc1bmhZVzM4?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« La Belgique venge le monde du foot », « Même Trump ne peut éviter l’inévitable » : la presse internationale jubile après la victoire des Diables rouges sur les Etats-Unis - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUnU4bWhlVWdPX0pLWFUyd0JWZjRoN2NBS2Zfb0tvb2g4c0V5cVNua3laeElqbnh6MUItYXZiYmluZlJ0eXdqcHlhalIxLXpyX3pvN1JLTGRZaXZzZjFvWUw1VGhqQnVVMV84U0FzanNCRlNDRVJDd1VpTlV1c1J1b1pEZGJwcVhOakNjYW4xTU1CRUtMajh0dmp6eTRxMWxSMk9RRm9uRGhxZW5FTUZvbWloT1BXSmZXUzBYX3J5dmU?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Le chambrage des Diables envers Donald Trump: ils ont célèbré le but de Lukaku avec une danse du président américain (vidéo) - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOZGtuQ2RZNU9ubVBQamtFdFdELVFscXhoM3RUbVpCY3Jad3JJRDFqMWtPdHNUd25heG9CeGl3eTFEYjU5Ri1fUGtaQy1wTUxrOWlReUhUWC1HSXREUWY5LWlTYVVpOG5tekR1TDJPaUlHTHpxeWRqS0llZmNPYkpuQXdoSUVnR2hQYUFvbzlQSEdlcHQtNmpvTUNpeUFQMnBZeXpSVVlLQmg1Q05GTk9sUnZ2WjM5aVMzckQ3NjB5b1JlbVZ0d2VhQ0J4NFFZMDYyYWszZ3V0LUNHcHd6SG43UjN0bFlDUERUVFBvQkdRVTNLZVdYWU5PN0xYR2dEclE5NHdERWoyOXN6WUx6M1RGZGRReV90TU9jV0phQ2ZRVEExWmxNUDgwZFdIWTk1RmNUMVFVQmNXeDNGNUk?oc=5",
+        "source": "lavenir_g",
+        "name_only": true
+      },
+      {
+        "title": "Hymne américain hué, joie démesurée et petite pique à Trump : revivez Belgique-USA avec les supporters - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZ09VaDJGR2trakZCdXR5bjNUUUEzQUVlRnVJcTNlYVY2V0pkdU11czBHSFhTREhuR3JBVHA0ZXZXTUNwMDFvd2lKaTN3c0dmTVBsNFhVR0duZTgyUEpZNm1pc2ZaTExUZnJmYk42amxwQ3d6Um9wOHllT0p5MW5MelVWd19VRkVQdDlSaE9ZWTVGMUdjS3cwZzFFd1owTUQ0d1F0WkRuc3E2WmptcUV0R2JRQWpjVkI2R18taVAzbjNQV184ZFpkbU8zMGU0c1lHaTBZckdwZmlPWEx5Y1NUVWpyM0NsNHpKTzBxdHBB?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Wat zal Donald Trump hiervan denken? Rode Duivels vieren goal door beroemd dansje van Amerikaanse president na te bootsen - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeUs0cEpGcjI3WllNcE5HRGg1STdDWHlhQUNlbXdjZ0dDSHl3UFhlOHYwcU5aMl9Pa2tBN0ZQd2ZnckxKUjIwLVVfSlFNRjNPY0Jqc1NlRV9PVDVfaGl2Z2tiTkg2SE9Tak1uVThGOWxTMS1DZno5RWNKYk5YMmRMX3FYNkZuV0hjVlp3blo5N1ZlS1hqSFowWTQyZzZickNwN01lQWtHVEFhWE02NjJpV25SVUEwRHRSWkNhTHBlSG84N0diNHk0SGVkMnVySnZhODZHdEVmTWJQSnBHT25TcXRDNmJRbG1IUjU2QjU5YUYwNUxp?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump is oplossing voor Oekraïne “veel dichterbij” na gesprekken met Poetin en Zelensky - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQemxiSGF3QnJuZ21talZXQUxzdzI5Z2hRSXB0aHNHSXctOWI4N1ktenVNZGJKZTFpaC1rSXVXNkRaMUk5WEdpdGMxWWlPVE83VEhWRDlVSGNVLTlXSHBiWHMzMUVYU3RObWlyZTdQRFh6bXhLNXQ5WVZPZWpvcVFHYzlPc1RGb2JKRUVoTy1CLThlbU1lZ3pPYUQ2SW5zYmxiZUg4Y3o0RnBuT29VdkRsRkpIRE9qdDYwQkk2bTY2azRXSzF6T3ZDT3U0RmdWbEdWM1pRbE8zWkpKdw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Nederland haalt 29 topwetenschappers binnen die onder Trump VS verlieten - NU",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd0ZjU2d6akNEVHBpdHNCdTY4YjlES0xVd0pXWXpqblpQVE9WWnF2d2tSVWNuV3FERlN3c1c2MmVZZFRtc3FnYlZ2MFJrMElQYVhtQ0FHRDlYQUdhTWd5MGNQSml4b3NiNjE5ZVYwTGhkS1lWYnhyQU11TGVtdzJiOW5lUHpIcFJyS1kwMnZIdUN2Z2JkOHVhd013QTFBRTJWZWJJY2poQVFkMEZ0QURJY1RB?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Hoe Trump de hele wereld fan maakte van de Rode Duivels: “Het was geen fout. En we moeten met onze beste spelers kunnen spelen” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQSDc5V1E4WVRSUjJ5eERCVmV0bXdtQlo4ZldKRXlUUEZHLVo5N0FINUlXZGRXSEpnbUlZTzZHWjVPYzNpbmlPNS1McElPVEMwRzE5T3lSVzVrbUhDR0ROVFdlUTIzU1BWRW1XOHNPX0VxSExmQWZIdTdNQ3pZT1ZYTjJYbHI2RHFfSzM0WTF5WkNkQmZFd1l0VDh4WnQ2UWdySnllZmtJb1JRMjBjRzk4MzB6a3pDcjlYLUVSUTJwY2NNNGlaOXlILTB2RHY3SWFYTHQ4VWdtZ25UUVZQaC1aRlRfQVJsQzJTSHIwNDdUUXVMZU1yZjBtT3g1YklNTmNaQ2VJSTR0RQ?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "\"Waarschijnlijk overweegt Trump om importheffing van 100 procent op Belgisch bier in te voeren\": buitenlandse media steken draak met VS na oplawaai van Rode Duivels",
+        "url": "https://www.hln.be/rode-duivels/waarschijnlijk-overweegt-trump-om-importheffing-van-100-procent-op-belgisch-bier-in-te-voeren-buitenlandse-media-steken-draak-met-vs-na-oplawaai-van-rode-duivels~a0963d7c/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Wat zal Donald Trump hiervan denken? Rode Duivels vieren goal door beroemd dansje van Amerikaanse president na te bootsen",
+        "url": "https://www.hln.be/rode-duivels/wat-zal-donald-trump-hiervan-denken-rode-duivels-vieren-goal-door-beroemd-dansje-van-amerikaanse-president-na-te-bootsen~a5537ce8/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Niets dan lof voor herboren Rode Duivels in buitenlandse pers: ‘België ging gewoon voetballen, alsof Trump en Infantino lucht waren’",
+        "url": "https://www.demorgen.be/wk-voetbal/niets-dan-lof-voor-herboren-rode-duivels-in-buitenlandse-pers-belgie-ging-gewoon-voetballen-alsof-trump-en-infantino-lucht-waren~ba575e26/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Overvol café De Karper ziet Rode Duivels triomferen: bier, zweet en een luid 'Fuck Donald Trump' bij elke goal",
+        "url": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/overvol-cafe-de-karper-ziet-rode-duivels-triomferen-bier-zweet-en-een-luid-fuck-donald-trump-bij-elke-goal/158360590.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "IN BEELD. Rode Duivels vieren doelpunt van Romelu Lukaku met ‘Trump-dans’ en delen nadien hun vreugde in de tribune met hun familie",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/in-beeld.-rode-duivels-vieren-doelpunt-van-romelu-lukaku-met-trump-dans-en-delen-nadien-hun-vreugde-in-de-tribune-met-hun-familie/158359976.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Trump: “Oplossing komt veel dichterbij” na gesprekken met Poetin en Zelensky - Ruim 430 drones uitgeschakeld op weg naar Moskou",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-trump-oplossing-komt-veel-dichterbij-na-gesprekken-met-poetin-en-zelensky-ruim-430-drones-uitgeschakeld-op-weg-naar-moskou/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "ANALYSE. “Trump 1 - België 4, en nu volgt de echte test tegen het grote Spanje”",
+        "url": "https://www.nieuwsblad.be/sport/sportregio/analyse.-trump-1-belgie-4-en-nu-volgt-de-echte-test-tegen-het-grote-spanje/158360461.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "IN BEELD. Rode Duivels vieren doelpunt van Romelu Lukaku met ‘Trump-dans’ en delen nadien hun vreugde in de tribune met hun familie",
+        "url": "https://www.gva.be/sport/voetbal/in-beeld.-rode-duivels-vieren-doelpunt-van-romelu-lukaku-met-trump-dans-en-delen-nadien-hun-vreugde-in-de-tribune-met-hun-familie/158360031.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Trump: “Oplossing komt veel dichterbij” na gesprekken met Poetin en Zelensky - Ruim 430 drones uitgeschakeld op weg naar Moskou",
+        "url": "https://www.gva.be/buitenland/live-oorlog-in-oekraine.-trump-oplossing-komt-veel-dichterbij-na-gesprekken-met-poetin-en-zelensky-ruim-430-drones-uitgeschakeld-op-weg-naar-moskou/76695337.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "IN BEELD. Rode Duivels vieren doelpunt van Romelu Lukaku met ‘Trump-dans’ en delen nadien hun vreugde in de tribune met hun familie",
+        "url": "https://www.hbvl.be/sport/voetbal/in-beeld.-rode-duivels-vieren-doelpunt-van-romelu-lukaku-met-trump-dans-en-delen-nadien-hun-vreugde-in-de-tribune-met-hun-familie/158360029.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "ANALYSE. “Trump 1 - België 4, en nu volgt de echte test tegen het grote Spanje”",
+        "url": "https://www.hbvl.be/sport/voetbal/analyse.-trump-1-belgie-4-en-nu-volgt-de-echte-test-tegen-het-grote-spanje/158359161.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Prikje naar Donald Trump als ultieme revanche: Rode Duivels vieren met viraal dansje van president, dat \"groepsidee\" was",
+        "url": "https://sporza.be/nl/2026/07/07/prikje-naar-donald-trump-als-ultieme-revanche-rode-duivels-vieren-met-viraal-dansje-van-president-dat-groepsidee-was~1783394007050/",
+        "source": "sporza",
+        "name_only": true
+      },
+      {
+        "title": "Le mythe du \"brave petit belge\" réactivé par Donald Trump",
+        "url": "https://www.rtbf.be/article/le-mythe-du-brave-petit-belge-reactive-par-donald-trump-11753969",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Les Diables rouges s'imposent malgré les manigances de Trump, \"la dernière\" de Ronaldo, démission de Martinez: voici ce qu'il s'est passé cette nuit",
+        "url": "https://www.lalibre.be/sports/football/coupe-du-monde/2026/07/07/les-diables-rouges-simposent-malgre-les-manigances-de-trump-la-derniere-de-ronaldo-demission-de-martinez-voici-ce-quil-sest-passe-cette-nuit-AF5CB23MXJD5DN7VUG2WFFS45M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Sommet d’Ankara : l’attitude ambiguë de Donald Trump et des États-Unis doit provoquer “un sursaut européen” au sein de l’Otan",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/07/07/sommet-dankara-lattitude-ambigue-de-donald-trump-et-des-etats-unis-doit-provoquer-un-sursaut-europeen-au-sein-de-lotan-2E4IT4XRSJHPHCBHB2I5WPFDAA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Ils avaient le président Trump, on avait le Roi Charles : la Belgique écarte facilement les États-Unis pour défier l’ogre espagnol",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/07/ils-avaient-le-president-trump-on-avait-le-roi-charles-la-belgique-ecarte-facilement-les-etats-unis-pour-defier-logre-espagnol-Z6T2RHYZJJDFVCMUO6JMQOJSLQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump et Balogun n’ont rien changé: les Diables rouges réussissent enfin un bon match et rejoignent l’Espagne en quart de finale (1-4)",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/07/06/ngoy-raskin-et-lukebakio-favoris-les-compos-probables-detats-unis-belgique-direct-a-2h-4SQQI67MW5E2VEDKA6PNAJNXAI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Les Diables rouges ont fêté le but de Lukaku avec la danse de… Donald Trump (VIDEO)",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/07/les-diables-rouges-ont-fete-le-but-de-lukaku-avec-la-danse-de-donald-trump-video-3UTHMZ3CQ5CRTBFGWWZ5BB5PN4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Une résurgence communiste”: avant les élections, Trump ressort la peur du grand méchant Rouge",
+        "url": "https://www.7sur7.be/monde/une-resurgence-communiste-avant-les-elections-trump-ressort-la-peur-du-grand-mechant-rouge~a9da73a7/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Le plan des Européens pour tenter d'amadouer Donald Trump",
+        "url": "https://www.7sur7.be/monde/le-plan-des-europeens-pour-tenter-d-amadouer-donald-trump~a7d1aa12/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Aucun coup de fil de Trump ne pourra changer les choses”: la presse étrangère encense les Diables après leur masterclass",
+        "url": "https://www.7sur7.be/diables-rouges/aucun-coup-de-fil-de-trump-ne-pourra-changer-les-choses-la-presse-etrangere-encense-les-diables-apres-leur-masterclass~a0963d7c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "VS 1 - België 4: kunnen Trump & Infantino WK nog beïnvloeden? | Vlaamse stroom goedkoper, gas duurder | SK Hynix mikt op recordlancering op Nasdaq - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPRlJfYUhtS21aM2JoS2NjX1JaSG1pbU9SbzRIYWxXZk9ob0FiVDhpeWNSTTRiMHg0amNmbHpyajVPQmlFWWI0UFFRZGhtZ1YtSlNWNHdVQWJ1S1dFcXRUcnpFeW90bWVpQmNrSFFtUUxJc0RrWlZqMS1haDZCdGJsdmNDU1NoUFkwOHhkQ0MtcEkzM2wzZXFoN014WmFMdVl0cndVUlk5ZC11M3BPWnUyLXl5OElKTDNaV2JtQnZ0S3E5d1RaR0hJVTJVSGYzMDBVcnppQ0Q2eVkydlloVTVVdTNSaEcxel95Mk9GS1V5dTNqMEJhVHI1Z2tGSW5ISUJWN0VLU0FGYjk4WGJZNmxhRFY4Zw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "« Annule ça » : l’Union belge chambre Donald Trump sur les réseaux sociaux - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb2tjendKMXZ2SGJpal9fSVFfT3YyT2R1SEl0cGI4WTd1Y1ZKNmQ2WDdwWVRhdmhXN0xrYXdSM2dkd0F4ekk1X3hfN3FiRW83c1ZpbENSUTBLSFdBZkhFQUlkT3VTSEZxQU1qZ25sM3NtY1ZaOFVEeS1WVEFZczllOTQtNGpYc1VnZnNwbVdiTU5hWWxUdkFzVnA1WElMZ0JyNkltNGFEbkZNbUN4VG5hMHhCVDFFdw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Philippe Albert débriefe Belgique-Etats-Unis : « Une fameuse claque dans le visage d’Infantino et Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUmU1ZlpiWHBYNDhESGlTQTZKRFRUX0JLWVJ1TWZvQmRtcnFEY19qZ0UycHF1ZzV5NENsY2xjVFZXcm5md09kbWF4N05USW5CTUtDekhXUjBMX091Y2Jyb01SZDJJMXRXYXhuWHBxZnNCZUszdnc3YlBvYk81bnRKSUtpTU12V3NyRGo1aHN1SUVIS29vWUsxcWZfR0kwOGpwSnJYUnFnUUdBSEdJYnZ0U2RoVEZkenpxUDRhZHc1bmhZVzM4?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« La Belgique venge le monde du foot », « Même Trump ne peut éviter l’inévitable » : la presse internationale jubile après la victoire des Diables rouges sur les Etats-Unis - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUnU4bWhlVWdPX0pLWFUyd0JWZjRoN2NBS2Zfb0tvb2g4c0V5cVNua3laeElqbnh6MUItYXZiYmluZlJ0eXdqcHlhalIxLXpyX3pvN1JLTGRZaXZzZjFvWUw1VGhqQnVVMV84U0FzanNCRlNDRVJDd1VpTlV1c1J1b1pEZGJwcVhOakNjYW4xTU1CRUtMajh0dmp6eTRxMWxSMk9RRm9uRGhxZW5FTUZvbWloT1BXSmZXUzBYX3J5dmU?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Le chambrage des Diables envers Donald Trump: ils ont célèbré le but de Lukaku avec une danse du président américain (vidéo) - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOZGtuQ2RZNU9ubVBQamtFdFdELVFscXhoM3RUbVpCY3Jad3JJRDFqMWtPdHNUd25heG9CeGl3eTFEYjU5Ri1fUGtaQy1wTUxrOWlReUhUWC1HSXREUWY5LWlTYVVpOG5tekR1TDJPaUlHTHpxeWRqS0llZmNPYkpuQXdoSUVnR2hQYUFvbzlQSEdlcHQtNmpvTUNpeUFQMnBZeXpSVVlLQmg1Q05GTk9sUnZ2WjM5aVMzckQ3NjB5b1JlbVZ0d2VhQ0J4NFFZMDYyYWszZ3V0LUNHcHd6SG43UjN0bFlDUERUVFBvQkdRVTNLZVdYWU5PN0xYR2dEclE5NHdERWoyOXN6WUx6M1RGZGRReV90TU9jV0phQ2ZRVEExWmxNUDgwZFdIWTk1RmNUMVFVQmNXeDNGNUk?oc=5",
+        "source": "lavenir_g",
+        "name_only": true
+      },
+      {
+        "title": "Hymne américain hué, joie démesurée et petite pique à Trump : revivez Belgique-USA avec les supporters - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZ09VaDJGR2trakZCdXR5bjNUUUEzQUVlRnVJcTNlYVY2V0pkdU11czBHSFhTREhuR3JBVHA0ZXZXTUNwMDFvd2lKaTN3c0dmTVBsNFhVR0duZTgyUEpZNm1pc2ZaTExUZnJmYk42amxwQ3d6Um9wOHllT0p5MW5MelVWd19VRkVQdDlSaE9ZWTVGMUdjS3cwZzFFd1owTUQ0d1F0WkRuc3E2WmptcUV0R2JRQWpjVkI2R18taVAzbjNQV184ZFpkbU8zMGU0c1lHaTBZckdwZmlPWEx5Y1NUVWpyM0NsNHpKTzBxdHBB?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 24,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 31,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 12,
+      "crime": 12,
+      "eu": 20,
+      "politics": 16,
+      "be_gov": 8,
+      "culture": 6,
+      "tech": 6,
+      "economy": 5,
+      "sports": 78,
+      "health": 1,
+      "climate": 10,
+      "migration": 0,
+      "education": 0,
+      "weather": 15
+    },
+    "wide_themes": {
+      "war": 20,
+      "crime": 13,
+      "eu": 26,
+      "politics": 22,
+      "be_gov": 10,
+      "culture": 8,
+      "tech": 10,
+      "economy": 5,
+      "sports": 106,
+      "health": 2,
+      "climate": 14,
+      "migration": 0,
+      "education": 1,
+      "weather": 19
+    }
   }
 ]
