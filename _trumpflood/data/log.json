@@ -52953,5 +52953,477 @@
       "education": 1,
       "weather": 19
     }
+  },
+  {
+    "date": "2026-07-08",
+    "generated_at": "2026-07-08T08:14:56+02:00",
+    "last_checked_at": "2026-07-08T08:14:56+02:00",
+    "total_articles": 312,
+    "trump_articles": 5,
+    "percentage": 1.6,
+    "core_percentage": 1.6,
+    "core_percentage_name": 1.6,
+    "trump_articles_expanded": 5,
+    "core_percentage_expanded": 1.6,
+    "indirect_references": 0,
+    "wide_total_articles": 424,
+    "wide_trump_articles": 7,
+    "wide_percentage": 1.7,
+    "wide_trump_articles_expanded": 7,
+    "wide_percentage_expanded": 1.7,
+    "macro_percentage": 1.4,
+    "qualifying_outlets": 13,
+    "core_outlets_total": 19,
+    "core_outlets_active": 13,
+    "active_core_fraction": 0.684,
+    "cross_outlet_dup_headlines": 48,
+    "cross_outlet_dup_groups": 24,
+    "cross_outlet_dup_rate": 15.4,
+    "zone": "puddles",
+    "label": "Puddles are forming",
+    "narrative": "Present, but a minor figure in today's mix.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.83,
+    "breadth": 0.23,
+    "deviation": 0.76,
+    "smoothed_pct": 3.81,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_politics": {
+        "fetched": 49,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_world": {
+        "fetched": 53,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 47,
+        "today": 7,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 29,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 54,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 43,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 61,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 100.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 76,
+        "today": 10,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 47,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Le Groenland n’est \"pas à vendre\", réaffirme la Première ministre danoise en réponse à une nouvelle provocation de Trump",
+        "url": "https://www.rtbf.be/article/le-groenland-n-est-pas-a-vendre-reaffirme-la-premiere-ministre-danoise-en-reponse-a-une-nouvelle-provocation-de-trump-11754591",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "”Je ne suis pas un grand fan de l’Ukraine. Sauf leurs femmes\" : au cœur de la Maison-Blanche de Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/08/je-ne-suis-pas-un-grand-fan-de-lukraine-sauf-leurs-femmes-au-coeur-de-la-maison-blanche-de-trump-PKM7UTBW25CSBINE56AGGFERWA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une affreuse pochette, une critique acerbe de l'ère Trump... Que penser de “Foreign Tongues”, la très bonne surprise des Rolling Stones?",
+        "url": "https://www.lalibre.be/culture/2026/07/08/une-affreuse-pochette-une-critique-acerbe-de-lere-trump-que-penser-de-foreign-tongues-la-tres-bonne-surprise-des-rolling-stones-TR6IPZUVG5E6XF3ESULBEIUCBY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Belges et Français réconciliés suite à l'affaire Balogun : et si Donald Trump recevait finalement le prix Nobel de la Paix qu'il désire tant ?",
+        "url": "https://www.dhnet.be/actu/edito/2026/07/08/belges-et-francais-reconcilies-suite-a-laffaire-balogun-et-si-donald-trump-recevait-finalement-le-prix-nobel-de-la-paix-quil-desire-tant-2OMVFXRHWFCHVN6DG6A4QRDKAA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le Groenland n’est « pas à vendre », réaffirme la Première ministre danoise après les propos de Donald Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLWZNS1h0YTJYbS1ielJKLVRDUmNMSWtzbzg0NlVFU1Rja0pBZ25ZZlRkckVUcHdNRkE2ZUpBVGVsUWN6SVFad3ZJQWNmOW5fWmVMUVVuMlRPLUhSR2k3Nm53ZVBJSFlrcHBZX1lBNi1XS2lPa0pQMGVMbmhDSnRVS294WWJhZFhveHhvc1gtdDVWTGhZRGNQQjNuMk5xQjhZSjV5ZUdiUC1PdUhqbWNib091LXlIc0pvd0E5S015LXBmQmJLN2t1eg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Belges et Français réconciliés suite à l'affaire Balogun : et si Donald Trump recevait finalement le prix Nobel de la Paix qu'il désire tant ? - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQZFlfbFVDaDIxSENSWlZIZ3dGUkZFN3R5TDZ2OFJzM1FKYkNlX3NPMWtxSmRiY0h2R1Z4bVN3Z0NrRmpVR3pWUXE3RHR1MUdHclpUVm40SmkxVlZCRzJTbXdyMnljVFAzaVI4OEtEMU9zbnRDbDRuT0RrdXVwVm5SVUwteDRYV3ppSjNRaXJDdl9Ec2lzLVpPeHhkVVVKM1gxOFVhd001ZGRjeFJNWTZLYW1FZzhBZHQtQTVrLUJFbDBaZmFNQ1JwRzBpXzB4alk4b3JQQlZRdGJMQ09QVjZkNERBM1IxS1NmM1lpZGw2Q1Z3V3I3ZkRnd2doS2NkVTJIaXBiUDR4WktUaGdkY1J4YUtWT0tzMUZwc3EwNUVvTmxFXzhDcGtKUFVzUndLNlNU?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump heeft direct na landing onderhoud met Erdogan en geeft zoveelste sneer naar Navo-bondgenoten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUnBwSXZPTHBEakpaNG9LZGZGTXNOTjZOSmNpdzBoUUl2dndsaUhneDIwcTBVVTJ0UkhmREtjUm9pUkh4eExYWTBKR1k1TGQzVmhERmRKYjJYTTROYUw2dFJvNW5JeWNUb3B1QkZ1T0pkRkYwajR4X1YtVVJwQWZoTFd0SGRFVjNMajhaMVdDb3NiTlJTaTU4N0tzY1JzZkcxVUhRWGJWM2VxTkVLNFh0ZlpOTFVEZFVRd1RtU1JjOTA4OVpLS19zUE1QVm0yaEd3RDFiemRzVlFEajJhbDdoZ1RpRQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Le Groenland n’est \"pas à vendre\", réaffirme la Première ministre danoise en réponse à une nouvelle provocation de Trump",
+        "url": "https://www.rtbf.be/article/le-groenland-n-est-pas-a-vendre-reaffirme-la-premiere-ministre-danoise-en-reponse-a-une-nouvelle-provocation-de-trump-11754591",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "”Je ne suis pas un grand fan de l’Ukraine. Sauf leurs femmes\" : au cœur de la Maison-Blanche de Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/08/je-ne-suis-pas-un-grand-fan-de-lukraine-sauf-leurs-femmes-au-coeur-de-la-maison-blanche-de-trump-PKM7UTBW25CSBINE56AGGFERWA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une affreuse pochette, une critique acerbe de l'ère Trump... Que penser de “Foreign Tongues”, la très bonne surprise des Rolling Stones?",
+        "url": "https://www.lalibre.be/culture/2026/07/08/une-affreuse-pochette-une-critique-acerbe-de-lere-trump-que-penser-de-foreign-tongues-la-tres-bonne-surprise-des-rolling-stones-TR6IPZUVG5E6XF3ESULBEIUCBY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Belges et Français réconciliés suite à l'affaire Balogun : et si Donald Trump recevait finalement le prix Nobel de la Paix qu'il désire tant ?",
+        "url": "https://www.dhnet.be/actu/edito/2026/07/08/belges-et-francais-reconcilies-suite-a-laffaire-balogun-et-si-donald-trump-recevait-finalement-le-prix-nobel-de-la-paix-quil-desire-tant-2OMVFXRHWFCHVN6DG6A4QRDKAA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le Groenland n’est « pas à vendre », réaffirme la Première ministre danoise après les propos de Donald Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLWZNS1h0YTJYbS1ielJKLVRDUmNMSWtzbzg0NlVFU1Rja0pBZ25ZZlRkckVUcHdNRkE2ZUpBVGVsUWN6SVFad3ZJQWNmOW5fWmVMUVVuMlRPLUhSR2k3Nm53ZVBJSFlrcHBZX1lBNi1XS2lPa0pQMGVMbmhDSnRVS294WWJhZFhveHhvc1gtdDVWTGhZRGNQQjNuMk5xQjhZSjV5ZUdiUC1PdUhqbWNib091LXlIc0pvd0E5S015LXBmQmJLN2t1eg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 5,
+      "putin": 1,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 2,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 7,
+      "putin": 2,
+      "macron": 2,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 2,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 20,
+      "crime": 5,
+      "eu": 14,
+      "politics": 13,
+      "be_gov": 7,
+      "culture": 11,
+      "tech": 6,
+      "economy": 10,
+      "sports": 38,
+      "health": 0,
+      "climate": 3,
+      "migration": 0,
+      "education": 6,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 28,
+      "crime": 8,
+      "eu": 23,
+      "politics": 19,
+      "be_gov": 9,
+      "culture": 12,
+      "tech": 6,
+      "economy": 14,
+      "sports": 55,
+      "health": 0,
+      "climate": 4,
+      "migration": 1,
+      "education": 8,
+      "weather": 14
+    }
   }
 ]
