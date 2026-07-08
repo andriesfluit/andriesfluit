@@ -52956,41 +52956,41 @@
   },
   {
     "date": "2026-07-08",
-    "generated_at": "2026-07-08T14:06:31+02:00",
-    "last_checked_at": "2026-07-08T14:06:31+02:00",
-    "total_articles": 549,
-    "trump_articles": 24,
-    "percentage": 4.4,
-    "core_percentage": 4.4,
-    "core_percentage_name": 4.4,
-    "trump_articles_expanded": 24,
-    "core_percentage_expanded": 4.4,
+    "generated_at": "2026-07-08T20:04:41+02:00",
+    "last_checked_at": "2026-07-08T20:04:41+02:00",
+    "total_articles": 806,
+    "trump_articles": 42,
+    "percentage": 5.2,
+    "core_percentage": 5.2,
+    "core_percentage_name": 5.2,
+    "trump_articles_expanded": 42,
+    "core_percentage_expanded": 5.2,
     "indirect_references": 0,
-    "wide_total_articles": 812,
-    "wide_trump_articles": 38,
-    "wide_percentage": 4.7,
-    "wide_trump_articles_expanded": 38,
-    "wide_percentage_expanded": 4.7,
-    "macro_percentage": 5.9,
-    "qualifying_outlets": 29,
+    "wide_total_articles": 1149,
+    "wide_trump_articles": 61,
+    "wide_percentage": 5.3,
+    "wide_trump_articles_expanded": 61,
+    "wide_percentage_expanded": 5.3,
+    "macro_percentage": 5.5,
+    "qualifying_outlets": 32,
     "core_outlets_total": 19,
-    "core_outlets_active": 18,
-    "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 28,
-    "cross_outlet_dup_groups": 14,
-    "cross_outlet_dup_rate": 5.1,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 61,
+    "cross_outlet_dup_groups": 30,
+    "cross_outlet_dup_rate": 7.6,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Out-mentions every other figure combined — THE story of the day.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.85,
-    "breadth": 0.56,
-    "deviation": 2.1,
-    "smoothed_pct": 4.21,
+    "dominance": 3.5,
+    "breadth": 0.84,
+    "deviation": 2.48,
+    "smoothed_pct": 4.33,
     "assessment_method": "composite",
     "thresholds_version": "v0-eyeballed",
-    "theme_rank": 5,
+    "theme_rank": 4,
     "n_themes": 15,
     "sources": {
       "google_nl": {
@@ -53003,195 +53003,195 @@
       },
       "google_fr": {
         "fetched": 34,
-        "today": 24,
-        "kept": 24,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 8.33
+        "today": 29,
+        "kept": 29,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.34
       },
       "google_nl_politics": {
         "fetched": 47,
-        "today": 14,
-        "kept": 14,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 21.43
-      },
-      "google_nl_world": {
-        "fetched": 56,
-        "today": 29,
-        "kept": 20,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 10.0
-      },
-      "google_nl_business": {
-        "fetched": 70,
-        "today": 29,
-        "kept": 24,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_tech": {
-        "fetched": 60,
-        "today": 21,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_sport": {
-        "fetched": 48,
-        "today": 22,
-        "kept": 18,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_politics": {
-        "fetched": 29,
-        "today": 5,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_world": {
-        "fetched": 64,
-        "today": 18,
-        "kept": 14,
-        "trump": 5,
-        "trump_expanded": 5,
-        "share": 35.71
-      },
-      "google_fr_business": {
-        "fetched": 49,
-        "today": 13,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 38,
-        "kept": 38,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "standaard": {
-        "fetched": 50,
-        "today": 16,
-        "kept": 16,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 6.25
-      },
-      "hln": {
-        "fetched": 30,
-        "today": 30,
-        "kept": 30,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.33
-      },
-      "demorgen": {
-        "fetched": 28,
         "today": 17,
         "kept": 17,
         "trump": 4,
         "trump_expanded": 4,
         "share": 23.53
       },
-      "nieuwsblad": {
-        "fetched": 50,
-        "today": 50,
-        "kept": 50,
+      "google_nl_world": {
+        "fetched": 54,
+        "today": 35,
+        "kept": 31,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 16.13
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 41,
+        "kept": 36,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "gva": {
-        "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "hbvl": {
-        "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "knack": {
-        "fetched": 100,
-        "today": 30,
-        "kept": 29,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "sporza": {
-        "fetched": 20,
-        "today": 19,
+      "google_nl_tech": {
+        "fetched": 62,
+        "today": 27,
         "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "bruzz": {
-        "fetched": 100,
-        "today": 12,
-        "kept": 12,
+      "google_nl_sport": {
+        "fetched": 57,
+        "today": 37,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
+      },
+      "google_fr_politics": {
+        "fetched": 32,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "rtbf": {
-        "fetched": 20,
-        "today": 18,
-        "kept": 18,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 16.67
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 44,
-        "kept": 44,
-        "trump": 5,
-        "trump_expanded": 5,
-        "share": 11.36
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 46,
-        "kept": 44,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 6.82
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 86,
-        "kept": 86,
+      "google_fr_world": {
+        "fetched": 56,
+        "today": 29,
+        "kept": 23,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 2.33
+        "share": 8.7
       },
-      "septsursept": {
+      "google_fr_business": {
+        "fetched": 48,
+        "today": 21,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 80,
+        "kept": 57,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
         "trump": 2,
         "trump_expanded": 2,
         "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 23,
+        "kept": 23,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 21.74
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 49,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 91,
+        "kept": 91,
+        "trump": 10,
+        "trump_expanded": 10,
+        "share": 10.99
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 75,
+        "kept": 73,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 5.48
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 96,
+        "kept": 96,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 3.12
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 16.67
       },
       "bx1": {
         "fetched": 10,
@@ -53203,59 +53203,59 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 21,
-        "kept": 16,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 6.25
+        "today": 49,
+        "kept": 41,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.88
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 18,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 34,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 4,
-        "kept": 3,
+        "today": 25,
+        "kept": 23,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 33.33
+        "share": 4.35
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 19,
-        "kept": 19,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "rtl_g": {
-        "fetched": 98,
-        "today": 28,
-        "kept": 24,
+        "today": 32,
+        "kept": 32,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.17
+        "share": 3.12
+      },
+      "rtl_g": {
+        "fetched": 97,
+        "today": 41,
+        "kept": 35,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.86
       },
       "trends_g": {
-        "fetched": 75,
-        "today": 18,
-        "kept": 7,
+        "fetched": 74,
+        "today": 24,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 48,
-        "today": 12,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 60,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
       }
     },
     "core_sources": [
@@ -53281,68 +53281,122 @@
     ],
     "matches": [
       {
-        "title": "“Wat mij betreft, is het voorbij”: Trump lijkt tijdelijk bestand met Iran op te schorten na wederzijdse aanvallen",
-        "url": "https://www.standaard.be/buitenland/wat-mij-betreft-is-het-voorbij-trump-lijkt-tijdelijk-bestand-met-iran-op-te-schorten-na-wederzijdse-aanvallen/35173881.html",
-        "source": "standaard",
-        "name_only": true
-      },
-      {
-        "title": "Trump wil niets meer te maken hebben met “vreselijke bondgenoot” Spanje en gaat handel met land stopzetten",
-        "url": "https://www.hln.be/buitenland/trump-wil-niets-meer-te-maken-hebben-met-vreselijke-bondgenoot-spanje-en-gaat-handel-met-land-stopzetten~a21d25c7d/",
+        "title": "Trump haalt opnieuw hard uit naar Iran: “Ik ben doelwit nummer 1 op ‘kill list’ van die schoften”",
+        "url": "https://www.hln.be/buitenland/trump-haalt-opnieuw-hard-uit-naar-iran-ik-ben-doelwit-nummer-1-op-kill-list-van-die-schoften~a99e0324/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - EU zal lidstaten ‘altijd beschermen’, zegt Commissie na dreigement Trump tegen Spanje • Mark Rutte praat in op woedende Trump",
-        "url": "https://www.demorgen.be/snelnieuws/live-eu-zal-lidstaten-altijd-beschermen-zegt-commissie-na-dreigement-trump-tegen-spanje-mark-rutte-praat-in-op-woedende-trump~b620f7da/",
+        "title": "Trump en De Wever spreken van “enorme eensgezindheid” op NAVO-top: “Geen valse noten”",
+        "url": "https://www.hln.be/buitenland/trump-en-de-wever-spreken-van-enorme-eensgezindheid-op-navo-top-geen-valse-noten~a21d25c7d/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump-dansje’ van Romelu Lukaku laat zijn dubbelganger zweten: ‘Ik kan niet meer buitenkomen’",
+        "url": "https://www.demorgen.be/wk-voetbal/trump-dansje-van-romelu-lukaku-laat-zijn-dubbelganger-zweten-ik-kan-niet-meer-buitenkomen~b283cff5/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Live - Staakt-het-vuren met Iran voorbij, zegt Trump: ‘Het zijn kwaadaardige, gekke mensen’",
-        "url": "https://www.demorgen.be/snelnieuws/live-staakt-het-vuren-met-iran-voorbij-zegt-trump-het-zijn-kwaadaardige-gekke-mensen~be9c4f82/",
+        "title": "Live - Iran: ‘VS hebben vandaag acht Iraanse militairen gedood’ • Trump verhardt toon tegen Iran: ‘De onderhandelaars zijn een beetje gek, de leiders zijn tuig’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-verhardt-toon-tegen-iran-de-onderhandelaars-zijn-een-beetje-gek-de-leiders-zijn-tuig~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Er is geen ontsnappen aan Donald Trump, zelfs niet op het voetbalveld",
-        "url": "https://www.demorgen.be/wk-voetbal/er-is-geen-ontsnappen-aan-donald-trump-zelfs-niet-op-het-voetbalveld~bb262115/",
+        "title": "Waarom Donald Trump zich weigert te bemoeien met zijn eigen zaken",
+        "url": "https://www.demorgen.be/wk-voetbal/waarom-donald-trump-zich-weigert-te-bemoeien-met-zijn-eigen-zaken~bb262115/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Defensieboost op NAVO-top krijgt wrange bijsmaak door nieuwe Trump-uitvallen over Groenland en bondgenoten",
-        "url": "https://www.demorgen.be/nieuws/defensieboost-op-navo-top-krijgt-wrange-bijsmaak-door-nieuwe-trump-uitvallen-over-groenland-en-bondgenoten~b308d203/",
+        "title": "Live - Trump noemt NAVO-top groot succes, ondanks eerdere kritiek: ‘Enorm veel liefde in de ruimte’ • ‘Geen valse noten te noteren’ zegt De Wever",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-noemt-navo-top-groot-succes-ondanks-eerdere-kritiek-enorm-veel-liefde-in-de-ruimte-geen-valse-noten-te-noteren-zegt-de-wever~b620f7da/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Direct – Guerre au Moyen-Orient : Donald Trump dit que le cessez-le-feu avec l’Iran est \"terminé\", les prix du pétrole bondissent",
-        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-donald-trump-dit-que-le-cessez-le-feu-avec-l-iran-est-termine-les-prix-du-petrole-bondissent-11754666",
+        "title": "Terwijl Trump droomt van zijn hoofd op Mount Rushmore, smult het internet van het YMCA-dansje van de Rode Duivels",
+        "url": "https://www.demorgen.be/nieuws/terwijl-trump-droomt-van-zijn-hoofd-op-mount-rushmore-smult-het-internet-van-het-ymca-dansje-van-de-rode-duivels~b1397fc7/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft elke Amerikaanse baby beleggingsrekening van 1.000 dollar cadeau: \"Om goede start in het leven te maken\"",
+        "url": "https://www.nieuwsblad.be/opmerkelijk/trump-geeft-elke-amerikaanse-baby-beleggingsrekening-van-1.000-dollar-cadeau-om-goede-start-in-het-leven-te-maken/158449739.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump schopte wild om zich heen op NAVO-top, maar sprak na afloop over “veel liefde in de zaal”",
+        "url": "https://www.nieuwsblad.be/buitenland/donald-trump-schopte-wild-om-zich-heen-op-navo-top-maar-sprak-na-afloop-over-veel-liefde-in-de-zaal/158442732.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft elke Amerikaanse baby beleggingsrekening van 1.000 dollar cadeau: \"Om goede start in het leven te maken\"",
+        "url": "https://www.hbvl.be/opmerkelijk/trump-geeft-elke-amerikaanse-baby-beleggingsrekening-van-1.000-dollar-cadeau-om-goede-start-in-het-leven-te-maken/158462188.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump schopte wild om zich heen op NAVO-top, maar sprak na afloop over “veel liefde in de zaal”",
+        "url": "https://www.hbvl.be/buitenland/donald-trump-schopte-wild-om-zich-heen-op-navo-top-maar-sprak-na-afloop-over-veel-liefde-in-de-zaal/158462236.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Live Spanningen Midden-Oosten: Trump: 'Staakt-het-vuren in Iran is voorbij', olieprijzen ruim 5 procent omhoog - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZUpqZEdLODhRZGhvZU92NFBHTlBJVnFJaWtWRXFLUnFnOGc4Y1pGWURjTHZGM0IwRzVEeWxkVm5YMkx6cXVYNkRDcHM4Um5rRXY4ZUU4ZWl5Qkx2eURKTjg2VDIyY1JtWlBnSkNWbm9DM0thb19JTmhacXFGSVZ3MFpGdDFJZHRBM3ZKLUxDM190OTlwYnMyb2NaREh3V0dCLWtHYWNzZTlBeE1jUTRPY0JtcGJTRXJMRnpreHM3OHhqUG9IdS1aeWNvU0xOaDU1d1dNSVF5X2pLMzEtT2hrYW1XMA?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : au sommet de l'OTAN, Trump annonce la fin du cessez-le-feu avec l’Iran, les Européens resserrent les rangs",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-au-sommet-de-l-otan-trump-annonce-la-fin-du-cessez-le-feu-avec-l-iran-les-europeens-resserrent-les-rangs-11754666",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "Sommet de l’OTAN à Ankara : Trump menace l'Espagne de \"cesser tout échange commercial\", l’UE tente de rassurer Madrid",
-        "url": "https://www.rtbf.be/article/sommet-de-l-otan-a-ankara-trump-menace-l-espagne-de-cesser-tout-echange-commercial-l-ue-tente-de-rassurer-madrid-11754657",
-        "source": "rtbf",
+        "title": "Donald Trump obtient “beaucoup d’amour” et des engagements financiers de ses alliés : “Ce qui manque, c’est un message politique clair”",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/07/08/donald-trump-obtient-beaucoup-damour-et-des-engagements-financiers-de-ses-allies-ce-qui-manque-cest-un-message-politique-clair-VB3L7GWTARHCFIYAPNDAFWFNNI/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "Trump affirme que le cessez-le-feu avec l'Iran est \"terminé\" après la reprise des bombardements sur 80 cibles iraniennes",
-        "url": "https://www.rtbf.be/article/trump-affirme-que-le-cessez-le-feu-avec-l-iran-est-termine-apres-la-reprise-des-bombardements-sur-80-cibles-iraniennes-11754573",
-        "source": "rtbf",
+        "title": "Donald Trump menace de retirer toutes les troupes américaines d’Europe : “Ils ont intérêt à faire attention”",
+        "url": "https://www.lalibre.be/international/europe/2026/07/08/donald-trump-menace-de-retirer-toutes-les-troupes-americaines-deurope-ils-ont-interet-a-faire-attention-UMOXSORGENEWXCVNORDZ6YDF4A/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "Trump annonce qu’il va “cesser tout échange commercial” avec un pays européen : “Ce sont des gens mauvais et désespérants”",
-        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/08/une-cause-perdue-trump-annonce-quil-va-cesser-tout-echange-commercial-avec-ce-pays-europeen-LAVX4S3VQVDVBLIJ7MNIRVYOLE/",
+        "title": "Après les propros de Trump, les marchés s'inquiètent d'une nouvelle escalade au Moyen-Orient",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/08/apres-les-propros-de-trump-les-marches-sinquietent-dune-nouvelle-escalade-au-moyen-orient-3DBSSXHETJEVFPRCZK5F7IBIOQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Il y avait beaucoup d'amour dans la pièce\": Donald Trump rassure ses partenaires de l'Otan et prend une décision forte sur l'Ukraine",
+        "url": "https://www.lalibre.be/international/europe/2026/07/08/il-y-avait-beaucoup-damour-dans-la-piece-donald-trump-rassure-ses-partenaires-de-lotan-et-prend-une-decision-forte-sur-lukraine-4ZWRSGFPWZGHRJQAUZTAVRKBNE/",
         "source": "lalibre",
         "name_only": true
       },
       {
         "title": "”Je ne suis pas un grand fan de l’Ukraine. Sauf de leurs femmes” : au cœur de la Maison-Blanche de Trump",
         "url": "https://www.lalibre.be/international/amerique/2026/07/08/je-ne-suis-pas-un-grand-fan-de-lukraine-sauf-leurs-femmes-au-coeur-de-la-maison-blanche-de-trump-PKM7UTBW25CSBINE56AGGFERWA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Lee Greenwood, le “fabulous” chanteur “préféré” de Trump qui vend des bibles à 100 dollars",
+        "url": "https://www.lalibre.be/culture/livres-bd/2026/07/08/lee-greenwood-le-fabulous-chanteur-prefere-de-trump-qui-vend-des-bibles-a-100-dollars-YH4YQOWVDVGH3NA7SHCKBCEHCA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce qu’il va “cesser tout échange commercial” avec un pays européen : “Ce sont des gens mauvais et désespérants”",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/08/une-cause-perdue-trump-annonce-quil-va-cesser-tout-echange-commercial-avec-ce-pays-europeen-LAVX4S3VQVDVBLIJ7MNIRVYOLE/",
         "source": "lalibre",
         "name_only": true
       },
@@ -53377,32 +53431,62 @@
         "name_only": true
       },
       {
-        "title": "En direct | Guerre au Moyen-Orient: le pétrole bondit après l'annonce par Trump de la fin du cessez-le-feu avec l'Iran - L'Echo",
+        "title": "En direct | Donald Trump déclare le cessez-le-feu avec l'Iran \"terminé\", les marchés dans le rouge, le pétrole bondit - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPSmxkQUlkTGlqdjVBZHc2ZmRrVkt5T3pKWXVoZXhTZ3B1MGhQR3VCU2x3Ri1DeXNBWm90c3NXUEJpSzN4M1BQWEZzSGxPRURqX2VDSGhnZHhjV1J6ZGpITVlsS080a2UzN2lRYjRrWFRKT2lnNVI4S2Joc3Nnd1BlZ09JdksxNXk0SkRldk1VZ1FKT0Q4R01aMTN0WTFGM2ZDMjQzcmh6SjBSTEVpT1BBNVpsd3hoMTFXVXBQdXdoSnYtbEZBMXhXeDVmaS1GcWt6NURHOVNoSkV0RHhKR3FTTldxbU1yNnBxUlVLYXcwV0dOTUIxbjMySmNiZV9IWURGalJLdUxfWjNZZkRPUXZsTUdNcnB3dS1HV0xhLQ?oc=5",
         "source": "lecho",
         "name_only": true
       },
       {
-        "title": "\"Je suis très en colère\": Donald Trump s'en prend à l'Otan tous azimuts lors du sommet de l'Alliance à Ankara",
-        "url": "https://www.dhnet.be/actu/monde/2026/07/08/je-suis-tres-en-colere-donald-trump-sen-prend-a-lotan-tous-azimuts-lors-du-sommet-de-lalliance-HHN7TY6AJRGSJGLJSPNZGGZT2A/",
+        "title": "En direct | Donald Trump annonce de nouvelles frappes ce soir, l'Iran menace de fermer le détroit d'Ormuz - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPbmwyUTBlbWVYYzJ2TEhpeEVHRWx1ZWloTWtuRktLSUxBWUlDUnF2VFJiVndKWTJSZ1dMemR5N282clFvOGp3N0Z6ZThpWU9aOHR5dzJVYV9oQ2YyTzZGZHVoaWZ4Y056bl85LTFQUmJvNWJ0TUlGenVPSGR4MVFldzVoR0RyV2toUjkyckcxTWV0NmtTbXpOM1ROVDBtTmw2YVNRVFQ5aTBMcnJHTldCcXBXRGxubGNSODZCZWNadFV1SFdTYTlROS1odEI1U1c3VG85X0xBM1FVNW9WU21JUEJJb1JXVGtGWm9IN21rT3Q1OTZ3MWFTQ3pWMFhEQ0g3QkJOM3dYd3lrRnp4SnMwRw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "“Ils ont intérêt à faire attention” : Donald Trump menace les pays européens de l'Otan",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/08/ils-ont-interet-a-faire-attention-donald-trump-menace-les-pays-europeens-de-lotan-JCMM2SWYBRFX5NNIJK3YUSCDGM/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Belges et Français réconciliés suite à l'affaire Balogun : et si Donald Trump recevait finalement le prix Nobel de la Paix qu'il désire tant ?",
-        "url": "https://www.dhnet.be/actu/edito/2026/07/08/belges-et-francais-reconcilies-suite-a-laffaire-balogun-et-si-donald-trump-recevait-finalement-le-prix-nobel-de-la-paix-quil-desire-tant-2OMVFXRHWFCHVN6DG6A4QRDKAA/",
+        "title": "Trump dit que les Etats-Unis vont autoriser l'Ukraine à fabriquer cette arme : \"Vous ne pourrez pas vous plaindre qu'on ne vous en fournit pas assez\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/08/trump-dit-que-les-etats-unis-vont-autoriser-lukraine-a-fabriquer-cette-arme-vous-ne-pourrez-pas-vous-plaindre-quon-ne-vous-en-fournit-pas-assez-O2EGB4J7ZFAHNPBFCW2SR2SK5I/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Trump “très en colère contre l’Otan”, De Wever tente de rassurer",
-        "url": "https://www.7sur7.be/monde/trump-tres-en-colere-contre-lotan-de-wever-tente-de-rassurer~a52368f5/",
+        "title": "”Je ne peux plus sortir” : la vie du sosie de Romelu Lukaku a changé depuis la “Trump Dance” des Diables rouges",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/08/je-ne-peux-plus-sortir-la-vie-du-sosie-de-romelu-lukaku-a-change-depuis-la-trump-dance-des-diables-rouges-NQKV4OELWJGUVJ5UEQVILHCYBY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Scandalisée” par Trump et la FIFA, Galant réclame des comptes",
+        "url": "https://www.7sur7.be/belgique/scandalisee-par-trump-et-la-fifa-galant-reclame-des-comptes~a882f011/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Donald Trump annonce la fin du cessez-le-feu avec l’Iran, les cours du pétrole bondissent",
-        "url": "https://www.7sur7.be/monde/donald-trump-annonce-la-fin-du-cessez-le-feu-avec-liran-les-cours-du-petrole-bondissent~a8fabb59/",
+        "title": "La guerre va-t-elle reprendre en Iran après les déclarations de Trump? “Une erreur stratégique”",
+        "url": "https://www.7sur7.be/monde/la-guerre-va-t-elle-reprendre-en-iran-apres-les-declarations-de-trump-une-erreur-strategique~a6d91111/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump va autoriser l’Ukraine à fabriquer des missiles Patriot",
+        "url": "https://www.7sur7.be/monde/donald-trump-va-autoriser-lukraine-a-fabriquer-des-missiles-patriot~acbbe202/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce de nouvelles frappes contre l'Iran: \"Nous allons les frapper fort cette nuit\"",
+        "url": "https://www.7sur7.be/monde/trump-annonce-de-nouvelles-frappes-contre-l-iran-nous-allons-les-frapper-fort-cette-nuit~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump prétend être numéro 1 sur TikTok et dépasser Taylor Swift: a-t-il raison?",
+        "url": "https://www.7sur7.be/people/trump-pretend-etre-numero-1-sur-tiktok-et-depasser-taylor-swift-a-t-il-raison~a97f6c7e/",
         "source": "septsursept",
         "name_only": true
       },
@@ -53413,9 +53497,27 @@
         "name_only": true
       },
       {
+        "title": "Trump blaast bestand met Iran op: ‘Onderhandelen is tijdverspilling’ - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONk9rV093UEJic1BmbndIajBPZFhJZWswVDhCSjVOWVVaSGgtTTBPd3dib1ROWElYU0RpZms3WWdHYmlDamFxRFR1a3FMM3o3RzA2VWgyMFpBakFaUUNGOVM3LTRLcUNuSENvX2l4UmRsRmRuSm94STJmUTVOUEE0ako4Ymtqb2NvdkZNR0VOMFdENFdCcElVX01ueDhGNVZPZ1pUcFVQMkdmSV9id1RIOE9oa09nRUJPMmRmM1ptZ01EbzJ6OWZXWkVvZw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump se défoule contre les alliés européens au sommet de l’Otan - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdGs4UnJtZndLb3BnbzNrTmRDU2llamFYZ0dHN09YaGdDem1zaXlNbzlNRWZvUEY4Vk13QUt4WnVMNENtd3QtUmx2Y2RBYy0xUkNDVExnT0FySHU3cXEwVnYxY1B4MzV3dHhlcXZoSzY1YmNmcWZXRHNyeWNCYmtTdUhvV3ItTlFSQWctNHJzazFidjRDVWxHQUdUNWpuMTdqakR6S3NKamJvT2tlajVVQjB1d0hmNWpiNXc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
         "title": "Le Groenland n’est « pas à vendre », réaffirme la Première ministre danoise après les propos de Donald Trump - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLWZNS1h0YTJYbS1ielJKLVRDUmNMSWtzbzg0NlVFU1Rja0pBZ25ZZlRkckVUcHdNRkE2ZUpBVGVsUWN6SVFad3ZJQWNmOW5fWmVMUVVuMlRPLUhSR2k3Nm53ZVBJSFlrcHBZX1lBNi1XS2lPa0pQMGVMbmhDSnRVS294WWJhZFhveHhvc1gtdDVWTGhZRGNQQjNuMk5xQjhZSjV5ZUdiUC1PdUhqbWNib091LXlIc0pvd0E5S015LXBmQmJLN2t1eg?oc=5",
         "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "\"Je ne peux plus sortir\" : la vie du sosie de Romelu Lukaku a changé depuis la \"Trump Dance\" des Diables rouges - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNMkxvZFBJWVVvcVRZZ25BOG9DdGlzNi00ODRuZ05kS183ZGEyN0NxenFaTzhLS2JpRDB5R2I2YU1DaTZuN3RyMnVTN2RmRHhwblhXYkItX3Rjdk1tYmx1S2lBOWlqTzJuanU5ZXdyanEzTG8zVk5MT1p6UjhqbXYzV0VsNktndHR3U3ExWnBPS0ZrRzFZR2tXWk5SQlZtNU1DLUtjcS1BQW9FTVJRajBlMmtSOWUzdE9pVHdnZnlQdGh1NjhvS1FqVjFaUlNYUE0zXzl2MnlOY0x2T3B0bEZINGtVWXZOdExFTGpGanI4NjlLN3lHOVp5U0xvUTVNMWIzeVhKNHYzd1lnQlNWSXY0b085SmhIczZVTkRzcQ?oc=5",
+        "source": "lavenir_g",
         "name_only": true
       },
       {
@@ -53423,54 +53525,78 @@
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaXI2d0JscU9TYVRxVHh1andmRU5MSkU1S25zb25Wa2kzTWZXZndGSTVZdXRfTnJkU1JOMF9xVjVzYlV5VE5DNndSMkVoZ0oyczFpVXBxSXVLcDNkV19PU0N4ODhRVlBIN3I3Q1RGSGt4TjJwWFkyaTB6Q3B6NUJoNWZpMU9wclVpckFZZUJxTHNKUXVGTTFwMTdBRUUxdFp6RXhUeEx4Q0NQU0FXeGpPZUdHdk5ZMERnd1pB?oc=5",
         "source": "rtl_g",
         "name_only": true
+      },
+      {
+        "title": "Trump déclare le cessez-le-feu “terminé” et promet de nouvelles frappes “fortes” contre l’Iran - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa3hER2RIX0ZNSEotX3lvMEZWcjBVQjJuRllFcG91VTN3c3hnd19tRjNpWEJNRjBHd1FBUndFZ2ZzX05rVzh0Ml9aaHNUamRFWEhvWk04NWVwcThvZGZZMDFYcVZpNHVvOWpBQUVzenA0enRLclZxcktoUUVPWHVVc29lUFpmWUtIWGNzY2F6LTR3QjdYd1Ricml2OTlweFdxSnljOVdQcmFHTmI0V0JSbVUyUXBCZWlHc0txaV9fOHd2cWNId2lWelByQQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "LIVE NAVO-TOP. Trump: “Staakt-het-vuren met Iran is voorbij” - De Wever wil “focussen op Oekraïne” - HBVL",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYk5YX1U0eWxVbG9VekNaeU5lRkZLb2ViY2NSWHBHREhCUTFGQkJ0N1M1WWhfYk1uM0I0dERtNnNEa01HY1hLOUVYS0s2YWNtMUVDRkJUZ1J2SUwxOWdYakI5UXlQTFpsdjhBUHJ6RzdleUVfbk5ocFNHLUtjS2JMR3lLN3dodlZxOGVHdVU5cTdidGdjV3JqQjluYmh4ZUJIeHM2UkJpRl9lM2lLSG90V0Y0cXpnM1FtUEdCcGtHcnpncHdQMTM2SXdRNVZnZXJUc3c?oc=5",
+        "title": "Donald Trump schopte wild om zich heen op NAVO-top, maar sprak na afloop over “veel liefde in de zaal” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdWFRaHBtOC0yQXlVWmxHempPdE1teTUwS2pjWG1rS3FtaXhIeEhFUUdVTEo4Qzc4ZmN0eW5iUm1yYjZrVjUxbmpfekpXRHhqc2cyNndpbDVJbHB4RXEzNGVqR0xsem5xODZqOWVjMFVWSkFzRUJHekZMR2pxVV90aHRFeWZKWHVWSEJOai1PU2xQTzk1QkUtcmtIWVNJR3RzRHNIRzhwa2ZRVFV5RGlyYno4VXFnNTN4ZVFDS1JpUW5kazk5VTdEbUZiYjVVZmxERTl6Z1VzeHhoTUZJXzhMRUllOXJiUQ?oc=5",
         "source": "google_nl",
         "name_only": true
       },
       {
-        "title": "Trump wil niets meer te maken hebben met “vreselijke bondgenoot” Spanje en gaat handel met land stopzetten - HLN",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZmVhN3VmcFRYd19LMjU2WVhkMVZUdmJENW93S3M4R2hNQ0d3Z1Y0X0djSnp5d2gyVVZKcUNvVURxb3NkVTgxVm42RkVSUmhWeDlYNkVGQkVQMkNINVpfdmJOMmJsdmZNOWdMVE9WUDlTQjY1Yk9vUzJqTDk5NHBxaEZkeVB6NXg3STBLVHFSLXVDMHFkbmdvcHRETTNON1o3WFFuT2N1WngxbjRkR25ZTU9hVXVGWHdwVGJHMm1UamhMRGQ5bktNVEtwbHcwUGZ3OXp1bTdiNE45TUd1MGc?oc=5",
+        "title": "Trump kondigt nieuwe Amerikaanse aanvallen op Iran aan: \"We gaan hen vanavond hard raken\" - HLN",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOXZGTndKRVhjcFFSQnhVSUtFcURrTHJDRmZDd0VjQU9XRGF0QUZabFVvU2E3cFIxZVpyN2szSk1xWkp5X05VMEtSY3ZjcHh5c0oyRFBEd2FMQXc3ajBaR05VVFpSUEg5VmotV3lFUU9xOGtoY0M4OXR1bnpPSW9XZXVVZXZCM2tabHAyZk4xN1ZVdTlpekJHazFoZ3JFeVNLZ3NNTENvWXJnYlZTenlKblRFVjdtZ09WTUg4ZkxZR1NMOXJa?oc=5",
         "source": "google_nl",
         "name_only": true
       },
       {
-        "title": "Direct – Guerre au Moyen-Orient : Donald Trump dit que le cessez-le-feu avec l’Iran est \"terminé\", les prix du pétrole bondissent - RTBF",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb29QTUgweVc1eWFJOFg4ZUpKUGstdWFrNm5OVDF4STNwQno0SnJpOUpZZFUyVEk4U251YTVhb2hyaEU4N1RFenlZbWxWNUlTV2Y3WHZVeU5obnozYmJhejJyWW56ZDZadkhEZ1NEaWo2d0NxT2tDYk5Ic1VGVy1ENXMyX3FPeXR6b2JvaGxUajZ0WlpaT214c241NU1EYmRjVzFqLXhHZ0c3WkxnbzlrQlI2djNSbTEtaHFmQ0Q1N3hFaWFa?oc=5",
+        "title": "Direct – Guerre au Moyen-Orient : au sommet de l'OTAN, Trump annonce la fin du cessez-le-feu avec l’Iran, les Européens resserrent les rangs - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeVF1NVQtdlNrUGEyZ0FWa3htS2F0VzBSTXRzWnQ0cjhsM2FPOTdPdEdJZHVMZ2hoMllnS2ZHQzQwWm5VLTNvUk5aRHRfbE9GM3ktUEE4R2xmQ0ZxbkxUcEpNbXN5VmNVZGYxRDNUNEVlX3BwSVFtcXNOV1RLa0xCOE54MXNLX1BKaG5PWURnWFNyN3B3QUFHMlZobFRyTVlTLWtYdjJfdzlCUFBUQVlDZ2JLSW1zbDhlOF9EYW5NdGZFcER3cktDbDRRN1Jmb0V1Y21nTHgtX0hOREdUVm1nZDFMTHRQYlJQZzFQaWp1UGtZWk9NSmRORXpBUzEwQ1I2?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Donald Trump dit qu’il va « cesser tout échange commercial » avec un pays européen : « Une cause perdue » - Sudinfo",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRld2MzJ0UUYxajlXWjZoMWxxNXBfeTJtQklwOFRvRFFQMUZCTXRCZWVGaUpEWWxQMnFVS0kzN0RfTDllVC02OXU4UkFpNHhqdjI1R1F0bElwVGp2MVZCb1owTFR4cC1ST3NZZGVxM1pOb2FsQ1B5RWY1RnlsY0ZpWjJWdGZHQUtCNTQ0c0t1SURqb2hsNnFaa0p4dEhoWktfdVk5aUtUSUx5VzRBc1JwemVrZHBVaDdLeVRPbWEtbkFyRXRGSHoxTw?oc=5",
+        "title": "Trump dit que les Etats-Unis vont autoriser l'Ukraine à fabriquer cette arme : \"Vous ne pourrez pas vous plaindre qu'on ne vous en fournit pas assez\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQTWJEaHptcnRlNmtIbGJtRm1iTmtRZlh6ZnJzTy1ZVTlXbzBnb2M4MFBaUFZZSWh3LXUzSlBSV0ZqUHRTdm0zOUhVTHVRN0JhM3NLRGpjWWRNUVpNZExXTjBacGk2ZTg3M090YmlxVXdUU0lJWDJ3TV9lMXllaE15QkVCckhvM0x0bTRWckhrXzJvY193VHBjWG9oMl94bzJ1d1RYUEJKUGYtMTlEdGlUbmI5b2hpcjc4NkpMa1pHUXgwLWhqdC1JR0hsdUF5UTBfcE16WDJxNmpYaW1Ha2RJalMzYXRqbFVWek9SbmRHLW41RVB5R0RBbWtaQUxQVnNUUHJESEs0Q0dKTWs4a280RHQxS3UxZG5CV2w2M1ZKdVR0N0RFb25FMExNdFRVc2hrTFBlSy1kSDlYdw?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Trump verklaart overeenkomst met Iran voorbij: 'Het is tuig' - NOS",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdXZaamt6bWszeU1mdjhrclRKaUhuXzdoQXpXdkJ2dG9ETU1DRnFLR1N4ZVFFYWZ3WllyaVF3b1ozWWdZSExrVjZiM0ZseUN0VEVmVlFMeWY4TWV5R3BOb000VzRCbkhiNE1rVXh5dG9kWldmcTU5Rm9yQUZ5UkhFSVhSelRsQUFlcHE2Tzl0OWhrUQ?oc=5",
+        "title": "« Le Groenland n’est pas à vendre », réitère la Première ministre danoise en réponse à Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM3ZlU01xU3BxMzNsQ3VBRnlnNkNTakZOZ3pPZFh6T0QzUjc1eUlyb1Mtb2R5My1qc2tpV3hTalNrVG1aaC1XWmZTN09LRGxSOHVxVTNveDE3MDRTYU1FXzNGR0ZUWmNMXy0zakdVSVRLOFZFcmFfcUhJYkZPekRHRjR2X1o2WHZfbzNOVjdJbGVaLVRMVVduM29HaGVGS0JOUUhxVUh0M1hoM2ZxaXF0VG0wbTFGWDZLSmMyT2pBSmlHZw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump en De Wever spreken van “enorme eensgezindheid” op NAVO-top: “Geen valse noten” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSFBiNk9hWFhISWJxQTZWTkc2MHpOUmFBbDhHMUladC1LcWlUbmpOSUJwUEtSREhNLXozbUxzRzIxRVB1NmZ3ZTNfOGNsRHhFOGdWY3k0VVdNRmZRdFZ3TTdKWjVXM1czczNRLUJWVzFUOFZzMmtiWjFSaVBTUXV0VVBjUHY2aHU4OHNLZkpVWjE3NEFqcTBhS0FIZzhWbFpYMmI4ZHJPUmpxa3VPM2RremhDQzk1Y0NKN3dicXpB?oc=5",
         "source": "google_nl_politics",
         "name_only": true
       },
       {
-        "title": "Trump heeft direct na landing onderhoud met Erdogan en geeft zoveelste sneer naar Navo-bondgenoten - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUnBwSXZPTHBEakpaNG9LZGZGTXNOTjZOSmNpdzBoUUl2dndsaUhneDIwcTBVVTJ0UkhmREtjUm9pUkh4eExYWTBKR1k1TGQzVmhERmRKYjJYTTROYUw2dFJvNW5JeWNUb3B1QkZ1T0pkRkYwajR4X1YtVVJwQWZoTFd0SGRFVjNMajhaMVdDb3NiTlJTaTU4N0tzY1JzZkcxVUhRWGJWM2VxTkVLNFh0ZlpOTFVEZFVRd1RtU1JjOTA4OVpLS19zUE1QVm0yaEd3RDFiemRzVlFEajJhbDdoZ1RpRQ?oc=5",
+        "title": "Trump na gesprek met Zelensky: “We zullen Oekraïners tonen hoe ze Patriot-raketten moeten maken” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMGF6TnQyWDJ0TWRZSERrMlNHdTFQWndyRWozV1RvSWFIb3p6NGxTQU14Rkg5eTlsNEZndC1PcURqNHV5WUhHVktDSUpaTUt2eC1hZy04NjFwWXBpNHlwNU5zOUhzbUplT0E0aS1NVWFuX3pVT2VBSEwwMV9VajNkZlY5MmxzR0s0cXVnQkdJQzJNeG5rMjg4bHJmU0FPT0IxemJCNFZlTk8wWG5QaTdWSkJ4Q21YOVR2emtOS1lmdHBLOEswZjFEUkh3dnRlYjZERU12bmdHYlM?oc=5",
         "source": "google_nl_politics",
         "name_only": true
       },
       {
-        "title": "Deense premier reageert op nieuwe uitspraken Trump: “Groenland is uiteraard niet te koop” - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNa3BqNXNnSXpSVTl0QkJnNEFKb0QwcWdjRHdGODczYmt6bGRCUlBCZXFXbWV0UGp3U1hQbmRMeUczYkJHWmF5cDV6UlhVUUtKRkxlMVNuMm54TG9ndXZMOWhrbmlXaXkycWJhWlpvdTh4VXJPSWlzMExFZDA3bFBtd3BMSGxGeUZVTGphSkFvTWVZcEZjNk5MaVBCZ0c5U1dvc1JJbEhwTU5WNUZMRGJGbnJCUXBSUE96bHV3bTN0ZnQ5SEF1YWxKdUpTTTduMzU1NTc4?oc=5",
+        "title": "Trump verklaart overeenkomst met Iran voorbij: 'Ze zijn tuig' - NOS",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdVNicEYtSk51RUlsNGdmZU90M1JZUWJTaVVzSGtubUVjVmFuRk9xcE1JcGVwcVRnYkNJdFprc3RjU3h5Z3B0TU10bUVURE95TlBEZzdHc0lZUVI1QlA3ZW9tM0xWOWZ0V3FvRG1yRWxuUlV2OGVUbHJ4SllxOFlaaE9IUFYwY3FYSDBOQ3ZzbDZncWc?oc=5",
         "source": "google_nl_politics",
         "name_only": true
       },
       {
-        "title": "Rusland bestookt Kiev opnieuw met ballistische raketten in aanloop naar ontmoeting tussen Trump en Zelensky - HLN",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTUVjU2tMaThZaXdIMXFwVXY5dDROYzRPcjllbVJkdXVkZmJHOGlwRDI1WUFaSWxKeGM0R0dOSjhtdktSbFBubEZjQkUtTjBnekNOMnRtc2haNXByc2JrbnhTQ2tzNVEwVmlWbnllZDgzVjJxRlJqTFFqbHFhY1pIbUZPNlU5b1RlN0dEbW1YRjV2LU5vanNrYkxaTWZiVjI0Z2NSSW45WWpiSjQ4Rml4ZTMxTk54c0hHeTdnendKaDVOT19LYnBEeTQweklPVmZrSGl5STlJc3k5OFI2RlFiVw?oc=5",
+        "title": "Isolde Van den Eynde: “Feest van de eendracht! En toen viel Donald Trump Spanje nog meer eens aan live op televisie” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSFFLQ3hHYmtZUkFmalJjOEZfdmpQWUpYbFBfWUtwWF9UdHhKVlh3TzU4VGVkZksxVXROTnlhQUpmY0V5c3AzWDVWT2VBSWNxYWFPcElXZU9KcGo2bzhNcUNwR2Q5ZzBlYTBiT09FVURTTmtPZ090dUFCcFdYeEZVbDNwYUZtS3lYdml2WF9rU1A5U1Q5M2lidWh5eGVJMHRUc2dBMEpZSzlFdXN4TUVaMzVfOF85emdBNjFla25Tek9xWlhIaGVDakVObW44RHFyclY4NXdsaHJiUWhzaHhoRmhR?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump noemt NAVO-top groot succes, ondanks eerdere kritiek: ‘Enorm veel liefde in de ruimte’ • ‘Geen valse noten te noteren’ zegt De Wever - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQczZIX1JIMGlhanZPdVpWbFBxWkFqSWo2cFM3M0JGaXpEU1BBcnotN2J3RWFtUGVPV0JFdE5nZFI5cm9tenBxQTRpTExDTHVyYzRiLVlPMkd6TEgzUUFZSWxlakJndTBITnFucVJjOVBLVUh6TkphQTcxNVNNdVRpdG53VW1OYUJ1YXl1MUpBZ3NzbkQ3YXV2NDZRa2t2WEcyR0tQRndhQVF1bGRRQVFmQndoNEhlbVIycV9GV3ZXX2o3QS1vLUpCaW1FMS1jdjNmMTE2MTF2cV9XeHZQQ2JIeDZvQkFOaU9rc01KSFpYcHJmMzdQNEZDVlZyTjIxdVFESkF0Q3ZBdDZucF93?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Isolde Van den Eynde: “Feest van de eendracht! En toen viel Donald Trump Spanje nog maar eens live op televisie aan” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeFhUMVZLU29ia3RPak5xc053M1hzNjg5T2thZWNRRE5hck5OeHpEQ1lsNWpXaUFvOC1DWm0zOFdfdUQwWVFkYllzajg5UzdRNlBxQWJFWTVYNkJvQlhsdkhRYWNDVDhlMTVsTnhxUmhTZHRKenpuTDJMUmpYV3B6NFFSNm8zYXFpZG1fU1FNcF9rMlNuQnJaeUs4azF5c01lbGkyRUtqZGxQUmxlY2kwUmxjNDl4aFdnaEdjWldMWHhLTUNoMjJXYmUzVUVWUEQ0ZU92Uk9mbUpybno5dEU5S0hn?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
@@ -53481,14 +53607,26 @@
         "name_only": true
       },
       {
-        "title": "Guerre au Moyen-Orient : Donald Trump affirme que le cessez-le-feu avec l’Iran est « terminé » et évoque « un pays malade » - Sudinfo",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLXotczFvcl9GbHJEM2NvZjc0OWl0cGJwX1F3ZHBkMThRaGEzVS0zSmlocHBzUDVYOTN5aTdXb043NUo0bi11RDQtXzdqa09qZ3NCN3ctdzBoakZkYXRIMjByY0dGMzd5MzlBMURQZVhXeDFLci1kU1JJcFgtNll1dnU0SVhiWEs5dWNIdFVEYVhLU01ENmlpUUQtZVpMQXFhb0hCSDZKdjdKOGJ1amFRMENPWE85bU5FSlRVdmU4YWVmanM0VlJBaU9Caw?oc=5",
-        "source": "google_fr_world",
+        "title": "Live - NAVO-leiders beloven in slotverklaring meer geld voor defensie, grotere rol voor Europa en steun aan Oekraïne: ‘Geweldige vergadering’, zegt Trump - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNU2htZEFZWHZ4aWZfdkJKYnBGT3FXSnVoLTBCemtTUm9jZ1czTTFDWlpkTlY1SjZvTWlqZFVFeTVnNmptRWxUcXctVlFkcFFkcGhXUUZNVTRtNHJ0RzlYcExYeTVIdDVEbTFNSDFPSWZqXzhJd0hpQmpOQ2hlY2hSVklqcGt6dWh6WmlzTUdDOF9FZ0Q3X2c2Z2xQNHh4aURSbU1wZm56S1IzR2IxZ1ItMVRJcWpzU0g1UHVMOUIwTmt1ck5jTFJSRGtFUUNDZDF2cE9XMHJGOVBaOVVGZ2EweHg4dFJwcmlLdS13Zkh6Vzl5bGJBLUlFNjF2NEZDckRMVGU1cnQ0SWx6QlR3RmxGcmV2UWRiNEJ2LXJV?oc=5",
+        "source": "google_nl_world",
         "name_only": true
       },
       {
-        "title": "Donald Trump dit que les Etats-Unis vont « cesser tout échange commercial avec l’Espagne » - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYlJrdXF4VV8yTXNISU5zRmJELWRzYXlHN1FnRHM5VElzSGlRZHF4Q2N0NnlWb0dsWGs5dXVRZU5xM2xkRGR3QzdqLXRPaWdhTGRtOVJBQWtkM1lrSk0wdU01NHFmNUp2eVQ4cmVFV19BV3ViSWxRQ1NTMWx6ZHQ3R2RUQTV3V3haQXVYQ1ZXcUY2UFhWMlBJUG9xa0ZubWVFWjF6NXcyS3EyeXpnOWFQbmpaMHBsTGNhRHZPYmVDdWtSUQ?oc=5",
+        "title": "“Trump zei tegen NAVO-leiders dat hij de VS in de alliantie wil houden” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb2w0OHNVekg4V3RQNE9jaENJYnZYUk92cWVUVUVSelkyWTd3Wmo2SE1YRGxvSS1NVW5rU0l1X2N3NGhiNEM4Y2tiNjlfSzdyc2FmUXhzdVFqbUhCaGhZVldfekNzd09BSC1BVEtwLTBvTmJnaWNUWndDV0lnUVU0S3p0ZDVmLUh2cmhnRTJCZG00U1FiNHdxTEZwLWhVLW5QLVBUam5zcWR3UG5kNmpn?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Waarom Donald Trump zich weigert te bemoeien met zijn eigen zaken - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdGdLRFJnVG1oS3lGZHRPR3BUWWFNTmdXZG1LWTRUdFp1aVRLdEd6SWFKRkZCc01aTlZZWk8xWnFTVDJjdTZPZ0RwcThXbHpTNjhOZ2NqY2ItNmJZMnA4TnNnU0ZXMGxwNEFYTGVOVFJqSjhhZjgtYnR1d19UdC1LaGVERFotUi1IN19jWERoMXBqOVpKR05UZjZHeEpxbDYtM3Fud3RYamNMaFZXZWM0?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump dit qu’il va « cesser tout échange commercial » avec un pays européen : « Une cause perdue » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRld2MzJ0UUYxajlXWjZoMWxxNXBfeTJtQklwOFRvRFFQMUZCTXRCZWVGaUpEWWxQMnFVS0kzN0RfTDllVC02OXU4UkFpNHhqdjI1R1F0bElwVGp2MVZCb1owTFR4cC1ST3NZZGVxM1pOb2FsQ1B5RWY1RnlsY0ZpWjJWdGZHQUtCNTQ0c0t1SURqb2hsNnFaa0p4dEhoWktfdVk5aUtUSUx5VzRBc1JwemVrZHBVaDdLeVRPbWEtbkFyRXRGSHoxTw?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
@@ -53499,80 +53637,134 @@
         "name_only": true
       },
       {
-        "title": "Les dirigeants de l'OTAN réunis après la nouvelle offensive de Trump sur le Groenland - Euronews",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOa2NXUm1Hbk1VdVYxanFXV3pZWk11QTJkN0JDYzlyRU9IWHdFaG1RcGQ0cXVWclZXVkNydXBQVHI4UmpNV1BzRFBkREhlUzd5Zi02X1EtQWpKQlVoR19rWnc4UWp3WGVLanM1SlViRTdDcnV5S3Fzb1Yzd05ZOUJBYXFxS3FqZnNCRFRhc0tQdkl6YXpVcjd6aEJoamtFQ2hoWkZ6a2UxVkdOdTZWelozN0RucUd1b2ZTckJsSzVsUm42WjA3WHJuaQ?oc=5",
-        "source": "google_fr_world",
-        "name_only": true
-      },
-      {
-        "title": "\"Je ne suis pas un grand fan de l'Ukraine. Sauf de leurs femmes\" : au cœur de la Maison-Blanche de Trump - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOaHV3RUJsaXYwT0NWSlFDZ2Y4dEk4ZE5jT3k5OU1YYU1JV3E3OFlHcWhYVVZ1bGM0YVpLbE1nNlV2ZkNpdV9pUEJvQ1lmS0xKVUoxNFJZeWp0RUdnZFhvd3N5VDNnQllZVElrd0dMOE5lNWJNcnN3bHlJdFlid0kxcUNEcG94elppdDQwT0FhRDZoM3BzWThNYmlKVGpWTWRGazFnZUZ3MDJjMlJ1cWx3WEduWllFNjZUYVMwYlBCNE5MbjZCUWU5MzZNRnZYLUNCOFRDUlhQTHlmRXcyQzk1VHJQTTduNEtMZDNZY3dTakQwNWFaeWlncjIxZzEzNy1TVVBCWlVKaUE4Y2FFc3c?oc=5",
-        "source": "google_fr_world",
-        "name_only": true
-      },
-      {
-        "title": "“Wat mij betreft, is het voorbij”: Trump lijkt tijdelijk bestand met Iran op te schorten na wederzijdse aanvallen",
-        "url": "https://www.standaard.be/buitenland/wat-mij-betreft-is-het-voorbij-trump-lijkt-tijdelijk-bestand-met-iran-op-te-schorten-na-wederzijdse-aanvallen/35173881.html",
-        "source": "standaard",
-        "name_only": true
-      },
-      {
-        "title": "Trump wil niets meer te maken hebben met “vreselijke bondgenoot” Spanje en gaat handel met land stopzetten",
-        "url": "https://www.hln.be/buitenland/trump-wil-niets-meer-te-maken-hebben-met-vreselijke-bondgenoot-spanje-en-gaat-handel-met-land-stopzetten~a21d25c7d/",
+        "title": "Trump haalt opnieuw hard uit naar Iran: “Ik ben doelwit nummer 1 op ‘kill list’ van die schoften”",
+        "url": "https://www.hln.be/buitenland/trump-haalt-opnieuw-hard-uit-naar-iran-ik-ben-doelwit-nummer-1-op-kill-list-van-die-schoften~a99e0324/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - EU zal lidstaten ‘altijd beschermen’, zegt Commissie na dreigement Trump tegen Spanje • Mark Rutte praat in op woedende Trump",
-        "url": "https://www.demorgen.be/snelnieuws/live-eu-zal-lidstaten-altijd-beschermen-zegt-commissie-na-dreigement-trump-tegen-spanje-mark-rutte-praat-in-op-woedende-trump~b620f7da/",
+        "title": "Trump en De Wever spreken van “enorme eensgezindheid” op NAVO-top: “Geen valse noten”",
+        "url": "https://www.hln.be/buitenland/trump-en-de-wever-spreken-van-enorme-eensgezindheid-op-navo-top-geen-valse-noten~a21d25c7d/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump-dansje’ van Romelu Lukaku laat zijn dubbelganger zweten: ‘Ik kan niet meer buitenkomen’",
+        "url": "https://www.demorgen.be/wk-voetbal/trump-dansje-van-romelu-lukaku-laat-zijn-dubbelganger-zweten-ik-kan-niet-meer-buitenkomen~b283cff5/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Live - Staakt-het-vuren met Iran voorbij, zegt Trump: ‘Het zijn kwaadaardige, gekke mensen’",
-        "url": "https://www.demorgen.be/snelnieuws/live-staakt-het-vuren-met-iran-voorbij-zegt-trump-het-zijn-kwaadaardige-gekke-mensen~be9c4f82/",
+        "title": "Live - Iran: ‘VS hebben vandaag acht Iraanse militairen gedood’ • Trump verhardt toon tegen Iran: ‘De onderhandelaars zijn een beetje gek, de leiders zijn tuig’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-verhardt-toon-tegen-iran-de-onderhandelaars-zijn-een-beetje-gek-de-leiders-zijn-tuig~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Er is geen ontsnappen aan Donald Trump, zelfs niet op het voetbalveld",
-        "url": "https://www.demorgen.be/wk-voetbal/er-is-geen-ontsnappen-aan-donald-trump-zelfs-niet-op-het-voetbalveld~bb262115/",
+        "title": "Waarom Donald Trump zich weigert te bemoeien met zijn eigen zaken",
+        "url": "https://www.demorgen.be/wk-voetbal/waarom-donald-trump-zich-weigert-te-bemoeien-met-zijn-eigen-zaken~bb262115/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Defensieboost op NAVO-top krijgt wrange bijsmaak door nieuwe Trump-uitvallen over Groenland en bondgenoten",
-        "url": "https://www.demorgen.be/nieuws/defensieboost-op-navo-top-krijgt-wrange-bijsmaak-door-nieuwe-trump-uitvallen-over-groenland-en-bondgenoten~b308d203/",
+        "title": "Live - Trump noemt NAVO-top groot succes, ondanks eerdere kritiek: ‘Enorm veel liefde in de ruimte’ • ‘Geen valse noten te noteren’ zegt De Wever",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-noemt-navo-top-groot-succes-ondanks-eerdere-kritiek-enorm-veel-liefde-in-de-ruimte-geen-valse-noten-te-noteren-zegt-de-wever~b620f7da/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Direct – Guerre au Moyen-Orient : Donald Trump dit que le cessez-le-feu avec l’Iran est \"terminé\", les prix du pétrole bondissent",
-        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-donald-trump-dit-que-le-cessez-le-feu-avec-l-iran-est-termine-les-prix-du-petrole-bondissent-11754666",
+        "title": "Terwijl Trump droomt van zijn hoofd op Mount Rushmore, smult het internet van het YMCA-dansje van de Rode Duivels",
+        "url": "https://www.demorgen.be/nieuws/terwijl-trump-droomt-van-zijn-hoofd-op-mount-rushmore-smult-het-internet-van-het-ymca-dansje-van-de-rode-duivels~b1397fc7/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft elke Amerikaanse baby beleggingsrekening van 1.000 dollar cadeau: \"Om goede start in het leven te maken\"",
+        "url": "https://www.nieuwsblad.be/opmerkelijk/trump-geeft-elke-amerikaanse-baby-beleggingsrekening-van-1.000-dollar-cadeau-om-goede-start-in-het-leven-te-maken/158449739.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump schopte wild om zich heen op NAVO-top, maar sprak na afloop over “veel liefde in de zaal”",
+        "url": "https://www.nieuwsblad.be/buitenland/donald-trump-schopte-wild-om-zich-heen-op-navo-top-maar-sprak-na-afloop-over-veel-liefde-in-de-zaal/158442732.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft elke Amerikaanse baby beleggingsrekening van 1.000 dollar cadeau: \"Om goede start in het leven te maken\"",
+        "url": "https://www.gva.be/opmerkelijk/trump-geeft-elke-amerikaanse-baby-beleggingsrekening-van-1.000-dollar-cadeau-om-goede-start-in-het-leven-te-maken/158462187.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump schopte wild om zich heen op NAVO-top, maar sprak na afloop over “veel liefde in de zaal”",
+        "url": "https://www.gva.be/buitenland/donald-trump-schopte-wild-om-zich-heen-op-navo-top-maar-sprak-na-afloop-over-veel-liefde-in-de-zaal/158458661.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft elke Amerikaanse baby beleggingsrekening van 1.000 dollar cadeau: \"Om goede start in het leven te maken\"",
+        "url": "https://www.hbvl.be/opmerkelijk/trump-geeft-elke-amerikaanse-baby-beleggingsrekening-van-1.000-dollar-cadeau-om-goede-start-in-het-leven-te-maken/158462188.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump schopte wild om zich heen op NAVO-top, maar sprak na afloop over “veel liefde in de zaal”",
+        "url": "https://www.hbvl.be/buitenland/donald-trump-schopte-wild-om-zich-heen-op-navo-top-maar-sprak-na-afloop-over-veel-liefde-in-de-zaal/158462236.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Live Spanningen Midden-Oosten: Trump: 'Staakt-het-vuren in Iran is voorbij', olieprijzen ruim 5 procent omhoog - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZUpqZEdLODhRZGhvZU92NFBHTlBJVnFJaWtWRXFLUnFnOGc4Y1pGWURjTHZGM0IwRzVEeWxkVm5YMkx6cXVYNkRDcHM4Um5rRXY4ZUU4ZWl5Qkx2eURKTjg2VDIyY1JtWlBnSkNWbm9DM0thb19JTmhacXFGSVZ3MFpGdDFJZHRBM3ZKLUxDM190OTlwYnMyb2NaREh3V0dCLWtHYWNzZTlBeE1jUTRPY0JtcGJTRXJMRnpreHM3OHhqUG9IdS1aeWNvU0xOaDU1d1dNSVF5X2pLMzEtT2hrYW1XMA?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Direct – Guerre au Moyen-Orient : au sommet de l'OTAN, Trump annonce la fin du cessez-le-feu avec l’Iran, les Européens resserrent les rangs",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-au-sommet-de-l-otan-trump-annonce-la-fin-du-cessez-le-feu-avec-l-iran-les-europeens-resserrent-les-rangs-11754666",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "Sommet de l’OTAN à Ankara : Trump menace l'Espagne de \"cesser tout échange commercial\", l’UE tente de rassurer Madrid",
-        "url": "https://www.rtbf.be/article/sommet-de-l-otan-a-ankara-trump-menace-l-espagne-de-cesser-tout-echange-commercial-l-ue-tente-de-rassurer-madrid-11754657",
-        "source": "rtbf",
+        "title": "Donald Trump obtient “beaucoup d’amour” et des engagements financiers de ses alliés : “Ce qui manque, c’est un message politique clair”",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/07/08/donald-trump-obtient-beaucoup-damour-et-des-engagements-financiers-de-ses-allies-ce-qui-manque-cest-un-message-politique-clair-VB3L7GWTARHCFIYAPNDAFWFNNI/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "Trump affirme que le cessez-le-feu avec l'Iran est \"terminé\" après la reprise des bombardements sur 80 cibles iraniennes",
-        "url": "https://www.rtbf.be/article/trump-affirme-que-le-cessez-le-feu-avec-l-iran-est-termine-apres-la-reprise-des-bombardements-sur-80-cibles-iraniennes-11754573",
-        "source": "rtbf",
+        "title": "Donald Trump menace de retirer toutes les troupes américaines d’Europe : “Ils ont intérêt à faire attention”",
+        "url": "https://www.lalibre.be/international/europe/2026/07/08/donald-trump-menace-de-retirer-toutes-les-troupes-americaines-deurope-ils-ont-interet-a-faire-attention-UMOXSORGENEWXCVNORDZ6YDF4A/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "Trump annonce qu’il va “cesser tout échange commercial” avec un pays européen : “Ce sont des gens mauvais et désespérants”",
-        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/08/une-cause-perdue-trump-annonce-quil-va-cesser-tout-echange-commercial-avec-ce-pays-europeen-LAVX4S3VQVDVBLIJ7MNIRVYOLE/",
+        "title": "Après les propros de Trump, les marchés s'inquiètent d'une nouvelle escalade au Moyen-Orient",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/08/apres-les-propros-de-trump-les-marches-sinquietent-dune-nouvelle-escalade-au-moyen-orient-3DBSSXHETJEVFPRCZK5F7IBIOQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Il y avait beaucoup d'amour dans la pièce\": Donald Trump rassure ses partenaires de l'Otan et prend une décision forte sur l'Ukraine",
+        "url": "https://www.lalibre.be/international/europe/2026/07/08/il-y-avait-beaucoup-damour-dans-la-piece-donald-trump-rassure-ses-partenaires-de-lotan-et-prend-une-decision-forte-sur-lukraine-4ZWRSGFPWZGHRJQAUZTAVRKBNE/",
         "source": "lalibre",
         "name_only": true
       },
       {
         "title": "”Je ne suis pas un grand fan de l’Ukraine. Sauf de leurs femmes” : au cœur de la Maison-Blanche de Trump",
         "url": "https://www.lalibre.be/international/amerique/2026/07/08/je-ne-suis-pas-un-grand-fan-de-lukraine-sauf-leurs-femmes-au-coeur-de-la-maison-blanche-de-trump-PKM7UTBW25CSBINE56AGGFERWA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Lee Greenwood, le “fabulous” chanteur “préféré” de Trump qui vend des bibles à 100 dollars",
+        "url": "https://www.lalibre.be/culture/livres-bd/2026/07/08/lee-greenwood-le-fabulous-chanteur-prefere-de-trump-qui-vend-des-bibles-a-100-dollars-YH4YQOWVDVGH3NA7SHCKBCEHCA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce qu’il va “cesser tout échange commercial” avec un pays européen : “Ce sont des gens mauvais et désespérants”",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/08/une-cause-perdue-trump-annonce-quil-va-cesser-tout-echange-commercial-avec-ce-pays-europeen-LAVX4S3VQVDVBLIJ7MNIRVYOLE/",
         "source": "lalibre",
         "name_only": true
       },
@@ -53607,32 +53799,62 @@
         "name_only": true
       },
       {
-        "title": "En direct | Guerre au Moyen-Orient: le pétrole bondit après l'annonce par Trump de la fin du cessez-le-feu avec l'Iran - L'Echo",
+        "title": "En direct | Donald Trump déclare le cessez-le-feu avec l'Iran \"terminé\", les marchés dans le rouge, le pétrole bondit - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPSmxkQUlkTGlqdjVBZHc2ZmRrVkt5T3pKWXVoZXhTZ3B1MGhQR3VCU2x3Ri1DeXNBWm90c3NXUEJpSzN4M1BQWEZzSGxPRURqX2VDSGhnZHhjV1J6ZGpITVlsS080a2UzN2lRYjRrWFRKT2lnNVI4S2Joc3Nnd1BlZ09JdksxNXk0SkRldk1VZ1FKT0Q4R01aMTN0WTFGM2ZDMjQzcmh6SjBSTEVpT1BBNVpsd3hoMTFXVXBQdXdoSnYtbEZBMXhXeDVmaS1GcWt6NURHOVNoSkV0RHhKR3FTTldxbU1yNnBxUlVLYXcwV0dOTUIxbjMySmNiZV9IWURGalJLdUxfWjNZZkRPUXZsTUdNcnB3dS1HV0xhLQ?oc=5",
         "source": "lecho",
         "name_only": true
       },
       {
-        "title": "\"Je suis très en colère\": Donald Trump s'en prend à l'Otan tous azimuts lors du sommet de l'Alliance à Ankara",
-        "url": "https://www.dhnet.be/actu/monde/2026/07/08/je-suis-tres-en-colere-donald-trump-sen-prend-a-lotan-tous-azimuts-lors-du-sommet-de-lalliance-HHN7TY6AJRGSJGLJSPNZGGZT2A/",
+        "title": "En direct | Donald Trump annonce de nouvelles frappes ce soir, l'Iran menace de fermer le détroit d'Ormuz - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPbmwyUTBlbWVYYzJ2TEhpeEVHRWx1ZWloTWtuRktLSUxBWUlDUnF2VFJiVndKWTJSZ1dMemR5N282clFvOGp3N0Z6ZThpWU9aOHR5dzJVYV9oQ2YyTzZGZHVoaWZ4Y056bl85LTFQUmJvNWJ0TUlGenVPSGR4MVFldzVoR0RyV2toUjkyckcxTWV0NmtTbXpOM1ROVDBtTmw2YVNRVFQ5aTBMcnJHTldCcXBXRGxubGNSODZCZWNadFV1SFdTYTlROS1odEI1U1c3VG85X0xBM1FVNW9WU21JUEJJb1JXVGtGWm9IN21rT3Q1OTZ3MWFTQ3pWMFhEQ0g3QkJOM3dYd3lrRnp4SnMwRw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "“Ils ont intérêt à faire attention” : Donald Trump menace les pays européens de l'Otan",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/08/ils-ont-interet-a-faire-attention-donald-trump-menace-les-pays-europeens-de-lotan-JCMM2SWYBRFX5NNIJK3YUSCDGM/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Belges et Français réconciliés suite à l'affaire Balogun : et si Donald Trump recevait finalement le prix Nobel de la Paix qu'il désire tant ?",
-        "url": "https://www.dhnet.be/actu/edito/2026/07/08/belges-et-francais-reconcilies-suite-a-laffaire-balogun-et-si-donald-trump-recevait-finalement-le-prix-nobel-de-la-paix-quil-desire-tant-2OMVFXRHWFCHVN6DG6A4QRDKAA/",
+        "title": "Trump dit que les Etats-Unis vont autoriser l'Ukraine à fabriquer cette arme : \"Vous ne pourrez pas vous plaindre qu'on ne vous en fournit pas assez\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/08/trump-dit-que-les-etats-unis-vont-autoriser-lukraine-a-fabriquer-cette-arme-vous-ne-pourrez-pas-vous-plaindre-quon-ne-vous-en-fournit-pas-assez-O2EGB4J7ZFAHNPBFCW2SR2SK5I/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Trump “très en colère contre l’Otan”, De Wever tente de rassurer",
-        "url": "https://www.7sur7.be/monde/trump-tres-en-colere-contre-lotan-de-wever-tente-de-rassurer~a52368f5/",
+        "title": "”Je ne peux plus sortir” : la vie du sosie de Romelu Lukaku a changé depuis la “Trump Dance” des Diables rouges",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/08/je-ne-peux-plus-sortir-la-vie-du-sosie-de-romelu-lukaku-a-change-depuis-la-trump-dance-des-diables-rouges-NQKV4OELWJGUVJ5UEQVILHCYBY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Scandalisée” par Trump et la FIFA, Galant réclame des comptes",
+        "url": "https://www.7sur7.be/belgique/scandalisee-par-trump-et-la-fifa-galant-reclame-des-comptes~a882f011/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Donald Trump annonce la fin du cessez-le-feu avec l’Iran, les cours du pétrole bondissent",
-        "url": "https://www.7sur7.be/monde/donald-trump-annonce-la-fin-du-cessez-le-feu-avec-liran-les-cours-du-petrole-bondissent~a8fabb59/",
+        "title": "La guerre va-t-elle reprendre en Iran après les déclarations de Trump? “Une erreur stratégique”",
+        "url": "https://www.7sur7.be/monde/la-guerre-va-t-elle-reprendre-en-iran-apres-les-declarations-de-trump-une-erreur-strategique~a6d91111/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump va autoriser l’Ukraine à fabriquer des missiles Patriot",
+        "url": "https://www.7sur7.be/monde/donald-trump-va-autoriser-lukraine-a-fabriquer-des-missiles-patriot~acbbe202/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce de nouvelles frappes contre l'Iran: \"Nous allons les frapper fort cette nuit\"",
+        "url": "https://www.7sur7.be/monde/trump-annonce-de-nouvelles-frappes-contre-l-iran-nous-allons-les-frapper-fort-cette-nuit~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump prétend être numéro 1 sur TikTok et dépasser Taylor Swift: a-t-il raison?",
+        "url": "https://www.7sur7.be/people/trump-pretend-etre-numero-1-sur-tiktok-et-depasser-taylor-swift-a-t-il-raison~a97f6c7e/",
         "source": "septsursept",
         "name_only": true
       },
@@ -53643,9 +53865,27 @@
         "name_only": true
       },
       {
+        "title": "Trump blaast bestand met Iran op: ‘Onderhandelen is tijdverspilling’ - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONk9rV093UEJic1BmbndIajBPZFhJZWswVDhCSjVOWVVaSGgtTTBPd3dib1ROWElYU0RpZms3WWdHYmlDamFxRFR1a3FMM3o3RzA2VWgyMFpBakFaUUNGOVM3LTRLcUNuSENvX2l4UmRsRmRuSm94STJmUTVOUEE0ako4Ymtqb2NvdkZNR0VOMFdENFdCcElVX01ueDhGNVZPZ1pUcFVQMkdmSV9id1RIOE9oa09nRUJPMmRmM1ptZ01EbzJ6OWZXWkVvZw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump se défoule contre les alliés européens au sommet de l’Otan - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdGs4UnJtZndLb3BnbzNrTmRDU2llamFYZ0dHN09YaGdDem1zaXlNbzlNRWZvUEY4Vk13QUt4WnVMNENtd3QtUmx2Y2RBYy0xUkNDVExnT0FySHU3cXEwVnYxY1B4MzV3dHhlcXZoSzY1YmNmcWZXRHNyeWNCYmtTdUhvV3ItTlFSQWctNHJzazFidjRDVWxHQUdUNWpuMTdqakR6S3NKamJvT2tlajVVQjB1d0hmNWpiNXc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
         "title": "Le Groenland n’est « pas à vendre », réaffirme la Première ministre danoise après les propos de Donald Trump - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLWZNS1h0YTJYbS1ielJKLVRDUmNMSWtzbzg0NlVFU1Rja0pBZ25ZZlRkckVUcHdNRkE2ZUpBVGVsUWN6SVFad3ZJQWNmOW5fWmVMUVVuMlRPLUhSR2k3Nm53ZVBJSFlrcHBZX1lBNi1XS2lPa0pQMGVMbmhDSnRVS294WWJhZFhveHhvc1gtdDVWTGhZRGNQQjNuMk5xQjhZSjV5ZUdiUC1PdUhqbWNib091LXlIc0pvd0E5S015LXBmQmJLN2t1eg?oc=5",
         "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "\"Je ne peux plus sortir\" : la vie du sosie de Romelu Lukaku a changé depuis la \"Trump Dance\" des Diables rouges - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNMkxvZFBJWVVvcVRZZ25BOG9DdGlzNi00ODRuZ05kS183ZGEyN0NxenFaTzhLS2JpRDB5R2I2YU1DaTZuN3RyMnVTN2RmRHhwblhXYkItX3Rjdk1tYmx1S2lBOWlqTzJuanU5ZXdyanEzTG8zVk5MT1p6UjhqbXYzV0VsNktndHR3U3ExWnBPS0ZrRzFZR2tXWk5SQlZtNU1DLUtjcS1BQW9FTVJRajBlMmtSOWUzdE9pVHdnZnlQdGh1NjhvS1FqVjFaUlNYUE0zXzl2MnlOY0x2T3B0bEZINGtVWXZOdExFTGpGanI4NjlLN3lHOVp5U0xvUTVNMWIzeVhKNHYzd1lnQlNWSXY0b085SmhIczZVTkRzcQ?oc=5",
+        "source": "lavenir_g",
         "name_only": true
       },
       {
@@ -53653,17 +53893,23 @@
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaXI2d0JscU9TYVRxVHh1andmRU5MSkU1S25zb25Wa2kzTWZXZndGSTVZdXRfTnJkU1JOMF9xVjVzYlV5VE5DNndSMkVoZ0oyczFpVXBxSXVLcDNkV19PU0N4ODhRVlBIN3I3Q1RGSGt4TjJwWFkyaTB6Q3B6NUJoNWZpMU9wclVpckFZZUJxTHNKUXVGTTFwMTdBRUUxdFp6RXhUeEx4Q0NQU0FXeGpPZUdHdk5ZMERnd1pB?oc=5",
         "source": "rtl_g",
         "name_only": true
+      },
+      {
+        "title": "Trump déclare le cessez-le-feu “terminé” et promet de nouvelles frappes “fortes” contre l’Iran - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa3hER2RIX0ZNSEotX3lvMEZWcjBVQjJuRllFcG91VTN3c3hnd19tRjNpWEJNRjBHd1FBUndFZ2ZzX05rVzh0Ml9aaHNUamRFWEhvWk04NWVwcThvZGZZMDFYcVZpNHVvOWpBQUVzenA0enRLclZxcktoUUVPWHVVc29lUFpmWUtIWGNzY2F6LTR3QjdYd1Ricml2OTlweFdxSnljOVdQcmFHTmI0V0JSbVUyUXBCZWlHc0txaV9fOHd2cWNId2lWelByQQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 24,
-      "putin": 3,
-      "macron": 2,
+      "trump": 42,
+      "putin": 2,
+      "macron": 0,
       "netanyahu": 0,
-      "zelensky": 1,
-      "rutte": 1,
+      "zelensky": 2,
+      "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 5,
+      "de_wever": 7,
       "bouchez": 0,
       "magnette": 1,
       "prevot": 0,
@@ -53675,55 +53921,55 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 38,
-      "putin": 6,
-      "macron": 3,
+      "trump": 61,
+      "putin": 5,
+      "macron": 2,
       "netanyahu": 0,
-      "zelensky": 2,
-      "rutte": 1,
+      "zelensky": 4,
+      "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 11,
       "bouchez": 0,
       "magnette": 2,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 36,
-      "crime": 30,
-      "eu": 37,
-      "politics": 16,
-      "be_gov": 18,
-      "culture": 12,
-      "tech": 16,
-      "economy": 24,
-      "sports": 62,
-      "health": 5,
-      "climate": 3,
-      "migration": 1,
-      "education": 1,
-      "weather": 14
+      "war": 47,
+      "crime": 40,
+      "eu": 73,
+      "politics": 34,
+      "be_gov": 25,
+      "culture": 18,
+      "tech": 14,
+      "economy": 20,
+      "sports": 90,
+      "health": 12,
+      "climate": 5,
+      "migration": 3,
+      "education": 13,
+      "weather": 18
     },
     "wide_themes": {
-      "war": 57,
-      "crime": 36,
-      "eu": 54,
-      "politics": 30,
-      "be_gov": 30,
-      "culture": 18,
-      "tech": 28,
-      "economy": 44,
-      "sports": 92,
-      "health": 7,
-      "climate": 8,
-      "migration": 2,
-      "education": 4,
-      "weather": 20
+      "war": 73,
+      "crime": 52,
+      "eu": 107,
+      "politics": 51,
+      "be_gov": 36,
+      "culture": 24,
+      "tech": 30,
+      "economy": 35,
+      "sports": 134,
+      "health": 17,
+      "climate": 10,
+      "migration": 4,
+      "education": 19,
+      "weather": 22
     }
   }
 ]
