@@ -53971,5 +53971,561 @@
       "education": 19,
       "weather": 22
     }
+  },
+  {
+    "date": "2026-07-09",
+    "generated_at": "2026-07-09T09:03:50+02:00",
+    "last_checked_at": "2026-07-09T09:03:50+02:00",
+    "total_articles": 385,
+    "trump_articles": 9,
+    "percentage": 2.3,
+    "core_percentage": 2.3,
+    "core_percentage_name": 2.3,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 2.3,
+    "indirect_references": 0,
+    "wide_total_articles": 522,
+    "wide_trump_articles": 17,
+    "wide_percentage": 3.3,
+    "wide_trump_articles_expanded": 17,
+    "wide_percentage_expanded": 3.3,
+    "macro_percentage": 2.8,
+    "qualifying_outlets": 19,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 46,
+    "cross_outlet_dup_groups": 23,
+    "cross_outlet_dup_rate": 11.9,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "Among the top-covered figures today.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.82,
+    "breadth": 0.33,
+    "deviation": 1.07,
+    "smoothed_pct": 4.59,
+    "assessment_method": "composite",
+    "thresholds_version": "v0-eyeballed",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.52
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 53,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_world": {
+        "fetched": 63,
+        "today": 9,
+        "kept": 7,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 28.57
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 62,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 63,
+        "today": 10,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_fr_politics": {
+        "fetched": 28,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 55,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 56,
+        "kept": 48,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.17
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.17
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 40,
+        "kept": 40,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.5
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 97,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 73,
+        "today": 7,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 63,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Slechte dag voor Poetin: Navo sluit rangen, Trump geeft Oekraïne extra hulp - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUXkwaFBiLUVYZ01VZ3VOdzJCcDZjOTkyMkJzLXBYdXZuSW9XaDRISWMweFBJVDFkRG90aEJSRGVoYWpPVzhOdDhfMklwRDhEbW5hbF9wNDBseEkyWEgzcEppOFB1VXdjbm9nUzlHVnRyRTlVVk1ZZ2dpMnB2cXJyc0x4bVJjRUZ2QTRCUmhRV09mNGoyQWJHOXdiOEwxeVVTdjV1QjJ6bXMzV0ExcnFlQWJBdjhJUUhQcVJLSGYxM1M?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Slechte dag voor Poetin: Navo sluit de rangen, Trump geeft Oekraïne extra hulp - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQXBOa2tzMWpHZERvQmd4eDNweTdsamFDb3J5QmR4UWJzZk5LX0hSaDNzY1BicWxCQWZjelVfQjJBMm9uX2xLZ3E3WFI5QkVpdFFsUDZPSHRiWmEzS2NiR2VVMUxDTzhydERIZHJlb1RaaUdnaWVwc3IyYWN2X1Q3S1MwX3NXT2RGMzg5RF9yMUJnVlVjemc0Mk5lVnZmcHpCMjRBYWJuVkpOdnZVa2dhMVB4RERaSnB1NjBhNmFIT2xTR01p?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Doden gemeld na Amerikaanse aanvallen in Iran, volgens Trump wil Iran “heel graag een deal sluiten”",
+        "url": "https://www.hln.be/buitenland/doden-gemeld-na-amerikaanse-aanvallen-in-iran-volgens-trump-wil-iran-heel-graag-een-deal-sluiten~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Rode Duivel Diego Moreira komt nog eens terug op ‘Trump-dansje’: “Er zijn verschillende manieren om te vieren”",
+        "url": "https://www.hln.be/rode-duivels/rode-duivel-diego-moreira-komt-nog-eens-terug-op-trump-dansje-er-zijn-verschillende-manieren-om-te-vieren~a1abefe1/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump noemt NAVO-top groot succes • Erdogan gaf revolver aan De Wever en andere leiders",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-noemt-navo-top-groot-succes-erdogan-gaf-revolver-aan-de-wever-en-andere-leiders~b620f7da/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump vraagt Hooggerechtshof om zaken rond geboorterecht en misbruik te herbekijken",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-vraagt-hooggerechtshof-om-zaken-rond-geboorterecht-en-misbruik-te-herbekijken/158471541.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump vraagt Hooggerechtshof om zaken rond geboorterecht en misbruik te herbekijken",
+        "url": "https://www.hbvl.be/buitenland/trump-vraagt-hooggerechtshof-om-zaken-rond-geboorterecht-en-misbruik-te-herbekijken/158471704.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“Je ne peux plus sortir”: la “Trump Dance” des Diables vue par le sosie américain de Lukaku",
+        "url": "https://www.7sur7.be/diables-rouges/je-ne-peux-plus-sortir-la-trump-dance-des-diables-vue-par-le-sosie-americain-de-lukaku~a283cff5/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace de frappes “bien pires” contre l’Iran, Bahreïn et le Koweït visés",
+        "url": "https://www.7sur7.be/monde/trump-menace-de-frappes-bien-pires-contre-liran-bahrein-et-le-koweit-vises~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "KIJK. Tot tweemaal toe begaat Trump pijnlijke verspreking tijdens persconferentie met Zelensky: “Hebben jullie nog vragen voor Poetin?” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQSDh1SkEtQ1VFbWdSVk9qZzVQLWJHS0RvcExWd25jWGVWM3hQYk9nRnBYOENsUGVKYVBFUkQ4VWlXaXVLWXpCNVBHY05jSXZ1eVI3alV2SWIweTJpUmc0c1dxWWlwUGc3dGI4QllsMjZSU21hNGItVTdDczNuQ2c1eW5mMENNZXZHU2NxWXBwWFRqaFlHZUl5Nng2UllBUlQ2MEJ0MnJnWUtKeWwxSlhUeUxuZ2VHRnNOb3NPVGNhaHRCQkpGY2E5RlIzc0pOV2VNbVJVa01CeDdLQXJyMTBwcE5WSVBpanItVDlWV3ptM0U2NWJ5eGFkYzU1UlpJT0k?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Doden gemeld na Amerikaanse aanvallen in Iran, volgens Trump wil Iran “heel graag een deal sluiten” | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd3FMTndhanpjLVNQb2JXZnk1T0FGRjZYVnN4MXlqbjdnNEQ2ZE1PVWNOdm9rMk9EY0NHY3JIRmZXVHZpaEVrMUVnbU9zeWR1OVpmVVNjWGxjblk0UjVuMXYxb041QU1jWm5ibXBVak44a3RuZzV4N1lTZ1ZNZFJzUXhic0cxQy1wSms3cHdvQlhRX1p3aUpoREM5ZXNJa2xUcndMdUtvSEJxT2Y5SVNuZTcybWJEUVRlNkhudHBnQjhrZUNQR0F3bFlVNnFHVTlhNnc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump vertrekt 'uit voorzorg' niet met nieuwe Air Force One uit Turkije - RTL.nl",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUGlPUXN1VnRHUjBFc3JzQ2d6MFdNMVdnUHI0ODh0WnZxSkJGMW1LSkZ2M3hPQ3dTQmQ4MGpWTkt6UXd4S0ZXQklwbElUcGhvbmVUV0YxX0dSMXBIcWEweDNLNVNJOTlITGhoTU1vemprWlZjTl9KVkMzRnI2MlYzVi1EOGJqeFJHOWNGRHktX2RqN0g1UWhJN0ZBbnF3d3hwUVVPOTB2MEdmUnNSelhrdjBORnlad00?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump vraagt Hooggerechtshof om zaken rond geboorterecht en misbruik te herbekijken - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2F4YVYzODE3SUtWQzZnNU1aZHRtbU9YNkNpNldDOFBWaUxpZ1VBMkNlQ2Fta25IV3Bpak05b1RuLTFYbmx2UWlZZlhaQy1LcFEteTVzVXhHNTBLY3FtQlQ0bEd6U0NGVEM0RERwbnlqZGU3ZXRaSnJBcjl6b0ZsTG9YVDFuZFY1M0pLM01NYXdJMzlhdGtadHBnV1M2M05QWU95VHlTaVhBdE1PVktQXzhZNFZyUWpQQTlWR3dsRklmTmw5NklqUzFBelpxclJQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump en De Wever spreken van “enorme eensgezindheid” op NAVO-top - Trump: lot troepen VS in Europa hangt af van houding bondgenoten over Iran en Groenland” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOUnhOb1hta2swRHNfVzB0X3lCYjdpajdwZ1lRalA2V05QTE5YMHZWbWYxeU41czk4dFdVMXhsbElzVVU3Y0lpOEdkQUtKY0w2Y2JiejJZUVk1S3B0d0p0dlRyY1BIZVdLY2MzcU9wTkFMT3RXLU5xMzNiejlqczA0VWxiMnBWeXNRQVh5NGlfOGdFYW03bU1icDgzMVl5b2FvRVFWZm9oNXpRV3NxVDZVQTROLWJ6aGtKN2p4dXhvbm5EWTVMUmFNNzMwUnZDYU1EenJwVHFFcElZSjdVWGRIWHJraTZ0WXJDLTBhalhyZWxBcG1ZcF9sZ2JGOGQyM2FsRWR0NDQ2U01XTG9sQ3c0NmdvVGZGYmVlcEtr?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Rode Duivel Diego Moreira komt nog eens terug op ‘Trump-dansje’: “Er zijn verschillende manieren om te vieren” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTEhWM0ZVekZ5X1EwcXpBZ3FpRUFjN2xFNWY4OGo2eFBQLVBaQzBpQXo3Y0l5Z3Q4QUdhRVdaaDJxOTVuNnA0MEpKOHJ4WS1GbmxJWDhCdGdJMFJhakJXWlZRTFllNlV3Z2tpZnByU1RTYTQ3Rm1ZbGZ5c0FLOXo0c1ZXbGEyNHljN05NMHRBaGJKRzU2T3plcG01cExDOEE1ckwyenBCWUdiVFVXX1ZQVzQ4eHkzNWdqUmdQV2hnelliU2hnUmRRaEl6VkpYaXB3ZzNQV19CekQxdlM2ZDNtSQ?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "Slechte dag voor Poetin: Navo sluit rangen, Trump geeft Oekraïne extra hulp - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUXkwaFBiLUVYZ01VZ3VOdzJCcDZjOTkyMkJzLXBYdXZuSW9XaDRISWMweFBJVDFkRG90aEJSRGVoYWpPVzhOdDhfMklwRDhEbW5hbF9wNDBseEkyWEgzcEppOFB1VXdjbm9nUzlHVnRyRTlVVk1ZZ2dpMnB2cXJyc0x4bVJjRUZ2QTRCUmhRV09mNGoyQWJHOXdiOEwxeVVTdjV1QjJ6bXMzV0ExcnFlQWJBdjhJUUhQcVJLSGYxM1M?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Slechte dag voor Poetin: Navo sluit de rangen, Trump geeft Oekraïne extra hulp - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQXBOa2tzMWpHZERvQmd4eDNweTdsamFDb3J5QmR4UWJzZk5LX0hSaDNzY1BicWxCQWZjelVfQjJBMm9uX2xLZ3E3WFI5QkVpdFFsUDZPSHRiWmEzS2NiR2VVMUxDTzhydERIZHJlb1RaaUdnaWVwc3IyYWN2X1Q3S1MwX3NXT2RGMzg5RF9yMUJnVlVjemc0Mk5lVnZmcHpCMjRBYWJuVkpOdnZVa2dhMVB4RERaSnB1NjBhNmFIT2xTR01p?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Doden gemeld na Amerikaanse aanvallen in Iran, volgens Trump wil Iran “heel graag een deal sluiten”",
+        "url": "https://www.hln.be/buitenland/doden-gemeld-na-amerikaanse-aanvallen-in-iran-volgens-trump-wil-iran-heel-graag-een-deal-sluiten~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Rode Duivel Diego Moreira komt nog eens terug op ‘Trump-dansje’: “Er zijn verschillende manieren om te vieren”",
+        "url": "https://www.hln.be/rode-duivels/rode-duivel-diego-moreira-komt-nog-eens-terug-op-trump-dansje-er-zijn-verschillende-manieren-om-te-vieren~a1abefe1/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump noemt NAVO-top groot succes • Erdogan gaf revolver aan De Wever en andere leiders",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-noemt-navo-top-groot-succes-erdogan-gaf-revolver-aan-de-wever-en-andere-leiders~b620f7da/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump vraagt Hooggerechtshof om zaken rond geboorterecht en misbruik te herbekijken",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-vraagt-hooggerechtshof-om-zaken-rond-geboorterecht-en-misbruik-te-herbekijken/158471541.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump vraagt Hooggerechtshof om zaken rond geboorterecht en misbruik te herbekijken",
+        "url": "https://www.gva.be/buitenland/trump-vraagt-hooggerechtshof-om-zaken-rond-geboorterecht-en-misbruik-te-herbekijken/158471584.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "NAVO heeft Trump niet helemaal zijn zin gegeven",
+        "url": "https://www.gva.be/binnenland/navo-heeft-trump-niet-helemaal-zijn-zin-gegeven/158440311.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump vraagt Hooggerechtshof om zaken rond geboorterecht en misbruik te herbekijken",
+        "url": "https://www.hbvl.be/buitenland/trump-vraagt-hooggerechtshof-om-zaken-rond-geboorterecht-en-misbruik-te-herbekijken/158471704.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“Je ne peux plus sortir”: la “Trump Dance” des Diables vue par le sosie américain de Lukaku",
+        "url": "https://www.7sur7.be/diables-rouges/je-ne-peux-plus-sortir-la-trump-dance-des-diables-vue-par-le-sosie-americain-de-lukaku~a283cff5/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace de frappes “bien pires” contre l’Iran, Bahreïn et le Koweït visés",
+        "url": "https://www.7sur7.be/monde/trump-menace-de-frappes-bien-pires-contre-liran-bahrein-et-le-koweit-vises~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 9,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 7,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 17,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 1,
+      "von_der_leyen": 0,
+      "de_wever": 11,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 2
+    },
+    "themes": {
+      "war": 22,
+      "crime": 11,
+      "eu": 22,
+      "politics": 9,
+      "be_gov": 14,
+      "culture": 11,
+      "tech": 4,
+      "economy": 10,
+      "sports": 31,
+      "health": 11,
+      "climate": 6,
+      "migration": 0,
+      "education": 0,
+      "weather": 17
+    },
+    "wide_themes": {
+      "war": 31,
+      "crime": 15,
+      "eu": 32,
+      "politics": 13,
+      "be_gov": 22,
+      "culture": 13,
+      "tech": 4,
+      "economy": 17,
+      "sports": 45,
+      "health": 17,
+      "climate": 6,
+      "migration": 0,
+      "education": 1,
+      "weather": 23
+    }
   }
 ]
