@@ -1,0 +1,76 @@
+name: trumpflood anchors (manual)
+
+# On-demand: computes external anchor reference points for the zone
+# thresholds (see _trumpflood/anchors.py and methodology_review_2026-07.md).
+# GDELT is unreachable from some managed sandboxes, so this runs on the
+# Actions runner and commits the report back to the branch it ran on.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trumpflood-anchors
+  cancel-in-progress: false
+
+jobs:
+  anchors:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      # The live archive grows on main; this branch may lag behind. Borrow
+      # main's log.json so the peer anchor and the GDELT->core scale
+      # estimate use the full history, then hand it back before committing.
+      - name: Use latest live archive from main
+        run: |
+          git fetch origin main --depth 1
+          git checkout origin/main -- _trumpflood/data/log.json
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run peer anchor (offline)
+        working-directory: _trumpflood
+        run: python anchors.py peers
+
+      - name: Run GDELT anchor
+        working-directory: _trumpflood
+        run: python anchors.py gdelt
+
+      - name: Commit + push report
+        run: |
+          set -e
+          git config user.name "trumpflood-bot"
+          git config user.email "trumpflood-bot@andriesfluit.be"
+          # The borrowed live archive is not this branch's to commit.
+          git restore --staged --worktree --source=HEAD -- _trumpflood/data/log.json
+          git add _trumpflood/validation/anchors_report.json
+          if git diff --cached --quiet; then
+            echo "No report produced."
+            exit 0
+          fi
+          git commit -m "trumpflood: anchors report (peers + GDELT)"
+          git push
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Anchors report" >> $GITHUB_STEP_SUMMARY
+          if [ -f _trumpflood/validation/anchors_report.json ]; then
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            cat _trumpflood/validation/anchors_report.json >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
