@@ -1745,6 +1745,16 @@ def _methodology(latest):
         Trump met Trump Jr.&rdquo; still count once: stripping
         &ldquo;Trump Jr.&rdquo; leaves &ldquo;Donald Trump&rdquo; for the
         re-match.</li>
+        <li><strong>Dutch genitive counted since 2026-07-11.</strong>
+        Dutch writes the possessive of consonant-ending names without
+        an apostrophe (&ldquo;Trumps uitnodiging&rdquo;), which the
+        original <code>\btrump\b</code> missed (&asymp;0.4&percnt; of
+        archived Trump headlines). All consonant-ending comparator
+        names now accept a trailing <em>s</em> &mdash; applied to every
+        figure at once (Poetins, De Wevers, ...) so rank and dominance
+        stay symmetric. Daily records carry a
+        <code>pattern_version</code> marker, so days before and after
+        the change are distinguishable in the archive.</li>
         <li><strong>Time-of-day sampling &amp; peak-of-day rule.</strong>
         Fetches run three times a day at fixed UTC slots
         (03:37 / 10:37 / 16:37), which shifts by an hour between CEST

@@ -144,10 +144,15 @@ Findings:
   House-as-location incidents (shootings near the WH, a foiled attack
   at a WH event) and family stories - fine for its display-only role,
   and a reason it must not drive the zone.
-- Known name-only miss: the Dutch genitive "Trumps" ("Trumps
-  uitnodiging", "Trumps Witte Huis") escapes `\btrump\b`. Do NOT hotfix
-  the regex mid-series (it would shift the yardstick); if adopted,
-  bump a thresholds/detector version marker at the same time.
+- ~~Known name-only miss: the Dutch genitive "Trumps" escapes
+  `\btrump\b`.~~ **Fixed 2026-07-11 as a versioned change**
+  (`PATTERN_VERSION s-genitive-2026-07-11`): all consonant-ending
+  comparator names now accept a trailing s (Trumps, Poetins, De
+  Wevers, ...), applied symmetrically so rank/dominance keep their
+  footing; daily records log `pattern_version` so the archive marks
+  the cut. Jambon deliberately excluded (French plural = hams).
+  Revalidation on the same labels: name-only recall 80.4% -> 83.0%,
+  precision unchanged at 99.1%.
 
 ## Open items
 
@@ -156,5 +161,5 @@ Findings:
 - [ ] Recall against true negatives needs main.py to persist a daily
       sample of non-matching titles; until then recall is only
       measurable relative to the expanded detector.
-- [ ] Decide on the "Trumps" genitive (see above), as a versioned
-      detector change.
+- [x] "Trumps" genitive adopted as versioned pattern change
+      (s-genitive-2026-07-11, see above).

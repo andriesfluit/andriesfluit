@@ -20,6 +20,13 @@ CASES = [
     ("Witte Huis: Trump tekent decreet over migratie",    True,  "Donald via 'Trump' after stripping nothing"),
     ("Barron Trump enrolls at NYU",                       False, "youngest son"),
     ("Lara Trump considers Senate run in North Carolina", False, "daughter-in-law"),
+    # Dutch s-genitive (PATTERN_VERSION s-genitive-2026-07-11).
+    ("Trumps Witte Huis viert onafhankelijkheid VS",      True,  "Dutch genitive 'Trumps' = Donald's"),
+    ("Knicks aanvaarden Trumps uitnodiging voor viering", True,  "Dutch genitive, no bare 'Trump' token"),
+    ("Charles en Camilla drinken thee met de Trumps",     True,  "the couple includes Donald"),
+    ("Ivanka Trumps resort leidt tot protesten",          False, "genitive of the daughter, not Donald"),
+    ("Melania Trumps bijenkorf onthuld bij Witte Huis",   False, "genitive of the first lady"),
+    ("Trumpetten schallen bij de opening van het WK",     False, "'trumpetten' must not match trumps?"),
 ]
 
 

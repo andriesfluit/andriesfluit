@@ -14,8 +14,10 @@ the rank.
 import re
 
 _PATTERNS = [
-    # Direct name. Word boundary so "trumpeter" doesn't match.
-    r"\btrump\b",
+    # Direct name, incl. Dutch s-genitive ("Trumps uitnodiging"). Word
+    # boundary so "trumpeter" doesn't match. Kept in sync with
+    # comparators.PATTERN_VERSION.
+    r"\btrumps?\b",
 
     # White House / Witte Huis / Maison(-)Blanche.
     r"\bwhite\s+house\b",

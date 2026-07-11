@@ -10,7 +10,11 @@ except ImportError:                         # pragma: no cover - fallback
     ZoneInfo = None  # type: ignore
 
 from assessor import assess_composite, assess_rank_based
-from comparators import contains_donald_trump, count_matches as count_comparators
+from comparators import (
+    PATTERN_VERSION,
+    contains_donald_trump,
+    count_matches as count_comparators,
+)
 from detector import contains_trump
 from fetcher import CORE_FEED_KEYS, fetch_all
 from image_gen import generate_image
@@ -374,6 +378,9 @@ def main():
         "smoothed_pct": smoothed_pct,
         "assessment_method": assessment["method"],
         "thresholds_version": assessment.get("thresholds_version"),
+        # Which name-pattern generation counted this day (genitive
+        # handling etc.); lets the archive mark measuring-stick changes.
+        "pattern_version": PATTERN_VERSION,
         # Legacy theme rank kept as secondary context (not driving zone).
         "theme_rank": theme_rank_ctx["rank"],
         "n_themes": theme_rank_ctx["n_themes"],
