@@ -171,7 +171,13 @@ def run_peers():
 
 # ---------------------------------------------------------------- gdelt ---
 
-def _fetch_timeline(query, start_iso, end_iso, retries=4):
+# GDELT throttles per IP and shared egress IPs (GitHub Actions runners)
+# burn through the quota fast: expect 429s and dropped connections from
+# the very first request. Long waits are the only thing that helps.
+_RETRY_WAITS = [45, 90, 180, 300, 300, 300]
+
+
+def _fetch_timeline(query, start_iso, end_iso):
     import requests
     params = {
         "query": query,
@@ -180,11 +186,12 @@ def _fetch_timeline(query, start_iso, end_iso, retries=4):
         "startdatetime": start_iso.replace("-", "") + "000000",
         "enddatetime": end_iso.replace("-", "") + "235959",
     }
-    for attempt in range(retries):
+    for attempt, wait in enumerate(_RETRY_WAITS + [None]):
         try:
             r = requests.get(GDELT_URL, params=params, timeout=60)
             if r.status_code == 429:
-                wait = 30 * (attempt + 1)
+                if wait is None:
+                    r.raise_for_status()
                 print(f"    429, waiting {wait}s...", flush=True)
                 time.sleep(wait)
                 continue
@@ -196,13 +203,11 @@ def _fetch_timeline(query, start_iso, end_iso, retries=4):
                 out[f"{ts[:4]}-{ts[4:6]}-{ts[6:8]}"] = entry["value"]
             return out
         except Exception as e:
-            if attempt < retries - 1:
-                wait = 15 * (attempt + 1)
-                print(f"    {e.__class__.__name__}: {e}, waiting {wait}s...",
-                      flush=True)
-                time.sleep(wait)
-            else:
+            if wait is None:
                 raise
+            print(f"    {e.__class__.__name__}: {e}, waiting {wait}s...",
+                  flush=True)
+            time.sleep(wait)
     return {}
 
 
@@ -214,28 +219,61 @@ def _window_shares(query, start_iso, end_iso):
     return {d: counts.get(d, 0) / t * 100 for d, t in totals.items() if t > 0}
 
 
+def _load_report_section(section):
+    if REPORT_FILE.exists():
+        try:
+            return json.loads(REPORT_FILE.read_text()).get(section) or {}
+        except json.JSONDecodeError:
+            pass
+    return {}
+
+
 def run_gdelt(skip_scale=False):
+    """Resumable: each window is persisted to the report as soon as it is
+    fetched, and windows already present in the report are skipped, so a
+    rate-limited run can simply be re-run until the report is complete."""
+    prior = _load_report_section("gdelt")
+    windows = dict(prior.get("reference_windows") or {})
+    payload = {"reference_windows": windows}
+    payload["gdelt_to_core_scale"] = prior.get("gdelt_to_core_scale")
+    payload["scale_window"] = prior.get("scale_window")
+    incomplete = []
+
     print("Reference windows (GDELT, share of Belgian articles mentioning "
           "the sitting US president):\n")
-    windows = {}
     for label, query, start, end in REFERENCE_WINDOWS:
-        shares = _window_shares(query, start, end)
+        if label in windows:
+            print(f"  {label}: already in report, skipping")
+            continue
+        try:
+            shares = _window_shares(query, start, end)
+        except Exception as e:
+            print(f"  {label}: FAILED ({e.__class__.__name__}), "
+                  f"re-run later to resume")
+            incomplete.append(label)
+            continue
         if not shares:
             print(f"  {label}: NO DATA")
+            incomplete.append(label)
             continue
         windows[label] = _summ(list(shares.values()))
         w = windows[label]
         print(f"  {label:<14} median={w['median']}%  mean={w['mean']}%  "
               f"p95={w['p95']}%  max={w['max']}%  ({w['n']}d)")
+        _write_report("gdelt", payload)
 
     if not windows:
-        sys.exit("No GDELT data retrieved; is the network reachable?")
+        _write_report("gdelt", payload)
+        sys.exit("No GDELT data retrieved; re-run to try again.")
 
     normal_median = statistics.median(w["median"] for w in windows.values())
-    print(f"\nNormal-presidency median share (GDELT units): {normal_median:.2f}%")
+    payload["normal_presidency_median_gdelt"] = round(normal_median, 2)
+    print(f"\nNormal-presidency median share (GDELT units, "
+          f"{len(windows)}/{len(REFERENCE_WINDOWS)} windows): "
+          f"{normal_median:.2f}%")
 
-    scale = None
-    if not skip_scale:
+    scale = payload.get("gdelt_to_core_scale")
+    if not skip_scale and scale is None:
         # Estimate the GDELT -> core-corpus conversion on the live window:
         # fetch GDELT's trump share for the same days we have live core
         # shares, and take the median day-by-day ratio.
@@ -244,22 +282,25 @@ def run_gdelt(skip_scale=False):
             start, end = records[0]["date"], records[-1]["date"]
             print(f"\nEstimating GDELT->core scale on live overlap "
                   f"({start} .. {end})...")
-            gdelt_shares = _window_shares("trump", start, end)
+            try:
+                gdelt_shares = _window_shares("trump", start, end)
+            except Exception as e:
+                gdelt_shares = {}
+                print(f"  scale estimate FAILED ({e.__class__.__name__}), "
+                      f"re-run later to resume")
+                incomplete.append("scale")
             ratios = []
             for r in records:
                 g = gdelt_shares.get(r["date"])
                 if g and g > 0:
                     ratios.append(r["core_percentage_name"] / g)
             if ratios:
-                scale = statistics.median(ratios)
+                scale = round(statistics.median(ratios), 2)
+                payload["gdelt_to_core_scale"] = scale
+                payload["scale_window"] = f"{start} .. {end}"
                 print(f"  core_share ~= {scale:.2f} x gdelt_share "
                       f"(median of {len(ratios)} daily ratios)")
 
-    payload = {
-        "reference_windows": windows,
-        "normal_presidency_median_gdelt": round(normal_median, 2),
-        "gdelt_to_core_scale": round(scale, 2) if scale else None,
-    }
     if scale:
         core_norm = normal_median * scale
         payload["normal_presidency_median_core_units"] = round(core_norm, 2)
@@ -272,6 +313,9 @@ def run_gdelt(skip_scale=False):
                   f"({mult} x normal presidency)")
     print("\nNot written to thresholds.json; adopting these is an editorial call.")
     _write_report("gdelt", payload)
+    if incomplete:
+        sys.exit(f"Incomplete ({', '.join(incomplete)}); "
+                 f"re-run to resume from the saved report.")
 
 
 def main():
