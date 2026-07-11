@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>MyNews — Andries Fluit</title>
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        :root{--bg:#f5f4f0;--text:#1a1a1a;--text-light:#666;--border:#e0e0e0;--accent:#c8860a;--card:#fff;}
+        *{box-sizing:border-box;margin:0;padding:0;}
+        body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+        header{position:sticky;top:0;background:var(--bg);z-index:10;padding:1.5rem 0;border-bottom:1px solid var(--border);}
+        .header-content{max-width:760px;margin:0 auto;padding:0 1.5rem;display:flex;justify-content:space-between;align-items:center;}
+        .site-name{font-size:.85rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;}
+        .site-name a{color:var(--text);text-decoration:none;}
+        nav a{color:var(--text-light);text-decoration:none;font-size:.8rem;margin-left:1.2rem;}
+        nav a:hover{color:var(--text);}
+        main{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+        h1{font-size:1.9rem;font-weight:400;letter-spacing:-.02em;margin-bottom:.4rem;}
+        .sub{color:var(--text-light);font-size:.9rem;margin-bottom:2rem;}
+
+        /* Wizard */
+        .wizard{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:2rem;}
+        .step{display:none;}
+        .step.active{display:block;}
+        .step h2{font-size:1.15rem;font-weight:600;margin-bottom:.3rem;}
+        .step p.help{color:var(--text-light);font-size:.88rem;margin-bottom:1.2rem;}
+        .opt{display:flex;align-items:flex-start;gap:.7rem;padding:.7rem .9rem;border:1px solid var(--border);border-radius:8px;margin-bottom:.6rem;cursor:pointer;transition:border-color .15s,background .15s;}
+        .opt:hover{border-color:var(--accent);}
+        .opt input{margin-top:.25rem;}
+        .opt .lbl{font-weight:500;font-size:.95rem;}
+        .opt .desc{color:var(--text-light);font-size:.82rem;}
+        .wizard-nav{display:flex;justify-content:space-between;margin-top:1.5rem;}
+        button{font-family:inherit;font-size:.9rem;padding:.6rem 1.3rem;border-radius:7px;border:1px solid var(--text);background:var(--text);color:#fff;cursor:pointer;}
+        button.ghost{background:transparent;color:var(--text);}
+        button:disabled{opacity:.35;cursor:default;}
+        .dots{display:flex;gap:.4rem;justify-content:center;margin-top:1rem;}
+        .dots span{width:7px;height:7px;border-radius:50%;background:var(--border);}
+        .dots span.on{background:var(--accent);}
+
+        /* Reader */
+        .toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;}
+        .toolbar-actions{display:flex;gap:.5rem;}
+        .source-tabs{display:flex;gap:.5rem;margin-bottom:1.5rem;flex-wrap:wrap;}
+        .source-tabs button{padding:.35rem .9rem;font-size:.85rem;border-radius:999px;border:1px solid var(--border);background:transparent;color:var(--text-light);cursor:pointer;}
+        .source-tabs button.on{border-color:var(--text);color:var(--text);background:#fff;}
+        .toolbar .meta{font-size:.82rem;color:var(--text-light);}
+        .rode{background:#f0ece2;border-left:3px solid var(--accent);padding:.9rem 1.1rem;border-radius:0 8px 8px 0;margin-bottom:2rem;font-size:.95rem;}
+        .section-title{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);border-bottom:1px solid var(--border);padding-bottom:.5rem;margin:2rem 0 1.2rem;}
+        .section-note{font-size:.82rem;color:var(--text-light);font-style:italic;margin:-.6rem 0 1.2rem;}
+        .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.3rem 1.4rem;margin-bottom:1rem;}
+        .card .hnd{font-family:ui-monospace,monospace;font-size:.7rem;color:#bbb;}
+        .card h3{font-size:1.12rem;font-weight:600;margin:.15rem 0 .3rem;line-height:1.35;}
+        .card .cmeta{font-size:.78rem;color:var(--text-light);margin-bottom:.6rem;}
+        .card .rub{color:var(--accent);font-weight:600;text-transform:uppercase;letter-spacing:.03em;}
+        .src-badge{color:var(--accent);font-weight:500;}
+        .card .body{font-size:.94rem;}
+        .fb{display:flex;gap:.5rem;margin-top:.9rem;}
+        .fb button{padding:.3rem .7rem;font-size:.95rem;background:transparent;color:var(--text-light);border:1px solid var(--border);}
+        .fb button.on{border-color:var(--accent);color:var(--accent);background:#faf4e8;}
+        .empty{color:var(--text-light);text-align:center;padding:3rem 1rem;}
+        .save-hint{font-size:.78rem;color:var(--text-light);margin-top:.4rem;}
+        @media(max-width:600px){main{padding:1.5rem 1rem 3rem;}.wizard{padding:1.3rem;}}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="site-name"><a href="../index.html">Andries Fluit</a></div>
+            <nav>
+                <a href="../index.html">Work</a>
+                <a href="../about.html">About</a>
+                <a href="../contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>MyNews</h1>
+        <div class="sub">Je persoonlijke krantendigest. Begin met een paar korte vragen.</div>
+
+        <!-- WIZARD -->
+        <section id="wizard" class="wizard" hidden>
+            <div class="step" data-step="0">
+                <h2>Welke thema's wil je standaard in 'Op maat'?</h2>
+                <p class="help">Meerdere mogelijk. Deze sturen je kern-selectie.</p>
+                <div data-group="themes"></div>
+            </div>
+            <div class="step" data-step="1">
+                <h2>Hoe wil je de samenvattingen?</h2>
+                <p class="help">Kies één.</p>
+                <div data-group="depth"></div>
+            </div>
+            <div class="step" data-step="2">
+                <h2>Hoeveel 'Verrassing' buiten je voorkeuren?</h2>
+                <p class="help">Bewust gekozen artikels om je uit een echokamer te houden.</p>
+                <div data-group="surprise"></div>
+            </div>
+            <div class="step" data-step="3">
+                <h2>Welke bronnen?</h2>
+                <p class="help">Meer bronnen volgen binnenkort.</p>
+                <div data-group="sources"></div>
+            </div>
+            <div class="dots"></div>
+            <div class="wizard-nav">
+                <button class="ghost" id="prev">Vorige</button>
+                <button id="next">Volgende</button>
+            </div>
+        </section>
+
+        <!-- READER -->
+        <section id="reader" hidden>
+            <div class="toolbar">
+                <div class="meta" id="reader-meta"></div>
+                <div class="toolbar-actions">
+                    <button class="ghost" id="edit-prefs">Voorkeuren</button>
+                    <button class="ghost" id="reset-prefs">Reset</button>
+                </div>
+            </div>
+            <div class="source-tabs" id="source-tabs"></div>
+            <div id="reader-body"></div>
+        </section>
+    </main>
+
+    <script>
+    // ---- Configuration of the wizard questions ----
+    const THEMES = [
+        ["politiek","Politiek & beleid (BE/EU)","Coalities, begroting, wetgeving, machtsverhoudingen — met duiding."],
+        ["economie","Economie & ondernemen","Bedrijven, markten, arbeidsmarkt, retail, infrastructuur, filantropie."],
+        ["ai_tech_media","AI, tech & media","Impact van AI en technologie, plus de mediasector zelf."],
+        ["klimaat","Klimaat & energie","Het beleids- en maatschappelijk debat rond klimaat en energie."],
+        ["internationaal","Internationaal & geopolitiek","VS/Trump, EU-buitenland, machtsdynamiek die op Europa terugslaat."],
+        ["cultuur","Cultuur & kunst","Beeldende kunst, fotografie, muziek, film, boeken."],
+        ["wetenschap","Wetenschap & gezondheid","Onderzoek, natuur, klimaatwetenschap, gezondheid."],
+        ["reportage","Menselijke reportage / long reads","Diepe verhalen en portretten, ongeacht het onderwerp."],
+    ];
+    const DEPTH = [
+        ["alinea","Alinea met duiding","Wat er gebeurde én waarom het ertoe doet."],
+        ["kort","Kort & feitelijk","2-3 zinnen, snel te scannen."],
+        ["kop","Alleen kop + 1 zin","Maximale beknoptheid."],
+    ];
+    const SURPRISE = [
+        ["4","Zoals aanbevolen (~4)","Vier verrassingen, gevarieerd over rubrieken."],
+        ["2","Minder (~2)","Een kleine knipoog buiten je bubbel."],
+        ["6","Meer (~6)","Stevige dosis serendipiteit."],
+        ["0","Geen","Alleen 'Op maat'."],
+    ];
+    const SOURCES = [
+        ["destandaard","De Standaard","Je e-paper-abonnement.",true],
+        ["detijd","De Tijd","Je krant.tijd.be-abonnement.",true],
+    ];
+    const SOURCE_LABELS = Object.fromEntries(SOURCES.map(s=>[s[0],s[1]]));
+
+    const PREFS_KEY="mynews_prefs", FB_KEY="mynews_feedback";
+    const $=s=>document.querySelector(s);
+    const loadPrefs=()=>{try{return JSON.parse(localStorage.getItem(PREFS_KEY));}catch(e){return null;}};
+    const savePrefs=p=>localStorage.setItem(PREFS_KEY,JSON.stringify(p));
+    const loadFb=()=>{try{return JSON.parse(localStorage.getItem(FB_KEY))||{};}catch(e){return {};}};
+    const saveFb=f=>localStorage.setItem(FB_KEY,JSON.stringify(f));
+
+    // ---- Build wizard inputs ----
+    function buildGroup(name,opts,multi){
+        const wrap=document.querySelector(`[data-group="${name}"]`);
+        wrap.innerHTML="";
+        opts.forEach(o=>{
+            const [val,lbl,desc,checked]=o;
+            const id=`${name}_${val}`;
+            const el=document.createElement("label");
+            el.className="opt";
+            el.innerHTML=`<input type="${multi?'checkbox':'radio'}" name="${name}" value="${val}" id="${id}" ${checked?'checked':''}>
+                <span><span class="lbl">${lbl}</span><br><span class="desc">${desc}</span></span>`;
+            wrap.appendChild(el);
+        });
+    }
+    function initWizard(){
+        buildGroup("themes",THEMES,true);
+        buildGroup("depth",DEPTH,false);
+        buildGroup("surprise",SURPRISE,false);
+        buildGroup("sources",SOURCES,true);
+        // defaults
+        document.querySelector('[name="depth"][value="alinea"]').checked=true;
+        document.querySelector('[name="surprise"][value="4"]').checked=true;
+        // pre-fill from saved prefs
+        const p=loadPrefs();
+        if(p){
+            (p.themes||[]).forEach(v=>{const e=document.getElementById("themes_"+v);if(e)e.checked=true;});
+            if(p.depth){const e=document.querySelector(`[name="depth"][value="${p.depth}"]`);if(e)e.checked=true;}
+            if(p.surprise!=null){const e=document.querySelector(`[name="surprise"][value="${p.surprise}"]`);if(e)e.checked=true;}
+        }
+        const dots=document.querySelector(".dots");
+        dots.innerHTML=[0,1,2,3].map(i=>`<span data-dot="${i}"></span>`).join("");
+    }
+
+    let step=0; const STEPS=4;
+    function showStep(n){
+        step=Math.max(0,Math.min(STEPS-1,n));
+        document.querySelectorAll(".step").forEach(s=>s.classList.toggle("active",+s.dataset.step===step));
+        document.querySelectorAll("[data-dot]").forEach(d=>d.classList.toggle("on",+d.dataset.dot===step));
+        $("#prev").disabled=step===0;
+        $("#next").textContent=step===STEPS-1?"Klaar":"Volgende";
+    }
+    function collectPrefs(){
+        const get=(name)=>[...document.querySelectorAll(`[name="${name}"]:checked`)].map(e=>e.value);
+        return {
+            themes:get("themes"),
+            depth:get("depth")[0]||"alinea",
+            surprise:parseInt(get("surprise")[0]||"4",10),
+            sources:get("sources"),
+            saved_at:new Date().toISOString(),
+        };
+    }
+
+    // ---- Reader ----
+    function cardHtml(a,i){
+        const fb=loadFb();
+        const cur=fb[a.handle]||"";
+        // Meta hierarchy matches the mail/text: rubriek first as the scan
+        // anchor, then krant · pagina · auteur, feedback-code last and dimmed.
+        const bits=[];
+        if(a.rubriek) bits.push(`<span class="rub">${escapeHtml(a.rubriek)}</span>`);
+        if(a.bron) bits.push(`<span class="src-badge">${escapeHtml(a.bron)}</span>`);
+        if(a.page!=null&&a.page!=="") bits.push(`p${escapeHtml(String(a.page))}`);
+        if(a.author) bits.push(escapeHtml(a.author));
+        if(a.handle) bits.push(`<span class="hnd">${escapeHtml(a.handle)}</span>`);
+        const srcs=(a.sources&&a.sources.length)?a.sources:(a.source?[a.source]:[]);
+        return `<div class="card" data-handle="${a.handle}" data-sources="${srcs.join(' ')}">
+            <h3>${i}. ${escapeHtml(a.title)}</h3>
+            <div class="cmeta">${bits.join(" · ")}</div>
+            <div class="body">${escapeHtml(a.samenvatting)}</div>
+            <div class="fb">
+                <button data-v="+" class="${cur==='+'?'on':''}">👍</button>
+                <button data-v="-" class="${cur==='-'?'on':''}">👎</button>
+            </div>
+        </div>`;
+    }
+    function escapeHtml(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+    let currentFilter="all", lastDigest=null;
+    function buildFilterTabs(d){
+        const tabs=$("#source-tabs");
+        const present=[...new Set([...(d.kern||[]),...(d.verrassing||[])].flatMap(a=>(a.sources&&a.sources.length)?a.sources:(a.source?[a.source]:[])))];
+        if(present.length<=1){tabs.innerHTML="";return;}
+        const opts=[["all","Alles"],...present.map(s=>[s,SOURCE_LABELS[s]||s])];
+        tabs.innerHTML=opts.map(([k,l])=>`<button data-filter="${k}" class="${k===currentFilter?'on':''}">${l}</button>`).join("");
+        tabs.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{currentFilter=b.dataset.filter;applyFilter();buildFilterTabs(lastDigest);}));
+    }
+    function applyFilter(){
+        $("#reader-body").querySelectorAll(".card").forEach(c=>{
+            const srcs=(c.dataset.sources||"").split(" ").filter(Boolean);
+            c.style.display=(currentFilter==="all"||srcs.includes(currentFilter))?"":"none";
+        });
+    }
+    async function renderReader(){
+        $("#wizard").hidden=true; $("#reader").hidden=false;
+        const body=$("#reader-body");
+        body.innerHTML=`<div class="empty">Laden…</div>`;
+        let d;
+        try{
+            const r=await fetch("data/latest.json",{cache:"no-store"});
+            if(!r.ok) throw new Error(r.status);
+            d=await r.json();
+        }catch(e){
+            body.innerHTML=`<div class="empty">Nog geen digest beschikbaar.<br><small>De pipeline publiceert <code>data/latest.json</code> na de volgende run.</small></div>`;
+            $("#reader-meta").textContent=""; $("#source-tabs").innerHTML="";
+            return;
+        }
+        lastDigest=d;
+        $("#reader-meta").textContent=`${d.date} · ${d.label||''} · ${d.article_count} artikels gescand`;
+        let h="";
+        if(d.rode_draad) h+=`<div class="rode"><strong>Rode draad.</strong> ${escapeHtml(d.rode_draad)}</div>`;
+        const cnt=n=>n===1?`${n} artikel`:`${n} artikels`;
+        h+=`<div class="section-title">Op maat · ${cnt((d.kern||[]).length)}</div>`;
+        h+=(d.kern||[]).map((a,i)=>cardHtml(a,i+1)).join("");
+        if((d.verrassing||[]).length){
+            h+=`<div class="section-title">Verrassing · ${cnt(d.verrassing.length)}</div>`;
+            h+=`<div class="section-note">Bewust gekozen buiten je voorkeuren, om je geen echokamer in te sturen.</div>`;
+            h+=d.verrassing.map((a,i)=>cardHtml(a,i+1)).join("");
+        }
+        body.innerHTML=h;
+        buildFilterTabs(d); applyFilter();
+        // wire feedback
+        body.querySelectorAll(".card").forEach(card=>{
+            card.querySelectorAll(".fb button").forEach(btn=>{
+                btn.addEventListener("click",()=>{
+                    const fb=loadFb(); const hnd=card.dataset.handle; const v=btn.dataset.v;
+                    fb[hnd]=fb[hnd]===v?undefined:v;
+                    if(!fb[hnd]) delete fb[hnd];
+                    saveFb(fb);
+                    card.querySelectorAll(".fb button").forEach(b=>b.classList.toggle("on",fb[hnd]===b.dataset.v));
+                });
+            });
+        });
+    }
+
+    // ---- Boot ----
+    function startWizard(){
+        $("#reader").hidden=true; $("#wizard").hidden=false;
+        initWizard(); showStep(0);
+    }
+    $("#next").addEventListener("click",()=>{
+        if(step<STEPS-1){showStep(step+1);}
+        else{savePrefs(collectPrefs());renderReader();}
+    });
+    $("#prev").addEventListener("click",()=>showStep(step-1));
+    $("#edit-prefs").addEventListener("click",startWizard);
+    $("#reset-prefs").addEventListener("click",()=>{
+        if(confirm("Alle voorkeuren én feedback op dit toestel wissen en opnieuw beginnen?")){
+            localStorage.removeItem(PREFS_KEY);
+            localStorage.removeItem(FB_KEY);
+            startWizard();
+        }
+    });
+
+    if(loadPrefs()) renderReader(); else startWizard();
+    </script>
+</body>
+</html>

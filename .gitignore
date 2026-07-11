@@ -2,7 +2,10 @@
 *.DS_Store
 .idea/
 .vscode/
-.claude/
+.claude/*
+!.claude/settings.json
+!.claude/hooks/
+!.claude/hooks/**
 org/
 
 # Large duplicate images in root (originals are in img/)
@@ -26,5 +29,22 @@ _trumpflood/venv/
 _trumpflood/__pycache__/
 _trumpflood/logs/
 _trumpflood/.DS_Store
+
+# Mediamonitor: same idea.
+_mediamonitor/venv/
+_mediamonitor/__pycache__/
+_mediamonitor/logs/
+_mediamonitor/.DS_Store
+# Local dry-run previews
+_mediamonitor/data/preview-*
 # Legacy per-day images + HTML output (publishing is now /trumpflood/ at repo root).
 _trumpflood/output/
+# Hero-layout variant previews (built by build_variants.py for design review).
+trumpflood/_variants/
+
+# Destandaard: commit source + digests + history + feedback; skip runtime junk.
+_destandaard/venv/
+_destandaard/__pycache__/
+_destandaard/.DS_Store
+# Local dry-run HTML previews (the committed digest is the .md).
+_destandaard/data/digests/*.html

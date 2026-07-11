@@ -1,5 +1,8 @@
 // photos.js - Single source of truth for all photo data
-// To add a new photo: add an entry to the PHOTOS array below
+// To add a new photo: add an entry to the PHOTOS array below.
+// To change the rotating hero set, edit HERO_PHOTO_KEYS. One is picked at random per page load.
+
+const HERO_PHOTO_KEYS = ['print20', 'print13', 'print8', 'print2'];
 
 const PRINT_SIZES = [
     { id: 'a4', label: 'A4 (21 x 29.7 cm)', multiplier: 0.7 },
@@ -8,145 +11,176 @@ const PRINT_SIZES = [
     { id: 'custom', label: 'Other size - Contact me', multiplier: null }
 ];
 
+// Order is the curated display sequence. The `id` (Roman numeral) tracks position
+// for the purchase dropdown. The `key` is the stable identifier and ties to the URL
+// deep-link, so existing print URLs keep working even after a reorder.
 const PHOTOS = [
     {
         id: 'I',
-        key: 'print1',
-        src: 'img/img1.jpg',
-        title: 'Island Dreams',
+        key: 'print2',
+        src: 'img/img2.jpg',
         location: 'Madeira',
-        date: 'March 2023',
-        basePrice: 50,
-        story: 'The Atlantic fog rolled in like a whisper, transforming the familiar landscape into something otherworldly. Standing on these volcanic cliffs, I understood why sailors once believed this was the edge of the world.'
+        date: 'August 2015',
+        basePrice: 50
     },
     {
         id: 'II',
-        key: 'print2',
-        src: 'img/img2.jpg',
-        title: 'Road to Nowhere',
-        location: 'Madeira',
-        date: 'March 2023',
-        basePrice: 50,
-        story: 'Some roads lead to destinations; others lead to discoveries. This mountain pass, shrouded in mist, reminded me that the journey itself can be the destination.'
+        key: 'print17',
+        src: 'img/img17.jpg',
+        location: 'Iceland',
+        date: 'August 2024',
+        basePrice: 65
     },
     {
         id: 'III',
-        key: 'print3',
-        src: 'img/img3.jpg',
-        title: 'After the Fire',
-        location: 'Madeira',
-        date: 'March 2023',
-        basePrice: 50,
-        story: 'Nature has a way of reclaiming what was lost. These burnt slopes, scarred but not defeated, spoke of resilience and the endless cycle of destruction and rebirth.'
+        key: 'print15',
+        src: 'img/img15.jpg',
+        location: 'Iceland',
+        date: 'August 2024',
+        basePrice: 65
     },
     {
         id: 'IV',
-        key: 'print4',
-        src: 'img/img4.jpg',
-        title: 'Persian Twilight',
+        key: 'print5',
+        src: 'img/img5.jpg',
         location: 'Shiraz, Iran',
-        date: 'November 2022',
-        basePrice: 60,
-        story: 'From my hotel window, the ancient city of poets sprawled beneath a modernizing skyline. Shiraz at dusk is a conversation between past and present, each building a verse in an ongoing poem.'
+        date: 'April 2016',
+        basePrice: 60
     },
     {
         id: 'V',
-        key: 'print5',
-        src: 'img/img5.jpg',
-        title: 'Journey Within',
-        location: 'Shiraz, Iran',
-        date: 'November 2022',
-        basePrice: 60,
-        story: 'In the back of a taxi, crossing a city of gardens and verses, I caught a glimpse of contemplation. Sometimes the most profound journeys happen while sitting still.'
+        key: 'print11',
+        src: 'img/img11.jpg',
+        location: 'Atlanta to Washington D.C.',
+        date: 'January 2009',
+        basePrice: 50
     },
     {
         id: 'VI',
-        key: 'print6',
-        src: 'img/img6.jpg',
-        title: 'City of a Thousand Hills',
-        location: 'Antananarivo, Madagascar',
-        date: 'June 2022',
-        basePrice: 55,
-        story: 'They call it Tana, and from above, you understand why it sprawls across twelve sacred hills. Each neighborhood tells its own story, each rooftop holds its own dreams.'
+        key: 'print20',
+        src: 'img/img20.jpg',
+        location: 'Iceland',
+        date: 'August 2024',
+        basePrice: 65
     },
     {
         id: 'VII',
         key: 'print7',
         src: 'img/img7.jpg',
-        title: 'Rural Rhythms',
         location: 'Madagascar',
-        date: 'June 2022',
-        basePrice: 55,
-        story: 'Life moves differently in the highlands. Here, time is measured not in hours but in harvests, not in deadlines but in seasons.'
+        date: 'June 2016',
+        basePrice: 55
     },
     {
         id: 'VIII',
-        key: 'print8',
-        src: 'img/img8.jpg',
-        title: 'River Journey',
-        location: 'Madagascar',
-        date: 'June 2022',
-        basePrice: 55,
-        story: 'The Pangalanes Canal cuts through the heart of the rainforest. From our pirogue, the world was reduced to water, green, and the sound of paddles breaking the surface.'
+        key: 'print16',
+        src: 'img/img16.jpg',
+        location: 'Iceland',
+        date: 'August 2024',
+        basePrice: 65
     },
     {
         id: 'IX',
-        key: 'print9',
-        src: 'img/img9.jpg',
-        title: 'Green Cathedral',
-        location: 'Madagascar',
-        date: 'June 2022',
-        basePrice: 55,
-        story: 'In the forest, silence has texture. Every leaf filters light differently, every shadow holds a secret. This is where the earth breathes.'
+        key: 'print19',
+        src: 'img/img19.jpg',
+        location: 'Iceland',
+        date: 'August 2024',
+        basePrice: 65
     },
     {
         id: 'X',
-        key: 'print10',
-        src: 'img/img10.jpg',
-        title: 'Arctic Night',
-        location: 'Tromsø, Norway',
-        date: 'January 2022',
-        basePrice: 65,
-        story: 'Above the Arctic Circle, darkness isn\'t the absence of light—it\'s a canvas. The snow reflects what little light exists, creating a world painted in shades of blue.'
+        key: 'print8',
+        src: 'img/img8.jpg',
+        location: 'Madagascar',
+        date: 'June 2016',
+        basePrice: 55
     },
     {
         id: 'XI',
-        key: 'print11',
-        src: 'img/img11.jpg',
-        title: 'Hope and Change',
-        location: 'Atlanta to Washington D.C.',
-        date: 'January 2009',
-        basePrice: 50,
-        story: 'On a bus filled with strangers who felt like family, we traveled through the night toward history. The inauguration wasn\'t just about one man; it was about the possibility of transformation.'
+        key: 'print9',
+        src: 'img/img9.jpg',
+        location: 'Madagascar',
+        date: 'June 2016',
+        basePrice: 55
     },
     {
         id: 'XII',
-        key: 'print12',
-        src: 'img/img12.jpg',
-        title: 'Monuments and Moments',
-        location: 'Washington D.C.',
-        date: 'January 2009',
-        basePrice: 50,
-        story: 'In the shadow of monuments to the past, we gathered to witness the future. The Lincoln Memorial had seen many crowds, but this one carried a different energy.'
+        key: 'print13',
+        src: 'img/img13.jpg',
+        location: 'Outside Kinshasa, Congo',
+        date: 'February 2011',
+        basePrice: 60
     },
     {
         id: 'XIII',
-        key: 'print13',
-        src: 'img/img13.jpg',
-        title: 'Congo Roads',
-        location: 'Outside Kinshasa, Congo',
-        date: 'August 2021',
-        basePrice: 60,
-        story: 'The road from Kinshasa tests both vehicle and spirit. But in the midst of the journey, there are moments of unexpected grace—a smile, a story, a shared understanding.'
+        key: 'print12',
+        src: 'img/img12.jpg',
+        location: 'Washington D.C.',
+        date: 'January 2009',
+        basePrice: 50
     },
     {
         id: 'XIV',
+        key: 'print1',
+        src: 'img/img1.jpg',
+        location: 'Madeira',
+        date: 'August 2015',
+        basePrice: 50
+    },
+    {
+        id: 'XV',
+        key: 'print18',
+        src: 'img/img18.jpg',
+        location: 'Iceland',
+        date: 'August 2024',
+        basePrice: 65
+    },
+    {
+        id: 'XVI',
+        key: 'print4',
+        src: 'img/img4.jpg',
+        location: 'Shiraz, Iran',
+        date: 'April 2016',
+        basePrice: 60
+    },
+    {
+        id: 'XVII',
+        key: 'print6',
+        src: 'img/img6.jpg',
+        location: 'Antananarivo, Madagascar',
+        date: 'June 2016',
+        basePrice: 55
+    },
+    {
+        id: 'XVIII',
+        key: 'print3',
+        src: 'img/img3.jpg',
+        location: 'Madeira',
+        date: 'August 2015',
+        basePrice: 50
+    },
+    {
+        id: 'XIX',
+        key: 'print10',
+        src: 'img/img10.jpg',
+        location: 'Tromsø, Norway',
+        date: 'January 2009',
+        basePrice: 65
+    },
+    {
+        id: 'XX',
+        key: 'print22',
+        src: 'img/img22.jpg',
+        location: 'Tromsø, Norway',
+        date: 'January 2009',
+        basePrice: 65
+    },
+    {
+        id: 'XXI',
         key: 'print14',
         src: 'img/img14.jpg',
-        title: 'Frozen Fjord',
         location: 'Tromsø, Norway',
-        date: 'January 2022',
-        basePrice: 65,
-        story: 'When the sea itself seems to pause, held in winter\'s grip, you realize that even the eternal can be transformed. The fjords in winter are nature\'s meditation on stillness.'
+        date: 'January 2009',
+        basePrice: 65
     }
 ];

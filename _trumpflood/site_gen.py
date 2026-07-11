@@ -234,153 +234,500 @@ def _load_log():
     return []
 
 
-def _hero(latest):
-    pct = latest.get("percentage", 0.0)
-    label = latest.get("label", "No data")
-    total = latest.get("total_articles", 0)
-    matches = latest.get("trump_articles", 0)
-    # Secondary (expanded-detector) count: name + "White House", "US
-    # president", etc. Missing on pre-transition records, so fall back to
-    # trump_articles / percentage (same number, just labelled as expanded).
-    matches_expanded = latest.get("trump_articles_expanded", matches)
-    pct_expanded = latest.get("core_percentage_expanded", pct)
-    indirect = latest.get("indirect_references", matches_expanded - matches)
-    date_str = latest.get("date", "")
+_ZONE_ANSWERS = {
+    "dry":      "No Trump today.",
+    "puddles":  "No, just puddles.",
+    "wet":      "Well, it is getting wet.",
+    "soaked":   "Almost. The zone is soaked.",
+    "flooding": "Yes, he is.",
+}
+
+
+# Duotone colour pairs per zone (shadow_hex, highlight_hex). Used by the
+# SVG <feComponentTransfer> filter applied to the editorial portrait so
+# the photo's tonal range carries the zone identity instead of stacking
+# multiply layers (which crushed the face on Flooding days).
+_ZONE_DUOTONE = {
+    "dry":      ("#6a5a3e", "#f7eed8"),
+    "puddles":  ("#2c4658", "#f0f5fa"),
+    "wet":      ("#1c3548", "#ecf3f8"),
+    "soaked":   ("#0a1a2e", "#e6eef7"),
+    "flooding": ("#4a1310", "#fdeae2"),
+}
+
+
+def _hex_to_rgb01(hex_str):
+    h = hex_str.lstrip("#")
+    if len(h) == 3:
+        h = "".join(c + c for c in h)
+    return (
+        int(h[0:2], 16) / 255,
+        int(h[2:4], 16) / 255,
+        int(h[4:6], 16) / 255,
+    )
+
+
+def _duotone_filter_svg():
+    """Inline SVG with one <filter> per zone. The image is desaturated
+    by feColorMatrix (luminance weights), then each channel is remapped
+    by feComponentTransfer tableValues from shadow to highlight colour."""
+    grayscale_matrix = (
+        "0.299 0.587 0.114 0 0 "
+        "0.299 0.587 0.114 0 0 "
+        "0.299 0.587 0.114 0 0 "
+        "0     0     0     1 0"
+    )
+    filters = []
+    for zone_key, (shadow, highlight) in _ZONE_DUOTONE.items():
+        sr, sg, sb = _hex_to_rgb01(shadow)
+        hr, hg, hb = _hex_to_rgb01(highlight)
+        filters.append(
+            f'<filter id="duotone-{zone_key}" '
+            f'color-interpolation-filters="sRGB">'
+            f'<feColorMatrix type="matrix" values="{grayscale_matrix}"/>'
+            f'<feComponentTransfer>'
+            f'<feFuncR type="table" tableValues="{sr:.3f} {hr:.3f}"/>'
+            f'<feFuncG type="table" tableValues="{sg:.3f} {hg:.3f}"/>'
+            f'<feFuncB type="table" tableValues="{sb:.3f} {hb:.3f}"/>'
+            f'</feComponentTransfer>'
+            f'</filter>'
+        )
+    return (
+        '<svg width="0" height="0" style="position:absolute;" aria-hidden="true">'
+        '<defs>' + "".join(filters) + '</defs>'
+        '</svg>'
+    )
+
+
+_GATE_TOOLTIPS = {
+    "share":     "% of Belgian core headlines naming Trump",
+    "dominance": "Trump mentions divided by sum of 16 other named figures",
+    "breadth":   "% of core outlets running at least one Trump headline",
+    "rank":      "Trump's position among 17 named figures by name-only count",
+}
+
+# Used by _gate_gap_text: zone progression for "next zone up" lookup,
+# and the threshold-key mapping per gate label.
+_ZONE_ORDER_UP = ["dry", "puddles", "wet", "soaked", "flooding"]
+_GATE_THRESHOLD_KEY = {
+    "share":     "pct",
+    "dominance": "dominance",
+    "breadth":   "breadth",
+    "rank":      "rank_max",
+}
+
+
+def _gate_gap_text(active_zone, gate_label, value, thresholds):
+    """Return (text, kind) describing how this gate sits relative to
+    the next zone up's floor. If the active zone is Flooding (top),
+    show the comfort margin against the Flooding floor instead.
+    `kind` is 'above', 'below', 'top' or '' (no info)."""
+    if value is None:
+        return ("", "")
+    key = _GATE_THRESHOLD_KEY.get(gate_label)
+    if not key:
+        return ("", "")
+
+    if active_zone == "flooding":
+        floor = thresholds.get("flooding", {}).get(key)
+        target_label = "above floor"
+        kind_top = True
+    else:
+        try:
+            idx = _ZONE_ORDER_UP.index(active_zone)
+        except ValueError:
+            return ("", "")
+        next_zone = _ZONE_ORDER_UP[idx + 1]
+        floor = thresholds.get(next_zone, {}).get(key)
+        target_label = next_zone.capitalize()
+        kind_top = False
+
+    if floor is None:
+        # No applicable floor (next zone doesn't gate this signal, or top).
+        return ("", "")
+
+    if gate_label == "rank":
+        # rank: lower is better, floor is the maximum rank allowed.
+        if value <= floor:
+            return ("at top" if kind_top or value == 1 else f"ok for {target_label}",
+                    "above")
+        return (f"needs #{floor} for {target_label}", "below")
+
+    # share / dominance / breadth: higher is better.
+    if gate_label == "share":
+        delta = value - floor
+        unit = "pt"
+    elif gate_label == "dominance":
+        delta = value - floor
+        unit = "×"  # multiplication sign
+    elif gate_label == "breadth":
+        delta = (value - floor) * 100  # 0..1 -> percentage points
+        unit = "pp"
+    else:
+        return ("", "")
+
+    if delta >= 0:
+        sign = "+"
+        if kind_top:
+            text = f"{sign}{delta:.1f}{unit} above floor"
+        else:
+            text = f"{sign}{delta:.1f}{unit} to {target_label}"
+        return (text, "above")
+    else:
+        # delta is negative; the value already starts with '-' when formatted
+        text = f"{delta:.1f}{unit} to {target_label}"
+        return (text, "below")
+
+
+def _gate_history_series(history, key, days=14):
+    """Return the last `days` values of metric `key` from live records,
+    in chronological order. Missing values are skipped. Rank is inverted
+    (n_people - rank + 1) so the sparkline reads consistently: up = more
+    Trump prominence, down = less, for every gate."""
+    series = []
+    for r in history:
+        if r.get("backfilled"):
+            continue
+        if key == "share":
+            v = r.get("core_percentage_name")
+            if v is None:
+                v = r.get("percentage")
+        elif key == "dominance":
+            v = r.get("dominance")
+        elif key == "breadth":
+            b = r.get("breadth")
+            v = (b * 100) if b is not None else None
+        elif key == "rank":
+            rk = r.get("rank")
+            np = r.get("n_people") or 17
+            v = (np - rk + 1) if rk is not None else None
+        else:
+            v = None
+        if v is not None:
+            series.append(float(v))
+    return series[-days:]
+
+
+def _gate_sparkline_svg(values, line_color, dot_color):
+    """Tiny sparkline used inside each gate card. Plain stroked path with
+    the most-recent point dotted in the zone colour."""
+    if not values:
+        return '<svg class="gate-spark" viewBox="0 0 80 18"></svg>'
+    w, h = 80, 18
+    pad = 2
+    inner_w = w - 2 * pad
+    inner_h = h - 2 * pad
+    vmax = max(values)
+    vmin = min(values)
+    span = max(0.5, vmax - vmin)
+    n = len(values)
+    pts = []
+    for i, v in enumerate(values):
+        x = pad + (i / max(1, n - 1)) * inner_w
+        y = pad + (1 - (v - vmin) / span) * inner_h
+        pts.append((x, y))
+    path = "M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in pts)
+    last_x, last_y = pts[-1]
+    return (
+        f'<svg class="gate-spark" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">'
+        f'<path d="{path}" fill="none" stroke="{line_color}" stroke-width="1.2" '
+        f'stroke-linecap="round" stroke-linejoin="round"/>'
+        f'<circle cx="{last_x:.1f}" cy="{last_y:.1f}" r="2.2" fill="{dot_color}"/>'
+        f'</svg>'
+    )
+
+
+def _hero_gates_panel(latest):
+    """4-card panel above the fold showing each zone gate's measured
+    value for today's active zone. Floors are deliberately not displayed
+    (the methodology section keeps the full thresholds matrix); the
+    coloured bar at the bottom of each card is the pass/fail signal:
+    zone-colour bar = gate cleared, hatched bar = gate not used by this
+    zone, muted bar = gate failed (this case never appears for the active
+    zone by construction, since a failing gate would push us into a lower
+    zone, but is supported for safety).
+
+    Each card also carries a tiny 14-day sparkline so the reader sees
+    whether today is a spike or a continuation, and a hover-tooltip on
+    the gate label with the gate's plain-English definition."""
+    from assessor import THRESHOLDS as _T
+
+    pct = latest.get("percentage")
     rank = latest.get("rank")
-    n_people = latest.get("n_people")
-    n_themes = latest.get("n_themes")
-    theme_rank = latest.get("theme_rank")
     dominance = latest.get("dominance")
-    smoothed_pct = latest.get("smoothed_pct")
-    wide_pct = latest.get("wide_percentage")
-    method = latest.get("assessment_method", "pct")
-    # Prefer stored zone; fall back to recomputing from pct (legacy records).
+    breadth = latest.get("breadth")
+    active_zone = latest.get("zone") or "dry"
+    zone_color = ZONE_COLORS.get(active_zone, ZONE_COLORS["dry"])
+    zone_def = {} if active_zone == "dry" else _T.get(active_zone, {})
+
+    def _fmt_pct(v):
+        return "—" if v is None else f"{v}%"
+
+    def _fmt_x(v):
+        return "—" if v is None else f"{v}×"
+
+    def _fmt_breadth(v):
+        return "—" if v is None else f"{int(round(v * 100))}%"
+
+    def _fmt_rank(v):
+        return "—" if v is None else f"#{v}"
+
+    share_floor = zone_def.get("pct")
+    dom_floor = zone_def.get("dominance")
+    breadth_floor = zone_def.get("breadth")
+    rank_ceil = zone_def.get("rank_max")
+
+    # Each gate gets a tiny one-line hint under the value so a first-time
+    # reader grasps what the number means. Kept deliberately short: the
+    # methodology section remains the place for the full definition.
+    # The share hint avoids restating the headline % (which already sits
+    # huge in the hero) by recasting it as a "1 in N" odds figure that
+    # adds intuition rather than repeating the number.
+    if pct is not None and pct >= 0.5:
+        share_hint = f"1 in {int(round(100 / pct))} headlines"
+    else:
+        share_hint = "of all headlines"
+
+    gates = [
+        ("share",     _fmt_pct(pct),         share_hint,
+         share_floor is not None,
+         pct is not None and share_floor is not None and pct >= share_floor),
+        ("dominance", _fmt_x(dominance),     "vs. 16 others",
+         dom_floor is not None,
+         dominance is not None and dom_floor is not None and dominance >= dom_floor),
+        ("breadth",   _fmt_breadth(breadth), "of outlets ran him",
+         breadth_floor is not None,
+         breadth is not None and breadth_floor is not None and breadth >= breadth_floor),
+        ("rank",      _fmt_rank(rank),       "of 17 named figures",
+         rank_ceil is not None,
+         rank is not None and rank_ceil is not None and rank <= rank_ceil),
+    ]
+
+    # Per-gate raw values (not the formatted strings) for the gap calc.
+    gate_values = {
+        "share":     pct,
+        "dominance": dominance,
+        "breadth":   breadth,
+        "rank":      rank,
+    }
+
+    cards_html = []
+    for gate_label, value_str, hint, is_gated, cleared in gates:
+        if is_gated and cleared:
+            cls = "gate-card gate-card-pass"
+        elif is_gated and not cleared:
+            cls = "gate-card gate-card-fail"
+        else:
+            cls = "gate-card gate-card-na"
+
+        gap_text, gap_kind = _gate_gap_text(
+            active_zone, gate_label, gate_values.get(gate_label), _T
+        )
+        # Colour the gap text by direction: 'above' (we are past the
+        # next-zone floor for this gate, so this gate is doing better
+        # than the rest) shows in zone colour; 'below' (this gate is
+        # holding the upgrade back) shows in muted ink so the reader
+        # spots it as the constraint.
+        if gap_kind == "above":
+            status_cls = "gate-card-status status-above"
+        elif gap_kind == "below":
+            status_cls = "gate-card-status status-below"
+        else:
+            status_cls = "gate-card-status"
+
+        tooltip = _GATE_TOOLTIPS.get(gate_label, "")
+
+        cards_html.append(
+            f'<div class="{cls}" style="--zone-color:{zone_color}">'
+            f'<div class="gate-card-label" title="{tooltip}">{gate_label}</div>'
+            f'<div class="gate-card-value">{value_str}</div>'
+            f'<div class="gate-card-hint">{hint}</div>'
+            f'<div class="gate-card-bar"></div>'
+            f'<div class="{status_cls}">{gap_text}</div>'
+            f'</div>'
+        )
+
+    if active_zone == "dry":
+        header_right = "no zone above cleared today"
+        zone_display = "DRY"
+    else:
+        gated_n = sum(1 for g in gates if g[3])
+        cleared_n = sum(1 for g in gates if g[3] and g[4])
+        if cleared_n == gated_n and gated_n == 4:
+            header_right = "all four signals cleared"
+        elif cleared_n == gated_n:
+            header_right = f"all {gated_n} signals cleared"
+        else:
+            header_right = f"{cleared_n} of {gated_n} signals cleared"
+        zone_display = active_zone.upper()
+
+    return (
+        f'<div class="gates-panel">'
+        f'<div class="gates-header">'
+        f'<span class="gates-zone-name" style="color:{zone_color}">{zone_display}</span>'
+        f'<span class="gates-cleared-count">{header_right}</span>'
+        f'</div>'
+        f'<div class="gates-grid">{"".join(cards_html)}</div>'
+        f'</div>'
+    )
+
+
+def _hero(latest):
+    """Data-first hero. Layout: live badge, conversational answer, big %
+    with sparkline + delta + min/max, sub-line, horizontal zone ladder,
+    4-card gates panel, duotone editorial portrait below the gates panel
+    with a floating zone label on the water surface. Replaces the
+    previous 50/50 split-column layout."""
+    pct = latest.get("percentage", 0.0)
+    matches = latest.get("trump_articles", 0)
+    total = latest.get("total_articles", 0)
     active_zone = latest.get("zone") or _zone_for(pct)
-    # Backwards compat: old records may have zone key "flooded".
     if active_zone == "flooded":
         active_zone = "soaked"
-    color = ZONE_COLORS[active_zone]
-    emoji = ZONE_EMOJI[active_zone]
-    # Water rises to the TOP of the active zone band (visual escalation
-    # matched to dramatic narrative). Actual % stays in the readout.
+    zone_color = ZONE_COLORS[active_zone]
+    answer = _ZONE_ANSWERS.get(active_zone, "")
+
+    # 14-day name-only share series for the sparkline (live records only).
+    full_log = _load_log()
+    series_14 = []
+    for r in full_log:
+        if r.get("backfilled"):
+            continue
+        v = r.get("core_percentage_name")
+        if v is None:
+            v = r.get("percentage")
+        if v is not None:
+            series_14.append(float(v))
+    series_14 = series_14[-14:]
+    sparkline = _hero_sparkline_svg(series_14, zone_color)
+
+    # Delta vs. yesterday.
+    delta_html = ""
+    if len(series_14) >= 2:
+        d = round(series_14[-1] - series_14[-2], 1)
+        if d > 0:
+            delta_html = f'<span class="delta up">+{d}pt</span>'
+        elif d < 0:
+            delta_html = f'<span class="delta down">{d}pt</span>'
+        else:
+            delta_html = '<span class="delta">flat</span>'
+
+    if series_14:
+        range_html = (
+            f'<span>min {min(series_14):.1f}% · '
+            f'max {max(series_14):.1f}% over 14 days</span>'
+        )
+    else:
+        range_html = ""
+    sep_html = '<span class="sep">·</span>' if (delta_html and range_html) else ''
+
+    # Horizontal zone ladder (Dry -> Flooding) matching the gates panel.
+    strip_zones = [
+        ("dry", "Dry"), ("puddles", "Puddles"), ("wet", "Wet"),
+        ("soaked", "Soaked"), ("flooding", "Flooding"),
+    ]
+    steps = []
+    for key, name in strip_zones:
+        is_active = (key == active_zone)
+        cls = "step active" if is_active else "step"
+        bar_color = ZONE_COLORS[key] if is_active else "var(--rule)"
+        steps.append(
+            f'<div class="{cls}">'
+            f'<div class="bar" style="background:{bar_color}"></div>'
+            f'<span class="label">{name}</span>'
+            f'</div>'
+        )
+
+    # Editorial portrait water level: dampened so even Flooding leaves the
+    # face visible above the water line.
     try:
         zone_idx = ZONE_KEYS.index(active_zone)
     except ValueError:
         zone_idx = 0
-    water_target = (zone_idx + 1) * (100 / len(ZONE_KEYS))
-    subhead = latest.get("narrative") or _subhead(pct, date_str)
+    water_target = (zone_idx + 1) * (100 / len(ZONE_KEYS)) * 0.70
 
-    # Build the vertical zone scale (bottom-up).
-    # Layout: 5 equal-height bands (rank-based zones), bottom = DRY, top = FLOODING.
-    # Water level is independent and shows the actual % share.
-    band_share = 100 / len(ZONES)
-    bands = []
-    for i, (_, _, key, name) in enumerate(ZONES):
-        is_active = (key == active_zone)
-        band_color = ZONE_COLORS[key]
-        cls = "band active" if is_active else "band"
-        bottom = i * band_share
-        bands.append(
-            f'<div class="{cls}" style="bottom:{bottom:.2f}%;height:{band_share:.2f}%;'
-            f'--band-color:{band_color}">'
-            f'<span class="band-name">{name}</span>'
-            f'</div>'
-        )
-
-    # Facts block (third tier of the readout). Built from the composite
-    # signals so the hero is a single, self-contained summary: a reader
-    # who scans only the hero gets zone, share, rank, outlet breadth and
-    # the runner-up in one pass.
-    breadth = latest.get("breadth")
-    core_outlets_active = latest.get("core_outlets_active") or 0
-    comps = latest.get("comparisons") or {}
-    n_others = (n_people - 1) if n_people else 0
-
-    facts = []
-    if method in ("composite", "people") and rank is not None and n_people:
-        dom_tail = ""
-        if dominance is not None and dominance > 0:
-            dom_tail = f" \u00b7 {dominance}\u00d7 vs. the other {n_others} combined"
-        facts.append(
-            f'<div class="fact">Rank <strong>#{rank}</strong> of '
-            f'{n_people} named figures{dom_tail}</div>'
-        )
-    elif method == "rank" and rank is not None:
-        facts.append(
-            f'<div class="fact">Rank <strong>#{rank}</strong> of '
-            f'{n_themes} subjects</div>'
-        )
-
-    if breadth is not None and core_outlets_active:
-        outlets_with_trump = int(round(breadth * core_outlets_active))
-        facts.append(
-            f'<div class="fact">In <strong>{outlets_with_trump} of '
-            f'{core_outlets_active}</strong> national outlets</div>'
-        )
-    elif breadth is not None:
-        facts.append(
-            f'<div class="fact">In <strong>{int(round(breadth * 100))}%</strong> '
-            f'of outlets</div>'
-        )
-
-    # Runner-up (most-mentioned comparator other than Trump, if any).
-    trump_count = comps.get("trump", matches)
-    others_sorted = sorted(
-        ((k, v) for k, v in comps.items() if k != "trump"),
-        key=lambda kv: kv[1], reverse=True,
-    )
-    if others_sorted and others_sorted[0][1] > 0:
-        rival_k, rival_v = others_sorted[0]
-        facts.append(
-            f'<div class="fact">Next up: '
-            f'<strong>{html.escape(comparator_label(rival_k))}</strong> ({rival_v})</div>'
-        )
-
-    facts_html = (
-        f'<div class="readout-facts">{"".join(facts)}</div>' if facts else ""
-    )
-
-    # Indirect-references sub-line. Only shown when there are indirect
-    # references today AND we have the expanded figure (new-format records).
-    if indirect and indirect > 0:
-        indirect_line = (
-            f'<div class="readout-indirect">'
-            f'+ <strong>{indirect}</strong> more mention the White House, '
-            f'&ldquo;US president&rdquo; or similar '
-            f'(expanded: <strong>{matches_expanded}</strong> = '
-            f'<strong>{pct_expanded}%</strong>)'
-            f'</div>'
-        )
-    else:
-        indirect_line = ""
+    last_checked = _format_local_clock(latest.get("last_checked_at"))
+    gates_panel_html = _hero_gates_panel(latest)
 
     return f"""
-<section class="hero">
-  <div class="portrait-wrap">
-    <div class="portrait" data-water-color="{color}" data-water-target="{water_target:.0f}" style="--water-color:{color};--water-target:{water_target:.0f}%">
-      <img src="trump.jpg" alt="Donald Trump">
-      <canvas class="water-canvas" aria-hidden="true"></canvas>
-    </div>
-    <div class="scale" aria-label="Flood zone scale">
-      {''.join(bands)}
-    </div>
+<section class="data-hero" style="--zone-color:{zone_color}">
+  <div class="live-badge-row">
+    <span class="live-badge"><span class="pulse"></span> Live · updated {last_checked} · 3 runs/day</span>
   </div>
-  <div class="readout">
-    <div class="readout-label">{html.escape(label)}</div>
-    <hr class="readout-sep" />
-    <div class="readout-stat">
-      <span class="pct" style="color:{color}">{pct}<span class="pct-symbol">%</span></span>
+  <h2 class="answer">{html.escape(answer)}</h2>
+  <div class="stat-row">
+    <div class="pct-block">
+      <span class="pct">{pct}<span class="pct-symbol">%</span></span>
+      <span class="pct-label">share of Belgian news headlines today</span>
     </div>
-    <div class="readout-sub">
-      <strong>{matches}</strong> of <strong>{total}</strong> Belgian core-tier
-      headlines name Trump
-    </div>
-    <hr class="readout-sep" />
-    {facts_html}
-    {indirect_line}
+    {sparkline}
   </div>
+  <div class="stat-meta-row">
+    {delta_html}
+    <span class="label">vs. yesterday</span>
+    {sep_html}
+    {range_html}
+  </div>
+  <p class="sub"><strong>{matches}</strong> of <strong>{total}</strong> headlines name Trump.</p>
 </section>
+
+<div class="tracker-zone-ladder">{''.join(steps)}</div>
+
+{gates_panel_html}
+
+<figure class="portrait-figure">
+  <div class="frame portrait" data-water-color="{zone_color}" data-water-target="{water_target:.0f}">
+    <img src="trump.jpg" alt="Donald Trump"
+         style="filter: url(#duotone-{active_zone});" />
+    <canvas class="water-canvas" aria-hidden="true"></canvas>
+    <span class="water-marker" style="top: {100 - water_target:.1f}%;">{active_zone.upper()}</span>
+  </div>
+  <figcaption>Trump portrait, official White House photo by Shealah Craighead. Duotoned in today's zone colour. Water level marks the active zone on the thermometer above.</figcaption>
+</figure>
 """
+
+
+def _hero_sparkline_svg(values, zone_color):
+    """Sparkline used inside the data-hero stat row. 200x44, muted line,
+    last point dotted in zone colour."""
+    if not values:
+        return '<svg class="hero-spark" viewBox="0 0 200 44"></svg>'
+    w, h = 200, 44
+    pad_x, pad_y = 4, 6
+    inner_w = w - 2 * pad_x
+    inner_h = h - 2 * pad_y
+    vmax = max(values)
+    vmin = min(values)
+    span = max(0.5, vmax - vmin)
+    n = len(values)
+    pts = []
+    for i, v in enumerate(values):
+        x = pad_x + (i / max(1, n - 1)) * inner_w
+        y = pad_y + (1 - (v - vmin) / span) * inner_h
+        pts.append((x, y))
+    path = "M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in pts)
+    last_x, last_y = pts[-1]
+    return (
+        f'<svg class="hero-spark" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">'
+        f'<path d="{path}" fill="none" stroke="#cfcabd" stroke-width="1.5" '
+        f'stroke-linecap="round" stroke-linejoin="round"/>'
+        f'<circle cx="{last_x:.1f}" cy="{last_y:.1f}" r="3.5" fill="{zone_color}"/>'
+        f'</svg>'
+    )
+
+
+def _format_local_clock(iso):
+    """Return e.g. '08:16 CEST' from an ISO timestamp with offset."""
+    if not iso:
+        return ""
+    try:
+        time_part = iso.split("T")[1]
+        hh_mm = time_part[:5]
+        offset = iso[-6:]
+        zone = "CEST" if offset == "+02:00" else ("CET" if offset == "+01:00" else "UTC")
+        return f"{hh_mm} {zone}"
+    except Exception:
+        return ""
 
 
 def _zone_definitions_block(latest):
@@ -539,8 +886,43 @@ def _comparison_panel(latest):
     items = sorted(comps.items(), key=lambda kv: kv[1], reverse=True)
     max_count = max((c for _, c in items), default=1) or 1
 
+    # Trim the rendered list: showing 13 zero-mention rows on a quiet day
+    # is visual filler. Rule: keep all non-zero figures, then top up with
+    # zeros to reach 5 visible rows, but never more than 3 zero rows. Any
+    # remaining zeros collapse into a small footer count.
+    nonzero = [(k, v) for k, v in items if v > 0]
+    zeros = [(k, v) for k, v in items if v == 0]
+    zeros_to_show = min(3, max(0, 5 - len(nonzero)))
+    visible = nonzero + zeros[:zeros_to_show]
+    hidden_zero_count = len(zeros) - zeros_to_show
+
+    # Per-figure delta vs. yesterday. Yesterday = the previous live (non-
+    # backfilled) record. Backfilled days used a different comparator set
+    # so comparing across the seam would be misleading.
+    history = _load_log()
+    today_date = latest.get("date")
+    yest = None
+    for r in reversed(history):
+        if r.get("backfilled"):
+            continue
+        if r.get("date") == today_date:
+            continue
+        yest = r
+        break
+    yest_comps = (yest.get("comparisons") if yest else None) or {}
+
+    def _delta_html(key, count):
+        if yest is None:
+            return ""
+        d = count - int(yest_comps.get(key, 0) or 0)
+        if d > 0:
+            return f'<span class="comp-delta up">▲{d}</span>'
+        if d < 0:
+            return f'<span class="comp-delta down">▼{abs(d)}</span>'
+        return '<span class="comp-delta flat">·</span>'
+
     rows = []
-    for key, count in items:
+    for key, count in visible:
         label = comparator_label(key)
         share = round(count / total * 100, 1)
         bar_w = (count / max_count) * 100
@@ -553,8 +935,22 @@ def _comparison_panel(latest):
             f'<div class="comp-bar-wrap">'
             f'<div class="comp-bar" style="width:{bar_w:.1f}%;background:{zone_color}"></div>'
             f'</div>'
-            f'<div class="comp-stat"><strong>{count}</strong>'
-            f'<span class="comp-share">{share}%</span></div>'
+            f'<div class="comp-stat">'
+            f'<strong>{count}</strong>'
+            f'{_delta_html(key, count)}'
+            f'<span class="comp-share">{share}%</span>'
+            f'</div>'
+            f'</div>'
+        )
+
+    if hidden_zero_count > 0:
+        hidden_labels = ", ".join(comparator_label(k) for k, _ in zeros[zeros_to_show:])
+        rows.append(
+            f'<div class="comp-row comp-row-hidden">'
+            f'<div class="comp-hidden-note">'
+            f'+ <strong>{hidden_zero_count}</strong> other figures with no mentions today '
+            f'<span class="comp-hidden-names">({html.escape(hidden_labels)})</span>'
+            f'</div>'
             f'</div>'
         )
 
@@ -564,22 +960,34 @@ def _comparison_panel(latest):
     if others_total:
         ratio = trump_count / others_total
         ratio_txt = f"{ratio:.2f}\u00d7"
-        verdict = (
-            f"more than all {n_others} others combined" if ratio > 1
-            else f"less than all {n_others} others combined" if ratio < 1
-            else f"exactly equal to all {n_others} others combined"
-        )
+        if ratio > 1:
+            verdict = (
+                f"Trump alone is named more often today than the {n_others} "
+                f"other tracked figures combined."
+            )
+        elif ratio < 1:
+            verdict = (
+                f"The {n_others} other tracked figures combined are named "
+                f"more often than Trump today."
+            )
+        else:
+            verdict = (
+                f"Trump matches the {n_others} other tracked figures combined."
+            )
     else:
         ratio_txt = "\u2014"
-        verdict = "no other people mentioned today"
+        verdict = "No other tracked figures appear in today's headlines."
 
     vs_block = (
         f'<div class="vs-others">'
-        f'<div class="vs-line"><strong>{trump_count}</strong> Trump '
-        f'<span class="vs-vs">vs</span> '
-        f'<strong>{others_total}</strong> all other people combined '
-        f'<span class="vs-ratio">({ratio_txt})</span></div>'
-        f'<div class="vs-verdict">Trump alone is {verdict}.</div>'
+        f'<div class="vs-line">'
+        f'<span class="vs-stat">Trump <strong>{trump_count}</strong></span>'
+        f'<span class="vs-sep">\u00b7</span>'
+        f'<span class="vs-stat">{n_others} others combined <strong>{others_total}</strong></span>'
+        f'<span class="vs-sep">\u00b7</span>'
+        f'<span class="vs-stat">ratio <strong>{ratio_txt}</strong></span>'
+        f'</div>'
+        f'<div class="vs-verdict">{verdict}</div>'
         f'</div>'
     )
 
@@ -587,7 +995,7 @@ def _comparison_panel(latest):
 <section class="block">
   <h2>Today vs. the rest</h2>
   <p class="block-intro">Trump against {n_others} other named figures in the same
-  {total}-headline core corpus.</p>
+  {total}-headline core corpus. Arrows show change vs. yesterday.</p>
   <div class="comparison">{''.join(rows)}</div>
   {vs_block}
 </section>
@@ -743,7 +1151,7 @@ def _timeline(log_sorted_asc):
         y_bot = y(lo)
         band_rects.append(
             f'<rect x="{PAD_L}" y="{y_top:.1f}" width="{chart_w}" '
-            f'height="{(y_bot - y_top):.1f}" fill="{ZONE_COLORS[key]}" opacity="0.10"/>'
+            f'height="{(y_bot - y_top):.1f}" fill="{ZONE_COLORS[key]}" opacity="0.18"/>'
         )
 
     # Threshold lines + labels on the y axis. Ticks sit on the composite
@@ -765,6 +1173,8 @@ def _timeline(log_sorted_asc):
 
     # Bars per day.
     bars = []
+    annotations = []
+    weekend_shades = []
     x_labels = []
     today = log_sorted_asc[-1].get("date") if log_sorted_asc else None
 
@@ -791,17 +1201,46 @@ def _timeline(log_sorted_asc):
         opacity = "1" if is_today else ("0.55" if is_backfilled else "0.85")
         stroke = ' stroke="#0a1929" stroke-width="2"' if is_today else ""
         source_note = " · GDELT" if is_backfilled else ""
+
+        # Weekend column shading (Sa = 5, Su = 6).
+        try:
+            from datetime import date as _date
+            _dow = _date.fromisoformat(date_str).weekday()
+            if _dow >= 5:
+                slot_x = PAD_L + slot_w * i
+                weekend_shades.append(
+                    f'<rect x="{slot_x:.1f}" y="{PAD_T}" '
+                    f'width="{slot_w:.1f}" height="{chart_h}" '
+                    f'fill="#0a1929" opacity="0.05"/>'
+                )
+        except (ValueError, TypeError):
+            pass
+
+        note = r.get("note", "")
+        note_suffix = f" — {html.escape(note)}" if note else ""
         bars.append(
             f'<rect x="{x:.1f}" y="{bar_top:.1f}" width="{bar_w:.1f}" '
             f'height="{max(bar_h, 2):.1f}" rx="2" fill="{color}" '
             f'opacity="{opacity}"{stroke}>'
             f'<title>{html.escape(date_str)}: {pct}% '
-            f'({r.get("trump_articles", 0)}/{r.get("total_articles", 0)}){source_note}</title>'
+            f'({r.get("trump_articles", 0)}/{r.get("total_articles", 0)}){source_note}{note_suffix}</title>'
             f'</rect>'
         )
+        if note:
+            dot_y = bar_top - 10
+            annotations.append(
+                f'<g>'
+                f'<circle cx="{x_center:.1f}" cy="{dot_y:.1f}" r="5" '
+                f'fill="#0a1929" opacity="0.75"/>'
+                f'<text x="{x_center:.1f}" y="{dot_y + 4:.1f}" text-anchor="middle" '
+                f'font-size="8" fill="white" font-family="Inter, sans-serif" '
+                f'font-weight="bold">!</text>'
+                f'<title>{html.escape(note)}</title>'
+                f'</g>'
+            )
         if i in label_indices:
-            # Show MM-DD only.
-            short = date_str[5:] if len(date_str) >= 10 else date_str
+            # Show DD/MM (European format).
+            short = (date_str[8:10] + "/" + date_str[5:7]) if len(date_str) >= 10 else date_str
             x_labels.append(
                 f'<text x="{x_center:.1f}" y="{H - 10}" text-anchor="middle" '
                 f'font-size="11" fill="#8a8170" font-family="Inter, sans-serif">'
@@ -813,12 +1252,31 @@ def _timeline(log_sorted_asc):
             return f"\u2265 {lo:g}%"
         return f"{lo:g}\u2013{hi:g}%"
 
+    weekend_legend = (
+        '<span class="legend-item">'
+        '<span class="legend-swatch legend-swatch--weekend"></span>'
+        'Weekend</span>'
+    )
     legend = " ".join(
         f'<span class="legend-item"><span class="legend-swatch" '
         f'style="background:{ZONE_COLORS[key]}"></span>'
-        f'{ZONE_EMOJI[key]} {name} <small>{_fmt_band(lo, hi)}</small></span>'
+        f'{name} <small>{_fmt_band(lo, hi)}</small></span>'
         for lo, hi, key, name in ZONES
-    )
+    ) + " " + weekend_legend
+
+    annotated_days = [
+        r for r in log_sorted_asc if r.get("note")
+    ]
+    annotation_html = ""
+    if annotated_days:
+        items = []
+        for r in annotated_days:
+            d = r.get("date", "")
+            short = (d[8:10] + "/" + d[5:7]) if len(d) >= 10 else d
+            items.append(
+                f'<li><strong>{short}</strong> — {html.escape(r["note"])}</li>'
+            )
+        annotation_html = f'<ul class="annotation-list">{"".join(items)}</ul>'
 
     context_block = _timeline_context(log_sorted_asc)
 
@@ -829,12 +1287,16 @@ def _timeline(log_sorted_asc):
   <div class="chart-wrap">
     <svg class="chart" viewBox="0 0 {W} {H}" preserveAspectRatio="xMidYMid meet">
       {''.join(band_rects)}
+      {''.join(weekend_shades)}
       {''.join(grid_lines)}
       {''.join(bars)}
+      {''.join(annotations)}
       {''.join(x_labels)}
     </svg>
   </div>
   <div class="legend">{legend}</div>
+  <p class="legend-note">Bar colour reflects the assessed zone (percentage + rank + dominance + breadth). Background bands show the percentage thresholds only.</p>
+  {annotation_html}
 </section>
 """
 
@@ -936,7 +1398,8 @@ def _methodology(latest):
             )
         if smoothed_pct is not None:
             compare_line += (
-                f" The 7-day rolling average of the core share is "
+                f" The 7-day rolling average of the core share "
+                f"(live RSS days only, GDELT backfill excluded) is "
                 f"<strong>{smoothed_pct}%</strong>."
             )
         wide_p = f"<p>{compare_line}</p>"
@@ -963,10 +1426,29 @@ def _methodology(latest):
             f"\u2014 (median was 0 over the last {min(expanded_days, 14)} days)"
         )
     smooth_inline = (
-        f"The 7-day rolling average of the core share is <strong>{smoothed_pct}%</strong>."
+        f"The 7-day rolling average of the core share (live RSS days only, GDELT backfill excluded) is <strong>{smoothed_pct}%</strong>."
         if smoothed_pct is not None else
         "The rolling baseline needs a few more runs before it settles."
     )
+
+    # Weekend note: lower total volume on Sa/Su depresses share and breadth
+    # independently of Trump's actual prominence. Flag this transparently.
+    weekend_note = ""
+    try:
+        from datetime import date as _date
+        _latest_date = _date.fromisoformat(latest.get("date", ""))
+        if _latest_date.weekday() >= 5:          # 5 = Sat, 6 = Sun
+            day_name = "Saturday" if _latest_date.weekday() == 5 else "Sunday"
+            weekend_note = (
+                f'<p class="corpus-diag"><strong>Weekend ({day_name}).</strong> '
+                f"Belgian news output is substantially lower on weekends — "
+                f"fewer articles in the denominator means share and breadth "
+                f"figures are not directly comparable to weekday readings. "
+                f"A low zone score today may reflect reduced total volume "
+                f"rather than reduced Trump prominence.</p>"
+            )
+    except (ValueError, TypeError):
+        pass
 
     # Denominator-control diagnostics. These don't change the zone, but they
     # expose two ways the denominator can move independently of Trump
@@ -1029,9 +1511,9 @@ def _methodology(latest):
     <div class="meth-body">
 
       <h3>Daily collection</h3>
-      <p>Three times a day &mdash; 06:00, 12:00 and 18:00 UTC, which is
-      08:00 / 14:00 / 20:00 Belgian local in summer (CEST) and
-      07:00 / 13:00 / 19:00 in winter (CET) &mdash;
+      <p>Three times a day, at 03:37, 10:37 and 16:37 UTC (which is
+      05:37 / 12:37 / 18:37 Belgian local in summer (CEST) and
+      04:37 / 11:37 / 17:37 in winter (CET)),
       a script fetches headlines from 33 Belgian RSS feeds:
       Google News BE (Dutch &amp; French general), 8 Google News BE topic feeds
       (politics, world, business, tech, sport in NL; politics, world, business in FR),
@@ -1067,6 +1549,7 @@ def _methodology(latest):
       <strong>{core_trump} by-name Trump matches = {core_pct}%</strong>
       (this is the share the zone uses; see the &ldquo;Trump match&rdquo;
       section below for how indirect references are handled separately).</p>
+      {weekend_note}
       {corpus_diag_p}
       {wide_p}
 
@@ -1224,12 +1707,21 @@ def _methodology(latest):
         published next to the headline number so you can see, on any
         given day, how much coverage an indirect-only readout would
         have added.</li>
-        <li><strong>Trump-the-family.</strong> The regex also matches
-        &ldquo;Trump Jr.&rdquo;, &ldquo;Eric Trump&rdquo;, &ldquo;Trump
-        Tower&rdquo;. Usually &le;2% noise but it\u2019s there.</li>
+        <li><strong>Trump-the-family filtered out.</strong> The bare
+        <code>\btrump\b</code> regex would also match &ldquo;Trump
+        Jr.&rdquo;, &ldquo;Eric Trump&rdquo;, &ldquo;Trump Tower&rdquo;,
+        &ldquo;Trump Organization&rdquo; and similar. Each of those
+        patterns (Jr / Junior, Eric / Ivanka / Melania / Barron / Tiffany
+        / Lara, Tower / Hotel / Plaza / Golf / International /
+        Organization) is stripped from the headline before re-checking
+        for <code>\btrump\b</code>, so a building or relative on its own
+        does not drive the count. Mixed headlines like &ldquo;Donald
+        Trump met Trump Jr.&rdquo; still count once: stripping
+        &ldquo;Trump Jr.&rdquo; leaves &ldquo;Donald Trump&rdquo; for the
+        re-match.</li>
         <li><strong>Time-of-day sampling &amp; peak-of-day rule.</strong>
         Fetches run three times a day at fixed UTC slots
-        (06:00 / 12:00 / 18:00), which shifts by an hour between CEST
+        (03:37 / 10:37 / 16:37), which shifts by an hour between CEST
         and CET. RSS feeds only expose the latest N items, so an
         afternoon fetch may show fewer Trump headlines than the morning
         one because earlier pieces have scrolled off. To avoid
@@ -1308,11 +1800,22 @@ BASE_URL = "https://andriesfluit.be/trumpflood"
 
 def _og_meta(latest):
     date_str = latest.get("date", "")
-    label    = latest.get("label", "Is Trump flooding the zone?")
     pct      = latest.get("percentage", 0)
+    matches  = latest.get("trump_articles", 0)
+    total    = latest.get("total_articles", 0)
+    zone     = latest.get("zone") or _zone_for(pct)
+    if zone == "flooded":
+        zone = "soaked"
+    answer   = _ZONE_ANSWERS.get(zone, "")
+    zone_up  = zone.upper()
     img_url  = f"{BASE_URL}/{date_str}.png"
-    desc     = f"{label} · {pct}% of Belgian headlines name Trump today."
-    title    = f"Is Trump flooding the zone? — {date_str}"
+    # Hook-first title: the answer punches, the zone + percentage qualify
+    # it, the brand sits last. Keeps under ~85 chars for LinkedIn previews.
+    title    = f'"{answer}" {pct}% in {zone_up} zone · Trumpflood'
+    desc     = (
+        f"{zone_up} zone today: {pct}% of Belgian core headlines name Trump "
+        f"({matches} of {total}). Updated 3 times daily from 33 RSS feeds."
+    )
     return (
         f'<meta property="og:type"        content="website">\n'
         f'<meta property="og:url"         content="{BASE_URL}/">\n'
@@ -1334,6 +1837,20 @@ PAGE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Is Trump flooding the zone?</title>
+<script>
+  function loadGA() {{
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JGVNLJ1K3S';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-JGVNLJ1K3S');
+  }}
+  if (localStorage.getItem('cookie_consent') === 'accepted') loadGA();
+</script>
 {og_meta}
 <style>
   :root {{
@@ -1406,6 +1923,14 @@ PAGE = """<!doctype html>
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--muted);
+  }}
+  .brand-scope {{
+    margin: 8px 0 0;
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.45;
+    /* Single-line on desktop. Falls back to natural wrap only when the
+       viewport is too narrow (mobile) to fit the sentence. */
   }}
 
   /* Hero */
@@ -1686,6 +2211,134 @@ PAGE = """<!doctype html>
     color: var(--ink);
     font-weight: 700;
   }}
+
+  /* Gates panel: 4-card horizontal block summarising the active zone's
+     measured signals. Each card shows label + measured value + a coloured
+     status bar; the floor itself is hidden (zone-colour bar = cleared,
+     hatched bar = not gated for this zone, muted bar = below floor). The
+     full thresholds matrix lives in the methodology section below. */
+  .gates-panel {{
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }}
+  .gates-header {{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-variant-numeric: tabular-nums;
+  }}
+  .gates-zone-name {{
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 1;
+  }}
+  .gates-cleared-count {{
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }}
+  .gates-grid {{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }}
+  .gate-card {{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.55);
+    border: 1px solid var(--rule);
+    padding: 10px 10px 0;
+    min-height: 130px;
+  }}
+  .gate-card-label {{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-bottom: 8px;
+    cursor: help;
+  }}
+  .gate-card-value {{
+    font-size: 28px;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }}
+  .gate-card-hint {{
+    margin-top: 4px;
+    font-size: 10.5px;
+    line-height: 1.25;
+    color: var(--muted);
+    font-style: italic;
+    flex: 1;
+  }}
+  .gate-card-na .gate-card-hint {{
+    opacity: 0.7;
+  }}
+  .gate-card-bar {{
+    margin-top: 12px;
+    height: 5px;
+    background: var(--rule);
+  }}
+  .gate-card-pass .gate-card-bar {{
+    background: var(--zone-color);
+  }}
+  .gate-card-na .gate-card-bar {{
+    background: repeating-linear-gradient(
+      45deg,
+      var(--rule),
+      var(--rule) 3px,
+      transparent 3px,
+      transparent 6px
+    );
+  }}
+  .gate-card-na .gate-card-value {{
+    color: var(--muted);
+  }}
+  .gate-card-fail .gate-card-bar {{
+    opacity: 0.4;
+  }}
+  .gate-card-status {{
+    margin-top: 6px;
+    margin-bottom: 8px;
+    font-size: 9.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }}
+  /* The gate sits AHEAD of the next-zone floor for this signal.
+     Shown in zone colour so the reader sees which gates are doing the
+     work toward the next upgrade. */
+  .gate-card-status.status-above {{
+    color: var(--zone-color);
+  }}
+  /* The gate sits BELOW the next-zone floor: this gate is what holds
+     the upgrade back. Shown in ink so the reader spots the constraint. */
+  .gate-card-status.status-below {{
+    color: var(--ink);
+  }}
+
+  @media (max-width: 600px) {{
+    .gates-grid {{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6px;
+    }}
+    .gate-card {{ min-height: 118px; }}
+    .gate-card-value {{ font-size: 24px; }}
+    .gate-card-hint {{ font-size: 10px; }}
+    .gates-zone-name {{ font-size: 18px; }}
+  }}
   .readout-indirect {{
     margin-top: 14px;
     font-size: 13px;
@@ -1848,6 +2501,40 @@ PAGE = """<!doctype html>
     border-radius: 2px;
   }}
   .legend small {{ color: #aaa; font-variant-numeric: tabular-nums; }}
+  .legend-note {{ font-size: 11px; color: var(--muted); margin: 4px 0 0; }}
+  .annotation-list {{
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }}
+  .annotation-list li {{
+    font-size: 12px;
+    color: var(--muted);
+    padding-left: 18px;
+    position: relative;
+  }}
+  .annotation-list li::before {{
+    content: "!";
+    position: absolute;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    background: #0a1929;
+    color: white;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: bold;
+    top: 1px;
+  }}
+  .legend-swatch--weekend {{
+    background: rgba(10,25,41,0.08);
+    border: 1px solid rgba(10,25,41,0.15);
+  }}
   .backfilled {{
     color: var(--muted);
     font-size: 11px;
@@ -1899,7 +2586,7 @@ PAGE = """<!doctype html>
   }}
   .comp-row {{
     display: grid;
-    grid-template-columns: 130px 1fr 110px;
+    grid-template-columns: 130px 1fr 150px;
     align-items: center;
     gap: 16px;
   }}
@@ -1935,6 +2622,15 @@ PAGE = """<!doctype html>
   }}
   .comp-stat strong {{ color: var(--ink); font-weight: 700; }}
   .comp-share {{ color: #aaa; margin-left: 6px; font-size: 12px; }}
+  .comp-delta {{
+    margin-left: 6px;
+    font-size: 11px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    white-space: nowrap;
+  }}
+  .comp-delta.flat {{ opacity: 0.4; }}
 
   .vs-others {{
     margin-top: 16px;
@@ -1942,31 +2638,55 @@ PAGE = """<!doctype html>
     border-top: 1px dashed var(--rule);
   }}
   .vs-line {{
-    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 14px;
+    font-size: 14px;
     color: var(--ink);
-  }}
-  .vs-line strong {{
-    font-family: "Playfair Display", serif;
-    font-size: 22px;
-    font-weight: 800;
-    color: var(--accent);
-    margin: 0 4px;
-  }}
-  .vs-vs {{
-    font-style: italic;
-    color: var(--muted);
-    margin: 0 4px;
-  }}
-  .vs-ratio {{
     font-variant-numeric: tabular-nums;
+  }}
+  .vs-stat {{
     color: var(--muted);
-    margin-left: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 11px;
+  }}
+  .vs-stat strong {{
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-left: 4px;
+    font-variant-numeric: tabular-nums;
+  }}
+  .vs-sep {{
+    color: var(--rule);
   }}
   .vs-verdict {{
-    margin-top: 4px;
+    margin-top: 8px;
     font-size: 13px;
     color: var(--muted);
     font-style: italic;
+  }}
+  .comp-row.comp-row-hidden {{
+    grid-template-columns: 1fr;
+    padding-top: 8px;
+    border-top: 1px dashed var(--rule);
+    margin-top: 4px;
+  }}
+  .comp-hidden-note {{
+    font-size: 12px;
+    color: var(--muted);
+  }}
+  .comp-hidden-note strong {{
+    color: var(--ink);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }}
+  .comp-hidden-names {{
+    font-style: italic;
+    margin-left: 4px;
   }}
 
   /* Themes panel: same shape as comparison but with theme rows. */
@@ -2260,17 +2980,212 @@ PAGE = """<!doctype html>
     .band {{ padding: 6px 6px; }}
     .band-name {{ font-size: 9px; letter-spacing: 0.02em; }}
   }}
+  #cookie-banner {{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--ink);
+    color: #e8e4db;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    line-height: 1.4;
+    z-index: 9999;
+    box-shadow: 0 -2px 12px rgba(0,0,0,0.25);
+  }}
+  #cookie-banner p {{
+    margin: 0;
+    flex: 1;
+    min-width: 200px;
+  }}
+  #cookie-banner a {{ color: #a8c4d8; }}
+  .cookie-buttons {{ display: flex; gap: 10px; flex-shrink: 0; }}
+  #cookie-accept, #cookie-decline {{
+    padding: 7px 18px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 600;
+  }}
+  #cookie-accept {{
+    background: #a8c4d8;
+    color: var(--ink);
+  }}
+  #cookie-decline {{
+    background: transparent;
+    color: #a8a090;
+    border: 1px solid #3a3a3a;
+  }}
+  #cookie-accept:hover {{ background: #c4d8e8; }}
+  #cookie-decline:hover {{ color: #e8e4db; border-color: #888; }}
+
+  /* ── Data-first hero (variant E, now canonical) ───────────────────── */
+  .live-badge-row {{ margin: 0 0 14px; }}
+  .live-badge {{
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--ink);
+    border: 1px solid var(--rule); padding: 4px 10px;
+    background: rgba(255,255,255,0.55);
+  }}
+  .live-badge .pulse {{
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #2ea44f;
+    box-shadow: 0 0 0 0 rgba(46, 164, 79, 0.65);
+    animation: live-pulse 2.4s ease-out infinite;
+  }}
+  @keyframes live-pulse {{
+    0%   {{ box-shadow: 0 0 0 0 rgba(46,164,79,0.65); }}
+    70%  {{ box-shadow: 0 0 0 8px rgba(46,164,79,0); }}
+    100% {{ box-shadow: 0 0 0 0 rgba(46,164,79,0); }}
+  }}
+
+  .data-hero {{ margin-bottom: 22px; }}
+  .data-hero .answer {{
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 44px; line-height: 1.0; font-weight: 900;
+    letter-spacing: -0.02em; margin: 0 0 16px;
+  }}
+  .data-hero .stat-row {{
+    display: flex; align-items: flex-end; gap: 28px;
+    flex-wrap: wrap; margin: 0;
+  }}
+  .data-hero .pct-block {{
+    display: flex; flex-direction: column; align-items: flex-start;
+  }}
+  .data-hero .pct {{
+    font-size: 76px; line-height: 1; font-weight: 800;
+    color: var(--zone-color); font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+  }}
+  .data-hero .pct-symbol {{
+    font-size: 44px; color: var(--muted); margin-left: 2px;
+  }}
+  .data-hero .pct-label {{
+    margin-top: 6px; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--muted);
+  }}
+  .data-hero .hero-spark {{
+    display: block; width: 200px; height: 44px; margin-bottom: 8px;
+  }}
+  .data-hero .stat-meta-row {{
+    display: flex; flex-wrap: wrap; align-items: baseline;
+    gap: 0 14px; margin-top: 6px;
+    font-size: 12px; color: var(--muted);
+    letter-spacing: 0.04em; font-variant-numeric: tabular-nums;
+  }}
+  .data-hero .stat-meta-row .delta {{
+    font-weight: 700; font-size: 13px; color: var(--ink);
+  }}
+  .data-hero .stat-meta-row .delta.up {{ color: var(--zone-color); }}
+  .data-hero .stat-meta-row .delta.down {{ color: var(--ink); }}
+  .data-hero .stat-meta-row .label {{
+    text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--muted);
+  }}
+  .data-hero .stat-meta-row .sep {{ color: var(--rule); }}
+  .data-hero .sub {{
+    font-size: 15px; color: var(--muted); margin: 14px 0 0;
+  }}
+  .data-hero .sub strong {{ color: var(--ink); }}
+
+  /* Horizontal zone ladder under the hero. */
+  .tracker-zone-ladder {{
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    gap: 4px; max-width: 100%; margin: 0 0 22px;
+  }}
+  .tracker-zone-ladder .step {{ position: relative; padding-top: 14px; }}
+  .tracker-zone-ladder .step .bar {{
+    height: 8px; background: var(--rule); border-radius: 1px;
+  }}
+  .tracker-zone-ladder .step.active .bar {{
+    height: 14px; margin-top: -6px;
+  }}
+  .tracker-zone-ladder .step .label {{
+    display: block; margin-top: 8px;
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--muted);
+  }}
+  .tracker-zone-ladder .step.active .label {{
+    color: var(--ink); font-weight: 700;
+  }}
+
+  /* Editorial portrait below the gates panel. Duotone via SVG filter,
+     no multiply stack. Water canvas overlay at low opacity for the
+     in-zone signal. Floating label aligns with the water surface. */
+  .portrait-figure {{
+    margin: 28px auto 0;
+    max-width: 280px;
+    text-align: center;
+  }}
+  .portrait-figure .frame {{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    background: #f1ead7;
+  }}
+  .portrait-figure .frame img {{
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center top;
+  }}
+  .portrait-figure .frame .water-canvas {{
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+  }}
+  .portrait-figure .water-marker {{
+    position: absolute;
+    right: -2px;
+    transform: translateY(-50%);
+    z-index: 4;
+    display: inline-flex; align-items: center;
+    font-size: 9.5px; font-weight: 700;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--ink); background: rgba(255,255,255,0.95);
+    padding: 4px 9px 4px 8px; white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+  }}
+  .portrait-figure .water-marker::before {{
+    content: ""; display: inline-block;
+    width: 14px; height: 2px;
+    background: var(--zone-color);
+    margin-right: 6px;
+  }}
+  .portrait-figure figcaption {{
+    margin-top: 10px;
+    font-size: 12px; color: var(--muted); font-style: italic;
+  }}
+
+  @media (max-width: 760px) {{
+    .data-hero .answer {{ font-size: 36px; }}
+    .data-hero .pct {{ font-size: 60px; }}
+    .data-hero .pct-symbol {{ font-size: 36px; }}
+    .data-hero .hero-spark {{ width: 160px; height: 38px; }}
+  }}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+{duotone_svg}
 <div class="wrap">
   <header class="masthead">
     <div>
       <div class="brand-eyebrow">trumpflood &middot; Belgian news monitor</div>
       <h1 class="brand">Is Trump flooding the zone?</h1>
+      <p class="brand-scope">Tracking how often Donald Trump&rsquo;s name appears in Belgian RSS news headlines, three times a day.</p>
     </div>
     <div class="brand-sub">{last_run}</div>
   </header>
@@ -2288,8 +3203,8 @@ PAGE = """<!doctype html>
   {methodology}
 
   <footer>
-    Sources: 31 Belgian RSS feeds, measured three times a day (06:00 / 12:00 / 18:00 UTC,
-    which is 08:00 / 14:00 / 20:00 Belgian local in summer and 07:00 / 13:00 / 19:00 in winter).
+    Sources: 33 Belgian RSS feeds, measured three times a day (03:37 / 10:37 / 16:37 UTC,
+    which is 05:37 / 12:37 / 18:37 Belgian local in summer and 04:37 / 11:37 / 17:37 in winter).
     Core tier (drives the headline number): VRT NWS, RTBF, De Standaard,
     De Morgen, HLN, Het Nieuwsblad, GVA, HBVL, Knack, La Libre, L&rsquo;Echo,
     DHnet, 7sur7, plus De Tijd, Le Soir, Sudinfo, L&rsquo;Avenir and RTL via
@@ -2463,6 +3378,31 @@ PAGE = """<!doctype html>
   }});
 }})();
 </script>
+
+<div id="cookie-banner" role="dialog" aria-label="Cookie consent" style="display:none">
+  <p>This site uses Google Analytics to count visitors and measure time on page.
+     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.</p>
+  <div class="cookie-buttons">
+    <button id="cookie-accept">Accept</button>
+    <button id="cookie-decline">Decline</button>
+  </div>
+</div>
+<script>
+(function() {{
+  if (localStorage.getItem('cookie_consent')) return;
+  var banner = document.getElementById('cookie-banner');
+  banner.style.display = 'flex';
+  document.getElementById('cookie-accept').addEventListener('click', function() {{
+    localStorage.setItem('cookie_consent', 'accepted');
+    banner.style.display = 'none';
+    loadGA();
+  }});
+  document.getElementById('cookie-decline').addEventListener('click', function() {{
+    localStorage.setItem('cookie_consent', 'declined');
+    banner.style.display = 'none';
+  }});
+}})();
+</script>
 </body>
 </html>
 """
@@ -2487,6 +3427,7 @@ def render():
 
     html_out = PAGE.format(
         og_meta=_og_meta(latest),
+        duotone_svg=_duotone_filter_svg(),
         hero=_hero(latest),
         comparison=_comparison_panel(latest),
         timeline=_timeline(log_sorted_asc),

@@ -1,0 +1,86 @@
+name: destandaard digest
+
+# Fully autonomous: every night around 02:00 Brussels the job fetches that
+# day's De Standaard edition straight from the public Twipe CDN (no login —
+# see check_public.py), builds the personal digest, mails it, and publishes
+# the JSON the MyNews web reader consumes.
+#
+# Two crons so the same local time works across DST (GitHub cron is UTC):
+#   00:07 UTC -> 02:07 CEST (summer)
+#   01:07 UTC -> 02:07 CET  (winter)
+# The "wrong" cron for the season fires an hour off and main.py --auto skips
+# via its idempotency gate (today's digest already built -> exit 0). The :07
+# offset dodges the top-of-hour scheduler stampede.
+
+on:
+  schedule:
+    - cron: "7 0 * * *"
+    - cron: "7 1 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Rebuild even if today's digest already exists"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: destandaard
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: _destandaard/requirements.txt
+
+      - name: Install dependencies
+        working-directory: _destandaard
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build + mail digest
+        working-directory: _destandaard
+        env:
+          ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER:          ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD:  ${{ secrets.GMAIL_APP_PASSWORD }}
+          # Optional: leave unset to use the default recipient in main.py.
+          DESTANDAARD_TO_ADDR: ${{ secrets.DESTANDAARD_TO_ADDR }}
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            python main.py --auto --force
+          else
+            python main.py --auto
+          fi
+
+      - name: Commit digest + state
+        run: |
+          git config user.name "destandaard-bot"
+          git config user.email "destandaard-bot@andriesfluit.be"
+          git add _destandaard/data/digests/ \
+                  _destandaard/data/*_history.jsonl \
+                  _destandaard/data/*_last_edition.json \
+                  mynews/data/
+          if ! git diff --cached --quiet; then
+            git commit -m "destandaard: digest for $(TZ=Europe/Brussels date '+%Y-%m-%d')"
+            git pull --rebase --autostash
+            git push
+          else
+            echo "No new digest to commit."
+          fi
