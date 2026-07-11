@@ -10,7 +10,15 @@ except ImportError:                 # pragma: no cover
     _BRUSSELS = None
 
 from comparators import COMPARATORS, label_for as comparator_label
-from assessor import THRESHOLDS as _ASSESSOR_THRESHOLDS
+from assessor import THRESHOLDS as _ASSESSOR_THRESHOLDS, THRESHOLDS_META
+
+# Externally-anchored norm: the share of Belgian news a US president
+# normally gets on his median day (Biden spring 2022, converted to core
+# units; see the "anchor" block in thresholds.json and
+# methodology_review_2026-07.md). None when running against a
+# thresholds.json that predates the anchor.
+NORM_PRESIDENT_PCT = ((THRESHOLDS_META or {}).get("anchor") or {}).get(
+    "normal_president_core_pct")
 
 ROOT = Path(__file__).parent
 LOG_FILE = ROOT / "data" / "log.json"
@@ -646,6 +654,20 @@ def _hero(latest):
         zone_idx = 0
     water_target = (zone_idx + 1) * (100 / len(ZONE_KEYS)) * 0.70
 
+    # Structural layer: today's share against what a US president NORMALLY
+    # gets in Belgian media. The externally-anchored headline claim; the
+    # zone ladder below it tracks day-to-day variation.
+    norm_html = ""
+    if NORM_PRESIDENT_PCT and pct is not None:
+        norm_multiple = pct / NORM_PRESIDENT_PCT
+        norm_html = (
+            f'<p class="sub norm-line" title="Norm: a sitting US president\'s '
+            f'median day was {NORM_PRESIDENT_PCT}% of Belgian news (Biden, '
+            f'spring 2022, measured via GDELT and converted to this '
+            f'corpus)">That is <strong>{norm_multiple:.1f}&times;</strong> '
+            f'the attention a US president normally gets here.</p>'
+        )
+
     last_checked = _format_local_clock(latest.get("last_checked_at"))
     gates_panel_html = _hero_gates_panel(latest)
 
@@ -669,6 +691,7 @@ def _hero(latest):
     {range_html}
   </div>
   <p class="sub"><strong>{matches}</strong> of <strong>{total}</strong> headlines name Trump.</p>
+  {norm_html}
 </section>
 
 <div class="tracker-zone-ladder">{''.join(steps)}</div>
@@ -1681,17 +1704,20 @@ def _methodology(latest):
         {zone_cards}
       </div>
       <p>Thresholds in use today: version
-      <code>{thresholds_version}</code>. The initial version
-      (<code>v0-eyeballed</code>) uses absolute floors picked by eye,
-      not calibrated against any distribution. The only defence for
-      them is that a day clearing several at once is, empirically, a
-      day when Trump visibly dominates Belgian headlines. After 30+
-      days of live name-only history these absolutes get replaced by
-      percentiles of Trump&rsquo;s own distribution (&ldquo;Flooding
-      = top 5&percnt; day, Soaked = top 15&percnt;, ...&rdquo;) via
-      <code>calibrate.py</code>, which is the only truly
-      self-calibrated version. Until that runs, treat the zone names
-      as ordinal labels, not statistical claims.</p>
+      <code>{thresholds_version}</code>. The share floors are defined
+      as <strong>multiples of the attention a US president normally
+      gets</strong> in Belgian media: Puddles = 1&times; the norm,
+      Wet = 2&times;, Soaked = 3&times;, Flooding = 5&times;. The norm
+      (1.15&percnt; of daily articles) is the median day of Biden in
+      spring 2022 &mdash; with the Ukraine war on the front pages, so a
+      conservative benchmark &mdash; measured on the same Belgian press
+      via GDELT and converted to this site&rsquo;s corpus with a scale
+      factor measured on 83 overlapping days. An earlier plan to
+      calibrate the floors as percentiles of Trump&rsquo;s own history
+      was rejected on principle: when the premise is that coverage is
+      abnormally high, calibrating on that coverage quietly redefines
+      the abnormal level as the baseline. Anchoring on a normal
+      presidency keeps the zone names meaning what they say.</p>
 
       <h3>Caveats &amp; limits</h3>
       <ul class="meth-rules">

@@ -103,16 +103,58 @@ by construction). Site copy can carry the structural layer directly:
 "vandaag krijgt Trump N x de aandacht die een Amerikaanse president
 normaal krijgt in de Belgische media."
 
+## Adopted 2026-07-11
+
+The multiples-of-norm ladder is live: thresholds.json version
+`norm-biden2022-x1-2-3-5-2026-07-11` (floors 1.1 / 2.3 / 3.4 / 5.7,
+anchor metadata in the file). Effect on the 83-day live archive,
+old floors -> new floors: flooding 15 -> 4 days (now genuinely rare),
+soaked 24 -> 23, wet 37 -> 25, puddles 5 -> 29, dry 2 -> 2. The site
+hero now carries the structural layer ("N x the attention a US
+president normally gets here") and the methodology section explains the
+anchor. calibrate.py refuses `--write` without
+`--force-self-referential`; its percentile dry-run stays available as
+context.
+
+## Detector validation (2026-07-11, validation/labels.jsonl)
+
+325 stratified headlines from the live archive (220 sampled name-only
+positives, all 17 family-filtered, all 88 expanded-only), title-only
+relevance judgments (labeled by Claude, machine-assisted — spot-check
+via `validate_detector.py --show-disagreements`):
+
+| detector                      | precision | recall* |
+|-------------------------------|----------:|--------:|
+| name-raw (`\btrump\b`)        | 92.0%     | 80.4%   |
+| name-donald (production)      | **99.1%** | 80.4%   |
+| expanded                      | 83.4%     | 100%    |
+
+*Recall is measured against expanded-detector positives only (the log
+stores no detector-negatives), so read it as: ~20% of Trump-relevant
+coverage refers to him only indirectly ("Witte Huis", "de Amerikaanse
+president"). That is the deliberate name-only tradeoff the site
+already documents, now quantified.
+
+Findings:
+- The family/building filter earns its keep: it removes 17 real
+  false positives (Trump Tower, Ivanka/Kushner resorts) and leaves
+  production precision at 99.1% (2 FPs in 220: "Trump Mobile", a
+  buffalo resembling Trump).
+- The expanded detector's 54 false positives are mostly White
+  House-as-location incidents (shootings near the WH, a foiled attack
+  at a WH event) and family stories - fine for its display-only role,
+  and a reason it must not drive the zone.
+- Known name-only miss: the Dutch genitive "Trumps" ("Trumps
+  uitnodiging", "Trumps Witte Huis") escapes `\btrump\b`. Do NOT hotfix
+  the regex mid-series (it would shift the yardstick); if adopted,
+  bump a thresholds/detector version marker at the same time.
+
 ## Open items
 
-- [x] GDELT normal-presidency anchor fetched (2026-07-11, via Actions
-      re-runs; per-window resume in anchors.py).
-- [ ] Decide whether to adopt the multiples-of-norm ladder above in
-      thresholds.json (editorial call; keeps zones close to current
-      behaviour but externally defined).
 - [ ] Re-verify the biden-2023 window from a non-datacenter IP before
-      leaning on it.
-- [ ] Detector validation is still pending and is orthogonal to the
-      anchoring question: run `validation/sample_headlines.py`, label
-      ~200 headlines, then `validation/validate_detector.py` for
-      precision/recall. Measurement accuracy underpins every layer.
+      leaning on it (not used for the anchor).
+- [ ] Recall against true negatives needs main.py to persist a daily
+      sample of non-matching titles; until then recall is only
+      measurable relative to the expanded detector.
+- [ ] Decide on the "Trumps" genitive (see above), as a versioned
+      detector change.
