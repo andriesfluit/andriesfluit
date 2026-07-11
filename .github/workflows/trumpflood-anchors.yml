@@ -7,6 +7,15 @@ name: trumpflood anchors (manual)
 
 on:
   workflow_dispatch:
+  # workflow_dispatch only registers once this file reaches main; the push
+  # trigger lets the job run straight from the feature branch. The paths
+  # filter keeps the report-commit this job pushes from retriggering it.
+  push:
+    branches:
+      - "claude/monitor-methodology-test-rou6fi"
+    paths:
+      - ".github/workflows/trumpflood-anchors.yml"
+      - "_trumpflood/anchors.py"
 
 permissions:
   contents: write
