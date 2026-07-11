@@ -166,9 +166,17 @@
         "mean": 0.95,
         "p95": 2.4,
         "max": 4.13
+      },
+      "biden-2023": {
+        "n": 90,
+        "median": 0.0,
+        "mean": 0.07,
+        "p95": 0.48,
+        "max": 1.22
       }
     },
     "gdelt_to_core_scale": null,
-    "scale_window": null
+    "scale_window": null,
+    "normal_presidency_median_gdelt": 1.57
   }
 }
