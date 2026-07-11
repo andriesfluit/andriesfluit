@@ -175,8 +175,9 @@
         "max": 1.22
       }
     },
-    "gdelt_to_core_scale": null,
-    "scale_window": null,
-    "normal_presidency_median_gdelt": 1.57
+    "gdelt_to_core_scale": 1.47,
+    "scale_window": "2026-04-20 .. 2026-07-11",
+    "normal_presidency_median_gdelt": 1.57,
+    "normal_presidency_median_core_units": 2.31
   }
 }
