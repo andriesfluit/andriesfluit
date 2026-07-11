@@ -21,31 +21,47 @@ Inclusion rule (applied manually; reviewed quarterly):
 
 The patterns match article titles case-insensitively, with word
 boundaries. Python 3 \\b is Unicode-aware so accented characters work.
+
+Genitive handling (PATTERN_VERSION s-genitive-2026-07-11): Dutch writes
+the possessive of consonant-ending names without an apostrophe
+("Trumps uitnodiging", "Poetins leger"), which a bare \\btrump\\b misses
+(~0.4% of archived Trump headlines). All consonant-ending names now
+accept an optional trailing s, applied to every comparator at once so
+rank/dominance stay symmetric. Names ending in a vowel sound (Zelensky,
+Netanyahu, Rousseau) take an apostrophe in Dutch ("Zelensky's") and
+already matched via the word boundary. Records carry `pattern_version`
+so the archive shows from which day the wider patterns count.
 """
 import re
+
+# Bumped whenever the name patterns change, so daily records can mark
+# which measuring stick produced them. Logged by main.py.
+PATTERN_VERSION = "s-genitive-2026-07-11"
 
 # (key, regex, display_label, region)
 # region is "intl" or "be"; used only for documentation/grouping.
 _TERMS = [
     # ---- International (7) ----
-    ("trump",         r"\btrump\b",                                 "Trump",         "intl"),
-    ("putin",         r"\b(putin|poetin|poutine)\b",                "Putin",         "intl"),
-    ("macron",        r"\bmacron\b",                                "Macron",        "intl"),
+    ("trump",         r"\btrumps?\b",                               "Trump",         "intl"),
+    ("putin",         r"\b(?:putin|poetin|poutine)s?\b",            "Putin",         "intl"),
+    ("macron",        r"\bmacrons?\b",                              "Macron",        "intl"),
     ("netanyahu",     r"\bnetanyahu\b",                             "Netanyahu",     "intl"),
     ("zelensky",      r"\bzelensk(?:yy|y|yi|i)\b",                  "Zelensky",      "intl"),
-    ("rutte",         r"\brutte\b",                                 "Rutte",         "intl"),
-    ("von_der_leyen", r"\bvon\s+der\s+leyen\b",                     "Von der Leyen", "intl"),
+    ("rutte",         r"\bruttes?\b",                               "Rutte",         "intl"),
+    ("von_der_leyen", r"\bvon\s+der\s+leyens?\b",                   "Von der Leyen", "intl"),
     # ---- Belgian (10) ----
-    ("de_wever",      r"\bde\s*wever\b",                            "De Wever",      "be"),
+    ("de_wever",      r"\bde\s*wevers?\b",                          "De Wever",      "be"),
     ("bouchez",       r"\bbouchez\b",                               "Bouchez",       "be"),
-    ("magnette",      r"\bmagnette\b",                              "Magnette",      "be"),
-    ("prevot",        r"\bpr[eé]vot\b",                        "Prévot",   "be"),
+    ("magnette",      r"\bmagnettes?\b",                            "Magnette",      "be"),
+    ("prevot",        r"\bpr[eé]vots?\b",                      "Prévot",   "be"),
     ("rousseau",      r"\brousseau\b",                              "Rousseau",      "be"),
-    ("francken",      r"\bfrancken\b",                              "Francken",      "be"),
+    ("francken",      r"\bfranckens?\b",                            "Francken",      "be"),
     ("crevits",       r"\bcrevits\b",                               "Crevits",       "be"),
+    # No s? on jambon: French plural "jambons" is literally hams, and
+    # the bare word is already accepted noise (see inclusion rule).
     ("jambon",        r"\bjambon\b",                                "Jambon",        "be"),
-    ("van_peteghem",  r"\bvan\s*peteghem\b",                        "Van Peteghem",  "be"),
-    ("verlinden",     r"\bverlinden\b",                             "Verlinden",     "be"),
+    ("van_peteghem",  r"\bvan\s*peteghems?\b",                      "Van Peteghem",  "be"),
+    ("verlinden",     r"\bverlindens?\b",                           "Verlinden",     "be"),
 ]
 
 COMPARATORS = [
@@ -67,12 +83,12 @@ TRUMP_NAME_PATTERN = next(c["pattern"] for c in COMPARATORS if c["key"] == "trum
 _TRUMP_NON_DONALD_PATTERN = re.compile(
     r"(?:donald\s+)?trump\s+jr\.?(?=\b)"
     r"|(?:donald\s+)?trump\s+junior\b"
-    r"|\beric\s+trump\b"
-    r"|\bivanka\s+trump\b"
-    r"|\bmelania\s+trump\b"
-    r"|\bbarron\s+trump\b"
-    r"|\btiffany\s+trump\b"
-    r"|\blara\s+trump\b"
+    r"|\beric\s+trumps?\b"
+    r"|\bivanka\s+trumps?\b"
+    r"|\bmelania\s+trumps?\b"
+    r"|\bbarron\s+trumps?\b"
+    r"|\btiffany\s+trumps?\b"
+    r"|\blara\s+trumps?\b"
     r"|\btrump\s+towers?\b"
     r"|\btrump\s+organi[sz]ation\b"
     r"|\btrump\s+international\b"

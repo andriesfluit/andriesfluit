@@ -1,0 +1,183 @@
+{
+  "peers": {
+    "generated_from": "2026-04-20 .. 2026-07-11",
+    "days": 83,
+    "best_other_daily": {
+      "n": 83,
+      "median": 0.62,
+      "mean": 0.72,
+      "p95": 1.82,
+      "max": 2.66
+    },
+    "trump_daily": {
+      "n": 83,
+      "median": 2.71,
+      "mean": 3.25,
+      "p95": 5.83,
+      "max": 12.67
+    },
+    "days_trump_above_alltime_peer_max": 44,
+    "anchors_pct": {
+      "typical_best_peer_day": 0.62,
+      "strong_best_peer_day_p95": 1.82,
+      "any_peer_ever_max": 2.66
+    },
+    "per_figure": {
+      "trump": {
+        "n": 83,
+        "median": 2.71,
+        "mean": 3.25,
+        "p95": 5.83,
+        "max": 12.67
+      },
+      "putin": {
+        "n": 83,
+        "median": 0.28,
+        "mean": 0.38,
+        "p95": 1.07,
+        "max": 2.59
+      },
+      "macron": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.06,
+        "p95": 0.36,
+        "max": 0.84
+      },
+      "netanyahu": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.09,
+        "p95": 0.32,
+        "max": 1.21
+      },
+      "zelensky": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.19,
+        "p95": 0.87,
+        "max": 1.29
+      },
+      "de_wever": {
+        "n": 83,
+        "median": 0.15,
+        "mean": 0.3,
+        "p95": 0.87,
+        "max": 2.66
+      },
+      "bouchez": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.14,
+        "p95": 0.48,
+        "max": 1.28
+      },
+      "magnette": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.03,
+        "p95": 0.14,
+        "max": 0.67
+      },
+      "prevot": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.08,
+        "p95": 0.53,
+        "max": 0.7
+      },
+      "rousseau": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.05,
+        "p95": 0.42,
+        "max": 1.02
+      },
+      "francken": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.1,
+        "p95": 0.44,
+        "max": 1.29
+      },
+      "crevits": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.02,
+        "p95": 0.21,
+        "max": 0.52
+      },
+      "van_peteghem": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.02,
+        "p95": 0.22,
+        "max": 0.38
+      },
+      "verlinden": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.07,
+        "p95": 0.27,
+        "max": 2.03
+      },
+      "rutte": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.02,
+        "p95": 0.11,
+        "max": 0.8
+      },
+      "von_der_leyen": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.03,
+        "p95": 0.14,
+        "max": 0.87
+      },
+      "jambon": {
+        "n": 83,
+        "median": 0.0,
+        "mean": 0.04,
+        "p95": 0.26,
+        "max": 0.5
+      }
+    }
+  },
+  "gdelt": {
+    "reference_windows": {
+      "trump-I-2018": {
+        "n": 91,
+        "median": 4.01,
+        "mean": 4.19,
+        "p95": 6.64,
+        "max": 10.66
+      },
+      "trump-I-2019": {
+        "n": 91,
+        "median": 2.36,
+        "mean": 2.43,
+        "p95": 3.72,
+        "max": 3.87
+      },
+      "biden-2022": {
+        "n": 91,
+        "median": 0.78,
+        "mean": 0.95,
+        "p95": 2.4,
+        "max": 4.13
+      },
+      "biden-2023": {
+        "n": 90,
+        "median": 0.0,
+        "mean": 0.07,
+        "p95": 0.48,
+        "max": 1.22
+      }
+    },
+    "gdelt_to_core_scale": 1.47,
+    "scale_window": "2026-04-20 .. 2026-07-11",
+    "normal_presidency_median_gdelt": 1.57,
+    "normal_presidency_median_core_units": 2.31
+  }
+}

@@ -1,18 +1,25 @@
 {
-  "version": "v0-eyeballed",
-  "generated_at": "2026-04-21",
-  "source": "hand-picked initial cutoffs, retained across the detector switch from expanded to name-only (2026-04-21)",
-  "source_window": null,
-  "source_days": 0,
+  "version": "norm-biden2022-x1-2-3-5-2026-07-11",
+  "generated_at": "2026-07-11",
+  "source": "multiples of the normal-presidency attention share, anchored on Biden spring 2022 (GDELT) converted to core-corpus units",
+  "source_window": "2022-03-01 .. 2022-05-30 (anchor); scale from live overlap 2026-04-20 .. 2026-07-11",
+  "source_days": 91,
+  "anchor": {
+    "normal_president_core_pct": 1.15,
+    "basis": "Biden 2022 median GDELT share 0.78% of Belgian articles x measured core/GDELT scale 1.47",
+    "report": "validation/anchors_report.json",
+    "review": "methodology_review_2026-07.md"
+  },
   "notes": [
-    "These floors are not calibrated against a distribution.",
-    "They are absolute values, not percentiles of Belgian Trump share.",
-    "Replace by running calibrate.py once the live name-only archive reaches >= 30 days."
+    "Share floors are multiples (1x/2x/3x/5x) of the attention a US president normally gets in Belgian media, measured on Biden spring 2022 (with the Ukraine war on the front pages, so a conservative norm).",
+    "Deliberately NOT percentiles of Trump's own distribution: calibrating on the anomaly would normalize the anomaly. See methodology_review_2026-07.md.",
+    "Rank, dominance and breadth floors retained from v0-eyeballed; they compare against other figures on the same day and are externally anchored by construction.",
+    "Biden 2023 (median 0.0%) was measured but looks like a GDELT coverage artifact; it is not used for the anchor."
   ],
   "zones": [
-    {"key": "flooding", "pct": 4.0, "dominance": 2.0, "breadth": 0.55, "rank_max": 1},
-    {"key": "soaked",   "pct": 2.5, "dominance": 1.2, "breadth": 0.40, "rank_max": 1},
-    {"key": "wet",      "pct": 1.5, "dominance": null, "breadth": 0.25, "rank_max": 2},
-    {"key": "puddles",  "pct": 0.8, "dominance": null, "breadth": null, "rank_max": 4}
+    {"key": "flooding", "pct": 5.7, "dominance": 2.0, "breadth": 0.55, "rank_max": 1, "norm_multiple": 5},
+    {"key": "soaked",   "pct": 3.4, "dominance": 1.2, "breadth": 0.40, "rank_max": 1, "norm_multiple": 3},
+    {"key": "wet",      "pct": 2.3, "dominance": null, "breadth": 0.25, "rank_max": 2, "norm_multiple": 2},
+    {"key": "puddles",  "pct": 1.1, "dominance": null, "breadth": null, "rank_max": 4, "norm_multiple": 1}
   ]
 }

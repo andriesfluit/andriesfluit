@@ -1,27 +1,26 @@
 #!/usr/bin/env python3
-"""Derive zone thresholds from the live archive and write thresholds.json.
+"""Report percentiles of Trump's own share distribution (context only).
 
-The current thresholds (4.0 / 2.5 / 1.5 / 0.8 on share) are round numbers
-picked by eye. Once the archive has enough clean name-only history, a
-more defensible calibration is to set each zone's floor at a percentile
-of the observed distribution, so the name of the zone corresponds to a
-stated frequency (for example: Flooding = top 5% of days).
+HISTORY / STATUS (2026-07): this script was originally the plan for
+calibrating the zone floors ("Flooding = top 5% of Trump days"). That
+plan was REJECTED in the July 2026 methodology review: the monitor's
+premise is that Trump coverage is abnormally high, and calibrating
+floors on Trump's own distribution quietly redefines the abnormal
+level as the baseline. Zone floors are now anchored externally on the
+attention a US president normally gets (see anchors.py, the "anchor"
+block in thresholds.json, and methodology_review_2026-07.md).
 
-This script reads data/log.json, keeps only records with a valid
-`core_percentage_name` (name-only era, live runs), and prints the
-implied percentile cutoffs. When --write is passed and enough history
-exists, it also writes thresholds.json with the new values and a
-metadata block noting the window and generation date.
+The percentile readout itself remains useful as CONTEXT ("today sits at
+p87 of the Trump-II era"), which is why the dry run is kept. Writing
+thresholds.json from these percentiles is refused unless you insist
+with --force-self-referential and accept the caveat above.
 
 Usage:
     python3 calibrate.py                    # dry run, print percentiles
     python3 calibrate.py --days 90          # restrict to a window
-    python3 calibrate.py --write            # persist to thresholds.json
 
 Percentile choices are configurable via --pcts (default: 95,85,65,35
-for flooding/soaked/wet/puddles respectively). Dominance, breadth and
-rank floors are retained from the current thresholds.json because they
-are corpus-independent and don't benefit from distributional calibration.
+for flooding/soaked/wet/puddles respectively).
 """
 import argparse
 import json
@@ -61,8 +60,22 @@ def main():
     ap.add_argument("--pcts", type=str, default="95,85,65,35",
                     help="Percentiles for flooding,soaked,wet,puddles.")
     ap.add_argument("--write", action="store_true",
-                    help="Persist new values to thresholds.json.")
+                    help="Persist new values to thresholds.json. Refused "
+                         "unless --force-self-referential is also given.")
+    ap.add_argument("--force-self-referential", action="store_true",
+                    help="Acknowledge that percentile floors normalize the "
+                         "anomaly the monitor exists to show.")
     args = ap.parse_args()
+
+    if args.write and not args.force_self_referential:
+        sys.exit(
+            "Refusing to write percentile-based thresholds: calibrating on "
+            "Trump's own distribution normalizes the anomaly the monitor "
+            "exists to show (methodology review, July 2026). Zone floors "
+            "are anchored externally instead - see anchors.py and the "
+            "'anchor' block in thresholds.json. If you really want this, "
+            "re-run with --force-self-referential."
+        )
 
     records = _load_records()
     if args.days is not None:
