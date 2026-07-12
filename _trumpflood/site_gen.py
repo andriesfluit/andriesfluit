@@ -1168,12 +1168,14 @@ def _timeline(log_sorted_asc):
         f'<line x1="{PAD_L}" x2="{W - PAD_R}" y1="{norm_y:.1f}" y2="{norm_y:.1f}" '
         f'stroke="#8a8170" stroke-width="1.4"/>'
     )
+    # Short label at the LEFT (oldest data), so the latest bars at the
+    # right stay unobstructed; the caption below the chart explains it.
     norm_label = (
-        f'<text x="{W - PAD_R}" y="{norm_y - 6:.1f}" text-anchor="end" '
+        f'<text x="{PAD_L + 6}" y="{norm_y - 6:.1f}" text-anchor="start" '
         f'font-size="10" fill="#5f584c" font-family="Inter, sans-serif" '
         f'stroke="#f5f3ee" stroke-width="3" paint-order="stroke" '
         f'stroke-linejoin="round">'
-        f'normal president’s median day ({MATERIALITY_PCT:g}%)</text>'
+        f'normal president ({MATERIALITY_PCT:g}%)</text>'
     )
 
     # Plain integer percentage gridlines.
@@ -1528,16 +1530,14 @@ def _methodology(latest):
     <div class="meth-body">
 
       <h3>The name</h3>
-      <p>&ldquo;Flooding the zone&rdquo; is Steve Bannon&rsquo;s phrase
-      for a media strategy: overwhelm the press with so much material at
-      once that scrutiny of any single story becomes impossible. As he
-      put it to author Michael Lewis in 2018: &ldquo;The Democrats
-      don&rsquo;t matter. The real opposition is the media. And the way
-      to deal with them is to flood the zone with shit.&rdquo; The
-      vulgarity is his, quoted for the record, not endorsed. This site
-      borrows the metaphor to measure the <em>effect</em> on the
-      Belgian press &mdash; is the zone in fact flooded? &mdash; and
-      takes no position on intent.</p>
+      <p>The quote in the masthead is Steve Bannon&rsquo;s &mdash;
+      Trump&rsquo;s former chief strategist &mdash; describing a media
+      strategy to author Michael Lewis in 2018: overwhelm the press
+      with so much material at once that scrutiny of any single story
+      becomes impossible. The vulgarity is his, quoted for the record,
+      not endorsed. This site borrows the metaphor to measure the
+      <em>effect</em> on the Belgian press &mdash; is the zone in fact
+      flooded? &mdash; and takes no position on intent.</p>
 
       <h3>Daily collection</h3>
       <p>Three times a day, at 03:37, 10:37 and 16:37 UTC (which is
@@ -1979,12 +1979,36 @@ PAGE = """<!doctype html>
     color: var(--muted);
   }}
   .brand-scope {{
-    margin: 8px 0 0;
+    margin: 10px 0 0;
     font-size: 14px;
     color: var(--muted);
     line-height: 1.45;
-    /* Single-line on desktop. Falls back to natural wrap only when the
-       viewport is too narrow (mobile) to fit the sentence. */
+    max-width: 640px;
+  }}
+  /* Masthead epigraph: the Bannon quote as the site's motto. Editorial
+     treatment: italic serif with an accent rule, attribution in small
+     caps. The methodology's "The name" section carries the context. */
+  .epigraph {{
+    margin: 16px 0 0;
+    max-width: 640px;
+    border-left: 3px solid var(--accent);
+    padding: 2px 0 2px 16px;
+  }}
+  .epigraph p {{
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.5;
+  }}
+  .epigraph cite {{
+    display: block;
+    margin-top: 7px;
+    font-style: normal;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
   }}
 
   /* Hero */
@@ -3239,7 +3263,13 @@ PAGE = """<!doctype html>
     <div>
       <div class="brand-eyebrow">trumpflood &middot; Belgian news monitor</div>
       <h1 class="brand">Is Trump flooding the zone?</h1>
-      <p class="brand-scope">Tracking how often Donald Trump&rsquo;s name appears in Belgian RSS news headlines, three times a day.</p>
+      <blockquote class="epigraph">
+        <p>&ldquo;The Democrats don&rsquo;t matter. The real opposition
+        is the media. And the way to deal with them is to flood the
+        zone with shit.&rdquo;</p>
+        <cite>&mdash; Steve Bannon, Trump&rsquo;s former chief strategist, to author Michael Lewis, 2018</cite>
+      </blockquote>
+      <p class="brand-scope">This site measures whether that strategy shows in the Belgian press: how often Trump&rsquo;s name appears in Belgian news headlines, tracked three times a day.</p>
     </div>
     <div class="brand-sub">{last_run}</div>
   </header>
