@@ -55228,7 +55228,7 @@
   {
     "date": "2026-07-11",
     "generated_at": "2026-07-11T13:30:28+02:00",
-    "last_checked_at": "2026-07-11T13:30:28+02:00",
+    "last_checked_at": "2026-07-11T19:37:14+02:00",
     "total_articles": 502,
     "trump_articles": 12,
     "percentage": 2.4,
@@ -55794,5 +55794,437 @@
       "weather": 24
     },
     "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
+  },
+  {
+    "date": "2026-07-12",
+    "generated_at": "2026-07-12T08:19:16+02:00",
+    "last_checked_at": "2026-07-12T08:19:16+02:00",
+    "total_articles": 211,
+    "trump_articles": 1,
+    "percentage": 0.5,
+    "core_percentage": 0.5,
+    "core_percentage_name": 0.5,
+    "trump_articles_expanded": 1,
+    "core_percentage_expanded": 0.5,
+    "indirect_references": 0,
+    "wide_total_articles": 294,
+    "wide_trump_articles": 4,
+    "wide_percentage": 1.4,
+    "wide_trump_articles_expanded": 4,
+    "wide_percentage_expanded": 1.4,
+    "macro_percentage": 0.5,
+    "qualifying_outlets": 12,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 48,
+    "cross_outlet_dup_groups": 24,
+    "cross_outlet_dup_rate": 22.7,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.5,
+    "breadth": 0.07,
+    "deviation": 0.21,
+    "smoothed_pct": 3.47,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 48,
+        "today": 4,
+        "kept": 4,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 50.0
+      },
+      "google_nl_world": {
+        "fetched": 64,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 54,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 53,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 26,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 51,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 36,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 38,
+        "kept": 38,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 40,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 47,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "À Venise, suite aux diktats de Trump, le vrai pavillon américain n’est pas à la Biennale",
+        "url": "https://www.lalibre.be/culture/arts/2026/07/12/a-venise-suite-aux-diktats-de-trump-le-vrai-pavillon-americain-nest-pas-a-la-biennale-F6QRZIOGJNHNHOS67MUDBCLMYA/",
+        "source": "lalibre",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Werd schoonzoon van Trump opgelicht toen hij grond kocht voor groot luxeresort in Albanië? - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRml0M2cwMUYwUVBsS2hzQllNOG4wNTBDbGI1RlRqcEc4XzBhTHZZQlR6QmlyUUs5OFJLU253ZjJjT05FWEFmbUlqdFR5ZXBKbHRHbV9aNGZSckV2NFd5NHpvSmtVS3BETFhjVUhDZG8zZDZTTzE0R3lPMkVLYnEwWS1iNkNJcUptNmN6MlFEaWVuT3hyVm9BUXN1aVpZVUt2MGJGc0RCYkhvNVY3Yjc0Y0F3dXdxbnNyZmJmTHNMWFoxcjdaSVgyUjZjTm9MU1NMN1o2Yk53ams?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Journalisten New York Times gedagvaard na berichtgeving over vliegtuig Trump - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd3diU1VYM1NWdENNUVpBTXQ1OFRpYmJ3a3JWbGtpaFZCZFhhMEo5RjRCQXlFbVV6SWk4cWhNam1seTd3OHdJNDBmQlc0NU9NNTUyZjJSY2Y0VlB0cDNkWTRHNEFLaUNqZTNPeTdGZjdwUmxaZHNaYmNaYUhLM20zQjJ0X0J3TlhxQ0NJN3FrYmhFcGd4Q000VjlHaThPYlI1RTVyNmxhb1hGVnQ2V0h2UHVwUF9pMkV1Nmo4Q1piTW1iM0FoNGxB?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Duizenden Albanezen betogen tegen miljarden kostend hotelplan van schoonzoon Trump en tegen optreden rapper Ye - de Volkskrant",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSGdQN1NFbGt2dk4zUXhha3BRSF93UGswUDNIWi1FYWY0WUIwWjlVcDE1cF9QMFAwMFNLVWZfdmdOUjZJS3JVZHMxc2M5UHVibmtSaktuNU9qLVh3QjBSLWVPSURZWjRhTnhaXzdtV0ctRXlBWHNHMGlGaHRQZGZabm1yTnFEczdNcm9lT2hxWXlhM1lQbnhSeHBFZlliWUFJbkgtNTlhdlk3MmpMRGJMT0JVM0RTR2RIQVlybGZwRGlrRlhpUzdkZFNXZ1cyMXoyRk5seWx0U3ZIeXJIaGFfRXZhQ0x1NURvSlRWNWNR?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "À Venise, suite aux diktats de Trump, le vrai pavillon américain n’est pas à la Biennale",
+        "url": "https://www.lalibre.be/culture/arts/2026/07/12/a-venise-suite-aux-diktats-de-trump-le-vrai-pavillon-americain-nest-pas-a-la-biennale-F6QRZIOGJNHNHOS67MUDBCLMYA/",
+        "source": "lalibre",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 1,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 4,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 6,
+      "crime": 7,
+      "eu": 6,
+      "politics": 5,
+      "be_gov": 4,
+      "culture": 7,
+      "tech": 3,
+      "economy": 1,
+      "sports": 27,
+      "health": 2,
+      "climate": 1,
+      "migration": 0,
+      "education": 1,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 8,
+      "crime": 12,
+      "eu": 7,
+      "politics": 8,
+      "be_gov": 4,
+      "culture": 7,
+      "tech": 5,
+      "economy": 1,
+      "sports": 38,
+      "health": 4,
+      "climate": 1,
+      "migration": 1,
+      "education": 1,
+      "weather": 12
+    },
+    "zone_recomputed": "2026-07-12 natural-breakpoints (merge reconcile)"
   }
 ]
