@@ -3269,7 +3269,7 @@ PAGE = """<!doctype html>
         zone with shit.&rdquo;</p>
         <cite>&mdash; Steve Bannon, Trump&rsquo;s former chief strategist, to author Michael Lewis, 2018</cite>
       </blockquote>
-      <p class="brand-scope">This site measures whether that strategy shows in the Belgian press: how often Trump&rsquo;s name appears in Belgian news headlines, tracked three times a day.</p>
+      <p class="brand-scope">This site measures how often Trump&rsquo;s name appears in Belgian news headlines, tracked three times a day.</p>
     </div>
     <div class="brand-sub">{last_run}</div>
   </header>
