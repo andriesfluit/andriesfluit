@@ -103,7 +103,38 @@ by construction). Site copy can carry the structural layer directly:
 "vandaag krijgt Trump N x de aandacht die een Amerikaanse president
 normaal krijgt in de Belgische media."
 
-## Correction, same day (v2 floors): no outcome-fitting anywhere
+## Final design, same day (v3): natural breakpoints, retroactive
+
+v2 still hung the zone ladder on share reference points (which point of
+Biden's distribution belongs to which zone?) - every assignment was
+contestable and outcome-steering. The resolution: "flooding the zone"
+is a claim about CROWDING OUT, and the signals that measure that
+directly (rank, dominance, breadth) have NATURAL BREAKPOINTS - values
+meaningful by definition, immune to tuning:
+
+| zone     | definition                                                | gates                                  |
+|----------|-----------------------------------------------------------|----------------------------------------|
+| flooding | #1, double the 16 others COMBINED, majority of outlets    | rank 1, dominance >= 2.0, breadth >= .5 |
+| soaked   | #1, out-mentions the 16 others COMBINED (parity)          | rank 1, dominance >= 1.0               |
+| wet      | top-2 figure of the day                                   | rank <= 2                              |
+| puddles  | top-4 figure of the day                                   | rank <= 4                              |
+
+Dominance 1.0 = parity and 2.0 = double are given by arithmetic; rank
+1/2/4 are ordinal; breadth 0.5 = majority. The ONLY external number is
+the materiality floor on every zone above dry: share >= 1.15% (the
+norm president's median day), so a #1 spot on a dead news day cannot
+count. Share ladders are gone entirely; the norm-presidency comparison
+lives on as a continuous readout (N x norm), gating nothing.
+
+Applied RETROACTIVELY to the archive on 2026-07-11: 88 live records
+recomputed (44 changed zone; prior states remain in git history and
+each record carries `zone_recomputed`). Resulting distribution,
+strictly a finding: dry 2, puddles 0, wet 13, soaked 46, flooding 27.
+In words: on 73 of 88 measured days one man out-mentioned the entire
+tracked Belgian and European political top combined; on 27 of those
+days doubly so, across a majority of outlets.
+
+## Superseded: v2 floors (same day, kept for the audit trail)
 
 The first adopted ladder set flooding at 5x the norm median, partly
 argued from "then flooding fires on ~5% of days" and "it coincides

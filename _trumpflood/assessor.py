@@ -24,12 +24,12 @@ def _load_thresholds():
     the hand-picked defaults if thresholds.json is missing or malformed
     so the tool still runs on a fresh checkout."""
     defaults = {
-        "flooding": {"pct": 4.0, "dominance": 2.0, "breadth": 0.55, "rank_max": 1},
-        "soaked":   {"pct": 2.5, "dominance": 1.2, "breadth": 0.40, "rank_max": 1},
-        "wet":      {"pct": 1.5, "dominance": None, "breadth": 0.25, "rank_max": 2},
-        "puddles":  {"pct": 0.8, "dominance": None, "breadth": None, "rank_max": 4},
+        "flooding": {"pct": 1.15, "dominance": 2.0, "breadth": 0.5, "rank_max": 1},
+        "soaked":   {"pct": 1.15, "dominance": 1.0, "breadth": None, "rank_max": 1},
+        "wet":      {"pct": 1.15, "dominance": None, "breadth": None, "rank_max": 2},
+        "puddles":  {"pct": 1.15, "dominance": None, "breadth": None, "rank_max": 4},
     }
-    version = "v0-eyeballed (defaults)"
+    version = "natural-breakpoints (defaults)"
     if _THRESHOLDS_FILE.exists():
         try:
             data = _json.loads(_THRESHOLDS_FILE.read_text())
@@ -129,15 +129,16 @@ def assess_rank_based(trump_count, total, theme_counts):
 # ---------------------------------------------------------------------------
 _PEOPLE_LABELS = {
     "flooding": ("Trump is flooding the zone",
-                 "Out-mentions every other figure combined \u2014 THE story of the day."),
+                 "Double the mentions of the sixteen other figures combined, "
+                 "across most outlets."),
     "soaked":   ("The zone is soaked",
-                 "Most-mentioned figure by a wide margin."),
+                 "Alone out-mentions the sixteen other figures combined."),
     "wet":      ("The zone is getting wet",
-                 "Among the top-covered figures today."),
+                 "One of the day's top two figures."),
     "puddles":  ("Puddles are forming",
-                 "Present, but a minor figure in today's mix."),
+                 "A top-four figure in today's mix."),
     "dry":      ("The zone is dry",
-                 "Barely registered today."),
+                 "Below a normal president's ordinary day."),
 }
 
 
@@ -161,12 +162,17 @@ def assess_composite(trump_count, core_total, comparisons,
       deviation   today_pct / median(prior 14d core_pct). None if not yet
                   enough history. When None, the gate is treated as passed.
 
-    Zone ladder (top-down, first match wins):
-      flooding  pct>=4.0 AND dominance>=2.0 AND rank==1 AND breadth>=0.55
-      soaked    pct>=2.5 AND dominance>=1.2 AND rank==1 AND breadth>=0.40
-      wet       pct>=1.5 AND rank<=2 AND (breadth>=0.25 OR breadth is None)
-      puddles   pct>=0.8 AND rank<=4
-      dry       otherwise
+    Zone ladder (top-down, first match wins; floors from thresholds.json,
+    natural-breakpoints scheme). Zones measure crowding-out of the day's
+    political attention; the shared pct floor is a materiality gate only
+    (>= a normal president's median day):
+      flooding  rank==1 AND dominance>=2.0 (double the 16 others
+                combined) AND breadth>=0.5 (majority of outlets)
+      soaked    rank==1 AND dominance>=1.0 (parity with the 16 others
+                combined)
+      wet       rank<=2
+      puddles   rank<=4
+      dry       otherwise (incl. pct below the materiality floor)
 
     Deviation (today's share vs. the 14-day median) is reported back to
     the caller and displayed next to the zone, but it is no longer a
