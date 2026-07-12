@@ -27,30 +27,23 @@ LOG_FILE = ROOT / "data" / "log.json"
 OUTPUT_DIR = ROOT.parent / "trumpflood"
 
 
-def _build_zones():
-    # Zone bands are derived from the composite classifier's share (pct)
-    # floors so the chart stays honest when thresholds.json changes. A day
-    # whose plotted share lands in a band may still be classified lower
-    # because the real classifier also requires breadth, dominance and
-    # rank floors to clear; the bands on the chart are a visual reference
-    # for the share dimension only.
-    puddles_lo  = _ASSESSOR_THRESHOLDS["puddles"]["pct"]
-    wet_lo      = _ASSESSOR_THRESHOLDS["wet"]["pct"]
-    soaked_lo   = _ASSESSOR_THRESHOLDS["soaked"]["pct"]
-    flooding_lo = _ASSESSOR_THRESHOLDS["flooding"]["pct"]
-    return [
-        (0.0,          puddles_lo,   "dry",      "Dry"),
-        (puddles_lo,   wet_lo,       "puddles",  "Puddles"),
-        (wet_lo,       soaked_lo,    "wet",      "Wet"),
-        (soaked_lo,    flooding_lo,  "soaked",   "Soaked"),
-        (flooding_lo,  100.0,        "flooding", "Flooding"),
-    ]
-
-
-# Zone bands as (lower_bound, upper_bound, key, display_name).
-# The waterline at percentage P sits in the zone where lower <= P < upper.
-ZONES = _build_zones()
+# Since the natural-breakpoints thresholds (2026-07), zones are defined
+# by rank/dominance/breadth gates, not by share bands: a share percentage
+# no longer maps to a zone. ZONES below is a FROZEN legacy display map
+# (the v0-eyeballed bands) used only as a fallback for ancient records
+# that carry no stored zone; everything current reads the stored zone.
+ZONES = [
+    (0.0,  0.8,   "dry",      "Dry"),
+    (0.8,  1.5,   "puddles",  "Puddles"),
+    (1.5,  2.5,   "wet",      "Wet"),
+    (2.5,  4.0,   "soaked",   "Soaked"),
+    (4.0,  100.0, "flooding", "Flooding"),
+]
 ZONE_KEYS = [z[2] for z in ZONES]
+
+# Materiality floor (= a normal president's median day, core units),
+# drawn as the reference line on the timeline chart.
+MATERIALITY_PCT = _ASSESSOR_THRESHOLDS["puddles"]["pct"]
 
 # Distinct, saturated color per zone for clear visual jumps.
 ZONE_COLORS = {
@@ -1164,35 +1157,34 @@ def _timeline(log_sorted_asc):
     slot_w = chart_w / max(n, 1)
     bar_w = slot_w * 0.66
 
-    # Background zone bands (only the part within the visible y range).
+    # Since natural-breakpoints thresholds, zones are not share bands, so
+    # the chart carries no background zone bands. One solid reference
+    # line marks the materiality floor: a normal president's median day.
     band_rects = []
-    for lo, hi, key, name in ZONES:
-        if lo >= y_max:
-            continue
-        hi_clip = min(hi, y_max)
-        y_top = y(hi_clip)
-        y_bot = y(lo)
-        band_rects.append(
-            f'<rect x="{PAD_L}" y="{y_top:.1f}" width="{chart_w}" '
-            f'height="{(y_bot - y_top):.1f}" fill="{ZONE_COLORS[key]}" opacity="0.18"/>'
-        )
+    norm_y = y(MATERIALITY_PCT)
+    band_rects.append(
+        f'<line x1="{PAD_L}" x2="{W - PAD_R}" y1="{norm_y:.1f}" y2="{norm_y:.1f}" '
+        f'stroke="#8a8170" stroke-width="1.4"/>'
+        f'<text x="{W - PAD_R}" y="{norm_y - 5:.1f}" text-anchor="end" '
+        f'font-size="10" fill="#8a8170" font-family="Inter, sans-serif">'
+        f'normal president’s median day ({MATERIALITY_PCT:g}%)</text>'
+    )
 
-    # Threshold lines + labels on the y axis. Ticks sit on the composite
-    # classifier's share floors so the chart reads as "which zone's share
-    # floor did today clear", not "which percent bucket fell the bar into".
+    # Plain integer percentage gridlines.
     grid_lines = []
-    y_ticks = [0.0] + [lo for lo, _, _, _ in ZONES if 0 < lo <= y_max]
-    for t in y_ticks:
+    tick_step = 1.0 if y_max <= 8 else 2.0
+    t = 0.0
+    while t <= y_max:
         yp = y(t)
         grid_lines.append(
             f'<line x1="{PAD_L}" x2="{W - PAD_R}" y1="{yp:.1f}" y2="{yp:.1f}" '
             f'stroke="#cfc8b8" stroke-dasharray="2 4" stroke-width="1"/>'
         )
-        label = f"{t:g}%"
         grid_lines.append(
             f'<text x="{PAD_L - 8}" y="{yp + 4:.1f}" text-anchor="end" '
-            f'font-size="11" fill="#8a8170" font-family="Inter, sans-serif">{label}</text>'
+            f'font-size="11" fill="#8a8170" font-family="Inter, sans-serif">{t:g}%</text>'
         )
+        t += tick_step
 
     # Bars per day.
     bars = []
@@ -1270,11 +1262,6 @@ def _timeline(log_sorted_asc):
                 f'{html.escape(short)}</text>'
             )
 
-    def _fmt_band(lo, hi):
-        if hi >= 100:
-            return f"\u2265 {lo:g}%"
-        return f"{lo:g}\u2013{hi:g}%"
-
     weekend_legend = (
         '<span class="legend-item">'
         '<span class="legend-swatch legend-swatch--weekend"></span>'
@@ -1283,8 +1270,8 @@ def _timeline(log_sorted_asc):
     legend = " ".join(
         f'<span class="legend-item"><span class="legend-swatch" '
         f'style="background:{ZONE_COLORS[key]}"></span>'
-        f'{name} <small>{_fmt_band(lo, hi)}</small></span>'
-        for lo, hi, key, name in ZONES
+        f'{name}</span>'
+        for _, _, key, name in ZONES
     ) + " " + weekend_legend
 
     annotated_days = [
@@ -1318,7 +1305,7 @@ def _timeline(log_sorted_asc):
     </svg>
   </div>
   <div class="legend">{legend}</div>
-  <p class="legend-note">Bar colour reflects the assessed zone (percentage + rank + dominance + breadth). Background bands show the percentage thresholds only.</p>
+  <p class="legend-note">Bar height is the share of headlines; bar colour is the assessed zone, which is determined by rank, dominance and breadth &mdash; not by the share. The solid line marks a normal president&rsquo;s median day (materiality floor).</p>
   {annotation_html}
 </section>
 """
@@ -1331,7 +1318,7 @@ def _history_table(log_sorted_desc):
     def _row(r):
         pct = r.get("percentage", 0)
         bar_w = max(1, int(pct * 2.5))
-        color = _zone_color(pct)
+        color = ZONE_COLORS.get(r.get("zone") or _zone_for(pct), ZONE_COLORS["dry"])
         date_cell = html.escape(r["date"])
         if r.get("backfilled"):
             date_cell += ' <span class="backfilled" title="Reconstructed from GDELT (different corpus, see methodology)">~</span>'
@@ -1704,20 +1691,28 @@ def _methodology(latest):
         {zone_cards}
       </div>
       <p>Thresholds in use today: version
-      <code>{thresholds_version}</code>. The share floors are defined
-      as <strong>multiples of the attention a US president normally
-      gets</strong> in Belgian media: Puddles = 1&times; the norm,
-      Wet = 2&times;, Soaked = 3&times;, Flooding = 5&times;. The norm
-      (1.15&percnt; of daily articles) is the median day of Biden in
-      spring 2022 &mdash; with the Ukraine war on the front pages, so a
-      conservative benchmark &mdash; measured on the same Belgian press
-      via GDELT and converted to this site&rsquo;s corpus with a scale
-      factor measured on 83 overlapping days. An earlier plan to
-      calibrate the floors as percentiles of Trump&rsquo;s own history
-      was rejected on principle: when the premise is that coverage is
-      abnormally high, calibrating on that coverage quietly redefines
-      the abnormal level as the baseline. Anchoring on a normal
-      presidency keeps the zone names meaning what they say.</p>
+      <code>{thresholds_version}</code>. &ldquo;Flooding the
+      zone&rdquo; is a claim about <strong>crowding out</strong>
+      everything else, so the zones are defined on the signals that
+      measure exactly that, using only <strong>natural
+      breakpoints</strong> &mdash; values that mean something by
+      definition, not by tuning. Flooding: he is the day&rsquo;s #1
+      figure with <em>double</em> the mentions of the sixteen other
+      tracked figures <em>combined</em> (dominance &ge; 2), across a
+      <em>majority</em> of outlets. Soaked: #1 and he alone
+      out-mentions the sixteen others combined (dominance &ge; 1
+      &mdash; parity, a breakpoint given by arithmetic). Wet: a top-2
+      figure. Puddles: a top-4 figure. One external number remains:
+      a <strong>materiality floor</strong> on every zone above Dry
+      (share &ge; 1.15&percnt;, the median day of a normal presidency
+      &mdash; Biden in spring 2022, measured on the same Belgian press
+      via GDELT and converted with a scale factor measured on 83
+      overlapping days), so a #1 spot on a dead news day cannot count
+      as flooding. Two principles hold throughout: no gate references
+      Trump&rsquo;s own distribution (calibrating on the anomaly would
+      redefine the abnormal level as the baseline), and no gate was
+      tuned to make any zone rare or common &mdash; how often each
+      zone occurs is an empirical outcome, not a design target.</p>
 
       <h3>Caveats &amp; limits</h3>
       <ul class="meth-rules">

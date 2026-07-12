@@ -851,7 +851,7 @@
     "qualifying_outlets": 30,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.79,
@@ -1384,7 +1384,9 @@
       "migration": 5,
       "education": 18,
       "weather": 20
-    }
+    },
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-16",
@@ -1397,9 +1399,9 @@
     "wide_percentage": 3.4,
     "macro_percentage": 3.9,
     "qualifying_outlets": 20,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.0,
@@ -1837,7 +1839,9 @@
       "migration": 1,
       "education": 5,
       "weather": 10
-    }
+    },
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-17",
@@ -1853,7 +1857,7 @@
     "qualifying_outlets": 28,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.46,
@@ -2306,7 +2310,9 @@
       "migration": 0,
       "education": 4,
       "weather": 18
-    }
+    },
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-18",
@@ -2324,9 +2330,9 @@
     "wide_percentage_expanded": 2.9,
     "macro_percentage": 4.0,
     "qualifying_outlets": 25,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.2,
@@ -2919,7 +2925,9 @@
       "migration": 0,
       "education": 7,
       "weather": 6
-    }
+    },
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-19",
@@ -2939,7 +2947,7 @@
     "qualifying_outlets": 24,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.8,
@@ -3484,7 +3492,9 @@
       "migration": 1,
       "education": 5,
       "weather": 12
-    }
+    },
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-20",
@@ -3507,7 +3517,7 @@
     "qualifying_outlets": 31,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.72,
@@ -4093,7 +4103,9 @@
       "migration": 2,
       "education": 4,
       "weather": 24
-    }
+    },
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-21",
@@ -4114,9 +4126,9 @@
     "wide_percentage_expanded": 2.2,
     "macro_percentage": 2.5,
     "qualifying_outlets": 18,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.0,
@@ -4613,7 +4625,8 @@
     "cross_outlet_dup_headlines": 41,
     "cross_outlet_dup_groups": 20,
     "cross_outlet_dup_rate": 6.3,
-    "thresholds_version": "v0-eyeballed"
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-22",
@@ -4642,7 +4655,7 @@
     "cross_outlet_dup_rate": 10.6,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.67,
@@ -4650,7 +4663,7 @@
     "deviation": null,
     "smoothed_pct": null,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 5,
     "n_themes": 15,
     "sources": {
@@ -5217,7 +5230,8 @@
       "migration": 2,
       "education": 3,
       "weather": 8
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-23",
@@ -5244,9 +5258,9 @@
     "cross_outlet_dup_headlines": 16,
     "cross_outlet_dup_groups": 8,
     "cross_outlet_dup_rate": 5.2,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.17,
@@ -5254,7 +5268,7 @@
     "deviation": null,
     "smoothed_pct": null,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 8,
     "n_themes": 15,
     "sources": {
@@ -5725,7 +5739,8 @@
       "migration": 5,
       "education": 8,
       "weather": 11
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-24",
@@ -5754,7 +5769,7 @@
     "cross_outlet_dup_rate": 9.0,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.25,
@@ -5762,7 +5777,7 @@
     "deviation": null,
     "smoothed_pct": null,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 6,
     "n_themes": 15,
     "sources": {
@@ -6263,7 +6278,8 @@
       "migration": 1,
       "education": 0,
       "weather": 11
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-25",
@@ -6290,9 +6306,9 @@
     "cross_outlet_dup_headlines": 67,
     "cross_outlet_dup_groups": 33,
     "cross_outlet_dup_rate": 9.3,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 4.75,
@@ -6300,7 +6316,7 @@
     "deviation": null,
     "smoothed_pct": null,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -6939,7 +6955,8 @@
       "migration": 7,
       "education": 0,
       "weather": 11
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-26",
@@ -6968,7 +6985,7 @@
     "cross_outlet_dup_rate": 21.3,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 19.0,
@@ -6976,7 +6993,7 @@
     "deviation": null,
     "smoothed_pct": 4.14,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 1,
     "n_themes": 15,
     "sources": {
@@ -7634,7 +7651,8 @@
       "education": 0,
       "weather": 6
     },
-    "note": "Shooting at White House Correspondents' Dinner — Trump evacuated. Exceptional news spike, not representative of structural media attention."
+    "note": "Shooting at White House Correspondents' Dinner — Trump evacuated. Exceptional news spike, not representative of structural media attention.",
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-27",
@@ -7663,7 +7681,7 @@
     "cross_outlet_dup_rate": 14.2,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.4,
@@ -7671,7 +7689,7 @@
     "deviation": 1.73,
     "smoothed_pct": 4.59,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 3,
     "n_themes": 15,
     "sources": {
@@ -8328,7 +8346,8 @@
       "migration": 2,
       "education": 2,
       "weather": 9
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-28",
@@ -8357,7 +8376,7 @@
     "cross_outlet_dup_rate": 12.1,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.89,
@@ -8365,7 +8384,7 @@
     "deviation": 1.72,
     "smoothed_pct": 5.0,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
@@ -8974,7 +8993,8 @@
       "migration": 3,
       "education": 4,
       "weather": 5
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-29",
@@ -9003,7 +9023,7 @@
     "cross_outlet_dup_rate": 6.5,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.5,
@@ -9011,7 +9031,7 @@
     "deviation": 1.81,
     "smoothed_pct": 5.16,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 2,
     "n_themes": 15,
     "sources": {
@@ -9620,7 +9640,8 @@
       "migration": 2,
       "education": 2,
       "weather": 5
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-04-30",
@@ -9647,9 +9668,9 @@
     "cross_outlet_dup_headlines": 38,
     "cross_outlet_dup_groups": 19,
     "cross_outlet_dup_rate": 11.0,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.0,
@@ -9657,7 +9678,7 @@
     "deviation": 0.83,
     "smoothed_pct": 5.29,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -10182,7 +10203,8 @@
       "migration": 3,
       "education": 7,
       "weather": 16
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-01",
@@ -10211,7 +10233,7 @@
     "cross_outlet_dup_rate": 16.9,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 6.5,
@@ -10219,7 +10241,7 @@
     "deviation": 1.72,
     "smoothed_pct": 5.61,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 1,
     "n_themes": 15,
     "sources": {
@@ -10792,7 +10814,8 @@
       "migration": 2,
       "education": 1,
       "weather": 9
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-02",
@@ -10821,7 +10844,7 @@
     "cross_outlet_dup_rate": 12.1,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 6.0,
@@ -10829,7 +10852,7 @@
     "deviation": 1.04,
     "smoothed_pct": 5.81,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
@@ -11348,7 +11371,8 @@
       "migration": 5,
       "education": 1,
       "weather": 7
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-03",
@@ -11377,7 +11401,7 @@
     "cross_outlet_dup_rate": 18.1,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 9.0,
@@ -11385,7 +11409,7 @@
     "deviation": 1.2,
     "smoothed_pct": 4.69,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 3,
     "n_themes": 15,
     "sources": {
@@ -11880,7 +11904,8 @@
       "migration": 0,
       "education": 0,
       "weather": 14
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-04",
@@ -11907,9 +11932,9 @@
     "cross_outlet_dup_headlines": 51,
     "cross_outlet_dup_groups": 25,
     "cross_outlet_dup_rate": 12.1,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 4.0,
@@ -11917,7 +11942,7 @@
     "deviation": 0.89,
     "smoothed_pct": 4.59,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 3,
     "n_themes": 15,
     "sources": {
@@ -12508,7 +12533,8 @@
       "migration": 3,
       "education": 4,
       "weather": 17
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-05",
@@ -12535,9 +12561,9 @@
     "cross_outlet_dup_headlines": 50,
     "cross_outlet_dup_groups": 25,
     "cross_outlet_dup_rate": 5.8,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.6,
@@ -12545,7 +12571,7 @@
     "deviation": 0.45,
     "smoothed_pct": 4.14,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 9,
     "n_themes": 15,
     "sources": {
@@ -13178,7 +13204,8 @@
       "migration": 2,
       "education": 10,
       "weather": 22
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-06",
@@ -13207,7 +13234,7 @@
     "cross_outlet_dup_rate": 10.3,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 5.67,
@@ -13215,7 +13242,7 @@
     "deviation": 1.18,
     "smoothed_pct": 4.03,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 3,
     "n_themes": 15,
     "sources": {
@@ -13818,7 +13845,8 @@
       "migration": 1,
       "education": 6,
       "weather": 11
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-07",
@@ -13847,7 +13875,7 @@
     "cross_outlet_dup_rate": 12.0,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.44,
@@ -13855,7 +13883,7 @@
     "deviation": 0.85,
     "smoothed_pct": 4.09,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 6,
     "n_themes": 15,
     "sources": {
@@ -14386,7 +14414,8 @@
       "migration": 0,
       "education": 2,
       "weather": 9
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-08",
@@ -14415,7 +14444,7 @@
     "cross_outlet_dup_rate": 11.0,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.0,
@@ -14423,7 +14452,7 @@
     "deviation": 1.22,
     "smoothed_pct": 4.04,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 2,
     "n_themes": 15,
     "sources": {
@@ -15062,7 +15091,8 @@
       "migration": 0,
       "education": 6,
       "weather": 11
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-09",
@@ -15089,9 +15119,9 @@
     "cross_outlet_dup_headlines": 20,
     "cross_outlet_dup_groups": 10,
     "cross_outlet_dup_rate": 6.2,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.0,
@@ -15099,7 +15129,7 @@
     "deviation": 0.6,
     "smoothed_pct": 3.87,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 3,
     "n_themes": 15,
     "sources": {
@@ -15582,7 +15612,8 @@
       "migration": 1,
       "education": 3,
       "weather": 8
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-10",
@@ -15609,9 +15640,9 @@
     "cross_outlet_dup_headlines": 38,
     "cross_outlet_dup_groups": 19,
     "cross_outlet_dup_rate": 19.4,
-    "zone": "puddles",
-    "label": "Puddles are forming",
-    "narrative": "Present, but a minor figure in today's mix.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.0,
@@ -15619,7 +15650,7 @@
     "deviation": 0.32,
     "smoothed_pct": 3.4,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 6,
     "n_themes": 15,
     "sources": {
@@ -16024,7 +16055,8 @@
       "migration": 5,
       "education": 2,
       "weather": 3
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-11",
@@ -16053,7 +16085,7 @@
     "cross_outlet_dup_rate": 10.4,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.33,
@@ -16061,7 +16093,7 @@
     "deviation": 1.22,
     "smoothed_pct": 3.6,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 2,
     "n_themes": 15,
     "sources": {
@@ -16688,7 +16720,8 @@
       "migration": 1,
       "education": 5,
       "weather": 10
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-12",
@@ -16717,7 +16750,7 @@
     "cross_outlet_dup_rate": 8.4,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 12.0,
@@ -16725,7 +16758,7 @@
     "deviation": 0.89,
     "smoothed_pct": 3.89,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
@@ -17256,7 +17289,8 @@
       "migration": 2,
       "education": 4,
       "weather": 13
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-13",
@@ -17285,7 +17319,7 @@
     "cross_outlet_dup_rate": 9.4,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.71,
@@ -17293,7 +17327,7 @@
     "deviation": 1.24,
     "smoothed_pct": 3.87,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 3,
     "n_themes": 15,
     "sources": {
@@ -17932,7 +17966,8 @@
       "migration": 2,
       "education": 4,
       "weather": 17
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-14",
@@ -17961,7 +17996,7 @@
     "cross_outlet_dup_rate": 14.4,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 4.33,
@@ -17969,7 +18004,7 @@
     "deviation": 1.32,
     "smoothed_pct": 4.1,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 3,
     "n_themes": 15,
     "sources": {
@@ -18560,7 +18595,8 @@
       "migration": 0,
       "education": 4,
       "weather": 6
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-15",
@@ -18589,7 +18625,7 @@
     "cross_outlet_dup_rate": 17.3,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 25.0,
@@ -18597,7 +18633,7 @@
     "deviation": 1.61,
     "smoothed_pct": 4.37,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 2,
     "n_themes": 15,
     "sources": {
@@ -19320,7 +19356,8 @@
       "migration": 2,
       "education": 2,
       "weather": 18
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-16",
@@ -19347,9 +19384,9 @@
     "cross_outlet_dup_headlines": 54,
     "cross_outlet_dup_groups": 27,
     "cross_outlet_dup_rate": 10.1,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.0,
@@ -19357,7 +19394,7 @@
     "deviation": 0.77,
     "smoothed_pct": 4.46,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 5,
     "n_themes": 15,
     "sources": {
@@ -19984,7 +20021,8 @@
       "migration": 1,
       "education": 1,
       "weather": 10
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-17",
@@ -20011,17 +20049,17 @@
     "cross_outlet_dup_headlines": 54,
     "cross_outlet_dup_groups": 27,
     "cross_outlet_dup_rate": 24.7,
-    "zone": "puddles",
-    "label": "Puddles are forming",
-    "narrative": "Present, but a minor figure in today's mix.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.0,
+    "dominance": null,
     "breadth": 0.23,
     "deviation": 0.41,
     "smoothed_pct": 4.5,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
@@ -20444,7 +20482,8 @@
       "migration": 2,
       "education": 0,
       "weather": 3
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-18",
@@ -20473,7 +20512,7 @@
     "cross_outlet_dup_rate": 7.7,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.86,
@@ -20481,7 +20520,7 @@
     "deviation": 0.73,
     "smoothed_pct": 4.16,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -21258,7 +21297,8 @@
       "migration": 5,
       "education": 21,
       "weather": 22
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-19",
@@ -21285,9 +21325,9 @@
     "cross_outlet_dup_headlines": 32,
     "cross_outlet_dup_groups": 16,
     "cross_outlet_dup_rate": 8.3,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.6,
@@ -21295,7 +21335,7 @@
     "deviation": 0.91,
     "smoothed_pct": 4.09,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
@@ -21850,7 +21890,8 @@
       "migration": 2,
       "education": 6,
       "weather": 7
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-20",
@@ -21877,9 +21918,9 @@
     "cross_outlet_dup_headlines": 35,
     "cross_outlet_dup_groups": 17,
     "cross_outlet_dup_rate": 9.1,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.15,
@@ -21887,7 +21928,7 @@
     "deviation": 1.04,
     "smoothed_pct": 3.94,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 3,
     "n_themes": 15,
     "sources": {
@@ -22496,7 +22537,8 @@
       "migration": 1,
       "education": 5,
       "weather": 9
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-21",
@@ -22523,9 +22565,9 @@
     "cross_outlet_dup_headlines": 51,
     "cross_outlet_dup_groups": 25,
     "cross_outlet_dup_rate": 12.3,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.38,
@@ -22533,7 +22575,7 @@
     "deviation": 0.72,
     "smoothed_pct": 3.59,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 8,
     "n_themes": 15,
     "sources": {
@@ -23088,7 +23130,8 @@
       "migration": 1,
       "education": 10,
       "weather": 10
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-22",
@@ -23115,9 +23158,9 @@
     "cross_outlet_dup_headlines": 58,
     "cross_outlet_dup_groups": 29,
     "cross_outlet_dup_rate": 6.2,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.38,
@@ -23125,7 +23168,7 @@
     "deviation": 0.52,
     "smoothed_pct": 2.84,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 8,
     "n_themes": 15,
     "sources": {
@@ -23758,7 +23801,8 @@
       "migration": 4,
       "education": 16,
       "weather": 22
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-23",
@@ -23785,9 +23829,9 @@
     "cross_outlet_dup_headlines": 46,
     "cross_outlet_dup_groups": 23,
     "cross_outlet_dup_rate": 6.8,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.6,
@@ -23795,7 +23839,7 @@
     "deviation": 0.79,
     "smoothed_pct": 2.74,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 5,
     "n_themes": 15,
     "sources": {
@@ -24392,7 +24436,8 @@
       "migration": 0,
       "education": 5,
       "weather": 20
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-24",
@@ -24419,9 +24464,9 @@
     "cross_outlet_dup_headlines": 24,
     "cross_outlet_dup_groups": 12,
     "cross_outlet_dup_rate": 11.7,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.67,
@@ -24429,7 +24474,7 @@
     "deviation": 0.71,
     "smoothed_pct": 2.83,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 5,
     "n_themes": 15,
     "sources": {
@@ -25026,7 +25071,8 @@
       "migration": 0,
       "education": 6,
       "weather": 14
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-25",
@@ -25053,9 +25099,9 @@
     "cross_outlet_dup_headlines": 50,
     "cross_outlet_dup_groups": 25,
     "cross_outlet_dup_rate": 7.7,
-    "zone": "puddles",
-    "label": "Puddles are forming",
-    "narrative": "Present, but a minor figure in today's mix.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.5,
@@ -25063,7 +25109,7 @@
     "deviation": 0.41,
     "smoothed_pct": 2.63,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 12,
     "n_themes": 15,
     "sources": {
@@ -25570,7 +25616,8 @@
       "migration": 1,
       "education": 4,
       "weather": 22
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-26",
@@ -25597,9 +25644,9 @@
     "cross_outlet_dup_headlines": 58,
     "cross_outlet_dup_groups": 29,
     "cross_outlet_dup_rate": 6.2,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.31,
@@ -25607,7 +25654,7 @@
     "deviation": 0.58,
     "smoothed_pct": 2.4,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 11,
     "n_themes": 15,
     "sources": {
@@ -26180,7 +26227,8 @@
       "migration": 4,
       "education": 26,
       "weather": 45
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-27",
@@ -26209,7 +26257,7 @@
     "cross_outlet_dup_rate": 6.1,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.78,
@@ -26217,7 +26265,7 @@
     "deviation": 0.73,
     "smoothed_pct": 2.13,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 11,
     "n_themes": 15,
     "sources": {
@@ -26892,7 +26940,8 @@
       "migration": 4,
       "education": 10,
       "weather": 27
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-28",
@@ -26919,9 +26968,9 @@
     "cross_outlet_dup_headlines": 35,
     "cross_outlet_dup_groups": 17,
     "cross_outlet_dup_rate": 8.9,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.4,
@@ -26929,7 +26978,7 @@
     "deviation": 1.15,
     "smoothed_pct": 2.19,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -27496,7 +27545,8 @@
       "migration": 1,
       "education": 4,
       "weather": 17
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-29",
@@ -27525,7 +27575,7 @@
     "cross_outlet_dup_rate": 8.5,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.47,
@@ -27533,7 +27583,7 @@
     "deviation": 0.67,
     "smoothed_pct": 2.17,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 9,
     "n_themes": 15,
     "sources": {
@@ -28142,7 +28192,8 @@
       "migration": 2,
       "education": 16,
       "weather": 33
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-30",
@@ -28169,9 +28220,9 @@
     "cross_outlet_dup_headlines": 28,
     "cross_outlet_dup_groups": 14,
     "cross_outlet_dup_rate": 5.5,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 5.67,
@@ -28179,7 +28230,7 @@
     "deviation": 1.29,
     "smoothed_pct": 2.26,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 5,
     "n_themes": 15,
     "sources": {
@@ -28788,7 +28839,8 @@
       "migration": 4,
       "education": 7,
       "weather": 26
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-05-31",
@@ -28817,7 +28869,7 @@
     "cross_outlet_dup_rate": 17.7,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 4.67,
@@ -28825,7 +28877,7 @@
     "deviation": 2.2,
     "smoothed_pct": 2.71,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 3,
     "n_themes": 15,
     "sources": {
@@ -29368,7 +29420,8 @@
       "migration": 0,
       "education": 2,
       "weather": 19
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-01",
@@ -29395,9 +29448,9 @@
     "cross_outlet_dup_headlines": 21,
     "cross_outlet_dup_groups": 10,
     "cross_outlet_dup_rate": 3.8,
-    "zone": "puddles",
-    "label": "Puddles are forming",
-    "narrative": "Present, but a minor figure in today's mix.",
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.8,
@@ -29405,7 +29458,7 @@
     "deviation": 0.52,
     "smoothed_pct": 2.71,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 11,
     "n_themes": 15,
     "sources": {
@@ -29888,7 +29941,8 @@
       "migration": 5,
       "education": 7,
       "weather": 10
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-02",
@@ -29917,7 +29971,7 @@
     "cross_outlet_dup_rate": 8.0,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.93,
@@ -29925,7 +29979,7 @@
     "deviation": 0.67,
     "smoothed_pct": 2.7,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 12,
     "n_themes": 15,
     "sources": {
@@ -30540,7 +30594,8 @@
       "migration": 2,
       "education": 19,
       "weather": 21
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-03",
@@ -30569,7 +30624,7 @@
     "cross_outlet_dup_rate": 7.3,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.85,
@@ -30577,7 +30632,7 @@
     "deviation": 1.18,
     "smoothed_pct": 2.79,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 9,
     "n_themes": 15,
     "sources": {
@@ -31300,7 +31355,8 @@
       "migration": 3,
       "education": 22,
       "weather": 15
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-04",
@@ -31327,9 +31383,9 @@
     "cross_outlet_dup_headlines": 40,
     "cross_outlet_dup_groups": 20,
     "cross_outlet_dup_rate": 9.0,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.0,
@@ -31337,7 +31393,7 @@
     "deviation": 1.23,
     "smoothed_pct": 2.73,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -31844,7 +31900,8 @@
       "migration": 0,
       "education": 11,
       "weather": 14
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-05",
@@ -31873,7 +31930,7 @@
     "cross_outlet_dup_rate": 9.0,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.86,
@@ -31881,7 +31938,7 @@
     "deviation": 1.36,
     "smoothed_pct": 2.9,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -32418,7 +32475,8 @@
       "migration": 1,
       "education": 28,
       "weather": 7
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-06",
@@ -32445,9 +32503,9 @@
     "cross_outlet_dup_headlines": 34,
     "cross_outlet_dup_groups": 17,
     "cross_outlet_dup_rate": 9.9,
-    "zone": "puddles",
-    "label": "Puddles are forming",
-    "narrative": "Present, but a minor figure in today's mix.",
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
     "rank": 2,
     "n_people": 17,
     "dominance": 0.29,
@@ -32455,7 +32513,7 @@
     "deviation": 0.48,
     "smoothed_pct": 2.6,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 12,
     "n_themes": 15,
     "sources": {
@@ -32878,7 +32936,8 @@
       "migration": 4,
       "education": 2,
       "weather": 9
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-07",
@@ -32905,9 +32964,9 @@
     "cross_outlet_dup_headlines": 76,
     "cross_outlet_dup_groups": 38,
     "cross_outlet_dup_rate": 11.2,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.2,
@@ -32915,7 +32974,7 @@
     "deviation": 0.82,
     "smoothed_pct": 2.06,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 9,
     "n_themes": 15,
     "sources": {
@@ -33434,7 +33493,8 @@
       "migration": 5,
       "education": 12,
       "weather": 15
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-08",
@@ -33461,9 +33521,9 @@
     "cross_outlet_dup_headlines": 44,
     "cross_outlet_dup_groups": 22,
     "cross_outlet_dup_rate": 5.3,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.11,
@@ -33471,7 +33531,7 @@
     "deviation": 1.21,
     "smoothed_pct": 2.19,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -34122,7 +34182,8 @@
       "migration": 9,
       "education": 15,
       "weather": 14
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-09",
@@ -34149,9 +34210,9 @@
     "cross_outlet_dup_headlines": 41,
     "cross_outlet_dup_groups": 20,
     "cross_outlet_dup_rate": 10.2,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.11,
@@ -34159,7 +34220,7 @@
     "deviation": 2.19,
     "smoothed_pct": 2.61,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
@@ -34810,7 +34871,8 @@
       "migration": 1,
       "education": 10,
       "weather": 12
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-10",
@@ -34837,9 +34899,9 @@
     "cross_outlet_dup_headlines": 62,
     "cross_outlet_dup_groups": 31,
     "cross_outlet_dup_rate": 6.7,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.82,
@@ -34847,7 +34909,7 @@
     "deviation": 0.86,
     "smoothed_pct": 2.54,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 9,
     "n_themes": 15,
     "sources": {
@@ -35534,7 +35596,8 @@
       "migration": 12,
       "education": 15,
       "weather": 12
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-11",
@@ -35561,9 +35624,9 @@
     "cross_outlet_dup_headlines": 68,
     "cross_outlet_dup_groups": 34,
     "cross_outlet_dup_rate": 7.0,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.1,
@@ -35571,7 +35634,7 @@
     "deviation": 1.31,
     "smoothed_pct": 2.61,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -36384,7 +36447,8 @@
       "migration": 12,
       "education": 15,
       "weather": 6
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-12",
@@ -36411,9 +36475,9 @@
     "cross_outlet_dup_headlines": 36,
     "cross_outlet_dup_groups": 18,
     "cross_outlet_dup_rate": 7.5,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 5.33,
@@ -36421,7 +36485,7 @@
     "deviation": 1.35,
     "smoothed_pct": 2.66,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -37096,7 +37160,8 @@
       "migration": 9,
       "education": 8,
       "weather": 24
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-13",
@@ -37125,7 +37190,7 @@
     "cross_outlet_dup_rate": 9.5,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.59,
@@ -37133,7 +37198,7 @@
     "deviation": 1.43,
     "smoothed_pct": 3.03,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 3,
     "n_themes": 15,
     "sources": {
@@ -37880,7 +37945,8 @@
       "migration": 7,
       "education": 11,
       "weather": 31
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-14",
@@ -37909,7 +37975,7 @@
     "cross_outlet_dup_rate": 10.2,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.23,
@@ -37917,7 +37983,7 @@
     "deviation": 1.43,
     "smoothed_pct": 3.31,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 5,
     "n_themes": 15,
     "sources": {
@@ -38676,7 +38742,8 @@
       "migration": 4,
       "education": 2,
       "weather": 14
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-15",
@@ -38703,9 +38770,9 @@
     "cross_outlet_dup_headlines": 70,
     "cross_outlet_dup_groups": 35,
     "cross_outlet_dup_rate": 7.2,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.18,
@@ -38713,7 +38780,7 @@
     "deviation": 1.02,
     "smoothed_pct": 3.37,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -39478,7 +39545,8 @@
       "migration": 3,
       "education": 11,
       "weather": 27
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-16",
@@ -39507,7 +39575,7 @@
     "cross_outlet_dup_rate": 5.9,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.92,
@@ -39515,7 +39583,7 @@
     "deviation": 1.67,
     "smoothed_pct": 3.34,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
@@ -40454,7 +40522,8 @@
       "migration": 3,
       "education": 9,
       "weather": 27
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-17",
@@ -40481,9 +40550,9 @@
     "cross_outlet_dup_headlines": 64,
     "cross_outlet_dup_groups": 32,
     "cross_outlet_dup_rate": 8.7,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.33,
@@ -40491,7 +40560,7 @@
     "deviation": 0.77,
     "smoothed_pct": 3.36,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 8,
     "n_themes": 15,
     "sources": {
@@ -41100,7 +41169,8 @@
       "migration": 3,
       "education": 11,
       "weather": 17
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-18",
@@ -41129,7 +41199,7 @@
     "cross_outlet_dup_rate": 5.5,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.58,
@@ -41137,7 +41207,7 @@
     "deviation": 0.56,
     "smoothed_pct": 3.13,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 11,
     "n_themes": 15,
     "sources": {
@@ -41746,7 +41816,8 @@
       "migration": 1,
       "education": 12,
       "weather": 32
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-19",
@@ -41773,9 +41844,9 @@
     "cross_outlet_dup_headlines": 53,
     "cross_outlet_dup_groups": 26,
     "cross_outlet_dup_rate": 8.3,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.09,
@@ -41783,7 +41854,7 @@
     "deviation": 0.67,
     "smoothed_pct": 2.93,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 11,
     "n_themes": 15,
     "sources": {
@@ -42380,7 +42451,8 @@
       "migration": 2,
       "education": 18,
       "weather": 38
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-20",
@@ -42407,9 +42479,9 @@
     "cross_outlet_dup_headlines": 49,
     "cross_outlet_dup_groups": 24,
     "cross_outlet_dup_rate": 6.7,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.6,
@@ -42417,7 +42489,7 @@
     "deviation": 1.0,
     "smoothed_pct": 2.74,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 8,
     "n_themes": 15,
     "sources": {
@@ -43050,7 +43122,8 @@
       "migration": 1,
       "education": 5,
       "weather": 41
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-21",
@@ -43079,7 +43152,7 @@
     "cross_outlet_dup_rate": 12.8,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.86,
@@ -43087,7 +43160,7 @@
     "deviation": 1.35,
     "smoothed_pct": 2.7,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 6,
     "n_themes": 15,
     "sources": {
@@ -43618,7 +43691,8 @@
       "migration": 1,
       "education": 0,
       "weather": 22
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-22",
@@ -43647,7 +43721,7 @@
     "cross_outlet_dup_rate": 9.4,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.5,
@@ -43655,7 +43729,7 @@
     "deviation": 1.05,
     "smoothed_pct": 2.76,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 6,
     "n_themes": 15,
     "sources": {
@@ -44246,7 +44320,8 @@
       "migration": 1,
       "education": 4,
       "weather": 26
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-23",
@@ -44275,7 +44350,7 @@
     "cross_outlet_dup_rate": 7.2,
     "zone": "dry",
     "label": "The zone is dry",
-    "narrative": "Barely registered today.",
+    "narrative": "Below a normal president's ordinary day.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.3,
@@ -44283,7 +44358,7 @@
     "deviation": 0.25,
     "smoothed_pct": 2.23,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 12,
     "n_themes": 15,
     "sources": {
@@ -44796,7 +44871,8 @@
       "migration": 4,
       "education": 7,
       "weather": 69
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-24",
@@ -44823,9 +44899,9 @@
     "cross_outlet_dup_headlines": 32,
     "cross_outlet_dup_groups": 16,
     "cross_outlet_dup_rate": 8.4,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.4,
@@ -44833,7 +44909,7 @@
     "deviation": 0.62,
     "smoothed_pct": 2.17,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 8,
     "n_themes": 15,
     "sources": {
@@ -45298,7 +45374,8 @@
       "migration": 3,
       "education": 2,
       "weather": 34
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-25",
@@ -45327,7 +45404,7 @@
     "cross_outlet_dup_rate": 13.6,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.89,
@@ -45335,7 +45412,7 @@
     "deviation": 0.72,
     "smoothed_pct": 2.24,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 8,
     "n_themes": 15,
     "sources": {
@@ -45806,7 +45883,8 @@
       "migration": 3,
       "education": 5,
       "weather": 34
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-26",
@@ -45833,9 +45911,9 @@
     "cross_outlet_dup_headlines": 70,
     "cross_outlet_dup_groups": 35,
     "cross_outlet_dup_rate": 7.4,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.0,
@@ -45843,7 +45921,7 @@
     "deviation": 0.65,
     "smoothed_pct": 2.21,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 11,
     "n_themes": 15,
     "sources": {
@@ -46446,7 +46524,8 @@
       "migration": 4,
       "education": 12,
       "weather": 103
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-27",
@@ -46473,9 +46552,9 @@
     "cross_outlet_dup_headlines": 34,
     "cross_outlet_dup_groups": 17,
     "cross_outlet_dup_rate": 9.4,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.0,
@@ -46483,7 +46562,7 @@
     "deviation": 0.72,
     "smoothed_pct": 2.1,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 9,
     "n_themes": 15,
     "sources": {
@@ -46942,7 +47021,8 @@
       "migration": 1,
       "education": 1,
       "weather": 27
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-28",
@@ -46969,9 +47049,9 @@
     "cross_outlet_dup_headlines": 34,
     "cross_outlet_dup_groups": 17,
     "cross_outlet_dup_rate": 6.9,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.2,
@@ -46979,7 +47059,7 @@
     "deviation": 1.02,
     "smoothed_pct": 1.91,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 8,
     "n_themes": 15,
     "sources": {
@@ -47510,7 +47590,8 @@
       "migration": 0,
       "education": 3,
       "weather": 45
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-29",
@@ -47537,9 +47618,9 @@
     "cross_outlet_dup_headlines": 44,
     "cross_outlet_dup_groups": 22,
     "cross_outlet_dup_rate": 9.3,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.0,
@@ -47547,7 +47628,7 @@
     "deviation": 0.98,
     "smoothed_pct": 1.77,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 8,
     "n_themes": 15,
     "sources": {
@@ -48066,7 +48147,8 @@
       "migration": 2,
       "education": 6,
       "weather": 36
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-06-30",
@@ -48093,9 +48175,9 @@
     "cross_outlet_dup_headlines": 58,
     "cross_outlet_dup_groups": 29,
     "cross_outlet_dup_rate": 7.1,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.36,
@@ -48103,7 +48185,7 @@
     "deviation": 0.86,
     "smoothed_pct": 1.91,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 9,
     "n_themes": 15,
     "sources": {
@@ -48682,7 +48764,8 @@
       "migration": 5,
       "education": 12,
       "weather": 24
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-01",
@@ -48709,9 +48792,9 @@
     "cross_outlet_dup_headlines": 46,
     "cross_outlet_dup_groups": 23,
     "cross_outlet_dup_rate": 5.3,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.36,
@@ -48719,7 +48802,7 @@
     "deviation": 0.85,
     "smoothed_pct": 1.9,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 8,
     "n_themes": 15,
     "sources": {
@@ -49316,7 +49399,8 @@
       "migration": 3,
       "education": 2,
       "weather": 32
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-02",
@@ -49345,7 +49429,7 @@
     "cross_outlet_dup_rate": 7.9,
     "zone": "dry",
     "label": "The zone is dry",
-    "narrative": "Barely registered today.",
+    "narrative": "Below a normal president's ordinary day.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.0,
@@ -49353,7 +49437,7 @@
     "deviation": 0.27,
     "smoothed_pct": 1.67,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 13,
     "n_themes": 15,
     "sources": {
@@ -49740,7 +49824,8 @@
       "migration": 2,
       "education": 3,
       "weather": 13
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-03",
@@ -49767,9 +49852,9 @@
     "cross_outlet_dup_headlines": 44,
     "cross_outlet_dup_groups": 22,
     "cross_outlet_dup_rate": 11.9,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.0,
@@ -49777,7 +49862,7 @@
     "deviation": 1.3,
     "smoothed_pct": 1.77,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 6,
     "n_themes": 15,
     "sources": {
@@ -50278,7 +50363,8 @@
       "migration": 2,
       "education": 2,
       "weather": 11
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-04",
@@ -50307,7 +50393,7 @@
     "cross_outlet_dup_rate": 7.4,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 1.8,
@@ -50315,7 +50401,7 @@
     "deviation": 1.33,
     "smoothed_pct": 1.9,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
@@ -50810,7 +50896,8 @@
       "migration": 0,
       "education": 3,
       "weather": 13
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-05",
@@ -50839,7 +50926,7 @@
     "cross_outlet_dup_rate": 14.7,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 4.75,
@@ -50847,7 +50934,7 @@
     "deviation": 4.46,
     "smoothed_pct": 2.83,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 2,
     "n_themes": 15,
     "sources": {
@@ -51498,7 +51585,8 @@
       "migration": 0,
       "education": 1,
       "weather": 12
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-06",
@@ -51527,7 +51615,7 @@
     "cross_outlet_dup_rate": 10.7,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.2,
@@ -51535,7 +51623,7 @@
     "deviation": 2.62,
     "smoothed_pct": 3.26,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
@@ -52222,7 +52310,8 @@
       "migration": 1,
       "education": 3,
       "weather": 20
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-07",
@@ -52251,7 +52340,7 @@
     "cross_outlet_dup_rate": 14.1,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 4.0,
@@ -52259,7 +52348,7 @@
     "deviation": 2.97,
     "smoothed_pct": 3.83,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 2,
     "n_themes": 15,
     "sources": {
@@ -52952,7 +53041,8 @@
       "migration": 0,
       "education": 1,
       "weather": 19
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-08",
@@ -52981,7 +53071,7 @@
     "cross_outlet_dup_rate": 7.6,
     "zone": "flooding",
     "label": "Trump is flooding the zone",
-    "narrative": "Out-mentions every other figure combined — THE story of the day.",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
     "dominance": 3.5,
@@ -52989,7 +53079,7 @@
     "deviation": 2.48,
     "smoothed_pct": 4.33,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 4,
     "n_themes": 15,
     "sources": {
@@ -53970,7 +54060,8 @@
       "migration": 4,
       "education": 19,
       "weather": 22
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-09",
@@ -53999,7 +54090,7 @@
     "cross_outlet_dup_rate": 11.9,
     "zone": "wet",
     "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.82,
@@ -54007,7 +54098,7 @@
     "deviation": 1.07,
     "smoothed_pct": 4.59,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 10,
     "n_themes": 15,
     "sources": {
@@ -54526,7 +54617,8 @@
       "migration": 0,
       "education": 1,
       "weather": 23
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-10",
@@ -54555,7 +54647,7 @@
     "cross_outlet_dup_rate": 12.6,
     "zone": "soaked",
     "label": "The zone is soaked",
-    "narrative": "Most-mentioned figure by a wide margin.",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.4,
@@ -54563,7 +54655,7 @@
     "deviation": 1.33,
     "smoothed_pct": 4.67,
     "assessment_method": "composite",
-    "thresholds_version": "v0-eyeballed",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "theme_rank": 7,
     "n_themes": 15,
     "sources": {
@@ -55130,7 +55222,8 @@
       "migration": 0,
       "education": 2,
       "weather": 19
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-11",
@@ -55157,9 +55250,9 @@
     "cross_outlet_dup_headlines": 34,
     "cross_outlet_dup_groups": 17,
     "cross_outlet_dup_rate": 6.8,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "Among the top-covered figures today.",
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
     "dominance": 2.0,
@@ -55167,7 +55260,7 @@
     "deviation": 1.02,
     "smoothed_pct": 4.64,
     "assessment_method": "composite",
-    "thresholds_version": "norm-biden2022-x1-2-3-5-2026-07-11",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
     "theme_rank": 6,
     "n_themes": 15,
@@ -55699,7 +55792,8 @@
       "migration": 3,
       "education": 3,
       "weather": 24
-    }
+    },
+    "zone_recomputed": "2026-07-11 natural-breakpoints retroactive"
   },
   {
     "date": "2026-07-12",
@@ -55728,7 +55822,7 @@
     "cross_outlet_dup_rate": 22.7,
     "zone": "dry",
     "label": "The zone is dry",
-    "narrative": "Barely registered today.",
+    "narrative": "Below a normal president's ordinary day.",
     "rank": 1,
     "n_people": 17,
     "dominance": 0.5,
@@ -55736,7 +55830,7 @@
     "deviation": 0.21,
     "smoothed_pct": 3.47,
     "assessment_method": "composite",
-    "thresholds_version": "norm-biden2022-x1-2-3-5-2026-07-11",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
     "theme_rank": 11,
     "n_themes": 15,
@@ -56130,6 +56224,7 @@
       "migration": 1,
       "education": 1,
       "weather": 12
-    }
+    },
+    "zone_recomputed": "2026-07-12 natural-breakpoints (merge reconcile)"
   }
 ]

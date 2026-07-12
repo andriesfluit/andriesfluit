@@ -306,11 +306,16 @@ def run_gdelt(skip_scale=False):
         payload["normal_presidency_median_core_units"] = round(core_norm, 2)
         print(f"\nNormal-presidency median in core-corpus units: "
               f"~{core_norm:.2f}%")
-        print("Candidate multiples-of-normal pct floors (core units):")
-        for zone, mult in (("puddles", 1), ("wet", 2), ("soaked", 3),
-                           ("flooding", 5)):
-            print(f"  {zone:<8} >= {core_norm * mult:.1f}%   "
-                  f"({mult} x normal presidency)")
+        # Candidate floors are reference points of a NORM window's own
+        # distribution (median / 2x median / p95 / max), never of
+        # Trump's: zone frequencies must be an outcome, not a target.
+        print("Candidate distribution-based ladders (core units), "
+              "per reference window:")
+        for label, w in windows.items():
+            print(f"  {label}: puddles>={w['median']*scale:.1f} "
+                  f"wet>={2*w['median']*scale:.1f} "
+                  f"soaked>={w['p95']*scale:.1f} "
+                  f"flooding>={w['max']*scale:.1f}")
     print("\nNot written to thresholds.json; adopting these is an editorial call.")
     _write_report("gdelt", payload)
     if incomplete:
