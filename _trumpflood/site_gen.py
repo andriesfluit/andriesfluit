@@ -1160,13 +1160,19 @@ def _timeline(log_sorted_asc):
     # Since natural-breakpoints thresholds, zones are not share bands, so
     # the chart carries no background zone bands. One solid reference
     # line marks the materiality floor: a normal president's median day.
+    # The line renders under the bars; its LABEL renders after (= on top
+    # of) the bars with a paper-coloured halo so it stays readable.
     band_rects = []
     norm_y = y(MATERIALITY_PCT)
     band_rects.append(
         f'<line x1="{PAD_L}" x2="{W - PAD_R}" y1="{norm_y:.1f}" y2="{norm_y:.1f}" '
         f'stroke="#8a8170" stroke-width="1.4"/>'
-        f'<text x="{W - PAD_R}" y="{norm_y - 5:.1f}" text-anchor="end" '
-        f'font-size="10" fill="#8a8170" font-family="Inter, sans-serif">'
+    )
+    norm_label = (
+        f'<text x="{W - PAD_R}" y="{norm_y - 6:.1f}" text-anchor="end" '
+        f'font-size="10" fill="#5f584c" font-family="Inter, sans-serif" '
+        f'stroke="#f5f3ee" stroke-width="3" paint-order="stroke" '
+        f'stroke-linejoin="round">'
         f'normal president’s median day ({MATERIALITY_PCT:g}%)</text>'
     )
 
@@ -1300,6 +1306,7 @@ def _timeline(log_sorted_asc):
       {''.join(weekend_shades)}
       {''.join(grid_lines)}
       {''.join(bars)}
+      {norm_label}
       {''.join(annotations)}
       {''.join(x_labels)}
     </svg>
@@ -1520,6 +1527,18 @@ def _methodology(latest):
     <summary>How the zone is decided, where the data comes from, and what to be skeptical about.</summary>
     <div class="meth-body">
 
+      <h3>The name</h3>
+      <p>&ldquo;Flooding the zone&rdquo; is Steve Bannon&rsquo;s phrase
+      for a media strategy: overwhelm the press with so much material at
+      once that scrutiny of any single story becomes impossible. As he
+      put it to author Michael Lewis in 2018: &ldquo;The Democrats
+      don&rsquo;t matter. The real opposition is the media. And the way
+      to deal with them is to flood the zone with shit.&rdquo; The
+      vulgarity is his, quoted for the record, not endorsed. This site
+      borrows the metaphor to measure the <em>effect</em> on the
+      Belgian press &mdash; is the zone in fact flooded? &mdash; and
+      takes no position on intent.</p>
+
       <h3>Daily collection</h3>
       <p>Three times a day, at 03:37, 10:37 and 16:37 UTC (which is
       05:37 / 12:37 / 18:37 Belgian local in summer (CEST) and
@@ -1565,11 +1584,15 @@ def _methodology(latest):
 
       <h3>Trump match</h3>
       <p>A headline is a Trump headline if its title matches the regex
-      <code>\\btrump\\b</code> (whole word, case-insensitive). All four
-      zone signals (share, breadth, dominance, rank) run on this single
-      name-only definition, so Trump is measured on the same yardstick
-      as the other sixteen named figures in the comparator list.
-      Titles only; no body text, no fuzzy matching.</p>
+      <code>\\btrumps?\\b</code> (whole word, case-insensitive; the
+      optional <em>s</em> covers the Dutch genitive &ldquo;Trumps
+      uitnodiging&rdquo;, counted since 2026-07-11 &mdash; see caveats),
+      unless the only match is a family member or a Trump-branded
+      property (also see caveats). All four zone signals (share,
+      breadth, dominance, rank) run on this single name-only
+      definition, so Trump is measured on the same yardstick as the
+      other sixteen named figures in the comparator list. Titles only;
+      no body text, no fuzzy matching.</p>
       <p>As a secondary readout we also count headlines that refer to
       Trump indirectly, by role or location rather than by name:
       <code>white house</code> / <code>witte huis</code> /
