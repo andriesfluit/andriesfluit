@@ -55797,294 +55797,294 @@
   },
   {
     "date": "2026-07-12",
-    "generated_at": "2026-07-12T08:19:16+02:00",
-    "last_checked_at": "2026-07-12T08:19:16+02:00",
-    "total_articles": 211,
-    "trump_articles": 1,
-    "percentage": 0.5,
-    "core_percentage": 0.5,
-    "core_percentage_name": 0.5,
-    "trump_articles_expanded": 1,
-    "core_percentage_expanded": 0.5,
+    "generated_at": "2026-07-12T13:40:39+02:00",
+    "last_checked_at": "2026-07-12T13:40:39+02:00",
+    "total_articles": 442,
+    "trump_articles": 17,
+    "percentage": 3.8,
+    "core_percentage": 3.8,
+    "core_percentage_name": 3.8,
+    "trump_articles_expanded": 17,
+    "core_percentage_expanded": 3.8,
     "indirect_references": 0,
-    "wide_total_articles": 294,
-    "wide_trump_articles": 4,
-    "wide_percentage": 1.4,
-    "wide_trump_articles_expanded": 4,
-    "wide_percentage_expanded": 1.4,
-    "macro_percentage": 0.5,
-    "qualifying_outlets": 12,
+    "wide_total_articles": 617,
+    "wide_trump_articles": 23,
+    "wide_percentage": 3.7,
+    "wide_trump_articles_expanded": 23,
+    "wide_percentage_expanded": 3.7,
+    "macro_percentage": 3.4,
+    "qualifying_outlets": 21,
     "core_outlets_total": 19,
-    "core_outlets_active": 14,
-    "active_core_fraction": 0.737,
-    "cross_outlet_dup_headlines": 48,
-    "cross_outlet_dup_groups": 24,
-    "cross_outlet_dup_rate": 22.7,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Below a normal president's ordinary day.",
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 34,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 7.7,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.5,
-    "breadth": 0.07,
-    "deviation": 0.21,
-    "smoothed_pct": 3.47,
+    "dominance": 1.21,
+    "breadth": 0.76,
+    "deviation": 1.58,
+    "smoothed_pct": 3.94,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 11,
+    "theme_rank": 3,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 17,
-        "kept": 17,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.88
-      },
-      "google_fr": {
-        "fetched": 34,
-        "today": 3,
-        "kept": 3,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_fr": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
       "google_nl_politics": {
-        "fetched": 48,
-        "today": 4,
-        "kept": 4,
+        "fetched": 47,
+        "today": 8,
+        "kept": 8,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 50.0
+        "share": 25.0
       },
       "google_nl_world": {
-        "fetched": 64,
+        "fetched": 65,
+        "today": 20,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 54,
+        "today": 18,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 27,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 55,
         "today": 9,
         "kept": 6,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_nl_business": {
-        "fetched": 70,
-        "today": 3,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_tech": {
-        "fetched": 54,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_nl_sport": {
-        "fetched": 53,
-        "today": 8,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_politics": {
-        "fetched": 26,
-        "today": 1,
+      "google_fr_business": {
+        "fetched": 32,
+        "today": 2,
         "kept": 1,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_fr_world": {
-        "fetched": 51,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_business": {
-        "fetched": 36,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "vrt": {
         "fetched": 50,
-        "today": 7,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
       },
       "standaard": {
-        "fetched": 100,
-        "today": 39,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 91,
+        "today": 49,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
       },
       "hln": {
         "fetched": 30,
-        "today": 29,
-        "kept": 29,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "demorgen": {
         "fetched": 27,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 8,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 46,
-        "kept": 46,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
-        "today": 38,
-        "kept": 38,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
       },
       "hbvl": {
         "fetched": 50,
-        "today": 23,
-        "kept": 23,
+        "today": 42,
+        "kept": 42,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 16,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
       },
       "sporza": {
         "fetched": 20,
-        "today": 6,
-        "kept": 6,
+        "today": 17,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 1,
-        "kept": 1,
+        "today": 3,
+        "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 12,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
       },
       "lalibre": {
         "fetched": 100,
-        "today": 6,
-        "kept": 6,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 16.67
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
       },
       "lecho": {
         "fetched": 100,
-        "today": 11,
-        "kept": 11,
+        "today": 30,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 10,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 67,
+        "kept": 67,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 4.48
       },
       "septsursept": {
         "fetched": 30,
-        "today": 10,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
       },
       "bx1": {
         "fetched": 10,
-        "today": 0,
-        "kept": 0,
+        "today": 1,
+        "kept": 1,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 12,
-        "kept": 11,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 41,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 16,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 14,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 6,
-        "kept": 6,
+        "today": 20,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 40,
+        "fetched": 27,
         "today": 2,
         "kept": 0,
         "trump": 0,
@@ -56092,12 +56092,12 @@
         "share": 0
       },
       "tendances_g": {
-        "fetched": 47,
-        "today": 0,
-        "kept": 0,
+        "fetched": 31,
+        "today": 4,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       }
     },
     "core_sources": [
@@ -56123,17 +56123,113 @@
     ],
     "matches": [
       {
+        "title": "Senator Lindsey Graham (71) onverwacht overleden, trouwe medestander van Donald Trump",
+        "url": "https://vrtnws.be/p.ewoZ4MlAK",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump verliest bondgenoot: Amerikaanse senator Lindsey Graham overleden na “korte en plotse” ziekte - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONF9tenZxaUM4SGwtMGc1MU9rN0lwY0hmSFVZRXBhc0dGZ20xdUZNSTlWdXNEa1ZlMUgwNHpZU2ZyclZjc2h2YWRVcG8yZEZyTTZSX3U2S19ZWlJFU0d1MktXVEJvdXk1M245Vmdhb2lJVzBmTG1FcVBFN2Jpc1NMSEFsOVVrYlhIejRQS2VUdGdiUGd1VXR6MUUzQWhWTzRWdUQxWHNUcDRyU09sZ0laTUwydEZOS0YyRmNvNVBDRGRNMkk4eW5vV0p3VEFvNjBZRDR5VlQ0WUJSQUx4dFhNcw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Iraanse krant publiceert dodenlijst van 13 doelwitten waaronder Trump, Netanyahu, Macron, Meloni en Merz",
+        "url": "https://www.hln.be/buitenland/iraanse-krant-publiceert-dodenlijst-van-13-doelwitten-waaronder-trump-netanyahu-macron-meloni-en-merz~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Iraanse krant publiceert dodenlijst van 13 doelwitten, onder wie Trump, Netanyahu, Macron, Meloni en Merz",
+        "url": "https://www.demorgen.be/snelnieuws/live-iraanse-krant-publiceert-dodenlijst-van-13-doelwitten-waaronder-trump-netanyahu-macron-meloni-en-merz~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse senator Lindsey Graham (71), trouwe medestander van Trump, plots overleden",
+        "url": "https://www.demorgen.be/snelnieuws/amerikaanse-senator-lindsey-graham-71-trouwe-medestander-van-trump-plots-overleden~b2effd57/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Van Macron tot Meloni: Iran zet naast Trump en Netanyahu diverse Europese leiders op dodenlijst",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-van-macron-tot-meloni-iran-zet-naast-trump-en-netanyahu-diverse-europese-leiders-op-dodenlijst/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Invloedrijke senator Lindsey Graham (71) overlijdt onverwacht, Trump noemt hem 'echte Amerikaanse patriot' - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUlZHdkxGRW5Wck5QSnFVSnYyR3V4aWhrb1dLZHdqVW1tQVdlVDNiNC1vaEhISmVLRTFxZXZrR05mZmcza0FjRlNWU3hnVkwzSUtjek1sUkxvNms3V3ZOUlZ6SThyYVVnd0NGZ1pzR2s3YXBzSkpSRDF1ZW5kV0V4eHpQRERPaXJBbHA3Rmxpci1zTWpHR3hacUgyMUNncld2UlJKbUtsN28tTmxtcllITHVpeU9qTl9hTnBTbnFiZUZQNUN6aUFZcXpvaTRHMUxEWUo0?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : décès du sénateur américain républicain Lindsey Graham, un allié de Trump et de l'Ukraine",
+        "url": "https://www.rtbf.be/article/etats-unis-deces-du-senateur-americain-republicain-lindsey-graham-un-allie-de-trump-et-de-l-ukraine-11756696",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Le sénateur américain et allié de Trump Lindsey Graham est décédé",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/12/le-senateur-americain-et-allie-de-trump-lindsey-graham-est-decede-LKYJKCPW7FCWRJ3RZZDQCVYPDU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
         "title": "À Venise, suite aux diktats de Trump, le vrai pavillon américain n’est pas à la Biennale",
         "url": "https://www.lalibre.be/culture/arts/2026/07/12/a-venise-suite-aux-diktats-de-trump-le-vrai-pavillon-americain-nest-pas-a-la-biennale-F6QRZIOGJNHNHOS67MUDBCLMYA/",
         "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Allié de Trump, Lindsey Graham est décédé: ce que l'on sait",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/12/allie-de-trump-lindsey-graham-est-decede-ce-que-lon-sait-7BGS5VKIXJDGZOZT6TYVSIZNYY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Cet aéroport porte désormais officiellement le nom de Donald Trump (PHOTOS)",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/12/cet-aeroport-porte-desormais-officiellement-le-nom-de-donald-trump-photos-4USVIJ3ZN5CUFCVR6QK72X3GNQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump, Netanyahu, Macron... 13 personnalités sur une liste de \"cibles à abattre\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/12/trump-netanyahu-macron-13-personnalites-sur-une-liste-de-cibles-a-abattre-ISGPNIKWGVGWBIHFXI5IKAT2AM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump, Netanyahu, Macron, Meloni et Merz: un journal iranien publie une liste de 13 personnes à abattre",
+        "url": "https://www.7sur7.be/monde/trump-netanyahu-macron-meloni-et-merz-un-journal-iranien-publie-une-liste-de-13-personnes-a-abattre~ab714502/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump-medestander Lindsey Graham onverwacht overleden - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWmZoTmwzOFB5cG5zQ21CaW1PTk43cFVLVWVkNGhMQVZuTURrRlNpSjlHTXlLX3FzWTcwSVhqa0VkVzlPZVVTb3hvSDVpdWRwTWEzVTRuam9UcVVqbFZWM2FmMTBMemc5dWFXNnVvZHJHRlRhX0Y4SG1MaTA0eFo2WXR2WXM4VXVZVEU2dTNDNnFPMXY3SE9wVkFCNDctNVQwaDhUczhBZlFzZFVjZXBfRG9IQkpZMi1NSUlNellVelE?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Le sénateur américain Lindsey Graham, allié de Trump, est décédé - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTFp2OVVjb0x4azJfRUN2M0x1dzlEVEVIYUpWN2xmQ0FpZUEzS0g1clVaWHFlRlNsT2ZidjFQS3N5ZlZoa0twTV9GVnBLM3FVckpTU1dxSEdlMDh5bFZiOXhvTWZxVDhMV082bkdoN2JOM3VaR004bFBpV3VHRGc1QUd3ZmIwZ05uYjRiSUhkZ3E2WHQzV29BRG52a3hvek9OUkV2aFV1bXRFenRkd0Rr?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Allié emblématique de Trump et soutien indéfectible de Zelensky, le sénateur américain Lindsey Graham est mort brutalement à 71 ans - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdWZ5dzJ5T2xXSHZ6bXBTajE3enRnTzBVaE5FTVg5N25DLUJEWERHX2dYNG5uelRFUVFqZ0U1eEZKUEZYYjlnRDBITUwyYW9LUThmV1lzMHM4ekZ6djBzclIzWERDenlsV1dRNkg5SW1rVkJ0dVU2QnRRcjRTZUx6QXhSRklyU1VydUxMaVI0ZGo0Yk1ta1BDZ3NIY1VKekRuZGJhOGs0UnlUSnZ4Ukx1QWcxclhCTG4ybjhoRkFEVnJsRW1Fb1E?oc=5",
+        "source": "sudinfo_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Werd schoonzoon van Trump opgelicht toen hij grond kocht voor groot luxeresort in Albanië? - Nieuwsblad",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRml0M2cwMUYwUVBsS2hzQllNOG4wNTBDbGI1RlRqcEc4XzBhTHZZQlR6QmlyUUs5OFJLU253ZjJjT05FWEFmbUlqdFR5ZXBKbHRHbV9aNGZSckV2NFd5NHpvSmtVS3BETFhjVUhDZG8zZDZTTzE0R3lPMkVLYnEwWS1iNkNJcUptNmN6MlFEaWVuT3hyVm9BUXN1aVpZVUt2MGJGc0RCYkhvNVY3Yjc0Y0F3dXdxbnNyZmJmTHNMWFoxcjdaSVgyUjZjTm9MU1NMN1o2Yk53ams?oc=5",
-        "source": "google_nl",
+        "title": "Mort de Lindsey Graham : Trump et les dirigeants israéliens saluent l’héritage d’un allié indéfectible - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM21ubUZDXzZOM0dBaW1SMjlHUVhJV0hFM3pjM2pQOG1FMGtnZVNwREpoeUZVMTduX2tFNWxCQ0hJazFlbWFfcG95NTJLWVozd2R1YkdENTZuVS1lVkFVQlJzbmJ3endwMEUxUG9FNjJuVGs2NEF0NUtHRWJIdG1kRVdFb1N2VGJOWWNtME8taUZwRFBKcldBUmZFSjRwX3RfZ25kRUM1Z2h3QWlOUTZ1NVdCMHk0ZUZBUEkzaWgwOFIzZjBsblE?oc=5",
+        "source": "google_fr",
         "name_only": true
       },
       {
@@ -56149,18 +56245,132 @@
         "name_only": true
       },
       {
+        "title": "Werd schoonzoon van Trump opgelicht toen hij grond kocht voor groot luxeresort in Albanië? - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRml0M2cwMUYwUVBsS2hzQllNOG4wNTBDbGI1RlRqcEc4XzBhTHZZQlR6QmlyUUs5OFJLU253ZjJjT05FWEFmbUlqdFR5ZXBKbHRHbV9aNGZSckV2NFd5NHpvSmtVS3BETFhjVUhDZG8zZDZTTzE0R3lPMkVLYnEwWS1iNkNJcUptNmN6MlFEaWVuT3hyVm9BUXN1aVpZVUt2MGJGc0RCYkhvNVY3Yjc0Y0F3dXdxbnNyZmJmTHNMWFoxcjdaSVgyUjZjTm9MU1NMN1o2Yk53ams?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Senator Lindsey Graham (71) onverwacht overleden, trouwe medestander van Donald Trump",
+        "url": "https://vrtnws.be/p.ewoZ4MlAK",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump verliest bondgenoot: Amerikaanse senator Lindsey Graham overleden na “korte en plotse” ziekte - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONF9tenZxaUM4SGwtMGc1MU9rN0lwY0hmSFVZRXBhc0dGZ20xdUZNSTlWdXNEa1ZlMUgwNHpZU2ZyclZjc2h2YWRVcG8yZEZyTTZSX3U2S19ZWlJFU0d1MktXVEJvdXk1M245Vmdhb2lJVzBmTG1FcVBFN2Jpc1NMSEFsOVVrYlhIejRQS2VUdGdiUGd1VXR6MUUzQWhWTzRWdUQxWHNUcDRyU09sZ0laTUwydEZOS0YyRmNvNVBDRGRNMkk4eW5vV0p3VEFvNjBZRDR5VlQ0WUJSQUx4dFhNcw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Iraanse krant publiceert dodenlijst van 13 doelwitten waaronder Trump, Netanyahu, Macron, Meloni en Merz",
+        "url": "https://www.hln.be/buitenland/iraanse-krant-publiceert-dodenlijst-van-13-doelwitten-waaronder-trump-netanyahu-macron-meloni-en-merz~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Iraanse krant publiceert dodenlijst van 13 doelwitten, onder wie Trump, Netanyahu, Macron, Meloni en Merz",
+        "url": "https://www.demorgen.be/snelnieuws/live-iraanse-krant-publiceert-dodenlijst-van-13-doelwitten-waaronder-trump-netanyahu-macron-meloni-en-merz~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse senator Lindsey Graham (71), trouwe medestander van Trump, plots overleden",
+        "url": "https://www.demorgen.be/snelnieuws/amerikaanse-senator-lindsey-graham-71-trouwe-medestander-van-trump-plots-overleden~b2effd57/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Van Macron tot Meloni: Iran zet naast Trump en Netanyahu diverse Europese leiders op dodenlijst",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-van-macron-tot-meloni-iran-zet-naast-trump-en-netanyahu-diverse-europese-leiders-op-dodenlijst/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Van Macron tot Meloni: Iran zet naast Trump en Netanyahu diverse Europese leiders op dodenlijst",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-van-macron-tot-meloni-iran-zet-naast-trump-en-netanyahu-diverse-europese-leiders-op-dodenlijst/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "“Een echte Amerikaanse patriot”: Trump reageert op overlijden van senator Lindsey Graham (71)",
+        "url": "https://www.gva.be/buitenland/een-echte-amerikaanse-patriot-trump-reageert-op-overlijden-van-senator-lindsey-graham-71/158607661.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Invloedrijke senator Lindsey Graham (71) overlijdt onverwacht, Trump noemt hem 'echte Amerikaanse patriot' - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUlZHdkxGRW5Wck5QSnFVSnYyR3V4aWhrb1dLZHdqVW1tQVdlVDNiNC1vaEhISmVLRTFxZXZrR05mZmcza0FjRlNWU3hnVkwzSUtjek1sUkxvNms3V3ZOUlZ6SThyYVVnd0NGZ1pzR2s3YXBzSkpSRDF1ZW5kV0V4eHpQRERPaXJBbHA3Rmxpci1zTWpHR3hacUgyMUNncld2UlJKbUtsN28tTmxtcllITHVpeU9qTl9hTnBTbnFiZUZQNUN6aUFZcXpvaTRHMUxEWUo0?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : décès du sénateur américain républicain Lindsey Graham, un allié de Trump et de l'Ukraine",
+        "url": "https://www.rtbf.be/article/etats-unis-deces-du-senateur-americain-republicain-lindsey-graham-un-allie-de-trump-et-de-l-ukraine-11756696",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Le sénateur américain et allié de Trump Lindsey Graham est décédé",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/12/le-senateur-americain-et-allie-de-trump-lindsey-graham-est-decede-LKYJKCPW7FCWRJ3RZZDQCVYPDU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
         "title": "À Venise, suite aux diktats de Trump, le vrai pavillon américain n’est pas à la Biennale",
         "url": "https://www.lalibre.be/culture/arts/2026/07/12/a-venise-suite-aux-diktats-de-trump-le-vrai-pavillon-americain-nest-pas-a-la-biennale-F6QRZIOGJNHNHOS67MUDBCLMYA/",
         "source": "lalibre",
         "name_only": true
+      },
+      {
+        "title": "Allié de Trump, Lindsey Graham est décédé: ce que l'on sait",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/12/allie-de-trump-lindsey-graham-est-decede-ce-que-lon-sait-7BGS5VKIXJDGZOZT6TYVSIZNYY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Cet aéroport porte désormais officiellement le nom de Donald Trump (PHOTOS)",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/12/cet-aeroport-porte-desormais-officiellement-le-nom-de-donald-trump-photos-4USVIJ3ZN5CUFCVR6QK72X3GNQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump, Netanyahu, Macron... 13 personnalités sur une liste de \"cibles à abattre\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/12/trump-netanyahu-macron-13-personnalites-sur-une-liste-de-cibles-a-abattre-ISGPNIKWGVGWBIHFXI5IKAT2AM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump, Netanyahu, Macron, Meloni et Merz: un journal iranien publie une liste de 13 personnes à abattre",
+        "url": "https://www.7sur7.be/monde/trump-netanyahu-macron-meloni-et-merz-un-journal-iranien-publie-une-liste-de-13-personnes-a-abattre~ab714502/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump-medestander Lindsey Graham onverwacht overleden - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWmZoTmwzOFB5cG5zQ21CaW1PTk43cFVLVWVkNGhMQVZuTURrRlNpSjlHTXlLX3FzWTcwSVhqa0VkVzlPZVVTb3hvSDVpdWRwTWEzVTRuam9UcVVqbFZWM2FmMTBMemc5dWFXNnVvZHJHRlRhX0Y4SG1MaTA0eFo2WXR2WXM4VXVZVEU2dTNDNnFPMXY3SE9wVkFCNDctNVQwaDhUczhBZlFzZFVjZXBfRG9IQkpZMi1NSUlNellVelE?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Le sénateur américain Lindsey Graham, allié de Trump, est décédé - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTFp2OVVjb0x4azJfRUN2M0x1dzlEVEVIYUpWN2xmQ0FpZUEzS0g1clVaWHFlRlNsT2ZidjFQS3N5ZlZoa0twTV9GVnBLM3FVckpTU1dxSEdlMDh5bFZiOXhvTWZxVDhMV082bkdoN2JOM3VaR004bFBpV3VHRGc1QUd3ZmIwZ05uYjRiSUhkZ3E2WHQzV29BRG52a3hvek9OUkV2aFV1bXRFenRkd0Rr?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Allié emblématique de Trump et soutien indéfectible de Zelensky, le sénateur américain Lindsey Graham est mort brutalement à 71 ans - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdWZ5dzJ5T2xXSHZ6bXBTajE3enRnTzBVaE5FTVg5N25DLUJEWERHX2dYNG5uelRFUVFqZ0U1eEZKUEZYYjlnRDBITUwyYW9LUThmV1lzMHM4ekZ6djBzclIzWERDenlsV1dRNkg5SW1rVkJ0dVU2QnRRcjRTZUx6QXhSRklyU1VydUxMaVI0ZGo0Yk1ta1BDZ3NIY1VKekRuZGJhOGs0UnlUSnZ4Ukx1QWcxclhCTG4ybjhoRkFEVnJsRW1Fb1E?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 1,
+      "trump": 17,
       "putin": 1,
-      "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 0,
+      "macron": 5,
+      "netanyahu": 5,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 1,
@@ -56175,11 +56385,11 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 4,
-      "putin": 2,
-      "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 0,
+      "trump": 23,
+      "putin": 4,
+      "macron": 6,
+      "netanyahu": 6,
+      "zelensky": 4,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 1,
@@ -56194,37 +56404,36 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 6,
-      "crime": 7,
-      "eu": 6,
-      "politics": 5,
-      "be_gov": 4,
-      "culture": 7,
-      "tech": 3,
-      "economy": 1,
-      "sports": 27,
-      "health": 2,
-      "climate": 1,
-      "migration": 0,
-      "education": 1,
-      "weather": 9
-    },
-    "wide_themes": {
-      "war": 8,
-      "crime": 12,
-      "eu": 7,
-      "politics": 8,
-      "be_gov": 4,
-      "culture": 7,
+      "war": 14,
+      "crime": 11,
+      "eu": 9,
+      "politics": 10,
+      "be_gov": 5,
+      "culture": 21,
       "tech": 5,
       "economy": 1,
-      "sports": 38,
-      "health": 4,
-      "climate": 1,
+      "sports": 55,
+      "health": 6,
+      "climate": 3,
       "migration": 1,
       "education": 1,
-      "weather": 12
+      "weather": 10
     },
-    "zone_recomputed": "2026-07-12 natural-breakpoints (merge reconcile)"
+    "wide_themes": {
+      "war": 22,
+      "crime": 18,
+      "eu": 15,
+      "politics": 15,
+      "be_gov": 8,
+      "culture": 24,
+      "tech": 6,
+      "economy": 1,
+      "sports": 83,
+      "health": 10,
+      "climate": 5,
+      "migration": 1,
+      "education": 1,
+      "weather": 15
+    }
   }
 ]
