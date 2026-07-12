@@ -1704,20 +1704,22 @@ def _methodology(latest):
         {zone_cards}
       </div>
       <p>Thresholds in use today: version
-      <code>{thresholds_version}</code>. The share floors are defined
-      as <strong>multiples of the attention a US president normally
-      gets</strong> in Belgian media: Puddles = 1&times; the norm,
-      Wet = 2&times;, Soaked = 3&times;, Flooding = 5&times;. The norm
-      (1.15&percnt; of daily articles) is the median day of Biden in
-      spring 2022 &mdash; with the Ukraine war on the front pages, so a
-      conservative benchmark &mdash; measured on the same Belgian press
-      via GDELT and converted to this site&rsquo;s corpus with a scale
-      factor measured on 83 overlapping days. An earlier plan to
-      calibrate the floors as percentiles of Trump&rsquo;s own history
-      was rejected on principle: when the premise is that coverage is
-      abnormally high, calibrating on that coverage quietly redefines
-      the abnormal level as the baseline. Anchoring on a normal
-      presidency keeps the zone names meaning what they say.</p>
+      <code>{thresholds_version}</code>. Every share floor is a
+      reference point of the attention distribution of a
+      <strong>normal presidency</strong> &mdash; Biden in spring 2022,
+      with the Ukraine war on the front pages, so a conservative
+      benchmark &mdash; measured on the same Belgian press via GDELT
+      and converted to this site&rsquo;s corpus with a scale factor
+      measured on 83 overlapping days. Puddles (&ge;1.1&percnt;) is
+      that president&rsquo;s <em>median</em> day; Wet (&ge;2.3&percnt;)
+      is double his median day; Soaked (&ge;3.5&percnt;) is his
+      <em>p95</em> day, busier than all but his busiest; Flooding
+      (&ge;6.1&percnt;) is his single busiest day of the whole window.
+      Two principles hold throughout: no floor references Trump&rsquo;s
+      own distribution (calibrating on the anomaly would redefine the
+      abnormal level as the baseline), and no floor was tuned to make
+      any zone rare or common &mdash; how often each zone occurs is an
+      empirical outcome, not a design target.</p>
 
       <h3>Caveats &amp; limits</h3>
       <ul class="meth-rules">

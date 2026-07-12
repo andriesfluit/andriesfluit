@@ -103,6 +103,24 @@ by construction). Site copy can carry the structural layer directly:
 "vandaag krijgt Trump N x de aandacht die een Amerikaanse president
 normaal krijgt in de Belgische media."
 
+## Correction, same day (v2 floors): no outcome-fitting anywhere
+
+The first adopted ladder set flooding at 5x the norm median, partly
+argued from "then flooding fires on ~5% of days" and "it coincides
+with Trump's own p95". Both arguments reference Trump's observed
+distribution - the exact circularity this review exists to remove,
+re-imported through the choice of multiple. Whether flooding is rare
+must be a FINDING, never a design input.
+
+Fixed in thresholds version `norm-biden2022-dist-2026-07-11`: every
+share floor is now a reference point of the norm president's own
+distribution (Biden spring 2022, core units): puddles >= 1.1 (his
+median day), wet >= 2.3 (double his median day, an a-priori semantic
+step), soaked >= 3.5 (his p95 day), flooding >= 6.1 (his single
+busiest day of the window - during the invasion of Ukraine). Observed
+frequencies on the 83-day archive, reported strictly as findings:
+share-floor exceedance 81 / 55 / 28 / 3 days.
+
 ## Adopted 2026-07-11
 
 The multiples-of-norm ladder is live: thresholds.json version

@@ -1,25 +1,27 @@
 {
-  "version": "norm-biden2022-x1-2-3-5-2026-07-11",
+  "version": "norm-biden2022-dist-2026-07-11",
   "generated_at": "2026-07-11",
-  "source": "multiples of the normal-presidency attention share, anchored on Biden spring 2022 (GDELT) converted to core-corpus units",
+  "source": "reference points of the normal-presidency attention distribution (Biden spring 2022, GDELT), converted to core-corpus units",
   "source_window": "2022-03-01 .. 2022-05-30 (anchor); scale from live overlap 2026-04-20 .. 2026-07-11",
   "source_days": 91,
   "anchor": {
     "normal_president_core_pct": 1.15,
-    "basis": "Biden 2022 median GDELT share 0.78% of Belgian articles x measured core/GDELT scale 1.47",
+    "normal_president_p95_core_pct": 3.5,
+    "normal_president_max_core_pct": 6.1,
+    "basis": "Biden 2022 daily GDELT shares (median 0.78%, p95 2.40%, max 4.13%) x measured core/GDELT scale 1.47",
     "report": "validation/anchors_report.json",
     "review": "methodology_review_2026-07.md"
   },
   "notes": [
-    "Share floors are multiples (1x/2x/3x/5x) of the attention a US president normally gets in Belgian media, measured on Biden spring 2022 (with the Ukraine war on the front pages, so a conservative norm).",
-    "Deliberately NOT percentiles of Trump's own distribution: calibrating on the anomaly would normalize the anomaly. See methodology_review_2026-07.md.",
+    "Every share floor is a reference point of the NORM president's own distribution (Biden spring 2022, with the Ukraine war on the front pages, so a conservative norm): puddles = his median day, wet = double his median day, soaked = his p95 day, flooding = his single busiest day of the whole window.",
+    "No floor references Trump's own distribution, and no floor was tuned to make any zone rare or common: how often each zone occurs is an empirical outcome, not a design target.",
     "Rank, dominance and breadth floors retained from v0-eyeballed; they compare against other figures on the same day and are externally anchored by construction.",
     "Biden 2023 (median 0.0%) was measured but looks like a GDELT coverage artifact; it is not used for the anchor."
   ],
   "zones": [
-    {"key": "flooding", "pct": 5.7, "dominance": 2.0, "breadth": 0.55, "rank_max": 1, "norm_multiple": 5},
-    {"key": "soaked",   "pct": 3.4, "dominance": 1.2, "breadth": 0.40, "rank_max": 1, "norm_multiple": 3},
-    {"key": "wet",      "pct": 2.3, "dominance": null, "breadth": 0.25, "rank_max": 2, "norm_multiple": 2},
-    {"key": "puddles",  "pct": 1.1, "dominance": null, "breadth": null, "rank_max": 4, "norm_multiple": 1}
+    {"key": "flooding", "pct": 6.1, "dominance": 2.0, "breadth": 0.55, "rank_max": 1, "norm_ref": "norm president's single busiest day (max)"},
+    {"key": "soaked",   "pct": 3.5, "dominance": 1.2, "breadth": 0.40, "rank_max": 1, "norm_ref": "norm president's p95 day"},
+    {"key": "wet",      "pct": 2.3, "dominance": null, "breadth": 0.25, "rank_max": 2, "norm_ref": "double the norm president's median day"},
+    {"key": "puddles",  "pct": 1.1, "dominance": null, "breadth": null, "rank_max": 4, "norm_ref": "norm president's median day"}
   ]
 }
