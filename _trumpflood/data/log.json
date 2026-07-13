@@ -56438,38 +56438,38 @@
   },
   {
     "date": "2026-07-13",
-    "generated_at": "2026-07-13T08:39:11+02:00",
-    "last_checked_at": "2026-07-13T08:39:11+02:00",
-    "total_articles": 355,
-    "trump_articles": 2,
-    "percentage": 0.6,
-    "core_percentage": 0.6,
-    "core_percentage_name": 0.6,
-    "trump_articles_expanded": 3,
-    "core_percentage_expanded": 0.8,
-    "indirect_references": 1,
-    "wide_total_articles": 485,
-    "wide_trump_articles": 4,
-    "wide_percentage": 0.8,
-    "wide_trump_articles_expanded": 5,
+    "generated_at": "2026-07-13T15:01:39+02:00",
+    "last_checked_at": "2026-07-13T15:01:39+02:00",
+    "total_articles": 715,
+    "trump_articles": 7,
+    "percentage": 1.0,
+    "core_percentage": 1.0,
+    "core_percentage_name": 1.0,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 1.0,
+    "indirect_references": 0,
+    "wide_total_articles": 997,
+    "wide_trump_articles": 9,
+    "wide_percentage": 0.9,
+    "wide_trump_articles_expanded": 10,
     "wide_percentage_expanded": 1.0,
-    "macro_percentage": 0.8,
-    "qualifying_outlets": 17,
+    "macro_percentage": 0.7,
+    "qualifying_outlets": 29,
     "core_outlets_total": 19,
-    "core_outlets_active": 17,
-    "active_core_fraction": 0.895,
-    "cross_outlet_dup_headlines": 42,
-    "cross_outlet_dup_groups": 21,
-    "cross_outlet_dup_rate": 11.8,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 54,
+    "cross_outlet_dup_groups": 27,
+    "cross_outlet_dup_rate": 7.6,
     "zone": "dry",
     "label": "The zone is dry",
     "narrative": "Below a normal president's ordinary day.",
-    "rank": 3,
+    "rank": 1,
     "n_people": 17,
-    "dominance": 0.15,
-    "breadth": 0.12,
-    "deviation": 0.24,
-    "smoothed_pct": 3.3,
+    "dominance": 0.41,
+    "breadth": 0.28,
+    "deviation": 0.4,
+    "smoothed_pct": 3.36,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
@@ -56478,112 +56478,112 @@
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 19,
-        "kept": 19,
+        "today": 31,
+        "kept": 31,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 15,
-        "kept": 15,
+        "today": 26,
+        "kept": 26,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 45,
-        "today": 10,
-        "kept": 10,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 10.0
-      },
-      "google_nl_world": {
-        "fetched": 55,
+        "fetched": 44,
         "today": 9,
-        "kept": 5,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_nl_world": {
+        "fetched": 61,
+        "today": 27,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
       "google_nl_business": {
-        "fetched": 65,
-        "today": 15,
-        "kept": 13,
+        "fetched": 70,
+        "today": 43,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 64,
-        "today": 4,
-        "kept": 3,
+        "fetched": 65,
+        "today": 15,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 60,
-        "today": 11,
-        "kept": 9,
+        "fetched": 65,
+        "today": 37,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 23,
-        "today": 2,
-        "kept": 2,
+        "fetched": 21,
+        "today": 3,
+        "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 48,
-        "today": 1,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "fetched": 52,
+        "today": 20,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
       },
       "google_fr_business": {
-        "fetched": 17,
-        "today": 2,
-        "kept": 0,
+        "fetched": 25,
+        "today": 14,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 9,
-        "kept": 9,
+        "today": 38,
+        "kept": 38,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 67,
-        "kept": 35,
+        "today": 79,
+        "kept": 32,
         "trump": 0,
-        "trump_expanded": 1,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "hln": {
         "fetched": 30,
-        "today": 27,
-        "kept": 27,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "demorgen": {
-        "fetched": 29,
-        "today": 16,
-        "kept": 16,
+        "fetched": 27,
+        "today": 21,
+        "kept": 21,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -56598,144 +56598,144 @@
       },
       "gva": {
         "fetched": 50,
-        "today": 45,
-        "kept": 45,
+        "today": 50,
+        "kept": 50,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.22
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 29,
-        "kept": 29,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 13,
-        "kept": 13,
+        "today": 34,
+        "kept": 34,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 2,
-        "kept": 2,
+        "today": 16,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 3,
-        "kept": 3,
+        "today": 7,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 13,
-        "kept": 13,
+        "today": 17,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 17,
-        "kept": 17,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
       },
       "lecho": {
-        "fetched": 93,
-        "today": 15,
-        "kept": 15,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 100,
+        "today": 57,
+        "kept": 57,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.75
       },
       "dhnet": {
         "fetched": 100,
-        "today": 18,
-        "kept": 18,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 89,
+        "kept": 89,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.25
       },
       "septsursept": {
         "fetched": 30,
-        "today": 9,
-        "kept": 9,
+        "today": 30,
+        "kept": 30,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 11.11
+        "share": 3.33
       },
       "bx1": {
         "fetched": 10,
-        "today": 4,
-        "kept": 4,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 59,
-        "kept": 59,
+        "today": 79,
+        "kept": 72,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 10,
-        "kept": 9,
+        "today": 28,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 10,
-        "kept": 9,
+        "today": 29,
+        "kept": 28,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 8,
-        "kept": 8,
+        "today": 43,
+        "kept": 42,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 99,
-        "today": 17,
-        "kept": 17,
+        "today": 43,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 13,
-        "today": 2,
-        "kept": 0,
+        "fetched": 21,
+        "today": 14,
+        "kept": 1,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "tendances_g": {
         "fetched": 24,
-        "today": 2,
-        "kept": 2,
+        "today": 11,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -56764,68 +56764,141 @@
     ],
     "matches": [
       {
-        "title": "Te veel focus op slavernij, te weinig op patriottisme: Witte Huis heropent aanval op Amerikaanse musea - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaVJNcHZFQ2JONU9Yck15ZVpyNTJqR2dqbElBSFZDZTZqdEdWZ0J1azZrOUNkdGx3RkNSN0tkdjBOMTlKSGlQLU85S2NfNnJ3Z2lxRDNLT0Z4OGFvVmEwajVyNWd2VlJ6dGJZZ1B4TmhkT1VmOXBtUDdIVWVjdDNCRVRUZE5INEpwRjN3VEgxcVNTY3UtU2ZnMzJNeGM1TW5TZGRpQVEySHNNOXc2OS1Ienh5LVNHcVpseXpjZWVDWFZJWWc4U0JqSGMycUQycmR5WEJQVzd1M253R3ZGM0M2VDdZVHhLZEFVVU1kZzFB?oc=5",
-        "source": "standaard",
-        "name_only": false
-      },
-      {
-        "title": "Werd schoonzoon van Trump opgelicht in Albanië? Corruptiewaakhond bevriest 110 miljoen na verkoop gronden voor luxeresort",
-        "url": "https://www.nieuwsblad.be/buitenland/werd-schoonzoon-van-trump-opgelicht-in-albanie-corruptiewaakhond-bevriest-110-miljoen-na-verkoop-gronden-voor-luxeresort/158615250.html",
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “VS zullen Straat van Hormuz besturen en moeten daarvoor betaald worden”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-vs-zullen-straat-van-hormuz-besturen-en-moeten-daarvoor-betaald-worden/27532402.html",
         "source": "nieuwsblad",
         "name_only": true
       },
       {
-        "title": "Expulsés par Trump malgré leur statut: le cauchemar des “Dreamers”",
-        "url": "https://www.7sur7.be/monde/expulses-par-trump-malgre-leur-statut-le-cauchemar-des-dreamers~a570b06e/",
+        "title": "DIRECT-Guerre au Moyen-Orient : Trump affirme que les États-Unis sont en train de prendre le contrôle du détroit d'Ormuz",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/07/13/direct-guerre-au-moyen-orient-liran-revendique-des-frappes-contre-plusieurs-bases-americaines-apres-les-bombardements-des-etats-unis-FTU7UNCGDJCGHNBE2AIDX7BG6M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump révèle avoir discuté avec Lindsey Graham quelques heures avant son décès",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/13/trump-revele-avoir-discute-avec-lindsey-graham-quelques-heures-avant-son-deces-MES24IOZQRA35OZZMODOTNA5K4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Les États-Unis vont \"probablement\" prendre le contrôle du détroit d'Ormuz, selon Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTy0tUHdDc2ZqU1ZGTmMxdEZOTXRTTjBLNTBoQ05zcW02UjI1dG9GYmY2aTkxUENkNlp5dVU2NUVyU1IxbnpWajhrTXJJbExUa2tWRElERHN0Q0lacV9FQ3ZXcXFFM1BEY0ZDc3dST2Mxb01wbE1WWm1OWFFJcjVxYzh0aUtINms1a2hFcF95VVpYdUtfRGlTTjRVTUtneWhwTWhabU85VFlpUmZMbVFTcEpzRVBlcklxelJZQ0hZOUtWaE1vZXE4dGhBSU5ZdjFXUGJ0MWdPb0pkdlY5TkJtLXJacl96eFRWdlRzeXVPbjFLUQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient: Trump affirme que les États-Unis sont en train de prendre le contrôle du détroit d'Ormuz",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/13/direct-guerre-au-moyen-orient-les-gardiens-disent-avoir-frappe-des-bases-americaines-en-jordanie-a-bahrein-et-au-koweit-Z2VHWMX6MJDLPD6Q2AGTISEDQ4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump révèle avoir discuté avec Lindsey Graham quelques heures avant son décès",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/13/trump-revele-avoir-discute-avec-lindsey-graham-quelques-heures-avant-son-deces-QZPQP5IUSRHRJCBRX5Q4CSNEKA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump et plusieurs dirigeants européens ciblés dans une liste noire: doivent-ils craindre pour leur vie?",
+        "url": "https://www.7sur7.be/monde/trump-et-plusieurs-dirigeants-europeens-cibles-dans-une-liste-noire-doivent-ils-craindre-pour-leur-vie~a58b938d/",
         "source": "septsursept",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Senator Lindsey Graham overleden aan aortaruptuur, Trump sluit kwaad opzet uit - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeFdfcWUwdGRfeDFtdHJZT0dEZHZ0QmpJLXoxMm5zb0tuYUQ0cTExR3A2RXFfd3VwV1BSTnpjX2NGMDc2V3NGanpvNmRYVXlZeHpZNkRrYVJxdGFETE9lVHJFQWlJM3NJWldadERXdWZDeENHcXl4SVhaRm9sRHVHVUcwemlCT0tlWXVkUHdwNFhBblk3NmNGZzFBZTdSOVAyS2VQbmNjUldEcWZHQVJxVF9hWFA4NTcydS00dTFkeGhxSHpybWc?oc=5",
-        "source": "google_nl_politics",
-        "name_only": true
-      },
-      {
         "title": "Te veel focus op slavernij, te weinig op patriottisme: Witte Huis heropent aanval op Amerikaanse musea - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaVJNcHZFQ2JONU9Yck15ZVpyNTJqR2dqbElBSFZDZTZqdEdWZ0J1azZrOUNkdGx3RkNSN0tkdjBOMTlKSGlQLU85S2NfNnJ3Z2lxRDNLT0Z4OGFvVmEwajVyNWd2VlJ6dGJZZ1B4TmhkT1VmOXBtUDdIVWVjdDNCRVRUZE5INEpwRjN3VEgxcVNTY3UtU2ZnMzJNeGM1TW5TZGRpQVEySHNNOXc2OS1Ienh5LVNHcVpseXpjZWVDWFZJWWc4U0JqSGMycUQycmR5WEJQVzd1M253R3ZGM0M2VDdZVHhLZEFVVU1kZzFB?oc=5",
-        "source": "standaard",
+        "source": "google_nl_world",
         "name_only": false
       },
       {
-        "title": "Werd schoonzoon van Trump opgelicht in Albanië? Corruptiewaakhond bevriest 110 miljoen na verkoop gronden voor luxeresort",
-        "url": "https://www.nieuwsblad.be/buitenland/werd-schoonzoon-van-trump-opgelicht-in-albanie-corruptiewaakhond-bevriest-110-miljoen-na-verkoop-gronden-voor-luxeresort/158615250.html",
+        "title": "Trump révèle avoir discuté avec Lindsey Graham quelques heures avant son décès - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdEU3am9kSGF3Q2doeVhScTBHSTZWWUZMeDRFTjFHZ0tIUEpocDU4N3cxZWFIcGdIcHZEV3RCSmpTMHZkT3RKRFE3RVBxek50SUFEdVpyS2RycGIxbVJGR3AwWWZzTEZ4dUpmUGdQV0NYMWM4M0VxSjl2RDM5cVpHMzJiX0thX0owWU15XzgxOWkwdlNJN2QwaE9UcW0tQ3lZcnhwajFNSG54c2JQT1hEUVROblB6S2I0UGM4b0pHaHhIYjNIbUFGalhHbVJQcFVEd0hneGFWTkY3U1dYQ2VKNHAtYw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “VS zullen Straat van Hormuz besturen en moeten daarvoor betaald worden”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-vs-zullen-straat-van-hormuz-besturen-en-moeten-daarvoor-betaald-worden/27532402.html",
         "source": "nieuwsblad",
         "name_only": true
       },
       {
-        "title": "Werd schoonzoon van Trump opgelicht in Albanië? Corruptiewaakhond bevriest 110 miljoen na verkoop gronden voor luxeresort",
-        "url": "https://www.gva.be/buitenland/werd-schoonzoon-van-trump-opgelicht-in-albanie-corruptiewaakhond-bevriest-110-miljoen-na-verkoop-gronden-voor-luxeresort/158621824.html",
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “VS zullen Straat van Hormuz besturen en moeten daarvoor betaald worden”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-vs-zullen-straat-van-hormuz-besturen-en-moeten-daarvoor-betaald-worden/76854338.html",
         "source": "gva",
         "name_only": true
       },
       {
-        "title": "Expulsés par Trump malgré leur statut: le cauchemar des “Dreamers”",
-        "url": "https://www.7sur7.be/monde/expulses-par-trump-malgre-leur-statut-le-cauchemar-des-dreamers~a570b06e/",
+        "title": "DIRECT-Guerre au Moyen-Orient : Trump affirme que les États-Unis sont en train de prendre le contrôle du détroit d'Ormuz",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/07/13/direct-guerre-au-moyen-orient-liran-revendique-des-frappes-contre-plusieurs-bases-americaines-apres-les-bombardements-des-etats-unis-FTU7UNCGDJCGHNBE2AIDX7BG6M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump révèle avoir discuté avec Lindsey Graham quelques heures avant son décès",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/13/trump-revele-avoir-discute-avec-lindsey-graham-quelques-heures-avant-son-deces-MES24IOZQRA35OZZMODOTNA5K4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Les États-Unis vont \"probablement\" prendre le contrôle du détroit d'Ormuz, selon Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTy0tUHdDc2ZqU1ZGTmMxdEZOTXRTTjBLNTBoQ05zcW02UjI1dG9GYmY2aTkxUENkNlp5dVU2NUVyU1IxbnpWajhrTXJJbExUa2tWRElERHN0Q0lacV9FQ3ZXcXFFM1BEY0ZDc3dST2Mxb01wbE1WWm1OWFFJcjVxYzh0aUtINms1a2hFcF95VVpYdUtfRGlTTjRVTUtneWhwTWhabU85VFlpUmZMbVFTcEpzRVBlcklxelJZQ0hZOUtWaE1vZXE4dGhBSU5ZdjFXUGJ0MWdPb0pkdlY5TkJtLXJacl96eFRWdlRzeXVPbjFLUQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT- Guerre au Moyen-Orient: Trump affirme que les États-Unis sont en train de prendre le contrôle du détroit d'Ormuz",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/13/direct-guerre-au-moyen-orient-les-gardiens-disent-avoir-frappe-des-bases-americaines-en-jordanie-a-bahrein-et-au-koweit-Z2VHWMX6MJDLPD6Q2AGTISEDQ4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump révèle avoir discuté avec Lindsey Graham quelques heures avant son décès",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/13/trump-revele-avoir-discute-avec-lindsey-graham-quelques-heures-avant-son-deces-QZPQP5IUSRHRJCBRX5Q4CSNEKA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump et plusieurs dirigeants européens ciblés dans une liste noire: doivent-ils craindre pour leur vie?",
+        "url": "https://www.7sur7.be/monde/trump-et-plusieurs-dirigeants-europeens-cibles-dans-une-liste-noire-doivent-ils-craindre-pour-leur-vie~a58b938d/",
         "source": "septsursept",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 2,
-      "putin": 1,
-      "macron": 1,
+      "trump": 7,
+      "putin": 2,
+      "macron": 5,
       "netanyahu": 0,
-      "zelensky": 4,
+      "zelensky": 2,
       "rutte": 0,
-      "von_der_leyen": 0,
+      "von_der_leyen": 1,
       "de_wever": 0,
       "bouchez": 0,
-      "magnette": 1,
-      "prevot": 0,
+      "magnette": 0,
+      "prevot": 3,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 4,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 9,
+      "putin": 3,
+      "macron": 6,
+      "netanyahu": 0,
+      "zelensky": 5,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 4,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
@@ -56833,56 +56906,37 @@
       "van_peteghem": 6,
       "verlinden": 0
     },
-    "wide_comparisons": {
-      "trump": 4,
-      "putin": 2,
-      "macron": 1,
-      "netanyahu": 0,
-      "zelensky": 5,
-      "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 1,
-      "magnette": 1,
-      "prevot": 0,
-      "rousseau": 0,
-      "francken": 0,
-      "crevits": 0,
-      "jambon": 0,
-      "van_peteghem": 9,
-      "verlinden": 0
-    },
     "themes": {
-      "war": 14,
-      "crime": 4,
-      "eu": 12,
-      "politics": 12,
-      "be_gov": 4,
-      "culture": 7,
-      "tech": 2,
-      "economy": 7,
-      "sports": 16,
+      "war": 22,
+      "crime": 21,
+      "eu": 36,
+      "politics": 17,
+      "be_gov": 14,
+      "culture": 11,
+      "tech": 14,
+      "economy": 19,
+      "sports": 49,
       "health": 2,
-      "climate": 2,
-      "migration": 3,
+      "climate": 6,
+      "migration": 7,
       "education": 2,
-      "weather": 22
+      "weather": 16
     },
     "wide_themes": {
-      "war": 22,
-      "crime": 6,
-      "eu": 15,
-      "politics": 23,
-      "be_gov": 11,
-      "culture": 9,
-      "tech": 4,
-      "economy": 9,
-      "sports": 26,
+      "war": 36,
+      "crime": 27,
+      "eu": 48,
+      "politics": 25,
+      "be_gov": 22,
+      "culture": 12,
+      "tech": 23,
+      "economy": 27,
+      "sports": 71,
       "health": 4,
-      "climate": 2,
-      "migration": 6,
-      "education": 4,
-      "weather": 29
+      "climate": 10,
+      "migration": 9,
+      "education": 3,
+      "weather": 22
     }
   }
 ]
