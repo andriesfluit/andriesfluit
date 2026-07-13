@@ -56435,5 +56435,454 @@
       "education": 1,
       "weather": 15
     }
+  },
+  {
+    "date": "2026-07-13",
+    "generated_at": "2026-07-13T08:39:11+02:00",
+    "last_checked_at": "2026-07-13T08:39:11+02:00",
+    "total_articles": 355,
+    "trump_articles": 2,
+    "percentage": 0.6,
+    "core_percentage": 0.6,
+    "core_percentage_name": 0.6,
+    "trump_articles_expanded": 3,
+    "core_percentage_expanded": 0.8,
+    "indirect_references": 1,
+    "wide_total_articles": 485,
+    "wide_trump_articles": 4,
+    "wide_percentage": 0.8,
+    "wide_trump_articles_expanded": 5,
+    "wide_percentage_expanded": 1.0,
+    "macro_percentage": 0.8,
+    "qualifying_outlets": 17,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 42,
+    "cross_outlet_dup_groups": 21,
+    "cross_outlet_dup_rate": 11.8,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 3,
+    "n_people": 17,
+    "dominance": 0.15,
+    "breadth": 0.12,
+    "deviation": 0.24,
+    "smoothed_pct": 3.3,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 45,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_world": {
+        "fetched": 55,
+        "today": 9,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 65,
+        "today": 15,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 64,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 60,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 23,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 48,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 17,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 67,
+        "kept": 35,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.22
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 93,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 59,
+        "kept": 59,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 13,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 24,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Te veel focus op slavernij, te weinig op patriottisme: Witte Huis heropent aanval op Amerikaanse musea - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaVJNcHZFQ2JONU9Yck15ZVpyNTJqR2dqbElBSFZDZTZqdEdWZ0J1azZrOUNkdGx3RkNSN0tkdjBOMTlKSGlQLU85S2NfNnJ3Z2lxRDNLT0Z4OGFvVmEwajVyNWd2VlJ6dGJZZ1B4TmhkT1VmOXBtUDdIVWVjdDNCRVRUZE5INEpwRjN3VEgxcVNTY3UtU2ZnMzJNeGM1TW5TZGRpQVEySHNNOXc2OS1Ienh5LVNHcVpseXpjZWVDWFZJWWc4U0JqSGMycUQycmR5WEJQVzd1M253R3ZGM0M2VDdZVHhLZEFVVU1kZzFB?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "Werd schoonzoon van Trump opgelicht in Albanië? Corruptiewaakhond bevriest 110 miljoen na verkoop gronden voor luxeresort",
+        "url": "https://www.nieuwsblad.be/buitenland/werd-schoonzoon-van-trump-opgelicht-in-albanie-corruptiewaakhond-bevriest-110-miljoen-na-verkoop-gronden-voor-luxeresort/158615250.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Expulsés par Trump malgré leur statut: le cauchemar des “Dreamers”",
+        "url": "https://www.7sur7.be/monde/expulses-par-trump-malgre-leur-statut-le-cauchemar-des-dreamers~a570b06e/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Senator Lindsey Graham overleden aan aortaruptuur, Trump sluit kwaad opzet uit - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeFdfcWUwdGRfeDFtdHJZT0dEZHZ0QmpJLXoxMm5zb0tuYUQ0cTExR3A2RXFfd3VwV1BSTnpjX2NGMDc2V3NGanpvNmRYVXlZeHpZNkRrYVJxdGFETE9lVHJFQWlJM3NJWldadERXdWZDeENHcXl4SVhaRm9sRHVHVUcwemlCT0tlWXVkUHdwNFhBblk3NmNGZzFBZTdSOVAyS2VQbmNjUldEcWZHQVJxVF9hWFA4NTcydS00dTFkeGhxSHpybWc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Te veel focus op slavernij, te weinig op patriottisme: Witte Huis heropent aanval op Amerikaanse musea - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaVJNcHZFQ2JONU9Yck15ZVpyNTJqR2dqbElBSFZDZTZqdEdWZ0J1azZrOUNkdGx3RkNSN0tkdjBOMTlKSGlQLU85S2NfNnJ3Z2lxRDNLT0Z4OGFvVmEwajVyNWd2VlJ6dGJZZ1B4TmhkT1VmOXBtUDdIVWVjdDNCRVRUZE5INEpwRjN3VEgxcVNTY3UtU2ZnMzJNeGM1TW5TZGRpQVEySHNNOXc2OS1Ienh5LVNHcVpseXpjZWVDWFZJWWc4U0JqSGMycUQycmR5WEJQVzd1M253R3ZGM0M2VDdZVHhLZEFVVU1kZzFB?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "Werd schoonzoon van Trump opgelicht in Albanië? Corruptiewaakhond bevriest 110 miljoen na verkoop gronden voor luxeresort",
+        "url": "https://www.nieuwsblad.be/buitenland/werd-schoonzoon-van-trump-opgelicht-in-albanie-corruptiewaakhond-bevriest-110-miljoen-na-verkoop-gronden-voor-luxeresort/158615250.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Werd schoonzoon van Trump opgelicht in Albanië? Corruptiewaakhond bevriest 110 miljoen na verkoop gronden voor luxeresort",
+        "url": "https://www.gva.be/buitenland/werd-schoonzoon-van-trump-opgelicht-in-albanie-corruptiewaakhond-bevriest-110-miljoen-na-verkoop-gronden-voor-luxeresort/158621824.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Expulsés par Trump malgré leur statut: le cauchemar des “Dreamers”",
+        "url": "https://www.7sur7.be/monde/expulses-par-trump-malgre-leur-statut-le-cauchemar-des-dreamers~a570b06e/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 1,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 6,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 4,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 5,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 9,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 14,
+      "crime": 4,
+      "eu": 12,
+      "politics": 12,
+      "be_gov": 4,
+      "culture": 7,
+      "tech": 2,
+      "economy": 7,
+      "sports": 16,
+      "health": 2,
+      "climate": 2,
+      "migration": 3,
+      "education": 2,
+      "weather": 22
+    },
+    "wide_themes": {
+      "war": 22,
+      "crime": 6,
+      "eu": 15,
+      "politics": 23,
+      "be_gov": 11,
+      "culture": 9,
+      "tech": 4,
+      "economy": 9,
+      "sports": 26,
+      "health": 4,
+      "climate": 2,
+      "migration": 6,
+      "education": 4,
+      "weather": 29
+    }
   }
 ]
