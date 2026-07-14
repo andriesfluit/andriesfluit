@@ -57070,5 +57070,556 @@
       "education": 4,
       "weather": 33
     }
+  },
+  {
+    "date": "2026-07-14",
+    "generated_at": "2026-07-14T07:54:59+02:00",
+    "last_checked_at": "2026-07-14T07:54:59+02:00",
+    "total_articles": 272,
+    "trump_articles": 10,
+    "percentage": 3.7,
+    "core_percentage": 3.7,
+    "core_percentage_name": 3.7,
+    "trump_articles_expanded": 10,
+    "core_percentage_expanded": 3.7,
+    "indirect_references": 0,
+    "wide_total_articles": 369,
+    "wide_trump_articles": 15,
+    "wide_percentage": 4.1,
+    "wide_trump_articles_expanded": 15,
+    "wide_percentage_expanded": 4.1,
+    "macro_percentage": 3.3,
+    "qualifying_outlets": 14,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 28,
+    "cross_outlet_dup_groups": 14,
+    "cross_outlet_dup_rate": 10.3,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.5,
+    "breadth": 0.43,
+    "deviation": 1.48,
+    "smoothed_pct": 3.16,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 46,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 64,
+        "today": 10,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 19,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 61,
+        "today": 2,
+        "kept": 1,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 100.0
+      },
+      "google_fr_business": {
+        "fetched": 50,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 72,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 27,
+        "kept": 27,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.41
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 18,
+        "kept": 18,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 16.67
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.35
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "trends_g": {
+        "fetched": 35,
+        "today": 10,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 41,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "VS vallen Iran aan voor derde nacht op rij - Trump dreigt met bombarderen nucleair complex",
+        "url": "https://www.hln.be/buitenland/vs-vallen-iran-aan-voor-derde-nacht-op-rij-trump-dreigt-met-bombarderen-nucleair-complex~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Rechter schrapt omstreden deal van Trump met belastingdienst: gerechtelijke procedure misbruikt",
+        "url": "https://www.hln.be/buitenland/rechter-schrapt-omstreden-deal-van-trump-met-belastingdienst-gerechtelijke-procedure-misbruikt~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS vallen opnieuw Iran aan, Trump dreigt met bombardement op nucleair complex • Iran bestookt Bahrein",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-vallen-opnieuw-iran-aan-trump-dreigt-met-bombardement-op-nucleair-complex-iran-bestookt-bahrein~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Rechter schrapt omstreden deal tussen Trump en belastingdienst • Zus vervangt overleden Amerikaanse senator Lindsey Graham",
+        "url": "https://www.demorgen.be/snelnieuws/live-rechter-schrapt-omstreden-deal-tussen-trump-en-belastingdienst-zus-vervangt-overleden-amerikaanse-senator-lindsey-graham~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Olieprijzen zeker negen procent hoger na aankondiging Trump over blokkade Straat van Hormuz",
+        "url": "https://www.demorgen.be/snelnieuws/live-olieprijzen-zeker-negen-procent-hoger-na-aankondiging-trump-over-blokkade-straat-van-hormuz~b31dbb6e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump dreigt met aanval op nucleaire faciliteit in Iran: “Ze kunnen er niets tegen doen”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-dreigt-met-aanval-op-nucleaire-faciliteit-in-iran-ze-kunnen-er-niets-tegen-doen/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Rechter oordeelt dat deal van Trump met belastingdienst ongeldig is",
+        "url": "https://www.nieuwsblad.be/buitenland/rechter-oordeelt-dat-deal-van-trump-met-belastingdienst-ongeldig-is/158683535.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Rechter oordeelt dat deal van Trump met belastingdienst ongeldig is",
+        "url": "https://www.hbvl.be/buitenland/rechter-oordeelt-dat-deal-van-trump-met-belastingdienst-ongeldig-is/158683779.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Rechter verklaart schikking tussen Trump en fiscus ongeldig - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNFJsTGRDRWk5Y19ObVIyXzhSdVVoc05XemlLcmM4UlN2amFYS1dqS0l0UkxPVHpZQzVKLXlTd2d4UjAwanZTT0hDUHJVVVlOY04yOExDLUMxQUFiVk94alhDb1NtYmxNZ3ZudkRIM0pISjBNMXNjWjV0bW1vRUdQaWNCWGtCSVZxYS1fSmh3WEVrUWloX09iM2wwWDducUR3aHdjQVhLT0hrZ3pLcEQ2ckc4NWg2QnZqeFQya3Zic0wtelotX2FPeg?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Donald Trump estime qu’un accord avec l’Iran est encore « possible - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQThoNVd0NERvY0c1US00dmZ3TkNBUk1VRERDQUxHYTR3dnhVbGNwczhmcGdXa1Z5SWc5Q1FncXpmS2pDa2l1OWRFaklRRGxSRnR1T0tEZmZSeDB4SjVKRDU0RXM0YXctRnRXbGp6bFVkNnYzeWRGdWgxdm41cEd5ZHQwcUViNmZmdXV2N0tkY1NveG95bEVXRlFscU1Wcmo1N25LVi1DMUpqNVVWWV9XU3JnUnpKX1kyNUZDbmN1Rl9iMFJrVkdUOUxSNEhTLXNtcHIwMEgzanE2TmhmZ3ZV?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Rechter oordeelt dat deal van Trump met belastingdienst ongeldig is - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdW1OcjNuUGFqTU15b1FWeUxCX05zWTMxOVd4dFFvYnlWRnROLVBHbUdrM2pPejBkempyT3BnTGhaOFV5TTJITkw0UFFGYWhHU2FuMTB1NnVxbGhmb0xTQXJhcXhZQno3ZWJqNVJoc3k3S2hZOVFjYTh2NzBwb0VMU1UzdTFfNEJxWkV1V3J4RHljSmx0a3FKWGtvSnBuOXpKR09Xb0dQSnlYU25yTGJtR19BOV9DTTBKNTdZ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "VS vallen Iran aan voor derde nacht op rij - Trump dreigt met bombarderen nucleair complex | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYXRsOUxEU0p5MXAzS1hRU1FMNXZzY3dvWEJwVk9EN05RVENiQmxZS29wRjdtWG02akFYeWIxOVNVck10T3hiWDJxTGVxcmR6VGxHaXp3OVVXRFEtYzBBaHRUbnlNYmprWTItQmEwTHpMSVBpX1AxTV9DbGc4dkxoSlRVcTYtdGlmUmthR0lSU0toZ3BSb3VLejdFU2pxTV84cWZOMm1NdVE4NjdtbTBFR0tzamYxclM5T2UwOXJ1S01BNFUxNlA0?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump claimt Straat van Hormuz als “beschermheer” en heft zelf tol, van akkoord blijft niets meer over - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNb3hwbHMxNVhNdURhdWpsRkJId1FMcnVBUTRrZDdPcURHcDgxaDhZY3VxWTJDLTh6Q01hRnNSYnJxWjFUX0F4WjU1SEg5SWQ1am1yVVVPc0NvaWttQWhISFZVc0dvcVNfVWFLS3M0eWszX1Z5eHdXbXVxRjlBMG1mRGdZNEs5NzI5eW0zVGF6WHZWMWlHT3dDa0ZTX3V1RVpGYWVjaXVrX25CQmFvTGwxTDVrYjJfRFpCQ1pjM1dYYm9vX3ItWENyTnVTTnA1ZWlhVU9PWi1RaVNkSWFTRGM1YlZham0?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "« Nous faisons quelque chose de très spectaculaire » : Trump s’attaque à deux zones protégées - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSlc5Tk5QU0pwWk1yZmVvV2tBRnlBU1l6WjM2STVsc3NKWDJkN056cndnNFJnWHJZWWxaWmx6SDFYVU9RQWhGOGcyWEpjWms1RDdKZVM4NUs3S3I3MzJ6Mm9vZnJzaERKQXMzMFhSV2Q0d24xVEszdUtlSE5MNTRES1poZElpQjNVUVlEWG9oUXFDSy10NHd6V29xeFpBMU1zM2Z2b2dDSGNtaW5hNzBlazJVcVotc3JpQ21KaVdmMA?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "VS vallen Iran aan voor derde nacht op rij - Trump dreigt met bombarderen nucleair complex",
+        "url": "https://www.hln.be/buitenland/vs-vallen-iran-aan-voor-derde-nacht-op-rij-trump-dreigt-met-bombarderen-nucleair-complex~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Rechter schrapt omstreden deal van Trump met belastingdienst: gerechtelijke procedure misbruikt",
+        "url": "https://www.hln.be/buitenland/rechter-schrapt-omstreden-deal-van-trump-met-belastingdienst-gerechtelijke-procedure-misbruikt~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS vallen opnieuw Iran aan, Trump dreigt met bombardement op nucleair complex • Iran bestookt Bahrein",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-vallen-opnieuw-iran-aan-trump-dreigt-met-bombardement-op-nucleair-complex-iran-bestookt-bahrein~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Rechter schrapt omstreden deal tussen Trump en belastingdienst • Zus vervangt overleden Amerikaanse senator Lindsey Graham",
+        "url": "https://www.demorgen.be/snelnieuws/live-rechter-schrapt-omstreden-deal-tussen-trump-en-belastingdienst-zus-vervangt-overleden-amerikaanse-senator-lindsey-graham~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Olieprijzen zeker negen procent hoger na aankondiging Trump over blokkade Straat van Hormuz",
+        "url": "https://www.demorgen.be/snelnieuws/live-olieprijzen-zeker-negen-procent-hoger-na-aankondiging-trump-over-blokkade-straat-van-hormuz~b31dbb6e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump dreigt met aanval op nucleaire faciliteit in Iran: “Ze kunnen er niets tegen doen”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-dreigt-met-aanval-op-nucleaire-faciliteit-in-iran-ze-kunnen-er-niets-tegen-doen/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Rechter oordeelt dat deal van Trump met belastingdienst ongeldig is",
+        "url": "https://www.nieuwsblad.be/buitenland/rechter-oordeelt-dat-deal-van-trump-met-belastingdienst-ongeldig-is/158683535.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Rechter oordeelt dat deal van Trump met belastingdienst ongeldig is",
+        "url": "https://www.gva.be/buitenland/rechter-oordeelt-dat-deal-van-trump-met-belastingdienst-ongeldig-is/158683686.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Rechter oordeelt dat deal van Trump met belastingdienst ongeldig is",
+        "url": "https://www.hbvl.be/buitenland/rechter-oordeelt-dat-deal-van-trump-met-belastingdienst-ongeldig-is/158683779.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Rechter verklaart schikking tussen Trump en fiscus ongeldig - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNFJsTGRDRWk5Y19ObVIyXzhSdVVoc05XemlLcmM4UlN2amFYS1dqS0l0UkxPVHpZQzVKLXlTd2d4UjAwanZTT0hDUHJVVVlOY04yOExDLUMxQUFiVk94alhDb1NtYmxNZ3ZudkRIM0pISjBNMXNjWjV0bW1vRUdQaWNCWGtCSVZxYS1fSmh3WEVrUWloX09iM2wwWDducUR3aHdjQVhLT0hrZ3pLcEQ2ckc4NWg2QnZqeFQya3Zic0wtelotX2FPeg?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Donald Trump estime qu’un accord avec l’Iran est encore « possible - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQThoNVd0NERvY0c1US00dmZ3TkNBUk1VRERDQUxHYTR3dnhVbGNwczhmcGdXa1Z5SWc5Q1FncXpmS2pDa2l1OWRFaklRRGxSRnR1T0tEZmZSeDB4SjVKRDU0RXM0YXctRnRXbGp6bFVkNnYzeWRGdWgxdm41cEd5ZHQwcUViNmZmdXV2N0tkY1NveG95bEVXRlFscU1Wcmo1N25LVi1DMUpqNVVWWV9XU3JnUnpKX1kyNUZDbmN1Rl9iMFJrVkdUOUxSNEhTLXNtcHIwMEgzanE2TmhmZ3ZV?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 10,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 2,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 15,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 3,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 18,
+      "crime": 10,
+      "eu": 11,
+      "politics": 5,
+      "be_gov": 6,
+      "culture": 5,
+      "tech": 4,
+      "economy": 4,
+      "sports": 21,
+      "health": 4,
+      "climate": 13,
+      "migration": 0,
+      "education": 1,
+      "weather": 12
+    },
+    "wide_themes": {
+      "war": 21,
+      "crime": 14,
+      "eu": 16,
+      "politics": 6,
+      "be_gov": 11,
+      "culture": 5,
+      "tech": 6,
+      "economy": 5,
+      "sports": 29,
+      "health": 4,
+      "climate": 16,
+      "migration": 0,
+      "education": 2,
+      "weather": 19
+    }
   }
 ]
