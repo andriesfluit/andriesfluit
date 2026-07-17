@@ -58531,5 +58531,670 @@
       "education": 3,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-07-17",
+    "generated_at": "2026-07-17T08:01:57+02:00",
+    "last_checked_at": "2026-07-17T08:01:57+02:00",
+    "total_articles": 311,
+    "trump_articles": 18,
+    "percentage": 5.8,
+    "core_percentage": 5.8,
+    "core_percentage_name": 5.8,
+    "trump_articles_expanded": 18,
+    "core_percentage_expanded": 5.8,
+    "indirect_references": 0,
+    "wide_total_articles": 426,
+    "wide_trump_articles": 26,
+    "wide_percentage": 6.1,
+    "wide_trump_articles_expanded": 26,
+    "wide_percentage_expanded": 6.1,
+    "macro_percentage": 6.5,
+    "qualifying_outlets": 14,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 45,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 14.5,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 3.6,
+    "breadth": 0.71,
+    "deviation": 2.07,
+    "smoothed_pct": 3.01,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_politics": {
+        "fetched": 45,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_tech": {
+        "fetched": 65,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 61,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 26,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 2,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_business": {
+        "fetched": 58,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 12,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 76,
+        "kept": 54,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.85
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 29,
+        "kept": 29,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.34
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.82
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 38,
+        "kept": 38,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 7.89
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 35,
+        "today": 5,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 50,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump beschuldigt China van inmenging bij presidentsverkiezingen,\"strategie om keer op keer twijfel te zaaien\"",
+        "url": "https://vrtnws.be/p.M96x8Z3wE",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump beschuldigt China in tv-toespraak van stelen van data van Amerikaanse kiezers - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOckNPZjlGVy1rNDZva1BmWlFZSnFpZVhUelhiVllvbGZyWXZud1BuVXNHU1FfTXNNY0xSajFYV25VSkdQdjltLXBpSzJvYnpMRUxYWUlmTWM2VVJPcnBBNlp4ZXZxbVFscUgzelJKU2wtUXFSalQ3WlROU2J4UWJFbVBSYjVBanBham51VHU2enhkRklVSDlrZ2dBMlRhbEZQS0xLamtnSkxsVEduU3pmNjZJUFRLTkQ4U09jZEFBOEpJSzZodm55YXRrTHRna0k?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump beschuldigt China van inmenging in Amerikaanse verkiezingen: “Ze hebben verkiezingsdata gestolen”",
+        "url": "https://www.hln.be/buitenland/trump-beschuldigt-china-van-inmenging-in-amerikaanse-verkiezingen-ze-hebben-verkiezingsdata-gestolen~a31b19b9/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump laat voortaan betalen voor snellere toegang tot Truth Social-berichten: “Markten bewegen mee”",
+        "url": "https://www.hln.be/buitenland/trump-laat-voortaan-betalen-voor-snellere-toegang-tot-truth-social-berichten-markten-bewegen-mee~a051ec8f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump beschuldigt China van inmenging in VS-verkiezingen - Amerikaanse nieuwszenders “boycotten” zijn toespraak",
+        "url": "https://www.hln.be/buitenland/trump-beschuldigt-china-van-inmenging-in-vs-verkiezingen-amerikaanse-nieuwszenders-boycotten-zijn-toespraak~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump beschuldigt China van inmenging bij Amerikaanse presidentsverkiezingen",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-beschuldigt-china-van-inmenging-bij-amerikaanse-presidentsverkiezingen~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "R. Kelly vraagt Amerikaanse president Donald Trump om strafvermindering",
+        "url": "https://www.demorgen.be/nieuws/r-kelly-vraagt-amerikaanse-president-donald-trump-om-strafvermindering~b4492b70/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Directeur Amerikaanse voetbalbond beëindigt persconferentie na vraag over inmenging Trump in Balogun-gate: “De president kan doen wat hij wil”",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/directeur-amerikaanse-voetbalbond-beeindigt-persconferentie-na-vraag-over-inmenging-trump-in-balogun-gate-de-president-kan-doen-wat-hij-wil/158846716.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "FIFA maakt scheidsrechters voor finale bekend, directeur voetbalbond beëindigt persconferentie na vraag over inmenging Trump in Balogun-gate",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/fifa-maakt-scheidsrechters-voor-finale-bekend-directeur-voetbalbond-beeindigt-persconferentie-na-vraag-over-inmenging-trump-in-balogun-gate/151453542.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump beschuldigt in nationale toespraak China van inmenging in Amerikaanse presidentsverkiezingen",
+        "url": "https://www.nieuwsblad.be/nieuws/donald-trump-beschuldigt-in-nationale-toespraak-china-van-inmenging-in-amerikaanse-presidentsverkiezingen/158845703.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Directeur Amerikaanse voetbalbond beëindigt persconferentie na vraag over inmenging Trump in Balogun-gate: “De president kan doen wat hij wil”",
+        "url": "https://www.hbvl.be/sport/voetbal/directeur-amerikaanse-voetbalbond-beeindigt-persconferentie-na-vraag-over-inmenging-trump-in-balogun-gate-de-president-kan-doen-wat-hij-wil/158846876.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "FIFA maakt scheidsrechters voor finale bekend, directeur voetbalbond beëindigt persconferentie na vraag over inmenging Trump in Balogun-gate",
+        "url": "https://www.hbvl.be/sport/voetbal/fifa-maakt-scheidsrechters-voor-finale-bekend-directeur-voetbalbond-beeindigt-persconferentie-na-vraag-over-inmenging-trump-in-balogun-gate/151454491.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump beschuldigt in nationale toespraak China van inmenging in Amerikaanse presidentsverkiezingen",
+        "url": "https://www.hbvl.be/nieuws/donald-trump-beschuldigt-in-nationale-toespraak-china-van-inmenging-in-amerikaanse-presidentsverkiezingen/158845895.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Dans un discours à la nation, Donald Trump martèle ses accusations de fraude et accuse la Chine à trois mois des élections de mi-mandat",
+        "url": "https://www.rtbf.be/article/dans-un-discours-a-la-nation-donald-trump-martele-ses-accusations-de-fraude-et-accuse-la-chine-a-trois-mois-des-elections-de-mi-mandat-11759094",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Truth Social va vendre un accès prioritaire aux publications de Donald Trump",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/07/17/truth-social-va-vendre-un-acces-prioritaire-aux-publications-de-donald-trump-34KWKYFNFZEPHOXQAYJV7EF2MQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Depuis la Maison-Blanche, Donald Trump durcit ses attaques contre les élections : \"La seule raison de voter contre ce texte, c’est pour tricher\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/17/depuis-la-maison-blanche-donald-trump-durcit-ses-attaques-contre-les-elections-la-seule-raison-de-voter-contre-ce-texte-cest-pour-tricher-GH2L3QHVPZHLDN4YKVAWWA4YII/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump conteste une nouvelle fois sa défaite de 2020 face à Biden et accuse la Chine du “plus gros piratage électoral de l’Histoire”",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/17/trump-conteste-une-nouvelle-fois-sa-defaite-de-2020-face-a-biden-et-accuse-la-chine-du-plus-gros-piratage-electoral-de-lhistoire-I42A47TZYZBW7NS5BBONA6UDK4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Le plus grand piratage électoral de l’Histoire”: Trump accuse la Chine",
+        "url": "https://www.7sur7.be/monde/le-plus-grand-piratage-electoral-de-lhistoire-trump-accuse-la-chine~ad977336/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Donald Trump beschuldigt in nationale toespraak China van inmenging in Amerikaanse presidentsverkiezingen - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZDhhdDdqU2ItczdvZlR2VUxYeWU1dE0xVEJIMnNYTkRJVEI5akJhSGtkTDc2NzEwTEEzdmpsOElwRVZObU5JTjVJUkVHS0JmbmlqTkJzY2hnME4zOUVIS0k5NnlWbVkxNEowbU1jaTN3UzVoLXViRTJhTF93dDhCRktOVm9hdUF0cWphV3IzU2lvNGpISTFmTUo3U3ZnUUNKdzlob1VJT0t0dDJXMmFvZnl4U1dXaTR3OXktcmUtOE5QSURpMWNSTXJqOWVyd0NSYm5ING9vdklPQ3FPaFhpWlN2QUxUeTB2?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Op grote momenten kan hij niet ontbreken: Donald Trump woont finale van WK voetbal bij - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNE1vR3ZJa01JUWc1MkYzY09sVFhlcmF0V3FTMkJhbXJwTktUbTdOd09pQXBnNUVZWmR0cThZVjVOcHd3Z1E5Y3pQRWplWklQRTNnck54OFlNMzVDU3F5aFBfRmVqOWppMmx6ZHNjUTJYanFQN2MzdHVSRWdENTNzUHdrRHJHUlhfZXZhaVh3OWpvVzA0c1hoUGs5bXdVRjZRNE5hZFZ4R2puZ18tNmFISEI5dHNBaEkzRW11T1NUV0k2Z1BjM1BVRHpuTU9NYWZXV05lODh6TQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Depuis la Maison-Blanche, Donald Trump durcit ses attaques contre les élections : \"La seule raison de voter contre ce texte, c'est pour tricher\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPY0poSXBkaTRuaG1xcEk5WWt1N1QtVkJxb1BwaXZyOEJMdUtqdmgxY2pNQmNMQUZ5eE50aXJTQkExdHotOFdJaE16V1g5MHdmNHdnN3FFLVZIMjdVMVdOOENHdDNEc3BZSVNpTkswaFc5YVJYUnNka1JqN200Mm1nSktwNkV5QkgxZV9RYVBacXVPUFk5eTZsVnl2RjQ1Wl9NZWNmV0h0T05GWDZkaG1ZZ1A4MURZSUJ6ZnFSbVEzZkh3a015QVBGSGhvV3RRYzRONDNFOEhuQ1kzZ3dUWllIc1RIODRlUkJxM0FxYWQ5cFNzTWQ2cEh6TC1oNHZpWFpjUDN6VmJONFJSSC16T0liSnhMcUk5R1E4MVlLSDBwZEhBTGJ4ZGhlLWtEWFNSVEwxNTJMR2hKOGhOTlh1WnJZN0QxaGQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump laat voortaan betalen voor snellere toegang tot Truth Social-berichten: “Markten bewegen mee” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQemxEcXk4LXNIQ3psU3JFbzRQUnpTR1Q1ckFTUTNsWmdjSU1KZi1qY2FPQWU2aU5NNmRiTVhNSDc2RW42b2xNQldUSGFIQTdzdVFheTlpRGNRS1NmV3hBd3Eyc1Bvd3ZzbWFUSUcwNkVoX3hRVDkxdWhEMWV1bzRtc0tkMFdlMEhhT1dFNW00NDNsbkUxeXo1T05nQi1NM21UM0I0QXJadm5MeHlicE5yZFBNSTNIcXRMQlVVV01kRWUyNS1LMkRZOW9SeFlzdTlSalE?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Dans un discours à la nation, Donald Trump martèle ses accusations de fraude et accuse la Chine à trois mois des élections de mi-mandat - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQjI2RE9oX2F3TlFwTHNhTDdBd2lod3VxZ2Nxc1ZNZkJkRXYtX0N1YUYwX2w1MzZLMzNqTTZLMXR0b2VSYWc0eTVzUDJCcE4zaUpZbHcyZXZ4YWZZa2ZRNXBtOWxhNGhIdDVVYW5lNy1QeEJhcmNfRHY3RGtnckdDYWp2U0c1NHp5b3hQWHROYXBxcDF4YlUtRHZZWE9tcm9Hd1NVamVTZUtlZmxWTWdmWjZPa2YtRGx1VUdTRGwzRG1EREpmVlY4NTI5QWlKVEhabl9zUVl5TVEwOXZHQlpwUHhya0xobHFHTWRPMDBIQzYyTlYycmNTT3RHaGxXb2Zx?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump beschuldigt China van inmenging bij presidentsverkiezingen,\"strategie om keer op keer twijfel te zaaien\"",
+        "url": "https://vrtnws.be/p.M96x8Z3wE",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump beschuldigt China in tv-toespraak van stelen van data van Amerikaanse kiezers - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOckNPZjlGVy1rNDZva1BmWlFZSnFpZVhUelhiVllvbGZyWXZud1BuVXNHU1FfTXNNY0xSajFYV25VSkdQdjltLXBpSzJvYnpMRUxYWUlmTWM2VVJPcnBBNlp4ZXZxbVFscUgzelJKU2wtUXFSalQ3WlROU2J4UWJFbVBSYjVBanBham51VHU2enhkRklVSDlrZ2dBMlRhbEZQS0xLamtnSkxsVEduU3pmNjZJUFRLTkQ4U09jZEFBOEpJSzZodm55YXRrTHRna0k?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump beschuldigt China van inmenging in Amerikaanse verkiezingen: “Ze hebben verkiezingsdata gestolen”",
+        "url": "https://www.hln.be/buitenland/trump-beschuldigt-china-van-inmenging-in-amerikaanse-verkiezingen-ze-hebben-verkiezingsdata-gestolen~a31b19b9/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump laat voortaan betalen voor snellere toegang tot Truth Social-berichten: “Markten bewegen mee”",
+        "url": "https://www.hln.be/buitenland/trump-laat-voortaan-betalen-voor-snellere-toegang-tot-truth-social-berichten-markten-bewegen-mee~a051ec8f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump beschuldigt China van inmenging in VS-verkiezingen - Amerikaanse nieuwszenders “boycotten” zijn toespraak",
+        "url": "https://www.hln.be/buitenland/trump-beschuldigt-china-van-inmenging-in-vs-verkiezingen-amerikaanse-nieuwszenders-boycotten-zijn-toespraak~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump beschuldigt China van inmenging bij Amerikaanse presidentsverkiezingen",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-beschuldigt-china-van-inmenging-bij-amerikaanse-presidentsverkiezingen~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "R. Kelly vraagt Amerikaanse president Donald Trump om strafvermindering",
+        "url": "https://www.demorgen.be/nieuws/r-kelly-vraagt-amerikaanse-president-donald-trump-om-strafvermindering~b4492b70/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Directeur Amerikaanse voetbalbond beëindigt persconferentie na vraag over inmenging Trump in Balogun-gate: “De president kan doen wat hij wil”",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/directeur-amerikaanse-voetbalbond-beeindigt-persconferentie-na-vraag-over-inmenging-trump-in-balogun-gate-de-president-kan-doen-wat-hij-wil/158846716.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "FIFA maakt scheidsrechters voor finale bekend, directeur voetbalbond beëindigt persconferentie na vraag over inmenging Trump in Balogun-gate",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/fifa-maakt-scheidsrechters-voor-finale-bekend-directeur-voetbalbond-beeindigt-persconferentie-na-vraag-over-inmenging-trump-in-balogun-gate/151453542.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump beschuldigt in nationale toespraak China van inmenging in Amerikaanse presidentsverkiezingen",
+        "url": "https://www.nieuwsblad.be/nieuws/donald-trump-beschuldigt-in-nationale-toespraak-china-van-inmenging-in-amerikaanse-presidentsverkiezingen/158845703.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Directeur Amerikaanse voetbalbond beëindigt persconferentie na vraag over inmenging Trump in Balogun-gate: “De president kan doen wat hij wil”",
+        "url": "https://www.gva.be/sport/voetbal/directeur-amerikaanse-voetbalbond-beeindigt-persconferentie-na-vraag-over-inmenging-trump-in-balogun-gate-de-president-kan-doen-wat-hij-wil/158846879.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "FIFA maakt scheidsrechters voor finale bekend, directeur voetbalbond beëindigt persconferentie na vraag over inmenging Trump in Balogun-gate",
+        "url": "https://www.gva.be/sport/voetbal/fifa-maakt-scheidsrechters-voor-finale-bekend-directeur-voetbalbond-beeindigt-persconferentie-na-vraag-over-inmenging-trump-in-balogun-gate/151454494.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump beschuldigt in nationale toespraak China van inmenging in Amerikaanse presidentsverkiezingen",
+        "url": "https://www.gva.be/buitenland/donald-trump-beschuldigt-in-nationale-toespraak-china-van-inmenging-in-amerikaanse-presidentsverkiezingen/158845832.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Directeur Amerikaanse voetbalbond beëindigt persconferentie na vraag over inmenging Trump in Balogun-gate: “De president kan doen wat hij wil”",
+        "url": "https://www.hbvl.be/sport/voetbal/directeur-amerikaanse-voetbalbond-beeindigt-persconferentie-na-vraag-over-inmenging-trump-in-balogun-gate-de-president-kan-doen-wat-hij-wil/158846876.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "FIFA maakt scheidsrechters voor finale bekend, directeur voetbalbond beëindigt persconferentie na vraag over inmenging Trump in Balogun-gate",
+        "url": "https://www.hbvl.be/sport/voetbal/fifa-maakt-scheidsrechters-voor-finale-bekend-directeur-voetbalbond-beeindigt-persconferentie-na-vraag-over-inmenging-trump-in-balogun-gate/151454491.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump beschuldigt in nationale toespraak China van inmenging in Amerikaanse presidentsverkiezingen",
+        "url": "https://www.hbvl.be/nieuws/donald-trump-beschuldigt-in-nationale-toespraak-china-van-inmenging-in-amerikaanse-presidentsverkiezingen/158845895.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Dans un discours à la nation, Donald Trump martèle ses accusations de fraude et accuse la Chine à trois mois des élections de mi-mandat",
+        "url": "https://www.rtbf.be/article/dans-un-discours-a-la-nation-donald-trump-martele-ses-accusations-de-fraude-et-accuse-la-chine-a-trois-mois-des-elections-de-mi-mandat-11759094",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Truth Social va vendre un accès prioritaire aux publications de Donald Trump",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/07/17/truth-social-va-vendre-un-acces-prioritaire-aux-publications-de-donald-trump-34KWKYFNFZEPHOXQAYJV7EF2MQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Depuis la Maison-Blanche, Donald Trump durcit ses attaques contre les élections : \"La seule raison de voter contre ce texte, c’est pour tricher\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/17/depuis-la-maison-blanche-donald-trump-durcit-ses-attaques-contre-les-elections-la-seule-raison-de-voter-contre-ce-texte-cest-pour-tricher-GH2L3QHVPZHLDN4YKVAWWA4YII/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump conteste une nouvelle fois sa défaite de 2020 face à Biden et accuse la Chine du “plus gros piratage électoral de l’Histoire”",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/17/trump-conteste-une-nouvelle-fois-sa-defaite-de-2020-face-a-biden-et-accuse-la-chine-du-plus-gros-piratage-electoral-de-lhistoire-I42A47TZYZBW7NS5BBONA6UDK4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Le plus grand piratage électoral de l’Histoire”: Trump accuse la Chine",
+        "url": "https://www.7sur7.be/monde/le-plus-grand-piratage-electoral-de-lhistoire-trump-accuse-la-chine~ad977336/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 18,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 26,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 2,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 19,
+      "crime": 6,
+      "eu": 10,
+      "politics": 23,
+      "be_gov": 13,
+      "culture": 17,
+      "tech": 4,
+      "economy": 8,
+      "sports": 17,
+      "health": 2,
+      "climate": 2,
+      "migration": 2,
+      "education": 2,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 25,
+      "crime": 9,
+      "eu": 17,
+      "politics": 34,
+      "be_gov": 20,
+      "culture": 19,
+      "tech": 9,
+      "economy": 13,
+      "sports": 23,
+      "health": 2,
+      "climate": 3,
+      "migration": 3,
+      "education": 4,
+      "weather": 10
+    }
   }
 ]
