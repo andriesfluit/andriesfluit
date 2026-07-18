@@ -59199,141 +59199,237 @@
   },
   {
     "date": "2026-07-18",
-    "generated_at": "2026-07-18T07:50:53+02:00",
-    "last_checked_at": "2026-07-18T07:50:53+02:00",
-    "total_articles": 269,
-    "trump_articles": 4,
-    "percentage": 1.5,
-    "core_percentage": 1.5,
-    "core_percentage_name": 1.5,
-    "trump_articles_expanded": 4,
-    "core_percentage_expanded": 1.5,
+    "generated_at": "2026-07-18T13:32:47+02:00",
+    "last_checked_at": "2026-07-18T13:32:47+02:00",
+    "total_articles": 525,
+    "trump_articles": 14,
+    "percentage": 2.7,
+    "core_percentage": 2.7,
+    "core_percentage_name": 2.7,
+    "trump_articles_expanded": 14,
+    "core_percentage_expanded": 2.7,
     "indirect_references": 0,
-    "wide_total_articles": 354,
-    "wide_trump_articles": 6,
-    "wide_percentage": 1.7,
-    "wide_trump_articles_expanded": 6,
-    "wide_percentage_expanded": 1.7,
-    "macro_percentage": 1.4,
-    "qualifying_outlets": 10,
+    "wide_total_articles": 716,
+    "wide_trump_articles": 21,
+    "wide_percentage": 2.9,
+    "wide_trump_articles_expanded": 21,
+    "wide_percentage_expanded": 2.9,
+    "macro_percentage": 3.5,
+    "qualifying_outlets": 22,
     "core_outlets_total": 19,
-    "core_outlets_active": 13,
-    "active_core_fraction": 0.684,
-    "cross_outlet_dup_headlines": 26,
-    "cross_outlet_dup_groups": 13,
-    "cross_outlet_dup_rate": 9.7,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "One of the day's top two figures.",
-    "rank": 2,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 7.6,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
     "n_people": 17,
-    "dominance": 0.57,
-    "breadth": 0.15,
-    "deviation": 0.45,
-    "smoothed_pct": 2.89,
+    "dominance": 1.17,
+    "breadth": 0.5,
+    "deviation": 0.81,
+    "smoothed_pct": 3.06,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 9,
+    "theme_rank": 6,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 9,
-        "kept": 9,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 3,
-        "kept": 3,
+        "today": 20,
+        "kept": 20,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 33.33
+        "share": 5.0
       },
       "google_nl_politics": {
-        "fetched": 39,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 44,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
       },
       "google_nl_world": {
-        "fetched": 64,
-        "today": 9,
-        "kept": 7,
+        "fetched": 70,
+        "today": 16,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 5,
-        "kept": 4,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 25.0
+        "today": 12,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 61,
-        "today": 3,
-        "kept": 1,
+        "fetched": 68,
+        "today": 9,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
+        "today": 25,
+        "kept": 21,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.52
+      },
+      "google_fr_politics": {
+        "fetched": 20,
         "today": 3,
         "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_fr_politics": {
-        "fetched": 20,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
       "google_fr_world": {
-        "fetched": 62,
-        "today": 1,
-        "kept": 1,
+        "fetched": 56,
+        "today": 9,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_business": {
-        "fetched": 59,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "fetched": 51,
+        "today": 8,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
       },
       "vrt": {
         "fetched": 50,
-        "today": 2,
-        "kept": 2,
+        "today": 21,
+        "kept": 21,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 68,
-        "kept": 51,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 3.92
+        "today": 62,
+        "kept": 40,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.5
       },
       "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 22,
+        "kept": 22,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 13.64
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 37,
+        "kept": 36,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 44,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 67,
+        "kept": 67,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.99
+      },
+      "septsursept": {
         "fetched": 30,
         "today": 18,
         "kept": 18,
@@ -59341,162 +59437,66 @@
         "trump_expanded": 0,
         "share": 0.0
       },
-      "demorgen": {
-        "fetched": 30,
-        "today": 19,
-        "kept": 19,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 10.53
-      },
-      "nieuwsblad": {
-        "fetched": 50,
-        "today": 48,
-        "kept": 48,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "gva": {
-        "fetched": 50,
-        "today": 49,
-        "kept": 49,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "hbvl": {
-        "fetched": 50,
-        "today": 31,
-        "kept": 31,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "knack": {
-        "fetched": 100,
-        "today": 11,
-        "kept": 11,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "sporza": {
-        "fetched": 20,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "bruzz": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 8,
-        "kept": 8,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 29,
-        "kept": 29,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 12,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "septsursept": {
-        "fetched": 30,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
       "bx1": {
         "fetched": 10,
-        "today": 0,
-        "kept": 0,
+        "today": 5,
+        "kept": 5,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 5,
+        "kept": 5,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 15,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 46,
+        "kept": 38,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.26
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 14,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 6,
-        "kept": 6,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 97,
-        "today": 4,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 18,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
       },
       "trends_g": {
-        "fetched": 41,
-        "today": 4,
-        "kept": 1,
+        "fetched": 34,
+        "today": 8,
+        "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 50,
-        "today": 1,
-        "kept": 1,
+        "fetched": 46,
+        "today": 6,
+        "kept": 6,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -59531,9 +59531,21 @@
         "name_only": true
       },
       {
-        "title": "“Het waren de Chinezen”: Trump klampt zich vast aan zijn verkiezingscomplot - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQWJ0cUdNSmpXSmRUZzVJbXk1OFdyeTZkVWRUNlhzV00xdnVubk5xb0hzM2JrV1htbHVUY3pqZFk3TkZ4bXhIeGJqdzRoazlBc29FaDgtc3ZrZnhqSVBDRGc4Rl9nNTZoOVNESkloZG5aRlM3RzNMYTlxNEg0c1RUZzdtMl9Rc21LckNNdklUZ1NLaWRrdzlvRHRFaVQ5R0g2N1FzTnhzNmxDcEtRUTUzUldidWhHYi1RS3R5YjV5UWQ?oc=5",
-        "source": "standaard",
+        "title": "“Ik kan het niet geloven”: voormalig Spaans wereldkampioen en speler van Lierse SK smeekt Donald Trump om hulp",
+        "url": "https://www.hln.be/wk-voetbal/ik-kan-het-niet-geloven-voormalig-spaans-wereldkampioen-en-speler-van-lierse-sk-smeekt-donald-trump-om-hulp~ae4ab2c1/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "“Alwéér een geweldige beslissing”: Donald Trump prijst Gianni Infantino nog maar eens de hemel in na diens rol in zaak-Balogun",
+        "url": "https://www.hln.be/wk-voetbal/alweer-een-geweldige-beslissing-donald-trump-prijst-gianni-infantino-nog-maar-eens-de-hemel-in-na-diens-rol-in-zaak-balogun~a382c1f0/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump dreigt met tariefverhoging voor Canada wegens rook van bosbranden",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-beschuldigt-china-van-inmenging-bij-amerikaanse-presidentsverkiezingen~b13cc951/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -59547,19 +59559,85 @@
         "url": "https://www.demorgen.be/nieuws/trump-hoopt-dat-zijn-goede-vriend-milei-wint-historicus-vincent-scheltiens-over-de-geopolitieke-kraker-tussen-spanje-en-argentinie~b2e5c435/",
         "source": "demorgen",
         "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt met tariefverhoging voor Canada wegens rook van bosbranden",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-dreigt-met-tariefverhoging-voor-canada-wegens-rook-van-bosbranden/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace le Canada, les feux de forêts empestent l’air avant la finale du Mondial",
+        "url": "https://www.rtbf.be/article/trump-menace-le-canada-les-feux-de-forets-empestent-l-air-avant-la-finale-du-mondial-11759641",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "”Cela m’a contraint d’appeler Gianni” : quand Donald Trump se vante encore de la décision de la FIFA face à Infantino dans l’affaire Balogun",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/18/cela-ma-contraint-dappeler-gianni-quand-donald-trump-se-vante-encore-de-la-decision-de-la-fifa-face-a-infantino-dans-laffaire-balogun-C4PQHR3OFZCMBO3OMQIMITVCKI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un ex du Lierse et ancien champion du monde interpelle Donald Trump à cause d’un problème de visa pour la finale : “Je n’arrive pas à y croire”",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/07/18/un-ex-du-lierse-et-ancien-champion-du-monde-interpelle-donald-trump-a-cause-dun-probleme-de-visa-pour-la-finale-je-narrive-pas-a-y-croire-QLWMSWNL7JF2HIEJLUPXOZZLF4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur les désidératas de Trump pour la finale de la Coupe du monde - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTmlfNndXVWN1d0xrMW1sOUpKbG1WZGFKRUt5UF9HX2U4Qno2QlRvN3pySm5OWk90YUhnRFZkMTBSbUZaRUJNMjlRa1h1eEJSUjVoaFlSejg1dF9pWGZ0b3ota0dSUDFDcTVxb1pvQklWb1MtQkgzcFFhX2V4UF92LWlOS2wwZ2d3Ul8yeVBlbU1vNFMtQVJfZXg1S3o2dVNNWVJrclA3Ql9HUG9EODBZQUVOekF1QXVWZmxrRDBpLVY?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Les feux de forêts empestent l’air avant la finale du Mondial : Trump menace le Canada - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR05zeWJqVExEaS10X2VSaHp6T29BdktVUThvVlI4eEN5eHdhY1FKQi1kVFE0WHNZbFBycktRQ1FUak9OVjBIWEhjYkVfXzhUTjBkZUpXV1B5bTMtcFAycjNTemVjanNiRHBIdUdyVVNSeml0YmE5a0lZOXplLXFnMjdsaEJwcnR5dmw5Y21xNkFINkFJMXQwMVo1RDFMT3BDNmJXTWxtY202aktuMGxFR0lLVXhDdDVKX09oYXNlNlVldw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« J’ai besoin d’aide » : interdit d’entrée aux États-Unis, un champion du monde espagnol interpelle Donald Trump pour assister à la finale du Mondial 2026 - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHhvNktJdm15dm9UMFdpcVl5dVloV3YxS0x5SHAxQ0o1RzYteTA2SUtYZGhhemxLZmxpdGU2UExQWF93R1dIRHY4WTBEdnRjYmtOazdmaXRhWXBJVzlKajhRZ29GWUYwVWs2Tk5Ub3FQbjBQSjNnTnJONWdhXzRvYXNyUXF4RVpoRHQtMkkzTEUwaVpRQkdtZUJNUUkyVVRVZ2Y1Ymg4cXY5eEltR1JkM3FtenhUcDVlSU1qZnVqd1I5WGNONmd4YUVB?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Finale du Mondial menacée par les feux au Canada : Trump menace de taxer le pays - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYXdHVlFOZjVScURubS1MaFl4ZDcwcVlBOHJWTThCNEhmeUpnV0t1RDY5cFdJeGIzU0pnbHBkRVhXdGNfRFN1VlAzcUxmMU9FN3d4aUlKQmFZRXVQQ2drbGNGMFJmS21SZnR4TWgtb2J5dDQzSEh1dHZVMUx5TVhsdzFQQTBTSzRkNUJTNURIY0lRWENrWkxQdzZGd0Q3Z2tMVk5fTF9ZV0FQWmNFUHFKaWlDVi1mRjEwdzlIRnR4eU1MUnhTSFNpVVd1ckl3Zw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Le Kroll du jour sur les désidératas de Trump pour la finale de la Coupe du monde - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTmlfNndXVWN1d0xrMW1sOUpKbG1WZGFKRUt5UF9HX2U4Qno2QlRvN3pySm5OWk90YUhnRFZkMTBSbUZaRUJNMjlRa1h1eEJSUjVoaFlSejg1dF9pWGZ0b3ota0dSUDFDcTVxb1pvQklWb1MtQkgzcFFhX2V4UF92LWlOS2wwZ2d3Ul8yeVBlbU1vNFMtQVJfZXg1S3o2dVNNWVJrclA3Ql9HUG9EODBZQUVOekF1QXVWZmxrRDBpLVY?oc=5",
+        "title": "Trump menace le Canada, les feux de forêts empestent l’air avant la finale du Mondial - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaVRBSVpsVWhNSDdRQUtERzFiZXlIbnFJUzVjbXQ4Ym9fYzhEVkRlVUtqV1VtZHFfWlM1eWlUU1VZcVB3bmVFMjhHUlZSaEt4aTNOZjhmSms3cmNuYm5HNjZNemxGWm0xa25VZG5hYm1DVVlBc25TM3RscXBxNlk5M2VRM19qYWE1TUIzaW5xTjBpcG1WYUF2dHdfdGJkX0oyWTR1RkZIR3pSTmlDM2NrNGdEOGNFTGxGR0MwTGRR?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Exclusieve posts van Trump op Truth Social worden betalend: \"Flagrante poging om te verdienen op het presidentschap\" - Nieuwsblad",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTGVOZUJBa0tMcm1qZTE3c3FqZHZHcTFRanF1b1B1aTY1R2UwNWZ4eHUxWDFUVmY1ZmZtbWtnRmJ2SklMVXU5ejltYkJDWnFOdVVRdldGRlZMZWNOdFBDVld0alRDLXNJeWdQVjNjYThGeXBSTEE0S0NHekFoYTJQbjByNnJ4bnZxb0d5NTVhNkNnLTh3LU5XRFFhT29rcG1OOUxJVnRVUHpsQlRrZ1NVYlRjNHBIMHVROFdmblZPYzd6V1BSeU91bnlqSWFzY20tRWE0Y2wxZHVySlUwYnNNNm1VWmw5RUxGZ0RXQzhTdk9wbENBU1RxTw?oc=5",
-        "source": "google_nl_business",
+        "title": "Trump dag 544: Trump wil importheffing Canada verhogen wegens rook bosbranden, reikt samen met Infantino WK-cup uit, trekt deel rechtszaak tegen BBC in, Binnenlandse Veiligheid wil verplichte verkiezingswijzigingen invoeren, verblijfsduur studenten en - Reporters Online",
+        "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOclJQVklyUUREdVZaR2F6VDNDSTlWcFRqTUR1LWg1MzRMTUpUNG5NWDFSaUl2V1FZbWVoaGphdWNCVXRqVVFza2phUjZoTGQ5dWRUZE5JbWlaSzh0T0R6U2N6YzNmVi0zai1iRnM2VDdCaXV1M2VSTHE2ZmlrQXlwejF0TVJZWFZJWGQzbWhmTXFKSnc2RDB2ejZCWTdXMzBnRUxtQ21Nei01ejd5NUFOb0k1TkF4a0V6eEVQRU1jV3JtOEF1cFdpRzJwTm14dUQ5TkhEdEVzQ0FZeXJnaVV2OVhYNUpBYkJOVU5jNUx2aHhjY0hBQkp3aXYyUU1QMTlPdm9KbnNUaGRhemNPNlc0VlVFLWFyYzV5b2ZleDZWUGUtbV9wZU5UU1NrR1hfSzBMUHlGZkVDX3NJdUduMVFCUmNrazhOOEE?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "“Ik kan het niet geloven”: voormalig Spaans wereldkampioen en speler van Lierse SK smeekt Donald Trump om hulp - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcGxxNzNxeGtBNEVmMzlsM3hMYVpBRlU0VjJXUlFTWGhibWxfMXY5aWFFUEhvMGJNbHJzWnhoSmFmSkFPZ0E5R3p6czVQRXhiV1B6MVVRN1R3MHZEYzFiQWFOaUN3Tkc1X3pLcVQzNmdrNEZGRUNwMHR4YmVVVk1KaHFac2VCejlMZnRmTmFNZ29iNGUxZWY3NGpTT2tlRllLTi1oZmhHUzNxY3pHdjl4LThseWRIRDMzMjZRVVlGeXJGbVZ0b2dGWUpyV05pcWJtZVR4NUhZOEFQekFxN2R6NA?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "“Alwéér een geweldige beslissing”: Donald Trump prijst Gianni Infantino nog maar eens de hemel in na diens rol in zaak-Balogun - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdmtLazEyUjRlT2JoaTJLdWNoRXJ6eGctcXI5SFE0ZkNzS29WTGRpNFFjeXN1cUg2NkJ0YXpMaVE3dDR4RmJ2amdFcDVSNzlncHU1WHFyZTNtVE02WlBqdVFlWlNNd2I4Uy05dS1ZRVRscWdYWG1JQzhiWkNoWElha0VhcFFaNjFVb0wyZ19jcXNYUGtoeHJGSDVzeXFOM2cyajE2RjVzeFlsU3hUZWh2bV9MdW1NdGVpQ1A5RGhPWU90SnBOdDJUbmNkT3JVQnBDV2puUGM1TkJFcHk5Q3ZUeHVzeFBEenZwRmxrRG96aUNIa3ptd3c?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "Pour lire les posts de Trump sur Truth Social avant tout le monde, il faudra payer - Le HuffPost",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPT1FILWh2SDZBemNHMzdiVURaSDRGaThuNG5NNDRmMEloLUhzdkUwaThKRTN5SHZEb0FIVnFqY25zWlNyRnRISzE1aHRNNTFsUzJTVVhsNE9JOUFxOHNQd1A3T3l3RjFmemJJOW8yVUhRam5QRmdEeGlRZVIwMGRyLVUwTUIteXI3UUJyVFNFWVpjQXZZWi1jTGJwQW9iT2JiNEhqOFVNMnA0VHg2WEtBcmx1bE9jaDNQVTROdXItYXZLZy14OXpzalNNVmFrN2ZFZTYxYjhTZ0dLZWcxUEE?oc=5",
+        "source": "google_fr_business",
         "name_only": true
       },
       {
@@ -59569,9 +59647,21 @@
         "name_only": true
       },
       {
-        "title": "“Het waren de Chinezen”: Trump klampt zich vast aan zijn verkiezingscomplot - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQWJ0cUdNSmpXSmRUZzVJbXk1OFdyeTZkVWRUNlhzV00xdnVubk5xb0hzM2JrV1htbHVUY3pqZFk3TkZ4bXhIeGJqdzRoazlBc29FaDgtc3ZrZnhqSVBDRGc4Rl9nNTZoOVNESkloZG5aRlM3RzNMYTlxNEg0c1RUZzdtMl9Rc21LckNNdklUZ1NLaWRrdzlvRHRFaVQ5R0g2N1FzTnhzNmxDcEtRUTUzUldidWhHYi1RS3R5YjV5UWQ?oc=5",
-        "source": "standaard",
+        "title": "“Ik kan het niet geloven”: voormalig Spaans wereldkampioen en speler van Lierse SK smeekt Donald Trump om hulp",
+        "url": "https://www.hln.be/wk-voetbal/ik-kan-het-niet-geloven-voormalig-spaans-wereldkampioen-en-speler-van-lierse-sk-smeekt-donald-trump-om-hulp~ae4ab2c1/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "“Alwéér een geweldige beslissing”: Donald Trump prijst Gianni Infantino nog maar eens de hemel in na diens rol in zaak-Balogun",
+        "url": "https://www.hln.be/wk-voetbal/alweer-een-geweldige-beslissing-donald-trump-prijst-gianni-infantino-nog-maar-eens-de-hemel-in-na-diens-rol-in-zaak-balogun~a382c1f0/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump dreigt met tariefverhoging voor Canada wegens rook van bosbranden",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-beschuldigt-china-van-inmenging-bij-amerikaanse-presidentsverkiezingen~b13cc951/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -59585,77 +59675,137 @@
         "url": "https://www.demorgen.be/nieuws/trump-hoopt-dat-zijn-goede-vriend-milei-wint-historicus-vincent-scheltiens-over-de-geopolitieke-kraker-tussen-spanje-en-argentinie~b2e5c435/",
         "source": "demorgen",
         "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt met tariefverhoging voor Canada wegens rook van bosbranden",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-dreigt-met-tariefverhoging-voor-canada-wegens-rook-van-bosbranden/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt met tariefverhoging voor Canada wegens rook van bosbranden",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-dreigt-met-tariefverhoging-voor-canada-wegens-rook-van-bosbranden/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE WK - \"Dit WK is jouw succes\": Infantino en Trump steken elkaar de loftrompet op vlak voor finale",
+        "url": "https://sporza.be/nl/2026/04/29/live-wk-dit-wk-is-jouw-succes-infantino-en-trump-steken-elkaar-de-loftrompet-op-vlak-voor-finale~1777469291113/",
+        "source": "sporza",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace le Canada, les feux de forêts empestent l’air avant la finale du Mondial",
+        "url": "https://www.rtbf.be/article/trump-menace-le-canada-les-feux-de-forets-empestent-l-air-avant-la-finale-du-mondial-11759641",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "”Cela m’a contraint d’appeler Gianni” : quand Donald Trump se vante encore de la décision de la FIFA face à Infantino dans l’affaire Balogun",
+        "url": "https://www.dhnet.be/sports/football/diablesrouges/2026/07/18/cela-ma-contraint-dappeler-gianni-quand-donald-trump-se-vante-encore-de-la-decision-de-la-fifa-face-a-infantino-dans-laffaire-balogun-C4PQHR3OFZCMBO3OMQIMITVCKI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un ex du Lierse et ancien champion du monde interpelle Donald Trump à cause d’un problème de visa pour la finale : “Je n’arrive pas à y croire”",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/07/18/un-ex-du-lierse-et-ancien-champion-du-monde-interpelle-donald-trump-a-cause-dun-probleme-de-visa-pour-la-finale-je-narrive-pas-a-y-croire-QLWMSWNL7JF2HIEJLUPXOZZLF4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur les désidératas de Trump pour la finale de la Coupe du monde - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTmlfNndXVWN1d0xrMW1sOUpKbG1WZGFKRUt5UF9HX2U4Qno2QlRvN3pySm5OWk90YUhnRFZkMTBSbUZaRUJNMjlRa1h1eEJSUjVoaFlSejg1dF9pWGZ0b3ota0dSUDFDcTVxb1pvQklWb1MtQkgzcFFhX2V4UF92LWlOS2wwZ2d3Ul8yeVBlbU1vNFMtQVJfZXg1S3o2dVNNWVJrclA3Ql9HUG9EODBZQUVOekF1QXVWZmxrRDBpLVY?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Les feux de forêts empestent l’air avant la finale du Mondial : Trump menace le Canada - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR05zeWJqVExEaS10X2VSaHp6T29BdktVUThvVlI4eEN5eHdhY1FKQi1kVFE0WHNZbFBycktRQ1FUak9OVjBIWEhjYkVfXzhUTjBkZUpXV1B5bTMtcFAycjNTemVjanNiRHBIdUdyVVNSeml0YmE5a0lZOXplLXFnMjdsaEJwcnR5dmw5Y21xNkFINkFJMXQwMVo1RDFMT3BDNmJXTWxtY202aktuMGxFR0lLVXhDdDVKX09oYXNlNlVldw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« J’ai besoin d’aide » : interdit d’entrée aux États-Unis, un champion du monde espagnol interpelle Donald Trump pour assister à la finale du Mondial 2026 - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHhvNktJdm15dm9UMFdpcVl5dVloV3YxS0x5SHAxQ0o1RzYteTA2SUtYZGhhemxLZmxpdGU2UExQWF93R1dIRHY4WTBEdnRjYmtOazdmaXRhWXBJVzlKajhRZ29GWUYwVWs2Tk5Ub3FQbjBQSjNnTnJONWdhXzRvYXNyUXF4RVpoRHQtMkkzTEUwaVpRQkdtZUJNUUkyVVRVZ2Y1Ymg4cXY5eEltR1JkM3FtenhUcDVlSU1qZnVqd1I5WGNONmd4YUVB?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Finale du Mondial menacée par les feux au Canada : Trump menace de taxer le pays - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYXdHVlFOZjVScURubS1MaFl4ZDcwcVlBOHJWTThCNEhmeUpnV0t1RDY5cFdJeGIzU0pnbHBkRVhXdGNfRFN1VlAzcUxmMU9FN3d4aUlKQmFZRXVQQ2drbGNGMFJmS21SZnR4TWgtb2J5dDQzSEh1dHZVMUx5TVhsdzFQQTBTSzRkNUJTNURIY0lRWENrWkxQdzZGd0Q3Z2tMVk5fTF9ZV0FQWmNFUHFKaWlDVi1mRjEwdzlIRnR4eU1MUnhTSFNpVVd1ckl3Zw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 4,
-      "putin": 2,
+      "trump": 14,
+      "putin": 1,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 5,
+      "de_wever": 7,
       "bouchez": 0,
-      "magnette": 0,
+      "magnette": 2,
       "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
-      "jambon": 0,
+      "jambon": 2,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 6,
-      "putin": 3,
-      "macron": 0,
+      "trump": 21,
+      "putin": 1,
+      "macron": 1,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 8,
+      "de_wever": 11,
       "bouchez": 0,
-      "magnette": 0,
+      "magnette": 2,
       "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
-      "jambon": 0,
+      "jambon": 2,
       "van_peteghem": 0,
-      "verlinden": 2
+      "verlinden": 1
     },
     "themes": {
-      "war": 9,
-      "crime": 6,
+      "war": 16,
+      "crime": 16,
       "eu": 12,
-      "politics": 20,
-      "be_gov": 19,
+      "politics": 32,
+      "be_gov": 40,
       "culture": 9,
-      "tech": 3,
-      "economy": 8,
-      "sports": 23,
-      "health": 1,
-      "climate": 1,
-      "migration": 1,
-      "education": 0,
-      "weather": 4
+      "tech": 5,
+      "economy": 14,
+      "sports": 64,
+      "health": 2,
+      "climate": 3,
+      "migration": 4,
+      "education": 4,
+      "weather": 8
     },
     "wide_themes": {
-      "war": 11,
-      "crime": 9,
-      "eu": 16,
-      "politics": 31,
-      "be_gov": 24,
-      "culture": 10,
-      "tech": 7,
-      "economy": 9,
-      "sports": 30,
-      "health": 1,
-      "climate": 1,
-      "migration": 1,
-      "education": 0,
-      "weather": 5
+      "war": 22,
+      "crime": 23,
+      "eu": 20,
+      "politics": 49,
+      "be_gov": 53,
+      "culture": 12,
+      "tech": 13,
+      "economy": 19,
+      "sports": 99,
+      "health": 2,
+      "climate": 3,
+      "migration": 5,
+      "education": 5,
+      "weather": 14
     }
   }
 ]
