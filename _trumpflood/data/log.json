@@ -59196,5 +59196,466 @@
       "education": 4,
       "weather": 10
     }
+  },
+  {
+    "date": "2026-07-18",
+    "generated_at": "2026-07-18T07:50:53+02:00",
+    "last_checked_at": "2026-07-18T07:50:53+02:00",
+    "total_articles": 269,
+    "trump_articles": 4,
+    "percentage": 1.5,
+    "core_percentage": 1.5,
+    "core_percentage_name": 1.5,
+    "trump_articles_expanded": 4,
+    "core_percentage_expanded": 1.5,
+    "indirect_references": 0,
+    "wide_total_articles": 354,
+    "wide_trump_articles": 6,
+    "wide_percentage": 1.7,
+    "wide_trump_articles_expanded": 6,
+    "wide_percentage_expanded": 1.7,
+    "macro_percentage": 1.4,
+    "qualifying_outlets": 10,
+    "core_outlets_total": 19,
+    "core_outlets_active": 13,
+    "active_core_fraction": 0.684,
+    "cross_outlet_dup_headlines": 26,
+    "cross_outlet_dup_groups": 13,
+    "cross_outlet_dup_rate": 9.7,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.57,
+    "breadth": 0.15,
+    "deviation": 0.45,
+    "smoothed_pct": 2.89,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 9,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_nl_politics": {
+        "fetched": 39,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 64,
+        "today": 9,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 62,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 59,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 68,
+        "kept": 51,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.92
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 97,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 41,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 50,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Van Trump die nu naar China wijst voor de “gestolen” verkiezingen tot het nieuwe hoofdpodium van Tomorrowland: de verhalen van de dag - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JOUl5NnFseU9IeTNtcEtuRGQyMjJmYTV0SXk1UUdQMElRcjNSN2NyM0RjbEF3N1hOdzl6Ny1VUmVYZndJVFdWRzRDNlRRa0JlSVVkb3piZ1hiZw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Het waren de Chinezen”: Trump klampt zich vast aan zijn verkiezingscomplot - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQWJ0cUdNSmpXSmRUZzVJbXk1OFdyeTZkVWRUNlhzV00xdnVubk5xb0hzM2JrV1htbHVUY3pqZFk3TkZ4bXhIeGJqdzRoazlBc29FaDgtc3ZrZnhqSVBDRGc4Rl9nNTZoOVNESkloZG5aRlM3RzNMYTlxNEg0c1RUZzdtMl9Rc21LckNNdklUZ1NLaWRrdzlvRHRFaVQ5R0g2N1FzTnhzNmxDcEtRUTUzUldidWhHYi1RS3R5YjV5UWQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Nieuw verdienmodel voor Trump: ‘microseconden’ eerder toegang tot zijn posts op Truth Social",
+        "url": "https://www.demorgen.be/nieuws/nieuw-verdienmodel-voor-trump-microseconden-eerder-toegang-tot-zijn-posts-op-truth-social~b87d7e83/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump hoopt dat zijn goede vriend Milei wint’: historicus Vincent Scheltiens over de geopolitieke kraker tussen Spanje en Argentinië",
+        "url": "https://www.demorgen.be/nieuws/trump-hoopt-dat-zijn-goede-vriend-milei-wint-historicus-vincent-scheltiens-over-de-geopolitieke-kraker-tussen-spanje-en-argentinie~b2e5c435/",
+        "source": "demorgen",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Le Kroll du jour sur les désidératas de Trump pour la finale de la Coupe du monde - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTmlfNndXVWN1d0xrMW1sOUpKbG1WZGFKRUt5UF9HX2U4Qno2QlRvN3pySm5OWk90YUhnRFZkMTBSbUZaRUJNMjlRa1h1eEJSUjVoaFlSejg1dF9pWGZ0b3ota0dSUDFDcTVxb1pvQklWb1MtQkgzcFFhX2V4UF92LWlOS2wwZ2d3Ul8yeVBlbU1vNFMtQVJfZXg1S3o2dVNNWVJrclA3Ql9HUG9EODBZQUVOekF1QXVWZmxrRDBpLVY?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Exclusieve posts van Trump op Truth Social worden betalend: \"Flagrante poging om te verdienen op het presidentschap\" - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTGVOZUJBa0tMcm1qZTE3c3FqZHZHcTFRanF1b1B1aTY1R2UwNWZ4eHUxWDFUVmY1ZmZtbWtnRmJ2SklMVXU5ejltYkJDWnFOdVVRdldGRlZMZWNOdFBDVld0alRDLXNJeWdQVjNjYThGeXBSTEE0S0NHekFoYTJQbjByNnJ4bnZxb0d5NTVhNkNnLTh3LU5XRFFhT29rcG1OOUxJVnRVUHpsQlRrZ1NVYlRjNHBIMHVROFdmblZPYzd6V1BSeU91bnlqSWFzY20tRWE0Y2wxZHVySlUwYnNNNm1VWmw5RUxGZ0RXQzhTdk9wbENBU1RxTw?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Van Trump die nu naar China wijst voor de “gestolen” verkiezingen tot het nieuwe hoofdpodium van Tomorrowland: de verhalen van de dag - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JOUl5NnFseU9IeTNtcEtuRGQyMjJmYTV0SXk1UUdQMElRcjNSN2NyM0RjbEF3N1hOdzl6Ny1VUmVYZndJVFdWRzRDNlRRa0JlSVVkb3piZ1hiZw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Het waren de Chinezen”: Trump klampt zich vast aan zijn verkiezingscomplot - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQWJ0cUdNSmpXSmRUZzVJbXk1OFdyeTZkVWRUNlhzV00xdnVubk5xb0hzM2JrV1htbHVUY3pqZFk3TkZ4bXhIeGJqdzRoazlBc29FaDgtc3ZrZnhqSVBDRGc4Rl9nNTZoOVNESkloZG5aRlM3RzNMYTlxNEg0c1RUZzdtMl9Rc21LckNNdklUZ1NLaWRrdzlvRHRFaVQ5R0g2N1FzTnhzNmxDcEtRUTUzUldidWhHYi1RS3R5YjV5UWQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Nieuw verdienmodel voor Trump: ‘microseconden’ eerder toegang tot zijn posts op Truth Social",
+        "url": "https://www.demorgen.be/nieuws/nieuw-verdienmodel-voor-trump-microseconden-eerder-toegang-tot-zijn-posts-op-truth-social~b87d7e83/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump hoopt dat zijn goede vriend Milei wint’: historicus Vincent Scheltiens over de geopolitieke kraker tussen Spanje en Argentinië",
+        "url": "https://www.demorgen.be/nieuws/trump-hoopt-dat-zijn-goede-vriend-milei-wint-historicus-vincent-scheltiens-over-de-geopolitieke-kraker-tussen-spanje-en-argentinie~b2e5c435/",
+        "source": "demorgen",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 4,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 6,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 8,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 2
+    },
+    "themes": {
+      "war": 9,
+      "crime": 6,
+      "eu": 12,
+      "politics": 20,
+      "be_gov": 19,
+      "culture": 9,
+      "tech": 3,
+      "economy": 8,
+      "sports": 23,
+      "health": 1,
+      "climate": 1,
+      "migration": 1,
+      "education": 0,
+      "weather": 4
+    },
+    "wide_themes": {
+      "war": 11,
+      "crime": 9,
+      "eu": 16,
+      "politics": 31,
+      "be_gov": 24,
+      "culture": 10,
+      "tech": 7,
+      "economy": 9,
+      "sports": 30,
+      "health": 1,
+      "climate": 1,
+      "migration": 1,
+      "education": 0,
+      "weather": 5
+    }
   }
 ]
