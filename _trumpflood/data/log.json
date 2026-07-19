@@ -59810,38 +59810,38 @@
   },
   {
     "date": "2026-07-19",
-    "generated_at": "2026-07-19T08:14:34+02:00",
-    "last_checked_at": "2026-07-19T08:14:34+02:00",
-    "total_articles": 189,
-    "trump_articles": 2,
-    "percentage": 1.1,
-    "core_percentage": 1.1,
-    "core_percentage_name": 1.1,
-    "trump_articles_expanded": 2,
-    "core_percentage_expanded": 1.1,
-    "indirect_references": 0,
-    "wide_total_articles": 271,
-    "wide_trump_articles": 2,
-    "wide_percentage": 0.7,
-    "wide_trump_articles_expanded": 2,
-    "wide_percentage_expanded": 0.7,
-    "macro_percentage": 0.9,
-    "qualifying_outlets": 9,
+    "generated_at": "2026-07-19T13:39:19+02:00",
+    "last_checked_at": "2026-07-19T13:39:19+02:00",
+    "total_articles": 452,
+    "trump_articles": 8,
+    "percentage": 1.8,
+    "core_percentage": 1.8,
+    "core_percentage_name": 1.8,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 2.0,
+    "indirect_references": 1,
+    "wide_total_articles": 634,
+    "wide_trump_articles": 9,
+    "wide_percentage": 1.4,
+    "wide_trump_articles_expanded": 11,
+    "wide_percentage_expanded": 1.7,
+    "macro_percentage": 1.7,
+    "qualifying_outlets": 22,
     "core_outlets_total": 19,
-    "core_outlets_active": 14,
-    "active_core_fraction": 0.737,
-    "cross_outlet_dup_headlines": 30,
-    "cross_outlet_dup_groups": 15,
-    "cross_outlet_dup_rate": 15.9,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Below a normal president's ordinary day.",
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 44,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 9.7,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.0,
-    "breadth": 0.14,
-    "deviation": 0.33,
-    "smoothed_pct": 2.67,
+    "dominance": 2.0,
+    "breadth": 0.29,
+    "deviation": 0.54,
+    "smoothed_pct": 2.77,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
@@ -59850,79 +59850,79 @@
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 14,
-        "kept": 14,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 27,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
       },
       "google_fr": {
         "fetched": 34,
-        "today": 3,
-        "kept": 3,
+        "today": 23,
+        "kept": 23,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 34,
-        "today": 7,
-        "kept": 7,
+        "fetched": 32,
+        "today": 4,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
         "fetched": 66,
-        "today": 12,
-        "kept": 7,
+        "today": 20,
+        "kept": 12,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 5,
-        "kept": 2,
+        "today": 13,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
         "fetched": 62,
-        "today": 2,
-        "kept": 1,
+        "today": 11,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 68,
-        "today": 10,
-        "kept": 8,
+        "fetched": 70,
+        "today": 22,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 16,
+        "fetched": 15,
         "today": 1,
         "kept": 1,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 51,
+        "today": 17,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_fr_world": {
-        "fetched": 44,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "google_fr_business": {
-        "fetched": 39,
-        "today": 2,
+        "fetched": 32,
+        "today": 5,
         "kept": 1,
         "trump": 0,
         "trump_expanded": 0,
@@ -59930,184 +59930,184 @@
       },
       "vrt": {
         "fetched": 50,
-        "today": 7,
-        "kept": 7,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
-        "fetched": 100,
-        "today": 29,
-        "kept": 6,
+        "fetched": 97,
+        "today": 43,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "hln": {
         "fetched": 30,
-        "today": 29,
-        "kept": 29,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
-        "trump_expanded": 0,
+        "trump_expanded": 1,
         "share": 0.0
       },
       "demorgen": {
         "fetched": 27,
-        "today": 7,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 41,
-        "kept": 41,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "gva": {
         "fetched": 50,
-        "today": 33,
-        "kept": 33,
+        "today": 48,
+        "kept": 48,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 14,
-        "kept": 14,
+        "today": 40,
+        "kept": 40,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 19,
-        "kept": 19,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 33,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
       },
       "sporza": {
         "fetched": 20,
-        "today": 5,
-        "kept": 5,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 3,
+        "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 12,
-        "kept": 12,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 25,
+        "kept": 25,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.0
       },
       "lecho": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 24,
+        "kept": 24,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 6,
-        "kept": 6,
+        "today": 60,
+        "kept": 60,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "septsursept": {
         "fetched": 30,
-        "today": 6,
-        "kept": 6,
+        "today": 18,
+        "kept": 18,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 16.67
+        "share": 5.56
       },
       "bx1": {
         "fetched": 10,
-        "today": 0,
-        "kept": 0,
+        "today": 2,
+        "kept": 2,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 4,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 14,
-        "kept": 13,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 7.69
+        "today": 49,
+        "kept": 45,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.67
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 1,
-        "kept": 1,
+        "today": 14,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 12,
-        "kept": 12,
+        "today": 31,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 15,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 26,
-        "today": 1,
+        "fetched": 18,
+        "today": 2,
         "kept": 0,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0
       },
       "tendances_g": {
-        "fetched": 31,
-        "today": 2,
-        "kept": 2,
+        "fetched": 28,
+        "today": 7,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -60136,9 +60136,51 @@
     ],
     "matches": [
       {
+        "title": "Na alle heisa: Witte Huis verdedigt veelbesproken politiek geladen spandoek van Argentijnse spelers na halve finale WK",
+        "url": "https://www.hln.be/wk-voetbal/na-alle-heisa-witte-huis-verdedigt-veelbesproken-politiek-geladen-spandoek-van-argentijnse-spelers-na-halve-finale-wk~a0601848/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Trump bouwt zonder vergunning een helihaven bij het Witte Huis: waarom dat zoveel vragen oproept",
+        "url": "https://www.demorgen.be/nieuws/trump-bouwt-zonder-vergunning-een-helihaven-bij-het-witte-huis-waarom-dat-zoveel-vragen-oproept~b9c50fd0/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Lego Donald Trump Archives - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CQXdEV1E4cThjVTVaS0xFaUxUV05yQWZaYkk3cGdBSTZmdTZfXzJvUldjNUpLS1Zhb2FfaklFcGZ6VmNtQTZjTmc4NHMyMUhHaUQ0?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Comment Tesla a résisté au boycott après l’engagement politique de Musk auprès de Trump",
+        "url": "https://www.lalibre.be/economie/placements/2026/07/19/comment-tesla-a-resiste-au-boycott-apres-lengagement-politique-de-musk-aupres-de-trump-LE4BOLMVTZBA3A3W3AIUQ6P6PY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Cette fois, nous laisserons le Mexique et le Canada de côté\" : Trump sous les projecteurs de la finale de la Coupe du Monde de football",
+        "url": "https://www.lalibre.be/sports/football/coupe-du-monde/2026/07/19/cette-fois-nous-laisserons-le-mexique-et-le-canada-de-cote-trump-sous-les-projecteurs-de-la-finale-de-la-coupe-du-monde-de-football-56IIMM6MWBFCFMAIXYAP644X5E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
         "title": "Donald Trump sous les projecteurs de la finale du Mondial",
         "url": "https://www.7sur7.be/mondial/donald-trump-sous-les-projecteurs-de-la-finale-du-mondial~aa0bbfa3/",
         "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Je n’ai pas envie d’aller en prison » : un joueur espagnol ironise avant une possible rencontre avec Donald Trump après la finale de la Coupe du monde - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcExsTnl6RHluWXhCSFVuaDI2ZjRVQlJnaUtuQnNDcjRHM1phbEQ1WGdSaWJzcG9KcHlDU3c1OGtXWHgwX1VvNEJLM1NTcGx3cTZkUHI5eDEwZzREQ1NKUUdtcXp0RFh4ZWt1aGU4aXYxY3RvUzVGaGtEbzNtNGZDTDN2UUR4ZHJlX3NpNFpfRzNPQjl6MGdVQzBJQUU0TVpTLXR0czRGbk41eE1XY1dXTThoVjBid3RsR0V4blJLV3JzMnVpQkE?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Le Conseil de l’Europe appelle la Fifa à agir après l’intervention de Trump et l’affaire Balogun au Mondial 2026 - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaUdYRFVCSzliOXRTTlJmaHEwcXU0RVlPOUM4TVRyNHRycW9EcGl0TlA0Nnh1WDFBQm5zR3ppVGRORWZKcG1JR2JJTEo0b2VfOUxlbWV4dXlXZG5QMnFQOVJ5VDhJZjh2ZHZsZnVUS1VEMC1uOGdaRHZFV1JDemYtWEpwWEFia3JvbmN0UDBrNU96YldOQ3BETGI5TEhVOTU0T0EyTS1OaEpfT3FjUVFJMXVQaWN4VDhjdU9ORmFPbw?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
@@ -60150,9 +60192,63 @@
     ],
     "wide_matches": [
       {
+        "title": "Trump bouwt helihaven bij het Witte Huis, zonder ook maar één vergunning aan te vragen - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbE1NcWtGXzZkUnZQRzAwLUV3NG1uOG04akx5U2VqVm0xel9adkFRaHc0cW01dXBYM2t2a0JSelV5SVFJOVNYSkNZRkVTQ1dCa0dxbmFudkdPRlB2SXBBXzhuYmlnY2t0SDVaOHE3cGl2ZnJJajdzTG9PZDJXaThMSjR1b0p2RWZTYTFadTJtTFM2ZUY1TXU2cDluWWFnWE9VLWJFTzRWTlVBU2tvVTB3OGZDQnl2TEV3aTdOalhydFNvZ0FV?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "« C'était notre devoir vis-à-vis des contribuables américains » : la Maison Blanche justifie son interférence dans l'affaire Balogun à la Coupe du monde - L'Équipe",
+        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPU0ZsbXJSQXZoa2lMVzFIVjJYQWVIZlF3eE93U2JtYUc5UU5tV21CMlZYV3plenJ1VVIxTUJ1OEdoTXg4NTcxWksyWDNkXzBqN0tZS2hTYXpJSEJaWlZOVGh4NWpFN2xBQ1V1Q3h3anREMmFWelZNTlJiSHhTODd5aHJFMXZKSHVMM0xwd05JeTNmWi1MaXh4djNWVm1vUnFRcFY2aW5XZmhJYm5JRTNxUUg1VFpmcHNxNF9ZSzd2enZfM3JmejFhbHI0ZlM5N2gyN0xtUE80dDk5ZFRhV21SRUVXdklIbmJ2RklUMWVURjRwY05KTmJRNmhUcXA4aHl4XzhFRTBwQkpZRHRxbjBKWFdkaWxYaURhbUZMbkVlMlc2cFpB?oc=5",
+        "source": "google_fr_politics",
+        "name_only": false
+      },
+      {
+        "title": "Na alle heisa: Witte Huis verdedigt veelbesproken politiek geladen spandoek van Argentijnse spelers na halve finale WK",
+        "url": "https://www.hln.be/wk-voetbal/na-alle-heisa-witte-huis-verdedigt-veelbesproken-politiek-geladen-spandoek-van-argentijnse-spelers-na-halve-finale-wk~a0601848/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Trump bouwt zonder vergunning een helihaven bij het Witte Huis: waarom dat zoveel vragen oproept",
+        "url": "https://www.demorgen.be/nieuws/trump-bouwt-zonder-vergunning-een-helihaven-bij-het-witte-huis-waarom-dat-zoveel-vragen-oproept~b9c50fd0/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Lego Donald Trump Archives - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CQXdEV1E4cThjVTVaS0xFaUxUV05yQWZaYkk3cGdBSTZmdTZfXzJvUldjNUpLS1Zhb2FfaklFcGZ6VmNtQTZjTmc4NHMyMUhHaUQ0?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Comment Tesla a résisté au boycott après l’engagement politique de Musk auprès de Trump",
+        "url": "https://www.lalibre.be/economie/placements/2026/07/19/comment-tesla-a-resiste-au-boycott-apres-lengagement-politique-de-musk-aupres-de-trump-LE4BOLMVTZBA3A3W3AIUQ6P6PY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Cette fois, nous laisserons le Mexique et le Canada de côté\" : Trump sous les projecteurs de la finale de la Coupe du Monde de football",
+        "url": "https://www.lalibre.be/sports/football/coupe-du-monde/2026/07/19/cette-fois-nous-laisserons-le-mexique-et-le-canada-de-cote-trump-sous-les-projecteurs-de-la-finale-de-la-coupe-du-monde-de-football-56IIMM6MWBFCFMAIXYAP644X5E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
         "title": "Donald Trump sous les projecteurs de la finale du Mondial",
         "url": "https://www.7sur7.be/mondial/donald-trump-sous-les-projecteurs-de-la-finale-du-mondial~aa0bbfa3/",
         "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Je n’ai pas envie d’aller en prison » : un joueur espagnol ironise avant une possible rencontre avec Donald Trump après la finale de la Coupe du monde - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcExsTnl6RHluWXhCSFVuaDI2ZjRVQlJnaUtuQnNDcjRHM1phbEQ1WGdSaWJzcG9KcHlDU3c1OGtXWHgwX1VvNEJLM1NTcGx3cTZkUHI5eDEwZzREQ1NKUUdtcXp0RFh4ZWt1aGU4aXYxY3RvUzVGaGtEbzNtNGZDTDN2UUR4ZHJlX3NpNFpfRzNPQjl6MGdVQzBJQUU0TVpTLXR0czRGbk41eE1XY1dXTThoVjBid3RsR0V4blJLV3JzMnVpQkE?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Le Conseil de l’Europe appelle la Fifa à agir après l’intervention de Trump et l’affaire Balogun au Mondial 2026 - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaUdYRFVCSzliOXRTTlJmaHEwcXU0RVlPOUM4TVRyNHRycW9EcGl0TlA0Nnh1WDFBQm5zR3ppVGRORWZKcG1JR2JJTEo0b2VfOUxlbWV4dXlXZG5QMnFQOVJ5VDhJZjh2ZHZsZnVUS1VEMC1uOGdaRHZFV1JDemYtWEpwWEFia3JvbmN0UDBrNU96YldOQ3BETGI5TEhVOTU0T0EyTS1OaEpfT3FjUVFJMXVQaWN4VDhjdU9ORmFPbw?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
@@ -60163,11 +60259,11 @@
       }
     ],
     "comparisons": {
-      "trump": 2,
+      "trump": 8,
       "putin": 0,
       "macron": 0,
-      "netanyahu": 2,
-      "zelensky": 0,
+      "netanyahu": 3,
+      "zelensky": 1,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 0,
@@ -60182,14 +60278,14 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 2,
+      "trump": 9,
       "putin": 0,
       "macron": 0,
-      "netanyahu": 3,
-      "zelensky": 0,
+      "netanyahu": 5,
+      "zelensky": 1,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
+      "de_wever": 1,
       "bouchez": 0,
       "magnette": 0,
       "prevot": 0,
@@ -60201,36 +60297,36 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 10,
-      "crime": 7,
-      "eu": 6,
-      "politics": 4,
-      "be_gov": 6,
-      "culture": 6,
-      "tech": 4,
-      "economy": 2,
-      "sports": 28,
-      "health": 2,
-      "climate": 1,
-      "migration": 1,
-      "education": 0,
-      "weather": 1
+      "war": 23,
+      "crime": 10,
+      "eu": 12,
+      "politics": 11,
+      "be_gov": 5,
+      "culture": 15,
+      "tech": 15,
+      "economy": 4,
+      "sports": 89,
+      "health": 1,
+      "climate": 4,
+      "migration": 0,
+      "education": 2,
+      "weather": 15
     },
     "wide_themes": {
-      "war": 12,
-      "crime": 8,
-      "eu": 6,
-      "politics": 11,
-      "be_gov": 10,
-      "culture": 11,
-      "tech": 7,
-      "economy": 5,
-      "sports": 45,
+      "war": 31,
+      "crime": 15,
+      "eu": 16,
+      "politics": 16,
+      "be_gov": 9,
+      "culture": 20,
+      "tech": 24,
+      "economy": 7,
+      "sports": 125,
       "health": 3,
-      "climate": 1,
-      "migration": 2,
-      "education": 0,
-      "weather": 1
+      "climate": 4,
+      "migration": 1,
+      "education": 2,
+      "weather": 22
     }
   }
 ]
