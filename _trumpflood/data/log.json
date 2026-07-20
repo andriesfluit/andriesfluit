@@ -60328,5 +60328,766 @@
       "education": 2,
       "weather": 22
     }
+  },
+  {
+    "date": "2026-07-20",
+    "generated_at": "2026-07-20T08:34:28+02:00",
+    "last_checked_at": "2026-07-20T08:34:28+02:00",
+    "total_articles": 395,
+    "trump_articles": 24,
+    "percentage": 6.1,
+    "core_percentage": 6.1,
+    "core_percentage_name": 6.1,
+    "trump_articles_expanded": 25,
+    "core_percentage_expanded": 6.3,
+    "indirect_references": 1,
+    "wide_total_articles": 518,
+    "wide_trump_articles": 34,
+    "wide_percentage": 6.6,
+    "wide_trump_articles_expanded": 35,
+    "wide_percentage_expanded": 6.8,
+    "macro_percentage": 8.0,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 48,
+    "cross_outlet_dup_groups": 24,
+    "cross_outlet_dup_rate": 12.2,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 8.0,
+    "breadth": 0.76,
+    "deviation": 2.14,
+    "smoothed_pct": 3.4,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 14.29
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_politics": {
+        "fetched": 26,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 61,
+        "today": 11,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 65,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 64,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 18,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_fr_world": {
+        "fetched": 46,
+        "today": 5,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_fr_business": {
+        "fetched": 21,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 73,
+        "kept": 42,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 7.14
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 18.75
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.44
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 39,
+        "kept": 39,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.56
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 18.18
+      },
+      "lecho": {
+        "fetched": 91,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 34,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.88
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 8,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 21,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "\"Ga daar toch weg!\": Donald Trump eist toch weer de aandacht op met \"tragisch\" moment bij trofee-uitreiking",
+        "url": "https://vrtnws.be/p.lO3o1ynJo",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft toe dat nieuwe Air Force One tijdelijk aan de grond wordt gehouden voor upgrade",
+        "url": "https://vrtnws.be/p.XE6BJEW97",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil eigen ‘Truth-posts’ voor grof geld verkopen aan Wall Street: “Dit slaat echt alles” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGkwYW9nQ0RGdGpRNmduSmxzYU5KS2dEbFE1N3BZN2lEaWNGRXg3ZXEtUTFBUGVPVi1CMlFTajdqZVRLUHRyYWJTRWdJV1ZDRnl0OVdFSWJEWUFDTHJkeGVKdlE0WUxxUmdsWE5UakxlYW51REtLa29wbG11eUl2RU5QSHByN25GMWF6R3V0ODBSTTBIUVlNQ1k2Uzd1MDM4b3E1d01ZRXVFdk5aNlZCSjFWVktwQnhpdEZNdzI2WGdHUENxeWgzXzdrTnVTZGdaV2hv?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trumps nieuwe Air Force One mist afweer, maar kritiek wordt niet geduld - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZVV2ZXBkTlJqZXhIYnVPckRZekRuOHU3TlRweVpsN0lpOFBkMGFXOXhTRk1qcUo2czhnTW1yUzFsclJzbFMtcVFFT1VqYmk5WGpKcXZPTzZNYUdiSEZ6RG5vOVhrc1N1Sk5EYUxGRDR5Ql9YOWoxOVpQWjJtbjJZTF9jbG1xZjB0YkdZYjB2MmRIOHN2M3hYdjZ6V2NjVTQ3TUh0Zk5fbW55T1Zpd0JOTVJKdGFxVjRBMjVOSVFn?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Het anti-vedettenvoetbal van Spanje onttroont Messi, Trump wil het WK overdoen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUHZUOGx1TTFqMHY4ZElnbWJoQzFESHByRm1Jdmh2bXhxeDBpWU5JYkozNnR2T3FLU3pZVTIwd3BKNENLbU1RZXBxT2I1dFhpQmZFT21LWVM2N0RaeDhZQ2NURF9ISG9IeU15UWdVLWVScllINU10bEYzY0lOTVF1Rm10WWRQYjJXamtxMjNDRHhaTVFoclctM3R5Vk5VVHBmdDBjUmxfTFR1NUF5NmxFY2xoQ3c5aU9VSEEzSGlrVUY?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Mijn nieuwe Air Force One zal ‘maximale upgrades’ krijgen” - Is cadeautje van Qatar dan toch niet veilig genoeg?",
+        "url": "https://www.hln.be/buitenland/trump-mijn-nieuwe-air-force-one-zal-maximale-upgrades-krijgen-is-cadeautje-van-qatar-dan-toch-niet-veilig-genoeg~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Voor de 9de nacht op rij Amerikaan­se aanvallen op Iran, Trump: “We hebben Iran weer zeer zwaar aangepakt”",
+        "url": "https://www.hln.be/buitenland/voor-de-9de-nacht-op-rij-amerikaanse-aanvallen-op-iran-trump-we-hebben-iran-weer-zeer-zwaar-aangepakt~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump dagvaardde journalisten, maar zegt nu ook zelf dat zijn nieuwe Air Force One ‘maximale upgrades’ zal krijgen",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-betaalden-al-81-miljard-dollar-aan-onwettige-importheffingen-terug~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Miljoenen uit Hongarije vallen weg, nu lonkt steun uit Trump-kamp: wat is het MCC Brussels van Viktor Orbán?",
+        "url": "https://www.demorgen.be/nieuws/miljoenen-uit-hongarije-vallen-weg-nu-lonkt-steun-uit-trump-kamp-wat-is-het-mcc-brussels-van-viktor-orban~b1732548/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump wilde nog wel bij de feestende Spanjaarden blijven hangen op het podium, maar werd nu wel beleefd weggeleid’: Hans Vandeweghe over de WK-finale",
+        "url": "https://www.demorgen.be/wk-voetbal/trump-wilde-nog-wel-bij-de-feestende-spanjaarden-blijven-hangen-op-het-podium-maar-werd-nu-wel-beleefd-weggeleid-hans-vandeweghe-over-de-wk-finale~ba0fbdec/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS en Iran beschieten elkaar opnieuw, Iran meldt aanval in Syrië - Trump: “We hebben Iran zeer hard aangevallen”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-vs-en-iran-beschieten-elkaar-opnieuw-iran-meldt-aanval-in-syrie-trump-we-hebben-iran-zeer-hard-aangevallen/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump en Gianni Infantino massaal uitgejouwd na WK-finale tussen Spanje en Argentinië",
+        "url": "https://www.nieuwsblad.be/buitenland/donald-trump-en-gianni-infantino-massaal-uitgejouwd-na-wk-finale-tussen-spanje-en-argentinie/158945163.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump en Gianni Infantino massaal uitgejouwd na WK-finale tussen Spanje en Argentinië",
+        "url": "https://www.hbvl.be/sport/voetbal/donald-trump-en-gianni-infantino-massaal-uitgejouwd-na-wk-finale-tussen-spanje-en-argentinie/158945170.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Célébration de la victoire de l’Espagne à la Coupe du monde : Donald Trump tente de s’immiscer sur la photo",
+        "url": "https://www.rtbf.be/article/celebration-de-la-victoire-de-l-espagne-a-la-coupe-du-monde-donald-trump-tente-de-s-immiscer-sur-la-photo-11760398",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Coupe du monde 2026: Donald Trump et Gianni Infantino sifflés face au public (VIDEO)",
+        "url": "https://www.lalibre.be/sports/football/coupe-du-monde/2026/07/20/coupe-du-monde-2026-donald-trump-et-gianni-infantino-siffles-face-au-public-video-6SCTZ2LOOBDQFERQGK7IFNDJYA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump affirme frapper l'Iran \"très durement\" pour honorer la mémoire des Américains tués",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/07/20/direct-guerre-au-moyen-orient-trump-affirme-frapper-liran-tres-durement-pour-honorer-la-memoire-des-americains-tues-OM4STRIYJVCINNCWJDN6VSP5JE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le vice-président américain JD Vance annonce la naissance de son quatrième enfant",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/20/le-vice-president-americain-jd-vance-annonce-la-naissance-de-son-quatrieme-enfant-6BYYBW2HKZA4XOGEMWHRTD7OBA/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Coupe du monde 2026: Donald Trump et Gianni Infantino sifflés lors de leur arrivée sur la pelouse (VIDEO)",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/07/20/coupe-du-monde-2026-donald-trump-et-gianni-infantino-siffles-lors-de-leur-arrivee-sur-la-pelouse-video-BUAUMUIUMFFKJO6OU6OOZ32HXE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump n'est pas totalement satisfait de son nouvel avion: \"Il a beaucoup de capacités, mais...\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/20/donald-trump-nest-pas-totalement-satisfait-de-son-nouvel-avion-il-a-beaucoup-de-capacites-mais-22BYJ2QJVNGRHCN72EDG5SRLGI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump et Gianni Infantino sifflés avant la remise du trophée",
+        "url": "https://www.7sur7.be/mondial/donald-trump-et-gianni-infantino-siffles-avant-la-remise-du-trophee~ac4f1673/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump assure frapper “très durement” l’Iran après la mort d’un nouveau soldat américain",
+        "url": "https://www.7sur7.be/monde/trump-assure-frapper-tres-durement-liran-apres-la-mort-dun-nouveau-soldat-americain~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump erkent: Air Force One tijdelijk aan de grond voor upgrade - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaTdHUFhjTnhUSm13dW0tVzM5SUJLN1R5X1F4MnlVdld5V3Z6ZHFPSVlqbEk0S0taVWFaM0NCUi1nWlNZeFh4Y2xoZGJ2TGFISDNIUDdwdHZRMGw0QVJTRTlyVng1aWlkY3JuZHZLaldZbWo2Z25yTzR1bFdBeFNnWFc1elhHZmF2Nm9DamJaMnFkaHUyd2JIaHJ2QXFwMGNFY0NPSU1GVUpVTGdmVmZzNVAxdDdyN1RzWkR6Y0VoVWdxNmJqZ3BvUl9lRkE?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Scène incroyable au moment de soulever le trophée : Gianni Infantino intervient pour éloigner Trump (vidéo) - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN3RzZ0ZHLXlrLUR0d25kUmdLUWlsTVFBYjJOWmhvaV8xMXR4cmVod3l6WjdKYUppb1BhRnVmV0hLVV9aSDNWQkNuNUcxQUFYVE1JSGxZRXJ6NHdvM2RoQTJTQ3poQmZ0UFpoUDdVTFhjMDlCU19WTDVmaWE0Nl9oTkFLaDlyRm9hYW9RYnhZZHZsSHRPNEl5aUhBNndrRjVlY0pCOHluVl9nYTBDeU1SVHdySUdiOHUzX1NWbWNYbGc0WWc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Ils vont le booster au maximum » : pourquoi le nouvel avion de Trump doit être révisé - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQjlid3hlU2poelpSX1J1Ulpwamlfci01V2Q0eU53OE0xX2k1THpQWkRkc1hhMG9lT1BXV1pWX2ZYTzJFRW5hblpUbktlak8yR2lhR29KUEVPMUsxZWJxOUd4a1NtUnMwYnF0VzRCTkNTQzVwTU5QdFd1dVlKSW5ERWpFV3RJS1lRVHJOQWxwUmpBY0cxbmlXU2lxUEdpWW1fZTZWNTIwWGRhM1Q0Y0t5RmpGdTdPSV93cHFEOXRPZw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump s'immisce dans la célébration du titre de l'Espagne à la Coupe du monde 2026, Gianni Infantino gêné (vidéo) - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPdE93b21WNGtCUG5yRTZQQjUxYWtVODJybU1ROG84b1BrcDUtME5kcXJmN05JQzc5ZEhtdG5GYTJoTS0wS1pPWkNQaXJ2d1o4U1RidThxdzU0cnlBZzdCTWtUQ1FNRzNMZmxRYTJfNEtRbGhKY2tlRElXMlJpUGFfOUhWamliNzRDZHBhZDl2ZTF2VXhsLVl3dmw4TWNSVFh5Ym03eFdteXR2cjNvdlVfLWZpVGUtZnlEWnRDLXZuYXlZNTVqZk0tV1pTS1lad0VhSmtId1ItZmI5ZHZabzZCYnJPSVhEOWwtcnhPbVR0SGNEQTJsNUctTzJMUXdjdkctMDdUR3Nla2ZRb2hwdHBvVjQtR1RTWFMycmFzdlM3c0tYd0VfUE9oRGtiTQ?oc=5",
+        "source": "lavenir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Live - WK 2026 finale Spanje - Argentinië. Spanje mag wereldbeker in de lucht steken • Pijnlijk: Infantino moet Trump wegtrekken van groepsfoto - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSkdTcENSR0xWUklXdGFQX0dkRjA2SUlqaXFRUWpSY0NGTnhMWFVGaUptZDRxeDFNb2VGVU1WTVBudkp5bkxid0N5MWZaWFFxcjNadmUyRlhtVXoxLUpONElPcUozdGFyVnZRSENmUm5XaUVLWmllaVV2N2U0SHJmb1otcWRtOFpmSVdUeDJJRnVNOXJJWkQwdEQ0RmU0dzZVSjF0SUoyVThxMk1qeG5aM3hWRmdIdnUtQm1nWEFudENKTElnUjNyM0NyZlZkSnR2eHJwN3RmMnl2M3FITDdWN2ZWVy1mdExxdExrNmI3MGI5SmYzRlJqbmoyX2dsaElOTnR0VjFKbDFxXzUx?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft toe dat nieuwe Air Force One tijdelijk aan de grond wordt gehouden voor upgrade - VRT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPT3FjcVJVd181VWQyYmZiOHFpX3VtV2lEdUdjdXdmZWZkZi1NOXpsbUg4bkRxLUphUVJtZUgxYmNPSFh6Skt4RTNSZHFOcUIxbnNRc2ZNMkl6Qy13UVVzc3B2VFkzaDh6dTJyVzVzQlFBM2JidTR6M19EY29SZW0tUXZZTm5KcXR1QjVlazFJMEJUUllsbi1NTXF5TTJOTUpERUdNLXZJaw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Het anti-vedettevoetbal van Spanje onttroont Messi, Trump wil het WK overdoen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTUJSUzNlX25qS3Q3VzhOS0tIUU5yTDQyNlRFLTZwZm1Ha01zeFZiaEhIaEI0VnJDQmlQSmp0MVpMd000cXcxRnMwVFNGdzBoZG14ejNwTDEtLUl0ZlJMdWFmYlh4UHFSUWNaMjgwOTN2bU9OUDNTV183Z3BjaUJfdGlXbU1icWNmV2lJTjBidDNQa3YwdG1GWnFyYU5tMnBiNEdhajNQMm1sbm5HQkZJcUVnanktTW9zSDVKd3VoQQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Coupe du monde 2026: Donald Trump et Gianni Infantino sifflés face au public (VIDEO) - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOejFYb0hORFpmOERMQnhkcmYtZmc5R0RjNmdRSGVtLVVnTW1mZUhkSnJYNEZwMmd5V2k0cFNWRTdibXdSaHdraExpcVk1QnRWX29tSy11cGVINkstN1VzZ0duWmxDVUFtTEc1bzJYeWNmblhhWDJOTmN4Zk54cGRSUzVONVl1XzZrVjEwQkJlUmYwWTM2cjlMZEJKZUJwTTVMdTRUQ2dHcnB6MUdUYlZhamJ6Rk0xVjZkVnhIMWtTaDlkWHBCVnNhOFQ3TUEwYWtmN1J3S01xVzNGSTBKVTZLUnl6bjY3QnFMUHN1aFVfamoxanNzSjM2WWd0QWdEN2t2a0o0Tg?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Voor de 9de nacht op rij Amerikaan­se aanvallen op Iran, Trump: “We hebben Iran weer zeer zwaar aangepakt” | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd18wbHVQb0J1Mkw3aThhc2hKeUVaZVl0WXA3bEFORGpWdXBucDdJVzZsbFQwWktfNmh2VlRJUWtyN3gzOV84LVNzVWNyTnJuSXduOXJ4UUVvcHNic1FtVHBIa2xGdE9PT0lRb3BNdVMyNGRWRXRmelV6ekM1dkFNejlhYUZ2b0VtNUJZWWlUTU1OMkFULWVDY3MtX3V6ZGR3Z3J0UU1vUGxoVTl5Q1dlLVB6eUJMZy1acEZiYmN5MlRiYmczalE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Air Force One offert par le Qatar | Trump dit que l’avion a besoin d’améliorations, après des craintes de sécurité - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQc2R0bDFib1dzNUJhUERsTVZXczZGWHhpTC13MThoNGp4dDFfMnJJc1dyWnNSelpWN0RsWUVSNkxHWDA3aXRiek1USEVRY2FpcGc4dnN1anJuUl9UR1R4dHZ1c1RaVWlDNWVUOXRXRE00bzNENUkzNUt0YTJiTlVYeDN4QjRTblo2RGdNVmsyVUpWRmoxMkxKc29Sd09Pcmw1QWl5NEFVVmE1MGNHUTAtelQybTJTbkVzV1c5ZWFRdlFmaUJPbjJaNF9zTjREbHNRdmczeUx3VnJMRFphX243ZDRaaERiZEtFeGVZS0tpQVVTa3pRTUo1X2JPTDl4NVNjRGFreERR?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump n'est pas totalement satisfait de son nouvel avion: \"Il a beaucoup de capacités, mais...\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZzltMEgyeTE1YTVlRDNmNF9vWXhVSFd4VmRtWGFkdmZuMWVteGlyRnZUQ2ctMzQ2YWFSSXdSSnRuWndfWTRoVkxBaUZRR3IxNFVVVGNWM1JOZ3ZVa3N1WmpZMm5iX1Z2eTE5U0o1Q0Q0cmpzMGlGU1ZYVVFNWmdfeVp6Wm1mYmlFMGNOa1BwVXVrT0RvY2F2alA0VzFPQU1CdmdYOVR0SFEyYk5vUVdOR2ZMeEZoNFFNVWtZdHU4cUJrMzJ1elVLMC0yU1l4ekFOUmdjNkpEWDR5SlRTNl9DU2xJWUtZejl6RVYxTjR5Qk1HeEY3clNTYg?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "\"Ga daar toch weg!\": Donald Trump eist toch weer de aandacht op met \"tragisch\" moment bij trofee-uitreiking",
+        "url": "https://vrtnws.be/p.lO3o1ynJo",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft toe dat nieuwe Air Force One tijdelijk aan de grond wordt gehouden voor upgrade",
+        "url": "https://vrtnws.be/p.XE6BJEW97",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil eigen ‘Truth-posts’ voor grof geld verkopen aan Wall Street: “Dit slaat echt alles” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGkwYW9nQ0RGdGpRNmduSmxzYU5KS2dEbFE1N3BZN2lEaWNGRXg3ZXEtUTFBUGVPVi1CMlFTajdqZVRLUHRyYWJTRWdJV1ZDRnl0OVdFSWJEWUFDTHJkeGVKdlE0WUxxUmdsWE5UakxlYW51REtLa29wbG11eUl2RU5QSHByN25GMWF6R3V0ODBSTTBIUVlNQ1k2Uzd1MDM4b3E1d01ZRXVFdk5aNlZCSjFWVktwQnhpdEZNdzI2WGdHUENxeWgzXzdrTnVTZGdaV2hv?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trumps nieuwe Air Force One mist afweer, maar kritiek wordt niet geduld - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZVV2ZXBkTlJqZXhIYnVPckRZekRuOHU3TlRweVpsN0lpOFBkMGFXOXhTRk1qcUo2czhnTW1yUzFsclJzbFMtcVFFT1VqYmk5WGpKcXZPTzZNYUdiSEZ6RG5vOVhrc1N1Sk5EYUxGRDR5Ql9YOWoxOVpQWjJtbjJZTF9jbG1xZjB0YkdZYjB2MmRIOHN2M3hYdjZ6V2NjVTQ3TUh0Zk5fbW55T1Zpd0JOTVJKdGFxVjRBMjVOSVFn?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Het anti-vedettenvoetbal van Spanje onttroont Messi, Trump wil het WK overdoen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUHZUOGx1TTFqMHY4ZElnbWJoQzFESHByRm1Jdmh2bXhxeDBpWU5JYkozNnR2T3FLU3pZVTIwd3BKNENLbU1RZXBxT2I1dFhpQmZFT21LWVM2N0RaeDhZQ2NURF9ISG9IeU15UWdVLWVScllINU10bEYzY0lOTVF1Rm10WWRQYjJXamtxMjNDRHhaTVFoclctM3R5Vk5VVHBmdDBjUmxfTFR1NUF5NmxFY2xoQ3c5aU9VSEEzSGlrVUY?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Mijn nieuwe Air Force One zal ‘maximale upgrades’ krijgen” - Is cadeautje van Qatar dan toch niet veilig genoeg?",
+        "url": "https://www.hln.be/buitenland/trump-mijn-nieuwe-air-force-one-zal-maximale-upgrades-krijgen-is-cadeautje-van-qatar-dan-toch-niet-veilig-genoeg~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Voor de 9de nacht op rij Amerikaan­se aanvallen op Iran, Trump: “We hebben Iran weer zeer zwaar aangepakt”",
+        "url": "https://www.hln.be/buitenland/voor-de-9de-nacht-op-rij-amerikaanse-aanvallen-op-iran-trump-we-hebben-iran-weer-zeer-zwaar-aangepakt~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump dagvaardde journalisten, maar zegt nu ook zelf dat zijn nieuwe Air Force One ‘maximale upgrades’ zal krijgen",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-betaalden-al-81-miljard-dollar-aan-onwettige-importheffingen-terug~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Miljoenen uit Hongarije vallen weg, nu lonkt steun uit Trump-kamp: wat is het MCC Brussels van Viktor Orbán?",
+        "url": "https://www.demorgen.be/nieuws/miljoenen-uit-hongarije-vallen-weg-nu-lonkt-steun-uit-trump-kamp-wat-is-het-mcc-brussels-van-viktor-orban~b1732548/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump wilde nog wel bij de feestende Spanjaarden blijven hangen op het podium, maar werd nu wel beleefd weggeleid’: Hans Vandeweghe over de WK-finale",
+        "url": "https://www.demorgen.be/wk-voetbal/trump-wilde-nog-wel-bij-de-feestende-spanjaarden-blijven-hangen-op-het-podium-maar-werd-nu-wel-beleefd-weggeleid-hans-vandeweghe-over-de-wk-finale~ba0fbdec/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS en Iran beschieten elkaar opnieuw, Iran meldt aanval in Syrië - Trump: “We hebben Iran zeer hard aangevallen”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-vs-en-iran-beschieten-elkaar-opnieuw-iran-meldt-aanval-in-syrie-trump-we-hebben-iran-zeer-hard-aangevallen/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump en Gianni Infantino massaal uitgejouwd na WK-finale tussen Spanje en Argentinië",
+        "url": "https://www.nieuwsblad.be/buitenland/donald-trump-en-gianni-infantino-massaal-uitgejouwd-na-wk-finale-tussen-spanje-en-argentinie/158945163.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS en Iran beschieten elkaar opnieuw, Iran meldt aanval in Syrië - Trump: “We hebben Iran zeer hard aangevallen”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-vs-en-iran-beschieten-elkaar-opnieuw-iran-meldt-aanval-in-syrie-trump-we-hebben-iran-zeer-hard-aangevallen/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump en Gianni Infantino massaal uitgejouwd na WK-finale tussen Spanje en Argentinië",
+        "url": "https://www.gva.be/buitenland/donald-trump-en-gianni-infantino-massaal-uitgejouwd-na-wk-finale-tussen-spanje-en-argentinie/158945168.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump en Gianni Infantino massaal uitgejouwd na WK-finale tussen Spanje en Argentinië",
+        "url": "https://www.hbvl.be/sport/voetbal/donald-trump-en-gianni-infantino-massaal-uitgejouwd-na-wk-finale-tussen-spanje-en-argentinie/158945170.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Ga daar toch weg!\": Donald Trump eist toch weer de aandacht op met \"tragisch\" moment bij trofee-uitreiking",
+        "url": "https://sporza.be/nl/2026/07/19/-ga-daar-toch-weg-donald-trump-eist-toch-weer-de-aandacht-op-met-tragisch-moment-bij-trofee-uitreiking~1784484884463/",
+        "source": "sporza",
+        "name_only": true
+      },
+      {
+        "title": "Célébration de la victoire de l’Espagne à la Coupe du monde : Donald Trump tente de s’immiscer sur la photo",
+        "url": "https://www.rtbf.be/article/celebration-de-la-victoire-de-l-espagne-a-la-coupe-du-monde-donald-trump-tente-de-s-immiscer-sur-la-photo-11760398",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Coupe du monde 2026: Donald Trump et Gianni Infantino sifflés face au public (VIDEO)",
+        "url": "https://www.lalibre.be/sports/football/coupe-du-monde/2026/07/20/coupe-du-monde-2026-donald-trump-et-gianni-infantino-siffles-face-au-public-video-6SCTZ2LOOBDQFERQGK7IFNDJYA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump affirme frapper l'Iran \"très durement\" pour honorer la mémoire des Américains tués",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/07/20/direct-guerre-au-moyen-orient-trump-affirme-frapper-liran-tres-durement-pour-honorer-la-memoire-des-americains-tues-OM4STRIYJVCINNCWJDN6VSP5JE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le vice-président américain JD Vance annonce la naissance de son quatrième enfant",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/20/le-vice-president-americain-jd-vance-annonce-la-naissance-de-son-quatrieme-enfant-6BYYBW2HKZA4XOGEMWHRTD7OBA/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Coupe du monde 2026: Donald Trump et Gianni Infantino sifflés lors de leur arrivée sur la pelouse (VIDEO)",
+        "url": "https://www.dhnet.be/sports/football/coupe-du-monde/2026/07/20/coupe-du-monde-2026-donald-trump-et-gianni-infantino-siffles-lors-de-leur-arrivee-sur-la-pelouse-video-BUAUMUIUMFFKJO6OU6OOZ32HXE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump n'est pas totalement satisfait de son nouvel avion: \"Il a beaucoup de capacités, mais...\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/20/donald-trump-nest-pas-totalement-satisfait-de-son-nouvel-avion-il-a-beaucoup-de-capacites-mais-22BYJ2QJVNGRHCN72EDG5SRLGI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump et Gianni Infantino sifflés avant la remise du trophée",
+        "url": "https://www.7sur7.be/mondial/donald-trump-et-gianni-infantino-siffles-avant-la-remise-du-trophee~ac4f1673/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump assure frapper “très durement” l’Iran après la mort d’un nouveau soldat américain",
+        "url": "https://www.7sur7.be/monde/trump-assure-frapper-tres-durement-liran-apres-la-mort-dun-nouveau-soldat-americain~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump erkent: Air Force One tijdelijk aan de grond voor upgrade - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaTdHUFhjTnhUSm13dW0tVzM5SUJLN1R5X1F4MnlVdld5V3Z6ZHFPSVlqbEk0S0taVWFaM0NCUi1nWlNZeFh4Y2xoZGJ2TGFISDNIUDdwdHZRMGw0QVJTRTlyVng1aWlkY3JuZHZLaldZbWo2Z25yTzR1bFdBeFNnWFc1elhHZmF2Nm9DamJaMnFkaHUyd2JIaHJ2QXFwMGNFY0NPSU1GVUpVTGdmVmZzNVAxdDdyN1RzWkR6Y0VoVWdxNmJqZ3BvUl9lRkE?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Scène incroyable au moment de soulever le trophée : Gianni Infantino intervient pour éloigner Trump (vidéo) - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN3RzZ0ZHLXlrLUR0d25kUmdLUWlsTVFBYjJOWmhvaV8xMXR4cmVod3l6WjdKYUppb1BhRnVmV0hLVV9aSDNWQkNuNUcxQUFYVE1JSGxZRXJ6NHdvM2RoQTJTQ3poQmZ0UFpoUDdVTFhjMDlCU19WTDVmaWE0Nl9oTkFLaDlyRm9hYW9RYnhZZHZsSHRPNEl5aUhBNndrRjVlY0pCOHluVl9nYTBDeU1SVHdySUdiOHUzX1NWbWNYbGc0WWc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Ils vont le booster au maximum » : pourquoi le nouvel avion de Trump doit être révisé - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQjlid3hlU2poelpSX1J1Ulpwamlfci01V2Q0eU53OE0xX2k1THpQWkRkc1hhMG9lT1BXV1pWX2ZYTzJFRW5hblpUbktlak8yR2lhR29KUEVPMUsxZWJxOUd4a1NtUnMwYnF0VzRCTkNTQzVwTU5QdFd1dVlKSW5ERWpFV3RJS1lRVHJOQWxwUmpBY0cxbmlXU2lxUEdpWW1fZTZWNTIwWGRhM1Q0Y0t5RmpGdTdPSV93cHFEOXRPZw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump s'immisce dans la célébration du titre de l'Espagne à la Coupe du monde 2026, Gianni Infantino gêné (vidéo) - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPdE93b21WNGtCUG5yRTZQQjUxYWtVODJybU1ROG84b1BrcDUtME5kcXJmN05JQzc5ZEhtdG5GYTJoTS0wS1pPWkNQaXJ2d1o4U1RidThxdzU0cnlBZzdCTWtUQ1FNRzNMZmxRYTJfNEtRbGhKY2tlRElXMlJpUGFfOUhWamliNzRDZHBhZDl2ZTF2VXhsLVl3dmw4TWNSVFh5Ym03eFdteXR2cjNvdlVfLWZpVGUtZnlEWnRDLXZuYXlZNTVqZk0tV1pTS1lad0VhSmtId1ItZmI5ZHZabzZCYnJPSVhEOWwtcnhPbVR0SGNEQTJsNUctTzJMUXdjdkctMDdUR3Nla2ZRb2hwdHBvVjQtR1RTWFMycmFzdlM3c0tYd0VfUE9oRGtiTQ?oc=5",
+        "source": "lavenir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 24,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 34,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 20,
+      "crime": 9,
+      "eu": 10,
+      "politics": 21,
+      "be_gov": 11,
+      "culture": 5,
+      "tech": 3,
+      "economy": 2,
+      "sports": 63,
+      "health": 2,
+      "climate": 0,
+      "migration": 1,
+      "education": 0,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 27,
+      "crime": 11,
+      "eu": 12,
+      "politics": 30,
+      "be_gov": 16,
+      "culture": 6,
+      "tech": 4,
+      "economy": 3,
+      "sports": 88,
+      "health": 3,
+      "climate": 0,
+      "migration": 2,
+      "education": 0,
+      "weather": 9
+    }
   }
 ]
