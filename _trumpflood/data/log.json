@@ -61089,5 +61089,496 @@
       "education": 0,
       "weather": 9
     }
+  },
+  {
+    "date": "2026-07-21",
+    "generated_at": "2026-07-21T08:14:39+02:00",
+    "last_checked_at": "2026-07-21T08:14:39+02:00",
+    "total_articles": 217,
+    "trump_articles": 6,
+    "percentage": 2.8,
+    "core_percentage": 2.8,
+    "core_percentage_name": 2.8,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 2.8,
+    "indirect_references": 0,
+    "wide_total_articles": 279,
+    "wide_trump_articles": 9,
+    "wide_percentage": 3.2,
+    "wide_trump_articles_expanded": 9,
+    "wide_percentage_expanded": 3.2,
+    "macro_percentage": 3.4,
+    "qualifying_outlets": 11,
+    "core_outlets_total": 19,
+    "core_outlets_active": 13,
+    "active_core_fraction": 0.684,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 16.6,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.0,
+    "breadth": 0.38,
+    "deviation": 0.98,
+    "smoothed_pct": 3.27,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_politics": {
+        "fetched": 25,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 61,
+        "today": 13,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_tech": {
+        "fetched": 63,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 54,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 44,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 28,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 13,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 36,
+        "kept": 36,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.78
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 30,
+        "today": 5,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 29,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Met arrestatie in VS lijkt het net zich te sluiten rond Tate-broers, die zullen hopen op interventie van Trump",
+        "url": "https://www.demorgen.be/nieuws/met-arrestatie-in-vs-lijkt-het-net-zich-te-sluiten-rond-tate-broers-die-zullen-hopen-op-interventie-van-trump~b5d295ad/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump zet handelsoorlog met Canada voort en gaat importheffing verhogen naar 50 procent",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-zet-handelsoorlog-met-canada-voort-en-gaat-importheffing-verhogen-naar-50-procent~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS en Iran vallen elkaar opnieuw aan - Trump: “Iran zal boeten voor moord”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-vs-en-iran-vallen-elkaar-opnieuw-aan-trump-iran-zal-boeten-voor-moord/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump n’a-t-il plus sa place en direct à la télévision américaine ?",
+        "url": "https://www.rtbf.be/article/donald-trump-n-a-t-il-plus-sa-place-en-direct-a-la-television-americaine-11760472",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace le Canada de 50% de droits de douane - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMzlUOUJkbTZYVjBGYWtyODlDX1BSYWxrYllvbWlEcmFMUG04M2hjWDB4UHhIXzhIWDVETFdQYUh0eWlzb0NvV2R0UndPVElweVA5ZGtXbVJGYmdaWTJxOFQteXQ1dm1mQ3ltb2JMWW9QRVo3MHpDWG5GUFZuczRVZnNfdUJPTFdnYzUxODdsWVZ5Y056N2R2S2pSeWZQcU5HNFB0amVhdkNUQzdNekhiUFFPU21Ec01yNjhNOHRzRE40NGp3SXc?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace l’Iran après de nouvelles frappes, Téhéran parle de « guerre totale » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMzlYWlZZazJMYVI1Um1JYnBfTjRBb2ZOaGkxZ2sxWlVWUjNfTUxOeXk5ODQ2UFpQek83dkI1dzZ1MjJWbkNlWWY3eGRxenNPb2FsRU4xU3FEeGF3WW9WVVh5WnZaOGJzS0VvcmNRdnptMG9hQVVrRlg4djB0UDlKVmVNa1QyS3Z1SGsyU2drVDZxX2txVXM4MVR2X01MaW9GQUhtTmdsSmNhanlCcDFQTEFaWU1MX3FQN2NZOEpobjRtUQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "« Nous serons là pour l’aider » : Donald Trump affirme eu un « très bon » appel avec le nouveau Premier ministre britannique Andy Burnham - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN1h5ZkdqNzh4QV9DZzY3S21OaVJ1dXhWYmF1T3BCQUx0OTFhdEw4V1dXUG5rX2p1cFJiN3dwbFF4QWpNMGh0TkZoRnM2TU9qNHB1RndodzNuTTlSUTJtT0JnWjdDd3lRaXdpR3NuenV1Qkw2b1AwMjJaUnl0LWJsUzVVQlJlLXV5TTVCeGpxRU9oNHJ5SVc1S2c0Z2hKXzdZNENCSDllUVM0eXNIZk5Wa2FpdzdXVnF6NWkwMWNZeFRZUTBQLWZ3?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil ‘Truth-posts’ voor 1,2 miljoen dollar per jaar verkopen aan Wall Street: “Dit slaat echt alles” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMlZFWGJqVThkSmJBbUNBSDYxUC12MEJ6MW1LMUtzd2Z3NXNQU0NIM0Y1UEFqNzNXV2s5QnRsYTJ0SFpkSUtuOHRpaVdEZ2RxQmRRcTVmS3FGcWN1NkNQMkEtRWp2SXpCeU9yT2lJNF9HaU84Ti00dEZYQkhGQkVUOWQwMHV1OXljLWNKMTh3N1NHaUcxeHcta2ZBRFdmd19aNmtfUE5pWnRGWjlWRkd4MUlFMTkyX0VlZ2xldTVydUtoWkp3RUc4akI4ODVGaS1Gb2pXTGVYdDdzRUVlT2RMdFNOUQ?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Met arrestatie in VS lijkt het net zich te sluiten rond Tate-broers, die zullen hopen op interventie van Trump",
+        "url": "https://www.demorgen.be/nieuws/met-arrestatie-in-vs-lijkt-het-net-zich-te-sluiten-rond-tate-broers-die-zullen-hopen-op-interventie-van-trump~b5d295ad/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump zet handelsoorlog met Canada voort en gaat importheffing verhogen naar 50 procent",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-zet-handelsoorlog-met-canada-voort-en-gaat-importheffing-verhogen-naar-50-procent~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS en Iran vallen elkaar opnieuw aan - Trump: “Iran zal boeten voor moord”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-vs-en-iran-vallen-elkaar-opnieuw-aan-trump-iran-zal-boeten-voor-moord/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. VS en Iran vallen elkaar opnieuw aan - Trump: “Iran zal boeten voor moord”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-vs-en-iran-vallen-elkaar-opnieuw-aan-trump-iran-zal-boeten-voor-moord/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump n’a-t-il plus sa place en direct à la télévision américaine ?",
+        "url": "https://www.rtbf.be/article/donald-trump-n-a-t-il-plus-sa-place-en-direct-a-la-television-americaine-11760472",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace le Canada de 50% de droits de douane - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMzlUOUJkbTZYVjBGYWtyODlDX1BSYWxrYllvbWlEcmFMUG04M2hjWDB4UHhIXzhIWDVETFdQYUh0eWlzb0NvV2R0UndPVElweVA5ZGtXbVJGYmdaWTJxOFQteXQ1dm1mQ3ltb2JMWW9QRVo3MHpDWG5GUFZuczRVZnNfdUJPTFdnYzUxODdsWVZ5Y056N2R2S2pSeWZQcU5HNFB0amVhdkNUQzdNekhiUFFPU21Ec01yNjhNOHRzRE40NGp3SXc?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace l’Iran après de nouvelles frappes, Téhéran parle de « guerre totale » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMzlYWlZZazJMYVI1Um1JYnBfTjRBb2ZOaGkxZ2sxWlVWUjNfTUxOeXk5ODQ2UFpQek83dkI1dzZ1MjJWbkNlWWY3eGRxenNPb2FsRU4xU3FEeGF3WW9WVVh5WnZaOGJzS0VvcmNRdnptMG9hQVVrRlg4djB0UDlKVmVNa1QyS3Z1SGsyU2drVDZxX2txVXM4MVR2X01MaW9GQUhtTmdsSmNhanlCcDFQTEFaWU1MX3FQN2NZOEpobjRtUQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 9,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 15,
+      "crime": 7,
+      "eu": 9,
+      "politics": 5,
+      "be_gov": 7,
+      "culture": 5,
+      "tech": 3,
+      "economy": 2,
+      "sports": 15,
+      "health": 1,
+      "climate": 1,
+      "migration": 0,
+      "education": 0,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 19,
+      "crime": 11,
+      "eu": 10,
+      "politics": 8,
+      "be_gov": 7,
+      "culture": 5,
+      "tech": 4,
+      "economy": 2,
+      "sports": 19,
+      "health": 2,
+      "climate": 1,
+      "migration": 0,
+      "education": 0,
+      "weather": 9
+    }
   }
 ]
