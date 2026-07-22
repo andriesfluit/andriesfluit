@@ -61580,5 +61580,562 @@
       "education": 0,
       "weather": 9
     }
+  },
+  {
+    "date": "2026-07-22",
+    "generated_at": "2026-07-22T08:13:34+02:00",
+    "last_checked_at": "2026-07-22T08:13:34+02:00",
+    "total_articles": 293,
+    "trump_articles": 11,
+    "percentage": 3.8,
+    "core_percentage": 3.8,
+    "core_percentage_name": 3.8,
+    "trump_articles_expanded": 11,
+    "core_percentage_expanded": 3.8,
+    "indirect_references": 0,
+    "wide_total_articles": 405,
+    "wide_trump_articles": 15,
+    "wide_percentage": 3.7,
+    "wide_trump_articles_expanded": 15,
+    "wide_percentage_expanded": 3.7,
+    "macro_percentage": 3.9,
+    "qualifying_outlets": 13,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 48,
+    "cross_outlet_dup_groups": 24,
+    "cross_outlet_dup_rate": 16.4,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.79,
+    "breadth": 0.56,
+    "deviation": 1.38,
+    "smoothed_pct": 3.6,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_nl_politics": {
+        "fetched": 42,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_world": {
+        "fetched": 67,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 54,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 24,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_fr_world": {
+        "fetched": 49,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 46,
+        "today": 2,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 12,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 45,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 16,
+        "kept": 16,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 18.75
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 39,
+        "kept": 39,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 55,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 31,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Fiere Puerto Ricaan en forse Trump-criticus: maak kennis met rapper Bad Bunny die vanavond in Brussel optreedt",
+        "url": "https://vrtnws.be/p.dLe00njAY",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Van voetbalinfluencers tot Infantino en Trump: veel quantité négligeable op het WK - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSFNjaUFOanRjOG9fVEhmR0Z2X2NpV0lxUE5NaXd3N0tXZXd3bUdfdkFJdzEwX1gyMWtEcEFaZ0l0c1ZUSTV1cHB6Z3RtWVhPYTFrcDg3SkdrY3JwNDR6UmxCUjVqakR2ZE11Y2xGMXJMV0JIWWxrelVKMmRvRHhkcVRscUR3Ry1lemxLdGd3dW5TVUdMclpXOEZrV2duRWZITF96NWNabWJnR3VKTDNBekk2WHdqMFdtWEdYdXBWX0UxU3c1U0RKbA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Enkele dagen na explosieve toespraak minimaliseert Trump vermeende verkiezingsinmenging door China alweer",
+        "url": "https://www.hln.be/buitenland/enkele-dagen-na-explosieve-toespraak-minimaliseert-trump-vermeende-verkiezingsinmenging-door-china-alweer~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "▶ Burgemeester van New York roept Trump-regering op om Netanyahu te arresteren tijdens VN-top",
+        "url": "https://www.demorgen.be/snelnieuws/burgemeester-van-new-york-roept-trump-regering-op-om-netanyahu-te-arresteren-tijdens-vn-top~b4b25979/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Andy Burnhams regering: een Trump-criticus op Buitenland en een tweede kans voor een ontslagen minister",
+        "url": "https://www.demorgen.be/nieuws/andy-burnhams-regering-een-trump-criticus-op-buitenland-en-een-tweede-kans-voor-een-ontslagen-minister~b75a9aef/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Canada zegt gezamenlijke opening brug met VS af vanwege Trumps nieuwe importtarieven",
+        "url": "https://www.demorgen.be/snelnieuws/live-canada-zegt-gezamenlijke-opening-brug-met-vs-af-vanwege-trumps-nieuwe-importtarieven~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump lance une nouvelle offensive commerciale contre les médicaments génériques importés",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/22/donald-trump-lance-une-nouvelle-offensive-commerciale-contre-les-medicaments-generiques-importes-B5LBIPP7LZA2FEIGITJNB626ZI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce des droits de douane de 100% sur les médicaments génériques à partir d’août 2028",
+        "url": "https://www.7sur7.be/monde/trump-annonce-des-droits-de-douane-de-100-sur-les-medicaments-generiques-a-partir-daout-2028~a430c030/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump zet licht op groen voor omstreden nucleaire deal met Saoedi-Arabië - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTFJWbXZrd1lUV2tjMWpjM1VWcFhlTHJsUjFkUWtuNUFWdzQyaTE5OVdhRVpWSnFkWVVpNTFsZTRNcmpqVVR2bWVaM042SmRjTllyZlJycVJ2QUJONHVRZDBVd2tTUkJseUNLRmU5MTdzU1BrcXZNcGNlRHZRb3c1bl80cjRhUExJcnZ0bzh0ZWxJZTd5a2puN2dxbVAtSmk4aDdON0N1cEs1LUF0czhOWWlNRjJyaGU2bUF5R0d3TFlWUTlKLXdIcHNRVE9DeldDV21RX2hRc19KVHowNE95THE0QkNpc2ky?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelles frappes américaines en Iran, Trump n’en a « pas fini du tout » avec la guerre - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZEFHeFNPZjI2VDRLazJqdkRodmRqUWl3c0l2UGNHXzBaVzB4Ym9EVTRCVzVRTTNRY1ZHWl9ieU05NnlscUJUdFJBZXlMYTRFSFktTGgtM3ZOOEU0enNZWjVlOUZhZmlyTFNHY1JwQl9JeFFWUjBqQ2NWc0dwX2p2T1VjQ3o5d2NVUXBKQk96d3V5T0E3WnF6S21lS2k4OEttTk53TTRUTjRlOFhLaWNJYTdXWUlRNEl4U2hPazFwTE8wSDNGZ3c?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : le maire de New York appelle les Etats-Unis à arrêter Benjamin Netanyahu, Donald Trump lui répond ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc2F0TDVRWmFxNDJOVlFEemo0eFFEUG1sMHlSeFdISDdIMVdrU0hiX3VXamctcVlySEZ5azNEQUx0WVVuOUtmUkl0cXQ3QVZ6NDh5SXFzLU5DZDExM0Z0MlZpYzFyQkh3TUt2MEUzRzJjR3FrRlcxSjBORGlkVDV3b0JWXzBEODE2bEFJS3VxSUgyaTF3YmVVOUlRamU0bE8weDlleEJ4UHlWYTk5R0pZMHRTUUltazFtdWhseWJqbHViTEZr?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "La grosse annonce de Donald Trump cette nuit : les médicaments génériques seront soumis à des droits de douane de 100 % à partir d’août 2028 - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQkRaWnpXbGl6Y0ZZakhyalNEc3JaOW9adXI4a1lzb0JHZXcyNXJrYkdJSE1lWDA5MF9CSkV6ZDdqVFZEM0oxY0JSbVZJcTkzZ1FkLV85Y0tMVG1wZ0tFa2ZlWTZTVmFDa09YLXRNVDZLWnJpT0J0MkVyZjZWWUI0eVhjLU5yLXBTRTI5Z1ZUeVlVUGVleVRhT1J5MXV6STFURHY3aWNWQVp0eHF3dTJPX0JfVW1wVWtQN2xDd0liY0gxMFBZWHRUSEhB?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Andy Burnhams regering: een Trump-criticus op Buitenland en een tweede kans voor een ontslagen minister - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT2VYaWJSTG45UFlsQkJ1Z0JLVGdFXzJPOTdsWW0wYnlJOXI0WFpYanRCYWJVbjgxQ1BFYmhhOGdBdEw3WnAwUWxLN2hJSFh3Z0pfTks5TWo3MTN0bG1QSVRGUnhNdlBZczI5SlhyZEhqb3BGaGlCYXdwdVJBOHhRUlZRdWR6dTlkYWlTRFAzc3dHN3owTW1qMVh4QU02Z2s1SmJPby1kSmhreTVNTnMzOVRjSEhpNEs1VlJYMDNaWXhOcUlxSDg2Tml5QmV5Qm9nV1BFUE1GLXFSSXM?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump approuve un accord nucléaire avec l’Arabie saoudite - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ1JsUWRUbGtMWEhnTHp4czBlRV9ad3EtNE4yWHZrcjhzeHcwa3pqS2tRc0s3MFNxMkdXeGVNZ2hGZng3N2tqVGJmemxhQ0ZoWExyaUhydXRUVElvZllpUEdrLU9XMFhtLTRQLUhIZ1FxdWNYWEJjY05HVzc2MDB3QjdLNWRBZXh2Vm5zMG1qZjdWVlNSUGdmQ3NPbW5mZklJd3ZTcVhGRXVWYXh1NEMtQWFNaDVuVlFzWWlURXFjYmo?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "La grosse annonce de Donald Trump cette nuit : les médicaments génériques seront soumis à des droits de douane de 100 % à partir d’août 2028 - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYTNtcHd1VVVZNVR0WGpETFBFVVRzZU15Yk80cEFQdk1hak1wMHQ0VWNGMWhPQ1ZhclN0bE9oT0FfX0I0YTUzSnNkeWFOMGtQWThuTENvenM4SWNmT0lwNEF0MVFzU2tUZHNzSFEtcUZSMXFBN0RReUpQWWlURS1Cak5ISC1fN3NWbFhmZ0Z4TkpQXzZWUC1pcVZCY0xubzBDUVBJZ3gxOFFkMHNIT21MVUlvbG1EaGY1NkF1Z2RaZkJDUzVtZnZxSlJIUUFacW41NE5NNkYtOW1yXzJKQUUyQ1BB?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Fiere Puerto Ricaan en forse Trump-criticus: maak kennis met rapper Bad Bunny die vanavond in Brussel optreedt",
+        "url": "https://vrtnws.be/p.dLe00njAY",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Van voetbalinfluencers tot Infantino en Trump: veel quantité négligeable op het WK - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSFNjaUFOanRjOG9fVEhmR0Z2X2NpV0lxUE5NaXd3N0tXZXd3bUdfdkFJdzEwX1gyMWtEcEFaZ0l0c1ZUSTV1cHB6Z3RtWVhPYTFrcDg3SkdrY3JwNDR6UmxCUjVqakR2ZE11Y2xGMXJMV0JIWWxrelVKMmRvRHhkcVRscUR3Ry1lemxLdGd3dW5TVUdMclpXOEZrV2duRWZITF96NWNabWJnR3VKTDNBekk2WHdqMFdtWEdYdXBWX0UxU3c1U0RKbA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Enkele dagen na explosieve toespraak minimaliseert Trump vermeende verkiezingsinmenging door China alweer",
+        "url": "https://www.hln.be/buitenland/enkele-dagen-na-explosieve-toespraak-minimaliseert-trump-vermeende-verkiezingsinmenging-door-china-alweer~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "▶ Burgemeester van New York roept Trump-regering op om Netanyahu te arresteren tijdens VN-top",
+        "url": "https://www.demorgen.be/snelnieuws/burgemeester-van-new-york-roept-trump-regering-op-om-netanyahu-te-arresteren-tijdens-vn-top~b4b25979/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Andy Burnhams regering: een Trump-criticus op Buitenland en een tweede kans voor een ontslagen minister",
+        "url": "https://www.demorgen.be/nieuws/andy-burnhams-regering-een-trump-criticus-op-buitenland-en-een-tweede-kans-voor-een-ontslagen-minister~b75a9aef/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Canada zegt gezamenlijke opening brug met VS af vanwege Trumps nieuwe importtarieven",
+        "url": "https://www.demorgen.be/snelnieuws/live-canada-zegt-gezamenlijke-opening-brug-met-vs-af-vanwege-trumps-nieuwe-importtarieven~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump lance une nouvelle offensive commerciale contre les médicaments génériques importés",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/22/donald-trump-lance-une-nouvelle-offensive-commerciale-contre-les-medicaments-generiques-importes-B5LBIPP7LZA2FEIGITJNB626ZI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce des droits de douane de 100% sur les médicaments génériques à partir d’août 2028",
+        "url": "https://www.7sur7.be/monde/trump-annonce-des-droits-de-douane-de-100-sur-les-medicaments-generiques-a-partir-daout-2028~a430c030/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump zet licht op groen voor omstreden nucleaire deal met Saoedi-Arabië - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTFJWbXZrd1lUV2tjMWpjM1VWcFhlTHJsUjFkUWtuNUFWdzQyaTE5OVdhRVpWSnFkWVVpNTFsZTRNcmpqVVR2bWVaM042SmRjTllyZlJycVJ2QUJONHVRZDBVd2tTUkJseUNLRmU5MTdzU1BrcXZNcGNlRHZRb3c1bl80cjRhUExJcnZ0bzh0ZWxJZTd5a2puN2dxbVAtSmk4aDdON0N1cEs1LUF0czhOWWlNRjJyaGU2bUF5R0d3TFlWUTlKLXdIcHNRVE9DeldDV21RX2hRc19KVHowNE95THE0QkNpc2ky?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelles frappes américaines en Iran, Trump n’en a « pas fini du tout » avec la guerre - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZEFHeFNPZjI2VDRLazJqdkRodmRqUWl3c0l2UGNHXzBaVzB4Ym9EVTRCVzVRTTNRY1ZHWl9ieU05NnlscUJUdFJBZXlMYTRFSFktTGgtM3ZOOEU0enNZWjVlOUZhZmlyTFNHY1JwQl9JeFFWUjBqQ2NWc0dwX2p2T1VjQ3o5d2NVUXBKQk96d3V5T0E3WnF6S21lS2k4OEttTk53TTRUTjRlOFhLaWNJYTdXWUlRNEl4U2hPazFwTE8wSDNGZ3c?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : le maire de New York appelle les Etats-Unis à arrêter Benjamin Netanyahu, Donald Trump lui répond ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc2F0TDVRWmFxNDJOVlFEemo0eFFEUG1sMHlSeFdISDdIMVdrU0hiX3VXamctcVlySEZ5azNEQUx0WVVuOUtmUkl0cXQ3QVZ6NDh5SXFzLU5DZDExM0Z0MlZpYzFyQkh3TUt2MEUzRzJjR3FrRlcxSjBORGlkVDV3b0JWXzBEODE2bEFJS3VxSUgyaTF3YmVVOUlRamU0bE8weDlleEJ4UHlWYTk5R0pZMHRTUUltazFtdWhseWJqbHViTEZr?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 11,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 7,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 15,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 9,
+      "zelensky": 5,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 18,
+      "crime": 2,
+      "eu": 9,
+      "politics": 12,
+      "be_gov": 8,
+      "culture": 9,
+      "tech": 8,
+      "economy": 5,
+      "sports": 20,
+      "health": 2,
+      "climate": 11,
+      "migration": 0,
+      "education": 2,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 23,
+      "crime": 4,
+      "eu": 13,
+      "politics": 17,
+      "be_gov": 9,
+      "culture": 12,
+      "tech": 9,
+      "economy": 6,
+      "sports": 32,
+      "health": 3,
+      "climate": 14,
+      "migration": 0,
+      "education": 2,
+      "weather": 11
+    }
   }
 ]
