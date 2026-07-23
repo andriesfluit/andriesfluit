@@ -62137,5 +62137,478 @@
       "education": 2,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-07-23",
+    "generated_at": "2026-07-23T08:17:40+02:00",
+    "last_checked_at": "2026-07-23T08:17:40+02:00",
+    "total_articles": 320,
+    "trump_articles": 4,
+    "percentage": 1.2,
+    "core_percentage": 1.2,
+    "core_percentage_name": 1.2,
+    "trump_articles_expanded": 4,
+    "core_percentage_expanded": 1.2,
+    "indirect_references": 0,
+    "wide_total_articles": 418,
+    "wide_trump_articles": 8,
+    "wide_percentage": 1.9,
+    "wide_trump_articles_expanded": 8,
+    "wide_percentage_expanded": 1.9,
+    "macro_percentage": 2.2,
+    "qualifying_outlets": 14,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 52,
+    "cross_outlet_dup_groups": 25,
+    "cross_outlet_dup_rate": 16.2,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.57,
+    "breadth": 0.24,
+    "deviation": 0.44,
+    "smoothed_pct": 3.46,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 13,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_politics": {
+        "fetched": 42,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 65,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_tech": {
+        "fetched": 52,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 64,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 35,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 59,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 61,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 37,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.22
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 36,
+        "kept": 36,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.78
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 38,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 48,
+        "today": 4,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump viseert nu ook generische geneesmiddelen: wat betekent dat voor de Belgische farmasector en onze medicijnprijzen?",
+        "url": "https://www.demorgen.be/nieuws/trump-viseert-nu-ook-generische-geneesmiddelen-wat-betekent-dat-voor-de-belgische-farmasector-en-onze-medicijnprijzen~b11e6bdd/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump sluit nucleaire deal met Saudi-Arabië, en experts zijn er niet gerust op",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-sluit-nucleaire-deal-met-saudi-arabie-en-experts-zijn-er-niet-gerust-op/159037034.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump sluit nucleaire deal met Saudi-Arabië, en experts zijn er niet gerust op",
+        "url": "https://www.hbvl.be/buitenland/trump-sluit-nucleaire-deal-met-saudi-arabie-en-experts-zijn-er-niet-gerust-op/159079363.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump conclut un accord pour développer le nucléaire civil en Arabie saoudite, en plein conflit avec l’Iran",
+        "url": "https://www.rtbf.be/article/donald-trump-conclut-un-accord-pour-developper-le-nucleaire-civil-en-arabie-saoudite-en-plein-conflit-avec-l-iran-11761533",
+        "source": "rtbf",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump sluit nucleaire deal met Saudi-Arabië, en experts zijn er niet gerust op - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNamZYSFF3a0wtOFdFZ3Y3RFAwbVl3bFJQcU1lcGs2SEt4cERfdHg3d2lWMmNrNVE2WXZpN0JQbVh5Q3ZIaXNFa1hldy1pYzBrQUZhWFlqY1NQTnBkMmRpM3Fob085dzR0N3QySU1RLWJCcHdnTS1INlJTcGh2SkF6VkhDREw5TG8wV0o4TkFPSDN2dmhmZlRUVWE1cmpvc0JYZTFvRjg5QWkxdmpJZkxONlQxY1RaeVAtcXNrb1NxcnRVbDdqQ05DUg?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump conclut un accord pour développer le nucléaire civil en Arabie saoudite, en plein conflit avec l’Iran - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQTIwdDJXdFhmMEFIdEx1aDcwRGRNaDZHT3Q1VVltUmxvWnU2S040VDV2eDVYZFZic0hCVFpDajNYdUNtQXRKV096bFpiNE1qR1pZeXVKMmNQUVAwa05zaEFFdVduSU5INEVIS0M3MDM0TlR1cXJXUmVfQzFGNE9UaHhTY09KLVI1ZEdFLXNZT01NbkhET0ROdlFlSnZyTnlSeUdZY281R0hldms?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "VS betaalden al tientallen miljarden illegale Trump-tarieven terug (maar blijven ook koppig tegenwerken) - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNV2FzOTJuaGsxQ3hqUlVpOU9DNUotN2dKR1dRNGhRR0ZzXzFacnJFSkNHSE9FYWtzNUpQbE1kb0JONW9SLUJSZWRRb0txdjdweXNianV4SlV4ZlRXa1VOdVBtNmVGWDc0eWZlSG1NVklVMjRJT0xPdEE4M003ZUhvd1pxdFd4dG9IeTRmeHk0LTY3aDJZSXJZTURzUENZaGJ5Rkc4LXVUajdVdVFoM2IzTThVSWtaaUk1X0JIekJxOUhEUU5YSVVfVDcyYzNBREczNmw4QXVZYWxtd1Z3N29rdFRrVzZ2UQ?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Trump viseert nu ook generische geneesmiddelen: wat betekent dat voor de Belgische farmasector en onze medicijnprijzen?",
+        "url": "https://www.demorgen.be/nieuws/trump-viseert-nu-ook-generische-geneesmiddelen-wat-betekent-dat-voor-de-belgische-farmasector-en-onze-medicijnprijzen~b11e6bdd/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump sluit nucleaire deal met Saudi-Arabië, en experts zijn er niet gerust op",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-sluit-nucleaire-deal-met-saudi-arabie-en-experts-zijn-er-niet-gerust-op/159037034.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump sluit nucleaire deal met Saudi-Arabië, en experts zijn er niet gerust op",
+        "url": "https://www.gva.be/buitenland/trump-sluit-nucleaire-deal-met-saudi-arabie-en-experts-zijn-er-niet-gerust-op/159068863.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump sluit nucleaire deal met Saudi-Arabië, en experts zijn er niet gerust op",
+        "url": "https://www.hbvl.be/buitenland/trump-sluit-nucleaire-deal-met-saudi-arabie-en-experts-zijn-er-niet-gerust-op/159079363.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump conclut un accord pour développer le nucléaire civil en Arabie saoudite, en plein conflit avec l’Iran",
+        "url": "https://www.rtbf.be/article/donald-trump-conclut-un-accord-pour-developper-le-nucleaire-civil-en-arabie-saoudite-en-plein-conflit-avec-l-iran-11761533",
+        "source": "rtbf",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 4,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 8,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 5,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 4,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 18,
+      "crime": 5,
+      "eu": 15,
+      "politics": 12,
+      "be_gov": 10,
+      "culture": 8,
+      "tech": 8,
+      "economy": 6,
+      "sports": 18,
+      "health": 5,
+      "climate": 10,
+      "migration": 0,
+      "education": 0,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 24,
+      "crime": 9,
+      "eu": 24,
+      "politics": 19,
+      "be_gov": 13,
+      "culture": 10,
+      "tech": 12,
+      "economy": 8,
+      "sports": 24,
+      "health": 8,
+      "climate": 16,
+      "migration": 0,
+      "education": 0,
+      "weather": 11
+    }
   }
 ]
