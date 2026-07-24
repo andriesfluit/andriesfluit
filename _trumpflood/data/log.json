@@ -62766,5 +62766,562 @@
       "education": 5,
       "weather": 19
     }
+  },
+  {
+    "date": "2026-07-24",
+    "generated_at": "2026-07-24T08:12:01+02:00",
+    "last_checked_at": "2026-07-24T08:12:01+02:00",
+    "total_articles": 343,
+    "trump_articles": 12,
+    "percentage": 3.5,
+    "core_percentage": 3.5,
+    "core_percentage_name": 3.5,
+    "trump_articles_expanded": 12,
+    "core_percentage_expanded": 3.5,
+    "indirect_references": 0,
+    "wide_total_articles": 445,
+    "wide_trump_articles": 14,
+    "wide_percentage": 3.1,
+    "wide_trump_articles_expanded": 14,
+    "wide_percentage_expanded": 3.1,
+    "macro_percentage": 3.6,
+    "qualifying_outlets": 15,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 44,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 12.8,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.33,
+    "breadth": 0.47,
+    "deviation": 1.27,
+    "smoothed_pct": 3.17,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 36,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_tech": {
+        "fetched": 55,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 54,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 41,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 52,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 68,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 28,
+        "kept": 28,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.71
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 15,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 42,
+        "kept": 42,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 36,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "De vijverblues van Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYS05amxTcmhjb1FJZ3NKZHNhcUJzWFprcUhMLUlnZU1uVWhXZGk1NFY0U0hQdWdJU2hVT0JiVlNZZ0lLaUtIZ0VTZnlQR0VpSnp1YlQwNzhWbHMtMGJRZ0ItNnZsWW1Jb094dW5LX0RhOUlHbTlxSU1GWkhiTWdRUWIyYzI1YXdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump legt 60 handelspartners nieuwe invoerheffingen op, EU-buitenlandchef Kallas vraagt opheldering",
+        "url": "https://www.hln.be/economie/trump-legt-60-handelspartners-nieuwe-invoerheffingen-op-eu-buitenlandchef-kallas-vraagt-opheldering~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump won, bijna 1 miljoen anderen verloren op de beurs: geldexpert duikt in de presidentiële posts die veel beleggers armer maakten",
+        "url": "https://www.hln.be/mijn-geld/trump-won-bijna-1-miljoen-anderen-verloren-op-de-beurs-geldexpert-duikt-in-de-presidentiele-posts-die-veel-beleggers-armer-maakten~a20f1c94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "VS bestookten Iran voor dertiende nacht op rij - Trump: “Teheran betaalt vanaf nu zelf voor schade die wordt toegebracht aan scheepvaart”",
+        "url": "https://www.hln.be/buitenland/vs-bestookten-iran-voor-dertiende-nacht-op-rij-trump-teheran-betaalt-vanaf-nu-zelf-voor-schade-die-wordt-toegebracht-aan-scheepvaart~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Dissidente Antwerpse rabbijn dient klacht in tegen Trump na cadeau van Antwerpse diamantsector: ‘Regelrecht geval van omkoping’",
+        "url": "https://www.demorgen.be/snelnieuws/dissidente-antwerpse-rabbijn-dient-klacht-in-tegen-trump-na-cadeau-van-antwerpse-diamantsector-regelrecht-geval-van-omkoping~b815ced1/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS vallen Iran aan voor dertiende nacht op rij • Trump: ‘Iran betaalt vanaf nu zelf voor schade die wordt toegebracht aan scheepvaart’",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-vallen-iran-aan-voor-dertiende-nacht-op-rij-trump-iran-betaalt-vanaf-nu-zelf-voor-schade-die-wordt-toegebracht-aan-scheepvaart~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live Spanningen Midden-Oosten: Axios: Trump overweegt \"massale aanval\" op Iran - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTN3NkljQklvaFNZbk1hU1ZBYXRxd3dJbmNESDFVT1BoWnRfVWJUNGM1dkwwZVdFcjVNOXZxVk5LQ3F1M0FtNUQ0aE50Z2E2SGhtS1V6UFZaa1pidUdYVGxXVHhMTW96c19zUXRBNEhsSW9PQUttM2hONk9yYVRkUmRja2N3MXlfajVUUEViMWlQaS1zWjRFaVJpZmlwcWhuOGdQQkp6aGVSNHQwdUhEY0hWVGI1VFdYenc?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Nouveaux droits de douane de Trump : les pays visés, dont l’UE, dénoncent une décision \"injustifiée\"",
+        "url": "https://www.rtbf.be/article/nouveaux-droits-de-douane-de-trump-les-pays-vises-dont-l-ue-denoncent-une-decision-injustifiee-11762014",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "L’Iran devra rembourser les dommages infligés aux navires à Ormuz, lance Trump",
+        "url": "https://www.rtbf.be/article/l-iran-devra-rembourser-les-dommages-infliges-aux-navires-a-ormuz-lance-trump-11762001",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Donald Trump veut utiliser des fonds iraniens pour réparer les navires détruits à Ormuz - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMkR2OVdjdkVDX1Q5VVpfWTVHSExScWhLYTFpWkxvQThwU3d6UVZWeXhHSU04OHNaeDFQWTRjMkJURE5vQjlvNUVMQWxxcWIxaHlSaEJvSlRDRUxTTW5HdndqOVZhdHBRTDh0TWk5dlYtbkdwNFhHb2Y4UDVlSVVPcDJJbGFtaDNPTDkzRVc3bzZYLVhldGxFeHBteTlncnpzXy15Q3VFWXp0UEg3cEJ0MXNjVTdHRk9aczJYSkQxeWU4OWwyVGVqN1JnTWVUMy1QdHdRajIzbWlMS2JjTmhHUWZfUDJpVFBWS1RjWldPQmlvTVhIMkVv?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "« Totalement injustifié », « il fait grimper les coûts », « ce n’est pas la solution »… : de nombreux pays sous le choc après la nouvelle annonce explosive de Donald Trump cette nuit - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbW9wU3NDLWlJQ0Rxa0RpMjkyYVFWQklxY0YwbnBxLU9pMk9SY1pTcS1fRU1fekwtM3FoeEV3Mjk0Y1BJdEdoR2JuX0swQVh4bWlYbGRLVU1YNElkbWhLUFJCRnp3VlAtMDhTaTFSOEVDc2dWQmltaFFwNXEtZVg0MEtzc0dFYnpTTUtwSThHR3E4bmxJMjRrZ0ZYWlEyVkhiblpYSUdOWlFwTXpGaTh3WjJLVTNFbk1yUTE1Y1Fmb0tGTk9F?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "L'accord conclu par Donald Trump avec l'Arabie saoudite risque d'entraîner une prolifération nucléaire - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOXBtT1JISWNGSmExY054Z296a1lkdmRiZUhZNm93VmM0azZtU1RrcV94a3BjX2l4bUc3MWZHSTJNdFVSWWpzVWxJbHZYbU5jcEZHTDNfVVUtUmpOMHoyVEV4dGoweHhkUmpsbi1BVlJNYXZ0RTQwdnpQd19sU1JXb3A2U2NjZ2l4S2tLRlFzQk93Nmd4UHIydHBxYkN5QklpLS16ZWQtaHhBeDc3S1Rsc1ozdTFiaG9VbGlFSWxxdDBOa1Z1dnBKZ2Z1WHlta08wbi14SFlaSkd4OGZ6TWUyOQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump overweegt massale aanval op Iran: “Ik sta op het punt om een besluit te nemen” | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQVRjOEJ5NkpjaU9PSHIxOTZsRE5SX2F0Y09qUmRTTEo2WnYyalhETGcxRVFaZjRZRDJ4VGo2MHJraTJsWWN4dGdSVUVJVFVwQlBIZXllTHJSdEI4UVc2elJzNHE0M0djMkYzcTV3YzhvbDhlZTNuWDZ6VDNQR1MzQmFqcEVrOVJCc0xoQUs4bFBvb3p1NWxOaFllX3ZFVGlOWFo2czRqTG9QckoxeXNoSEpqX2M5MDROdnQ3RE5B?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump won, bijna 1 miljoen anderen verloren op de beurs: geldexpert duikt in de presidentiële posts die veel beleggers armer maakten - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOaEc0N013cllhZjE3MTJRZnQ2SmdkczJvLVV1ZDEzZFVoUzk1eVZ4eVk5UVlZMkdHR09ickZVMkF4bHdWSkNTT0dXb1MyZzJoOFJMMHpfNE5OV2lSemtEQXAybnZCbWlCR0NKYWdzWV92dEozTnh2aE9iLVRhZ3FtdW1zREhpYXhGZkVlOVcyQklPRWxZMUFnOU5fN2FXUW1HNlBoSU1rTjFGRFFCR0hxS19ub0tCbHc5U0llRFlzd0NjYWFrNXVMS2ttUEFNc3N6NW1IYUlFSERlTzFwVHczZTMxeVpNeU1wYnZmYW45eHYtWEJFc3R4RUh4OUswQQ?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "De vijverblues van Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYS05amxTcmhjb1FJZ3NKZHNhcUJzWFprcUhMLUlnZU1uVWhXZGk1NFY0U0hQdWdJU2hVT0JiVlNZZ0lLaUtIZ0VTZnlQR0VpSnp1YlQwNzhWbHMtMGJRZ0ItNnZsWW1Jb094dW5LX0RhOUlHbTlxSU1GWkhiTWdRUWIyYzI1YXdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump legt 60 handelspartners nieuwe invoerheffingen op, EU-buitenlandchef Kallas vraagt opheldering",
+        "url": "https://www.hln.be/economie/trump-legt-60-handelspartners-nieuwe-invoerheffingen-op-eu-buitenlandchef-kallas-vraagt-opheldering~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump won, bijna 1 miljoen anderen verloren op de beurs: geldexpert duikt in de presidentiële posts die veel beleggers armer maakten",
+        "url": "https://www.hln.be/mijn-geld/trump-won-bijna-1-miljoen-anderen-verloren-op-de-beurs-geldexpert-duikt-in-de-presidentiele-posts-die-veel-beleggers-armer-maakten~a20f1c94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "VS bestookten Iran voor dertiende nacht op rij - Trump: “Teheran betaalt vanaf nu zelf voor schade die wordt toegebracht aan scheepvaart”",
+        "url": "https://www.hln.be/buitenland/vs-bestookten-iran-voor-dertiende-nacht-op-rij-trump-teheran-betaalt-vanaf-nu-zelf-voor-schade-die-wordt-toegebracht-aan-scheepvaart~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Dissidente Antwerpse rabbijn dient klacht in tegen Trump na cadeau van Antwerpse diamantsector: ‘Regelrecht geval van omkoping’",
+        "url": "https://www.demorgen.be/snelnieuws/dissidente-antwerpse-rabbijn-dient-klacht-in-tegen-trump-na-cadeau-van-antwerpse-diamantsector-regelrecht-geval-van-omkoping~b815ced1/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS vallen Iran aan voor dertiende nacht op rij • Trump: ‘Iran betaalt vanaf nu zelf voor schade die wordt toegebracht aan scheepvaart’",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-vallen-iran-aan-voor-dertiende-nacht-op-rij-trump-iran-betaalt-vanaf-nu-zelf-voor-schade-die-wordt-toegebracht-aan-scheepvaart~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live Spanningen Midden-Oosten: Axios: Trump overweegt \"massale aanval\" op Iran - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTN3NkljQklvaFNZbk1hU1ZBYXRxd3dJbmNESDFVT1BoWnRfVWJUNGM1dkwwZVdFcjVNOXZxVk5LQ3F1M0FtNUQ0aE50Z2E2SGhtS1V6UFZaa1pidUdYVGxXVHhMTW96c19zUXRBNEhsSW9PQUttM2hONk9yYVRkUmRja2N3MXlfajVUUEViMWlQaS1zWjRFaVJpZmlwcWhuOGdQQkp6aGVSNHQwdUhEY0hWVGI1VFdYenc?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Nouveaux droits de douane de Trump : les pays visés, dont l’UE, dénoncent une décision \"injustifiée\"",
+        "url": "https://www.rtbf.be/article/nouveaux-droits-de-douane-de-trump-les-pays-vises-dont-l-ue-denoncent-une-decision-injustifiee-11762014",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "L’Iran devra rembourser les dommages infligés aux navires à Ormuz, lance Trump",
+        "url": "https://www.rtbf.be/article/l-iran-devra-rembourser-les-dommages-infliges-aux-navires-a-ormuz-lance-trump-11762001",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "En direct | Donald Trump veut utiliser des fonds iraniens pour réparer les navires détruits à Ormuz - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMkR2OVdjdkVDX1Q5VVpfWTVHSExScWhLYTFpWkxvQThwU3d6UVZWeXhHSU04OHNaeDFQWTRjMkJURE5vQjlvNUVMQWxxcWIxaHlSaEJvSlRDRUxTTW5HdndqOVZhdHBRTDh0TWk5dlYtbkdwNFhHb2Y4UDVlSVVPcDJJbGFtaDNPTDkzRVc3bzZYLVhldGxFeHBteTlncnpzXy15Q3VFWXp0UEg3cEJ0MXNjVTdHRk9aczJYSkQxeWU4OWwyVGVqN1JnTWVUMy1QdHdRajIzbWlMS2JjTmhHUWZfUDJpVFBWS1RjWldPQmlvTVhIMkVv?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "« Totalement injustifié », « il fait grimper les coûts », « ce n’est pas la solution »… : de nombreux pays sous le choc après la nouvelle annonce explosive de Donald Trump cette nuit - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbW9wU3NDLWlJQ0Rxa0RpMjkyYVFWQklxY0YwbnBxLU9pMk9SY1pTcS1fRU1fekwtM3FoeEV3Mjk0Y1BJdEdoR2JuX0swQVh4bWlYbGRLVU1YNElkbWhLUFJCRnp3VlAtMDhTaTFSOEVDc2dWQmltaFFwNXEtZVg0MEtzc0dFYnpTTUtwSThHR3E4bmxJMjRrZ0ZYWlEyVkhiblpYSUdOWlFwTXpGaTh3WjJLVTNFbk1yUTE1Y1Fmb0tGTk9F?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "L'accord conclu par Donald Trump avec l'Arabie saoudite risque d'entraîner une prolifération nucléaire - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOXBtT1JISWNGSmExY054Z296a1lkdmRiZUhZNm93VmM0azZtU1RrcV94a3BjX2l4bUc3MWZHSTJNdFVSWWpzVWxJbHZYbU5jcEZHTDNfVVUtUmpOMHoyVEV4dGoweHhkUmpsbi1BVlJNYXZ0RTQwdnpQd19sU1JXb3A2U2NjZ2l4S2tLRlFzQk93Nmd4UHIydHBxYkN5QklpLS16ZWQtaHhBeDc3S1Rsc1ozdTFiaG9VbGlFSWxxdDBOa1Z1dnBKZ2Z1WHlta08wbi14SFlaSkd4OGZ6TWUyOQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 12,
+      "putin": 2,
+      "macron": 2,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 3,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 14,
+      "putin": 3,
+      "macron": 3,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 5,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 17,
+      "crime": 10,
+      "eu": 15,
+      "politics": 6,
+      "be_gov": 8,
+      "culture": 15,
+      "tech": 12,
+      "economy": 6,
+      "sports": 16,
+      "health": 1,
+      "climate": 3,
+      "migration": 1,
+      "education": 4,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 22,
+      "crime": 13,
+      "eu": 23,
+      "politics": 9,
+      "be_gov": 12,
+      "culture": 17,
+      "tech": 15,
+      "economy": 9,
+      "sports": 22,
+      "health": 1,
+      "climate": 3,
+      "migration": 1,
+      "education": 5,
+      "weather": 10
+    }
   }
 ]
