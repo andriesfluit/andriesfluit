@@ -62769,155 +62769,155 @@
   },
   {
     "date": "2026-07-24",
-    "generated_at": "2026-07-24T08:12:01+02:00",
-    "last_checked_at": "2026-07-24T14:05:36+02:00",
-    "total_articles": 343,
-    "trump_articles": 12,
-    "percentage": 3.5,
-    "core_percentage": 3.5,
-    "core_percentage_name": 3.5,
-    "trump_articles_expanded": 12,
-    "core_percentage_expanded": 3.5,
+    "generated_at": "2026-07-24T20:03:45+02:00",
+    "last_checked_at": "2026-07-24T20:03:45+02:00",
+    "total_articles": 862,
+    "trump_articles": 35,
+    "percentage": 4.1,
+    "core_percentage": 4.1,
+    "core_percentage_name": 4.1,
+    "trump_articles_expanded": 35,
+    "core_percentage_expanded": 4.1,
     "indirect_references": 0,
-    "wide_total_articles": 445,
-    "wide_trump_articles": 14,
-    "wide_percentage": 3.1,
-    "wide_trump_articles_expanded": 14,
-    "wide_percentage_expanded": 3.1,
-    "macro_percentage": 3.6,
-    "qualifying_outlets": 15,
+    "wide_total_articles": 1199,
+    "wide_trump_articles": 46,
+    "wide_percentage": 3.8,
+    "wide_trump_articles_expanded": 46,
+    "wide_percentage_expanded": 3.8,
+    "macro_percentage": 4.3,
+    "qualifying_outlets": 33,
     "core_outlets_total": 19,
-    "core_outlets_active": 17,
-    "active_core_fraction": 0.895,
-    "cross_outlet_dup_headlines": 44,
-    "cross_outlet_dup_groups": 22,
-    "cross_outlet_dup_rate": 12.8,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 76,
+    "cross_outlet_dup_groups": 38,
+    "cross_outlet_dup_rate": 8.8,
     "zone": "soaked",
     "label": "The zone is soaked",
     "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.33,
-    "breadth": 0.47,
-    "deviation": 1.27,
-    "smoothed_pct": 3.17,
+    "dominance": 1.67,
+    "breadth": 0.79,
+    "deviation": 1.49,
+    "smoothed_pct": 3.26,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 5,
+    "theme_rank": 4,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 13,
-        "kept": 13,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 31,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
       },
       "google_fr": {
         "fetched": 34,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
       },
       "google_nl_politics": {
-        "fetched": 36,
-        "today": 5,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 29,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 5,
-        "kept": 5,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 20.0
+        "today": 40,
+        "kept": 34,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.88
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 9,
-        "kept": 6,
+        "today": 41,
+        "kept": 38,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 16.67
+        "share": 2.63
       },
       "google_nl_tech": {
-        "fetched": 55,
-        "today": 1,
-        "kept": 1,
+        "fetched": 58,
+        "today": 26,
+        "kept": 21,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 54,
-        "today": 10,
-        "kept": 8,
+        "fetched": 44,
+        "today": 25,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 41,
-        "today": 4,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_world": {
-        "fetched": 52,
-        "today": 4,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_business": {
-        "fetched": 70,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 13,
-        "kept": 13,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "standaard": {
-        "fetched": 100,
-        "today": 68,
-        "kept": 50,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.0
-      },
-      "hln": {
-        "fetched": 30,
-        "today": 28,
-        "kept": 28,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 10.71
-      },
-      "demorgen": {
         "fetched": 30,
         "today": 15,
         "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "google_fr_world": {
+        "fetched": 54,
+        "today": 24,
+        "kept": 20,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 30,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 13.33
+        "share": 4.35
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 86,
+        "kept": 67,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 4.48
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 22,
+        "kept": 22,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 18.18
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -62929,147 +62929,147 @@
       },
       "gva": {
         "fetched": 50,
-        "today": 46,
-        "kept": 46,
+        "today": 49,
+        "kept": 49,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 42,
-        "kept": 42,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 62,
+        "kept": 62,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.61
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "knack": {
-        "fetched": 100,
-        "today": 24,
-        "kept": 24,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.17
-      },
-      "sporza": {
-        "fetched": 20,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "bruzz": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 17,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 11,
-        "kept": 11,
+        "today": 20,
+        "kept": 20,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 18.18
+        "share": 10.0
       },
       "lalibre": {
         "fetched": 100,
+        "today": 79,
+        "kept": 79,
+        "trump": 9,
+        "trump_expanded": 9,
+        "share": 11.39
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 45,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.67
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 98,
+        "kept": 98,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.02
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "bx1": {
+        "fetched": 10,
         "today": 10,
         "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "lecho": {
-        "fetched": 100,
-        "today": 17,
-        "kept": 17,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.88
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 17,
-        "kept": 17,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "septsursept": {
-        "fetched": 30,
-        "today": 7,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "bx1": {
-        "fetched": 10,
-        "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
       "detijd_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 42,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 17,
-        "kept": 17,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 51,
+        "kept": 48,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.17
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 7,
-        "kept": 6,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 16.67
+        "today": 43,
+        "kept": 41,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.88
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 3,
-        "kept": 3,
+        "today": 48,
+        "kept": 46,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 99,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 98,
+        "today": 49,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
       },
       "trends_g": {
         "fetched": 100,
-        "today": 36,
-        "kept": 18,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 79,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
       },
       "tendances_g": {
         "fetched": 100,
-        "today": 19,
-        "kept": 7,
+        "today": 61,
+        "kept": 10,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 14.29
+        "share": 10.0
       }
     },
     "core_sources": [
@@ -63095,57 +63095,147 @@
     ],
     "matches": [
       {
+        "title": "Experten bezorgd over nieuwe invoerheffingen van Trump: \"Economisch catastrofaal, politiek nog vele malen erger\"",
+        "url": "https://vrtnws.be/p.5wRqe10AJ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump trekt dagvaarding tegen journalisten van The New York Times in na kritiek van rechter",
+        "url": "https://vrtnws.be/p.aD1JxJajb",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
         "title": "De vijverblues van Trump - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYS05amxTcmhjb1FJZ3NKZHNhcUJzWFprcUhMLUlnZU1uVWhXZGk1NFY0U0hQdWdJU2hVT0JiVlNZZ0lLaUtIZ0VTZnlQR0VpSnp1YlQwNzhWbHMtMGJRZ0ItNnZsWW1Jb094dW5LX0RhOUlHbTlxSU1GWkhiTWdRUWIyYzI1YXdw?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Trump legt 60 handelspartners nieuwe invoerheffingen op, EU-buitenlandchef Kallas vraagt opheldering",
-        "url": "https://www.hln.be/economie/trump-legt-60-handelspartners-nieuwe-invoerheffingen-op-eu-buitenlandchef-kallas-vraagt-opheldering~ab5735cd/",
-        "source": "hln",
+        "title": "Trump ondermijnt plots nucleair akkoord met Saudi-Arabië door erkenning Israël te eisen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOGJIT2t2UkJRTmtxRlIydlFtOUEzTzcwVW42azZNSTRIZGpLWUdYbmpfTmFudE1tdncyTDUyeVFCMUZBNjhRZjMtRjJwdjJRYWUtd0ZfWkxDTUcxNHBqamVMYzJ6QVk2cE1BS3p3OExDNlMtR0xKNVVLOG1BT0ZON0FyQVR6bjJTODV2ZHFWZUg5SjQzSFVxSzhrcGRpbVFtVDRpUnNvR045TDNMa2R4R3RfUGpac2hzYlkyS19XNVFUTVNNUlZmZDliMy1McVJJN1QxeQ?oc=5",
+        "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Trump won, bijna 1 miljoen anderen verloren op de beurs: geldexpert duikt in de presidentiële posts die veel beleggers armer maakten",
-        "url": "https://www.hln.be/mijn-geld/trump-won-bijna-1-miljoen-anderen-verloren-op-de-beurs-geldexpert-duikt-in-de-presidentiele-posts-die-veel-beleggers-armer-maakten~a20f1c94/",
-        "source": "hln",
+        "title": "Trump herbouwt zijn tarievenmuur op basis van wetgeving rond dwangarbeid: “Dit is oude wijn in nieuwe zakken” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPbUdLUmozMFdRb1lvWVRJSWNKem9wTTJSQWotTWVxR2oySlQ5N0p4eU0yT2poRHoyaW96OGx1SlJaN1E1bldNWVBsSVRHREpRT01CQnlORHVyaGdzUHRndGkwTTMxUFFNN3VOaXVOMGpGUHpzVlczOUFxUzBocHVHanBWR1FJSW9GUUFsMTFrRHBCUmNYeU1qbjNya0w0ZktFRTBwRlFyZGs4NWpTdFZPMjRRaUk2eW44V0U4eVJDNXpaU3JvU0wySUU3bFZCWnlDdW1vZGZ4dGNjZXBTVkVrYXB1YlA2cTNIdU5pSGVvV3pLYklWcEpMSzNn?oc=5",
+        "source": "standaard",
         "name_only": true
       },
       {
-        "title": "VS bestookten Iran voor dertiende nacht op rij - Trump: “Teheran betaalt vanaf nu zelf voor schade die wordt toegebracht aan scheepvaart”",
-        "url": "https://www.hln.be/buitenland/vs-bestookten-iran-voor-dertiende-nacht-op-rij-trump-teheran-betaalt-vanaf-nu-zelf-voor-schade-die-wordt-toegebracht-aan-scheepvaart~a99e0324/",
-        "source": "hln",
-        "name_only": true
-      },
-      {
-        "title": "Dissidente Antwerpse rabbijn dient klacht in tegen Trump na cadeau van Antwerpse diamantsector: ‘Regelrecht geval van omkoping’",
-        "url": "https://www.demorgen.be/snelnieuws/dissidente-antwerpse-rabbijn-dient-klacht-in-tegen-trump-na-cadeau-van-antwerpse-diamantsector-regelrecht-geval-van-omkoping~b815ced1/",
+        "title": "Live - Trump waarschuwt Xi en Poetin: verkoop geen wapens aan Iran",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-claimt-verwoesting-munitiedepot-op-amerikaanse-basis-in-irak-waarbij-groot-aantal-vijandelijke-strijders-werden-gedood-of-verwond~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Live - VS vallen Iran aan voor dertiende nacht op rij • Trump: ‘Iran betaalt vanaf nu zelf voor schade die wordt toegebracht aan scheepvaart’",
-        "url": "https://www.demorgen.be/snelnieuws/live-vs-vallen-iran-aan-voor-dertiende-nacht-op-rij-trump-iran-betaalt-vanaf-nu-zelf-voor-schade-die-wordt-toegebracht-aan-scheepvaart~be9c4f82/",
+        "title": "Live - Trump ontvangt Netanyahu dinsdag in het Witte Huis, ook ontmoeting met Zelensky gepland",
+        "url": "https://www.demorgen.be/snelnieuws/live-verenigde-staten-leggen-zestig-landen-nieuwe-importheffingen-op-ook-europese-unie-getroffen-antwerpse-diamantsector-ontsnapt-na-intensief-overleg-en-lobbywerk~b13cc951/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Live Spanningen Midden-Oosten: Axios: Trump overweegt \"massale aanval\" op Iran - Knack",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTN3NkljQklvaFNZbk1hU1ZBYXRxd3dJbmNESDFVT1BoWnRfVWJUNGM1dkwwZVdFcjVNOXZxVk5LQ3F1M0FtNUQ0aE50Z2E2SGhtS1V6UFZaa1pidUdYVGxXVHhMTW96c19zUXRBNEhsSW9PQUttM2hONk9yYVRkUmRja2N3MXlfajVUUEViMWlQaS1zWjRFaVJpZmlwcWhuOGdQQkp6aGVSNHQwdUhEY0hWVGI1VFdYenc?oc=5",
+        "title": "Trump legt EU nieuwe tarieven op: ‘Dwangmiddel om landen aan de onderhandelingstafel te brengen’",
+        "url": "https://www.demorgen.be/niet-te-missen/trump-legt-eu-nieuwe-tarieven-op-dwangmiddel-om-landen-aan-de-onderhandelingstafel-te-brengen~b0ce86d3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump legt opnieuw importheffingen op. Toch is de Europese Unie stiekem wel opgelucht",
+        "url": "https://www.demorgen.be/nieuws/trump-legt-opnieuw-importheffingen-op-toch-is-de-europese-unie-stiekem-wel-opgelucht~b5f82917/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump ondermijnt plots nucleair akkoord met Saudi-Arabië door erkenning Israël te eisen",
+        "url": "https://www.hbvl.be/buitenland/trump-ondermijnt-plots-nucleair-akkoord-met-saudi-arabie-door-erkenning-israel-te-eisen/159178359.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Wie wordt opvolger Trump? Iran-flop Vance kan Rubio in het zadel helpen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOVYyc1BLaGQ5ckdBQVVmTWlzNC1xR05LM2pjOUFyaGlfUS1jaE5KU1UwRncwYzFpanRPazREa0RFRzlBQXpZY3RwRXROWE5LNzhab2Y2OWJDTHRpcThpSXdjMWdmWTNlbGhvX1ZkVVdHRlM2ZU5sMHgteHQzeWs5MEQ0bzFSZGtIX29wQl9XdmtWaUQxUmZBQnZYYmdZVC1tTjd3ZEdtdndRZw?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "Nouveaux droits de douane de Trump : les pays visés, dont l’UE, dénoncent une décision \"injustifiée\"",
-        "url": "https://www.rtbf.be/article/nouveaux-droits-de-douane-de-trump-les-pays-vises-dont-l-ue-denoncent-une-decision-injustifiee-11762014",
+        "title": "Guerre en Ukraine et au Moyen-Orient : Zelensky et Netanyahou rencontreront Trump à la Maison Blanche mardi",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-et-au-moyen-orient-zelensky-et-netanyahou-rencontreront-trump-a-la-maison-blanche-mardi-11762330",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "L’Iran devra rembourser les dommages infligés aux navires à Ormuz, lance Trump",
-        "url": "https://www.rtbf.be/article/l-iran-devra-rembourser-les-dommages-infliges-aux-navires-a-ormuz-lance-trump-11762001",
+        "title": "\"Avant, on regardait si la vache avait vêlé, maintenant, on regarde si Trump n’a pas balancé une bombe\", explique Ludovic Feys, agriculteur présent à Libramont",
+        "url": "https://www.rtbf.be/article/avant-on-regardait-si-la-vache-avait-vele-maintenant-on-regarde-si-trump-n-a-pas-balance-une-bombe-explique-ludovic-feys-agriculteur-present-a-libramont-11762096",
         "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace l'Europe après les sanctions contre Google : \"L'UE va payer un très lourd prix\"",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/07/24/trump-menace-leurope-apres-les-sanctions-contre-google-lue-va-payer-un-tres-lourd-prix-KMFIAFEMBZHTFE4VQC3C4ZZYNU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu et Zelensky rencontreront Trump à la Maison Blanche mardi",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/07/24/netanyahu-et-zelensky-rencontreront-trump-a-la-maison-blanche-mardi-PBOTSYLBK5CEPI7RLCNVLT6NNY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump met en garde la Russie et la Chine contre toute vente d'armes à l'Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/07/24/direct-guerre-au-moyen-orient-la-salve-americaine-de-bombardements-sur-liran-est-terminee-TZ4OVIRTHZDUJPGV4KLBOUDRE4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les semi-conducteurs continuent de chuter à Wall Street, et les taxes de Donald Trump ne font pas (encore ?) peur",
+        "url": "https://www.lalibre.be/economie/placements/2026/07/24/les-semi-conducteurs-continuent-de-chuter-a-wall-street-HOWE2J75ZBDADKC72LHKKKP3FE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump a trouvé une nouvelle arme pour imposer de nouveaux droits de douane : \"Il est imprévisible\"",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/24/donald-trump-relance-sa-guerre-commerciale-leurope-est-epargnee-mais-pour-combien-de-temps-il-est-imprevisible-APNBGANZKRHQRG5SYFAJ74MIS4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une bague sertie de 321 diamants, de la circoncision rituelle et de la corruption : qui est le rabbin anversois qui porte plainte contre Trump ?",
+        "url": "https://www.lalibre.be/belgique/2026/07/24/une-bague-sertie-de-321-diamants-une-affaire-de-circoncision-rituelle-et-de-la-corruption-qui-est-le-rabbin-anversois-qui-porte-plainte-contre-trump-BCKNQOUJD5BAZC76KLXBGWYNW4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Ce récent sondage qui ne devrait pas plaire à Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/24/ce-recent-sondage-qui-ne-devrait-pas-plaire-a-donald-trump-HN4NEPB7BZC33OVL5KF5I3MAPA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Comment Donald Trump redessine les cartes de l’approvisionnement mondial en pétrole",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/24/petrole-comment-donald-trump-redessine-les-cartes-de-lapprovisionnement-mondial-L6FLT54MGRDG3EFKVZ4FGLO2J4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Extrêmement décevants\", \"injustifiés\": si l'Europe est soulagée, d'autres pays s'insurgent contre les nouvelles taxes de Trump",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/24/extremement-decevants-injustifies-si-leurope-est-soulagee-dautres-pays-sinsurgent-contre-les-nouvelles-taxes-de-trump-435H6UCJIBFINBJ6LIXKWW7C4E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Édito | Avec Trump, garder la tête froide, son âme aussi - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdGNkRXNBcmRBOF8teGd4QzVhM0VyWGtfMElOU004amh1Qms3a0tnbUJlQzhKNkhDM3JMbWRwcnpBQWs0VTUtUlJ0M1FDWlpoVkxRa1cwejJpV0hwb01KaU5sbW5OclJHczVadGhvZFlOQ0NrV014NmNtU1lyMU5pempVYU9BOUdaQ3RtSVNUV2FMUG5OR29Xd2tST3Z2NUZuSXNXeg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump lance sa nouvelle vague de droits de douane, l'Europe frappée de 10% - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPa3g0a0hnZkNFdjl0MUNZRFVNa0R2U3JrbzNaMlpQaEJHMGdCMEZSY0h4TW9DcFFxazJHZUpwQm1zZFhRMTZPU0NOSDEtM2lPYjZFR1FPVmFFMjNpcXVRa0NvdnZtYUFpVG5uRmsxQ0V6dkZNN3hFQTZJZjdyU0JYbVhYS21SR2hra29KRlZRNEs3aDhFcFQwZHlfdGt6S0pkaTlHclBfUU94NE9GMDk0TFBnekJRVlpwMWxSakZpVEwwOEhxSU9DUVREcktNWDRvZW5nU3pqU2N5LWZqd2QxY1dwd3ZOUQ?oc=5",
+        "source": "lecho",
         "name_only": true
       },
       {
@@ -63155,22 +63245,94 @@
         "name_only": true
       },
       {
+        "title": "Un rabbin anversois porte plainte contre Donald Trump dans le cadre de l’affaire sur les circoncisions rituelles: “Un cas flagrant de corruption”",
+        "url": "https://www.dhnet.be/actu/belgique/2026/07/24/un-rabbin-anversois-porte-plainte-contre-donald-trump-dans-le-cadre-de-laffaire-sur-les-circoncisions-rituelles-un-cas-flagrant-de-corruption-FDIX2M3LZRG7NK6H34NC2AQXDY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Comment Trump s’est enrichi en bourse aux dépens d’un million d’investisseurs",
+        "url": "https://www.7sur7.be/economie/comment-trump-sest-enrichi-en-bourse-aux-depens-dun-million-dinvestisseurs~a20f1c94/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump voulait le bloquer: un pont frontalier avec le Canada inauguré dans des circonstances chaotiques",
+        "url": "https://www.7sur7.be/monde/trump-voulait-le-bloquer-un-pont-frontalier-avec-le-canada-inaugure-dans-des-circonstances-chaotiques~aba11830/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Une bague de 321 diamants offerte à Trump visée par une plainte d’un Anversois - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY3YydU1HUG9JbFN5V2loY2FBM0JtR1hsME9EVi15a3VCclNUTkc4TUk2bURkZjh6bTVVNWFxWlROLXVHRU12YkdlNlQ1R1FqZDFTeGxrQ29XQkdyVWsyWEx0THdPSy1SU1NudjV2ZWVYVDc5NW9TT05VM0I0YlNxSmRZLVNTTFc0RWRHMUNZbkNzQUNaZWRpMllmVHQ2Y25aWkhkME05bFIyN2JybFo5N2pvcmRfeHRKNmpidldHSVI?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump n’a pas fini sa guerre commerciale - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMC1PbjJHQU5ld29vNmdpVjM1TERDbzEwUFpPbEdZcEJ2bDl3blJzdUdRZ0sxWlQ4U0wxOWU4Y0FEUHUtZkZmeERPQ2Z0Zlp0Z3FLcGthSjNFT0xMOHMxMmMtZ1dmOFotcFcyYU9odWlVX01IamN3UTZ1UEtPVUgtNEl1dzNvazNDS0RUWUVQUE5IV2RLWHIyQW1B?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace l’Union européenne : « Elle va payer un très lourd prix » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTy00dWFGbzk1SHVCUWh3bUhYMm1QMlFhbTk4NDZaTFQ0Tlk0dnppeHlpZ3NYY0VJOGptMDZLbGJTRkdRWnpYSjBFbnVHdjJGdXlNVzdRZjAtNXZtUVVKQVdvbmZORmxIaTA1aURZOFJXcHVXT1BvT0ozbVJnUkZTUkZXV0F2WDV2aXktNzFsbFhvb3dmb3dSV19KRjhlcjhEaXFDdFRHWGxjbUFjV1ZMQ0drOFFKUTRuSkV2aXpTOA?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
         "title": "« Totalement injustifié », « il fait grimper les coûts », « ce n’est pas la solution »… : de nombreux pays sous le choc après la nouvelle annonce explosive de Donald Trump cette nuit - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbW9wU3NDLWlJQ0Rxa0RpMjkyYVFWQklxY0YwbnBxLU9pMk9SY1pTcS1fRU1fekwtM3FoeEV3Mjk0Y1BJdEdoR2JuX0swQVh4bWlYbGRLVU1YNElkbWhLUFJCRnp3VlAtMDhTaTFSOEVDc2dWQmltaFFwNXEtZVg0MEtzc0dFYnpTTUtwSThHR3E4bmxJMjRrZ0ZYWlEyVkhiblpYSUdOWlFwTXpGaTh3WjJLVTNFbk1yUTE1Y1Fmb0tGTk9F?oc=5",
         "source": "sudinfo_g",
         "name_only": true
       },
       {
-        "title": "L'accord conclu par Donald Trump avec l'Arabie saoudite risque d'entraîner une prolifération nucléaire - Trends-Tendances",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOXBtT1JISWNGSmExY054Z296a1lkdmRiZUhZNm93VmM0azZtU1RrcV94a3BjX2l4bUc3MWZHSTJNdFVSWWpzVWxJbHZYbU5jcEZHTDNfVVUtUmpOMHoyVEV4dGoweHhkUmpsbi1BVlJNYXZ0RTQwdnpQd19sU1JXb3A2U2NjZ2l4S2tLRlFzQk93Nmd4UHIydHBxYkN5QklpLS16ZWQtaHhBeDc3S1Rsc1ozdTFiaG9VbGlFSWxxdDBOa1Z1dnBKZ2Z1WHlta08wbi14SFlaSkd4OGZ6TWUyOQ?oc=5",
+        "title": "Donald Trump menace l’Union européenne : « Elle va payer un très lourd prix » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcE9RYWM5UUhqQ0pjSVdLVUR0X1pOSzhiOWg4bUlscDM4QUpxdmRQQXpLRmptX3BXS1RjaWxyZFZBM09HQ2tlQm1wY0JpOUVrQnM5eDZwU2R3c3o4T3pDOFB3eWxxa1B1SDBjZWlJRE5WMlZia0hlNFVvNkR0MmJQUG12VW5yOWtLczUwZi0xM1BCU1dLVHNsWHpmaVY0dDhiQlN2bVVuNk5RNEJZNUJYTmRWREVsMXhLbVRvZHpMOUF1OGNhSVNmbUVmc0JUV1RWbUtWaHJVbw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "De kosten zijn duidelijk, maar hoe effectief zijn de invoerheffingen van Trump écht? - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaFprQ2RWT09QZGlab1lBZUx2VGRhM29EOHdsdE9pTTZuODZwaXdzZWNZRmljVDNPazZDVnp2MTNfeXhKaWhOMFQxTUtodHJyTzFDWFF0M1dWZWVTZWpuRGY1dzNQY1hNRG5RVkl3U0lqdUZyN3RWaHNZbl95cTB6dk5aVnFzRDZTNDZSM1BUV0NVZTBNTlozbjNXb3RGeWRSSUhxcDVqdWg3SzlnYzVYcTg1M016REwwOE80QmtUZG5hRzNyVkFtMFpIYjB5WURKRmc?oc=5",
+        "source": "trends_g",
+        "name_only": true
+      },
+      {
+        "title": "Les coûts sont évidents, mais quelle est l’efficacité réelle des droits de douane de Trump ? - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ3RUWGk0NzRpZE1hU2pLWWo4bmZQUUk1aDhEVlhtejNEczBGcW9PT3FlMmlSOGNzSzBHVm1ubEJnaVZxVGVXYTJLMVdHQTVCYWUtNXFDeWFQWUw3LV9pMVI2NHkwNThzb245MGE5RTRwUldZOFFmV0FmQ190RUU5UEE5RzhNWG85ekhyN0ZYaUktUW11eUxQVW9nR0diSlpVQTI0LVFLVUhmVUVfWVVGY242NG54TEU4eFlOVGFlWEpLVmU4N29ySExISXlqblBGV0E?oc=5",
         "source": "tendances_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Trump overweegt massale aanval op Iran: “Ik sta op het punt om een besluit te nemen” | Nieuws - HLN",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQVRjOEJ5NkpjaU9PSHIxOTZsRE5SX2F0Y09qUmRTTEo2WnYyalhETGcxRVFaZjRZRDJ4VGo2MHJraTJsWWN4dGdSVUVJVFVwQlBIZXllTHJSdEI4UVc2elJzNHE0M0djMkYzcTV3YzhvbDhlZTNuWDZ6VDNQR1MzQmFqcEVrOVJCc0xoQUs4bFBvb3p1NWxOaFllX3ZFVGlOWFo2czRqTG9QckoxeXNoSEpqX2M5MDROdnQ3RE5B?oc=5",
+        "title": "Experten bezorgd over nieuwe invoerheffingen van Trump: \"Economisch catastrofaal, politiek nog vele malen erger\" - VRT",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOU1Rya3FLNTJ1Q0tCMFhNc1E5eG84cWJRcno3czNROTBrTi1hRUZjdkxOWTVGYzB3RGx1YVFQS3FJcDZObS1fTk13TEZ3bXIyZnVHYjloRFlONUNrX1dGS2FLa2h4SDQzV004MzVLUmZuSE53UnJqTDRMSlBSdmJkY0VOcHFWZw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump a trouvé une nouvelle arme pour imposer de nouveaux droits de douane : \"Il est imprévisible\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPUHdxa1VsTUpyLVhIUzJ1alhGbl9qaVAwNVVDZkRoSktqc3lLVjB0czVMdEp3UHFLSWFMRFU2QWs0Yi1LMFZGYnhUSmphdUpRWndTRzhpcThRcUxWYzlZVWVGS0doT2Zna2F4NkFWTTJQdldLWWRELUFFdTdYbTRLLXdFM21KbElkZUJ0Ni1pT0h1OTJScHRUR1JTVUl5aXFacjVkQ1JCTFlNTHdsVXBBeVlnZ0RtVmtmZXBKb3ZzRUkzcVloTDN6SjRPaFRpeWRRdFRreGN6S2lBUTNmUF9xUEFwMUFQQ2Jjcm5PV3JiQW04azlueWUxeVZpZE1KclhrcW9BdGRlVWpyR0E4bGstdVJyMzdmV3pWSkhTRUxR?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump trekt dagvaarding tegen journalisten van The New York Times in na kritiek van rechter - VRT",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1lZcnpMVU52VzJjcm9PWmFKZ0x5dklxSlYzMHNZUG1yZk5yREhvaDVpdlJjTW93OTN0UFQ5b1ZXMjZVZmJxb1NIUUo0WTM5LW00ek5haGV1VV9IY0pJd2NOZ0UzNnFBdHFaUHFUNElqTlhyb0QtMk9OU1oyOFdCVDl4bXBGU1c1UzlKeGJn?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Trump genadeloos bespot door toeschouwer tijdens bijeenkomst - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYlVPNnl0SHRKdWJXdmRLS2ZkMUZxLWpwY0Jsa3JGUW1sR0RZWmJTbm5MOTFXNzQ5Zl9HZUpjYmJYQnpMMzBtZ3Fmc2luUTFJakhWNFBOS3dKX0wyM0RjY05rYy0yeEktWEd1aXZjTm1udm9qVU9FcWR5TUE5OHpwV0FxZEN4b3JtWDQzM2pzM1NWdkhmaEdWQ2RtOTdzaFdzQWF4ck03bnQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Praten over Trumps mislukte vijver is als een referendum over zijn presidentschap - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeHpaVWZsWXNtU1lEVEhMZkRzSVRPYXBMNzJ4bG8teGZKTHhnNnlXd2ZEZHhENXYzSFQyTC1GRm9tQWVORmU4ZVI5dGtXSFZtTmVNNzROT2wxVm1FdURKTWlOaEkyYU5EQ0VtOEstYXRyVndiUmo2NDkxQXgzaUYxOVJqc2YtVWhXam10Y3RlbWpRTTV3MS1yeXdoMjc0QlJjQUlkdmtYZHkyek5yYlMtcDdOY1F5MDhFRFV1RVNaNWNsekk0SnVETHA4SG1kSE9IeE9adA?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
@@ -63181,57 +63343,177 @@
         "name_only": true
       },
       {
+        "title": "Carney ne compte pas répliquer aux nouveaux tarifs de Trump pour l’instant - Le Devoir",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTmRfbVprNThheG8wQkM5c0lnY3FhbHVxOFhFYi1VbHNPSHY0MHVMdnJHX0VNSWpWUDdWUS0waW43RkVScEZrX0ZIdjdHc3BDMGZuZnF3OEUzTUthRERXMmduVDJPZ0tKcTNKdVFicmYzWEFGcVVqanBMWkRCQU5kY1NLYzV1WExrblUxbTJEQWI3ZURZaTVXbHR6ZzNaaUltVm5tYzNkQklQMGNacnc?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "« S’ils le faisaient, cela serait très mauvais pour eux... » : Donald Trump met en garde la Russie et la Chine - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbXZqbExkeU8zeWJGdWlsdDZSSmJvVGtTbHpMckprTGJXV0VheUZIMlc3am1XaWUwTk9FU24tdHR4eVFteVdQSmZlbWxZSE1TSzVmRUlDQk80bXplZHhEVXJLWFZIc1JFMXJCaTRuY2lhckNsSDduV1B2QkgxZUdUTTZFTDN4V282aERwQzdYQnB6ZkdTdkNDZmVmMXB6T2drQmxIcl9QamktdXFmQzZQYVZ2WmZQdHY4YnEyN3MtRUVjUURZcVJyN2ttalFUQTlUS3FTTWg2WWM2dXlocGZDaG1Xc2c?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Comment Donald Trump redessine les cartes de l'approvisionnement mondial en pétrole - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVmxhT0h3eGw2MUNGeGdEQmFHM3kzdmZZMllGRzZYbkJSQklrXzNQei1pZ29sOGdnQ05vQnpocmNzcm1ETFcxd0tNeGZlS1BhbzBmczdmVFVwdjlmczRpYzRUN3E1bUFWMmQwaEdJcDcyNVhIR3h5YVpqWGdkUXpNRHJaVDlZejRiRWYzVTFMU3FFLXBGd2syaTdjVTBjSDV0QTF1cW9nMy1aOGUzVUlCZF9JenJsNXZJYjBtTU1vd1V1a0hmNlUxOU9tVVoweGxPb1c4SkktaEFrN0M4SHk0ZW5JNm51QU45Zko3ZEJRZFRsQXBp?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Des promesses non tenues: ce récent sondage ne devrait pas plaire à Donald Trump - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSXFCYkpEU3BQckp6ZkpiVlNQcTVfbVFodHNTcFNVOGJmU21OaERZOTB4RVB3QmQ2VkRTSnJkbWxKOTE4bzF4V0kxbGF6QUl2eHZ3NmJ2MjlZT2ZTZllRcEN5TlpWTmNJYzkwZjlvM0NQcnpLS2d6dTc4ckxNd0w2bXN4eW1CQVhSYjVkYnB3elZOVzgzQk9FVG9PTkxvT1cxczJncG1Wb3pvendmeHhqbWpDTjFTYmlrX0RPMVRqeVdzdmRvZk53UGt0UXdkSUZwODdBRlNvNnZxYTZDd2Rva2tOWFE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Comment Trump s’est enrichi en bourse aux dépens d’un million d’investisseurs - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQODh3MVJSREFLdGpWVVFWa2tGYmhLZ1J1NzgzNVJFLVdQUGdRVzdPSDNYRkppbkpFTEVjVTJ4NXgwSzNFdktqUGZ5Z09uWDFJSkVMZ1BtZDlXcnRLX2NNTmlfM2N5NFJiMXZBOWtCZXJ0Y3NVRTh4dXZYWFk4NVlkZ1RMV19iajhDUXJmTVpTYWI1QVdNUUhfRkxnTk1uV0ZQSDdrMmVlWmEwMnFZZHNvNExqQy0?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Experten bezorgd over nieuwe invoerheffingen van Trump: \"Economisch catastrofaal, politiek nog vele malen erger\"",
+        "url": "https://vrtnws.be/p.5wRqe10AJ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump trekt dagvaarding tegen journalisten van The New York Times in na kritiek van rechter",
+        "url": "https://vrtnws.be/p.aD1JxJajb",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
         "title": "De vijverblues van Trump - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYS05amxTcmhjb1FJZ3NKZHNhcUJzWFprcUhMLUlnZU1uVWhXZGk1NFY0U0hQdWdJU2hVT0JiVlNZZ0lLaUtIZ0VTZnlQR0VpSnp1YlQwNzhWbHMtMGJRZ0ItNnZsWW1Jb094dW5LX0RhOUlHbTlxSU1GWkhiTWdRUWIyYzI1YXdw?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Trump legt 60 handelspartners nieuwe invoerheffingen op, EU-buitenlandchef Kallas vraagt opheldering",
-        "url": "https://www.hln.be/economie/trump-legt-60-handelspartners-nieuwe-invoerheffingen-op-eu-buitenlandchef-kallas-vraagt-opheldering~ab5735cd/",
-        "source": "hln",
+        "title": "Trump ondermijnt plots nucleair akkoord met Saudi-Arabië door erkenning Israël te eisen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOGJIT2t2UkJRTmtxRlIydlFtOUEzTzcwVW42azZNSTRIZGpLWUdYbmpfTmFudE1tdncyTDUyeVFCMUZBNjhRZjMtRjJwdjJRYWUtd0ZfWkxDTUcxNHBqamVMYzJ6QVk2cE1BS3p3OExDNlMtR0xKNVVLOG1BT0ZON0FyQVR6bjJTODV2ZHFWZUg5SjQzSFVxSzhrcGRpbVFtVDRpUnNvR045TDNMa2R4R3RfUGpac2hzYlkyS19XNVFUTVNNUlZmZDliMy1McVJJN1QxeQ?oc=5",
+        "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Trump won, bijna 1 miljoen anderen verloren op de beurs: geldexpert duikt in de presidentiële posts die veel beleggers armer maakten",
-        "url": "https://www.hln.be/mijn-geld/trump-won-bijna-1-miljoen-anderen-verloren-op-de-beurs-geldexpert-duikt-in-de-presidentiele-posts-die-veel-beleggers-armer-maakten~a20f1c94/",
-        "source": "hln",
+        "title": "Trump herbouwt zijn tarievenmuur op basis van wetgeving rond dwangarbeid: “Dit is oude wijn in nieuwe zakken” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPbUdLUmozMFdRb1lvWVRJSWNKem9wTTJSQWotTWVxR2oySlQ5N0p4eU0yT2poRHoyaW96OGx1SlJaN1E1bldNWVBsSVRHREpRT01CQnlORHVyaGdzUHRndGkwTTMxUFFNN3VOaXVOMGpGUHpzVlczOUFxUzBocHVHanBWR1FJSW9GUUFsMTFrRHBCUmNYeU1qbjNya0w0ZktFRTBwRlFyZGs4NWpTdFZPMjRRaUk2eW44V0U4eVJDNXpaU3JvU0wySUU3bFZCWnlDdW1vZGZ4dGNjZXBTVkVrYXB1YlA2cTNIdU5pSGVvV3pLYklWcEpMSzNn?oc=5",
+        "source": "standaard",
         "name_only": true
       },
       {
-        "title": "VS bestookten Iran voor dertiende nacht op rij - Trump: “Teheran betaalt vanaf nu zelf voor schade die wordt toegebracht aan scheepvaart”",
-        "url": "https://www.hln.be/buitenland/vs-bestookten-iran-voor-dertiende-nacht-op-rij-trump-teheran-betaalt-vanaf-nu-zelf-voor-schade-die-wordt-toegebracht-aan-scheepvaart~a99e0324/",
-        "source": "hln",
-        "name_only": true
-      },
-      {
-        "title": "Dissidente Antwerpse rabbijn dient klacht in tegen Trump na cadeau van Antwerpse diamantsector: ‘Regelrecht geval van omkoping’",
-        "url": "https://www.demorgen.be/snelnieuws/dissidente-antwerpse-rabbijn-dient-klacht-in-tegen-trump-na-cadeau-van-antwerpse-diamantsector-regelrecht-geval-van-omkoping~b815ced1/",
+        "title": "Live - Trump waarschuwt Xi en Poetin: verkoop geen wapens aan Iran",
+        "url": "https://www.demorgen.be/snelnieuws/live-iran-claimt-verwoesting-munitiedepot-op-amerikaanse-basis-in-irak-waarbij-groot-aantal-vijandelijke-strijders-werden-gedood-of-verwond~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Live - VS vallen Iran aan voor dertiende nacht op rij • Trump: ‘Iran betaalt vanaf nu zelf voor schade die wordt toegebracht aan scheepvaart’",
-        "url": "https://www.demorgen.be/snelnieuws/live-vs-vallen-iran-aan-voor-dertiende-nacht-op-rij-trump-iran-betaalt-vanaf-nu-zelf-voor-schade-die-wordt-toegebracht-aan-scheepvaart~be9c4f82/",
+        "title": "Live - Trump ontvangt Netanyahu dinsdag in het Witte Huis, ook ontmoeting met Zelensky gepland",
+        "url": "https://www.demorgen.be/snelnieuws/live-verenigde-staten-leggen-zestig-landen-nieuwe-importheffingen-op-ook-europese-unie-getroffen-antwerpse-diamantsector-ontsnapt-na-intensief-overleg-en-lobbywerk~b13cc951/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Live Spanningen Midden-Oosten: Axios: Trump overweegt \"massale aanval\" op Iran - Knack",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTN3NkljQklvaFNZbk1hU1ZBYXRxd3dJbmNESDFVT1BoWnRfVWJUNGM1dkwwZVdFcjVNOXZxVk5LQ3F1M0FtNUQ0aE50Z2E2SGhtS1V6UFZaa1pidUdYVGxXVHhMTW96c19zUXRBNEhsSW9PQUttM2hONk9yYVRkUmRja2N3MXlfajVUUEViMWlQaS1zWjRFaVJpZmlwcWhuOGdQQkp6aGVSNHQwdUhEY0hWVGI1VFdYenc?oc=5",
+        "title": "Trump legt EU nieuwe tarieven op: ‘Dwangmiddel om landen aan de onderhandelingstafel te brengen’",
+        "url": "https://www.demorgen.be/niet-te-missen/trump-legt-eu-nieuwe-tarieven-op-dwangmiddel-om-landen-aan-de-onderhandelingstafel-te-brengen~b0ce86d3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump legt opnieuw importheffingen op. Toch is de Europese Unie stiekem wel opgelucht",
+        "url": "https://www.demorgen.be/nieuws/trump-legt-opnieuw-importheffingen-op-toch-is-de-europese-unie-stiekem-wel-opgelucht~b5f82917/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump ondermijnt plots nucleair akkoord met Saudi-Arabië door erkenning Israël te eisen",
+        "url": "https://www.hbvl.be/buitenland/trump-ondermijnt-plots-nucleair-akkoord-met-saudi-arabie-door-erkenning-israel-te-eisen/159178359.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Wie wordt opvolger Trump? Iran-flop Vance kan Rubio in het zadel helpen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOVYyc1BLaGQ5ckdBQVVmTWlzNC1xR05LM2pjOUFyaGlfUS1jaE5KU1UwRncwYzFpanRPazREa0RFRzlBQXpZY3RwRXROWE5LNzhab2Y2OWJDTHRpcThpSXdjMWdmWTNlbGhvX1ZkVVdHRlM2ZU5sMHgteHQzeWs5MEQ0bzFSZGtIX29wQl9XdmtWaUQxUmZBQnZYYmdZVC1tTjd3ZEdtdndRZw?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "Nouveaux droits de douane de Trump : les pays visés, dont l’UE, dénoncent une décision \"injustifiée\"",
-        "url": "https://www.rtbf.be/article/nouveaux-droits-de-douane-de-trump-les-pays-vises-dont-l-ue-denoncent-une-decision-injustifiee-11762014",
+        "title": "Guerre en Ukraine et au Moyen-Orient : Zelensky et Netanyahou rencontreront Trump à la Maison Blanche mardi",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-et-au-moyen-orient-zelensky-et-netanyahou-rencontreront-trump-a-la-maison-blanche-mardi-11762330",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "L’Iran devra rembourser les dommages infligés aux navires à Ormuz, lance Trump",
-        "url": "https://www.rtbf.be/article/l-iran-devra-rembourser-les-dommages-infliges-aux-navires-a-ormuz-lance-trump-11762001",
+        "title": "\"Avant, on regardait si la vache avait vêlé, maintenant, on regarde si Trump n’a pas balancé une bombe\", explique Ludovic Feys, agriculteur présent à Libramont",
+        "url": "https://www.rtbf.be/article/avant-on-regardait-si-la-vache-avait-vele-maintenant-on-regarde-si-trump-n-a-pas-balance-une-bombe-explique-ludovic-feys-agriculteur-present-a-libramont-11762096",
         "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace l'Europe après les sanctions contre Google : \"L'UE va payer un très lourd prix\"",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/07/24/trump-menace-leurope-apres-les-sanctions-contre-google-lue-va-payer-un-tres-lourd-prix-KMFIAFEMBZHTFE4VQC3C4ZZYNU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu et Zelensky rencontreront Trump à la Maison Blanche mardi",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/07/24/netanyahu-et-zelensky-rencontreront-trump-a-la-maison-blanche-mardi-PBOTSYLBK5CEPI7RLCNVLT6NNY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump met en garde la Russie et la Chine contre toute vente d'armes à l'Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/07/24/direct-guerre-au-moyen-orient-la-salve-americaine-de-bombardements-sur-liran-est-terminee-TZ4OVIRTHZDUJPGV4KLBOUDRE4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les semi-conducteurs continuent de chuter à Wall Street, et les taxes de Donald Trump ne font pas (encore ?) peur",
+        "url": "https://www.lalibre.be/economie/placements/2026/07/24/les-semi-conducteurs-continuent-de-chuter-a-wall-street-HOWE2J75ZBDADKC72LHKKKP3FE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump a trouvé une nouvelle arme pour imposer de nouveaux droits de douane : \"Il est imprévisible\"",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/24/donald-trump-relance-sa-guerre-commerciale-leurope-est-epargnee-mais-pour-combien-de-temps-il-est-imprevisible-APNBGANZKRHQRG5SYFAJ74MIS4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une bague sertie de 321 diamants, de la circoncision rituelle et de la corruption : qui est le rabbin anversois qui porte plainte contre Trump ?",
+        "url": "https://www.lalibre.be/belgique/2026/07/24/une-bague-sertie-de-321-diamants-une-affaire-de-circoncision-rituelle-et-de-la-corruption-qui-est-le-rabbin-anversois-qui-porte-plainte-contre-trump-BCKNQOUJD5BAZC76KLXBGWYNW4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Ce récent sondage qui ne devrait pas plaire à Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/24/ce-recent-sondage-qui-ne-devrait-pas-plaire-a-donald-trump-HN4NEPB7BZC33OVL5KF5I3MAPA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Comment Donald Trump redessine les cartes de l’approvisionnement mondial en pétrole",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/24/petrole-comment-donald-trump-redessine-les-cartes-de-lapprovisionnement-mondial-L6FLT54MGRDG3EFKVZ4FGLO2J4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Extrêmement décevants\", \"injustifiés\": si l'Europe est soulagée, d'autres pays s'insurgent contre les nouvelles taxes de Trump",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/07/24/extremement-decevants-injustifies-si-leurope-est-soulagee-dautres-pays-sinsurgent-contre-les-nouvelles-taxes-de-trump-435H6UCJIBFINBJ6LIXKWW7C4E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Édito | Avec Trump, garder la tête froide, son âme aussi - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdGNkRXNBcmRBOF8teGd4QzVhM0VyWGtfMElOU004amh1Qms3a0tnbUJlQzhKNkhDM3JMbWRwcnpBQWs0VTUtUlJ0M1FDWlpoVkxRa1cwejJpV0hwb01KaU5sbW5OclJHczVadGhvZFlOQ0NrV014NmNtU1lyMU5pempVYU9BOUdaQ3RtSVNUV2FMUG5OR29Xd2tST3Z2NUZuSXNXeg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump lance sa nouvelle vague de droits de douane, l'Europe frappée de 10% - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPa3g0a0hnZkNFdjl0MUNZRFVNa0R2U3JrbzNaMlpQaEJHMGdCMEZSY0h4TW9DcFFxazJHZUpwQm1zZFhRMTZPU0NOSDEtM2lPYjZFR1FPVmFFMjNpcXVRa0NvdnZtYUFpVG5uRmsxQ0V6dkZNN3hFQTZJZjdyU0JYbVhYS21SR2hra29KRlZRNEs3aDhFcFQwZHlfdGt6S0pkaTlHclBfUU94NE9GMDk0TFBnekJRVlpwMWxSakZpVEwwOEhxSU9DUVREcktNWDRvZW5nU3pqU2N5LWZqd2QxY1dwd3ZOUQ?oc=5",
+        "source": "lecho",
         "name_only": true
       },
       {
@@ -63241,87 +63523,135 @@
         "name_only": true
       },
       {
+        "title": "Un rabbin anversois porte plainte contre Donald Trump dans le cadre de l’affaire sur les circoncisions rituelles: “Un cas flagrant de corruption”",
+        "url": "https://www.dhnet.be/actu/belgique/2026/07/24/un-rabbin-anversois-porte-plainte-contre-donald-trump-dans-le-cadre-de-laffaire-sur-les-circoncisions-rituelles-un-cas-flagrant-de-corruption-FDIX2M3LZRG7NK6H34NC2AQXDY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Comment Trump s’est enrichi en bourse aux dépens d’un million d’investisseurs",
+        "url": "https://www.7sur7.be/economie/comment-trump-sest-enrichi-en-bourse-aux-depens-dun-million-dinvestisseurs~a20f1c94/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump voulait le bloquer: un pont frontalier avec le Canada inauguré dans des circonstances chaotiques",
+        "url": "https://www.7sur7.be/monde/trump-voulait-le-bloquer-un-pont-frontalier-avec-le-canada-inaugure-dans-des-circonstances-chaotiques~aba11830/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Une bague de 321 diamants offerte à Trump visée par une plainte d’un Anversois - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY3YydU1HUG9JbFN5V2loY2FBM0JtR1hsME9EVi15a3VCclNUTkc4TUk2bURkZjh6bTVVNWFxWlROLXVHRU12YkdlNlQ1R1FqZDFTeGxrQ29XQkdyVWsyWEx0THdPSy1SU1NudjV2ZWVYVDc5NW9TT05VM0I0YlNxSmRZLVNTTFc0RWRHMUNZbkNzQUNaZWRpMllmVHQ2Y25aWkhkME05bFIyN2JybFo5N2pvcmRfeHRKNmpidldHSVI?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump n’a pas fini sa guerre commerciale - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMC1PbjJHQU5ld29vNmdpVjM1TERDbzEwUFpPbEdZcEJ2bDl3blJzdUdRZ0sxWlQ4U0wxOWU4Y0FEUHUtZkZmeERPQ2Z0Zlp0Z3FLcGthSjNFT0xMOHMxMmMtZ1dmOFotcFcyYU9odWlVX01IamN3UTZ1UEtPVUgtNEl1dzNvazNDS0RUWUVQUE5IV2RLWHIyQW1B?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace l’Union européenne : « Elle va payer un très lourd prix » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTy00dWFGbzk1SHVCUWh3bUhYMm1QMlFhbTk4NDZaTFQ0Tlk0dnppeHlpZ3NYY0VJOGptMDZLbGJTRkdRWnpYSjBFbnVHdjJGdXlNVzdRZjAtNXZtUVVKQVdvbmZORmxIaTA1aURZOFJXcHVXT1BvT0ozbVJnUkZTUkZXV0F2WDV2aXktNzFsbFhvb3dmb3dSV19KRjhlcjhEaXFDdFRHWGxjbUFjV1ZMQ0drOFFKUTRuSkV2aXpTOA?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
         "title": "« Totalement injustifié », « il fait grimper les coûts », « ce n’est pas la solution »… : de nombreux pays sous le choc après la nouvelle annonce explosive de Donald Trump cette nuit - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbW9wU3NDLWlJQ0Rxa0RpMjkyYVFWQklxY0YwbnBxLU9pMk9SY1pTcS1fRU1fekwtM3FoeEV3Mjk0Y1BJdEdoR2JuX0swQVh4bWlYbGRLVU1YNElkbWhLUFJCRnp3VlAtMDhTaTFSOEVDc2dWQmltaFFwNXEtZVg0MEtzc0dFYnpTTUtwSThHR3E4bmxJMjRrZ0ZYWlEyVkhiblpYSUdOWlFwTXpGaTh3WjJLVTNFbk1yUTE1Y1Fmb0tGTk9F?oc=5",
         "source": "sudinfo_g",
         "name_only": true
       },
       {
-        "title": "L'accord conclu par Donald Trump avec l'Arabie saoudite risque d'entraîner une prolifération nucléaire - Trends-Tendances",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOXBtT1JISWNGSmExY054Z296a1lkdmRiZUhZNm93VmM0azZtU1RrcV94a3BjX2l4bUc3MWZHSTJNdFVSWWpzVWxJbHZYbU5jcEZHTDNfVVUtUmpOMHoyVEV4dGoweHhkUmpsbi1BVlJNYXZ0RTQwdnpQd19sU1JXb3A2U2NjZ2l4S2tLRlFzQk93Nmd4UHIydHBxYkN5QklpLS16ZWQtaHhBeDc3S1Rsc1ozdTFiaG9VbGlFSWxxdDBOa1Z1dnBKZ2Z1WHlta08wbi14SFlaSkd4OGZ6TWUyOQ?oc=5",
+        "title": "Donald Trump menace l’Union européenne : « Elle va payer un très lourd prix » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcE9RYWM5UUhqQ0pjSVdLVUR0X1pOSzhiOWg4bUlscDM4QUpxdmRQQXpLRmptX3BXS1RjaWxyZFZBM09HQ2tlQm1wY0JpOUVrQnM5eDZwU2R3c3o4T3pDOFB3eWxxa1B1SDBjZWlJRE5WMlZia0hlNFVvNkR0MmJQUG12VW5yOWtLczUwZi0xM1BCU1dLVHNsWHpmaVY0dDhiQlN2bVVuNk5RNEJZNUJYTmRWREVsMXhLbVRvZHpMOUF1OGNhSVNmbUVmc0JUV1RWbUtWaHJVbw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "De kosten zijn duidelijk, maar hoe effectief zijn de invoerheffingen van Trump écht? - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaFprQ2RWT09QZGlab1lBZUx2VGRhM29EOHdsdE9pTTZuODZwaXdzZWNZRmljVDNPazZDVnp2MTNfeXhKaWhOMFQxTUtodHJyTzFDWFF0M1dWZWVTZWpuRGY1dzNQY1hNRG5RVkl3U0lqdUZyN3RWaHNZbl95cTB6dk5aVnFzRDZTNDZSM1BUV0NVZTBNTlozbjNXb3RGeWRSSUhxcDVqdWg3SzlnYzVYcTg1M016REwwOE80QmtUZG5hRzNyVkFtMFpIYjB5WURKRmc?oc=5",
+        "source": "trends_g",
+        "name_only": true
+      },
+      {
+        "title": "Les coûts sont évidents, mais quelle est l’efficacité réelle des droits de douane de Trump ? - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ3RUWGk0NzRpZE1hU2pLWWo4bmZQUUk1aDhEVlhtejNEczBGcW9PT3FlMmlSOGNzSzBHVm1ubEJnaVZxVGVXYTJLMVdHQTVCYWUtNXFDeWFQWUw3LV9pMVI2NHkwNThzb245MGE5RTRwUldZOFFmV0FmQ190RUU5UEE5RzhNWG85ekhyN0ZYaUktUW11eUxQVW9nR0diSlpVQTI0LVFLVUhmVUVfWVVGY242NG54TEU4eFlOVGFlWEpLVmU4N29ySExISXlqblBGV0E?oc=5",
         "source": "tendances_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 12,
-      "putin": 2,
-      "macron": 2,
-      "netanyahu": 0,
-      "zelensky": 0,
+      "trump": 35,
+      "putin": 3,
+      "macron": 1,
+      "netanyahu": 2,
+      "zelensky": 3,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 3,
+      "de_wever": 2,
+      "bouchez": 5,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 1,
+      "francken": 4,
       "crevits": 0,
       "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 14,
+      "trump": 46,
       "putin": 3,
       "macron": 3,
-      "netanyahu": 0,
-      "zelensky": 0,
+      "netanyahu": 2,
+      "zelensky": 3,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 5,
+      "de_wever": 2,
+      "bouchez": 7,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 1,
+      "francken": 6,
       "crevits": 0,
       "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 17,
-      "crime": 10,
-      "eu": 15,
-      "politics": 6,
-      "be_gov": 8,
-      "culture": 15,
-      "tech": 12,
-      "economy": 6,
-      "sports": 16,
-      "health": 1,
-      "climate": 3,
-      "migration": 1,
-      "education": 4,
-      "weather": 8
+      "war": 35,
+      "crime": 36,
+      "eu": 42,
+      "politics": 17,
+      "be_gov": 21,
+      "culture": 20,
+      "tech": 19,
+      "economy": 20,
+      "sports": 73,
+      "health": 8,
+      "climate": 5,
+      "migration": 5,
+      "education": 3,
+      "weather": 11
     },
     "wide_themes": {
-      "war": 22,
-      "crime": 13,
-      "eu": 23,
-      "politics": 9,
-      "be_gov": 12,
-      "culture": 17,
-      "tech": 15,
-      "economy": 9,
-      "sports": 22,
-      "health": 1,
-      "climate": 3,
-      "migration": 1,
-      "education": 5,
-      "weather": 10
+      "war": 56,
+      "crime": 48,
+      "eu": 58,
+      "politics": 32,
+      "be_gov": 25,
+      "culture": 27,
+      "tech": 32,
+      "economy": 31,
+      "sports": 108,
+      "health": 14,
+      "climate": 7,
+      "migration": 7,
+      "education": 3,
+      "weather": 19
     }
   }
 ]
