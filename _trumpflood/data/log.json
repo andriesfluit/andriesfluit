@@ -63656,149 +63656,237 @@
   },
   {
     "date": "2026-07-25",
-    "generated_at": "2026-07-25T08:03:40+02:00",
-    "last_checked_at": "2026-07-25T08:03:40+02:00",
-    "total_articles": 235,
-    "trump_articles": 6,
-    "percentage": 2.6,
-    "core_percentage": 2.6,
-    "core_percentage_name": 2.6,
-    "trump_articles_expanded": 6,
-    "core_percentage_expanded": 2.6,
+    "generated_at": "2026-07-25T13:47:12+02:00",
+    "last_checked_at": "2026-07-25T13:47:12+02:00",
+    "total_articles": 511,
+    "trump_articles": 17,
+    "percentage": 3.3,
+    "core_percentage": 3.3,
+    "core_percentage_name": 3.3,
+    "trump_articles_expanded": 17,
+    "core_percentage_expanded": 3.3,
     "indirect_references": 0,
-    "wide_total_articles": 324,
-    "wide_trump_articles": 9,
-    "wide_percentage": 2.8,
-    "wide_trump_articles_expanded": 9,
-    "wide_percentage_expanded": 2.8,
-    "macro_percentage": 4.0,
-    "qualifying_outlets": 12,
+    "wide_total_articles": 718,
+    "wide_trump_articles": 26,
+    "wide_percentage": 3.6,
+    "wide_trump_articles_expanded": 26,
+    "wide_percentage_expanded": 3.6,
+    "macro_percentage": 3.7,
+    "qualifying_outlets": 23,
     "core_outlets_total": 19,
-    "core_outlets_active": 13,
-    "active_core_fraction": 0.684,
-    "cross_outlet_dup_headlines": 32,
-    "cross_outlet_dup_groups": 15,
-    "cross_outlet_dup_rate": 13.6,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 59,
+    "cross_outlet_dup_groups": 29,
+    "cross_outlet_dup_rate": 11.5,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 6.0,
-    "breadth": 0.38,
-    "deviation": 0.95,
-    "smoothed_pct": 3.24,
+    "dominance": 2.43,
+    "breadth": 0.58,
+    "deviation": 1.2,
+    "smoothed_pct": 3.34,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 7,
+    "theme_rank": 4,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 12,
-        "kept": 12,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 8.33
+        "today": 28,
+        "kept": 28,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.14
       },
       "google_fr": {
         "fetched": 34,
-        "today": 2,
-        "kept": 2,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "google_nl_politics": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_nl_politics": {
-        "fetched": 29,
-        "today": 6,
-        "kept": 6,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 16.67
-      },
       "google_nl_world": {
         "fetched": 70,
-        "today": 12,
-        "kept": 8,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 12.5
+        "today": 20,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 5,
-        "kept": 4,
+        "today": 19,
+        "kept": 15,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
         "fetched": 64,
-        "today": 4,
-        "kept": 3,
+        "today": 11,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 50,
-        "today": 6,
-        "kept": 5,
+        "fetched": 55,
+        "today": 22,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 27,
-        "today": 1,
-        "kept": 1,
+        "fetched": 21,
+        "today": 2,
+        "kept": 2,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 59,
-        "today": 1,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "fetched": 54,
+        "today": 12,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
       },
       "google_fr_business": {
-        "fetched": 69,
-        "today": 1,
-        "kept": 1,
+        "fetched": 70,
+        "today": 9,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 27,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
       },
       "standaard": {
-        "fetched": 50,
-        "today": 8,
-        "kept": 8,
+        "fetched": 100,
+        "today": 60,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "hln": {
         "fetched": 30,
-        "today": 27,
-        "kept": 27,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 7.41
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "demorgen": {
+        "fetched": 30,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 39,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.56
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 43,
+        "kept": 43,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 9.3
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 60,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 5.0
+      },
+      "septsursept": {
         "fetched": 30,
         "today": 19,
         "kept": 19,
@@ -63806,154 +63894,66 @@
         "trump_expanded": 1,
         "share": 5.26
       },
-      "nieuwsblad": {
-        "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "gva": {
-        "fetched": 50,
-        "today": 46,
-        "kept": 46,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "hbvl": {
-        "fetched": 50,
-        "today": 32,
-        "kept": 32,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "knack": {
-        "fetched": 100,
-        "today": 11,
-        "kept": 11,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 9.09
-      },
-      "sporza": {
-        "fetched": 20,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "bruzz": {
-        "fetched": 100,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 10,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 10,
-        "kept": 10,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 10.0
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 24,
-        "kept": 23,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 13,
-        "kept": 13,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 7.69
-      },
-      "septsursept": {
-        "fetched": 30,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
       "bx1": {
         "fetched": 10,
-        "today": 0,
-        "kept": 0,
+        "today": 5,
+        "kept": 5,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 6,
-        "kept": 5,
+        "today": 11,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 10,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 34,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 12,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 1,
-        "kept": 1,
+        "today": 11,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 98,
-        "today": 4,
-        "kept": 4,
+        "fetched": 99,
+        "today": 17,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
         "fetched": 100,
-        "today": 1,
-        "kept": 0,
+        "today": 31,
+        "kept": 5,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "tendances_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 14,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -63982,15 +63982,21 @@
     ],
     "matches": [
       {
-        "title": "Trump suggereert dat NBA-legende LeBron James een “racist” is",
-        "url": "https://www.hln.be/buitenland/trump-suggereert-dat-nba-legende-lebron-james-een-racist-is~af00eb7f/",
+        "title": "Drie maanden na mislukte aanslag speecht Trump alsnog op Correspondents' Dinner: \"Rare mix van humor en spanning\"",
+        "url": "https://vrtnws.be/p.3BoOqXb8J",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil waarschuwingsborden plaatsen bij beroemd museum over geschiedenis VS: “Niet accuraat, te woke”",
+        "url": "https://www.hln.be/buitenland/trump-wil-waarschuwingsborden-plaatsen-bij-beroemd-museum-over-geschiedenis-vs-niet-accuraat-te-woke~ade48332/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Trump combineert grappen met sneren tijdens correspondentendiner",
-        "url": "https://www.hln.be/buitenland/trump-combineert-grappen-met-sneren-tijdens-correspondentendiner~a79c6d94/",
-        "source": "hln",
+        "title": "Iraanse dreiging dwong Trump tot abrupte wissel van Air Force One in Turkije",
+        "url": "https://www.demorgen.be/snelnieuws/iraanse-dreiging-dwong-trump-tot-abrupte-wissel-van-air-force-one-in-turkije~b7e804f5/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -64000,15 +64006,63 @@
         "name_only": true
       },
       {
+        "title": "“Misschien is hij racistisch”: Donald Trump doet opmerkelijke uitspraak over LeBron James",
+        "url": "https://www.nieuwsblad.be/sport/zaalsporten/basketbal/misschien-is-hij-racistisch-donald-trump-doet-opmerkelijke-uitspraak-over-lebron-james/159185233.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Misschien is hij racistisch”: Donald Trump doet opmerkelijke uitspraak over LeBron James",
+        "url": "https://www.hbvl.be/sport/zaalsporten/basketbal/misschien-is-hij-racistisch-donald-trump-doet-opmerkelijke-uitspraak-over-lebron-james/159185714.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
         "title": "Geopolitiek denker Stephen Wertheim: ‘Ik denk niet dat Trump Amerika écht uit de NAVO wil’ (Knack) - Knack",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb0NDaGNwS1JLNTQwaUFSbThPeDlSa1JlY1lpdWgzaHZJblVXczNnbS1hWVdJTGtkZTJnMmFRWHVqNjRVRkVyNXAxLU9obVpYUGpfa0hrSDRKWF9mYWRsY0YxdFRXN244dV9SUVVvVldmSElVUVF3Tnh6aXlSa1Q5eExDcjkxVEd1bm1IbXZadWdmelFlOE45TmxmOTBxVDR3NkRuZWNGRk9QYURLSHd3T2c4Zk1yN0ZiTXNqRmVaYng?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "Trois mois après la tentative d'assassinat, Trump était de retour au gala de la presse et il a multiplié les attaques frontales",
+        "title": "Guerre au Moyen-Orient : Washington frappe l’Iran, Trump menace d’intensifier son offensive",
+        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-washington-frappe-l-iran-trump-menace-d-intensifier-son-offensive-11762495",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Le gouvernement américain a refusé des subventions de recherche aux États anti-Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/25/le-gouvernement-americain-a-refuse-des-subventions-de-recherche-aux-etats-anti-trump-U56RGPB4ANG5LFV5SEDPV3HFTA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Attaques frontales, troisième mandat et une drôle de plaisanterie... Après la tentative d'assassinat, Trump était de retour au gala de la presse",
         "url": "https://www.lalibre.be/international/amerique/2026/07/25/trois-mois-apres-la-tentative-dassassinat-trump-etait-de-retour-au-gala-de-la-presse-et-il-a-multiplie-les-attaques-frontales-HTJWSCRE7ZAQDCNKGZDUKKQP2U/",
         "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le Venezuela \"pas vraiment prêt\" pour des élections, estime Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/25/le-venezuela-pas-vraiment-pret-pour-des-elections-estime-trump-2STHQFDYMZEHLB2JG3HFW7IQHE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: l'armée américaine tire sur un tanker, Trump envisage des bombardements plus larges sur l'Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/07/25/direct-guerre-au-moyen-orient-larmee-americaine-tire-sur-un-tanker-trump-envisage-des-bombardements-plus-larges-sur-liran-ZCC6EHTZ6RGWZDLNDIX5V4DLBA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une enquête révèle que le gouvernement américain a refusé des subventions de recherche aux États qui n'ont pas voté pour Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/25/une-enquete-revele-que-le-gouvernement-americain-a-refuse-des-subventions-de-recherche-aux-etats-qui-nont-pas-vote-pour-donald-trump-HIBYUSTY6NBS7DIDLTLWHQF6EQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump envisage des bombardements plus larges sur l'Iran",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/25/direct-guerre-au-moyen-orient-trump-envisage-des-bombardements-plus-larges-sur-liran-DN3Q5JOGT5HW3CMSD6T35ESI6E/",
+        "source": "dhnet",
         "name_only": true
       },
       {
@@ -64016,9 +64070,27 @@
         "url": "https://www.dhnet.be/actu/monde/2026/07/25/de-retour-au-grand-gala-de-la-presse-trump-sen-prend-aux-journalistes-quand-je-serai-parti-vous-serez-tous-fauches-DVOTYXCWLBGTHG65XR6SECMEPI/",
         "source": "dhnet",
         "name_only": true
+      },
+      {
+        "title": "“Ennemis du peuple”: Trump charge les journalistes pour son retour au gala de la presse",
+        "url": "https://www.7sur7.be/monde/ennemis-du-peuple-trump-charge-les-journalistes-pour-son-retour-au-gala-de-la-presse~ad6d103b/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump évoque un troisième mandat et charge les journalistes pour son retour au gala de la presse - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMS03YWRpbHRGUU16ZEFjRk14dFdXUG52R2ltOURJVXlOeGhkREdyZHBKaHl4aVNDd1pvaUJRbGJDTzJWcXMxQWUyWGQ1a0t1ajhMUlpmaWJGa3JsZDRReWc0bG41ZGtyOWVBaDFMM1pJNXJNRGZLUkRfMFVTTzliZ2huSEswakF4ZVhzaEVOSk56bHRFbFRZeUdaVXM4UVV0bjVGMzhCSm5WQmJnblVXQlRHZ3BCRE80dlJaTDViTG9Gekd5?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
       }
     ],
     "wide_matches": [
+      {
+        "title": "Trump gooit met modder op journalisten­diner - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbXN1cHE5dzJyV3JIcVV4WlIxMVhlTnNTd2Fzczd4RlZwekNlc2FVQ2NWbWlrd2RmMkJ0Yld0SVA3bUFFRkZXd3MxVnJSWHc5eUltZmRrWmVzamF5ZF9rSlFDSGtoOWM4NlNrZ2JsRXh5MkNPdlcxWjM0TmxFU0xIbW14M1N0TG1HcGhyM2hzNU0tRHE2amNlai1rNjIwVkNqNUE?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
       {
         "title": "Trumps hypocrisie dwingt Europa om zijn huiswerk rond dwangarbeid af te maken - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNekRZYktCNEZWVXdDX2Z5Nkp1VUUxd2JIMXhTck5GVXhpRXNELW4wcWhHd1VJaXNPWnhkZnRtbU9KZkFGTmtWekVjcXEtWWRrTjdkSFNUTTF4VTNQZzVWTHF2Um0zV1hnMGY0UzRtY3VRTVZXNWlyaDZjZkxrU0NTYWFPb2RYUWh3aEtFWHJYYXNJQ1pBcTVTTm4yNjRUb3lnQXJnUDd6aUZNc2lWRnBteU9YcERraDZfZWtCb2FYV2ZUcEU?oc=5",
@@ -64026,27 +64098,51 @@
         "name_only": true
       },
       {
-        "title": "VS-regering hield miljarden dollars aan subsidies in van staten die niet op Trump stemden - de Volkskrant",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV1F6RUk1RW50el9fakR6cHlCSHRManFvOEQ2TEgxeFc2NXh0RXJlSkVlZS1FNWU5bTg4aUo0NXhCT3Azb3NGa1F5QkhvLTRJMktFQ1ZrN010TTlFTEJHaWpmX25mM1FMamtqNEVQZWRnMmZQY2xUM0NPcVVVa3E0QTBVcTNtdEVjQm9lQzRwVU4yV2FCMzdpRFlWTm04NDlZUExlQUVPZ0pqTGxsT0ZGNjZjZ2FsRkNPNlVSbnVzc0tFcmFWRDB6YWlXVTM2SndWeGc?oc=5",
-        "source": "google_nl_politics",
+        "title": "DIRECT - Guerre au Moyen-Orient: l'armée américaine tire sur un tanker, Trump envisage des bombardements plus larges sur l'Iran - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPTFY2V3d3SDZ0aGZwa0xtd215eFRiOXJfSnBtODMzYnAycnBDZFNaMDJVQTdoVTEyTGFZc21VNDhmemRlcmFxZ3RjZXItMFVRVHUwMnV6VTZJT21qQjFYNHY0d0FxNjNtbDNENHIwdmtqQXRSS1YtSlJDNzBaOENFNHo4aUhReE94bGFzOVFMV1JXaF9BazdtVERFaW9DYVN4dWdtdHRfTmR5ZkIwM240c1QyRWU5YkdxZlBiQVd5YjZZNkx2cUhZRFdkcXZ4NW5ZeE5aTkJ4R2s1NFI4Vzgtbzh3Z014V3J4V0o4MEdBVXFNYlJaNU5EU05VRThEVXdJWEhoWVdiTk1zLXZIRjlkTnV6cGVqQndPVUtobHJBR29pd1BVSlo3eU5DVnhsYTVLbmIzMHFfRjduZDA?oc=5",
+        "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Live - Trump combineert grappen met sneren tijdens nieuwe correspondentendiner - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdWZWYlpLRlhRYnRQSU1xcDJhRTlmN1FpVjZjRjBNeUlWZTU0U0hVQWJwUGcyYm1TdTVMOHFWLS05TVBjcFlGTW1ZVVNuRmxUMWtxWGFQUzRCTnNSejhTUjBRMVhTbTVZWk9iUHJPNDVWelR2OXJFS2N5TmJUNzEtMUJJUlE2eXpGZUI1YUpub0VqWmNiVUpzeGFWUDAzZUdEOEtKcTlaa1V2UnowZEU3STNHWkZZMGMtZHUzcUJ3VWhqNU8zQVVNODBiUHh5bFJjQUE?oc=5",
+        "title": "Trump grapt en sneert tijdens Correspondents’ Dinner: van twerken en ‘Trump-waanzinsyndroom’ tot Trump 2028 - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRlZqWlpUc0NPZ1ZVcTJ3eExlVWRVejRlbmZHUTlyVDEzQnpLSXpzMkFVeUNfUmFJZDdycWhjcEhjYzRrZUNjbk1FTi1MbVRra0dqSERvMjNWWG1hSTdDejM0bHk5TUJXZVFLSkRsSnI3LV9EcnNDVEVZYmZOR3Q1TnA4d3VsbWdsTVBzWExuNnI2QXZ6Y29pOU1qUmVWWFNhS0s4amg2ZVBwaVZGb3BtZktOMkxjaGFnT0ktODExMFg4UjByR29QY3ZPRlVNTGFURGNHUmJ0Q2ptR1U?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
       {
-        "title": "Trump suggereert dat NBA-legende LeBron James een “racist” is",
-        "url": "https://www.hln.be/buitenland/trump-suggereert-dat-nba-legende-lebron-james-een-racist-is~af00eb7f/",
+        "title": "Lavrov beschuldigt Trump van het verbreken van afspraken over Oekraïne - Business AM",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN3hQM2hYekpjV0l3YTNjWkoyVnJBSmZUTjBUaFV6MWg1VVFRTHZHazRDaElBUEl0VnFTb1hiSGVIR1Q3dnQ2bDE0c0dFVVlYcDQyeFV2M2xOb1VxSjVzcHJ2NUVfeHJRWmMyQUdhN05tT1RkNERncE9RTW54U3BrOFhGN0gyQ29jbm9ROHVMNWhHd2VyVEtTbg?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine et au Moyen-Orient : Zelensky et Netanyahou rencontreront Trump à la Maison Blanche mardi - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUFRpYl9lSjJ3VVRscmRvN2ZIcmFucW5pRGZJTUcxcjZNNkt0OUUycllQYlJCUndZZXUtZHBqMEJMOFFSQTBIVUNPcV9YZHNRRFBxRzZScV80akFHYW9hYThYMUItdkZwcUtwVFU5MC01Sno2MTNwTWQtTzFFSWFYVWZ0dWJ3MGk3V2p1U2RicFBJU0Uyc1Y4eHdzN2lBeDdhcmt1MnJoMUI0MEVfN3VfbzlQNkZWRUhtUDNibXhkdUpBejVWelVKTC1tVHl0aXM0V3o5amJ0REFuZw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Une enquête révèle que le gouvernement américain a refusé des subventions de recherche aux États qui n'ont pas voté pour Donald Trump - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNY01aeFRvU2tqam9uaTdMekxLUHFuVlFINVNMWlM0YmRjZ0doRmpUdjd5U1d3N3FEN1dhMzNCYm1TTUFEajZGMUJUZmVzazM0eExJVkdTbVlwWFZtbzB6TFdzakNZSngzZXNoUHVLelItMjFwWXNJMXc2TzFkcGozajJWYXZ6dkJ1U2h4Q1htYWFsOWhQaHB4VVZOU0o2TmdaMEJaSHBrVW0yeVhndklGcXF2VEpHZURjTXdWdEQ3TEtTdFZOTTBhNUNWV1pacjB3Rnl1QUpPb0kwNjc0TjZzMGdYN0N5ekswemw1TmFpTjBYMVJCdVFrdVptVkQyMUc2cEdvOUNocWNYUTgwWUM4SWdOWkFCWk5aT3VDcGgwNm9HR2dMeFh6UTFxbw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Drie maanden na mislukte aanslag speecht Trump alsnog op Correspondents' Dinner: \"Rare mix van humor en spanning\"",
+        "url": "https://vrtnws.be/p.3BoOqXb8J",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil waarschuwingsborden plaatsen bij beroemd museum over geschiedenis VS: “Niet accuraat, te woke”",
+        "url": "https://www.hln.be/buitenland/trump-wil-waarschuwingsborden-plaatsen-bij-beroemd-museum-over-geschiedenis-vs-niet-accuraat-te-woke~ade48332/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Trump combineert grappen met sneren tijdens correspondentendiner",
-        "url": "https://www.hln.be/buitenland/trump-combineert-grappen-met-sneren-tijdens-correspondentendiner~a79c6d94/",
-        "source": "hln",
+        "title": "Iraanse dreiging dwong Trump tot abrupte wissel van Air Force One in Turkije",
+        "url": "https://www.demorgen.be/snelnieuws/iraanse-dreiging-dwong-trump-tot-abrupte-wissel-van-air-force-one-in-turkije~b7e804f5/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -64056,15 +64152,75 @@
         "name_only": true
       },
       {
+        "title": "“Misschien is hij racistisch”: Donald Trump doet opmerkelijke uitspraak over LeBron James",
+        "url": "https://www.nieuwsblad.be/sport/zaalsporten/basketbal/misschien-is-hij-racistisch-donald-trump-doet-opmerkelijke-uitspraak-over-lebron-james/159185233.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Misschien is hij racistisch”: Donald Trump doet opmerkelijke uitspraak over LeBron James",
+        "url": "https://www.gva.be/sport/zaalsporten/basketbal/misschien-is-hij-racistisch-donald-trump-doet-opmerkelijke-uitspraak-over-lebron-james/159185716.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "“Misschien is hij racistisch”: Donald Trump doet opmerkelijke uitspraak over LeBron James",
+        "url": "https://www.hbvl.be/sport/zaalsporten/basketbal/misschien-is-hij-racistisch-donald-trump-doet-opmerkelijke-uitspraak-over-lebron-james/159185714.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
         "title": "Geopolitiek denker Stephen Wertheim: ‘Ik denk niet dat Trump Amerika écht uit de NAVO wil’ (Knack) - Knack",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb0NDaGNwS1JLNTQwaUFSbThPeDlSa1JlY1lpdWgzaHZJblVXczNnbS1hWVdJTGtkZTJnMmFRWHVqNjRVRkVyNXAxLU9obVpYUGpfa0hrSDRKWF9mYWRsY0YxdFRXN244dV9SUVVvVldmSElVUVF3Tnh6aXlSa1Q5eExDcjkxVEd1bm1IbXZadWdmelFlOE45TmxmOTBxVDR3NkRuZWNGRk9QYURLSHd3T2c4Zk1yN0ZiTXNqRmVaYng?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "Trois mois après la tentative d'assassinat, Trump était de retour au gala de la presse et il a multiplié les attaques frontales",
+        "title": "\"Misschien is hij een racist\": president Donald Trump doet vreemde uitspraak over LeBron James",
+        "url": "https://sporza.be/nl/2026/07/25/-misschien-is-hij-een-racist-president-donald-trump-doet-vreemde-uitspraak-over-lebron-james~1784968430006/",
+        "source": "sporza",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Washington frappe l’Iran, Trump menace d’intensifier son offensive",
+        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-washington-frappe-l-iran-trump-menace-d-intensifier-son-offensive-11762495",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Le gouvernement américain a refusé des subventions de recherche aux États anti-Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/25/le-gouvernement-americain-a-refuse-des-subventions-de-recherche-aux-etats-anti-trump-U56RGPB4ANG5LFV5SEDPV3HFTA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Attaques frontales, troisième mandat et une drôle de plaisanterie... Après la tentative d'assassinat, Trump était de retour au gala de la presse",
         "url": "https://www.lalibre.be/international/amerique/2026/07/25/trois-mois-apres-la-tentative-dassassinat-trump-etait-de-retour-au-gala-de-la-presse-et-il-a-multiplie-les-attaques-frontales-HTJWSCRE7ZAQDCNKGZDUKKQP2U/",
         "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le Venezuela \"pas vraiment prêt\" pour des élections, estime Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/25/le-venezuela-pas-vraiment-pret-pour-des-elections-estime-trump-2STHQFDYMZEHLB2JG3HFW7IQHE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: l'armée américaine tire sur un tanker, Trump envisage des bombardements plus larges sur l'Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/07/25/direct-guerre-au-moyen-orient-larmee-americaine-tire-sur-un-tanker-trump-envisage-des-bombardements-plus-larges-sur-liran-ZCC6EHTZ6RGWZDLNDIX5V4DLBA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une enquête révèle que le gouvernement américain a refusé des subventions de recherche aux États qui n'ont pas voté pour Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/25/une-enquete-revele-que-le-gouvernement-americain-a-refuse-des-subventions-de-recherche-aux-etats-qui-nont-pas-vote-pour-donald-trump-HIBYUSTY6NBS7DIDLTLWHQF6EQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump envisage des bombardements plus larges sur l'Iran",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/25/direct-guerre-au-moyen-orient-trump-envisage-des-bombardements-plus-larges-sur-liran-DN3Q5JOGT5HW3CMSD6T35ESI6E/",
+        "source": "dhnet",
         "name_only": true
       },
       {
@@ -64072,77 +64228,89 @@
         "url": "https://www.dhnet.be/actu/monde/2026/07/25/de-retour-au-grand-gala-de-la-presse-trump-sen-prend-aux-journalistes-quand-je-serai-parti-vous-serez-tous-fauches-DVOTYXCWLBGTHG65XR6SECMEPI/",
         "source": "dhnet",
         "name_only": true
+      },
+      {
+        "title": "“Ennemis du peuple”: Trump charge les journalistes pour son retour au gala de la presse",
+        "url": "https://www.7sur7.be/monde/ennemis-du-peuple-trump-charge-les-journalistes-pour-son-retour-au-gala-de-la-presse~ad6d103b/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump évoque un troisième mandat et charge les journalistes pour son retour au gala de la presse - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMS03YWRpbHRGUU16ZEFjRk14dFdXUG52R2ltOURJVXlOeGhkREdyZHBKaHl4aVNDd1pvaUJRbGJDTzJWcXMxQWUyWGQ1a0t1ajhMUlpmaWJGa3JsZDRReWc0bG41ZGtyOWVBaDFMM1pJNXJNRGZLUkRfMFVTTzliZ2huSEswakF4ZVhzaEVOSk56bHRFbFRZeUdaVXM4UVV0bjVGMzhCSm5WQmJnblVXQlRHZ3BCRE80dlJaTDViTG9Gekd5?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 6,
+      "trump": 17,
       "putin": 0,
       "macron": 0,
       "netanyahu": 0,
-      "zelensky": 0,
-      "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 1,
-      "magnette": 0,
-      "prevot": 0,
-      "rousseau": 0,
-      "francken": 0,
-      "crevits": 0,
-      "jambon": 0,
-      "van_peteghem": 0,
-      "verlinden": 0
-    },
-    "wide_comparisons": {
-      "trump": 9,
-      "putin": 0,
-      "macron": 2,
-      "netanyahu": 0,
-      "zelensky": 0,
+      "zelensky": 1,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 1,
       "bouchez": 1,
       "magnette": 0,
       "prevot": 0,
-      "rousseau": 0,
-      "francken": 0,
+      "rousseau": 1,
+      "francken": 3,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 26,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 4,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 14,
-      "crime": 8,
-      "eu": 14,
-      "politics": 9,
-      "be_gov": 6,
-      "culture": 7,
-      "tech": 5,
-      "economy": 5,
-      "sports": 13,
-      "health": 3,
-      "climate": 0,
-      "migration": 0,
-      "education": 1,
-      "weather": 5
+      "war": 28,
+      "crime": 14,
+      "eu": 25,
+      "politics": 14,
+      "be_gov": 15,
+      "culture": 11,
+      "tech": 10,
+      "economy": 8,
+      "sports": 26,
+      "health": 6,
+      "climate": 4,
+      "migration": 1,
+      "education": 5,
+      "weather": 13
     },
     "wide_themes": {
-      "war": 20,
-      "crime": 13,
-      "eu": 17,
-      "politics": 15,
-      "be_gov": 7,
-      "culture": 9,
-      "tech": 10,
-      "economy": 7,
-      "sports": 19,
-      "health": 4,
-      "climate": 0,
-      "migration": 0,
-      "education": 1,
-      "weather": 5
+      "war": 41,
+      "crime": 20,
+      "eu": 37,
+      "politics": 25,
+      "be_gov": 19,
+      "culture": 14,
+      "tech": 15,
+      "economy": 13,
+      "sports": 47,
+      "health": 9,
+      "climate": 4,
+      "migration": 1,
+      "education": 6,
+      "weather": 18
     }
   }
 ]
