@@ -64827,5 +64827,478 @@
       "education": 0,
       "weather": 28
     }
+  },
+  {
+    "date": "2026-07-27",
+    "generated_at": "2026-07-27T08:50:39+02:00",
+    "last_checked_at": "2026-07-27T08:50:39+02:00",
+    "total_articles": 337,
+    "trump_articles": 4,
+    "percentage": 1.2,
+    "core_percentage": 1.2,
+    "core_percentage_name": 1.2,
+    "trump_articles_expanded": 4,
+    "core_percentage_expanded": 1.2,
+    "indirect_references": 0,
+    "wide_total_articles": 468,
+    "wide_trump_articles": 8,
+    "wide_percentage": 1.7,
+    "wide_trump_articles_expanded": 8,
+    "wide_percentage_expanded": 1.7,
+    "macro_percentage": 3.0,
+    "qualifying_outlets": 17,
+    "core_outlets_total": 19,
+    "core_outlets_active": 15,
+    "active_core_fraction": 0.789,
+    "cross_outlet_dup_headlines": 41,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 12.2,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.44,
+    "breadth": 0.27,
+    "deviation": 0.44,
+    "smoothed_pct": 2.47,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_politics": {
+        "fetched": 18,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 53,
+        "today": 13,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_nl_tech": {
+        "fetched": 65,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 66,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 54,
+        "today": 9,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 23,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 69,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 41,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 33,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "lecho": {
+        "fetched": 71,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 56,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Waarom Trump Netanyahu weer ontvangt in het Witte Huis: ‘Hij beseft intussen ook dat hij het niet alleen kan’",
+        "url": "https://www.demorgen.be/nieuws/waarom-trump-netanyahu-weer-ontvangt-in-het-witte-huis-hij-beseft-intussen-ook-dat-hij-het-niet-alleen-kan~bb5ed109/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Van Donald Trump tot Clouseau: met ‘Celebration 90’ viert Het Witte Paard beste show in jaren",
+        "url": "https://www.nieuwsblad.be/regio/west-vlaanderen/regio-brugge/blankenberge/van-donald-trump-tot-clouseau-met-celebration-90-viert-het-witte-paard-beste-show-in-jaren/158862839.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump laisse \"de la place\" aux négociations avec l'Iran, une inquiétude grandit en coulisses à Washington",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/07/27/direct-guerre-au-moyen-orient-trump-laisse-de-la-place-aux-negociations-avec-liran-une-inquietude-grandit-en-coulisses-a-washington-AZIRPBPIUZDD7CV3POPHZVLC3U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump laisse “de la place” aux négociations avec l’Iran, un problème prend de l’ampleur aux États-Unis",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/27/direct-guerre-au-moyen-orient-trump-laisse-de-la-place-aux-negociations-avec-liran-un-probleme-prend-de-lampleur-aux-etats-unis-7JGUOWSHGJF63NXNZ5EFKR47YE/",
+        "source": "dhnet",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Waarom Trump Netanyahu weer ontvangt in het Witte Huis: ‘Hij beseft intussen ook dat hij het niet alleen kan’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbUFxMzlvVnJHRXYxS0l4enhULXBKUEpJWkROMlU2eFlYRE1XdlZXYUVCNHdhV1lUaXFOekxVbVZiVW9hN2F5WVE5MG1fZUVKQjBlTmZEQWtHbXVuTGdXS2Rmc2RKTkJVaGZPVE5BSksySzlTTDhNVnVFS01yNUtSYVlGX0JqcWRfcGxseG5RUTQ2ZEQ0b2F1ZncxX2s0REtMcG1LWVdKY1ZUclBSNWFxY1BLOVhkcENPUWszYjhOTjJ1UGZFMEhyT0huLXJXblJ6V1Q0dEo5UFRBeGF4V3ljMA?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump laisse \"de la place\" aux négociations avec l'Iran, un problème prend de l'ampleur aux États-Unis - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQcHF1dTE1S1p1NnZpMGxUWDR4WlRSb0FYRURsU1BqdmtxRFFuTjFpLUpDbWFKMFp0UGlBMm9UcXgyeGJKOHBzaVVnd29pbndzNXExODltTkZweW1jSDdXdHVRMEozZVFaeWNLaVdSNDc2MlJTbnJUMm5GN09KQzk2dUpnV0RKUnNZR2VfSFgtMmVFOWNfVjJYVjVMZXUxN0xRZl9mXzZReGtnOVd5R252aExjcUxWTGthOGhxdldXYzJFdDI1MFVYdmJCLU00YUtQdnFzUHFXVm0xMklYeGVqOE1EWUhXYmVSb2c1ek9zSmZveHZhUFBJeFRfOFpfRGxpaFNPaU5pSXdJd3kxc2w1Y095WTZZalRLeERCNUNvVFNCejc5?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "President Trump stelt “massale aanvallen” op Iran voorlopig uit, wegens slinkende voorraad luchtafweermunitie - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObXdKN2RUellTak1mX2p0WTlUNnF3OENMeUNWSDJCd0RjRWtmdGhoMnZwMWViZFlaM0ZUN2N1UjBvUkdPTkFSZFJfQlZlT3FRYUJ2UW1IUUQ5RlhUZEtyTEhKd3Vac0RXWlJrTWg3ckRpNjlPUEtDTTRRSV8xZkRGNHJId2FqWU5zckNPVmVhSWdIM1plLTZld0pjNnl6cFhzaFNQeG92d0trckppYVoxTVZETGVxZ2pFY3pldkx1dzFwQm5UdWNRQWdGSjBDVzdwaUlabkpyVXdOOXY2MHpoYjBxQlZTTTR2djhWTVNR?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump trade’-beleggers kampen met steeds meer verliezen door Iran-oorlog en wispelturig beleid - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYmw4TUdYSWpZM3JzNE4zNjUyZEctbzgyVXlvelI5b1BOZG5Td2ZZb0ZHWkhNYUZvT0QyQVVyeGFSREItd3pkczYxYUNqc1JMeXUzc3JWblprNUNxeDlYOF9TdV93bFUxTlpaOF9OYVdXaGllRUYwY0d3cllfbnd5SjBIUldaMjJHWHlZR1hVbDZMN1RRVnZVSHMteUNvMURBSWR6SGIybW5iQy15SWdGUl8zLUwtLVFqaXFvLUphOXd6V0lNNXg3cG5aVE5pb24tUVlTWGMxcXJYZw?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Waarom Trump Netanyahu weer ontvangt in het Witte Huis: ‘Hij beseft intussen ook dat hij het niet alleen kan’",
+        "url": "https://www.demorgen.be/nieuws/waarom-trump-netanyahu-weer-ontvangt-in-het-witte-huis-hij-beseft-intussen-ook-dat-hij-het-niet-alleen-kan~bb5ed109/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Van Donald Trump tot Clouseau: met ‘Celebration 90’ viert Het Witte Paard beste show in jaren",
+        "url": "https://www.nieuwsblad.be/regio/west-vlaanderen/regio-brugge/blankenberge/van-donald-trump-tot-clouseau-met-celebration-90-viert-het-witte-paard-beste-show-in-jaren/158862839.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump laisse \"de la place\" aux négociations avec l'Iran, une inquiétude grandit en coulisses à Washington",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/07/27/direct-guerre-au-moyen-orient-trump-laisse-de-la-place-aux-negociations-avec-liran-une-inquietude-grandit-en-coulisses-a-washington-AZIRPBPIUZDD7CV3POPHZVLC3U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump laisse “de la place” aux négociations avec l’Iran, un problème prend de l’ampleur aux États-Unis",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/27/direct-guerre-au-moyen-orient-trump-laisse-de-la-place-aux-negociations-avec-liran-un-probleme-prend-de-lampleur-aux-etats-unis-7JGUOWSHGJF63NXNZ5EFKR47YE/",
+        "source": "dhnet",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 4,
+      "putin": 0,
+      "macron": 3,
+      "netanyahu": 4,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 8,
+      "putin": 0,
+      "macron": 6,
+      "netanyahu": 6,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 11,
+      "crime": 9,
+      "eu": 16,
+      "politics": 6,
+      "be_gov": 5,
+      "culture": 13,
+      "tech": 4,
+      "economy": 9,
+      "sports": 31,
+      "health": 0,
+      "climate": 4,
+      "migration": 1,
+      "education": 0,
+      "weather": 15
+    },
+    "wide_themes": {
+      "war": 16,
+      "crime": 14,
+      "eu": 27,
+      "politics": 12,
+      "be_gov": 8,
+      "culture": 18,
+      "tech": 8,
+      "economy": 11,
+      "sports": 54,
+      "health": 1,
+      "climate": 4,
+      "migration": 1,
+      "education": 0,
+      "weather": 23
+    }
   }
 ]
