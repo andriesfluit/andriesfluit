@@ -65465,229 +65465,197 @@
   },
   {
     "date": "2026-07-28",
-    "generated_at": "2026-07-28T08:12:07+02:00",
-    "last_checked_at": "2026-07-28T14:23:59+02:00",
-    "total_articles": 292,
-    "trump_articles": 6,
-    "percentage": 2.1,
-    "core_percentage": 2.1,
-    "core_percentage_name": 2.1,
-    "trump_articles_expanded": 7,
-    "core_percentage_expanded": 2.4,
-    "indirect_references": 1,
-    "wide_total_articles": 380,
-    "wide_trump_articles": 7,
-    "wide_percentage": 1.8,
-    "wide_trump_articles_expanded": 8,
-    "wide_percentage_expanded": 2.1,
-    "macro_percentage": 0.8,
-    "qualifying_outlets": 15,
+    "generated_at": "2026-07-28T20:01:08+02:00",
+    "last_checked_at": "2026-07-28T20:01:08+02:00",
+    "total_articles": 848,
+    "trump_articles": 28,
+    "percentage": 3.3,
+    "core_percentage": 3.3,
+    "core_percentage_name": 3.3,
+    "trump_articles_expanded": 31,
+    "core_percentage_expanded": 3.7,
+    "indirect_references": 3,
+    "wide_total_articles": 1207,
+    "wide_trump_articles": 38,
+    "wide_percentage": 3.1,
+    "wide_trump_articles_expanded": 44,
+    "wide_percentage_expanded": 3.6,
+    "macro_percentage": 3.5,
+    "qualifying_outlets": 31,
     "core_outlets_total": 19,
-    "core_outlets_active": 15,
-    "active_core_fraction": 0.789,
-    "cross_outlet_dup_headlines": 30,
-    "cross_outlet_dup_groups": 15,
-    "cross_outlet_dup_rate": 10.3,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "One of the day's top two figures.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 86,
+    "cross_outlet_dup_groups": 42,
+    "cross_outlet_dup_rate": 10.1,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.4,
-    "breadth": 0.2,
-    "deviation": 0.76,
-    "smoothed_pct": 2.43,
+    "dominance": 1.0,
+    "breadth": 0.68,
+    "deviation": 1.2,
+    "smoothed_pct": 2.6,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 10,
+    "theme_rank": 4,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 15,
-        "kept": 15,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 33,
+        "kept": 33,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.06
       },
       "google_fr": {
         "fetched": 34,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "google_nl_politics": {
+        "fetched": 16,
         "today": 7,
         "kept": 7,
         "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_politics": {
-        "fetched": 12,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
+        "trump_expanded": 1,
         "share": 0.0
       },
       "google_nl_world": {
-        "fetched": 62,
-        "today": 11,
-        "kept": 9,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 11.11
+        "fetched": 70,
+        "today": 44,
+        "kept": 39,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 5.13
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 17,
-        "kept": 13,
+        "today": 46,
+        "kept": 42,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 58,
-        "today": 4,
-        "kept": 1,
+        "fetched": 57,
+        "today": 20,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 67,
-        "today": 9,
-        "kept": 6,
+        "fetched": 69,
+        "today": 40,
+        "kept": 36,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 23,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_world": {
-        "fetched": 63,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_business": {
-        "fetched": 66,
-        "today": 4,
-        "kept": 3,
+        "fetched": 21,
+        "today": 6,
+        "kept": 6,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 31,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 34,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
       "vrt": {
         "fetched": 50,
-        "today": 13,
-        "kept": 13,
+        "today": 45,
+        "kept": 45,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 59,
-        "kept": 37,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 86,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 13.33
       },
       "demorgen": {
-        "fetched": 30,
-        "today": 17,
-        "kept": 17,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 11.76
+        "fetched": 28,
+        "today": 25,
+        "kept": 25,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 12.0
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 43,
-        "kept": 43,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
       },
       "gva": {
         "fetched": 50,
-        "today": 25,
-        "kept": 25,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 21,
-        "kept": 21,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "knack": {
         "fetched": 100,
-        "today": 12,
-        "kept": 12,
+        "today": 52,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
       },
       "bruzz": {
-        "fetched": 100,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 8,
-        "kept": 8,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 25.0
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 14,
-        "kept": 14,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 22,
-        "kept": 20,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "dhnet": {
         "fetched": 100,
         "today": 21,
         "kept": 21,
@@ -65695,77 +65663,109 @@
         "trump_expanded": 0,
         "share": 0.0
       },
+      "rtbf": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 79,
+        "kept": 79,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 3.8
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 76,
+        "kept": 72,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.39
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 97,
+        "kept": 96,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 2.08
+      },
       "septsursept": {
         "fetched": 30,
-        "today": 5,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
+        "today": 30,
+        "kept": 30,
+        "trump": 4,
+        "trump_expanded": 5,
+        "share": 13.33
       },
       "bx1": {
         "fetched": 10,
-        "today": 3,
-        "kept": 3,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 25,
-        "kept": 24,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 57,
+        "kept": 47,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.26
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 27,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 56,
+        "kept": 51,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.92
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 43,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 11,
-        "kept": 11,
+        "today": 35,
+        "kept": 35,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 100,
-        "today": 8,
-        "kept": 7,
+        "fetched": 99,
+        "today": 53,
+        "kept": 49,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 14.29
+        "share": 2.04
       },
       "trends_g": {
         "fetched": 100,
-        "today": 9,
-        "kept": 0,
+        "today": 40,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "tendances_g": {
         "fetched": 100,
-        "today": 16,
-        "kept": 4,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 25.0
+        "today": 32,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
       }
     },
     "core_sources": [
@@ -65791,43 +65791,187 @@
     ],
     "matches": [
       {
-        "title": "Live - Zelensky naar Washington voor gesprek met Trump, die ‘positiever’ tegenover hem zou staan • Bijna 400 drones op Moskou afgevuurd, zegt burgemeester",
-        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-zelensky-ontmoet-vandaag-trump-die-positiever-tegenover-hem-zou-staan-president-oekraine-ook-naar-senaat-die-stemt-over-nieuwe-sanctiewet-tegen-rusland~b38bed0a/",
+        "title": "Fifa-voorzitter Infantino wil deel WK verkopen aan schoonfamilie Trump, Uefa noemt plan “uitverkoop van het voetbal” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdW9jR1lKdlBQWE9XRnpEVmx6MHo5QmM4UjZGNUFOZkhZUVc1YzBBSjJYV2VqS29zeFNCMlBiVjdSTTVJODlVN1ROQ2xDQ3J2NFR3Ykc5dlJhMWx4dkptZW9nTTNiQmE3OUdUTVpPWDd3V2JsQkRCYVdzNGgtNVg1cGEtdngxUGxldjlqYzRjNGlxYUI2d3RNVEhzaUNMU1BsNEVITkxkeDFvSmNPV2RpRVNWVTJEUlpaamg1cVQtSlV6NXlHOG1vT3l0VmJkMmZnYTlDWGRfQkZFOFpZZHhRSGN4cFJIcnJRSzRySEdrbHktZEczbWZ2NFVVZw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Timmie van Diepen: “You don’t have the cards? Plots heeft Trump Zelensky hard nodig. En dat is ook goed nieuws voor ons in Europa”",
+        "url": "https://www.hln.be/opinie/timmie-van-diepen-you-dont-have-the-cards-plots-heeft-trump-zelensky-hard-nodig-en-dat-is-ook-goed-nieuws-voor-ons-in-europa~a4ba7953/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "FIFA-baas Gianni Infantino wil WK deels verkopen, mensen rond Donald Trump benaderd als mogelijke investeerders",
+        "url": "https://www.hln.be/wk-voetbal/fifa-baas-gianni-infantino-wil-wk-deels-verkopen-mensen-rond-donald-trump-benaderd-als-mogelijke-investeerders~acc7073e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu aangekomen in Witte Huis voor gesprek met Trump",
+        "url": "https://www.hln.be/buitenland/netanyahu-aangekomen-in-witte-huis-voor-gesprek-met-trump~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky had “goed gesprek” met Trump in Witte Huis - Presidenten bespraken Oekraïense productie van Patriot-raketten",
+        "url": "https://www.hln.be/buitenland/zelensky-had-goed-gesprek-met-trump-in-witte-huis-presidenten-bespraken-oekraiense-productie-van-patriot-raketten~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Ook Netanyahu verlaat Witte Huis na gesprek met Trump: ontmoetingen waren ‘positief en productief’",
+        "url": "https://www.demorgen.be/snelnieuws/live-ook-netanyahu-in-witte-huis-voor-ontmoeting-met-trump~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Live - Trump vraagt Hooggerechtshof in spoedverzoek om beperking stemmen per post toe te laten voor tussentijdse verkiezingen",
-        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-regering-herbekijkt-procedure-rekrutering-ice-na-dodelijk-incident-vs-lopen-weg-bij-vn-veiligheidsraad-om-ruzie-met-frankrijk~b13cc951/",
+        "title": "Live - Zelensky spreekt van ‘goede ontmoeting’ met Trump over Patriot-raketten en ‘nieuw leven voor diplomatieke proces’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-oekraiense-president-zelensky-verlaat-witte-huis-na-gesprek-met-trump~b38bed0a/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Guerre en Ukraine : Zelensky attendu à la Maison Blanche pour décrocher le soutien de Trump",
-        "url": "https://www.rtbf.be/article/guerre-en-ukraine-zelensky-attendu-a-la-maison-blanche-pour-decrocher-le-soutien-de-trump-11763388",
-        "source": "rtbf",
+        "title": "Gianni Infantino wil WK voetbal verder commercialiseren en kijkt daarvoor naar investeerders uit Trump-entourage",
+        "url": "https://www.demorgen.be/snelnieuws/gianni-infantino-wil-wk-voetbal-verder-commercialiseren-en-kijkt-daarvoor-naar-investeerders-uit-trump-entourage~bcc7073e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Gianni Infantino heeft plan om WK te 'verkopen’ aan privé-investeerders, Trump-getrouwen genoemd als kandidaat: “Een nucleaire bom voor het voetbal”",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/gianni-infantino-heeft-plan-om-wk-te-verkopen-aan-prive-investeerders-trump-getrouwen-genoemd-als-kandidaat-een-nucleaire-bom-voor-het-voetbal/159313834.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Netanyahu aangekomen in Witte Huis voor eerste ontmoeting met Trump sinds start van de oorlog",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-netanyahu-aangekomen-in-witte-huis-voor-eerste-ontmoeting-met-trump-sinds-start-van-de-oorlog/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Gianni Infantino heeft plan om WK te 'verkopen’ aan privé-investeerders, Trump-getrouwen genoemd als kandidaat: “Een nucleaire bom voor het voetbal”",
+        "url": "https://www.hbvl.be/sport/voetbal/gianni-infantino-heeft-plan-om-wk-te-verkopen-aan-prive-investeerders-trump-getrouwen-genoemd-als-kandidaat-een-nucleaire-bom-voor-het-voetbal/159316728.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Zelensky a rencontré Trump à la Maison Blanche",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/07/28/guerre-en-ukraine-zelensky-est-arrive-a-la-maison-blanche-pour-obtenir-de-trump-des-missiles-patriot-NBVSDAGOG5DUTOG6VSWA4TAIU4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une agence de presse iranienne appelle à l'assassinat de Melania Trump : \"Imprégner sa veste de neurotoxique\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/28/une-agence-de-presse-iranienne-appelle-a-lassassinat-de-melania-trump-impregner-sa-veste-de-neurotoxique-DIEHCD2RHRBQNDKRR2M3372NUE/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Un spectateur imite Donald Trump en plein discours et fait le buzz en Georgie",
+        "url": "https://www.lalibre.be/international/europe/2026/07/28/un-spectateur-imite-donald-trump-en-plein-discours-et-fait-le-buzz-en-georgie-4P3VWPDIYRBAVMYLNQPJOONQIY/",
+        "source": "lalibre",
         "name_only": true
       },
       {
         "title": "Première rencontre Netanyahu-Trump, sur fond de tensions, depuis le début de la guerre en Iran",
-        "url": "https://www.rtbf.be/article/premiere-rencontre-netanyahu-trump-sur-fond-de-tensions-depuis-le-debut-de-la-guerre-en-iran-11763387",
-        "source": "rtbf",
+        "url": "https://www.lalibre.be/international/2026/07/28/premiere-rencontre-netanyahu-trump-sur-fond-de-tensions-depuis-le-debut-de-la-guerre-en-iran-Z7LIY2HHYJE7JMAGVQDLRFIY5M/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "La région de Moscou visée par plus de 390 drones, Zelensky attendu à la Maison-Blanche",
-        "url": "https://www.7sur7.be/monde/la-region-de-moscou-visee-par-plus-de-390-drones-zelensky-attendu-a-la-maison-blanche~adf7e374/",
+        "title": "Rencontre délicate entre Benyamin Netanyahou et Donald Trump à la Maison-Blanche - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMU1sYUlFOHM1NUp4aVlDVUlZNnBBNENMZ2FGRXF4SkhmMUVDclp4S1B5Rklib0l6bVNCUEx2ODhoLUE0cXd0ckM2STNlWVRaRXJNVlg2RndMeUdrZ01QcmpNdXRnb3VRVDRsa0JYcHJzRGhkSHBNZEtWWk9HTzlUUzFZbDM3SGZXWE9aZWozcG95ZW1ueHRrVFpOQ2duaHNmdE14WlozaFY1YWZfYklSWnRobmpEb0NTem05X3p1NDBkUTg5aDNBU0FhQjhfeFBwWEVDbWEwVzRiU3VyV1hDRg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky a rencontré Trump à la Maison Blanche",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/28/zelensky-a-rencontre-trump-a-la-maison-blanche-JFVG6JM5CREZZKIZSXV7FKRR7Y/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"Imprégner sa veste de neurotoxique\": une agence de presse iranienne appelle à l'assassinat de Melania Trump dans une vidéo de propagande",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/28/impregner-sa-veste-de-neurotoxique-une-agence-de-presse-iranienne-appelle-a-lassassinat-de-melania-trump-dans-une-video-de-propagande-YKY3MZXL7NDDVCICLPZLXASGX4/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
+        "title": "En Géorgie, un spectateur imite Donald Trump en plein discours et fait le buzz",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/28/en-georgie-un-spectateur-imite-donald-trump-en-plein-discours-et-fait-le-buzz-U7MMVWXWWFBHNFQZZJLJSPU5VU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky salue une “bonne rencontre” avec Donald Trump",
+        "url": "https://www.7sur7.be/monde/zelensky-salue-une-bonne-rencontre-avec-donald-trump~a5911a86/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Infantino veut vendre des parts de la Coupe du monde et le clan Trump a été approché",
+        "url": "https://www.7sur7.be/football/infantino-veut-vendre-des-parts-de-la-coupe-du-monde-et-le-clan-trump-a-ete-approche~a96b9ae4/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky est arrivé à Washington pour obtenir de Trump des missiles Patriot",
+        "url": "https://www.7sur7.be/monde/zelensky-est-arrive-a-washington-pour-obtenir-de-trump-des-missiles-patriot~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Boeing en perte à cause des futurs avions présidentiels voulus par Trump",
+        "url": "https://www.7sur7.be/economie/boeing-en-perte-a-cause-des-futurs-avions-presidentiels-voulus-par-trump~aafaa5a8/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Une agence de presse iranienne appelle à tuer Melania Trump en “empoisonnant ses vêtements”",
+        "url": "https://www.7sur7.be/monde/une-agence-de-presse-iranienne-appelle-a-tuer-melania-trump-en-empoisonnant-ses-vetements~a7240dcc/",
         "source": "septsursept",
         "name_only": false
       },
       {
-        "title": "Guerre au Moyen-Orient : c’est une première depuis le début de la guerre en Iran, Trump reçoit Netanyahu à Washington - RTL Info",
+        "title": "Netanyahu bezoekt Trump, maar de band is lang niet meer zo innig als vroeger - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRkNBZW1FamdESnJXUE1FSnIzYzY5UmdXSldMZl94eVl5clN3TTBveWY1bHlOa3RFc0s4ZVNhOXhVTFVVYm12eEM4R0VTelppNU42XzNwRENjX2FSNDBTd3JqM0RWTW5zUmNrNG83WG96bHo5UGJDeXBWNXhXczdwNFpzbFU3QlhBd2s2LTNyNWZiVkZqNkFvQU1TOVhRVjVNZFRmRFE3X21Ya3hFSS1OZ3lWLS1aTXVlWFpwd0FOQUIwYjQ0N2I3c2FWU2pmVjVfRzR3a1VCOC1TVldVdG12SncxaDhib29oQWNqYw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky brengt tijdens bezoek aan Trump productie van Patriots in Oekraïne ter sprake - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZnFOVmQybGNpWW0xNzduN25rNENYcmljMkwwazY5M3B0THFKYzZXZk11YjdjQWdnQzlDelM5UW4ybjZVa0N3NXQ2djRlbzBLejFqVTMzNUM4YTlvRlRyUF92N3FHYVRKMkZrNkdtMjBsRHZpZDJ6Y2N2QzR4dXFGQmN1bWFfZk5SV1Z5Q2dleUI1NWN1X2tYbHJnSVlnZndFeVFLM2ppQVIxWVdFYS1fbEcxSmxNOUFGYjFGR09XVTZKV1RadzZUVkM2dHM3NE0ta0lyS2hNUVkxa1dPYV9FeTN3?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahou à Washington pour recoller les morceaux avec Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQY0YyWnNtUFF3SWpoQWUwTDdtVG5NSFctaWpaZG5hSFd0MGVvbUN1dVo0dGR6TjQ3Wnl0UGZ3U3NtcTJ3T0FHaC16TzM0R1p1bmlyb2xoN3VpcGZHelZrelowVWYyNnJCc0sxTXh4eWV4NW5ock5uYzNibVNBRklLb0tkdGQ0a2tYX3pyZE5CUDk1azFwanRsNHZfVHI3TFBmdkhhc3poRHhyRlU?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahou de retour à Washington pour recoller les morceaux avec Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZThIbjhrb29tMnpkOFRWQl9OTnhlVXZjSXFhYVY4eW9TYld6MHhqUkp0MFVUX0FkVnNQWXVLOGIxbnM0OTBBbWNtSXM3anRtcDdVakg5TmZfUUxQdzdlQ3RydmJ3UmpVZ2NWOEhGcFhrNlF5ZXZyR0pXS0FvdWhsT2tjMW5IVm9pSmRZdmJSVVlSV1YxUjZLZURpM0tCdFJQdzBSVHBUcmx0U3pOeGpmZEpPT3lKdFJx?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu-Trump à Washington : premier sommet depuis la guerre en Iran - RTL Info",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWmwtLTI0UkJfWjRGUEZHYTdlV1lvMG96ZUNhZzF2RmtoV3RkTmRMdldkWnpvdXF1c1Q0WWlEd1QxQ2VNMFY0X0VWX2JDdlF6OE43eWp0R2xKLUlLZVhvNG5rM3VTM2piN21teXJiZlh4VUh0Nk5UZGpYbjVuTVdrVGxDX3pTVUlQTjBPazRwTGk3SzA3WDJRVnhjWl9qZTBhVUZLcGtHNThyYkc4VF96RVJ3MWlnZFcxUUJ1cENCRjR6bUVwSFdSZFNHLUxaT2JZWFBMRkN5U0pGMFZpV2U1dA?oc=5",
         "source": "rtl_g",
         "name_only": true
       },
       {
-        "title": "De Trump à Poutine, Bernard Arnault et la stratégie du « business first » avec les chefs d’Etat étrangers (3/6) - Trends-Tendances",
+        "title": "L’arroseur arrosé : pourquoi les Trump trades ont du plomb dans l’aile - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSEdqWDFZemNWNC02RHkwTWJ1QnZDU1p1QjlaaXB4M0g1bUl0Q2RyS1RUMWw2c1hpcmZUNlRVZFBDQWdjZ0F1dVUyNHI5bHlEVkwtaG84eVdsaGRaWXhyaEVDS1M1STl2MTNPaGN2WVRNU0J5Z2IzelJzMWxCTVRUVUpsajcweF84OEU3TTVJWQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      },
+      {
+        "title": "De Trump à Poutine, Bernard Arnault et la stratégie du \"business first\" avec les chefs d’Etat étrangers (3/6) - Trends-Tendances",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSlF1QUZaaG4xS3pkOURhRWoxeHowcklnM29EclBTUHlmN2ZRTzBUcUxBQldKODNwN3JYLXJQSVd3N0lQcl9vaW43ekNsczBOOTZoNzVSNnpqYlZSTF9vcmpUU05ZMExxOTdEeXFwNGJZY1h1cVBWdFFUOWJreXJmRF8tY01jajZqNFltLURnZnE2ekJWTVdNVEw0bXU3Wmw1WThTS1l3cWVuUW5BZHIteVlENU8xUjRpWVBXb3g5NWFGRWc2VW82SGtkdUtCZHRaV1BQNmtoSUhiZ3d5UUx0QkQ4VzFDSjNwVEpZdVNPdw?oc=5",
         "source": "tendances_g",
         "name_only": true
@@ -65835,66 +65979,301 @@
     ],
     "wide_matches": [
       {
-        "title": "Nieuwe Amerikaanse sanctiewet tegen Rusland komt dichterbij, maar Democraten vrezen dat Trump carte blanche krijgt - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOXzFyR0NXOFNkLWQwNWlnd0pxWEpwUThpLUt5akZ1OTFwOHRIV09ZSGRuaEhMM0FWODRnaHM3UWZxSTU5WS1IdTFyN3ZLYXZVQ3NobmVNOFZrampNaWJLbWdINEUzbnlndW42Ul9UVExZX1kxb3pMWDlka3JBYjg0R09UZVFacndQSnNGd3FrbHk1SXcxNEpJYjNmTnZhMmxkclNkaFVPdmdKUjFBa3VUanhGam5meGZ4cVFlQ0x3VnJZUmNnOUdtelFCenJ5TWE5YTFQOXdCN2h3QnBGckt0VmNNLXFpU2RGazluenVBb18tcXVSaFE4?oc=5",
+        "title": "Is het WK straks écht 'for sale'? Infantino legt \"nucleaire bom\" onder het voetbal met nieuw miljardenplan (ook Trump weer betrokken) - Sporza",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNZER5cHdzVS1tTGxudjF0MEVrNEFCQ19CYUY4alBYUmI5VUpWVVdCM2M5WkEtWm0tdVVPd281bDIzMU5iQTAtSzlLMTNlemRtcGhaMlJyVC1jSktCdEdFa01vaGNpWFd3d19tMTRDSUx0c2ZyQTB5RnF2aE4wZWNyZTF1MDdsS2tYYWhYU2RpN0xHbTA2SWZ4cEQzVE5xTGJXNWFMV01GVWtXcnpvNEpMZnJPWkVSODlnVkZ6a2JCUkF0N1hVcGl2d0tVSDBZZktKT3BYRnIyaXp3aGdXbVdNeHY2UEZSbDFEZEJxY05lOElvOF9fZzREOEtQSUJTdHZXYlhF?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Snel verzurende relatie en venijnige uithalen: bezoek van Netanyahu aan Trump verloopt onder spanning - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNZ1lIODFjWHlCc1c5RTdJejh2TFo2M3ItaDY4dHpnVmZHUkV4YTFIZ1hvRUYyWjU4dmkxRGpseXQyMnFHdUZrM3ZoN2NNeDY0MGV1RWhaSVRwci1WOEljZW5CYmliNGtCV3h2Q0VuZmRuY1NfWG9teEVadTdYX3gwUzA1OWdRRjJseTVHX3lpekZ2SzBjTXNpeEJjeHR1ZS1nSEJJZ2d3T2tfQjl4WG1nWXM2ZHhJTXV0dXB3VEV3Z3JxOXRZUXdTTUJad1lTZ0NiUm5uQ0ZUN05iQlFEWWtkelVoVUxtZ1VqMUdXNmJwakt5ekZYRE1hTHQtUF9XQW1HRmZTd3JRMDB5cV8xVmc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Volodymyr Zelensky est arrivé à la Maison Blanche pour rencontrer Trump avec un objectif bien précis en tête : « La priorité absolue » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQXzJYY3JqcXl6Nm1JNDhCd19hVzJUOEM4V1llZlF0eGl3emVKNU1GTWFyazI4SEVXZUxfN2lwUlBQdEJTZEpLdzdGSDlGZlZwdHMtNm1RdkJYTU9xZnlLVFRlVDktYWFsdS1rUHZuVVJBN1U5QVdWa3kzQnQzYWM5blZlaXFVT083REhWNXBVRGswRDdUdVpBT05maW5tVGUzMXViSkc4SmhmOTk2ekZZNGF3QjhsS212Z1pxS0hLd2tIUnc4X1V1dkV6VXJLTXdpVTc3V2U0WEhfeXZubXI1cw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Trump reçoit Netanyahu à Washington pour une première rencontre depuis la guerre en Iran - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY3VOV2ZFMmZuR25lVG1GY09TcHJTejc5aDBRRHN3UWowT3hxaGUxc3g1b2ZWdTg1bWNRZi1KbTFxaURMQzYzcC0yV0c2Vk5nTkJqM3liWVdKMVJHSTQtMk8yTnFrOUwwU05zdzRZTmo5dEcyT2ZQc2c3cFgyOGVRNUNldEhHSXdnWUl1di1vV0dFaWx0OEF1aWs1R2JwZkZtVXkyX0tFRFBvYmNmVkxmbE1wcnRpb2x1RFRYd2ZFazVHWFNE?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu voor de zevende keer in het Witte Huis, dit keer wel via zij-ingang - NOS",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbFptNUI0ZTVGNkZrTWRHYVJNRWh2T1BDb2tWTnJKRXdTSTlyUl9JNGNNbTVZUE5Jam8zc3cwNVFsai1sSDZkTTFwT3ZrcFFGV3BHaDhHMG9rbkozRDBrS3Q3aUFYUDZ0Y1d4bUh0clhCX08yR0xrUjNDcUNlcE9hdGt0UU9US0cxNkt0NXdvbTdkOE9pb05MaXV4Z0pJZFFQWC1IM19FUV85UVk?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Iraans persagentschap roept “vrijheidsvechters” op Melania Trump te vermoorden door “kleding te vergiftigen met zenuwgas” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxONkJ1M2hUWDR0MnV1cEdndHpYWG9uREJkYVZBODUxcWpzSjZhOVNCRjFJTVdSUkJNZExLT3E2dTliQWpnTGxSZFp4dTV2SkItUi1XMGdFX1pQZEptRU51cFE0dlNSVEFiMC1PdDU0eWxQRFp6STJRTzlQcmI5ZjVLSFpGMWF3VnZPVXZMTDBoNFBmTG02VWxmU2FlY2h6MzRNX2JQRXpNRnNiX1ZUX3FzMWlVdzJlaW9DWXJTaWZfdWNVci1oY0NIZWJ1dkpZajFON3gwVktfNERyaVJoWUFqdXVwa1kybzU1MmFUbFF3?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "Waarom Donald Trump wel degelijk de meest corrupte Amerikaanse president is - Knack",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORDhPVS1FSlptcEZmUlRIcW9OTGRtTzZ3WUEzX1NKdllEY2xkRjNzb0FoUlA5NFJZVDhrUEFGMmRCVFZCWEgxRWNxY180T0JIUlVpVmJMSF8ta21xVGdWZEdxUTgxSGRJbmxQdmF3aW9UeFJ3azRNc1Q4Ml9hbTNVR2M1QUR4LW1lSFZfN04tMmdQZw?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
       {
-        "title": "Live - Zelensky naar Washington voor gesprek met Trump, die ‘positiever’ tegenover hem zou staan • Bijna 400 drones op Moskou afgevuurd, zegt burgemeester",
-        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-zelensky-ontmoet-vandaag-trump-die-positiever-tegenover-hem-zou-staan-president-oekraine-ook-naar-senaat-die-stemt-over-nieuwe-sanctiewet-tegen-rusland~b38bed0a/",
+        "title": "President Trump stelt hulp aan Oekraïne ter waarde van 400 miljoen dollar uit tot 2029 - Business AM",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRDA5M1JDZTJzanh0SHh0QnRsdlQ3SFBMenA3elo4NklacmV2U0VGUGVOZVRHVUJtbjlhTy1ZaWludVV4aXNBelBpT2xVZkhOQkZvX19VWHVOSTNQWjZuc2hwNk41cW56amVPNDg3eTBJUHF6TWh6S1JhZEd6blo5S2J6YkMxTFJiVElibk1YY0xkSzVTREV5bU04UVppdVA0TzNudkItaXJESWYxQnc?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "\"Imprégner sa veste de neurotoxique\": une agence de presse iranienne appelle à l'assassinat de Melania Trump dans une vidéo de propagande - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQLTRrOE9uTllpcEs4bVV0bjNXRFo2WnVQd0Q5MDk1cHlpQlRBOGtOV0tjNER5Rm4yd1ppTVFGM0J2b1cwd2FzVm1EdHVBWUJKdUVOb2hQVzdvdjFfLTNJZWllMzBCd0hmQmh5UFBTZ0xmc2YydHhYcmNNNjVkV2JOWE5ZaTdfZm5FbVdpRjBXakItWUZRQ05iemlMS2hER0lBN3FpVGUwZC1Uc0ZPSjNmV0xqd0poNjlIS2h4SFRYZFhKN1cxMnNpc2dWMV9yTXBJMDVCX1QxZi1wNzJnM1YwaTBQWEJSdVBtVlprdWJoeEtHU2Q1amVybjNtNmgzaWwwTURXMnBrUlR6cGVVZUlPZ0RraGg1cUIyN25OcXk0OUtKQ090Q1NWY2VOSVc?oc=5",
+        "source": "google_fr_world",
+        "name_only": false
+      },
+      {
+        "title": "Boeing en perte à cause des futurs avions présidentiels voulus par Trump - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN3FvVUt2YnVIc0JINlBIWERNd1FlNGJRclVjNjBFWmYyQm9UUkdXem1aSkdpRC1lU0p3cmtpcWVUZHJwR190WTJwcjV5X0VjczIwNU9mV0o0VklxZXlONjU2UlI2eUpnQVFmdnBEWXZmNlhRa21VdEJhcS1abFZxQjNMbnZvSF9GSC0yamg1TzZhOFFVTXFXTVdYN3lhZmpDRXROVFNIaEdwX3lENWdNUlRB?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Fifa-voorzitter Infantino wil deel WK verkopen aan schoonfamilie Trump, Uefa noemt plan “uitverkoop van het voetbal” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdW9jR1lKdlBQWE9XRnpEVmx6MHo5QmM4UjZGNUFOZkhZUVc1YzBBSjJYV2VqS29zeFNCMlBiVjdSTTVJODlVN1ROQ2xDQ3J2NFR3Ykc5dlJhMWx4dkptZW9nTTNiQmE3OUdUTVpPWDd3V2JsQkRCYVdzNGgtNVg1cGEtdngxUGxldjlqYzRjNGlxYUI2d3RNVEhzaUNMU1BsNEVITkxkeDFvSmNPV2RpRVNWVTJEUlpaamg1cVQtSlV6NXlHOG1vT3l0VmJkMmZnYTlDWGRfQkZFOFpZZHhRSGN4cFJIcnJRSzRySEdrbHktZEczbWZ2NFVVZw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Timmie van Diepen: “You don’t have the cards? Plots heeft Trump Zelensky hard nodig. En dat is ook goed nieuws voor ons in Europa”",
+        "url": "https://www.hln.be/opinie/timmie-van-diepen-you-dont-have-the-cards-plots-heeft-trump-zelensky-hard-nodig-en-dat-is-ook-goed-nieuws-voor-ons-in-europa~a4ba7953/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "FIFA-baas Gianni Infantino wil WK deels verkopen, mensen rond Donald Trump benaderd als mogelijke investeerders",
+        "url": "https://www.hln.be/wk-voetbal/fifa-baas-gianni-infantino-wil-wk-deels-verkopen-mensen-rond-donald-trump-benaderd-als-mogelijke-investeerders~acc7073e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu aangekomen in Witte Huis voor gesprek met Trump",
+        "url": "https://www.hln.be/buitenland/netanyahu-aangekomen-in-witte-huis-voor-gesprek-met-trump~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky had “goed gesprek” met Trump in Witte Huis - Presidenten bespraken Oekraïense productie van Patriot-raketten",
+        "url": "https://www.hln.be/buitenland/zelensky-had-goed-gesprek-met-trump-in-witte-huis-presidenten-bespraken-oekraiense-productie-van-patriot-raketten~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Ook Netanyahu verlaat Witte Huis na gesprek met Trump: ontmoetingen waren ‘positief en productief’",
+        "url": "https://www.demorgen.be/snelnieuws/live-ook-netanyahu-in-witte-huis-voor-ontmoeting-met-trump~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Live - Trump vraagt Hooggerechtshof in spoedverzoek om beperking stemmen per post toe te laten voor tussentijdse verkiezingen",
-        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-regering-herbekijkt-procedure-rekrutering-ice-na-dodelijk-incident-vs-lopen-weg-bij-vn-veiligheidsraad-om-ruzie-met-frankrijk~b13cc951/",
+        "title": "Live - Zelensky spreekt van ‘goede ontmoeting’ met Trump over Patriot-raketten en ‘nieuw leven voor diplomatieke proces’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-oekraiense-president-zelensky-verlaat-witte-huis-na-gesprek-met-trump~b38bed0a/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Guerre en Ukraine : Zelensky attendu à la Maison Blanche pour décrocher le soutien de Trump",
-        "url": "https://www.rtbf.be/article/guerre-en-ukraine-zelensky-attendu-a-la-maison-blanche-pour-decrocher-le-soutien-de-trump-11763388",
-        "source": "rtbf",
+        "title": "Gianni Infantino wil WK voetbal verder commercialiseren en kijkt daarvoor naar investeerders uit Trump-entourage",
+        "url": "https://www.demorgen.be/snelnieuws/gianni-infantino-wil-wk-voetbal-verder-commercialiseren-en-kijkt-daarvoor-naar-investeerders-uit-trump-entourage~bcc7073e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Gianni Infantino heeft plan om WK te 'verkopen’ aan privé-investeerders, Trump-getrouwen genoemd als kandidaat: “Een nucleaire bom voor het voetbal”",
+        "url": "https://www.nieuwsblad.be/sport/voetbal/gianni-infantino-heeft-plan-om-wk-te-verkopen-aan-prive-investeerders-trump-getrouwen-genoemd-als-kandidaat-een-nucleaire-bom-voor-het-voetbal/159313834.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Netanyahu aangekomen in Witte Huis voor eerste ontmoeting met Trump sinds start van de oorlog",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-netanyahu-aangekomen-in-witte-huis-voor-eerste-ontmoeting-met-trump-sinds-start-van-de-oorlog/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Gianni Infantino heeft plan om WK te 'verkopen’ aan privé-investeerders, Trump-getrouwen genoemd als kandidaat: “Een nucleaire bom voor het voetbal”",
+        "url": "https://www.gva.be/sport/voetbal/gianni-infantino-heeft-plan-om-wk-te-verkopen-aan-prive-investeerders-trump-getrouwen-genoemd-als-kandidaat-een-nucleaire-bom-voor-het-voetbal/159316730.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Netanyahu aangekomen in Witte Huis voor eerste ontmoeting met Trump sinds start van de oorlog",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-netanyahu-aangekomen-in-witte-huis-voor-eerste-ontmoeting-met-trump-sinds-start-van-de-oorlog/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Gianni Infantino heeft plan om WK te 'verkopen’ aan privé-investeerders, Trump-getrouwen genoemd als kandidaat: “Een nucleaire bom voor het voetbal”",
+        "url": "https://www.hbvl.be/sport/voetbal/gianni-infantino-heeft-plan-om-wk-te-verkopen-aan-prive-investeerders-trump-getrouwen-genoemd-als-kandidaat-een-nucleaire-bom-voor-het-voetbal/159316728.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Is het WK straks écht 'for sale'? Infantino legt \"nucleaire bom\" onder het voetbal met nieuw miljardenplan (ook Trump weer betrokken)",
+        "url": "https://sporza.be/nl/2026/07/28/is-het-wk-straks-echt-for-sale-infantino-legt-nucleaire-bom-onder-het-voetbal-met-nieuw-miljardenplan-ook-trump-weer-betrokken~1785253197408/",
+        "source": "sporza",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Zelensky a rencontré Trump à la Maison Blanche",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/07/28/guerre-en-ukraine-zelensky-est-arrive-a-la-maison-blanche-pour-obtenir-de-trump-des-missiles-patriot-NBVSDAGOG5DUTOG6VSWA4TAIU4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une agence de presse iranienne appelle à l'assassinat de Melania Trump : \"Imprégner sa veste de neurotoxique\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/07/28/une-agence-de-presse-iranienne-appelle-a-lassassinat-de-melania-trump-impregner-sa-veste-de-neurotoxique-DIEHCD2RHRBQNDKRR2M3372NUE/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Un spectateur imite Donald Trump en plein discours et fait le buzz en Georgie",
+        "url": "https://www.lalibre.be/international/europe/2026/07/28/un-spectateur-imite-donald-trump-en-plein-discours-et-fait-le-buzz-en-georgie-4P3VWPDIYRBAVMYLNQPJOONQIY/",
+        "source": "lalibre",
         "name_only": true
       },
       {
         "title": "Première rencontre Netanyahu-Trump, sur fond de tensions, depuis le début de la guerre en Iran",
-        "url": "https://www.rtbf.be/article/premiere-rencontre-netanyahu-trump-sur-fond-de-tensions-depuis-le-debut-de-la-guerre-en-iran-11763387",
-        "source": "rtbf",
+        "url": "https://www.lalibre.be/international/2026/07/28/premiere-rencontre-netanyahu-trump-sur-fond-de-tensions-depuis-le-debut-de-la-guerre-en-iran-Z7LIY2HHYJE7JMAGVQDLRFIY5M/",
+        "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "La région de Moscou visée par plus de 390 drones, Zelensky attendu à la Maison-Blanche",
-        "url": "https://www.7sur7.be/monde/la-region-de-moscou-visee-par-plus-de-390-drones-zelensky-attendu-a-la-maison-blanche~adf7e374/",
+        "title": "Rencontre délicate entre Benyamin Netanyahou et Donald Trump à la Maison-Blanche - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMU1sYUlFOHM1NUp4aVlDVUlZNnBBNENMZ2FGRXF4SkhmMUVDclp4S1B5Rklib0l6bVNCUEx2ODhoLUE0cXd0ckM2STNlWVRaRXJNVlg2RndMeUdrZ01QcmpNdXRnb3VRVDRsa0JYcHJzRGhkSHBNZEtWWk9HTzlUUzFZbDM3SGZXWE9aZWozcG95ZW1ueHRrVFpOQ2duaHNmdE14WlozaFY1YWZfYklSWnRobmpEb0NTem05X3p1NDBkUTg5aDNBU0FhQjhfeFBwWEVDbWEwVzRiU3VyV1hDRg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky a rencontré Trump à la Maison Blanche",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/28/zelensky-a-rencontre-trump-a-la-maison-blanche-JFVG6JM5CREZZKIZSXV7FKRR7Y/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"Imprégner sa veste de neurotoxique\": une agence de presse iranienne appelle à l'assassinat de Melania Trump dans une vidéo de propagande",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/28/impregner-sa-veste-de-neurotoxique-une-agence-de-presse-iranienne-appelle-a-lassassinat-de-melania-trump-dans-une-video-de-propagande-YKY3MZXL7NDDVCICLPZLXASGX4/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
+        "title": "En Géorgie, un spectateur imite Donald Trump en plein discours et fait le buzz",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/28/en-georgie-un-spectateur-imite-donald-trump-en-plein-discours-et-fait-le-buzz-U7MMVWXWWFBHNFQZZJLJSPU5VU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky salue une “bonne rencontre” avec Donald Trump",
+        "url": "https://www.7sur7.be/monde/zelensky-salue-une-bonne-rencontre-avec-donald-trump~a5911a86/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Infantino veut vendre des parts de la Coupe du monde et le clan Trump a été approché",
+        "url": "https://www.7sur7.be/football/infantino-veut-vendre-des-parts-de-la-coupe-du-monde-et-le-clan-trump-a-ete-approche~a96b9ae4/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky est arrivé à Washington pour obtenir de Trump des missiles Patriot",
+        "url": "https://www.7sur7.be/monde/zelensky-est-arrive-a-washington-pour-obtenir-de-trump-des-missiles-patriot~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Boeing en perte à cause des futurs avions présidentiels voulus par Trump",
+        "url": "https://www.7sur7.be/economie/boeing-en-perte-a-cause-des-futurs-avions-presidentiels-voulus-par-trump~aafaa5a8/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Une agence de presse iranienne appelle à tuer Melania Trump en “empoisonnant ses vêtements”",
+        "url": "https://www.7sur7.be/monde/une-agence-de-presse-iranienne-appelle-a-tuer-melania-trump-en-empoisonnant-ses-vetements~a7240dcc/",
         "source": "septsursept",
         "name_only": false
       },
       {
-        "title": "Guerre au Moyen-Orient : c’est une première depuis le début de la guerre en Iran, Trump reçoit Netanyahu à Washington - RTL Info",
+        "title": "Netanyahu bezoekt Trump, maar de band is lang niet meer zo innig als vroeger - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRkNBZW1FamdESnJXUE1FSnIzYzY5UmdXSldMZl94eVl5clN3TTBveWY1bHlOa3RFc0s4ZVNhOXhVTFVVYm12eEM4R0VTelppNU42XzNwRENjX2FSNDBTd3JqM0RWTW5zUmNrNG83WG96bHo5UGJDeXBWNXhXczdwNFpzbFU3QlhBd2s2LTNyNWZiVkZqNkFvQU1TOVhRVjVNZFRmRFE3X21Ya3hFSS1OZ3lWLS1aTXVlWFpwd0FOQUIwYjQ0N2I3c2FWU2pmVjVfRzR3a1VCOC1TVldVdG12SncxaDhib29oQWNqYw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky brengt tijdens bezoek aan Trump productie van Patriots in Oekraïne ter sprake - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZnFOVmQybGNpWW0xNzduN25rNENYcmljMkwwazY5M3B0THFKYzZXZk11YjdjQWdnQzlDelM5UW4ybjZVa0N3NXQ2djRlbzBLejFqVTMzNUM4YTlvRlRyUF92N3FHYVRKMkZrNkdtMjBsRHZpZDJ6Y2N2QzR4dXFGQmN1bWFfZk5SV1Z5Q2dleUI1NWN1X2tYbHJnSVlnZndFeVFLM2ppQVIxWVdFYS1fbEcxSmxNOUFGYjFGR09XVTZKV1RadzZUVkM2dHM3NE0ta0lyS2hNUVkxa1dPYV9FeTN3?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahou à Washington pour recoller les morceaux avec Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQY0YyWnNtUFF3SWpoQWUwTDdtVG5NSFctaWpaZG5hSFd0MGVvbUN1dVo0dGR6TjQ3Wnl0UGZ3U3NtcTJ3T0FHaC16TzM0R1p1bmlyb2xoN3VpcGZHelZrelowVWYyNnJCc0sxTXh4eWV4NW5ock5uYzNibVNBRklLb0tkdGQ0a2tYX3pyZE5CUDk1azFwanRsNHZfVHI3TFBmdkhhc3poRHhyRlU?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahou de retour à Washington pour recoller les morceaux avec Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZThIbjhrb29tMnpkOFRWQl9OTnhlVXZjSXFhYVY4eW9TYld6MHhqUkp0MFVUX0FkVnNQWXVLOGIxbnM0OTBBbWNtSXM3anRtcDdVakg5TmZfUUxQdzdlQ3RydmJ3UmpVZ2NWOEhGcFhrNlF5ZXZyR0pXS0FvdWhsT2tjMW5IVm9pSmRZdmJSVVlSV1YxUjZLZURpM0tCdFJQdzBSVHBUcmx0U3pOeGpmZEpPT3lKdFJx?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu-Trump à Washington : premier sommet depuis la guerre en Iran - RTL Info",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWmwtLTI0UkJfWjRGUEZHYTdlV1lvMG96ZUNhZzF2RmtoV3RkTmRMdldkWnpvdXF1c1Q0WWlEd1QxQ2VNMFY0X0VWX2JDdlF6OE43eWp0R2xKLUlLZVhvNG5rM3VTM2piN21teXJiZlh4VUh0Nk5UZGpYbjVuTVdrVGxDX3pTVUlQTjBPazRwTGk3SzA3WDJRVnhjWl9qZTBhVUZLcGtHNThyYkc4VF96RVJ3MWlnZFcxUUJ1cENCRjR6bUVwSFdSZFNHLUxaT2JZWFBMRkN5U0pGMFZpV2U1dA?oc=5",
         "source": "rtl_g",
         "name_only": true
       },
       {
-        "title": "De Trump à Poutine, Bernard Arnault et la stratégie du « business first » avec les chefs d’Etat étrangers (3/6) - Trends-Tendances",
+        "title": "L’arroseur arrosé : pourquoi les Trump trades ont du plomb dans l’aile - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSEdqWDFZemNWNC02RHkwTWJ1QnZDU1p1QjlaaXB4M0g1bUl0Q2RyS1RUMWw2c1hpcmZUNlRVZFBDQWdjZ0F1dVUyNHI5bHlEVkwtaG84eVdsaGRaWXhyaEVDS1M1STl2MTNPaGN2WVRNU0J5Z2IzelJzMWxCTVRUVUpsajcweF84OEU3TTVJWQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      },
+      {
+        "title": "De Trump à Poutine, Bernard Arnault et la stratégie du \"business first\" avec les chefs d’Etat étrangers (3/6) - Trends-Tendances",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSlF1QUZaaG4xS3pkOURhRWoxeHowcklnM29EclBTUHlmN2ZRTzBUcUxBQldKODNwN3JYLXJQSVd3N0lQcl9vaW43ekNsczBOOTZoNzVSNnpqYlZSTF9vcmpUU05ZMExxOTdEeXFwNGJZY1h1cVBWdFFUOWJreXJmRF8tY01jajZqNFltLURnZnE2ekJWTVdNVEw0bXU3Wmw1WThTS1l3cWVuUW5BZHIteVlENU8xUjRpWVBXb3g5NWFGRWc2VW82SGtkdUtCZHRaV1BQNmtoSUhiZ3d5UUx0QkQ4VzFDSjNwVEpZdVNPdw?oc=5",
         "source": "tendances_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 6,
+      "trump": 28,
       "putin": 1,
-      "macron": 2,
-      "netanyahu": 3,
-      "zelensky": 3,
+      "macron": 0,
+      "netanyahu": 6,
+      "zelensky": 10,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 2,
-      "bouchez": 0,
+      "bouchez": 5,
       "magnette": 0,
-      "prevot": 0,
+      "prevot": 2,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 38,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 11,
+      "zelensky": 11,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 8,
+      "magnette": 0,
+      "prevot": 3,
       "rousseau": 2,
       "francken": 0,
       "crevits": 0,
@@ -65902,56 +66281,37 @@
       "van_peteghem": 0,
       "verlinden": 0
     },
-    "wide_comparisons": {
-      "trump": 7,
-      "putin": 1,
-      "macron": 3,
-      "netanyahu": 3,
-      "zelensky": 3,
-      "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 3,
-      "bouchez": 0,
-      "magnette": 0,
-      "prevot": 0,
-      "rousseau": 2,
-      "francken": 0,
-      "crevits": 0,
-      "jambon": 3,
-      "van_peteghem": 0,
-      "verlinden": 0
-    },
     "themes": {
-      "war": 11,
-      "crime": 22,
-      "eu": 7,
-      "politics": 8,
-      "be_gov": 11,
-      "culture": 7,
-      "tech": 8,
-      "economy": 2,
-      "sports": 14,
-      "health": 3,
-      "climate": 2,
+      "war": 26,
+      "crime": 57,
+      "eu": 56,
+      "politics": 19,
+      "be_gov": 19,
+      "culture": 22,
+      "tech": 14,
+      "economy": 19,
+      "sports": 68,
+      "health": 10,
+      "climate": 9,
       "migration": 0,
-      "education": 1,
+      "education": 2,
       "weather": 15
     },
     "wide_themes": {
-      "war": 13,
-      "crime": 27,
-      "eu": 9,
-      "politics": 12,
-      "be_gov": 16,
-      "culture": 7,
-      "tech": 10,
-      "economy": 2,
-      "sports": 17,
-      "health": 4,
-      "climate": 3,
-      "migration": 0,
-      "education": 1,
-      "weather": 20
+      "war": 47,
+      "crime": 68,
+      "eu": 80,
+      "politics": 36,
+      "be_gov": 29,
+      "culture": 24,
+      "tech": 19,
+      "economy": 23,
+      "sports": 108,
+      "health": 11,
+      "climate": 16,
+      "migration": 1,
+      "education": 2,
+      "weather": 26
     }
   }
 ]
