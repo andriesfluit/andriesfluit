@@ -66313,5 +66313,538 @@
       "education": 2,
       "weather": 26
     }
+  },
+  {
+    "date": "2026-07-29",
+    "generated_at": "2026-07-29T08:16:58+02:00",
+    "last_checked_at": "2026-07-29T08:16:58+02:00",
+    "total_articles": 301,
+    "trump_articles": 8,
+    "percentage": 2.7,
+    "core_percentage": 2.7,
+    "core_percentage_name": 2.7,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 2.7,
+    "indirect_references": 0,
+    "wide_total_articles": 406,
+    "wide_trump_articles": 14,
+    "wide_percentage": 3.4,
+    "wide_trump_articles_expanded": 14,
+    "wide_percentage_expanded": 3.4,
+    "macro_percentage": 5.0,
+    "qualifying_outlets": 13,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 32,
+    "cross_outlet_dup_groups": 16,
+    "cross_outlet_dup_rate": 10.6,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.67,
+    "breadth": 0.36,
+    "deviation": 0.98,
+    "smoothed_pct": 2.44,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 25.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 21,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 56,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 15,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 69,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 73,
+        "kept": 42,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 18.75
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.35
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 34,
+        "kept": 34,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.94
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Man die weigerde toe te geven dat Trump verkiezingen verloor is nieuwe inlichtingenchef VS",
+        "url": "https://www.hln.be/buitenland/man-die-weigerde-toe-te-geven-dat-trump-verkiezingen-verloor-is-nieuwe-inlichtingenchef-vs~a8c4ab90/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "“Positieve” ontmoeting tussen Trump en Zelensky: VS gaat Oekraïne licenties voor productie van Patriot-raketten geven",
+        "url": "https://www.hln.be/buitenland/positieve-ontmoeting-tussen-trump-en-zelensky-vs-gaat-oekraine-licenties-voor-productie-van-patriot-raketten-geven~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump geeft Oekraïne toestemming om zelf Patriot-raketten te produceren, zegt Zelensky",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-geeft-oekraine-toestemming-om-zelf-patriot-raketten-te-produceren-zegt-zelensky~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Jay Clayton, man die weigerde toe te geven dat Trump verkiezingen verloor, is nieuwe inlichtingenchef VS",
+        "url": "https://www.demorgen.be/snelnieuws/live-philips-krijgt-186-miljoen-euro-aan-amerikaanse-importheffingen-terug-omdat-trumps-tarieven-illegaal-bleken~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky zoekt steun bij Trump en MAGA: hoe succesvolle droneaanvallen de sfeer in Washington doen kantelen",
+        "url": "https://www.demorgen.be/nieuws/zelensky-zoekt-steun-bij-trump-en-maga-hoe-succesvolle-droneaanvallen-de-sfeer-in-washington-doen-kantelen~b47c98ac/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky zegt dat Trump heeft toegezegd voor licentie Patriot-raketten",
+        "url": "https://www.nieuwsblad.be/buitenland/zelensky-zegt-dat-trump-heeft-toegezegd-voor-licentie-patriot-raketten/159326565.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky zegt dat Trump heeft toegezegd voor licentie Patriot-raketten",
+        "url": "https://www.hbvl.be/buitenland/zelensky-zegt-dat-trump-heeft-toegezegd-voor-licentie-patriot-raketten/159326994.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur les incendies et Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMXdyeXkzR200VjlIa0k0aWxlcUZyMFRwamZZdUtpUWJQR3VyOVJQYzlFczFlYkZEUWRLU1ozcUtEUXBmNHNNS2VibmFUSXJFMldCc1VNc0YyeWpvbUV3eXd0TzdVQk9LTlpJa1hvaDhRYTVBX3A0UkdTTjdnUFN5QmJrRF9VSlNGa3VFR0hiWFZHeEQzbWc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Zelensky en Netanyahu proberen een stuurloze Trump elk in hun richting te trekken - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNakpQdXFWMTBDQjFabzR4aWVoTlQwVEdqTnJ5cFM0VXZ3WG1PWnhIX2pyQUJGUDNwTkhsZWh2Z25rdXNqNzZRbkwzdGVDRVFqOHMyRkRxVTZQVHBza3d5VmZuRWgzdGtneUNTWDZfSGdDOUtIRG4xQUp6WHJpazFQZGc1dF9CUk9mSzhmRF9pcS1hU1lXQkVSbV9BcUJ0cnNSRGlMUkJMNzlBRnRoY2sxUll4OVk2aENDdlVfcm9uc0ZLWk84X2ZvcGxRT1o?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Man die weigerde toe te geven dat Trump verkiezingen verloor is nieuwe inlichtingenchef VS - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaDlSUmpCZVJZYV9PdjBoTFAtM245V0JubnRad01xNlRfemU1VjJ4alhhRmZzLUlSR3NLSTBxMXY3ek5tZUoybFA2UGl0aGRxbWQ3Q2JRcXZ5QlZ1aHpUUnRkMU9Qd2M5RTZzRkQwejRwdlNhUG0za0JyRjRGbGFacUlaajgtR0VaQUExdk5rMWFDWVNPSS1iOUdJQ3gwQnQwVDZFdE82OE5Dd0FJRDVTYjlDZk1MMkExdng1cUY5cVZFOVVsUTEyOUNR?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky zegt dat Trump heeft toegezegd voor licentie Patriot-raketten - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaFBBN1lQcWZDR0VYR2pIdVlXX2I2TV9GTndBVkcwc0hHYWktNHoyelpvY1VZdWdIMW1jNWplbk8tckJSRGR0RzFFdnQ2ek83ajZ3OHFOWVNJa1N2RlBQNXJuZ0ZXQ3pFWE9RZGxHdkdOX0o3aXhpZ1MyLVh6NDdodjFwVWg5NVlJbHRZX3RFX2EwT1NDaXZvaE4zMDFyYmJ1SjFDR1c2SVdPeWIzb2ZVV1d2WkZJbEloRVdZYklOZw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Fifa-voorzitter Infantino wil deel WK verkopen aan schoonfamilie Trump, Uefa noemt plan “uitverkoop van het voetbal” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdW9jR1lKdlBQWE9XRnpEVmx6MHo5QmM4UjZGNUFOZkhZUVc1YzBBSjJYV2VqS29zeFNCMlBiVjdSTTVJODlVN1ROQ2xDQ3J2NFR3Ykc5dlJhMWx4dkptZW9nTTNiQmE3OUdUTVpPWDd3V2JsQkRCYVdzNGgtNVg1cGEtdngxUGxldjlqYzRjNGlxYUI2d3RNVEhzaUNMU1BsNEVITkxkeDFvSmNPV2RpRVNWVTJEUlpaamg1cVQtSlV6NXlHOG1vT3l0VmJkMmZnYTlDWGRfQkZFOFpZZHhRSGN4cFJIcnJRSzRySEdrbHktZEczbWZ2NFVVZw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Man die weigerde toe te geven dat Trump verkiezingen verloor is nieuwe inlichtingenchef VS",
+        "url": "https://www.hln.be/buitenland/man-die-weigerde-toe-te-geven-dat-trump-verkiezingen-verloor-is-nieuwe-inlichtingenchef-vs~a8c4ab90/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "“Positieve” ontmoeting tussen Trump en Zelensky: VS gaat Oekraïne licenties voor productie van Patriot-raketten geven",
+        "url": "https://www.hln.be/buitenland/positieve-ontmoeting-tussen-trump-en-zelensky-vs-gaat-oekraine-licenties-voor-productie-van-patriot-raketten-geven~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump geeft Oekraïne toestemming om zelf Patriot-raketten te produceren, zegt Zelensky",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-geeft-oekraine-toestemming-om-zelf-patriot-raketten-te-produceren-zegt-zelensky~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Jay Clayton, man die weigerde toe te geven dat Trump verkiezingen verloor, is nieuwe inlichtingenchef VS",
+        "url": "https://www.demorgen.be/snelnieuws/live-philips-krijgt-186-miljoen-euro-aan-amerikaanse-importheffingen-terug-omdat-trumps-tarieven-illegaal-bleken~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky zoekt steun bij Trump en MAGA: hoe succesvolle droneaanvallen de sfeer in Washington doen kantelen",
+        "url": "https://www.demorgen.be/nieuws/zelensky-zoekt-steun-bij-trump-en-maga-hoe-succesvolle-droneaanvallen-de-sfeer-in-washington-doen-kantelen~b47c98ac/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky zegt dat Trump heeft toegezegd voor licentie Patriot-raketten",
+        "url": "https://www.nieuwsblad.be/buitenland/zelensky-zegt-dat-trump-heeft-toegezegd-voor-licentie-patriot-raketten/159326565.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky zegt dat Trump heeft toegezegd voor licentie Patriot-raketten",
+        "url": "https://www.gva.be/buitenland/zelensky-zegt-dat-trump-heeft-toegezegd-voor-licentie-patriot-raketten/159326588.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump naar Hooggerechtshof tegen schadevergoeding van 83 miljoen dollar voor E. Jean Carroll",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-naar-hooggerechtshof-tegen-schadevergoeding-van-83-miljoen-dollar-voor-e.-jean-carroll/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky zegt dat Trump heeft toegezegd voor licentie Patriot-raketten",
+        "url": "https://www.hbvl.be/buitenland/zelensky-zegt-dat-trump-heeft-toegezegd-voor-licentie-patriot-raketten/159326994.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur les incendies et Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMXdyeXkzR200VjlIa0k0aWxlcUZyMFRwamZZdUtpUWJQR3VyOVJQYzlFczFlYkZEUWRLU1ozcUtEUXBmNHNNS2VibmFUSXJFMldCc1VNc0YyeWpvbUV3eXd0TzdVQk9LTlpJa1hvaDhRYTVBX3A0UkdTTjdnUFN5QmJrRF9VSlNGa3VFR0hiWFZHeEQzbWc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 8,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 7,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 2
+    },
+    "wide_comparisons": {
+      "trump": 14,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 10,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 2
+    },
+    "themes": {
+      "war": 14,
+      "crime": 12,
+      "eu": 9,
+      "politics": 6,
+      "be_gov": 5,
+      "culture": 10,
+      "tech": 3,
+      "economy": 3,
+      "sports": 17,
+      "health": 1,
+      "climate": 1,
+      "migration": 1,
+      "education": 2,
+      "weather": 16
+    },
+    "wide_themes": {
+      "war": 16,
+      "crime": 16,
+      "eu": 12,
+      "politics": 7,
+      "be_gov": 8,
+      "culture": 11,
+      "tech": 5,
+      "economy": 6,
+      "sports": 26,
+      "health": 1,
+      "climate": 1,
+      "migration": 2,
+      "education": 3,
+      "weather": 21
+    }
   }
 ]
