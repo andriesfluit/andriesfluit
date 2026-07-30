@@ -66846,5 +66846,436 @@
       "education": 3,
       "weather": 21
     }
+  },
+  {
+    "date": "2026-07-30",
+    "generated_at": "2026-07-30T08:10:20+02:00",
+    "last_checked_at": "2026-07-30T08:10:20+02:00",
+    "total_articles": 307,
+    "trump_articles": 1,
+    "percentage": 0.3,
+    "core_percentage": 0.3,
+    "core_percentage_name": 0.3,
+    "trump_articles_expanded": 1,
+    "core_percentage_expanded": 0.3,
+    "indirect_references": 0,
+    "wide_total_articles": 417,
+    "wide_trump_articles": 4,
+    "wide_percentage": 1.0,
+    "wide_trump_articles_expanded": 4,
+    "wide_percentage_expanded": 1.0,
+    "macro_percentage": 0.5,
+    "qualifying_outlets": 15,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 43,
+    "cross_outlet_dup_groups": 21,
+    "cross_outlet_dup_rate": 14.0,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.5,
+    "breadth": 0.06,
+    "deviation": 0.11,
+    "smoothed_pct": 2.27,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 14,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_politics": {
+        "fetched": 21,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 21,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 59,
+        "kept": 39,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 38,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 41,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "L’armée américaine a mené une “lourde” série de frappes sur l’Iran après les menaces de Trump",
+        "url": "https://www.7sur7.be/monde/larmee-americaine-a-mene-une-lourde-serie-de-frappes-sur-liran-apres-les-menaces-de-trump~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Amerikaanse Senaat stemt unaniem tegen gratie van Trump voor Ghislaine Maxwell - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUnFtY3RKc2o3VDVodjc3UkFJSHVVOGhjVHBxSFdXNE45SHZsRmN0dGg3MFBrYVFFQlFmb1hYS0J2N1dPM0JkcDlhSGE4bmZyak5jMGxVdjBkN2p0YnBPd25FbXNfQlZFaTJFMm9yakdvaEpJa2xaT2hZRVNDdE5FeFRWWno4cFdDY2NxT0xyNEx0ZElDX3BOUlUxT3k1Y2s4OHFfaG54cXZxTEdHeGJUbU1GT01vbExUWFA4cGYxOW8xdTZZN1hpaElB?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur la rencontre entre Trump et Zelensky - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOTU1OHFDMlA0cFR0OHQ0eWh5dl9uVHg1OGY3UkNTTzMyNXhaMFo1eUJYZ2Jhb0NKNlY3OEIzbXhSM0x3SUNMdVVKZVdueTlVQXBTTDZNbWxaMm45c3VZaE1ON05HUExMdlBfQ3RJZkNSLUdLNzk5M3c2TUhBUmRKcXpkRnRtVnhsNnlWU21NdEp1amNPYVpWbVBya3N0SFpjZzR1Z211aEM?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse Senaat stemt unaniem tegen gratie van Trump voor Ghislaine Maxwell",
+        "url": "https://www.gva.be/buitenland/amerikaanse-senaat-stemt-unaniem-tegen-gratie-van-trump-voor-ghislaine-maxwell/159378746.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "L’armée américaine a mené une “lourde” série de frappes sur l’Iran après les menaces de Trump",
+        "url": "https://www.7sur7.be/monde/larmee-americaine-a-mene-une-lourde-serie-de-frappes-sur-liran-apres-les-menaces-de-trump~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 1,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 4,
+      "putin": 1,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 3,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 21,
+      "crime": 2,
+      "eu": 13,
+      "politics": 10,
+      "be_gov": 6,
+      "culture": 12,
+      "tech": 3,
+      "economy": 7,
+      "sports": 23,
+      "health": 0,
+      "climate": 3,
+      "migration": 4,
+      "education": 2,
+      "weather": 17
+    },
+    "wide_themes": {
+      "war": 27,
+      "crime": 3,
+      "eu": 19,
+      "politics": 23,
+      "be_gov": 9,
+      "culture": 16,
+      "tech": 5,
+      "economy": 11,
+      "sports": 36,
+      "health": 1,
+      "climate": 6,
+      "migration": 4,
+      "education": 2,
+      "weather": 26
+    }
   }
 ]
