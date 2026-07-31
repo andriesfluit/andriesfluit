@@ -67361,5 +67361,568 @@
       "education": 1,
       "weather": 16
     }
+  },
+  {
+    "date": "2026-07-31",
+    "generated_at": "2026-07-31T08:32:07+02:00",
+    "last_checked_at": "2026-07-31T08:32:07+02:00",
+    "total_articles": 335,
+    "trump_articles": 11,
+    "percentage": 3.3,
+    "core_percentage": 3.3,
+    "core_percentage_name": 3.3,
+    "trump_articles_expanded": 11,
+    "core_percentage_expanded": 3.3,
+    "indirect_references": 0,
+    "wide_total_articles": 462,
+    "wide_trump_articles": 16,
+    "wide_percentage": 3.5,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 3.5,
+    "macro_percentage": 5.0,
+    "qualifying_outlets": 16,
+    "core_outlets_total": 19,
+    "core_outlets_active": 15,
+    "active_core_fraction": 0.789,
+    "cross_outlet_dup_headlines": 54,
+    "cross_outlet_dup_groups": 27,
+    "cross_outlet_dup_rate": 16.1,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 5.5,
+    "breadth": 0.53,
+    "deviation": 1.2,
+    "smoothed_pct": 2.21,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_politics": {
+        "fetched": 27,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 62,
+        "today": 10,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 24,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 12,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 71,
+        "kept": 54,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 42,
+        "kept": 42,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump kondigt akkoord aan over ontwapening Hamas in Gaza",
+        "url": "https://vrtnws.be/p.VLyqmMB4A",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump meldt deal over ontwapening Hamas en andere groepen in Gazastrook: Hamas bevestigt akkoord, scepsis in Israël",
+        "url": "https://www.hln.be/buitenland/trump-meldt-deal-over-ontwapening-hamas-en-andere-groepen-in-gazastrook-hamas-bevestigt-akkoord-scepsis-in-israel~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump krabbelt terug na beloftes aan Zelensky over Patriot-raketten: “We moeten een beetje voorzichtig zijn”",
+        "url": "https://www.hln.be/buitenland/trump-krabbelt-terug-na-beloftes-aan-zelensky-over-patriot-raketten-we-moeten-een-beetje-voorzichtig-zijn~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump krabbelt terug over beloftes aan Oekraïne over Patriots • Oekraïne valt opnieuw depot van Russische webshop Wildberries aan",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-krabbelt-terug-over-beloftes-aan-oekraine-over-patriots-oekraine-valt-opnieuw-depot-van-russische-webshop-wildberries-aan~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump kondigt ‘ontwapening Hamas en terugtrekking Israëliërs’ aan, Israël heeft akkoord nog niet getekend",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-kondigt-ontwapening-hamas-en-terugtrekking-israeliers-aan-israel-heeft-akkoord-nog-niet-getekend~ba7f8873/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Gaza : Trump annonce un accord sur le désarmement du Hamas qui confirme",
+        "url": "https://www.rtbf.be/article/gaza-trump-annonce-un-accord-sur-le-desarmement-du-hamas-qui-confirme-11764771",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump et Meloni s’emparent de la crise migratoire à Ceuta pour durcir leur discours, Madrid dénonce une récupération politique",
+        "url": "https://www.rtbf.be/article/trump-et-meloni-s-emparent-de-la-crise-migratoire-a-ceuta-pour-durcir-leur-discours-madrid-denonce-une-recuperation-politique-11764806",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Gaza : Donald Trump annonce un accord \"historique\" sur le désarmement du Hamas",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/07/31/gaza-donald-trump-annonce-un-accord-historique-sur-le-desarmement-du-hamas-HF5RPG6AQVALVMWG7XGTMILAQM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Gaza: le Hamas consent à rendre les armes, dans le cadre du plan de paix de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObXdWZUEtRHdzck5hYjFIdjRsMTJBSGJUYUFfV09LU041OGNKSFZGcWstYXhIazM3TW5xNUpoOUg5TTB6alNDeVRWR1NjQ2llWHZuZnZ2cmZiekpvSzBpVGpvT0FEbWJUU3JJN0d3bWZJdTVKM0hxTUUyZ0NzSVdIa1pwVHRvWmhkeHgtQnBsdEM1eS1aWUc4dnNzM0U3NGdRRUJUVjVTblh1QWdDZHhYdkR0Z0JlWS12bTQtUHJZcjVJRGRoQk8tOWxIZUx3TzZYRUh6d3FQRHhaZFFoVGNReTNaSG1ldkpY?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: un accord trouvé entre Israël et le Hamas, Trump se réjouit d'\"une étape monumentale\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/31/direct-guerre-au-moyen-orient-un-accord-trouve-entre-israel-et-le-hamas-trump-se-rejouit-dune-etape-monumentale-WEPCLVOMY5CZBAKZLI5VXSBBCA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Une étape monumentale”: Trump annonce un accord sur le désarmement du Hamas à Gaza",
+        "url": "https://www.7sur7.be/monde/une-etape-monumentale-trump-annonce-un-accord-sur-le-desarmement-du-hamas-a-gaza~a3949075/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump kondigt akkoord aan over ontwapening Hamas in Gaza - VRT",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMVgzcktvSG9oSGVpd1ZHRFhKTzBmY1RHeWYzWTROTXNlWWxldEpTM2JEeDNoSzZJVkZGOE1hVzQxNkR1MWlnM3lwUWw4Z2hSdW10SVR5eHUzNnpDSl9adGNnbFZXRS1fVVU1cjhJdTRlakViTU9hRmNfTlJDQzF4MnpKUDlNRFljZmdDNGlWMW9WUDRtbHl3NGxhOERfUQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Gaza : Trump annonce un accord sur le désarmement du Hamas qui confirme - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGtBNGp5VzliVVFkcW8xbmI0eWhidUt2X2RFT3QtNkdvZjNlZFdfVTk0WVhnLV9EZHhHX3lkY1pBZ2YwQXVMOGRNaGIwdXdCZXIwem0teUExUGYwN2k1VTczWHp1R3cyZWlWNktnckdsMmxndHNQTWc1Y1l2UkJUSWw5UmVMOWN2VlBRNUhUbzNBQ3FqMi1sQXFmSkVSeUxxRFc0eE1pdFJDZw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump zegt dat Hamas gaat ontwapenen onder toezicht van zijn Vredesraad - NOS",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUFJVTNFbDNXT0xlbWtqX3pKTFNRbngwYXNjcGJDT2NVdG1meldmVmNubEJObUJmRFR3bDNyMTFyaldhMmQ2ZzRrRlA1M25qeGIzUWlDTXp0OFZyQ2VyTnRKQkY0YkZuRlZXX1hUYVZFb1VYNUZEeWZQR1N2Ti1UMkJFNV9CODFEdVNPRWFfeW9lTWRFTVFNNXF5MTdhZXFqX0pxLQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Antwerpse diamantsector ontsnapt aan nieuwe importheffingen van Trump (kort na het schenken van extravagante ring) - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTTJ1dE9wdVR4c1V0ZkhpQlFUbkFnR0ZPbkx6YnZfVUNXRXdUbDVTR3EzT3lHUExVSE1mUXJGVDB5TkhnbTM3eG44Qy1yXzcwUTB2eFAzT2xmaFBFREFudVUtd00wT2gtb2hlN25CRy1MWlhuWTJ2N1EzZkRhUmVZaDlETnZCd0o2R2lZYXVPZUM3MjRxcmhPcjZZNjViVjVjRXpFdm9zN3pEZEJFQnBVY2tZUUZaOGV5M3ctcWtCN0JRUV9OM2U3aFBra0d6cElMQVlfb3NCSGsycXI1clhqZ053?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: un accord trouvé entre Israël et le Hamas, Trump se réjouit d'\"une étape monumentale\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxON0RCSjN3NTFPUWpTZXd5LXRaMkdmdmVHOHlBb3I3ekNnYUc2OWVCaUNWN3hFV3dkOTJ4cS1zUmJqdlRaTW1Qb0IyTjUyc2szR1FUS3JSSFo4RlNwSzBPektJWlpjUldCN3p3TkdLVTdRR2hrZlRQM3B0TER6MHA2YWRaWjBJLUJwNmdZMHktVlZoYXVxandXWjhkR3RnUThia2FMUVBYdUJXNjdERmg1LWVDMEREYi1yRnQxMmNzWGV3eFdXNXBVbGtWczNYQW5oVlpEM0EwQVFVZGw0aWFCYkYyQXljT2VKdkZCb00tWGs0dU45T2Jua0huT01DNDl3d0xvWk50Rzc1clVTOVBj?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump kondigt akkoord aan over ontwapening Hamas in Gaza",
+        "url": "https://vrtnws.be/p.VLyqmMB4A",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump meldt deal over ontwapening Hamas en andere groepen in Gazastrook: Hamas bevestigt akkoord, scepsis in Israël",
+        "url": "https://www.hln.be/buitenland/trump-meldt-deal-over-ontwapening-hamas-en-andere-groepen-in-gazastrook-hamas-bevestigt-akkoord-scepsis-in-israel~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump krabbelt terug na beloftes aan Zelensky over Patriot-raketten: “We moeten een beetje voorzichtig zijn”",
+        "url": "https://www.hln.be/buitenland/trump-krabbelt-terug-na-beloftes-aan-zelensky-over-patriot-raketten-we-moeten-een-beetje-voorzichtig-zijn~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump krabbelt terug over beloftes aan Oekraïne over Patriots • Oekraïne valt opnieuw depot van Russische webshop Wildberries aan",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-krabbelt-terug-over-beloftes-aan-oekraine-over-patriots-oekraine-valt-opnieuw-depot-van-russische-webshop-wildberries-aan~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump kondigt ‘ontwapening Hamas en terugtrekking Israëliërs’ aan, Israël heeft akkoord nog niet getekend",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-kondigt-ontwapening-hamas-en-terugtrekking-israeliers-aan-israel-heeft-akkoord-nog-niet-getekend~ba7f8873/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Gaza : Trump annonce un accord sur le désarmement du Hamas qui confirme",
+        "url": "https://www.rtbf.be/article/gaza-trump-annonce-un-accord-sur-le-desarmement-du-hamas-qui-confirme-11764771",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump et Meloni s’emparent de la crise migratoire à Ceuta pour durcir leur discours, Madrid dénonce une récupération politique",
+        "url": "https://www.rtbf.be/article/trump-et-meloni-s-emparent-de-la-crise-migratoire-a-ceuta-pour-durcir-leur-discours-madrid-denonce-une-recuperation-politique-11764806",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Gaza : Donald Trump annonce un accord \"historique\" sur le désarmement du Hamas",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/07/31/gaza-donald-trump-annonce-un-accord-historique-sur-le-desarmement-du-hamas-HF5RPG6AQVALVMWG7XGTMILAQM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Gaza: le Hamas consent à rendre les armes, dans le cadre du plan de paix de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObXdWZUEtRHdzck5hYjFIdjRsMTJBSGJUYUFfV09LU041OGNKSFZGcWstYXhIazM3TW5xNUpoOUg5TTB6alNDeVRWR1NjQ2llWHZuZnZ2cmZiekpvSzBpVGpvT0FEbWJUU3JJN0d3bWZJdTVKM0hxTUUyZ0NzSVdIa1pwVHRvWmhkeHgtQnBsdEM1eS1aWUc4dnNzM0U3NGdRRUJUVjVTblh1QWdDZHhYdkR0Z0JlWS12bTQtUHJZcjVJRGRoQk8tOWxIZUx3TzZYRUh6d3FQRHhaZFFoVGNReTNaSG1ldkpY?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: un accord trouvé entre Israël et le Hamas, Trump se réjouit d'\"une étape monumentale\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/07/31/direct-guerre-au-moyen-orient-un-accord-trouve-entre-israel-et-le-hamas-trump-se-rejouit-dune-etape-monumentale-WEPCLVOMY5CZBAKZLI5VXSBBCA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Une étape monumentale”: Trump annonce un accord sur le désarmement du Hamas à Gaza",
+        "url": "https://www.7sur7.be/monde/une-etape-monumentale-trump-annonce-un-accord-sur-le-desarmement-du-hamas-a-gaza~a3949075/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 11,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 16,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 28,
+      "crime": 11,
+      "eu": 14,
+      "politics": 4,
+      "be_gov": 9,
+      "culture": 14,
+      "tech": 8,
+      "economy": 4,
+      "sports": 24,
+      "health": 2,
+      "climate": 2,
+      "migration": 2,
+      "education": 3,
+      "weather": 13
+    },
+    "wide_themes": {
+      "war": 36,
+      "crime": 12,
+      "eu": 18,
+      "politics": 6,
+      "be_gov": 10,
+      "culture": 14,
+      "tech": 12,
+      "economy": 6,
+      "sports": 40,
+      "health": 3,
+      "climate": 2,
+      "migration": 3,
+      "education": 5,
+      "weather": 16
+    }
   }
 ]
