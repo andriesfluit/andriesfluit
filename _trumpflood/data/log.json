@@ -67924,5 +67924,442 @@
       "education": 5,
       "weather": 16
     }
+  },
+  {
+    "date": "2026-08-01",
+    "generated_at": "2026-08-01T08:16:37+02:00",
+    "last_checked_at": "2026-08-01T08:16:37+02:00",
+    "total_articles": 351,
+    "trump_articles": 2,
+    "percentage": 0.6,
+    "core_percentage": 0.6,
+    "core_percentage_name": 0.6,
+    "trump_articles_expanded": 2,
+    "core_percentage_expanded": 0.6,
+    "indirect_references": 0,
+    "wide_total_articles": 455,
+    "wide_trump_articles": 4,
+    "wide_percentage": 0.9,
+    "wide_trump_articles_expanded": 4,
+    "wide_percentage_expanded": 0.9,
+    "macro_percentage": 1.0,
+    "qualifying_outlets": 12,
+    "core_outlets_total": 19,
+    "core_outlets_active": 14,
+    "active_core_fraction": 0.737,
+    "cross_outlet_dup_headlines": 10,
+    "cross_outlet_dup_groups": 5,
+    "cross_outlet_dup_rate": 2.8,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.67,
+    "breadth": 0.14,
+    "deviation": 0.22,
+    "smoothed_pct": 1.83,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 28,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 54,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 63,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 23,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 69,
+        "kept": 57,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.75
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "demorgen": {
+        "fetched": 32,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Kaitlan Collins, de CNN-journaliste die Trump in de gordijnen jaagt - standaard.be",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdUdBSXFaYTVHNzhVNGpIU3gxbUwwSnNXZUhIaUYwbS05eDN1S1BjZUVLcTdRLTRPNXViTUVoWnNMUlJxajc5SlBsSDJDaEhxaDlLd1VHMHpnd2RfdzZ3cW1uUWJOcHpfRWczRmdVME1lSHlTeThILV9od3RjRGxZaWtkSTl4RlVqQzdSQk5vaG03aXREUEZLSTIxM0FXR1ZZbW1xUTE4a2hrS2x4cWNjNEpYLXNJTlQ4Qnd0WTNvTzc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Schade aan spiegelvijver van Trump niet door vandalisme maar door fouten bij de renovatie, zegt Amerikaanse Justitie",
+        "url": "https://www.hln.be/buitenland/schade-aan-spiegelvijver-van-trump-niet-door-vandalisme-maar-door-fouten-bij-de-renovatie-zegt-amerikaanse-justitie~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump euforisch over “historisch”, maar onzeker akkoord over ontwapening Hamas: “Israël is er erg blij mee” - standaard.be",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNXVjUFEtZzhFSUhfdE5hWVBVZzQ4Xy14c3h0dTBzZ1lzeUZhcXBiazJFOS1nMHZLQUxMZkl2V0dIcm5YQ0Y0WHNmOTZDY3pQMUllbkI5WmN2UjRTUEU2Qkl3VDhMckduNU5WM25BeE5URC1uNVBCNnF1Y2Z4bGJXYllGeWdrVWZZVkFvcVhXY2JOQUNVU3pBQUJZLW9JdFFsVW5PVmRfb2xJY0hxZ0pGWjhqdlRFT19YempDMHlKV00ta25RVVlrRWpBS0lRQ0hwc0t0Zk0yb1RWV2pBdWVRNTgtaWFMM00?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump affirme que le fonds dit « anti-instrumentalisation » de la justice est « mort » - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdWt4TE1tVzYxVFk0MXNrb2VjUjVlUVplYkV5UWRhOFk0cExydzR5V1BwOENCRmxCNEdhMWdDLUhBMEVPVjF3Rm9NX3dZNkNaeGcySlB6emN2UEdsT3dZOEFCeUgteTlXTW1fQ1pYVEJlM0xma183ZlVVWGZESzlDc3FGZTdiSXZQbjdGOXQ5TmtYejRTcGgydzJkaEtUT3ZsUjVZdmJVNEd6X3BhazQyQ2Z1UmktWFJRd0pmaktwTVhCRktuYXRuZmZuZXhMN1AzWGdYNjE4Yy1TZw?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Kaitlan Collins, de CNN-journaliste die Trump in de gordijnen jaagt - standaard.be",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdUdBSXFaYTVHNzhVNGpIU3gxbUwwSnNXZUhIaUYwbS05eDN1S1BjZUVLcTdRLTRPNXViTUVoWnNMUlJxajc5SlBsSDJDaEhxaDlLd1VHMHpnd2RfdzZ3cW1uUWJOcHpfRWczRmdVME1lSHlTeThILV9od3RjRGxZaWtkSTl4RlVqQzdSQk5vaG03aXREUEZLSTIxM0FXR1ZZbW1xUTE4a2hrS2x4cWNjNEpYLXNJTlQ4Qnd0WTNvTzc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Schade aan spiegelvijver van Trump niet door vandalisme maar door fouten bij de renovatie, zegt Amerikaanse Justitie",
+        "url": "https://www.hln.be/buitenland/schade-aan-spiegelvijver-van-trump-niet-door-vandalisme-maar-door-fouten-bij-de-renovatie-zegt-amerikaanse-justitie~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 4,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 2
+    },
+    "themes": {
+      "war": 7,
+      "crime": 2,
+      "eu": 21,
+      "politics": 6,
+      "be_gov": 8,
+      "culture": 8,
+      "tech": 5,
+      "economy": 2,
+      "sports": 14,
+      "health": 3,
+      "climate": 2,
+      "migration": 1,
+      "education": 1,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 10,
+      "crime": 4,
+      "eu": 26,
+      "politics": 12,
+      "be_gov": 9,
+      "culture": 9,
+      "tech": 9,
+      "economy": 7,
+      "sports": 22,
+      "health": 5,
+      "climate": 3,
+      "migration": 1,
+      "education": 1,
+      "weather": 11
+    }
   }
 ]
