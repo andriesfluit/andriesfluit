@@ -68361,5 +68361,544 @@
       "education": 1,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-08-02",
+    "generated_at": "2026-08-02T08:19:25+02:00",
+    "last_checked_at": "2026-08-02T08:19:25+02:00",
+    "total_articles": 155,
+    "trump_articles": 9,
+    "percentage": 5.8,
+    "core_percentage": 5.8,
+    "core_percentage_name": 5.8,
+    "trump_articles_expanded": 10,
+    "core_percentage_expanded": 6.5,
+    "indirect_references": 1,
+    "wide_total_articles": 221,
+    "wide_trump_articles": 11,
+    "wide_percentage": 5.0,
+    "wide_trump_articles_expanded": 13,
+    "wide_percentage_expanded": 5.9,
+    "macro_percentage": 2.4,
+    "qualifying_outlets": 6,
+    "core_outlets_total": 19,
+    "core_outlets_active": 11,
+    "active_core_fraction": 0.579,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 23.2,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": null,
+    "breadth": 0.45,
+    "deviation": 2.11,
+    "smoothed_pct": 2.57,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 18,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_nl_world": {
+        "fetched": 63,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 54,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 19,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 44,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 49,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "demorgen": {
+        "fetched": 26,
+        "today": 7,
+        "kept": 7,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 28.57
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 43,
+        "kept": 43,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.33
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 32,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 3.12
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 100.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump: aanval op Iran voorlopig afgeblazen “na verzoek vanuit Midden-Oosten”",
+        "url": "https://www.hln.be/buitenland/trump-aanval-op-iran-voorlopig-afgeblazen-na-verzoek-vanuit-midden-oosten~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Marokko vernoemt snelweg in Westelijke Sahara naar Trump",
+        "url": "https://www.hln.be/buitenland/marokko-vernoemt-snelweg-in-westelijke-sahara-naar-trump~ace2475b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Marokko vernoemt snelweg in Westelijke Sahara naar Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-marokko-vernoemt-snelweg-in-westelijke-sahara-naar-trump~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Nieuwe aanval op Iran voorlopig afgeblazen in afwachting van akkoord, zegt Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-iraanse-leger-meldt-aanval-op-amerikaanse-militaire-doelwitten-in-koeweit~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Aanval op Iran afgeblazen” na vraag uit Midden-Oosten in afwachting van akkoord over Straat van Hormuz",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-aanval-op-iran-afgeblazen-na-vraag-uit-midden-oosten-in-afwachting-van-akkoord-over-straat-van-hormuz/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Marokkaanse koning bedankt Amerikaanse president met naar hem vernoemde snelweg door de woestijn",
+        "url": "https://www.nieuwsblad.be/buitenland/marokkaanse-koning-bedankt-amerikaanse-president-met-naar-hem-vernoemde-snelweg-door-de-woestijn/159501506.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "Le prix caché de la guerre en Iran sous-évaluée par le Pentagone : “L’Administration Trump supprime certaines données”",
+        "url": "https://www.lalibre.be/international/2026/08/02/le-prix-cache-de-la-guerre-en-iran-sous-evaluee-par-le-pentagone-ladministration-trump-supprime-certaines-donnees-PXGOAZ3Y5BAH7NKHS2UKUSH55Q/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un coup de fil aurait tout changé: Trump suspend les frappes américaines et israéliennes contre l’Iran",
+        "url": "https://www.7sur7.be/monde/un-coup-de-fil-aurait-tout-change-trump-suspend-les-frappes-americaines-et-israeliennes-contre-liran~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump: 'We hebben aanval op Iran afgeblazen' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzBpQWJoSWlubk5Gbl9rd2I5bmw0RmdSdjFuWFZKLTRwTWl0VWpVS2lUWS11WDQ4OHhMRFh6N1FVTlFWVWk3eGc4cU1zOHRZU1FEVmJDcFVMVjJHdlFGbGh2ZXVNaW5ZSHFHYktsa1F5bU1feU1pN1Jkemx0aHQ5YjZjWW9RUW1IQV80N3RmVmtRdHdhY2ZnYkM1Uy05UHhTcVFjdTcyLVFfUE5qQWd5QURnWWRCZ1FxOXp4VTF3aw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump suspend les frappes américaines contre l’Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTlJEcFYtRVVzdUlTeU9xZXJ3aUdXUzluRmNkQnRnV0VmVGcyRTd5dGVFZFp2TFl3TTV6Wl9HbkM3dzNiQzVTWl9Ib2I4YXVsbXlaUVA1X1d0MzRVTTFHejd0QmlyRGJvWEplaUFjRmVhU2N3ak00bDBTbDFpMUdpY0tteUZVckxzMFdWVEtLZFEyZjlIWmJwUFBzT3R6Unc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Marokko vernoemt snelweg in Westelijke Sahara naar Trump - hln.be",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUh6ZkdIckt4WDZrVXF4dzdkTzNNNXR0ekV1ZklIdS1rYmFjWmJmOV8yVTNPVkFnUERzS2VUVE82YkVSNFdOOWpBb3MtVV9NakRzNzNZblAzWFdmck1JUS1qSzg5R3JuaE96ZzVzS0RXeEplbmtwQjZGallRUmFLdDZxVVhjenhTcGZDeUNVMllyVy0zOGMyVDdSN0g?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump: aanval op Iran voorlopig afgeblazen “na verzoek vanuit Midden-Oosten”",
+        "url": "https://www.hln.be/buitenland/trump-aanval-op-iran-voorlopig-afgeblazen-na-verzoek-vanuit-midden-oosten~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Marokko vernoemt snelweg in Westelijke Sahara naar Trump",
+        "url": "https://www.hln.be/buitenland/marokko-vernoemt-snelweg-in-westelijke-sahara-naar-trump~ace2475b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Marokko vernoemt snelweg in Westelijke Sahara naar Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-marokko-vernoemt-snelweg-in-westelijke-sahara-naar-trump~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Nieuwe aanval op Iran voorlopig afgeblazen in afwachting van akkoord, zegt Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-iraanse-leger-meldt-aanval-op-amerikaanse-militaire-doelwitten-in-koeweit~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Aanval op Iran afgeblazen” na vraag uit Midden-Oosten in afwachting van akkoord over Straat van Hormuz",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-aanval-op-iran-afgeblazen-na-vraag-uit-midden-oosten-in-afwachting-van-akkoord-over-straat-van-hormuz/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Marokkaanse koning bedankt Amerikaanse president met naar hem vernoemde snelweg door de woestijn",
+        "url": "https://www.nieuwsblad.be/buitenland/marokkaanse-koning-bedankt-amerikaanse-president-met-naar-hem-vernoemde-snelweg-door-de-woestijn/159501506.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Aanval op Iran afgeblazen” na vraag uit Midden-Oosten in afwachting van akkoord over Straat van Hormuz",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-aanval-op-iran-afgeblazen-na-vraag-uit-midden-oosten-in-afwachting-van-akkoord-over-straat-van-hormuz/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Marokkaanse koning bedankt Amerikaanse president met naar hem vernoemde snelweg door de woestijn",
+        "url": "https://www.gva.be/buitenland/marokkaanse-koning-bedankt-amerikaanse-president-met-naar-hem-vernoemde-snelweg-door-de-woestijn/159501512.html",
+        "source": "gva",
+        "name_only": false
+      },
+      {
+        "title": "Le prix caché de la guerre en Iran sous-évaluée par le Pentagone : “L’Administration Trump supprime certaines données”",
+        "url": "https://www.lalibre.be/international/2026/08/02/le-prix-cache-de-la-guerre-en-iran-sous-evaluee-par-le-pentagone-ladministration-trump-supprime-certaines-donnees-PXGOAZ3Y5BAH7NKHS2UKUSH55Q/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un coup de fil aurait tout changé: Trump suspend les frappes américaines et israéliennes contre l’Iran",
+        "url": "https://www.7sur7.be/monde/un-coup-de-fil-aurait-tout-change-trump-suspend-les-frappes-americaines-et-israeliennes-contre-liran~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump: 'We hebben aanval op Iran afgeblazen' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzBpQWJoSWlubk5Gbl9rd2I5bmw0RmdSdjFuWFZKLTRwTWl0VWpVS2lUWS11WDQ4OHhMRFh6N1FVTlFWVWk3eGc4cU1zOHRZU1FEVmJDcFVMVjJHdlFGbGh2ZXVNaW5ZSHFHYktsa1F5bU1feU1pN1Jkemx0aHQ5YjZjWW9RUW1IQV80N3RmVmtRdHdhY2ZnYkM1Uy05UHhTcVFjdTcyLVFfUE5qQWd5QURnWWRCZ1FxOXp4VTF3aw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump suspend les frappes américaines contre l’Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTlJEcFYtRVVzdUlTeU9xZXJ3aUdXUzluRmNkQnRnV0VmVGcyRTd5dGVFZFp2TFl3TTV6Wl9HbkM3dzNiQzVTWl9Ib2I4YXVsbXlaUVA1X1d0MzRVTTFHejd0QmlyRGJvWEplaUFjRmVhU2N3ak00bDBTbDFpMUdpY0tteUZVckxzMFdWVEtLZFEyZjlIWmJwUFBzT3R6Unc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 9,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 16,
+      "crime": 2,
+      "eu": 8,
+      "politics": 7,
+      "be_gov": 1,
+      "culture": 8,
+      "tech": 1,
+      "economy": 1,
+      "sports": 10,
+      "health": 0,
+      "climate": 1,
+      "migration": 0,
+      "education": 0,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 18,
+      "crime": 2,
+      "eu": 10,
+      "politics": 12,
+      "be_gov": 2,
+      "culture": 11,
+      "tech": 2,
+      "economy": 1,
+      "sports": 14,
+      "health": 0,
+      "climate": 2,
+      "migration": 0,
+      "education": 1,
+      "weather": 7
+    }
   }
 ]
