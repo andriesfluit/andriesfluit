@@ -68900,5 +68900,610 @@
       "education": 1,
       "weather": 7
     }
+  },
+  {
+    "date": "2026-08-03",
+    "generated_at": "2026-08-03T08:46:36+02:00",
+    "last_checked_at": "2026-08-03T08:46:36+02:00",
+    "total_articles": 330,
+    "trump_articles": 15,
+    "percentage": 4.5,
+    "core_percentage": 4.5,
+    "core_percentage_name": 4.5,
+    "trump_articles_expanded": 15,
+    "core_percentage_expanded": 4.5,
+    "indirect_references": 0,
+    "wide_total_articles": 463,
+    "wide_trump_articles": 19,
+    "wide_percentage": 4.1,
+    "wide_trump_articles_expanded": 19,
+    "wide_percentage_expanded": 4.1,
+    "macro_percentage": 5.3,
+    "qualifying_outlets": 20,
+    "core_outlets_total": 19,
+    "core_outlets_active": 15,
+    "active_core_fraction": 0.789,
+    "cross_outlet_dup_headlines": 23,
+    "cross_outlet_dup_groups": 11,
+    "cross_outlet_dup_rate": 7.0,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 15.0,
+    "breadth": 0.67,
+    "deviation": 1.48,
+    "smoothed_pct": 2.99,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 12,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "google_nl_politics": {
+        "fetched": 16,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 63,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 13,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 68,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 56,
+        "today": 3,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 66,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 18,
+        "kept": 18,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 41,
+        "kept": 41,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.44
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 27.27
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "trends_g": {
+        "fetched": 58,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "President Trump stelt grootschalige aanvallen op Iran opnieuw uit - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPclhNZVUxdjJpZkFpS2RRaWctbU9reGdmSTBlTUJweHhwUWt4ODVtem1OOGNUek53aGs3eFIweDZBVHlaeS0zMUNYdERrMnBaUkVMQVhhaERyTXVaN2Z2ejI3bW5YT0xyR2V0R1F1cU5aVWFxWVdZMWd1YmtZMVYxeHVwZG1DWW1jRjBEbWEteGlveGFnLWtKcFZtNnZ2cE03NzVpemRqcGU4RlFBUjNURFljd2N2ajA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Vandaag nieuwe gesprekken met Iran”, olieprijzen zakken gevoelig",
+        "url": "https://www.hln.be/buitenland/trump-vandaag-nieuwe-gesprekken-met-iran-olieprijzen-zakken-gevoelig~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: gesprekken met Iran gaan vandaag verder na afgeblazen aanval • Olieprijzen zakken stevig",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-gesprekken-met-iran-gaan-vandaag-verder-na-afgeblazen-aanval~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trumps peilingen bereiken een absoluut dieptepunt. Maar verwacht nu niet dat hij van koers zal veranderen",
+        "url": "https://www.demorgen.be/nieuws/trumps-peilingen-bereiken-een-absoluut-dieptepunt-maar-verwacht-nu-niet-dat-hij-van-koers-zal-veranderen~b3987d5a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump kondigt nieuwe onderhandelingen met Iran aan - Olieprijs daalt fors",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-kondigt-nieuwe-onderhandelingen-met-iran-aan-olieprijs-daalt-fors/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Live Spanningen Midden-Oosten: Trump: vanaf vandaag nieuwe onderhandelingen met Iran - Knack",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVlZoSXctb0lMd01fTndJS1F3Wm9pbXZqQmdJRllpWlVzaFhZS21JY2l0YVRRNkVZQkhFTlhxaTQxdTR2YzBvSzV3blhWTHk3SUtxYW82RVEzS01PZW9sYURTSzVUN2Z6Tlp4S1lmLWlWeWYxYy1WRTl1V3UwWlgyMFp2Zm43dVZRbUlONTlILUZLdkdxRHlpX2pkdm0wY21mT21uSjNKNTZzRktub2JnUVdSc2NQQTl3XzFWbUJNMjl0TG1O?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce une reprise des négociations lundi avec l’Iran, le prix du pétrole chute",
+        "url": "https://www.rtbf.be/article/trump-annonce-une-reprise-des-negociations-lundi-avec-l-iran-le-prix-du-petrole-chute-11765779",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump annonce une reprise des négociations avec l'Iran, le prix du pétrole chute",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/08/03/direct-guerre-au-moyen-orient-trump-annonce-une-reprise-des-negociations-avec-liran-le-prix-du-petrole-chute-ZHDQWT3B4NEFXKSD5AGR32FHQE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Washington intervient pour soutenir le yen, un \"geste d'amitié\" selon Trump",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/08/03/washington-intervient-pour-soutenir-le-yen-un-geste-damitie-selon-trump-GGABCQJ6JBH4FHYZ3K7NNQNVDY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'administration Trump approuve des pesticides, des PFAS dangeureux selon chercheurs et ONG",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/03/ladministration-trump-approuve-des-pesticides-des-pfas-dangeureux-selon-chercheurs-et-ong-LR2POXLKABCMFD66NOA64365QQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le \"geste d'amitié\" de Trump envers un pays allié: \"Ils avaient besoin d'un peu d'aide\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/03/le-geste-damitie-de-trump-envers-un-pays-allie-ils-avaient-besoin-dun-peu-daide-DI6HPPPM5JCJ3HON2JFACCX4MI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le ministre US de la Justice Todd Blanche renonce à un fonds pro-Trump pour obtenir sa nomination",
+        "url": "https://www.7sur7.be/monde/le-ministre-us-de-la-justice-todd-blanche-renonce-a-un-fonds-pro-trump-pour-obtenir-sa-nomination~aa89028b/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce une reprise des pourparlers avec l’Iran, le prix du pétrole chute",
+        "url": "https://www.7sur7.be/monde/trump-annonce-une-reprise-des-pourparlers-avec-liran-le-prix-du-petrole-chute~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce le début de nouveaux pourparlers avec l’Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc0ZZRUhEZm1rcjhHamNjMm14aWJSNzU0NG9zOC1VamQ2R1ZnRjJmbl9KcllrYWdMNzRUMjdIdHhCMldPcjV5Nm5TakZ3SlhBTG0ydWdaUW9vbUVyN2ZWWGhqZmxQUzZJeE9Hd01qNTVneS0wd2VwOWh6eHA4NFJkbHNZbGpIajJoeVBGdGliVEkwc1luUy1SLTRrV0tqbmsyMnBxdnNpRVc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump annonce la reprise de négociations avec l’Iran après avoir renoncé à de nouvelles frappes : « Ils connaissaient l’ampleur de cette attaque - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPY3pxRzFBZ0ZKc05FQi12Q2ZmMzE4aXdPQ1JMckVnUUFmR2J5TnFuWU51M1drUUVkcHZsb1ZIaV9mMFhkdmowM0ExMUFVeEM2RVJzMlZKN0I4YUdRN3pmb3cwY2QxRk81MnV5dFZUdC0yM3JrUjFMNWtYN2V4LUNHVzc4UU1YYVlyOXFxc3IxcVVEa3o3QkhlRnJvTDdMTXhKWnB1elBobXd3dEVsZEdmdERQMVJlVmF4eXJtMnl0M0djOVVvb0tERXhFeHFCYkQzTG93VUdfQW1TVkxJQ3BKS3VR?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump lijkt klem te zitten doordat Iran tempo van oorlog bepaalt - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYUYzMUpRUjhjTVJRN1Z5QjJTdHVYVWxRSUNsbUN5bEx3VklJUXFqenZneFRWWkpyRm82RWU5bXlndDhtZnJtVWRqVm9aZXBpUGJ2M2xqMjBOcV9NVnJXTldPOVNOYXY0LVJTaHlOZDJGaTNLbnh5ZVBpT2F0aWRqSS1vWVJYMWhFZEJ6YkdwbFBJTVZhREQ5aERhYlZsRmpNMWkxUjJWR2dCRC1MZ2NCQ25oMzRGQQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce une reprise des négociations lundi avec l’Iran, le prix du pétrole chute - rtbf.be",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdl84ZUdHOTdGWHBrLTlDZGE3U0lGTjNGRGNMaDcyYTNwbUJfTDR0UlV6U2lkYXlhU2FueGhMbElJdzRHZ2t1cnl2WFR3eGtRbU9qeFlRMHpBVmVuLVhqeVlBVFpjaDVIV0V4WkpUVHd4c0p2TFNXRFN6MnBlaElKQTd6VXRQQnRlRE9ZNnZxTW5CQ2U3eVVpSFBKNmRmdw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Le \"geste d'amitié\" de Trump envers un pays allié: \"Ils avaient besoin d'un peu d'aide\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbmU2aXdldW52Ump1YVR1Q2ZiNTlzWEFpZDdMVWhnamdXR2pZTUUza2pocFZvblF5YXJVeFE4bF9STHVXV2NzR2pIWVFFUl9lY0w5VXBNMWhhT3M5aWRuTHkzNmJfUzA3dHdod0p2bDBmV1Q5OWFZcmhla1djUmk1OWNuSVNaSlEyYmNON2wwZUIyV0U0aFYwZlBrcVJDSElRTTc4MlM3ZXNBOTktc1dIVjZRRkVFdWNoRGlQVGJMSGJiclJhT1pKQ29kYVh1anlkaUVrTEM0UEhYdGw5dERSdkExTXA?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "President Trump stelt grootschalige aanvallen op Iran opnieuw uit - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPclhNZVUxdjJpZkFpS2RRaWctbU9reGdmSTBlTUJweHhwUWt4ODVtem1OOGNUek53aGs3eFIweDZBVHlaeS0zMUNYdERrMnBaUkVMQVhhaERyTXVaN2Z2ejI3bW5YT0xyR2V0R1F1cU5aVWFxWVdZMWd1YmtZMVYxeHVwZG1DWW1jRjBEbWEteGlveGFnLWtKcFZtNnZ2cE03NzVpemRqcGU4RlFBUjNURFljd2N2ajA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Vandaag nieuwe gesprekken met Iran”, olieprijzen zakken gevoelig",
+        "url": "https://www.hln.be/buitenland/trump-vandaag-nieuwe-gesprekken-met-iran-olieprijzen-zakken-gevoelig~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: gesprekken met Iran gaan vandaag verder na afgeblazen aanval • Olieprijzen zakken stevig",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-gesprekken-met-iran-gaan-vandaag-verder-na-afgeblazen-aanval~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trumps peilingen bereiken een absoluut dieptepunt. Maar verwacht nu niet dat hij van koers zal veranderen",
+        "url": "https://www.demorgen.be/nieuws/trumps-peilingen-bereiken-een-absoluut-dieptepunt-maar-verwacht-nu-niet-dat-hij-van-koers-zal-veranderen~b3987d5a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump kondigt nieuwe onderhandelingen met Iran aan - Olieprijs daalt fors",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-kondigt-nieuwe-onderhandelingen-met-iran-aan-olieprijs-daalt-fors/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump kondigt nieuwe onderhandelingen met Iran aan - Olieprijs daalt fors",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-kondigt-nieuwe-onderhandelingen-met-iran-aan-olieprijs-daalt-fors/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Live Spanningen Midden-Oosten: Trump: vanaf vandaag nieuwe onderhandelingen met Iran - Knack",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVlZoSXctb0lMd01fTndJS1F3Wm9pbXZqQmdJRllpWlVzaFhZS21JY2l0YVRRNkVZQkhFTlhxaTQxdTR2YzBvSzV3blhWTHk3SUtxYW82RVEzS01PZW9sYURTSzVUN2Z6Tlp4S1lmLWlWeWYxYy1WRTl1V3UwWlgyMFp2Zm43dVZRbUlONTlILUZLdkdxRHlpX2pkdm0wY21mT21uSjNKNTZzRktub2JnUVdSc2NQQTl3XzFWbUJNMjl0TG1O?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce une reprise des négociations lundi avec l’Iran, le prix du pétrole chute",
+        "url": "https://www.rtbf.be/article/trump-annonce-une-reprise-des-negociations-lundi-avec-l-iran-le-prix-du-petrole-chute-11765779",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump annonce une reprise des négociations avec l'Iran, le prix du pétrole chute",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/08/03/direct-guerre-au-moyen-orient-trump-annonce-une-reprise-des-negociations-avec-liran-le-prix-du-petrole-chute-ZHDQWT3B4NEFXKSD5AGR32FHQE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Washington intervient pour soutenir le yen, un \"geste d'amitié\" selon Trump",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/08/03/washington-intervient-pour-soutenir-le-yen-un-geste-damitie-selon-trump-GGABCQJ6JBH4FHYZ3K7NNQNVDY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'administration Trump approuve des pesticides, des PFAS dangeureux selon chercheurs et ONG",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/03/ladministration-trump-approuve-des-pesticides-des-pfas-dangeureux-selon-chercheurs-et-ong-LR2POXLKABCMFD66NOA64365QQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le \"geste d'amitié\" de Trump envers un pays allié: \"Ils avaient besoin d'un peu d'aide\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/03/le-geste-damitie-de-trump-envers-un-pays-allie-ils-avaient-besoin-dun-peu-daide-DI6HPPPM5JCJ3HON2JFACCX4MI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le ministre US de la Justice Todd Blanche renonce à un fonds pro-Trump pour obtenir sa nomination",
+        "url": "https://www.7sur7.be/monde/le-ministre-us-de-la-justice-todd-blanche-renonce-a-un-fonds-pro-trump-pour-obtenir-sa-nomination~aa89028b/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce une reprise des pourparlers avec l’Iran, le prix du pétrole chute",
+        "url": "https://www.7sur7.be/monde/trump-annonce-une-reprise-des-pourparlers-avec-liran-le-prix-du-petrole-chute~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce le début de nouveaux pourparlers avec l’Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc0ZZRUhEZm1rcjhHamNjMm14aWJSNzU0NG9zOC1VamQ2R1ZnRjJmbl9KcllrYWdMNzRUMjdIdHhCMldPcjV5Nm5TakZ3SlhBTG0ydWdaUW9vbUVyN2ZWWGhqZmxQUzZJeE9Hd01qNTVneS0wd2VwOWh6eHA4NFJkbHNZbGpIajJoeVBGdGliVEkwc1luUy1SLTRrV0tqbmsyMnBxdnNpRVc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump annonce la reprise de négociations avec l’Iran après avoir renoncé à de nouvelles frappes : « Ils connaissaient l’ampleur de cette attaque - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPY3pxRzFBZ0ZKc05FQi12Q2ZmMzE4aXdPQ1JMckVnUUFmR2J5TnFuWU51M1drUUVkcHZsb1ZIaV9mMFhkdmowM0ExMUFVeEM2RVJzMlZKN0I4YUdRN3pmb3cwY2QxRk81MnV5dFZUdC0yM3JrUjFMNWtYN2V4LUNHVzc4UU1YYVlyOXFxc3IxcVVEa3o3QkhlRnJvTDdMTXhKWnB1elBobXd3dEVsZEdmdERQMVJlVmF4eXJtMnl0M0djOVVvb0tERXhFeHFCYkQzTG93VUdfQW1TVkxJQ3BKS3VR?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 15,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 19,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 2,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 26,
+      "crime": 10,
+      "eu": 8,
+      "politics": 6,
+      "be_gov": 7,
+      "culture": 5,
+      "tech": 3,
+      "economy": 10,
+      "sports": 9,
+      "health": 2,
+      "climate": 4,
+      "migration": 1,
+      "education": 1,
+      "weather": 16
+    },
+    "wide_themes": {
+      "war": 34,
+      "crime": 12,
+      "eu": 11,
+      "politics": 12,
+      "be_gov": 12,
+      "culture": 5,
+      "tech": 7,
+      "economy": 14,
+      "sports": 14,
+      "health": 3,
+      "climate": 6,
+      "migration": 3,
+      "education": 3,
+      "weather": 22
+    }
   }
 ]
