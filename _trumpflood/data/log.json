@@ -70050,5 +70050,670 @@
       "education": 3,
       "weather": 29
     }
+  },
+  {
+    "date": "2026-08-05",
+    "generated_at": "2026-08-05T08:10:39+02:00",
+    "last_checked_at": "2026-08-05T08:10:39+02:00",
+    "total_articles": 355,
+    "trump_articles": 20,
+    "percentage": 5.6,
+    "core_percentage": 5.6,
+    "core_percentage_name": 5.6,
+    "trump_articles_expanded": 20,
+    "core_percentage_expanded": 5.6,
+    "indirect_references": 0,
+    "wide_total_articles": 450,
+    "wide_trump_articles": 24,
+    "wide_percentage": 5.3,
+    "wide_trump_articles_expanded": 24,
+    "wide_percentage_expanded": 5.3,
+    "macro_percentage": 6.0,
+    "qualifying_outlets": 14,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 38,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 10.7,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": null,
+    "breadth": 0.75,
+    "deviation": 1.87,
+    "smoothed_pct": 3.16,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 2,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_nl_politics": {
+        "fetched": 17,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 67,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 14,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 67,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 50,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 13,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 35,
+        "kept": 35,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.86
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 33,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 51,
+        "kept": 51,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 6,
+        "kept": 6,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 33.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 23.08
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 8,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 98,
+        "kept": 51,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Man met wapens in auto gearresteerd bij Trump-golfclub in Californië: “Hij observeerde beveiliging”",
+        "url": "https://www.standaard.be/buitenland/man-met-wapens-in-auto-gearresteerd-bij-trump-golfclub-in-californie-hij-observeerde-beveiliging/35131945.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump zegt dat de Straat van Hormuz “zeer binnenkort open zal gaan”... anders zal Iran “zeer hard” getroffen worden",
+        "url": "https://www.hln.be/buitenland/donald-trump-zegt-dat-de-straat-van-hormuz-zeer-binnenkort-open-zal-gaan-anders-zal-iran-zeer-hard-getroffen-worden~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Verdachte man opgepakt aan Trumps golfterrein in LA, politie vindt geladen wapen in auto",
+        "url": "https://www.hln.be/buitenland/verdachte-man-opgepakt-aan-trumps-golfterrein-in-la-politie-vindt-geladen-wapen-in-auto~a2e20713/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Straat van Hormuz gaat ‘zeer binnenkort’ weer open, zegt Trump, die tegelijkertijd dreigt met ‘heel krachtige’ aanvallen als Iran geen akkoord sluit",
+        "url": "https://www.demorgen.be/snelnieuws/live-straat-van-hormuz-gaat-zeer-binnenkort-weer-open-zegt-trump-die-tegelijkertijd-dreigt-met-heel-krachtige-aanvallen~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS trekt visum Braziliaanse ambassadeur in totdat Brazilië VS-ambassadeur goedkeurt • Gewapende man aangehouden op golfcomplex Trump in Californië",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-trekt-visum-braziliaanse-ambassadeur-in-totdat-brazilie-vs-ambassadeur-goedkeurt-gewapende-man-aangehouden-op-golfcomplex-trump-in-californie~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Goede gesprekken met Iran”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-goede-gesprekken-met-iran/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Goede gesprekken met Iran”",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-trump-goede-gesprekken-met-iran/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump : soit le détroit d’Ormuz \"ouvrira très bientôt\", soit l’Iran sera frappé \"très fort\", Washington espère un accord dès mercredi",
+        "url": "https://www.rtbf.be/article/donald-trump-soit-le-detroit-d-ormuz-ouvrira-tres-bientot-soit-l-iran-sera-frappe-tres-fort-washington-espere-un-accord-des-mercredi-11766624",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Un homme armé arrêté sur un golf de Trump avant la visite du président: Il \"semblait surveiller les activités liées à la planification de la sécurité\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/05/un-homme-arme-arrete-sur-un-golf-de-trump-avant-la-visite-du-president-il-semblait-surveiller-les-activites-liees-a-la-planification-de-la-securite-6QM4X2ZOLRGHHK6ASYACAYP4IQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump dit que soit le détroit d'Ormuz \"ouvrira très bientôt\", soit l'Iran sera frappé \"très durement\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/08/05/direct-guerre-au-moyen-orient-trump-dit-que-soit-le-detroit-dormuz-ouvrira-tres-bientot-soit-liran-sera-frappe-tres-durement-756WVBIZHRFMBIIF5I27VHU54Q/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump dit que soit le détroit d'Ormuz \"ouvrira très bientôt\", soit l'Iran sera frappé \"très durement\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/05/direct-guerre-au-moyen-orient-trump-dit-que-soit-le-detroit-dormuz-ouvrira-tres-bientot-soit-liran-sera-frappe-tres-durement-EM5E3NJSCNGOBCSIZQPPTBBMMQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un homme armé arrêté dans un club de golf de Donald Trump à Los Angeles, une perquisition révèle un arsenal impressionnant à son domicile !",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/05/un-homme-arme-arrete-dans-un-club-de-golf-de-donald-trump-a-los-angeles-une-perquisition-revele-un-arsenal-impressionnant-a-son-domicile-FIXCPVDFIJDTXHY7EVEEDT76AA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un homme arrêté dans le club de golf de Trump à Los Angeles, une arme chargée découverte dans sa voiture",
+        "url": "https://www.7sur7.be/monde/un-homme-arrete-dans-le-club-de-golf-de-trump-a-los-angeles-une-arme-chargee-decouverte-dans-sa-voiture~abea219a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Le détroit d’Ormuz ouvrira très bientôt, ou alors les Iraniens seront frappés très fort”",
+        "url": "https://www.7sur7.be/monde/trump-le-detroit-dormuz-ouvrira-tres-bientot-ou-alors-les-iraniens-seront-frappes-tres-fort~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Tentative d’assassinat présumée : un homme armé arrêté sur un terrain de golf de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa0ZVWmljOTgwa3c1RWZsRGZTelF5R29Yc0xBVlFKaU1mTE53dDV0RlVOWHh5UDdjWWFGRDlwV2hfamRzY0V5QTRFZEhKRktwYlBUaTdaX1I2MllqSERlX1lCX0tMeDBaclVGdU40SW5LLUdZRC1Kbmh5SnZweTBxZkYwakQ2SGJPOEVOZjMtdVRIMGE4YWlRYmF4LWdjMGp6TS01OURzY1puaWVsc3BDd2hsUWFXTFVwM01XTW05THZQLXM?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Soit le détroit d’Ormuz « ouvrira très bientôt », soit l’Iran sera frappé « très fort » : le nouvel ultimatum de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNb1JSNGNERUJwb2lBeFVNSmY3b0RDMjRqbUpHaVU1SHRzRlRDRVNSbWRGM2hibkpkbFdrUzBPaUg3cDlwU0xzYURRMzR4UUtPQlRtMllxSjZWTE1EMm54VFVfUkhRRDQ2Q2FHbUxxd0NRVlRNSkRFcENOcGNobU1NZ3R4Y2ZtendRT1ljSFlBdXNrQVF2c1R1alFaOFhLeEpwYXF6ejU3TjdfVEVwNUVSaXQyQlpqRUJPZkVSbkRaanNhS0lqTkE?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Soit le détroit d’Ormuz « ouvrira très bientôt », soit l’Iran sera frappé « très fort », menace Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQczJPR2YtcVhSTGRFNUZtRlpTc1dzT2FaN1lQSEFoZ21kUGwwUVljblNtaXhFSDJLWVNqZ3pkMTlqcVRiZUxjbFpmWnVLVXRrSWx0WTM1a004Z2JPT1JIbmxXLXlUdUVXMUVPZXh3QUw5QkFsX1cydDhSdU44bGpkMkRJSXdhYXRYVFBQWE9XVmY3MmkwcFIwSXUxVU5LeUFzd0hOMUNlSWNBZV84TUV6c2lHX0pzRERXNUlITVlJWHdrdw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle tentative d’assassinat contre Donald Trump ? Un individu vient d’être interpellé dans l’un de ses clubs de golf en Californie ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOU5pZEktbUhGZ3QxSXlVUm1RSXJBT0VKdUluZlY2dVBhbmtCeHpBaUdyRFJESjFVeFE2ODRWM0I0bUxaRVFieEJoVW1TSUlwemlXNHI5OWx6eEQ4TldRZTFRSzUxMGdfZjl4eGh2ZXNOZlZYQWx6ZTJyekFLd0ZZai1maFJxMl8zZUVUQXo3VWlybWFNWFUtclRDYlR0Q00xVTRHZWRzNHQ0WWQxcldqNHIzNWw2MnhLU1JJMzUtZkpkYUdx?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump dit que le détroit d’Ormuz « ouvrira très bientôt »... sinon l’Iran sera frappé « très durement » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRzNaNDA4aE95LUZxNE1aVzNVT1AyVXdHUU8xS1NFSHJxNWU4N2VNWURuQUtQalBZQlM2NXV0Znd1a0E4UnJFdGEtNnJiWTNzeU1ZbXpZejFKZFVoTDAyTmxXTW9qaUFpMlhwWjlaSkVDbmlCaXA3ejk4aUJSa3RPNi04ZW1mQkRrOEtmYWlSdmI5ekd0N1hmc2o5LWpkMWlpLTBsdGJSNGJXMndETERvdmFUWHdqYTRVOF9sUEFxc0RpRDRHN3hvR2liVnRuWS0zektmcTczMEVIWU5BYUkw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle tentative d’assassinat contre Donald Trump ? Un individu armé interpellé dans l’un de ses clubs de golf - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOandySUJnWHBkQUN5YzNhbHJzRk1QZG44N0dmeWRoWlpnVlVxblEzb1VGdHlvX3BVYzJwOGc2OElSMXZiTW9SS1NqZ1QwczQ2NFZQVThiQUUzaC1aWUhFMDJ0RmNXWG5xNzl6X3luRDF2a1EwVk01ci01X3BOYmJrWG9ydHNOVmJsZHF2ZTNBdjVaNW9HYTBDcTJGTGFobTl6Vnl2TXJjMHVPSDRBMlhRTzNCUjJwZnlDelFjZWxuSHpMMHJEZnE4RU5sN3J6Qy0zbzdFYWw0bTkyRE56ZU5RY2l3?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Le Pen, Trump, Farage : pourquoi les affaires n’entament pas la popularité de l’extrême droite - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWjZTREdsdU1oNjRKcTZxeEN5R2htenU1Q1VGRzQ3NzNVTnJFLU04VnZUTW5EVlptdUN5XzZkaElkaVNKSjhXYjF6cV9sR3U0dUZUbzNCbDRUaXVsRndIRDVNZWVmdUJYX2liWlppakdmVkxIZFFDQWpGU0RHWTVfb1FjX091ZmpRX1FJV1IxYTV4TzJaOVNTcXdOYUV6MkZLNEhLRENOQnNuN2hqQno1SzRXa2UyTUlqaFRGUA?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Washington Post: Trump eist last minute verandering aan heliplatform in aanbouw - NOS",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY0UwUnlNdXpqeVZDTFZRUGlITmJ0OUxGay1XdE15SXpaX2c4c3JFWFpNSWVaYnV6VGthUVRxZTR0VmRhU0llSVVkSTNtdl9BYlpCMUsyT3N3WHhyV05yZ0hfWXFsdndDd2MzSVk2M0FLSlVpWmZMdlI2NUNRamJiaHRNNGR2SHFwS05mbVdLRzFNNkNmX2Rja2daNUp4Vm55UDZteWJGVVNQR3k4SGc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Verdachte man opgepakt aan Trumps golfterrein in LA, politie vindt geladen wapen in auto - HLN",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUJ1Y1lMQjE2S3VNMmxqQ0xTZmdKVFd6UnM4RkFDVHo4cURlYlZDSHZ6ejR1a090MXBITFVDbWJpYnhfSGJWc2lGLWFSY3BwVlQySjlaWU9FdjdDM0htYlI2SE4wYkRwdnVuMHZvcjZnMl84ckZaQk1fV3lxWmhlbXBzWkdERG5DaGsyY3dHRFlxOENPbEZCWEhrODAxVzZzeFJhaGVvc05qbjJudnF5MmJnb2hRZ09nLXRvMFIySm9nSmYzMlE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Man met wapens in auto gearresteerd bij Trump-golfclub in Californië: “Hij observeerde beveiliging”",
+        "url": "https://www.standaard.be/buitenland/man-met-wapens-in-auto-gearresteerd-bij-trump-golfclub-in-californie-hij-observeerde-beveiliging/35131945.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump zegt dat de Straat van Hormuz “zeer binnenkort open zal gaan”... anders zal Iran “zeer hard” getroffen worden",
+        "url": "https://www.hln.be/buitenland/donald-trump-zegt-dat-de-straat-van-hormuz-zeer-binnenkort-open-zal-gaan-anders-zal-iran-zeer-hard-getroffen-worden~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Verdachte man opgepakt aan Trumps golfterrein in LA, politie vindt geladen wapen in auto",
+        "url": "https://www.hln.be/buitenland/verdachte-man-opgepakt-aan-trumps-golfterrein-in-la-politie-vindt-geladen-wapen-in-auto~a2e20713/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Straat van Hormuz gaat ‘zeer binnenkort’ weer open, zegt Trump, die tegelijkertijd dreigt met ‘heel krachtige’ aanvallen als Iran geen akkoord sluit",
+        "url": "https://www.demorgen.be/snelnieuws/live-straat-van-hormuz-gaat-zeer-binnenkort-weer-open-zegt-trump-die-tegelijkertijd-dreigt-met-heel-krachtige-aanvallen~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS trekt visum Braziliaanse ambassadeur in totdat Brazilië VS-ambassadeur goedkeurt • Gewapende man aangehouden op golfcomplex Trump in Californië",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-trekt-visum-braziliaanse-ambassadeur-in-totdat-brazilie-vs-ambassadeur-goedkeurt-gewapende-man-aangehouden-op-golfcomplex-trump-in-californie~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Goede gesprekken met Iran”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-goede-gesprekken-met-iran/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Goede gesprekken met Iran”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-goede-gesprekken-met-iran/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump: “Goede gesprekken met Iran”",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-trump-goede-gesprekken-met-iran/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump : soit le détroit d’Ormuz \"ouvrira très bientôt\", soit l’Iran sera frappé \"très fort\", Washington espère un accord dès mercredi",
+        "url": "https://www.rtbf.be/article/donald-trump-soit-le-detroit-d-ormuz-ouvrira-tres-bientot-soit-l-iran-sera-frappe-tres-fort-washington-espere-un-accord-des-mercredi-11766624",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Un homme armé arrêté sur un golf de Trump avant la visite du président: Il \"semblait surveiller les activités liées à la planification de la sécurité\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/05/un-homme-arme-arrete-sur-un-golf-de-trump-avant-la-visite-du-president-il-semblait-surveiller-les-activites-liees-a-la-planification-de-la-securite-6QM4X2ZOLRGHHK6ASYACAYP4IQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: Trump dit que soit le détroit d'Ormuz \"ouvrira très bientôt\", soit l'Iran sera frappé \"très durement\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/08/05/direct-guerre-au-moyen-orient-trump-dit-que-soit-le-detroit-dormuz-ouvrira-tres-bientot-soit-liran-sera-frappe-tres-durement-756WVBIZHRFMBIIF5I27VHU54Q/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump dit que soit le détroit d'Ormuz \"ouvrira très bientôt\", soit l'Iran sera frappé \"très durement\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/05/direct-guerre-au-moyen-orient-trump-dit-que-soit-le-detroit-dormuz-ouvrira-tres-bientot-soit-liran-sera-frappe-tres-durement-EM5E3NJSCNGOBCSIZQPPTBBMMQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un homme armé arrêté dans un club de golf de Donald Trump à Los Angeles, une perquisition révèle un arsenal impressionnant à son domicile !",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/05/un-homme-arme-arrete-dans-un-club-de-golf-de-donald-trump-a-los-angeles-une-perquisition-revele-un-arsenal-impressionnant-a-son-domicile-FIXCPVDFIJDTXHY7EVEEDT76AA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un homme arrêté dans le club de golf de Trump à Los Angeles, une arme chargée découverte dans sa voiture",
+        "url": "https://www.7sur7.be/monde/un-homme-arrete-dans-le-club-de-golf-de-trump-a-los-angeles-une-arme-chargee-decouverte-dans-sa-voiture~abea219a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Le détroit d’Ormuz ouvrira très bientôt, ou alors les Iraniens seront frappés très fort”",
+        "url": "https://www.7sur7.be/monde/trump-le-detroit-dormuz-ouvrira-tres-bientot-ou-alors-les-iraniens-seront-frappes-tres-fort~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Tentative d’assassinat présumée : un homme armé arrêté sur un terrain de golf de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa0ZVWmljOTgwa3c1RWZsRGZTelF5R29Yc0xBVlFKaU1mTE53dDV0RlVOWHh5UDdjWWFGRDlwV2hfamRzY0V5QTRFZEhKRktwYlBUaTdaX1I2MllqSERlX1lCX0tMeDBaclVGdU40SW5LLUdZRC1Kbmh5SnZweTBxZkYwakQ2SGJPOEVOZjMtdVRIMGE4YWlRYmF4LWdjMGp6TS01OURzY1puaWVsc3BDd2hsUWFXTFVwM01XTW05THZQLXM?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Soit le détroit d’Ormuz « ouvrira très bientôt », soit l’Iran sera frappé « très fort » : le nouvel ultimatum de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNb1JSNGNERUJwb2lBeFVNSmY3b0RDMjRqbUpHaVU1SHRzRlRDRVNSbWRGM2hibkpkbFdrUzBPaUg3cDlwU0xzYURRMzR4UUtPQlRtMllxSjZWTE1EMm54VFVfUkhRRDQ2Q2FHbUxxd0NRVlRNSkRFcENOcGNobU1NZ3R4Y2ZtendRT1ljSFlBdXNrQVF2c1R1alFaOFhLeEpwYXF6ejU3TjdfVEVwNUVSaXQyQlpqRUJPZkVSbkRaanNhS0lqTkE?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Soit le détroit d’Ormuz « ouvrira très bientôt », soit l’Iran sera frappé « très fort », menace Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQczJPR2YtcVhSTGRFNUZtRlpTc1dzT2FaN1lQSEFoZ21kUGwwUVljblNtaXhFSDJLWVNqZ3pkMTlqcVRiZUxjbFpmWnVLVXRrSWx0WTM1a004Z2JPT1JIbmxXLXlUdUVXMUVPZXh3QUw5QkFsX1cydDhSdU44bGpkMkRJSXdhYXRYVFBQWE9XVmY3MmkwcFIwSXUxVU5LeUFzd0hOMUNlSWNBZV84TUV6c2lHX0pzRERXNUlITVlJWHdrdw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle tentative d’assassinat contre Donald Trump ? Un individu vient d’être interpellé dans l’un de ses clubs de golf en Californie ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOU5pZEktbUhGZ3QxSXlVUm1RSXJBT0VKdUluZlY2dVBhbmtCeHpBaUdyRFJESjFVeFE2ODRWM0I0bUxaRVFieEJoVW1TSUlwemlXNHI5OWx6eEQ4TldRZTFRSzUxMGdfZjl4eGh2ZXNOZlZYQWx6ZTJyekFLd0ZZai1maFJxMl8zZUVUQXo3VWlybWFNWFUtclRDYlR0Q00xVTRHZWRzNHQ0WWQxcldqNHIzNWw2MnhLU1JJMzUtZkpkYUdx?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump dit que le détroit d’Ormuz « ouvrira très bientôt »... sinon l’Iran sera frappé « très durement » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRzNaNDA4aE95LUZxNE1aVzNVT1AyVXdHUU8xS1NFSHJxNWU4N2VNWURuQUtQalBZQlM2NXV0Znd1a0E4UnJFdGEtNnJiWTNzeU1ZbXpZejFKZFVoTDAyTmxXTW9qaUFpMlhwWjlaSkVDbmlCaXA3ejk4aUJSa3RPNi04ZW1mQkRrOEtmYWlSdmI5ekd0N1hmc2o5LWpkMWlpLTBsdGJSNGJXMndETERvdmFUWHdqYTRVOF9sUEFxc0RpRDRHN3hvR2liVnRuWS0zektmcTczMEVIWU5BYUkw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle tentative d’assassinat contre Donald Trump ? Un individu armé interpellé dans l’un de ses clubs de golf - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOandySUJnWHBkQUN5YzNhbHJzRk1QZG44N0dmeWRoWlpnVlVxblEzb1VGdHlvX3BVYzJwOGc2OElSMXZiTW9SS1NqZ1QwczQ2NFZQVThiQUUzaC1aWUhFMDJ0RmNXWG5xNzl6X3luRDF2a1EwVk01ci01X3BOYmJrWG9ydHNOVmJsZHF2ZTNBdjVaNW9HYTBDcTJGTGFobTl6Vnl2TXJjMHVPSDRBMlhRTzNCUjJwZnlDelFjZWxuSHpMMHJEZnE4RU5sN3J6Qy0zbzdFYWw0bTkyRE56ZU5RY2l3?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 20,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 24,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 24,
+      "crime": 6,
+      "eu": 9,
+      "politics": 2,
+      "be_gov": 3,
+      "culture": 4,
+      "tech": 6,
+      "economy": 3,
+      "sports": 17,
+      "health": 1,
+      "climate": 3,
+      "migration": 1,
+      "education": 0,
+      "weather": 13
+    },
+    "wide_themes": {
+      "war": 31,
+      "crime": 7,
+      "eu": 12,
+      "politics": 4,
+      "be_gov": 5,
+      "culture": 7,
+      "tech": 9,
+      "economy": 4,
+      "sports": 24,
+      "health": 1,
+      "climate": 5,
+      "migration": 2,
+      "education": 0,
+      "weather": 15
+    }
   }
 ]
