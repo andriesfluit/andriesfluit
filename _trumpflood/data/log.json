@@ -70715,5 +70715,532 @@
       "education": 0,
       "weather": 15
     }
+  },
+  {
+    "date": "2026-08-06",
+    "generated_at": "2026-08-06T08:13:28+02:00",
+    "last_checked_at": "2026-08-06T08:13:28+02:00",
+    "total_articles": 300,
+    "trump_articles": 10,
+    "percentage": 3.3,
+    "core_percentage": 3.3,
+    "core_percentage_name": 3.3,
+    "trump_articles_expanded": 10,
+    "core_percentage_expanded": 3.3,
+    "indirect_references": 0,
+    "wide_total_articles": 401,
+    "wide_trump_articles": 11,
+    "wide_percentage": 2.7,
+    "wide_trump_articles_expanded": 11,
+    "wide_percentage_expanded": 2.7,
+    "macro_percentage": 3.2,
+    "qualifying_outlets": 15,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 38,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 12.7,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 5.0,
+    "breadth": 0.44,
+    "deviation": 1.1,
+    "smoothed_pct": 3.53,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 13,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 57,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 13,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 14,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 37,
+        "kept": 37,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.7
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 8,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Rekenhof VS: “Trumps vloot zal 275 miljard dollar kosten” (en dat is 50 procent meer dan eerder gedacht)",
+        "url": "https://www.hln.be/buitenland/rekenhof-vs-trumps-vloot-zal-275-miljard-dollar-kosten-en-dat-is-50-procent-meer-dan-eerder-gedacht~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Nieuwe oorlogsvloot van Trump valt veel duurder uit dan gedacht: 275 miljard dollar • ‘CIA richt geheime Cuba-werkgroep op’",
+        "url": "https://www.demorgen.be/nieuws/live-nieuwe-oorlogsvloot-van-trump-valt-veel-duurder-uit-dan-gedacht-275-miljard-dollar-cia-richt-geheime-cuba-werkgroep-op~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘New York Times’-journalisten schrijven verbijsterend boek over Trumps tweede termijn: ‘Onze bronnen riskeren veel door met ons te praten’",
+        "url": "https://www.demorgen.be/nieuws/new-york-times-journalisten-schrijven-verbijsterend-boek-over-trumps-tweede-termijn-onze-bronnen-riskeren-veel-door-met-ons-te-praten~b9aa47ce/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Staat klaagt Amerikaanse overheid aan voor vrijgave Epstein-dossiers - Trump noemt Democraat “Jodenhater”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-staat-klaagt-amerikaanse-overheid-aan-voor-vrijgave-epstein-dossiers-trump-noemt-democraat-jodenhater/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Staat klaagt Amerikaanse overheid aan voor vrijgave Epstein-dossiers - Trump noemt Democraat “Jodenhater”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-staat-klaagt-amerikaanse-overheid-aan-voor-vrijgave-epstein-dossiers-trump-noemt-democraat-jodenhater/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "L'hélicoptère de Donald Trump trop proche d'un avion de ligne à Washington",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/06/usa-lhelicoptere-presidentiel-marine-one-trop-proche-dun-avion-de-ligne-a-washington-JFGRDA7TSFGEFMYQJKYO7SH774/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'homme armé arrêté sur le golf de Trump poursuivi pour possession illégale d'arme à feu",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/06/lhomme-arme-arrete-sur-le-golf-de-trump-poursuivi-pour-possession-illegale-darme-a-feu-K6BF3O24YZDO3B2PG7WRG7QEZU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'hélicoptère de Donald Trump frôle un avion de ligne près de Washington, une enquête ouverte",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/06/lhelicoptere-de-donald-trump-frole-un-avion-de-ligne-pres-de-washington-une-enquete-ouverte-6M474UYQZJHO3FJSSTJ2AH3HYM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Ce que l’on sait sur l’ex-militaire arrêté sur un golf de Donald Trump",
+        "url": "https://www.7sur7.be/monde/ce-que-lon-sait-sur-lex-militaire-arrete-sur-un-golf-de-donald-trump~ad3b4d8c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle flotte militaire américaine à la gloire de Trump devrait coûter 275 milliards de dollars",
+        "url": "https://www.7sur7.be/monde/la-nouvelle-flotte-militaire-americaine-a-la-gloire-de-trump-devrait-couter-275-milliards-de-dollars~a8089eef/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Rekenhof VS: “Trumps vloot zal 275 miljard dollar kosten” (en dat is 50 procent meer dan eerder gedacht)",
+        "url": "https://www.hln.be/buitenland/rekenhof-vs-trumps-vloot-zal-275-miljard-dollar-kosten-en-dat-is-50-procent-meer-dan-eerder-gedacht~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Nieuwe oorlogsvloot van Trump valt veel duurder uit dan gedacht: 275 miljard dollar • ‘CIA richt geheime Cuba-werkgroep op’",
+        "url": "https://www.demorgen.be/nieuws/live-nieuwe-oorlogsvloot-van-trump-valt-veel-duurder-uit-dan-gedacht-275-miljard-dollar-cia-richt-geheime-cuba-werkgroep-op~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘New York Times’-journalisten schrijven verbijsterend boek over Trumps tweede termijn: ‘Onze bronnen riskeren veel door met ons te praten’",
+        "url": "https://www.demorgen.be/nieuws/new-york-times-journalisten-schrijven-verbijsterend-boek-over-trumps-tweede-termijn-onze-bronnen-riskeren-veel-door-met-ons-te-praten~b9aa47ce/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Staat klaagt Amerikaanse overheid aan voor vrijgave Epstein-dossiers - Trump noemt Democraat “Jodenhater”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-staat-klaagt-amerikaanse-overheid-aan-voor-vrijgave-epstein-dossiers-trump-noemt-democraat-jodenhater/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Staat klaagt Amerikaanse overheid aan voor vrijgave Epstein-dossiers - Trump noemt Democraat “Jodenhater”",
+        "url": "https://www.gva.be/buitenland/live-vs.-staat-klaagt-amerikaanse-overheid-aan-voor-vrijgave-epstein-dossiers-trump-noemt-democraat-jodenhater/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Staat klaagt Amerikaanse overheid aan voor vrijgave Epstein-dossiers - Trump noemt Democraat “Jodenhater”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-staat-klaagt-amerikaanse-overheid-aan-voor-vrijgave-epstein-dossiers-trump-noemt-democraat-jodenhater/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "L'hélicoptère de Donald Trump trop proche d'un avion de ligne à Washington",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/06/usa-lhelicoptere-presidentiel-marine-one-trop-proche-dun-avion-de-ligne-a-washington-JFGRDA7TSFGEFMYQJKYO7SH774/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'homme armé arrêté sur le golf de Trump poursuivi pour possession illégale d'arme à feu",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/06/lhomme-arme-arrete-sur-le-golf-de-trump-poursuivi-pour-possession-illegale-darme-a-feu-K6BF3O24YZDO3B2PG7WRG7QEZU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'hélicoptère de Donald Trump frôle un avion de ligne près de Washington, une enquête ouverte",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/06/lhelicoptere-de-donald-trump-frole-un-avion-de-ligne-pres-de-washington-une-enquete-ouverte-6M474UYQZJHO3FJSSTJ2AH3HYM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Ce que l’on sait sur l’ex-militaire arrêté sur un golf de Donald Trump",
+        "url": "https://www.7sur7.be/monde/ce-que-lon-sait-sur-lex-militaire-arrete-sur-un-golf-de-donald-trump~ad3b4d8c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle flotte militaire américaine à la gloire de Trump devrait coûter 275 milliards de dollars",
+        "url": "https://www.7sur7.be/monde/la-nouvelle-flotte-militaire-americaine-a-la-gloire-de-trump-devrait-couter-275-milliards-de-dollars~a8089eef/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 10,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 18,
+      "crime": 11,
+      "eu": 4,
+      "politics": 4,
+      "be_gov": 9,
+      "culture": 6,
+      "tech": 8,
+      "economy": 11,
+      "sports": 12,
+      "health": 2,
+      "climate": 0,
+      "migration": 0,
+      "education": 5,
+      "weather": 12
+    },
+    "wide_themes": {
+      "war": 26,
+      "crime": 16,
+      "eu": 10,
+      "politics": 8,
+      "be_gov": 11,
+      "culture": 6,
+      "tech": 11,
+      "economy": 13,
+      "sports": 17,
+      "health": 2,
+      "climate": 0,
+      "migration": 1,
+      "education": 6,
+      "weather": 16
+    }
   }
 ]
