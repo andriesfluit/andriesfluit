@@ -71787,5 +71787,404 @@
       "education": 11,
       "weather": 9
     }
+  },
+  {
+    "date": "2026-08-08",
+    "generated_at": "2026-08-08T06:37:30+02:00",
+    "last_checked_at": "2026-08-08T06:37:30+02:00",
+    "total_articles": 219,
+    "trump_articles": 0,
+    "percentage": 0.0,
+    "core_percentage": 0.0,
+    "core_percentage_name": 0.0,
+    "trump_articles_expanded": 0,
+    "core_percentage_expanded": 0.0,
+    "indirect_references": 0,
+    "wide_total_articles": 292,
+    "wide_trump_articles": 0,
+    "wide_percentage": 0.0,
+    "wide_trump_articles_expanded": 0,
+    "wide_percentage_expanded": 0.0,
+    "macro_percentage": 0.0,
+    "qualifying_outlets": 7,
+    "core_outlets_total": 19,
+    "core_outlets_active": 9,
+    "active_core_fraction": 0.474,
+    "cross_outlet_dup_headlines": 18,
+    "cross_outlet_dup_groups": 9,
+    "cross_outlet_dup_rate": 8.2,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 3,
+    "n_people": 17,
+    "dominance": 0.0,
+    "breadth": 0.0,
+    "deviation": 0.0,
+    "smoothed_pct": 3.49,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 14,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 21,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 52,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 17,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 57,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 66,
+        "kept": 55,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 99,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [],
+    "wide_matches": [],
+    "comparisons": {
+      "trump": 0,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 0,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 5,
+      "crime": 8,
+      "eu": 3,
+      "politics": 6,
+      "be_gov": 2,
+      "culture": 5,
+      "tech": 6,
+      "economy": 6,
+      "sports": 15,
+      "health": 3,
+      "climate": 0,
+      "migration": 2,
+      "education": 1,
+      "weather": 4
+    },
+    "wide_themes": {
+      "war": 8,
+      "crime": 13,
+      "eu": 5,
+      "politics": 10,
+      "be_gov": 2,
+      "culture": 5,
+      "tech": 7,
+      "economy": 9,
+      "sports": 23,
+      "health": 3,
+      "climate": 0,
+      "migration": 2,
+      "education": 1,
+      "weather": 6
+    }
   }
 ]
