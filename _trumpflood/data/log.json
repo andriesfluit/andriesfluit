@@ -71790,102 +71790,102 @@
   },
   {
     "date": "2026-08-08",
-    "generated_at": "2026-08-08T06:37:30+02:00",
-    "last_checked_at": "2026-08-08T06:37:30+02:00",
-    "total_articles": 219,
-    "trump_articles": 0,
-    "percentage": 0.0,
-    "core_percentage": 0.0,
-    "core_percentage_name": 0.0,
-    "trump_articles_expanded": 0,
-    "core_percentage_expanded": 0.0,
+    "generated_at": "2026-08-08T13:04:34+02:00",
+    "last_checked_at": "2026-08-08T13:04:34+02:00",
+    "total_articles": 481,
+    "trump_articles": 17,
+    "percentage": 3.5,
+    "core_percentage": 3.5,
+    "core_percentage_name": 3.5,
+    "trump_articles_expanded": 17,
+    "core_percentage_expanded": 3.5,
     "indirect_references": 0,
-    "wide_total_articles": 292,
-    "wide_trump_articles": 0,
-    "wide_percentage": 0.0,
-    "wide_trump_articles_expanded": 0,
-    "wide_percentage_expanded": 0.0,
-    "macro_percentage": 0.0,
-    "qualifying_outlets": 7,
+    "wide_total_articles": 663,
+    "wide_trump_articles": 24,
+    "wide_percentage": 3.6,
+    "wide_trump_articles_expanded": 24,
+    "wide_percentage_expanded": 3.6,
+    "macro_percentage": 3.9,
+    "qualifying_outlets": 20,
     "core_outlets_total": 19,
-    "core_outlets_active": 9,
-    "active_core_fraction": 0.474,
-    "cross_outlet_dup_headlines": 18,
-    "cross_outlet_dup_groups": 9,
-    "cross_outlet_dup_rate": 8.2,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Below a normal president's ordinary day.",
-    "rank": 3,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 46,
+    "cross_outlet_dup_groups": 23,
+    "cross_outlet_dup_rate": 9.6,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
     "n_people": 17,
-    "dominance": 0.0,
-    "breadth": 0.0,
-    "deviation": 0.0,
-    "smoothed_pct": 3.49,
+    "dominance": 1.89,
+    "breadth": 0.63,
+    "deviation": 1.06,
+    "smoothed_pct": 3.99,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 14,
+    "theme_rank": 5,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 11,
-        "kept": 11,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
       },
       "google_nl_politics": {
-        "fetched": 21,
-        "today": 4,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 23,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 8,
-        "kept": 4,
+        "today": 21,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 12,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
       },
       "google_nl_tech": {
-        "fetched": 52,
-        "today": 2,
-        "kept": 2,
+        "fetched": 51,
+        "today": 7,
+        "kept": 6,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 5,
-        "kept": 3,
+        "today": 25,
+        "kept": 21,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 17,
+        "fetched": 19,
         "today": 1,
         "kept": 1,
         "trump": 0,
@@ -71894,149 +71894,93 @@
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_business": {
-        "fetched": 57,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 7,
-        "kept": 7,
+        "today": 12,
+        "kept": 6,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_fr_business": {
+        "fetched": 53,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
+      },
       "standaard": {
         "fetched": 100,
-        "today": 66,
-        "kept": 55,
+        "today": 56,
+        "kept": 44,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "hln": {
         "fetched": 30,
-        "today": 8,
-        "kept": 8,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "demorgen": {
         "fetched": 30,
-        "today": 13,
-        "kept": 13,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 48,
-        "kept": 48,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
       },
       "gva": {
         "fetched": 50,
-        "today": 47,
-        "kept": 47,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
       },
       "hbvl": {
         "fetched": 50,
-        "today": 31,
-        "kept": 31,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
       },
       "knack": {
         "fetched": 100,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
       },
       "sporza": {
         "fetched": 20,
-        "today": 0,
-        "kept": 0,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "bruzz": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 30,
-        "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "septsursept": {
-        "fetched": 30,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "bx1": {
-        "fetched": 10,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "detijd_g": {
         "fetched": 100,
         "today": 4,
         "kept": 4,
@@ -72044,50 +71988,106 @@
         "trump_expanded": 0,
         "share": 0.0
       },
-      "lesoir_g": {
+      "rtbf": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "lalibre": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 43,
+        "kept": 42,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 51,
+        "kept": 51,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.96
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.79
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 43,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
       },
       "lavenir_g": {
         "fetched": 99,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "rtl_g": {
-        "fetched": 100,
-        "today": 1,
-        "kept": 1,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
       "trends_g": {
         "fetched": 100,
-        "today": 5,
-        "kept": 2,
+        "today": 18,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
         "fetched": 100,
-        "today": 9,
-        "kept": 3,
+        "today": 25,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -72114,77 +72114,325 @@
       "trends_g",
       "vrt"
     ],
-    "matches": [],
-    "wide_matches": [],
+    "matches": [
+      {
+        "title": "Donald Trump vervangt vrouwen telkens door mannen: \"Kabinet weerspiegelt voorkeur van president\"",
+        "url": "https://vrtnws.be/p.aDyD44BVw",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Senaat benoemt Trumps voormalige advocaat Todd Blanche tot minister van Justitie",
+        "url": "https://vrtnws.be/p.OvXVZpKNZ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump probeert opnieuw Fed-bestuurder Lisa Cook te ontslaan",
+        "url": "https://www.hln.be/buitenland/trump-probeert-opnieuw-fed-bestuurder-lisa-cook-te-ontslaan~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Van Trumps absolute dieptepunt in de peilingen tot pensioen voor een flexi-job: 9 topverhalen van de voorbije week",
+        "url": "https://www.demorgen.be/nieuws/van-trumps-absolute-dieptepunt-in-de-peilingen-tot-pensioen-voor-een-flexi-job-9-topverhalen-van-de-voorbije-week~b62d3d47/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump raakt de controle kwijt, en weet dat niet langer te verbergen",
+        "url": "https://www.demorgen.be/nieuws/trump-raakt-de-controle-kwijt-en-weet-dat-niet-langer-te-verbergen~b3d90151/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Amerikaanse Senaat stemt in met benoeming Todd Blanche, voormalige advocaat van Trump, als nieuwe minister van Justitie",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-amerikaanse-senaat-stemt-in-met-benoeming-todd-blanche-voormalige-advocaat-van-trump-als-nieuwe-minister-van-justitie/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Hillary Clinton haalt uit naar Trumps \"smakeloze\" inrichting van het Witte Huis: \"Doet denken aan paleizen van dictator Irak\"",
+        "url": "https://www.nieuwsblad.be/buitenland/hillary-clinton-haalt-uit-naar-trumps-smakeloze-inrichting-van-het-witte-huis-doet-denken-aan-paleizen-van-dictator-irak/159772359.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Amerikaanse Senaat stemt in met benoeming Todd Blanche, voormalige advocaat van Trump, als nieuwe minister van Justitie",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-amerikaanse-senaat-stemt-in-met-benoeming-todd-blanche-voormalige-advocaat-van-trump-als-nieuwe-minister-van-justitie/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Live President Trump: Amerikaanse Senaat stemt in met benoeming Todd Blanche als nieuwe minister van Justitie - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQcGxNNE43b1Awc2xwMlROeXZPS3QtZW1fMFBNU180TG1STlZWUmtHYTNvTUp3ZEMzalFRWmtlSzJUTnJKN2JuTUVtdE83OENwSGlTUy1qSTlXRmcxc3NoZWVIV3IxcG1VekhTXzZSbHVWRFJ6cFhaSGtPUGZfdFU1M3BlNzZRU2o2dU5UcTBuX0xzcjZUSkF3SGhZSWwyQzhuMEE3R2JMUnNJa0d3a1YyYU1RS3VMTGRfWDBkc181dUhSaExTajQwU05QekhLcEQ3RGxTOVYyWHZpX01vR2V6NmtTQU1xSGVxaUQ3eWZfZGxPSVRJTTJ0WHRB?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Le Sénat américain approuve la nomination de Todd Blanche, ancien avocat de Donald Trump, comme ministre de la Justice",
+        "url": "https://www.rtbf.be/article/le-senat-americain-approuve-la-nomination-de-todd-blanche-ancien-avocat-de-donald-trump-comme-ministre-de-la-justice-11767944",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Le Sénat américain approuve la nomination d'un proche de longue date de Donald Trump comme ministre de la Justice",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/08/le-senat-americain-approuve-la-nomination-dun-proche-de-longue-date-de-donald-trump-comme-ministre-de-la-justice-EX3ZYZFX5VDITDWK4PJ2VOQ5UU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Après des mois de négociations: l’ancien avocat de Trump confirmé comme ministre de la Justice",
+        "url": "https://www.7sur7.be/monde/apres-des-mois-de-negociations-lancien-avocat-de-trump-confirme-comme-ministre-de-la-justice~a4763f87/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Une honte nationale”: la justice bloque à nouveau la salle de bal de Trump",
+        "url": "https://www.7sur7.be/monde/une-honte-nationale-la-justice-bloque-a-nouveau-la-salle-de-bal-de-trump~a1aeb509/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Un millionnaire pro-Trump à la “main de fer”: qui est le nouveau président de la Colombie?",
+        "url": "https://www.7sur7.be/monde/un-millionnaire-pro-trump-a-la-main-de-fer-qui-est-le-nouveau-president-de-la-colombie~a263ef45/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Allié de Trump, le nouveau président de la Colombie investi - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1NhYTVYTUh0UVdmSURidVAyVnFCRkJrZjJIQjhoaVdfbDNBWUpISlFWLXN1Z3JYeWRGOUEtUHRnNHJqRWxRTUpuNG9lQnVtWmh4VlZQbTB3WXlJekpQM282Mlk4SkJ4TktJaTBvdXFTVmFTcjI4Qk5hZ3ltaUdySWduREJzaGZhV3BaaEpQeG9xNTU0c0ZCd3E1SUN0Vnd3NUFKc2RZV3hCUQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« C’est une honte nationale » : Donald Trump s’impatiente face à la décision de justice bloquant les travaux de la nouvelle salle de bal de la Maison Blanche - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZklBc1JJRnB5Z3NuREV4VGl2cnd5MTRUQzBUckh1ZUdfUjlKY1NTSVIzZkI0T3Q2QkVYRVk5Q19SRUYwdHcxazZMMkhVZ05RNzdCbTd0SS14ODJMT2VPYlNKMnZjaHRqZGJzbm5GTVRkS1VHM3I1WkYzYjVwcGRxb29nU1h2dEQ5UHptY25hNXlrY0FoUXZLUzA4V09NWFE1WU1WVkpTMnlac2JkbUdKTVZYQWg5OXJ2X0ZRS2JaeFpHcXNJWjZ6WA?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« C’est une honte nationale » : Donald Trump fou de rage après une décision de la justice le concernant - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd0RPSHcxSGp6TDJ4Z04xNm1kQ05wTXM0ZFlYTUZnbkpaNkUwcGUxbEpVUWxOX2FFWWlaTnZISFdDbDRqb2REX2FKLVdOQ1EtaDByeUJTWE1paVAzLWp3bzdrTzdLR2VZanFkSXVMQ0pzaU95NDZnRi1lOER2RVBDM3VwY0tZMXNHa21IcGFYYy1SN1BTRjh6aXBZQm0teW91ekxzTDZDZFFiN3Y2Nm9MbGRxMkJxSjNXb3Vha3hoRk4zWG9MYlpzUUZmOHlBdjBSSzdHeDRkTU10X0Jx?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Senaat benoemt Trumps voormalige advocaat Todd Blanche tot minister van Justitie - VRT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONXFaUE02UUNudGd6TmVKS1hiNGR3eXMyRnptbEE3TVNCRVZvOHg1V3BmeVAzTkVQZjM4NE1RaGFkdlc0YWhnWl9kSUU3WlJOYjZJNkNzMjVhTEdPZE1fQmxnczJsX1o4cTMta0UtVE5pcjNTSjBLc3FtOWNOU3B1c3pqb0xBM29wUE5qbjNUZG5zSWxsSDlrQWRmaUE3NFpMRFA2U0JsNDM?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Abelardo de la Espriella, nouveau président de Colombie et admirateur de Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSFBRaDRxQVBjWktyUWNzMjVJbVh2MEh5elNpSFFUVWQ1TnE2RDl1QUoySG1FRVFmdmFvdjA4Nm94SHF2LUZUN1B6OEo3UmlQVjF6YjNxOTY4MDd3N2RlNUtMeXJZVHRvZTMtdXd3dzZwVnpzdjN1dVg2OXVnbTMxZGp5Qld4MXhSb0REQXRwNF84UjUtM0I1azNZUUlTVlFuRkRJTDNEV0N1VHlkMzkxMDFOY3lfX2FodWNhZVQwbjl5YXVmbDBBM2JJRk0zYktWa1J0WmhjbW1aMFE?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "« Une menace pour la sécurité nationale » : Donald Trump furieux contre une décision de justice - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSk03dS1ZYk9Yd0daZUpYa0NGQU5QVGxyY0tsYlZsTkxrM0p2R2ZKSm04RTM3MDVFVmVCVlZaWm1KWllOTEo5QUdiZGdwNVZxWHY0QVFyc0hXNWp4SEhnSndrWkVIOVhrYjU4aDk1SnFDa2hkbHZFUGVmTWtOOUhPSXE5a3Z1RkhZcGtMakt0VXhiejFHdEF6RDhpanE5al9kVU9fRlpEemRoR2hCVDUzYXRVbnVxS2FhRTgtQkw2V1QtWHUz?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump vervangt vrouwelijke kabinetsleden telkens door mannen: \"Kabinet weerspiegelt voorkeur van president\" - VRT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQV81YlpBZlRYZWYwdl82X0VKN2F1NHR5Y21DSVhJYnJCTUpiYXo2RGdSMG55Y0dxMGIzbnJsZTVjcDhFQXNtZ1E2WEo2c3BBOEFZb25rUWJmRFNFVW1MVEt1U25HaW83VFlRdlJaU0ZQdnQ3QWUyRWtlSmpucGJWdzdXS2c0eFVTUG5wdGd4WEVXMGlYMjk5SnUybjlzSlkzRnJnajRvNU8?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump probeert opnieuw Fed-bestuurder Lisa Cook te ontslaan - HLN",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX2oxR2RIbzRScG9yR2docVZjN0xLTE5IZlgzeHM2bDlnMnRhYjdFU2ZTbVhyUEo4RUotdW9PdjBieVkwODExazBWU21GclgyUmpwOVR4cnJlOEkzWnQ2eWNpdElfOHRlWmI1SThZR3BCNGs4dFg0Tmp1OGVLdXRmRmtfcDJWQndTdUJhTWtYYXZsVVpPN3V6andjcjZjUVhs?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump vervangt vrouwen telkens door mannen: \"Kabinet weerspiegelt voorkeur van president\"",
+        "url": "https://vrtnws.be/p.aDyD44BVw",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Senaat benoemt Trumps voormalige advocaat Todd Blanche tot minister van Justitie",
+        "url": "https://vrtnws.be/p.OvXVZpKNZ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump probeert opnieuw Fed-bestuurder Lisa Cook te ontslaan",
+        "url": "https://www.hln.be/buitenland/trump-probeert-opnieuw-fed-bestuurder-lisa-cook-te-ontslaan~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Van Trumps absolute dieptepunt in de peilingen tot pensioen voor een flexi-job: 9 topverhalen van de voorbije week",
+        "url": "https://www.demorgen.be/nieuws/van-trumps-absolute-dieptepunt-in-de-peilingen-tot-pensioen-voor-een-flexi-job-9-topverhalen-van-de-voorbije-week~b62d3d47/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump raakt de controle kwijt, en weet dat niet langer te verbergen",
+        "url": "https://www.demorgen.be/nieuws/trump-raakt-de-controle-kwijt-en-weet-dat-niet-langer-te-verbergen~b3d90151/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Amerikaanse Senaat stemt in met benoeming Todd Blanche, voormalige advocaat van Trump, als nieuwe minister van Justitie",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-amerikaanse-senaat-stemt-in-met-benoeming-todd-blanche-voormalige-advocaat-van-trump-als-nieuwe-minister-van-justitie/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Hillary Clinton haalt uit naar Trumps \"smakeloze\" inrichting van het Witte Huis: \"Doet denken aan paleizen van dictator Irak\"",
+        "url": "https://www.nieuwsblad.be/buitenland/hillary-clinton-haalt-uit-naar-trumps-smakeloze-inrichting-van-het-witte-huis-doet-denken-aan-paleizen-van-dictator-irak/159772359.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Amerikaanse Senaat stemt in met benoeming Todd Blanche, voormalige advocaat van Trump, als nieuwe minister van Justitie",
+        "url": "https://www.gva.be/buitenland/live-vs.-amerikaanse-senaat-stemt-in-met-benoeming-todd-blanche-voormalige-advocaat-van-trump-als-nieuwe-minister-van-justitie/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Hillary Clinton haalt uit naar Trumps \"smakeloze\" inrichting van het Witte Huis: \"Doet denken aan paleizen van dictator Irak\"",
+        "url": "https://www.gva.be/buitenland/hillary-clinton-haalt-uit-naar-trumps-smakeloze-inrichting-van-het-witte-huis-doet-denken-aan-paleizen-van-dictator-irak/159772909.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Amerikaanse Senaat stemt in met benoeming Todd Blanche, voormalige advocaat van Trump, als nieuwe minister van Justitie",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-amerikaanse-senaat-stemt-in-met-benoeming-todd-blanche-voormalige-advocaat-van-trump-als-nieuwe-minister-van-justitie/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Live President Trump: Amerikaanse Senaat stemt in met benoeming Todd Blanche als nieuwe minister van Justitie - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQcGxNNE43b1Awc2xwMlROeXZPS3QtZW1fMFBNU180TG1STlZWUmtHYTNvTUp3ZEMzalFRWmtlSzJUTnJKN2JuTUVtdE83OENwSGlTUy1qSTlXRmcxc3NoZWVIV3IxcG1VekhTXzZSbHVWRFJ6cFhaSGtPUGZfdFU1M3BlNzZRU2o2dU5UcTBuX0xzcjZUSkF3SGhZSWwyQzhuMEE3R2JMUnNJa0d3a1YyYU1RS3VMTGRfWDBkc181dUhSaExTajQwU05QekhLcEQ3RGxTOVYyWHZpX01vR2V6NmtTQU1xSGVxaUQ3eWZfZGxPSVRJTTJ0WHRB?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Le Sénat américain approuve la nomination de Todd Blanche, ancien avocat de Donald Trump, comme ministre de la Justice",
+        "url": "https://www.rtbf.be/article/le-senat-americain-approuve-la-nomination-de-todd-blanche-ancien-avocat-de-donald-trump-comme-ministre-de-la-justice-11767944",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Le Sénat américain approuve la nomination d'un proche de longue date de Donald Trump comme ministre de la Justice",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/08/le-senat-americain-approuve-la-nomination-dun-proche-de-longue-date-de-donald-trump-comme-ministre-de-la-justice-EX3ZYZFX5VDITDWK4PJ2VOQ5UU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Après des mois de négociations: l’ancien avocat de Trump confirmé comme ministre de la Justice",
+        "url": "https://www.7sur7.be/monde/apres-des-mois-de-negociations-lancien-avocat-de-trump-confirme-comme-ministre-de-la-justice~a4763f87/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Une honte nationale”: la justice bloque à nouveau la salle de bal de Trump",
+        "url": "https://www.7sur7.be/monde/une-honte-nationale-la-justice-bloque-a-nouveau-la-salle-de-bal-de-trump~a1aeb509/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Un millionnaire pro-Trump à la “main de fer”: qui est le nouveau président de la Colombie?",
+        "url": "https://www.7sur7.be/monde/un-millionnaire-pro-trump-a-la-main-de-fer-qui-est-le-nouveau-president-de-la-colombie~a263ef45/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Allié de Trump, le nouveau président de la Colombie investi - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1NhYTVYTUh0UVdmSURidVAyVnFCRkJrZjJIQjhoaVdfbDNBWUpISlFWLXN1Z3JYeWRGOUEtUHRnNHJqRWxRTUpuNG9lQnVtWmh4VlZQbTB3WXlJekpQM282Mlk4SkJ4TktJaTBvdXFTVmFTcjI4Qk5hZ3ltaUdySWduREJzaGZhV3BaaEpQeG9xNTU0c0ZCd3E1SUN0Vnd3NUFKc2RZV3hCUQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« C’est une honte nationale » : Donald Trump s’impatiente face à la décision de justice bloquant les travaux de la nouvelle salle de bal de la Maison Blanche - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZklBc1JJRnB5Z3NuREV4VGl2cnd5MTRUQzBUckh1ZUdfUjlKY1NTSVIzZkI0T3Q2QkVYRVk5Q19SRUYwdHcxazZMMkhVZ05RNzdCbTd0SS14ODJMT2VPYlNKMnZjaHRqZGJzbm5GTVRkS1VHM3I1WkYzYjVwcGRxb29nU1h2dEQ5UHptY25hNXlrY0FoUXZLUzA4V09NWFE1WU1WVkpTMnlac2JkbUdKTVZYQWg5OXJ2X0ZRS2JaeFpHcXNJWjZ6WA?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« C’est une honte nationale » : Donald Trump fou de rage après une décision de la justice le concernant - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd0RPSHcxSGp6TDJ4Z04xNm1kQ05wTXM0ZFlYTUZnbkpaNkUwcGUxbEpVUWxOX2FFWWlaTnZISFdDbDRqb2REX2FKLVdOQ1EtaDByeUJTWE1paVAzLWp3bzdrTzdLR2VZanFkSXVMQ0pzaU95NDZnRi1lOER2RVBDM3VwY0tZMXNHa21IcGFYYy1SN1BTRjh6aXBZQm0teW91ekxzTDZDZFFiN3Y2Nm9MbGRxMkJxSjNXb3Vha3hoRk4zWG9MYlpzUUZmOHlBdjBSSzdHeDRkTU10X0Jx?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
     "comparisons": {
-      "trump": 0,
+      "trump": 17,
       "putin": 0,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 0,
+      "de_wever": 6,
+      "bouchez": 2,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 1,
+      "francken": 0,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 1
     },
     "wide_comparisons": {
-      "trump": 0,
+      "trump": 24,
       "putin": 0,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 0,
+      "de_wever": 7,
+      "bouchez": 2,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 1,
+      "francken": 0,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 1
     },
     "themes": {
-      "war": 5,
-      "crime": 8,
-      "eu": 3,
-      "politics": 6,
-      "be_gov": 2,
-      "culture": 5,
-      "tech": 6,
+      "war": 14,
+      "crime": 41,
+      "eu": 13,
+      "politics": 20,
+      "be_gov": 18,
+      "culture": 15,
+      "tech": 8,
       "economy": 6,
-      "sports": 15,
-      "health": 3,
-      "climate": 0,
-      "migration": 2,
-      "education": 1,
-      "weather": 4
+      "sports": 37,
+      "health": 7,
+      "climate": 6,
+      "migration": 3,
+      "education": 2,
+      "weather": 14
     },
     "wide_themes": {
-      "war": 8,
-      "crime": 13,
-      "eu": 5,
-      "politics": 10,
-      "be_gov": 2,
-      "culture": 5,
-      "tech": 7,
-      "economy": 9,
-      "sports": 23,
-      "health": 3,
-      "climate": 0,
-      "migration": 2,
-      "education": 1,
-      "weather": 6
+      "war": 21,
+      "crime": 53,
+      "eu": 20,
+      "politics": 33,
+      "be_gov": 21,
+      "culture": 17,
+      "tech": 13,
+      "economy": 8,
+      "sports": 54,
+      "health": 10,
+      "climate": 7,
+      "migration": 4,
+      "education": 3,
+      "weather": 23
     }
   }
 ]
