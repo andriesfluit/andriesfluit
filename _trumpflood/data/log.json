@@ -72437,135 +72437,135 @@
   },
   {
     "date": "2026-08-09",
-    "generated_at": "2026-08-09T06:49:39+02:00",
-    "last_checked_at": "2026-08-09T06:49:39+02:00",
-    "total_articles": 98,
-    "trump_articles": 0,
-    "percentage": 0.0,
-    "core_percentage": 0.0,
-    "core_percentage_name": 0.0,
-    "trump_articles_expanded": 0,
-    "core_percentage_expanded": 0.0,
-    "indirect_references": 0,
-    "wide_total_articles": 135,
-    "wide_trump_articles": 0,
-    "wide_percentage": 0.0,
-    "wide_trump_articles_expanded": 0,
-    "wide_percentage_expanded": 0.0,
-    "macro_percentage": 0.0,
-    "qualifying_outlets": 4,
+    "generated_at": "2026-08-09T13:04:57+02:00",
+    "last_checked_at": "2026-08-09T13:04:57+02:00",
+    "total_articles": 399,
+    "trump_articles": 5,
+    "percentage": 1.3,
+    "core_percentage": 1.3,
+    "core_percentage_name": 1.3,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 1.5,
+    "indirect_references": 1,
+    "wide_total_articles": 571,
+    "wide_trump_articles": 8,
+    "wide_percentage": 1.4,
+    "wide_trump_articles_expanded": 9,
+    "wide_percentage_expanded": 1.6,
+    "macro_percentage": 1.7,
+    "qualifying_outlets": 22,
     "core_outlets_total": 19,
-    "core_outlets_active": 7,
-    "active_core_fraction": 0.368,
-    "cross_outlet_dup_headlines": 24,
-    "cross_outlet_dup_groups": 12,
-    "cross_outlet_dup_rate": 24.5,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Below a normal president's ordinary day.",
-    "rank": 2,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 47,
+    "cross_outlet_dup_groups": 23,
+    "cross_outlet_dup_rate": 11.8,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
     "n_people": 17,
-    "dominance": 0.0,
-    "breadth": 0.0,
-    "deviation": 0.0,
-    "smoothed_pct": 3.16,
+    "dominance": 1.67,
+    "breadth": 0.26,
+    "deviation": 0.39,
+    "smoothed_pct": 3.34,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 11,
+    "theme_rank": 9,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 9,
-        "kept": 9,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_fr": {
-        "fetched": 34,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "google_nl_politics": {
         "fetched": 20,
         "today": 2,
-        "kept": 1,
+        "kept": 2,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 5,
-        "kept": 5,
+        "today": 19,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 2,
-        "kept": 2,
+        "today": 13,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 57,
-        "today": 0,
-        "kept": 0,
+        "fetched": 60,
+        "today": 5,
+        "kept": 2,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 4,
-        "kept": 2,
+        "today": 21,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
         "fetched": 12,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_world": {
-        "fetched": 70,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_business": {
-        "fetched": 45,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 5,
-        "kept": 5,
+        "today": 2,
+        "kept": 1,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "google_fr_business": {
+        "fetched": 37,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
       "standaard": {
         "fetched": 100,
-        "today": 9,
+        "today": 17,
         "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
@@ -72573,133 +72573,61 @@
       },
       "hln": {
         "fetched": 30,
-        "today": 12,
-        "kept": 12,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "demorgen": {
-        "fetched": 26,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 27,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 27,
-        "kept": 27,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
-        "today": 18,
-        "kept": 18,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
       },
       "hbvl": {
         "fetched": 50,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 42,
+        "kept": 42,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.38
       },
       "knack": {
         "fetched": 100,
-        "today": 15,
-        "kept": 15,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 0,
-        "kept": 0,
+        "today": 8,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "bruzz": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 4,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "septsursept": {
-        "fetched": 30,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "bx1": {
-        "fetched": 10,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "detijd_g": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "lesoir_g": {
-        "fetched": 100,
-        "today": 4,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "sudinfo_g": {
         "fetched": 100,
         "today": 2,
         "kept": 2,
@@ -72707,34 +72635,106 @@
         "trump_expanded": 0,
         "share": 0.0
       },
-      "lavenir_g": {
-        "fetched": 99,
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "bx1": {
+        "fetched": 10,
         "today": 1,
         "kept": 1,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "rtl_g": {
+      "detijd_g": {
         "fetched": 100,
-        "today": 3,
-        "kept": 3,
+        "today": 14,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 37,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 99,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 21,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
         "fetched": 100,
-        "today": 5,
-        "kept": 4,
+        "today": 23,
+        "kept": 6,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 1,
+        "today": 10,
+        "kept": 5,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -72761,14 +72761,106 @@
       "trends_g",
       "vrt"
     ],
-    "matches": [],
-    "wide_matches": [],
+    "matches": [
+      {
+        "title": "Groenland geeft strenge waarschuwing aan Amerikaans oliebedrijf dat gelinkt is aan Trump en olieboringen voorbereidt",
+        "url": "https://vrtnws.be/p.8eX4JLjXK",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Krijgt Cuba een nieuwe leider? Donald Trump en co. zijn actief op zoek",
+        "url": "https://www.demorgen.be/nieuws/krijgt-cuba-een-nieuwe-leider-donald-trump-en-co-zijn-actief-op-zoek~b75eea11/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Groenland stuurt “krachtige waarschuwing” nadat Amerikaans bedrijf zonder toelating boringen voorbereidt, Trump gooit olie op het vuur",
+        "url": "https://www.nieuwsblad.be/buitenland/groenland-stuurt-krachtige-waarschuwing-nadat-amerikaans-bedrijf-zonder-toelating-boringen-voorbereidt-trump-gooit-olie-op-het-vuur/159787461.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Groenland stuurt “krachtige waarschuwing” nadat Amerikaans bedrijf zonder toelating boringen voorbereidt, Trump gooit olie op het vuur",
+        "url": "https://www.hbvl.be/buitenland/groenland-stuurt-krachtige-waarschuwing-nadat-amerikaans-bedrijf-zonder-toelating-boringen-voorbereidt-trump-gooit-olie-op-het-vuur/159789420.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Le cancer de l'ancien président américain Joe Biden s'est aggravé, révèle son fils",
+        "url": "https://www.rtbf.be/article/le-cancer-de-l-ancien-president-americain-joe-biden-s-est-aggrave-revele-son-fils-11768108",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Le Groenland lance un “avertissement ferme”: une compagnie pétrolière liée à Trump s’apprête à effectuer des forages",
+        "url": "https://www.7sur7.be/monde/le-groenland-lance-un-avertissement-ferme-une-compagnie-petroliere-liee-a-trump-sapprete-a-effectuer-des-forages~aa0c1749/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Groenland stuurt “krachtige waarschuwing” nadat Amerikaans bedrijf zonder toelating boringen voorbereidt, Trump gooit olie op het vuur - GVA",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQMlpreUYzaTdlYlh3M0pUYlNkQmczNkN0RFVzWnkzaW5JZjc2bWFwcHQ1ZHF4WHhFSERjbm82am1xZ1Nnal9XVk5uMEhERFpLLXNzVGpZY0NpTmI5U2szOGU1LXoxLVRLR241OURCMUtTZ1EzR2hpdkhlbk5pWEllV015NU9FS0MwNEU3Mkg2NVZ5TlBURlRjanFkU3pBdlhReENsMVRfbVlkM2RESS1xMHItdFJqdm0wWDN5aEVfZDJrR2lJN21vNFd2WTdja1hOQTktX1lnM1B6TkVIZndBYnVyTjcxLTkzRkpURHRfVUlReU1BaGwtcjdR?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Le Groenland lance un “avertissement ferme”: une compagnie pétrolière liée à Trump s’apprête à effectuer des forages - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMTJHc1dJS0VlM2FqRmVTT2dncjZqSW43U1hyWVlWYjlXWG92RkZnNXhOVjQ2dTdRc0ZXOUhQQVNoZE9EaDhDeDVrcGFLYW1qUENzTFJmQW5XU0JEMmc1enlkOHlhR0pKRTA2YW0yMmRLSHVta25WX1JaUXQxQWpSMkM1S3N4bWFwOXBzdU1ValRKLXJUOWpnWjZyeHdEelhaSzVHT1gxQnk3WmgxQ3lYZmY2aTRoaXJaNnM2LXZYUEU4cFZtTUZpYVZBNFEzRkg5UUJLbk9rUWlvaXZyNGZSVHdZSQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Groenland geeft strenge waarschuwing aan Amerikaans oliebedrijf dat gelinkt is aan Trump en olieboringen voorbereidt",
+        "url": "https://vrtnws.be/p.8eX4JLjXK",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Krijgt Cuba een nieuwe leider? Donald Trump en co. zijn actief op zoek",
+        "url": "https://www.demorgen.be/nieuws/krijgt-cuba-een-nieuwe-leider-donald-trump-en-co-zijn-actief-op-zoek~b75eea11/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Groenland stuurt “krachtige waarschuwing” nadat Amerikaans bedrijf zonder toelating boringen voorbereidt, Trump gooit olie op het vuur",
+        "url": "https://www.nieuwsblad.be/buitenland/groenland-stuurt-krachtige-waarschuwing-nadat-amerikaans-bedrijf-zonder-toelating-boringen-voorbereidt-trump-gooit-olie-op-het-vuur/159787461.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Groenland stuurt “krachtige waarschuwing” nadat Amerikaans bedrijf zonder toelating boringen voorbereidt, Trump gooit olie op het vuur",
+        "url": "https://www.gva.be/buitenland/groenland-stuurt-krachtige-waarschuwing-nadat-amerikaans-bedrijf-zonder-toelating-boringen-voorbereidt-trump-gooit-olie-op-het-vuur/159788298.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Groenland stuurt “krachtige waarschuwing” nadat Amerikaans bedrijf zonder toelating boringen voorbereidt, Trump gooit olie op het vuur",
+        "url": "https://www.hbvl.be/buitenland/groenland-stuurt-krachtige-waarschuwing-nadat-amerikaans-bedrijf-zonder-toelating-boringen-voorbereidt-trump-gooit-olie-op-het-vuur/159789420.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Le cancer de l'ancien président américain Joe Biden s'est aggravé, révèle son fils",
+        "url": "https://www.rtbf.be/article/le-cancer-de-l-ancien-president-americain-joe-biden-s-est-aggrave-revele-son-fils-11768108",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Le Groenland lance un “avertissement ferme”: une compagnie pétrolière liée à Trump s’apprête à effectuer des forages",
+        "url": "https://www.7sur7.be/monde/le-groenland-lance-un-avertissement-ferme-une-compagnie-petroliere-liee-a-trump-sapprete-a-effectuer-des-forages~aa0c1749/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
     "comparisons": {
-      "trump": 0,
-      "putin": 0,
+      "trump": 5,
+      "putin": 1,
       "macron": 0,
       "netanyahu": 0,
-      "zelensky": 1,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 0,
@@ -72783,11 +72875,11 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 0,
-      "putin": 0,
+      "trump": 8,
+      "putin": 1,
       "macron": 0,
       "netanyahu": 0,
-      "zelensky": 1,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 0,
@@ -72802,36 +72894,36 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 4,
-      "crime": 2,
-      "eu": 4,
-      "politics": 5,
-      "be_gov": 1,
-      "culture": 6,
-      "tech": 1,
-      "economy": 0,
-      "sports": 6,
-      "health": 1,
-      "climate": 0,
-      "migration": 0,
-      "education": 0,
-      "weather": 6
+      "war": 15,
+      "crime": 5,
+      "eu": 7,
+      "politics": 9,
+      "be_gov": 4,
+      "culture": 19,
+      "tech": 4,
+      "economy": 10,
+      "sports": 44,
+      "health": 11,
+      "climate": 1,
+      "migration": 1,
+      "education": 2,
+      "weather": 10
     },
     "wide_themes": {
-      "war": 6,
-      "crime": 3,
-      "eu": 6,
-      "politics": 8,
-      "be_gov": 1,
-      "culture": 7,
-      "tech": 2,
-      "economy": 0,
-      "sports": 8,
-      "health": 1,
-      "climate": 0,
-      "migration": 1,
-      "education": 0,
-      "weather": 9
+      "war": 19,
+      "crime": 8,
+      "eu": 18,
+      "politics": 15,
+      "be_gov": 6,
+      "culture": 24,
+      "tech": 9,
+      "economy": 15,
+      "sports": 67,
+      "health": 19,
+      "climate": 2,
+      "migration": 3,
+      "education": 3,
+      "weather": 17
     }
   }
 ]
