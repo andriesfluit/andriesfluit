@@ -72925,5 +72925,526 @@
       "education": 3,
       "weather": 17
     }
+  },
+  {
+    "date": "2026-08-10",
+    "generated_at": "2026-08-10T07:08:22+02:00",
+    "last_checked_at": "2026-08-10T07:08:22+02:00",
+    "total_articles": 263,
+    "trump_articles": 8,
+    "percentage": 3.0,
+    "core_percentage": 3.0,
+    "core_percentage_name": 3.0,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 3.0,
+    "indirect_references": 0,
+    "wide_total_articles": 340,
+    "wide_trump_articles": 12,
+    "wide_percentage": 3.5,
+    "wide_trump_articles_expanded": 12,
+    "wide_percentage_expanded": 3.5,
+    "macro_percentage": 5.3,
+    "qualifying_outlets": 12,
+    "core_outlets_total": 19,
+    "core_outlets_active": 15,
+    "active_core_fraction": 0.789,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 15.2,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.67,
+    "breadth": 0.33,
+    "deviation": 0.91,
+    "smoothed_pct": 3.13,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 12,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 18,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 63,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 11,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 61,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 27,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 66,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.26
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 39,
+        "kept": 39,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.13
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Met Finse ijsbrekers, een Texaans oliebedrijf en Dr. Phil. Zo probeert Trump alsnog grip te krijgen op Groenland",
+        "url": "https://www.hln.be/buitenland/met-finse-ijsbrekers-een-texaans-oliebedrijf-en-dr-phil-zo-probeert-trump-alsnog-grip-te-krijgen-op-groenland~ad3d7c76/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Vliegtuigen in luchtruim boven golfclub Trump onderschept door Amerikaans leger",
+        "url": "https://www.hln.be/buitenland/vliegtuigen-in-luchtruim-boven-golfclub-trump-onderschept-door-amerikaans-leger~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump wil economische druk op Iran laten oplopen en dreigt niet langer met nieuwe aanvallen: ‘We houden ons op de achtergrond’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-wil-economische-druk-op-iran-laten-oplopen~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Amerikaanse F-16’s onderscheppen toestellen die luchtruim boven Trumps golfclub schenden",
+        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-f-16-s-onderscheppen-toestellen-die-luchtruim-boven-trumps-golfclub-schenden~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu veegt Trumps “historisch akkoord” voor Gaza van tafel: ”We kunnen ons mannetje staan, zelfs tegenover onze beste vrienden”",
+        "url": "https://www.nieuwsblad.be/buitenland/netanyahu-veegt-trumps-historisch-akkoord-voor-gaza-van-tafel-we-kunnen-ons-mannetje-staan-zelfs-tegenover-onze-beste-vrienden/159793866.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump zet kinderwens van Tim en Jef zwaar onder druk: “We willen niet zomaar opgeven”",
+        "url": "https://www.nieuwsblad.be/binnenland/trump-zet-kinderwens-van-tim-en-jef-zwaar-onder-druk-we-willen-niet-zomaar-opgeven/159778193.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu veegt Trumps “historisch akkoord” voor Gaza van tafel: ”We kunnen ons mannetje staan, zelfs tegenover onze beste vrienden”",
+        "url": "https://www.hbvl.be/buitenland/netanyahu-veegt-trumps-historisch-akkoord-voor-gaza-van-tafel-we-kunnen-ons-mannetje-staan-zelfs-tegenover-onze-beste-vrienden/159807979.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Live Spanningen Midden-Oosten: Trump wil economische druk op Iran opvoeren, dreigt niet met nieuwe aanvallen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOWs4TER0SjVvamprUk51amlDRnh2M2p1UHFJNWllWVhaZjF4SmhZSFRMQjJzSkJyMU9iaGItaWFaWkxqU3o4dmJSVVFJWHR0bE5xUHpFMzdGZG1tb25WaV9pS19aaEtHcWMwOEhhUVBHWXdvTmh3YmhlaW1Db1VkeUYyQ3E5TkhBaW43TXU3YXVkVFY2alFTX0lhdGdQWndlNzFIQmpMUFViYUk3MllkQVFDSGhYZHBhRnc1MWpZVkV6b1EtWTBtUGJrb053TE1LQm9lRlFYMmxZaHktOHN4X2x0RXI?oc=5",
+        "source": "knack",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump staat tegenover een koppig Iran en een panikerend Pentagon - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlFQQWwwc3lRUUs3NkVfWkJGRi1RUGNRWmtCOEcxZlg3N0x0UDRNUUoteU44ZEFnSGE5a1pVX1BvS0xVVUVmdkZmazFxc3lNckJwYXZ3d3g0WTNSdkEwWWhQLVNiV0lqZVlWU3VIM2Rfa3c2LXFFQ2c3MURmX2wtU0pUVUhnREFzLVJqd1hnd2NlYTNSS1JpSm9IaVAxOVdYWmhmanFwSm9hOHdweVBKMjAtcGxCZw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Niet langer brullen, maar schaken: hoe Trump Groenland niet loslaat - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbVNFajJ0MUdOdDVRX0RqdTlFVkx3TzVzeXRvS3FDZU04d1NnN3d1NEd0Rjhndm1fdXJCNi0teU5rRjlzVjJlcVdZWFJZcXBOSk8zYUNuYXJKelFKNU9IT3VOaHNwTzByQTZ2S2JzRkUzb1JhZExYSHlUNlRpcHZxNWh1SXM0NjB5SVBmNm1YTDRMSm05dUpWbnRnWHpZdUJ1YThsbGJ6NE4?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Met Finse ijsbrekers, een Texaans oliebedrijf en Dr. Phil. Zo probeert Trump alsnog grip te krijgen op Groenland",
+        "url": "https://www.hln.be/buitenland/met-finse-ijsbrekers-een-texaans-oliebedrijf-en-dr-phil-zo-probeert-trump-alsnog-grip-te-krijgen-op-groenland~ad3d7c76/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Vliegtuigen in luchtruim boven golfclub Trump onderschept door Amerikaans leger",
+        "url": "https://www.hln.be/buitenland/vliegtuigen-in-luchtruim-boven-golfclub-trump-onderschept-door-amerikaans-leger~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump wil economische druk op Iran laten oplopen en dreigt niet langer met nieuwe aanvallen: ‘We houden ons op de achtergrond’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-wil-economische-druk-op-iran-laten-oplopen~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Amerikaanse F-16’s onderscheppen toestellen die luchtruim boven Trumps golfclub schenden",
+        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-f-16-s-onderscheppen-toestellen-die-luchtruim-boven-trumps-golfclub-schenden~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu veegt Trumps “historisch akkoord” voor Gaza van tafel: ”We kunnen ons mannetje staan, zelfs tegenover onze beste vrienden”",
+        "url": "https://www.nieuwsblad.be/buitenland/netanyahu-veegt-trumps-historisch-akkoord-voor-gaza-van-tafel-we-kunnen-ons-mannetje-staan-zelfs-tegenover-onze-beste-vrienden/159793866.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump zet kinderwens van Tim en Jef zwaar onder druk: “We willen niet zomaar opgeven”",
+        "url": "https://www.nieuwsblad.be/binnenland/trump-zet-kinderwens-van-tim-en-jef-zwaar-onder-druk-we-willen-niet-zomaar-opgeven/159778193.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu veegt Trumps “historisch akkoord” voor Gaza van tafel: ”We kunnen ons mannetje staan, zelfs tegenover onze beste vrienden”",
+        "url": "https://www.gva.be/buitenland/netanyahu-veegt-trumps-historisch-akkoord-voor-gaza-van-tafel-we-kunnen-ons-mannetje-staan-zelfs-tegenover-onze-beste-vrienden/159807055.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump zet kinderwens van Tim en Jef zwaar onder druk: “We willen niet zomaar opgeven”",
+        "url": "https://www.gva.be/regio/antwerpen/regio-antwerpen/antwerpen/trump-zet-kinderwens-van-tim-en-jef-zwaar-onder-druk-we-willen-niet-zomaar-opgeven/159803984.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu veegt Trumps “historisch akkoord” voor Gaza van tafel: ”We kunnen ons mannetje staan, zelfs tegenover onze beste vrienden”",
+        "url": "https://www.hbvl.be/buitenland/netanyahu-veegt-trumps-historisch-akkoord-voor-gaza-van-tafel-we-kunnen-ons-mannetje-staan-zelfs-tegenover-onze-beste-vrienden/159807979.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Live Spanningen Midden-Oosten: Trump wil economische druk op Iran opvoeren, dreigt niet met nieuwe aanvallen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOWs4TER0SjVvamprUk51amlDRnh2M2p1UHFJNWllWVhaZjF4SmhZSFRMQjJzSkJyMU9iaGItaWFaWkxqU3o4dmJSVVFJWHR0bE5xUHpFMzdGZG1tb25WaV9pS19aaEtHcWMwOEhhUVBHWXdvTmh3YmhlaW1Db1VkeUYyQ3E5TkhBaW43TXU3YXVkVFY2alFTX0lhdGdQWndlNzFIQmpMUFViYUk3MllkQVFDSGhYZHBhRnc1MWpZVkV6b1EtWTBtUGJrb053TE1LQm9lRlFYMmxZaHktOHN4X2x0RXI?oc=5",
+        "source": "knack",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 8,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 12,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 3,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 7,
+      "crime": 2,
+      "eu": 8,
+      "politics": 6,
+      "be_gov": 3,
+      "culture": 8,
+      "tech": 3,
+      "economy": 6,
+      "sports": 15,
+      "health": 1,
+      "climate": 3,
+      "migration": 1,
+      "education": 3,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 9,
+      "crime": 4,
+      "eu": 10,
+      "politics": 10,
+      "be_gov": 6,
+      "culture": 9,
+      "tech": 4,
+      "economy": 6,
+      "sports": 27,
+      "health": 3,
+      "climate": 4,
+      "migration": 2,
+      "education": 4,
+      "weather": 13
+    }
   }
 ]
