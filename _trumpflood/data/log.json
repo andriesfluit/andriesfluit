@@ -73446,5 +73446,586 @@
       "education": 4,
       "weather": 13
     }
+  },
+  {
+    "date": "2026-08-11",
+    "generated_at": "2026-08-11T06:52:06+02:00",
+    "last_checked_at": "2026-08-11T06:52:06+02:00",
+    "total_articles": 228,
+    "trump_articles": 12,
+    "percentage": 5.3,
+    "core_percentage": 5.3,
+    "core_percentage_name": 5.3,
+    "trump_articles_expanded": 12,
+    "core_percentage_expanded": 5.3,
+    "indirect_references": 0,
+    "wide_total_articles": 300,
+    "wide_trump_articles": 18,
+    "wide_percentage": 6.0,
+    "wide_trump_articles_expanded": 18,
+    "wide_percentage_expanded": 6.0,
+    "macro_percentage": 5.8,
+    "qualifying_outlets": 10,
+    "core_outlets_total": 19,
+    "core_outlets_active": 13,
+    "active_core_fraction": 0.684,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 15.8,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 3.0,
+    "breadth": 0.38,
+    "deviation": 1.61,
+    "smoothed_pct": 3.66,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 22,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 69,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 18,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 35,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.89
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 31,
+        "kept": 31,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 12.9
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 30,
+        "kept": 30,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 13.33
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 96,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "“Trump nam vorige maand na NAVO-top geheime vlucht uit Turkije na Iraanse dreiging”",
+        "url": "https://www.hln.be/buitenland/trump-nam-vorige-maand-na-navo-top-geheime-vlucht-uit-turkije-na-iraanse-dreiging~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump beweert dat de volledige Straat van Hormuz ontmijnd is",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-beweert-dat-de-volledige-straat-van-hormuz-ontmijnd-is~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Rechtse boegbeelden breken met Trump en denken aan afsplitsing: ‘Hij heeft ons allemaal verraden’",
+        "url": "https://www.demorgen.be/nieuws/rechtse-boegbeelden-breken-met-trump-en-denken-aan-afsplitsing-hij-heeft-ons-allemaal-verraden~b715ea5a3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump zou afleidingsmanoeuvre gebruikt hebben na NAVO-top: “Verstopte zich in cateringkast om Turkije uit gesmokkeld te worden\"",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-zou-afleidingsmanoeuvre-gebruikt-hebben-na-navo-top-verstopte-zich-in-cateringkast-om-turkije-uit-gesmokkeld-te-worden/159858628.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump beveelt vermindering en opsplitsing van vaccins om “autisme terug te dringen”",
+        "url": "https://www.nieuwsblad.be/gezondheid/trump-beveelt-vermindering-en-opsplitsing-van-vaccins-om-autisme-terug-te-dringen/159858444.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump beveelt vermindering en opsplitsing van vaccins om “autisme terug te dringen”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-beveelt-vermindering-en-opsplitsing-van-vaccins-om-autisme-terug-te-dringen/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump beweert dat “volledige Straat” van Hormuz ontmijnd is, noemt relatie met Netanyahu “zeer goed”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-beweert-dat-volledige-straat-van-hormuz-ontmijnd-is-noemt-relatie-met-netanyahu-zeer-goed/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump zou afleidingsmanoeuvre gebruikt hebben na NAVO-top: “Verstopte zich in cateringkast om Turkije uit gesmokkeld te worden\"",
+        "url": "https://www.hbvl.be/buitenland/trump-zou-afleidingsmanoeuvre-gebruikt-hebben-na-navo-top-verstopte-zich-in-cateringkast-om-turkije-uit-gesmokkeld-te-worden/159858853.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump beveelt vermindering en opsplitsing van vaccins om “autisme terug te dringen”",
+        "url": "https://www.hbvl.be/gezondheid/trump-beveelt-vermindering-en-opsplitsing-van-vaccins-om-autisme-terug-te-dringen/159858505.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump beveelt vermindering en opsplitsing van vaccins om “autisme terug te dringen”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-beveelt-vermindering-en-opsplitsing-van-vaccins-om-autisme-terug-te-dringen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump beweert dat “volledige Straat” van Hormuz ontmijnd is, noemt relatie met Netanyahu “zeer goed”",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-trump-beweert-dat-volledige-straat-van-hormuz-ontmijnd-is-noemt-relatie-met-netanyahu-zeer-goed/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Donald Trump affirme que le détroit d'Ormuz est complètement débarrassé de ses mines",
+        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-donald-trump-affirme-que-le-detroit-d-ormuz-est-completement-debarrasse-de-ses-mines-11768816",
+        "source": "rtbf",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Après le sommet de l’OTAN | Trump a changé d’avion en raison de menaces iraniennes - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQ1piSGdPQllJYm9MMU16X2ZpVkc0RVRabnJlYUI0MW5NcXN5Q1B1d0s4alBUaGdEZ1R2YmFOVXdTb1Q0cHNpSHV1SW45MVVERnJoeS1STlRodWIxM2ZnTGlncFIyWXJ0cVhHVXVfTTg4d3ViaFVnMUJHb3R5S1dlR0hKd1drZ3VLM0V6cmM2WWdial9YcjZrWWs2ZklPSlZxa0pua19hT1VKaDdUSmQzR2NidG5rTkhwelhuWW01eDZITm1qM1lpZHRlb2x0YU9aeW52T2k4MlQ5TXlZ?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "“Trump nam vorige maand na NAVO-top geheime vlucht uit Turkije na Iraanse dreiging”",
+        "url": "https://www.hln.be/buitenland/trump-nam-vorige-maand-na-navo-top-geheime-vlucht-uit-turkije-na-iraanse-dreiging~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump beweert dat de volledige Straat van Hormuz ontmijnd is",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-beweert-dat-de-volledige-straat-van-hormuz-ontmijnd-is~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Rechtse boegbeelden breken met Trump en denken aan afsplitsing: ‘Hij heeft ons allemaal verraden’",
+        "url": "https://www.demorgen.be/nieuws/rechtse-boegbeelden-breken-met-trump-en-denken-aan-afsplitsing-hij-heeft-ons-allemaal-verraden~b715ea5a3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump zou afleidingsmanoeuvre gebruikt hebben na NAVO-top: “Verstopte zich in cateringkast om Turkije uit gesmokkeld te worden\"",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-zou-afleidingsmanoeuvre-gebruikt-hebben-na-navo-top-verstopte-zich-in-cateringkast-om-turkije-uit-gesmokkeld-te-worden/159858628.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump beveelt vermindering en opsplitsing van vaccins om “autisme terug te dringen”",
+        "url": "https://www.nieuwsblad.be/gezondheid/trump-beveelt-vermindering-en-opsplitsing-van-vaccins-om-autisme-terug-te-dringen/159858444.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump beveelt vermindering en opsplitsing van vaccins om “autisme terug te dringen”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-beveelt-vermindering-en-opsplitsing-van-vaccins-om-autisme-terug-te-dringen/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump beweert dat “volledige Straat” van Hormuz ontmijnd is, noemt relatie met Netanyahu “zeer goed”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-beweert-dat-volledige-straat-van-hormuz-ontmijnd-is-noemt-relatie-met-netanyahu-zeer-goed/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump zou afleidingsmanoeuvre gebruikt hebben na NAVO-top: “Verstopte zich in cateringkast om Turkije uit gesmokkeld te worden\"",
+        "url": "https://www.gva.be/buitenland/trump-zou-afleidingsmanoeuvre-gebruikt-hebben-na-navo-top-verstopte-zich-in-cateringkast-om-turkije-uit-gesmokkeld-te-worden/159858787.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump beveelt vermindering en opsplitsing van vaccins om “autisme terug te dringen”",
+        "url": "https://www.gva.be/gezondheid/trump-beveelt-vermindering-en-opsplitsing-van-vaccins-om-autisme-terug-te-dringen/159858504.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump beveelt vermindering en opsplitsing van vaccins om “autisme terug te dringen”",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-beveelt-vermindering-en-opsplitsing-van-vaccins-om-autisme-terug-te-dringen/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump beweert dat “volledige Straat” van Hormuz ontmijnd is, noemt relatie met Netanyahu “zeer goed”",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-beweert-dat-volledige-straat-van-hormuz-ontmijnd-is-noemt-relatie-met-netanyahu-zeer-goed/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump zou afleidingsmanoeuvre gebruikt hebben na NAVO-top: “Verstopte zich in cateringkast om Turkije uit gesmokkeld te worden\"",
+        "url": "https://www.hbvl.be/buitenland/trump-zou-afleidingsmanoeuvre-gebruikt-hebben-na-navo-top-verstopte-zich-in-cateringkast-om-turkije-uit-gesmokkeld-te-worden/159858853.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump beveelt vermindering en opsplitsing van vaccins om “autisme terug te dringen”",
+        "url": "https://www.hbvl.be/gezondheid/trump-beveelt-vermindering-en-opsplitsing-van-vaccins-om-autisme-terug-te-dringen/159858505.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump beveelt vermindering en opsplitsing van vaccins om “autisme terug te dringen”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-beveelt-vermindering-en-opsplitsing-van-vaccins-om-autisme-terug-te-dringen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump beweert dat “volledige Straat” van Hormuz ontmijnd is, noemt relatie met Netanyahu “zeer goed”",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-trump-beweert-dat-volledige-straat-van-hormuz-ontmijnd-is-noemt-relatie-met-netanyahu-zeer-goed/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump (alweer) to the rescue? FIFA zou \"vreselijke fout\" begaan door Infantino te vervangen",
+        "url": "https://sporza.be/nl/2026/07/29/trump-alweer-to-the-rescue-fifa-zou-vreselijke-fout-begaan-door-infantino-te-vervangen~1785325277875/",
+        "source": "sporza",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : Donald Trump affirme que le détroit d'Ormuz est complètement débarrassé de ses mines",
+        "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-donald-trump-affirme-que-le-detroit-d-ormuz-est-completement-debarrasse-de-ses-mines-11768816",
+        "source": "rtbf",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 12,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 3,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 18,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 4,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 12,
+      "crime": 10,
+      "eu": 13,
+      "politics": 7,
+      "be_gov": 3,
+      "culture": 6,
+      "tech": 3,
+      "economy": 1,
+      "sports": 7,
+      "health": 1,
+      "climate": 1,
+      "migration": 0,
+      "education": 1,
+      "weather": 3
+    },
+    "wide_themes": {
+      "war": 17,
+      "crime": 12,
+      "eu": 18,
+      "politics": 11,
+      "be_gov": 4,
+      "culture": 9,
+      "tech": 4,
+      "economy": 3,
+      "sports": 13,
+      "health": 3,
+      "climate": 1,
+      "migration": 0,
+      "education": 1,
+      "weather": 4
+    }
   }
 ]
