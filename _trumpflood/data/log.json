@@ -74027,5 +74027,580 @@
       "education": 1,
       "weather": 4
     }
+  },
+  {
+    "date": "2026-08-12",
+    "generated_at": "2026-08-12T07:17:00+02:00",
+    "last_checked_at": "2026-08-12T07:17:00+02:00",
+    "total_articles": 247,
+    "trump_articles": 13,
+    "percentage": 5.3,
+    "core_percentage": 5.3,
+    "core_percentage_name": 5.3,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 5.3,
+    "indirect_references": 0,
+    "wide_total_articles": 317,
+    "wide_trump_articles": 16,
+    "wide_percentage": 5.0,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 5.0,
+    "macro_percentage": 5.4,
+    "qualifying_outlets": 11,
+    "core_outlets_total": 19,
+    "core_outlets_active": 12,
+    "active_core_fraction": 0.632,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 14.6,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 6.5,
+    "breadth": 0.5,
+    "deviation": 1.61,
+    "smoothed_pct": 3.61,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 23,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 54,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 24,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 63,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 52,
+        "kept": 37,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 26,
+        "kept": 26,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 11.54
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 14,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.55
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 33,
+        "kept": 33,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.06
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump zegt dat hij Iran voor geen haar vertrouwt: “Ze doen niet anders dan liegen tegen mij”",
+        "url": "https://www.hln.be/buitenland/trump-zegt-dat-hij-iran-voor-geen-haar-vertrouwt-ze-doen-niet-anders-dan-liegen-tegen-mij~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevestigt vliegtuigwissel in Turkije: “Ik doe wat de Secret Service zegt”",
+        "url": "https://www.hln.be/buitenland/trump-bevestigt-vliegtuigwissel-in-turkije-ik-doe-wat-de-secret-service-zegt~aad574c0/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Rechter verbiedt postdienst deel van Trump-decreet uit te voeren",
+        "url": "https://www.hln.be/buitenland/rechter-verbiedt-postdienst-deel-van-trump-decreet-uit-te-voeren~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: VS heeft ‘volledige controle’ over Straat van Hormuz • WSJ: aanvallen VS op Jemen eisten vorig jaar honderden doden",
+        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-helikopter-schiet-op-schip-bij-straat-van-hormuz-zes-doden-bij-aanval-op-vrachtschip-aan-rode-zee~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump bevestigt vliegtuigwissel in Turkije wegens dreiging • Zus overleden senator Lindsey Graham wint voorronde Republikeinse voorverkiezing South Carolina",
+        "url": "https://www.demorgen.be/snelnieuws/live-moederbedrijf-van-trumps-truth-social-stapelt-verliezen-op-opnieuw-238-miljoen-dollar-in-het-rood~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevestigt dat hij van vliegtuig wisselde wegens dreiging en krijgt kritiek omdat hij journalisten en medewerkers liet zitten",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-bevestigt-dat-hij-van-vliegtuig-wisselde-wegens-dreiging-en-krijgt-kritiek-omdat-hij-journalisten-en-medewerkers-liet-zitten/159909865.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse senatoren eisen antwoorden van Antwerpse diamantairs die ring aan Trump schonken: “Lijkt omkoping”",
+        "url": "https://www.nieuwsblad.be/regio/antwerpen/regio-antwerpen/antwerpen/amerikaanse-senatoren-eisen-antwoorden-van-antwerpse-diamantairs-die-ring-aan-trump-schonken-lijkt-omkoping/159909534.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevestigt dat hij van vliegtuig wisselde wegens dreiging en krijgt kritiek omdat hij journalisten en medewerkers liet zitten",
+        "url": "https://www.hbvl.be/buitenland/trump-bevestigt-dat-hij-van-vliegtuig-wisselde-wegens-dreiging-en-krijgt-kritiek-omdat-hij-journalisten-en-medewerkers-liet-zitten/159910175.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse senatoren eisen antwoorden van Antwerpse diamantairs die ring aan Trump schonken: “Lijkt omkoping”",
+        "url": "https://www.hbvl.be/regio/antwerpen/amerikaanse-senatoren-eisen-antwoorden-van-antwerpse-diamantairs-die-ring-aan-trump-schonken-lijkt-omkoping/159909710.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump confirme son changement d'avion rocambolesque : \"Je suis l'objet de beaucoup de menaces\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/12/trump-confirme-son-changement-davion-rocambolesque-je-suis-lobjet-de-beaucoup-de-menaces-XWAJJZTO5VDLPFA7B5MJBB4NMM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump affirme que les États-Unis ont un “contrôle total du détroit d’Ormuz”",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/08/12/direct-guerre-au-moyen-orient-trump-affirme-que-les-etats-unis-ont-un-controle-total-du-detroit-dormuz-I5GJSNCLMNGZHIEURRANYDRIPI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“Je fais ce qu’ils me disent”: Trump réagit à son exfiltration rocambolesque à Ankara",
+        "url": "https://www.7sur7.be/monde/je-fais-ce-quils-me-disent-trump-reagit-a-son-exfiltration-rocambolesque-a-ankara~ae54bc30/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Je fais ce qu’ils me disent » : Donald Trump raconte l’exfiltration secrète lors du sommet à Ankara - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNclhPZGxJZ1JRNkhzaFhpakpwYVJ4RHBpV3o1UUVUSzhXc2U4NEJGMW0wb2w3S05WZTVlYXlRSnRRcG9jcmZ4em9idHJkNVFfR2VaQlpxb2I2UGJNdzNLOXMtQ09KNm1yalI0RFJFSGxKOVZrbS1YNV9oUnZIWURBRkUxdHdGQTk4ODhoa2NNSFlQN1dKNm55bXAtNlR6WUhCMWFpTHdwaEJtbVF5VmZGbjBZTk1WSjlJQ1B5Si1QeGlZUnc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Vaccinoloog over Trumps decreet voor minder kindervaccins: “Dit is een gevaarlijk experiment met de volksgezondheid” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOazBsMEk4dFVNa1ZqZ2RlOUl2cld5cGpOcW1oWWxJTmhzbU4ta3lNOUpEV1VyX0U3eTRYNmZ6bEJaUTB6QVFQOW1SS2ZCZlFnWFJNNGtxN3B3Q09ZaEVqZHpKT3FXTERuMFZpVVYyY0wzZk05dHQzcklmUzE3TGFiZmdrYTdHaEJKSjRvX1lBSml1ZW1HYjBVanB0WDUxVGs3d1lkQUxhbk9PLW91WUptZnNUckl6cjU4cXRKWWZkVTd5dnE5a0syZXVVQWh4QzdKNmZoWmxfYnZGd0F2T2dsTWs3UlZEdEFSeWtrdlZIWjB0WVdYTmhF?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump zegt dat hij Iran voor geen haar vertrouwt: “Ze doen niet anders dan liegen tegen mij”",
+        "url": "https://www.hln.be/buitenland/trump-zegt-dat-hij-iran-voor-geen-haar-vertrouwt-ze-doen-niet-anders-dan-liegen-tegen-mij~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevestigt vliegtuigwissel in Turkije: “Ik doe wat de Secret Service zegt”",
+        "url": "https://www.hln.be/buitenland/trump-bevestigt-vliegtuigwissel-in-turkije-ik-doe-wat-de-secret-service-zegt~aad574c0/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Rechter verbiedt postdienst deel van Trump-decreet uit te voeren",
+        "url": "https://www.hln.be/buitenland/rechter-verbiedt-postdienst-deel-van-trump-decreet-uit-te-voeren~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: VS heeft ‘volledige controle’ over Straat van Hormuz • WSJ: aanvallen VS op Jemen eisten vorig jaar honderden doden",
+        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-helikopter-schiet-op-schip-bij-straat-van-hormuz-zes-doden-bij-aanval-op-vrachtschip-aan-rode-zee~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump bevestigt vliegtuigwissel in Turkije wegens dreiging • Zus overleden senator Lindsey Graham wint voorronde Republikeinse voorverkiezing South Carolina",
+        "url": "https://www.demorgen.be/snelnieuws/live-moederbedrijf-van-trumps-truth-social-stapelt-verliezen-op-opnieuw-238-miljoen-dollar-in-het-rood~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevestigt dat hij van vliegtuig wisselde wegens dreiging en krijgt kritiek omdat hij journalisten en medewerkers liet zitten",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-bevestigt-dat-hij-van-vliegtuig-wisselde-wegens-dreiging-en-krijgt-kritiek-omdat-hij-journalisten-en-medewerkers-liet-zitten/159909865.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse senatoren eisen antwoorden van Antwerpse diamantairs die ring aan Trump schonken: “Lijkt omkoping”",
+        "url": "https://www.nieuwsblad.be/regio/antwerpen/regio-antwerpen/antwerpen/amerikaanse-senatoren-eisen-antwoorden-van-antwerpse-diamantairs-die-ring-aan-trump-schonken-lijkt-omkoping/159909534.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevestigt dat hij van vliegtuig wisselde wegens dreiging en krijgt kritiek omdat hij journalisten en medewerkers liet zitten",
+        "url": "https://www.gva.be/buitenland/trump-bevestigt-dat-hij-van-vliegtuig-wisselde-wegens-dreiging-en-krijgt-kritiek-omdat-hij-journalisten-en-medewerkers-liet-zitten/159909878.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse senatoren eisen antwoorden van Antwerpse diamantairs die ring aan Trump schonken: “Lijkt omkoping”",
+        "url": "https://www.gva.be/regio/antwerpen/regio-antwerpen/antwerpen/amerikaanse-senatoren-eisen-antwoorden-van-antwerpse-diamantairs-die-ring-aan-trump-schonken-lijkt-omkoping/159909707.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevestigt dat hij van vliegtuig wisselde wegens dreiging en krijgt kritiek omdat hij journalisten en medewerkers liet zitten",
+        "url": "https://www.hbvl.be/buitenland/trump-bevestigt-dat-hij-van-vliegtuig-wisselde-wegens-dreiging-en-krijgt-kritiek-omdat-hij-journalisten-en-medewerkers-liet-zitten/159910175.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse senatoren eisen antwoorden van Antwerpse diamantairs die ring aan Trump schonken: “Lijkt omkoping”",
+        "url": "https://www.hbvl.be/regio/antwerpen/amerikaanse-senatoren-eisen-antwoorden-van-antwerpse-diamantairs-die-ring-aan-trump-schonken-lijkt-omkoping/159909710.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump confirme son changement d'avion rocambolesque : \"Je suis l'objet de beaucoup de menaces\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/12/trump-confirme-son-changement-davion-rocambolesque-je-suis-lobjet-de-beaucoup-de-menaces-XWAJJZTO5VDLPFA7B5MJBB4NMM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT – Guerre au Moyen-Orient : Trump affirme que les États-Unis ont un “contrôle total du détroit d’Ormuz”",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/08/12/direct-guerre-au-moyen-orient-trump-affirme-que-les-etats-unis-ont-un-controle-total-du-detroit-dormuz-I5GJSNCLMNGZHIEURRANYDRIPI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“Je fais ce qu’ils me disent”: Trump réagit à son exfiltration rocambolesque à Ankara",
+        "url": "https://www.7sur7.be/monde/je-fais-ce-quils-me-disent-trump-reagit-a-son-exfiltration-rocambolesque-a-ankara~ae54bc30/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Je fais ce qu’ils me disent » : Donald Trump raconte l’exfiltration secrète lors du sommet à Ankara - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNclhPZGxJZ1JRNkhzaFhpakpwYVJ4RHBpV3o1UUVUSzhXc2U4NEJGMW0wb2w3S05WZTVlYXlRSnRRcG9jcmZ4em9idHJkNVFfR2VaQlpxb2I2UGJNdzNLOXMtQ09KNm1yalI0RFJFSGxKOVZrbS1YNV9oUnZIWURBRkUxdHdGQTk4ODhoa2NNSFlQN1dKNm55bXAtNlR6WUhCMWFpTHdwaEJtbVF5VmZGbjBZTk1WSjlJQ1B5Si1QeGlZUnc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 13,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 16,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 11,
+      "crime": 3,
+      "eu": 5,
+      "politics": 6,
+      "be_gov": 3,
+      "culture": 6,
+      "tech": 1,
+      "economy": 8,
+      "sports": 11,
+      "health": 1,
+      "climate": 4,
+      "migration": 0,
+      "education": 0,
+      "weather": 15
+    },
+    "wide_themes": {
+      "war": 14,
+      "crime": 3,
+      "eu": 7,
+      "politics": 11,
+      "be_gov": 5,
+      "culture": 6,
+      "tech": 3,
+      "economy": 11,
+      "sports": 19,
+      "health": 3,
+      "climate": 4,
+      "migration": 0,
+      "education": 0,
+      "weather": 21
+    }
   }
 ]
