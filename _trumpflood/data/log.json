@@ -74602,5 +74602,520 @@
       "education": 0,
       "weather": 21
     }
+  },
+  {
+    "date": "2026-08-13",
+    "generated_at": "2026-08-13T07:21:13+02:00",
+    "last_checked_at": "2026-08-13T07:21:13+02:00",
+    "total_articles": 244,
+    "trump_articles": 8,
+    "percentage": 3.3,
+    "core_percentage": 3.3,
+    "core_percentage_name": 3.3,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 3.3,
+    "indirect_references": 0,
+    "wide_total_articles": 329,
+    "wide_trump_articles": 11,
+    "wide_percentage": 3.3,
+    "wide_trump_articles_expanded": 11,
+    "wide_percentage_expanded": 3.3,
+    "macro_percentage": 4.5,
+    "qualifying_outlets": 12,
+    "core_outlets_total": 19,
+    "core_outlets_active": 15,
+    "active_core_fraction": 0.789,
+    "cross_outlet_dup_headlines": 37,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 15.2,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.67,
+    "breadth": 0.33,
+    "deviation": 0.97,
+    "smoothed_pct": 3.61,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 22,
+        "today": 2,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 57,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 67,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 21,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 68,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 68,
+        "kept": 36,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.56
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 11,
+        "kept": 11,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 27.27
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.55
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 95,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Air Force One was niet veilig genoeg voor Trump, maar wel voor journalisten en Marco Rubio: hoe ernstig was het Iraanse gevaar? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMkh4SDVaQjFQN0VfZ3ZVbzJvRmpxSGlHNm5UNUNCS3phTmJ4bkJVT3d6SFlYS0Z4c0Z1MDAxcTloNFIwMEZHRVBGN0FLMHk4bS1GVTUxLXctLWxBMlJLeXh0YXdGMmhoQXhGakRZc0Jqb3dIbE5LMFpOM01fOWY1M1dIT20wY0VIZm0ySGtMTkRPQ0V3dE1HaE5HTFFKV0hxYzhsV21lLXppbmJWSFBZU2hrSWZBcUhCNHU5RHA1c0RUYlYweVJxTi1xSGJLTTZnV2dCWFYxajI2UTFoTlhPMkc3NWN5Sm9tU2xST0hNV2ZIaXdtakhpRlZ2d09yVFRBX0diWk9B?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Democraten eisen uitleg over gouden ring die Trump van Antwerpse diamantsector kreeg: “Lijkt karikaturale omkoping” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWnU4dENoT1Y3dGFIdEQtN2ZmNWsyWFppZDZHcWY5cmd6U29HRk5fOTVMcVlBdlUwQWhXSDd0c3YzZVUwWG90RE5Na3gtWDI4QmFlSkZyWEhhejNlVGFZYXdNdlo2QklOV3NVRlo0QmIydHJiT1R2VUltM2hHOER6Uy1yb3VFUEIzTGtuN2kyRHBOS2tYQ0twNHl5Q2djcDZsazZ6MVpuOExESWNkanRDYy1yQlRGWnJwZm9nejRiVmVPYXBYc0Y1Q01XajlmUFl2ZUxmQjJrR3gzSGVydGVTZ29oVlFqaS1qVkZaMk5hN2RxXzg?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump verliet de NAVO-top via een cateringsvrachtwagen: hoe ongewoon is die veiligheidsoperatie?",
+        "url": "https://www.demorgen.be/nieuws/trump-verliet-de-navo-top-via-een-cateringsvrachtwagen-hoe-ongewoon-is-die-veiligheidsoperatie~b058bd5c/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Rubio wist van Trumps ‘verdwijntruc’, maar bleef zelf wel op Air Force One tijdens Iraanse dreiging • Witte Huis-woordvoerder Karoline Leavitt stopt",
+        "url": "https://www.demorgen.be/snelnieuws/live-witte-huis-woordvoerder-karoline-leavitt-stopt-om-meer-tijd-met-haar-gezin-door-te-brengen-verbouwing-witte-huis-kost-927-miljoen-dollar~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse senatoren eisen uitleg van Antwerpse diamantairs die gouden ring aan Trump schonken: ‘Dit lijkt op omkoping’",
+        "url": "https://www.demorgen.be/nieuws/amerikaanse-senatoren-eisen-uitleg-van-antwerpse-diamantairs-die-gouden-ring-aan-trump-schonken-dit-lijkt-op-omkoping~b9dee32e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Karoline Leavitt stapt  op als woordvoerster van Witte Huis - Trump voor rechter om betaalde toegang tot marktgevoelige berichten",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-karoline-leavitt-stapt-op-als-woordvoerster-van-witte-huis-trump-voor-rechter-om-betaalde-toegang-tot-marktgevoelige-berichten/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Karoline Leavitt stapt  op als woordvoerster van Witte Huis - Trump voor rechter om betaalde toegang tot marktgevoelige berichten",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-karoline-leavitt-stapt-op-als-woordvoerster-van-witte-huis-trump-voor-rechter-om-betaalde-toegang-tot-marktgevoelige-berichten/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Pour exercer la pression économique sur l'Iran, Donald Trump annonce se faire \"discret\"",
+        "url": "https://www.rtbf.be/article/pour-exercer-la-pression-economique-sur-l-iran-donald-trump-annonce-se-faire-discret-11769708",
+        "source": "rtbf",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Diamantsector reageert op brief van Amerikaanse senatoren: “Die ring voor Donald Trump heeft niets te maken met omkoping” - GVA",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOdnR3VGVjcGhrQnRhVGs3LXVGYnFDbDh3ZGlwTm5TcERpcUdvTDZhMDBPeVZ2RGlkRkRwWXVYM2EwYlg4S3kwQzlyQ0Q4S2Y0M0dRcTNXeXlzc0dHMUFKcVBtV1ZFVWs5eHNqenhvWlBLdEFkWThPT2s2Zzc3VGk1NG85aDFubE12eUM0c1huWHZiUG80YjhaVFZWeW16Q0NoMGZ2SGJPQ1VNbGJzdkhydTBwaHFXb2sxendqamdsbWFVOWtVQmpkblRIS1p0WU5DQ0pzLWZ4MVdtUzJhVFVsVWo5SG9qQVRTVF84LUtaWWRpZFpSbXc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Air Force One was niet veilig genoeg voor Trump, maar wel voor journalisten en Marco Rubio: hoe ernstig was het Iraanse gevaar? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMkh4SDVaQjFQN0VfZ3ZVbzJvRmpxSGlHNm5UNUNCS3phTmJ4bkJVT3d6SFlYS0Z4c0Z1MDAxcTloNFIwMEZHRVBGN0FLMHk4bS1GVTUxLXctLWxBMlJLeXh0YXdGMmhoQXhGakRZc0Jqb3dIbE5LMFpOM01fOWY1M1dIT20wY0VIZm0ySGtMTkRPQ0V3dE1HaE5HTFFKV0hxYzhsV21lLXppbmJWSFBZU2hrSWZBcUhCNHU5RHA1c0RUYlYweVJxTi1xSGJLTTZnV2dCWFYxajI2UTFoTlhPMkc3NWN5Sm9tU2xST0hNV2ZIaXdtakhpRlZ2d09yVFRBX0diWk9B?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Democraten eisen uitleg over gouden ring die Trump van Antwerpse diamantsector kreeg: “Lijkt karikaturale omkoping” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWnU4dENoT1Y3dGFIdEQtN2ZmNWsyWFppZDZHcWY5cmd6U29HRk5fOTVMcVlBdlUwQWhXSDd0c3YzZVUwWG90RE5Na3gtWDI4QmFlSkZyWEhhejNlVGFZYXdNdlo2QklOV3NVRlo0QmIydHJiT1R2VUltM2hHOER6Uy1yb3VFUEIzTGtuN2kyRHBOS2tYQ0twNHl5Q2djcDZsazZ6MVpuOExESWNkanRDYy1yQlRGWnJwZm9nejRiVmVPYXBYc0Y1Q01XajlmUFl2ZUxmQjJrR3gzSGVydGVTZ29oVlFqaS1qVkZaMk5hN2RxXzg?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump verliet de NAVO-top via een cateringsvrachtwagen: hoe ongewoon is die veiligheidsoperatie?",
+        "url": "https://www.demorgen.be/nieuws/trump-verliet-de-navo-top-via-een-cateringsvrachtwagen-hoe-ongewoon-is-die-veiligheidsoperatie~b058bd5c/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Rubio wist van Trumps ‘verdwijntruc’, maar bleef zelf wel op Air Force One tijdens Iraanse dreiging • Witte Huis-woordvoerder Karoline Leavitt stopt",
+        "url": "https://www.demorgen.be/snelnieuws/live-witte-huis-woordvoerder-karoline-leavitt-stopt-om-meer-tijd-met-haar-gezin-door-te-brengen-verbouwing-witte-huis-kost-927-miljoen-dollar~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse senatoren eisen uitleg van Antwerpse diamantairs die gouden ring aan Trump schonken: ‘Dit lijkt op omkoping’",
+        "url": "https://www.demorgen.be/nieuws/amerikaanse-senatoren-eisen-uitleg-van-antwerpse-diamantairs-die-gouden-ring-aan-trump-schonken-dit-lijkt-op-omkoping~b9dee32e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Karoline Leavitt stapt  op als woordvoerster van Witte Huis - Trump voor rechter om betaalde toegang tot marktgevoelige berichten",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-karoline-leavitt-stapt-op-als-woordvoerster-van-witte-huis-trump-voor-rechter-om-betaalde-toegang-tot-marktgevoelige-berichten/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Karoline Leavitt stapt  op als woordvoerster van Witte Huis - Trump voor rechter om betaalde toegang tot marktgevoelige berichten",
+        "url": "https://www.gva.be/buitenland/live-vs.-karoline-leavitt-stapt-op-als-woordvoerster-van-witte-huis-trump-voor-rechter-om-betaalde-toegang-tot-marktgevoelige-berichten/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump voor rechter gesleept om peperdure dienst die rijke abonnees sneller toegang geeft tot marktgevoelige berichten: “Door en door corrupt”",
+        "url": "https://www.gva.be/buitenland/trump-voor-rechter-gesleept-om-peperdure-dienst-die-rijke-abonnees-sneller-toegang-geeft-tot-marktgevoelige-berichten-door-en-door-corrupt/159960605.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Karoline Leavitt stapt  op als woordvoerster van Witte Huis - Trump voor rechter om betaalde toegang tot marktgevoelige berichten",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-karoline-leavitt-stapt-op-als-woordvoerster-van-witte-huis-trump-voor-rechter-om-betaalde-toegang-tot-marktgevoelige-berichten/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Pour exercer la pression économique sur l'Iran, Donald Trump annonce se faire \"discret\"",
+        "url": "https://www.rtbf.be/article/pour-exercer-la-pression-economique-sur-l-iran-donald-trump-annonce-se-faire-discret-11769708",
+        "source": "rtbf",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 8,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 9,
+      "crime": 10,
+      "eu": 7,
+      "politics": 6,
+      "be_gov": 2,
+      "culture": 4,
+      "tech": 6,
+      "economy": 7,
+      "sports": 15,
+      "health": 0,
+      "climate": 2,
+      "migration": 2,
+      "education": 1,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 11,
+      "crime": 14,
+      "eu": 13,
+      "politics": 10,
+      "be_gov": 3,
+      "culture": 4,
+      "tech": 7,
+      "economy": 9,
+      "sports": 19,
+      "health": 1,
+      "climate": 3,
+      "migration": 3,
+      "education": 1,
+      "weather": 16
+    }
   }
 ]
