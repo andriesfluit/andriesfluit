@@ -76171,5 +76171,454 @@
       "education": 4,
       "weather": 3
     }
+  },
+  {
+    "date": "2026-08-16",
+    "generated_at": "2026-08-16T06:18:06+02:00",
+    "last_checked_at": "2026-08-16T06:18:06+02:00",
+    "total_articles": 113,
+    "trump_articles": 2,
+    "percentage": 1.8,
+    "core_percentage": 1.8,
+    "core_percentage_name": 1.8,
+    "trump_articles_expanded": 2,
+    "core_percentage_expanded": 1.8,
+    "indirect_references": 0,
+    "wide_total_articles": 152,
+    "wide_trump_articles": 6,
+    "wide_percentage": 3.9,
+    "wide_trump_articles_expanded": 6,
+    "wide_percentage_expanded": 3.9,
+    "macro_percentage": 2.9,
+    "qualifying_outlets": 5,
+    "core_outlets_total": 19,
+    "core_outlets_active": 7,
+    "active_core_fraction": 0.368,
+    "cross_outlet_dup_headlines": 20,
+    "cross_outlet_dup_groups": 10,
+    "cross_outlet_dup_rate": 17.7,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": null,
+    "breadth": 0.14,
+    "deviation": 0.51,
+    "smoothed_pct": 4.2,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_politics": {
+        "fetched": 9,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_world": {
+        "fetched": 68,
+        "today": 5,
+        "kept": 5,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 40.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 59,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 59,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 32,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 31,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.45
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 25,
+        "kept": 25,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump pronkt met dalende medicijnprijzen maar experts wijzen naar beleid van Biden",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-pronkt-met-dalende-medicijnprijzen-maar-experts-wijzen-naar-beleid-van-biden/160080685.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Colombiaanse president vraagt Trump om tijdelijke opschorting van invoerheffingen na aardbeving",
+        "url": "https://www.nieuwsblad.be/buitenland/colombiaanse-president-vraagt-trump-om-tijdelijke-opschorting-van-invoerheffingen-na-aardbeving/160080464.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Hij verdedigt verkrachters, rijdt achterwaarts op de snelweg en wil het kantoor van Trump binnenstormen: wie is de advocaat van de broers Tate? - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOUEVPemZ4OFJ5V2tCRkxNci1sdDZwbE9Db3pNa183cWxUMHl4N29lS1RXWl9XT2lvaFl1Tm5nakhzOGxBUFpXb2Q5ZkpVWW5yVnVMXzltdzRURDVBTGdVS1lDUTRmbzdPMFNHd3Voa3ZIekd1Y1ZkRWJYX085ZnZCeTR4bUFzTDREeU0zd0ozWUljS1pfQzZ1Xy04RjlRdHJqcFRJU1ZJZmNNZnBOZXYtUkZPcVlLNUpXazk4aGdUZ3ZWTVY0VEZwVkFwY1VySTR3YUQ0NlNCazBCeUdSZmtBQ2dNQzZ5TzZmODNxZ2F4ZTlUR0l3SW9mX0x2TURTTktPTjBsbVNtbUVRVTA5Tlh4MzBWS0hNVTFDdjFPSg?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt inzet van vliegdekschip USS Abraham Lincoln van ruim 260 dagen “lang niet lang genoeg” | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVWFqUVF5bFpBTFp3SUFEX01obzlmYjV5VkI3bDkya2pqYlVva3VZNm9iS3JpSW1qVmNVNEU5ZFVmbHV1V2Y2WW9WcFFwdmo4S0V0MnZKZ3NXUy1MVnNBcUhaMDA1eTUxR01KMWxLOWdFQTBXcUZxZS0xTDlIODA3eFUwR0Y4MHFhUXlNRVVxSXBQaEJ6cV9tUkJVVE4yUGpUbmdkM1hiZHZYRnVYRUlmN0RDSGRnbmoydm5jNnlpMkQ2ZFZOQ1RkR1pJYlhHRURra0E?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump pronkt met dalende medicijnprijzen maar experts wijzen naar beleid van Biden",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-pronkt-met-dalende-medicijnprijzen-maar-experts-wijzen-naar-beleid-van-biden/160080685.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Colombiaanse president vraagt Trump om tijdelijke opschorting van invoerheffingen na aardbeving",
+        "url": "https://www.nieuwsblad.be/buitenland/colombiaanse-president-vraagt-trump-om-tijdelijke-opschorting-van-invoerheffingen-na-aardbeving/160080464.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump pronkt met dalende medicijnprijzen maar experts wijzen naar beleid van Biden",
+        "url": "https://www.gva.be/buitenland/trump-pronkt-met-dalende-medicijnprijzen-maar-experts-wijzen-naar-beleid-van-biden/160080691.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Colombiaanse president vraagt Trump om tijdelijke opschorting van invoerheffingen na aardbeving",
+        "url": "https://www.gva.be/buitenland/colombiaanse-president-vraagt-trump-om-tijdelijke-opschorting-van-invoerheffingen-na-aardbeving/160080477.html",
+        "source": "gva",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 2,
+      "crime": 3,
+      "eu": 0,
+      "politics": 2,
+      "be_gov": 1,
+      "culture": 7,
+      "tech": 0,
+      "economy": 4,
+      "sports": 7,
+      "health": 0,
+      "climate": 0,
+      "migration": 0,
+      "education": 1,
+      "weather": 1
+    },
+    "wide_themes": {
+      "war": 2,
+      "crime": 6,
+      "eu": 1,
+      "politics": 4,
+      "be_gov": 1,
+      "culture": 11,
+      "tech": 0,
+      "economy": 4,
+      "sports": 11,
+      "health": 0,
+      "climate": 0,
+      "migration": 0,
+      "education": 2,
+      "weather": 2
+    }
   }
 ]
