@@ -77584,5 +77584,502 @@
       "education": 5,
       "weather": 4
     }
+  },
+  {
+    "date": "2026-08-19",
+    "generated_at": "2026-08-19T06:18:52+02:00",
+    "last_checked_at": "2026-08-19T06:18:52+02:00",
+    "total_articles": 189,
+    "trump_articles": 6,
+    "percentage": 3.2,
+    "core_percentage": 3.2,
+    "core_percentage_name": 3.2,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 3.2,
+    "indirect_references": 0,
+    "wide_total_articles": 245,
+    "wide_trump_articles": 10,
+    "wide_percentage": 4.1,
+    "wide_trump_articles_expanded": 10,
+    "wide_percentage_expanded": 4.1,
+    "macro_percentage": 2.9,
+    "qualifying_outlets": 8,
+    "core_outlets_total": 19,
+    "core_outlets_active": 10,
+    "active_core_fraction": 0.526,
+    "cross_outlet_dup_headlines": 34,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 18.0,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 6.0,
+    "breadth": 0.5,
+    "deviation": 0.96,
+    "smoothed_pct": 3.49,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_politics": {
+        "fetched": 24,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_nl_tech": {
+        "fetched": 65,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 19,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 61,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 63,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 35,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.35
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 34,
+        "kept": 34,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.88
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 33,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump meldt akkoord met Canada en stelt importheffingen met drie dagen uit",
+        "url": "https://www.hln.be/economie/trump-meldt-akkoord-met-canada-en-stelt-importheffingen-met-drie-dagen-uit~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Ze doet meer dan alleen printen’: hoe Natalie Harp dicht bij de macht van Trump komt",
+        "url": "https://www.demorgen.be/nieuws/ze-doet-meer-dan-alleen-printen-hoe-natalie-harp-dicht-bij-de-macht-van-trump-komt~ba68a7ce/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Duur jaarlijkse militaire oefeningen Zuid-Korea en VS wordt gehalveerd: “Zelfs Amerikanen vielen uit de lucht door Trumps bevel”",
+        "url": "https://www.nieuwsblad.be/buitenland/duur-jaarlijkse-militaire-oefeningen-zuid-korea-en-vs-wordt-gehalveerd-zelfs-amerikanen-vielen-uit-de-lucht-door-trumps-bevel/160206073.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Militaire oefeningen VS en Zuid-Korea fors ingekort, “Trump wil ontmoeting met Kim Jong-un”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-militaire-oefeningen-vs-en-zuid-korea-fors-ingekort-trump-wil-ontmoeting-met-kim-jong-un/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Militaire oefeningen VS en Zuid-Korea fors ingekort, “Trump wil ontmoeting met Kim Jong-un”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-militaire-oefeningen-vs-en-zuid-korea-fors-ingekort-trump-wil-ontmoeting-met-kim-jong-un/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump pauzeert Canadese invoertarieven - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaU5NanM4UDlhMXZrSldGN2h1MWZtQk55Z0ZiNjdZWmlORnZES0Q4NzB1c2hSTG5HSElleUVpWnVqb1ZIWHJyYTNKS2pSQW9QU0g0UmZFdi02MUZpNFh1NVZJYklvQjlZRm8waVpaLS02VDFMSEt3ckhDVFpUdkltR3gtSTRjZDBrMUo0U1BfTU1mMFRkRlhZUFNia04xLUlYT1BQUkpLWmZ6bVRH?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "De prijs van de burrito is in de VS het symbool geworden van de stijgende levensduurte door het beleid van Trump - GVA",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ1pyYUJFR1BHMG9GRTB3WnlxMUU0Z1B5a2Q1d0VLdDBBeHVwYlZmc191Z0pjMUpNOW1MMDI5djJXVzMzVU9MR0VDTjc1cnhsZGZRTGpVTVJfT0FPaUcxUjBHZjRxSlNycFZrUUtCaWdGUTB2QWpwM3VyZGExaThObU54dURBdFpYRS1UdFdtVEtKZWIyc2NVZXdkcEZnOXM4QzVjWEZWeUFlQ2pqMXZxUDk1RkJtcE9hUk5yWXdMdnFlbS1yaTAyWkNmOUdJYmJBaHFoNTE4NENmQlRqWGxLemw0Um02dm5JQml0eUZ3?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump viseert “doorvoerlanden” die China helpen importtaksen te omzeilen: “België is deel van logistiek schaduwnetwerk” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNblJXMHlKWWs3VjRnZGhUc2taNFVJdW1aS3oySlJibC0zZTNNMFFwakVxbjh4SXp3R3h5UjZUU0FNTWVvWnQ3T05Eb0tpWXJiWkp1TUhQUS1wbi1VaVdHcVEzTFdNVlVfTEtBbTVRLUNXVHhvUjlCN1FJZFpRT09mMV9weHptZHc4MTlHQmpoNm94eFRKNG1KZmFVeHZIOXhWZXc4OXE1RFdrWG9ieTBTb0lsNVN1YU1tMnpMZXhzOXNwZURYeDBHVDQyT0UwQkNqWUE0T25xUGFvOXhxV1BLUmoyOWVUNVFJMkh2dkJtUUtKYUZQbmc?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Trump meldt akkoord met Canada en stelt importheffingen met drie dagen uit",
+        "url": "https://www.hln.be/economie/trump-meldt-akkoord-met-canada-en-stelt-importheffingen-met-drie-dagen-uit~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Ze doet meer dan alleen printen’: hoe Natalie Harp dicht bij de macht van Trump komt",
+        "url": "https://www.demorgen.be/nieuws/ze-doet-meer-dan-alleen-printen-hoe-natalie-harp-dicht-bij-de-macht-van-trump-komt~ba68a7ce/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Duur jaarlijkse militaire oefeningen Zuid-Korea en VS wordt gehalveerd: “Zelfs Amerikanen vielen uit de lucht door Trumps bevel”",
+        "url": "https://www.nieuwsblad.be/buitenland/duur-jaarlijkse-militaire-oefeningen-zuid-korea-en-vs-wordt-gehalveerd-zelfs-amerikanen-vielen-uit-de-lucht-door-trumps-bevel/160206073.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Militaire oefeningen VS en Zuid-Korea fors ingekort, “Trump wil ontmoeting met Kim Jong-un”",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-militaire-oefeningen-vs-en-zuid-korea-fors-ingekort-trump-wil-ontmoeting-met-kim-jong-un/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Duur jaarlijkse militaire oefeningen Zuid-Korea en VS wordt gehalveerd: “Zelfs Amerikanen vielen uit de lucht door Trumps bevel”",
+        "url": "https://www.gva.be/buitenland/duur-jaarlijkse-militaire-oefeningen-zuid-korea-en-vs-wordt-gehalveerd-zelfs-amerikanen-vielen-uit-de-lucht-door-trumps-bevel/160206079.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Militaire oefeningen VS en Zuid-Korea fors ingekort, “Trump wil ontmoeting met Kim Jong-un”",
+        "url": "https://www.gva.be/buitenland/live-vs.-militaire-oefeningen-vs-en-zuid-korea-fors-ingekort-trump-wil-ontmoeting-met-kim-jong-un/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Militaire oefeningen VS en Zuid-Korea fors ingekort, “Trump wil ontmoeting met Kim Jong-un”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-militaire-oefeningen-vs-en-zuid-korea-fors-ingekort-trump-wil-ontmoeting-met-kim-jong-un/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump pauzeert Canadese invoertarieven - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaU5NanM4UDlhMXZrSldGN2h1MWZtQk55Z0ZiNjdZWmlORnZES0Q4NzB1c2hSTG5HSElleUVpWnVqb1ZIWHJyYTNKS2pSQW9QU0g0UmZFdi02MUZpNFh1NVZJYklvQjlZRm8waVpaLS02VDFMSEt3ckhDVFpUdkltR3gtSTRjZDBrMUo0U1BfTU1mMFRkRlhZUFNia04xLUlYT1BQUkpLWmZ6bVRH?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 10,
+      "crime": 2,
+      "eu": 7,
+      "politics": 8,
+      "be_gov": 1,
+      "culture": 1,
+      "tech": 4,
+      "economy": 5,
+      "sports": 9,
+      "health": 0,
+      "climate": 1,
+      "migration": 0,
+      "education": 1,
+      "weather": 2
+    },
+    "wide_themes": {
+      "war": 16,
+      "crime": 3,
+      "eu": 9,
+      "politics": 10,
+      "be_gov": 1,
+      "culture": 1,
+      "tech": 7,
+      "economy": 8,
+      "sports": 14,
+      "health": 0,
+      "climate": 1,
+      "migration": 0,
+      "education": 2,
+      "weather": 4
+    }
   }
 ]
