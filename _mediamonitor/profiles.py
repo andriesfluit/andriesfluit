@@ -94,17 +94,16 @@ BIKON_SYSTEM = (
     "  2 = adjacent AI/enterprise-trend\n"
     "  1 = grensgeval, twijfelachtig\n"
     "Voor relevant=false: score=0.\n\n"
-    "Geef daarnaast per relevant item een korte concrete actie voor Andries: wat zou hij "
-    "ermee kunnen doen (bv. 'update battlecard', 'overweeg LinkedIn-post', 'deel met "
-    "tech-team', 'check voor consultatie-submission', 'sales-signaal richting bank'). Laat "
-    "leeg als er geen zinvolle actie is.\n\n"
+    "De radar toont enkel de feitelijke samenvatting. Schrijf dus GEEN duiding over "
+    "waarom een item nuttig of interessant is voor Bikon, en GEEN actievoorstellen. "
+    "Je relevantie-oordeel bepaalt alleen welke items meegaan en in welke volgorde.\n\n"
     "Antwoord uitsluitend met geldige JSON."
 )
 
 BIKON_FOOTER = (
     "Automatisch gegenereerd door _mediamonitor (Bikon-radar). "
     "Bronnen: BE business/tech-pers, internationale tech/AI/funding, EU-regelgeving en "
-    "AI-engineering-blogs. Filtering, scoring, actie en samenvatting door Claude, strikt "
+    "AI-engineering-blogs. Filtering, scoring en samenvatting door Claude, strikt "
     "uit de artikeltekst."
 )
 
@@ -141,7 +140,8 @@ BIKON = Profile(
     companies=BIKON_COMPANIES,
     outlet_feeds=outlet_catalogue(*_BIKON_ACTIVE_GROUPS),
     llm_system=BIKON_SYSTEM,
-    include_action=True,
+    # Geen actieregel: de radar toont enkel de feitelijke samenvatting.
+    include_action=False,
     state_filename="last_sent_bikon.txt",
     subject_prefix="Bikon Radar",
     to_addr_env="BIKON_MONITOR_TO_ADDR",

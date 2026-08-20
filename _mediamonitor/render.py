@@ -56,7 +56,7 @@ def _source_tag(status):
 
 
 def render_html(today_str, by_company, stats, companies,
-                title=_DEFAULT_TITLE, footer=_DEFAULT_FOOTER):
+                title=_DEFAULT_TITLE, footer=_DEFAULT_FOOTER, show_action=False):
     out = []
     out.append("<!doctype html><html><head><meta charset='utf-8'></head>")
     out.append(f"<body style=\"{_STY['body']}\">")
@@ -89,7 +89,10 @@ def render_html(today_str, by_company, stats, companies,
             link     = html.escape(art["link"])
             src      = html.escape(art["source"])
             topic    = html.escape(art.get("topic", ""))
-            summary  = html.escape(art.get("summary_long") or art.get("nut") or "")
+            # Alleen de feitelijke samenvatting. `nut` (waarom dit de lezer
+            # raakt) wordt bewust niet getoond; het dient enkel als interne
+            # motivering bij het relevantie-oordeel van de filter.
+            summary  = html.escape(art.get("summary_long") or "")
             srctag   = _source_tag(art.get("summary_source", ""))
             topic_html = f"<span style=\"{_STY['topic']}\">{topic}</span>" if topic else ""
 
@@ -100,7 +103,7 @@ def render_html(today_str, by_company, stats, companies,
             )
             if summary:
                 out.append(f"<p style=\"{_STY['summary']}\">{summary}{srctag}</p>")
-            actie = html.escape(art.get("actie") or "")
+            actie = html.escape(art.get("actie") or "") if show_action else ""
             if actie:
                 out.append(
                     f"<p style=\"{_STY['actie']}\"><strong>Actie:</strong> {actie}</p>"
@@ -118,7 +121,8 @@ def render_html(today_str, by_company, stats, companies,
     return "".join(out)
 
 
-def render_text(today_str, by_company, companies, title=_DEFAULT_TITLE):
+def render_text(today_str, by_company, companies, title=_DEFAULT_TITLE,
+                show_action=False):
     lines = [f"{title} - {today_str}", ""]
     for key, cfg in companies.items():
         items = by_company.get(key) or []
@@ -131,10 +135,10 @@ def render_text(today_str, by_company, companies, title=_DEFAULT_TITLE):
             for art in items:
                 tag = f"[{art['topic']}] " if art.get("topic") else ""
                 lines.append(f"\n* {tag}{art['title']}")
-                summary = art.get("summary_long") or art.get("nut") or ""
+                summary = art.get("summary_long") or ""
                 if summary:
                     lines.append(f"  {summary}")
-                if art.get("actie"):
+                if show_action and art.get("actie"):
                     lines.append(f"  ACTIE: {art['actie']}")
                 src_status = art.get("summary_source", "")
                 marker = ""

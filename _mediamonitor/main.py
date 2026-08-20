@@ -197,9 +197,11 @@ def run(profile, to_addr, dry_run=False, no_llm=False, no_enrich=False, no_resol
         "lookback_hours": lookback,
     }
     html_body = render_html(today_str, filtered, stats, profile.companies,
-                            title=profile.subject_prefix, footer=profile.render_footer)
+                            title=profile.subject_prefix, footer=profile.render_footer,
+                            show_action=profile.include_action)
     text_body = render_text(today_str, filtered, profile.companies,
-                            title=profile.subject_prefix)
+                            title=profile.subject_prefix,
+                            show_action=profile.include_action)
 
     if dry_run:
         out_html = DATA_DIR / f"preview-{profile.name}-{today_str}.html"
