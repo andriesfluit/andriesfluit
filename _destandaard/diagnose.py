@@ -127,16 +127,33 @@ def diagnose(key, target):
             print(f"        OK, top-level velden: {sorted(data.keys())[:8]}")
             continue
 
-        # Only on failure: try nearby patterns so one run tells us whether the
-        # endpoint moved or genuinely needs auth. Purely informational.
-        for label, alt in [
-            ("V3-suffix",   f"{base}/data/{ed}/data/GetPublicationContentItems-{pid}-V3.json"),
-            ("editie-scope", f"{base}/data/{ed}/data/GetPublicationContentItems-{ed}-{pid}.json"),
-            ("zonder /data", f"{base}/data/{ed}/GetPublicationContentItems-{pid}.json"),
-        ]:
+        # Only on failure: the package is the one thing we can still read, so
+        # dump it in full. If the platform moved the content items, the new
+        # location (a filename, a token, a different id) is most likely named
+        # right there. Then try a broader set of known Twipe layouts.
+        print("\n  VOLLEDIG PAKKET (op zoek naar het nieuwe pad):")
+        print("  " + json.dumps(pkg, indent=2, ensure_ascii=False)[:2500].replace("\n", "\n  "))
+
+        tok = pkg.get("DownloadToken")
+        cpid = pkg.get("ContentPackageID")
+        alts = [
+            ("V3-suffix",     f"{base}/data/{ed}/data/GetPublicationContentItems-{pid}-V3.json"),
+            ("editie-scope",  f"{base}/data/{ed}/data/GetPublicationContentItems-{ed}-{pid}.json"),
+            ("zonder /data",  f"{base}/data/{ed}/GetPublicationContentItems-{pid}.json"),
+            ("ContentItems",  f"{base}/data/{ed}/data/GetContentItems-{pid}.json"),
+            ("Articles",      f"{base}/data/{ed}/data/GetPublicationArticles-{pid}.json"),
+            ("pub-map",       f"{base}/data/{ed}/{pid}/data/GetPublicationContentItems-{pid}.json"),
+            ("cpid-variant",  f"{base}/data/{ed}/data/GetPublicationContentItems-{cpid}.json"),
+            ("text-json",     f"{base}/data/{ed}/data/GetPublicationText-{pid}.json"),
+        ]
+        if tok:
+            alts.append(("met token",
+                         f"{base}/data/{ed}/data/GetPublicationContentItems-{pid}.json?token={tok}"))
+        print("\n  alternatieve paden:")
+        for label, alt in alts:
             s2, n2, d2 = probe(base, alt)
             flag = "  <-- WERKT" if isinstance(d2, dict) else ""
-            print(f"        alt {label}: [{s2}] {n2[:80]}{flag}")
+            print(f"    {label:14} [{s2}] {n2[:70]}{flag}")
 
 
 def main():
