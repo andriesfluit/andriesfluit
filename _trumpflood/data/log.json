@@ -78081,5 +78081,514 @@
       "education": 2,
       "weather": 4
     }
+  },
+  {
+    "date": "2026-08-20",
+    "generated_at": "2026-08-20T06:18:31+02:00",
+    "last_checked_at": "2026-08-20T06:18:31+02:00",
+    "total_articles": 169,
+    "trump_articles": 7,
+    "percentage": 4.1,
+    "core_percentage": 4.1,
+    "core_percentage_name": 4.1,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 4.1,
+    "indirect_references": 0,
+    "wide_total_articles": 236,
+    "wide_trump_articles": 11,
+    "wide_percentage": 4.7,
+    "wide_trump_articles_expanded": 11,
+    "wide_percentage_expanded": 4.7,
+    "macro_percentage": 3.1,
+    "qualifying_outlets": 8,
+    "core_outlets_total": 19,
+    "core_outlets_active": 7,
+    "active_core_fraction": 0.368,
+    "cross_outlet_dup_headlines": 30,
+    "cross_outlet_dup_groups": 15,
+    "cross_outlet_dup_rate": 17.8,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 7.0,
+    "breadth": 0.43,
+    "deviation": 1.24,
+    "smoothed_pct": 3.6,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_politics": {
+        "fetched": 37,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 27,
+        "today": 2,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_world": {
+        "fetched": 54,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 63,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.38
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 39,
+        "kept": 39,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 7.69
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 1,
+        "kept": 1,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 100.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump dreigt met “enorme economische gevolgen” voor elk land dat Iran steunt",
+        "url": "https://www.hln.be/buitenland/trump-dreigt-met-enorme-economische-gevolgen-voor-elk-land-dat-iran-steunt~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump kondigt “meest verwoestende economische operatie ooit” tegen Iran en bondgenoten aan",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-kondigt-meest-verwoestende-economische-operatie-ooit-tegen-iran-en-bondgenoten-aan/160256979.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Wie is Natalie Harp, de “menselijke printer” van Trump die Amerika in de ban houdt?",
+        "url": "https://www.nieuwsblad.be/buitenland/wie-is-natalie-harp-de-menselijke-printer-van-trump-die-amerika-in-de-ban-houdt/160217918.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump kondigt “economische oorlogsvoering” tegen Iran aan, “enorme gevolgen” voor landen die steun bieden",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-kondigt-economische-oorlogsvoering-tegen-iran-aan-enorme-gevolgen-voor-landen-die-steun-bieden/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump kondigt “economische oorlogsvoering” tegen Iran aan, “enorme gevolgen” voor landen die steun bieden",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-trump-kondigt-economische-oorlogsvoering-tegen-iran-aan-enorme-gevolgen-voor-landen-die-steun-bieden/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace de conséquences économiques \"dévastatrices\" tout pays soutenant l’Iran qui reste de marbre",
+        "url": "https://www.rtbf.be/article/trump-menace-de-consequences-economiques-devastatrices-tout-pays-soutenant-l-iran-qui-reste-de-marbre-11772762",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce une “guerre économique” inédite contre l’Iran",
+        "url": "https://www.7sur7.be/monde/trump-annonce-une-guerre-economique-inedite-contre-liran~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Donald Trump veut renouer le dialogue avec Pyongyang et annonce qu'il rencontrera Kim Jong-un en 2026 - Le Temps",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcmkyTmplUjVudUJJRmtIYVM1TzJLOXM3M3FGcW8tYXpJczVHMThZbmNYZjhuWnh5bTNqemN5bVd6UlIzVHN0SnVUbVMzYkFDT1huZHVvMjBEWEdudDBGRV85bEtzS3NNS2lydVIxWFljU1p6LXZHa296Y2duR0F1eFN5STdPLWpremtCNElNOWdjMFh4T1pyV19FdmREejR6b1kyWVlxSnRKelFuTzZESDBlOTlIOExOcmhpVnM4cE4xZC16RUZvOGtB?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt met “enorme economische gevolgen” voor elk land dat Iran steunt",
+        "url": "https://www.hln.be/buitenland/trump-dreigt-met-enorme-economische-gevolgen-voor-elk-land-dat-iran-steunt~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump kondigt “meest verwoestende economische operatie ooit” tegen Iran en bondgenoten aan",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-kondigt-meest-verwoestende-economische-operatie-ooit-tegen-iran-en-bondgenoten-aan/160256979.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Wie is Natalie Harp, de “menselijke printer” van Trump die Amerika in de ban houdt?",
+        "url": "https://www.nieuwsblad.be/buitenland/wie-is-natalie-harp-de-menselijke-printer-van-trump-die-amerika-in-de-ban-houdt/160217918.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump kondigt “economische oorlogsvoering” tegen Iran aan, “enorme gevolgen” voor landen die steun bieden",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-kondigt-economische-oorlogsvoering-tegen-iran-aan-enorme-gevolgen-voor-landen-die-steun-bieden/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump kondigt “meest verwoestende economische operatie ooit” tegen Iran en bondgenoten aan",
+        "url": "https://www.gva.be/buitenland/trump-kondigt-meest-verwoestende-economische-operatie-ooit-tegen-iran-en-bondgenoten-aan/160256999.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Wie is Natalie Harp, de “menselijke printer” van Trump die Amerika in de ban houdt?",
+        "url": "https://www.gva.be/buitenland/wie-is-natalie-harp-de-menselijke-printer-van-trump-die-amerika-in-de-ban-houdt/160250772.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump kondigt “economische oorlogsvoering” tegen Iran aan, “enorme gevolgen” voor landen die steun bieden",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-kondigt-economische-oorlogsvoering-tegen-iran-aan-enorme-gevolgen-voor-landen-die-steun-bieden/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump kondigt “economische oorlogsvoering” tegen Iran aan, “enorme gevolgen” voor landen die steun bieden",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-trump-kondigt-economische-oorlogsvoering-tegen-iran-aan-enorme-gevolgen-voor-landen-die-steun-bieden/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace de conséquences économiques \"dévastatrices\" tout pays soutenant l’Iran qui reste de marbre",
+        "url": "https://www.rtbf.be/article/trump-menace-de-consequences-economiques-devastatrices-tout-pays-soutenant-l-iran-qui-reste-de-marbre-11772762",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce une “guerre économique” inédite contre l’Iran",
+        "url": "https://www.7sur7.be/monde/trump-annonce-une-guerre-economique-inedite-contre-liran~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 17,
+      "crime": 5,
+      "eu": 1,
+      "politics": 2,
+      "be_gov": 4,
+      "culture": 4,
+      "tech": 6,
+      "economy": 3,
+      "sports": 9,
+      "health": 1,
+      "climate": 2,
+      "migration": 0,
+      "education": 1,
+      "weather": 2
+    },
+    "wide_themes": {
+      "war": 23,
+      "crime": 6,
+      "eu": 4,
+      "politics": 4,
+      "be_gov": 5,
+      "culture": 4,
+      "tech": 8,
+      "economy": 3,
+      "sports": 12,
+      "health": 2,
+      "climate": 3,
+      "migration": 0,
+      "education": 2,
+      "weather": 2
+    }
   }
 ]
