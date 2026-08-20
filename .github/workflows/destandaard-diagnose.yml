@@ -1,0 +1,51 @@
+name: destandaard diagnose
+
+# One-shot troubleshooting for the e-paper capture. Manual trigger only:
+# no schedule, no secrets, no mail, no commits. It just prints what the CDN
+# answers for each request so we can see the real HTTP status behind the
+# "publicatie X niet opgehaald" warning in the nightly log.
+#
+# Safe to leave in the repo; it never runs on its own.
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: "Date to probe (YYYY-MM-DD). Empty = today in Brussels."
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Probe e-paper endpoints
+        working-directory: _destandaard
+        run: |
+          python diagnose.py "${{ github.event.inputs.target_date }}" \
+            | tee "$RUNNER_TEMP/diagnose.txt"
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo '### e-paper diagnose'
+            echo '```'
+            cat "$RUNNER_TEMP/diagnose.txt" 2>/dev/null || echo "(geen output)"
+            echo '```'
+          } >> $GITHUB_STEP_SUMMARY
