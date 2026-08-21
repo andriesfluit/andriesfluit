@@ -78590,5 +78590,514 @@
       "education": 2,
       "weather": 2
     }
+  },
+  {
+    "date": "2026-08-21",
+    "generated_at": "2026-08-21T06:20:37+02:00",
+    "last_checked_at": "2026-08-21T06:20:37+02:00",
+    "total_articles": 195,
+    "trump_articles": 7,
+    "percentage": 3.6,
+    "core_percentage": 3.6,
+    "core_percentage_name": 3.6,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 3.6,
+    "indirect_references": 0,
+    "wide_total_articles": 277,
+    "wide_trump_articles": 11,
+    "wide_percentage": 4.0,
+    "wide_trump_articles_expanded": 11,
+    "wide_percentage_expanded": 4.0,
+    "macro_percentage": 4.3,
+    "qualifying_outlets": 9,
+    "core_outlets_total": 19,
+    "core_outlets_active": 8,
+    "active_core_fraction": 0.421,
+    "cross_outlet_dup_headlines": 28,
+    "cross_outlet_dup_groups": 14,
+    "cross_outlet_dup_rate": 14.4,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 3.5,
+    "breadth": 0.62,
+    "deviation": 1.07,
+    "smoothed_pct": 3.7,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 33,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_tech": {
+        "fetched": 62,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 55,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 56,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 59,
+        "kept": 46,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.35
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 15,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.17
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Hoe Trump de EU verder meesleurt in zijn handelsoorlog met China: \"Hij stelt Europa voor een moeilijke keuze\" - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOUhDakp2S25ycjhfMzdOQTZlaGFoQTVRVHVObWNzLWNNbVgtRmZINWI1UG0zMmU4SEUwekRjRHRmem5VN3VueVVHUG50aEx4Q2hyOElpOHJUTnVNZ3NXcmpBU3lyY2tZT2Zia2pxdGFmUEk1UzVkU200RlhmRGZpaldlSVNZS1kzV2xSbTZERzA4Umc4S1NkWUVYVUxEbHcyRXdBZXd5X1pBajU2YXhDM29TcjI0OGVNYnEzQ3VDWG0xWmZBOEl2UHBRSi02YS02WWVLRmFUeEQtZjgxMGdGMW5qQ0M4czFxNzZMOFlKYVRYNElQdnc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Met bloedige bombardementen op café en politiekantoor in Gaza tast Israël af hoeveel ruimte het krijgt van Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQdjNsUkZnOTM2d2lvWWN5b0N1Y1lGaWIxVlhjZ1FyNUZjekZXMi1ZN3pxUm5CRE5mYmJqVVViTVpkc1N0ZnR6OXNnX1RtNFRrUlhwUUNiS2dXNzRlc01WYUowZElMTU9jci1DbmN5dUVLX1dSeU55Vjh6Q09aVHRWWnJEUHdLSXBVam13MXhOZ2hJLTRYR2lqNGxJV01jc1VHX1p2UHYwMk9PajI3WHBIY3dCaVJqSENNTkptdm5FT1k5QTdmdjFmYlJWQ1A5WnVJNkJ2Wkh6NVYzeFRMWERjcDZhOU1CMDkzOHU5RUtzN0paYm5xd1E?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Terwijl Washington en Ottawa onderhandelen over deal: “Ik denk dat Trump heel zwak is”, aldus premier van Canadese provincie",
+        "url": "https://www.hln.be/economie/terwijl-washington-en-ottawa-onderhandelen-over-deal-ik-denk-dat-trump-heel-zwak-is-aldus-premier-van-canadese-provincie~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil duizend ruimtelanceringen per jaar vanaf 2030",
+        "url": "https://www.hln.be/buitenland/trump-wil-duizend-ruimtelanceringen-per-jaar-vanaf-2030~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump wil duizend ruimtelanceringen per jaar • VS gaat eerder over op winterbenzine om prijs aan pomp te drukken",
+        "url": "https://www.demorgen.be/snelnieuws/live-washington-kondigt-nieuwe-sancties-af-tegen-cuba-vs-gaat-eerder-over-op-winterbenzine-om-prijs-aan-pomp-te-drukken~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Is Trump echt zijn greep op de Republikeinse partij kwijt? Er zijn in elk geval opmerkelijke signalen",
+        "url": "https://www.nieuwsblad.be/buitenland/is-trump-echt-zijn-greep-op-de-republikeinse-partij-kwijt-er-zijn-in-elk-geval-opmerkelijke-signalen/160281150.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "IndyCars racen straks door hartje Washington: Trump wil ‘vrijheid laten brullen’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOE9LektPSDkxNzBnN2F5MDJwZ1JYX1R0anhPRDNEdlZHQmdCaml5T2p4MFpTc1E4bkQzN1gxUGl4NGRQMGpwQV9vbnkwVkhvNko5RENuQXRkeXFXeGZERDUxRXpJUXlldVMyaFVLRy1mN044eHVMeV96WmNiVTZZekNYTGZ3S0lUWEkycjd2ZFVESXJEOHZzVHV1Q2ltelFHVkI4QkQwa3E?oc=5",
+        "source": "knack",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Terwijl Washington en Ottawa onderhandelen over deal: “Ik denk dat Trump heel zwak is”, aldus premier van Canadese provincie - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTDRyLS1iSFNFUnFfa1ZpdmE1TFFCYUg3cEszcG5wRUl0Z1pqLVZGeXotU0FaeDdIMGN1bmEyZVBRdnR0ZXoyZGtRbVdnNl9SWVJoUUtPVUJ6RjRFeVdfeGdhRUlEa2dTYk5ZYjNCQlpONkZINElOc2ppeXZsYTBheThuaGpPNGFVQXVWcHB0dC04c1JFVG5nb01wd0R3ZzZWYlNta05sSzFia0JxMW9uUk1MU3RjUE5BeUxael94OEVnaWM0bE1DSVEwZVgxSENNNV96SDRNWHlObFJ5eUgzb0hrZWVpSTdleVpEMXFpMA?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil duizend ruimtelanceringen per jaar vanaf 2030 - HLN",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa0FEMUh1bWlKMHBMcTN1U3dWdElMM0s1enZYTXF6UXU5YjRlYWMyY21wWi0zeGYtTFdYS19SaDBfVktzaEhpTVZIel9FS0FGbm9pbVhhNXR2X3RQV2xCem5Za1lKRTFQRWFLQlJ2dTNrajRDWXBYUUhXaWdTdUtVOGU4aFVMMEdCOUFHU2JuT1E3X0NwNmxmNzNQVQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Leidde grap over Melania tot rechtszaak van Disney tegen regering-Trump? “Dit is een existentiële bedreiging” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTjVjV2htTDVlNWk5NHNRb0Z6MWt3alBxZHNFWTFKcUdXb2lmSDEzeUVLSE1OZkZGdVMya3BOMUhVc29IQUJwUEpHQVFxTFJzZGhkejZYdE1RVVZJRVZ3NjFyelUtSGlxbHFncVBnTkhUT0ZwT3dhN25UM0NMaWJpeWF3YlBBcVVPUGEwY0FUcWtDRHFnZ005enl6N09rN1VHS05fMXloVm5tS01xX21VbERoQ2o1YWJ3VDJhX1h1X0tMQ3dJUmdveDZvaVFEUXoyZHc3OVdkVUdPOHZlOFNnME5uY1hlbHM5NmNEZF82bWtBZDFXQVE?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Hoe Trump de EU verder meesleurt in zijn handelsoorlog met China: \"Hij stelt Europa voor een moeilijke keuze\" - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOUhDakp2S25ycjhfMzdOQTZlaGFoQTVRVHVObWNzLWNNbVgtRmZINWI1UG0zMmU4SEUwekRjRHRmem5VN3VueVVHUG50aEx4Q2hyOElpOHJUTnVNZ3NXcmpBU3lyY2tZT2Zia2pxdGFmUEk1UzVkU200RlhmRGZpaldlSVNZS1kzV2xSbTZERzA4Umc4S1NkWUVYVUxEbHcyRXdBZXd5X1pBajU2YXhDM29TcjI0OGVNYnEzQ3VDWG0xWmZBOEl2UHBRSi02YS02WWVLRmFUeEQtZjgxMGdGMW5qQ0M4czFxNzZMOFlKYVRYNElQdnc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Met bloedige bombardementen op café en politiekantoor in Gaza tast Israël af hoeveel ruimte het krijgt van Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQdjNsUkZnOTM2d2lvWWN5b0N1Y1lGaWIxVlhjZ1FyNUZjekZXMi1ZN3pxUm5CRE5mYmJqVVViTVpkc1N0ZnR6OXNnX1RtNFRrUlhwUUNiS2dXNzRlc01WYUowZElMTU9jci1DbmN5dUVLX1dSeU55Vjh6Q09aVHRWWnJEUHdLSXBVam13MXhOZ2hJLTRYR2lqNGxJV01jc1VHX1p2UHYwMk9PajI3WHBIY3dCaVJqSENNTkptdm5FT1k5QTdmdjFmYlJWQ1A5WnVJNkJ2Wkh6NVYzeFRMWERjcDZhOU1CMDkzOHU5RUtzN0paYm5xd1E?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Terwijl Washington en Ottawa onderhandelen over deal: “Ik denk dat Trump heel zwak is”, aldus premier van Canadese provincie",
+        "url": "https://www.hln.be/economie/terwijl-washington-en-ottawa-onderhandelen-over-deal-ik-denk-dat-trump-heel-zwak-is-aldus-premier-van-canadese-provincie~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil duizend ruimtelanceringen per jaar vanaf 2030",
+        "url": "https://www.hln.be/buitenland/trump-wil-duizend-ruimtelanceringen-per-jaar-vanaf-2030~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump wil duizend ruimtelanceringen per jaar • VS gaat eerder over op winterbenzine om prijs aan pomp te drukken",
+        "url": "https://www.demorgen.be/snelnieuws/live-washington-kondigt-nieuwe-sancties-af-tegen-cuba-vs-gaat-eerder-over-op-winterbenzine-om-prijs-aan-pomp-te-drukken~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Is Trump echt zijn greep op de Republikeinse partij kwijt? Er zijn in elk geval opmerkelijke signalen",
+        "url": "https://www.nieuwsblad.be/buitenland/is-trump-echt-zijn-greep-op-de-republikeinse-partij-kwijt-er-zijn-in-elk-geval-opmerkelijke-signalen/160281150.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Is Trump echt zijn greep op de Republikeinse partij kwijt? Er zijn in elk geval opmerkelijke signalen",
+        "url": "https://www.gva.be/buitenland/is-trump-echt-zijn-greep-op-de-republikeinse-partij-kwijt-er-zijn-in-elk-geval-opmerkelijke-signalen/160300097.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "IndyCars racen straks door hartje Washington: Trump wil ‘vrijheid laten brullen’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOE9LektPSDkxNzBnN2F5MDJwZ1JYX1R0anhPRDNEdlZHQmdCaml5T2p4MFpTc1E4bkQzN1gxUGl4NGRQMGpwQV9vbnkwVkhvNko5RENuQXRkeXFXeGZERDUxRXpJUXlldVMyaFVLRy1mN044eHVMeV96WmNiVTZZekNYTGZ3S0lUWEkycjd2ZFVESXJEOHZzVHV1Q2ltelFHVkI4QkQwa3E?oc=5",
+        "source": "knack",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 5,
+      "crime": 2,
+      "eu": 7,
+      "politics": 4,
+      "be_gov": 0,
+      "culture": 9,
+      "tech": 5,
+      "economy": 6,
+      "sports": 12,
+      "health": 0,
+      "climate": 1,
+      "migration": 2,
+      "education": 2,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 7,
+      "crime": 3,
+      "eu": 10,
+      "politics": 9,
+      "be_gov": 0,
+      "culture": 11,
+      "tech": 10,
+      "economy": 9,
+      "sports": 16,
+      "health": 0,
+      "climate": 1,
+      "migration": 3,
+      "education": 2,
+      "weather": 7
+    }
   }
 ]
