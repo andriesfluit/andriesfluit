@@ -80063,5 +80063,478 @@
       "education": 0,
       "weather": 3
     }
+  },
+  {
+    "date": "2026-08-24",
+    "generated_at": "2026-08-24T06:25:41+02:00",
+    "last_checked_at": "2026-08-24T06:25:41+02:00",
+    "total_articles": 198,
+    "trump_articles": 6,
+    "percentage": 3.0,
+    "core_percentage": 3.0,
+    "core_percentage_name": 3.0,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 3.0,
+    "indirect_references": 0,
+    "wide_total_articles": 253,
+    "wide_trump_articles": 6,
+    "wide_percentage": 2.4,
+    "wide_trump_articles_expanded": 6,
+    "wide_percentage_expanded": 2.4,
+    "macro_percentage": 2.0,
+    "qualifying_outlets": 9,
+    "core_outlets_total": 19,
+    "core_outlets_active": 8,
+    "active_core_fraction": 0.421,
+    "cross_outlet_dup_headlines": 28,
+    "cross_outlet_dup_groups": 14,
+    "cross_outlet_dup_rate": 14.1,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 6.0,
+    "breadth": 0.38,
+    "deviation": 0.9,
+    "smoothed_pct": 3.31,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 26,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_world": {
+        "fetched": 59,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 59,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 63,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_politics": {
+        "fetched": 23,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 57,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 26,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 69,
+        "kept": 47,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.51
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 43,
+        "kept": 43,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 35,
+        "kept": 35,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lecho": {
+        "fetched": 99,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 89,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 33,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Maandag op tv: weer naar school met Bockie De Repper, in de warroom van Trump en de terugkeer van ‘Zeg eens euh’ - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdmEza0I5ZEQ0VTBQMXFGTjJNX3BCUUV4dzdCX211bFpqSlBnNjgxeTU2UkNTeVpESU1WdDFlUFlYdXlaRDRPeWV1dmdCRWl5UWZVWVJHNDhTRGxrcXNJc2JlX2VEQjBlTW9oZFI5M3ltOTBfOUVlTnRLdkpLNGpjSEc1WGJKeEpPSTFnNEtfSzRzYkM5aGZEMEFQWm1mcmZHRXJNU2hxMUMtM2ZCdmh1ZGdwTkZFR3JyQndSV0FsTmJISm9acmNRUXlOUWtVUGhjTWdxNUcyNzRxMmxObjUzS1pWalVNSC1iMkVn?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Op een opwarmende planeet is China en niet Trump onze logische bondgenoot - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbUNsTDA5TmFsc3pLNFVybzFlQUw1dmhWWG9uQnZiRzNKaEZYWXZBYTFFb1hQTDU2TEp0bGwtWFBGZFZQdzJDSUVvNjg1WFZ4RXZac0pYZXBreFl1UTZJcnFiRk1WSkpRczZtOE0tSDVBZzh2aEpLYlg2d3FhX3otd2xMYjFBcDVic3k0ZHFHQTJrcWdQWkxhUEdTeDJVSHMyUnFUUFJZZGxvZUgtbWFQclZlNUQwSU5mYWp0UWJR?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Natalie Harp, “de menselijke printer”, staat Trump overal bij, met heel haar hart - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc0ZSejZvZFNZSjJPRFFIOFpJLUJTN1g2SHB6MW8tOFlFcEh3SGdyT2NXN0JuOUQ5UmpNSmZMX0tYYVd1TGw4SW1KYzBWTTZxNzJtMmF4dE9vMjc5U2xpNUg0OURwcW9NUDZGdGZNc3E4ZmxZZ3ZTdmlwWHppejlTRWNSR3I5Q1I3UGxOd2tEZGFBTDVKZklsQjlNU2NsVjJTZmNQSVZvbmIzLV9fLTlSVmFoLWtta1FybEhhUnhCalJRdll5SWc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Canada buigt niet voor Trumps tarievenspel: “Als je wordt aangevallen, ben je in oorlog. Wij worden aangevallen” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMXRVX0FIMjJBQzlYVnctUTNyenhXeFB0b0FWdEEzaDdDRkVLajQ2Z1VQem1xQmxGTmdBMUZiR2djTjZwOWlOcXFqblhXWElnQjh1eVFSSWN6dWo2VEdYOWtLYWJod0hqZ0hEZXJ1OVV3dWZsZWNZRXZXYmhaZ0Npdnk4b3NVSEpEbFlzMktYQm4zTEFZWERtNjJiZDhEZEtzLVhWekhpak9pZHJiYk51X2diNnVEYVVzTlFJakN2dGlydi1MNlg5RzVvRWpSOUl2aWY1V1JiOVN1ZlFSTlppSzNMNHlnNGVIczdsQ2p3?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Natalie Harp ou quand la plume au vitriol de Trump devient la cible du bad buzz - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQTJVcFAzNXBqcVU3T1NGZlRPSk9wQkl0ZTBHZU1kVktReGl2a0RENnVKNEpNakoxQjM2SGF1N0xRay1iSEJibUx2OVlfb0NVaGdJSWhPQ3NjcU1IaTRBZFByTTNEeGRjemN1MW9vM0ExQ05LZ3pzTHhsSmx2Z2hGMmttNmlqQzFuSUdCenBoU2JRTjV0ZkY5QlItMUtJSnp6OTNWUXFPd1hRTE9hVnJFWldieXZCb2R2YnZBZy1TRGk0ZjVkVVZsZ2hMMjd5dDd0MXdETi1xTUluN1RLbUxBMkd4ZnhoZw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Met autorace door Washington besluit Trump zomer vol patriottisch spektakel - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdWZ2TUhoLUIwbWtrLU9FQVU2WGZxYjRZMkV1YWlHOGJiY203NDROTlFUZmt2bHB6czFuOGJoYXBZLUZDeWpYUGptTG5ELXo1bkNKS09ETzg1VzFFN3VYMi04eTVoMG1KYzYwLVF0b25vQUlzUDVOby1xaHNkelFpYkFSN1JNYWFnWWZEMzRDR08yOW0xS3hjTWlzYW45b1ZVeEI4T2dmc20zUjlBcE1Zc0QtajcydU9vXy1QSG5ZV0JQbHk2QmlFdHRVeHdwVjZ6R1RfRDF3Yw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Maandag op tv: weer naar school met Bockie De Repper, in de warroom van Trump en de terugkeer van ‘Zeg eens euh’ - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdmEza0I5ZEQ0VTBQMXFGTjJNX3BCUUV4dzdCX211bFpqSlBnNjgxeTU2UkNTeVpESU1WdDFlUFlYdXlaRDRPeWV1dmdCRWl5UWZVWVJHNDhTRGxrcXNJc2JlX2VEQjBlTW9oZFI5M3ltOTBfOUVlTnRLdkpLNGpjSEc1WGJKeEpPSTFnNEtfSzRzYkM5aGZEMEFQWm1mcmZHRXJNU2hxMUMtM2ZCdmh1ZGdwTkZFR3JyQndSV0FsTmJISm9acmNRUXlOUWtVUGhjTWdxNUcyNzRxMmxObjUzS1pWalVNSC1iMkVn?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Op een opwarmende planeet is China en niet Trump onze logische bondgenoot - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbUNsTDA5TmFsc3pLNFVybzFlQUw1dmhWWG9uQnZiRzNKaEZYWXZBYTFFb1hQTDU2TEp0bGwtWFBGZFZQdzJDSUVvNjg1WFZ4RXZac0pYZXBreFl1UTZJcnFiRk1WSkpRczZtOE0tSDVBZzh2aEpLYlg2d3FhX3otd2xMYjFBcDVic3k0ZHFHQTJrcWdQWkxhUEdTeDJVSHMyUnFUUFJZZGxvZUgtbWFQclZlNUQwSU5mYWp0UWJR?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Natalie Harp, “de menselijke printer”, staat Trump overal bij, met heel haar hart - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc0ZSejZvZFNZSjJPRFFIOFpJLUJTN1g2SHB6MW8tOFlFcEh3SGdyT2NXN0JuOUQ5UmpNSmZMX0tYYVd1TGw4SW1KYzBWTTZxNzJtMmF4dE9vMjc5U2xpNUg0OURwcW9NUDZGdGZNc3E4ZmxZZ3ZTdmlwWHppejlTRWNSR3I5Q1I3UGxOd2tEZGFBTDVKZklsQjlNU2NsVjJTZmNQSVZvbmIzLV9fLTlSVmFoLWtta1FybEhhUnhCalJRdll5SWc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Canada buigt niet voor Trumps tarievenspel: “Als je wordt aangevallen, ben je in oorlog. Wij worden aangevallen” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMXRVX0FIMjJBQzlYVnctUTNyenhXeFB0b0FWdEEzaDdDRkVLajQ2Z1VQem1xQmxGTmdBMUZiR2djTjZwOWlOcXFqblhXWElnQjh1eVFSSWN6dWo2VEdYOWtLYWJod0hqZ0hEZXJ1OVV3dWZsZWNZRXZXYmhaZ0Npdnk4b3NVSEpEbFlzMktYQm4zTEFZWERtNjJiZDhEZEtzLVhWekhpak9pZHJiYk51X2diNnVEYVVzTlFJakN2dGlydi1MNlg5RzVvRWpSOUl2aWY1V1JiOVN1ZlFSTlppSzNMNHlnNGVIczdsQ2p3?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Natalie Harp ou quand la plume au vitriol de Trump devient la cible du bad buzz - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQTJVcFAzNXBqcVU3T1NGZlRPSk9wQkl0ZTBHZU1kVktReGl2a0RENnVKNEpNakoxQjM2SGF1N0xRay1iSEJibUx2OVlfb0NVaGdJSWhPQ3NjcU1IaTRBZFByTTNEeGRjemN1MW9vM0ExQ05LZ3pzTHhsSmx2Z2hGMmttNmlqQzFuSUdCenBoU2JRTjV0ZkY5QlItMUtJSnp6OTNWUXFPd1hRTE9hVnJFWldieXZCb2R2YnZBZy1TRGk0ZjVkVVZsZ2hMMjd5dDd0MXdETi1xTUluN1RLbUxBMkd4ZnhoZw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Met autorace door Washington besluit Trump zomer vol patriottisch spektakel - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdWZ2TUhoLUIwbWtrLU9FQVU2WGZxYjRZMkV1YWlHOGJiY203NDROTlFUZmt2bHB6czFuOGJoYXBZLUZDeWpYUGptTG5ELXo1bkNKS09ETzg1VzFFN3VYMi04eTVoMG1KYzYwLVF0b25vQUlzUDVOby1xaHNkelFpYkFSN1JNYWFnWWZEMzRDR08yOW0xS3hjTWlzYW45b1ZVeEI4T2dmc20zUjlBcE1Zc0QtajcydU9vXy1QSG5ZV0JQbHk2QmlFdHRVeHdwVjZ6R1RfRDF3Yw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 5,
+      "crime": 6,
+      "eu": 5,
+      "politics": 6,
+      "be_gov": 8,
+      "culture": 11,
+      "tech": 5,
+      "economy": 7,
+      "sports": 5,
+      "health": 3,
+      "climate": 3,
+      "migration": 0,
+      "education": 17,
+      "weather": 3
+    },
+    "wide_themes": {
+      "war": 7,
+      "crime": 7,
+      "eu": 5,
+      "politics": 10,
+      "be_gov": 9,
+      "culture": 13,
+      "tech": 9,
+      "economy": 9,
+      "sports": 7,
+      "health": 4,
+      "climate": 5,
+      "migration": 0,
+      "education": 21,
+      "weather": 4
+    }
   }
 ]
