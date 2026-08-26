@@ -81003,5 +81003,520 @@
       "education": 2,
       "weather": 2
     }
+  },
+  {
+    "date": "2026-08-26",
+    "generated_at": "2026-08-26T06:20:34+02:00",
+    "last_checked_at": "2026-08-26T06:20:34+02:00",
+    "total_articles": 176,
+    "trump_articles": 6,
+    "percentage": 3.4,
+    "core_percentage": 3.4,
+    "core_percentage_name": 3.4,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 3.4,
+    "indirect_references": 0,
+    "wide_total_articles": 237,
+    "wide_trump_articles": 13,
+    "wide_percentage": 5.5,
+    "wide_trump_articles_expanded": 13,
+    "wide_percentage_expanded": 5.5,
+    "macro_percentage": 4.0,
+    "qualifying_outlets": 7,
+    "core_outlets_total": 19,
+    "core_outlets_active": 9,
+    "active_core_fraction": 0.474,
+    "cross_outlet_dup_headlines": 24,
+    "cross_outlet_dup_groups": 12,
+    "cross_outlet_dup_rate": 13.6,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.5,
+    "breadth": 0.44,
+    "deviation": 1.01,
+    "smoothed_pct": 3.57,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_politics": {
+        "fetched": 39,
+        "today": 1,
+        "kept": 1,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 100.0
+      },
+      "google_nl_world": {
+        "fetched": 69,
+        "today": 8,
+        "kept": 7,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 57.14
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 22,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 60,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 61,
+        "kept": 36,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.78
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.17
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 37,
+        "kept": 37,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.41
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 25,
+        "kept": 25,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "trends_g": {
+        "fetched": 94,
+        "today": 4,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 98,
+        "today": 17,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump dreigt met een economische wereldoorlog, maar de wereld draait gewoon verder - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeER4SkVVWjQtcndGd096V3pCY0hqSWMtNG02QXdWNmR1cXAxLUMxSGRVaTdhcVdaZHpJM2N1YVlsYTZsa2l5eDVXOWh0dW01dkh0S1J4d0VZY1JRNjIwS1N6N1dSTU9DWUNLS2R3Zk00cWNXV1h5U3M3NE1QcjR1anhaZGJkRkd3SVZ1amlScFprV09oLWFla2djUVpnNnN4S0RWVVJaUWJiZ1BzNTR1UFp5SjZRQ0NJeDM5T2Z4SGZSaVVSRVFYdA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump dreigt met sloop Kennedy Center als renovaties uitblijven en legt visumaanvragen wereldwijd stil",
+        "url": "https://www.hln.be/buitenland/regering-trump-dreigt-met-sloop-kennedy-center-als-renovaties-uitblijven-en-legt-visumaanvragen-wereldwijd-stil~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Van Kelly Clarkson en Eminem tot president Trump: Amerika rouwt om Dolly Parton",
+        "url": "https://www.nieuwsblad.be/media-en-cultuur/bv-en-co/van-kelly-clarkson-en-eminem-tot-president-trump-amerika-rouwt-om-dolly-parton/160509938.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt Kennedy Center te slopen - Man opgepakt die met guillotine naar Washington reed",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-dreigt-kennedy-center-te-slopen-man-opgepakt-die-met-guillotine-naar-washington-reed/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Van Kelly Clarkson en Eminem tot president Trump: Amerika rouwt om Dolly Parton",
+        "url": "https://www.hbvl.be/media-en-cultuur/bv-en-co/van-kelly-clarkson-en-eminem-tot-president-trump-amerika-rouwt-om-dolly-parton/160511798.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt Kennedy Center te slopen - Man opgepakt die met guillotine naar Washington reed",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-dreigt-kennedy-center-te-slopen-man-opgepakt-die-met-guillotine-naar-washington-reed/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump wil naam van Ontariomeer veranderen in ‘Amerikameer’: “Niet van plan nog veel zaken te doen met Ontario” - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdEpCYnJyY0pKNUNOczJXRWIzSXo1R0tTeFNyRXBxbE1fcGgxS2FabmRWRzJYN2s0dzNlSkFQeEk0aDhWSkQ5d3FvRGpveVk3MW1wWGUxSWVGWWlrRF92MDhBRFh5b2dpOVR1RUF6T25HczRrSDlZQ2ZFMnFtbU5nQ21jM2NPTVBqTkNyZ0l1ZFlhN3A5ZUpsUjhTYkVGYUhvbE5OUkVMVjBZTEJOcWVjVVZrbDVpcUVVV3Q2SF9YNC1WMzJ5b054ZHNyTVpPR1FWT3FsLTJmT194WklVZVVJZnJENUl0UQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Van Kelly Clarkson tot president Trump: Amerika rouwt om Dolly Parton - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVVZjVjJEVnJlaEJ0d1VmcUo5Rk5wTFQ3OHludHNHSkJDcE5KOTVmNm42T1NaX2hKNEFwNUJ2dURpcFdiVFY4M1FCa2dMeDZUTUQyV0dpalVfaGdMVHh6am9Qang1V1lQZjZNMm1iMkFPVGZIZ084QnlSYmlEcDNuZUwzTUhKSTc1WUNFSkN0RkU3QnZoSlFYZjJpUUxPS1c0ZHlyYXFYYnRIY1NiZ1Y5VlFxcVZqVzVRSHcyY3Vmc1JyYWoxMzhJUllsTnJucERu?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Hij verdient miljoenen met crypto en maakt naam met zijn eigen energiedrankje: waarom Iran het op Trumps jongste zoon Barron (20) gemunt heeft - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOd1NNMjhDSHRQWnY2b2w1NUNsMVBhYW9wQmtUb0dWQkZHdDZabi1aZXFWNldtRDJjaS1temhDQ3VSZEVUVGRJUzBSckFqUEU0a0ZIVFlHS2tMaWxvRENKY09HUUhFLU9sNTBoUTF0WHpqdnRHTGwyeGZLWmFCU25RQkpMQjlGdGtsa09xUmFqT25LWWxTbzk3QlZHTWl6cFk3bnpidEhKLWZjRllwZU5xckpGVkl4aS1XeFB1QmdpcHlUUjV6emdLbmxXYlpWUHUzR1d1S0s2em1YMng0Y2tReUJUWHB5dllTRXp4NjVhU1NkOFFnRUh4WjA5SXljUndsNHpqTjRRQkNlMGVwN2lrYTlIeDVqMlNCQWJB?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump beweert dat Straat van Hormuz volledig mijnenvrij is | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNi1RNFkwelVNOXc5cmM3SkduVWZpZ3R3NnMyWDhIdndLMThSVlZoVXhSRTZRdHBaSk9tNjR5NzZmb3FCMnNrQ3hCZkQ5bVhaTU1aQm5RazBjN3FnWW1hdFVVdkFOSVBXQkxtT2VqRjVPeXRtMVFBSWlQVEpCelZCQm9ONkdlZ0NDTnNSNE1TRkdrYjIwNk8wQnFSVzJOMEE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Ook familieleden van militairen ontsnappen niet aan het harde migratiebeleid van Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPM1BWdGJFc3MxZnBLNjM5YUFrNEFIWW5ZNDU3Zm1YSHFJUFBTOFhDNFBCYUNTU2NxZUdXV011dzVNMUxNNW1YaWRibmZfTGJ2Mk9tMy12NXpwb3RHQ1JlaHllQ0MybkQ4dzh0NmRUd0hEM01JeUc3aTYtdjU1X3RUbHNGV0FUWnF4eWRBSDJHby05RHZzTVh6Q0lVWVFBelVYd0tLLU95d0FnbmVnRmYtU0JrRDVLT01ZN1dMQWxvMjV6Yk1NYWxtOFdacUd1ZjVvSzhj?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt met een economische wereldoorlog, maar de wereld draait gewoon verder - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeER4SkVVWjQtcndGd096V3pCY0hqSWMtNG02QXdWNmR1cXAxLUMxSGRVaTdhcVdaZHpJM2N1YVlsYTZsa2l5eDVXOWh0dW01dkh0S1J4d0VZY1JRNjIwS1N6N1dSTU9DWUNLS2R3Zk00cWNXV1h5U3M3NE1QcjR1anhaZGJkRkd3SVZ1amlScFprV09oLWFla2djUVpnNnN4S0RWVVJaUWJiZ1BzNTR1UFp5SjZRQ0NJeDM5T2Z4SGZSaVVSRVFYdA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump dreigt met sloop Kennedy Center als renovaties uitblijven en legt visumaanvragen wereldwijd stil",
+        "url": "https://www.hln.be/buitenland/regering-trump-dreigt-met-sloop-kennedy-center-als-renovaties-uitblijven-en-legt-visumaanvragen-wereldwijd-stil~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Van Kelly Clarkson en Eminem tot president Trump: Amerika rouwt om Dolly Parton",
+        "url": "https://www.nieuwsblad.be/media-en-cultuur/bv-en-co/van-kelly-clarkson-en-eminem-tot-president-trump-amerika-rouwt-om-dolly-parton/160509938.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt Kennedy Center te slopen - Man opgepakt die met guillotine naar Washington reed",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-dreigt-kennedy-center-te-slopen-man-opgepakt-die-met-guillotine-naar-washington-reed/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Van Kelly Clarkson en Eminem tot president Trump: Amerika rouwt om Dolly Parton",
+        "url": "https://www.gva.be/media-en-cultuur/bv-en-co/van-kelly-clarkson-en-eminem-tot-president-trump-amerika-rouwt-om-dolly-parton/160511796.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt Kennedy Center te slopen - Man opgepakt die met guillotine naar Washington reed",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-dreigt-kennedy-center-te-slopen-man-opgepakt-die-met-guillotine-naar-washington-reed/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Van Kelly Clarkson en Eminem tot president Trump: Amerika rouwt om Dolly Parton",
+        "url": "https://www.hbvl.be/media-en-cultuur/bv-en-co/van-kelly-clarkson-en-eminem-tot-president-trump-amerika-rouwt-om-dolly-parton/160511798.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump dreigt Kennedy Center te slopen - Man opgepakt die met guillotine naar Washington reed",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-dreigt-kennedy-center-te-slopen-man-opgepakt-die-met-guillotine-naar-washington-reed/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 1,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 13,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 1,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 7,
+      "crime": 4,
+      "eu": 8,
+      "politics": 4,
+      "be_gov": 3,
+      "culture": 4,
+      "tech": 6,
+      "economy": 3,
+      "sports": 4,
+      "health": 5,
+      "climate": 0,
+      "migration": 1,
+      "education": 4,
+      "weather": 1
+    },
+    "wide_themes": {
+      "war": 11,
+      "crime": 6,
+      "eu": 14,
+      "politics": 7,
+      "be_gov": 3,
+      "culture": 6,
+      "tech": 7,
+      "economy": 4,
+      "sports": 6,
+      "health": 6,
+      "climate": 0,
+      "migration": 2,
+      "education": 5,
+      "weather": 1
+    }
   }
 ]
