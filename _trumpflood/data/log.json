@@ -81518,5 +81518,508 @@
       "education": 5,
       "weather": 1
     }
+  },
+  {
+    "date": "2026-08-27",
+    "generated_at": "2026-08-27T16:36:59+02:00",
+    "last_checked_at": "2026-08-27T16:36:59+02:00",
+    "total_articles": 727,
+    "trump_articles": 7,
+    "percentage": 1.0,
+    "core_percentage": 1.0,
+    "core_percentage_name": 1.0,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 1.0,
+    "indirect_references": 0,
+    "wide_total_articles": 1039,
+    "wide_trump_articles": 10,
+    "wide_percentage": 1.0,
+    "wide_trump_articles_expanded": 10,
+    "wide_percentage_expanded": 1.0,
+    "macro_percentage": 1.0,
+    "qualifying_outlets": 31,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 30,
+    "cross_outlet_dup_groups": 15,
+    "cross_outlet_dup_rate": 4.1,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.7,
+    "breadth": 0.26,
+    "deviation": 0.3,
+    "smoothed_pct": 3.13,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 13,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 44,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 29,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 37,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 53,
+        "today": 23,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 33,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 27,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 25,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 88,
+        "today": 49,
+        "kept": 43,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 51,
+        "kept": 51,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 59,
+        "kept": 59,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.39
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 65,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.08
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 94,
+        "kept": 94,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.06
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 38,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "John Ratcliffe duikt op in Moskou: waarom Trump zijn CIA-directeur steeds vaker op delicate missies stuurt",
+        "url": "https://www.demorgen.be/nieuws/john-ratcliffe-duikt-op-in-moskou-waarom-trump-zijn-cia-directeur-steeds-vaker-op-delicate-missies-stuurt~bb337065/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Le ministère de l’Éducation américain compare Donald Trump à Hitler dans un message rapidement supprimé",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/27/le-ministere-de-leducation-americain-compare-donald-trump-a-hitler-dans-un-message-rapidement-supprime-3UUTKDFZQZDLNIDRW3VRENVAK4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Comment Trump a fait flamber les prix de l’énergie en Europe et… aux États-Unis",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/08/27/comment-trump-a-fait-flamber-les-prix-de-lenergie-en-europe-et-aux-etats-unis-WBDKGPT5GVG65M54IYK7DXJWFA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Opinion | Les dernières élections de Trump, le premier acte de l’après-Donald - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcTJMRWRzOUZLWW9qOEtuLWQ1NnBrT01pSTV2dWhVNXVJdGVpVENodmVXRGw5eEhKYXh4OWdKOUN4VFFaWWZ5R1NUSUZJZkt3QVpmYUlfem5uQkFWX2hEUS1nZFRnMVJCeDV1RzNxdGQyNEhXZ0pDUjM4LV80c01lYmtabzU5aVJ3VUVLeWt2eDNtc0VONGNmdV93Unk4S2I1R3VIRXE4bEVVS2VqbHJWMVduYUpOVXprSC1PUWZMcktvcVJ3?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La gouverneure de la Fed Lisa Cook dénonce des \"allégations non prouvées\" de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOT1BuOGtvN1BoTjhLUnpsc2tYSlBIU3pFYUJOZXpPNEluZzZPVzZIcDM1SlhZWmVTS0o5S29PZ3c5ZnFyWEUwMm0wa1hnRF8xN1pnNDl3NGpacVdobERDWC1FX3N4RkpHNjBOSW5aMHZKSUtRdnpialltTTRGX3lmUEtlRDdOa3NpWHBoSjdmbUVLdktYX0haMEJfTHdVQmJOd3VrS1RfT2FvUUhQbEw5NVF3Zk03S2NEWEJILVZVYTdIR1lzUkh1aHVUdnc1M3VOdWEteW5nZEQ2NGd4azV1dWwwMTEyUGw1bFZ5TXExUkY?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La bourde du ministère de l’Éducation américain: il compare Donald Trump à Hitler et supprime rapidement son message",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/27/la-bourde-du-ministere-de-leducation-americain-il-compare-donald-trump-a-hitler-et-supprime-rapidement-son-message-V2NGBZUQKBEI7M3U7V7ZFA5ISE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Les frères Tate en mauvaise posture: même Trump les laisse tomber",
+        "url": "https://www.7sur7.be/monde/les-freres-tate-en-mauvaise-posture-meme-trump-les-laisse-tomber~a9814c56/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "De profeten van de manosfeer zitten in nauwe schoentjes: zelfs Trump-kamp trekt handen af van Andrew en Tristan Tate - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQczFhX1I5UEplRUx2eXVON1plVjBXY0hSb1FEeVl3a2ljc0lHaVAzcXkxMTFBRVMxZGNMVkR2b0NmNmRNblN2Uk9wWkNDZkpJSUFfcU5zLWdBeFlOVk9IU2lsOEREMmhySmFWLThzaHk3c1QwSXlONWYtQlg5VHcwSlRCeExDMlpwSTRsVlpsRFJwbGhSWmRPOTk4OGlrcnNYOVotbGVZN0JsanNUbnhGampzZGg5Q3RqSHJNQnpXZHhSTVhxQU9IVVJmbGZYcjl3VFNhV1lCS2haazMwSGFieFdUaEVDcXAzcnk0aVF3c083aXBFenliNVhB?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "“C’est ridicule”: Trump estime que la charia est “presque un deuxième mode de vie” à Londres et Paris - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRDZuQkUxc1YtanFsSnZURGlZSVRnT3JKeW5iYUtIR1R0cTgwSVhFbEs4RVBHbmpiTE15SlFlTktOcUhVYzBjM1plMExpS2lTUlZrZURsQUNyQzloWENZMTZvZjg4d1F6aU5IaUZwSXEwbS10dmN1eE9ZSzJ6LVk2MzlKUEdXbVF4YjZPOFVTUTZNYkx4ZHVka2wyOGNXQzhiTkNfM0E4V1YyT0U4MHd0TzRUTjF1aDE3b3lFczhHYW5LVGtZZUtOQVkxZUU?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Comment Trump a fait flamber les prix de l'énergie en Europe et… aux États-Unis - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZUtYQTczT2dPUUFyMDBPdWpXVThRckQ3RG9TNEdUSU1UX0xwYXZicE5rc2tvTFI1QnpHdEx0dGx4Q21lUHAteWRkRnd5OS0wNGpzX1RRWmhhTC0yekY2bGwwZlNBUEEyRGo1ZnVlOGdzOGxCcThwXzFzVkpYX2ptMGZ0YWZXcUhyYXpnVnhvaGlPZU5OWTFUWHltajFJSzE2SE1wdW9BcVBwZWxUR1FlaDBrUGY2dE5WR2o1czRPMER6S0JvNFZTelpseWxfa1hBd2V0LUU0X2ZuYnh2Z1d4QUM3dlFqcGNUS1BEZWtDQkVndw?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "John Ratcliffe duikt op in Moskou: waarom Trump zijn CIA-directeur steeds vaker op delicate missies stuurt",
+        "url": "https://www.demorgen.be/nieuws/john-ratcliffe-duikt-op-in-moskou-waarom-trump-zijn-cia-directeur-steeds-vaker-op-delicate-missies-stuurt~bb337065/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Le ministère de l’Éducation américain compare Donald Trump à Hitler dans un message rapidement supprimé",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/27/le-ministere-de-leducation-americain-compare-donald-trump-a-hitler-dans-un-message-rapidement-supprime-3UUTKDFZQZDLNIDRW3VRENVAK4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Comment Trump a fait flamber les prix de l’énergie en Europe et… aux États-Unis",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/08/27/comment-trump-a-fait-flamber-les-prix-de-lenergie-en-europe-et-aux-etats-unis-WBDKGPT5GVG65M54IYK7DXJWFA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Opinion | Les dernières élections de Trump, le premier acte de l’après-Donald - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcTJMRWRzOUZLWW9qOEtuLWQ1NnBrT01pSTV2dWhVNXVJdGVpVENodmVXRGw5eEhKYXh4OWdKOUN4VFFaWWZ5R1NUSUZJZkt3QVpmYUlfem5uQkFWX2hEUS1nZFRnMVJCeDV1RzNxdGQyNEhXZ0pDUjM4LV80c01lYmtabzU5aVJ3VUVLeWt2eDNtc0VONGNmdV93Unk4S2I1R3VIRXE4bEVVS2VqbHJWMVduYUpOVXprSC1PUWZMcktvcVJ3?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La gouverneure de la Fed Lisa Cook dénonce des \"allégations non prouvées\" de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOT1BuOGtvN1BoTjhLUnpsc2tYSlBIU3pFYUJOZXpPNEluZzZPVzZIcDM1SlhZWmVTS0o5S29PZ3c5ZnFyWEUwMm0wa1hnRF8xN1pnNDl3NGpacVdobERDWC1FX3N4RkpHNjBOSW5aMHZKSUtRdnpialltTTRGX3lmUEtlRDdOa3NpWHBoSjdmbUVLdktYX0haMEJfTHdVQmJOd3VrS1RfT2FvUUhQbEw5NVF3Zk03S2NEWEJILVZVYTdIR1lzUkh1aHVUdnc1M3VOdWEteW5nZEQ2NGd4azV1dWwwMTEyUGw1bFZ5TXExUkY?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La bourde du ministère de l’Éducation américain: il compare Donald Trump à Hitler et supprime rapidement son message",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/27/la-bourde-du-ministere-de-leducation-americain-il-compare-donald-trump-a-hitler-et-supprime-rapidement-son-message-V2NGBZUQKBEI7M3U7V7ZFA5ISE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Les frères Tate en mauvaise posture: même Trump les laisse tomber",
+        "url": "https://www.7sur7.be/monde/les-freres-tate-en-mauvaise-posture-meme-trump-les-laisse-tomber~a9814c56/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 4,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 3
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 4
+    },
+    "themes": {
+      "war": 21,
+      "crime": 39,
+      "eu": 39,
+      "politics": 11,
+      "be_gov": 19,
+      "culture": 20,
+      "tech": 20,
+      "economy": 13,
+      "sports": 36,
+      "health": 11,
+      "climate": 4,
+      "migration": 3,
+      "education": 12,
+      "weather": 18
+    },
+    "wide_themes": {
+      "war": 33,
+      "crime": 53,
+      "eu": 61,
+      "politics": 16,
+      "be_gov": 23,
+      "culture": 27,
+      "tech": 40,
+      "economy": 24,
+      "sports": 68,
+      "health": 18,
+      "climate": 9,
+      "migration": 4,
+      "education": 19,
+      "weather": 23
+    }
   }
 ]
