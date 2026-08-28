@@ -82024,38 +82024,38 @@
   },
   {
     "date": "2026-08-28",
-    "generated_at": "2026-08-28T03:06:33+02:00",
-    "last_checked_at": "2026-08-28T03:06:33+02:00",
-    "total_articles": 106,
-    "trump_articles": 2,
-    "percentage": 1.9,
-    "core_percentage": 1.9,
-    "core_percentage_name": 1.9,
-    "trump_articles_expanded": 2,
-    "core_percentage_expanded": 1.9,
+    "generated_at": "2026-08-28T17:38:48+02:00",
+    "last_checked_at": "2026-08-28T17:38:48+02:00",
+    "total_articles": 792,
+    "trump_articles": 17,
+    "percentage": 2.1,
+    "core_percentage": 2.1,
+    "core_percentage_name": 2.1,
+    "trump_articles_expanded": 17,
+    "core_percentage_expanded": 2.1,
     "indirect_references": 0,
-    "wide_total_articles": 152,
-    "wide_trump_articles": 2,
-    "wide_percentage": 1.3,
-    "wide_trump_articles_expanded": 3,
-    "wide_percentage_expanded": 2.0,
-    "macro_percentage": 2.0,
-    "qualifying_outlets": 5,
+    "wide_total_articles": 1096,
+    "wide_trump_articles": 27,
+    "wide_percentage": 2.5,
+    "wide_trump_articles_expanded": 30,
+    "wide_percentage_expanded": 2.7,
+    "macro_percentage": 3.3,
+    "qualifying_outlets": 32,
     "core_outlets_total": 19,
-    "core_outlets_active": 4,
-    "active_core_fraction": 0.211,
-    "cross_outlet_dup_headlines": 22,
-    "cross_outlet_dup_groups": 11,
-    "cross_outlet_dup_rate": 20.8,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 5.1,
     "zone": "soaked",
     "label": "The zone is soaked",
     "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 2.0,
-    "breadth": 0.25,
-    "deviation": 0.58,
-    "smoothed_pct": 2.89,
+    "dominance": 1.31,
+    "breadth": 0.68,
+    "deviation": 0.64,
+    "smoothed_pct": 2.91,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
@@ -82064,267 +82064,267 @@
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 5,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
       },
       "google_fr": {
         "fetched": 34,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_nl_politics": {
-        "fetched": 45,
-        "today": 2,
-        "kept": 2,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 42,
+        "today": 14,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 1,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 15,
+        "kept": 11,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 27.27
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 4,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 47,
+        "kept": 43,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.33
       },
       "google_nl_tech": {
-        "fetched": 46,
-        "today": 0,
-        "kept": 0,
+        "fetched": 58,
+        "today": 26,
+        "kept": 21,
         "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "trump_expanded": 1,
+        "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 66,
-        "today": 3,
-        "kept": 1,
+        "fetched": 70,
+        "today": 30,
+        "kept": 26,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 28,
-        "today": 0,
-        "kept": 0,
+        "fetched": 24,
+        "today": 8,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 24,
+        "kept": 22,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 13.64
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 0,
-        "kept": 0,
+        "today": 20,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 0,
-        "kept": 0,
+        "today": 45,
+        "kept": 45,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 57,
-        "kept": 53,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 69,
+        "kept": 62,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.23
       },
       "hln": {
         "fetched": 30,
-        "today": 3,
-        "kept": 3,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 33.33
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
       },
       "demorgen": {
-        "fetched": 28,
-        "today": 10,
-        "kept": 10,
+        "fetched": 27,
+        "today": 22,
+        "kept": 22,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 10.0
+        "share": 4.55
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 19,
-        "kept": 19,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
-        "today": 35,
-        "kept": 35,
-        "trump": 0,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
         "trump_expanded": 1,
-        "share": 0.0
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 12,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
       },
       "knack": {
         "fetched": 100,
-        "today": 1,
-        "kept": 1,
+        "today": 51,
+        "kept": 51,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "bruzz": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 2,
-        "kept": 2,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "lalibre": {
+      "bruzz": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 13,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 64,
+        "kept": 64,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.12
       },
       "lecho": {
         "fetched": 100,
-        "today": 4,
-        "kept": 4,
+        "today": 57,
+        "kept": 56,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 99,
+        "kept": 99,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.01
       },
       "septsursept": {
         "fetched": 30,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "bx1": {
         "fetched": 10,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "detijd_g": {
-        "fetched": 100,
-        "today": 2,
-        "kept": 2,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 40,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
       "lesoir_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 45,
+        "kept": 44,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 40,
+        "kept": 36,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.78
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 29,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "rtl_g": {
-        "fetched": 99,
-        "today": 0,
-        "kept": 0,
+        "fetched": 100,
+        "today": 34,
+        "kept": 32,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "trends_g": {
         "fetched": 100,
-        "today": 1,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 30,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
       },
       "tendances_g": {
-        "fetched": 99,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "fetched": 100,
+        "today": 39,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
       }
     },
     "core_sources": [
@@ -82350,51 +82350,303 @@
     ],
     "matches": [
       {
-        "title": "Canadese premier niet onder indruk van hernoemen Ontariomeer door Trump: “Amerika is aan het veranderen”",
-        "url": "https://www.hln.be/buitenland/canadese-premier-niet-onder-indruk-van-hernoemen-ontariomeer-door-trump-amerika-is-aan-het-veranderen~a79c6d94/",
+        "title": "Trump doopt Lake Ontario om tot Lake America - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDF6Qy1qNjdwWUswcUZlQnRsZWJTU25YeUVZTks0QWJSTWFlTnlQNXdfTmF6NTg0NXQzc0swLXR4TlZXeUk1X1pKTFJKSFdSN2Y1REVtelVRQnlSZzVPcGlIVzFtT3NiNHhrRmp4ZmNObVU5aWNqbGdSSkI4NkdBU2NRa1FrNnBhVmRuM25LZzlBWWZpalI2U2tkbw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump doopt Lake Ontario om tot Lake America, Canada reageert dat het de naam niet verandert - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVUJncDlUSU1FOXIxb3FxcUlPQjdKTTlhNDFMay1LNTFRUlpIUmFuS2VQYXFKYm5IR01sV3V1eEFBRU9SS2lTUFJmVU1aRFFsUVdkWXcxNUZKYVUyVzh0bWtLRzZiNXl3M2NhQ2JqUzJEeENqS1pEWFEwR2YyQ2ZwRXRxTFozd29XTTZFdTlOYWtsZXNIaWoyc1QwcExDNTVCWE8xaXZIa2EtVnU5Ml96SGRHcC1Vd3VkVnlXOUpRa0dYWUhab1RINFJrdFpENUVqNHdNYnJoUERLUQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans ministerie plaatst en verwijdert vervolgens filmpje waarin Trump met Hitler wordt vergeleken",
+        "url": "https://www.hln.be/buitenland/amerikaans-ministerie-plaatst-en-verwijdert-vervolgens-filmpje-waarin-trump-met-hitler-wordt-vergeleken~aa8c927a/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live – Canadese premier lijkt niet onder de indruk van besluit Trump om Amerikameer te maken van Ontariomeer",
-        "url": "https://www.demorgen.be/snelnieuws/live-canadese-premier-lijkt-niet-onder-de-indruk-van-besluit-trump-om-amerikameer-te-maken-van-ontariomeer~b13cc951/",
+        "title": "“Als Trump ergens zijn tanden op stukbijt, dan zal het op Canada zijn”: zo diep is de wonde tussen de VS en Canada",
+        "url": "https://www.hln.be/buitenland/als-trump-ergens-zijn-tanden-op-stukbijt-dan-zal-het-op-canada-zijn-zo-diep-is-de-wonde-tussen-de-vs-en-canada~a08caf8f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Laat je niet voor de gek houden’, zei Trump nog. Toch neemt senator Dan Sullivan het in Alaska straks op tegen ... Dan Sullivan",
+        "url": "https://www.demorgen.be/nieuws/laat-je-niet-voor-de-gek-houden-zei-trump-nog-toch-neemt-senator-dan-sullivan-het-in-alaska-straks-op-tegen-dan-sullivan~b75f942b/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Levensgevaarlijke Donald Trump-pillen duiken op in Nederland: “Gebruik ze niet”",
+        "url": "https://www.nieuwsblad.be/crimi/levensgevaarlijke-donald-trump-pillen-duiken-op-in-nederland-gebruik-ze-niet/160644270.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Levensgevaarlijke Donald Trump-pillen duiken op in Nederland: “Gebruik ze niet”",
+        "url": "https://www.hbvl.be/extra/red/crimi/levensgevaarlijke-donald-trump-pillen-duiken-op-in-nederland-gebruik-ze-niet/160666138.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Gaza is niet te koop\": zeven mensen aangeklaagd voor het vandaliseren van het golfterrein van Trump in Schotland",
+        "url": "https://www.hbvl.be/opmerkelijk/gaza-is-niet-te-koop-zeven-mensen-aangeklaagd-voor-het-vandaliseren-van-het-golfterrein-van-trump-in-schotland/160650170.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Six mois de guerre entre les Etats-Unis et l’Iran : que reste-t-il des objectifs de Donald Trump ?",
+        "url": "https://www.rtbf.be/article/six-mois-de-guerre-entre-les-etats-unis-et-l-iran-que-reste-t-il-des-objectifs-de-donald-trump-11775960",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump a investi des millions de dollars dans des secteurs propulsés par sa guerre en Iran",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/08/28/trump-a-investi-des-millions-de-dollars-dans-des-secteurs-propulses-par-sa-guerre-en-iran-2VUGBU6NPJHENKEG5ZNJJ4PAZI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Frappes militaires à l'aide de l'IA: Anthropic obtient une victoire face à Donald Trump",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/08/28/la-justice-vient-de-contrecarrer-les-plans-de-trump-contre-anthropic-BAU4HBDIUBD7TOH3SLV7RGLY5Y/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump signe un décret changeant le nom du \"lac Ontario\" en \"lac d'Amérique\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/28/trump-signe-un-decret-changeant-le-nom-du-lac-ontario-en-lac-damerique-4C7S5ZNDHJHEHN73JDC7AWQXXA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump tacle le Canada avec une photo... qui raconte le contraire de ce qu’il veut dire",
+        "url": "https://www.7sur7.be/monde/trump-tacle-le-canada-avec-une-photo-qui-raconte-le-contraire-de-ce-quil-veut-dire~a77ee567/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump ondertekent decreet dat Ontariomeer verandert in 'Amerikameer' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQlpWWE1kM3N1LWphNnYtdDZhUXh3LWlhR3BvTGNLRDhuQkRScTUtSWtTVVVNMmZmQXZMaDJHenV4bVhMRWRuYldtdk5EZjM3UzBCOW5uX0RPcHBTSzUwdVp0WW1sRjlhLUpibDhoTUxyWUx3blowYUdFNlliWVY1UlQ1d0RxTEpPTUJLZkxpaTFtUjdVUGZENndOSnZDUjk5STJFOUk0aE50Qk54bW5QaWZYMjdEb0J4dDdjeGtDWklKOF9OZmhoU1BldlhOaW5GSENVQ0RJTQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Si la Belgique est attaquée, Donald Trump viendra-t-il à notre secours ? Bill White, son ambassadeur, répond sans détour - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMlJrdnpRUTJJZ3ZqbllEU09fTkp6ci1ZV1RzSTZQbFRFbWItbUNtZzZTUGluTlk2ZkhkX1F3bE9RTFZHT2lMeVFYU3FFclpJSy03eVhPS3ZQNGVlMXdLeTI0Rl9jcDQya3A4VG1yd1Fqd2phSE9tcW9TZldmcV9sbVpqRDhwR3VUSjdxN0lYWDBPTzJyd3dPMGFhNFp1SW9FdE9hVjRja3d6MEVNQnlnYkZYbXpyM3FBa19tazVvZGRFbVdMNTFOZWVB?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump zou chips nog duurder willen maken - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT1hKSkFLZklZWlhJZnhUOFV4dExvY3BjYzAtU05YbHNfYzlacUQybE5vQm8wMEtGZXVReGJlOU5PbzAwcjdoNjZGbkJYcEdvcVU0R1BObmpnV0lwLVJkWldLNWQzMWRONDUtUmF5ZFZ4MGFYRTd1S1hPMmhQZ0VGUFVtc2lFM1pQMUNLMXFnam8?oc=5",
+        "source": "trends_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump voudrait rendre les puces encore plus chères - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM1R1SnF4aEFPUUxFMHhQOTBISS1PcFdZYlF6TUotckEwVWxfWmFRdWhKbGQ2TnNKSENnbnl1ZTIwVFhwN25Jd3V6VWItVVZUSGItQ2VCNUpZQ3IzdmdGb2lnQUY0SUQ1TWh5NzBfS0FILW5NSXZvUXoyVUJyTEpaXzRDNVl0U2QwdnNFYjd2ZlN6YW8?oc=5",
+        "source": "tendances_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Canadese premier niet onder indruk van hernoemen Ontariomeer door Trump: “Amerika is aan het veranderen”",
-        "url": "https://www.hln.be/buitenland/canadese-premier-niet-onder-indruk-van-hernoemen-ontariomeer-door-trump-amerika-is-aan-het-veranderen~a79c6d94/",
+        "title": "Trump ondertekent decreet dat “Ontariomeer” verandert in “Amerikameer”: “Acroniem is nu SHAME” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSUJhb0N2ZU5yMU1MTmF0WWNuTHByVnRfRExkdW43VjFRMHl0cEliU1BORDd3UjBWcWtvTzRSTFZXbDF0aEtacWI0QTVPaUJFbHV0WGlfdEo0U2lqUkljZTFIWHM0TFdBTG9nSzlIdTZvR29zTWdydE84Z0gzUlYyRE9mZl9WT2xHenlPN24zZXVGMUhlNjk2Vm1JcFV2OFM0dE9EV1dDQkJUVHdTdFp1Tnc4V1gyR3daSXEzbUFlOTg1bXlyTm9lRTJLNWgwNnVaaXB3MDhB?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Anthropic wint rechtszaak over ban regering-Trump - ZeelandNet, startpagina van Zeeland",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNjZneVotVTZaVmNBaTVIZ1prR3ppNkV0RnNwbVlQLVVPNjZoRndfRG9nX2FQa2U4VTdsVTdmSVVZRDRnQmQwMkt1Z0lqM3NLZ0ZObVgyZTFOaElNb0NQS0hqV0lmeXdrRnF0T0VabHVtTTJUY3l3SmlFbXdBbmY4OXhLSi1sN2xQMkE?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans ministerie plaatst en verwijdert vervolgens filmpje waarin Trump met Hitler wordt vergeleken - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRnE0R0NQSFVCc2J3ajdxZFA1aDN2aGJ1VWRrc1RiY1lLbnBiZVJTd3pwbEZUdGRuN294bGluNk9kRnNvSUtNa3N4SGFBcHhWWlJHa1o5NjFRVTZmZDdFTTNwR1NvdXk0TzdJZ2hudmhBVGdOY3dfbThPQjZsQmdBbDdEelJHc2ZkYVphbThOMXRrUTcwdGE5Q2dkbzRyVFVqMk1acHpXR1RmVHhpVEYySlZDQkVoM05DeXMxYWppSXB5aUJTYmFwNG1OaGNQbzU5Rk9ld3gwNHU4bVk?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Zeven verdachten voor rechter na actie met leuze “Gaza is not 4 sale” op Trumps golfresort: aanklacht spreekt van “terroristisch verband” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUU1OWS1RMlVpLVc1c2JpMTNUNG50MmZlVzEtd1BvNFhvSFpCcm5JVG9ZWDFVWG5WTDdoQi1mdEFUU1gzQ3A1S0Q5ejBzVUZ6VWFtRU9tYi1CRzdGTUJKUzljd1VlNVl4aWVpQ3J1ZFFqV2YtU1czeHVvcFpIME9keG9GOERvcHZEVy1iTmVWQU55MGpvT1hDWEtsdjNhOVJpSF94cGZmUkFzU3hOUll3bUFLM0NCbW1MMklrNGV2dk1hSkNKQ1c0SzFxemxzUUJnTjBBalVtelRrOFQtM2NhbnRkOTF1aGoycEN0Q01qUmFuS3pVNHAtVzR4S1ZtSDJiT1E?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "‘Laat je niet voor de gek houden’, zei Trump nog. Toch neemt senator Dan Sullivan het in Alaska straks op tegen ... Dan Sullivan - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPWjVRSmczRGo5c1luNXJBNHhESnl4LTcydjBoNzFhbmY0UlBsbm82ZjNOc3hvTUxlODBXNlVXRU44Wkd0Q0VremYwVXRWLXdwSWc4V2h6TjdtcVh3dklUQkxjMFpiUC05UzNXWk5QVUk0Zk5WVE5WMFFXRVJqcEIzWHhtUHpfRVRVVDBlZ2ZVMGtkS3RGaGV0Z3dBZmxlVjlXbFlBcjUzNjM0MlA3eFQzU0xqRkNSRDA2dHhqQzNLTGhvTWRsN0xuVGRXZG9iQ016azFOSm4tc1piYmZIcnpWRjZTZWJONTlKWnkwU1FOZFZtc1E?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Een socialiste tegen een MAGA-man in de race om het Witte Huis? AOC en de Amerikaanse socialisten geloven erin - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNa1otb2RHVjlmbGFrcnBkX3p4b0ZENHdWOGQ5Q0o2RFh6Zi1yOVNfbkZXQ050ZnpFZW1SM0d1RklFT1lrUGFPVVg5R1VteGVuNGFsYVRNZUZoRktEb1pMaktHRnBTMUFMR0FWME14MkdOc2Jlem5XdjA2ZDRaUXFEbHZXYk9tdHZpVjNhdU9UMTBsa3ZwLUh5OU1ucWZMbG5vRE4yTS1UN0sxV3E2ZElyYjBxZExycEJ6WnhTOE1ZRHYtX0g3bnZEUnEzVkl2aHlvLVBVMWxaOFprV3pXR1dGSjhteEt0c2t4cVlma29tcFhuS0E?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "Witte Huis daagt Canada uit met natuurfoto, al wijst internet op mogelijk probleem - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMHViNkdRa1F3ZkZ3V0Y2cEU1Z3FBMXk3MnFfdFB5S3FOWlRJVE5NV0VPcy1CaTlHM2pxX1BROEhmSHlOUGV3cWhReEdocUhicnF6dThNN0w1X2hTV3E1VmxPN3ZTMFlULTBsckp0Qk1fcHloWVBadTVldXdFOFZtNzhwLXMwMGNGUlRpNTU2UEZMbUJHM1BzdlJBdzYwQldwd0lxZnloOE1jUUVaOGZONFlidmo3RmUwZnhBY0h6bld2b296NW1BbGtUZ1lvQmc?oc=5",
+        "source": "google_nl_business",
+        "name_only": false
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump noemt Straat van Hormuz Amerikaans territorium Iran ontkent moordcomplot tegen zoon van Trump - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPLWpaa0JhekVvdTE2cWZRVkZGbFY2bHlkTXJaMFZCZE9DTWNNMUtKT3B2Z1ljTXBDNVduYnN6UU1qYm0zNW5YcURSdWkxRVVUMklFVko1Rk9jaGtxNDNhRnBxVHJYeDhWTk5ua1pCN0F1Z0k1LTFpZXMtUV9xZ0hpYzJRMkQ4UWExWlpoUW5uM0tsQkVGaFlRaVFHb29SWEhPTFBldlkxWnJYX3Q0Q000VWpjYndEbmJCN0hPUVhxRUhFVUFtdTRKU19mQWVMRTF2VEdTeWowd0cxOVI3NThNN3lNeW1JN0lHLUM2UmdqT3NlbXluU3VLNg?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis daagt Canada uit met natuurfoto, al wijst internet op mogelijk probleem - GVA",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOE1lYXVkZGhkYWdhTllIMlFlTXFybGJnV0pDOVlzZVlkV1pDM3Zpc1BUYTAtU2FEekh5dFFlak16ZUp2MjFVc1c1RUU5WW9FTUVLT3lIdlg3MUtNTVZ1RTRNQnoyQVh0aG9PZG9IOUlIeGxwR2pUVWw5eW93M2JWOW9JdU51cmNzYnNCTC1GZXFmWnZtN1dkYWJhMV9rREhCVEFXcWMzRWxvY2t6S25xRGNzXzRhLW1yYTExb3NaeTd2QURIOXc?oc=5",
+        "source": "google_nl_tech",
+        "name_only": false
+      },
+      {
+        "title": "Donald Trump pouvait-il bannir Anthropic ? Un tribunal tranche en sa défaveur - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcHBWOVY2S0Y5THJyekVzSXVOamx4QWNRR0dqWm5Hc2pRYWx2MFpwMUhmOFlGajBNZGxIQUJBMjIwUGZ4eTdQc0pGeUVJdXlmU0dyZnRfZlI3VmJldER3Q1p2YTRfdWF0VHZpb3RSZlpkcE5nMkU0MFgyVFFwTEFRMTFIQ1Y4R3FnRGlmamQzU3ZnLWtsWXIweExKeWdJRDlfS2J3UUZISW5xQjRCV0dOWV9wakpTQ180WGVSMzlDd0QxYk5rbVE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Une juge fédérale suspend un décret de Donald TRump encadrant le vote par correspondance - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc2l1MmFxRk41c3lpcnRKVDdzeEJMczJMQTYzRU9OQ0cxSWZESk9INEpvRzFDNENyblhSSHBUS0lfUHlEOS15WkVfMVB3cVhEZzU5eGdvaTRYOEdtdTlMdVVFUHo5dHBuNkp0QWIyaGFOa3NrQkVmUElnUXowQkprVXF6V3pNMGM2NW1PWWdITlZ4WUtrckxiaUoxSXo0VUZHTEtGUHZhamdadUpTQm1lZ0VNSnJINklad0ZfV1lB?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump tacle le Canada avec une photo... qui raconte le contraire de ce qu’il veut dire - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZmtjbEZxc2RjdTg0dGVaSTc0UFRlLWNTQ3lPYWFOXzJwdVYtcEpreUdkSWRNSUEyZEU1cnQzUnV1cHBOUjR3ZXBhRWJPR1NjX2JZdUpkTGtpM1JPa1EteXVfRGRqMlhTbnVZTXgyaUl3YnpkSzZQSUd5dDJ4dVAyVkRQTG93a1ktWk4xQWFIZnl4NTdoTWN4djhibXpoTjgyTzdNY2tETFhLZ3psMTdRYmh2MXhrMW5oMlVB?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump doopt Lake Ontario om tot Lake America - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDF6Qy1qNjdwWUswcUZlQnRsZWJTU25YeUVZTks0QWJSTWFlTnlQNXdfTmF6NTg0NXQzc0swLXR4TlZXeUk1X1pKTFJKSFdSN2Y1REVtelVRQnlSZzVPcGlIVzFtT3NiNHhrRmp4ZmNObVU5aWNqbGdSSkI4NkdBU2NRa1FrNnBhVmRuM25LZzlBWWZpalI2U2tkbw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump doopt Lake Ontario om tot Lake America, Canada reageert dat het de naam niet verandert - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVUJncDlUSU1FOXIxb3FxcUlPQjdKTTlhNDFMay1LNTFRUlpIUmFuS2VQYXFKYm5IR01sV3V1eEFBRU9SS2lTUFJmVU1aRFFsUVdkWXcxNUZKYVUyVzh0bWtLRzZiNXl3M2NhQ2JqUzJEeENqS1pEWFEwR2YyQ2ZwRXRxTFozd29XTTZFdTlOYWtsZXNIaWoyc1QwcExDNTVCWE8xaXZIa2EtVnU5Ml96SGRHcC1Vd3VkVnlXOUpRa0dYWUhab1RINFJrdFpENUVqNHdNYnJoUERLUQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans ministerie plaatst en verwijdert vervolgens filmpje waarin Trump met Hitler wordt vergeleken",
+        "url": "https://www.hln.be/buitenland/amerikaans-ministerie-plaatst-en-verwijdert-vervolgens-filmpje-waarin-trump-met-hitler-wordt-vergeleken~aa8c927a/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live – Canadese premier lijkt niet onder de indruk van besluit Trump om Amerikameer te maken van Ontariomeer",
-        "url": "https://www.demorgen.be/snelnieuws/live-canadese-premier-lijkt-niet-onder-de-indruk-van-besluit-trump-om-amerikameer-te-maken-van-ontariomeer~b13cc951/",
+        "title": "“Als Trump ergens zijn tanden op stukbijt, dan zal het op Canada zijn”: zo diep is de wonde tussen de VS en Canada",
+        "url": "https://www.hln.be/buitenland/als-trump-ergens-zijn-tanden-op-stukbijt-dan-zal-het-op-canada-zijn-zo-diep-is-de-wonde-tussen-de-vs-en-canada~a08caf8f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Laat je niet voor de gek houden’, zei Trump nog. Toch neemt senator Dan Sullivan het in Alaska straks op tegen ... Dan Sullivan",
+        "url": "https://www.demorgen.be/nieuws/laat-je-niet-voor-de-gek-houden-zei-trump-nog-toch-neemt-senator-dan-sullivan-het-in-alaska-straks-op-tegen-dan-sullivan~b75f942b/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Een socialiste tegen een MAGA-man in de race om het Witte Huis? AOC en de Amerikaanse socialisten geloven erin",
-        "url": "https://www.gva.be/buitenland/een-socialiste-tegen-een-maga-man-in-de-race-om-het-witte-huis-aoc-en-de-amerikaanse-socialisten-geloven-erin/160617683.html",
+        "title": "Levensgevaarlijke Donald Trump-pillen duiken op in Nederland: “Gebruik ze niet”",
+        "url": "https://www.nieuwsblad.be/crimi/levensgevaarlijke-donald-trump-pillen-duiken-op-in-nederland-gebruik-ze-niet/160644270.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Levensgevaarlijke Donald Trump-pillen duiken op in Nederland: “Gebruik ze niet”",
+        "url": "https://www.gva.be/crimi/levensgevaarlijke-donald-trump-pillen-duiken-op-in-nederland-gebruik-ze-niet/160663868.html",
         "source": "gva",
-        "name_only": false
+        "name_only": true
+      },
+      {
+        "title": "Levensgevaarlijke Donald Trump-pillen duiken op in Nederland: “Gebruik ze niet”",
+        "url": "https://www.hbvl.be/extra/red/crimi/levensgevaarlijke-donald-trump-pillen-duiken-op-in-nederland-gebruik-ze-niet/160666138.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Gaza is niet te koop\": zeven mensen aangeklaagd voor het vandaliseren van het golfterrein van Trump in Schotland",
+        "url": "https://www.hbvl.be/opmerkelijk/gaza-is-niet-te-koop-zeven-mensen-aangeklaagd-voor-het-vandaliseren-van-het-golfterrein-van-trump-in-schotland/160650170.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Six mois de guerre entre les Etats-Unis et l’Iran : que reste-t-il des objectifs de Donald Trump ?",
+        "url": "https://www.rtbf.be/article/six-mois-de-guerre-entre-les-etats-unis-et-l-iran-que-reste-t-il-des-objectifs-de-donald-trump-11775960",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump a investi des millions de dollars dans des secteurs propulsés par sa guerre en Iran",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/08/28/trump-a-investi-des-millions-de-dollars-dans-des-secteurs-propulses-par-sa-guerre-en-iran-2VUGBU6NPJHENKEG5ZNJJ4PAZI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Frappes militaires à l'aide de l'IA: Anthropic obtient une victoire face à Donald Trump",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/08/28/la-justice-vient-de-contrecarrer-les-plans-de-trump-contre-anthropic-BAU4HBDIUBD7TOH3SLV7RGLY5Y/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump signe un décret changeant le nom du \"lac Ontario\" en \"lac d'Amérique\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/28/trump-signe-un-decret-changeant-le-nom-du-lac-ontario-en-lac-damerique-4C7S5ZNDHJHEHN73JDC7AWQXXA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump tacle le Canada avec une photo... qui raconte le contraire de ce qu’il veut dire",
+        "url": "https://www.7sur7.be/monde/trump-tacle-le-canada-avec-une-photo-qui-raconte-le-contraire-de-ce-quil-veut-dire~a77ee567/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump ondertekent decreet dat Ontariomeer verandert in 'Amerikameer' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQlpWWE1kM3N1LWphNnYtdDZhUXh3LWlhR3BvTGNLRDhuQkRScTUtSWtTVVVNMmZmQXZMaDJHenV4bVhMRWRuYldtdk5EZjM3UzBCOW5uX0RPcHBTSzUwdVp0WW1sRjlhLUpibDhoTUxyWUx3blowYUdFNlliWVY1UlQ1d0RxTEpPTUJLZkxpaTFtUjdVUGZENndOSnZDUjk5STJFOUk0aE50Qk54bW5QaWZYMjdEb0J4dDdjeGtDWklKOF9OZmhoU1BldlhOaW5GSENVQ0RJTQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Si la Belgique est attaquée, Donald Trump viendra-t-il à notre secours ? Bill White, son ambassadeur, répond sans détour - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMlJrdnpRUTJJZ3ZqbllEU09fTkp6ci1ZV1RzSTZQbFRFbWItbUNtZzZTUGluTlk2ZkhkX1F3bE9RTFZHT2lMeVFYU3FFclpJSy03eVhPS3ZQNGVlMXdLeTI0Rl9jcDQya3A4VG1yd1Fqd2phSE9tcW9TZldmcV9sbVpqRDhwR3VUSjdxN0lYWDBPTzJyd3dPMGFhNFp1SW9FdE9hVjRja3d6MEVNQnlnYkZYbXpyM3FBa19tazVvZGRFbVdMNTFOZWVB?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump zou chips nog duurder willen maken - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT1hKSkFLZklZWlhJZnhUOFV4dExvY3BjYzAtU05YbHNfYzlacUQybE5vQm8wMEtGZXVReGJlOU5PbzAwcjdoNjZGbkJYcEdvcVU0R1BObmpnV0lwLVJkWldLNWQzMWRONDUtUmF5ZFZ4MGFYRTd1S1hPMmhQZ0VGUFVtc2lFM1pQMUNLMXFnam8?oc=5",
+        "source": "trends_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump voudrait rendre les puces encore plus chères - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM1R1SnF4aEFPUUxFMHhQOTBISS1PcFdZYlF6TUotckEwVWxfWmFRdWhKbGQ2TnNKSENnbnl1ZTIwVFhwN25Jd3V6VWItVVZUSGItQ2VCNUpZQ3IzdmdGb2lnQUY0SUQ1TWh5NzBfS0FILW5NSXZvUXoyVUJyTEpaXzRDNVl0U2QwdnNFYjd2ZlN6YW8?oc=5",
+        "source": "tendances_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 2,
+      "trump": 17,
       "putin": 0,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
+      "de_wever": 6,
       "bouchez": 0,
       "magnette": 0,
-      "prevot": 0,
-      "rousseau": 1,
+      "prevot": 7,
+      "rousseau": 0,
       "francken": 0,
       "crevits": 0,
       "jambon": 0,
@@ -82402,18 +82654,18 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 2,
-      "putin": 0,
+      "trump": 27,
+      "putin": 1,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
+      "de_wever": 8,
       "bouchez": 0,
       "magnette": 0,
-      "prevot": 0,
-      "rousseau": 1,
+      "prevot": 8,
+      "rousseau": 0,
       "francken": 0,
       "crevits": 0,
       "jambon": 0,
@@ -82421,36 +82673,36 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 0,
-      "crime": 0,
-      "eu": 5,
-      "politics": 3,
-      "be_gov": 4,
-      "culture": 5,
-      "tech": 5,
-      "economy": 1,
-      "sports": 3,
-      "health": 0,
-      "climate": 1,
-      "migration": 0,
-      "education": 2,
-      "weather": 1
+      "war": 17,
+      "crime": 28,
+      "eu": 44,
+      "politics": 18,
+      "be_gov": 13,
+      "culture": 16,
+      "tech": 15,
+      "economy": 19,
+      "sports": 58,
+      "health": 11,
+      "climate": 3,
+      "migration": 4,
+      "education": 16,
+      "weather": 18
     },
     "wide_themes": {
-      "war": 0,
-      "crime": 0,
-      "eu": 6,
-      "politics": 4,
-      "be_gov": 5,
-      "culture": 5,
-      "tech": 6,
-      "economy": 3,
-      "sports": 8,
-      "health": 0,
-      "climate": 1,
-      "migration": 0,
-      "education": 2,
-      "weather": 1
+      "war": 25,
+      "crime": 39,
+      "eu": 64,
+      "politics": 34,
+      "be_gov": 19,
+      "culture": 18,
+      "tech": 22,
+      "economy": 32,
+      "sports": 92,
+      "health": 16,
+      "climate": 5,
+      "migration": 6,
+      "education": 18,
+      "weather": 24
     }
   }
 ]
