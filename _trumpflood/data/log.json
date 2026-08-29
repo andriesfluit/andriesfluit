@@ -82707,102 +82707,102 @@
   },
   {
     "date": "2026-08-29",
-    "generated_at": "2026-08-29T02:40:47+02:00",
-    "last_checked_at": "2026-08-29T02:40:47+02:00",
-    "total_articles": 67,
-    "trump_articles": 1,
-    "percentage": 1.5,
-    "core_percentage": 1.5,
-    "core_percentage_name": 1.5,
-    "trump_articles_expanded": 1,
-    "core_percentage_expanded": 1.5,
+    "generated_at": "2026-08-29T12:24:15+02:00",
+    "last_checked_at": "2026-08-29T12:24:15+02:00",
+    "total_articles": 464,
+    "trump_articles": 20,
+    "percentage": 4.3,
+    "core_percentage": 4.3,
+    "core_percentage_name": 4.3,
+    "trump_articles_expanded": 20,
+    "core_percentage_expanded": 4.3,
     "indirect_references": 0,
-    "wide_total_articles": 112,
-    "wide_trump_articles": 2,
-    "wide_percentage": 1.8,
-    "wide_trump_articles_expanded": 2,
-    "wide_percentage_expanded": 1.8,
-    "macro_percentage": 0.0,
-    "qualifying_outlets": 3,
+    "wide_total_articles": 623,
+    "wide_trump_articles": 32,
+    "wide_percentage": 5.1,
+    "wide_trump_articles_expanded": 32,
+    "wide_percentage_expanded": 5.1,
+    "macro_percentage": 5.4,
+    "qualifying_outlets": 20,
     "core_outlets_total": 19,
-    "core_outlets_active": 4,
-    "active_core_fraction": 0.211,
-    "cross_outlet_dup_headlines": 26,
-    "cross_outlet_dup_groups": 13,
-    "cross_outlet_dup_rate": 38.8,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 59,
+    "cross_outlet_dup_groups": 29,
+    "cross_outlet_dup_rate": 12.7,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.0,
-    "breadth": 0.25,
-    "deviation": 0.45,
-    "smoothed_pct": 2.9,
+    "dominance": 2.5,
+    "breadth": 0.62,
+    "deviation": 1.3,
+    "smoothed_pct": 3.3,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 5,
+    "theme_rank": 3,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
       },
       "google_fr": {
         "fetched": 34,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 16,
+        "kept": 16,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 18.75
       },
       "google_nl_politics": {
-        "fetched": 39,
-        "today": 4,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 41,
+        "today": 8,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 5,
-        "kept": 4,
+        "today": 12,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_business": {
         "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_tech": {
+        "fetched": 59,
         "today": 3,
-        "kept": 2,
+        "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_nl_tech": {
-        "fetched": 59,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 3,
-        "kept": 2,
+        "today": 16,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 21,
+        "fetched": 15,
         "today": 2,
         "kept": 2,
         "trump": 1,
@@ -82811,61 +82811,21 @@
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 17,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "standaard": {
-        "fetched": 50,
-        "today": 4,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "hln": {
-        "fetched": 30,
-        "today": 8,
-        "kept": 8,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 12.5
-      },
-      "demorgen": {
-        "fetched": 27,
         "today": 2,
         "kept": 2,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "nieuwsblad": {
-        "fetched": 50,
-        "today": 26,
-        "kept": 26,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "gva": {
+      "vrt": {
         "fetched": 50,
         "today": 22,
         "kept": 22,
@@ -82873,77 +82833,117 @@
         "trump_expanded": 0,
         "share": 0.0
       },
-      "hbvl": {
-        "fetched": 50,
-        "today": 16,
-        "kept": 16,
+      "standaard": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 52,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 21,
+        "kept": 21,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.52
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.12
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
+      },
       "knack": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 23,
+        "kept": 22,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "bruzz": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 4,
-        "kept": 4,
+        "today": 11,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "dhnet": {
+      "bruzz": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 8,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 12.9
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 43,
+        "kept": 43,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.65
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 55,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.64
       },
       "septsursept": {
         "fetched": 30,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 15,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
       },
       "bx1": {
         "fetched": 10,
@@ -82955,23 +82955,23 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "lesoir_g": {
-        "fetched": 100,
-        "today": 1,
-        "kept": 1,
+        "today": 3,
+        "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 26,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 0,
+        "today": 1,
         "kept": 0,
         "trump": 0,
         "trump_expanded": 0,
@@ -82979,35 +82979,35 @@
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 1,
-        "kept": 1,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 6,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "trends_g": {
-        "fetched": 100,
-        "today": 1,
-        "kept": 0,
+        "fetched": 97,
+        "today": 9,
+        "kept": 6,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "tendances_g": {
-        "fetched": 93,
-        "today": 0,
-        "kept": 0,
+        "fetched": 77,
+        "today": 15,
+        "kept": 5,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       }
     },
     "core_sources": [
@@ -83033,13 +83033,169 @@
     ],
     "matches": [
       {
-        "title": "Trump bevestigt “historische oliedeal” met Venezuela",
-        "url": "https://www.hln.be/buitenland/trump-bevestigt-historische-oliedeal-met-venezuela~a79c6d94/",
+        "title": "Als ons land ooit aangevallen wordt, “zal VS er zijn”, meent ambassadeur Bill White: “Trump houdt van België”",
+        "url": "https://www.hln.be/nieuws/als-ons-land-ooit-aangevallen-wordt-zal-vs-er-zijn-meent-ambassadeur-bill-white-trump-houdt-van-belgie~a1ff5bfe/",
         "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Autocue-bediener die geld verdiende aan toespraken van Trump krijgt boete van ruim 170.000 dollar",
+        "url": "https://www.hln.be/buitenland/autocue-bediener-die-geld-verdiende-aan-toespraken-van-trump-krijgt-boete-van-ruim-170-000-dollar~a9f0728b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Medewerker Witte Huis moet 172.000 dollar betalen omdat hij speeches van Trump gebruikte om te gokken",
+        "url": "https://www.demorgen.be/nieuws/medewerker-witte-huis-moet-172-000-dollar-betalen-omdat-hij-speeches-van-trump-gebruikte-om-te-gokken~b00a045a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump kondigt overname deel Venezolaanse olievelden aan: ‘Verdubbeling Amerikaanse oliereserves’",
+        "url": "https://www.demorgen.be/nieuws/trump-kondigt-overname-deel-venezolaanse-olievelden-aan-verdubbeling-amerikaanse-oliereserves~b4cfb983/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Medewerker Witte Huis veroordeeld tot boete van bijna 150.000 euro omdat hij wedde op speech van Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/medewerker-witte-huis-veroordeeld-tot-boete-van-bijna-150.000-euro-omdat-hij-wedde-op-speech-van-trump/160682300.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Bill White kan ons land rekenen op steun van VS: “Trump vindt België een geweldige plek”",
+        "url": "https://www.nieuwsblad.be/binnenland/volgens-bill-white-kan-ons-land-rekenen-op-steun-van-vs-trump-vindt-belgie-een-geweldige-plek/160682102.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Bill White kan ons land rekenen op steun van VS: “Trump vindt België een geweldige plek”",
+        "url": "https://www.hbvl.be/binnenland/volgens-bill-white-kan-ons-land-rekenen-op-steun-van-vs-trump-vindt-belgie-een-geweldige-plek/160682820.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump kondigt “grootste oliedeal uit de geschiedenis” aan met Venezuela – VS krijgt controle over 65 miljard vaten",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-kondigt-grootste-oliedeal-uit-de-geschiedenis-aan-met-venezuela-vs-krijgt-controle-over-65-miljard-vaten/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Six mois de guerre entre les Etats-Unis et l’Iran : que reste-t-il des objectifs de Donald Trump ?",
+        "url": "https://www.rtbf.be/article/six-mois-de-guerre-entre-les-etats-unis-et-l-iran-que-reste-t-il-des-objectifs-de-donald-trump-11775960",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "L’administration Trump sur le point de céder une petite partie du parc Yosemite",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/29/ladministration-trump-sur-le-point-de-ceder-une-petite-partie-du-parc-yosemite-TCFMMQCOUJDJTC56G2R5HNKB2A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Comment Trump considère-t-il la Belgique ? L’étonnante révélation faite par l’ambassadeur Bill White",
+        "url": "https://www.lalibre.be/belgique/politique-belge/2026/08/29/comment-trump-considere-t-il-la-belgique-letonnante-revelation-faite-par-lambassadeur-bill-white-YYPCA75WWRAPLKTJI2OVOQDAR4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Mort du roi Harald V de Norvège: le président américain Donald Trump réagit",
+        "url": "https://www.lalibre.be/international/europe/2026/08/29/mort-du-roi-harald-v-de-norvege-le-president-americain-donald-trump-reagit-PM4ESYJAKJEUNNJZNHMDMFZARM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un influenceur d'extrême droite, ex-soutien de Trump, arrêté par l'ICE",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/29/un-influenceur-dextreme-droite-ex-soutien-de-trump-arrete-par-lice-SS2GHMLLVZGNLNNNEWRRA2TZ6A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La méthode Carney face à Trump: un modèle à suivre pour l'Europe ? - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORHVOSW11Z2JPak96Q0JISnpaR0NEb29aOUw3azZjRHl1bGVTLVJydFZkQjBwWW1SU3o2WWhBblQtTGpxSEl3ZTdpZnc3RERQWFVvZm5oTmFDT0dBVVBWN1RTa2liRHVSU2NjTDVqeUVsZWl0eXlualFjemhxNFRHV0JlelV0aDVjWGFLdGtsVE5iLW9kSWdIZjFheHhvenp2RFp3M3lZWEFRVVJjZG5zbzFLZ0hkRHg5bDgwX211eGJwY09IRGRWQk9OUS1iZw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L'Union européenne, un meilleur choix? L’Islande partagée entre indépendance et crainte de Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRzE1dnJfRGJGRVNfTEl5NUJxTGdjSXpCcThZZk1jUFl5RktHdlpmbWRiNG9vS2dYVEJNaUNjMUc0eXNBSEZtaFlvdk1RdFEzNzItSFFYQk9iUk5KcTNEc09zNjdpZmpOU24tMGJuY0tZTUh0V2lNdllKVDJwWGlmcXlXSy1pXzd0UVRZcEVqRVVOa2xKcjI3bFZlN0JkWTNPaGVkdUV5OUJsZWlaSGZBV0tZTWs1SlN6RnNSQTF5TG00b3BSVFdGNWxrRWt4QWlSRDZ5M19CcmV2XzVwdENsakFEUHhPMG84QXppRDhnbXZpVEJMQUE?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L'administration Trump s'apprête à prendre une décision polémique: \"La seule chose qui lui importe, c'est de savoir s'il y a de l'argent en jeu\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/29/ladministration-trump-sapprete-a-prendre-une-decision-polemique-la-seule-chose-qui-lui-importe-cest-de-savoir-sil-y-a-de-largent-en-jeu-TSAW4D6AVJCZFKXSTA4PE5NKUY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi Donald Trump \"adore\"-t-il la Belgique? Les révélations de Bill White",
+        "url": "https://www.dhnet.be/actu/belgique/2026/08/29/pourquoi-donald-trump-adore-t-il-la-belgique-les-revelations-de-bill-white-QYERNFFVIFGLFMSRAIPG6B36D4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Une vraie grande perte”: Trump réagit à la mort du roi Harald",
+        "url": "https://www.7sur7.be/monarchies/une-vraie-grande-perte-trump-reagit-a-la-mort-du-roi-harald~a23a33eb/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Un influenceur britannique d’extrême droite, ancien soutien de Trump, arrêté par l’ICE",
+        "url": "https://www.7sur7.be/monde/un-influenceur-britannique-dextreme-droite-ancien-soutien-de-trump-arrete-par-lice~ac3eba3b/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Tollé aux Etats-Unis : l’administration Trump sur le point de céder une partie du parc Yosemite à un promoteur immobilier - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaHFuSWVqWmM5bVpIWkZYYzZsVW5fYlpENUF0aUtGR0lKcVY2U2NLOHdpMk01Z2VjNzJNWDRYd013VWZrYXNfQWFKMm5ibkhBMWlxOVJ1bTJLeUQzbHNVTUNhdHB0dnRWTGJXakZtR1NUVUtxZXN4MlViSUFIdFZHUjhkZTh2Z2FobkVPZ1BWem5CU29vREE5OWtnRGNNZFY5TXQtaWdycUtJYlppX0M0Q0JoVGI5MWhVbjdXYWFzQktHa3pD?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       }
     ],
     "wide_matches": [
+      {
+        "title": "Volgens Bill White kan ons land rekenen op steun van VS: “Trump vindt België een geweldige plek” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQOTlRQ3JfQ3l3TFhncVZYLUFnaUZoWXBtR1EwTV8zZGkzcmpiUzJqbVUxLXRpSFA5dzc1TWhIZW1wZk9kZGxzb3QtdWVvampkeHNmYVA1X0ZtWkdsYktzclJEQmtGQlktOTJzMFlCc2k4NEU1SENhUWpXbDg5X2NzX196Sm5DQmU1QndrQk90a3pKcHhQX2NtNE45SmFsN0pRZjdmb1o0aV85NC16Y2dLVEMzYWZhdEV5YUx2YmxXSHpzLTl2ejJBYlJrVHdEY0F4VXJjV2xHUW5ObGw4ZkE?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi Donald Trump \"adore\"-t-il la Belgique? Les révélations de Bill White - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWjdQaFhqaWg5eDlJNllldjlkd2labEhqd3ZtVFlUQW9MZGQtRVprWGFOQmUtRVJvT0tvV1c5Y09RalNTQTZoMFZrcGZmN2hYRlRnSGhLMXZjTXNtVF9Ja3l3Vi04aGxNUkdxSTFnU2Y4Wjh0NG5iQlV2TkFpcmpzQlBHWnJ4X2RLUk44aXdGcWs4UkRTTjVBWW1Fb3VzNFpnQjltVXphdTRsTzNZLVo4YXpoR0NjNFFVdzNfa1NxWnMtRFJUSC02OWJiak1Ia3ZneGNpMU5MQXh6QkdZU1BWVVFR?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Mort du roi Harald V de Norvège: le président américain Donald Trump réagit - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZnpETHpaUWdOOXcwTFM2QjJscHg1NlQxdGdsY2o2ak5YYTh0UVA4R2pzMTE0QTFqUExQS3BZX3dyZGRydjI1WHNFMkhyd1h3OFc5LVhYVmNiSmgtbkU0MVo5VHJIRW9UU3dVMGJCbmVjNVA4RTVqenVhUjJRMGdFSUpWa1lpRVVhZHJZZGdOOHpLck5hdEJ6NWRIb1dfU01uOWIxRll5bEVLc0otcmJSXzdkdUpPUEJmaGxnSWJzVVRjX3IzTmozeURRUF93bXloUmtHbXhwdmR5N2dPbGtURDhhZDZCYnJkX2syRUVB?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Six mois de guerre entre les Etats-Unis et l’Iran : que reste-t-il des objectifs de Donald Trump - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOWNOaGpWYkZ1MXpYMWczSVdNOE9rVEQtRHBFQzA3WjJPSm8yMXd6SHJ5aGRGNkpFbm5WRWhubmJLUGFkUVVEd3lfVUVHYXA0Z1kzd2c4Zk1hNDFsWVA4SGdIem5fTkRWS216VGxfM05ETEw4Q3ZxbFEzQ095WW5oLTVEalhBc3o2aXYycmIydlJDeG1UWGVzZkI5dkhtRkc0dzBHajRhWUZPUzdzOERLcHJqbW9fazZfMU1mZF9CdXctWHdsZzZnOU1Ubw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevestigt “historische oliedeal” met Venezuela - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeHd6azJ4U21uSHJsM2xNYXBPcWV5aFpmcHBkLXY1SFdNdzdxVWRTQ1VzT3JhaEo4SkZqa25Td0MxcmktODJYNkpoV19pY3p4QVZNTGZsaUxxbnFDY1JoaHZiSVpxYUJRWFZSNXFTLWtZSDgwUWktSXVIVG51MmhHdVNhOEZBLTdBYU15czRtTVpWZXkzczNzT0ZnbUF3TllCaW9Bby04VGdsSVpEMWhwbHlOdnBnS2Rmc1E?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis-medewerker verdiende aan speeches Trump - bnr.nl",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMkltMXl1TW82R1Y3QkE1ZDdTZ2lKMFFfZjY2S2ZyUjhJczlOTnB5Wm1GdzkyZVdTeW5ScWhHMy1YRWZpdVM0LWFwR1pVYWg0OHB6LXY0X3lFUTI1RUhkbm5nMlhsOENpdGdBQWVtR3kyOEZxUG5zVEhPNjRBS01qVWhQU0I2bldHZzh0WmpVUlQ4cDBDLUZMLWgyTHlWcy01bEE?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Autocue-bediener die geld verdiende aan toespraken van Trump krijgt boete van ruim 170.000 dollar - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWTluLWZyWjFGSDYybndBNzRfeVdVNllqWDJwRmZKZVI5a2REUzEzaWVjQjhIZDBGN2dla1pEMl9RQUZCVzU4ajZKejNSdHRiWWJ0Tnl0ZUVTSFVyMjVfelgtdEMyVnVBOXRMNmRjajVfbHMxSkpLc3BwdWI0SGw1RDVkYlVXSFNhbVpWVmpMcHJxTXU3eVdSSGVBbk1LVnRMcHprbUdyUXZ0Q3cxaGNMaG5lWUpsel9Malk4bkhiYWlJRlVWenV5LUtmQjFCZ3VCVkEw?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
       {
         "title": "Les dirigeants autochtones condamnent la décision de Trump de renommer le lac Ontario - La Presse",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSl94eTB5d2g2NnU5OW9TYTliLW9haTQwaDk3YXdnbDRhQUFIZWh5UWUycDJYNmF1MEltZ2hsZnhnUjJ5Mm8wb2xMTmgzcEZWdHdvOUdMUTlCZFZvRzJFVGNWRmNqc3hSdi1OZVQwZ0xEUEJDY3RwUjl1TjIzNGhyWjFORlNUdFBkSk5kWDRLVlZsYldDVDR3TGZ2TzN4ZjFzMHBoTjhqNndrck5oQnFVa2JycVotNTRqZkhNTXBBWnJGb1Z2cHY5Zm93RVQyY3AyVlhVNGVvbmN3TFhB?oc=5",
@@ -83047,24 +83203,162 @@
         "name_only": true
       },
       {
-        "title": "Trump bevestigt “historische oliedeal” met Venezuela",
-        "url": "https://www.hln.be/buitenland/trump-bevestigt-historische-oliedeal-met-venezuela~a79c6d94/",
+        "title": "L'administration Trump s'apprête à prendre une décision polémique: \"La seule chose qui lui importe, c'est de savoir s'il y a de l'argent en jeu\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQb3FJN0VQSEcxSUllMHJUUmY4UTZscmNaTFZMSnN5X1dBOC1pMFc2Rm9nU1d5NEFUbTNEcHhvZlpmY1JmZFVTNHlZU2xaSm96dzRTUUtnUnc2M04tUzJhYzEzZmJCUVd1bG9HUFM4eGlpaVRVcS11WjhzRmNaQ0w0WHFpS0l1UElFOVliMl9ZVUtrczRSZkNBWjcydzVqS2JkeUppbzJGY2hybmhNWWRCbkxna0RYS3EtM3B6bXRLT2hUeGxSU2VMU0pZQVJBeUJVX05idDBhV1JDSHRtTW1RcDVESzRGblozRUdZRHdFYmJHcXVIZHRZSExlU19nRFliWVVsZ0tBMG5kc1RVQXlkTXMtY1Z2ZWFKeEk5dC1GOFN5SnBYaWFVbnpOSUFtblU?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Als ons land ooit aangevallen wordt, “zal VS er zijn”, meent ambassadeur Bill White: “Trump houdt van België”",
+        "url": "https://www.hln.be/nieuws/als-ons-land-ooit-aangevallen-wordt-zal-vs-er-zijn-meent-ambassadeur-bill-white-trump-houdt-van-belgie~a1ff5bfe/",
         "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Autocue-bediener die geld verdiende aan toespraken van Trump krijgt boete van ruim 170.000 dollar",
+        "url": "https://www.hln.be/buitenland/autocue-bediener-die-geld-verdiende-aan-toespraken-van-trump-krijgt-boete-van-ruim-170-000-dollar~a9f0728b/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Medewerker Witte Huis moet 172.000 dollar betalen omdat hij speeches van Trump gebruikte om te gokken",
+        "url": "https://www.demorgen.be/nieuws/medewerker-witte-huis-moet-172-000-dollar-betalen-omdat-hij-speeches-van-trump-gebruikte-om-te-gokken~b00a045a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump kondigt overname deel Venezolaanse olievelden aan: ‘Verdubbeling Amerikaanse oliereserves’",
+        "url": "https://www.demorgen.be/nieuws/trump-kondigt-overname-deel-venezolaanse-olievelden-aan-verdubbeling-amerikaanse-oliereserves~b4cfb983/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Medewerker Witte Huis veroordeeld tot boete van bijna 150.000 euro omdat hij wedde op speech van Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/medewerker-witte-huis-veroordeeld-tot-boete-van-bijna-150.000-euro-omdat-hij-wedde-op-speech-van-trump/160682300.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Bill White kan ons land rekenen op steun van VS: “Trump vindt België een geweldige plek”",
+        "url": "https://www.nieuwsblad.be/binnenland/volgens-bill-white-kan-ons-land-rekenen-op-steun-van-vs-trump-vindt-belgie-een-geweldige-plek/160682102.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Medewerker Witte Huis veroordeeld tot boete van bijna 150.000 euro omdat hij wedde op speech van Trump",
+        "url": "https://www.gva.be/buitenland/medewerker-witte-huis-veroordeeld-tot-boete-van-bijna-150.000-euro-omdat-hij-wedde-op-speech-van-trump/160684210.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Bill White kan ons land rekenen op steun van VS: “Trump vindt België een geweldige plek”",
+        "url": "https://www.gva.be/binnenland/volgens-bill-white-kan-ons-land-rekenen-op-steun-van-vs-trump-vindt-belgie-een-geweldige-plek/160682571.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump kondigt “grootste oliedeal uit de geschiedenis” aan met Venezuela – VS krijgt controle over 65 miljard vaten",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-kondigt-grootste-oliedeal-uit-de-geschiedenis-aan-met-venezuela-vs-krijgt-controle-over-65-miljard-vaten/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Bill White kan ons land rekenen op steun van VS: “Trump vindt België een geweldige plek”",
+        "url": "https://www.hbvl.be/binnenland/volgens-bill-white-kan-ons-land-rekenen-op-steun-van-vs-trump-vindt-belgie-een-geweldige-plek/160682820.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump kondigt “grootste oliedeal uit de geschiedenis” aan met Venezuela – VS krijgt controle over 65 miljard vaten",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-kondigt-grootste-oliedeal-uit-de-geschiedenis-aan-met-venezuela-vs-krijgt-controle-over-65-miljard-vaten/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Six mois de guerre entre les Etats-Unis et l’Iran : que reste-t-il des objectifs de Donald Trump ?",
+        "url": "https://www.rtbf.be/article/six-mois-de-guerre-entre-les-etats-unis-et-l-iran-que-reste-t-il-des-objectifs-de-donald-trump-11775960",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "L’administration Trump sur le point de céder une petite partie du parc Yosemite",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/29/ladministration-trump-sur-le-point-de-ceder-une-petite-partie-du-parc-yosemite-TCFMMQCOUJDJTC56G2R5HNKB2A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Comment Trump considère-t-il la Belgique ? L’étonnante révélation faite par l’ambassadeur Bill White",
+        "url": "https://www.lalibre.be/belgique/politique-belge/2026/08/29/comment-trump-considere-t-il-la-belgique-letonnante-revelation-faite-par-lambassadeur-bill-white-YYPCA75WWRAPLKTJI2OVOQDAR4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Mort du roi Harald V de Norvège: le président américain Donald Trump réagit",
+        "url": "https://www.lalibre.be/international/europe/2026/08/29/mort-du-roi-harald-v-de-norvege-le-president-americain-donald-trump-reagit-PM4ESYJAKJEUNNJZNHMDMFZARM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un influenceur d'extrême droite, ex-soutien de Trump, arrêté par l'ICE",
+        "url": "https://www.lalibre.be/international/amerique/2026/08/29/un-influenceur-dextreme-droite-ex-soutien-de-trump-arrete-par-lice-SS2GHMLLVZGNLNNNEWRRA2TZ6A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La méthode Carney face à Trump: un modèle à suivre pour l'Europe ? - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORHVOSW11Z2JPak96Q0JISnpaR0NEb29aOUw3azZjRHl1bGVTLVJydFZkQjBwWW1SU3o2WWhBblQtTGpxSEl3ZTdpZnc3RERQWFVvZm5oTmFDT0dBVVBWN1RTa2liRHVSU2NjTDVqeUVsZWl0eXlualFjemhxNFRHV0JlelV0aDVjWGFLdGtsVE5iLW9kSWdIZjFheHhvenp2RFp3M3lZWEFRVVJjZG5zbzFLZ0hkRHg5bDgwX211eGJwY09IRGRWQk9OUS1iZw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L'Union européenne, un meilleur choix? L’Islande partagée entre indépendance et crainte de Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRzE1dnJfRGJGRVNfTEl5NUJxTGdjSXpCcThZZk1jUFl5RktHdlpmbWRiNG9vS2dYVEJNaUNjMUc0eXNBSEZtaFlvdk1RdFEzNzItSFFYQk9iUk5KcTNEc09zNjdpZmpOU24tMGJuY0tZTUh0V2lNdllKVDJwWGlmcXlXSy1pXzd0UVRZcEVqRVVOa2xKcjI3bFZlN0JkWTNPaGVkdUV5OUJsZWlaSGZBV0tZTWs1SlN6RnNSQTF5TG00b3BSVFdGNWxrRWt4QWlSRDZ5M19CcmV2XzVwdENsakFEUHhPMG84QXppRDhnbXZpVEJMQUE?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L'administration Trump s'apprête à prendre une décision polémique: \"La seule chose qui lui importe, c'est de savoir s'il y a de l'argent en jeu\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/08/29/ladministration-trump-sapprete-a-prendre-une-decision-polemique-la-seule-chose-qui-lui-importe-cest-de-savoir-sil-y-a-de-largent-en-jeu-TSAW4D6AVJCZFKXSTA4PE5NKUY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi Donald Trump \"adore\"-t-il la Belgique? Les révélations de Bill White",
+        "url": "https://www.dhnet.be/actu/belgique/2026/08/29/pourquoi-donald-trump-adore-t-il-la-belgique-les-revelations-de-bill-white-QYERNFFVIFGLFMSRAIPG6B36D4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Une vraie grande perte”: Trump réagit à la mort du roi Harald",
+        "url": "https://www.7sur7.be/monarchies/une-vraie-grande-perte-trump-reagit-a-la-mort-du-roi-harald~a23a33eb/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Un influenceur britannique d’extrême droite, ancien soutien de Trump, arrêté par l’ICE",
+        "url": "https://www.7sur7.be/monde/un-influenceur-britannique-dextreme-droite-ancien-soutien-de-trump-arrete-par-lice~ac3eba3b/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Tollé aux Etats-Unis : l’administration Trump sur le point de céder une partie du parc Yosemite à un promoteur immobilier - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaHFuSWVqWmM5bVpIWkZYYzZsVW5fYlpENUF0aUtGR0lKcVY2U2NLOHdpMk01Z2VjNzJNWDRYd013VWZrYXNfQWFKMm5ibkhBMWlxOVJ1bTJLeUQzbHNVTUNhdHB0dnRWTGJXakZtR1NUVUtxZXN4MlViSUFIdFZHUjhkZTh2Z2FobkVPZ1BWem5CU29vREE5OWtnRGNNZFY5TXQtaWdycUtJYlppX0M0Q0JoVGI5MWhVbjdXYWFzQktHa3pD?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 1,
-      "putin": 0,
+      "trump": 20,
+      "putin": 1,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 1,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 0,
+      "de_wever": 3,
+      "bouchez": 1,
       "magnette": 0,
-      "prevot": 0,
+      "prevot": 2,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
@@ -83073,55 +83367,55 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 2,
+      "trump": 32,
       "putin": 1,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 1,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 0,
+      "de_wever": 6,
+      "bouchez": 1,
       "magnette": 0,
-      "prevot": 2,
+      "prevot": 3,
       "rousseau": 0,
-      "francken": 1,
+      "francken": 3,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 0,
-      "crime": 0,
-      "eu": 1,
-      "politics": 1,
-      "be_gov": 0,
-      "culture": 6,
-      "tech": 2,
-      "economy": 1,
-      "sports": 4,
-      "health": 0,
-      "climate": 1,
-      "migration": 0,
-      "education": 0,
-      "weather": 2
+      "war": 17,
+      "crime": 12,
+      "eu": 22,
+      "politics": 17,
+      "be_gov": 14,
+      "culture": 8,
+      "tech": 4,
+      "economy": 9,
+      "sports": 39,
+      "health": 4,
+      "climate": 5,
+      "migration": 2,
+      "education": 8,
+      "weather": 9
     },
     "wide_themes": {
-      "war": 1,
-      "crime": 1,
-      "eu": 4,
-      "politics": 5,
-      "be_gov": 1,
-      "culture": 10,
-      "tech": 3,
-      "economy": 3,
-      "sports": 5,
-      "health": 0,
-      "climate": 2,
-      "migration": 0,
-      "education": 0,
-      "weather": 3
+      "war": 24,
+      "crime": 17,
+      "eu": 27,
+      "politics": 25,
+      "be_gov": 21,
+      "culture": 9,
+      "tech": 5,
+      "economy": 9,
+      "sports": 56,
+      "health": 9,
+      "climate": 6,
+      "migration": 2,
+      "education": 11,
+      "weather": 10
     }
   }
 ]
