@@ -82704,5 +82704,424 @@
       "education": 18,
       "weather": 24
     }
+  },
+  {
+    "date": "2026-08-29",
+    "generated_at": "2026-08-29T02:40:47+02:00",
+    "last_checked_at": "2026-08-29T02:40:47+02:00",
+    "total_articles": 67,
+    "trump_articles": 1,
+    "percentage": 1.5,
+    "core_percentage": 1.5,
+    "core_percentage_name": 1.5,
+    "trump_articles_expanded": 1,
+    "core_percentage_expanded": 1.5,
+    "indirect_references": 0,
+    "wide_total_articles": 112,
+    "wide_trump_articles": 2,
+    "wide_percentage": 1.8,
+    "wide_trump_articles_expanded": 2,
+    "wide_percentage_expanded": 1.8,
+    "macro_percentage": 0.0,
+    "qualifying_outlets": 3,
+    "core_outlets_total": 19,
+    "core_outlets_active": 4,
+    "active_core_fraction": 0.211,
+    "cross_outlet_dup_headlines": 26,
+    "cross_outlet_dup_groups": 13,
+    "cross_outlet_dup_rate": 38.8,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 0.25,
+    "deviation": 0.45,
+    "smoothed_pct": 2.9,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_politics": {
+        "fetched": 39,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 59,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 21,
+        "today": 2,
+        "kept": 2,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 50.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "standaard": {
+        "fetched": 50,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 93,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump bevestigt “historische oliedeal” met Venezuela",
+        "url": "https://www.hln.be/buitenland/trump-bevestigt-historische-oliedeal-met-venezuela~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Les dirigeants autochtones condamnent la décision de Trump de renommer le lac Ontario - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSl94eTB5d2g2NnU5OW9TYTliLW9haTQwaDk3YXdnbDRhQUFIZWh5UWUycDJYNmF1MEltZ2hsZnhnUjJ5Mm8wb2xMTmgzcEZWdHdvOUdMUTlCZFZvRzJFVGNWRmNqc3hSdi1OZVQwZ0xEUEJDY3RwUjl1TjIzNGhyWjFORlNUdFBkSk5kWDRLVlZsYldDVDR3TGZ2TzN4ZjFzMHBoTjhqNndrck5oQnFVa2JycVotNTRqZkhNTXBBWnJGb1Z2cHY5Zm93RVQyY3AyVlhVNGVvbmN3TFhB?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevestigt “historische oliedeal” met Venezuela",
+        "url": "https://www.hln.be/buitenland/trump-bevestigt-historische-oliedeal-met-venezuela~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 1,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 2,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 0,
+      "crime": 0,
+      "eu": 1,
+      "politics": 1,
+      "be_gov": 0,
+      "culture": 6,
+      "tech": 2,
+      "economy": 1,
+      "sports": 4,
+      "health": 0,
+      "climate": 1,
+      "migration": 0,
+      "education": 0,
+      "weather": 2
+    },
+    "wide_themes": {
+      "war": 1,
+      "crime": 1,
+      "eu": 4,
+      "politics": 5,
+      "be_gov": 1,
+      "culture": 10,
+      "tech": 3,
+      "economy": 3,
+      "sports": 5,
+      "health": 0,
+      "climate": 2,
+      "migration": 0,
+      "education": 0,
+      "weather": 3
+    }
   }
 ]
