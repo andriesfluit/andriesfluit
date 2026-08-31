@@ -83833,139 +83833,139 @@
   },
   {
     "date": "2026-08-31",
-    "generated_at": "2026-08-31T12:03:53+02:00",
-    "last_checked_at": "2026-08-31T12:03:53+02:00",
-    "total_articles": 600,
-    "trump_articles": 3,
-    "percentage": 0.5,
-    "core_percentage": 0.5,
-    "core_percentage_name": 0.5,
-    "trump_articles_expanded": 3,
-    "core_percentage_expanded": 0.5,
+    "generated_at": "2026-08-31T19:42:00+02:00",
+    "last_checked_at": "2026-08-31T19:42:00+02:00",
+    "total_articles": 937,
+    "trump_articles": 13,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "core_percentage_name": 1.4,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 1.4,
     "indirect_references": 0,
-    "wide_total_articles": 814,
-    "wide_trump_articles": 6,
-    "wide_percentage": 0.7,
-    "wide_trump_articles_expanded": 6,
-    "wide_percentage_expanded": 0.7,
-    "macro_percentage": 0.8,
-    "qualifying_outlets": 25,
+    "wide_total_articles": 1311,
+    "wide_trump_articles": 18,
+    "wide_percentage": 1.4,
+    "wide_trump_articles_expanded": 19,
+    "wide_percentage_expanded": 1.4,
+    "macro_percentage": 1.7,
+    "qualifying_outlets": 33,
     "core_outlets_total": 19,
-    "core_outlets_active": 18,
-    "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 40,
-    "cross_outlet_dup_groups": 20,
-    "cross_outlet_dup_rate": 6.7,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Below a normal president's ordinary day.",
-    "rank": 2,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 57,
+    "cross_outlet_dup_groups": 28,
+    "cross_outlet_dup_rate": 6.1,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
     "n_people": 17,
-    "dominance": 0.12,
-    "breadth": 0.11,
-    "deviation": 0.15,
-    "smoothed_pct": 2.39,
+    "dominance": 0.57,
+    "breadth": 0.47,
+    "deviation": 0.42,
+    "smoothed_pct": 2.51,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 15,
+    "theme_rank": 10,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 29,
-        "kept": 29,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.45
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 24,
-        "kept": 24,
+        "today": 31,
+        "kept": 31,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 41,
-        "today": 8,
-        "kept": 8,
+        "fetched": 45,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 16,
-        "kept": 11,
+        "today": 35,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 6.45
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 40,
+        "kept": 36,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_nl_business": {
-        "fetched": 70,
-        "today": 20,
-        "kept": 16,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 6.25
-      },
       "google_nl_tech": {
-        "fetched": 62,
-        "today": 6,
-        "kept": 6,
+        "fetched": 70,
+        "today": 19,
+        "kept": 15,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 25,
-        "kept": 21,
+        "today": 43,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 20,
-        "today": 3,
-        "kept": 3,
+        "fetched": 24,
+        "today": 15,
+        "kept": 15,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 33.33
+        "share": 6.67
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 13,
-        "kept": 8,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 28,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
       },
       "google_fr_business": {
-        "fetched": 56,
-        "today": 11,
-        "kept": 9,
+        "fetched": 70,
+        "today": 33,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 29,
-        "kept": 29,
+        "today": 46,
+        "kept": 46,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 72,
-        "kept": 41,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 87,
+        "kept": 66,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.52
       },
       "hln": {
         "fetched": 30,
@@ -83977,16 +83977,16 @@
       },
       "demorgen": {
         "fetched": 28,
-        "today": 21,
-        "kept": 21,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.76
+        "today": 23,
+        "kept": 23,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 17.39
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 49,
-        "kept": 49,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -84002,36 +84002,20 @@
       "hbvl": {
         "fetched": 50,
         "today": 50,
-        "kept": 49,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 21,
-        "kept": 20,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 56,
+        "kept": 53,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.89
       },
       "sporza": {
-        "fetched": 20,
-        "today": 11,
-        "kept": 11,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "bruzz": {
-        "fetched": 100,
-        "today": 8,
-        "kept": 8,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "rtbf": {
         "fetched": 20,
         "today": 17,
         "kept": 17,
@@ -84039,37 +84023,53 @@
         "trump_expanded": 0,
         "share": 0.0
       },
-      "lalibre": {
-        "fetched": 100,
-        "today": 34,
-        "kept": 34,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 5.88
-      },
-      "lecho": {
+      "bruzz": {
         "fetched": 100,
         "today": 29,
-        "kept": 28,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "rtbf": {
+        "fetched": 20,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 70,
+        "kept": 70,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.86
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 84,
+        "kept": 81,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.23
+      },
       "dhnet": {
         "fetched": 100,
-        "today": 82,
-        "kept": 82,
+        "today": 97,
+        "kept": 96,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "septsursept": {
         "fetched": 30,
-        "today": 28,
-        "kept": 28,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "bx1": {
         "fetched": 10,
@@ -84081,56 +84081,56 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 70,
-        "kept": 68,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 79,
+        "kept": 67,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.49
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 58,
-        "kept": 46,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 72,
+        "kept": 64,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.56
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 17,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 52,
+        "kept": 51,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.96
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 18,
-        "kept": 18,
+        "today": 51,
+        "kept": 51,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 98,
-        "today": 19,
-        "kept": 14,
+        "fetched": 99,
+        "today": 56,
+        "kept": 51,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 73,
-        "today": 9,
-        "kept": 3,
+        "fetched": 89,
+        "today": 38,
+        "kept": 22,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 42,
-        "today": 7,
-        "kept": 7,
+        "fetched": 48,
+        "today": 25,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -84159,9 +84159,39 @@
     ],
     "matches": [
       {
-        "title": "Canada dient Trump van repliek na omdoping grensmeer: ‘We zullen ons nooit laten intimideren’",
-        "url": "https://www.demorgen.be/nieuws/canada-dient-trump-van-repliek-na-omdoping-grensmeer-we-zullen-ons-nooit-laten-intimideren~b00b09e6/",
+        "title": "Waarom Trumps oliegok in Venezuela ook veel Amerikanen (nog) niet kan overtuigen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR0F6NWl3d1pGZU9JSGhpT1ZUQ0otdHctTHNlNVNoVFBIZUhCbmJEMGNsR0Z1Y1ljSGRoMjRsSlhrWjdHTy1jZ3J3em9mNnhGaXh0ZGFMaTQwQ3dOejBoSHdKVndaUUFnc0F6N1ZxTW93cUFfY21ZUlZQWjhqSGkwWWItbUxfUHQxNGtNaktXYWtRbFFGODRUR0UxUW1hLVBFb1IxaXhiQzJldDc2ZWxYX2FLM2d6NjlRc3g3WVRpSnNzRzNTenc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt met aanval op cruciaal Iraans olie-eiland Kharg: ‘Iran zou verwoestend terugslaan’",
+        "url": "https://www.demorgen.be/nieuws/trump-dreigt-met-aanval-op-cruciaal-iraans-olie-eiland-kharg-iran-zou-verwoestend-terugslaan~b768e635/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump-fan en pleitbezorger van deportaties nu zelf de VS uitgezet",
+        "url": "https://www.demorgen.be/nieuws/trump-fan-en-pleitbezorger-van-deportaties-nu-zelf-de-vs-uitgezet~b03a4130/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Canada dient Trump van repliek na naamsverandering grensmeer: ‘We zullen ons nooit laten intimideren’",
+        "url": "https://www.demorgen.be/nieuws/canada-dient-trump-van-repliek-na-naamsverandering-grensmeer-we-zullen-ons-nooit-laten-intimideren~b00b09e6/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump dreigt Iran ‘hard’ te treffen na aanval op basissen in Jordanië • Iraanse president: ‘Voortzetten oorlog niet in ons belang’",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-vallen-weer-iraanse-doelen-aan-iran-slaat-terug-met-aanvallen-op-amerikaanse-troepen-in-jordanie~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Wat zit achter Trumps ‘grootste oliedeal ooit’ met Venezuela? En wat betekent het voor de markt? - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTkVKWU9Rd2ZvemNXYk8zTzM0VW9CSU5yVUQzeEVxSVd0VWNTLXVmdEtrUEJ0ZGdLaTlBeTlnMHJwSE1UYnlEZ0pVVTQ0SkQ5c2taUnlNSDFKMWZvbGk0Z1JfYmNjMS00THV4dDA4NDF5TktHR2hMQVd0WjVhaGhzd3B3eHlQMEhmY3U1eThBaEQxT3NFRDhxSDJmZVJKY3d1UlJZUlU4NnkzQnBkamZWRnBzTjZjWHZLQW1Fa0VpYVZEbmctUVQyZ25Xbm9lQTZBWldmSTJmZEhzX0l1U3hv?oc=5",
+        "source": "knack",
         "name_only": true
       },
       {
@@ -84175,19 +84205,55 @@
         "url": "https://www.lalibre.be/economie/conjoncture/2026/08/31/droits-de-douane-guerre-en-iran-tensions-avec-le-canada-trump-met-le-g20-sous-pression-Q3Z3UKX5BJHUNJ7RKVV227UHZM/",
         "source": "lalibre",
         "name_only": true
+      },
+      {
+        "title": "Alejandro Betancourt, le sulfureux homme de paille derrière le deal pétrolier de Trump au Venezuela - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNTmQzc3VDRzFyXzJtNS12UlVDS2N4cXQ3LUdWMUw0UE4yeHJlVWlZRHhfWmFNVTZ3aGV4UHd6eFdoYS05UVBKYnpiUl9iTmROcGVLMWdnZ2o4YkpUVmxFMUlIMU1kbEs3cU9neHpWRE83dnJscVFMam0zUDd5SHpRV2duX3Z6THdETVU2UjhOanh3UzB6ZDdnY0ZCamZnYmUyUjhaeXJLbW9yb2xwNkJyRndyUFI2c1ZkcF84NDk3YlNCMFNiWjlMWHRPU3ZoN3Q1eTI5ZUJXc3BvX2liMzhEWW9WbkdoSlY4V0ZQdXlfS1hVMlZHVklCSEpHVkdwdGM?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace à nouveau l’Iran: “Nous allons les frapper fort”",
+        "url": "https://www.7sur7.be/monde/trump-menace-a-nouveau-liran-nous-allons-les-frapper-fort~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Alejandro Betancourt, dubieuze stroman van Trumps oliedeal in Venezuela - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY25KZXNjdUg5YzZXWUZGcFVVRklvWXpiRGx0bjJ5QWRONUh5RlN0VVA2MzhuREZnejlXeDVuSlVwOF9DdXVKVjVSLXJGeXczYmF5YlFlSmQxM0NBYThGSXJ6ZmdMLWVwZ3pjTW03WmROeHZ6UmdGQmhzUmh2U0VEWkJFLTNkUHdITjdoWXhycERZY0dQOG1Lb2R0RGRNemZ4ZFI3UUhEM3JLMUtOS25yc3F1cXF0U25peklxUUwweFV3WUFxYzlR?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump promet de « répondre » aux attaques de l’Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVFFTZDJWQjJDNXg3MXRqV0I0dGFTeEZhOXdYWm9ZcnhpTlFhb0o4aU13NVQ2bThuRW9HcmhZTUdnNEViRkFFcllnN1k3Q3ZiNm0zVW5meTRGWERBV25UU0lpTkt4d1hZQ09ocnd1Q19YVUFtbkFJOEM2Yk5oQUJFWmJ6OThqSVpITzY5NmFoZm9NekdkLVJBNWZBcmZfSUxUX0tV?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Ils veulent finir arriérés et pauvres » : Donald Trump s’en prend violemment aux opposants aux data centers - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVHFyTW81QW5MY0FqZThwNzdFcWpxYmxkLTJENmE1MUdEejR3Zk1mbGJsX3lMci1JbmM2TFJwbEEydG50MzVWTE51M3dJRnV3WW56SFhkT1RBSURKbWRDSzhGRV9JbXdyNjAwY3dQRnliWDNTMTNBeU03Rk1QOHYtcVNidjY3LUVfb2lWVEVuaktfZEJiZ2RwaTE5anlYaVU0YWYza2RWbVZsdkJFT1ZxNE5ZV2dVYlNRMzlxdUttVXlkU1h5eEE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Trump dreigt met sancties tegen NBC-journalist Kristen Welker vanwege kritische opmerking over voorverkiezingen - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOMXR4alhzVHRuOUFfdkZDRUd0aW83X1d3WWtVbkRRXzVVWndyeWRqZ1RfNDkwTmtWYTF6WEpRRG9pX1M5REVqZnVycVpGZEY1ekd5Mnh5Vndsb3NaMU81YWxkWFRPbTFTWEkwcG1DeTRSS0FnUDVZRjFENFNLSDlQZDNfSkFMY2tIMXViaEV3eV9TdTI1UU9SMjdJc2JRR0JTcDdMekNxbV9FM25WUVpNY0h3WGRxcGM1Nk93WFItVmU4M3VuMUFlTjZ6VUJEdDlUM0NYMnFLUXd4R0ppWkpBN3RGbVJ1ZkhVSHVrQkVldEtkT28?oc=5",
-        "source": "google_nl",
+        "title": "Canada dient Trump van repliek na naamsverandering grensmeer: ‘We zullen ons nooit laten intimideren’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcU9UbWVxRFA0al9ld1BjREduZTQ3em9jSUJUTzBVQ2d5OThsRGVWWExDRzdiWG5nMzdMS2k1dG5pTjU5X2VTYWpsOXBta3ZNVGFpbXN5Tk0tMjlhWXZSeDVEQU9mNVl2ZjBtdkZHaGhIUm5tUXVESXZ4cEhleGlIVFVOajJBaFd1VFpPcm1qLXh1M1EyRkYtOW40ZGxSRVZkbHd1a0pJWTRDUEtJN2RYYWJDUUJjX2JJRGRBZ1ZpX283NWdsM0Nvb2xkRndBVHo5aERkcUpn?oc=5",
+        "source": "google_nl_world",
         "name_only": true
       },
       {
-        "title": "Waarom Trumps oliegok in Venezuela ook veel Amerikanen (nog) niet kan overtuigen - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR0F6NWl3d1pGZU9JSGhpT1ZUQ0otdHctTHNlNVNoVFBIZUhCbmJEMGNsR0Z1Y1ljSGRoMjRsSlhrWjdHTy1jZ3J3em9mNnhGaXh0ZGFMaTQwQ3dOejBoSHdKVndaUUFnc0F6N1ZxTW93cUFfY21ZUlZQWjhqSGkwWWItbUxfUHQxNGtNaktXYWtRbFFGODRUR0UxUW1hLVBFb1IxaXhiQzJldDc2ZWxYX2FLM2d6NjlRc3g3WVRpSnNzRzNTenc?oc=5",
-        "source": "google_nl_business",
+        "title": "Amerikaanse president haalt hard uit naar journaliste en bestempelt haar uitspraak als bedreiging voor het land - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRlFZNjJuLWNYc0NCaG45b00xdkxJY05EbTYtLTZCbF9jV2xSeFZWMjl4RjlyZW5MZzBlNW5YanFWX1dvNUpBUXI1SDhBQ0pfcDVTaGc3SnVWZHdlYUlxdm9aRFpjbFVEZmlfSDFRLU1TME5FSHR0NzBsU3RsaGtPMkJtRm4wMjBpaldzNnQwcnlCNXRNZzg5Z3RLUnNZUFl2OU9WWF9iaTAwTmExT3duTVpQLW9HVkduZG9LUzZZMHBsak9mU0ZUSUlrR2xDVHVsY1dRaDlEaUhROWhiSHRyTDdNV1N6VVRYZWlNUFRrYmE5UmxhS0E?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "In ongenade gevallen mediafiguur uit invloedssfeer Donald Trump is uitgezet naar thuisland Verenigd Koninkrijk - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQX040RWdlLV93b20zQ3ZmYjQ1Y191U0pPLVk4Y1JualprMHhNM3p6RlkxWmdjbTZ1VUdXRlBlVFRaWUNjNlJSSHVmc1VYSEFEaDUtZ1REV0RfZDdWQXZzVG1BQUptY3ZvcUhjRTVzT0dtQUxRR0FtRWhZZS1sT1F2NjhiWFJ0R1Foa21yVTEydjVHTFpMdGZGZ2ZOLWZSRHB2SVBXc2lCcmd1cFRscFNYS2lKQWYyZURKNTk3QnhaZVJKd1pYY25RVUNvN3RqejlhZkR1dVBzNHhMT1RJOFEyVGdFcVpzTU1NdjZycHNvWEJMbmR6QlgtVG1lMm1TbXNKbUxvbFNBQkcyUnBE?oc=5",
+        "source": "google_nl_world",
         "name_only": true
       },
       {
@@ -84197,9 +84263,51 @@
         "name_only": true
       },
       {
-        "title": "Canada dient Trump van repliek na omdoping grensmeer: ‘We zullen ons nooit laten intimideren’",
-        "url": "https://www.demorgen.be/nieuws/canada-dient-trump-van-repliek-na-omdoping-grensmeer-we-zullen-ons-nooit-laten-intimideren~b00b09e6/",
+        "title": "Donald Trump a eu ce qu’il voulait : sur Google Maps (aux USA), le lac Ontario est devenu le lac d’Amérique - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWDZseE9HSUJ3cVoxZ3F3S1M3RWZoUzQwTzhsWWJUTVYzS3ZLMWFIUkcyTWRMSHhOcFl0N1FzN010dW1iSzVCVWhqMGZrN0pjRUdVcHpaZWRmR1NfbWZmN1lfM3V5V2JMYUliRFB2cThqWXJ3TFVxcnJGb3hGVlFDVVR4VWdKc29xdXhZOWFXRXdxaEJmWWtHM2dpMm9hWWkxejNuUHBuTmhmWml1ell3N1JCVkIyYko0OXpzNTRJSlh4NkZuQV8xcmRoU3NOTjVXQ1Y1bFY3N2o4NHJJ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump met la main sur un cinquième des réserves vénézuéliennes de pétrole - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaFhhMmpfM09nbDhnNjg3cDFtTGg2Y3g5bWR5aGVvZGlXaXhtNXA5Q0RtZjJ0Ul9sa3kxS1FDRE1ndkRlTmVIYmpHYjJWYUM5VkFXX1I3X215X1FRckI0NFNMQjkyTjVzTEdJT1RnWWNFMktzLUdIamlYSUhxNXR1UkZBN3lIZTB6dlNxUjM5Yktlem56dWJWT0RsLTZmN3VEVHZNTHNHaE5kd0xmRXNrazhSMkhZZTNfaFFwWEF2UE1iNlRpR0lib29FUFNqeWVkRzNoOC04YXppSmRpSHZUZWlKNXdVQThtZld4Yg?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Waarom Trumps oliegok in Venezuela ook veel Amerikanen (nog) niet kan overtuigen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR0F6NWl3d1pGZU9JSGhpT1ZUQ0otdHctTHNlNVNoVFBIZUhCbmJEMGNsR0Z1Y1ljSGRoMjRsSlhrWjdHTy1jZ3J3em9mNnhGaXh0ZGFMaTQwQ3dOejBoSHdKVndaUUFnc0F6N1ZxTW93cUFfY21ZUlZQWjhqSGkwWWItbUxfUHQxNGtNaktXYWtRbFFGODRUR0UxUW1hLVBFb1IxaXhiQzJldDc2ZWxYX2FLM2d6NjlRc3g3WVRpSnNzRzNTenc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt met aanval op cruciaal Iraans olie-eiland Kharg: ‘Iran zou verwoestend terugslaan’",
+        "url": "https://www.demorgen.be/nieuws/trump-dreigt-met-aanval-op-cruciaal-iraans-olie-eiland-kharg-iran-zou-verwoestend-terugslaan~b768e635/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump-fan en pleitbezorger van deportaties nu zelf de VS uitgezet",
+        "url": "https://www.demorgen.be/nieuws/trump-fan-en-pleitbezorger-van-deportaties-nu-zelf-de-vs-uitgezet~b03a4130/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Canada dient Trump van repliek na naamsverandering grensmeer: ‘We zullen ons nooit laten intimideren’",
+        "url": "https://www.demorgen.be/nieuws/canada-dient-trump-van-repliek-na-naamsverandering-grensmeer-we-zullen-ons-nooit-laten-intimideren~b00b09e6/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump dreigt Iran ‘hard’ te treffen na aanval op basissen in Jordanië • Iraanse president: ‘Voortzetten oorlog niet in ons belang’",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-vallen-weer-iraanse-doelen-aan-iran-slaat-terug-met-aanvallen-op-amerikaanse-troepen-in-jordanie~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Wat zit achter Trumps ‘grootste oliedeal ooit’ met Venezuela? En wat betekent het voor de markt? - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTkVKWU9Rd2ZvemNXYk8zTzM0VW9CSU5yVUQzeEVxSVd0VWNTLXVmdEtrUEJ0ZGdLaTlBeTlnMHJwSE1UYnlEZ0pVVTQ0SkQ5c2taUnlNSDFKMWZvbGk0Z1JfYmNjMS00THV4dDA4NDF5TktHR2hMQVd0WjVhaGhzd3B3eHlQMEhmY3U1eThBaEQxT3NFRDhxSDJmZVJKY3d1UlJZUlU4NnkzQnBkamZWRnBzTjZjWHZLQW1Fa0VpYVZEbmctUVQyZ25Xbm9lQTZBWldmSTJmZEhzX0l1U3hv?oc=5",
+        "source": "knack",
         "name_only": true
       },
       {
@@ -84213,77 +84321,107 @@
         "url": "https://www.lalibre.be/economie/conjoncture/2026/08/31/droits-de-douane-guerre-en-iran-tensions-avec-le-canada-trump-met-le-g20-sous-pression-Q3Z3UKX5BJHUNJ7RKVV227UHZM/",
         "source": "lalibre",
         "name_only": true
+      },
+      {
+        "title": "Alejandro Betancourt, le sulfureux homme de paille derrière le deal pétrolier de Trump au Venezuela - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNTmQzc3VDRzFyXzJtNS12UlVDS2N4cXQ3LUdWMUw0UE4yeHJlVWlZRHhfWmFNVTZ3aGV4UHd6eFdoYS05UVBKYnpiUl9iTmROcGVLMWdnZ2o4YkpUVmxFMUlIMU1kbEs3cU9neHpWRE83dnJscVFMam0zUDd5SHpRV2duX3Z6THdETVU2UjhOanh3UzB6ZDdnY0ZCamZnYmUyUjhaeXJLbW9yb2xwNkJyRndyUFI2c1ZkcF84NDk3YlNCMFNiWjlMWHRPU3ZoN3Q1eTI5ZUJXc3BvX2liMzhEWW9WbkdoSlY4V0ZQdXlfS1hVMlZHVklCSEpHVkdwdGM?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace à nouveau l’Iran: “Nous allons les frapper fort”",
+        "url": "https://www.7sur7.be/monde/trump-menace-a-nouveau-liran-nous-allons-les-frapper-fort~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Alejandro Betancourt, dubieuze stroman van Trumps oliedeal in Venezuela - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY25KZXNjdUg5YzZXWUZGcFVVRklvWXpiRGx0bjJ5QWRONUh5RlN0VVA2MzhuREZnejlXeDVuSlVwOF9DdXVKVjVSLXJGeXczYmF5YlFlSmQxM0NBYThGSXJ6ZmdMLWVwZ3pjTW03WmROeHZ6UmdGQmhzUmh2U0VEWkJFLTNkUHdITjdoWXhycERZY0dQOG1Lb2R0RGRNemZ4ZFI3UUhEM3JLMUtOS25yc3F1cXF0U25peklxUUwweFV3WUFxYzlR?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump promet de « répondre » aux attaques de l’Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVFFTZDJWQjJDNXg3MXRqV0I0dGFTeEZhOXdYWm9ZcnhpTlFhb0o4aU13NVQ2bThuRW9HcmhZTUdnNEViRkFFcllnN1k3Q3ZiNm0zVW5meTRGWERBV25UU0lpTkt4d1hZQ09ocnd1Q19YVUFtbkFJOEM2Yk5oQUJFWmJ6OThqSVpITzY5NmFoZm9NekdkLVJBNWZBcmZfSUxUX0tV?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Ils veulent finir arriérés et pauvres » : Donald Trump s’en prend violemment aux opposants aux data centers - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVHFyTW81QW5MY0FqZThwNzdFcWpxYmxkLTJENmE1MUdEejR3Zk1mbGJsX3lMci1JbmM2TFJwbEEydG50MzVWTE51M3dJRnV3WW56SFhkT1RBSURKbWRDSzhGRV9JbXdyNjAwY3dQRnliWDNTMTNBeU03Rk1QOHYtcVNidjY3LUVfb2lWVEVuaktfZEJiZ2RwaTE5anlYaVU0YWYza2RWbVZsdkJFT1ZxNE5ZV2dVYlNRMzlxdUttVXlkU1h5eEE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 3,
-      "putin": 2,
+      "trump": 13,
+      "putin": 3,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 15,
+      "de_wever": 12,
       "bouchez": 0,
-      "magnette": 2,
-      "prevot": 3,
+      "magnette": 3,
+      "prevot": 5,
       "rousseau": 0,
-      "francken": 1,
+      "francken": 0,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 1
+      "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 6,
-      "putin": 3,
-      "macron": 1,
+      "trump": 18,
+      "putin": 6,
+      "macron": 2,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 19,
+      "von_der_leyen": 1,
+      "de_wever": 15,
       "bouchez": 0,
-      "magnette": 2,
-      "prevot": 4,
+      "magnette": 3,
+      "prevot": 9,
       "rousseau": 0,
       "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 1
+      "verlinden": 3
     },
     "themes": {
-      "war": 29,
-      "crime": 19,
-      "eu": 21,
-      "politics": 25,
-      "be_gov": 26,
-      "culture": 8,
-      "tech": 7,
-      "economy": 20,
-      "sports": 33,
-      "health": 9,
-      "climate": 4,
+      "war": 32,
+      "crime": 38,
+      "eu": 46,
+      "politics": 32,
+      "be_gov": 28,
+      "culture": 13,
+      "tech": 19,
+      "economy": 35,
+      "sports": 86,
+      "health": 11,
+      "climate": 5,
       "migration": 7,
-      "education": 9,
-      "weather": 10
+      "education": 16,
+      "weather": 12
     },
     "wide_themes": {
-      "war": 38,
-      "crime": 23,
-      "eu": 33,
-      "politics": 39,
+      "war": 47,
+      "crime": 50,
+      "eu": 64,
+      "politics": 52,
       "be_gov": 33,
-      "culture": 13,
-      "tech": 10,
-      "economy": 27,
-      "sports": 53,
-      "health": 15,
-      "climate": 6,
-      "migration": 9,
-      "education": 14,
-      "weather": 11
+      "culture": 18,
+      "tech": 27,
+      "economy": 48,
+      "sports": 128,
+      "health": 17,
+      "climate": 9,
+      "migration": 8,
+      "education": 19,
+      "weather": 17
     }
   }
 ]
