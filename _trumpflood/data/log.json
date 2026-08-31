@@ -83830,5 +83830,460 @@
       "education": 3,
       "weather": 4
     }
+  },
+  {
+    "date": "2026-08-31",
+    "generated_at": "2026-08-31T12:03:53+02:00",
+    "last_checked_at": "2026-08-31T12:03:53+02:00",
+    "total_articles": 600,
+    "trump_articles": 3,
+    "percentage": 0.5,
+    "core_percentage": 0.5,
+    "core_percentage_name": 0.5,
+    "trump_articles_expanded": 3,
+    "core_percentage_expanded": 0.5,
+    "indirect_references": 0,
+    "wide_total_articles": 814,
+    "wide_trump_articles": 6,
+    "wide_percentage": 0.7,
+    "wide_trump_articles_expanded": 6,
+    "wide_percentage_expanded": 0.7,
+    "macro_percentage": 0.8,
+    "qualifying_outlets": 25,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 6.7,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.12,
+    "breadth": 0.11,
+    "deviation": 0.15,
+    "smoothed_pct": 2.39,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 15,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 41,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "google_nl_tech": {
+        "fetched": 62,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 25,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 56,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 72,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 34,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.88
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 82,
+        "kept": 82,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 28,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 70,
+        "kept": 68,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 19,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 73,
+        "today": 9,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 42,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Canada dient Trump van repliek na omdoping grensmeer: ‘We zullen ons nooit laten intimideren’",
+        "url": "https://www.demorgen.be/nieuws/canada-dient-trump-van-repliek-na-omdoping-grensmeer-we-zullen-ons-nooit-laten-intimideren~b00b09e6/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump met la main  sur un cinquième des réserves vénézuéliennes de pétrole",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/08/31/trump-met-la-main-sur-un-cinquieme-des-reserves-venezueliennes-de-petrole-YLFQDX5VC5GNJDWYFKUCV5P4IQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Droits de douane, guerre en Iran, tensions avec le Canada : Trump met le G20 Finance sous pression",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/08/31/droits-de-douane-guerre-en-iran-tensions-avec-le-canada-trump-met-le-g20-sous-pression-Q3Z3UKX5BJHUNJ7RKVV227UHZM/",
+        "source": "lalibre",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump dreigt met sancties tegen NBC-journalist Kristen Welker vanwege kritische opmerking over voorverkiezingen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOMXR4alhzVHRuOUFfdkZDRUd0aW83X1d3WWtVbkRRXzVVWndyeWRqZ1RfNDkwTmtWYTF6WEpRRG9pX1M5REVqZnVycVpGZEY1ekd5Mnh5Vndsb3NaMU81YWxkWFRPbTFTWEkwcG1DeTRSS0FnUDVZRjFENFNLSDlQZDNfSkFMY2tIMXViaEV3eV9TdTI1UU9SMjdJc2JRR0JTcDdMekNxbV9FM25WUVpNY0h3WGRxcGM1Nk93WFItVmU4M3VuMUFlTjZ6VUJEdDlUM0NYMnFLUXd4R0ppWkpBN3RGbVJ1ZkhVSHVrQkVldEtkT28?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Waarom Trumps oliegok in Venezuela ook veel Amerikanen (nog) niet kan overtuigen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR0F6NWl3d1pGZU9JSGhpT1ZUQ0otdHctTHNlNVNoVFBIZUhCbmJEMGNsR0Z1Y1ljSGRoMjRsSlhrWjdHTy1jZ3J3em9mNnhGaXh0ZGFMaTQwQ3dOejBoSHdKVndaUUFnc0F6N1ZxTW93cUFfY21ZUlZQWjhqSGkwWWItbUxfUHQxNGtNaktXYWtRbFFGODRUR0UxUW1hLVBFb1IxaXhiQzJldDc2ZWxYX2FLM2d6NjlRc3g3WVRpSnNzRzNTenc?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump est-il en train de perdre la guerre ? - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRmxPUFVOWTNtR0dDVU5xRUF2LWJLUjF0TlUxdnJEaFBaajQwNXFWcTU0aExGdHIwMTJrVmpJZk1KMFl1LXFsNmVaRGx4Rk1WTjVSOW9wWFZqNXI4OW8ydTJjRl83RHZRZGYzOWRGcEJkV1A4cC02SzRDMGFERUFiQlFSSHZLM0RSOFR5YXQzaDM1d054MXVLRVBRZUItU0pXV1pCQ0FVM3IyTjQ?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Canada dient Trump van repliek na omdoping grensmeer: ‘We zullen ons nooit laten intimideren’",
+        "url": "https://www.demorgen.be/nieuws/canada-dient-trump-van-repliek-na-omdoping-grensmeer-we-zullen-ons-nooit-laten-intimideren~b00b09e6/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump met la main  sur un cinquième des réserves vénézuéliennes de pétrole",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/08/31/trump-met-la-main-sur-un-cinquieme-des-reserves-venezueliennes-de-petrole-YLFQDX5VC5GNJDWYFKUCV5P4IQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Droits de douane, guerre en Iran, tensions avec le Canada : Trump met le G20 Finance sous pression",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/08/31/droits-de-douane-guerre-en-iran-tensions-avec-le-canada-trump-met-le-g20-sous-pression-Q3Z3UKX5BJHUNJ7RKVV227UHZM/",
+        "source": "lalibre",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 3,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 15,
+      "bouchez": 0,
+      "magnette": 2,
+      "prevot": 3,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 6,
+      "putin": 3,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 19,
+      "bouchez": 0,
+      "magnette": 2,
+      "prevot": 4,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 29,
+      "crime": 19,
+      "eu": 21,
+      "politics": 25,
+      "be_gov": 26,
+      "culture": 8,
+      "tech": 7,
+      "economy": 20,
+      "sports": 33,
+      "health": 9,
+      "climate": 4,
+      "migration": 7,
+      "education": 9,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 38,
+      "crime": 23,
+      "eu": 33,
+      "politics": 39,
+      "be_gov": 33,
+      "culture": 13,
+      "tech": 10,
+      "economy": 27,
+      "sports": 53,
+      "health": 15,
+      "climate": 6,
+      "migration": 9,
+      "education": 14,
+      "weather": 11
+    }
   }
 ]
