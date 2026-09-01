@@ -84423,5 +84423,592 @@
       "education": 19,
       "weather": 17
     }
+  },
+  {
+    "date": "2026-09-01",
+    "generated_at": "2026-09-01T10:53:31+02:00",
+    "last_checked_at": "2026-09-01T10:53:31+02:00",
+    "total_articles": 522,
+    "trump_articles": 14,
+    "percentage": 2.7,
+    "core_percentage": 2.7,
+    "core_percentage_name": 2.7,
+    "trump_articles_expanded": 14,
+    "core_percentage_expanded": 2.7,
+    "indirect_references": 0,
+    "wide_total_articles": 693,
+    "wide_trump_articles": 17,
+    "wide_percentage": 2.5,
+    "wide_trump_articles_expanded": 17,
+    "wide_percentage_expanded": 2.5,
+    "macro_percentage": 2.3,
+    "qualifying_outlets": 22,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 42,
+    "cross_outlet_dup_groups": 21,
+    "cross_outlet_dup_rate": 8.0,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.75,
+    "breadth": 0.39,
+    "deviation": 0.82,
+    "smoothed_pct": 2.19,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "google_nl_politics": {
+        "fetched": 47,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 68,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 67,
+        "today": 15,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 29,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 65,
+        "today": 5,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 36,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.78
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.17
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 40,
+        "kept": 40,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 12.5
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 43,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 57,
+        "kept": 57,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.51
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 43,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 91,
+        "today": 5,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 66,
+        "today": 17,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Bondgenoten intimideren levert Trump alleen maar nadelen op - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQS0FnYlowcHZydm9zYzNrNnNSZ0ZkbkZGdGg0S1YzWXE1dG5OVGh4TjlrQ2ZBcTFaMTJvdjdhX1M2SEZRcDBRMWlXOVVfUGRaaGRCVGFkcWtYeUQwSkwzMHB3VE1yZHhVaGZXNndXSUdwV1RxXzIxY1dmb1NwaGducTJVajU1XzBNOUdYdmw2LUE4Q21NcVJMV0NuanBLb3B6YXpBVkU3MmhRNmc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Broer van schoonzoon Trump heeft spijt van betrokkenheid bij WK-plan Infantino: “Hadden we dit geweten, waren we er nooit in meegegaan”",
+        "url": "https://www.hln.be/wk-voetbal/broer-van-schoonzoon-trump-heeft-spijt-van-betrokkenheid-bij-wk-plan-infantino-hadden-we-dit-geweten-waren-we-er-nooit-in-meegegaan~acc7073e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump is “verrast” door drastische zuiveringen binnen legertop door oorlogsminister Hegseth",
+        "url": "https://www.hln.be/buitenland/trump-is-verrast-door-drastische-zuiveringen-binnen-legertop-door-oorlogsminister-hegseth~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live – Amerikaanse legerminister Driscoll stapt op na spanningen met minister van Defensie Hegseth • Trump ‘verrast’ over uitdunning legertop",
+        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-legerminister-driscoll-stapt-op-na-spanningen-met-minister-van-defensie-hegseth~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Legerminister stapt op uit regering-Trump na spanningen met Hegseth",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-legerminister-stapt-op-uit-regering-trump-na-spanningen-met-hegseth/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Hooggerechtshof laat bouw van Trumps balzaal doorgaan, hoewel die “allicht onwettig” zou zijn",
+        "url": "https://www.hbvl.be/buitenland/hooggerechtshof-laat-bouw-van-trumps-balzaal-doorgaan-hoewel-die-allicht-onwettig-zou-zijn/160784892.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump met en colère les Européens en invitant le ministre russe des Finances au G20",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/01/trump-met-en-colere-les-europeens-en-invitant-le-ministre-russe-des-finances-au-g20-LBVLWULEPVFRJO7QY5GFPT765M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Nous allons les frapper fort\" : le pétrole repart à la hausse après les déclarations de Donald Trump et de son ministre des Finances",
+        "url": "https://www.lalibre.be/economie/placements/2026/09/01/nous-allons-les-frapper-fort-le-petrole-repart-a-la-hausse-apres-les-declarations-de-donald-trump-et-de-son-ministre-des-finances-B5IJSWIRGBFWHORDR6BPX5I7FU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La Cour suprême autorise la construction de la salle de bal de Trump à la Maison Blanche",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/01/la-cour-supreme-autorise-la-construction-de-la-salle-de-bal-de-trump-a-la-maison-blanche-6HX3LIIH7FGZLGHSQYAHW5CD7U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Tensions au sein de l'administration Trump: le secrétaire américain à l'Armée de terre a remis sa démission",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/01/tensions-au-sein-de-ladministration-trump-le-secretaire-americain-a-larmee-de-terre-a-remis-sa-demission-FMSXEPQDLNDILADY6U5Z6XPC5M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: le président iranien fait une promesse... qui dépend des Etat-Unis, Trump menace de bombarder \"fort\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/09/01/direct-guerre-au-moyen-orient-le-president-iranien-fait-une-promesse-qui-depend-des-etat-unis-P2GT47J7J5A3ZHAJH73ZUV4POE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Tensions au sein de l'administration Trump: le secrétaire américain à l'Armée de terre a remis sa démission",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/01/tensions-au-sein-de-ladministration-trump-le-secretaire-americain-a-larmee-de-terre-a-remis-sa-demission-OFSGJMSKCFCDDB2KMC6KXS53JQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace à nouveau l'Iran après les premiers échanges de frappes en un mois: \"Il y aura une réponse\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/01/donald-trump-menace-a-nouveau-liran-apres-les-premiers-echanges-de-frappes-en-un-mois-il-y-aura-une-reponse-FA5OAGGBNRCHJDN2STEAAMYHXI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump “surpris” par les purges menées au sommet de l’armée américaine",
+        "url": "https://www.7sur7.be/monde/trump-surpris-par-les-purges-menees-au-sommet-de-larmee-americaine~ac7ea9fc/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump sluit deal met UCB over goedkopere medicijnen via overheidsverzekeraar - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ0lSMmdKZ0xKaXB3d0h6emJodDBhaHNQV0xqZmxhNW9WY3dnOFdXQ0JNdEJ6SFVRLXZmZk1VbU1BSzFmN0Z4SFctbE9nTjhjdmc0RzNacDRpRE84dGxnVXVGQWtrT0IzaXZoUFZYUXdsSWN1anRDN1g5eFRWejZRQlhsdzhTNWZ6dnVuc0otS1YzUi04ZWtMaUl3aHFFNzJZT0JPalBHU1U4eldBb1g5a2diZ1ZQeUxzcTlETndjcmFzdjZ3d0FyTXZRVFljOWhP?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: le président iranien fait une promesse... qui dépend des Etat-Unis, Trump menace de bombarder \"fort\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQWDVYLVJwZDlqUUxwRE5XQ0FON2s0aVRJdkpuNnFjOXd6OGhyaXBoaHRoQ2F2OVA2cXFOMUc4cTFWeDdscV9ETTAxbWxVYmlUYzJFbUkyelUtVlZJRlpNZUtya0hXY3JEV1RXbTY5dkFSZlE4eG9WbnV5U3BSWkhsVlE4OG1uLUwtSURCM0xPWFRBOS1ERG1hblBLZ1N4c25WSlhibFplZmZsT01ib3U4VWNWOVUtSWYxNkZXaGt2Q3ByNkRESklGcWxFNHlTTTl5NWpFUEpKR2dCaXJTV3JZOXVJYnZXVzZsVVE1ZnJtaWduQzhZR0xXOVNTU0FaeWptckZXLW13YUhQTy00OUVPWnB0SEVDZw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Bondgenoten intimideren levert Trump alleen maar nadelen op - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQS0FnYlowcHZydm9zYzNrNnNSZ0ZkbkZGdGg0S1YzWXE1dG5OVGh4TjlrQ2ZBcTFaMTJvdjdhX1M2SEZRcDBRMWlXOVVfUGRaaGRCVGFkcWtYeUQwSkwzMHB3VE1yZHhVaGZXNndXSUdwV1RxXzIxY1dmb1NwaGducTJVajU1XzBNOUdYdmw2LUE4Q21NcVJMV0NuanBLb3B6YXpBVkU3MmhRNmc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Broer van schoonzoon Trump heeft spijt van betrokkenheid bij WK-plan Infantino: “Hadden we dit geweten, waren we er nooit in meegegaan”",
+        "url": "https://www.hln.be/wk-voetbal/broer-van-schoonzoon-trump-heeft-spijt-van-betrokkenheid-bij-wk-plan-infantino-hadden-we-dit-geweten-waren-we-er-nooit-in-meegegaan~acc7073e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump is “verrast” door drastische zuiveringen binnen legertop door oorlogsminister Hegseth",
+        "url": "https://www.hln.be/buitenland/trump-is-verrast-door-drastische-zuiveringen-binnen-legertop-door-oorlogsminister-hegseth~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live – Amerikaanse legerminister Driscoll stapt op na spanningen met minister van Defensie Hegseth • Trump ‘verrast’ over uitdunning legertop",
+        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-legerminister-driscoll-stapt-op-na-spanningen-met-minister-van-defensie-hegseth~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Legerminister stapt op uit regering-Trump na spanningen met Hegseth",
+        "url": "https://www.gva.be/buitenland/live-vs.-legerminister-stapt-op-uit-regering-trump-na-spanningen-met-hegseth/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Legerminister stapt op uit regering-Trump na spanningen met Hegseth",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-legerminister-stapt-op-uit-regering-trump-na-spanningen-met-hegseth/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Hooggerechtshof laat bouw van Trumps balzaal doorgaan, hoewel die “allicht onwettig” zou zijn",
+        "url": "https://www.hbvl.be/buitenland/hooggerechtshof-laat-bouw-van-trumps-balzaal-doorgaan-hoewel-die-allicht-onwettig-zou-zijn/160784892.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump met en colère les Européens en invitant le ministre russe des Finances au G20",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/01/trump-met-en-colere-les-europeens-en-invitant-le-ministre-russe-des-finances-au-g20-LBVLWULEPVFRJO7QY5GFPT765M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Nous allons les frapper fort\" : le pétrole repart à la hausse après les déclarations de Donald Trump et de son ministre des Finances",
+        "url": "https://www.lalibre.be/economie/placements/2026/09/01/nous-allons-les-frapper-fort-le-petrole-repart-a-la-hausse-apres-les-declarations-de-donald-trump-et-de-son-ministre-des-finances-B5IJSWIRGBFWHORDR6BPX5I7FU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La Cour suprême autorise la construction de la salle de bal de Trump à la Maison Blanche",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/01/la-cour-supreme-autorise-la-construction-de-la-salle-de-bal-de-trump-a-la-maison-blanche-6HX3LIIH7FGZLGHSQYAHW5CD7U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Tensions au sein de l'administration Trump: le secrétaire américain à l'Armée de terre a remis sa démission",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/01/tensions-au-sein-de-ladministration-trump-le-secretaire-americain-a-larmee-de-terre-a-remis-sa-demission-FMSXEPQDLNDILADY6U5Z6XPC5M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Guerre au Moyen-Orient: le président iranien fait une promesse... qui dépend des Etat-Unis, Trump menace de bombarder \"fort\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/09/01/direct-guerre-au-moyen-orient-le-president-iranien-fait-une-promesse-qui-depend-des-etat-unis-P2GT47J7J5A3ZHAJH73ZUV4POE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Tensions au sein de l'administration Trump: le secrétaire américain à l'Armée de terre a remis sa démission",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/01/tensions-au-sein-de-ladministration-trump-le-secretaire-americain-a-larmee-de-terre-a-remis-sa-demission-OFSGJMSKCFCDDB2KMC6KXS53JQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace à nouveau l'Iran après les premiers échanges de frappes en un mois: \"Il y aura une réponse\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/01/donald-trump-menace-a-nouveau-liran-apres-les-premiers-echanges-de-frappes-en-un-mois-il-y-aura-une-reponse-FA5OAGGBNRCHJDN2STEAAMYHXI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump “surpris” par les purges menées au sommet de l’armée américaine",
+        "url": "https://www.7sur7.be/monde/trump-surpris-par-les-purges-menees-au-sommet-de-larmee-americaine~ac7ea9fc/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 14,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 3,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 17,
+      "putin": 4,
+      "macron": 0,
+      "netanyahu": 4,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 29,
+      "crime": 32,
+      "eu": 26,
+      "politics": 27,
+      "be_gov": 8,
+      "culture": 8,
+      "tech": 5,
+      "economy": 23,
+      "sports": 21,
+      "health": 9,
+      "climate": 1,
+      "migration": 3,
+      "education": 15,
+      "weather": 11
+    },
+    "wide_themes": {
+      "war": 41,
+      "crime": 44,
+      "eu": 39,
+      "politics": 34,
+      "be_gov": 12,
+      "culture": 8,
+      "tech": 6,
+      "economy": 28,
+      "sports": 40,
+      "health": 10,
+      "climate": 3,
+      "migration": 4,
+      "education": 27,
+      "weather": 12
+    }
   }
 ]
