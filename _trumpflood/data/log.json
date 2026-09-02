@@ -85010,5 +85010,430 @@
       "education": 27,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-09-02",
+    "generated_at": "2026-09-02T10:07:07+02:00",
+    "last_checked_at": "2026-09-02T10:07:07+02:00",
+    "total_articles": 457,
+    "trump_articles": 2,
+    "percentage": 0.4,
+    "core_percentage": 0.4,
+    "core_percentage_name": 0.4,
+    "trump_articles_expanded": 2,
+    "core_percentage_expanded": 0.4,
+    "indirect_references": 0,
+    "wide_total_articles": 612,
+    "wide_trump_articles": 2,
+    "wide_percentage": 0.3,
+    "wide_trump_articles_expanded": 2,
+    "wide_percentage_expanded": 0.3,
+    "macro_percentage": 0.2,
+    "qualifying_outlets": 22,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 8.8,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 3,
+    "n_people": 17,
+    "dominance": 0.15,
+    "breadth": 0.06,
+    "deviation": 0.13,
+    "smoothed_pct": 1.76,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 14,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 38,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 68,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 21,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 60,
+        "today": 9,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 57,
+        "kept": 41,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.88
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 59,
+        "kept": 59,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 91,
+        "today": 15,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump houdt van AI en datacenters, de Amerikaanse kiezer niet - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMkw3VU1PYlByTVpmVDNEZlRFS3pIM3E0aXIzc0tIXzJnZjhMdG9taUJhX3VXb3ZNWDFmc3R1ejRwanVjTXNGQjBzNm1DMk54Tlo0QzFyeXRkNFZlaTd0OXFEQUFrQ1kyMkxwcmZnOXFqVGZVdG5iREJNRmp6amdZTldvbk1jR012amNqb0RFMEpzLUJRX18tT3BOQlE3SkJWVkZ4aDd6RGF5Vm5sMjBCdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Wie tegen AI-datacenters is, wil volgens Donald Trump “achterlijk en arm eindigen”. Maar de Amerikaanse kiezer lust ze niet - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYkhXb0pGYjZxX2ZmTm5HLTdWTThjVFJ5dkRQZjlzNlBGa1NRZ0xIRmpacWtCMTFkazYzMFpNUEJTZzcxQTc0TjJMTzR3c1htcFRtdnlyRVREM0ZEVHpOdnRpOHZ4cFM1VFJpbFFEM0gwVlUwd3pJX05PWUk3VWljeHcxRWFWNzh5QXY1STh1alFkbXFqWFd3V0RxOWRwbHoyUUlRZ01YUmpGOHQ4RnFhVlloa1NQXzUzUjk3azMxcXlUVS1NY3lLMWdEX3dSYUNhYkNMWUhWVlFTVTRYdjBZa00xakVTSVRJMkRjSjVLeFRWdlFEWGNLUG5ZdktYWE1KSnc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump houdt van AI en datacenters, de Amerikaanse kiezer niet - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMkw3VU1PYlByTVpmVDNEZlRFS3pIM3E0aXIzc0tIXzJnZjhMdG9taUJhX3VXb3ZNWDFmc3R1ejRwanVjTXNGQjBzNm1DMk54Tlo0QzFyeXRkNFZlaTd0OXFEQUFrQ1kyMkxwcmZnOXFqVGZVdG5iREJNRmp6amdZTldvbk1jR012amNqb0RFMEpzLUJRX18tT3BOQlE3SkJWVkZ4aDd6RGF5Vm5sMjBCdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Wie tegen AI-datacenters is, wil volgens Donald Trump “achterlijk en arm eindigen”. Maar de Amerikaanse kiezer lust ze niet - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYkhXb0pGYjZxX2ZmTm5HLTdWTThjVFJ5dkRQZjlzNlBGa1NRZ0xIRmpacWtCMTFkazYzMFpNUEJTZzcxQTc0TjJMTzR3c1htcFRtdnlyRVREM0ZEVHpOdnRpOHZ4cFM1VFJpbFFEM0gwVlUwd3pJX05PWUk3VWljeHcxRWFWNzh5QXY1STh1alFkbXFqWFd3V0RxOWRwbHoyUUlRZ01YUmpGOHQ4RnFhVlloa1NQXzUzUjk3azMxcXlUVS1NY3lLMWdEX3dSYUNhYkNMWUhWVlFTVTRYdjBZa00xakVTSVRJMkRjSjVLeFRWdlFEWGNLUG5ZdktYWE1KSnc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 3,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 6,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 2,
+      "putin": 3,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 9,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 21,
+      "crime": 9,
+      "eu": 23,
+      "politics": 15,
+      "be_gov": 13,
+      "culture": 11,
+      "tech": 6,
+      "economy": 13,
+      "sports": 26,
+      "health": 4,
+      "climate": 10,
+      "migration": 1,
+      "education": 5,
+      "weather": 15
+    },
+    "wide_themes": {
+      "war": 29,
+      "crime": 13,
+      "eu": 32,
+      "politics": 24,
+      "be_gov": 17,
+      "culture": 14,
+      "tech": 9,
+      "economy": 15,
+      "sports": 39,
+      "health": 4,
+      "climate": 13,
+      "migration": 2,
+      "education": 7,
+      "weather": 19
+    }
   }
 ]
