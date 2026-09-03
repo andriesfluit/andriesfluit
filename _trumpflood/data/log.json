@@ -85729,5 +85729,616 @@
       "education": 14,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-09-03",
+    "generated_at": "2026-09-03T10:16:41+02:00",
+    "last_checked_at": "2026-09-03T10:16:41+02:00",
+    "total_articles": 467,
+    "trump_articles": 13,
+    "percentage": 2.8,
+    "core_percentage": 2.8,
+    "core_percentage_name": 2.8,
+    "trump_articles_expanded": 14,
+    "core_percentage_expanded": 3.0,
+    "indirect_references": 1,
+    "wide_total_articles": 611,
+    "wide_trump_articles": 20,
+    "wide_percentage": 3.3,
+    "wide_trump_articles_expanded": 21,
+    "wide_percentage_expanded": 3.4,
+    "macro_percentage": 3.6,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 56,
+    "cross_outlet_dup_groups": 28,
+    "cross_outlet_dup_rate": 12.0,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.93,
+    "breadth": 0.44,
+    "deviation": 0.98,
+    "smoothed_pct": 2.31,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "google_nl_politics": {
+        "fetched": 17,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "google_nl_tech": {
+        "fetched": 69,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 3,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 55,
+        "today": 7,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
+      "google_fr_business": {
+        "fetched": 50,
+        "today": 4,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 27,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 41,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.44
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 18,
+        "kept": 18,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 26,
+        "kept": 26,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.69
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 57,
+        "kept": 57,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 21,
+        "kept": 21,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.52
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 19,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 95,
+        "today": 16,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Regering-Trump schaart zich achter OpenAI in rechtszaak rond auteursrechten",
+        "url": "https://vrtnws.be/p.WkX3MmnMx",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Zelfs wetenschappelijke humor moet vluchten voor Trump: “Het is alleen maar erger geworden” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTE5SZ2RJRzFXNW9pTlRjQ0UtLVN5aGp2OVFqNzZVUTN0Tkgxd0hTaldFYmYtcXpFTWliV1ViOUJVZ01xRHFUeExvd0ktRkVmQld6SWJZVGdBM2ttTHJGeVV2M3RIMEpmdjhkdVJzbklBTmFQcW1HTlcyZVdaU21xM1BEWHBZZ2c0bUx4NDZmQ25JWEU3OHlyaTl0clFRRzNsSnk0bmdUeHdDYmZOTThwNXQtYkFqR0hGSVNtVjFHV1RuOW1zWmt0cWU4ZEFWT2xNQmhtc21ORldLV3NUM0M4VWZkNA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: aanval op Iran duurt niet te lang, we slaan zo weer toe • Koeweit meldt Iraanse luchtaanval",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-aanval-op-iran-duurt-niet-te-lang-we-slaan-zo-weer-toe-koeweit-meldt-iraanse-luchtaanval~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Rechter blokkeert decreet Trump dat geboorterecht beperkt • VS hebben 227 mensen gedood bij aanvallen op drugsschepen in afgelopen jaar",
+        "url": "https://www.demorgen.be/snelnieuws/live-rechter-blokkeert-decreet-trump-dat-geboorterecht-beperkt-vs-hebben-227-mensen-gedood-bij-aanvallen-op-drugsschepen-in-afgelopen-jaar~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "IN BEELD. Tiger Woods is rijbewijs jarenlang kwijt na verkeersongeval, golflegende wordt geflankeerd door vriendin Vanessa Trump",
+        "url": "https://www.nieuwsblad.be/sport/golf/in-beeld.-tiger-woods-is-rijbewijs-jarenlang-kwijt-na-verkeersongeval-golflegende-wordt-geflankeerd-door-vriendin-vanessa-trump/160901527.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "IN BEELD. Tiger Woods is rijbewijs jarenlang kwijt na verkeersongeval, golflegende wordt geflankeerd door vriendin Vanessa Trump",
+        "url": "https://www.hbvl.be/sport/in-beeld.-tiger-woods-is-rijbewijs-jarenlang-kwijt-na-verkeersongeval-golflegende-wordt-geflankeerd-door-vriendin-vanessa-trump/160901894.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Amerikaanse rechter blokkeert decreet Trump dat geboorterecht beperkt",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-amerikaanse-rechter-blokkeert-decreet-trump-dat-geboorterecht-beperkt/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "SpaceX et d’autres groupes américains poussés par la Maison Blanche à bouder le sommet spatial de Paris",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/09/03/spacex-et-dautres-groupes-americains-pousses-par-la-maison-blanche-a-bouder-le-sommet-spatial-de-paris-BYLJHXWABVGRXB7D35UMWTLUVM/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Après le deal avec Trump, des majors pétrolières américaines et européennes regagnent le Venezuela - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT29Ndzl1WlZiM0tjZXZzUzBrelY0OTV4N1RMdS1LeVhEbmQxMzdwa2xkMTZLVUZFcXlMNHEwc2pYSF9GMmRXRG1XZHJDUkJmUkpFTDlKNFBXM21qQVVobjQ2Z0VySjFEa1puNzdwRnRmWUtDZ3VWLTg4NU5OR3pkNUd3UTQ3S2l5V1lLNjlFMHNTaFpIb2QwQlpmMU4yTzZJS0piU0F2U3A5N3RmTzhzN3NUWGdvMnM5QTA5S3JFbkxwVFBxdDR0TDJVaFE5NmZycWN0WW9JVFBSa1ZJUHJzejVyZ3h0bWM?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L’Iran attaque des intérêts militaires américains au Koweït, malgré les menaces de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQcmVEblE2TTlEQzVWLXd6M3RPUW1DMDhhMDcxVVQ1NzUxVnVHQzl5ODNqYWJFX1F3NjJ1OUdoeEtzVWw4WHRSV0hFTTh0TVhTNE1QRHBsT1IzWDRlX3hDNFREYmN1Z3dCQkJnUWJJcDBjUXBXanJIVkhxbnV3Z1BDd25wc2Uzd1lDZUlFQVN3SmswY0Eya0V1c2JpTzNiRE5jR2trbHAyWDEydVc1cEpCXzNCYUw2U1RZVnF5VHF5WTVWclNOdU5NUlJMMDBXUUF2UWhhSzh4S2VuZFF3NXc5Q25McXdoamFQNDVWcU43Q3JlRzg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump suggère de rebaptiser le détroit d’Ormuz en “détroit Trump”: “Ça sonne bien”",
+        "url": "https://www.7sur7.be/monde/trump-suggere-de-rebaptiser-le-detroit-dormuz-en-detroit-trump-ca-sonne-bien~a8bab074/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Tourisme de naissance”: nouveau revers pour Trump",
+        "url": "https://www.7sur7.be/monde/tourisme-de-naissance-nouveau-revers-pour-trump~af826d97/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Je n’étais pas fan » : Donald Trump se réjouit du départ de Harry et Meghan des États-Unis - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdDhrWHVETHNYQW51TWp0dXpCWkZxRzVGNmdzSVdTYzE1cHQ4TzhnR1BhZHpNNndTd3hSclFnVTdybTVHbGt0X2xhaEZzXzRxR2VscGhpMjN4cG1JUm5xbGRMM2ZHblFUSnNtc1podHdCMHM3YWczMi0yN3F4Rl9ZbTFSdlI2SWNJSENMRFgxdFFLd0FTQkhRN25LOTltMWp5VnlQOEppbHRKSXBWTkFodVMwN2dhWnhBeEFrZW02NjFKNlRhdHFiSkc5NGxfS18y?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« Je n’ai pas aimé la façon dont elle s’est comportée » : Donald Trump s’en prend à Meghan Markle après son départ des États-Unis - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNeUE5cHVDeEVtVHZPUldjSDhDY2NXZHQtVGtub3ZOMmxhQzdyZWRTbEdLeUtjY18wLUFvYklHcUwzaUIweEpnWVRHbm5aWXlydUtZa1NHMUhrQmJXSXJQME9YWEJ1THloUTUxY2VKcFlkekNyWlhHME14aDJhZUl1VTNheFNyOG53M0NjNEc1YzN4Z2FuUXpLYXRLVUYwd2NxN1V1dHdoX1dJZjFUQTZPejJRS3hwWE13bDVKZ2tPT0JBUVpwOFZkV2l3eDBscXR2Rzk2Q1dGRk1uMHFQY3pqYmlCYw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "'Si j’étais la famille royale, je ne les aurais pas repris' : Trump se dit 'heureux' qu’Harry et Meghan aient quitté les États-Unis - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQa243MzBOT2F6aWFhNkRIU3dUcVZXT1hKd1JPVU1jTWtGRVdjUDBFN181TndCcEgtVGF5VHBNY08yNWRxcEcwOTRiNDhzVEVaVEZrLUQyWFZCRzhIVUpTdlFMaGppeTBHLWw4MGp2UHhWV3BGZGx5R0dNTG4yckZnMDdpOXpnZ2VaWXktSGpRYTBkaFo3aDVQeC1kZXUzMHpLRUVISEJvMlFyMU1LZzVxQ2hDZGR2Vl81SXJNN2VzSlQxa3FMZHpfMHAwWFJfR1FISElBM1VCR09TQmdYbE1fRTR1cHBDa0dieS1mVnpUaWt1OHc?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Vaccins : face à l’offensive de Trump, les associations médicales publient leurs propres recommandations - Sud Ouest",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeUVwdUZrVUE3eTlvYWVDMjdFazFqVWN6c2N4UjVYazJQUmpUS01DR2J2eTBIYjNzTVFuSTJ3YmNvcGRGZ2lvWEZOMlZ6MWg2TTdLVzZtMld4UGpZMFZ6TmQybkwxM2JvRW5LOFBWTjVOanNJYTZrVUtoaVVOeGZ4c3FpQ2RTeUxrdTRCdHRiUkU5dmhIdzREbnBkcXdLeUtIZ2xFbzZYZUE4M1ZHRnZlNGRaSnctT1FwN3J1VTVBMTJydFVPRmRlUzRueUMxX2lBSEpQREs2RXpPUWJNMk5TczJrZEYxRWM?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "België antwoordt op opvallende vragenlijst van Trump, maar laat de lastigste vragen links liggen - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQM1dRTUY3RjliZEZLSVpaTEhqOTBzeC1nNDczOUtadEpyckh4N2tzZGE2TUJpczdhbjNjd3FNRHl5aGRWSVppWlFybEFuU1dndTlJTXNnQnJMZ0ZaSklISVBOVThMOVdVczZCQUdRVnZzSHVxaTlCT2FGSnkwRXM4b1FYanBYQWJhbnVNeWpjRGtCamNvWV9tU1YzN3Y0Y0lSdF9mY19ubzJ6NzlxVF9xSk50VGpuS2hCb2tMRDkwWUkyM1JrV2J0akV1NVVtMVB5V3RkUFBYdFdrSzRaMWc?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump schaart zich achter OpenAI in rechtszaak rond auteursrechten - vrt.be",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaUtPaEQydjRKYTVvUnRsNHV3SDJQS0dlVTBWREpnNGVIVDFYWkZMb21kNWl0MFA1SFA1TkRRV21ZeVZnSzdnX3pCM2xnRGxJMDRjSVBoUkprSFBQaWF6NWRqdFF5T0E4U0ZPTGppYVZzVGE4TElQWnI1dXBTWmw1dXF0X2J4MWk0enQ2SWY2QjNXc3NfNllOVlAzU3pUZmF0T2dkclpmeGQ?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Le décret de Donald Trump contre le « tourisme de naissance » débouté par une juge fédérale - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXpOZGlaT3hjOEVIbzcxcTZEd3ZINTRmbEFzZWI5d2dHYjFPaV85M2FKRTBFQXM4ZmpSal9GMEJ4U3hTUldGZnpxeUtZN2FEUGhaSkhseEpNbFk3WnhSSzd1eVNhdXhmSWQxMEg2V3dOS0pTdm1ZWUNsU0p4NFdnOEhhSUNTS0NEeXNmSVF3bnRWRl92aGRzUzB2a2IxZUI5SEJWTGZ3czRPVFNOaHVrNXZqSExNLXJVVExFZ1RvVmxScDlP?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump schaart zich achter OpenAI in rechtszaak rond auteursrechten",
+        "url": "https://vrtnws.be/p.WkX3MmnMx",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Zelfs wetenschappelijke humor moet vluchten voor Trump: “Het is alleen maar erger geworden” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTE5SZ2RJRzFXNW9pTlRjQ0UtLVN5aGp2OVFqNzZVUTN0Tkgxd0hTaldFYmYtcXpFTWliV1ViOUJVZ01xRHFUeExvd0ktRkVmQld6SWJZVGdBM2ttTHJGeVV2M3RIMEpmdjhkdVJzbklBTmFQcW1HTlcyZVdaU21xM1BEWHBZZ2c0bUx4NDZmQ25JWEU3OHlyaTl0clFRRzNsSnk0bmdUeHdDYmZOTThwNXQtYkFqR0hGSVNtVjFHV1RuOW1zWmt0cWU4ZEFWT2xNQmhtc21ORldLV3NUM0M4VWZkNA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump: aanval op Iran duurt niet te lang, we slaan zo weer toe • Koeweit meldt Iraanse luchtaanval",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-aanval-op-iran-duurt-niet-te-lang-we-slaan-zo-weer-toe-koeweit-meldt-iraanse-luchtaanval~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Rechter blokkeert decreet Trump dat geboorterecht beperkt • VS hebben 227 mensen gedood bij aanvallen op drugsschepen in afgelopen jaar",
+        "url": "https://www.demorgen.be/snelnieuws/live-rechter-blokkeert-decreet-trump-dat-geboorterecht-beperkt-vs-hebben-227-mensen-gedood-bij-aanvallen-op-drugsschepen-in-afgelopen-jaar~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "IN BEELD. Tiger Woods is rijbewijs jarenlang kwijt na verkeersongeval, golflegende wordt geflankeerd door vriendin Vanessa Trump",
+        "url": "https://www.nieuwsblad.be/sport/golf/in-beeld.-tiger-woods-is-rijbewijs-jarenlang-kwijt-na-verkeersongeval-golflegende-wordt-geflankeerd-door-vriendin-vanessa-trump/160901527.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "IN BEELD. Tiger Woods is rijbewijs jarenlang kwijt na verkeersongeval, golflegende wordt geflankeerd door vriendin Vanessa Trump",
+        "url": "https://www.gva.be/sport/in-beeld.-tiger-woods-is-rijbewijs-jarenlang-kwijt-na-verkeersongeval-golflegende-wordt-geflankeerd-door-vriendin-vanessa-trump/160901895.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Amerikaanse rechter blokkeert decreet Trump dat geboorterecht beperkt",
+        "url": "https://www.gva.be/buitenland/live-vs.-amerikaanse-rechter-blokkeert-decreet-trump-dat-geboorterecht-beperkt/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "IN BEELD. Tiger Woods is rijbewijs jarenlang kwijt na verkeersongeval, golflegende wordt geflankeerd door vriendin Vanessa Trump",
+        "url": "https://www.hbvl.be/sport/in-beeld.-tiger-woods-is-rijbewijs-jarenlang-kwijt-na-verkeersongeval-golflegende-wordt-geflankeerd-door-vriendin-vanessa-trump/160901894.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Amerikaanse rechter blokkeert decreet Trump dat geboorterecht beperkt",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-amerikaanse-rechter-blokkeert-decreet-trump-dat-geboorterecht-beperkt/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "SpaceX et d’autres groupes américains poussés par la Maison Blanche à bouder le sommet spatial de Paris",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/09/03/spacex-et-dautres-groupes-americains-pousses-par-la-maison-blanche-a-bouder-le-sommet-spatial-de-paris-BYLJHXWABVGRXB7D35UMWTLUVM/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Après le deal avec Trump, des majors pétrolières américaines et européennes regagnent le Venezuela - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT29Ndzl1WlZiM0tjZXZzUzBrelY0OTV4N1RMdS1LeVhEbmQxMzdwa2xkMTZLVUZFcXlMNHEwc2pYSF9GMmRXRG1XZHJDUkJmUkpFTDlKNFBXM21qQVVobjQ2Z0VySjFEa1puNzdwRnRmWUtDZ3VWLTg4NU5OR3pkNUd3UTQ3S2l5V1lLNjlFMHNTaFpIb2QwQlpmMU4yTzZJS0piU0F2U3A5N3RmTzhzN3NUWGdvMnM5QTA5S3JFbkxwVFBxdDR0TDJVaFE5NmZycWN0WW9JVFBSa1ZJUHJzejVyZ3h0bWM?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L’Iran attaque des intérêts militaires américains au Koweït, malgré les menaces de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQcmVEblE2TTlEQzVWLXd6M3RPUW1DMDhhMDcxVVQ1NzUxVnVHQzl5ODNqYWJFX1F3NjJ1OUdoeEtzVWw4WHRSV0hFTTh0TVhTNE1QRHBsT1IzWDRlX3hDNFREYmN1Z3dCQkJnUWJJcDBjUXBXanJIVkhxbnV3Z1BDd25wc2Uzd1lDZUlFQVN3SmswY0Eya0V1c2JpTzNiRE5jR2trbHAyWDEydVc1cEpCXzNCYUw2U1RZVnF5VHF5WTVWclNOdU5NUlJMMDBXUUF2UWhhSzh4S2VuZFF3NXc5Q25McXdoamFQNDVWcU43Q3JlRzg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump suggère de rebaptiser le détroit d’Ormuz en “détroit Trump”: “Ça sonne bien”",
+        "url": "https://www.7sur7.be/monde/trump-suggere-de-rebaptiser-le-detroit-dormuz-en-detroit-trump-ca-sonne-bien~a8bab074/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Tourisme de naissance”: nouveau revers pour Trump",
+        "url": "https://www.7sur7.be/monde/tourisme-de-naissance-nouveau-revers-pour-trump~af826d97/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Je n’étais pas fan » : Donald Trump se réjouit du départ de Harry et Meghan des États-Unis - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdDhrWHVETHNYQW51TWp0dXpCWkZxRzVGNmdzSVdTYzE1cHQ4TzhnR1BhZHpNNndTd3hSclFnVTdybTVHbGt0X2xhaEZzXzRxR2VscGhpMjN4cG1JUm5xbGRMM2ZHblFUSnNtc1podHdCMHM3YWczMi0yN3F4Rl9ZbTFSdlI2SWNJSENMRFgxdFFLd0FTQkhRN25LOTltMWp5VnlQOEppbHRKSXBWTkFodVMwN2dhWnhBeEFrZW02NjFKNlRhdHFiSkc5NGxfS18y?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« Je n’ai pas aimé la façon dont elle s’est comportée » : Donald Trump s’en prend à Meghan Markle après son départ des États-Unis - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNeUE5cHVDeEVtVHZPUldjSDhDY2NXZHQtVGtub3ZOMmxhQzdyZWRTbEdLeUtjY18wLUFvYklHcUwzaUIweEpnWVRHbm5aWXlydUtZa1NHMUhrQmJXSXJQME9YWEJ1THloUTUxY2VKcFlkekNyWlhHME14aDJhZUl1VTNheFNyOG53M0NjNEc1YzN4Z2FuUXpLYXRLVUYwd2NxN1V1dHdoX1dJZjFUQTZPejJRS3hwWE13bDVKZ2tPT0JBUVpwOFZkV2l3eDBscXR2Rzk2Q1dGRk1uMHFQY3pqYmlCYw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 13,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 6,
+      "bouchez": 2,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 20,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 8,
+      "bouchez": 2,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 16,
+      "crime": 19,
+      "eu": 14,
+      "politics": 17,
+      "be_gov": 15,
+      "culture": 12,
+      "tech": 17,
+      "economy": 9,
+      "sports": 35,
+      "health": 4,
+      "climate": 1,
+      "migration": 2,
+      "education": 7,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 20,
+      "crime": 26,
+      "eu": 24,
+      "politics": 21,
+      "be_gov": 19,
+      "culture": 14,
+      "tech": 21,
+      "economy": 15,
+      "sports": 49,
+      "health": 4,
+      "climate": 1,
+      "migration": 2,
+      "education": 10,
+      "weather": 9
+    }
   }
 ]
