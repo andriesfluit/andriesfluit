@@ -86340,5 +86340,658 @@
       "education": 10,
       "weather": 9
     }
+  },
+  {
+    "date": "2026-09-04",
+    "generated_at": "2026-09-04T10:12:31+02:00",
+    "last_checked_at": "2026-09-04T10:12:31+02:00",
+    "total_articles": 446,
+    "trump_articles": 14,
+    "percentage": 3.1,
+    "core_percentage": 3.1,
+    "core_percentage_name": 3.1,
+    "trump_articles_expanded": 17,
+    "core_percentage_expanded": 3.8,
+    "indirect_references": 3,
+    "wide_total_articles": 637,
+    "wide_trump_articles": 20,
+    "wide_percentage": 3.1,
+    "wide_trump_articles_expanded": 25,
+    "wide_percentage_expanded": 3.9,
+    "macro_percentage": 2.7,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 18,
+    "cross_outlet_dup_groups": 9,
+    "cross_outlet_dup_rate": 4.0,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.33,
+    "breadth": 0.37,
+    "deviation": 1.13,
+    "smoothed_pct": 2.46,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 40,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 9,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 22.22
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 67,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 30,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 40.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 68,
+        "kept": 55,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.04
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 32,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 3.12
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 24,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 16.67
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 55,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.64
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 19,
+        "kept": 19,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.79
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "‘Bouw de grensmuur’: Witte Huis krijgt forse kritiek nadat het website met spelletjes over uitzetten van migranten lanceert",
+        "url": "https://www.hln.be/buitenland/bouw-de-grensmuur-witte-huis-krijgt-forse-kritiek-nadat-het-website-met-spelletjes-over-uitzetten-van-migranten-lanceert~vaf688fe4/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Live - Witte Huis lanceert website met videospellen over uitzetten van migranten • Bouw triomfboog Trump start ‘binnen twee weken’",
+        "url": "https://www.demorgen.be/snelnieuws/live-witte-huis-lanceert-website-met-videospellen-over-uitzetten-van-migranten-bouw-triomfboog-trump-start-binnen-twee-weken~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump mengt zich in auteursrechtenstrijd tussen OpenAI en ‘The New York Times’",
+        "url": "https://www.demorgen.be/nieuws/regering-trump-mengt-zich-in-auteursrechtenstrijd-tussen-openai-en-the-new-york-times~b8ec4a0e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis lanceert website met games waarin je migranten moet vangen en grensmuren moet bouwen",
+        "url": "https://www.nieuwsblad.be/buitenland/witte-huis-lanceert-website-met-games-waarin-je-migranten-moet-vangen-en-grensmuren-moet-bouwen/160960602.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "Witte Huis lanceert website met games waarin je migranten moet vangen en ‘aliens’ doden",
+        "url": "https://www.hbvl.be/buitenland/witte-huis-lanceert-website-met-games-waarin-je-migranten-moet-vangen-en-aliens-doden/160964099.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Werkzaamheden aan Trumps triomfboog in Washington beginnen “binnen twee weken”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-werkzaamheden-aan-trumps-triomfboog-in-washington-beginnen-binnen-twee-weken/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "De ‘Dopingspelen’: hoe Donald Trumps Enhanced Games op miljoenenverlies uitdraaiden - Knack",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObFl2cVlkd3VZdjhpSDNuRnlnelpNWTZCaVdVQ3ZoUnlHTDZKTXBxQkRhYUd0UGprMFloZ01NX01qanRMTjd0ZkN5enN0VlNJdU5acUxLUFpDd0h1YVJwdU9ZR2h2Y3M1ZW1fM1Fqd2ktNExlMzR2OEt1ZVM1VXcwZUFqR0EwX1Z4eF9nNk9wMTlfakZ6Qm9VRktaQUdZR2dfUFpGM0h5ZUdMTFVN?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Tensions au Pentagone : Trump nomme un remplaçant au secrétaire à l'Armée de terre",
+        "url": "https://www.rtbf.be/article/tensions-au-pentagone-trump-nomme-un-remplacant-au-secretaire-a-l-armee-de-terre-11779887",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Milei, soutenu par Trump, durcit le ton sur la revendication argentine sur les Malouines : \"la cause la plus sacrée\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/04/milei-soutenu-par-trump-durcit-le-ton-sur-la-revendication-argentine-sur-les-malouines-la-cause-la-plus-sacree-N756EKK3L5CXRLYU5YZDMBCJ7A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une affirmation de Donald Trump sur les capacités militaires américaines contestée par des experts : \"Cela relève de la fiction\"",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/09/04/laffirmation-de-donald-trump-sur-les-stocks-pratiquement-illimites-de-munitions-americaines-contestee-par-des-experts-cela-releve-de-la-fiction-3NYAL2TKQNEIJEOVYBS75GVAXI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Tensions au Pentagone: Trump nomme un remplaçant au secrétaire à l'Armée de terre",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/04/tensions-au-pentagone-trump-nomme-un-remplacant-au-secretaire-a-larmee-de-terre-6W5C5WCL4ZFVJN5ARH3CB34BCA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Après la salle de bal, un autre chantier de Trump devrait débuter : \"une des grandes œuvres de l'architecture américaines\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/04/apres-la-salle-de-bal-un-autre-chantier-de-trump-devrait-debuter-une-des-grandes-oeuvres-de-larchitecture-americaines-A2V7F5TCG5GZHC5DXUE3EJ6PDQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L’affirmation de Donald Trump sur les stocks “pratiquement illimités” de munitions américaines contestée par des experts : “Cela relève de la fiction”",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/04/laffirmation-de-donald-trump-sur-les-stocks-pratiquement-illimites-de-munitions-americaines-contestee-par-des-experts-cela-releve-de-la-fiction-7TVCBOQFRFF2JOCNRUUR4OP5L4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau changement au sommet de  l'Etat américain : Trump nomme un remplaçant à ce poste stratégique",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/04/nouveau-changement-au-sommet-de-letat-americain-trump-nomme-un-remplacant-a-ce-poste-strategique-6HM7KE2PKJB4RAJTCDKWM774EY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "L’administration Trump reproche à Londres de choisir “Bruxelles plutôt que l’Amérique”",
+        "url": "https://www.7sur7.be/monde/ladministration-trump-reproche-a-londres-de-choisir-bruxelles-plutot-que-lamerique~a35ce8c3/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump s’en prend de nouveau à Harry et Meghan: “Ils ont été terribles envers William”",
+        "url": "https://www.7sur7.be/monarchies/donald-trump-sen-prend-de-nouveau-a-harry-et-meghan-ils-ont-ete-terribles-envers-william~a702d366/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Tout le monde l’adore”: le chantier de l’arc de triomphe de Trump va débuter",
+        "url": "https://www.7sur7.be/monde/tout-le-monde-ladore-le-chantier-de-larc-de-triomphe-de-trump-va-debuter~a9199165/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "‘Bouw de grensmuur’: Witte Huis krijgt forse kritiek nadat het website met spelletjes over uitzetten van migranten lanceert - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbVZIeE9NME9zcDlxM3d4LTBiRXVleTZMSmp5NF93NVJDNlQwWW5ZZVByRTB6TGF5UW1Mb1RwTUhJY3VyX0xXSERVTW42MHAwZVlIV1hsNUdqa2xKRXRBUlBJQmVicjlKMy16ZkdyTGcxR1htNXl1U3VNTV96b1E1bHBOb3BMNkZhNWdWZG85VGRub1BlNFpwRkYtNjdGUURsRzlzMXFTY1pITlRneG9CMHdiRkVLMmxiNktMeDFRb05CNnJWNXQ5V0taTjhZdXZaektVekV0YzVsc2hweHJ0VVczLUY5SEVMYnJiUEVWcElLdw?oc=5",
+        "source": "google_nl",
+        "name_only": false
+      },
+      {
+        "title": "Nog niet goedgekeurd, maar werken voor Trumps triomfboog “starten binnen twee weken” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMlRfM1A4UXVzWVpXb2hwZFh6UEtfQ3A0S19EYjdZX0FpRkE0Y3pVMkU0N0FzVzhueTZsOXlZN01YaEZfb2NIVFZjcm96SjRFSVFtWTlpWGlscFk0NjhVTFdXaWNxRkdTNndYYzQ2Y3RJV3owenE1QlpsZHRTNDQ3cTlYOVVDdlFkczBQdFYwRzdHNzFxcFdza2Rub0RUd0ZxYkJ1R2JYd0g0ZEk0eVI3ZC1kRHcwdUY5MjdSMjc3TFFRNlUtZ1A1Vzd2QQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "De midterms beginnen − en Trump met het in diskrediet brengen daarvan - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeExLeTZzcTJvOUZPS0Y1eWIza0xVUk93ODRJR0h0V0pzWXdlaC1VaDk1TzM5a0k0ZnJOZUlMMVBNQjcxeFVZSjE3aEJHUHAyblhnVC1qZzFGSFlJcERJOURsZ01UczE5ZUhWZEUyWThWdlpwbHV4dFBXY3M0OWhSczMtQ2FfZXlwdmZydW5Pb2R1aUlpSXJPMTB3Y3h0elBnemtRNlluazl0NmdUeURaem4wNHluQnM?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Après la salle de bal, un autre chantier de Trump devrait débuter : \"une des grandes œuvres de l'architecture américaines\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNdGM4VHRPMm5NZ3N3bzc1N2JqakJNOUZKUGhCOWRZU055TjQ2QmhjbXQ5a0swZUZtd01MMUZBMWg3NkQ5Umt2WWRWbkJMWng2bHh1YWkwZEF0M0U0UG5STUI4VFpQa2tRcnFfLW41eU56T0M4THUwOWY1eTlpRVk0VmVSaFB3MHVzY1BCZEFjN1Vrcl9XRkpXd19OaUt3Q0tnNlQtNmZ1RlpsRTJBU0hNSUVXN0hDbUxubDZ2QWZLQVh1aUxOWlFlak00UjlhVTJoVDZlX0dEanR0QktkOGtOZU5lZUE2T2N4RFFHc2xUY3NZTHdMb1NsTV9YbWptakh5bFQ1emp1NlA5Um54Q016Mk5qUjF2QzVBZHBBM3A4cFdBY1Y0dU9KX1FR?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau changement au sommet de l'Etat américain : Trump nomme un remplaçant à ce poste stratégique - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPTFVJX3RaN0pyNGpwT2paNzJtZkstNFUxX1N1MjZVaV9qdzltVzI5MnFNSkdyNmRUei1hY3J1T3MwU1FMZWYtVXJObzFVY1JZMWtubFBrSUdCNFN5M245VmhMczNVTUc0dDNMbjFhbzlwRERyeDI2SDJmUl92cXkyTW5fTGlCcks4THJBVVdtOXJtX0tDZVoyNEdna1dDWC0yRTRISXdESXZIdG1IRkRZb2l4bkk5QnRBR2NqMG1Pa1lzNGFQMDFyNFNidGMwZHdCMjUwcURKaTViNm5ZUk9sTkpLcTRpY3FZa3kycTF6cXh3WjJfRTRPV0V4WQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Opposition à Donald Trump : 'Mark Carney fait le travail que les dirigeants européens devraient faire' - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR2hxZXBSMHU2SF8tYUdxZGtBd1hteDYxR1pNNFVaN3ZMSXhTY1RFZlNMaTN6QTVOTW1uOUZsaGlJR2gtRFJ0c21RWTZlV2JJbVV5NldKUXd1b1ZFT1dWTWtMamg4TE0xSVBjOVFmVzkwdjhHb21kS3RJMmFKSnFKelJFZ3p0eHhzMmlYQjlIeVlBX1RSck9zSFlWVmRYRE1HSjNxb2hjMnpFS0M2VVh6OUNQVmlVellJdDFoQ1hBT1JrLTRRLTZHX1lXYjRQV043?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "‘Bouw de grensmuur’: Witte Huis krijgt forse kritiek nadat het website met spelletjes over uitzetten van migranten lanceert",
+        "url": "https://www.hln.be/buitenland/bouw-de-grensmuur-witte-huis-krijgt-forse-kritiek-nadat-het-website-met-spelletjes-over-uitzetten-van-migranten-lanceert~vaf688fe4/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Live - Witte Huis lanceert website met videospellen over uitzetten van migranten • Bouw triomfboog Trump start ‘binnen twee weken’",
+        "url": "https://www.demorgen.be/snelnieuws/live-witte-huis-lanceert-website-met-videospellen-over-uitzetten-van-migranten-bouw-triomfboog-trump-start-binnen-twee-weken~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump mengt zich in auteursrechtenstrijd tussen OpenAI en ‘The New York Times’",
+        "url": "https://www.demorgen.be/nieuws/regering-trump-mengt-zich-in-auteursrechtenstrijd-tussen-openai-en-the-new-york-times~b8ec4a0e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis lanceert website met games waarin je migranten moet vangen en grensmuren moet bouwen",
+        "url": "https://www.nieuwsblad.be/buitenland/witte-huis-lanceert-website-met-games-waarin-je-migranten-moet-vangen-en-grensmuren-moet-bouwen/160960602.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "Witte Huis lanceert website met games waarin je migranten moet vangen en grensmuren moet bouwen",
+        "url": "https://www.gva.be/buitenland/witte-huis-lanceert-website-met-games-waarin-je-migranten-moet-vangen-en-grensmuren-moet-bouwen/160962640.html",
+        "source": "gva",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Werkzaamheden aan Trumps triomfboog in Washington beginnen “binnen twee weken”",
+        "url": "https://www.gva.be/buitenland/live-vs.-werkzaamheden-aan-trumps-triomfboog-in-washington-beginnen-binnen-twee-weken/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis lanceert website met games waarin je migranten moet vangen en ‘aliens’ doden",
+        "url": "https://www.hbvl.be/buitenland/witte-huis-lanceert-website-met-games-waarin-je-migranten-moet-vangen-en-aliens-doden/160964099.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Werkzaamheden aan Trumps triomfboog in Washington beginnen “binnen twee weken”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-werkzaamheden-aan-trumps-triomfboog-in-washington-beginnen-binnen-twee-weken/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "De ‘Dopingspelen’: hoe Donald Trumps Enhanced Games op miljoenenverlies uitdraaiden - Knack",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObFl2cVlkd3VZdjhpSDNuRnlnelpNWTZCaVdVQ3ZoUnlHTDZKTXBxQkRhYUd0UGprMFloZ01NX01qanRMTjd0ZkN5enN0VlNJdU5acUxLUFpDd0h1YVJwdU9ZR2h2Y3M1ZW1fM1Fqd2ktNExlMzR2OEt1ZVM1VXcwZUFqR0EwX1Z4eF9nNk9wMTlfakZ6Qm9VRktaQUdZR2dfUFpGM0h5ZUdMTFVN?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Tensions au Pentagone : Trump nomme un remplaçant au secrétaire à l'Armée de terre",
+        "url": "https://www.rtbf.be/article/tensions-au-pentagone-trump-nomme-un-remplacant-au-secretaire-a-l-armee-de-terre-11779887",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Milei, soutenu par Trump, durcit le ton sur la revendication argentine sur les Malouines : \"la cause la plus sacrée\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/04/milei-soutenu-par-trump-durcit-le-ton-sur-la-revendication-argentine-sur-les-malouines-la-cause-la-plus-sacree-N756EKK3L5CXRLYU5YZDMBCJ7A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une affirmation de Donald Trump sur les capacités militaires américaines contestée par des experts : \"Cela relève de la fiction\"",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/09/04/laffirmation-de-donald-trump-sur-les-stocks-pratiquement-illimites-de-munitions-americaines-contestee-par-des-experts-cela-releve-de-la-fiction-3NYAL2TKQNEIJEOVYBS75GVAXI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Tensions au Pentagone: Trump nomme un remplaçant au secrétaire à l'Armée de terre",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/04/tensions-au-pentagone-trump-nomme-un-remplacant-au-secretaire-a-larmee-de-terre-6W5C5WCL4ZFVJN5ARH3CB34BCA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Après la salle de bal, un autre chantier de Trump devrait débuter : \"une des grandes œuvres de l'architecture américaines\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/04/apres-la-salle-de-bal-un-autre-chantier-de-trump-devrait-debuter-une-des-grandes-oeuvres-de-larchitecture-americaines-A2V7F5TCG5GZHC5DXUE3EJ6PDQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L’affirmation de Donald Trump sur les stocks “pratiquement illimités” de munitions américaines contestée par des experts : “Cela relève de la fiction”",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/04/laffirmation-de-donald-trump-sur-les-stocks-pratiquement-illimites-de-munitions-americaines-contestee-par-des-experts-cela-releve-de-la-fiction-7TVCBOQFRFF2JOCNRUUR4OP5L4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau changement au sommet de  l'Etat américain : Trump nomme un remplaçant à ce poste stratégique",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/04/nouveau-changement-au-sommet-de-letat-americain-trump-nomme-un-remplacant-a-ce-poste-strategique-6HM7KE2PKJB4RAJTCDKWM774EY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "L’administration Trump reproche à Londres de choisir “Bruxelles plutôt que l’Amérique”",
+        "url": "https://www.7sur7.be/monde/ladministration-trump-reproche-a-londres-de-choisir-bruxelles-plutot-que-lamerique~a35ce8c3/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump s’en prend de nouveau à Harry et Meghan: “Ils ont été terribles envers William”",
+        "url": "https://www.7sur7.be/monarchies/donald-trump-sen-prend-de-nouveau-a-harry-et-meghan-ils-ont-ete-terribles-envers-william~a702d366/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Tout le monde l’adore”: le chantier de l’arc de triomphe de Trump va débuter",
+        "url": "https://www.7sur7.be/monde/tout-le-monde-ladore-le-chantier-de-larc-de-triomphe-de-trump-va-debuter~a9199165/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 14,
+      "putin": 1,
+      "macron": 2,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 20,
+      "putin": 2,
+      "macron": 3,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 3,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 13,
+      "crime": 12,
+      "eu": 20,
+      "politics": 14,
+      "be_gov": 3,
+      "culture": 14,
+      "tech": 5,
+      "economy": 7,
+      "sports": 16,
+      "health": 1,
+      "climate": 3,
+      "migration": 1,
+      "education": 6,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 17,
+      "crime": 15,
+      "eu": 29,
+      "politics": 25,
+      "be_gov": 7,
+      "culture": 20,
+      "tech": 11,
+      "economy": 12,
+      "sports": 30,
+      "health": 2,
+      "climate": 8,
+      "migration": 1,
+      "education": 8,
+      "weather": 12
+    }
   }
 ]
