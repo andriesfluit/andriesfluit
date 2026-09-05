@@ -86993,5 +86993,592 @@
       "education": 8,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-09-05",
+    "generated_at": "2026-09-05T09:51:05+02:00",
+    "last_checked_at": "2026-09-05T09:51:05+02:00",
+    "total_articles": 369,
+    "trump_articles": 10,
+    "percentage": 2.7,
+    "core_percentage": 2.7,
+    "core_percentage_name": 2.7,
+    "trump_articles_expanded": 14,
+    "core_percentage_expanded": 3.8,
+    "indirect_references": 4,
+    "wide_total_articles": 484,
+    "wide_trump_articles": 12,
+    "wide_percentage": 2.5,
+    "wide_trump_articles_expanded": 17,
+    "wide_percentage_expanded": 3.5,
+    "macro_percentage": 2.2,
+    "qualifying_outlets": 14,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 42,
+    "cross_outlet_dup_groups": 21,
+    "cross_outlet_dup_rate": 11.4,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.11,
+    "breadth": 0.44,
+    "deviation": 0.98,
+    "smoothed_pct": 2.23,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_nl_politics": {
+        "fetched": 42,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 67,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 25,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 33.33
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 52,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 5.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "sporza": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 10.71
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 41,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.44
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 7,
+        "kept": 7,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 28.57
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Live - Medewerkers Pentagon onderworpen aan leugendetectortest na lekken over munitietekorten • Maker Tetris boos over migrantengame Witte Huis",
+        "url": "https://www.demorgen.be/snelnieuws/live-medewerkers-pentagon-onderworpen-aan-leugendetectortest-na-lekken-over-munitietekorten~b13cc951/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "Van war on terror tot Trump: hoe de aanslagen van 9/11 de VS voorgoed veranderden",
+        "url": "https://www.demorgen.be/nieuws/van-war-on-terror-tot-trump-hoe-de-aanslagen-van-9-11-de-vs-voorgoed-veranderden~ba1fb65e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Opschorting Trump-decreet dat stemmen per post moeilijker maakt verlengd tot november - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbWRDLThzenBXMXliR1FCOVhxMGRSWmRSNXRoVkZBTlBQMld6bGlmRnEwSS1wdUNQMXp2dHJ6RElQWXcyWlRTanlVWlE0S0VoM1lqY3FTa1FoTVRTcFB4MXBlTllBQ1UwRGYzUFR0a05Dd1ZoOVo5R2Z4SzlaU1hneWNSaF84MWFDNURPSEhRdTZhN0t5eW8zWHBoTlBSWEtvS2RfeTBuYjRRVGhLbmhCRUNfR2JYS0xYbDF4R1poSFFfdGpQaVd2QUJ3VHV1dWkxaXZ3UXlVeEdpQ1lRa3d4RVhGckMyalNDOTNhcGZMdkNMQ25TY0lB?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "USA : une juge prolonge la suspension du décret de Trump restreignant le vote par correspondance",
+        "url": "https://www.rtbf.be/article/usa-une-juge-prolonge-la-suspension-du-decret-de-trump-restreignant-le-vote-par-correspondance-11780278",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Quand la Maison Blanche provoque la colère de l'éditeur du jeu vidéo Tetris",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/05/quand-la-maison-blanche-provoque-la-colere-de-lediteur-du-jeu-video-tetris-XJTTMV5LTNC2PI7XH7DHRWTL2M/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Une mauvaise nouvelle pour Donald Trump à l'approche des élections de mi-mandat",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/05/une-mauvaise-nouvelle-pour-donald-trump-a-lapproche-des-elections-de-mi-mandat-32TK7AJG7VFSLP2KDUJGFIBCRA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: Trump envoie ses émissaires à Moscou et à Kiev",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/09/05/guerre-en-ukraine-trump-envoie-ses-emissaires-a-moscou-et-a-kiev-KYVGN3UP25ECBKWXHSRTUZN6WY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le choix fort de cette climatologue belge basée en Arizona, face aux attaques de Donald Trump sur la science",
+        "url": "https://www.lalibre.be/planete/sciences-espace/2026/09/05/le-choix-fort-de-cette-climatologue-belge-basee-en-arizona-face-aux-attaques-de-donald-trump-sur-la-science-54KXHNMBENFCZOL33RUQGGXKTQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: Donald Trump envoie ses émissaires à Moscou et à Kiev avec une proposition pour mettre fin au conflit",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/05/guerre-en-ukraine-donald-trump-envoie-ses-emissaires-a-moscou-et-a-kiev-avec-une-proposition-pour-mettre-fin-au-conflit-LIGPYXVDORATPCUIPRXPAHU5UI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"Construisez le mur\": la Maison-Blanche lance un jeu polémique inspiré de Tetris, l'entreprise prend ses distances",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/05/construisez-le-mur-la-maison-blanche-lance-un-jeu-polemique-inspire-de-tetris-lentreprise-prend-ses-distances-AWAMRTKH55HEJMNEX2PYZKRG2M/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
+        "title": "“Plusieurs explosions” près de l’île de Kharg - la guerre en Iran, “c’est de la gnognotte”, selon Trump",
+        "url": "https://www.7sur7.be/monde/plusieurs-explosions-pres-de-lile-de-kharg-la-guerre-en-iran-cest-de-la-gnognotte-selon-trump~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump essuie un revers dans sa lutte pour restreindre le vote par correspondance",
+        "url": "https://www.7sur7.be/monde/trump-essuie-un-revers-dans-sa-lutte-pour-restreindre-le-vote-par-correspondance~a95a2396/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Nous prenons l’atteinte à la propriété intellectuelle très au sérieux » : Tetris épingle la Maison-Blanche - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQUJBdVFrZEpDMldqUjBNVzJ4blU3RS1UbDVnX3R1WHcxUGw1MDJiMDdxMFRpV1lQQTJ4eE5wUFlUNnZESF9aalhqOUQ1d25qdElUOWtzUEhsam5ubHR4OThpYWhYVE1NZUhKdnprSUFZNnE4UFg3VktmWTVQaG5qdXRMQ01laWUycTliVXctLXBzSWJWak5DTXVEVERvQ3lKcHVRQWpRdWJIRHpwNjhtWEZYZk5ZOEtxaTIzaHJR?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      },
+      {
+        "title": "Nouvelle défaite pour le président américain : un juge prolonge la suspension du décret de Donald Trump restreignant le vote par correspondance - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV3RJb3lacDJNT3NpVk1yQWp4blpxcF9qSUhmSlhoUkpOT3RwWTRHa1FnS0pWS29hOWdqb0NvMmY2MkhFR2E2MTFjUGQ2LWlweGxJeFUtMTd5ZVRvWWlJTkoxNm5DMXNocWNPMXJjaFpIZnMtSllRUjQ0aTlBQnJyNHVkUng1aXFsdlZHOUNFUUpIUGVoSU8zS285a0d6ZmV3S3F5a3hjcVc1cjZSczFKd2E1Ui1RUjd2Nmp0LU1wZF9ucHRZc2ZiY0FB?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Le choix fort de cette climatologue belge basée en Arizona, face aux attaques de Donald Trump sur la science - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPSEZXdWpidFJ5cjNHeDd6UVdISGg0N3RGWGx4RExhSDQtVGJxYUwzZkI3MjJUbmNOeEdtZW15NUI0aHIyNzdYUjBKZFQzdnpkX2Y5cnRZRThMbVgxNXZtQUh5LTVQQ3FBR3k1Q1RyQldXWUEtWnZ1MFJ3RjRGczdJTEltWDFnWVhLZmVMVWMtZ0gxaXI3QTM0SXVhMG5UUkxORTdBZ2tJZUFFVFpyZG03OWdDQzMxS19HRlJFYlY2NVpIMWhhNS0zcnBOcjh4VGRrWnZrbnBlRlgxWUVRRDVMLS01QmVjbE1nMzdWNmVNcno0S1NwSDYtMHU1TFgxRnVKeGpEOEhPUnVRSmRlczdJRERXV04yZ05xZnV6Wndn?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Une mauvaise nouvelle pour Donald Trump à l'approche des élections de mi-mandat - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQVFYY1oxcHVtZ3ZuT0tVTkRZZWYyZGNvMUZxanRlWHNid01mbjJKTENUVm9ocHhFN2Y2TkFmZ24taGN3V1FSS1BYZEdXbmVNNjRHU3F1S1diZUJZQXdMYldwUF9BcHl2Wm5WVkpVb3dnZTY1aU1ySmc1emZ1NTN2aHgxZ09hQ09lWUNfNjA5LVJLU2x1NjF4eXY4YjgwMEg3RUNWRWo5M0FpTVM1TkRQTS1nQjBnR2pyaXBsUjhoRTQ4aUZPMnNMUjVxTjJvOGp1UzZZaXFUc3hxOW80eDdSb0JQUGRQZjBWSWx2QkVTNjI2RzFmaGc?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "\"Construisez le mur\": la Maison-Blanche lance un jeu polémique inspiré de Tetris, l'entreprise prend ses distances - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQdXE5Tm5kMmhjUkN5QXpjRy1wR0tmOE1Hb1JvcjdKakhWV1d5OXJqNmFOM25raGJXZTM5d3JFNFdRLUtXaFo2RWVFdnFqb0VpZFUyX01HVnlxZkdha1VQeHBaWjZwcHFLLTZpTDJOTVA4QjNVbV9nWWdzQjdFdS1rZGtqSnlFQ1JmOUdwWGtVdUpNN05FNDlxVW9HR0JLNnlyUE41TDNrNTJGeWlORlkxOWlrNDY2QlJZYS1GTzdTa2ZJSF9YQzBfYy1HUDdTd0ZGMjBzOFF4SGtGalVlRHBpb09TLVNVZWZDRDJ1NmxGYUxndGFvcEZvTmttY0t6RGphdFF0LVY2Z2ZIQWVP?oc=5",
+        "source": "google_fr_world",
+        "name_only": false
+      },
+      {
+        "title": "Live - Medewerkers Pentagon onderworpen aan leugendetectortest na lekken over munitietekorten • Maker Tetris boos over migrantengame Witte Huis",
+        "url": "https://www.demorgen.be/snelnieuws/live-medewerkers-pentagon-onderworpen-aan-leugendetectortest-na-lekken-over-munitietekorten~b13cc951/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "Van war on terror tot Trump: hoe de aanslagen van 9/11 de VS voorgoed veranderden",
+        "url": "https://www.demorgen.be/nieuws/van-war-on-terror-tot-trump-hoe-de-aanslagen-van-9-11-de-vs-voorgoed-veranderden~ba1fb65e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Opschorting Trump-decreet dat stemmen per post moeilijker maakt verlengd tot november - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbWRDLThzenBXMXliR1FCOVhxMGRSWmRSNXRoVkZBTlBQMld6bGlmRnEwSS1wdUNQMXp2dHJ6RElQWXcyWlRTanlVWlE0S0VoM1lqY3FTa1FoTVRTcFB4MXBlTllBQ1UwRGYzUFR0a05Dd1ZoOVo5R2Z4SzlaU1hneWNSaF84MWFDNURPSEhRdTZhN0t5eW8zWHBoTlBSWEtvS2RfeTBuYjRRVGhLbmhCRUNfR2JYS0xYbDF4R1poSFFfdGpQaVd2QUJ3VHV1dWkxaXZ3UXlVeEdpQ1lRa3d4RVhGckMyalNDOTNhcGZMdkNMQ25TY0lB?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "USA : une juge prolonge la suspension du décret de Trump restreignant le vote par correspondance",
+        "url": "https://www.rtbf.be/article/usa-une-juge-prolonge-la-suspension-du-decret-de-trump-restreignant-le-vote-par-correspondance-11780278",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Quand la Maison Blanche provoque la colère de l'éditeur du jeu vidéo Tetris",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/05/quand-la-maison-blanche-provoque-la-colere-de-lediteur-du-jeu-video-tetris-XJTTMV5LTNC2PI7XH7DHRWTL2M/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Une mauvaise nouvelle pour Donald Trump à l'approche des élections de mi-mandat",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/05/une-mauvaise-nouvelle-pour-donald-trump-a-lapproche-des-elections-de-mi-mandat-32TK7AJG7VFSLP2KDUJGFIBCRA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: Trump envoie ses émissaires à Moscou et à Kiev",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/09/05/guerre-en-ukraine-trump-envoie-ses-emissaires-a-moscou-et-a-kiev-KYVGN3UP25ECBKWXHSRTUZN6WY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le choix fort de cette climatologue belge basée en Arizona, face aux attaques de Donald Trump sur la science",
+        "url": "https://www.lalibre.be/planete/sciences-espace/2026/09/05/le-choix-fort-de-cette-climatologue-belge-basee-en-arizona-face-aux-attaques-de-donald-trump-sur-la-science-54KXHNMBENFCZOL33RUQGGXKTQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: Donald Trump envoie ses émissaires à Moscou et à Kiev avec une proposition pour mettre fin au conflit",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/05/guerre-en-ukraine-donald-trump-envoie-ses-emissaires-a-moscou-et-a-kiev-avec-une-proposition-pour-mettre-fin-au-conflit-LIGPYXVDORATPCUIPRXPAHU5UI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"Construisez le mur\": la Maison-Blanche lance un jeu polémique inspiré de Tetris, l'entreprise prend ses distances",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/05/construisez-le-mur-la-maison-blanche-lance-un-jeu-polemique-inspire-de-tetris-lentreprise-prend-ses-distances-AWAMRTKH55HEJMNEX2PYZKRG2M/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
+        "title": "“Plusieurs explosions” près de l’île de Kharg - la guerre en Iran, “c’est de la gnognotte”, selon Trump",
+        "url": "https://www.7sur7.be/monde/plusieurs-explosions-pres-de-lile-de-kharg-la-guerre-en-iran-cest-de-la-gnognotte-selon-trump~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump essuie un revers dans sa lutte pour restreindre le vote par correspondance",
+        "url": "https://www.7sur7.be/monde/trump-essuie-un-revers-dans-sa-lutte-pour-restreindre-le-vote-par-correspondance~a95a2396/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Nous prenons l’atteinte à la propriété intellectuelle très au sérieux » : Tetris épingle la Maison-Blanche - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQUJBdVFrZEpDMldqUjBNVzJ4blU3RS1UbDVnX3R1WHcxUGw1MDJiMDdxMFRpV1lQQTJ4eE5wUFlUNnZESF9aalhqOUQ1d25qdElUOWtzUEhsam5ubHR4OThpYWhYVE1NZUhKdnprSUFZNnE4UFg3VktmWTVQaG5qdXRMQ01laWUycTliVXctLXBzSWJWak5DTXVEVERvQ3lKcHVRQWpRdWJIRHpwNjhtWEZYZk5ZOEtxaTIzaHJR?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      },
+      {
+        "title": "Nouvelle défaite pour le président américain : un juge prolonge la suspension du décret de Donald Trump restreignant le vote par correspondance - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV3RJb3lacDJNT3NpVk1yQWp4blpxcF9qSUhmSlhoUkpOT3RwWTRHa1FnS0pWS29hOWdqb0NvMmY2MkhFR2E2MTFjUGQ2LWlweGxJeFUtMTd5ZVRvWWlJTkoxNm5DMXNocWNPMXJjaFpIZnMtSllRUjQ0aTlBQnJyNHVkUng1aXFsdlZHOUNFUUpIUGVoSU8zS285a0d6ZmV3S3F5a3hjcVc1cjZSczFKd2E1Ui1RUjd2Nmp0LU1wZF9ucHRZc2ZiY0FB?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 10,
+      "putin": 1,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 4,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 12,
+      "putin": 3,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 7,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 2,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 20,
+      "crime": 9,
+      "eu": 17,
+      "politics": 19,
+      "be_gov": 7,
+      "culture": 7,
+      "tech": 6,
+      "economy": 15,
+      "sports": 22,
+      "health": 7,
+      "climate": 0,
+      "migration": 1,
+      "education": 6,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 24,
+      "crime": 14,
+      "eu": 20,
+      "politics": 26,
+      "be_gov": 12,
+      "culture": 7,
+      "tech": 7,
+      "economy": 20,
+      "sports": 32,
+      "health": 8,
+      "climate": 0,
+      "migration": 1,
+      "education": 9,
+      "weather": 5
+    }
   }
 ]
