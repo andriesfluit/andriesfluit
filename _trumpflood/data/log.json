@@ -87583,38 +87583,38 @@
   },
   {
     "date": "2026-09-06",
-    "generated_at": "2026-09-06T10:06:13+02:00",
-    "last_checked_at": "2026-09-06T15:47:34+02:00",
-    "total_articles": 314,
-    "trump_articles": 5,
-    "percentage": 1.6,
-    "core_percentage": 1.6,
-    "core_percentage_name": 1.6,
-    "trump_articles_expanded": 6,
-    "core_percentage_expanded": 1.9,
-    "indirect_references": 1,
-    "wide_total_articles": 419,
-    "wide_trump_articles": 6,
-    "wide_percentage": 1.4,
-    "wide_trump_articles_expanded": 7,
-    "wide_percentage_expanded": 1.7,
-    "macro_percentage": 3.0,
-    "qualifying_outlets": 13,
+    "generated_at": "2026-09-06T20:36:55+02:00",
+    "last_checked_at": "2026-09-06T20:36:55+02:00",
+    "total_articles": 743,
+    "trump_articles": 13,
+    "percentage": 1.7,
+    "core_percentage": 1.7,
+    "core_percentage_name": 1.7,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 1.7,
+    "indirect_references": 0,
+    "wide_total_articles": 1012,
+    "wide_trump_articles": 16,
+    "wide_percentage": 1.6,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 1.6,
+    "macro_percentage": 2.0,
+    "qualifying_outlets": 28,
     "core_outlets_total": 19,
-    "core_outlets_active": 16,
-    "active_core_fraction": 0.842,
-    "cross_outlet_dup_headlines": 46,
-    "cross_outlet_dup_groups": 23,
-    "cross_outlet_dup_rate": 14.6,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 48,
+    "cross_outlet_dup_groups": 24,
+    "cross_outlet_dup_rate": 6.5,
     "zone": "wet",
     "label": "The zone is getting wet",
     "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.83,
-    "breadth": 0.25,
-    "deviation": 0.58,
-    "smoothed_pct": 2.4,
+    "dominance": 0.52,
+    "breadth": 0.44,
+    "deviation": 0.62,
+    "smoothed_pct": 2.41,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
@@ -87623,96 +87623,96 @@
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 20,
-        "kept": 20,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 10,
-        "kept": 10,
+        "today": 30,
+        "kept": 30,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 10.0
+        "share": 3.33
       },
       "google_nl_politics": {
-        "fetched": 42,
-        "today": 1,
-        "kept": 1,
+        "fetched": 41,
+        "today": 9,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 7,
-        "kept": 3,
+        "today": 29,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 4,
-        "kept": 2,
+        "today": 20,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "google_nl_tech": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_nl_tech": {
-        "fetched": 69,
-        "today": 1,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "google_nl_sport": {
-        "fetched": 70,
-        "today": 9,
-        "kept": 6,
+        "fetched": 69,
+        "today": 43,
+        "kept": 38,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 19,
-        "today": 2,
-        "kept": 2,
+        "fetched": 18,
+        "today": 7,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 70,
-        "today": 4,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 69,
+        "today": 18,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 4,
-        "kept": 2,
+        "today": 15,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 8,
-        "kept": 8,
+        "today": 41,
+        "kept": 41,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
-        "fetched": 82,
-        "today": 36,
-        "kept": 7,
+        "fetched": 74,
+        "today": 51,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -87727,160 +87727,160 @@
       },
       "demorgen": {
         "fetched": 29,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 49,
-        "kept": 49,
+        "today": 50,
+        "kept": 48,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "gva": {
         "fetched": 50,
-        "today": 48,
-        "kept": 45,
+        "today": 50,
+        "kept": 48,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 38,
-        "kept": 38,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 26,
-        "kept": 26,
+        "today": 60,
+        "kept": 59,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 8,
-        "kept": 8,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 13,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 10,
-        "kept": 10,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 10.0
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
       },
       "lalibre": {
         "fetched": 100,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 45,
+        "kept": 45,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.22
       },
       "lecho": {
         "fetched": 100,
-        "today": 19,
-        "kept": 19,
+        "today": 54,
+        "kept": 52,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.92
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 94,
+        "kept": 94,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "dhnet": {
-        "fetched": 100,
-        "today": 24,
-        "kept": 24,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.17
-      },
       "septsursept": {
         "fetched": 30,
-        "today": 8,
-        "kept": 8,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
-        "trump_expanded": 1,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "bx1": {
         "fetched": 10,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "detijd_g": {
-        "fetched": 100,
-        "today": 1,
-        "kept": 1,
+        "today": 7,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
       "lesoir_g": {
         "fetched": 100,
-        "today": 40,
-        "kept": 39,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 5.13
+        "today": 56,
+        "kept": 53,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.89
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 12,
-        "kept": 10,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 10.0
+        "today": 61,
+        "kept": 56,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 5.36
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 19,
-        "kept": 19,
+        "today": 64,
+        "kept": 64,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 99,
-        "today": 7,
-        "kept": 6,
+        "today": 33,
+        "kept": 33,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 9.09
+      },
+      "trends_g": {
+        "fetched": 30,
+        "today": 10,
+        "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "trends_g": {
-        "fetched": 60,
-        "today": 3,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "tendances_g": {
-        "fetched": 63,
-        "today": 3,
-        "kept": 2,
+        "fetched": 38,
+        "today": 17,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -87909,77 +87909,149 @@
     ],
     "matches": [
       {
-        "title": "En route pour Kiev : après Moscou et une rencontre avec Poutine, les émissaires de Trump se rendent dans la capitale ukrainienne",
-        "url": "https://www.rtbf.be/article/en-route-pour-kiev-apres-moscou-et-une-rencontre-avec-poutine-les-emissaires-de-trump-se-rendent-dans-la-capitale-ukrainienne-11780224",
+        "title": "Live - Trump komt senaatskandidaat in Texas te hulp met miljoenen om Democraat te verslaan",
+        "url": "https://www.demorgen.be/snelnieuws/live-verenigde-staten-laten-opnieuw-schip-van-vermeende-drugssmokkelaars-zinken~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Ukraine : après Moscou, les émissaires de Trump évoquent des discussions \"très significatives\" à Kiev pour avancer vers la paix",
+        "url": "https://www.rtbf.be/article/ukraine-apres-moscou-les-emissaires-de-trump-evoquent-des-discussions-tres-significatives-a-kiev-pour-avancer-vers-la-paix-11780816",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "L'administration de Trump se prépare à une grande première pour la guerre en Ukraine",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/06/ladministration-de-trump-se-prepare-a-une-grande-premiere-pour-la-guerre-en-ukraine-7STLTW2N2ZFVJCKF6NMN44DG7Y/",
-        "source": "dhnet",
+        "title": "Ursula von der Leyen se rend au Groenland pour afficher le soutien de l’UE face à Trump",
+        "url": "https://www.rtbf.be/article/ursula-von-der-leyen-se-rend-au-groenland-pour-afficher-le-soutien-de-l-ue-face-a-trump-11780773",
+        "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "La Maison Blanche évoque des “plans substantiels” pour mettre fin à la guerre",
-        "url": "https://www.7sur7.be/monde/la-maison-blanche-evoque-des-plans-substantiels-pour-mettre-fin-a-la-guerre~a33fdd82/",
-        "source": "septsursept",
-        "name_only": false
+        "title": "Le camp Trump sous pression ? Des responsables militaires américains soumis au détecteur de mensonges après des fuites",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/06/le-camp-trump-sous-pression-des-responsables-militaires-americains-soumis-au-detecteur-de-mensonges-apres-des-fuites-WGGJCFYGGVGKPERFZ7KCWCK22I/",
+        "source": "lalibre",
+        "name_only": true
       },
       {
-        "title": "Guerre en Ukraine : les émissaires de Donal Trump attendus à Kiev - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWldYVXBjWF9vVVg0TVAyYXpMZHdZemY4N2JVSGRPRGExQjRRUEVzSHd6cnZlVVF0MWtIdkFlOWtPR0tmRVFuSF9JbWtxWEJ0RDllRzNjaE1zV0NDRVhiaDZRNmdhRmVFSUs5RlcxWmNObWZrZWZRejJ3MXgtMGh3T0RFNkdnLVpoQlktcm1WaGVrVXI0Q0dabm5fU19GUm55VTU2MmUtdnoxR2hKV0E?oc=5",
+        "title": "Les émissaires de Trump en Ukraine pour la première fois, après Moscou - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZGNCYi16ckc2RHR0Qnp1eURrOGM4SFB6TFUzandRR29xbHNMTGxkQmU5YTZrck11a0JiUFpkeFRGdmZReVd2d2VCeTdWaW0wdzU1RHZ6TE03OVdMbjlQV1NNOFZidXlKSkVVenJBZ3ZCYjJiejgzQ3ZKNnRhRFBzdDZ4clhvME01dFlTcnN4djBOaGpqR2F6S2VBQUphYjAzbGF4NENCbGpJOHpTNzFXRzBsZ3hkQVRMbXJKM0dtekg2bDNBY0RwR2VVZGIxbVVpV1lOUA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky ontvangt Trump-gezanten Kushner en Witkoff na overleg in Moskou - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdFk1Mi12b05zTlBsSnJBX3JFdnJUOHRibWpMbndjNUc3UzU2SUh4cHg1QnFuWS1PTDRnd0pCbHA3MUtIQWJ4LXFHUGZRU1hadmNTNzVGTzRVXzVxVmk0aUstN0FvNVQ4NVZNaktVVzA4Z3h2aFhzV3lsOWhwTDJhTlRlbVZwblktVHg3UmdYbGRGVGRrMFZQbDlaaWVFeV9XVjJLOEFGc3NGeWlaQm9Sa25HMExTN2JzeTRXMGp1Y25oUFd0Z0M1WW1selJSRjZfd2ZtcWVldnRMLU1ZLXd5dmlB?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : les émissaires de Donal Trump attendus pour le première fois à Kiev - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa2gxcjVqLUFIWWZMcHgyaDFLSFhFZ0dmY251MUpyZTdxbzVqbmNHdHFseURuTmwxdDBOZlZFaXktSm9DS0dWbnZoRUdUcjNHZmdHZWhQTlI2MERsaXBSbDdDS3JVT0ozZWdxSmoxek16RUtVa1JpdHNRSFVDakNURUplM3RDYnNEaHlOSUExVjZSWXYwdlV4TENNemN1eG9BZFZJdEFEajIzZ0JIbkVmMXNvd0NOdEU5ZEJlNkZvdXI2RUZE?oc=5",
         "source": "lesoir_g",
         "name_only": true
       },
       {
-        "title": "Guerre en Ukraine : les émissaires de Donal Trump attendus en Ukraine - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRHZndHdfbFc5TFNjdzctanJTOV9qRmdHQTgxaEhhU2gtck9SdWZsTlFrQWsyM1g0bGNNSWxGLVlWVUl0TkVJeV9DdkpHaE5zU0dsZmhXdlVQTzlSa0dfZ3hjUEVkaXAzajlTX0FSMk5FZnYzREp3STBnX1JZUXY3Y2Z3V2Rkb3VRT3BUa2c0XzdBdl9NLUUzc0p5TjhENTRwNHVNcVNpMUMxcDlZVDljRXMyLTdMZw?oc=5",
-        "source": "lesoir_g",
+        "title": "Après trois heures avec Poutine, les émissaires de Trump se rendent à Kiev avec une proposition pour mettre fin à la guerre - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTWhQbWNUOWw1WDZ3b0ZvcUVsb21wc1VGRmZWZmtuQ1hSRlNpSzdtemdzVFdFcWtENzBYMkZaYWVfRU5FOF9pOGdrTTVWQVJJSTE3LWxlU1BhLTlUYnZ4cU0zZzBuYzFuenJPSXVjSHdnUzZIdWdmMnQ1azY2T2hPU1lBbXhIQndrb2pyTVNsQlkwWTNUWmZVeXE4Wjg0eGh1NkN2WHRURHdzUjdSZXhGdjJ2TkhhOHdHY0d6aUlTRHR1X2NlWlI3RXQ2MGo?oc=5",
+        "source": "sudinfo_g",
         "name_only": true
       },
       {
         "title": "Trois heures de discussions, « une idée pour la paix »,... : ce qu’il faut retenir de la rencontre entre Vladimir Poutine et les émissaires de Donald Trump à Moscou au sujet de l’Ukraine - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZWE5enRrUHBsOUcwZWozeTlfTkZ3cDdHU3gzWDBqbTNDemFJMjY1cHM5REUwNFU5VkY1ZTkybFVEQl84bmlvUlRzY1IxTVR6UWR4VkM2WC1FS3pJbERkbEJEbW93RTdROXFqMVFJY2lnZnBONjNmcVNDNFkyb2VfUi1HUlBuLXlCTmdBWGpvcU5CaXN3dzlHVUt3UEQ2eW5vQVpwNUJWNWFyTk5MbDQtVTliYmgtOFM3SVI0Y1l5WF8yakpaeTRF?oc=5",
         "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Ursula von der Leyen s’est rendue au Groenland : la présidente de la Commission européenne affiche son soutien face aux convoitises de Donald Trump (photos) - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNem5DcWdMU2ZtdUxONFdlcHZiRUFEbUpYbU5FTTU4SjZnZDFFNTU1OUljbllyNXVUbDJfWmpGTzhjZnV5Vzl6V0dIdnF4aUtMMkhmV2VHMEdySURsRlNROW1XblVmcWMzbUtuZlNMYV9TQVotVnBMRHVKR1NXS2tpazRqWDZ6MWtzWE12aGswbzYzUVZwbTE2RUhKNW1EdDBoeEl6ZlJfMkQ2UVBPdEZ3eUpDeVFuVG1FdXFuamE2aG9OWU1BalQ4?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Plan de paix pour l’Ukraine : les émissaires de Donald Trump discutent avec Volodymyr Zelensky à Kiev - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQTY1c2hLZzhlQmxTWmFST3R4M016NWl1MVc2N1BIc0NlM1Iwcmlpdk9TcGxyZTdQVUVoRWtNNHhFRkJubFZpMERSa0RpQ1FsT2NUSFNwNGhiUEhZbGE0d2lRTmRCYlYyTGpSS3Z4YXVJYjJoRmFrdnY5RWFQT19lUFlWYVljT3NVVFc5d1VnY1A3Ql8wUGMzVWdDS2NUWnVtMDVVbXh1R3VRZjlNdHY1M1VPVU9Lby1GVGxyZnVQcFlNTjRPUFNJ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Rencontre entre Poutine et les émissaires de Trump pour parler de l’Ukraine - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRjBSYnFaY1RVOUdhcDNGUzJzbzhCN3M1NFF2NlR3ZGxEelhvNWE3WGNsZE5VTUJXWXpsanRMb2x6TEp6UDNnaHZ3cWZKV0EwMV8xT0VZN0NIM214NlRQVEtsbVNWQVp4aC02M1EzLTFHSElmb3A0eHFSUlh3LVpPSVA1UkRPSExINUd2R2dqZVdVT1o2RW4xc2RyNmtlZkFvdXFFT2M5SE02TW8zVk5SRDVLVnN2SDRDREk0MnN6QkNlMHVva05qbQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Plan de paix pour l'Ukraine : la nouvelle tentative de Trump peut-elle réussir ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNkFrYXB6MHlTa0VVY2hSbVNDYVoxcFJGSVR1cndsN2VsYzlPaDZocjMtZHlqdmFfUU41ajhVeFRsMkhzSmdOZDFQUUF3bUV5TVpGT3dOQnc4YlZTdEYxUFVjaWJzU05rcGdqYU1jQ0w4Z3F3SlFnQTdhak5VcTBJU0dETEwtaU1wZGxrcTZTdjJXeUFaWXlEWk1zbnFpczdweTNBbXBJNDN6R3hPZGp0SHJKMnJtZzFYV3BqM2hRZlpjbm5qRFN3LW9R?oc=5",
+        "source": "rtl_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Fin des discussions à Moscou entre Poutine et les émissaires de Trump qui se rendent à Kiev ce dimanche - RTBF",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQajhkdl9jZno4ZUZ0NHBYYXg0bEFTdkxNZmx1SmQwakF6ZGl2Nzk0S3Boc0JQazZ5X0d1TGpjd2JVUTBiS0FJNmM5dUktbmJueGo5T0JadnRsLURxQTlBQVJaNmMtMUFpNkNtazZTcXZJdXg4MC1LT1B1VTh0MkQ2SVQ1OXQ0Zkk2a0M2UnRNOGZxQVhRM0p2MEpHSHpxdmlSOHdqMXJfNXdheVlLSGxzc214MnhGOVo0QWZ0Zk9sYWRpRnh1alAyN1pIRzZxX2xvc1ZB?oc=5",
+        "title": "Ukraine : après Moscou, les émissaires de Trump évoquent des discussions 'très significatives' à Kiev pour avancer vers la paix - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNS2M1RTNKSFJfdFg0akE0YmpoUnpWaEdHRXVHWFJHQmhNNFkzMW52Y19leXdIUnVGb3Jic01ESG9YOUlBN3N5d3VPSkZqUDVobXU4UHNPRVBIc2JldHZKOTVvWF9MN0gzQ2wxV3N1WTZpcTlvUks3bXdxNjJjcDBva2JMcjFxeUM1VTE2aUdCUFlyc3hnV2VXRWgycG10MFFvZXhIWHRLWGpRdmZrVWRHbEU5eXo1eFNNbmN0QV8tOWlITWN6MUNKZ01DWWFKalROblA3Rk5SaEdISXYxdDFkckZHdDlTN3RsWGRQUUotdDdkZUdHVEYtM2NSa3BFdlJEY01EcFJIQVgtQ3ZNRm1yYWk0TEV5aktoU2JB?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "En route pour Kiev : après Moscou et une rencontre avec Poutine, les émissaires de Trump se rendent dans la capitale ukrainienne",
-        "url": "https://www.rtbf.be/article/en-route-pour-kiev-apres-moscou-et-une-rencontre-avec-poutine-les-emissaires-de-trump-se-rendent-dans-la-capitale-ukrainienne-11780224",
+        "title": "Trump zet Fed opnieuw onder druk om rente te verlagen - Business AM",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYmRUaHNMTkwtei1ITVRHTGVTNmxmNWxFOW5QX0RVLU1DSjFKUDNxV1lMcDU5TU4tVDM2SFVQN0hudUpTejczVTlKbllRcWVHbm9rRmw2Z1RKOWxoNG40dUU1MjRaYjh0a3AyQTYwSjBWT3JESGpsMFQ4WUxMd3A2YmVR?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Le camp Trump sous pression ? Des responsables militaires américains soumis au détecteur de mensonges après des fuites - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOZ2xzODk0MEw4UjZxeUZzeW9BUEdRSjhwM1I1TktDYUdRQ1BIbHZpc1JUZFNNSDFWaVpyVnctRldmbi1RVGdhR2JiZGYtbXB1TGhMUDg4QjhjZnlaTXUtc08wM3ZqdUFrc19BOVBUeXcxVmdfWW1RcFd1Y3NETk9WZVB4bi1nTlg5QmRaeU5oOXJZTDhWTU5ic0NObFhwbTBUYnN1YVRiSzdhemZVYjdJMzJsaGM4R1FNenFUd0Z6UWxXSXYxbkhRTHJFbFBJTm8wVXM2S3AwcEJxNXJyZmdkSlRXQlRNVExaQXBIZGlCR2Qtc21DWW5QSmwzZ1RQaHhqczlwQXBBdzNETUVHVkVKeVhTQklJbkp1RlpQYVVrcWVUbVAyMFFjOA?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump komt senaatskandidaat in Texas te hulp met miljoenen om Democraat te verslaan",
+        "url": "https://www.demorgen.be/snelnieuws/live-verenigde-staten-laten-opnieuw-schip-van-vermeende-drugssmokkelaars-zinken~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Ukraine : après Moscou, les émissaires de Trump évoquent des discussions \"très significatives\" à Kiev pour avancer vers la paix",
+        "url": "https://www.rtbf.be/article/ukraine-apres-moscou-les-emissaires-de-trump-evoquent-des-discussions-tres-significatives-a-kiev-pour-avancer-vers-la-paix-11780816",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "L'administration de Trump se prépare à une grande première pour la guerre en Ukraine",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/06/ladministration-de-trump-se-prepare-a-une-grande-premiere-pour-la-guerre-en-ukraine-7STLTW2N2ZFVJCKF6NMN44DG7Y/",
-        "source": "dhnet",
+        "title": "Ursula von der Leyen se rend au Groenland pour afficher le soutien de l’UE face à Trump",
+        "url": "https://www.rtbf.be/article/ursula-von-der-leyen-se-rend-au-groenland-pour-afficher-le-soutien-de-l-ue-face-a-trump-11780773",
+        "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "La Maison Blanche évoque des “plans substantiels” pour mettre fin à la guerre",
-        "url": "https://www.7sur7.be/monde/la-maison-blanche-evoque-des-plans-substantiels-pour-mettre-fin-a-la-guerre~a33fdd82/",
-        "source": "septsursept",
-        "name_only": false
+        "title": "Le camp Trump sous pression ? Des responsables militaires américains soumis au détecteur de mensonges après des fuites",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/06/le-camp-trump-sous-pression-des-responsables-militaires-americains-soumis-au-detecteur-de-mensonges-apres-des-fuites-WGGJCFYGGVGKPERFZ7KCWCK22I/",
+        "source": "lalibre",
+        "name_only": true
       },
       {
-        "title": "Guerre en Ukraine : les émissaires de Donal Trump attendus à Kiev - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWldYVXBjWF9vVVg0TVAyYXpMZHdZemY4N2JVSGRPRGExQjRRUEVzSHd6cnZlVVF0MWtIdkFlOWtPR0tmRVFuSF9JbWtxWEJ0RDllRzNjaE1zV0NDRVhiaDZRNmdhRmVFSUs5RlcxWmNObWZrZWZRejJ3MXgtMGh3T0RFNkdnLVpoQlktcm1WaGVrVXI0Q0dabm5fU19GUm55VTU2MmUtdnoxR2hKV0E?oc=5",
+        "title": "Les émissaires de Trump en Ukraine pour la première fois, après Moscou - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZGNCYi16ckc2RHR0Qnp1eURrOGM4SFB6TFUzandRR29xbHNMTGxkQmU5YTZrck11a0JiUFpkeFRGdmZReVd2d2VCeTdWaW0wdzU1RHZ6TE03OVdMbjlQV1NNOFZidXlKSkVVenJBZ3ZCYjJiejgzQ3ZKNnRhRFBzdDZ4clhvME01dFlTcnN4djBOaGpqR2F6S2VBQUphYjAzbGF4NENCbGpJOHpTNzFXRzBsZ3hkQVRMbXJKM0dtekg2bDNBY0RwR2VVZGIxbVVpV1lOUA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky ontvangt Trump-gezanten Kushner en Witkoff na overleg in Moskou - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdFk1Mi12b05zTlBsSnJBX3JFdnJUOHRibWpMbndjNUc3UzU2SUh4cHg1QnFuWS1PTDRnd0pCbHA3MUtIQWJ4LXFHUGZRU1hadmNTNzVGTzRVXzVxVmk0aUstN0FvNVQ4NVZNaktVVzA4Z3h2aFhzV3lsOWhwTDJhTlRlbVZwblktVHg3UmdYbGRGVGRrMFZQbDlaaWVFeV9XVjJLOEFGc3NGeWlaQm9Sa25HMExTN2JzeTRXMGp1Y25oUFd0Z0M1WW1selJSRjZfd2ZtcWVldnRMLU1ZLXd5dmlB?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : les émissaires de Donal Trump attendus pour le première fois à Kiev - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa2gxcjVqLUFIWWZMcHgyaDFLSFhFZ0dmY251MUpyZTdxbzVqbmNHdHFseURuTmwxdDBOZlZFaXktSm9DS0dWbnZoRUdUcjNHZmdHZWhQTlI2MERsaXBSbDdDS3JVT0ozZWdxSmoxek16RUtVa1JpdHNRSFVDakNURUplM3RDYnNEaHlOSUExVjZSWXYwdlV4TENNemN1eG9BZFZJdEFEajIzZ0JIbkVmMXNvd0NOdEU5ZEJlNkZvdXI2RUZE?oc=5",
         "source": "lesoir_g",
         "name_only": true
       },
       {
-        "title": "Guerre en Ukraine : les émissaires de Donal Trump attendus en Ukraine - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRHZndHdfbFc5TFNjdzctanJTOV9qRmdHQTgxaEhhU2gtck9SdWZsTlFrQWsyM1g0bGNNSWxGLVlWVUl0TkVJeV9DdkpHaE5zU0dsZmhXdlVQTzlSa0dfZ3hjUEVkaXAzajlTX0FSMk5FZnYzREp3STBnX1JZUXY3Y2Z3V2Rkb3VRT3BUa2c0XzdBdl9NLUUzc0p5TjhENTRwNHVNcVNpMUMxcDlZVDljRXMyLTdMZw?oc=5",
-        "source": "lesoir_g",
+        "title": "Après trois heures avec Poutine, les émissaires de Trump se rendent à Kiev avec une proposition pour mettre fin à la guerre - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTWhQbWNUOWw1WDZ3b0ZvcUVsb21wc1VGRmZWZmtuQ1hSRlNpSzdtemdzVFdFcWtENzBYMkZaYWVfRU5FOF9pOGdrTTVWQVJJSTE3LWxlU1BhLTlUYnZ4cU0zZzBuYzFuenJPSXVjSHdnUzZIdWdmMnQ1azY2T2hPU1lBbXhIQndrb2pyTVNsQlkwWTNUWmZVeXE4Wjg0eGh1NkN2WHRURHdzUjdSZXhGdjJ2TkhhOHdHY0d6aUlTRHR1X2NlWlI3RXQ2MGo?oc=5",
+        "source": "sudinfo_g",
         "name_only": true
       },
       {
@@ -87987,18 +88059,42 @@
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZWE5enRrUHBsOUcwZWozeTlfTkZ3cDdHU3gzWDBqbTNDemFJMjY1cHM5REUwNFU5VkY1ZTkybFVEQl84bmlvUlRzY1IxTVR6UWR4VkM2WC1FS3pJbERkbEJEbW93RTdROXFqMVFJY2lnZnBONjNmcVNDNFkyb2VfUi1HUlBuLXlCTmdBWGpvcU5CaXN3dzlHVUt3UEQ2eW5vQVpwNUJWNWFyTk5MbDQtVTliYmgtOFM3SVI0Y1l5WF8yakpaeTRF?oc=5",
         "source": "sudinfo_g",
         "name_only": true
+      },
+      {
+        "title": "Ursula von der Leyen s’est rendue au Groenland : la présidente de la Commission européenne affiche son soutien face aux convoitises de Donald Trump (photos) - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNem5DcWdMU2ZtdUxONFdlcHZiRUFEbUpYbU5FTTU4SjZnZDFFNTU1OUljbllyNXVUbDJfWmpGTzhjZnV5Vzl6V0dIdnF4aUtMMkhmV2VHMEdySURsRlNROW1XblVmcWMzbUtuZlNMYV9TQVotVnBMRHVKR1NXS2tpazRqWDZ6MWtzWE12aGswbzYzUVZwbTE2RUhKNW1EdDBoeEl6ZlJfMkQ2UVBPdEZ3eUpDeVFuVG1FdXFuamE2aG9OWU1BalQ4?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Plan de paix pour l’Ukraine : les émissaires de Donald Trump discutent avec Volodymyr Zelensky à Kiev - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQTY1c2hLZzhlQmxTWmFST3R4M016NWl1MVc2N1BIc0NlM1Iwcmlpdk9TcGxyZTdQVUVoRWtNNHhFRkJubFZpMERSa0RpQ1FsT2NUSFNwNGhiUEhZbGE0d2lRTmRCYlYyTGpSS3Z4YXVJYjJoRmFrdnY5RWFQT19lUFlWYVljT3NVVFc5d1VnY1A3Ql8wUGMzVWdDS2NUWnVtMDVVbXh1R3VRZjlNdHY1M1VPVU9Lby1GVGxyZnVQcFlNTjRPUFNJ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Rencontre entre Poutine et les émissaires de Trump pour parler de l’Ukraine - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRjBSYnFaY1RVOUdhcDNGUzJzbzhCN3M1NFF2NlR3ZGxEelhvNWE3WGNsZE5VTUJXWXpsanRMb2x6TEp6UDNnaHZ3cWZKV0EwMV8xT0VZN0NIM214NlRQVEtsbVNWQVp4aC02M1EzLTFHSElmb3A0eHFSUlh3LVpPSVA1UkRPSExINUd2R2dqZVdVT1o2RW4xc2RyNmtlZkFvdXFFT2M5SE02TW8zVk5SRDVLVnN2SDRDREk0MnN6QkNlMHVva05qbQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Plan de paix pour l'Ukraine : la nouvelle tentative de Trump peut-elle réussir ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNkFrYXB6MHlTa0VVY2hSbVNDYVoxcFJGSVR1cndsN2VsYzlPaDZocjMtZHlqdmFfUU41ajhVeFRsMkhzSmdOZDFQUUF3bUV5TVpGT3dOQnc4YlZTdEYxUFVjaWJzU05rcGdqYU1jQ0w4Z3F3SlFnQTdhak5VcTBJU0dETEwtaU1wZGxrcTZTdjJXeUFaWXlEWk1zbnFpczdweTNBbXBJNDN6R3hPZGp0SHJKMnJtZzFYV3BqM2hRZlpjbm5qRFN3LW9R?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 5,
-      "putin": 4,
+      "trump": 13,
+      "putin": 3,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 0,
+      "netanyahu": 2,
+      "zelensky": 8,
       "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 2,
-      "bouchez": 0,
+      "von_der_leyen": 2,
+      "de_wever": 3,
+      "bouchez": 7,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
@@ -88009,15 +88105,15 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 6,
-      "putin": 7,
+      "trump": 16,
+      "putin": 5,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 0,
+      "netanyahu": 2,
+      "zelensky": 9,
       "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 2,
-      "bouchez": 0,
+      "von_der_leyen": 2,
+      "de_wever": 5,
+      "bouchez": 10,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
@@ -88028,36 +88124,36 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 16,
-      "crime": 6,
-      "eu": 9,
-      "politics": 7,
-      "be_gov": 10,
-      "culture": 14,
+      "war": 31,
+      "crime": 28,
+      "eu": 20,
+      "politics": 30,
+      "be_gov": 21,
+      "culture": 21,
       "tech": 5,
-      "economy": 3,
-      "sports": 13,
-      "health": 4,
+      "economy": 15,
+      "sports": 73,
+      "health": 13,
       "climate": 3,
       "migration": 0,
       "education": 1,
-      "weather": 9
+      "weather": 7
     },
     "wide_themes": {
-      "war": 20,
-      "crime": 8,
-      "eu": 11,
-      "politics": 8,
-      "be_gov": 11,
-      "culture": 15,
-      "tech": 7,
-      "economy": 4,
-      "sports": 20,
-      "health": 4,
-      "climate": 3,
-      "migration": 0,
-      "education": 2,
-      "weather": 15
+      "war": 47,
+      "crime": 35,
+      "eu": 24,
+      "politics": 50,
+      "be_gov": 28,
+      "culture": 23,
+      "tech": 9,
+      "economy": 19,
+      "sports": 121,
+      "health": 19,
+      "climate": 5,
+      "migration": 1,
+      "education": 4,
+      "weather": 14
     }
   }
 ]
