@@ -88155,5 +88155,490 @@
       "education": 4,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-09-07",
+    "generated_at": "2026-09-07T10:37:05+02:00",
+    "last_checked_at": "2026-09-07T10:37:05+02:00",
+    "total_articles": 461,
+    "trump_articles": 6,
+    "percentage": 1.3,
+    "core_percentage": 1.3,
+    "core_percentage_name": 1.3,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 1.3,
+    "indirect_references": 0,
+    "wide_total_articles": 635,
+    "wide_trump_articles": 8,
+    "wide_percentage": 1.3,
+    "wide_trump_articles_expanded": 8,
+    "wide_percentage_expanded": 1.3,
+    "macro_percentage": 1.3,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 35,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 7.6,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.6,
+    "breadth": 0.33,
+    "deviation": 0.48,
+    "smoothed_pct": 2.4,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "google_nl_politics": {
+        "fetched": 36,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 23,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 15,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 68,
+        "today": 8,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 67,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 74,
+        "kept": 38,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 39,
+        "kept": 39,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.56
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 45,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 16,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "trends_g": {
+        "fetched": 29,
+        "today": 7,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 29,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump wil Amerikaanse staat New Mexico omdopen tot New America",
+        "url": "https://www.hln.be/buitenland/trump-wil-amerikaanse-staat-new-mexico-omdopen-tot-new-america~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Gewapende man opgepakt die op Democratische kandidate afstormde - Trump deelt opvallende beelden",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-gewapende-man-opgepakt-die-op-democratische-kandidate-afstormde-trump-deelt-opvallende-beelden/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“C’est une approche complètement totalitaire et colonialiste” : l’Amérique de Trump menace les peuples autochtones",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/07/cest-une-approche-completement-totalitaire-et-colonialiste-lamerique-de-trump-menace-les-peuples-autochtones-PA2KOZ5IXZHOHE3T2OEN4MXRRY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les émissaires de Trump en Ukraine pour la première fois, après Moscou - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZGNCYi16ckc2RHR0Qnp1eURrOGM4SFB6TFUzandRR29xbHNMTGxkQmU5YTZrck11a0JiUFpkeFRGdmZReVd2d2VCeTdWaW0wdzU1RHZ6TE03OVdMbjlQV1NNOFZidXlKSkVVenJBZ3ZCYjJiejgzQ3ZKNnRhRFBzdDZ4clhvME01dFlTcnN4djBOaGpqR2F6S2VBQUphYjAzbGF4NENCbGpJOHpTNzFXRzBsZ3hkQVRMbXJKM0dtekg2bDNBY0RwR2VVZGIxbVVpV1lOUA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Après le golfe du Mexique et le lac Ontario, Trump veut rebaptiser un État américain",
+        "url": "https://www.7sur7.be/monde/apres-le-golfe-du-mexique-et-le-lac-ontario-trump-veut-rebaptiser-un-etat-americain~a644ea7a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Après avoir voulu changer le lac Ontario en lac d’Amérique, Donald Trump a une nouvelle lubie… tirée d’une blague sur Internet - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQXlvUlBVdGNnUWlXS3BOYUM4b3NTNXBQeHdXUzBkNWJJTjFJQS1POE9yTVY4ZXF4QVZOaHR1YVV1Wi03Ry02Z2VLdE9aOU5lUHVGUEx1UnZfODdabHlhOHhQMXA3MmhYUy01NGlJdlRzQkxEUlBqRWRMTHNGSU9XcE5ZQkhQRG45YlFDdGhOVnRzT1ViWnJQbVYyUFZNNzVSaVRmMlNGTXBxa3RCNnV6X2ItTTV2UFFwREZYaEhYNXI3MlVQN2t3RG5qLWsxeHQ1LXhDOVB6WWpsZUVh?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "\"C'est une approche complètement totalitaire et colonialiste\" : l'Amérique de Trump menace les peuples autochtones - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOTzduTjU2YXRqYm1qcFF3aDlGa2IyQlNRWWhRa1J4R29QdlpTZVB6eHpBUkw5a0FCXzJrYlo3bS12aDhMaGEwSXhYWFotQW9mNGRVbGpxV2NtbWEyVU81UXFGMldxNFZRMzBjMmFWWk1zWUtlRi03cFBxTTJhZ0tISVRUT3diYlhQTktiR3ZMV1NKM3FEUnYzT3BjdVZOVDJDaTJQSk9JTi0yN1JVdWtsZENaZ2FIbWVGSmdYYVlvOXNyeTVrZDBnblFPdUJXanlOeUxIWTlaek9LM09QbE5iSDhEZG5EMHEzcml3ZEtRczhxUUlfQnFGaDV5NnYxdnNRUmNGTDg5YlRMTGhPU0pOWjN6RVBrcVlYRmJqMDF3?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil Amerikaanse staat New Mexico omdopen tot New America - HLN",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ19OX01QN0h2dWxWTm5CdWRFRjUtX1pzWUVXdDJPTTdINzY1SndLdHZlbVR1UWgyT2haT3JpVEtnVV84MG1OZExuRXBQWE5WUFF5SDdDTWxBV0ttSzlNaUtDME5ORU5nendBT01tNTNfTTMyXzJVaFJ6bkd2WVB1ZkhCcFJ6YVpweVZhTXVFTHlGdF9CQmJaQS1WeGw1TjRxeFBoYg?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil Amerikaanse staat New Mexico omdopen tot New America",
+        "url": "https://www.hln.be/buitenland/trump-wil-amerikaanse-staat-new-mexico-omdopen-tot-new-america~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Gewapende man opgepakt die op Democratische kandidate afstormde - Trump deelt opvallende beelden",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-gewapende-man-opgepakt-die-op-democratische-kandidate-afstormde-trump-deelt-opvallende-beelden/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“C’est une approche complètement totalitaire et colonialiste” : l’Amérique de Trump menace les peuples autochtones",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/07/cest-une-approche-completement-totalitaire-et-colonialiste-lamerique-de-trump-menace-les-peuples-autochtones-PA2KOZ5IXZHOHE3T2OEN4MXRRY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les émissaires de Trump en Ukraine pour la première fois, après Moscou - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZGNCYi16ckc2RHR0Qnp1eURrOGM4SFB6TFUzandRR29xbHNMTGxkQmU5YTZrck11a0JiUFpkeFRGdmZReVd2d2VCeTdWaW0wdzU1RHZ6TE03OVdMbjlQV1NNOFZidXlKSkVVenJBZ3ZCYjJiejgzQ3ZKNnRhRFBzdDZ4clhvME01dFlTcnN4djBOaGpqR2F6S2VBQUphYjAzbGF4NENCbGpJOHpTNzFXRzBsZ3hkQVRMbXJKM0dtekg2bDNBY0RwR2VVZGIxbVVpV1lOUA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Après le golfe du Mexique et le lac Ontario, Trump veut rebaptiser un État américain",
+        "url": "https://www.7sur7.be/monde/apres-le-golfe-du-mexique-et-le-lac-ontario-trump-veut-rebaptiser-un-etat-americain~a644ea7a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Après avoir voulu changer le lac Ontario en lac d’Amérique, Donald Trump a une nouvelle lubie… tirée d’une blague sur Internet - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQXlvUlBVdGNnUWlXS3BOYUM4b3NTNXBQeHdXUzBkNWJJTjFJQS1POE9yTVY4ZXF4QVZOaHR1YVV1Wi03Ry02Z2VLdE9aOU5lUHVGUEx1UnZfODdabHlhOHhQMXA3MmhYUy01NGlJdlRzQkxEUlBqRWRMTHNGSU9XcE5ZQkhQRG45YlFDdGhOVnRzT1ViWnJQbVYyUFZNNzVSaVRmMlNGTXBxa3RCNnV6X2ItTTV2UFFwREZYaEhYNXI3MlVQN2t3RG5qLWsxeHQ1LXhDOVB6WWpsZUVh?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 8,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 4,
+      "bouchez": 3,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 15,
+      "crime": 8,
+      "eu": 20,
+      "politics": 20,
+      "be_gov": 15,
+      "culture": 5,
+      "tech": 6,
+      "economy": 14,
+      "sports": 31,
+      "health": 4,
+      "climate": 1,
+      "migration": 0,
+      "education": 8,
+      "weather": 11
+    },
+    "wide_themes": {
+      "war": 17,
+      "crime": 11,
+      "eu": 30,
+      "politics": 25,
+      "be_gov": 21,
+      "culture": 8,
+      "tech": 12,
+      "economy": 15,
+      "sports": 57,
+      "health": 8,
+      "climate": 2,
+      "migration": 0,
+      "education": 11,
+      "weather": 14
+    }
   }
 ]
