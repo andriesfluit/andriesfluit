@@ -88640,5 +88640,550 @@
       "education": 11,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-09-08",
+    "generated_at": "2026-09-08T10:19:05+02:00",
+    "last_checked_at": "2026-09-08T10:19:05+02:00",
+    "total_articles": 421,
+    "trump_articles": 10,
+    "percentage": 2.4,
+    "core_percentage": 2.4,
+    "core_percentage_name": 2.4,
+    "trump_articles_expanded": 10,
+    "core_percentage_expanded": 2.4,
+    "indirect_references": 0,
+    "wide_total_articles": 596,
+    "wide_trump_articles": 14,
+    "wide_percentage": 2.3,
+    "wide_trump_articles_expanded": 14,
+    "wide_percentage_expanded": 2.3,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 22,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 25,
+    "cross_outlet_dup_groups": 12,
+    "cross_outlet_dup_rate": 5.9,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.67,
+    "breadth": 0.47,
+    "deviation": 0.92,
+    "smoothed_pct": 2.36,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "google_nl_politics": {
+        "fetched": 47,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 64,
+        "today": 10,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 19,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 57,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 46,
+        "kept": 46,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.17
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 54,
+        "today": 7,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 53,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trumps voorstel voor een militair uniform doet wel heel erg denken aan filmisch fascisme - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOWxEd0xkR0FLaXVEdmNWWlkwSUtkS1NZZFhuQ3hpc3Bnem1fQVI2cjNaVDAwZ0lNaTBkZDVaSzJWYlh4RHRFa254cXNWOVJpQzh0ZG5hMlBhWE1fVjZIWEF0emNMUnhvcHBtajhFSmtOR25PSGpxRk5qam9yN1hneFNCcDg3SWloR2dEOVVmd0REWkFxMWhSMWNETUtpUTg3bVhzU2ZfOTZLa09rY2t4NS1PTjhlS2lUdjNxVENiTDhsejJJWURJTk1OUUQ3ZlhQbGNqVEZn?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Na Trumps digitale strafexpeditie tegen het Internationaal Strafhof: “Hij heeft Wero een geweldig cadeau gedaan” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNDRnNVlGMGVkdXBwSGg5SzhGenFsVk82S2QyanhRcU51U3BIbHVMTTF2emU0eGhPck9iSnB0SHdaVEFuT2dNdXFURS01dVdKdUk0c2NFTzVReERWSWZVTUJPc05aS0RKaG1QZEFpUmdxdk16Uld2QndFb1hrd3NCdmVKWi00MlRDbmd1ZW43TjkwSUJEMHEySmVwUnRQb2RmeXdnSldRUlB0a2dOMHRrdHhaQ1VQOHBKVDhzSk9tcE5nR0h0UnZoM1N5X0FCd084MXMxbzZpNFhHLUpTMkE2STBzRWQxdFBjMlhoS3BRdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump deelt kaart waarop Canada, Groenland en IJsland bij VS horen: Reykjavik ontbiedt Amerikaanse ambassadeur",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-deelt-kaart-waarop-canada-groenland-en-ijsland-bij-vs-horen-reykjavik-ontbiedt-amerikaanse-ambassadeur~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. IJsland roept Amerikaanse ambassadeur op matje nadat Trump weer opvallende kaart deelt",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-ijsland-roept-amerikaanse-ambassadeur-op-matje-nadat-trump-weer-opvallende-kaart-deelt/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. IJsland roept Amerikaanse ambassadeur op matje nadat Trump weer opvallende kaart deelt",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-ijsland-roept-amerikaanse-ambassadeur-op-matje-nadat-trump-weer-opvallende-kaart-deelt/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : selon Zelensky, Poutine ne veut pas contrarier Trump et serait prêt à négocier une possible \"désescalade\" cet hiver",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-selon-zelensky-poutine-ne-veut-pas-contrarier-trump-et-serait-pret-a-negocier-une-possible-desescalade-cet-hiver-11781573",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : ​​​​​​​à peine les émissaires de Trump repartis, les missiles russes de Poutine s’abattent de nouveau sur Kiev",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-a-peine-les-emissaires-de-trump-repartis-les-missiles-russes-de-poutine-s-abattent-de-nouveau-sur-kiev-11781553",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "“Expulsez-les tous” : quand l’ancien Monsieur anti-immigration de Donald Trump critique l’administration présidentielle",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/07/expulsez-les-tous-quand-lancien-monsieur-anti-immigration-de-donald-trump-critique-ladministration-presidentielle-JYFJCOACT5HXLMCJWWJDAN4DCA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump s'en prend à un constructeur d'avions canadien: \"S'ils veulent notre marché, ils doivent construire ici\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/08/donald-trump-sen-prend-a-un-constructeur-davions-canadien-sils-veulent-notre-marche-ils-doivent-construire-ici-ZZYPYXGVVBEPLPVHD4MGMJNGIU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La riposte du Canada aux droits de douane de Trump entre en vigueur",
+        "url": "https://www.7sur7.be/monde/la-riposte-du-canada-aux-droits-de-douane-de-trump-entre-en-vigueur~a7eda9ce/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Donald Trump s'en prend à un constructeur d'avions canadien: \"S'ils veulent notre marché, ils doivent construire ici\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOZzFTX0Zfc0NmU2lmU0tKaG5fQlV2SUtPdjRjenJyeXVBUVAxem84Tm9od0RVTkNlbVNhZEpzcl9kTHdaZTd4QmF1bFFETHBTcmIwY0xIZWpfMzNka0ZJdXVkcG9PbVpmMV9FcU4wUjFScUtmUFV0SmdKNUJVZXJWMkExalAtSVJfeWRfeXVKb2hnb3Zkb2FDbEdRMk05NEg1NlNFZEpYY2R1NkZwM2xhcnBPV0V5WlBTTkJCWkJsZ1dMRmpURmZ4WGJJS0VydWFTVmlQemV5bGlBQmIzQjEyTmF5ZVFGTHBCdHg2SERsRnhQZkZ6d094dGdUQlhvdEtSdXh0RTlYZDhUVndCMVE?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump overlaadt Truth Social met kaartjeswaanzin en controversiële AI-beelden - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd01Xb2J4cXhKMzVLRlZnSzZNLWxlMHZmMTRqZzhiS2lybFZQa2NTNkVpak43ZVp6TDNicjB6dGsxRThXcGNoejZmSDN2X1djbDNhTS03VXhVb2ZieXp6aVV3eU0yTWdTUHpDNjc2V2xQSW9ISjN0QUNnMGVId3BudHF4cG1odkhzb0ZTWGw1YzdoR1dDeW9jaWM5WVZvWG1tWUdTRkp1Z1gycTFxdGwtRmdSLWNoZFpBbVpRMkFXY2l5OUJIUzFv?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : selon Zelensky, Poutine ne veut pas contrarier Trump et serait prêt à négocier une possible 'désescalade' cet hiver - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQR2ZGNDB2aWtpM21ZRTVWQnZUcGxJWC1WNTJxbm1Ha3A2ZUc0VF9MVU9xd0Z5N1A4TVNEMnB5T0U5NUhHbWRScDZoYjRGU1dlcngya2hYQnc5QnIzSVlmeXAyTlJNRnpMdzVxM2hNVnVrRHFPcGtEUDFJTS1BS2d0RkV4OFROc09RejkyblJfNVg5VFpseUJvNW9WbTVuVkxENERGOHdQUV84bXpvbkdBVXhrY1ljWnN2RG1GMjJ3Y0pIR3hQSzRzcXFlVXlleVBWTzVpRGtIUUdtcHJ6eVg2U3FwNXFKNEZ4c3hDRC05d3hMNzRuc0ZlLWdVUlJPaG9fWjByMUtTQVp1WlduUllQWFNsaw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trumps voorstel voor een militair uniform doet wel heel erg denken aan filmisch fascisme - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOWxEd0xkR0FLaXVEdmNWWlkwSUtkS1NZZFhuQ3hpc3Bnem1fQVI2cjNaVDAwZ0lNaTBkZDVaSzJWYlh4RHRFa254cXNWOVJpQzh0ZG5hMlBhWE1fVjZIWEF0emNMUnhvcHBtajhFSmtOR25PSGpxRk5qam9yN1hneFNCcDg3SWloR2dEOVVmd0REWkFxMWhSMWNETUtpUTg3bVhzU2ZfOTZLa09rY2t4NS1PTjhlS2lUdjNxVENiTDhsejJJWURJTk1OUUQ3ZlhQbGNqVEZn?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Na Trumps digitale strafexpeditie tegen het Internationaal Strafhof: “Hij heeft Wero een geweldig cadeau gedaan” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNDRnNVlGMGVkdXBwSGg5SzhGenFsVk82S2QyanhRcU51U3BIbHVMTTF2emU0eGhPck9iSnB0SHdaVEFuT2dNdXFURS01dVdKdUk0c2NFTzVReERWSWZVTUJPc05aS0RKaG1QZEFpUmdxdk16Uld2QndFb1hrd3NCdmVKWi00MlRDbmd1ZW43TjkwSUJEMHEySmVwUnRQb2RmeXdnSldRUlB0a2dOMHRrdHhaQ1VQOHBKVDhzSk9tcE5nR0h0UnZoM1N5X0FCd084MXMxbzZpNFhHLUpTMkE2STBzRWQxdFBjMlhoS3BRdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump deelt kaart waarop Canada, Groenland en IJsland bij VS horen: Reykjavik ontbiedt Amerikaanse ambassadeur",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-deelt-kaart-waarop-canada-groenland-en-ijsland-bij-vs-horen-reykjavik-ontbiedt-amerikaanse-ambassadeur~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. IJsland roept Amerikaanse ambassadeur op matje nadat Trump weer opvallende kaart deelt",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-ijsland-roept-amerikaanse-ambassadeur-op-matje-nadat-trump-weer-opvallende-kaart-deelt/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. IJsland roept Amerikaanse ambassadeur op matje nadat Trump weer opvallende kaart deelt",
+        "url": "https://www.gva.be/buitenland/live-vs.-ijsland-roept-amerikaanse-ambassadeur-op-matje-nadat-trump-weer-opvallende-kaart-deelt/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. IJsland roept Amerikaanse ambassadeur op matje nadat Trump weer opvallende kaart deelt",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-ijsland-roept-amerikaanse-ambassadeur-op-matje-nadat-trump-weer-opvallende-kaart-deelt/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : selon Zelensky, Poutine ne veut pas contrarier Trump et serait prêt à négocier une possible \"désescalade\" cet hiver",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-selon-zelensky-poutine-ne-veut-pas-contrarier-trump-et-serait-pret-a-negocier-une-possible-desescalade-cet-hiver-11781573",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : ​​​​​​​à peine les émissaires de Trump repartis, les missiles russes de Poutine s’abattent de nouveau sur Kiev",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-a-peine-les-emissaires-de-trump-repartis-les-missiles-russes-de-poutine-s-abattent-de-nouveau-sur-kiev-11781553",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "“Expulsez-les tous” : quand l’ancien Monsieur anti-immigration de Donald Trump critique l’administration présidentielle",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/07/expulsez-les-tous-quand-lancien-monsieur-anti-immigration-de-donald-trump-critique-ladministration-presidentielle-JYFJCOACT5HXLMCJWWJDAN4DCA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump s'en prend à un constructeur d'avions canadien: \"S'ils veulent notre marché, ils doivent construire ici\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/08/donald-trump-sen-prend-a-un-constructeur-davions-canadien-sils-veulent-notre-marche-ils-doivent-construire-ici-ZZYPYXGVVBEPLPVHD4MGMJNGIU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La riposte du Canada aux droits de douane de Trump entre en vigueur",
+        "url": "https://www.7sur7.be/monde/la-riposte-du-canada-aux-droits-de-douane-de-trump-entre-en-vigueur~a7eda9ce/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 10,
+      "putin": 2,
+      "macron": 2,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 2,
+      "de_wever": 2,
+      "bouchez": 3,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 14,
+      "putin": 4,
+      "macron": 4,
+      "netanyahu": 0,
+      "zelensky": 6,
+      "rutte": 0,
+      "von_der_leyen": 2,
+      "de_wever": 4,
+      "bouchez": 3,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 10,
+      "crime": 12,
+      "eu": 30,
+      "politics": 15,
+      "be_gov": 20,
+      "culture": 7,
+      "tech": 8,
+      "economy": 7,
+      "sports": 26,
+      "health": 1,
+      "climate": 4,
+      "migration": 0,
+      "education": 6,
+      "weather": 13
+    },
+    "wide_themes": {
+      "war": 18,
+      "crime": 17,
+      "eu": 42,
+      "politics": 26,
+      "be_gov": 28,
+      "culture": 10,
+      "tech": 13,
+      "economy": 13,
+      "sports": 41,
+      "health": 1,
+      "climate": 6,
+      "migration": 1,
+      "education": 9,
+      "weather": 17
+    }
   }
 ]
