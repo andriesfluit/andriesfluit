@@ -89185,5 +89185,706 @@
       "education": 9,
       "weather": 17
     }
+  },
+  {
+    "date": "2026-09-09",
+    "generated_at": "2026-09-09T10:22:11+02:00",
+    "last_checked_at": "2026-09-09T10:22:11+02:00",
+    "total_articles": 429,
+    "trump_articles": 20,
+    "percentage": 4.7,
+    "core_percentage": 4.7,
+    "core_percentage_name": 4.7,
+    "trump_articles_expanded": 20,
+    "core_percentage_expanded": 4.7,
+    "indirect_references": 0,
+    "wide_total_articles": 608,
+    "wide_trump_articles": 30,
+    "wide_percentage": 4.9,
+    "wide_trump_articles_expanded": 30,
+    "wide_percentage_expanded": 4.9,
+    "macro_percentage": 4.8,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 22,
+    "cross_outlet_dup_groups": 11,
+    "cross_outlet_dup_rate": 5.1,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.25,
+    "breadth": 0.67,
+    "deviation": 1.92,
+    "smoothed_pct": 2.67,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "google_nl_politics": {
+        "fetched": 56,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 9,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 22.22
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_tech": {
+        "fetched": 66,
+        "today": 7,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 33,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "standaard": {
+        "fetched": 50,
+        "today": 11,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.26
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.9
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 56,
+        "kept": 56,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 5.36
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 77,
+        "today": 8,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 64,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "'South Park' herdoopt zichzelf tot 'South America' uit protest tegen Trump",
+        "url": "https://vrtnws.be/p.RayGGBR16",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump gaf rechterhand Natalie Harp 45.000 dollar als eindejaarspremie",
+        "url": "https://www.standaard.be/buitenland/trump-gaf-rechterhand-natalie-harp-45.000-dollar-als-eindejaarspremie/35131945.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump drijft handelsoorlog met Canada op: vanaf eind september importverbod op kaas en alcohol",
+        "url": "https://www.standaard.be/economie/trump-drijft-handelsoorlog-met-canada-op-vanaf-eind-september-importverbod-op-kaas-en-alcohol/35145140.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Dit is volledig legaal”: Trump schonk Natalie Harp en twee andere medewerksters kerstcadeau van 38.000 euro",
+        "url": "https://www.hln.be/buitenland/dit-is-volledig-legaal-trump-schonk-natalie-harp-en-twee-andere-medewerksters-kerstcadeau-van-38-000-euro~a604a2fb/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "South Park spot met Trump en doopt zichzelf om tot ‘South America’",
+        "url": "https://www.hln.be/tv/south-park-spot-met-trump-en-doopt-zichzelf-om-tot-south-america~a7ed7fab/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump belooft de show te stelen op eerste Republikeinse midtermconventie ooit: dit staat er te gebeuren",
+        "url": "https://www.demorgen.be/nieuws/trump-belooft-de-show-te-stelen-op-eerste-republikeinse-midtermconventie-ooit-dit-staat-er-te-gebeuren~b2ba2141/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Na ‘de Golf van Amerika’ en het ‘Amerikameer’, nu ook ‘South America’: ‘South Park’ spot met Trump en kiest ook voor naamsverandering",
+        "url": "https://www.demorgen.be/nieuws/na-de-golf-van-amerika-en-het-amerikameer-nu-ook-south-america-south-park-spot-met-trump-en-kiest-ook-voor-naamsverandering~b8b9f319/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. President Trump schonk assistente en andere medewerkers kerstcadeau van 45.000 dollar",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-president-trump-schonk-assistente-en-andere-medewerkers-kerstcadeau-van-45.000-dollar/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Graf van 1,8 miljoen, geen Trump en omstreden bonusprins Marius welkom: zo zal het afscheid van koning Harald verlopen",
+        "url": "https://www.hbvl.be/buitenland/graf-van-18-miljoen-geen-trump-en-omstreden-bonusprins-marius-welkom-zo-zal-het-afscheid-van-koning-harald-verlopen/161157398.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump schakelt versnelling hoger in tarievenoorlog en verbiedt invoer van Canadese alcohol in VS",
+        "url": "https://www.hbvl.be/buitenland/trump-schakelt-versnelling-hoger-in-tarievenoorlog-en-verbiedt-invoer-van-canadese-alcohol-in-vs/161179025.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Des cadeaux de Noël de Donald Trump aux prix exorbitants suscitent la polémique : “C’est une source de corruption”",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/09/des-cadeaux-de-noel-de-donald-trump-aux-prix-exorbitants-suscitent-la-polemique-cest-une-source-de-corruption-YX4QY7H6ABBKLNXXCYHI7DOJKU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump riposte en interdisant l'importation de tout un tas de produits canadiens aux États-Unis",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/09/donald-trump-riposte-en-interdisant-limportation-de-tout-un-tas-de-produits-canadiens-aux-etats-unis-MM6AOEVPFJA5RDOFDC73GF5VHI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Il n'a pas le droit de le faire\" : Donald Trump suscite un tollé après la révélation de cadeaux de Noël aux montants exorbitants",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/09/il-na-pas-le-droit-de-le-faire-donald-trump-suscite-un-tolle-apres-la-revelation-de-cadeaux-de-noel-aux-montants-exorbitants-U3CFTLF6FVFJDOS2CIXS63LL6E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Guerre commerciale : Donald Trump impose de nouvelles sanctions douanières contre le Canada",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/09/guerre-commerciale-donald-trump-impose-de-nouvelles-sanctions-douanieres-contre-le-canada-64I5I3VQ2ZAR5MJE5YJILWWASI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "”Une très bonne soirée” : Donald Trump salue la victoire de l’AfD en Allemagne",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/09/une-tres-bonne-soiree-donald-trump-salue-la-victoire-de-lafd-en-allemagne-CFZ25YU55RGT7DWZVL5PHKIEXY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Accusée d’être trop “woke” par Trump,  une institution culturelle américaine voit son patron partir",
+        "url": "https://www.7sur7.be/monde/accusee-detre-trop-woke-par-trump-une-institution-culturelle-americaine-voit-son-patron-partir~a6711b3d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump doet handelsoorlog met Canada verder escaleren met nieuwe importverboden - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRjR1QXFPb2hYdENBaS1kLTRqTV9Kdnd6N0pvaEg4SGFhZVlTZlV4cHVidmZiQlB6STZ4TGpienZQUnJpV3U2Zkw2RHB1QTdYbmpUQ3k3STlRVnBIZzFpWXBfYXV5TnBCOFJQY05HQ0N2a0RKTXM3LVVGRDRyTUNZZDZYdWNGSHc0OWlYdGMtczBnWGI4b1NWdkE3eUNvcl9TYm5MeFBnNzRRSjMzN1drM01JR0dTRExPTjZpb29CLVlid2ZHYzh5azhrZUFMQzU4?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "« South America » : la série « South Park » change de nom pour se moquer de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXFWb1NWZkxzblRjcUVyZVA3cWE4YWZVcFJFcEs0S0kxbktEWFlPVlFZeWNjZm55dFFQelNkdFdlTW9NaVlDVjFIbGZHd0VxbXlfMG1VN0Fld29uLS1qaEc2YUVUR255djhQbmNGUXZ0S1F4OHNTSDdJbl8teWdlY3VsLXhBb09TLVFCU1JYd0JWYlB1bUZlclY1QnhOaWl5UFBLejU2UnIzb3pnUUdiSGt2UjZYX19fem5wNHF6WjgzRjhM?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "La série « South Park » change de nom pour se moquer de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM2hVbTVaajk2U2tqWVBPQXBsVkR2V08tOTl5NW9ySjBfNURCNTZLOU1hUHcwNExxQVhtM2stNlZxNVFqdGJ2V2Fmb3NvSEd0c3lfZXNGXzFtUFl0Q1hESFI4WHNNOEVGS0ZMZ215aEpNbXdEaGUxZWM4RmdBWE55MG1rYzhPU3VtNTF5UGxPdDhPLTFxMkF3NV9xTW9jT25ERHpHdDhnaW1TdU5Pa2x0Z2FB?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Waouh ! Ils sont en pleine ascencion » : Donald Trump salue la « très bonne soirée » de l’Afd après sa victoire lors des élections régionales en Allemagne - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd0NQREhZaVhlaVhVWkJGTGRWZ3puUlo3LUN4U1N6dWdGdjlDUk5WcnRRQks5cUd6SXU5bnFnbjlSaV9QOVp5R2VoS0gwUU16QlFUTmplVzJuN3ltN3lTZVgtSmlPc0g3dmU5MFB1ME54YTRzdzF0aXBORDA4TjBaYlM3dFpUdEFMc2dHdTB2SmZ5WUhrV3ZSSGhxWjNIQmZJTFBWRFdERnpvdGxrLVZfZTVJZWI5VnZQU0J2OTlYcFpOLVk3LVdibg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "“Dit is volledig legaal”: Trump schonk Natalie Harp en twee andere medewerksters kerstcadeau van 38.000 euro - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOckJtS3ZKd1VKM2xiT1JvalRRQjM4ZXJXT18yYnlDNmVxLTdYMEVPZ3NQOG1KaDNqb3BBNEQyTzQzMy1FOXhEMGVFcXVIOF9mdmdYWk1pVWdxVXNtdFlhQkNQZGJjWHJKMVoyVGJYTHFWcjlQZ3U3dlNrRWV1em8tRXBhMFA1N2FMM19GVm0xazFPQVhQeXJsZGVSNzFuZDNWWWdBU0lRdG1vNjVhZHNaU2dhQ2RnZ2dTMVBfOUFKYnp1clloNHM2YlJOaWEzY1dDVUtiU0paakc0bjJLU0E?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump salue la victoire de l’AfD en Saxe-Anhalt - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX2ZxWm1DMThSTHFfanFZTnhhOXhSWFlGUmFKejI4cmZqUUc3ZjB1V09tTnNsTFl6eDNaazZ6N3JNV1AxTHk5bVZsbW9DOXlnemQtVkd1QmNyU3FBN0ZBRlFaQS1ITEJjNndDWkdneHpqMDlpaDFBdmtWVllaMGVacWI1RG1KZVZKTGJkRGxaTWZ2MkpLUlM0RlpCMUdyZXM5Zndr?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump gaf rechterhand Natalie Harp 45.000 dollar als eindejaarspremie - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLUNxWlBqN2ZWTzl4VkdOa1BRdVVXYVQ1OXBqRFl2MUdJOWlDNkl4VFZ6d3RYNENVNGtNdTFQb1REbHU4YzNnZW5PallWZUkzMnAxSU1DQkZOMTBLcGoxcmEzei1aNTQ0M1J2cnRJV1lGMmZod0dzYmRhWktEbldEeTRxa21SVVNiUVJleGdJWTU0VGR3OFd6OWxiUEFveW1lVjJPZ2VDa3pFYWZLZTRwNk9ldzE2NUlHWWh3?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Graf van 1,8 miljoen, geen Trump en omstreden bonusprins Marius welkom: zo zal het afscheid van koning Harald verlopen - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOc1p0TWRDYTd5ZDZJLUpXTXl3dGlVNFAwRnA3dm5rVS1fZTZVYURtLWFJR25uLU1qOTdGbXNfZ3Y0SGF3UUQyVmFNRlRRVXlKdy1ESW5lREZCTDZPODhUU1FZQzl0VWlUQkFoOVVlNHY3SzhBVXRRR0psdG9sNmNUeV9DSDVkRjFhUEMyTVNSNU5lbFVvQzBDdmJSLVYtV2MzTndNVDhlOThhMHhDNWJzSlZxeGs2NS04bGlXT0Iyb2RqQ2xJVmQ0WlhkV2V4MVdPU0JXVDVrOUdWd1Q5dW1vOG5SUjJNSVpTSUlqemN1M2JfUkVsdEdwdVJwTQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Poetin en Trump bellen uur lang over vrede in Oekraïne: “Constructief en openhartig” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMnBDb1hETUdFd0d6V0JPM1BHVURQNjZqTnBiWWhXem1OWXJVYkVMck1WSTFnX1Ayc2lxdEJrTnU1TzUxcDhGaFlIVWl6TmtHX1lzLUo0YU02cWg2NmZpZHFVVFZ4QWhwRmEteVhmMnhYblM1TFpCdkdsODF4ZndEdmZZSjNBM0pZT0hEaTNQeFlIaHhqV3Z4eDRDcWlZTEEyOU8yQmotUGg2ay05dVFVTmlhMjFtUmxBakw0S3F3?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump schakelt versnelling hoger in tarievenoorlog en verbiedt invoer van Canadese alcohol in VS - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbi1VSkpyRGxxV1BSbTlDaWEtZG9ZYkhINW54U2ExSklpX0RPWEhvSjU2cjRRa1BFS3hfQ3NHNUM5UkRVMVhUdGxFMW8ybDJtRDRQdUNVSjktYy1wM3dVNlRLa19Cd1N0U1I3M00yNWNDeGpWVjJpZmh5TFRTMG9jMzVhbzlpeWl3TnNrLVlRcTB6MzgzdkxYNlBFbHdkRVhiYnV6aTh1dWxpQUwtOEZhNS1XTVc0X1pqSnA3aDFuRkdCeEZUcER1LWpmVlZOQXVTMnZpRFd0OFBYeTNabWZ6UURR?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Iran gebruikt Bitcoin en USDT om Amerikaanse sancties te omzeilen, tot ergernis van Trump - BLOX | Nieuws",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1IVUQzaGEyR1V1Mm1SSnZEYjdzR3ZSdFE4MzNXdTJVMmJJZFc2SFRUTmtsVGhGT3RGS2pXV3UyYkpUVW5zOFZ0eW9sSGlTLXFGbHJPMEtUNWN5MGpqTFVB?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "\"Il n'a pas le droit de le faire\" : Donald Trump suscite un tollé après la révélation de cadeaux de Noël aux montants exorbitants - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPT0VMaVF4Q3RuWXltM0pXTHhWZ3hZUEVaR0xPM0Z1ZnpUWm9fZVlnc2wwaUpFbkJnQnducmIxcUJPRGk4Y1VJTFFKcUlXaEpGTHl5eXE3LWNDdU1TSkFKNXFzc19FTHM1bkFtZE9BUGxNNUVKM0g0djZWelYzMExKRkR5MmJRZFZkRFNPQ1pUQk1lNjF5T2JMd2VGUl9PNnFMUzZwYXlaTEJZeGJtTXJtVHBobEpRaEM1Q2JXRWpONmR2QW9jbE1WWk12NnNxZ2JyWXZFdzlEcXJLS3BiOElPWXRtSlhLYS1tRGNfay1jdDBiRnQ1b00yZWpjN0NIdDRTM2FUSFYtcXc1aEhXci1OaG5JTVlsMjZleWJiSVUxUnY?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Guerre commerciale : Donald Trump impose de nouvelles sanctions douanières contre le Canada - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQmtRTXR5cWZXYmpDek1hZV9pTm9RdENhVUFzYnZzNlpTNFNiZkMyOUtaTVkwVU8weWJRcVgtQV9oTGtpb3o5NmtZQ1VNR0ZfYVJaNS1NODQybUN1NmtqelNCN1FFRTRWWjlSR0NwYk5oT05TNGxDWC1aa3BaRjJBT1ctWUpUQUpsMDNhbEh4NGVUS3V5d0MzdWFvZ3M4MFNVOE1uUkM3aWtmNC1ibzUtTWdsYjZCTmY3Mi1VZEpUWXhoLXR5b3pBRTJQc09xeG5TME1QLXh3VkR3MVNRZzFqWEhHck52QmE2T2huSm50eHRaZw?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "'South Park' herdoopt zichzelf tot 'South America' uit protest tegen Trump",
+        "url": "https://vrtnws.be/p.RayGGBR16",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump gaf rechterhand Natalie Harp 45.000 dollar als eindejaarspremie",
+        "url": "https://www.standaard.be/buitenland/trump-gaf-rechterhand-natalie-harp-45.000-dollar-als-eindejaarspremie/35131945.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump drijft handelsoorlog met Canada op: vanaf eind september importverbod op kaas en alcohol",
+        "url": "https://www.standaard.be/economie/trump-drijft-handelsoorlog-met-canada-op-vanaf-eind-september-importverbod-op-kaas-en-alcohol/35145140.html",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Dit is volledig legaal”: Trump schonk Natalie Harp en twee andere medewerksters kerstcadeau van 38.000 euro",
+        "url": "https://www.hln.be/buitenland/dit-is-volledig-legaal-trump-schonk-natalie-harp-en-twee-andere-medewerksters-kerstcadeau-van-38-000-euro~a604a2fb/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "South Park spot met Trump en doopt zichzelf om tot ‘South America’",
+        "url": "https://www.hln.be/tv/south-park-spot-met-trump-en-doopt-zichzelf-om-tot-south-america~a7ed7fab/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump belooft de show te stelen op eerste Republikeinse midtermconventie ooit: dit staat er te gebeuren",
+        "url": "https://www.demorgen.be/nieuws/trump-belooft-de-show-te-stelen-op-eerste-republikeinse-midtermconventie-ooit-dit-staat-er-te-gebeuren~b2ba2141/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Na ‘de Golf van Amerika’ en het ‘Amerikameer’, nu ook ‘South America’: ‘South Park’ spot met Trump en kiest ook voor naamsverandering",
+        "url": "https://www.demorgen.be/nieuws/na-de-golf-van-amerika-en-het-amerikameer-nu-ook-south-america-south-park-spot-met-trump-en-kiest-ook-voor-naamsverandering~b8b9f319/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. President Trump schonk assistente en andere medewerkers kerstcadeau van 45.000 dollar",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-president-trump-schonk-assistente-en-andere-medewerkers-kerstcadeau-van-45.000-dollar/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Graf van 1,8 miljoen, geen Trump en omstreden bonusprins Marius welkom: zo zal het afscheid van koning Harald verlopen",
+        "url": "https://www.gva.be/buitenland/graf-van-18-miljoen-geen-trump-en-omstreden-bonusprins-marius-welkom-zo-zal-het-afscheid-van-koning-harald-verlopen/161155017.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Graf van 1,8 miljoen, geen Trump en omstreden bonusprins Marius welkom: zo zal het afscheid van koning Harald verlopen",
+        "url": "https://www.hbvl.be/buitenland/graf-van-18-miljoen-geen-trump-en-omstreden-bonusprins-marius-welkom-zo-zal-het-afscheid-van-koning-harald-verlopen/161157398.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump schakelt versnelling hoger in tarievenoorlog en verbiedt invoer van Canadese alcohol in VS",
+        "url": "https://www.hbvl.be/buitenland/trump-schakelt-versnelling-hoger-in-tarievenoorlog-en-verbiedt-invoer-van-canadese-alcohol-in-vs/161179025.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Des cadeaux de Noël de Donald Trump aux prix exorbitants suscitent la polémique : “C’est une source de corruption”",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/09/des-cadeaux-de-noel-de-donald-trump-aux-prix-exorbitants-suscitent-la-polemique-cest-une-source-de-corruption-YX4QY7H6ABBKLNXXCYHI7DOJKU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump riposte en interdisant l'importation de tout un tas de produits canadiens aux États-Unis",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/09/donald-trump-riposte-en-interdisant-limportation-de-tout-un-tas-de-produits-canadiens-aux-etats-unis-MM6AOEVPFJA5RDOFDC73GF5VHI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Il n'a pas le droit de le faire\" : Donald Trump suscite un tollé après la révélation de cadeaux de Noël aux montants exorbitants",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/09/il-na-pas-le-droit-de-le-faire-donald-trump-suscite-un-tolle-apres-la-revelation-de-cadeaux-de-noel-aux-montants-exorbitants-U3CFTLF6FVFJDOS2CIXS63LL6E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Guerre commerciale : Donald Trump impose de nouvelles sanctions douanières contre le Canada",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/09/guerre-commerciale-donald-trump-impose-de-nouvelles-sanctions-douanieres-contre-le-canada-64I5I3VQ2ZAR5MJE5YJILWWASI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "”Une très bonne soirée” : Donald Trump salue la victoire de l’AfD en Allemagne",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/09/une-tres-bonne-soiree-donald-trump-salue-la-victoire-de-lafd-en-allemagne-CFZ25YU55RGT7DWZVL5PHKIEXY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Accusée d’être trop “woke” par Trump,  une institution culturelle américaine voit son patron partir",
+        "url": "https://www.7sur7.be/monde/accusee-detre-trop-woke-par-trump-une-institution-culturelle-americaine-voit-son-patron-partir~a6711b3d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump doet handelsoorlog met Canada verder escaleren met nieuwe importverboden - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRjR1QXFPb2hYdENBaS1kLTRqTV9Kdnd6N0pvaEg4SGFhZVlTZlV4cHVidmZiQlB6STZ4TGpienZQUnJpV3U2Zkw2RHB1QTdYbmpUQ3k3STlRVnBIZzFpWXBfYXV5TnBCOFJQY05HQ0N2a0RKTXM3LVVGRDRyTUNZZDZYdWNGSHc0OWlYdGMtczBnWGI4b1NWdkE3eUNvcl9TYm5MeFBnNzRRSjMzN1drM01JR0dTRExPTjZpb29CLVlid2ZHYzh5azhrZUFMQzU4?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "« South America » : la série « South Park » change de nom pour se moquer de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXFWb1NWZkxzblRjcUVyZVA3cWE4YWZVcFJFcEs0S0kxbktEWFlPVlFZeWNjZm55dFFQelNkdFdlTW9NaVlDVjFIbGZHd0VxbXlfMG1VN0Fld29uLS1qaEc2YUVUR255djhQbmNGUXZ0S1F4OHNTSDdJbl8teWdlY3VsLXhBb09TLVFCU1JYd0JWYlB1bUZlclY1QnhOaWl5UFBLejU2UnIzb3pnUUdiSGt2UjZYX19fem5wNHF6WjgzRjhM?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "La série « South Park » change de nom pour se moquer de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM2hVbTVaajk2U2tqWVBPQXBsVkR2V08tOTl5NW9ySjBfNURCNTZLOU1hUHcwNExxQVhtM2stNlZxNVFqdGJ2V2Fmb3NvSEd0c3lfZXNGXzFtUFl0Q1hESFI4WHNNOEVGS0ZMZ215aEpNbXdEaGUxZWM4RmdBWE55MG1rYzhPU3VtNTF5UGxPdDhPLTFxMkF3NV9xTW9jT25ERHpHdDhnaW1TdU5Pa2x0Z2FB?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Waouh ! Ils sont en pleine ascencion » : Donald Trump salue la « très bonne soirée » de l’Afd après sa victoire lors des élections régionales en Allemagne - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd0NQREhZaVhlaVhVWkJGTGRWZ3puUlo3LUN4U1N6dWdGdjlDUk5WcnRRQks5cUd6SXU5bnFnbjlSaV9QOVp5R2VoS0gwUU16QlFUTmplVzJuN3ltN3lTZVgtSmlPc0g3dmU5MFB1ME54YTRzdzF0aXBORDA4TjBaYlM3dFpUdEFMc2dHdTB2SmZ5WUhrV3ZSSGhxWjNIQmZJTFBWRFdERnpvdGxrLVZfZTVJZWI5VnZQU0J2OTlYcFpOLVk3LVdibg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 20,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 4,
+      "magnette": 0,
+      "prevot": 9,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 30,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 7,
+      "magnette": 0,
+      "prevot": 12,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 17,
+      "crime": 19,
+      "eu": 23,
+      "politics": 11,
+      "be_gov": 20,
+      "culture": 8,
+      "tech": 12,
+      "economy": 18,
+      "sports": 22,
+      "health": 6,
+      "climate": 6,
+      "migration": 1,
+      "education": 4,
+      "weather": 3
+    },
+    "wide_themes": {
+      "war": 30,
+      "crime": 27,
+      "eu": 39,
+      "politics": 19,
+      "be_gov": 27,
+      "culture": 9,
+      "tech": 18,
+      "economy": 22,
+      "sports": 36,
+      "health": 9,
+      "climate": 7,
+      "migration": 2,
+      "education": 7,
+      "weather": 5
+    }
   }
 ]
