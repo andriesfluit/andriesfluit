@@ -89886,5 +89886,604 @@
       "education": 7,
       "weather": 5
     }
+  },
+  {
+    "date": "2026-09-10",
+    "generated_at": "2026-09-10T10:23:15+02:00",
+    "last_checked_at": "2026-09-10T10:23:15+02:00",
+    "total_articles": 417,
+    "trump_articles": 14,
+    "percentage": 3.4,
+    "core_percentage": 3.4,
+    "core_percentage_name": 3.4,
+    "trump_articles_expanded": 14,
+    "core_percentage_expanded": 3.4,
+    "indirect_references": 0,
+    "wide_total_articles": 580,
+    "wide_trump_articles": 19,
+    "wide_percentage": 3.3,
+    "wide_trump_articles_expanded": 19,
+    "wide_percentage_expanded": 3.3,
+    "macro_percentage": 3.2,
+    "qualifying_outlets": 20,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 30,
+    "cross_outlet_dup_groups": 15,
+    "cross_outlet_dup_rate": 7.2,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 4.67,
+    "breadth": 0.5,
+    "deviation": 1.39,
+    "smoothed_pct": 2.76,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_nl_politics": {
+        "fetched": 65,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 47,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 29,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "standaard": {
+        "fetched": 99,
+        "today": 36,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 18,
+        "kept": 18,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.12
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 46,
+        "kept": 46,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.35
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 45,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump: \"5.000 dollar aan elke Amerikaan als Republikeinen verkiezingen winnen\"",
+        "url": "https://vrtnws.be/p.XEXlNEQbM",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Trump door adviseurs gewaarschuwd dat oorlog Iran nog lang kan duren’ • Meerdere explosies rond Straat van Hormuz",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-iran-probeert-midterms-te-beinvloeden-oorlog-stopt-daarna-atoomenergieagentschap-wil-iran-bespreken-bij-vn-veiligheidsraad~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump is op het dieptepunt van zijn populariteit. Hem centraal stellen kan nadelig werken voor de partij’: dit was de eerste dag van de zeldzame Republikeinse conventie",
+        "url": "https://www.demorgen.be/nieuws/trump-is-op-het-dieptepunt-van-zijn-populariteit-hem-centraal-stellen-kan-nadelig-werken-voor-de-partij-dit-was-de-eerste-dag-van-de-zeldzame-republikeinse-conventie~bfcc5c1bd/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump belooft Amerikanen 5.000 dollar als zijn partij de midterms wint: \"Je moet maar doen alsof ik op het stembiljet sta\"",
+        "url": "https://www.hbvl.be/buitenland/trump-belooft-amerikanen-5.000-dollar-als-zijn-partij-de-midterms-wint-je-moet-maar-doen-alsof-ik-op-het-stembiljet-sta/161235171.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. “Amerikaanse gevechtsvliegtuigen beschadigd” - Trump: “Oorlog met Iran eindigt direct na midterms”",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-amerikaanse-gevechtsvliegtuigen-beschadigd-trump-oorlog-met-iran-eindigt-direct-na-midterms/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump belooft 5.000 dollar voor elke Amerikaan als Republikeinen midterms in november winnen",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-belooft-5.000-dollar-voor-elke-amerikaan-als-republikeinen-midterms-in-november-winnen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Élections législatives de mi-mandat : Donald Trump promet 5000 dollars par citoyen si son parti garde le contrôle du Congrès",
+        "url": "https://www.rtbf.be/article/elections-legislatives-de-mi-mandat-donald-trump-promet-5000-dollars-par-citoyen-si-son-parti-garde-le-controle-du-congres-11782826",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Il est guidé par Dieu !\": Trump promet 5000 dollars à tous les Américains si son parti conserve sa majorité au Congrès lors des midterms",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/10/a-dallas-donald-trump-mise-tout-sur-lui-meme-pour-eviter-la-deroute-aux-midterms-GFFNK72C5JAQRLDK22HE7IDBEQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le mensonge de Trump sur le 11 septembre",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/10/le-mensonge-de-trump-sur-le-11-septembre-XMVLNJFI3VF7HARNS6AVRJCX2U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Répugnant de mentir sur ce sujet\": des propos de Trump sur le 11 septembre passent mal",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/10/repugnant-de-mentir-sur-ce-sujet-des-propos-de-trump-sur-le-11-septembre-passent-mal-EQ7XBUEAMNF3LAAKI54HE3HUFY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Elections de mi-mandat aux États-Unis: Trump promet 5.000 dollars par citoyen si son parti garde le contrôle du Congrès",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/10/elections-de-mi-mandat-aux-etats-unis-trump-promet-5000-dollars-par-citoyen-si-son-parti-garde-le-controle-du-congres-FHMGJ6MOPJBXVP2FJO4YN6FMSI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump promet 5.000 dollars par citoyen en cas de victoire des Républicains",
+        "url": "https://www.7sur7.be/monde/trump-promet-5-000-dollars-par-citoyen-en-cas-de-victoire-des-republicains~a51d799d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Xi weten waarover praten in Washington - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV05acUtfaUhGR0Z0aHhiMDVyOWEwbDBKT0pVZ3Z0R0hMMXExMWNueHNHQ3ROekpXcGMtcWZmbEdZd1hYbXRnMHdZbjdUN2ZKcGd0ZUJmMmFBLVZmV0N2UlF4Z3pJaElhQ29LdkwtWkpxSGJlLUxPcXlyY2ZZUnZpUW9qRDB5TGNaRHR3YVNuSlNFVFZrVERWTUFpbw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump promet 5.000 dollars par citoyen si son parti garde le contrôle du Congrès - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYngxUGk0WHlueUNsSGpSem9XMTNyUWNkZXpldTZWZ04tZWthQTRBLWlWbzZKWGRjREVRVVRJRmdLTHBXRmJBbWwzeTFmclVaaGdzWTQ0QUJPUm5uM3JmT1NVbVVId0ItaGFQVHR6cHJLa0FTV0IwWU5LUjE1WDRrdXJ0Z2ZVRkFZVzJ1eXJlTTJjNEdLTG9UT2VpMVVQMzlOdlV4aXRoclZEekRybExOdXNSam10MHdFc0syZ3RER1ZnVWljNHc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump belooft 5.000 dollar aan elke volwassen Amerikaan als Republikeinen de tussentijdse verkiezingen winnen - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdHJOVTBqM1VlRHFBMW0tMndYNmhIQk5uM3kxUjlhd2o5aWhFU2VIZlRUdWZfQXF4S1BNLTZXRWU3SDNTRWI1bWpfc2FTQWlHLWNwcC1ybm1iX0d2N1FLczd0Q2dSeVI2WGxVT3hUVUxWZ2hoSkFwY1JkLXJ2LUgweFRWa0U5Tm9YZTViQnUzcEVTSGczS1htRVRGcFBVczIxbjROcFVBQVR2Mm9JVjZhUGE3Vk95bWlKcVpMNG1BeTduUF9TbkFQaG5FaEstSzhxWHZnenBSaUxjLVpoS2MwMEZBTQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Élections législatives de mi-mandat : Donald Trump promet 5000 dollars par citoyen si son parti garde le contrôle du Congrès - rtbf.be",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc0dPbnJfRnZ6MVZ0NXpXSDNyZF81ZE9sUDFjaldpa0oyS29KbGsySXEyWnlVQW82djJJSkwtdC0ySjVna3o4VzU1U0R2UUlQeDRocnpWelF0dEF2MWxhMDNMM2NQeTJQbmsyMzlCOU85cUlucmptYkxSYU12YjlrYkhTbjJIQjExYWlSWEUydVFUMjlSY0ktblIyVjR5cDlULW5YbG1pdjRBQjJvZU9RbndXSnB0aTFOWmNEXzBGclRFRmNiWHFYVmVYQnA5T0Rfd0ZkQ3g1cmNySkR5c0hJeVNGZXlvUml0UmVuX0RYVEU?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Canada, Mexique, Groenland, Antilles et Islande : la carte rêvée des USA selon Donald Trump - rtbf.be",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOVRRaW9tanB2U20xQmUtNmU4Z001eGlXRHd3WFQ2azE2VHZ3YXNiX08zMDRraUNqYTFmREtMQVZrYWtxdXJMSjEwcVBuSEJYMTcyVXp5MEE0SnlLZTVtaTFHQW9oSEYxR1hpZjQyY2RnelZ3SEdCTzBQaHl5UzJqdWtUMVQ0VXAzN1lEbGdQaXR6OXRSQkZIOFVTUEoyNFo0Nl8xY3BJQWtJNXQxZmFxREFiVTI2VVlJTGR3YS1BUFE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump: \"5.000 dollar aan elke Amerikaan als Republikeinen verkiezingen winnen\"",
+        "url": "https://vrtnws.be/p.XEXlNEQbM",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Trump door adviseurs gewaarschuwd dat oorlog Iran nog lang kan duren’ • Meerdere explosies rond Straat van Hormuz",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-iran-probeert-midterms-te-beinvloeden-oorlog-stopt-daarna-atoomenergieagentschap-wil-iran-bespreken-bij-vn-veiligheidsraad~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump is op het dieptepunt van zijn populariteit. Hem centraal stellen kan nadelig werken voor de partij’: dit was de eerste dag van de zeldzame Republikeinse conventie",
+        "url": "https://www.demorgen.be/nieuws/trump-is-op-het-dieptepunt-van-zijn-populariteit-hem-centraal-stellen-kan-nadelig-werken-voor-de-partij-dit-was-de-eerste-dag-van-de-zeldzame-republikeinse-conventie~bfcc5c1bd/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "DISCUSSIE. Trump belooft Amerikanen 5.000 dollar als Republikeinen de midterms winnen: wat vind jij daarvan?",
+        "url": "https://www.gva.be/incoming/discussie.-trump-belooft-amerikanen-5.000-dollar-als-republikeinen-de-midterms-winnen-wat-vind-jij-daarvan/161235522.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump belooft Amerikanen 5.000 dollar als zijn partij de midterms wint: \"Je moet maar doen alsof ik op het stembiljet sta\"",
+        "url": "https://www.gva.be/buitenland/trump-belooft-amerikanen-5.000-dollar-als-zijn-partij-de-midterms-wint-je-moet-maar-doen-alsof-ik-op-het-stembiljet-sta/161234805.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump belooft Amerikanen 5.000 dollar als zijn partij de midterms wint: \"Je moet maar doen alsof ik op het stembiljet sta\"",
+        "url": "https://www.hbvl.be/buitenland/trump-belooft-amerikanen-5.000-dollar-als-zijn-partij-de-midterms-wint-je-moet-maar-doen-alsof-ik-op-het-stembiljet-sta/161235171.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. “Amerikaanse gevechtsvliegtuigen beschadigd” - Trump: “Oorlog met Iran eindigt direct na midterms”",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-amerikaanse-gevechtsvliegtuigen-beschadigd-trump-oorlog-met-iran-eindigt-direct-na-midterms/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump belooft 5.000 dollar voor elke Amerikaan als Republikeinen midterms in november winnen",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-belooft-5.000-dollar-voor-elke-amerikaan-als-republikeinen-midterms-in-november-winnen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Élections législatives de mi-mandat : Donald Trump promet 5000 dollars par citoyen si son parti garde le contrôle du Congrès",
+        "url": "https://www.rtbf.be/article/elections-legislatives-de-mi-mandat-donald-trump-promet-5000-dollars-par-citoyen-si-son-parti-garde-le-controle-du-congres-11782826",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Il est guidé par Dieu !\": Trump promet 5000 dollars à tous les Américains si son parti conserve sa majorité au Congrès lors des midterms",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/10/a-dallas-donald-trump-mise-tout-sur-lui-meme-pour-eviter-la-deroute-aux-midterms-GFFNK72C5JAQRLDK22HE7IDBEQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le mensonge de Trump sur le 11 septembre",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/10/le-mensonge-de-trump-sur-le-11-septembre-XMVLNJFI3VF7HARNS6AVRJCX2U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Répugnant de mentir sur ce sujet\": des propos de Trump sur le 11 septembre passent mal",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/10/repugnant-de-mentir-sur-ce-sujet-des-propos-de-trump-sur-le-11-septembre-passent-mal-EQ7XBUEAMNF3LAAKI54HE3HUFY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Elections de mi-mandat aux États-Unis: Trump promet 5.000 dollars par citoyen si son parti garde le contrôle du Congrès",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/10/elections-de-mi-mandat-aux-etats-unis-trump-promet-5000-dollars-par-citoyen-si-son-parti-garde-le-controle-du-congres-FHMGJ6MOPJBXVP2FJO4YN6FMSI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump promet 5.000 dollars par citoyen en cas de victoire des Républicains",
+        "url": "https://www.7sur7.be/monde/trump-promet-5-000-dollars-par-citoyen-en-cas-de-victoire-des-republicains~a51d799d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Xi weten waarover praten in Washington - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV05acUtfaUhGR0Z0aHhiMDVyOWEwbDBKT0pVZ3Z0R0hMMXExMWNueHNHQ3ROekpXcGMtcWZmbEdZd1hYbXRnMHdZbjdUN2ZKcGd0ZUJmMmFBLVZmV0N2UlF4Z3pJaElhQ29LdkwtWkpxSGJlLUxPcXlyY2ZZUnZpUW9qRDB5TGNaRHR3YVNuSlNFVFZrVERWTUFpbw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump promet 5.000 dollars par citoyen si son parti garde le contrôle du Congrès - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYngxUGk0WHlueUNsSGpSem9XMTNyUWNkZXpldTZWZ04tZWthQTRBLWlWbzZKWGRjREVRVVRJRmdLTHBXRmJBbWwzeTFmclVaaGdzWTQ0QUJPUm5uM3JmT1NVbVVId0ItaGFQVHR6cHJLa0FTV0IwWU5LUjE1WDRrdXJ0Z2ZVRkFZVzJ1eXJlTTJjNEdLTG9UT2VpMVVQMzlOdlV4aXRoclZEekRybExOdXNSam10MHdFc0syZ3RER1ZnVWljNHc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 14,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 19,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 9,
+      "crime": 13,
+      "eu": 12,
+      "politics": 19,
+      "be_gov": 10,
+      "culture": 8,
+      "tech": 6,
+      "economy": 22,
+      "sports": 30,
+      "health": 7,
+      "climate": 4,
+      "migration": 2,
+      "education": 12,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 13,
+      "crime": 16,
+      "eu": 15,
+      "politics": 28,
+      "be_gov": 11,
+      "culture": 9,
+      "tech": 9,
+      "economy": 26,
+      "sports": 48,
+      "health": 11,
+      "climate": 9,
+      "migration": 3,
+      "education": 14,
+      "weather": 13
+    }
   }
 ]
