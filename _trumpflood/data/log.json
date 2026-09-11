@@ -90485,5 +90485,580 @@
       "education": 14,
       "weather": 13
     }
+  },
+  {
+    "date": "2026-09-11",
+    "generated_at": "2026-09-11T10:17:03+02:00",
+    "last_checked_at": "2026-09-11T10:17:03+02:00",
+    "total_articles": 490,
+    "trump_articles": 11,
+    "percentage": 2.2,
+    "core_percentage": 2.2,
+    "core_percentage_name": 2.2,
+    "trump_articles_expanded": 11,
+    "core_percentage_expanded": 2.2,
+    "indirect_references": 0,
+    "wide_total_articles": 668,
+    "wide_trump_articles": 18,
+    "wide_percentage": 2.7,
+    "wide_trump_articles_expanded": 18,
+    "wide_percentage_expanded": 2.7,
+    "macro_percentage": 2.8,
+    "qualifying_outlets": 24,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 30,
+    "cross_outlet_dup_groups": 15,
+    "cross_outlet_dup_rate": 6.1,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.22,
+    "breadth": 0.5,
+    "deviation": 0.85,
+    "smoothed_pct": 2.63,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 9,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "google_nl_politics": {
+        "fetched": 55,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 42,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 24,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 40.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 66,
+        "kept": 53,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.89
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 56,
+        "kept": 56,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.57
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 40,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 83,
+        "today": 16,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Nucleaire oorlog en AI: terreurexpert waarschuwt voor Poetin en Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNdEF3NHlCN09aNmZVZmFEYWFVaVFwUmVhbFR5MUZFN2M0UjhHZ3hSYnZ0aVRYRWx1VjhDNGpxc3JRczc1b0JmekIzOUcwNXhKZjlfU0ItN2trUzRwS2NpS3paVWNjWjBIcGRzSFZUMkc0NE5OQUNMeHU1MzJ4MTlNNDVfa0RzZU5waHFUZzZqZVh5TVdyb3NYSTU3OWg4QWhQRVY1SzJYblZEWS1zcDdvUldsS1hiVWRKRU1zQkgwUk9HY0lRaG1XUjF5eHdlWjlKSEpnb29NMVJtMGJkMkV5QTNKbVUwQzFGQXhrOFhWMDk4QWpCRTl3TUZPUVY0cm1jZnozNHY5YWVVdzNkREpoZFZuTzdhZ210ZmpRU1JudzlVSzFSSEQ0bkYwTHk?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "🎧 Trump opvallend afwezig op 9/11-herdenking in New York: “Omdat hij niet zou mogen speechen”",
+        "url": "https://www.hln.be/nieuws/trump-opvallend-afwezig-op-9-11-herdenking-in-new-york-omdat-hij-niet-zou-mogen-speechen~ab36b1fe/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Geloof niet wat de media schrijven. Alle stoelen zijn gevuld’, schreeuwt Trump. Maar op dag twee van de conventie in Dallas blijft de bovenste ring zelfs volledig gesloten",
+        "url": "https://www.demorgen.be/nieuws/geloof-niet-wat-de-media-schrijven-alle-stoelen-zijn-gevuld-schreeuwt-trump-maar-op-dag-twee-van-de-conventie-in-dallas-blijft-de-bovenste-ring-zelfs-volledig-gesloten~b0d82e34/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump laat Republikeinen zweren te gaan stemmen (en desnoods vals te spelen)",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-laat-republikeinen-zweren-te-gaan-stemmen-en-desnoods-vals-te-spelen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "25 ans après, New York commémore le 11 septembre 2001, Donald Trump assiste à une cérémonie au Pentagone",
+        "url": "https://www.rtbf.be/article/25-ans-apres-new-york-commemore-le-11-septembre-2001-donald-trump-assiste-a-une-ceremonie-au-pentagone-11783473",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Complotisme, regard sur les musulmans, date sans égal: 25 ans plus tard, New York rend hommage aux victimes du 11 septembre, sans Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/11/direct-complotisme-regard-sur-les-musulmans-date-sans-egal-25-ans-plus-tard-new-york-rend-hommage-aux-victimes-du-11-septembre-sans-trump-BLGKP3SM4VDCXEJFRHIEDIVOAM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Elections de mi-mandat aux États-Unis : À Dallas, JD Vance évoque Charlie Kirk et le dernier mot revient encore à Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/11/elections-de-mi-mandat-aux-etats-unis-a-dallas-jd-vance-evoque-charlie-kirk-et-le-dernier-mot-revient-encore-a-trump-F33GTDM2G5DBXJ3QR74SJ7VQJY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Complotisme, regard sur les musulmans, date sans égal: 25 ans plus tard, New York rend hommage aux victimes du 11 septembre, sans Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/11/direct-complotisme-regard-sur-les-musulmans-date-sans-egal-25-ans-plus-tard-new-york-rend-hommage-aux-victimes-du-11-septembre-sans-trump-RMGNPTH3IBB7XPGVAKFOONHZSQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le dessinateur Art Spiegelman : « Trump est l’une des conséquences les plus vertigineuses du 11-Septembre - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc1VGWURIdE0ybFZVcTRPOXBNWmVWUi1iT0NiUlAzcTdGb2ZRVlZoZ193ZkFlQTc2Z0lsbjhlbHhNVTd1bzRBTy1UeHpGb2NjWnZ3RGJ0T3ZyVVdVU2VFR0hQT09sVjg2RzJnSzlfb19jTEVjWUk3REFnNHZ1VzFucDNlbmYwMGtWbXZ1bThsZ1hrUUc3NFExaHdWMHhMMjVfaHNXQ0ZEdlc0Z2RsdWl0N1YwQVpsT0JITWc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump : votez pour moi, et vous serez payé 5000 dollars - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa3RCVmtLb2NhQ2ZNdk1oZ1dJTUF3dGZKYTd2YzY3dEhkVE9mdmx4bE5pOTlaNXBncHlob1ZIY3FQVmNTVVpVWFlPR183U3lKUlgxVGlINVBCV1ZkNHVmVzV4QnhUcWlJdE9Eck9BNklUN2pHVnJfR05MMDl5YTFWd1E2dWQ5b29KU0VqQ2Zncw?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      },
+      {
+        "title": "Comment la lutte antiterroriste a renforcé la présidence impériale de Donald Trump - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVFZLdFVxdURTOU4yWlk0Ul9iU2pHUFhfM2VwMGcwTlBudlFxQk1FdDdwNWltYTNVVUcyRzFNNkRXTUZiT1BDcTNiWjNBbHlFNHNMSm53Q2FaU2VpcGRKZjRrVVllRjEyZzlfX1o5ekFmWllleFMycG5SU3lvc09HaHJwMTdaVW9pY2Vma1VhcGg4TjJXZGxTcUdzQVRNUWhCYTkwX0h0SVpuQ1p2UlB4R19odTRzenR0Ti1mdlh6aVIxLURrX3ltaFd6NXZsdHNIVTdz?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "‘Geloof niet wat de media schrijven. Alle stoelen zijn gevuld’, schreeuwt Trump. Maar op dag twee van de conventie in Dallas blijft de bovenste ring zelfs volledig gesloten - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOSV9xbS12UkFoZmo1MGlEenZ1S2FpZkxtNW8yc3MtclltaWl0V2hLUkVzS0pzWFQwMDN0aG5mTjlVLWhZenB5bGtxNXZqNlJlbUg5eFN5TVFhYVhMV0hoM2kyVy16RXRDeWI5NVlHV1QtTXZhVEZRbjdMY1U0WXJXSlo1Y1YxZVN1c3hwNzhNNUNYdnpvNW5RdGZTRExpc2xTRWJycWRqRmJjOWZLQ1lEem04WDh4ZzE3ZUVibEFSRjVSWUJEekdpcEpDdmRlOXRiaXNCTVBRcEhTOFZVaWx4bXdIaXFjY2V0YnpVQXNXNThwVDM0dFdNSmNpcXNTeGZ6SU1uMkswbzBScElBV3NGeVFoOHlaMlN0YzhnQ1hqekRveGRxbnpJWkN2eEE1aVhjZmc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "🎧 Trump opvallend afwezig op 9/11-herdenking in New York: “Omdat hij niet zou mogen speechen” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcDNqOWJVQWU5Vmh0RjBYdC1DWEdLNFl0bjBvUWxCZFpqSDZtMTJLYjMwTWVrLXNUTjdkanhmMzhLbkhkZ3NiLVBWcjhjNDFfN1NQZTdFdDF1ZlkwVFMxMXF0Vjg0VjFFcXZJVEs1a2pWMkd5dE4xbmxqMWlvV0FJaVR0RlhpYTdJRTdTSGZSSlJYMlJWN1NoOUtCMUNBTkUyV1ZSSWZuYXRGSzJETkx2N2I2Vm1LZElJOEJBR2VjRE9WZw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Kaja Kallas au « Soir » : « Avec Trump, nos relations sont soumises à rude épreuve » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTG1MU1VSZXh5aW9xc1FEN1FVUzEtZ3d5bVBFdEk4STFUN1hROVlLdlp0VFIweG9Uck9acU94ZThkNFRSX1lDLXJuU3A4Nkp0dXEwYWdZeXBHN191SGw5cXJkN25xZEc1OVhiWnc3VXNzZFk1T0R0R2I1NVZpUDB2MktrNDdiWUJaWmRBZFhVdXRWLUZZQzZGaHMtdTNpWW9paUp2UmIxc0dHenhMYmZmdnJGc2U0OTVWaUFZ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "25 ans après, New York commémore le 11-Septembre, Donald Trump assiste à une cérémonie au Pentagone - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORGtFR09kYzlpVGZ1dkV1X0paWUFKMzlQRFcybE1TRTgyUTl5bXhkU3NRNHJRS2pWOGI1cWd5eFdnUzJHWHF5eFBpci00bGp4d0F6N3kwclcxTzVwNkJiZTRhamFOYUJNNkg2U0t0OUY0WUJ1akJsVlpnYUxONnlOdDdrWkJmN2ZlaDlZRWZpRFZDMzRkbzFjemVzVzZfMG9hdm1rZF9ObGh1cHFNSjlhUC16TFpiMjVqRjNORlAwbjA1MFlCeTg0cmJNUWpVZEk?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky hoopt Trump eind september te ontmoeten in New York - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZ2g4bXNFTkVEWElOSzc4TllqbHZDVHpnNjF1bWNkT0ZZM3VTRUNFR0dOME0wWFVNTHo1dVVCanVET0E2SnJZbFBVRjJzRTlDUjVzNE9WSTI4VV9NcjZFOXVfVl9mUlJJOTBHZ1NVbVA2VWFodnRxaXpVUWp6T0FSUlZQOTVvTkMwdEphVndVTmNlcHdzYTI0alNWVk9jN3pkQTBsakZCT2w5QkJydzdSMGZXWlpGT3E3SDFBMWVCeWVCcFVEV244cTZpV3QzWlBBTTlUZXBlUURTdmZGajc3TEFteXJ2X08tMkNoRDg1OXlNQQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Complotisme, regard sur les musulmans, date sans égal: 25 ans plus tard, New York rend hommage aux victimes du 11 septembre, sans Trump - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNc1RpOFBONl9KWHVRa0twSVItWTM1MXdObzBwRG85djY4MUhRMWR5QXFUVnAxQUJlYlJ1aV9YVTNwLXVHMl9aNVBVaTU1NXk5b1RnZnhRV2x0Y3lPaUNiMzNtNm1EaTNwbEsyUlZzcWs0MmxXdjhDM3FiNVpXOHIzcHhTOW85MTFzRVE0OTg1OS10dmhqVkdKeGVwMjA3bmw1Y2dLa1BxLVZZYzVxS1NpeFFEcmd1ckYtOFR1UXZubmVwX0xkWHJTS3NUTnFhNFdpbUowbjd6Qkd6T0Q3M01FQzNRNHYzR1FUUmVNcnUtTzZCVGQwYmNLQktTSzZxVVU0U1IxS1V2alRPNGQ4bmJBcXg5ZnF0M2ZZZ05Fd2xuZnpZR01ncFRhZXpUbEdGWHFFaWc?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Elections de mi-mandat aux États-Unis : À Dallas, JD Vance évoque Charlie Kirk et le dernier mot revient encore à Trump - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQMHZvYXo3RVdxQWRlbjlVV25jRTh2TmVyRVlxdFpDcUVsWU5CQzIzb09wYVVOQkpDX0x1VkxqZmlKd2NvaW94cTI4UlV4aXBvRVVhU0NscTJfVGtxdDdzNEZuTjl4NXVpbEpvblNMVHVmbkxFQmkwb21WNkZEdjE4SDFYbDVyeEZSOE5aWi1pdjFYTEtwUHhnVnJMTFlRckpQMjA4aDR2OURySENBUEtaSFMwTGdSbmluTkJkMmRjV293a3RZdF9MU3ZEM05xNnczMy1UV3FLSDRHYVAtblVPQ0R4WGVyYjNRcDRYLUxRZUJYVDdSWXRGM19KS3JicENEVE9OOUxuVGJydmItUVFhVlBlajN0QQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Nucleaire oorlog en AI: terreurexpert waarschuwt voor Poetin en Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNdEF3NHlCN09aNmZVZmFEYWFVaVFwUmVhbFR5MUZFN2M0UjhHZ3hSYnZ0aVRYRWx1VjhDNGpxc3JRczc1b0JmekIzOUcwNXhKZjlfU0ItN2trUzRwS2NpS3paVWNjWjBIcGRzSFZUMkc0NE5OQUNMeHU1MzJ4MTlNNDVfa0RzZU5waHFUZzZqZVh5TVdyb3NYSTU3OWg4QWhQRVY1SzJYblZEWS1zcDdvUldsS1hiVWRKRU1zQkgwUk9HY0lRaG1XUjF5eHdlWjlKSEpnb29NMVJtMGJkMkV5QTNKbVUwQzFGQXhrOFhWMDk4QWpCRTl3TUZPUVY0cm1jZnozNHY5YWVVdzNkREpoZFZuTzdhZ210ZmpRU1JudzlVSzFSSEQ0bkYwTHk?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "🎧 Trump opvallend afwezig op 9/11-herdenking in New York: “Omdat hij niet zou mogen speechen”",
+        "url": "https://www.hln.be/nieuws/trump-opvallend-afwezig-op-9-11-herdenking-in-new-york-omdat-hij-niet-zou-mogen-speechen~ab36b1fe/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Geloof niet wat de media schrijven. Alle stoelen zijn gevuld’, schreeuwt Trump. Maar op dag twee van de conventie in Dallas blijft de bovenste ring zelfs volledig gesloten",
+        "url": "https://www.demorgen.be/nieuws/geloof-niet-wat-de-media-schrijven-alle-stoelen-zijn-gevuld-schreeuwt-trump-maar-op-dag-twee-van-de-conventie-in-dallas-blijft-de-bovenste-ring-zelfs-volledig-gesloten~b0d82e34/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump laat Republikeinen zweren te gaan stemmen (en desnoods vals te spelen)",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-laat-republikeinen-zweren-te-gaan-stemmen-en-desnoods-vals-te-spelen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "25 ans après, New York commémore le 11 septembre 2001, Donald Trump assiste à une cérémonie au Pentagone",
+        "url": "https://www.rtbf.be/article/25-ans-apres-new-york-commemore-le-11-septembre-2001-donald-trump-assiste-a-une-ceremonie-au-pentagone-11783473",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Complotisme, regard sur les musulmans, date sans égal: 25 ans plus tard, New York rend hommage aux victimes du 11 septembre, sans Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/11/direct-complotisme-regard-sur-les-musulmans-date-sans-egal-25-ans-plus-tard-new-york-rend-hommage-aux-victimes-du-11-septembre-sans-trump-BLGKP3SM4VDCXEJFRHIEDIVOAM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Elections de mi-mandat aux États-Unis : À Dallas, JD Vance évoque Charlie Kirk et le dernier mot revient encore à Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/11/elections-de-mi-mandat-aux-etats-unis-a-dallas-jd-vance-evoque-charlie-kirk-et-le-dernier-mot-revient-encore-a-trump-F33GTDM2G5DBXJ3QR74SJ7VQJY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Complotisme, regard sur les musulmans, date sans égal: 25 ans plus tard, New York rend hommage aux victimes du 11 septembre, sans Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/11/direct-complotisme-regard-sur-les-musulmans-date-sans-egal-25-ans-plus-tard-new-york-rend-hommage-aux-victimes-du-11-septembre-sans-trump-RMGNPTH3IBB7XPGVAKFOONHZSQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le dessinateur Art Spiegelman : « Trump est l’une des conséquences les plus vertigineuses du 11-Septembre - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc1VGWURIdE0ybFZVcTRPOXBNWmVWUi1iT0NiUlAzcTdGb2ZRVlZoZ193ZkFlQTc2Z0lsbjhlbHhNVTd1bzRBTy1UeHpGb2NjWnZ3RGJ0T3ZyVVdVU2VFR0hQT09sVjg2RzJnSzlfb19jTEVjWUk3REFnNHZ1VzFucDNlbmYwMGtWbXZ1bThsZ1hrUUc3NFExaHdWMHhMMjVfaHNXQ0ZEdlc0Z2RsdWl0N1YwQVpsT0JITWc?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump : votez pour moi, et vous serez payé 5000 dollars - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa3RCVmtLb2NhQ2ZNdk1oZ1dJTUF3dGZKYTd2YzY3dEhkVE9mdmx4bE5pOTlaNXBncHlob1ZIY3FQVmNTVVpVWFlPR183U3lKUlgxVGlINVBCV1ZkNHVmVzV4QnhUcWlJdE9Eck9BNklUN2pHVnJfR05MMDl5YTFWd1E2dWQ5b29KU0VqQ2Zncw?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      },
+      {
+        "title": "Comment la lutte antiterroriste a renforcé la présidence impériale de Donald Trump - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVFZLdFVxdURTOU4yWlk0Ul9iU2pHUFhfM2VwMGcwTlBudlFxQk1FdDdwNWltYTNVVUcyRzFNNkRXTUZiT1BDcTNiWjNBbHlFNHNMSm53Q2FaU2VpcGRKZjRrVVllRjEyZzlfX1o5ekFmWllleFMycG5SU3lvc09HaHJwMTdaVW9pY2Vma1VhcGg4TjJXZGxTcUdzQVRNUWhCYTkwX0h0SVpuQ1p2UlB4R19odTRzenR0Ti1mdlh6aVIxLURrX3ltaFd6NXZsdHNIVTdz?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 11,
+      "putin": 7,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 18,
+      "putin": 9,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 17,
+      "crime": 21,
+      "eu": 14,
+      "politics": 15,
+      "be_gov": 19,
+      "culture": 14,
+      "tech": 8,
+      "economy": 19,
+      "sports": 42,
+      "health": 8,
+      "climate": 3,
+      "migration": 4,
+      "education": 4,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 22,
+      "crime": 31,
+      "eu": 19,
+      "politics": 22,
+      "be_gov": 26,
+      "culture": 14,
+      "tech": 12,
+      "economy": 23,
+      "sports": 58,
+      "health": 9,
+      "climate": 3,
+      "migration": 6,
+      "education": 4,
+      "weather": 9
+    }
   }
 ]
