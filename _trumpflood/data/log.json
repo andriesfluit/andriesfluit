@@ -91668,136 +91668,136 @@
   },
   {
     "date": "2026-09-13",
-    "generated_at": "2026-09-13T10:31:41+02:00",
-    "last_checked_at": "2026-09-13T10:31:41+02:00",
-    "total_articles": 282,
-    "trump_articles": 0,
-    "percentage": 0.0,
-    "core_percentage": 0.0,
-    "core_percentage_name": 0.0,
-    "trump_articles_expanded": 0,
-    "core_percentage_expanded": 0.0,
+    "generated_at": "2026-09-13T16:39:05+02:00",
+    "last_checked_at": "2026-09-13T16:39:05+02:00",
+    "total_articles": 540,
+    "trump_articles": 4,
+    "percentage": 0.7,
+    "core_percentage": 0.7,
+    "core_percentage_name": 0.7,
+    "trump_articles_expanded": 4,
+    "core_percentage_expanded": 0.7,
     "indirect_references": 0,
-    "wide_total_articles": 408,
-    "wide_trump_articles": 0,
-    "wide_percentage": 0.0,
-    "wide_trump_articles_expanded": 0,
-    "wide_percentage_expanded": 0.0,
-    "macro_percentage": 0.0,
-    "qualifying_outlets": 15,
+    "wide_total_articles": 773,
+    "wide_trump_articles": 6,
+    "wide_percentage": 0.8,
+    "wide_trump_articles_expanded": 6,
+    "wide_percentage_expanded": 0.8,
+    "macro_percentage": 0.8,
+    "qualifying_outlets": 26,
     "core_outlets_total": 19,
-    "core_outlets_active": 15,
-    "active_core_fraction": 0.789,
-    "cross_outlet_dup_headlines": 42,
-    "cross_outlet_dup_groups": 21,
-    "cross_outlet_dup_rate": 14.9,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 30,
+    "cross_outlet_dup_groups": 15,
+    "cross_outlet_dup_rate": 5.6,
     "zone": "dry",
     "label": "The zone is dry",
     "narrative": "Below a normal president's ordinary day.",
-    "rank": 4,
+    "rank": 1,
     "n_people": 17,
-    "dominance": 0.0,
-    "breadth": 0.0,
-    "deviation": 0.0,
-    "smoothed_pct": 2.33,
+    "dominance": 0.57,
+    "breadth": 0.22,
+    "deviation": 0.29,
+    "smoothed_pct": 2.43,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 15,
+    "theme_rank": 13,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 21,
-        "kept": 21,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 14,
-        "kept": 14,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 44,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_world": {
-        "fetched": 70,
-        "today": 9,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_business": {
-        "fetched": 70,
-        "today": 10,
-        "kept": 8,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_tech": {
-        "fetched": 58,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_sport": {
-        "fetched": 70,
-        "today": 12,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_politics": {
-        "fetched": 21,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_world": {
-        "fetched": 70,
-        "today": 5,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_business": {
-        "fetched": 70,
-        "today": 3,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "vrt": {
-        "fetched": 50,
+        "fetched": 45,
         "today": 8,
         "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 56,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 27,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 23,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
       "standaard": {
-        "fetched": 100,
-        "today": 33,
-        "kept": 6,
+        "fetched": 78,
+        "today": 45,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -91806,43 +91806,115 @@
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "demorgen": {
-        "fetched": 28,
-        "today": 6,
-        "kept": 6,
+        "fetched": 27,
+        "today": 11,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 49,
-        "kept": 49,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "gva": {
         "fetched": 50,
-        "today": 48,
-        "kept": 46,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 23,
-        "kept": 23,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "knack": {
+      "sporza": {
+        "fetched": 20,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 37,
+        "kept": 36,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 91,
+        "kept": 91,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
         "fetched": 100,
         "today": 19,
         "kept": 18,
@@ -91850,122 +91922,50 @@
         "trump_expanded": 0,
         "share": 0.0
       },
-      "sporza": {
-        "fetched": 20,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "bruzz": {
-        "fetched": 100,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 15,
-        "kept": 15,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 13,
-        "kept": 13,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 23,
-        "kept": 23,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 31,
-        "kept": 31,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "septsursept": {
-        "fetched": 30,
-        "today": 10,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "bx1": {
-        "fetched": 10,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "detijd_g": {
-        "fetched": 100,
-        "today": 4,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
       "lesoir_g": {
         "fetched": 100,
-        "today": 8,
-        "kept": 8,
+        "today": 16,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 13,
-        "kept": 13,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 35,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 18,
-        "kept": 18,
+        "today": 38,
+        "kept": 37,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 99,
-        "today": 3,
-        "kept": 2,
+        "fetched": 98,
+        "today": 18,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 100,
-        "today": 8,
-        "kept": 3,
+        "fetched": 83,
+        "today": 10,
+        "kept": 1,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 51,
-        "today": 3,
-        "kept": 3,
+        "fetched": 49,
+        "today": 11,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -91992,20 +91992,82 @@
       "trends_g",
       "vrt"
     ],
-    "matches": [],
-    "wide_matches": [],
+    "matches": [
+      {
+        "title": "Kinderwoning van Donald Trump verkocht voor bijna 2 miljoen dollar",
+        "url": "https://www.hln.be/nieuws/kinderwoning-van-donald-trump-verkocht-voor-bijna-2-miljoen-dollar~a3363458/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Huis waar Donald Trump als kind woonde, is verkocht voor 2 miljoen dollar",
+        "url": "https://www.hbvl.be/buitenland/huis-waar-donald-trump-als-kind-woonde-is-verkocht-voor-2-miljoen-dollar/161378117.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“Je m’en fiche”: Donald Trump réagit à la réunion entre l’Iran et les pays du Golfe",
+        "url": "https://www.7sur7.be/monde/je-men-fiche-donald-trump-reagit-a-la-reunion-entre-liran-et-les-pays-du-golfe~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Vous avez beaucoup de forces négatives » : Donald Trump fustige ceux qui veulent freiner le développement de l’IA - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc0FOWWloTHV4VnlqeExSWFh1RFlWXzhVeUljelBFbGFSaGw0d0lmTlBfaHQ4U0hEMnZCOE1Kcms3cFNGUmtVeVBLWXlBbExuejRYODIyNTh5bmpZVmhEWmdfSV9sVVpZTDZ1R2JzQlZqY1pvRVpoRklVV0lwNUFTVGowcWthOExMR2lCM1l5OWxYRkNTUVUzMTdkSnF1OUtET1JzNzFwVTRzclRyZTU5RlhLUWhzM0luTkd0a3p5dlVNVS1aSmlF?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Huis waar Donald Trump als kind woonde, is verkocht voor 2 miljoen dollar - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdTdRbi15OVJ6NDVhS0FoWUstMVNXSnlyU3hfQVpnM3FKdHV3SERJRmJzZ3RRejhFamh1ZEZoWHdraDhkYk02eF8zaHQyV094cExFMTNIUmo5WlZRb21zOWlneFNSU2VyRHl3MTNpSDYxcTcwRTNZVzVLS0RpZlJObFJKYkp0VVE4Tm9feXBWZGI4Ty1sRDdrZnhmTUQzUEVBbHZqOEJPYTF4eGwyMnA2NXJMc1h0a25DZXRkM2pkLU9MQQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Kinderwoning van Donald Trump verkocht voor bijna 2 miljoen dollar",
+        "url": "https://www.hln.be/nieuws/kinderwoning-van-donald-trump-verkocht-voor-bijna-2-miljoen-dollar~a3363458/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Huis waar Donald Trump als kind woonde, is verkocht voor 2 miljoen dollar",
+        "url": "https://www.gva.be/buitenland/huis-waar-donald-trump-als-kind-woonde-is-verkocht-voor-2-miljoen-dollar/161377361.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Huis waar Donald Trump als kind woonde, is verkocht voor 2 miljoen dollar",
+        "url": "https://www.hbvl.be/buitenland/huis-waar-donald-trump-als-kind-woonde-is-verkocht-voor-2-miljoen-dollar/161378117.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“Je m’en fiche”: Donald Trump réagit à la réunion entre l’Iran et les pays du Golfe",
+        "url": "https://www.7sur7.be/monde/je-men-fiche-donald-trump-reagit-a-la-reunion-entre-liran-et-les-pays-du-golfe~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Vous avez beaucoup de forces négatives » : Donald Trump fustige ceux qui veulent freiner le développement de l’IA - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc0FOWWloTHV4VnlqeExSWFh1RFlWXzhVeUljelBFbGFSaGw0d0lmTlBfaHQ4U0hEMnZCOE1Kcms3cFNGUmtVeVBLWXlBbExuejRYODIyNTh5bmpZVmhEWmdfSV9sVVpZTDZ1R2JzQlZqY1pvRVpoRklVV0lwNUFTVGowcWthOExMR2lCM1l5OWxYRkNTUVUzMTdkSnF1OUtET1JzNzFwVTRzclRyZTU5RlhLUWhzM0luTkd0a3p5dlVNVS1aSmlF?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
     "comparisons": {
-      "trump": 0,
-      "putin": 0,
+      "trump": 4,
+      "putin": 1,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 1,
+      "netanyahu": 1,
+      "zelensky": 0,
       "rutte": 0,
-      "von_der_leyen": 0,
+      "von_der_leyen": 1,
       "de_wever": 1,
       "bouchez": 0,
       "magnette": 0,
-      "prevot": 0,
+      "prevot": 2,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
@@ -92014,55 +92076,55 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 0,
-      "putin": 1,
+      "trump": 6,
+      "putin": 3,
       "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 2,
+      "netanyahu": 1,
+      "zelensky": 1,
       "rutte": 0,
-      "von_der_leyen": 0,
+      "von_der_leyen": 1,
       "de_wever": 1,
       "bouchez": 0,
       "magnette": 0,
-      "prevot": 0,
+      "prevot": 2,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 1,
       "verlinden": 0
     },
     "themes": {
-      "war": 23,
-      "crime": 5,
-      "eu": 6,
-      "politics": 7,
-      "be_gov": 2,
-      "culture": 12,
-      "tech": 7,
-      "economy": 7,
-      "sports": 23,
+      "war": 37,
+      "crime": 11,
+      "eu": 16,
+      "politics": 19,
+      "be_gov": 8,
+      "culture": 16,
+      "tech": 15,
+      "economy": 13,
+      "sports": 57,
       "health": 6,
-      "climate": 1,
-      "migration": 2,
-      "education": 6,
+      "climate": 3,
+      "migration": 5,
+      "education": 3,
       "weather": 9
     },
     "wide_themes": {
-      "war": 33,
-      "crime": 7,
-      "eu": 7,
-      "politics": 10,
-      "be_gov": 3,
-      "culture": 18,
-      "tech": 8,
-      "economy": 7,
-      "sports": 36,
-      "health": 9,
-      "climate": 1,
-      "migration": 3,
-      "education": 7,
-      "weather": 12
+      "war": 51,
+      "crime": 16,
+      "eu": 25,
+      "politics": 26,
+      "be_gov": 12,
+      "culture": 20,
+      "tech": 20,
+      "economy": 19,
+      "sports": 95,
+      "health": 8,
+      "climate": 5,
+      "migration": 7,
+      "education": 4,
+      "weather": 13
     }
   }
 ]
