@@ -92186,5 +92186,520 @@
       "education": 4,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-09-14",
+    "generated_at": "2026-09-14T11:14:38+02:00",
+    "last_checked_at": "2026-09-14T11:14:38+02:00",
+    "total_articles": 509,
+    "trump_articles": 7,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "core_percentage_name": 1.4,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 1.4,
+    "indirect_references": 0,
+    "wide_total_articles": 700,
+    "wide_trump_articles": 12,
+    "wide_percentage": 1.7,
+    "wide_trump_articles_expanded": 12,
+    "wide_percentage_expanded": 1.7,
+    "macro_percentage": 1.4,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 48,
+    "cross_outlet_dup_groups": 24,
+    "cross_outlet_dup_rate": 9.4,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.7,
+    "breadth": 0.29,
+    "deviation": 0.57,
+    "smoothed_pct": 2.49,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 12,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 29,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "google_nl_politics": {
+        "fetched": 24,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 7,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 28.57
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_nl_tech": {
+        "fetched": 48,
+        "today": 9,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 23,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 26,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 35,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 8.57
+      },
+      "lecho": {
+        "fetched": 91,
+        "today": 31,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 55,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.82
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 67,
+        "kept": 59,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 21,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 53,
+        "today": 8,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 37,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Poetin en Trump zijn niet de enigen die winnen bij oorlog in Iran: deze landen en bedrijven worden rijker door conflict",
+        "url": "https://www.hln.be/buitenland/poetin-en-trump-zijn-niet-de-enigen-die-winnen-bij-oorlog-in-iran-deze-landen-en-bedrijven-worden-rijker-door-conflict~ae12ccdd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Kallas: aanval op trein was bedoeld om bondgenoten angst aan te jagen • Trump vroeg Zelensky om aanvallen op Russische dieselproductie te stoppen",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-vroeg-zelensky-om-aanvallen-op-russische-dieselproductie-te-stoppen-kallas-aanval-op-trein-was-bedoeld-om-bondgenoten-angst-aan-te-jagen~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "L'administration Trump veut supprimer les plafonds d'émissions polluantes des centrales électriques",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/14/ladministration-trump-veut-supprimer-les-plafonds-demissions-polluantes-des-centrales-electriques-5B6MC3UXGNGJVOLSUFT7I2DYYM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"En gros, ils font ce que nous faisons\" : Après la mort de soldats américains, Trump minimise les liens entre les renseignements chinois et iraniens",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/09/14/en-gros-ils-font-ce-que-nous-faisons-apres-la-mort-de-soldats-americains-trump-minimise-les-liens-entre-les-renseignements-chinois-et-iraniens-367XU3A7HBFQ7AVZPU73VUTAAQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le Kennedy Center au bord de la faillite ? Ils affirment pourtant qu'\"ajouter le nom de Donald Trump au bâtiment a attiré de nouveaux donateurs\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/14/le-kennedy-center-au-bord-de-la-faillite-ils-affirment-pourtant-quajouter-le-nom-de-donald-trump-au-batiment-a-attire-de-nouveaux-donateurs-FOE2XEGY6VCNXLRMCHNFKIHILA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"En gros, ils font ce que nous faisons\": après la mort de soldats américains, Trump minimise les échanges d'informations entre la Chine et l'Iran",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/14/en-gros-ils-font-ce-que-nous-faisons-apres-la-mort-de-soldats-americains-trump-minimise-les-echanges-dinformations-entre-la-chine-et-liran-EA6EVX5GW5HDVKQHDMA3U55Q2A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Affaibli par Trump, le Kennedy Center risque la faillite",
+        "url": "https://www.7sur7.be/monde/affaibli-par-trump-le-kennedy-center-risque-la-faillite~a1ce4006/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "\"En gros, ils font ce que nous faisons\" : Après la mort de soldats américains, Trump minimise les liens entre les renseignements chinois et iraniens - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOWmU0ajRoSUJnNzZoVFRCeFBsZE9KUEpEcFJTNEwtb2s2aWtzYldOanl0U3pQakstdVg2QkhVNUxiUlhEM2h1X0hmTERhQzkyVS1zOEk1M2d5SG5DVFVvU0RoM3Y5ZU1OaDJ6aFFqWUZTbDhCYThwYmQ1WTVwMGNEdkVXeVdTX3NfYWplbmwzN0JjV081WHc0VHpqcVVUZTBxeEFuUTlkdWhMQkJjMF9UNWZkYk56ZDZabXpTZHFEYVRudWhyNTVIRjRWdzBwTm8yWkEzZTFqSS16NkYzelIxek5JMktTd1lyNF9zU3EzUlBjRmNQSTdkc2RSRkFVTlh2ZXlWdEtJOTNqM3RJXzF3WXpFQmNxTlM5cUhEMGhSdzdPOF9xblBWTndtNTduOXV5RUxQS0IwWTFoWEUwUUdsVWlLRTNaTkpqZ3hpQVNveWZPdVVndEZv?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Misschien levert Trumps geflirt met dictators wel iets op wat zijn voorgangers nooit voor elkaar kregen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbzBwbzg0VnpTS0MyX1lEQUw3Z093R1dGalpSVjVCYWZQNEN6MWVubGJmS3hfeEdZOXo4VjVDMVhobzI4WUhYVXNBVkdQN1lPSHVoRlNMeTRnRUNQZDRkTk52dDJsTS13bzhPSjFLeGI0RGlnSHhBZkVnd1ppTEhwY25kNVRaUnhvMUg0dTU3aWE5bU90bmpIamRhWGVNTk85MDUxUk5wX2xnR1Z5TFRXUHJFUHJiVlVQbTI3ZzBFSnBVemdwVVQ5QjlPdkwydndLV2xuRE5tczhCd2tuRDdKZ0pNTWhrQQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Iran kiest voor escalatie om Trump nog meer pijn te doen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWJNbl9pTTY3cVplem0zUVRzdnI3WXFVckpKdlhjOGNXU1VnMzB3bmMyNlVLdGloVzE2YmVTOWg1aTRqR0U2R1hCVVFHbDk0MFQxZzlXSTBQSWNrSGpYc2pNRGlmYnVySjBEMm8yd0FLRDREQndmQWptUDNXOEJJdF9oWUlGWDlLcDRwMjR2MWNpX1Ztck9MaldhWmhLM2NCUUlUeWlJdTJXd2c?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump belooft tijdens weekendje Ierland om invoerheffing op whiskey te schrappen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQREZNY0lIYnBPRzhobFh5M2RCaHc3ZGFDT3dFQzExdVZrVHNfZGRTYlFxQm5LbGRjbjV3OERmNGpadmJWeEtoXzE2UXBGZmg1eDJwbEtoSnh3MFd3NmE2WVR3TXpOY0pjZldEaklMTnUwZnFJcjhMaEQ1OExKZERhY0NYT3BVcEtwQWxfOVduTVZES2hfcDQxVmxUZngxRkttbmxMb082VzJYZENrZWpuYVJQZnI5OWJ4WUZtM3RaVXVWSHVTYUJ3QUlB?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Le Kennedy Center au bord de la faillite ? Ils affirment pourtant qu'\"ajouter le nom de Donald Trump au bâtiment a attiré de nouveaux donateurs\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNQk9YaGl1Q3Z5bXdOdElzVGtVcnppUXNIZ3pFYWwzdUdqenowUy12ckpmTWpWaTZXejFZZzVOcXJlbmdSVTJ2c3NzRXlPNnJlNmdoODQySHc5YkxxckxJTXA0Sl9iYUhoYjg2b2RpbWRaOTRxSDk1NW1kbW01cE1fSzN5U1ZFc2hWaW9lZ2tNZzFVUTBpMmt6T0JHNGl1UWNoM0lrNk1oZmhCem9Cdk9uS1ZxS20yUDRpLUtRc0dxTmF5bU9UVHM3MXlaR1pWVUVqTTgwTkI2UTRHMjZyUEdUYlZ0Y1NwQl9RQ1JNWnlVbk54N3hEcFp1X0V4cnljbHA5Q3pnZndoZGNEUk5HLWlTSm1kMEc2SVlPclZNRWgtU09TTHpuRlVxRmlnSmh6M1UzX3BGSy1PemFFREgxOXNjanp1SnoxMHc?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Poetin en Trump zijn niet de enigen die winnen bij oorlog in Iran: deze landen en bedrijven worden rijker door conflict",
+        "url": "https://www.hln.be/buitenland/poetin-en-trump-zijn-niet-de-enigen-die-winnen-bij-oorlog-in-iran-deze-landen-en-bedrijven-worden-rijker-door-conflict~ae12ccdd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Kallas: aanval op trein was bedoeld om bondgenoten angst aan te jagen • Trump vroeg Zelensky om aanvallen op Russische dieselproductie te stoppen",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-vroeg-zelensky-om-aanvallen-op-russische-dieselproductie-te-stoppen-kallas-aanval-op-trein-was-bedoeld-om-bondgenoten-angst-aan-te-jagen~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "L'administration Trump veut supprimer les plafonds d'émissions polluantes des centrales électriques",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/14/ladministration-trump-veut-supprimer-les-plafonds-demissions-polluantes-des-centrales-electriques-5B6MC3UXGNGJVOLSUFT7I2DYYM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"En gros, ils font ce que nous faisons\" : Après la mort de soldats américains, Trump minimise les liens entre les renseignements chinois et iraniens",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/09/14/en-gros-ils-font-ce-que-nous-faisons-apres-la-mort-de-soldats-americains-trump-minimise-les-liens-entre-les-renseignements-chinois-et-iraniens-367XU3A7HBFQ7AVZPU73VUTAAQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le Kennedy Center au bord de la faillite ? Ils affirment pourtant qu'\"ajouter le nom de Donald Trump au bâtiment a attiré de nouveaux donateurs\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/14/le-kennedy-center-au-bord-de-la-faillite-ils-affirment-pourtant-quajouter-le-nom-de-donald-trump-au-batiment-a-attire-de-nouveaux-donateurs-FOE2XEGY6VCNXLRMCHNFKIHILA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"En gros, ils font ce que nous faisons\": après la mort de soldats américains, Trump minimise les échanges d'informations entre la Chine et l'Iran",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/14/en-gros-ils-font-ce-que-nous-faisons-apres-la-mort-de-soldats-americains-trump-minimise-les-echanges-dinformations-entre-la-chine-et-liran-EA6EVX5GW5HDVKQHDMA3U55Q2A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Affaibli par Trump, le Kennedy Center risque la faillite",
+        "url": "https://www.7sur7.be/monde/affaibli-par-trump-le-kennedy-center-risque-la-faillite~a1ce4006/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 4,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 3,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 12,
+      "putin": 6,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 2,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 4,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 24,
+      "crime": 6,
+      "eu": 20,
+      "politics": 17,
+      "be_gov": 12,
+      "culture": 8,
+      "tech": 10,
+      "economy": 11,
+      "sports": 27,
+      "health": 3,
+      "climate": 3,
+      "migration": 8,
+      "education": 9,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 34,
+      "crime": 8,
+      "eu": 29,
+      "politics": 23,
+      "be_gov": 22,
+      "culture": 9,
+      "tech": 15,
+      "economy": 14,
+      "sports": 49,
+      "health": 4,
+      "climate": 5,
+      "migration": 10,
+      "education": 10,
+      "weather": 12
+    }
   }
 ]
