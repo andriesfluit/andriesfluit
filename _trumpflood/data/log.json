@@ -92189,189 +92189,101 @@
   },
   {
     "date": "2026-09-14",
-    "generated_at": "2026-09-14T11:14:38+02:00",
-    "last_checked_at": "2026-09-14T11:14:38+02:00",
-    "total_articles": 509,
-    "trump_articles": 7,
-    "percentage": 1.4,
-    "core_percentage": 1.4,
-    "core_percentage_name": 1.4,
-    "trump_articles_expanded": 7,
-    "core_percentage_expanded": 1.4,
-    "indirect_references": 0,
-    "wide_total_articles": 700,
-    "wide_trump_articles": 12,
-    "wide_percentage": 1.7,
-    "wide_trump_articles_expanded": 12,
-    "wide_percentage_expanded": 1.7,
-    "macro_percentage": 1.4,
-    "qualifying_outlets": 23,
+    "generated_at": "2026-09-14T18:31:27+02:00",
+    "last_checked_at": "2026-09-14T18:31:27+02:00",
+    "total_articles": 811,
+    "trump_articles": 16,
+    "percentage": 2.0,
+    "core_percentage": 2.0,
+    "core_percentage_name": 2.0,
+    "trump_articles_expanded": 17,
+    "core_percentage_expanded": 2.1,
+    "indirect_references": 1,
+    "wide_total_articles": 1167,
+    "wide_trump_articles": 25,
+    "wide_percentage": 2.1,
+    "wide_trump_articles_expanded": 28,
+    "wide_percentage_expanded": 2.4,
+    "macro_percentage": 2.3,
+    "qualifying_outlets": 32,
     "core_outlets_total": 19,
-    "core_outlets_active": 17,
-    "active_core_fraction": 0.895,
-    "cross_outlet_dup_headlines": 48,
-    "cross_outlet_dup_groups": 24,
-    "cross_outlet_dup_rate": 9.4,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "One of the day's top two figures.",
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 55,
+    "cross_outlet_dup_groups": 27,
+    "cross_outlet_dup_rate": 6.8,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.7,
-    "breadth": 0.29,
-    "deviation": 0.57,
-    "smoothed_pct": 2.49,
+    "dominance": 1.33,
+    "breadth": 0.5,
+    "deviation": 0.82,
+    "smoothed_pct": 2.57,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 12,
+    "theme_rank": 10,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 29,
-        "kept": 28,
+        "today": 32,
+        "kept": 32,
         "trump": 0,
-        "trump_expanded": 0,
+        "trump_expanded": 1,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 21,
-        "kept": 21,
+        "today": 32,
+        "kept": 32,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.76
+        "share": 3.12
       },
       "google_nl_politics": {
-        "fetched": 24,
-        "today": 6,
-        "kept": 6,
+        "fetched": 30,
+        "today": 15,
+        "kept": 15,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 9,
-        "kept": 7,
+        "today": 30,
+        "kept": 26,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 28.57
+        "share": 7.69
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 22,
-        "kept": 17,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.88
+        "today": 47,
+        "kept": 41,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.88
       },
       "google_nl_tech": {
-        "fetched": 48,
-        "today": 9,
-        "kept": 7,
+        "fetched": 50,
+        "today": 26,
+        "kept": 21,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 14,
-        "kept": 10,
+        "today": 36,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 23,
-        "today": 4,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_fr_world": {
-        "fetched": 70,
-        "today": 12,
-        "kept": 7,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 14.29
-      },
-      "google_fr_business": {
-        "fetched": 70,
-        "today": 11,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 16,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "standaard": {
-        "fetched": 100,
-        "today": 58,
-        "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "hln": {
-        "fetched": 30,
-        "today": 30,
-        "kept": 30,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.33
-      },
-      "demorgen": {
-        "fetched": 26,
-        "today": 19,
-        "kept": 19,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.26
-      },
-      "nieuwsblad": {
-        "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "gva": {
-        "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "hbvl": {
-        "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "knack": {
-        "fetched": 100,
-        "today": 24,
-        "kept": 23,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "sporza": {
         "fetched": 20,
         "today": 10,
         "kept": 10,
@@ -92379,53 +92291,141 @@
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 27,
+        "kept": 23,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 13.04
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 30,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 82,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 24,
+        "kept": 24,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 12.5
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 43,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
       "bruzz": {
         "fetched": 100,
-        "today": 7,
-        "kept": 7,
+        "today": 22,
+        "kept": 22,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 14,
-        "kept": 14,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
       },
       "lalibre": {
         "fetched": 100,
-        "today": 35,
-        "kept": 35,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 8.57
+        "today": 76,
+        "kept": 76,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 5.26
       },
       "lecho": {
-        "fetched": 91,
-        "today": 31,
-        "kept": 30,
+        "fetched": 100,
+        "today": 79,
+        "kept": 75,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 55,
-        "kept": 55,
+        "today": 96,
+        "kept": 96,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 1.82
+        "share": 1.04
       },
       "septsursept": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.33
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
       },
       "bx1": {
         "fetched": 10,
@@ -92437,56 +92437,56 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 67,
-        "kept": 59,
+        "today": 78,
+        "kept": 67,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 25,
-        "kept": 24,
+        "today": 49,
+        "kept": 45,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 16,
-        "kept": 14,
+        "today": 27,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 4,
-        "kept": 4,
+        "today": 17,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 99,
-        "today": 21,
-        "kept": 20,
+        "fetched": 98,
+        "today": 55,
+        "kept": 52,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 53,
-        "today": 8,
-        "kept": 0,
+        "fetched": 60,
+        "today": 21,
+        "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "tendances_g": {
-        "fetched": 37,
-        "today": 6,
-        "kept": 6,
+        "fetched": 47,
+        "today": 21,
+        "kept": 17,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -92515,15 +92515,69 @@
     ],
     "matches": [
       {
-        "title": "Poetin en Trump zijn niet de enigen die winnen bij oorlog in Iran: deze landen en bedrijven worden rijker door conflict",
-        "url": "https://www.hln.be/buitenland/poetin-en-trump-zijn-niet-de-enigen-die-winnen-bij-oorlog-in-iran-deze-landen-en-bedrijven-worden-rijker-door-conflict~ae12ccdd/",
+        "title": "Iran kiest voor escalatie om Trump nog meer pijn te doen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWJNbl9pTTY3cVplem0zUVRzdnI3WXFVckpKdlhjOGNXU1VnMzB3bmMyNlVLdGloVzE2YmVTOWg1aTRqR0U2R1hCVVFHbDk0MFQxZzlXSTBQSWNrSGpYc2pNRGlmYnVySjBEMm8yd0FLRDREQndmQWptUDNXOEJJdF9oWUlGWDlLcDRwMjR2MWNpX1Ztck9MaldhWmhLM2NCUUlUeWlJdTJXd2c?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Enige controle die AI nodig heeft, is een slimme president”: Trump ziet “zieke samenzwering” in discussie of AI-tempo te hoog ligt",
+        "url": "https://www.hln.be/buitenland/enige-controle-die-ai-nodig-heeft-is-een-slimme-president-trump-ziet-zieke-samenzwering-in-discussie-of-ai-tempo-te-hoog-ligt~a79c6d94/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - Kallas: aanval op trein was bedoeld om bondgenoten angst aan te jagen • Trump vroeg Zelensky om aanvallen op Russische dieselproductie te stoppen",
-        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-vroeg-zelensky-om-aanvallen-op-russische-dieselproductie-te-stoppen-kallas-aanval-op-trein-was-bedoeld-om-bondgenoten-angst-aan-te-jagen~b38bed0a/",
+        "title": "Oekraïne en Rusland beloven aan Trump om elkaars energiedoelen niet meer aan te vallen",
+        "url": "https://www.hln.be/buitenland/oekraine-en-rusland-beloven-aan-trump-om-elkaars-energiedoelen-niet-meer-aan-te-vallen~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Russische oligarch die close is met Poetin blijkt stevig stuk betaald te hebben van luxueuze bruiloft Donald Trump Jr.",
+        "url": "https://www.hln.be/buitenland/russische-oligarch-die-close-is-met-poetin-blijkt-stevig-stuk-betaald-te-hebben-van-luxueuze-bruiloft-donald-trump-jr~a33d1f0f/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Live - Oekraïne en Rusland zullen geen energiedoelen meer aanvallen volgens Trump, die zo aandacht afleidt van Iran • Polen vindt ‘Russische drone’ in Oostzee",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-navo-topman-mark-rutte-russische-aanval-op-trein-toont-hoe-wanhopig-poetin-is-geworden-polen-vindt-russische-drone-in-oostzee~b38bed0a/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Europese landen willen EU-aanwezigheid in noordpoolgebied versterken tegen assertiever Rusland en ambities van Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-kennedy-center-op-rand-van-faillissement-meldt-washington-post~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "OpenAI, Anthropic en Musk willen vertraging van AI, maar Trump gaat in de weg staan: ‘We moeten China voorblijven’",
+        "url": "https://www.demorgen.be/tech-wetenschap/openai-anthropic-en-musk-willen-vertraging-van-ai-maar-trump-gaat-in-de-weg-staan-we-moeten-china-voorblijven~b1f28e97/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Oekraïne en Rusland hebben beloofd geen energiedoelen meer aan te vallen, zegt Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-oekrane-en-rusland-hebben-beloofd-geen-energiedoelen-meer-aan-te-vallen-zegt-trump/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Oekraïne en Rusland hebben beloofd geen energiedoelen meer aan te vallen, zegt Trump",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-oekrane-en-rusland-hebben-beloofd-geen-energiedoelen-meer-aan-te-vallen-zegt-trump/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Donald Trump affirme que Kiev et Moscou ont accepté de ne plus frapper d’infrastructures énergétiques",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-donald-trump-affirme-que-kiev-et-moscou-ont-accepte-de-ne-plus-frapper-d-infrastructures-energetiques-11785115",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Elle a besoin d'un président au Q.I. élevé\" : Trump fustige une \"conspiration malsaine\" contre l'IA",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/14/trump-fustige-une-conspiration-malsaine-contre-lia-PQ2XR2X5YFC2FHDQFOB5PBSQVA/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -92545,23 +92599,41 @@
         "name_only": true
       },
       {
-        "title": "\"En gros, ils font ce que nous faisons\": après la mort de soldats américains, Trump minimise les échanges d'informations entre la Chine et l'Iran",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/14/en-gros-ils-font-ce-que-nous-faisons-apres-la-mort-de-soldats-americains-trump-minimise-les-echanges-dinformations-entre-la-chine-et-liran-EA6EVX5GW5HDVKQHDMA3U55Q2A/",
+        "title": "Trump affirme que l'Ukraine et la Russie ont accepté de ne pas frapper d'infrastructures énergétiques",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/14/trump-affirme-que-lukraine-et-la-russie-ont-accepte-de-ne-pas-frapper-dinfrastructures-energetiques-63KD7SI3E5BIFESAYTSN2N5PFA/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Affaibli par Trump, le Kennedy Center risque la faillite",
-        "url": "https://www.7sur7.be/monde/affaibli-par-trump-le-kennedy-center-risque-la-faillite~a1ce4006/",
+        "title": "L‘Ukraine et la Russie auraient accepté de ne plus frapper d’infrastructures énergétiques, selon Trump",
+        "url": "https://www.7sur7.be/monde/lukraine-et-la-russie-auraient-accepte-de-ne-plus-frapper-dinfrastructures-energetiques-selon-trump~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump dénonce une “conspiration” contre l’IA et rejette les appels à la régulation",
+        "url": "https://www.7sur7.be/tech/trump-denonce-une-conspiration-contre-lia-et-rejette-les-appels-a-la-regulation~aa68531b/",
         "source": "septsursept",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "\"En gros, ils font ce que nous faisons\" : Après la mort de soldats américains, Trump minimise les liens entre les renseignements chinois et iraniens - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOWmU0ajRoSUJnNzZoVFRCeFBsZE9KUEpEcFJTNEwtb2s2aWtzYldOanl0U3pQakstdVg2QkhVNUxiUlhEM2h1X0hmTERhQzkyVS1zOEk1M2d5SG5DVFVvU0RoM3Y5ZU1OaDJ6aFFqWUZTbDhCYThwYmQ1WTVwMGNEdkVXeVdTX3NfYWplbmwzN0JjV081WHc0VHpqcVVUZTBxeEFuUTlkdWhMQkJjMF9UNWZkYk56ZDZabXpTZHFEYVRudWhyNTVIRjRWdzBwTm8yWkEzZTFqSS16NkYzelIxek5JMktTd1lyNF9zU3EzUlBjRmNQSTdkc2RSRkFVTlh2ZXlWdEtJOTNqM3RJXzF3WXpFQmNxTlM5cUhEMGhSdzdPOF9xblBWTndtNTduOXV5RUxQS0IwWTFoWEUwUUdsVWlLRTNaTkpqZ3hpQVNveWZPdVVndEZv?oc=5",
+        "title": "Russische oligarch die close is met Poetin blijkt stevig stuk betaald te hebben van luxueuze bruiloft Donald Trump Jr. - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVVhlOEVDamNLVi04WHZuMU1XS2J5Qk10R3pQRTJYUk9TYzBFdllVWjJZaDJRT2pWNzE2QUtrZmxtYm5hOE9LUTk2bVByc0d5d29QLUd0WVBPeUlkM2Rma1JaS2I1eVNOcEFBTnN3RVloeU5pSS1SQ0xnQVduQ05OMjNPcnNfcHA5N2tFSWlyLW5wNV91ZVdrcW0tS0tmYWE5R0lEcDZ4RFdVMFN2Q1plYk15WnhNR25RZmlqS1ZVd1VQaklqUFhiU180SFhTbE9UYUNjRE4wd0VtZl9tc3ZLY1FMVTZSYnBiVU5xSWln?oc=5",
+        "source": "google_nl",
+        "name_only": false
+      },
+      {
+        "title": "\"Elle a besoin d'un président au Q.I. élevé\" : Trump fustige une \"conspiration malsaine\" contre l'IA - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdEh4V2pnTVJkdmNVYTZPVEVhaHdZXzl0WGxxUUdMQjFwSFRZTEVxb3lGWmM4S0VFTThUd3dHbmlLLXlvOHFxenZuZ3BCNHNYek1yM1JsUmtqcXBycHlDd2lKbUVqM2phWkNoUVlZUVZSSkpjVGhWUFh2d2ZJcXlycDFmTHdib2dEdVNSb1EwYzROUnJqaDZmMjQ4REJoaXFHTzdQRHVJS3lhTUV3R0h0VzZ5eTZGdjROZXRUZzFMZFhvcDZzZTBpWTVsUGlUd0tX?oc=5",
         "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump zegt dat Oekraïne en Rusland ermee instemmen elkaars energiedoelen niet aan te vallen - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYXNvSXVHcWFFbXJEVUpGcGZNQ1psbDRwWFEzalVxTmRyU0F6NWMwUlY5djFqRVFOOXNDNlZhYzJ0RkNBbkR3OVA2REx4OGM1VmFkZkxhTXNBN3ZndWs3TGJBQWIxc25xZmlueE82cDFGVlNMN1ZPNmRqRDAtSnpIa3FtYWNISnBoNkhsRHV2WTVzdDlLeEVPMlRxWjBFYzhzOEpqQnpVTVVIX0ZGMkhRQVpxa0tJX2lfaHZHRmpHSkRNa0pkQUZYWmxacw?oc=5",
+        "source": "google_nl_world",
         "name_only": true
       },
       {
@@ -92571,9 +92643,9 @@
         "name_only": true
       },
       {
-        "title": "Iran kiest voor escalatie om Trump nog meer pijn te doen - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWJNbl9pTTY3cVplem0zUVRzdnI3WXFVckpKdlhjOGNXU1VnMzB3bmMyNlVLdGloVzE2YmVTOWg1aTRqR0U2R1hCVVFHbDk0MFQxZzlXSTBQSWNrSGpYc2pNRGlmYnVySjBEMm8yd0FLRDREQndmQWptUDNXOEJJdF9oWUlGWDlLcDRwMjR2MWNpX1Ztck9MaldhWmhLM2NCUUlUeWlJdTJXd2c?oc=5",
-        "source": "google_nl_world",
+        "title": "Poetin en Trump zijn niet de enigen die winnen bij oorlog in Iran: deze landen en bedrijven worden rijker door conflict - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRkszd01PS3ZYYlM4eWhxVTRSMG9UZnFLUUp4UXVDejRzM3duX3VoRzRqN3dyR3p5TzlvN28yNFlobDhzd1FSbmN4SjJEem1jd0haTVFnVmYxNGYzU0NQZVhFMUFnRzc1YUN2S0otSFVTQUIxVFdxTWhOSFJldTAxczBiVXppTEtrQXlwQWJCdkNMN2VsU0JoVkdVUEZYOEE2cEVlRWpXTTJfbTF0RHRGTEpLcnAza2dmb3dKSkhqSjNPSG00U1NfN3kyN0s1VWVISHJzWktzOERvUWx2bGplVHJDcVJmeDllMnduZ3dLVQ?oc=5",
+        "source": "google_nl_business",
         "name_only": true
       },
       {
@@ -92583,21 +92655,99 @@
         "name_only": true
       },
       {
+        "title": "\"En gros, ils font ce que nous faisons\" : Après la mort de soldats américains, Trump minimise les liens entre les renseignements chinois et iraniens - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOWmU0ajRoSUJnNzZoVFRCeFBsZE9KUEpEcFJTNEwtb2s2aWtzYldOanl0U3pQakstdVg2QkhVNUxiUlhEM2h1X0hmTERhQzkyVS1zOEk1M2d5SG5DVFVvU0RoM3Y5ZU1OaDJ6aFFqWUZTbDhCYThwYmQ1WTVwMGNEdkVXeVdTX3NfYWplbmwzN0JjV081WHc0VHpqcVVUZTBxeEFuUTlkdWhMQkJjMF9UNWZkYk56ZDZabXpTZHFEYVRudWhyNTVIRjRWdzBwTm8yWkEzZTFqSS16NkYzelIxek5JMktTd1lyNF9zU3EzUlBjRmNQSTdkc2RSRkFVTlh2ZXlWdEtJOTNqM3RJXzF3WXpFQmNxTlM5cUhEMGhSdzdPOF9xblBWTndtNTduOXV5RUxQS0IwWTFoWEUwUUdsVWlLRTNaTkpqZ3hpQVNveWZPdVVndEZv?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
         "title": "Le Kennedy Center au bord de la faillite ? Ils affirment pourtant qu'\"ajouter le nom de Donald Trump au bâtiment a attiré de nouveaux donateurs\" - La Libre.be",
         "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNQk9YaGl1Q3Z5bXdOdElzVGtVcnppUXNIZ3pFYWwzdUdqenowUy12ckpmTWpWaTZXejFZZzVOcXJlbmdSVTJ2c3NzRXlPNnJlNmdoODQySHc5YkxxckxJTXA0Sl9iYUhoYjg2b2RpbWRaOTRxSDk1NW1kbW01cE1fSzN5U1ZFc2hWaW9lZ2tNZzFVUTBpMmt6T0JHNGl1UWNoM0lrNk1oZmhCem9Cdk9uS1ZxS20yUDRpLUtRc0dxTmF5bU9UVHM3MXlaR1pWVUVqTTgwTkI2UTRHMjZyUEdUYlZ0Y1NwQl9RQ1JNWnlVbk54N3hEcFp1X0V4cnljbHA5Q3pnZndoZGNEUk5HLWlTSm1kMEc2SVlPclZNRWgtU09TTHpuRlVxRmlnSmh6M1UzX3BGSy1PemFFREgxOXNjanp1SnoxMHc?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
       {
-        "title": "Poetin en Trump zijn niet de enigen die winnen bij oorlog in Iran: deze landen en bedrijven worden rijker door conflict",
-        "url": "https://www.hln.be/buitenland/poetin-en-trump-zijn-niet-de-enigen-die-winnen-bij-oorlog-in-iran-deze-landen-en-bedrijven-worden-rijker-door-conflict~ae12ccdd/",
+        "title": "“Ce serait fantastique”: quand Trump évoque un sujet très sensible en Irlande - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMHRJeEh4QVY5bzc5OG85LUp1NmpVY0tlek1OVkZmZy1nZldBX2NyVjducVJPajh1NE5pcThTOHBHRGJPcmlJTWxWLWY5TGhybHRrRDJiMS1IQ1VDaUt1anBXUHAwSl9qdGwtWmlucHRuTTYydFFGZUtNTmEtcl80WkpDeHNUNUFPTjBLZ2RyUHhTMkJxY1h6MWg0d1FJWU45NFB0aVdXWmUwQmlsV2ZRdQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "La Maison-Blanche veut céder une partie du parc de Yosemite à un promoteur immobilier privé - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTzNOMEZjVi1FY2pRRVJKM21ia2NHa2pXOWRFbGMtM2czY0FCRVFMd3ZBaVk3azRPUFNQUEJnQ1llMFlIS2F6ZFBKX25CSUZaa3FjZEZwdzAzWEF1cmVGQXZacDF6Z3ZLdHJKU2RucEdNYzI1Wm5yMThZVFp0NWJEbzZleWp2YkdYRjN6TklpTTNRRzBoLUEtRFVwZ2RGYXVwVGhPcjQ5UGdJQVBnM1hCTDRqdlBQemRzSWhmaw?oc=5",
+        "source": "google_fr_world",
+        "name_only": false
+      },
+      {
+        "title": "Iran kiest voor escalatie om Trump nog meer pijn te doen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWJNbl9pTTY3cVplem0zUVRzdnI3WXFVckpKdlhjOGNXU1VnMzB3bmMyNlVLdGloVzE2YmVTOWg1aTRqR0U2R1hCVVFHbDk0MFQxZzlXSTBQSWNrSGpYc2pNRGlmYnVySjBEMm8yd0FLRDREQndmQWptUDNXOEJJdF9oWUlGWDlLcDRwMjR2MWNpX1Ztck9MaldhWmhLM2NCUUlUeWlJdTJXd2c?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Enige controle die AI nodig heeft, is een slimme president”: Trump ziet “zieke samenzwering” in discussie of AI-tempo te hoog ligt",
+        "url": "https://www.hln.be/buitenland/enige-controle-die-ai-nodig-heeft-is-een-slimme-president-trump-ziet-zieke-samenzwering-in-discussie-of-ai-tempo-te-hoog-ligt~a79c6d94/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - Kallas: aanval op trein was bedoeld om bondgenoten angst aan te jagen • Trump vroeg Zelensky om aanvallen op Russische dieselproductie te stoppen",
-        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-vroeg-zelensky-om-aanvallen-op-russische-dieselproductie-te-stoppen-kallas-aanval-op-trein-was-bedoeld-om-bondgenoten-angst-aan-te-jagen~b38bed0a/",
+        "title": "Oekraïne en Rusland beloven aan Trump om elkaars energiedoelen niet meer aan te vallen",
+        "url": "https://www.hln.be/buitenland/oekraine-en-rusland-beloven-aan-trump-om-elkaars-energiedoelen-niet-meer-aan-te-vallen~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Russische oligarch die close is met Poetin blijkt stevig stuk betaald te hebben van luxueuze bruiloft Donald Trump Jr.",
+        "url": "https://www.hln.be/buitenland/russische-oligarch-die-close-is-met-poetin-blijkt-stevig-stuk-betaald-te-hebben-van-luxueuze-bruiloft-donald-trump-jr~a33d1f0f/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Live - Oekraïne en Rusland zullen geen energiedoelen meer aanvallen volgens Trump, die zo aandacht afleidt van Iran • Polen vindt ‘Russische drone’ in Oostzee",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-navo-topman-mark-rutte-russische-aanval-op-trein-toont-hoe-wanhopig-poetin-is-geworden-polen-vindt-russische-drone-in-oostzee~b38bed0a/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Europese landen willen EU-aanwezigheid in noordpoolgebied versterken tegen assertiever Rusland en ambities van Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-kennedy-center-op-rand-van-faillissement-meldt-washington-post~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "OpenAI, Anthropic en Musk willen vertraging van AI, maar Trump gaat in de weg staan: ‘We moeten China voorblijven’",
+        "url": "https://www.demorgen.be/tech-wetenschap/openai-anthropic-en-musk-willen-vertraging-van-ai-maar-trump-gaat-in-de-weg-staan-we-moeten-china-voorblijven~b1f28e97/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Oekraïne en Rusland hebben beloofd geen energiedoelen meer aan te vallen, zegt Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-oekrane-en-rusland-hebben-beloofd-geen-energiedoelen-meer-aan-te-vallen-zegt-trump/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Oekraïne en Rusland hebben beloofd geen energiedoelen meer aan te vallen, zegt Trump",
+        "url": "https://www.gva.be/buitenland/live-oorlog-in-oekraine.-oekrane-en-rusland-hebben-beloofd-geen-energiedoelen-meer-aan-te-vallen-zegt-trump/76695337.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Oekraïne en Rusland hebben beloofd geen energiedoelen meer aan te vallen, zegt Trump",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-oekrane-en-rusland-hebben-beloofd-geen-energiedoelen-meer-aan-te-vallen-zegt-trump/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Donald Trump affirme que Kiev et Moscou ont accepté de ne plus frapper d’infrastructures énergétiques",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-donald-trump-affirme-que-kiev-et-moscou-ont-accepte-de-ne-plus-frapper-d-infrastructures-energetiques-11785115",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Elle a besoin d'un président au Q.I. élevé\" : Trump fustige une \"conspiration malsaine\" contre l'IA",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/14/trump-fustige-une-conspiration-malsaine-contre-lia-PQ2XR2X5YFC2FHDQFOB5PBSQVA/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -92619,87 +92769,93 @@
         "name_only": true
       },
       {
-        "title": "\"En gros, ils font ce que nous faisons\": après la mort de soldats américains, Trump minimise les échanges d'informations entre la Chine et l'Iran",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/14/en-gros-ils-font-ce-que-nous-faisons-apres-la-mort-de-soldats-americains-trump-minimise-les-echanges-dinformations-entre-la-chine-et-liran-EA6EVX5GW5HDVKQHDMA3U55Q2A/",
+        "title": "Trump affirme que l'Ukraine et la Russie ont accepté de ne pas frapper d'infrastructures énergétiques",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/14/trump-affirme-que-lukraine-et-la-russie-ont-accepte-de-ne-pas-frapper-dinfrastructures-energetiques-63KD7SI3E5BIFESAYTSN2N5PFA/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Affaibli par Trump, le Kennedy Center risque la faillite",
-        "url": "https://www.7sur7.be/monde/affaibli-par-trump-le-kennedy-center-risque-la-faillite~a1ce4006/",
+        "title": "L‘Ukraine et la Russie auraient accepté de ne plus frapper d’infrastructures énergétiques, selon Trump",
+        "url": "https://www.7sur7.be/monde/lukraine-et-la-russie-auraient-accepte-de-ne-plus-frapper-dinfrastructures-energetiques-selon-trump~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump dénonce une “conspiration” contre l’IA et rejette les appels à la régulation",
+        "url": "https://www.7sur7.be/tech/trump-denonce-une-conspiration-contre-lia-et-rejette-les-appels-a-la-regulation~aa68531b/",
         "source": "septsursept",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 7,
+      "trump": 16,
       "putin": 4,
       "macron": 0,
       "netanyahu": 0,
-      "zelensky": 1,
+      "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 1,
-      "de_wever": 0,
+      "de_wever": 5,
       "bouchez": 0,
       "magnette": 1,
       "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
-      "jambon": 3,
+      "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 12,
-      "putin": 6,
+      "trump": 25,
+      "putin": 11,
       "macron": 0,
       "netanyahu": 0,
-      "zelensky": 1,
-      "rutte": 0,
-      "von_der_leyen": 2,
-      "de_wever": 1,
+      "zelensky": 0,
+      "rutte": 1,
+      "von_der_leyen": 3,
+      "de_wever": 9,
       "bouchez": 0,
       "magnette": 1,
       "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
-      "jambon": 4,
+      "jambon": 2,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 24,
-      "crime": 6,
-      "eu": 20,
-      "politics": 17,
-      "be_gov": 12,
-      "culture": 8,
-      "tech": 10,
-      "economy": 11,
-      "sports": 27,
-      "health": 3,
-      "climate": 3,
-      "migration": 8,
-      "education": 9,
-      "weather": 10
+      "war": 42,
+      "crime": 39,
+      "eu": 53,
+      "politics": 28,
+      "be_gov": 21,
+      "culture": 18,
+      "tech": 24,
+      "economy": 19,
+      "sports": 56,
+      "health": 6,
+      "climate": 11,
+      "migration": 4,
+      "education": 11,
+      "weather": 12
     },
     "wide_themes": {
-      "war": 34,
-      "crime": 8,
-      "eu": 29,
-      "politics": 23,
-      "be_gov": 22,
-      "culture": 9,
-      "tech": 15,
-      "economy": 14,
-      "sports": 49,
-      "health": 4,
-      "climate": 5,
-      "migration": 10,
-      "education": 10,
-      "weather": 12
+      "war": 60,
+      "crime": 46,
+      "eu": 77,
+      "politics": 43,
+      "be_gov": 30,
+      "culture": 25,
+      "tech": 38,
+      "economy": 27,
+      "sports": 94,
+      "health": 14,
+      "climate": 19,
+      "migration": 5,
+      "education": 12,
+      "weather": 15
     }
   }
 ]
