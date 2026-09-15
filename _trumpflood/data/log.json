@@ -92860,304 +92860,304 @@
   },
   {
     "date": "2026-09-15",
-    "generated_at": "2026-09-15T10:57:12+02:00",
-    "last_checked_at": "2026-09-15T17:15:33+02:00",
-    "total_articles": 483,
-    "trump_articles": 12,
-    "percentage": 2.5,
-    "core_percentage": 2.5,
-    "core_percentage_name": 2.5,
-    "trump_articles_expanded": 15,
-    "core_percentage_expanded": 3.1,
-    "indirect_references": 3,
-    "wide_total_articles": 671,
-    "wide_trump_articles": 17,
-    "wide_percentage": 2.5,
-    "wide_trump_articles_expanded": 20,
-    "wide_percentage_expanded": 3.0,
-    "macro_percentage": 3.1,
-    "qualifying_outlets": 23,
+    "generated_at": "2026-09-15T21:49:13+02:00",
+    "last_checked_at": "2026-09-15T21:49:13+02:00",
+    "total_articles": 901,
+    "trump_articles": 32,
+    "percentage": 3.6,
+    "core_percentage": 3.6,
+    "core_percentage_name": 3.6,
+    "trump_articles_expanded": 36,
+    "core_percentage_expanded": 4.0,
+    "indirect_references": 4,
+    "wide_total_articles": 1294,
+    "wide_trump_articles": 44,
+    "wide_percentage": 3.4,
+    "wide_trump_articles_expanded": 49,
+    "wide_percentage_expanded": 3.8,
+    "macro_percentage": 3.3,
+    "qualifying_outlets": 32,
     "core_outlets_total": 19,
-    "core_outlets_active": 17,
-    "active_core_fraction": 0.895,
-    "cross_outlet_dup_headlines": 32,
-    "cross_outlet_dup_groups": 16,
-    "cross_outlet_dup_rate": 6.6,
-    "zone": "flooding",
-    "label": "Trump is flooding the zone",
-    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 83,
+    "cross_outlet_dup_groups": 41,
+    "cross_outlet_dup_rate": 9.2,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 2.0,
-    "breadth": 0.53,
-    "deviation": 1.02,
-    "smoothed_pct": 2.59,
+    "dominance": 1.19,
+    "breadth": 0.74,
+    "deviation": 1.47,
+    "smoothed_pct": 2.74,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 6,
+    "theme_rank": 7,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 27,
-        "kept": 27,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.7
+        "today": 32,
+        "kept": 32,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 12.5
       },
       "google_fr": {
         "fetched": 34,
-        "today": 18,
-        "kept": 18,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.56
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
       },
       "google_nl_politics": {
-        "fetched": 38,
-        "today": 6,
-        "kept": 6,
+        "fetched": 56,
+        "today": 39,
+        "kept": 39,
         "trump": 0,
-        "trump_expanded": 0,
+        "trump_expanded": 1,
         "share": 0.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 14,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 29,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 17,
-        "kept": 13,
+        "today": 39,
+        "kept": 34,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 45,
-        "today": 8,
-        "kept": 7,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 14.29
+        "fetched": 47,
+        "today": 25,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 12,
-        "kept": 9,
+        "today": 43,
+        "kept": 39,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 21,
-        "today": 1,
-        "kept": 1,
+        "fetched": 16,
+        "today": 9,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 13,
-        "kept": 10,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 20.0
+        "today": 36,
+        "kept": 30,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.0
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 16,
-        "kept": 13,
+        "today": 34,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 27,
-        "kept": 27,
+        "today": 46,
+        "kept": 46,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.7
+        "share": 2.17
       },
       "standaard": {
         "fetched": 100,
-        "today": 60,
-        "kept": 33,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 94,
+        "kept": 68,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 4.41
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "demorgen": {
-        "fetched": 29,
-        "today": 19,
-        "kept": 19,
-        "trump": 1,
-        "trump_expanded": 2,
-        "share": 5.26
+        "fetched": 28,
+        "today": 22,
+        "kept": 22,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 13.64
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 47,
-        "kept": 47,
+        "today": 50,
+        "kept": 50,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.13
+        "share": 2.0
       },
       "knack": {
         "fetched": 100,
-        "today": 20,
-        "kept": 20,
+        "today": 57,
+        "kept": 57,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 5.0
+        "share": 1.75
       },
       "sporza": {
         "fetched": 20,
-        "today": 9,
-        "kept": 9,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 7,
-        "kept": 7,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 16,
-        "kept": 16,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 6.25
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 26,
-        "kept": 26,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 7.69
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 33,
-        "kept": 33,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.03
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 66,
-        "kept": 66,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 4.55
-      },
-      "septsursept": {
-        "fetched": 30,
-        "today": 23,
-        "kept": 23,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "lalibre": {
+        "fetched": 100,
+        "today": 78,
+        "kept": 78,
+        "trump": 7,
+        "trump_expanded": 8,
+        "share": 8.97
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 70,
+        "kept": 66,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.52
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 99,
+        "kept": 99,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 2.02
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
       "bx1": {
         "fetched": 10,
-        "today": 8,
-        "kept": 8,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 26,
-        "kept": 20,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
+        "today": 56,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 38,
-        "kept": 34,
+        "today": 53,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 51,
+        "kept": 49,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.16
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 11,
-        "kept": 11,
+        "today": 44,
+        "kept": 44,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 24,
-        "kept": 20,
-        "trump": 1,
-        "trump_expanded": 2,
-        "share": 5.0
+        "today": 61,
+        "kept": 56,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 5.36
       },
       "trends_g": {
-        "fetched": 58,
-        "today": 9,
-        "kept": 0,
+        "fetched": 68,
+        "today": 32,
+        "kept": 12,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "tendances_g": {
-        "fetched": 48,
-        "today": 6,
-        "kept": 6,
+        "fetched": 75,
+        "today": 47,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -93186,16 +93186,40 @@
     ],
     "matches": [
       {
-        "title": "Amerikaans Hooggerechtshof verwerpt verzoek van Trump om stemmen per post te beperken",
+        "title": "Trump haalt uit naar rechters van Hooggerechtshof na beslissing over stemmen per post: \"Gebrek aan moed\"",
         "url": "https://vrtnws.be/p.lOllXOdZE",
         "source": "vrt",
         "name_only": true
       },
       {
-        "title": "Live - Als Kamala Harris zich kandidaat stelt in 2028, zal Gavin Newsom stap opzij zetten • Donald Trump Jr.: Russische zakenman betaalde voor feesten na huwelijk",
-        "url": "https://www.demorgen.be/snelnieuws/live-als-kamala-harris-zich-kandidaat-stelt-in-2028-zal-gavin-newsom-stap-opzij-zetten-donald-trump-jr-russische-zakenman-betaalde-voor-feesten-na-huwelijk~b13cc951/",
-        "source": "demorgen",
+        "title": "Trumps plan met stemmen per post faalt, maar hij blijft het vertrouwen ondermijnen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbW9xNXpiUGVXUW5VWjlNSEQ4bzM1ZjV1TjZWRnNsck9SYV96MTlSQTYwdVoxV2FGOG1MbVlrYlp1QWMzQjhHWUREZE9zMDNsVVozYmNjVG1uNUNmWF8zQ3lvcXU0WTRPODlaYTZEbW5ZbkRyMDRMMlhtU3lqckVuclc4RU5PajNwdU41cUdDbERBRVpvTjhFUFFzd2xEbWRpQUlZUTNfMmx6TURrOG85NGhOcm5yQnNpQXF0RXZLbmNDMnV0T2lvdTMwRDI?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trumps plannen met stemmen per post falen, maar hij blijft het vertrouwen in de verkiezingen ondermijnen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMHkzWXNsOUFvUkx0VmZ4aHdFNFd2Y2t0YjY0VDE3dnpaQm1SZTBaaHc4NHluNm45RkJWZkNPN2tjUFlnQnhUQlExYTNCN3RWODhNZ2JoNTlleHJHWFhSZzJNeEtXSlpmRHI5SmphVG5iWFpqcUREc3l4cEZUUWxhcFhFVVQ3eEZ5UGptUlhyd0M0NzZIOHljSGdQYmVFeml3S3JGM0pyUThXZVRSQ3MwM3hWaU1tYmN6WHgxT3ZLSktScjJsNWE2Nm81SFZWTjg2RG1hSnh1aW9scmpnVXRRVnlMQ1FkcnI4T1E?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Oemar Kremlev, de Russische oligarch die het luxehuwelijk van Donald Trump Jr. sponsorde - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMjJQRmFmdUNEMVNkZlN6aFU3WmlxZDRoZGltNWFKWDRIWW1WbVRZSnQ4VzRWbWtWaVRiM211dzFXb3EwWmRHSDNkS1ZzTzZqcEc1blhPVmF4dUZWalJlbHJZeEI0ZHFnSlBOdTVYby1ScXlQY0JvYXltVVNaekdMcVdoTUdmQkFxejFXV3p5WVVIeUZld1pwYXhzY3ZMaTA3X3Q4NmE2ZzJPZzVVN1NMajIxemNOckp5OFJqMGRneExyN0tLamw5RkthQnFlbXM3V3NHaw?oc=5",
+        "source": "standaard",
         "name_only": false
+      },
+      {
+        "title": "Jensen Huang, de apolitieke Nvidia-ceo die steeds meer bondgenoot van Trump wordt - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPalJ3Q3cyNEthUE5vYjZBOElQOWRIbnc2elBPVmZ1bWM1dF9VVVRhT3gwdVVfZWI0MzNtSVNrRUJNblFyZWhjSzVjVXlrY2U2UHNSMFVLN1dYdk9mSjhIcGJITEFDcmxhdEtvZm1CejBJS3RHWEJsNzdLZzRHWTNuYWN0dDRGcG9TZmhDUDh1eENRV0M4Vk5qaFRxRThEZmFaRHI3bFVGTFBObVJodUM4WDRDNVE0UmpCMkREWHZEalJITm13QURlNQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Geen renovatie vóór naamswijziging”: Trump reageert nadat rechter zijn naam op Kennedy Center verbiedt",
+        "url": "https://www.hln.be/buitenland/geen-renovatie-voor-naamswijziging-trump-reageert-nadat-rechter-zijn-naam-op-kennedy-center-verbiedt~a79c6d94/",
+        "source": "hln",
+        "name_only": true
       },
       {
         "title": "Trump botst op Hooggerechtshof in strijd tegen briefstemmen: ‘Kiezers, niet het Witte Huis, bepalen wie verkiezingen in november wint’",
@@ -93204,8 +93228,26 @@
         "name_only": true
       },
       {
-        "title": "LIVE VS. Amerikaans leger erkent dat het wapens in de ruimte heeft - Trump noemt zorgen om AI “bedrog, zoals klimaatverandering”",
-        "url": "https://www.hbvl.be/buitenland/live-vs.-amerikaans-leger-erkent-dat-het-wapens-in-de-ruimte-heeft-trump-noemt-zorgen-om-ai-bedrog-zoals-klimaatverandering/151623011.html",
+        "title": "Live - Bestuur van Kennedy Center sluit cultuurinstituut ‘om veiligheidsredenen’, enkele uren nadat rechter opnieuw Trumps naam op gevel verbiedt",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-haalt-uit-na-vonnis-over-stemmen-per-post-het-hooggerechtshof-heeft-ons-land-echt-in-de-steek-gelaten~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Wat schuilt er achter het peperdure huwelijkscadeau van een Russische oligarch aan de Trumps?",
+        "url": "https://www.demorgen.be/nieuws/wat-schuilt-er-achter-het-peperdure-huwelijkscadeau-van-een-russische-oligarch-aan-de-trumps~b42556e2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Rechtbank zet opnieuw streep door naam van Trump op Kennedy Center",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-rechtbank-zet-opnieuw-streep-door-naam-van-trump-op-kennedy-center/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Rechtbank zet opnieuw streep door naam van Trump op Kennedy Center",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-rechtbank-zet-opnieuw-streep-door-naam-van-trump-op-kennedy-center/151623011.html",
         "source": "hbvl",
         "name_only": true
       },
@@ -93216,9 +93258,39 @@
         "name_only": true
       },
       {
-        "title": "Le fils de Trump confirme qu'un homme d'affaires russe a financé ses festivités de mariage",
-        "url": "https://www.rtbf.be/article/le-fils-de-trump-confirme-qu-un-homme-d-affaires-russe-a-finance-ses-festivites-de-mariage-11785238",
-        "source": "rtbf",
+        "title": "Le nom de Trump ne peut pas être réaffiché sur le Kennedy Center, statue un juge américain",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/15/le-nom-de-trump-ne-peut-pas-etre-reaffiche-sur-le-kennedy-center-statue-un-juge-americain-NOUP7CMB6RB4FAGW4P3Y4DT6QQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Après les révélations sur le mariage du fils de Donald Trump, un démocrate s’inquiète d’une “ingérence étrangère éventuelle”",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/15/apres-les-revelations-sur-le-mariage-du-fils-de-donald-trump-un-democrate-sinquiete-dune-ingerence-etrangere-eventuelle-5C46YJXX5ZE5TFPCJWTP2CVGYA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump tente-t-il d'influencer les élections ? De nombreux responsables se préparent au pire",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/15/les-etats-unis-en-pleine-preparation-pour-des-elections-chaotiques-de-nombreux-responsables-craignent-une-ingerence-de-donald-trump-5I3HKE47VBF6NI6KQ7YLIP3YAY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Qui est Umar Kremlev, l’oligarque russe qui a financé le mariage de Donald Trump Jr ?",
+        "url": "https://www.lalibre.be/international/2026/09/15/qui-est-umar-kremlev-loligarque-russe-qui-a-finance-le-mariage-de-donald-trump-jr-Y4IOT7CUUFDNXE47FIAP74URRY/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Guerre en Ukraine: le Kremlin salue la \"bonne idée\" de Trump",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/09/15/guerre-en-ukraine-le-kremlin-salue-la-bonne-idee-de-trump-KFLIIX633JFJ5L6VT55WBWJRLM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Ces démocrates dérangés et dépravés\" : Trump fustige une décision \"horrible\" de la Cour suprême sur le vote par correspondance",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/15/ces-democrates-deranges-et-depraves-trump-fustige-une-decision-horrible-de-la-cour-supreme-sur-le-vote-par-correspondance-6XYKI7CAMZCLPAXC2BDEEAA34I/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -93234,40 +93306,94 @@
         "name_only": true
       },
       {
-        "title": "États-Unis: avant les midterms, la Cour suprême s'oppose à la réforme électorale de Donald Trump - L'Echo",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdlpHVFVYRkZZRU5ITGhuRWdFSXRoVXpfS0lDRnFkODJsd0Nkdl8zb0NQc2pJZlpCcE5iRnYySWZmN2hQRmhrU3MxbktlZHl5eXY1MlplS2REcXctZ0VaRVp6QkRfWFhGNzFuY0NDMlhmV3RXT2c4UFJSNnJKZk9VUFpYVDl4WWlST3FBY2JyR2xHaEFtTE51djV3MVJ2Yk1KVU5kVEowejZkX1RCTUsyUDZWUUszQ3QzRGdUbHYwcDNJMlFPMXdtSDJ6Rm9UUHdRZjNZWXhUTW5PODJtQWxEd3AwLTNWcm9nZjdvRHdfTlgwcFo5a2h2eHdUcWtBZ3d0?oc=5",
+        "title": "États-Unis: avant les midterms, la Cour suprême bloque la croisade de Trump contre le vote par correspondance - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxORjk3cGNXYVNfbDBXVDhrSmFTNW1haEpFWExaR2VxdjRiMUZjNFdqa2tOamsxaDY1WkpGLTJHdlM5bWZDeENob1NjNFJ4UXJNb3J5WGRfbG90MEZ2RkRHdWpTT2ltOVo5U0Y0MXl5QjBWOHYta3FSUWJYc0RLLWp1T1dNbDVZaFhCUDI2SVdtZG9sNTUxYl8xRTVEWkZYNk93ell2RHJmS1pTVm9KX2JxYmFLZVB1bmxhVkliUmtKS3dsVENQVWludnoyZ3d5bDdfa3I0OGotR29XVHdFeHRNUVcwZFgwVnlCLVJDaDVDdVhCZzl0dVQwdGQ4eXk?oc=5",
         "source": "lecho",
         "name_only": true
       },
       {
-        "title": "Le fils de Donald Trump reconnaît l'intervention d'un homme d'affaires russe: \"Il s'agissait d'un cadeau de mariage extraordinairement généreux\"",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/15/le-fils-de-donald-trump-reconnait-lintervention-dun-homme-daffaires-russe-il-sagissait-dun-cadeau-de-mariage-extraordinairement-genereux-5N4C63RSQFBHBGHTO3SM66AZGM/",
+        "title": "Etats-Unis : Un juge américain empêche la réinscription du nom de Donald Trump sur le Kennedy Center",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/15/etats-unis-un-juge-americain-empeche-la-reinscription-du-nom-de-donald-trump-sur-le-kennedy-center-O4QWNH4Q5JEKBC2SCX4FTNDZMI/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Elections de mi-mandat aux États-Unis: la Cour suprême rejette une attaque de Trump contre le vote par correspondance",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/15/elections-de-mi-mandat-aux-etats-unis-la-cour-supreme-rejette-une-attaque-de-trump-contre-le-vote-par-correspondance-E5GZQPXBW5B6FHVFYTR5M77YLI/",
+        "title": "Mariage de Trump Jr : une fête aux Bahamas financée par un oligarque russe alarme les démocrates",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/15/mariage-de-trump-jr-une-fete-aux-bahamas-financee-par-un-oligarque-russe-alarme-les-democrates-WUO7TO3PQRHFJN3N6OK47ORPTQ/",
         "source": "dhnet",
-        "name_only": true
-      },
-      {
-        "title": "Guerre en Iran: ce rapport du Pentagone contredit ce que Trump et son administration laissaient croire",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/15/guerre-en-iran-ce-rapport-du-pentagone-contredit-ce-que-trump-et-son-administration-laissaient-croire-6AZSIZSR2VDBHHQ5GTWUNS273Y/",
-        "source": "dhnet",
-        "name_only": true
-      },
-      {
-        "title": "Russische oligarch gelieerd aan Poetin betaalde mee voor trouwfeest Donald Trump Jr. - tijd.be",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRW5FSml1WTVmRWxidjY1RTNyN0NlbnR0bUE2Yl9RX0dPdVZnN3FUTlAzR3RWTFdxOFhpbExIcEF6SzhaaGtmVjB0cW1BalhyNHg0RURPSHlBSm00cUtHZy1RbDM5c3dyOXpaTllEYmR6QjFaOG82eTdHUzVhZUFkc1FpcjNYZEVCazEyellidFhabml6aTNqYkZSU09tellUekplRlRSSGlaMkNBbUQ1b2prZm84N0JaaXRaS2dLQ0RnTFBIbG5YLVhMQXBvZUxVdzh1c2ZudFRrRmc2X29OWnRydEFQenNH?oc=5",
-        "source": "detijd_g",
         "name_only": false
+      },
+      {
+        "title": "Les États-Unis face à la crainte d'une ingérence de Trump lors des prochaines élections de mi-mandat",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/15/les-etats-unis-face-a-la-crainte-dune-ingerence-de-trump-lors-des-prochaines-elections-de-mi-mandat-FMFRXUVZ3RH65E66HMKCKRQKHU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Une décision horrible”: Trump accuse la Cour suprême de faciliter la “triche” pour les démocrates",
+        "url": "https://www.7sur7.be/monde/une-decision-horrible-trump-accuse-la-cour-supreme-de-faciliter-la-triche-pour-les-democrates~aa6022610/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Que compte faire Trump avec des armes dans l’espace?",
+        "url": "https://www.7sur7.be/monde/que-compte-faire-trump-avec-des-armes-dans-lespace~a3971b32/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Leidt renteverhoging Fed tot conflict tussen Warsh en Trump? - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ3phZW1IZkQtRnRzYkNlaUh4ZGk2dW45bFBLZkVNdDR6REhnUXhMdTFMcy10U3pHQm9QekpwOUhlVWY5QUxwM181RjBtUWZia2d3VmlNZWxwenZoZUZtRWM1MjQ4OTBkb0kwdThBQmNjYVFpZXY2dVpmZVpzWDBxV2h6aG5JNHduRGRHTWk0bFdEYTVOaDcyZnNhQ0gta3FNME05YlRaaGcwWHNXblkyclFqUnRZTm52TmxQLUZWOA?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump belt Nvidia-topman Huang en noemt AI-angst een ‘hoax’ - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQ25BaUlvaU9ycjZULUhVQm5IeWZwbTY2MW5DcnJaSy1oTHFCOXlEMHZwcnpHQ0hyT0RaeFQxdUo5Y2g0S0lNNjd3UWVoU3I0TkE5eWtlRC1nVkQ4c1A4Y2tlYTJ2MWJZUkh1T1pQYVlJXzF2WVhGZDNuMmhLUVVYWHpiN2VkYVk0TUVOVVA2eWlmY2YyQ243U3hhTE9qMmRlaDJLQWlCQnVqNkVyOHpRZEpDU2p1T0NUWjZ6a2lVSk9iVUxjdlppalY4dFRJNVU1b1EyVWJNOWg?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Revers pour Donald Trump : un juge lui interdit de réafficher son nom sur le Kennedy Center - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORnlvSmZaWVZfSi1NZmplcVZBYk5YQUxzamtZZU5PRlBuMGs0Mjc4VWJxNHdxR1NYWUNqMTJGRmRIdFY3WldSUjItUU1uV0s5NksxWVZoaThCVldXeGVsdHJtY0htcWR2UDZxSW10UzR2TVdkZlFUVEEtVHFlQWZZWXllQ19wa0ZUczdtbHoxOWRNODllTm5XclVkOWhuUGdCQmQtb05DeDBoOHl6OWEwTjUtMWtGdE9wc1dGRkVRMVRvU0V4?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Le fils de Trump confirme qu’un homme d’affaires russe a financé ses festivités de mariage aux Bahamas : « Un cadeau extraordinairement généreux de la part d’un ami » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONWRoQmVkUG9fWU9RSG1zczZmU3dVWjFMZHg3eVgxRnc2SVhHUU9lZ25rNWZoNkpLQnZJQVlacFlaMXVKV0pkQjI2bjVSQ3FfV0lmYUNFbVl1MDV6clNGcGpTVy01SG81QUNyMHk1Z2lVcHU0Y1NjTVVOSGhCNHNSWnhkRTgzTm9aSWVTTTNZNUFHZUtkMnQtbF8yRVA2aFhiVlhkU1F2Wk8zZGJld0JoUTFOV1I1dm9kMXlaVTdyQ0ZSbHZnTVhfZXRB?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Un dirigeant européen l’assure : Donald Trump a « fait du bien » à l’Otan - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeW85Smk3UTNPbFlLeXRtZ3QyelBrUmdUVWNpV1FzbW00TGdGOWtrbmluYWVwdjc5ZC15bTctMEpTeG4tRlJHQkxNY0ZBN3ljZm9VSDRZYXJNdG5oQjBnUXl6Qm13OHpfUmZJYmVoUHhZUkZlcmNwZXlNX1h1SFNjTEJXWjEzbmo1SV85TE5RQmJ6X2pBMklibEJpMFBHOEJsRjN5bkhLTjg5YWtvWE84blZZYw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Elections de mi-mandat aux États-Unis : la Cour suprême rejette une attaque de Donald Trump contre le vote par correspondance - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONXU3VDVjMGpiZW1xRHdBSU5pTUcwLThabk4xR3pNLThFbl9GZzc3YU9xQVJzWjNpNGlBamxwc2pXd0xSak8yb3NNMEhFYzJuVGFXaS1NOUIwUGloVDJMYnVvVnljT0JfSnBEM3VDNmM5eEhqSTZWQXMyaUZDb2VsSFJtRC1YRnZ0eHg0WV9DYkszTFN6UEQySVVqZk8tdkFMOS1haHd4RkJ4dkFHcF92MV94RGZJZ3VCX3U3cHBKZ29yMnVOSHJV?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
       },
       {
         "title": "« Un cadeau de mariage extraordinairement généreux de la part d’un ami » : Donald Trump Jr confirme qu’un homme d’affaires russe proche de Poutine a financé ses noces - RTL Info",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWTlwbTNjX1FsNXl2dkx0czZZRFpOQkYyY3NJS1lXOGUyb01rdVZybXl1QkdwNTR4X0pJSkxna0pMQnNiU0lLbmlIRkJDYWwwYkhwMGswcnZvMzhvUFpEcUMzTURsMnhTbmpicWFtTTdXZ1RRNVJ6MHROUEgyb0tjTEZiaWh5VGtPTUszWkFOY1pNdkxVY2s3OWd1NGNaZldBaFJHUk92cEhMUk5mR1daekJpQ1d4NXhrNGpIaGQ2b01id0VwTFhKU0YzZURINnVCMC1idXJlWHpIT19KbjEwSnVIWVY?oc=5",
         "source": "rtl_g",
         "name_only": false
+      },
+      {
+        "title": "Kennedy Center : Donald Trump interdit d’y afficher son nom, le célèbre centre culturel fermé « immédiatement - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWGZvRWhVeWF3MGlfNXUwWUtsSFhZbVRHRnRXYk9KWGd5Y2lzVG52TjA0c1J6dFhLNmxzZHJaY2h2UWJNV3ZNNVhEXzFYZFQ1akpsaDlDY2hib2J3TEo2cUg2NnE1ZlhrbXhmNHlzeHE3OFpocXFlZ1lCeW5lSnB4bWV5b0trVHNHelpacm5GYjVtdUVzOURhd3lEMnZNaTdCOE5mbF9mdXBXemhSdlI4Mm5RamhhLVI5SzFNLWNSUHN2aGNva0wyTE82N2NDM2pMNlN2Z0I4aG91bkhH?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump promettait une guerre éclair en Iran : 200 jours plus tard, où en est-on ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdjBsWURqTzdRbjVuSkk4eE1fM090dWhybHZoXzczSkUwdG9DRzBWWUlQa2l5VkJJVmxta1paTWpGY1dhLXBQd2d3OElDeG43dkV3VjEtSW1WQXVmb0pEUldwRFIyNS1mZVJkLTJKak9HbUJ1bnU5dHBWWnAxSmJYb1VEY3Y3aWdIa2Zwd0Fld2VIemNEbkM0bE1pWmk2cEZXdEYxVGVyWmtKc2I4MzBhXzlEQm5MclJkdWtEbmNMUnhncXZrWUE?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       },
       {
         "title": "La Cour suprême dit non à Trump et maintient le vote par correspondance avant les mi-mandat - RTL Info",
@@ -93278,26 +93404,68 @@
     ],
     "wide_matches": [
       {
-        "title": "Trump botst op Hooggerechtshof in strijd tegen briefstemmen: ‘Kiezers, niet het Witte Huis, bepalen wie verkiezingen in november wint’ - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQNW0wS0JOMmFzUWMxNjM4UkJKZXQ2a09NTHZueHNoYzJ6dmM1SE9ZTGJESVMyR01KbUJvQmZlTVFpc1V4S29MT0hwQU53REFxX3UtWFdZMkhNbXV1cXhVY1AxRG5PVUxvT1NMdmtzSTl6cGQ1UkVRb3k5Z2lGUHlPZEQ2MnlpSUxHM2ZOMVZIUlhEU0pJT2F3SE52UkQ5V3lEeGlIMGhmSmZzZkJiZDhfT3ZqY3JuTnZWNjRucVViRWFmQzJTMEFETG51N2RJcHkzdW9saE1CYjBUdHJjZzMyNmxldFZOV1p1M0xwNFEzb3F5TmhBTU8tV2puNnM3dk0?oc=5",
+        "title": "Wat schuilt er achter het peperdure huwelijkscadeau van een Russische oligarch aan de Trumps? - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNelJtQWU3UU8xcTJCSC1QekVBWlBZTGwtalFDSThxSlhIRTBXbmtJb0FCNXk3eEtFOUY5cmZ2elZNcUhzMzRBRG5zeG0tWVk0VzV0dHFWMU55anpqT1ZmWVFtTXdfeTZlLWFqaVVfSG5aY3hlX2hkUGpFOW5xS2pqckJINHllMGhPd1lxMmc3eUNoaUptTkdqT1NKZFl5dWFlaWgxeG5LS0p3SE01ZXRiSmxZLXBrOXRWTGtONHRINnhTbnJNbTBhX2JTaV9YUQ?oc=5",
         "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trumps plan met stemmen per post faalt, maar hij blijft vertrouwen ondermijnen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNzZDbTBYRmVxcDkxdVhWSVowY1FpaWVDVm9sdG1scVZyNXg4eEloeHRlZktheW5CVzdWaElyY2xEbWl4bGU0YmQ5LUQzSlJOelFQbzdYVklEckNJc1lFT2tmNktfeWhIU0c0UGYxWDhJajlaeUw1b2hqa0lvX2JhNlhaU0xDSWxqc3hpYjB6UENWZUdLWjBPUW9HRVk1SW9qR3d4TG1hZ1NTaVVLdHhlZUM3ZnZ1dVB0d2ZYUnZQVDlTRnhlbHFr?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Wat is Trump van plan met een ruimtewapen? Kolonel Housen ziet hoe de ruimte het nieuwe oorlogsdomein wordt - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaXBTWWNJLWVKNmJ1Wkd2M0Nsd0pqTE1neWhqV3MwdXpDX0FHb2tHZDhjbFZJZllVeUZIOUFPQ3hFeW1vSUQweEJvVGZlSy1nN2cyYWdwQllHaW9CUnhoaklUR05JQ2RZaWdFdzV4MFRic3plbmpJT3RBamdZUERKZ1AxMktTZk5QdFVVQnl3cHNhZ0Fvc1lTdzFkUlFDNDdLZ0tqY056TDRkV01WZGo3Q0taTktZWlVhSEprMm9OUEhENXhjN1FHZXVXaVB2LVNsNGg2eUVacHktLXc5V2s4?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Obama pleit voor federale veiligheidsmaatregelen voor AI en bekritiseert Trumps beleid - HLN",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUUw3c2ttbndBTWhOWnJwNXRmYVBhdlV6eHRmaF9TUmtKN3BRM0kzUmdpT1Iwc3E4YVp0RWZqazlSek9pSXlSN2RKUFdoVU5FQlI3UjZUWUluY3ctYkJ5dzAtSEFHOHpKVXBKdC1ycUE5eV9POFdzZm82YnoyMXFBMkNSel8tUE40d1cyUjhLWlRSV0Z4NzJCUE8zU2x1eGpXdTNwSEsxMWo5aEVPdmk3ODNNOFZDVmlWUHlidktoV3d2SGRw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Les États-Unis face à la crainte d'une ingérence de Trump lors des prochaines élections de mi-mandat - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQMkZzeFJhNzV6NVlxYVZyTmNuc0xCa2NpMkZpcy11elVaZDFfYlpnd1JUSDNQUlJDVlR1YkxvSGs2aXBhV2pUMlRsTFNKLXo1dUhDX1NJNU1FQW5pS05wWlNocjlmOTdoNFlDSFZXU004WFliXzdQcVlwNXhkWFlzUkZVRXN5TjB0TVdHSXpFM19PYnNuR01QUHg3di1kQjFIWDllSFg2RmpxcklYd1ZVcllzT3pqd0VTQmxneF93YVlERjZ0YmhRVmQyZzdiOGR4akZaek9PVElrelhzbFlIUm5qYXlVVm0zdWd5WDZVeFl2YmdMVEV2Y3gza3hiWE0?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: le Kremlin salue la \"bonne idée\" de Trump - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNb3BaS25VcnhQVUlyY09YVHk1aENiQ0hPeE1jZVFjNXlQUzAtNGgxUkk1MWpZd290VkwtM3kxZ29CVTQ5cG12VVU3WGF0MEF0ZHc4cnRGdjNYRWV2MzBXcngyZjMyRHBySWJKbEVrOHR4TnVRRFBuamxfTUJCODhnNVV0ZHpxOFUzZVNZbTNVNmJVcUlmcnE2cHNURTR3dGE3bkhyd1gyWlIzbjBnOW56SE5vS2I5enBjVnhVZkx2b0NUU0ZiSElxTUk1VGZ4cnhCNmFrWk9kTWJQMmhxaklQbjdUWWl5eUVPZmlfVWwxOHp3M1R2?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Russische zakenman met Kremlin-banden betaalt deel van trouwfeest Trump Jr. - vrt.be",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdHdBR1RkUVhTZFRiVGx6SU1pTlhJX3NrajBKYXpYMVlHTjFDT3g4ZnlRVTUtMjIwTnJwNWllaTRMemhKUjB0NGZOVzhyN0hGOE5wSWhjZHhnWnpHcGprWFlVRUE4Z3F2bkZ6Y0ttUkppOWlHZ2MyaTRNamV2SU9ub25ieWprcjNEQlhBODVMR0J0YU1HajNtc01yYTR5R251amxiQ1hwWQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Hooggerechtshof trekt streep door Trumps plan om stemmen per post in te perken - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOM0NlMG5rSkh3MmVtZG5HWndCX1NkSGV0dExRSFpuN3NJXzFJdHBrYWl0UWtBXzZnNWlyeFlCRXlqTWR4VVBrcDFwdUVCdzJTc1Y0NExaajZQbTItOURoREVRRGZVZHNvQmhNWXF0TE1kWWZOQ2FWRmg3aXNlenFxdjUyYnk3OEFzWVlVNXZKeFlpZGV3dXVqQ3hITGFJdm85OGtXaWNVRTVsREVhUTQ2TmxfajdvRVNnY0RINEVWSUVjVEFvOHJUTGhmTXB5TUpqOS1vZW11NHRrS0stYXFUYlF3?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Naam van Trump mag (nog steeds) niet op Kennedy Center, beslist rechter - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd01sWjVzNmxqQXdEUW5UakY4R2l3eGh3OWFqWDh5MFJfcExlMHZxQTFTS1lBYktIY1VnVXNxQXdYRmxHUnRqdUtrR1NxVml0THdKcENKb0RDV0VWSVVFQjlDbEJmV09LMUJzMFdkbWZLaGVuLWpXdm9lQmlTLXFpWFRqR1NYaWp2Z0dRLXJfNkNuT0lNcHV1WjJwVm5va3pIUVlYbi01Qmw5dHYybVhSVWRtTUd6Z0UzUkE?oc=5",
+        "source": "google_nl_world",
         "name_only": true
       },
       {
         "title": "Le fils de Trump confirme qu'un homme d'affaires russe a financé ses festivités de mariage - RTBF",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZXoteGJJMDAxbEVSU0lwMWdTVTFUamh2LUV4X09PbDJhcDJrUVRZcURLb1U1cWQtNW1oTmVVUTFBQVNqM21HUEhnQ19CckM4eHZnTHlrOHl1WDVGNy1NYWtBMW5pUVpTd0JNYUdrOW5lb3JKZkJnajktRzB0NGttRmZSeXFIdk1sOHlTTjlyRVRQcjJoVUZSbWRjdHVYbkJ0eXBERVFvWVZrZlIxN0ZxaGFkUTN2MmFCa2NycFBmODZyOEtPeUE?oc=5",
-        "source": "google_fr",
+        "source": "google_fr_world",
         "name_only": true
       },
       {
-        "title": "LIVE VS. Amerikaans leger erkent dat het wapens in de ruimte heeft - Trump noemt zorgen om AI “bedrog, zoals klimaatverandering” - HBVL",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNOU11Rl93WVViSzRvNUVkdHd3NHMwZUZ5bUhrbGpPcW9kQThNWEZ0allPbEpiVF8yQ1EyMnJVeWlLTTNyd3Q5Vk5fRThPcUk2X1dKOVFBblBKT185dzA0ZFA2eW02SlhuMnhxSzZxa084YWxHWndCUTFXSjhoblhSRDFHeVd2cTR5Nk9SQ0FQV1VVNXhGdk1vdi1WbHp5VW1wSUI5MFMxRHhHTk5PV05JSFhiczNvcUFiZlBwcGgtTHgwOWJ0VDNYZnZxQ1EycEdMSG1pT1JXNW1Ya2lsVGhhbzJ0SkNZdHI5UXVZQU1sUjFjcDVsWlM5cUhuUGtrUQ?oc=5",
-        "source": "google_nl_tech",
-        "name_only": true
-      },
-      {
-        "title": "La Cour suprême rejette un recours de Trump - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeC1ZX2RmOFhYcWpfREJaRGhYalA4VEl1c0RkX0dWTmQ0ekxaUG1GSXBhaGFEN1BBQXdzWjB4eF8wV3I0Y21felMxbmY3MzZKOFFPSm9CeGdTUzhUSGdnNHVlZlBTejZYWjZQSnlqLWtSOU5CUUQ5dVBzMlVOSXJfSF9uUjlDTEdtYVZETGxZYVIyeDN2ZXc?oc=5",
+        "title": "Etats-Unis : Un juge américain empêche la réinscription du nom de Donald Trump sur le Kennedy Center - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQbDE5MU84cERnSjc2Qi0zWjJFckktVjEtSWRoWjZaLWNRekFrU0E1QlFaSnpzZV9OdmhPa1JSanN2cnBQa1RNYmdPQ1R5RTdmOHRmdHdUWnhUM3lQckI3MFRRM1ZlVnFGajRINlc3TEhvX1d0ZXc4dTcxNDB3ZTU2cXpwN1IyZXppOWNNR0J3RWpKdmY3Wld2Z0NnSHU4cjk0ZnF2VVdraVVBZklwSnVpZzVfUS13Ym52QVRIRURMLTF4Wk9zcVFEdjZHMjM5RE9BNS1tSXBjZmd1TndMR244cUhfUVVWWTRvWkVXRUdRUGhMTk5zMk1wcm1pb29FQQ?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
@@ -93308,16 +93476,40 @@
         "name_only": true
       },
       {
-        "title": "Amerikaans Hooggerechtshof verwerpt verzoek van Trump om stemmen per post te beperken",
+        "title": "Trump haalt uit naar rechters van Hooggerechtshof na beslissing over stemmen per post: \"Gebrek aan moed\"",
         "url": "https://vrtnws.be/p.lOllXOdZE",
         "source": "vrt",
         "name_only": true
       },
       {
-        "title": "Live - Als Kamala Harris zich kandidaat stelt in 2028, zal Gavin Newsom stap opzij zetten • Donald Trump Jr.: Russische zakenman betaalde voor feesten na huwelijk",
-        "url": "https://www.demorgen.be/snelnieuws/live-als-kamala-harris-zich-kandidaat-stelt-in-2028-zal-gavin-newsom-stap-opzij-zetten-donald-trump-jr-russische-zakenman-betaalde-voor-feesten-na-huwelijk~b13cc951/",
-        "source": "demorgen",
+        "title": "Trumps plan met stemmen per post faalt, maar hij blijft het vertrouwen ondermijnen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbW9xNXpiUGVXUW5VWjlNSEQ4bzM1ZjV1TjZWRnNsck9SYV96MTlSQTYwdVoxV2FGOG1MbVlrYlp1QWMzQjhHWUREZE9zMDNsVVozYmNjVG1uNUNmWF8zQ3lvcXU0WTRPODlaYTZEbW5ZbkRyMDRMMlhtU3lqckVuclc4RU5PajNwdU41cUdDbERBRVpvTjhFUFFzd2xEbWRpQUlZUTNfMmx6TURrOG85NGhOcm5yQnNpQXF0RXZLbmNDMnV0T2lvdTMwRDI?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trumps plannen met stemmen per post falen, maar hij blijft het vertrouwen in de verkiezingen ondermijnen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMHkzWXNsOUFvUkx0VmZ4aHdFNFd2Y2t0YjY0VDE3dnpaQm1SZTBaaHc4NHluNm45RkJWZkNPN2tjUFlnQnhUQlExYTNCN3RWODhNZ2JoNTlleHJHWFhSZzJNeEtXSlpmRHI5SmphVG5iWFpqcUREc3l4cEZUUWxhcFhFVVQ3eEZ5UGptUlhyd0M0NzZIOHljSGdQYmVFeml3S3JGM0pyUThXZVRSQ3MwM3hWaU1tYmN6WHgxT3ZLSktScjJsNWE2Nm81SFZWTjg2RG1hSnh1aW9scmpnVXRRVnlMQ1FkcnI4T1E?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Oemar Kremlev, de Russische oligarch die het luxehuwelijk van Donald Trump Jr. sponsorde - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMjJQRmFmdUNEMVNkZlN6aFU3WmlxZDRoZGltNWFKWDRIWW1WbVRZSnQ4VzRWbWtWaVRiM211dzFXb3EwWmRHSDNkS1ZzTzZqcEc1blhPVmF4dUZWalJlbHJZeEI0ZHFnSlBOdTVYby1ScXlQY0JvYXltVVNaekdMcVdoTUdmQkFxejFXV3p5WVVIeUZld1pwYXhzY3ZMaTA3X3Q4NmE2ZzJPZzVVN1NMajIxemNOckp5OFJqMGRneExyN0tLamw5RkthQnFlbXM3V3NHaw?oc=5",
+        "source": "standaard",
         "name_only": false
+      },
+      {
+        "title": "Jensen Huang, de apolitieke Nvidia-ceo die steeds meer bondgenoot van Trump wordt - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPalJ3Q3cyNEthUE5vYjZBOElQOWRIbnc2elBPVmZ1bWM1dF9VVVRhT3gwdVVfZWI0MzNtSVNrRUJNblFyZWhjSzVjVXlrY2U2UHNSMFVLN1dYdk9mSjhIcGJITEFDcmxhdEtvZm1CejBJS3RHWEJsNzdLZzRHWTNuYWN0dDRGcG9TZmhDUDh1eENRV0M4Vk5qaFRxRThEZmFaRHI3bFVGTFBObVJodUM4WDRDNVE0UmpCMkREWHZEalJITm13QURlNQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Geen renovatie vóór naamswijziging”: Trump reageert nadat rechter zijn naam op Kennedy Center verbiedt",
+        "url": "https://www.hln.be/buitenland/geen-renovatie-voor-naamswijziging-trump-reageert-nadat-rechter-zijn-naam-op-kennedy-center-verbiedt~a79c6d94/",
+        "source": "hln",
+        "name_only": true
       },
       {
         "title": "Trump botst op Hooggerechtshof in strijd tegen briefstemmen: ‘Kiezers, niet het Witte Huis, bepalen wie verkiezingen in november wint’",
@@ -93326,8 +93518,32 @@
         "name_only": true
       },
       {
-        "title": "LIVE VS. Amerikaans leger erkent dat het wapens in de ruimte heeft - Trump noemt zorgen om AI “bedrog, zoals klimaatverandering”",
-        "url": "https://www.hbvl.be/buitenland/live-vs.-amerikaans-leger-erkent-dat-het-wapens-in-de-ruimte-heeft-trump-noemt-zorgen-om-ai-bedrog-zoals-klimaatverandering/151623011.html",
+        "title": "Live - Bestuur van Kennedy Center sluit cultuurinstituut ‘om veiligheidsredenen’, enkele uren nadat rechter opnieuw Trumps naam op gevel verbiedt",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-haalt-uit-na-vonnis-over-stemmen-per-post-het-hooggerechtshof-heeft-ons-land-echt-in-de-steek-gelaten~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Wat schuilt er achter het peperdure huwelijkscadeau van een Russische oligarch aan de Trumps?",
+        "url": "https://www.demorgen.be/nieuws/wat-schuilt-er-achter-het-peperdure-huwelijkscadeau-van-een-russische-oligarch-aan-de-trumps~b42556e2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Rechtbank zet opnieuw streep door naam van Trump op Kennedy Center",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-rechtbank-zet-opnieuw-streep-door-naam-van-trump-op-kennedy-center/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Rechtbank zet opnieuw streep door naam van Trump op Kennedy Center",
+        "url": "https://www.gva.be/buitenland/live-vs.-rechtbank-zet-opnieuw-streep-door-naam-van-trump-op-kennedy-center/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Rechtbank zet opnieuw streep door naam van Trump op Kennedy Center",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-rechtbank-zet-opnieuw-streep-door-naam-van-trump-op-kennedy-center/151623011.html",
         "source": "hbvl",
         "name_only": true
       },
@@ -93338,9 +93554,39 @@
         "name_only": true
       },
       {
-        "title": "Le fils de Trump confirme qu'un homme d'affaires russe a financé ses festivités de mariage",
-        "url": "https://www.rtbf.be/article/le-fils-de-trump-confirme-qu-un-homme-d-affaires-russe-a-finance-ses-festivites-de-mariage-11785238",
-        "source": "rtbf",
+        "title": "Le nom de Trump ne peut pas être réaffiché sur le Kennedy Center, statue un juge américain",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/15/le-nom-de-trump-ne-peut-pas-etre-reaffiche-sur-le-kennedy-center-statue-un-juge-americain-NOUP7CMB6RB4FAGW4P3Y4DT6QQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Après les révélations sur le mariage du fils de Donald Trump, un démocrate s’inquiète d’une “ingérence étrangère éventuelle”",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/15/apres-les-revelations-sur-le-mariage-du-fils-de-donald-trump-un-democrate-sinquiete-dune-ingerence-etrangere-eventuelle-5C46YJXX5ZE5TFPCJWTP2CVGYA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump tente-t-il d'influencer les élections ? De nombreux responsables se préparent au pire",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/15/les-etats-unis-en-pleine-preparation-pour-des-elections-chaotiques-de-nombreux-responsables-craignent-une-ingerence-de-donald-trump-5I3HKE47VBF6NI6KQ7YLIP3YAY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Qui est Umar Kremlev, l’oligarque russe qui a financé le mariage de Donald Trump Jr ?",
+        "url": "https://www.lalibre.be/international/2026/09/15/qui-est-umar-kremlev-loligarque-russe-qui-a-finance-le-mariage-de-donald-trump-jr-Y4IOT7CUUFDNXE47FIAP74URRY/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Guerre en Ukraine: le Kremlin salue la \"bonne idée\" de Trump",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/09/15/guerre-en-ukraine-le-kremlin-salue-la-bonne-idee-de-trump-KFLIIX633JFJ5L6VT55WBWJRLM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Ces démocrates dérangés et dépravés\" : Trump fustige une décision \"horrible\" de la Cour suprême sur le vote par correspondance",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/15/ces-democrates-deranges-et-depraves-trump-fustige-une-decision-horrible-de-la-cour-supreme-sur-le-vote-par-correspondance-6XYKI7CAMZCLPAXC2BDEEAA34I/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -93356,40 +93602,94 @@
         "name_only": true
       },
       {
-        "title": "États-Unis: avant les midterms, la Cour suprême s'oppose à la réforme électorale de Donald Trump - L'Echo",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdlpHVFVYRkZZRU5ITGhuRWdFSXRoVXpfS0lDRnFkODJsd0Nkdl8zb0NQc2pJZlpCcE5iRnYySWZmN2hQRmhrU3MxbktlZHl5eXY1MlplS2REcXctZ0VaRVp6QkRfWFhGNzFuY0NDMlhmV3RXT2c4UFJSNnJKZk9VUFpYVDl4WWlST3FBY2JyR2xHaEFtTE51djV3MVJ2Yk1KVU5kVEowejZkX1RCTUsyUDZWUUszQ3QzRGdUbHYwcDNJMlFPMXdtSDJ6Rm9UUHdRZjNZWXhUTW5PODJtQWxEd3AwLTNWcm9nZjdvRHdfTlgwcFo5a2h2eHdUcWtBZ3d0?oc=5",
+        "title": "États-Unis: avant les midterms, la Cour suprême bloque la croisade de Trump contre le vote par correspondance - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxORjk3cGNXYVNfbDBXVDhrSmFTNW1haEpFWExaR2VxdjRiMUZjNFdqa2tOamsxaDY1WkpGLTJHdlM5bWZDeENob1NjNFJ4UXJNb3J5WGRfbG90MEZ2RkRHdWpTT2ltOVo5U0Y0MXl5QjBWOHYta3FSUWJYc0RLLWp1T1dNbDVZaFhCUDI2SVdtZG9sNTUxYl8xRTVEWkZYNk93ell2RHJmS1pTVm9KX2JxYmFLZVB1bmxhVkliUmtKS3dsVENQVWludnoyZ3d5bDdfa3I0OGotR29XVHdFeHRNUVcwZFgwVnlCLVJDaDVDdVhCZzl0dVQwdGQ4eXk?oc=5",
         "source": "lecho",
         "name_only": true
       },
       {
-        "title": "Le fils de Donald Trump reconnaît l'intervention d'un homme d'affaires russe: \"Il s'agissait d'un cadeau de mariage extraordinairement généreux\"",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/15/le-fils-de-donald-trump-reconnait-lintervention-dun-homme-daffaires-russe-il-sagissait-dun-cadeau-de-mariage-extraordinairement-genereux-5N4C63RSQFBHBGHTO3SM66AZGM/",
+        "title": "Etats-Unis : Un juge américain empêche la réinscription du nom de Donald Trump sur le Kennedy Center",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/15/etats-unis-un-juge-americain-empeche-la-reinscription-du-nom-de-donald-trump-sur-le-kennedy-center-O4QWNH4Q5JEKBC2SCX4FTNDZMI/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Elections de mi-mandat aux États-Unis: la Cour suprême rejette une attaque de Trump contre le vote par correspondance",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/15/elections-de-mi-mandat-aux-etats-unis-la-cour-supreme-rejette-une-attaque-de-trump-contre-le-vote-par-correspondance-E5GZQPXBW5B6FHVFYTR5M77YLI/",
+        "title": "Mariage de Trump Jr : une fête aux Bahamas financée par un oligarque russe alarme les démocrates",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/15/mariage-de-trump-jr-une-fete-aux-bahamas-financee-par-un-oligarque-russe-alarme-les-democrates-WUO7TO3PQRHFJN3N6OK47ORPTQ/",
         "source": "dhnet",
-        "name_only": true
-      },
-      {
-        "title": "Guerre en Iran: ce rapport du Pentagone contredit ce que Trump et son administration laissaient croire",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/15/guerre-en-iran-ce-rapport-du-pentagone-contredit-ce-que-trump-et-son-administration-laissaient-croire-6AZSIZSR2VDBHHQ5GTWUNS273Y/",
-        "source": "dhnet",
-        "name_only": true
-      },
-      {
-        "title": "Russische oligarch gelieerd aan Poetin betaalde mee voor trouwfeest Donald Trump Jr. - tijd.be",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRW5FSml1WTVmRWxidjY1RTNyN0NlbnR0bUE2Yl9RX0dPdVZnN3FUTlAzR3RWTFdxOFhpbExIcEF6SzhaaGtmVjB0cW1BalhyNHg0RURPSHlBSm00cUtHZy1RbDM5c3dyOXpaTllEYmR6QjFaOG82eTdHUzVhZUFkc1FpcjNYZEVCazEyellidFhabml6aTNqYkZSU09tellUekplRlRSSGlaMkNBbUQ1b2prZm84N0JaaXRaS2dLQ0RnTFBIbG5YLVhMQXBvZUxVdzh1c2ZudFRrRmc2X29OWnRydEFQenNH?oc=5",
-        "source": "detijd_g",
         "name_only": false
+      },
+      {
+        "title": "Les États-Unis face à la crainte d'une ingérence de Trump lors des prochaines élections de mi-mandat",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/15/les-etats-unis-face-a-la-crainte-dune-ingerence-de-trump-lors-des-prochaines-elections-de-mi-mandat-FMFRXUVZ3RH65E66HMKCKRQKHU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Une décision horrible”: Trump accuse la Cour suprême de faciliter la “triche” pour les démocrates",
+        "url": "https://www.7sur7.be/monde/une-decision-horrible-trump-accuse-la-cour-supreme-de-faciliter-la-triche-pour-les-democrates~aa6022610/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Que compte faire Trump avec des armes dans l’espace?",
+        "url": "https://www.7sur7.be/monde/que-compte-faire-trump-avec-des-armes-dans-lespace~a3971b32/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Leidt renteverhoging Fed tot conflict tussen Warsh en Trump? - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ3phZW1IZkQtRnRzYkNlaUh4ZGk2dW45bFBLZkVNdDR6REhnUXhMdTFMcy10U3pHQm9QekpwOUhlVWY5QUxwM181RjBtUWZia2d3VmlNZWxwenZoZUZtRWM1MjQ4OTBkb0kwdThBQmNjYVFpZXY2dVpmZVpzWDBxV2h6aG5JNHduRGRHTWk0bFdEYTVOaDcyZnNhQ0gta3FNME05YlRaaGcwWHNXblkyclFqUnRZTm52TmxQLUZWOA?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump belt Nvidia-topman Huang en noemt AI-angst een ‘hoax’ - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQ25BaUlvaU9ycjZULUhVQm5IeWZwbTY2MW5DcnJaSy1oTHFCOXlEMHZwcnpHQ0hyT0RaeFQxdUo5Y2g0S0lNNjd3UWVoU3I0TkE5eWtlRC1nVkQ4c1A4Y2tlYTJ2MWJZUkh1T1pQYVlJXzF2WVhGZDNuMmhLUVVYWHpiN2VkYVk0TUVOVVA2eWlmY2YyQ243U3hhTE9qMmRlaDJLQWlCQnVqNkVyOHpRZEpDU2p1T0NUWjZ6a2lVSk9iVUxjdlppalY4dFRJNVU1b1EyVWJNOWg?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Revers pour Donald Trump : un juge lui interdit de réafficher son nom sur le Kennedy Center - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORnlvSmZaWVZfSi1NZmplcVZBYk5YQUxzamtZZU5PRlBuMGs0Mjc4VWJxNHdxR1NYWUNqMTJGRmRIdFY3WldSUjItUU1uV0s5NksxWVZoaThCVldXeGVsdHJtY0htcWR2UDZxSW10UzR2TVdkZlFUVEEtVHFlQWZZWXllQ19wa0ZUczdtbHoxOWRNODllTm5XclVkOWhuUGdCQmQtb05DeDBoOHl6OWEwTjUtMWtGdE9wc1dGRkVRMVRvU0V4?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Le fils de Trump confirme qu’un homme d’affaires russe a financé ses festivités de mariage aux Bahamas : « Un cadeau extraordinairement généreux de la part d’un ami » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONWRoQmVkUG9fWU9RSG1zczZmU3dVWjFMZHg3eVgxRnc2SVhHUU9lZ25rNWZoNkpLQnZJQVlacFlaMXVKV0pkQjI2bjVSQ3FfV0lmYUNFbVl1MDV6clNGcGpTVy01SG81QUNyMHk1Z2lVcHU0Y1NjTVVOSGhCNHNSWnhkRTgzTm9aSWVTTTNZNUFHZUtkMnQtbF8yRVA2aFhiVlhkU1F2Wk8zZGJld0JoUTFOV1I1dm9kMXlaVTdyQ0ZSbHZnTVhfZXRB?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Un dirigeant européen l’assure : Donald Trump a « fait du bien » à l’Otan - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeW85Smk3UTNPbFlLeXRtZ3QyelBrUmdUVWNpV1FzbW00TGdGOWtrbmluYWVwdjc5ZC15bTctMEpTeG4tRlJHQkxNY0ZBN3ljZm9VSDRZYXJNdG5oQjBnUXl6Qm13OHpfUmZJYmVoUHhZUkZlcmNwZXlNX1h1SFNjTEJXWjEzbmo1SV85TE5RQmJ6X2pBMklibEJpMFBHOEJsRjN5bkhLTjg5YWtvWE84blZZYw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Elections de mi-mandat aux États-Unis : la Cour suprême rejette une attaque de Donald Trump contre le vote par correspondance - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONXU3VDVjMGpiZW1xRHdBSU5pTUcwLThabk4xR3pNLThFbl9GZzc3YU9xQVJzWjNpNGlBamxwc2pXd0xSak8yb3NNMEhFYzJuVGFXaS1NOUIwUGloVDJMYnVvVnljT0JfSnBEM3VDNmM5eEhqSTZWQXMyaUZDb2VsSFJtRC1YRnZ0eHg0WV9DYkszTFN6UEQySVVqZk8tdkFMOS1haHd4RkJ4dkFHcF92MV94RGZJZ3VCX3U3cHBKZ29yMnVOSHJV?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
       },
       {
         "title": "« Un cadeau de mariage extraordinairement généreux de la part d’un ami » : Donald Trump Jr confirme qu’un homme d’affaires russe proche de Poutine a financé ses noces - RTL Info",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWTlwbTNjX1FsNXl2dkx0czZZRFpOQkYyY3NJS1lXOGUyb01rdVZybXl1QkdwNTR4X0pJSkxna0pMQnNiU0lLbmlIRkJDYWwwYkhwMGswcnZvMzhvUFpEcUMzTURsMnhTbmpicWFtTTdXZ1RRNVJ6MHROUEgyb0tjTEZiaWh5VGtPTUszWkFOY1pNdkxVY2s3OWd1NGNaZldBaFJHUk92cEhMUk5mR1daekJpQ1d4NXhrNGpIaGQ2b01id0VwTFhKU0YzZURINnVCMC1idXJlWHpIT19KbjEwSnVIWVY?oc=5",
         "source": "rtl_g",
         "name_only": false
+      },
+      {
+        "title": "Kennedy Center : Donald Trump interdit d’y afficher son nom, le célèbre centre culturel fermé « immédiatement - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWGZvRWhVeWF3MGlfNXUwWUtsSFhZbVRHRnRXYk9KWGd5Y2lzVG52TjA0c1J6dFhLNmxzZHJaY2h2UWJNV3ZNNVhEXzFYZFQ1akpsaDlDY2hib2J3TEo2cUg2NnE1ZlhrbXhmNHlzeHE3OFpocXFlZ1lCeW5lSnB4bWV5b0trVHNHelpacm5GYjVtdUVzOURhd3lEMnZNaTdCOE5mbF9mdXBXemhSdlI4Mm5RamhhLVI5SzFNLWNSUHN2aGNva0wyTE82N2NDM2pMNlN2Z0I4aG91bkhH?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump promettait une guerre éclair en Iran : 200 jours plus tard, où en est-on ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdjBsWURqTzdRbjVuSkk4eE1fM090dWhybHZoXzczSkUwdG9DRzBWWUlQa2l5VkJJVmxta1paTWpGY1dhLXBQd2d3OElDeG43dkV3VjEtSW1WQXVmb0pEUldwRFIyNS1mZVJkLTJKak9HbUJ1bnU5dHBWWnAxSmJYb1VEY3Y3aWdIa2Zwd0Fld2VIemNEbkM0bE1pWmk2cEZXdEYxVGVyWmtKc2I4MzBhXzlEQm5MclJkdWtEbmNMUnhncXZrWUE?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       },
       {
         "title": "La Cour suprême dit non à Trump et maintient le vote par correspondance avant les mi-mandat - RTL Info",
@@ -93399,74 +93699,74 @@
       }
     ],
     "comparisons": {
-      "trump": 12,
-      "putin": 3,
+      "trump": 32,
+      "putin": 1,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
-      "von_der_leyen": 3,
-      "de_wever": 0,
+      "von_der_leyen": 6,
+      "de_wever": 14,
       "bouchez": 0,
       "magnette": 0,
-      "prevot": 0,
-      "rousseau": 0,
+      "prevot": 4,
+      "rousseau": 1,
       "francken": 0,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 0
+      "verlinden": 1
     },
     "wide_comparisons": {
-      "trump": 17,
-      "putin": 3,
+      "trump": 44,
+      "putin": 2,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
-      "von_der_leyen": 5,
-      "de_wever": 0,
-      "bouchez": 0,
+      "von_der_leyen": 12,
+      "de_wever": 20,
+      "bouchez": 1,
       "magnette": 0,
-      "prevot": 0,
-      "rousseau": 0,
+      "prevot": 6,
+      "rousseau": 1,
       "francken": 0,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 0
+      "verlinden": 1
     },
     "themes": {
-      "war": 33,
-      "crime": 8,
-      "eu": 25,
-      "politics": 11,
-      "be_gov": 9,
-      "culture": 10,
-      "tech": 14,
-      "economy": 19,
-      "sports": 31,
-      "health": 9,
-      "climate": 5,
-      "migration": 0,
-      "education": 12,
+      "war": 40,
+      "crime": 45,
+      "eu": 68,
+      "politics": 40,
+      "be_gov": 28,
+      "culture": 18,
+      "tech": 34,
+      "economy": 28,
+      "sports": 56,
+      "health": 11,
+      "climate": 7,
+      "migration": 2,
+      "education": 17,
       "weather": 11
     },
     "wide_themes": {
-      "war": 45,
-      "crime": 12,
-      "eu": 38,
-      "politics": 15,
-      "be_gov": 13,
-      "culture": 14,
-      "tech": 22,
-      "economy": 28,
-      "sports": 42,
-      "health": 13,
-      "climate": 6,
+      "war": 61,
+      "crime": 62,
+      "eu": 97,
+      "politics": 68,
+      "be_gov": 40,
+      "culture": 27,
+      "tech": 53,
+      "economy": 41,
+      "sports": 98,
+      "health": 17,
+      "climate": 12,
       "migration": 4,
-      "education": 16,
-      "weather": 12
+      "education": 18,
+      "weather": 16
     }
   }
 ]
