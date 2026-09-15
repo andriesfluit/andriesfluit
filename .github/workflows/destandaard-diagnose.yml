@@ -14,6 +14,10 @@ on:
         description: "Date to probe (YYYY-MM-DD). Empty = today in Brussels."
         required: false
         default: ""
+      editions:
+        description: "Skip discovery, probe these editions. E.g. destandaard:3487"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -38,6 +42,7 @@ jobs:
         working-directory: _destandaard
         run: |
           python diagnose.py "${{ github.event.inputs.target_date }}" \
+                             "${{ github.event.inputs.editions }}" \
             | tee "$RUNNER_TEMP/diagnose.txt"
 
       - name: Summary

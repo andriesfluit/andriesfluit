@@ -71,7 +71,7 @@ def state_for(key):
         return {}
 
 
-def diagnose(key, target):
+def diagnose(key, target, edition=None):
     cfg = SOURCES[key]
     base = cfg["base"]
     st = state_for(key)
@@ -84,6 +84,22 @@ def diagnose(key, target):
               f"vandaag zou sowieso overgeslagen worden.")
 
     # --- step 1: find the edition -------------------------------------
+    # With an explicit edition we skip discovery entirely. Needed when the
+    # state file has gone stale: the +2/day prediction is then dozens of
+    # editions off and the bounded scan can never reach a current edition,
+    # so we would never get to test the step we actually care about.
+    if edition:
+        status, note, data = probe(base, f"{base}/data/{edition}/data/"
+                                         f"GetContentPackagePublications-{edition}-V3.json")
+        print(f"  opgegeven editie {edition}: {status} ({note})")
+        if not isinstance(data, dict):
+            print("pakket niet leesbaar. Stopt hier.")
+            return
+        ed, pkg = edition, data
+        target = (data.get("PublicationDate") or "")[:10] or target
+        print(f"  PublicationDate={target}")
+        return _probe_content(base, ed, pkg)
+
     ed, pkg = None, None
     if not st.get("id"):
         print("geen state-bestand met een editie-ID; kan niet voorspellen.")
@@ -104,6 +120,10 @@ def diagnose(key, target):
         print("GEEN editie met de juiste datum gevonden. Stopt hier.")
         return
 
+    return _probe_content(base, ed, pkg)
+
+
+def _probe_content(base, ed, pkg):
     # --- step 2: what does the package promise? -----------------------
     pubs = pkg.get("ContentPackagePublication") or []
     print(f"\neditie {ed} gevonden. {len(pubs)} publicatie(s) in het pakket:")
@@ -156,13 +176,27 @@ def diagnose(key, target):
             print(f"    {label:14} [{s2}] {n2[:70]}{flag}")
 
 
+def _arg(i):
+    """Workflow inputs are always passed positionally and may be empty."""
+    return sys.argv[i].strip() if len(sys.argv) > i else ""
+
+
 def main():
-    # The workflow always passes an argument; it is empty for "today".
-    target = (sys.argv[1].strip() if len(sys.argv) > 1 else "") or _today()
-    print(f"diagnose voor {target} (Brussel)")
+    target = _arg(1) or _today()
+    # Optional "key:edition" overrides, e.g. "destandaard:3487". Comma-separated.
+    overrides = {}
+    for part in _arg(2).split(","):
+        part = part.strip()
+        if ":" in part:
+            k, _, v = part.partition(":")
+            if v.strip().isdigit():
+                overrides[k.strip()] = int(v.strip())
+
+    print(f"diagnose voor {target} (Brussel)"
+          + (f", editie-override: {overrides}" if overrides else ""))
     for key in ("destandaard", "detijd"):
         try:
-            diagnose(key, target)
+            diagnose(key, target, overrides.get(key))
         except Exception as e:
             print(f"[{key}] diagnose zelf gefaald: {type(e).__name__}: {e}")
     print(f"\n{'='*72}\nklaar.")
