@@ -93768,5 +93768,442 @@
       "education": 18,
       "weather": 16
     }
+  },
+  {
+    "date": "2026-09-16",
+    "generated_at": "2026-09-16T10:49:46+02:00",
+    "last_checked_at": "2026-09-16T10:49:46+02:00",
+    "total_articles": 513,
+    "trump_articles": 2,
+    "percentage": 0.4,
+    "core_percentage": 0.4,
+    "core_percentage_name": 0.4,
+    "trump_articles_expanded": 2,
+    "core_percentage_expanded": 0.4,
+    "indirect_references": 0,
+    "wide_total_articles": 699,
+    "wide_trump_articles": 3,
+    "wide_percentage": 0.4,
+    "wide_trump_articles_expanded": 4,
+    "wide_percentage_expanded": 0.6,
+    "macro_percentage": 0.3,
+    "qualifying_outlets": 24,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 25,
+    "cross_outlet_dup_groups": 12,
+    "cross_outlet_dup_rate": 4.9,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.11,
+    "breadth": 0.11,
+    "deviation": 0.16,
+    "smoothed_pct": 2.13,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 15,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 48,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 23,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 34,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.94
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 62,
+        "kept": 61,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 75,
+        "today": 14,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 67,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Nvidia-baas volgende week allicht bij staatsdiner Trump en Xi",
+        "url": "https://www.hln.be/buitenland/nvidia-baas-volgende-week-allicht-bij-staatsdiner-trump-en-xi~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "\"Une programmation pas woke\" : Trump menace de ne pas rouvrir le Kennedy Center si son nom n'y est pas apposé",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/16/une-programmation-pas-woke-trump-menace-de-ne-pas-rouvrir-le-kennedy-center-si-son-nom-ny-est-pas-appose-W45G4TZY6RCIXBX5O54QR4VLGY/",
+        "source": "lalibre",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Oemar Kremlev, de Russische oligarch die het luxehuwelijk van Donald Trump Jr. sponsorde - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMjJQRmFmdUNEMVNkZlN6aFU3WmlxZDRoZGltNWFKWDRIWW1WbVRZSnQ4VzRWbWtWaVRiM211dzFXb3EwWmRHSDNkS1ZzTzZqcEc1blhPVmF4dUZWalJlbHJZeEI0ZHFnSlBOdTVYby1ScXlQY0JvYXltVVNaekdMcVdoTUdmQkFxejFXV3p5WVVIeUZld1pwYXhzY3ZMaTA3X3Q4NmE2ZzJPZzVVN1NMajIxemNOckp5OFJqMGRneExyN0tLamw5RkthQnFlbXM3V3NHaw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "« Pas d’autre choix » que de cesser les discussions avec Trump, estime Harper - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOOVdIVzZZTFN0bW04V21IeWQ1OUUwajVaOVBNajhzZ3VBQ19uZG9zQmU1ZFA5OVZUd0hoVDB6NGMtOFJDMmh1d2tWUzI2N1JOdGZtRXhFVUZFZWc1dDlwLWRrTHB6NFRXcEJJT0FDQUJsNjFMcDNDbUgwdUpCMHluRmRSNTZiQ2VXaVM5YVIwNXotTTg5NDU4VDd0QUd4bEFkVUtBektVeDFLU1l5clVMb2xFVGxlYXV2UElrcFo2Y2FQR2lkMXRQcnJHUlRUUlJHVE90MzdJWTY1WUVZQVM5R2hoOU5NTmlJbUtFRGgwMDJQY3pxSzVWMTF3?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Nvidia-baas volgende week allicht bij staatsdiner Trump en Xi",
+        "url": "https://www.hln.be/buitenland/nvidia-baas-volgende-week-allicht-bij-staatsdiner-trump-en-xi~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "\"Une programmation pas woke\" : Trump menace de ne pas rouvrir le Kennedy Center si son nom n'y est pas apposé",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/16/une-programmation-pas-woke-trump-menace-de-ne-pas-rouvrir-le-kennedy-center-si-son-nom-ny-est-pas-appose-W45G4TZY6RCIXBX5O54QR4VLGY/",
+        "source": "lalibre",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 16,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 3,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 21,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 41,
+      "crime": 15,
+      "eu": 42,
+      "politics": 19,
+      "be_gov": 18,
+      "culture": 10,
+      "tech": 11,
+      "economy": 27,
+      "sports": 31,
+      "health": 5,
+      "climate": 7,
+      "migration": 6,
+      "education": 11,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 52,
+      "crime": 20,
+      "eu": 58,
+      "politics": 28,
+      "be_gov": 27,
+      "culture": 14,
+      "tech": 19,
+      "economy": 37,
+      "sports": 49,
+      "health": 8,
+      "climate": 8,
+      "migration": 7,
+      "education": 14,
+      "weather": 8
+    }
   }
 ]
