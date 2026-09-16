@@ -93771,123 +93771,123 @@
   },
   {
     "date": "2026-09-16",
-    "generated_at": "2026-09-16T17:09:00+02:00",
-    "last_checked_at": "2026-09-16T17:09:00+02:00",
-    "total_articles": 831,
-    "trump_articles": 7,
-    "percentage": 0.8,
-    "core_percentage": 0.8,
-    "core_percentage_name": 0.8,
-    "trump_articles_expanded": 7,
-    "core_percentage_expanded": 0.8,
-    "indirect_references": 0,
-    "wide_total_articles": 1168,
-    "wide_trump_articles": 12,
-    "wide_percentage": 1.0,
-    "wide_trump_articles_expanded": 14,
-    "wide_percentage_expanded": 1.2,
-    "macro_percentage": 1.3,
-    "qualifying_outlets": 32,
+    "generated_at": "2026-09-16T21:41:05+02:00",
+    "last_checked_at": "2026-09-16T21:41:05+02:00",
+    "total_articles": 958,
+    "trump_articles": 17,
+    "percentage": 1.8,
+    "core_percentage": 1.8,
+    "core_percentage_name": 1.8,
+    "trump_articles_expanded": 19,
+    "core_percentage_expanded": 2.0,
+    "indirect_references": 2,
+    "wide_total_articles": 1373,
+    "wide_trump_articles": 26,
+    "wide_percentage": 1.9,
+    "wide_trump_articles_expanded": 31,
+    "wide_percentage_expanded": 2.3,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 33,
     "core_outlets_total": 19,
     "core_outlets_active": 19,
     "active_core_fraction": 1.0,
-    "cross_outlet_dup_headlines": 46,
-    "cross_outlet_dup_groups": 23,
-    "cross_outlet_dup_rate": 5.5,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Below a normal president's ordinary day.",
-    "rank": 3,
+    "cross_outlet_dup_headlines": 81,
+    "cross_outlet_dup_groups": 40,
+    "cross_outlet_dup_rate": 8.5,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 2,
     "n_people": 17,
-    "dominance": 0.19,
-    "breadth": 0.32,
-    "deviation": 0.33,
-    "smoothed_pct": 2.19,
+    "dominance": 0.44,
+    "breadth": 0.58,
+    "deviation": 0.73,
+    "smoothed_pct": 2.33,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 14,
+    "theme_rank": 10,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 28,
-        "kept": 28,
+        "today": 29,
+        "kept": 29,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.57
+        "share": 3.45
       },
       "google_fr": {
         "fetched": 34,
-        "today": 30,
-        "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
       },
       "google_nl_politics": {
-        "fetched": 54,
-        "today": 22,
-        "kept": 21,
+        "fetched": 55,
+        "today": 27,
+        "kept": 27,
         "trump": 0,
-        "trump_expanded": 1,
+        "trump_expanded": 2,
         "share": 0.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 27,
-        "kept": 21,
+        "today": 36,
+        "kept": 31,
         "trump": 1,
-        "trump_expanded": 2,
-        "share": 4.76
+        "trump_expanded": 1,
+        "share": 3.23
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 38,
-        "kept": 34,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 49,
+        "kept": 45,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.44
       },
       "google_nl_tech": {
-        "fetched": 49,
-        "today": 22,
-        "kept": 18,
+        "fetched": 56,
+        "today": 34,
+        "kept": 29,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 5.56
+        "share": 3.45
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 32,
-        "kept": 27,
+        "today": 45,
+        "kept": 40,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 22,
-        "today": 11,
-        "kept": 11,
+        "fetched": 28,
+        "today": 19,
+        "kept": 19,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 9.09
+        "share": 5.26
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 30,
-        "kept": 26,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.85
-      },
-      "google_fr_business": {
-        "fetched": 70,
-        "today": 28,
-        "kept": 24,
+        "today": 37,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 31,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
       },
       "vrt": {
         "fetched": 50,
@@ -93899,56 +93899,56 @@
       },
       "standaard": {
         "fetched": 100,
-        "today": 74,
-        "kept": 60,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 95,
+        "kept": 77,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.3
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 3.33
       },
       "demorgen": {
-        "fetched": 27,
-        "today": 22,
-        "kept": 22,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 28,
+        "today": 26,
+        "kept": 26,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 15.38
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.0
       },
       "knack": {
         "fetched": 100,
-        "today": 67,
-        "kept": 66,
+        "today": 70,
+        "kept": 69,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -93963,51 +93963,51 @@
       },
       "bruzz": {
         "fetched": 100,
-        "today": 18,
-        "kept": 18,
+        "today": 26,
+        "kept": 26,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 18,
-        "kept": 18,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 77,
-        "kept": 76,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 2.63
+        "today": 83,
+        "kept": 82,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 3.66
       },
       "lecho": {
         "fetched": 100,
-        "today": 56,
-        "kept": 55,
+        "today": 69,
+        "kept": 65,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 1.82
+        "share": 1.54
       },
       "dhnet": {
         "fetched": 100,
-        "today": 97,
-        "kept": 97,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 1.03
+        "today": 98,
+        "kept": 98,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "septsursept": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "bx1": {
         "fetched": 10,
@@ -94019,59 +94019,59 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 41,
-        "kept": 33,
+        "today": 58,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 59,
-        "kept": 51,
+        "today": 70,
+        "kept": 66,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 36,
-        "kept": 34,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.94
+        "today": 56,
+        "kept": 52,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.85
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 44,
-        "kept": 44,
+        "today": 52,
+        "kept": 51,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 38,
-        "kept": 33,
+        "today": 54,
+        "kept": 51,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 76,
-        "today": 31,
-        "kept": 7,
+        "fetched": 66,
+        "today": 32,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 80,
-        "today": 34,
-        "kept": 29,
+        "fetched": 83,
+        "today": 42,
+        "kept": 35,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.45
+        "share": 2.86
       }
     },
     "core_sources": [
@@ -94097,20 +94097,86 @@
     ],
     "matches": [
       {
-        "title": "Regering-Trump keurt wapenleveringen van 2,8 miljard dollar aan Israël goed, meldt Washington Post",
-        "url": "https://vrtnws.be/p.ewP4JPOa6",
+        "title": "Amerikaanse centrale bank verhoogt rente voor het eerst in 3 jaar en gaat daarmee in tegen president Trump",
+        "url": "https://vrtnws.be/p.QAXbLoeL9",
         "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Tegen de wil van Trump in: voor het eerst in drie jaar stijgt de Amerikaanse rente - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONzVUUWJLMk15dDg3a1YzcllmelplbzJ5a2RLdmI0WERadV9sT3RTZGhONXo4dkJmRFlseTJncVRwZGdrQjZtbjMwZHNvSWFaMmJxZmhHUm1MRTR2LVp5Z212V2YwRUtNSnFuVmlCNzRobmtqZDBMUVV4M0Itbkx1TFdBbnl3cHpmUUpCTVF3NFNHc0xUd1lKSU5oS2VDYUpXR1g5T1JKOWI1NVVLZTFPZmtlRjBrbmFYb2hTb0VsVktwZ3hTZ25jQXRB?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Stafchef van het Witte Huis Susie Wiles kankervrij na strijd tegen borstkanker",
+        "url": "https://www.hln.be/buitenland/stafchef-van-het-witte-huis-susie-wiles-kankervrij-na-strijd-tegen-borstkanker~aa9b8023/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Amerikaanse centrale bank verhoogt rente voor het eerst in ruim 3 jaar, tegen de uitdrukkelijke wens van Trump",
+        "url": "https://www.hln.be/economie/amerikaanse-centrale-bank-verhoogt-rente-voor-het-eerst-in-ruim-3-jaar-tegen-de-uitdrukkelijke-wens-van-trump~a674cde8/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse rente omhoog, tegen de wens van Trump in",
+        "url": "https://www.demorgen.be/nieuws/amerikaanse-rente-omhoog-tegen-de-wens-van-trump-in~bd1012fd/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Voor het eerst in drie jaar verhoogt Fed rente, tot onvrede van president Trump • Fed-voorzitter Warsh: inflatie in VS al veel te lang te hoog",
+        "url": "https://www.demorgen.be/snelnieuws/live-voor-het-eerst-in-drie-jaar-verhoogt-fed-rente-tot-onvrede-van-president-trump-fed-voorzitter-warsh-inflatie-in-vs-al-veel-te-lang-te-hoog~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Door Trump gewenste cryptowet strandt in Amerikaanse Senaat, koers Bitcoin daalt",
+        "url": "https://www.demorgen.be/nieuws/door-trump-gewenste-cryptowet-strandt-in-amerikaanse-senaat-koers-bitcoin-daalt~b6c1844f/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Zelfs Bernie Sanders en Steve Bannon vormen nu een front tegen Trump: Amerikaanse president doet iedere bezorgdheid af als ‘zieke samenzwering’",
+        "url": "https://www.demorgen.be/nieuws/zelfs-bernie-sanders-en-steve-bannon-vormen-nu-een-front-tegen-trump-amerikaanse-president-doet-iedere-bezorgdheid-af-als-zieke-samenzwering~bd4742a5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Tegen de wil van Trump in: voor het eerst in drie jaar stijgt de Amerikaanse rente",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-tegen-de-wil-van-trump-in-voor-het-eerst-in-drie-jaar-stijgt-de-amerikaanse-rente/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Tegen de wil van Trump in: voor het eerst in drie jaar stijgt de Amerikaanse rente",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-tegen-de-wil-van-trump-in-voor-het-eerst-in-drie-jaar-stijgt-de-amerikaanse-rente/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Canada komt onder de vleugels van de EU: “Signaal aan de man in het Witte Huis”",
+        "url": "https://www.hbvl.be/politiek/canada-komt-onder-de-vleugels-van-de-eu-signaal-aan-de-man-in-het-witte-huis/161551007.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "La Réserve fédérale américaine (Fed) remonte ses taux, quitte à agacer Donald Trump ?",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/16/la-reserve-federale-americaine-fed-remonte-ses-taux-quitte-a-agacer-donald-trump-45J76AKJFNF2JOXCOV762HBT3A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La Chine s’invite dans le bras de fer entre Trump et les géants de la tech",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/16/la-chine-sinvite-dans-le-bras-de-fer-entre-trump-et-les-geants-de-la-tech-cela-revele-une-fois-de-plus-la-logique-des-etats-unis-DP7LNIQCNFCUFEXIYJKLDEDC4E/",
+        "source": "lalibre",
         "name_only": true
       },
       {
         "title": "Une politique de Donald Trump remise en question : “C’était la manière la plus coûteuse d’aggraver la situation du gouvernement”",
         "url": "https://www.lalibre.be/international/amerique/2026/09/16/une-politique-de-donald-trump-remise-en-question-cetait-la-maniere-la-plus-couteuse-daggraver-la-situation-du-gouvernement-RDLZWFWHZJB4JH2TIAA6YP65XA/",
-        "source": "lalibre",
-        "name_only": true
-      },
-      {
-        "title": "\"Une programmation pas woke\" : Trump menace de ne pas rouvrir le Kennedy Center si son nom n'y est pas apposé",
-        "url": "https://www.lalibre.be/international/amerique/2026/09/16/une-programmation-pas-woke-trump-menace-de-ne-pas-rouvrir-le-kennedy-center-si-son-nom-ny-est-pas-appose-W45G4TZY6RCIXBX5O54QR4VLGY/",
         "source": "lalibre",
         "name_only": true
       },
@@ -94121,9 +94187,9 @@
         "name_only": true
       },
       {
-        "title": "Une politique de Donald Trump sous le feu des critiques : “Il a dépensé des milliards pour évincer des experts expérimentés et indispensables\"",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/16/une-politique-de-donald-trump-sous-le-feu-des-critiques-il-a-depense-des-milliards-pour-evincer-des-experts-experimentes-et-indispensables-IQ2PYDJSSBBVRBR3VKUUOYGQOQ/",
-        "source": "dhnet",
+        "title": "La Fed relève ses taux d’intérêt pour la première fois depuis trois ans, contre la volonté de Trump",
+        "url": "https://www.7sur7.be/economie/la-fed-releve-ses-taux-dinteret-pour-la-premiere-fois-depuis-trois-ans-contre-la-volonte-de-trump~a674cde8/",
+        "source": "septsursept",
         "name_only": true
       },
       {
@@ -94133,7 +94199,13 @@
         "name_only": true
       },
       {
-        "title": "La Fed de Warsh face à son premier vrai test : monter les taux ou plaire à Trump ? - Trends-Tendances",
+        "title": "Donald Trump s’y opposait, la Fed relève malgré tout ses taux d’intérêt - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbWM2RGo4OThVajVHanhtX0RkOVpsT0g5MWVHel9VZVNuQ2hQaDlFaWU2akdBRk8tYVJiYkpocmt4R0sxU3dCeXJibEwzeUVSb3dJOENGaEk4ZXgzVGRZZTNOelFxWVZjTDQwbHdSRGN5M20ybTVrZklYVW1jRi1lbkxWYnl2SWVwMVhFTzZmY2JUbTkyS0RPUDNwWnlWNTlfTE1kSnR1Qlo0U2ZPck9kcWVfWEh0aktiTFdZTw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "La Fed devrait relever ses taux ce soir : premier bras de fer entre Warsh et Trump ? - Trends-Tendances",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFJQT3ZwZDdDd2lmazA4b0FXYkZVcEVBRVMzdjlDbFdUX2NpRE1Zb21GSUdfa0JQN3c2TVRSU3F4SGVUek5xNnV6ZEVQTjBUMVhndlBPWnAxWVFpOXlEb2h6Q2lWYVdXWnAtUXZ2YkNQbHpDa0l1YmFKdkpfTkFGZEYxV3JwR3AyVjg3LU4zTy1PWmlrQ190dkgzNGNYOV9EbDdXT084Y3RnZ1pMUEk0?oc=5",
         "source": "tendances_g",
         "name_only": true
@@ -94141,21 +94213,27 @@
     ],
     "wide_matches": [
       {
-        "title": "Hoe twee woorden en een miljardair met banden met Trump de showbizzwereld op zijn kop zetten: “Als Ed Sheeran op de radio komt, zet ik hem vanaf nu uit” - HLN",
-        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOa2s5dnRDZ2doUTlnUHVvOHI0dDlfcDZ0TG1EUlFhWUFFVDdUNGFhb1lLMWlfY2ktVk4wYkR4ajNGS0lpSU5DaUdiY3VKcEFqbGJoSWxUVnNoMzRuSFpLbTJTSmNQSVFlN2dzNG93OURneUtTZ3gtOTBadWpmbnJNZTlrTWNOUFR2b3lvbmM0SDZnTkJoeUdJOWs3OU9BZnppWWpETHhDamVMZHZlZW5SdGYtZ1RoaDVoM0VzbllXY0JxSTR5NGFGUnhuWHZpbWZLQndxY2VLNklhdlZ6TldNVG5yc0JJZnB0LTBlMHh1cDBRdUJQN3ZHSjJYX2ktNlI1RWRLcGw5cWpWQVB5bkJYcjVlWjd5dE0?oc=5",
+        "title": "Amerikaanse centrale bank verhoogt rente voor het eerst in ruim 3 jaar, tegen de uitdrukkelijke wens van Trump - hln.be",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMkdtQUp6anF6c3pGbVltSG1DMFBsSkJkeUhOdy1heDJ0Umt1ZWNIcFU4ZFFzb05qZDllcDJVV2JCLUJXN0RzRzBVRmstTHkwNWRNYmNwb0JpVWZBbDg5cTBtTXd2NG5aR1dwa2w0dlpRcnNOU09FTmk1SGZUZjhWVUZqbUJHQnFuemllUG95cU9ZbDNxcThVTEY0NkxFTDBLQ2Z2YVVwbGYwcWNGbmt2STAtUUVHUnlCOGd2UXhWNlhMdnZ3dmNXZVF6QkpRd3lHa21HRktwLU5NTVlXZHBJOA?oc=5",
         "source": "google_nl",
         "name_only": true
+      },
+      {
+        "title": "La Réserve fédérale américaine (Fed) remonte ses taux, quitte à agacer Donald Trump ? - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPLU9FVEVDYVFEMnYwQjJIVXRlSGgyamNFakRKQ1p1Q2hSQm9weDZ6SkpTU1JZbEtYTVJ1UXo0d0c4a19vMUpEY3ZWeEdtRU5hLThlSGVjTWZtRktkUjlfTW5rQ191emd2bG5OanpSLW5jMmMxS2pYRGFFNUZ0MHYxSk9jR01iOThDdnJ3eDRVRTkxbFR1ejdlNmJuX2c5a2lfS2NkcDdfaW9jcjg3SkFxUG11NFJSTGpRZFprNXFrX1lVOXBod2xOblp1YnVFWEpNaVhOcnE5eEt6REl3TWZLNEFQYlpHOTVRemdYVkNfbXB5Q3RWb1E?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Canada komt onder de vleugels van de EU: “Signaal aan de man in het Witte Huis” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVlhVNmpTWHVKeHZfUEJPdk1sS1Y2a0hueVVFd20yeWttSF9ITnB3VlBicEJwTVNob21VVVVmdGFKTXBlbm5temlkTlZnQ1drY0ZaZ3FGc3dxVW1ha25DN3NFLTBIY2MzWUJJcWd6VGVoSWY0dTlUTmV5VjhDRFB2Yk1rYmFIRkx2SG9ma3V4alFBM3BrWFByOFg4VU50MmVtZ3Rwck5VRDVHZHVEZWs3UV9icHRXTDFDZmV5YkNzS0xhaWFqQWd4OHBtOFkxWEItankxZjRGNU1wd3NLYV9XMjEzdVR6a3RaeHc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
       },
       {
         "title": "Oemar Kremlev, de Russische oligarch die het luxehuwelijk van Donald Trump Jr. sponsorde - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMjJQRmFmdUNEMVNkZlN6aFU3WmlxZDRoZGltNWFKWDRIWW1WbVRZSnQ4VzRWbWtWaVRiM211dzFXb3EwWmRHSDNkS1ZzTzZqcEc1blhPVmF4dUZWalJlbHJZeEI0ZHFnSlBOdTVYby1ScXlQY0JvYXltVVNaekdMcVdoTUdmQkFxejFXV3p5WVVIeUZld1pwYXhzY3ZMaTA3X3Q4NmE2ZzJPZzVVN1NMajIxemNOckp5OFJqMGRneExyN0tLamw5RkthQnFlbXM3V3NHaw?oc=5",
         "source": "google_nl_politics",
-        "name_only": false
-      },
-      {
-        "title": "Russische oligarch die trouwfeest Trump Jr. sponsorde, wordt gelinkt aan organisatie rond Oekraïense kinderontvoering - HLN",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNlBKRzVUSXdBUzZGNnpPcnNvVlpPbjlHX2tFc05BRTlBWk9QV1BSQ3BCVU5aal9GNnBhc2k1NmJmRzFZS2VfUWM1U1p4ck05NnVON0V2WWhtLVNaNkM4S1dSbHFUUmhLWk41VVlRVnFyS0tjTDFyemJNWWgxZDNpQ0xQcjNlVGZKOGl0MDhiV2RpRk9nVDA4b3lFNnAtNlF3SmhNd3JmeHhpUnhZV2FSV0xIUTk0MzJNSXlIQUlGQXVFeVpLb0gwNWVoNnoxVjFQRDZVVUFEUGlLYzJOYllkQjl1Q0YxRjh6RlBB?oc=5",
-        "source": "google_nl_world",
         "name_only": false
       },
       {
@@ -94165,7 +94243,19 @@
         "name_only": true
       },
       {
-        "title": "Cryptowet van Trump loopt vast: wat betekent dat voor bitcoin en andere cryptomunten? - HLN",
+        "title": "Amerikaanse centrale bank verhoogt rente voor het eerst in 3 jaar en gaat daarmee in tegen president Trump - VRT",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON3gzWGFrRUc3VE9Mc05zV2l0WGNGd3gxSkNSRThVRXQ0d3pOUFRyOUxXMm9QY045M2hPWENQWDBIUnR5YXhSMy1pdUh4Y1VYQ2VZVEg5eHdnRWlleGx0X2Y2NGNjWGlCbmxyeEpjMTdyNkg1VHFaSUs0cG9tSUdoQnpHZVBuNG1oMGF3U1hNOGFJdw?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Zelfs Bernie Sanders en Steve Bannon vormen nu een front tegen Trump: Amerikaanse president doet iedere bezorgdheid af als ‘zieke samenzwering’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNc1lwQjFzaG9NRGJPTmQzNm15ODBtWFFscm40emRqalJGM1U0YlhEdDRTOWtLa1VFYWFxY0c1RVBrQ3ctSnhSczVUTEQtMXkyS2xNYWgtSm1NRVNVOE1odWp4UkZSRnB1bVZQa3VHS2k3aWRMd045Z3hoRjQ4eHlDdExQQ0h0REtYN3VsMzRQMDRYcjZhZW1PM2FfSjdmZmVLSFZPSjdVUGN5QVVtSkZMbzNfdXRYbm5MeFRpTDdmX2pocFZCZTVMdmpkaXVOMTJVeXBuT3E3SWkyZ2hDMm82bFlCSmIyUHJwbi1sLXJHMHF3YlZiLTVRakhUUVJGVFk1VTZsRm82Qzl0R04zMlE?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Cryptowet van Trump loopt vast: wat betekent dat voor bitcoin en andere cryptomunten? - hln.be",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa0doUVZ6eE01YXhRZ1ZkY3FCc01vSV9tazBQNzhMZ0IzZ0N0bkpuOGJVSzN2SjZQRjJFUEhyUkdBQnVMLVk1V093WUt4WXhQSFBFbi12MnB1Qlg3U1ZrSmo4T29IMFpiak9jakxMQjZoMHNuajRUQ3dPN2w1R1d3RW9YV280SVQwRlVzSHRrNXBxNnQzSVF2dEplMjFCMGhZRGFVZU1vZDZ0ZHlnSTJKX01iRFhlY2Rwa05jRkdWZw?oc=5",
         "source": "google_nl_tech",
         "name_only": true
@@ -94177,26 +94267,104 @@
         "name_only": true
       },
       {
-        "title": "Une politique de Donald Trump remise en question : \"C'était la manière la plus coûteuse d'aggraver la situation du gouvernement\" - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQcFJGUHRBMHpVb08wa054OWIwSzQwUTlLSW5rNEoyWGw5MGxOajkwNTFLR1hzeWIxazVQbHh1dGl4aEVsSlE1bnRCNlY2RGpFeGM1N0pfZXU5SFJPVk9tb0JTUzhpajhLaGdGSS1XZGV2VnJMOUgycFpjblZ1eE9hWDJZNmRhbkxGaXEwbXZub0lnNnFVcFVNTkRkamlBLWh6cVl2eDhySGJ1ZGxfNWZwdGd4Zm42ZEJTd3hvOE04OFR5RjRRYlE3NGE2emw1OHkzLWI5LXpwNGZHcVFsV0VVVjVpUHVqVVRNOUpMVU96Y2pUaVNvSkc2Z3dRQmRUMTdORUV0a0ZPUHp3VHd0VGRFSFB4VFEycnV5dmhXU3VlSHZVbzd5RWtMSVl2RldZS2t1?oc=5",
-        "source": "google_fr_world",
+        "title": "Une politique de Donald Trump sous le feu des critiques : \"Il a dépensé des milliards pour évincer des experts expérimentés et indispensables\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPQU9hdExtNVk1M2c0Z2F1WGJTMXZNcE8zTFpsYXl2ZTlmdE9ZdDczdGRuVEZhQ1gtSlV5aEV0MEd6UGZBdjIxZ19GR1F5SWdUZ2YwS2VTV3QyMzU1MEM1NmJfYzBsVkxvZ004LTRaU2lhYnJKX21mTjlodkJNSGZmckRCQlhibVl3ckhRNFdUa1FBVUdaUThHSXhNUzI4eUZYRWdXNG9fSjZfUXhNUW1FekZtTVhKMkpsV0lVTjZKNW9XSEZvWFVLQVdyOWpsRGZNRk9VcmZKNkJrX2w2V0QtbGNoVHpuZ0xwODFRVVNNWXYtWXRQVVloTDA4UDhiOVlyYnktV3ZPQVZSUGRDZ2pZTmlwVXJ4SXJzeDAtZ0tIcnpkOTYzSTVCOVJ2Qm9kMFlEb05N?oc=5",
+        "source": "google_fr_business",
         "name_only": true
       },
       {
-        "title": "Regering-Trump keurt wapenleveringen van 2,8 miljard dollar aan Israël goed, meldt Washington Post",
-        "url": "https://vrtnws.be/p.ewP4JPOa6",
+        "title": "Amerikaanse centrale bank verhoogt rente voor het eerst in 3 jaar en gaat daarmee in tegen president Trump",
+        "url": "https://vrtnws.be/p.QAXbLoeL9",
         "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Tegen de wil van Trump in: voor het eerst in drie jaar stijgt de Amerikaanse rente - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONzVUUWJLMk15dDg3a1YzcllmelplbzJ5a2RLdmI0WERadV9sT3RTZGhONXo4dkJmRFlseTJncVRwZGdrQjZtbjMwZHNvSWFaMmJxZmhHUm1MRTR2LVp5Z212V2YwRUtNSnFuVmlCNzRobmtqZDBMUVV4M0Itbkx1TFdBbnl3cHpmUUpCTVF3NFNHc0xUd1lKSU5oS2VDYUpXR1g5T1JKOWI1NVVLZTFPZmtlRjBrbmFYb2hTb0VsVktwZ3hTZ25jQXRB?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Stafchef van het Witte Huis Susie Wiles kankervrij na strijd tegen borstkanker",
+        "url": "https://www.hln.be/buitenland/stafchef-van-het-witte-huis-susie-wiles-kankervrij-na-strijd-tegen-borstkanker~aa9b8023/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Amerikaanse centrale bank verhoogt rente voor het eerst in ruim 3 jaar, tegen de uitdrukkelijke wens van Trump",
+        "url": "https://www.hln.be/economie/amerikaanse-centrale-bank-verhoogt-rente-voor-het-eerst-in-ruim-3-jaar-tegen-de-uitdrukkelijke-wens-van-trump~a674cde8/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse rente omhoog, tegen de wens van Trump in",
+        "url": "https://www.demorgen.be/nieuws/amerikaanse-rente-omhoog-tegen-de-wens-van-trump-in~bd1012fd/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Voor het eerst in drie jaar verhoogt Fed rente, tot onvrede van president Trump • Fed-voorzitter Warsh: inflatie in VS al veel te lang te hoog",
+        "url": "https://www.demorgen.be/snelnieuws/live-voor-het-eerst-in-drie-jaar-verhoogt-fed-rente-tot-onvrede-van-president-trump-fed-voorzitter-warsh-inflatie-in-vs-al-veel-te-lang-te-hoog~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Door Trump gewenste cryptowet strandt in Amerikaanse Senaat, koers Bitcoin daalt",
+        "url": "https://www.demorgen.be/nieuws/door-trump-gewenste-cryptowet-strandt-in-amerikaanse-senaat-koers-bitcoin-daalt~b6c1844f/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Zelfs Bernie Sanders en Steve Bannon vormen nu een front tegen Trump: Amerikaanse president doet iedere bezorgdheid af als ‘zieke samenzwering’",
+        "url": "https://www.demorgen.be/nieuws/zelfs-bernie-sanders-en-steve-bannon-vormen-nu-een-front-tegen-trump-amerikaanse-president-doet-iedere-bezorgdheid-af-als-zieke-samenzwering~bd4742a5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Tegen de wil van Trump in: voor het eerst in drie jaar stijgt de Amerikaanse rente",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-tegen-de-wil-van-trump-in-voor-het-eerst-in-drie-jaar-stijgt-de-amerikaanse-rente/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Tegen de wil van Trump in: voor het eerst in drie jaar stijgt de Amerikaanse rente",
+        "url": "https://www.gva.be/buitenland/live-vs.-tegen-de-wil-van-trump-in-voor-het-eerst-in-drie-jaar-stijgt-de-amerikaanse-rente/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Russische oligarch die meebetaalde aan bruiloft van Trump Jr. gelinkt aan organisatie die Oekraïense kinderen ontvoerde",
+        "url": "https://www.gva.be/buitenland/russische-oligarch-die-meebetaalde-aan-bruiloft-van-trump-jr.-gelinkt-aan-organisatie-die-oekraense-kinderen-ontvoerde/161552032.html",
+        "source": "gva",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Tegen de wil van Trump in: voor het eerst in drie jaar stijgt de Amerikaanse rente",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-tegen-de-wil-van-trump-in-voor-het-eerst-in-drie-jaar-stijgt-de-amerikaanse-rente/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Canada komt onder de vleugels van de EU: “Signaal aan de man in het Witte Huis”",
+        "url": "https://www.hbvl.be/politiek/canada-komt-onder-de-vleugels-van-de-eu-signaal-aan-de-man-in-het-witte-huis/161551007.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "La Réserve fédérale américaine (Fed) remonte ses taux, quitte à agacer Donald Trump ?",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/16/la-reserve-federale-americaine-fed-remonte-ses-taux-quitte-a-agacer-donald-trump-45J76AKJFNF2JOXCOV762HBT3A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La Chine s’invite dans le bras de fer entre Trump et les géants de la tech",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/16/la-chine-sinvite-dans-le-bras-de-fer-entre-trump-et-les-geants-de-la-tech-cela-revele-une-fois-de-plus-la-logique-des-etats-unis-DP7LNIQCNFCUFEXIYJKLDEDC4E/",
+        "source": "lalibre",
         "name_only": true
       },
       {
         "title": "Une politique de Donald Trump remise en question : “C’était la manière la plus coûteuse d’aggraver la situation du gouvernement”",
         "url": "https://www.lalibre.be/international/amerique/2026/09/16/une-politique-de-donald-trump-remise-en-question-cetait-la-maniere-la-plus-couteuse-daggraver-la-situation-du-gouvernement-RDLZWFWHZJB4JH2TIAA6YP65XA/",
-        "source": "lalibre",
-        "name_only": true
-      },
-      {
-        "title": "\"Une programmation pas woke\" : Trump menace de ne pas rouvrir le Kennedy Center si son nom n'y est pas apposé",
-        "url": "https://www.lalibre.be/international/amerique/2026/09/16/une-programmation-pas-woke-trump-menace-de-ne-pas-rouvrir-le-kennedy-center-si-son-nom-ny-est-pas-appose-W45G4TZY6RCIXBX5O54QR4VLGY/",
         "source": "lalibre",
         "name_only": true
       },
@@ -94207,9 +94375,9 @@
         "name_only": true
       },
       {
-        "title": "Une politique de Donald Trump sous le feu des critiques : “Il a dépensé des milliards pour évincer des experts expérimentés et indispensables\"",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/16/une-politique-de-donald-trump-sous-le-feu-des-critiques-il-a-depense-des-milliards-pour-evincer-des-experts-experimentes-et-indispensables-IQ2PYDJSSBBVRBR3VKUUOYGQOQ/",
-        "source": "dhnet",
+        "title": "La Fed relève ses taux d’intérêt pour la première fois depuis trois ans, contre la volonté de Trump",
+        "url": "https://www.7sur7.be/economie/la-fed-releve-ses-taux-dinteret-pour-la-premiere-fois-depuis-trois-ans-contre-la-volonte-de-trump~a674cde8/",
+        "source": "septsursept",
         "name_only": true
       },
       {
@@ -94219,21 +94387,27 @@
         "name_only": true
       },
       {
-        "title": "La Fed de Warsh face à son premier vrai test : monter les taux ou plaire à Trump ? - Trends-Tendances",
+        "title": "Donald Trump s’y opposait, la Fed relève malgré tout ses taux d’intérêt - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbWM2RGo4OThVajVHanhtX0RkOVpsT0g5MWVHel9VZVNuQ2hQaDlFaWU2akdBRk8tYVJiYkpocmt4R0sxU3dCeXJibEwzeUVSb3dJOENGaEk4ZXgzVGRZZTNOelFxWVZjTDQwbHdSRGN5M20ybTVrZklYVW1jRi1lbkxWYnl2SWVwMVhFTzZmY2JUbTkyS0RPUDNwWnlWNTlfTE1kSnR1Qlo0U2ZPck9kcWVfWEh0aktiTFdZTw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "La Fed devrait relever ses taux ce soir : premier bras de fer entre Warsh et Trump ? - Trends-Tendances",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFJQT3ZwZDdDd2lmazA4b0FXYkZVcEVBRVMzdjlDbFdUX2NpRE1Zb21GSUdfa0JQN3c2TVRSU3F4SGVUek5xNnV6ZEVQTjBUMVhndlBPWnAxWVFpOXlEb2h6Q2lWYVdXWnAtUXZ2YkNQbHpDa0l1YmFKdkpfTkFGZEYxV3JwR3AyVjg3LU4zTy1PWmlrQ190dkgzNGNYOV9EbDdXT084Y3RnZ1pMUEk0?oc=5",
         "source": "tendances_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 7,
-      "putin": 1,
+      "trump": 17,
+      "putin": 3,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
-      "von_der_leyen": 21,
-      "de_wever": 12,
+      "von_der_leyen": 23,
+      "de_wever": 10,
       "bouchez": 0,
       "magnette": 0,
       "prevot": 0,
@@ -94245,14 +94419,14 @@
       "verlinden": 1
     },
     "wide_comparisons": {
-      "trump": 12,
-      "putin": 1,
+      "trump": 26,
+      "putin": 3,
       "macron": 0,
       "netanyahu": 1,
       "zelensky": 1,
       "rutte": 0,
-      "von_der_leyen": 30,
-      "de_wever": 19,
+      "von_der_leyen": 31,
+      "de_wever": 15,
       "bouchez": 0,
       "magnette": 0,
       "prevot": 0,
@@ -94264,36 +94438,36 @@
       "verlinden": 1
     },
     "themes": {
-      "war": 44,
-      "crime": 33,
-      "eu": 69,
+      "war": 47,
+      "crime": 39,
+      "eu": 72,
       "politics": 49,
-      "be_gov": 39,
-      "culture": 17,
-      "tech": 25,
-      "economy": 32,
-      "sports": 50,
-      "health": 11,
-      "climate": 9,
-      "migration": 7,
-      "education": 10,
-      "weather": 10
+      "be_gov": 41,
+      "culture": 22,
+      "tech": 30,
+      "economy": 39,
+      "sports": 82,
+      "health": 6,
+      "climate": 11,
+      "migration": 9,
+      "education": 16,
+      "weather": 7
     },
     "wide_themes": {
-      "war": 72,
-      "crime": 40,
-      "eu": 99,
-      "politics": 75,
+      "war": 86,
+      "crime": 53,
+      "eu": 106,
+      "politics": 78,
       "be_gov": 64,
-      "culture": 22,
-      "tech": 38,
-      "economy": 46,
-      "sports": 81,
-      "health": 15,
-      "climate": 10,
-      "migration": 12,
-      "education": 11,
-      "weather": 16
+      "culture": 24,
+      "tech": 48,
+      "economy": 59,
+      "sports": 130,
+      "health": 12,
+      "climate": 14,
+      "migration": 15,
+      "education": 22,
+      "weather": 11
     }
   }
 ]
