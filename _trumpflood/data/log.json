@@ -94472,38 +94472,38 @@
   },
   {
     "date": "2026-09-17",
-    "generated_at": "2026-09-17T10:53:25+02:00",
-    "last_checked_at": "2026-09-17T17:17:31+02:00",
-    "total_articles": 483,
-    "trump_articles": 17,
-    "percentage": 3.5,
-    "core_percentage": 3.5,
-    "core_percentage_name": 3.5,
-    "trump_articles_expanded": 17,
-    "core_percentage_expanded": 3.5,
-    "indirect_references": 0,
-    "wide_total_articles": 678,
-    "wide_trump_articles": 20,
-    "wide_percentage": 2.9,
-    "wide_trump_articles_expanded": 22,
-    "wide_percentage_expanded": 3.2,
-    "macro_percentage": 3.5,
-    "qualifying_outlets": 24,
+    "generated_at": "2026-09-17T21:49:58+02:00",
+    "last_checked_at": "2026-09-17T21:49:58+02:00",
+    "total_articles": 885,
+    "trump_articles": 33,
+    "percentage": 3.7,
+    "core_percentage": 3.7,
+    "core_percentage_name": 3.7,
+    "trump_articles_expanded": 35,
+    "core_percentage_expanded": 4.0,
+    "indirect_references": 2,
+    "wide_total_articles": 1283,
+    "wide_trump_articles": 47,
+    "wide_percentage": 3.7,
+    "wide_trump_articles_expanded": 50,
+    "wide_percentage_expanded": 3.9,
+    "macro_percentage": 4.0,
+    "qualifying_outlets": 32,
     "core_outlets_total": 19,
-    "core_outlets_active": 18,
-    "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 21,
-    "cross_outlet_dup_groups": 10,
-    "cross_outlet_dup_rate": 4.3,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 66,
+    "cross_outlet_dup_groups": 33,
+    "cross_outlet_dup_rate": 7.5,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.31,
-    "breadth": 0.67,
-    "deviation": 1.49,
-    "smoothed_pct": 2.34,
+    "dominance": 2.54,
+    "breadth": 0.63,
+    "deviation": 1.57,
+    "smoothed_pct": 2.37,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
@@ -94512,99 +94512,99 @@
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 29,
-        "kept": 29,
+        "today": 33,
+        "kept": 33,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.45
+        "share": 3.03
       },
       "google_fr": {
         "fetched": 34,
-        "today": 19,
-        "kept": 19,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.26
+        "today": 31,
+        "kept": 31,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 9.68
       },
       "google_nl_politics": {
-        "fetched": 47,
-        "today": 13,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
+        "fetched": 51,
+        "today": 29,
+        "kept": 28,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.71
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 11,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
+        "today": 27,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 26,
-        "kept": 21,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 48,
+        "kept": 43,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.33
       },
       "google_nl_tech": {
-        "fetched": 51,
-        "today": 7,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 62,
+        "today": 30,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 17,
-        "kept": 13,
+        "today": 41,
+        "kept": 37,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 30,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 32,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 8,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 29,
+        "kept": 26,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.69
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 9,
-        "kept": 7,
+        "today": 39,
+        "kept": 35,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 30,
-        "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 46,
+        "kept": 46,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.17
       },
       "standaard": {
         "fetched": 100,
-        "today": 51,
-        "kept": 27,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.7
+        "today": 93,
+        "kept": 55,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.64
       },
       "hln": {
         "fetched": 30,
@@ -94615,100 +94615,100 @@
         "share": 3.33
       },
       "demorgen": {
-        "fetched": 30,
-        "today": 19,
-        "kept": 19,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 10.53
+        "fetched": 31,
+        "today": 26,
+        "kept": 26,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 15.38
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
         "trump": 0,
-        "trump_expanded": 0,
+        "trump_expanded": 1,
         "share": 0.0
       },
       "gva": {
         "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 1,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
         "trump_expanded": 1,
-        "share": 2.0
+        "share": 0.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 37,
-        "kept": 37,
-        "trump": 1,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
         "trump_expanded": 1,
-        "share": 2.7
+        "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 19,
-        "kept": 19,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.26
+        "today": 44,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 9,
-        "kept": 9,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 29,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 15,
-        "kept": 15,
+        "today": 18,
+        "kept": 18,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 13.33
+        "share": 11.11
       },
       "lalibre": {
         "fetched": 100,
-        "today": 29,
-        "kept": 29,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 6.9
+        "today": 86,
+        "kept": 86,
+        "trump": 8,
+        "trump_expanded": 8,
+        "share": 9.3
       },
       "lecho": {
         "fetched": 100,
-        "today": 26,
-        "kept": 26,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 7.69
+        "today": 67,
+        "kept": 65,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 4.62
       },
       "dhnet": {
         "fetched": 100,
-        "today": 58,
-        "kept": 58,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 98,
+        "kept": 98,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 3.06
       },
       "septsursept": {
         "fetched": 30,
-        "today": 29,
-        "kept": 29,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 6.9
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "bx1": {
         "fetched": 10,
@@ -94720,56 +94720,56 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 20,
-        "kept": 18,
+        "today": 55,
+        "kept": 43,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 42,
-        "kept": 34,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.94
+        "today": 73,
+        "kept": 65,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 4.62
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 20,
-        "kept": 19,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.26
+        "today": 55,
+        "kept": 53,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 5.66
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 15,
-        "kept": 15,
+        "today": 48,
+        "kept": 48,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 21,
-        "kept": 19,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.26
+        "today": 47,
+        "kept": 44,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.55
       },
       "trends_g": {
-        "fetched": 63,
-        "today": 5,
-        "kept": 0,
+        "fetched": 52,
+        "today": 18,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "tendances_g": {
-        "fetched": 93,
-        "today": 9,
-        "kept": 9,
+        "fetched": 80,
+        "today": 27,
+        "kept": 27,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -94798,20 +94798,38 @@
     ],
     "matches": [
       {
+        "title": "Amerikaans Congres keurt sancties tegen Rusland goed, maar geeft Trump ook macht over heffingen op Russische olie en gas",
+        "url": "https://vrtnws.be/p.OvXkYkwMO",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump kan Rusland treffen met zware extra sancties, maar of hij dat doet, valt nog te bezien - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQmtwT2lGUzRGNnF4MVhoZUlPczFnVEh5a2tPcFNhRk85RUZFdHdzUzY1eFBTQ21SLWl4bW9sVFRGQzZYTGxkc1l4di1ETlF1UjRFaHJXZVpuWGFnVUFNanRtdUJCQThaVW9nRUZTWmZ4bDljbHBHMWQ2dnU0Z3ZyWVA1Z2w3aUNLdnQ0NUlKYTV5aTl0cV9rakc0bi1GYndFaVBFMHVhb3hfRnlTbUZ3WkZQZGJidTIxQS1YWmNYZV9tUFhmSDZ1Y3RvODNFWDA5N3R1cEtMWHE?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
         "title": "Met een ware Blauwe Golf hopen de Democraten Trump lam te leggen – al wordt het in de Senaat nog heel spannend - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNLXJaLUpYMkNZUXgxUUdRNkU4d3dmaExGZF9XZ0VtdDMzbUx3MmFTS2pMWjdGMUpjRmdyN0k4YmU0UTNCaWttZDZZenZRMVFHMzF1UUNnNUM0ZG41MlpwcnhxMTRZQXVQMS1sbmV6SDk0YVEzTm9jVk1yRm1iN0J4UzA1N0ZWcVRtdE1CYnJvOGZxTzRQUFVLQ050YXFjN0pWSDlJMVYxSEJXZUZJd3R0al9VY2U2cjhGOHJrdzZiRFg5TENWcEhTUG1YczNnQnl4QXNVeFlQb0FXUjh6UVN1U2ttZXg4WWN1RDVCR1V3UUw?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "“Hij vindt dit niet belachelijk, maar vreest net voor partnerschappen”, Trump dreigt alle handel met EU stop te zetten na uitspraken Von der Leyen",
-        "url": "https://www.hln.be/economie/hij-vindt-dit-niet-belachelijk-maar-vreest-net-voor-partnerschappen-trump-dreigt-alle-handel-met-eu-stop-te-zetten-na-uitspraken-von-der-leyen~ab5735cd/",
+        "title": "Trump zegt dat hij voor belangrijke beslissing staat over Iran: “Wil ik ingrijpen en hen vernietigen of niet?”",
+        "url": "https://www.hln.be/buitenland/trump-zegt-dat-hij-voor-belangrijke-beslissing-staat-over-iran-wil-ik-ingrijpen-en-hen-vernietigen-of-niet~a99e0324/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "▶ Canadees premier Mark Carney spreekt om 11.30 uur Europees Parlement toe, ondanks dreigement van Trump over ‘lachwekkende’ toenadering",
-        "url": "https://www.demorgen.be/nieuws/canadees-premier-mark-carney-spreekt-om-11-30-uur-europees-parlement-toe-ondanks-dreigement-van-trump-over-lachwekkende-toenadering~b8972c58/",
+        "title": "Live - Trump zinspeelt op grote escalatie oorlog Iran: ‘Ik sta voor een belangrijke beslissing’",
+        "url": "https://www.demorgen.be/snelnieuws/live-china-vraagt-iran-om-houthi-s-in-toom-te-houden-na-verovering-van-bab-al-mandeb-zeestraat-en-opmars-tegen-saudi-arabie~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Dan toch niet zo onverslaanbaar als Trump hoopt: inspectie Pentagon meldt munitietekort, verwoeste basissen en logistieke problemen",
+        "url": "https://www.demorgen.be/nieuws/dan-toch-niet-zo-onverslaanbaar-als-trump-hoopt-inspectie-pentagon-meldt-munitietekort-verwoeste-basissen-en-logistieke-problemen~bec73da7/",
         "source": "demorgen",
         "name_only": true
       },
@@ -94822,27 +94840,69 @@
         "name_only": true
       },
       {
-        "title": "LIVE VS. Trump dreigt handel met EU volledig stop te zetten na “belachelijke” uitspraken Von der Leyen",
-        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-dreigt-handel-met-eu-volledig-stop-te-zetten-na-belachelijke-uitspraken-von-der-leyen/151623011.html",
+        "title": "Fed-voorzitter Kevin Warsh laat zien dat hij niet bang is van Trump en verhoogt rente tot 4 procent",
+        "url": "https://www.demorgen.be/nieuws/fed-voorzitter-kevin-warsh-laat-zien-dat-hij-niet-bang-is-van-trump-en-verhoogt-rente-tot-4-procent~b71816d4/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Zara Larsson hekelt gebruik van haar nummer bij deportatievideo Witte Huis: \"Vreselijk verdrietig\"",
+        "url": "https://www.nieuwsblad.be/media-en-cultuur/bv-en-co/zara-larsson-hekelt-gebruik-van-haar-nummer-bij-deportatievideo-witte-huis-vreselijk-verdrietig/161619159.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "Zara Larsson hekelt gebruik van haar nummer bij deportatievideo Witte Huis: \"Vreselijk verdrietig\"",
+        "url": "https://www.hbvl.be/media-en-cultuur/bv-en-co/zara-larsson-hekelt-gebruik-van-haar-nummer-bij-deportatievideo-witte-huis-vreselijk-verdrietig/161620488.html",
         "source": "hbvl",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "Live President Trump: Amerikaanse centrale bank verhoogt rente tegen wens van Trump in - Knack",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYjhWWXVkUGtRMHZOUjF2YXUxTFA5ZVI0OU93Nnh1cGVjZkZ1dkpNN1VZSHFnYUlUYzNIMWdkUnNfRXJzV3RYbGtxRmFiRUlpVzM2dnNxTU1NWlRuMXRfeUg2N2ZrVllMREdWenRPczl6dlFWV29UQm0xQV9OTkZkcGxOQ2dVeWNob3M1d0NBeDB1SFlPVk5KU2t5SWRYNllsdW96NVo0X1o2cWpYNU5kYnE0bUVUUFk4YnEyOFhtZEUxT2sxSUc2VWthVHRYeVFYX3dRZGJ1R182c0E?oc=5",
-        "source": "knack",
-        "name_only": true
-      },
-      {
-        "title": "Rapprochement Union européenne – Canada : Donald Trump menace d’arrêter les échanges commerciaux avec l’UE",
-        "url": "https://www.rtbf.be/article/rapprochement-union-europeenne-canada-donald-trump-menace-d-arreter-les-echanges-commerciaux-avec-l-ue-11786370",
+        "title": "Le rapprochement entre le Canada et l’Europe, un outil de résistance face à Trump ? \"Ce serait enfin la preuve d’une riposte contre ces attaques répétées des États-Unis\"",
+        "url": "https://www.rtbf.be/article/le-rapprochement-entre-le-canada-et-l-europe-un-outil-de-resistance-face-a-trump-ce-serait-enfin-la-preuve-d-une-riposte-contre-ces-attaques-repetees-des-etats-unis-11786549",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "Le cuivre à des niveaux records : quand la menace Trump redistribue les stocks mondiaux",
-        "url": "https://www.rtbf.be/article/le-cuivre-a-des-niveaux-records-quand-la-menace-trump-redistribue-les-stocks-mondiaux-11786423",
+        "title": "Pourquoi la Réserve fédérale américaine relève ses taux et tient tête à Donald Trump ?",
+        "url": "https://www.rtbf.be/article/pourquoi-la-reserve-federale-americaine-releve-ses-taux-et-tient-tete-a-donald-trump-11786530",
         "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump retire sans explication son candidat au poste de directeur de l'ICE",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/17/donald-trump-retire-sans-explication-son-candidat-au-poste-de-directeur-de-lice-QI2YTJCBBRBOTCE3YVXTFZKFD4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Une étape historique\" : Trump se félicite de \"progrès majeurs\" en vue de la création d'une base américaine en Pologne",
+        "url": "https://www.lalibre.be/international/europe/2026/09/17/une-etape-historique-trump-se-felicite-de-progres-majeurs-en-vue-de-la-creation-dune-base-americaine-en-pologne-IHN6ZMEK7FDLPGKTODDVOPOWHM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La politique de Donald Trump va-t-elle intensifier la guerre dans l’est du Congo ?",
+        "url": "https://www.lalibre.be/international/afrique/2026/09/17/la-politique-de-donald-trump-va-t-elle-intensifier-la-guerre-dans-lest-du-congo-HMB4FMP7VVBATION7JKIGUXKGA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace l’Union européenne de “droits de douane très lourds”, en cas d’association avec le Canada",
+        "url": "https://www.lalibre.be/international/europe/2026/09/17/trump-menace-lunion-europeenne-de-droits-de-douane-tres-lourds-en-cas-dassociation-avec-le-canada-6KL6FQSCKVGW7DYQ6TYY43F2ZI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un pari raté pour Donald Trump ? \"Même les gens qu'il nomme ne sont pas prêts à faire n’importe quoi pour lui plaire\"",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/17/cest-un-desaveu-pour-donald-trump-pourquoi-la-decision-de-la-reserve-federale-americaine-est-un-echec-pour-le-president-americain-5HRZZUD2IRBP3I6ZME2BRGGELQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Dites à Donald Trump de se dépêcher\": deux dossiers ultra-sensibles s'invitent au débat entre Bill White et Theo Francken",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/17/deux-dossiers-sensibles-au-coeur-des-discussions-entre-bill-white-et-son-ami-le-tigre-de-belgique-a-bruxelles-SV4DEZABYBA5TABYLAZ6IRMCMA/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -94864,26 +94924,56 @@
         "name_only": true
       },
       {
-        "title": "La première hausse des taux de la Fed en trois ans fait sortir Donald Trump de ses gonds - L'Echo",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQkV6MDFNbGt4TnZGd1MxOW51c3dCNWd2OGoyampHOVU1SFVCdXNYWEJDUDFHMC1SU2NqZEZpdlp5azVLaWp0eTlaaDk1ZWZ2anJKa3FSb192NmlvX1VMZzVhRnh6elFRNjlCOXVDOXNtYlJEZ0lLc1k5bXV1SU01OU0tQmp3ZkZwTkxZVHEyRS12YkNyOTV5TDVpS0l4MnZsN2hiUm9ZaEFjeFdFX1BRMkRVcXB6SnRKQkFPemlILUhmbUp6TklFY2s2TXowcTRNTDFsMHctNlc1XzFEcVJRTHpB?oc=5",
+        "title": "Les cryptomonnaies encaissent l'échec du Clarity Act de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRzBYNDFjRlVsMXExUmNiUk85Sk1QYlVfZDltVkRVcHBtajZueWRwbzJVVEVnd3RzTnJCc1VOMlVGaUpGNFhrZ3dDNkYzWTdKLW05dVRadk0yUkJUMzNNUVM1THh4ZldJS2hWQ21ldTBTel9YdllpWnlkQ1p4RGNaRXhoT3d0U243YzNlZk9vOWNGOXZNRExUUV9MTWh3ZlotWGFra1dsb056TjY4cm1TenBLWnpLRFFnUEhYQjBkMUt6T1JnZ1E?oc=5",
         "source": "lecho",
         "name_only": true
       },
       {
-        "title": "“La proposition de von der Leyen est ridicule”: Trump menace de suspendre tout commerce avec l’UE",
-        "url": "https://www.7sur7.be/monde/la-proposition-de-von-der-leyen-est-ridicule-trump-menace-de-suspendre-tout-commerce-avec-lue~add1fa26/",
+        "title": "La première hausse des taux de la Fed en trois ans fait sortir Donald Trump de ses gonds - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMU1sYXdTVjBWMjRVQW5YODB6ZHJIWmttR0VIRmE2UHRsY0RVVzFtY3ZJSElSS1JNU2NBOUNRclFpY2UwMFZTckJ3Z2xLekNBVDB6S1k1LU5kWTVWWGxHWVhNRUROaXpNdHl4V0NqZHc1cGJjLWtGbmpxN2pKQlp0eVhONTQzMkxOYTBSNTBqbWVqZHhBbmliVHZGR0JqR0hsS0hBYkpHUG4wQk1vbW01a183R3dyOVpsR2hsbFZBbk16cllySXpSSkY2eHE3Z3lkNzlEUjlGVTc?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump retire son candidat au poste de directeur de l'ICE, la police de l'immigration américaine",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/17/donald-trump-retire-son-candidat-au-poste-de-directeur-de-lice-la-police-de-limmigration-americaine-VHLEEY6PNZH33IGBP47ZEVZQMY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"Une étape historique\": Donald Trump se félicite de \"progrès majeurs\" en vue de la création d'une base américaine en Pologne",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/17/une-etape-historique-donald-trump-se-felicite-de-progres-majeurs-en-vue-de-la-creation-dune-base-americaine-en-pologne-QP6BTRXWGJHSJOCAMILZTUACGM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Fait rare de la part de Donald Trump: voici l'honneur que le président américain fera à Xi Jinping lors de sa visite aux USA",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/17/fait-rare-de-la-part-de-donald-trump-voici-lhonneur-que-le-president-americain-fera-a-xi-jinping-lors-de-sa-visite-aux-usa-DUZS65ULOVC33JX2SBXPSWJZAA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un rare honneur: voici comment Donald Trump va accueillir Xi Jinping lors de sa visite à la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/un-rare-honneur-voici-comment-donald-trump-va-accueillir-xi-jinping-lors-de-sa-visite-a-la-maison-blanche~aa9e919e/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "“Baissez les taux, et vite!”: Trump attaque les mesures de la Fed",
-        "url": "https://www.7sur7.be/monde/baissez-les-taux-et-vite-trump-attaque-les-mesures-de-la-fed~a26b3e3b/",
-        "source": "septsursept",
+        "title": "Rapprochement avec le Canada : l’UE réagit aux menaces de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN2tTblZOaGNRa0Q0cmVMbmFVb0R3R2hWVXdWQkRxeEU4bW9NclJwaTh6ZlczMTVXUnd4aVlTUnFRckQ3bks3T281RDRyMFhYNUFhZ0pBMnBvSno0VTV5OUYyV01rMlNxR09IMlVLNWlta2hxVUVlVlZrdmVhTVJYelJXLWxUUnBUNjV1d19QQUhaeUp0SHdSUGlkTk1oZEFzUmxqOXFKbzRNaUFK?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
-        "title": "Trump menace d’arrêter les échanges commerciaux avec l’UE pour ses liens avec le Canada - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRnFYbEYwZW5SRUtBUFRFVFZvWEViZzFpVzhPZlhVSjV4ejFkd0Y1MENTX043a0FUaW5XVGl4MlRhXzRyZ01ScDE5VGJfMUcxaVRKd242QUNVV1BpRWNmaFBpa19XQ05EUVZtWW8tbC00akVWSmFnZEwzUFZPUDFnQVl3cDh3WVM3NThOckpfRm9COEZ2NjR6REtWY2h5clhYZEdobTdpVHdlZnJoTTZqNlFhNF9zYURPTERFVms2U1Vmekxi?oc=5",
+        "title": "« Une étape historique » : Donald Trump se félicite de progrès en vue de la création d’une base américaine en Pologne - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR3J5TmpiRUZLUDdrbDhRcVJjMzV0dDNhTWsxZWZmbUFCZWt4Nk9fLV9kTHRoUU5TUUhwcmtHM3NsUDJWWkhEQS1fYUM5UDQtUHctek9hQ0t5aWZPUENfOFFpcDZxeGcxUGZLbTlpY2VjN2RadURHdzNTVzRBaUZ0U0RBMkFnb1I1V3BMZFlILUM2Z3ZkSmd3WkxEUkVCbk5ac0dsRGF4X09peGJDUVAzVlVJRW8zZTVKQWpkS1JsY0d5UXBw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "A Strasbourg, Mark Carney accueilli en allié face à la tempête Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjNEc29JV0dPRzEzd3J5RFRWRWt2anNjZlhVSlA0eXM1QnNHakxpRmdNRk83RlFFbWpfVENQOTJfZjkxcFFpX3JwYnJOaVFIMFNHOEtydDgtdFloUUQ0OE11eWVOQ1NjVFRDSjF4WV82TkcyQ093VEN0c19Zajh3aC1aR2RfeFoyZXR4OUN5QmNvWEpTb2dBRDc3a0dpWElmZ2lyc3cxM3FsVV9NUFZqNg?oc=5",
         "source": "lesoir_g",
         "name_only": true
       },
@@ -94891,6 +94981,24 @@
         "title": "Donald Trump trouve le rapprochement entre l’UE et le Canada « ridicule » : le président américain menace d’arrêter les échanges commerciaux avec les Européens - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUTk2UHJNNUFHWWZXelIzTzViMFN2WVhGMnA1cEt2TjlIeWVweEdmYVNEaXFYNURrcE1XbjAxenZlRVplcUUyYlc5aVlxVURYZG9fS0NTXzBMOWNYVkNuVTk3dXFXeHpMQXV2amhGTzltZklrbERlcURQQ0hTYU9uc2x5ell0V0RQZEZPMlBydjhIbTRIcjlqdXhjRHlqNHE2OTFNNkxkTGJvUDlQR0xidE4zbmFpeXo2cktaZElMS0s?oc=5",
         "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Projet d'association UE/Canada: Trump menace d'arrêter les échanges avec l'Europe - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPOXY0YlZmSXFZbWIzcHJuTXlBZUUxbFMwVnRmaThvX0dOa25ESHdVeXpzS1cycE9CNXNnSl9fUl9Gakg3eEpFTTk4TXVIRkZXX29jb2g4dDRiZERmM3NRTVRhTDB2dFJOenhaVS0wUlZfU3A2bVBqX2U3Z09NT2Q1NDlVcUkza2xwMVN4bVVUTWRPYm5YUEQxclRoblJpb28zNEZkT1JXVXpQdElSYXA0RXh5RnVEMVJxanFTUjFjYmUxckNDR2NkckVjenVtWENOdHg3VTN2Z1NORTlVOG5Tdl9IdVZVSGY3Z0FGZFU1c19DNU9paG5MenlhaEgwLUE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Les menaces de Donald Trump balayées : le Premier ministre canadien salue « une nouvelle alliance » avec l’Union européenne - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeXRoZFozUGZ2VVFyZ0FnTjBCR0luY3d2SjYtMHJzMENPMkhua0RhSGh4akJTV1BYLUtyMHo2R3BWTW93Umt4S1U4d0ZpbTNnbnZiX1Atd2dQWmxoN0l4cGdxZlhVQjNfdk1PZVJwTmVPcWoyYXBtNFBxT2ZKRVZGckFzN0NvZ3J4ZFVIWHpsa2ZTSU00TmJaTFFOTnZuOVpvS3pzNjJjejVtdG8xX0VTd2g4cW9lSHVxTFpMRXdOcWZKbTEtYmc?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Détruire un bâtiment emblématique de Washington ? Donald Trump y songe vraiment, des photos choc publiées - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUk1XQU1qLTNFWnhadndmT0xqS1JwWHFHYXN1WDlzR2luSEpCWDM4ektKTnFGeG1sQm9nMEVUdmJLVS1GVldyX2RsWlNXd1hfZllDV0pWSUZQRHJPY2VGWF9jSzVPYktWV2dQYmwwaFBmZmJ3MEVqSF9hNGVuVklBdGNtOU9YcGwteWcxaEhwdVJmX0gtM05abDVsYUF2akxTVGhEMkF3eTd5Q0xYejlvTF80VXBmaUFfOVNNVUFZVWdrT0xRRGp1dVozaU9SUkFmY3pQclB1Nm9sOTYzSHdPQQ?oc=5",
+        "source": "rtl_g",
         "name_only": true
       },
       {
@@ -94902,28 +95010,100 @@
     ],
     "wide_matches": [
       {
-        "title": "LIVE VS. Trump dreigt handel met EU volledig stop te zetten na “belachelijke” uitspraken Von der Leyen - HBVL",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLWJBU19raERXWVVhQThxa2RNNm5jWHAwLUZmTmxFdmZ5QloyMHR1NlhNYktEY29qN3luUTdqd1FrNVVzQU1hSFFsZ3hpWl9tN2pOZkFvWU9yM2hUODJIdDBjd1cycVNqN25SQ0xRUWRVMnVmUV94SXdXNFlaNWlzXzk1Qy1kRlhQLUpubDR4OGlmN05mUWZrS2dRLVI5RXNOY0JHWXpJRmMyVzFOQ2RXdEhIRVQyVDE4Z1dPZGhtOXdTbFB1YzhyX0hNbWVFcXlmbUVRc2s4Vnp5Si10MkFz?oc=5",
+        "title": "Canadees premier Mark Carney spreekt Europees Parlement toe, ondanks dreigement van Trump over ‘lachwekkende’ toenadering - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTy1raFpjYUdMcndoWVZLTFFwQnRaakRTQUlWMFVqOTZ6RVBxN3ZQMTJYRkpfQ1JQMlg3Y244bUVBNnJyUjBMWk1UajhmeUJETlpRMUtUUjhldHpjNDZWN3dfOFFjQVM4X0U3S0RTRXE0OFRyNDRuUnNwSHpOdW5NdWpRUzNpQW1DakxPQUFJMTBSRHdZOWZXSm8tbGQ4cVFKRmVlTThKellMLXZhT0NIOHZqV0VadEYwNzNZa3FNbktiV1Z4WFNBQXhVRUp3WmtsVkpsT3hfUkQ2eFMxUmlwdG9LNFFIZ094NmZjMU56dFU?oc=5",
         "source": "google_nl",
         "name_only": true
       },
       {
-        "title": "Rapprochement avec le Canada : l’UE réagit aux menaces de Trump - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN2tTblZOaGNRa0Q0cmVMbmFVb0R3R2hWVXdWQkRxeEU4bW9NclJwaTh6ZlczMTVXUnd4aVlTUnFRckQ3bks3T281RDRyMFhYNUFhZ0pBMnBvSno0VTV5OUYyV01rMlNxR09IMlVLNWlta2hxVUVlVlZrdmVhTVJYelJXLWxUUnBUNjV1d19QQUhaeUp0SHdSUGlkTk1oZEFzUmxqOXFKbzRNaUFK?oc=5",
+        "title": "Les menaces de Donald Trump balayées : le Premier ministre canadien salue « une nouvelle alliance » avec l’Union européenne - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONV92TDBJa01DLVhRbVN2T24xMGZGNnhQeGpfdFVxcGpYc2h6YlpaNW1uaW11Q04xR3VuNWcySGFwMmlKUEh3SGNjS3dBcDRScW9hVFVTRUZ2YzJISGFiTmJNUnk0OUJSVXc4SHlqMHFsdkV2WTFYcm1uNjNseE1WSGNmT2lZekVsR0VoZVBNeVNSRVpFTk8yR2Y0MjZzazBjQ2JsQnZ6MlNEUm80VE41MUtBTzdGUzJwYW44d0lvTEFwMlJaRmRFaEd3SHJPRlM4TGhpMm8tRWtrR3FqZHc?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Canada komt onder de vleugels van de EU: “Signaal aan de man in het Witte Huis” - HBVL",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYzBmTmFrQ0RRRWdqcm1aT21qYW83Z1RHTUdDWEpzWHUtNHJWWllvdHljMVg4dEN5T2NiZ1BUcW5XdDZtdzNidmhnRlJWNFVFeVowYm1sdHlEcjJQYXJ6R0hyT0drZUZ4VUJOM2VNYmZfc2U5SkRmLU02S2RNQURsZ3o2bG5uT0trcVJOMlB6SG1YVlduRUNBS0xERXAtSmJ4RFBkUjR2eW4xWGhUTGxncFZKc20wWGMyN0JHaw?oc=5",
-        "source": "google_nl_politics",
-        "name_only": false
+        "title": "Un rare honneur: voici comment Donald Trump va accueillir Xi Jinping lors de sa visite à la Maison-Blanche - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZS1tWm9McVZWVTU5eF9PTVhmcVB6a1h5Q0xib1RMMHBIa1hOVUk2MjVFX3kxcG92ZEtyeVNCVlJ5LXE5RHp5S2gyVmNvRzRNVVJyZ1RTaTdWUVdXYnROSGoteFVCVGRWa2xfd2FCMF9VTngxalZuNTRSSW02LS1XTTJVVG9vMFRreDRMdDFSVU5ST3VXRFBFU1FJaTRCSm45MGIxVi14S1laLUJ4SWtFUHNIVHVaNzRZU2ZBN05nQ1RaZW5pcjBjRUF4QmU2Y0R2dHZSTjlvaDdvdw?oc=5",
+        "source": "google_fr",
+        "name_only": true
       },
       {
-        "title": "Russische oligarch die meebetaalde aan bruiloft van Trump Jr. gelinkt aan organisatie die Oekraïense kinderen ontvoerde - Nieuwsblad",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTmdiUTlxUzdKYnhLYy01blprekg4dEFkcVNwTzVoS0dkM0hvZ3hndmRvT2hoeUtwcmYtREdEVnNyWWFGWjBxalJlbGNqczBicXJSeE1qM1pLb2hHRmlJMGc1QnRYQi1DYnRfLUV3S3Fjb0hsbFMxRnJTT2NVX2NWTFhZNFIxeHRYUjVNU3E1aGo5b3lPcUhWSnFfekJQT2w5dXNnMl9LSWlZWTZ1QmZBa3NlbW1KWXFCVDFFc0toLUotNEZBNzUtbGNsa1ZsVmk3VnI5Z0d1U2p1VTVpaTl2TnFBTHNobmtoTEZOSTdoTWU2X0VTZDd0MFljNDJvVkk?oc=5",
+        "title": "Pourquoi la Réserve fédérale américaine relève ses taux et tient tête à Donald Trump ? - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzdacDYxWV9NM1lQQlZlS2JKVkVtWmRsT0Z5ZENQelh0Wkc0dkd0VDZEVUhrRENvaDBldmxmcnp0Vk1ZS3BZdmxNOTBjWFJTZkxfMFBkYmNtMEp6RVVwaTZXakhwQWhJWUk4ZjNLMzlDZVA0RHBFdmk4LW8zTGlNcnhuRk1OWVlKcGJ2U2V6dE83QVdJMW5qVE9sMTZRaWFkQ3oyaDFvclUtLUNvSGxvWkVFdFhKb0NjUG1QNmd3?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Canadese premier spreekt Europees Parlement toe na dreigement van Trump, volg zijn speech hier live - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSWUyOGhEUU9QYW9yeWoyNEdVWjJBTXZSbkRZTzlYWG5ScURrUGdXcGFzanpXMXgxZFJ1TGJ4MWNJQXV4cG01OXU2dl9mS2RkVWxHTk9fNnRvX2p5RDVuWDctRWJqZXBvZWgxcnF0aUk1WUFlV2gtejhlMUU1QzdXRUhqaThCMEtDajZVZGx5LUF5bDAzT3RLSVRfTEhDRXdWNEFLeUo0Vl80OFQ1VUxMWjZSbWtvUjhvYVNOaEhyTnVtazN5amg1MVJGWDhvbEg2V2hLRg?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Foto toont Trump met afdruk die lijkt te verwijzen naar sloop van Kennedy Center - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNekprT3IyLVlBcUY1Z1h4RDhiUlJURV9FSkxoRXgzVG1oRkhlU2ltRF9QcHF6MnV0NGV5N0QtNngzSHpYSVA1VzRkTVNZVEVKNU5FbnlfLXh3VDRmenEybmFCYURnTzY4Q1VsdzQxZWJGdDlNd0g1S0JlbVdmTlczRmRrRENWelFHbnZEaGE2WkphekZGQ3NnTDhjTlptUTNyRnNOUmsyWGFqREpleXgwQUt1VHJzTmhDMzY0TmUzejZLS1VvNjV3aUVB?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "LIVE | ’Trump overlegt volgende week met Golfleiders over naoorlogse periode Iran’ - De Telegraaf",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSWU1OWU4Z0JWYXd2WmJDdFVKUl9BcUhQLW5zQWc3cWFaR29tUGJONm5mT3IzU0ZMYi10Skd1ZE1JeEl3Xy0yUTUxUDk3VTFZOUlvVm9nWFREd0IyVVljWjlLZ1hFX0otQ0xRdFhHcHIxVzZ5c3E3ODcxVjFHUXB2RHJOR2w2dGtKUmJsYTRRWXFLa2dzYkZwNE5MTEhCMkltRERGTUx0VlpCaDhxaHUwcHBYZGRmRjEtb1U3UXgxY1NMYUNQN3F0ZQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Waarom Trump pisnijdig is over de toenadering tussen de EU en Canada - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObVo1LWpjZl9yZFhnRFV5VE85TzEweUQwRnd5SThGOG1qaHRVS0s1Zy1QdnQ4VFAwU0tBZDY5aDhEX3lwQ0JVNGloaTgzZVpZSG81QmhGTC13dFU5WVZ2T1BRY01zV3JzTGdkY1dGM2s4NENWUjJKbi1zemJuRThRRFRnVS04eE1vUW45SXBnV3dvN3h0b0pJT0djWVZIS2lFNUtpZlpJMUpUTVNCN0VSMEpiZEhzQkRmWHlv?oc=5",
         "source": "google_nl_world",
-        "name_only": false
+        "name_only": true
+      },
+      {
+        "title": "Met een ware blauwe golf hopen de Amerikaanse Democraten president Trump lam te leggen, al wordt het in de Senaat nog heel spannend - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNGVBSG5FS0QwOUNJdWJoaENfRHhXNzdpZWtBS2xIREtUekhGRUI0d3RoS3FrcDBKUkVHVzVDcS1RbzlBSDg2eXp6anJCQTRncmVkWm0td3Q4NDJtUmlQOS1xRW5lWFRGSmV4MUlOTG1Xb256T2R2aUE5OXRGZGFjNHhuUGtOZEdrOVhWdnVtVG5hSDlaM3ktQmYwZjZLMm1sbHBDWklqNnVLZ3NxTFVyei1pNHJFZldfQ0dBME53Tmw4U01Rc2FoSHFhNjNjaDB5NmtlYUk0ZHp4MzV2UGRkN1Z1blpaeVRTQkFMOUtqdzdxRkNhVzhVM1haLVlWYjVjTHFTZjdnT3pCRlJKQmc?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Fed-voorzitter Kevin Warsh laat zien dat hij niet bang is van Trump en verhoogt rente tot 4 procent - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMEJFa3NjZnpoa1pHYzRUalVJZ1VNY29EQ1JHZHpFZTAyajFDb2xNWXFyZUtvQXJpM05ldmVNT1kwVEVGWC14a1dzaE5iZWlTczVyTy1oTnR2LXUya0dqTG1jRWttVGF5eU11eUU5bDJuQkpsaWRhTVV6cWJkQVNzNDQzOEd1WGpYcndzLWVvbzlmREpKekVuUThzVkdQTEJDVGtBd3VjaXJWWFFpNm1EREJseVltWVBxMGJ3Z1JLdGVwczJFUVdPLWZaY0hmTWxaeEY5OWZ4OA?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Greet De Keyser over Donald Trump die de grote AI-waarschuwingen weglacht: “Hij vindt de angst van techreuzen pure politiek en een groot bedrog” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNSE54cjdJNW9GZTl6WjNNNElOdW04SjVYa3NlVERlN09Qb3dtMHE0RmNFcTNNYndtUW5KWV9zUXhtZ1FLN01LelR0cWpzZk5GTmhEa3Iwd25ZYU9fcTJQTTZ6ZlpJV2plQ3RvNWpoaTU3VmdSa1hvdGV2WjdwVmVMbWhpeDc0MktQTURDOExtOFZPQ2E4NFFvZnFBbUUyYkMyTDVoWjRyaTgzc2RmX2ZONk0yYVFMTmd0MWpHVVN6dlVkNkZTMWl1YWw3ajlLd2FUMnFrVlBOTGRMYU52V09Va0VVYkk0amVkTy1MVVhhcjVyNm43RTVmZS0yX3E4ZDBNZWx6aVlXc1QtMUJpSGc?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "Après des menaces de Trump | L'UE cherche à rassurer sur son rapprochement avec le Canada - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNOU9MTEk2eDg3WmRLcWNoUDhmRWFzZ1lKdmpmWUZhNHdFX054LU1CY1lkdzFoNnJtT2dZemdBTl85TFYyUlVqbTN4ZDhBa083ZUpMMl94anc2MkFVQlRYVmo3dURBVTl5SFRNQW5VdGtzQ2IzdE5GbnlzTUtVajRWMlBCS3JBZ281YU5fMTM2MmZrMkcwMU00YTZfcWVYTzRuWlZsMnBBQkJVNmFVc2xtRmx4a3lzUk5YNDBobmNqQThSSmQtbS1ieEl0M1pfaU45QlBlM3I2NA?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Fait rare de la part de Donald Trump: voici l'honneur que le président américain fera à Xi Jinping lors de sa visite aux USA - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNMEVLZS1oOUVMTkxkMG9IS2x4UElNd3l2a0gzb1J6cnZEQk50cFFSdjAzT1ZUOHlvYWIxWng5S004Ynl4S04taFJ4Q29QTGtXZXdFOXBzeV9qQjhscUJFbnRDQXJ2V0pXTHRIM1BoVWp0Q01HUk1sSjluTkZOYndJV2tvTEtvUXhJcElsa2gyX0ZLVHJqRzJ1SGJNSHhqR2NpdVBpWDd0S0Z4YnRKR0lqcHVfcTRCT0JHTVMxdFFVczhkS2tOSHFkVk1XYTVXSkZvamtKdEpsZ0VHcW9QRUtrckVBdVJYWHI1Rmoya09jNjI1cDRCeWR4OHU0cFdiMDZLeVBiY0tnNjVfRjVRVGE2aHpsc04zVHI2Ni1vRjdR?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Pour la première fois depuis son retour à la Maison-Blanche, Trump passe à l'action face à Poutine : \"Un outil extrêmement puissant\" - lalibre.be",
+        "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPdkpOS1B4R2lTdmp1bjZFUXN1WFJGUEZuSXZ3TkhMZnV3bzlwdkw5NldWUGluQ211b1dpQ3A4b0tEeGJVbDNjWmJnVHVQd0NaODJkR3VQeUFKSm1DNDliVW9YWFJNbFBELTNIR29HQ0pXRGdaVEZEd2tuU1lkekZpN2RISzJmYlBXZ0tEODhaVWdOck9iNTFUWnJKTFBfTlBiQmc2VHE5Wk5TaF9BQjJEOUlRd1F6STdmaFBJVDF2VDZrLVFSR2VaUUlYNzdKbXpiSEtscTlfNVk3cGo0R0VzWWZmUm9CQ0lYMVB6SUFISmdpQWNmNTI5OGNENkVYNjFfQS13cy1kdUtVSEtVSGlrU01Qa0VXNWlWVFh0cnRxclRlbmR3S21McEpLY0hlc2xjWW14b2taYmlVYkZRLWVqUTFvR1dUQnlVSGtvcWxMdWo?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans Congres keurt sancties tegen Rusland goed, maar geeft Trump ook macht over heffingen op Russische olie en gas",
+        "url": "https://vrtnws.be/p.OvXkYkwMO",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump kan Rusland treffen met zware extra sancties, maar of hij dat doet, valt nog te bezien - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQmtwT2lGUzRGNnF4MVhoZUlPczFnVEh5a2tPcFNhRk85RUZFdHdzUzY1eFBTQ21SLWl4bW9sVFRGQzZYTGxkc1l4di1ETlF1UjRFaHJXZVpuWGFnVUFNanRtdUJCQThaVW9nRUZTWmZ4bDljbHBHMWQ2dnU0Z3ZyWVA1Z2w3aUNLdnQ0NUlKYTV5aTl0cV9rakc0bi1GYndFaVBFMHVhb3hfRnlTbUZ3WkZQZGJidTIxQS1YWmNYZV9tUFhmSDZ1Y3RvODNFWDA5N3R1cEtMWHE?oc=5",
+        "source": "standaard",
+        "name_only": true
       },
       {
         "title": "Met een ware Blauwe Golf hopen de Democraten Trump lam te leggen – al wordt het in de Senaat nog heel spannend - De Standaard",
@@ -94932,14 +95112,20 @@
         "name_only": true
       },
       {
-        "title": "“Hij vindt dit niet belachelijk, maar vreest net voor partnerschappen”, Trump dreigt alle handel met EU stop te zetten na uitspraken Von der Leyen",
-        "url": "https://www.hln.be/economie/hij-vindt-dit-niet-belachelijk-maar-vreest-net-voor-partnerschappen-trump-dreigt-alle-handel-met-eu-stop-te-zetten-na-uitspraken-von-der-leyen~ab5735cd/",
+        "title": "Trump zegt dat hij voor belangrijke beslissing staat over Iran: “Wil ik ingrijpen en hen vernietigen of niet?”",
+        "url": "https://www.hln.be/buitenland/trump-zegt-dat-hij-voor-belangrijke-beslissing-staat-over-iran-wil-ik-ingrijpen-en-hen-vernietigen-of-niet~a99e0324/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "▶ Canadees premier Mark Carney spreekt om 11.30 uur Europees Parlement toe, ondanks dreigement van Trump over ‘lachwekkende’ toenadering",
-        "url": "https://www.demorgen.be/nieuws/canadees-premier-mark-carney-spreekt-om-11-30-uur-europees-parlement-toe-ondanks-dreigement-van-trump-over-lachwekkende-toenadering~b8972c58/",
+        "title": "Live - Trump zinspeelt op grote escalatie oorlog Iran: ‘Ik sta voor een belangrijke beslissing’",
+        "url": "https://www.demorgen.be/snelnieuws/live-china-vraagt-iran-om-houthi-s-in-toom-te-houden-na-verovering-van-bab-al-mandeb-zeestraat-en-opmars-tegen-saudi-arabie~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Dan toch niet zo onverslaanbaar als Trump hoopt: inspectie Pentagon meldt munitietekort, verwoeste basissen en logistieke problemen",
+        "url": "https://www.demorgen.be/nieuws/dan-toch-niet-zo-onverslaanbaar-als-trump-hoopt-inspectie-pentagon-meldt-munitietekort-verwoeste-basissen-en-logistieke-problemen~bec73da7/",
         "source": "demorgen",
         "name_only": true
       },
@@ -94950,33 +95136,75 @@
         "name_only": true
       },
       {
-        "title": "LIVE VS. Trump dreigt handel met EU volledig stop te zetten na “belachelijke” uitspraken Von der Leyen",
-        "url": "https://www.gva.be/buitenland/live-vs.-trump-dreigt-handel-met-eu-volledig-stop-te-zetten-na-belachelijke-uitspraken-von-der-leyen/76845705.html",
+        "title": "Fed-voorzitter Kevin Warsh laat zien dat hij niet bang is van Trump en verhoogt rente tot 4 procent",
+        "url": "https://www.demorgen.be/nieuws/fed-voorzitter-kevin-warsh-laat-zien-dat-hij-niet-bang-is-van-trump-en-verhoogt-rente-tot-4-procent~b71816d4/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Zara Larsson hekelt gebruik van haar nummer bij deportatievideo Witte Huis: \"Vreselijk verdrietig\"",
+        "url": "https://www.nieuwsblad.be/media-en-cultuur/bv-en-co/zara-larsson-hekelt-gebruik-van-haar-nummer-bij-deportatievideo-witte-huis-vreselijk-verdrietig/161619159.html",
+        "source": "nieuwsblad",
+        "name_only": false
+      },
+      {
+        "title": "Zara Larsson hekelt gebruik van haar nummer bij deportatievideo Witte Huis: \"Vreselijk verdrietig\"",
+        "url": "https://www.gva.be/media-en-cultuur/bv-en-co/zara-larsson-hekelt-gebruik-van-haar-nummer-bij-deportatievideo-witte-huis-vreselijk-verdrietig/161620487.html",
         "source": "gva",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "LIVE VS. Trump dreigt handel met EU volledig stop te zetten na “belachelijke” uitspraken Von der Leyen",
-        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-dreigt-handel-met-eu-volledig-stop-te-zetten-na-belachelijke-uitspraken-von-der-leyen/151623011.html",
+        "title": "Zara Larsson hekelt gebruik van haar nummer bij deportatievideo Witte Huis: \"Vreselijk verdrietig\"",
+        "url": "https://www.hbvl.be/media-en-cultuur/bv-en-co/zara-larsson-hekelt-gebruik-van-haar-nummer-bij-deportatievideo-witte-huis-vreselijk-verdrietig/161620488.html",
         "source": "hbvl",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "Live President Trump: Amerikaanse centrale bank verhoogt rente tegen wens van Trump in - Knack",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYjhWWXVkUGtRMHZOUjF2YXUxTFA5ZVI0OU93Nnh1cGVjZkZ1dkpNN1VZSHFnYUlUYzNIMWdkUnNfRXJzV3RYbGtxRmFiRUlpVzM2dnNxTU1NWlRuMXRfeUg2N2ZrVllMREdWenRPczl6dlFWV29UQm0xQV9OTkZkcGxOQ2dVeWNob3M1d0NBeDB1SFlPVk5KU2t5SWRYNllsdW96NVo0X1o2cWpYNU5kYnE0bUVUUFk4YnEyOFhtZEUxT2sxSUc2VWthVHRYeVFYX3dRZGJ1R182c0E?oc=5",
-        "source": "knack",
-        "name_only": true
-      },
-      {
-        "title": "Rapprochement Union européenne – Canada : Donald Trump menace d’arrêter les échanges commerciaux avec l’UE",
-        "url": "https://www.rtbf.be/article/rapprochement-union-europeenne-canada-donald-trump-menace-d-arreter-les-echanges-commerciaux-avec-l-ue-11786370",
+        "title": "Le rapprochement entre le Canada et l’Europe, un outil de résistance face à Trump ? \"Ce serait enfin la preuve d’une riposte contre ces attaques répétées des États-Unis\"",
+        "url": "https://www.rtbf.be/article/le-rapprochement-entre-le-canada-et-l-europe-un-outil-de-resistance-face-a-trump-ce-serait-enfin-la-preuve-d-une-riposte-contre-ces-attaques-repetees-des-etats-unis-11786549",
         "source": "rtbf",
         "name_only": true
       },
       {
-        "title": "Le cuivre à des niveaux records : quand la menace Trump redistribue les stocks mondiaux",
-        "url": "https://www.rtbf.be/article/le-cuivre-a-des-niveaux-records-quand-la-menace-trump-redistribue-les-stocks-mondiaux-11786423",
+        "title": "Pourquoi la Réserve fédérale américaine relève ses taux et tient tête à Donald Trump ?",
+        "url": "https://www.rtbf.be/article/pourquoi-la-reserve-federale-americaine-releve-ses-taux-et-tient-tete-a-donald-trump-11786530",
         "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump retire sans explication son candidat au poste de directeur de l'ICE",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/17/donald-trump-retire-sans-explication-son-candidat-au-poste-de-directeur-de-lice-QI2YTJCBBRBOTCE3YVXTFZKFD4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Une étape historique\" : Trump se félicite de \"progrès majeurs\" en vue de la création d'une base américaine en Pologne",
+        "url": "https://www.lalibre.be/international/europe/2026/09/17/une-etape-historique-trump-se-felicite-de-progres-majeurs-en-vue-de-la-creation-dune-base-americaine-en-pologne-IHN6ZMEK7FDLPGKTODDVOPOWHM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La politique de Donald Trump va-t-elle intensifier la guerre dans l’est du Congo ?",
+        "url": "https://www.lalibre.be/international/afrique/2026/09/17/la-politique-de-donald-trump-va-t-elle-intensifier-la-guerre-dans-lest-du-congo-HMB4FMP7VVBATION7JKIGUXKGA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump menace l’Union européenne de “droits de douane très lourds”, en cas d’association avec le Canada",
+        "url": "https://www.lalibre.be/international/europe/2026/09/17/trump-menace-lunion-europeenne-de-droits-de-douane-tres-lourds-en-cas-dassociation-avec-le-canada-6KL6FQSCKVGW7DYQ6TYY43F2ZI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un pari raté pour Donald Trump ? \"Même les gens qu'il nomme ne sont pas prêts à faire n’importe quoi pour lui plaire\"",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/17/cest-un-desaveu-pour-donald-trump-pourquoi-la-decision-de-la-reserve-federale-americaine-est-un-echec-pour-le-president-americain-5HRZZUD2IRBP3I6ZME2BRGGELQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Dites à Donald Trump de se dépêcher\": deux dossiers ultra-sensibles s'invitent au débat entre Bill White et Theo Francken",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/17/deux-dossiers-sensibles-au-coeur-des-discussions-entre-bill-white-et-son-ami-le-tigre-de-belgique-a-bruxelles-SV4DEZABYBA5TABYLAZ6IRMCMA/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -94998,26 +95226,56 @@
         "name_only": true
       },
       {
-        "title": "La première hausse des taux de la Fed en trois ans fait sortir Donald Trump de ses gonds - L'Echo",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQkV6MDFNbGt4TnZGd1MxOW51c3dCNWd2OGoyampHOVU1SFVCdXNYWEJDUDFHMC1SU2NqZEZpdlp5azVLaWp0eTlaaDk1ZWZ2anJKa3FSb192NmlvX1VMZzVhRnh6elFRNjlCOXVDOXNtYlJEZ0lLc1k5bXV1SU01OU0tQmp3ZkZwTkxZVHEyRS12YkNyOTV5TDVpS0l4MnZsN2hiUm9ZaEFjeFdFX1BRMkRVcXB6SnRKQkFPemlILUhmbUp6TklFY2s2TXowcTRNTDFsMHctNlc1XzFEcVJRTHpB?oc=5",
+        "title": "Les cryptomonnaies encaissent l'échec du Clarity Act de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRzBYNDFjRlVsMXExUmNiUk85Sk1QYlVfZDltVkRVcHBtajZueWRwbzJVVEVnd3RzTnJCc1VOMlVGaUpGNFhrZ3dDNkYzWTdKLW05dVRadk0yUkJUMzNNUVM1THh4ZldJS2hWQ21ldTBTel9YdllpWnlkQ1p4RGNaRXhoT3d0U243YzNlZk9vOWNGOXZNRExUUV9MTWh3ZlotWGFra1dsb056TjY4cm1TenBLWnpLRFFnUEhYQjBkMUt6T1JnZ1E?oc=5",
         "source": "lecho",
         "name_only": true
       },
       {
-        "title": "“La proposition de von der Leyen est ridicule”: Trump menace de suspendre tout commerce avec l’UE",
-        "url": "https://www.7sur7.be/monde/la-proposition-de-von-der-leyen-est-ridicule-trump-menace-de-suspendre-tout-commerce-avec-lue~add1fa26/",
+        "title": "La première hausse des taux de la Fed en trois ans fait sortir Donald Trump de ses gonds - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMU1sYXdTVjBWMjRVQW5YODB6ZHJIWmttR0VIRmE2UHRsY0RVVzFtY3ZJSElSS1JNU2NBOUNRclFpY2UwMFZTckJ3Z2xLekNBVDB6S1k1LU5kWTVWWGxHWVhNRUROaXpNdHl4V0NqZHc1cGJjLWtGbmpxN2pKQlp0eVhONTQzMkxOYTBSNTBqbWVqZHhBbmliVHZGR0JqR0hsS0hBYkpHUG4wQk1vbW01a183R3dyOVpsR2hsbFZBbk16cllySXpSSkY2eHE3Z3lkNzlEUjlGVTc?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump retire son candidat au poste de directeur de l'ICE, la police de l'immigration américaine",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/17/donald-trump-retire-son-candidat-au-poste-de-directeur-de-lice-la-police-de-limmigration-americaine-VHLEEY6PNZH33IGBP47ZEVZQMY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"Une étape historique\": Donald Trump se félicite de \"progrès majeurs\" en vue de la création d'une base américaine en Pologne",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/17/une-etape-historique-donald-trump-se-felicite-de-progres-majeurs-en-vue-de-la-creation-dune-base-americaine-en-pologne-QP6BTRXWGJHSJOCAMILZTUACGM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Fait rare de la part de Donald Trump: voici l'honneur que le président américain fera à Xi Jinping lors de sa visite aux USA",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/17/fait-rare-de-la-part-de-donald-trump-voici-lhonneur-que-le-president-americain-fera-a-xi-jinping-lors-de-sa-visite-aux-usa-DUZS65ULOVC33JX2SBXPSWJZAA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un rare honneur: voici comment Donald Trump va accueillir Xi Jinping lors de sa visite à la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/un-rare-honneur-voici-comment-donald-trump-va-accueillir-xi-jinping-lors-de-sa-visite-a-la-maison-blanche~aa9e919e/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "“Baissez les taux, et vite!”: Trump attaque les mesures de la Fed",
-        "url": "https://www.7sur7.be/monde/baissez-les-taux-et-vite-trump-attaque-les-mesures-de-la-fed~a26b3e3b/",
-        "source": "septsursept",
+        "title": "Rapprochement avec le Canada : l’UE réagit aux menaces de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN2tTblZOaGNRa0Q0cmVMbmFVb0R3R2hWVXdWQkRxeEU4bW9NclJwaTh6ZlczMTVXUnd4aVlTUnFRckQ3bks3T281RDRyMFhYNUFhZ0pBMnBvSno0VTV5OUYyV01rMlNxR09IMlVLNWlta2hxVUVlVlZrdmVhTVJYelJXLWxUUnBUNjV1d19QQUhaeUp0SHdSUGlkTk1oZEFzUmxqOXFKbzRNaUFK?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
-        "title": "Trump menace d’arrêter les échanges commerciaux avec l’UE pour ses liens avec le Canada - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRnFYbEYwZW5SRUtBUFRFVFZvWEViZzFpVzhPZlhVSjV4ejFkd0Y1MENTX043a0FUaW5XVGl4MlRhXzRyZ01ScDE5VGJfMUcxaVRKd242QUNVV1BpRWNmaFBpa19XQ05EUVZtWW8tbC00akVWSmFnZEwzUFZPUDFnQVl3cDh3WVM3NThOckpfRm9COEZ2NjR6REtWY2h5clhYZEdobTdpVHdlZnJoTTZqNlFhNF9zYURPTERFVms2U1Vmekxi?oc=5",
+        "title": "« Une étape historique » : Donald Trump se félicite de progrès en vue de la création d’une base américaine en Pologne - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR3J5TmpiRUZLUDdrbDhRcVJjMzV0dDNhTWsxZWZmbUFCZWt4Nk9fLV9kTHRoUU5TUUhwcmtHM3NsUDJWWkhEQS1fYUM5UDQtUHctek9hQ0t5aWZPUENfOFFpcDZxeGcxUGZLbTlpY2VjN2RadURHdzNTVzRBaUZ0U0RBMkFnb1I1V3BMZFlILUM2Z3ZkSmd3WkxEUkVCbk5ac0dsRGF4X09peGJDUVAzVlVJRW8zZTVKQWpkS1JsY0d5UXBw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "A Strasbourg, Mark Carney accueilli en allié face à la tempête Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjNEc29JV0dPRzEzd3J5RFRWRWt2anNjZlhVSlA0eXM1QnNHakxpRmdNRk83RlFFbWpfVENQOTJfZjkxcFFpX3JwYnJOaVFIMFNHOEtydDgtdFloUUQ0OE11eWVOQ1NjVFRDSjF4WV82TkcyQ093VEN0c19Zajh3aC1aR2RfeFoyZXR4OUN5QmNvWEpTb2dBRDc3a0dpWElmZ2lyc3cxM3FsVV9NUFZqNg?oc=5",
         "source": "lesoir_g",
         "name_only": true
       },
@@ -95028,6 +95286,24 @@
         "name_only": true
       },
       {
+        "title": "Projet d'association UE/Canada: Trump menace d'arrêter les échanges avec l'Europe - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPOXY0YlZmSXFZbWIzcHJuTXlBZUUxbFMwVnRmaThvX0dOa25ESHdVeXpzS1cycE9CNXNnSl9fUl9Gakg3eEpFTTk4TXVIRkZXX29jb2g4dDRiZERmM3NRTVRhTDB2dFJOenhaVS0wUlZfU3A2bVBqX2U3Z09NT2Q1NDlVcUkza2xwMVN4bVVUTWRPYm5YUEQxclRoblJpb28zNEZkT1JXVXpQdElSYXA0RXh5RnVEMVJxanFTUjFjYmUxckNDR2NkckVjenVtWENOdHg3VTN2Z1NORTlVOG5Tdl9IdVZVSGY3Z0FGZFU1c19DNU9paG5MenlhaEgwLUE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Les menaces de Donald Trump balayées : le Premier ministre canadien salue « une nouvelle alliance » avec l’Union européenne - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeXRoZFozUGZ2VVFyZ0FnTjBCR0luY3d2SjYtMHJzMENPMkhua0RhSGh4akJTV1BYLUtyMHo2R3BWTW93Umt4S1U4d0ZpbTNnbnZiX1Atd2dQWmxoN0l4cGdxZlhVQjNfdk1PZVJwTmVPcWoyYXBtNFBxT2ZKRVZGckFzN0NvZ3J4ZFVIWHpsa2ZTSU00TmJaTFFOTnZuOVpvS3pzNjJjejVtdG8xX0VTd2g4cW9lSHVxTFpMRXdOcWZKbTEtYmc?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Détruire un bâtiment emblématique de Washington ? Donald Trump y songe vraiment, des photos choc publiées - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUk1XQU1qLTNFWnhadndmT0xqS1JwWHFHYXN1WDlzR2luSEpCWDM4ektKTnFGeG1sQm9nMEVUdmJLVS1GVldyX2RsWlNXd1hfZllDV0pWSUZQRHJPY2VGWF9jSzVPYktWV2dQYmwwaFBmZmJ3MEVqSF9hNGVuVklBdGNtOU9YcGwteWcxaEhwdVJmX0gtM05abDVsYUF2akxTVGhEMkF3eTd5Q0xYejlvTF80VXBmaUFfOVNNVUFZVWdrT0xRRGp1dVozaU9SUkFmY3pQclB1Nm9sOTYzSHdPQQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
         "title": "« Je trouve cela ridicule » : Trump menace l’UE après son projet avec le Canada - RTL Info",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRDZkZlBYNGh4QkVOMHoyUGxLZUdRcWJQMWhqRFA0TnlYU1ZzYWFWb3F3Ujh4Zk5jY3RzZHE0anZaZzVtdGktSnZJY3lpMXl2bzhRRlJld3FUanBPUUNRWm5QZUxHVW11a0RDSEZ1ZGw3WHU3cTAzSmwybElxazJCQklETUVOeDN4ZGZVa2lyd0V3elFOMVhJbktYZlNTUmhrcHBhcEszYWVCZldBZC1EakNfOFZ0WllrX1UtN280ZzNOZy1URVNfRDJpY1pRMmQ0Ynl3VkFFNzUzUQ?oc=5",
         "source": "rtl_g",
@@ -95035,74 +95311,74 @@
       }
     ],
     "comparisons": {
-      "trump": 17,
-      "putin": 2,
+      "trump": 33,
+      "putin": 3,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
-      "von_der_leyen": 4,
-      "de_wever": 5,
-      "bouchez": 0,
+      "von_der_leyen": 2,
+      "de_wever": 4,
+      "bouchez": 1,
       "magnette": 1,
       "prevot": 1,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 20,
-      "putin": 2,
+      "trump": 47,
+      "putin": 6,
       "macron": 0,
       "netanyahu": 0,
-      "zelensky": 0,
+      "zelensky": 2,
       "rutte": 0,
-      "von_der_leyen": 6,
-      "de_wever": 8,
-      "bouchez": 0,
-      "magnette": 1,
-      "prevot": 1,
+      "von_der_leyen": 2,
+      "de_wever": 7,
+      "bouchez": 1,
+      "magnette": 2,
+      "prevot": 3,
       "rousseau": 0,
-      "francken": 0,
-      "crevits": 1,
+      "francken": 2,
+      "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 13,
-      "crime": 23,
-      "eu": 37,
-      "politics": 20,
-      "be_gov": 20,
-      "culture": 14,
-      "tech": 21,
-      "economy": 17,
-      "sports": 46,
-      "health": 6,
-      "climate": 1,
-      "migration": 2,
-      "education": 6,
-      "weather": 7
+      "war": 48,
+      "crime": 34,
+      "eu": 56,
+      "politics": 42,
+      "be_gov": 30,
+      "culture": 21,
+      "tech": 23,
+      "economy": 34,
+      "sports": 79,
+      "health": 14,
+      "climate": 10,
+      "migration": 4,
+      "education": 5,
+      "weather": 9
     },
     "wide_themes": {
-      "war": 23,
-      "crime": 32,
-      "eu": 51,
-      "politics": 28,
-      "be_gov": 29,
-      "culture": 17,
-      "tech": 28,
-      "economy": 23,
-      "sports": 65,
-      "health": 9,
-      "climate": 2,
-      "migration": 4,
-      "education": 8,
-      "weather": 9
+      "war": 59,
+      "crime": 49,
+      "eu": 78,
+      "politics": 78,
+      "be_gov": 46,
+      "culture": 25,
+      "tech": 40,
+      "economy": 48,
+      "sports": 118,
+      "health": 17,
+      "climate": 12,
+      "migration": 8,
+      "education": 9,
+      "weather": 12
     }
   }
 ]
