@@ -95380,5 +95380,484 @@
       "education": 9,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-09-18",
+    "generated_at": "2026-09-18T10:28:44+02:00",
+    "last_checked_at": "2026-09-18T10:28:44+02:00",
+    "total_articles": 476,
+    "trump_articles": 3,
+    "percentage": 0.6,
+    "core_percentage": 0.6,
+    "core_percentage_name": 0.6,
+    "trump_articles_expanded": 3,
+    "core_percentage_expanded": 0.6,
+    "indirect_references": 0,
+    "wide_total_articles": 670,
+    "wide_trump_articles": 10,
+    "wide_percentage": 1.5,
+    "wide_trump_articles_expanded": 10,
+    "wide_percentage_expanded": 1.5,
+    "macro_percentage": 1.8,
+    "qualifying_outlets": 24,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 26,
+    "cross_outlet_dup_groups": 13,
+    "cross_outlet_dup_rate": 5.5,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.33,
+    "breadth": 0.12,
+    "deviation": 0.26,
+    "smoothed_pct": 2.14,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 13,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "google_nl_politics": {
+        "fetched": 51,
+        "today": 8,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_nl_tech": {
+        "fetched": 60,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_fr_politics": {
+        "fetched": 33,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 51,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.96
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 53,
+        "kept": 53,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 40,
+        "kept": 38,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 50,
+        "today": 8,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 75,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Saudi-Arabië zucht onder Iraanse drones en Houthivuur, maar Trump schiet “cruciale bondgenoot” nog niet te hulp - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSklxdTcwMzhXQV9ldno5WlkzbmtuWHllcnQ0VWJid0tJN25vU3ltaFJ4c1c5ZkJaaklFR3ZaemxWYnp3MTBOczdLVWpudHNUeVJjZnd4eDZta1BIM1hIVXc0bmNhT2JVdXQ3OVNMSnJXUDAxNERZRVVLZU9GRHpHRjl1TzlJU2VHTVFMR1ZWc2lqZlNEMlV6VUxxd2ZwLUt3Q0pOQThfWHhRLXZncE84dTU5TW1PeXM2LVpWbFJTSzVMSGVTN3Q0MnJDai1WZk84aHVtTUVVMC1WSllzSGtRa0RUZldZbGtEaF8yeGVfaG8?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Pedro Elias en Donald Trump waren al fan, nu is MMA ook in Vlaanderen een van de snelst groeiende sporten: “Het is niet crapuleus, maar een uitlaatklep”",
+        "url": "https://www.hbvl.be/sport/pedro-elias-en-donald-trump-waren-al-fan-nu-is-mma-ook-in-vlaanderen-een-van-de-snelst-groeiende-sporten-het-is-niet-crapuleus-maar-een-uitlaatklep/161604346.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump souhaite « clairement » dialoguer avec la Corée du Nord - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOFRBaDhBMWExcHZyUTc5bTJGY1BsR3lsOXl6MFA0djdfeUtod0VwaVhDQWsyYktiNmZYODRTTDB2b0VzWFVENVB5QmMwdzUwdjdPZlZJWU9MYkFPYndwbXRjaUVWVXlJc3JFOHI4amFGU0JRdm82T0hRUnhxT2lCLVNTM3pyNGJ2WUI3aUFZTEtaRXNzaTN3X2dINXMtVWx4aW1zamxsWjZJaE1xSXFsdURrWGpueUE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Le rapprochement entre le Canada et l’Europe, un outil de résistance face à Trump ? 'Ce serait enfin la preuve d’une riposte contre ces attaques répétées des États-Unis' - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNRjV5ODdfUWV3OFZxOTBZYjVLYTNYZ085RkZjT3ZYM0xMeTJlZnBnU1loS3lGUTZGbE5nZmFQbzJKYTRoS2ltMXBvVjdKWnR4dFFSX3l0TlJtVDRtSnJJREtxekhFb19ENDJ2NExYQ2pPVUNGeEJFSGtDcWJCdmMtdFBLOW9qazVPYUg0UG9xbjM4YnZFUHNZSHJlWG5HMlNpSmpCZURncEpwNm9lZnNkNF9zUzR4dUtVaW9DbzNUVWtURDRaN21qOVIweFRJcHBRbGRHeTZyYnlhMm53dThieVhxY2x1SnJ4NXFzRnBnVGphb3I1YjZjUUxvN2l6SFNxNmxWVWR3YW1vUjlRYktBV0JmbDJOakRLTUoyLUxGanc5RG14WGs1Vg?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Sam Altman en andere techbazen aanwezig op ontmoeting Trump en Xi - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZWRHQnVodlpFSndLYVk5bXFuZWlsazhZTDBKWDdpWjZkVTVhWHFwUjg1dEFET2dTN0xMUFR1NC1tYW4xQm53WndNc3pkcVRFQkh0YlotcWpFTXFmYU5jMlJTSFBGTXEtZU1POTl4YlRHN2dfRW9EYm5WXzZJaGFqY29zYUx2emtCclZOZGVWTHh4MXdRdnhvb0dIM2RUcEdXV3J1akdmSFRzTkU5eUtCWEpTYVRrdw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Volgende week mogelijk eerste ontmoeting tussen presidenten Trump en Rodríguez - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVHB6TnR2NlZnbXlOMi1GVi1rSmFqTnRMYWpEMEItX3RzQ3g4b1lEUXVNLUhRak55NUVGbGNPeGxBYmxxa0t5a3dJUkZnOGsxZmFTU0JaQ1l3eU52dEFwdGhNTkJiMGxXTVAxTDN2VzlpaVhScW1rMDA0NzMtMXVsUnk4aEFRbGhscENaMmhOWVB4THVmb1BzcHBfMGE0VE9rN1NwQ1AtczRWTWlzbFhLR3h5SXJ5SWYteFE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Brandende raffinaderijen zijn slecht nieuws voor dieselrijders, stookoliegebruikers en Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOc0U4ODVzRUluVkhLUEZudEhkenE4NEozYnpYcnJPZTZSMWxzZlVmZXRjNnF5amxrRUpSaWJtdTRNTDcycmNGbHpRWXl3WE5FenB6THBIOFB0Qnh3SlN1WVVCcTRjd2c3ZWFodHNCZG1vc2VEMlhwbEllN1pMSkxMa3lJWE92dkRLRmxobThSU1dkUGZYSHIzTG82c0xtUDdHODEtbE1jaXV5M21uMGQ1ckJURC1wWVprNUVTOVFtcVNSd0I2QlFTSHA0NFdOaUtla3J1NGphTQ?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Pedro Elias en Donald Trump waren al fan, nu is MMA ook in Vlaanderen een van de snelst groeiende sporten: “Het is niet crapuleus, maar een uitlaatklep” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOdk1MckFXeE9aZFZOcndnUDJSYnRaWTF1aFBYRnBHcTdSQUM4RFB3X1ktWWFGLWFIamFrZm9jX3VqRnJrcVh3MlZ3UUFIVFg0QzN3TFRidVJCX1V4NjR2OHNKVUQ2ZHg4ODZiYVJLZWFMUjFQZDA0YnRBZzA2UGc3WUZDeEV1dXYzclNENUhNaGwyNUM0b0EzV3JYNlcxNHZfZkFzWUVvRUpsT1lITVdSNk9OTUVYdWVBVGpCOTZtOVdhdkN4eGJOMEhDNGlERGxfS19IYW9xNUtQLUw5d05obGVxVGVpV0RhV3h1WG5LMmtUSVEzM1JQNnp4cXR4QS12aENKTnZrblBTdENZclNSZUw4U2Y2R01tRVJjcEVPM1p0QnVQamc?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "Au Kenya, la politique sida de l'administration Trump tue déjà - Orange Actualités",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQVE2bU1TZklCTTlmRlZMQzBWZ2t1Vkx3blJjVFI0WmFITDZaaWZyUjk0OEMwTXpHc1I0bUh5eThLcFNpY19fU3FPYkJRMldhTk5PZEdWU3BxUUZBZlREeGNmSnlQOC1scDdmcThUMk0zOWZ2T1IyeE5va05LYXdtb2Y0TWhvUkZwcTJPSXNGazZSSXkyaHNEMGx0MU0zMmdhVndCSWNtTjhINmszc0Jv?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi la Réserve fédérale américaine relève ses taux et tient tête à Donald Trump ? - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzdacDYxWV9NM1lQQlZlS2JKVkVtWmRsT0Z5ZENQelh0Wkc0dkd0VDZEVUhrRENvaDBldmxmcnp0Vk1ZS3BZdmxNOTBjWFJTZkxfMFBkYmNtMEp6RVVwaTZXakhwQWhJWUk4ZjNLMzlDZVA0RHBFdmk4LW8zTGlNcnhuRk1OWVlKcGJ2U2V6dE83QVdJMW5qVE9sMTZRaWFkQ3oyaDFvclUtLUNvSGxvWkVFdFhKb0NjUG1QNmd3?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Saudi-Arabië zucht onder Iraanse drones en Houthivuur, maar Trump schiet “cruciale bondgenoot” nog niet te hulp - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSklxdTcwMzhXQV9ldno5WlkzbmtuWHllcnQ0VWJid0tJN25vU3ltaFJ4c1c5ZkJaaklFR3ZaemxWYnp3MTBOczdLVWpudHNUeVJjZnd4eDZta1BIM1hIVXc0bmNhT2JVdXQ3OVNMSnJXUDAxNERZRVVLZU9GRHpHRjl1TzlJU2VHTVFMR1ZWc2lqZlNEMlV6VUxxd2ZwLUt3Q0pOQThfWHhRLXZncE84dTU5TW1PeXM2LVpWbFJTSzVMSGVTN3Q0MnJDai1WZk84aHVtTUVVMC1WSllzSGtRa0RUZldZbGtEaF8yeGVfaG8?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Pedro Elias en Donald Trump waren al fan, nu is MMA ook in Vlaanderen een van de snelst groeiende sporten: “Het is niet crapuleus, maar een uitlaatklep”",
+        "url": "https://www.hbvl.be/sport/pedro-elias-en-donald-trump-waren-al-fan-nu-is-mma-ook-in-vlaanderen-een-van-de-snelst-groeiende-sporten-het-is-niet-crapuleus-maar-een-uitlaatklep/161604346.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump souhaite « clairement » dialoguer avec la Corée du Nord - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOFRBaDhBMWExcHZyUTc5bTJGY1BsR3lsOXl6MFA0djdfeUtod0VwaVhDQWsyYktiNmZYODRTTDB2b0VzWFVENVB5QmMwdzUwdjdPZlZJWU9MYkFPYndwbXRjaUVWVXlJc3JFOHI4amFGU0JRdm82T0hRUnhxT2lCLVNTM3pyNGJ2WUI3aUFZTEtaRXNzaTN3X2dINXMtVWx4aW1zamxsWjZJaE1xSXFsdURrWGpueUE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 3,
+      "putin": 5,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 2,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 8,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 3,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 2,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 20,
+      "crime": 13,
+      "eu": 17,
+      "politics": 18,
+      "be_gov": 11,
+      "culture": 15,
+      "tech": 9,
+      "economy": 19,
+      "sports": 40,
+      "health": 3,
+      "climate": 12,
+      "migration": 1,
+      "education": 6,
+      "weather": 14
+    },
+    "wide_themes": {
+      "war": 27,
+      "crime": 14,
+      "eu": 27,
+      "politics": 31,
+      "be_gov": 19,
+      "culture": 18,
+      "tech": 13,
+      "economy": 23,
+      "sports": 63,
+      "health": 7,
+      "climate": 15,
+      "migration": 1,
+      "education": 6,
+      "weather": 19
+    }
   }
 ]
