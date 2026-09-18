@@ -95383,155 +95383,155 @@
   },
   {
     "date": "2026-09-18",
-    "generated_at": "2026-09-18T16:37:43+02:00",
-    "last_checked_at": "2026-09-18T16:37:43+02:00",
-    "total_articles": 765,
-    "trump_articles": 7,
-    "percentage": 0.9,
-    "core_percentage": 0.9,
-    "core_percentage_name": 0.9,
-    "trump_articles_expanded": 9,
-    "core_percentage_expanded": 1.2,
+    "generated_at": "2026-09-18T21:10:23+02:00",
+    "last_checked_at": "2026-09-18T21:10:23+02:00",
+    "total_articles": 917,
+    "trump_articles": 12,
+    "percentage": 1.3,
+    "core_percentage": 1.3,
+    "core_percentage_name": 1.3,
+    "trump_articles_expanded": 14,
+    "core_percentage_expanded": 1.5,
     "indirect_references": 2,
-    "wide_total_articles": 1113,
-    "wide_trump_articles": 17,
-    "wide_percentage": 1.5,
-    "wide_trump_articles_expanded": 19,
-    "wide_percentage_expanded": 1.7,
-    "macro_percentage": 1.7,
-    "qualifying_outlets": 31,
+    "wide_total_articles": 1321,
+    "wide_trump_articles": 24,
+    "wide_percentage": 1.8,
+    "wide_trump_articles_expanded": 26,
+    "wide_percentage_expanded": 2.0,
+    "macro_percentage": 2.3,
+    "qualifying_outlets": 33,
     "core_outlets_total": 19,
     "core_outlets_active": 19,
     "active_core_fraction": 1.0,
-    "cross_outlet_dup_headlines": 59,
-    "cross_outlet_dup_groups": 29,
-    "cross_outlet_dup_rate": 7.7,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Below a normal president's ordinary day.",
-    "rank": 2,
+    "cross_outlet_dup_headlines": 70,
+    "cross_outlet_dup_groups": 35,
+    "cross_outlet_dup_rate": 7.6,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
     "n_people": 17,
-    "dominance": 0.39,
-    "breadth": 0.32,
-    "deviation": 0.38,
-    "smoothed_pct": 2.19,
+    "dominance": 0.63,
+    "breadth": 0.47,
+    "deviation": 0.55,
+    "smoothed_pct": 2.24,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 12,
+    "theme_rank": 10,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 31,
-        "kept": 31,
+        "today": 32,
+        "kept": 32,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.23
+        "share": 3.12
       },
       "google_fr": {
         "fetched": 34,
-        "today": 23,
-        "kept": 23,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.35
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 57,
-        "today": 16,
-        "kept": 15,
+        "fetched": 58,
+        "today": 22,
+        "kept": 22,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 13.33
+        "share": 9.09
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 41,
-        "kept": 35,
+        "today": 45,
+        "kept": 39,
         "trump": 3,
         "trump_expanded": 3,
-        "share": 8.57
+        "share": 7.69
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 42,
-        "kept": 36,
+        "today": 47,
+        "kept": 41,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.78
+        "share": 2.44
       },
       "google_nl_tech": {
         "fetched": 57,
-        "today": 23,
-        "kept": 14,
+        "today": 31,
+        "kept": 21,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 38,
-        "kept": 33,
+        "today": 42,
+        "kept": 38,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 29,
-        "today": 9,
-        "kept": 9,
+        "fetched": 28,
+        "today": 13,
+        "kept": 13,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 11.11
+        "share": 7.69
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 28,
-        "kept": 26,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 33,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 31,
-        "kept": 27,
+        "today": 34,
+        "kept": 31,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.7
+        "share": 3.23
       },
       "vrt": {
         "fetched": 50,
-        "today": 46,
-        "kept": 46,
+        "today": 47,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 76,
-        "kept": 66,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 95,
+        "kept": 77,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.6
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "demorgen": {
         "fetched": 30,
-        "today": 21,
-        "kept": 21,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.76
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 8.7
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -95545,142 +95545,142 @@
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "knack": {
         "fetched": 100,
-        "today": 49,
-        "kept": 48,
+        "today": 65,
+        "kept": 62,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.08
+        "share": 1.61
       },
       "sporza": {
         "fetched": 20,
-        "today": 19,
-        "kept": 19,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "bruzz": {
-        "fetched": 100,
         "today": 20,
         "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "bruzz": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
       "rtbf": {
         "fetched": 20,
-        "today": 17,
-        "kept": 17,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 64,
-        "kept": 64,
-        "trump": 1,
-        "trump_expanded": 2,
-        "share": 1.56
+        "today": 87,
+        "kept": 87,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 2.3
       },
       "lecho": {
         "fetched": 100,
-        "today": 41,
-        "kept": 39,
+        "today": 64,
+        "kept": 61,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.56
+        "share": 1.64
       },
       "dhnet": {
         "fetched": 100,
         "today": 99,
         "kept": 99,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 2.02
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.01
       },
       "septsursept": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
         "trump": 0,
-        "trump_expanded": 1,
+        "trump_expanded": 0,
         "share": 0.0
       },
       "bx1": {
         "fetched": 10,
         "today": 10,
         "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 48,
-        "kept": 39,
+        "today": 64,
+        "kept": 54,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 52,
-        "kept": 42,
+        "today": 59,
+        "kept": 52,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 25,
-        "kept": 22,
+        "today": 40,
+        "kept": 37,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.55
+        "share": 2.7
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 44,
-        "kept": 44,
+        "today": 56,
+        "kept": 56,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 36,
-        "kept": 31,
+        "today": 50,
+        "kept": 45,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 57,
-        "today": 18,
-        "kept": 9,
+        "fetched": 61,
+        "today": 28,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 71,
-        "today": 20,
-        "kept": 18,
+        "fetched": 69,
+        "today": 28,
+        "kept": 23,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -95709,15 +95709,57 @@
     ],
     "matches": [
       {
+        "title": "Als het niet zijn naam krijgt, wil president Trump het Kennedy Center in Washington slopen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVUZYWDZjX1NkSHlOUTdDSS1CbVNKMU9FOGRfTGhUN05tb2ZLblVVUVFhaEtha09laElVdTNYRVlwd2pVcVczblV2REtGS1pFNHEtRm1SdFQyd2JSRDM1dk1QTldzZG5OOHRYLWNMdnZiUmxpdkllT2dGUkhjcWVTX20xTnVvWlpFN0xXdVdTLXA4bjdESEdDOE1OTEVuUzk4eWhDYkZxSW1jQkotLU03VUJ2TzR5MzVyUE83c2dkdHNjQ0oyemY0eWpTNUJjUWlLUm84cnNoOA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Als het niet zijn naam krijgt, wil Trump het Kennedy Center slopen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdXZENnZ1Y2lyZlZXRVg0LVZzUjF6YmxHSE9Qcmo3VzhjalhfTUJJelR5YzM2OWpYVHpWZEhXZTFRTVRobkJLcHBQS3ZlTGZHc0MwN21ZZEtwSkdaU2VtcGNVVnBWMnBzQzc1a0YwLU5TTkxEN3g1SGNkUjlrMlliYXRmTnRUM1RyQ1N1aWFaQlR4QVhkQjIzMEhDcGotdGljd3VleEdIZ1ZVcVlHazJKQ2M2aUFNazA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Gouverneur Californië onderzoekt ‘noodknop’ voor AI, vindt Trump te laks: “De belangen zijn te groot om af te wachten”",
+        "url": "https://www.hln.be/buitenland/gouverneur-californie-onderzoekt-noodknop-voor-ai-vindt-trump-te-laks-de-belangen-zijn-te-groot-om-af-te-wachten~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Jullie zijn zulke fucking losers’: Zara Larsson woest nadat Witte Huis haar muziek onder ICE-video zet",
+        "url": "https://www.demorgen.be/tv-cultuur/jullie-zijn-zulke-fucking-losers-zara-larsson-woest-nadat-witte-huis-haar-muziek-onder-ice-video-zet~b2f84a8d/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
         "title": "‘Keert de redelijkheid terug? Of wordt het een brute wereldorde, met meer Trump en Poetin?’",
         "url": "https://www.demorgen.be/nieuws/journalist-en-schrijver-marijn-kruk-keert-de-redelijkheid-terug-of-wordt-het-een-brute-wereldorde-met-meer-trump-en-poetin~b0142143/",
         "source": "demorgen",
         "name_only": true
       },
       {
+        "title": "Live - Democratische gouverneur Californië laat ‘kill switch’ voor AI onderzoeken: ‘Trump schiet tekort’",
+        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-regering-trekt-kandidatuur-in-van-onbekende-agent-als-ice-directeur~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Foto uit Air Force One laat niets aan de verbeelding over: als het zijn naam niet krijgt, wil Trump het Kennedy Center slopen",
+        "url": "https://www.hbvl.be/buitenland/foto-uit-air-force-one-laat-niets-aan-de-verbeelding-over-als-het-zijn-naam-niet-krijgt-wil-trump-het-kennedy-center-slopen/161676043.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
         "title": "‘Één middelvinger kan Trump negeren, een gezamenlijke vuist niet’ - Knack",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ0NMbzRSZDdYeEEzdzFGZzVYNWIwUUNMTEVEc042elFGTWxFeVFYalcxVGM3eEZUc29zWU55Umg2YUxvS28ybG12eFNqdm9uZDdiVm1TSjhGZ2hMT0dyWWNVUS0tUlBvemVsZ29WT3BVNkRGTjQwb1piSnQ4SXJLcTlOOC15SmhmTUNIWlJJQWg3dWhOem9PZU1xb25JeXlhYmZtNzN1bUc?oc=5",
         "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Les conseils de Trump ignorés par les Républicains ? Le président semble de plus en plus mis de côté",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/18/les-conseils-de-trump-ignores-par-les-republicains-le-president-semble-de-plus-en-plus-mis-de-cote-DU7AXZDSHZG2XFNSPZ2ETTURYE/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -95733,7 +95775,7 @@
         "name_only": false
       },
       {
-        "title": "Donald Trump menace de sanctionner l'Union européenne après le rapprochement avec le Canada - lecho.be",
+        "title": "Donald Trump menace de sanctionner l'Union européenne après le rapprochement avec le Canada - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTDNJU3ExWTVFYUNfUG9MQXBqNE5oX3dZR3RyTHBOMHlIUVdhcWN3M2VOUE5WbUNLT0NjWUxPQlBVNGM3QnJlV3JPVUJnX3FzY0JqTXlubzhyTjAwdVJfNU5NNXdvX3Q3NEdjUms1cndzOUZSb00ybFdJLWZUczhQTW5nQ0FIb21LUWpZZV9xaWJ0R2l3Z2R0SFVvdy1EUkdCWUdyZDBZZThTMzU1c2FBc2ZERFRsUFJIenVtdjdFYXpHeDZJSGhuRFcyZWt3b2xQemhjQzduMGM2WExIeHRuMEZsc3lFcGdpY0E?oc=5",
         "source": "lecho",
         "name_only": true
@@ -95743,18 +95785,6 @@
         "url": "https://www.dhnet.be/actu/monde/2026/09/18/lemplacement-du-projet-contribue-a-des-effets-negatifs-la-nouvelle-arche-de-trump-fait-encore-parler-Q22TDOBNCZFPTP2PZMDDYZXTOI/",
         "source": "dhnet",
         "name_only": true
-      },
-      {
-        "title": "\"Déshumanisant\" : cette pop star suédoise dénonce l'utilisation d'un de ses morceaux par l'administration Trump dans une vidéo anti-immigration",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/18/deshumanisant-cette-pop-star-suedoise-denonce-lutilisation-dun-de-ses-morceaux-par-ladministration-trump-dans-une-video-anti-immigration-VULZRC5KIJG75MIMM5FKGPEYZE/",
-        "source": "dhnet",
-        "name_only": true
-      },
-      {
-        "title": "“C’est tellement déshumanisant”: Zara Larsson dénonce une vidéo anti-immigration de la Maison-Blanche",
-        "url": "https://www.7sur7.be/people/cest-tellement-deshumanisant-zara-larsson-denonce-une-video-anti-immigration-de-la-maison-blanche~a3a57a71/",
-        "source": "septsursept",
-        "name_only": false
       },
       {
         "title": "Donald Trump souhaite « clairement » dialoguer avec la Corée du Nord - Sudinfo",
@@ -95768,12 +95798,6 @@
         "title": "Zuid-Korea zegt nee tegen Trump en weigert steun voor Iran-oorlog - De Tijd",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOUx0R3B0YUFHUjRobEEwZkktTlNNYTZxX203My1NTVBkSjdtcXhCbmE4aUFSbmhpY2Ftc0UzR1hYU1NZWnJWcmQ2NGZNZER4eDZka3pmb2NLal9DR1c1U1NSQlctdUpjSHNNT1lwLTFQZGREWEJBM1JTaVVmekYtLXJfaGxSMnNmYXNuWGJCSEpXRElhSzcyU1dXVElMMm1XQjFDbF9aYjNfY2h1R2RuY3dyaGJWWllCSU9LTUo4eTQ2MVpKdGd2Tk5RZw?oc=5",
         "source": "google_nl",
-        "name_only": true
-      },
-      {
-        "title": "Le rapprochement entre le Canada et l’Europe, un outil de résistance face à Trump ? 'Ce serait enfin la preuve d’une riposte contre ces attaques répétées des États-Unis' - rtbf.be",
-        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNRjV5ODdfUWV3OFZxOTBZYjVLYTNYZ085RkZjT3ZYM0xMeTJlZnBnU1loS3lGUTZGbE5nZmFQbzJKYTRoS2ltMXBvVjdKWnR4dFFSX3l0TlJtVDRtSnJJREtxekhFb19ENDJ2NExYQ2pPVUNGeEJFSGtDcWJCdmMtdFBLOW9qazVPYUg0UG9xbjM4YnZFUHNZSHJlWG5HMlNpSmpCZURncEpwNm9lZnNkNF9zUzR4dUtVaW9DbzNUVWtURDRaN21qOVIweFRJcHBRbGRHeTZyYnlhMm53dThieVhxY2x1SnJ4NXFzRnBnVGphb3I1YjZjUUxvN2l6SFNxNmxWVWR3YW1vUjlRYktBV0JmbDJOakRLTUoyLUxGanc5RG14WGs1Vg?oc=5",
-        "source": "google_fr",
         "name_only": true
       },
       {
@@ -95795,14 +95819,14 @@
         "name_only": true
       },
       {
-        "title": "Amerikaanse midterms: hoe een kleine verschuiving in het Congres Trump kan afremmen - De Tijd",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeXFFa0JBSHpXZjgyYVpyc2JEZUQwcDZuVE9PYW1BMm81NWJ1Yms0RVA5M3BlZ2RjNk9ycjlpQUpGalFXaUZ4Qmd2dXJTNmF4ZmNQdXRfcjBrRVE1cTlFdFktLVRtU2Jzd0VQS1dKVTRLUWJVVjdTT3hadFFTbVVJR2s1VF9heXZsQm5BTFM2OGxwc1VpSkVoZzQzZHJhSkd3UDhCVEFEYko5R3lqUEdydjFyYTl1dFJoZHRmTXhhd3FacGg4ZnJCbXZycUh6NjR3M1V5RGo5b0RCM28?oc=5",
+        "title": "Saudi-Arabië zucht onder Iraanse drones en Houthivuur, maar Trump schiet “cruciale bondgenoot” nog niet te hulp - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSklxdTcwMzhXQV9ldno5WlkzbmtuWHllcnQ0VWJid0tJN25vU3ltaFJ4c1c5ZkJaaklFR3ZaemxWYnp3MTBOczdLVWpudHNUeVJjZnd4eDZta1BIM1hIVXc0bmNhT2JVdXQ3OVNMSnJXUDAxNERZRVVLZU9GRHpHRjl1TzlJU2VHTVFMR1ZWc2lqZlNEMlV6VUxxd2ZwLUt3Q0pOQThfWHhRLXZncE84dTU5TW1PeXM2LVpWbFJTSzVMSGVTN3Q0MnJDai1WZk84aHVtTUVVMC1WSllzSGtRa0RUZldZbGtEaF8yeGVfaG8?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
       {
-        "title": "Saudi-Arabië zucht onder Iraanse drones en Houthivuur, maar Trump schiet “cruciale bondgenoot” nog niet te hulp - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSklxdTcwMzhXQV9ldno5WlkzbmtuWHllcnQ0VWJid0tJN25vU3ltaFJ4c1c5ZkJaaklFR3ZaemxWYnp3MTBOczdLVWpudHNUeVJjZnd4eDZta1BIM1hIVXc0bmNhT2JVdXQ3OVNMSnJXUDAxNERZRVVLZU9GRHpHRjl1TzlJU2VHTVFMR1ZWc2lqZlNEMlV6VUxxd2ZwLUt3Q0pOQThfWHhRLXZncE84dTU5TW1PeXM2LVpWbFJTSzVMSGVTN3Q0MnJDai1WZk84aHVtTUVVMC1WSllzSGtRa0RUZldZbGtEaF8yeGVfaG8?oc=5",
+        "title": "Amerikaanse midterms: hoe een kleine verschuiving in het Congres Trump kan afremmen - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeXFFa0JBSHpXZjgyYVpyc2JEZUQwcDZuVE9PYW1BMm81NWJ1Yms0RVA5M3BlZ2RjNk9ycjlpQUpGalFXaUZ4Qmd2dXJTNmF4ZmNQdXRfcjBrRVE1cTlFdFktLVRtU2Jzd0VQS1dKVTRLUWJVVjdTT3hadFFTbVVJR2s1VF9heXZsQm5BTFM2OGxwc1VpSkVoZzQzZHJhSkd3UDhCVEFEYko5R3lqUEdydjFyYTl1dFJoZHRmTXhhd3FacGg4ZnJCbXZycUh6NjR3M1V5RGo5b0RCM28?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
@@ -95819,10 +95843,40 @@
         "name_only": true
       },
       {
-        "title": "Pourquoi la Réserve fédérale américaine relève ses taux et tient tête à Donald Trump ? - rtbf.be",
+        "title": "La nouvelle arche de Donald Trump va faire des dégâts à Washington : \"L'emplacement du projet contribue à des effets négatifs\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQb1g0QVFJeTZNXzU5Z3hLQXhib3dPOU13UVVpTW5IV0lGdS1oVUJDTV9fbU9pRmZCdEhrRExnYXRDTjc4RmNwblFCbVFOWDNwTUVWTUhzckJDR3J1VTlSdElmOUhncVplMU90U0F6eGRaczN2VFNvYkZLTFdWaHVOeENnbHRSTS1EOU9WUTVSYWhRTzlybnVUeEVoU0pOeE9iQXhVYjNEdi12WW4wYWxwbkRubW1ub1lqV0JCR0NrWVp4RVZMQUVGamNZMFR4VEVpdHRqSWxXRExXeC1YSXpJRDJoZUpLbUJtTzQwWDdWY1NkalczaGdYMW9xRGlCTGRTUElrakgtRFhzdjl6Q1hrNW5uYnZyb182bmVMTl9UNDZpeDUzaV9IVWtOb1NZVW8?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi la Réserve fédérale américaine relève ses taux et tient tête à Donald Trump ? - RTBF",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzdacDYxWV9NM1lQQlZlS2JKVkVtWmRsT0Z5ZENQelh0Wkc0dkd0VDZEVUhrRENvaDBldmxmcnp0Vk1ZS3BZdmxNOTBjWFJTZkxfMFBkYmNtMEp6RVVwaTZXakhwQWhJWUk4ZjNLMzlDZVA0RHBFdmk4LW8zTGlNcnhuRk1OWVlKcGJ2U2V6dE83QVdJMW5qVE9sMTZRaWFkQ3oyaDFvclUtLUNvSGxvWkVFdFhKb0NjUG1QNmd3?oc=5",
         "source": "google_fr_business",
         "name_only": true
+      },
+      {
+        "title": "Als het niet zijn naam krijgt, wil president Trump het Kennedy Center in Washington slopen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVUZYWDZjX1NkSHlOUTdDSS1CbVNKMU9FOGRfTGhUN05tb2ZLblVVUVFhaEtha09laElVdTNYRVlwd2pVcVczblV2REtGS1pFNHEtRm1SdFQyd2JSRDM1dk1QTldzZG5OOHRYLWNMdnZiUmxpdkllT2dGUkhjcWVTX20xTnVvWlpFN0xXdVdTLXA4bjdESEdDOE1OTEVuUzk4eWhDYkZxSW1jQkotLU03VUJ2TzR5MzVyUE83c2dkdHNjQ0oyemY0eWpTNUJjUWlLUm84cnNoOA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Als het niet zijn naam krijgt, wil Trump het Kennedy Center slopen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdXZENnZ1Y2lyZlZXRVg0LVZzUjF6YmxHSE9Qcmo3VzhjalhfTUJJelR5YzM2OWpYVHpWZEhXZTFRTVRobkJLcHBQS3ZlTGZHc0MwN21ZZEtwSkdaU2VtcGNVVnBWMnBzQzc1a0YwLU5TTkxEN3g1SGNkUjlrMlliYXRmTnRUM1RyQ1N1aWFaQlR4QVhkQjIzMEhDcGotdGljd3VleEdIZ1ZVcVlHazJKQ2M2aUFNazA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Gouverneur Californië onderzoekt ‘noodknop’ voor AI, vindt Trump te laks: “De belangen zijn te groot om af te wachten”",
+        "url": "https://www.hln.be/buitenland/gouverneur-californie-onderzoekt-noodknop-voor-ai-vindt-trump-te-laks-de-belangen-zijn-te-groot-om-af-te-wachten~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Jullie zijn zulke fucking losers’: Zara Larsson woest nadat Witte Huis haar muziek onder ICE-video zet",
+        "url": "https://www.demorgen.be/tv-cultuur/jullie-zijn-zulke-fucking-losers-zara-larsson-woest-nadat-witte-huis-haar-muziek-onder-ice-video-zet~b2f84a8d/",
+        "source": "demorgen",
+        "name_only": false
       },
       {
         "title": "‘Keert de redelijkheid terug? Of wordt het een brute wereldorde, met meer Trump en Poetin?’",
@@ -95831,9 +95885,33 @@
         "name_only": true
       },
       {
+        "title": "Live - Democratische gouverneur Californië laat ‘kill switch’ voor AI onderzoeken: ‘Trump schiet tekort’",
+        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-regering-trekt-kandidatuur-in-van-onbekende-agent-als-ice-directeur~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Foto uit Air Force One laat niets aan de verbeelding over: als het zijn naam niet krijgt, wil Trump het Kennedy Center slopen",
+        "url": "https://www.gva.be/buitenland/foto-uit-air-force-one-laat-niets-aan-de-verbeelding-over-als-het-zijn-naam-niet-krijgt-wil-trump-het-kennedy-center-slopen/161675726.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Foto uit Air Force One laat niets aan de verbeelding over: als het zijn naam niet krijgt, wil Trump het Kennedy Center slopen",
+        "url": "https://www.hbvl.be/buitenland/foto-uit-air-force-one-laat-niets-aan-de-verbeelding-over-als-het-zijn-naam-niet-krijgt-wil-trump-het-kennedy-center-slopen/161676043.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
         "title": "‘Één middelvinger kan Trump negeren, een gezamenlijke vuist niet’ - Knack",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ0NMbzRSZDdYeEEzdzFGZzVYNWIwUUNMTEVEc042elFGTWxFeVFYalcxVGM3eEZUc29zWU55Umg2YUxvS28ybG12eFNqdm9uZDdiVm1TSjhGZ2hMT0dyWWNVUS0tUlBvemVsZ29WT3BVNkRGTjQwb1piSnQ4SXJLcTlOOC15SmhmTUNIWlJJQWg3dWhOem9PZU1xb25JeXlhYmZtNzN1bUc?oc=5",
         "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Les conseils de Trump ignorés par les Républicains ? Le président semble de plus en plus mis de côté",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/18/les-conseils-de-trump-ignores-par-les-republicains-le-president-semble-de-plus-en-plus-mis-de-cote-DU7AXZDSHZG2XFNSPZ2ETTURYE/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -95849,7 +95927,7 @@
         "name_only": false
       },
       {
-        "title": "Donald Trump menace de sanctionner l'Union européenne après le rapprochement avec le Canada - lecho.be",
+        "title": "Donald Trump menace de sanctionner l'Union européenne après le rapprochement avec le Canada - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTDNJU3ExWTVFYUNfUG9MQXBqNE5oX3dZR3RyTHBOMHlIUVdhcWN3M2VOUE5WbUNLT0NjWUxPQlBVNGM3QnJlV3JPVUJnX3FzY0JqTXlubzhyTjAwdVJfNU5NNXdvX3Q3NEdjUms1cndzOUZSb00ybFdJLWZUczhQTW5nQ0FIb21LUWpZZV9xaWJ0R2l3Z2R0SFVvdy1EUkdCWUdyZDBZZThTMzU1c2FBc2ZERFRsUFJIenVtdjdFYXpHeDZJSGhuRFcyZWt3b2xQemhjQzduMGM2WExIeHRuMEZsc3lFcGdpY0E?oc=5",
         "source": "lecho",
         "name_only": true
@@ -95861,16 +95939,10 @@
         "name_only": true
       },
       {
-        "title": "\"Déshumanisant\" : cette pop star suédoise dénonce l'utilisation d'un de ses morceaux par l'administration Trump dans une vidéo anti-immigration",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/18/deshumanisant-cette-pop-star-suedoise-denonce-lutilisation-dun-de-ses-morceaux-par-ladministration-trump-dans-une-video-anti-immigration-VULZRC5KIJG75MIMM5FKGPEYZE/",
-        "source": "dhnet",
+        "title": "Démocratie : “Donald Trump est un symptôme, la maladie, c’est le trumpisme”",
+        "url": "https://bx1.be/categories/news/democratie-donald-trump-est-un-symptome-la-maladie-cest-le-trumpisme/",
+        "source": "bx1",
         "name_only": true
-      },
-      {
-        "title": "“C’est tellement déshumanisant”: Zara Larsson dénonce une vidéo anti-immigration de la Maison-Blanche",
-        "url": "https://www.7sur7.be/people/cest-tellement-deshumanisant-zara-larsson-denonce-une-video-anti-immigration-de-la-maison-blanche~a3a57a71/",
-        "source": "septsursept",
-        "name_only": false
       },
       {
         "title": "Donald Trump souhaite « clairement » dialoguer avec la Corée du Nord - Sudinfo",
@@ -95880,15 +95952,34 @@
       }
     ],
     "comparisons": {
-      "trump": 7,
+      "trump": 12,
       "putin": 12,
-      "macron": 4,
+      "macron": 3,
       "netanyahu": 0,
       "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 0,
+      "de_wever": 2,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 24,
+      "putin": 20,
+      "macron": 4,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 3,
+      "bouchez": 2,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
@@ -95898,56 +95989,37 @@
       "van_peteghem": 0,
       "verlinden": 0
     },
-    "wide_comparisons": {
-      "trump": 17,
-      "putin": 19,
-      "macron": 5,
-      "netanyahu": 0,
-      "zelensky": 0,
-      "rutte": 0,
-      "von_der_leyen": 1,
-      "de_wever": 2,
-      "bouchez": 1,
-      "magnette": 0,
-      "prevot": 0,
-      "rousseau": 0,
-      "francken": 0,
-      "crevits": 4,
-      "jambon": 0,
-      "van_peteghem": 0,
-      "verlinden": 0
-    },
     "themes": {
-      "war": 29,
-      "crime": 35,
-      "eu": 41,
+      "war": 23,
+      "crime": 46,
+      "eu": 54,
       "politics": 27,
-      "be_gov": 13,
-      "culture": 20,
-      "tech": 17,
-      "economy": 28,
-      "sports": 62,
+      "be_gov": 24,
+      "culture": 23,
+      "tech": 24,
+      "economy": 30,
+      "sports": 66,
       "health": 7,
-      "climate": 13,
-      "migration": 4,
-      "education": 6,
-      "weather": 8
+      "climate": 11,
+      "migration": 3,
+      "education": 3,
+      "weather": 11
     },
     "wide_themes": {
-      "war": 50,
-      "crime": 49,
-      "eu": 63,
-      "politics": 47,
-      "be_gov": 20,
-      "culture": 31,
-      "tech": 27,
-      "economy": 39,
-      "sports": 104,
-      "health": 10,
-      "climate": 18,
-      "migration": 5,
-      "education": 9,
-      "weather": 15
+      "war": 44,
+      "crime": 60,
+      "eu": 78,
+      "politics": 46,
+      "be_gov": 32,
+      "culture": 33,
+      "tech": 36,
+      "economy": 42,
+      "sports": 106,
+      "health": 12,
+      "climate": 15,
+      "migration": 4,
+      "education": 6,
+      "weather": 19
     }
   }
 ]
