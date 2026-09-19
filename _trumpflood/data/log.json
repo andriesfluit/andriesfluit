@@ -96024,155 +96024,155 @@
   },
   {
     "date": "2026-09-19",
-    "generated_at": "2026-09-19T10:16:30+02:00",
-    "last_checked_at": "2026-09-19T10:16:30+02:00",
-    "total_articles": 396,
-    "trump_articles": 11,
-    "percentage": 2.8,
-    "core_percentage": 2.8,
-    "core_percentage_name": 2.8,
-    "trump_articles_expanded": 12,
-    "core_percentage_expanded": 3.0,
+    "generated_at": "2026-09-19T15:59:05+02:00",
+    "last_checked_at": "2026-09-19T15:59:05+02:00",
+    "total_articles": 585,
+    "trump_articles": 17,
+    "percentage": 2.9,
+    "core_percentage": 2.9,
+    "core_percentage_name": 2.9,
+    "trump_articles_expanded": 18,
+    "core_percentage_expanded": 3.1,
     "indirect_references": 1,
-    "wide_total_articles": 554,
-    "wide_trump_articles": 19,
-    "wide_percentage": 3.4,
-    "wide_trump_articles_expanded": 20,
-    "wide_percentage_expanded": 3.6,
-    "macro_percentage": 3.3,
-    "qualifying_outlets": 18,
+    "wide_total_articles": 815,
+    "wide_trump_articles": 27,
+    "wide_percentage": 3.3,
+    "wide_trump_articles_expanded": 28,
+    "wide_percentage_expanded": 3.4,
+    "macro_percentage": 4.5,
+    "qualifying_outlets": 24,
     "core_outlets_total": 19,
-    "core_outlets_active": 16,
-    "active_core_fraction": 0.842,
-    "cross_outlet_dup_headlines": 44,
-    "cross_outlet_dup_groups": 22,
-    "cross_outlet_dup_rate": 11.1,
-    "zone": "soaked",
-    "label": "The zone is soaked",
-    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 6.2,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 5.5,
-    "breadth": 0.38,
-    "deviation": 1.24,
-    "smoothed_pct": 2.31,
+    "dominance": 8.5,
+    "breadth": 0.59,
+    "deviation": 1.29,
+    "smoothed_pct": 2.33,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 5,
+    "theme_rank": 7,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 25,
-        "kept": 25,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.0
+        "today": 30,
+        "kept": 29,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.9
       },
       "google_fr": {
         "fetched": 34,
-        "today": 13,
-        "kept": 13,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_politics": {
-        "fetched": 56,
-        "today": 6,
-        "kept": 6,
+        "today": 23,
+        "kept": 23,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 16.67
+        "share": 4.35
+      },
+      "google_nl_politics": {
+        "fetched": 51,
+        "today": 5,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 11,
-        "kept": 6,
+        "today": 18,
+        "kept": 14,
         "trump": 3,
         "trump_expanded": 3,
-        "share": 50.0
+        "share": 21.43
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 14,
-        "kept": 11,
+        "today": 21,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 53,
-        "today": 6,
-        "kept": 3,
+        "fetched": 52,
+        "today": 12,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 17,
-        "kept": 14,
+        "today": 25,
+        "kept": 22,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 27,
-        "today": 5,
-        "kept": 5,
+        "fetched": 29,
+        "today": 9,
+        "kept": 9,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 20.0
+        "share": 11.11
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 9,
-        "kept": 7,
+        "today": 17,
+        "kept": 12,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 28.57
+        "share": 16.67
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 4,
-        "kept": 1,
+        "today": 8,
+        "kept": 5,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 14,
-        "kept": 14,
+        "today": 31,
+        "kept": 31,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 7.14
+        "share": 3.23
       },
       "standaard": {
         "fetched": 100,
-        "today": 63,
-        "kept": 63,
+        "today": 74,
+        "kept": 67,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 3.17
+        "share": 2.99
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "demorgen": {
-        "fetched": 30,
-        "today": 20,
-        "kept": 20,
-        "trump": 1,
-        "trump_expanded": 2,
-        "share": 5.0
+        "fetched": 29,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 8.33
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -96192,85 +96192,101 @@
       },
       "hbvl": {
         "fetched": 50,
-        "today": 49,
-        "kept": 49,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 19,
-        "kept": 19,
+        "today": 25,
+        "kept": 25,
         "trump": 3,
         "trump_expanded": 3,
-        "share": 15.79
+        "share": 12.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 9,
-        "kept": 9,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 7,
-        "kept": 7,
+        "today": 12,
+        "kept": 12,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
       },
       "lalibre": {
         "fetched": 100,
-        "today": 16,
-        "kept": 16,
+        "today": 29,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lecho": {
         "fetched": 100,
-        "today": 24,
-        "kept": 24,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 41,
+        "kept": 40,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.5
       },
       "dhnet": {
         "fetched": 100,
-        "today": 42,
-        "kept": 42,
+        "today": 85,
+        "kept": 85,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 4.76
+        "share": 2.35
       },
       "septsursept": {
         "fetched": 30,
-        "today": 10,
-        "kept": 10,
+        "today": 26,
+        "kept": 26,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 20.0
+        "share": 7.69
       },
       "bx1": {
         "fetched": 10,
-        "today": 1,
-        "kept": 1,
+        "today": 5,
+        "kept": 5,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
         "fetched": 100,
         "today": 3,
         "kept": 3,
@@ -96278,50 +96294,34 @@
         "trump_expanded": 0,
         "share": 0.0
       },
-      "lesoir_g": {
-        "fetched": 100,
-        "today": 17,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "sudinfo_g": {
-        "fetched": 100,
-        "today": 1,
-        "kept": 1,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
       "lavenir_g": {
         "fetched": 100,
-        "today": 16,
-        "kept": 16,
+        "today": 29,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 9,
-        "kept": 9,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "trends_g": {
+        "fetched": 65,
+        "today": 7,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "trends_g": {
-        "fetched": 69,
-        "today": 4,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "tendances_g": {
-        "fetched": 69,
-        "today": 7,
-        "kept": 5,
+        "fetched": 63,
+        "today": 11,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -96356,15 +96356,33 @@
         "name_only": true
       },
       {
-        "title": "Trump kondigt akkoord over Groenland aan - standaard.be",
+        "title": "Trump kondigt akkoord aan over militaire uitbreiding op Groenland - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR2lMXzZieHFoYy1wV2xwZml1eXZEQ2E2MVdGcW9FNlhGTnItUjRFWWU4aWxGUzVwbTk1UVBBb0JBTFNEaGI2WERPSnhyNzcxOVNGZ0dFcnhILTRuYTVNY0ROejhJWDh2TUlHajl0a2FDNFpuWGNNUFhKZnZ3SWtoYnhqZnNqWTdINXExa1F1UEd6S1ByNDl6WGIwNy1VRnhlTjBBSmxyMWZtc0lzVFlCUzdoRHRmNWM?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump kondigt akkoord over Groenland aan - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRTBVaV81ZWd4Q1BHcURnb2NXSmY1OUE2cjV6bXA5NzN4aDJyeUREcWNScFZXeGhRUW1IbGgtQ1o5em1SYUF0N2FyUXZSSTR2SEpHUHYzR0Z2ejlRYlZ5clkwUDVhc3gwWDFwWU5wekN4ckJRd3NQZHk4UFo1d3ZSWTdDa21PNXhIYUlUUTRURzQybEFVQXc?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Trump ontzegt drie nieuwsmedia toegang tot het Witte Huis: “moeilijk een nog dommere beslissing te bedenken” - standaard.be",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQzFLRWdTRlI3OGd4WDJMNTNKTmptcTc0SXZpcW1FcmpBVnVhckU5RTRreFAwUUp3a2tNdjFYNDZkNXdnX1dVLWhyM1ZyWVNKMUxrbUFZU2NHMW5xalczOFVidHVOQ2ZwT3BsM0UzQkNURklKQ01jRVJCMWFzdDZrd3ctZ0ZHajJ5VmVJeFZWWlFCMjlhY1d6S1VXYjVtbTByN2hpcTBGSjBHZGtfV044cHpBdjlyRklxNUdPcDE2dUtTZmJrNlVfSU5sSUdoYVhZZTJRMkwyRWZLV01lTWNCTmo5eXdlOV9Ca1hmSw?oc=5",
-        "source": "standaard",
+        "title": "Heeft Trump nu gewonnen met zijn Groenland-deal? Of hebben de Denen het slimmer gespeeld?",
+        "url": "https://www.hln.be/buitenland/heeft-trump-nu-gewonnen-met-zijn-groenland-deal-of-hebben-de-denen-het-slimmer-gespeeld~a9ed60fb/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Na maanden van dreigementen heeft Trump zijn deal met Denemarken: VS mag militaire aanwezigheid op Groenland fors uitbreiden",
+        "url": "https://www.demorgen.be/nieuws/na-maanden-van-dreigementen-heeft-trump-zijn-deal-met-denemarken-vs-mag-militaire-aanwezigheid-op-groenland-fors-uitbreiden~b86e02a5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump bekent openlijk dat hij de wet overtreedt’: hoe het geld van de superrijken in de Republikeinse campagne belandt",
+        "url": "https://www.demorgen.be/nieuws/trump-bekent-openlijk-dat-hij-de-wet-overtreedt-hoe-het-geld-van-de-superrijken-in-de-republikeinse-campagne-belandt~b8b1787e/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -96374,20 +96392,14 @@
         "name_only": false
       },
       {
-        "title": "Na maanden van dreigementen heeft Trump zijn deal met Denemarken: VS mag militaire aanwezigheid op Groenland fors uitbreiden",
-        "url": "https://www.demorgen.be/nieuws/na-maanden-van-dreigementen-heeft-trump-zijn-deal-met-denemarken-vs-mag-militaire-aanwezigheid-op-groenland-fors-uitbreiden~b86e02a5/",
-        "source": "demorgen",
+        "title": "Akkoord over Groenland? Denemarken poneert verhoogde veiligheid, Trump wil onmiddellijk troepen sturen en claimt vetorecht - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVDZ3OUNpNTd3STM3TUJTN0VOVHNIaHJrQmVVemtCVkFZQVJEdVBrQTJCdF9PU1k3MVljS3FTelFLN3NZandRZ3N3VkxTUUtnRDltLUpwM1NJRW0tZlM5WmQ4ZkZlTEQ4dGVPYUp3eXE2RTViMTVDNWM4Ynp4T05oU2xlSzJBOU40SGhkWFU0cGdmSmVxOHNTN2NyZHhYaURFVVY4S1VUbTFTazJmM3dRZ0ZxR0lVUDh2cGlscXNZUE9ieUt2MkJHci11UDBhdkdFX0NTLU1OWkZfOG50aHlrMXIwa1IzeDhiQkt2Tg?oc=5",
+        "source": "knack",
         "name_only": true
       },
       {
         "title": "Wordt uitgerekend Donald Trump de president die porno in de ban doet? - Knack",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLUo5ZE53d1NtUTJDVzdvRXVaakxjYkJEOURBQ1gtMXVJaDgxYVZDVl8tSFJUSGRBZnRfVFlYa2EwbGlCVm5ITmxfNjJTcUR6R29KZXNnSWo1NlkzYXFYQzRvRXpHYkpLRUVZdmR3a0ZSYU5CX0o3UW5SSFF2YmhTUkhGYzBYbmFXZ3RvMXgxUHJobXBXNUxETHVPbHkwR09DRnBpelBXSQ?oc=5",
-        "source": "knack",
-        "name_only": true
-      },
-      {
-        "title": "Live President Trump: Trump verbiedt ook CNN, MS NOW en Politico de toegang tot het Witte Huis - Knack",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNy16dkVPU1cwZ29MYmJuUERVb1V4VjZBN2dON3V0bWl2c3FWRzhMR1RnZjdGQjEwUzIzazk2cWVZaWZkUjFuSzA1ZUZWdDZsRXJwM010TzUxd0JxWFYtWlhQNmMzOTg0ZmNOY1N6UTEzQkJ4VmRRWE0zVS0zRXotNDktUjJSSWs5WXNOSzFYZE1LMDAwZkNneVBwa0NkVE9DaTlPV013enFpVlRSZllCU0xNbnVyVHphU0pNeVg4amYwcmhrMHlRazJvZDZZRXRKU2FYbE9qNnpJU1A3RFRkRF9wc0U?oc=5",
         "source": "knack",
         "name_only": true
       },
@@ -96398,9 +96410,21 @@
         "name_only": true
       },
       {
-        "title": "Pourquoi le fils de Donald Trump a remboursé les festivités payées par un homme d'affaires russe",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/19/pourquoi-le-fils-de-donald-trump-a-rembourse-les-festivites-payees-par-un-homme-daffaires-russe-E62MFKQ7IVAARKMLXH6PHFFW4Y/",
-        "source": "dhnet",
+        "title": "Accord sur le Groenland : victoire ou \"défaite spectaculaire\" pour Trump?",
+        "url": "https://www.rtbf.be/article/accord-sur-le-groenland-victoire-ou-defaite-spectaculaire-pour-trump-11787594",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump écarte CNN et Politico pour fake news ? Cela fait suite aux révélations embarrassantes de ces médias sur son administration",
+        "url": "https://www.rtbf.be/article/trump-ecarte-cnn-et-politico-pour-fake-news-cela-fait-suite-aux-revelations-embarrassantes-de-ces-medias-sur-son-administration-11787533",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump met la pression sur la Russie avec de nouvelles sanctions - lecho.be",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTTVaQ2F4eHdua1paelRGQ0dJd2FkUThoQVJGMXVjUV91WGNvd3h0X2cxTXhKVjRWNzd6SUhZRTI3azh1MjRDX3BzS05Pb1RpY2NaRVE4bTVLQnQwdjlBVk42bmQ1V2hfR3ZEa2pENnlHT0ZRMERmWW9FdXRiNkdrMXFENEg4N0R5Mmptd2dJRnlGZUFwUmh0TFFtVkU3Ujh0S290Y2ttZHJ5a2w5b1BWWE1mLWRCbXVFcnVaNkl5bmZ4UjdNTnJXNWJmVWZ1TC0xdTV6bDJ3?oc=5",
+        "source": "lecho",
         "name_only": true
       },
       {
@@ -96410,8 +96434,14 @@
         "name_only": true
       },
       {
-        "title": "Nouvelle offensive de Washington: Trump annonce des sanctions massives contre la Russie",
-        "url": "https://www.7sur7.be/monde/nouvelle-offensive-de-washington-trump-annonce-des-sanctions-massives-contre-la-russie~a33fdd82/",
+        "title": "Pourquoi le fils de Donald Trump a remboursé les festivités payées par un homme d'affaires russe",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/19/pourquoi-le-fils-de-donald-trump-a-rembourse-les-festivites-payees-par-un-homme-daffaires-russe-E62MFKQ7IVAARKMLXH6PHFFW4Y/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“C’est révoltant”: chaîne humaine à Washington pour tenter de sauver le Kennedy Center de Trump",
+        "url": "https://www.7sur7.be/monde/cest-revoltant-chaine-humaine-a-washington-pour-tenter-de-sauver-le-kennedy-center-de-trump~a707c61a/",
         "source": "septsursept",
         "name_only": true
       },
@@ -96420,36 +96450,54 @@
         "url": "https://www.7sur7.be/monde/un-controle-permanent-trump-annonce-un-accord-de-defense-avec-le-danemark-et-le-groenland~a269dbab/",
         "source": "septsursept",
         "name_only": true
+      },
+      {
+        "title": "Donald Trump exclut plusieurs médias de la Maison Blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQWdxa2VSNzZjSlFHLTFTOWFnYjJwVWpDY09QLUdWbVZZVWNkVEhnZS1mQzBuUDNUVXA2UnNobmZxTWxLOGxkOTlGa2tQd2dJOV9JZXFLLU40YUZBUmI0eW1rbG8xUlZPMUkwMDlrbUswZUt6bm94cTN6MWVleVJmWTVoWnBzU1Rfc2dnR2N1WmNpbnJ3QXdrOWVjQmMwY1kyc0VKVURIZzZLdV9GM0hJbmRn?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Na maanden van dreigementen: Trump bereikt akkoord met Denemarken over militaire aanwezigheid in Groenland - VRT",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNlZtQkxwTjdDb29ETXhGRC1haGlkVGdSMkJBelJJZnlRaDRwMW1wWkpDTU1ZZU96N3dxS2pKWjdBdFhTNklLbFVlXzJwU205aFhnRHdjQWt3X0U1WVhxWmZybVphclRsSXBCUTBwQVhiMzNXc1dzT2FyV29aYlpDSndjSE5INk9tYU4zOWxoVjlKa1lxVjdQRXYxNUhHNFYzN2ZzMmQ0eHc?oc=5",
+        "title": "‘Trump bekent openlijk dat hij de wet overtreedt’: hoe het geld van de superrijken in de Republikeinse campagne belandt - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMC1PUEd6YzMzcUdhME9sLTFnaHp5ZkJPYjg4LXJmUkpKdEtXVlhwYVR1TVBraUc5MlBRRV9uWEE3N0diSkpXRWlqOWQ4bDZncU5vTUlrbUxqZU1ERGNzNTlEV3d0NE1qLXR2QjZmeWRPNllxV2ItUm9jQlIyeUtEOEM1bTZRbG12UkZ4ZlBfcDM3TTF5cmhtcVRnNlFkZGdOcjFaYl9SQ1ZxRUhIS3FYVmFqbV9YOWVRY3V4WXNoSWVaYl84c3pheE1ONC1CSTMyVi1jQjFvZXQyMi1RNzlzZjhIY2Y5clhtbjZXMVJn?oc=5",
         "source": "google_nl",
         "name_only": true
       },
       {
-        "title": "Trump tekent sanctiewet tegen Rusland, heffingen dreigen voor China en India - NOS",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOakNiQlpfcG9CWU96MW8yY01URUpCMmlYbnBuTmFPX1drc3NHeXNPNHRzaG0tTlZEUVdzam5kaW8zV25NRjVMMXB1bURmX3BpNThpeWNXS1loZkxrbjcwNzM1dzMwRGNkMjNNRlJtcjQ3TGREYTRUSk1faWhDdkJGM3RFeE1ORG9KUmtWS2lfN3c5Sy1mUWZySGpRQTc0cnVWSHNWaUdXLW9iZw?oc=5",
+        "title": "Trump kondigt akkoord aan over militaire uitbreiding op Groenland, Navo reageert tevreden - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM0FSY0NJZEsybU8ycEtibGdqV2FjUm9nU0xEdmIzVWhib3JVN21jVnRXdzlqYV9mRkdvQ3BEMWs4TWxzeTdzeW01enRXeC1hR21RN3FGUmxBRnpETWxiNGczbjZLbjROcXFTajRYVDNjU3Fwb2tZSV9aSWRkQXJncmtFcnZNaU1jc1JHeXRjdDdGYnc0ckpVNjlpd3g5dWhzbFdzdHBMVWtWeE1hOEUzUW1rc0hFeWJRVGFVVEtsc05GLS1sNzBoSzh6THFGR1J4MHQ0SFNB?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Le Danemark salue l’accord « contraignant » avec Donald Trump sur le Groenland - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUjhPMi1QdF9ZNUZydFQ4VlV3dWZsQUt1eWhsMlZMY0djLU5hRndHYXp1N2hNXzJtU0loZXRidjcwR0VkbkJKODM4NlBsX3pzME1RWVJPN0Z2ZFBXUWFTbHhOSnUtOHB3TVN5dmVLNGlwS3N4TzM3cTZ3OVJfRDdZY2k1TGtEaFozOWo0dFhWN2E2VHd4Q0x0X3cxY2Y3YnVFTXc5UnMyNXIxSXJOU1RfRmJyLWVaZV82MF9WVGxB?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump ontzegt drie nieuwsmedia toegang tot het Witte Huis: “moeilijk een nog dommere beslissing te bedenken” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQzFLRWdTRlI3OGd4WDJMNTNKTmptcTc0SXZpcW1FcmpBVnVhckU5RTRreFAwUUp3a2tNdjFYNDZkNXdnX1dVLWhyM1ZyWVNKMUxrbUFZU2NHMW5xalczOFVidHVOQ2ZwT3BsM0UzQkNURklKQ01jRVJCMWFzdDZrd3ctZ0ZHajJ5VmVJeFZWWlFCMjlhY1d6S1VXYjVtbTByN2hpcTBGSjBHZGtfV044cHpBdjlyRklxNUdPcDE2dUtTZmJrNlVfSU5sSUdoYVhZZTJRMkwyRWZLV01lTWNCTmo5eXdlOV9Ca1hmSw?oc=5",
         "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Als de Republikeinse nood het hoogst is, springen superrijken bij: kunnen deze miljardairs de midterms redden voor Donald Trump? - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOT0VkamNVUmJHanlkUGkwU1UwR3hMRmZoVmQyYnVGNWxvd1Btd1h5LWwwQW1oX0g2X0dfMjRnSDBKZGUzVGdpYW1oMFZCMWlHUHhMZ2NpWEJBdnZkNzhtdFhCRmFIVUNjZWE3M0xqdzdnaVpoUXR3TjFnRDdDRThkR2JVSFBJU2UxM04yNTFLZ3FCNlBaTmE3cTJna2VGemxyUlUwSzhIYl9KNjBnbXJ6QmQ3aWNEWEVYTmd3NU13eGhwNUVfYXp4Y3dibkVmYjNLUjFaOEV1bDh6UU05VlBOZ1JHa2hOd3hDNTlfWjRBQjRxSERlREs2dFp3?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump ontzegt drie nieuwsmedia toegang tot het Witte Huis: “Moeilijk om een nog dommere beslissing te bedenken” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVnJFZjVUbmVIQmJIZ2FjSnJyV3k3bnhUT3otUTd4dnZ5eVY3M1JLTXplX2VuQkRSeWVtUGJvbzNSV29QQ3dJQlRTczdSb21VTEhscDFHSmlYVFZmZ3AtR1VlNXJhel9EQjQ3OFd0NWd4a0tMTUo4SGtMZFJqUU1LOHpoWDF4TWwybE9DcnZEMUhXLVU3cG9uNVFkOWFnMG1pckZ3cDNGOXJqOFFqY2dlbjF0Y0U4WW8zSl9CMlF3SXdRazBtUmY2VC1FeGRSRzNHZGxmWVphenJlVFlQVFlkR3hkMG45V2wyTVdYT245Rng?oc=5",
+        "source": "google_nl_world",
         "name_only": true
       },
       {
         "title": "LIVE | VS keuren militaire miljardenverkoop aan Oekraïne goed, Zelenski dankt Trump voor nieuwe sancties Rusland - De Telegraaf",
         "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUFZ5NmRaSVFVaU1KN0s1M21nQThLYkpESmlKMXdULVlNbVBKbUdIUzFOTmtFLU9JYlNqSzFJLVV3UWJyWU4tQlltOFNaRUxpX0twUWx1NnFkSGc4TXVIVDdEbFc0X3M5U1lQd0o0TjA0SDBRYVd0MmZ1bWRwNzZNeE9vT2tfLUZqSTJhdk8zbkF3SEtXSWUxQ1diTGtvanhFcE5vOXQzR1FGQmdRZ0l3NEJacnhyWG1ybmM2TGUzTlZtZXZoZXFncm1Fbjh5ZHByS1JQWVh4a0dzTm9EczZqQlAxZjBjcDVTemc1QzBWR1A?oc=5",
-        "source": "google_nl_world",
-        "name_only": true
-      },
-      {
-        "title": "Live - Trump weert CNN, MS NOW en Politico uit het Witte Huis uit onvrede over hun verslaggeving: ‘Andere fake news-media zullen volgen’ - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPOHBKckc4MER4cGVBd0FUQVlwRl9ENUowTXNvU3FfUXdSdTZvcExRRy1TLW85aF9Hb01kZzROQ2lnejl5RTRZNU8wUHJWWEpDYXZ1S1A3ZU9GZFQ4WDZNUG1PY2U3Sy0wcVFWaFZVWnF0NkNaYUt0N2d2UktpTXAzQ2g1aWtqQVpnRzYwQktPTlFjcm83cFpjZWcwczB3V21mTEMyTms4VnUyOHhfSW50elZKMnR6YmgzUUQzV0R1N2NSTXFGY29mM3AtOEFHbU9FWlRSLWREZEtWNWNSaUt3alBDN0wwWXJxMkN1YXNKNlN6RmJ5akdTWjVZTE84QUN5YWdPbVp3?oc=5",
-        "source": "google_nl_world",
-        "name_only": true
-      },
-      {
-        "title": "Trump zegt dat zijn zoon trouwfeest terugbetaalde aan Russische Poetin-getrouwe: “Volkomen normaal” - standaard.be",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWHd0emNxSGx0X05Ld3hpdXFDcjZlYTRGYm9rWUFrblA0WEJ6dWdfTngzc25JT00xdEUtM09xaTloZEcyQll3WERyaEFsQzEyT1R2OGZUXzZfZXRldmxPeU1oVDFlYXRuREVGbHlRZ0tLbkxVNEJIMS1VRUdPWlB1LTBMMERhTjVxVlktazZKdS13bS1McnVWNGVuUF8yZWJDaUhsNlY1R2xZNWp2cGpyVGRqWHdRNUNIRENVSzNZaF9sS2VGUDVSSEV0dGhnUVJOQlVONVppZG1YNGJ4TlRR?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
@@ -96460,8 +96508,8 @@
         "name_only": true
       },
       {
-        "title": "Invasion de l'Ukraine: Donald Trump impose de nouvelles sanctions contre la Russie - DHnet",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPeGJkcVBTZjVpNUVjT0JZM1VfcHJ1VGlCZUZVX3ZvUVJjS25YUzJJdDl0VXktazlDVUVVRldGU3BxVURIZ3VPeENSSUVOeXhfMUlYRXJTM2JYeHRaazlNUFUxbUFIMDVLakFRbTFmcjI2ZU81eDg1WU9HSzN0aFBnYW5yTjJCb0p3RWhfMGdXcW1OUE5mNlFLUFJMZGR5VnZHLWxKckFrd090RjVKYWVFbWFvckxVQkJwdU1Jbl8ydUs1bExiVWc0cXZxSW5qSWVsbktsWFVpRFBJMjJuSm1OcGlzU1dtQQ?oc=5",
+        "title": "Trump promulgue de nouvelles sanctions contre la Russie - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbWFSaUh6akkxdkd3YlVSTXNWbjFKS0RKb2RzQWpOd2loSVZPQ1NXdmp6QUlFRlJiOHFOWEd1MlpLZUR0QTdMSzF0REotYWVqX0tkWXpMSDJJZmpVMXdLV1BIUV84Nm5rOE5oeWIzMDJ5QjhSd2kwM3lEWU1WdVRDeW5jbU9mVEZ1Y1ozVEkwVG5Uc1dQX3ZrZmhxYWtVU0ZSM2tDZUQzTkpvbTNLWmtVRTBVQ1BwS3dDQWh4NTZBQ3FfWVJwNkotVlVRN2otMVhZYkRKVHdZUnRleWxn?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
@@ -96478,15 +96526,33 @@
         "name_only": true
       },
       {
-        "title": "Trump kondigt akkoord over Groenland aan - standaard.be",
+        "title": "Trump kondigt akkoord aan over militaire uitbreiding op Groenland - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR2lMXzZieHFoYy1wV2xwZml1eXZEQ2E2MVdGcW9FNlhGTnItUjRFWWU4aWxGUzVwbTk1UVBBb0JBTFNEaGI2WERPSnhyNzcxOVNGZ0dFcnhILTRuYTVNY0ROejhJWDh2TUlHajl0a2FDNFpuWGNNUFhKZnZ3SWtoYnhqZnNqWTdINXExa1F1UEd6S1ByNDl6WGIwNy1VRnhlTjBBSmxyMWZtc0lzVFlCUzdoRHRmNWM?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump kondigt akkoord over Groenland aan - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRTBVaV81ZWd4Q1BHcURnb2NXSmY1OUE2cjV6bXA5NzN4aDJyeUREcWNScFZXeGhRUW1IbGgtQ1o5em1SYUF0N2FyUXZSSTR2SEpHUHYzR0Z2ejlRYlZ5clkwUDVhc3gwWDFwWU5wekN4ckJRd3NQZHk4UFo1d3ZSWTdDa21PNXhIYUlUUTRURzQybEFVQXc?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Trump ontzegt drie nieuwsmedia toegang tot het Witte Huis: “moeilijk een nog dommere beslissing te bedenken” - standaard.be",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQzFLRWdTRlI3OGd4WDJMNTNKTmptcTc0SXZpcW1FcmpBVnVhckU5RTRreFAwUUp3a2tNdjFYNDZkNXdnX1dVLWhyM1ZyWVNKMUxrbUFZU2NHMW5xalczOFVidHVOQ2ZwT3BsM0UzQkNURklKQ01jRVJCMWFzdDZrd3ctZ0ZHajJ5VmVJeFZWWlFCMjlhY1d6S1VXYjVtbTByN2hpcTBGSjBHZGtfV044cHpBdjlyRklxNUdPcDE2dUtTZmJrNlVfSU5sSUdoYVhZZTJRMkwyRWZLV01lTWNCTmo5eXdlOV9Ca1hmSw?oc=5",
-        "source": "standaard",
+        "title": "Heeft Trump nu gewonnen met zijn Groenland-deal? Of hebben de Denen het slimmer gespeeld?",
+        "url": "https://www.hln.be/buitenland/heeft-trump-nu-gewonnen-met-zijn-groenland-deal-of-hebben-de-denen-het-slimmer-gespeeld~a9ed60fb/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Na maanden van dreigementen heeft Trump zijn deal met Denemarken: VS mag militaire aanwezigheid op Groenland fors uitbreiden",
+        "url": "https://www.demorgen.be/nieuws/na-maanden-van-dreigementen-heeft-trump-zijn-deal-met-denemarken-vs-mag-militaire-aanwezigheid-op-groenland-fors-uitbreiden~b86e02a5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump bekent openlijk dat hij de wet overtreedt’: hoe het geld van de superrijken in de Republikeinse campagne belandt",
+        "url": "https://www.demorgen.be/nieuws/trump-bekent-openlijk-dat-hij-de-wet-overtreedt-hoe-het-geld-van-de-superrijken-in-de-republikeinse-campagne-belandt~b8b1787e/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -96496,20 +96562,14 @@
         "name_only": false
       },
       {
-        "title": "Na maanden van dreigementen heeft Trump zijn deal met Denemarken: VS mag militaire aanwezigheid op Groenland fors uitbreiden",
-        "url": "https://www.demorgen.be/nieuws/na-maanden-van-dreigementen-heeft-trump-zijn-deal-met-denemarken-vs-mag-militaire-aanwezigheid-op-groenland-fors-uitbreiden~b86e02a5/",
-        "source": "demorgen",
+        "title": "Akkoord over Groenland? Denemarken poneert verhoogde veiligheid, Trump wil onmiddellijk troepen sturen en claimt vetorecht - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVDZ3OUNpNTd3STM3TUJTN0VOVHNIaHJrQmVVemtCVkFZQVJEdVBrQTJCdF9PU1k3MVljS3FTelFLN3NZandRZ3N3VkxTUUtnRDltLUpwM1NJRW0tZlM5WmQ4ZkZlTEQ4dGVPYUp3eXE2RTViMTVDNWM4Ynp4T05oU2xlSzJBOU40SGhkWFU0cGdmSmVxOHNTN2NyZHhYaURFVVY4S1VUbTFTazJmM3dRZ0ZxR0lVUDh2cGlscXNZUE9ieUt2MkJHci11UDBhdkdFX0NTLU1OWkZfOG50aHlrMXIwa1IzeDhiQkt2Tg?oc=5",
+        "source": "knack",
         "name_only": true
       },
       {
         "title": "Wordt uitgerekend Donald Trump de president die porno in de ban doet? - Knack",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLUo5ZE53d1NtUTJDVzdvRXVaakxjYkJEOURBQ1gtMXVJaDgxYVZDVl8tSFJUSGRBZnRfVFlYa2EwbGlCVm5ITmxfNjJTcUR6R29KZXNnSWo1NlkzYXFYQzRvRXpHYkpLRUVZdmR3a0ZSYU5CX0o3UW5SSFF2YmhTUkhGYzBYbmFXZ3RvMXgxUHJobXBXNUxETHVPbHkwR09DRnBpelBXSQ?oc=5",
-        "source": "knack",
-        "name_only": true
-      },
-      {
-        "title": "Live President Trump: Trump verbiedt ook CNN, MS NOW en Politico de toegang tot het Witte Huis - Knack",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNy16dkVPU1cwZ29MYmJuUERVb1V4VjZBN2dON3V0bWl2c3FWRzhMR1RnZjdGQjEwUzIzazk2cWVZaWZkUjFuSzA1ZUZWdDZsRXJwM010TzUxd0JxWFYtWlhQNmMzOTg0ZmNOY1N6UTEzQkJ4VmRRWE0zVS0zRXotNDktUjJSSWs5WXNOSzFYZE1LMDAwZkNneVBwa0NkVE9DaTlPV013enFpVlRSZllCU0xNbnVyVHphU0pNeVg4amYwcmhrMHlRazJvZDZZRXRKU2FYbE9qNnpJU1A3RFRkRF9wc0U?oc=5",
         "source": "knack",
         "name_only": true
       },
@@ -96520,9 +96580,21 @@
         "name_only": true
       },
       {
-        "title": "Pourquoi le fils de Donald Trump a remboursé les festivités payées par un homme d'affaires russe",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/19/pourquoi-le-fils-de-donald-trump-a-rembourse-les-festivites-payees-par-un-homme-daffaires-russe-E62MFKQ7IVAARKMLXH6PHFFW4Y/",
-        "source": "dhnet",
+        "title": "Accord sur le Groenland : victoire ou \"défaite spectaculaire\" pour Trump?",
+        "url": "https://www.rtbf.be/article/accord-sur-le-groenland-victoire-ou-defaite-spectaculaire-pour-trump-11787594",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump écarte CNN et Politico pour fake news ? Cela fait suite aux révélations embarrassantes de ces médias sur son administration",
+        "url": "https://www.rtbf.be/article/trump-ecarte-cnn-et-politico-pour-fake-news-cela-fait-suite-aux-revelations-embarrassantes-de-ces-medias-sur-son-administration-11787533",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump met la pression sur la Russie avec de nouvelles sanctions - lecho.be",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTTVaQ2F4eHdua1paelRGQ0dJd2FkUThoQVJGMXVjUV91WGNvd3h0X2cxTXhKVjRWNzd6SUhZRTI3azh1MjRDX3BzS05Pb1RpY2NaRVE4bTVLQnQwdjlBVk42bmQ1V2hfR3ZEa2pENnlHT0ZRMERmWW9FdXRiNkdrMXFENEg4N0R5Mmptd2dJRnlGZUFwUmh0TFFtVkU3Ujh0S290Y2ttZHJ5a2w5b1BWWE1mLWRCbXVFcnVaNkl5bmZ4UjdNTnJXNWJmVWZ1TC0xdTV6bDJ3?oc=5",
+        "source": "lecho",
         "name_only": true
       },
       {
@@ -96532,8 +96604,14 @@
         "name_only": true
       },
       {
-        "title": "Nouvelle offensive de Washington: Trump annonce des sanctions massives contre la Russie",
-        "url": "https://www.7sur7.be/monde/nouvelle-offensive-de-washington-trump-annonce-des-sanctions-massives-contre-la-russie~a33fdd82/",
+        "title": "Pourquoi le fils de Donald Trump a remboursé les festivités payées par un homme d'affaires russe",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/19/pourquoi-le-fils-de-donald-trump-a-rembourse-les-festivites-payees-par-un-homme-daffaires-russe-E62MFKQ7IVAARKMLXH6PHFFW4Y/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“C’est révoltant”: chaîne humaine à Washington pour tenter de sauver le Kennedy Center de Trump",
+        "url": "https://www.7sur7.be/monde/cest-revoltant-chaine-humaine-a-washington-pour-tenter-de-sauver-le-kennedy-center-de-trump~a707c61a/",
         "source": "septsursept",
         "name_only": true
       },
@@ -96542,14 +96620,39 @@
         "url": "https://www.7sur7.be/monde/un-controle-permanent-trump-annonce-un-accord-de-defense-avec-le-danemark-et-le-groenland~a269dbab/",
         "source": "septsursept",
         "name_only": true
+      },
+      {
+        "title": "Donald Trump exclut plusieurs médias de la Maison Blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQWdxa2VSNzZjSlFHLTFTOWFnYjJwVWpDY09QLUdWbVZZVWNkVEhnZS1mQzBuUDNUVXA2UnNobmZxTWxLOGxkOTlGa2tQd2dJOV9JZXFLLU40YUZBUmI0eW1rbG8xUlZPMUkwMDlrbUswZUt6bm94cTN6MWVleVJmWTVoWnBzU1Rfc2dnR2N1WmNpbnJ3QXdrOWVjQmMwY1kyc0VKVURIZzZLdV9GM0hJbmRn?oc=5",
+        "source": "rtl_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 11,
-      "putin": 0,
+      "trump": 17,
+      "putin": 1,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 27,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
       "de_wever": 1,
@@ -96563,56 +96666,37 @@
       "van_peteghem": 0,
       "verlinden": 0
     },
-    "wide_comparisons": {
-      "trump": 19,
-      "putin": 3,
-      "macron": 1,
-      "netanyahu": 0,
-      "zelensky": 1,
-      "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 2,
-      "bouchez": 0,
-      "magnette": 0,
-      "prevot": 0,
-      "rousseau": 0,
-      "francken": 2,
-      "crevits": 0,
-      "jambon": 0,
-      "van_peteghem": 0,
-      "verlinden": 0
-    },
     "themes": {
-      "war": 18,
-      "crime": 7,
-      "eu": 12,
-      "politics": 8,
-      "be_gov": 7,
-      "culture": 6,
-      "tech": 15,
-      "economy": 3,
-      "sports": 30,
-      "health": 3,
-      "climate": 1,
-      "migration": 1,
-      "education": 6,
-      "weather": 8
+      "war": 28,
+      "crime": 25,
+      "eu": 19,
+      "politics": 18,
+      "be_gov": 13,
+      "culture": 10,
+      "tech": 25,
+      "economy": 9,
+      "sports": 48,
+      "health": 11,
+      "climate": 2,
+      "migration": 0,
+      "education": 7,
+      "weather": 10
     },
     "wide_themes": {
-      "war": 27,
-      "crime": 9,
-      "eu": 16,
-      "politics": 12,
-      "be_gov": 13,
-      "culture": 8,
-      "tech": 25,
-      "economy": 3,
-      "sports": 45,
-      "health": 4,
-      "climate": 2,
-      "migration": 1,
-      "education": 7,
-      "weather": 8
+      "war": 44,
+      "crime": 30,
+      "eu": 31,
+      "politics": 24,
+      "be_gov": 17,
+      "culture": 12,
+      "tech": 36,
+      "economy": 9,
+      "sports": 70,
+      "health": 17,
+      "climate": 5,
+      "migration": 0,
+      "education": 9,
+      "weather": 13
     }
   }
 ]
