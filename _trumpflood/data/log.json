@@ -97288,38 +97288,38 @@
   },
   {
     "date": "2026-09-21",
-    "generated_at": "2026-09-21T11:16:51+02:00",
-    "last_checked_at": "2026-09-21T11:16:51+02:00",
-    "total_articles": 589,
-    "trump_articles": 23,
-    "percentage": 3.9,
-    "core_percentage": 3.9,
-    "core_percentage_name": 3.9,
-    "trump_articles_expanded": 25,
-    "core_percentage_expanded": 4.2,
-    "indirect_references": 2,
-    "wide_total_articles": 784,
-    "wide_trump_articles": 30,
-    "wide_percentage": 3.8,
-    "wide_trump_articles_expanded": 33,
-    "wide_percentage_expanded": 4.2,
-    "macro_percentage": 4.8,
-    "qualifying_outlets": 24,
+    "generated_at": "2026-09-21T18:34:42+02:00",
+    "last_checked_at": "2026-09-21T18:34:42+02:00",
+    "total_articles": 953,
+    "trump_articles": 42,
+    "percentage": 4.4,
+    "core_percentage": 4.4,
+    "core_percentage_name": 4.4,
+    "trump_articles_expanded": 43,
+    "core_percentage_expanded": 4.5,
+    "indirect_references": 1,
+    "wide_total_articles": 1317,
+    "wide_trump_articles": 59,
+    "wide_percentage": 4.5,
+    "wide_trump_articles_expanded": 62,
+    "wide_percentage_expanded": 4.7,
+    "macro_percentage": 4.9,
+    "qualifying_outlets": 31,
     "core_outlets_total": 19,
     "core_outlets_active": 18,
     "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 39,
-    "cross_outlet_dup_groups": 19,
-    "cross_outlet_dup_rate": 6.6,
+    "cross_outlet_dup_headlines": 79,
+    "cross_outlet_dup_groups": 39,
+    "cross_outlet_dup_rate": 8.3,
     "zone": "soaked",
     "label": "The zone is soaked",
     "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.64,
-    "breadth": 0.67,
-    "deviation": 1.66,
-    "smoothed_pct": 2.81,
+    "dominance": 1.83,
+    "breadth": 0.83,
+    "deviation": 1.87,
+    "smoothed_pct": 2.89,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
@@ -97328,115 +97328,115 @@
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 29,
-        "kept": 29,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 6.9
+        "today": 33,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
       },
       "google_fr": {
         "fetched": 34,
-        "today": 20,
-        "kept": 20,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 31,
+        "kept": 31,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 9.68
       },
       "google_nl_politics": {
-        "fetched": 31,
-        "today": 9,
-        "kept": 8,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 12.5
+        "fetched": 41,
+        "today": 23,
+        "kept": 23,
+        "trump": 3,
+        "trump_expanded": 5,
+        "share": 13.04
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 13,
-        "kept": 8,
-        "trump": 0,
+        "today": 30,
+        "kept": 24,
+        "trump": 1,
         "trump_expanded": 1,
-        "share": 0.0
+        "share": 4.17
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 19,
-        "kept": 14,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 14.29
+        "today": 40,
+        "kept": 35,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.86
       },
       "google_nl_tech": {
-        "fetched": 58,
-        "today": 9,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 65,
+        "today": 31,
+        "kept": 26,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.69
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 14,
-        "kept": 11,
+        "today": 32,
+        "kept": 28,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 23,
-        "today": 4,
-        "kept": 4,
+        "fetched": 19,
+        "today": 9,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 11,
-        "kept": 10,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 20.0
+        "today": 31,
+        "kept": 25,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 12.0
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 16,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 22,
-        "kept": 22,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "standaard": {
-        "fetched": 100,
-        "today": 69,
+        "today": 31,
         "kept": 27,
         "trump": 1,
         "trump_expanded": 1,
         "share": 3.7
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 87,
+        "kept": 45,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.22
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
         "trump": 1,
-        "trump_expanded": 2,
+        "trump_expanded": 1,
         "share": 3.33
       },
       "demorgen": {
-        "fetched": 29,
-        "today": 19,
-        "kept": 19,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 15.79
+        "fetched": 30,
+        "today": 25,
+        "kept": 25,
+        "trump": 6,
+        "trump_expanded": 6,
+        "share": 24.0
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -97450,145 +97450,145 @@
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
       },
       "hbvl": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.0
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
       },
       "knack": {
         "fetched": 100,
-        "today": 28,
-        "kept": 26,
+        "today": 66,
+        "kept": 63,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 9,
-        "kept": 9,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 4,
-        "kept": 4,
+        "today": 25,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 17,
-        "kept": 17,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
       },
       "lalibre": {
         "fetched": 100,
-        "today": 41,
-        "kept": 41,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 7.32
+        "today": 88,
+        "kept": 88,
+        "trump": 8,
+        "trump_expanded": 8,
+        "share": 9.09
       },
       "lecho": {
         "fetched": 100,
-        "today": 33,
-        "kept": 33,
-        "trump": 1,
-        "trump_expanded": 2,
-        "share": 3.03
+        "today": 84,
+        "kept": 79,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 2.53
       },
       "dhnet": {
         "fetched": 100,
-        "today": 58,
-        "kept": 58,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 3.45
+        "today": 97,
+        "kept": 97,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 3.09
       },
       "septsursept": {
         "fetched": 30,
-        "today": 28,
-        "kept": 28,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 10.71
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
       },
       "bx1": {
         "fetched": 10,
-        "today": 9,
-        "kept": 9,
+        "today": 10,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 69,
-        "kept": 65,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 3.08
+        "today": 78,
+        "kept": 64,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 7.81
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 49,
-        "kept": 45,
+        "today": 62,
+        "kept": 61,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.22
+        "share": 1.64
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 25,
-        "kept": 23,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 8.7
+        "today": 64,
+        "kept": 60,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 6.67
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 21,
-        "kept": 21,
+        "today": 61,
+        "kept": 61,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 30,
-        "kept": 28,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 10.71
+        "today": 61,
+        "kept": 58,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 6.9
       },
       "trends_g": {
         "fetched": 56,
-        "today": 8,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "tendances_g": {
-        "fetched": 48,
-        "today": 6,
-        "kept": 6,
+        "today": 25,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 75,
+        "today": 36,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
       }
     },
     "core_sources": [
@@ -97614,22 +97614,40 @@
     ],
     "matches": [
       {
-        "title": "Laat de controle over AI niet aan Trump en zijn techbro’s - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjRSN3RuZDVtRzVUSG83YWQ5S180dXlTeWZ3dnZhWGpHbkhzRk1qRFcyS1ZhN2N4UjJfMmFoYlZWcm1qYklWLV81YjBXaDM5TlFCWGZaQURkTFh3aXZJS3VrMGxYUXhyQjlXaVQ0cmx3TmI5TUFJc1FMZmRocHpnVXN0T2pEYjF5R05CWEM2a3d3T2RFRnBXOEFlUkJpbGlEVldkcUtZQQ?oc=5",
+        "title": "Uit solidariteit met CNN: 4 grote zenders weigeren president Trump te filmen",
+        "url": "https://vrtnws.be/p.APXZMXQn6",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Zelfs Saudi-Arabië ervaart nu de onbetrouwbaarheid van Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT3cyLTEyakV1bjBuZnRaU0tESTNVMDZlZWJYZmFfS2RjZXdPeVNGbk1MdVUwazE1UVNlTTdWMmpQYUJseGFVODg4U0JtclpqTkhzTE5mbWN0YnhKQ19DVHZvZzFnVW40R25YVWpYZFZOb3YtUURyMkcxb2l3bmozWGpIZnpGLUdHa2VGZGVDaVphOVlDZDd1T3p6bG9qWUZPcV85VGxtT1lQSGVW?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Trump bereidt zware sancties voor  tegen het Internationaal Strafhof in Den Haag",
-        "url": "https://www.hln.be/buitenland/trump-bereidt-zware-sancties-voor-tegen-het-internationaal-strafhof-in-den-haag~a25fd50a/",
+        "title": "Plots is er geen enkele tv-ploeg meer bij activiteiten van Trump: ook Fox News protesteert mee tegen beslissing om CNN en Politico te weren uit Witte Huis",
+        "url": "https://www.hln.be/buitenland/plots-is-er-geen-enkele-tv-ploeg-meer-bij-activiteiten-van-trump-ook-fox-news-protesteert-mee-tegen-beslissing-om-cnn-en-politico-te-weren-uit-witte-huis~a79c6d94/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "‘Menselijke printer’ Natalie Harp blijkt cruciale rol gespeeld te hebben in bannen van ‘CNN’ uit Witte Huis",
-        "url": "https://www.hln.be/buitenland/menselijke-printer-natalie-harp-blijkt-cruciale-rol-gespeeld-te-hebben-in-bannen-van-cnn-uit-witte-huis~ab407dc6/",
-        "source": "hln",
-        "name_only": false
+        "title": "Vanaf wanneer mag je zeggen dat Trumps roekeloze oorlog in Iran een catastrofe is?",
+        "url": "https://www.demorgen.be/meningen/vanaf-wanneer-mag-je-zeggen-dat-trumps-roekeloze-oorlog-in-iran-een-catastrofe-is~b3c99294/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Kiev: opheffen Europese sancties tegen Russische oligarchen zou ‘onaanvaardbaar’ zijn • ‘Trump wil dat Oekraïne stopt met aanvallen op raffinaderijen’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-wil-dat-oekraine-stopt-met-aanvallen-op-raffinaderijen-partij-poetin-haalt-beste-resultaat-ooit-en-bouwt-meerderheid-in-parlement-nog-uit~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Iraanse luchtvaartmaatschappijen komen vanaf woensdag in problemen door sancties’ • President Jemen vroeg Trump om militaire steun tegen Houthi’s",
+        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-minister-van-financien-iraanse-luchtvaartmaatschappijen-komen-vanaf-woensdag-in-problemen-door-sancties~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
       },
       {
         "title": "Regering-Trump bereidt sancties voor tegen het hele Strafhof in Den Haag",
@@ -97638,26 +97656,50 @@
         "name_only": true
       },
       {
-        "title": "Live - Man zwaargewond nadat ICE-agent hem neerschiet in Texas • CNN uit perspool van Witte Huis gezet voor tv-verslaggeving over Trump",
-        "url": "https://www.demorgen.be/snelnieuws/live-man-zwaargewond-nadat-ice-agent-hem-neerschiet-in-texas-cnn-uit-perspool-van-witte-huis-gezet-voor-tv-verslaggeving-over-trump~b13cc951/",
+        "title": "Live - China bevestigt staatsbezoek president Xi Jinping aan Verenigde Staten • Andere nieuwszenders nemen taken CNN bij Witte Huis niet over: maandag geen opnames bij reis Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-china-bevestigt-staatsbezoek-president-xi-jinping-aan-verenigde-staten-amerikaanse-media-naar-rechter-om-opnieuw-toegang-te-krijgen-tot-witte-huis~b13cc951/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "CNN staat voor een dichte deur van het Witte Huis, volgens Trump produceert de zender voortdurend ‘fictie en leugens’",
-        "url": "https://www.demorgen.be/nieuws/cnn-staat-voor-een-dichte-deur-van-het-witte-huis-volgens-trump-produceert-de-zender-voortdurend-fictie-en-leugens~b94bd8f2/",
+        "title": "Trump kreeg de ene nederlaag na de andere over zich heen. En toen richtte hij zich op een vertrouwd doelwit: de pers",
+        "url": "https://www.demorgen.be/politiek/trump-kreeg-de-ene-nederlaag-na-de-andere-over-zich-heen-en-toen-richtte-hij-zich-op-een-vertrouwd-doelwit-de-pers~b04aa4d8/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "LIVE MIDDEN-OOSTEN. Dan toch niet: twijfelende Trump beslist om Houthi’s (voorlopig) niet aan te vallen",
-        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-dan-toch-niet-twijfelende-trump-beslist-om-houthis-voorlopig-niet-aan-te-vallen/159603018.html",
+        "title": "LIVE VS. Grote tv-netwerken zetten gezamenlijke verslaggeving over president Trump stop",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-grote-tv-netwerken-zetten-gezamenlijke-verslaggeving-over-president-trump-stop/151623011.html",
         "source": "hbvl",
         "name_only": true
       },
       {
-        "title": "Xi Jinping se rendra aux États-Unis pour rencontrer Donald Trump : Pékin veut \"renforcer le dialogue et la coopération\"",
-        "url": "https://www.lalibre.be/international/asie/2026/09/21/xi-jinping-se-rendra-aux-etats-unis-pour-rencontrer-donald-trump-pekin-veut-renforcer-le-dialogue-et-la-cooperation-4LRPR6JZCBC4NOJ6OGBLB2U6QA/",
+        "title": "De gevaren van AI noemt Trump “bedrog”, maar toch wil de VS een directe telefoonlijn met China om incidenten te melden",
+        "url": "https://www.hbvl.be/buitenland/de-gevaren-van-ai-noemt-trump-bedrog-maar-toch-wil-de-vs-een-directe-telefoonlijn-met-china-om-incidenten-te-melden/161778513.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : exclus de la Maison Blanche par Trump, trois médias américains saisissent la justice, les grandes chaînes solidaires",
+        "url": "https://www.rtbf.be/article/etats-unis-exclus-de-la-maison-blanche-par-trump-trois-medias-americains-saisissent-la-justice-les-grandes-chaines-solidaires-11788375",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "En soutien à CNN, quatre chaînes américaines vont cesser de suivre Trump",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/21/en-soutien-a-cnn-quatre-chaines-americaines-vont-cesser-de-suivre-trump-V4GXFOED4ZBZ3KJPIEPRX4MHCA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Voici quand aura lieu la rencontre entre Zelensky et Trump",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/09/21/voici-quand-aura-lieu-la-rencontre-entre-zelensky-et-trump-WF76RYTCPJBOJP4MW227GON2VY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La semaine compliquée de Donald Trump, avec plusieurs épisodes embarrassants : \"Ce fut une série de feux rouges brutaux\"",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/09/21/la-semaine-compliquee-de-donald-trump-avec-plusieurs-episodes-embarrassants-ce-fut-une-serie-de-feux-rouges-brutaux-6H3QJN2GJFFKPGHWUMM5ED5OAE/",
         "source": "lalibre",
         "name_only": true
       },
@@ -97668,14 +97710,32 @@
         "name_only": true
       },
       {
+        "title": "L’appel qui a fait vaciller la stratégie de Donald Trump au Moyen-Orient",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/09/21/lappel-qui-a-fait-vaciller-la-strategie-de-donald-trump-au-moyen-orient-UI5XVLX365DCPK4INIZS6FVULA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le très généreux cadeau de mariage d’un ami russe qui embarrasse la famille Trump",
+        "url": "https://www.lalibre.be/economie/mes-finances/2026/09/21/le-tres-genereux-cadeau-de-mariage-dun-ami-russe-qui-embarrasse-la-famille-trump-ET3RWSOHWZGL3FNIZXVEJ5UEJI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping se rendra aux États-Unis pour rencontrer Donald Trump : Pékin veut \"renforcer le dialogue et la coopération\"",
+        "url": "https://www.lalibre.be/international/asie/2026/09/21/xi-jinping-se-rendra-aux-etats-unis-pour-rencontrer-donald-trump-pekin-veut-renforcer-le-dialogue-et-la-cooperation-4LRPR6JZCBC4NOJ6OGBLB2U6QA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
         "title": "Trump et Macron se retrouvent à New York : quels sujets seront au cœur de leur discussion ?",
         "url": "https://www.lalibre.be/international/2026/09/21/trump-et-macron-se-retrouvent-a-new-york-quels-sujets-seront-au-coeur-de-leur-discussion-RLFVORM7HVHUXGWL5K4ZQNTOII/",
         "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "Xi chez Trump, l'AG de l'ONU, l'Odoo Experience… Les rendez-vous à suivre - L'Echo",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTFpCSVFHXzVJVzhCT1NEaTFTMFN1YUlGbjNFN0Zhc2VlY0t1OXMyM0VKZzFOS0twU09wVDA5aVBfa2k2QkY5NE5UQzBPV1QxS3hER3M1OFR2dDBubThRT29vMG1sRHBjYWQwZC0wY3FNeGxJM2YyVWl6NC1XcjlQM29GNWF5SjZVR2V4cGpQTi0xRFR2LW5fTWJobnJsQThVbkRlckJQazBLaEUxLU5zLXhnMVFMLTZRN0VtdVV5X2VPMzB1MmhNbS1XeXRGVmxWQVZF?oc=5",
+        "title": "Bannis de la Maison-Blanche par Donald Trump, CNN et Politico contre-attaquent - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaENRRG9oM0JjTUNKbjgxZEdQcWJtdTVNMTQ4bDJxQTY0c1hOdzRxTGxCTjE2MU5MZTFsWjhrSktXN3R0T0dDOFdiSW9BU1UyQlhFWmw2LWYtTVF1dGlNUXRjZUxvSWI3QzFwUl9PcUwtRXVOcFBiY0RKTzFSSkxSbFdEVG9YRHJxYWhaNXo1aFpkNGNSeXlRc3NMN2tGZnhMMjNrTFQ3UUczeXRpY05LTGNXX0NpOGd2TnlSdXp0cWFzb25GZVl5OS1OQXpCeW5PSlVjYzhLNkxJTTJVR3JHQVd1QQ?oc=5",
         "source": "lecho",
         "name_only": true
       },
@@ -97686,33 +97746,51 @@
         "name_only": false
       },
       {
-        "title": "Donald Trump rencontrera Emmanuel Macron à New York lundi: qu'est-ce qui est sur la table?",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/21/donald-trump-rencontrera-emmanuel-macron-a-new-york-lundi-quest-ce-qui-est-sur-la-table-VJM3S3DDWBHBZKGLYIDELDBSMM/",
+        "title": "Xi chez Trump, l'AG de l'ONU, l'Odoo Experience… Les rendez-vous à suivre - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTFpCSVFHXzVJVzhCT1NEaTFTMFN1YUlGbjNFN0Zhc2VlY0t1OXMyM0VKZzFOS0twU09wVDA5aVBfa2k2QkY5NE5UQzBPV1QxS3hER3M1OFR2dDBubThRT29vMG1sRHBjYWQwZC0wY3FNeGxJM2YyVWl6NC1XcjlQM29GNWF5SjZVR2V4cGpQTi0xRFR2LW5fTWJobnJsQThVbkRlckJQazBLaEUxLU5zLXhnMVFMLTZRN0VtdVV5X2VPMzB1MmhNbS1XeXRGVmxWQVZF?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "En soutien à CNN, les chaînes américaines CBS, NBC, ABC et Fox cessent de suivre Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/21/en-soutien-a-cnn-les-chaines-americaines-cbs-nbc-abc-et-fox-cessent-de-suivre-trump-D3DPZ3HIV5FN5M4ULOELYCHLMI/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Donald Trump interdit certains médias à la Maison-Blanche mais cela pose plusieurs problèmes",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/21/donald-trump-interdit-certains-medias-a-la-maison-blanche-mais-cela-pose-plusieurs-problemes-O36WTC3AGRCCRJ2S35MASPZ65I/",
+        "title": "\"Une menace pour la sécurité nationale\" : exclus de la Maison Blanche, trois médias américains engagent des poursuites contre l'administration Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/21/trois-medias-poursuivent-ladministration-trump-apres-leur-exclusion-de-la-maison-blanche-M2A2ULMOHFALLBO4XSIDY2KIEM/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "CNN bannie de la Maison-Blanche: le rôle crucial de Natalie Harp, l’assistante personnelle de Donald Trump",
-        "url": "https://www.7sur7.be/monde/cnn-bannie-de-la-maison-blanche-le-role-crucial-de-natalie-harp-lassistante-personnelle-de-donald-trump~ab407dc6/",
+        "title": "Le gouvernement Trump prépare des sanctions contre la CPI",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/21/le-gouvernement-trump-prepare-des-sanctions-contre-la-cpi-6LVAS2MR6VGRZBU6ZGESJ23T7Q/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "En soutien à CNN, quatre chaînes américaines cessent de suivre Trump",
+        "url": "https://www.7sur7.be/monde/en-soutien-a-cnn-quatre-chaines-americaines-cessent-de-suivre-trump~a60d7c1d/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Trump n’a plus de carte à jouer face au tandem Iran-Houthis, et c’est l’économie mondiale qui vacille",
-        "url": "https://www.7sur7.be/monde/trump-na-plus-de-carte-a-jouer-face-au-tandem-iran-houthis-et-cest-leconomie-mondiale-qui-vacille~ada13245/",
+        "title": "Une forteresse en plein Washington? Trump évoque “un complexe militaire doublé d’un arc de triomphe”",
+        "url": "https://www.7sur7.be/monde/une-forteresse-en-plein-washington-trump-evoque-un-complexe-militaire-double-dun-arc-de-triomphe~a8b4d76e/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Menaces d’annexion du Canada, prix du pétrole: Trump et Macron se retrouvent à New York",
-        "url": "https://www.7sur7.be/monde/menaces-dannexion-du-canada-prix-du-petrole-trump-et-macron-se-retrouvent-a-new-york~affc8125/",
-        "source": "septsursept",
+        "title": "Techbazen Altman, Musk en Bezos krijgen plaats aan tafel bij Trump en Xi - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMTl6OXdmMUM4dnl5UFBzSGUtRUp5YmVCS0JlN0c2LWsxZHpiNVZxeF82R3VuUVpGOFBvVE1FV1J3a3lTUHBOdmxuNmNHMUJUVW5yTjdSbGpyeTZpYW5qbnI5ZTFOdW1aZDFubWhtMnJsOWpPVWJoc19JVlc1dXpmTUVieHRoSDlnWDkyZUlpbWFnSlNGTkhsQ0g4eDJXTFBSemVNaWg4VWx2SFN1dnlCWldKcy1FUF81ODBYeVg1eFgzTmV4Z0E?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Olieprijs tuimelt onder 100 dollar na uitspraken van Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQenpIX3IwRVg5SXU5TTZFX2tscXdWSFNtN0piSXVQLXhBRzFURGpEQmpVSkFBQkFJMTYxR2xrd1BRUlZkcXpVQmx3UC1Kd0dMeEs0REgtQ1hZUUxNNkhlNzc5QkI1LUVKVFZmTkNyb0xBN1ZORU55dFZ0NXIzbFdaeFhpT2Frek9MQS16S0NJc3RSNXJwbU40Z2hDUmFFaDRoeWhQdEFVenBIT3ZYT0tPNi1MM3JFWjNrYWlwSExR?oc=5",
+        "source": "detijd_g",
         "name_only": true
       },
       {
@@ -97722,14 +97800,20 @@
         "name_only": true
       },
       {
-        "title": "De week die komt: Trump en Xi, Novo, AB InBev, begroting, VN, Marokko en Leo XIV - De Tijd",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOHlzS1lGN2RvdjF1NTdUamFSSlF1cUlxWHJPTnI0bWZfRlI0cGZfQmNpRzFOSWo1RTNDdVJWMHZFanlOYkQ3UldfQm54eGYyTzV5OThfUGZobVZCRU5MNzdoRXJRR0Vvb0JzOXNQemxEQndGXzBDa3daclFJZU8yaGJ0cVZndHpSME9tRGc4cmNtam4wYUlnb1AtZ3o5dVJES2VuUk5RSXRpelF5ZFhwVzFZZ0lrVnREYzAyTmFBX2lXcXdXZVJvOA?oc=5",
+        "title": "Wat Trump en Xi ook beslissen, Europa dreigt de rekening te betalen - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUFnN3JkTjNFdlFnREZSanJ5a3JIVG1OdjZ3d25jajZiS3FSS2ZudTY4TDAyYXpZUmhwSXZ1dkROVFRiT3JVc0ppMEg5RzJqQjVsbC1nQjMwWlpjNTZqNTFDVVpnalpJYUZqcGY5ejRYMXdkLXdGRGZENlZIcDJkT3pJM1U5Yk1BYWJUR21hQU5iT3AtYTVOaGRNYjhMQk5SZEExWWtUX0tGU2NCQTFlTnl1UVhwbjQ?oc=5",
         "source": "detijd_g",
         "name_only": true
       },
       {
-        "title": "Comment gagner contre Trump sans le laisser perdre - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNElTZ1ZFNTZQcUgzQy04R0xQUUdUQnZEdjdqZmRDc1M5QW1HSjhuenktMldzMkg1b2ptakFRQmZuWk51bzYwdlA4Mi0xYWRMUHhwc1lYWkZTZVAtemF0V3FpYzljcDY3LWlWdnVGS0FHZGxaRGFTM1F2VWRrU2ZrZWxjQjNuOGpHWm1rZTlxdUx6LUVQc1RXV0NLUk1fc00?oc=5",
+        "title": "Techbazen Altman, Musk en Bezos krijgen plaats aan tafel bij Xi en Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZFRGcDFZYldYUkZJRFVoRFY3Y3pBSXpCazJZQ1ZWY1dNc1NfdmRDUHEwUVh2X3VvajRjMTB0d2hMQzRYdFZidHd2ZlllV0dUbFNOVlB5TXhkdDZFQWlSaURoOHZmVXp0M1gwZFJCTy1OSGZ6VHhPZHlrdDBqTklPWmlWLXRvMHlQVXFndXh3M1VxWXQ1R09sTnlWXzNxY0Vpa3JWT0JndUdmRTI0ZnlKdWNTTWpSM1UzY01Fd1hFQQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Les médias CNN, MS NOW, Politico annoncent poursuivre l’administration Trump après leur exclusion de la Maison-Blanche - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcWNxWVlyQ3lrbGVwV0JrWWdrSjNkcE1ESHBzcXdoM2g1cTMwYlM2WkZIdmV2c3hHM2QyU0xDMXJoeUMwX0JnVDBjZmM2bWpyVDFjaDBJZWNTUjVZQWtsNFd2QUI3X3pjN01raTFwVGdCSzFlTFJSODhseUFnVDcycVVKMDlyWUFZczBRX2FvdkdQMFQ2V0wzd2pXSnlBTFJlMlREbkNwMXdPY004UHBKWjZIeS1fYnZHRFJweDZ4enZRWnFVVFE?oc=5",
         "source": "lesoir_g",
         "name_only": true
       },
@@ -97746,8 +97830,26 @@
         "name_only": true
       },
       {
+        "title": "CNN bannie de la Maison-Blanche : quatre médias américains annoncent ne plus couvrir les activités de Donald Trump en soutien à la chaîne - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaFZWXzNHTVJvNmxwRXBRUVVXQU53R3l0bGFwTGhUTkVoejVvU0w2emVheWZ4Q05nLS1OXzVIYk1ETUh6ZzNjRWZ4eGppZld5VDFtMWV5U2hiS0NJZnpqZm1XUjVXNi1CYXNkUE1ubW1yQ1BVOGhmd01McFdLOUJDdzZYaUl0Q2RZZTJmMkFTSmtBeUp3bXV0a1pGdWdBQldlMW9LRHg2d19GWFdUd1pPVlFqV2daU1NoZlBBRGllR01FV3p3?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Trois médias poursuivent l’administration Trump après leur exclusion de la Maison Blanche : « Une procédure judiciaire pour défendre nos droits » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTmJGTmZENkFFTWhCcGN2eHRNWEpFUW52dVowR3FoaGw4REU4VTFpREZkTEc2elZfbW5pYTBTVmp6QWhIVER0Njl3NFVPMmxCWDFrZkdVV1FOQUIwUTRuM1oxVEpiVmxIZlVOcWxwWDlFZTQtQTFuNGZXcE9ZZkdkd20yX2xxVmtmbjl5NkRXREc2dXQ5RHNGallZb1RFQmZvdmJCc3ZoRnFfRUtCMDEtc1c0NkVMWnUxMlF4MVdYQ3BjcG5PNU9RYXhCUzE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
         "title": "IA : les États-Unis proposent un « mécanisme » de dialogue avec la Chine avant le sommet entre Donald Trump et Xi Jinping - RTL Info",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQM1VseDdrbXRSaks5M2ZiTkxTd1FHZnBYUG9YUjh0R1JPbGFyTHBacWtubkxNRFlfNXZ3TE1hYjc5OVl1dnphbVJRQmhjOGlzRWZjTzRKVG5rX0F2dk1xM3BFdzExMjFWSEtSbVpmdkZvaS1zZ3V1TXg3Tld1dzlHWDl6eDhDSTF1OEZ1bnpiSTZacUxrdGFDV1RzUDk1aFYwc1d2bFlBYTJYa3paY01GYkc2YUpxV0x0dFZVak5LaDZhUlpwUXBoMloteVpiOEpPOW1QRW9MdzdzbVdEbUE?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "CNN, MS NOW et Politico attaquent Trump après leur exclusion de la Maison Blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONXAyNEFLTERHNnF6NDZLUEFWU1RLRHN1Um04TmtnaFhLQlZhcU1Laldhd3hjN3NvS3J3TjFSWVBwZ1VvZTkxa0dBM21US0pkakxpRFB3b1RYcWxqUnJzdmRDQjhhWkd2Q0l3UW8xWHQwYl94bS1OMlJJN0lSRmdxQ0NJU1FmSHh3OGROb0RzLTY3MW05TzB3QWo2RFRwRG0tZE1tUTRidm1QVUh0VUdUZDctX0dDdlBCWTRVNFhQOU54ZHZHNDJUWmFBcmJvbzl0YWtkZzRKZ2FwRTVLUmZFQlpEOHA?oc=5",
         "source": "rtl_g",
         "name_only": true
       },
@@ -97762,19 +97864,61 @@
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaVFsUjU5Yk1aMkdIS2VFNXpFVDF1cXEtdEYyZ0dubktLVGR5SDVQVG5nNGpxWXdGOXNzZFMzMlcwTDI1QWktWVFKcnlMME1sNUdTRlN1c2l4X21fR1pjdk81UHlZZU9YTG9kOFBid09RSzJmVUNYWjkyTUZ2M1ozUFhwY1JrM2FaYVlScHlLdXB1aVdtV0JsSFM2TzdYLUZjUlFlNjM2SlVkdjJYYTh0bzkxX0VYWnNnaFQ1dnNSeWpiR0JzbG1rMGVJMTN0VjlxMlhtZw?oc=5",
         "source": "rtl_g",
         "name_only": true
+      },
+      {
+        "title": "Les jeunes talents fuient l'Amérique de Trump, mais la Belgique risque de manquer le coche - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMFFCcmVjN3NBOFpXRGdRczV6S0x1UTJ3bGkwNUtsSktuLW11QkNEOEZwbHVFR0tTZjJjUWZjWGpBcnA2dXM3b3dldEhVU2JvUktCS0NrMzVDeklNa2RfT3FhVXVMdGMxNVFiYUtKWV9OajRFQ2Q1RU9vcmZHVWNvajdtbVl6aVUzdkpsNmhUYkh5UXhwbU1UVDYxR3RuajVPdzJpcnE5Rk03VFpHZ0Y2WVdoRlhkQ01VUFRwSDhIdlo3bVA2VjhJcHUySzk1ZXlyVG1DQg?oc=5",
+        "source": "tendances_g",
+        "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Regering-Trump bereidt sancties voor tegen het hele Strafhof in Den Haag - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObHNqUDI3SlFucGU1Uk9VajdNb0NmbWpPcG1TQUJwS2tuQllUcVVVOEVIakU2TDk0S0J3a3dMYVp4Z01PbTBacTQ1UDlRSXhwcDV2aGYxLXRkU2dEdlJpZWoydlZqZkNmcmZXa254czJtZ0RkZ2l4RkFyZV83WmM2bHBrZWVlRV9kbXVZX0dKT0gtMktuQld5dDlCSWFiUE9vYVBGR3VoZndMeVJ3b2Z4R3FlRQ?oc=5",
+        "title": "Trump kreeg de ene nederlaag na de andere over zich heen. En toen richtte hij zich op een vertrouwd doelwit: de pers - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNczhQTDRTMW5YeDhqM25BM3hHd0xsSU02b1N4c1JiMHAzbFYwUnlGRDBjVmlRNk9BSElqU29LZ19HellkNUZmTW9VTW45ckJWOVRkd1RUUkJDTzNDYzl0eTliZ2otX1MzaWpRbjEwMW5VZE5TMV9SdDNITGV1NFRaNFBFT012Umg5aC1wUFZkMDgwd201WUo0REZRZm91cVNwaHZaYWJOMEZNdUVKc2pHaHcyWGpwc0lBX1FXb2pkVW83ZEZBc0hPR3hJR0lEcmtLZmlYdXVHNkw4NDNWNXppd3JUb1M2WXpfd2JyVF9n?oc=5",
         "source": "google_nl",
         "name_only": true
       },
       {
-        "title": "Groenlanders reageren op deal met Trump: “Ik vrees dat hij nog altijd hoopt dat hij ons kan binnenvallen” - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQU1fVEZEcWRQVEVqbHJSTFptd1k5WUdXeDd0Ry1fX3czb2wya0VTeGR6S0x0WEJENlV6bk1zeG9vSVozeEVhQVpPUzN0VF9JZ2pnc3VMbnN1S3Q1dXFFUmNGN01ldmdzVTlDWDRkRW5QWFFyUVlHT0VpMzAtMkVRM29yeXdIQkZiSkFuZjFrc050WmhaOW5adUtqcjcxb3k3UDNSR09Bd0xSWU1oOG5kNzV0bXFMR3k1WjVsc0xpSUdZRlJDaGNDRHNaZVdFdTJBLWhhdjE2WHBvVWw0TmE5MXpfMHhZc3My?oc=5",
-        "source": "google_nl",
+        "title": "En soutien à CNN, les chaînes américaines CBS, NBC, ABC et Fox cessent de suivre Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV1d1NjRVRUtxQ1dEUzdlNjJVWDVJSTVtb2FqTmN6NXJ5VWd3X2dPMnNxTHlHSk50VUY4U0gyNWtmN291dGZPSDExRkVuOTJTai01ODN6LTRpR2VJRDNraEx6YkdVZElKbzRBR3hiQlRkcnF3TVdabWJqc19TMUladHE0V2xsaThGcTI0ZkZPb0tDRGRRcllSQ09iWkRQOW85cHU5Y1dFMnlRNFNBSGs5TWozdVgwRmpPTEM0WHBhY2s?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "La semaine compliquée de Donald Trump, avec plusieurs épisodes embarrassants : \"Ce fut une série de feux rouges brutaux\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWk4zVUg5ZnFCZTJfdU1XcVhWeEpyVDJCNFB4U29fZUsyQl9CWExoMUQ3VmV3ZC1LSUdsdDBZMmgyY21jbVpEMjNrTF94d0lZMTlKdW45TnozUU8za0RrM2JqZzhLRUxDTzhQZmRPQzNZWnUtZ3ltZV92emNWTXRDOTduRlR2Vjc5MnZXVjBFTThJdlR5djlhcHJRcDdmdWN1QVJCeV91NGo0akFoMmpCZjhTUFdOWnJPVHg3d0ZDZ2hnOXlPMlRoV0dKdjdYcDBkVDRQLVpvcE9DSGt2MnhxUHRrZ25KMmlHeURWaUdUZFpNdDg4bExWbGd6MEoySDh6Z0RXcC1oamVPRTMteFJRUWFBbzFPaW9JR2lLT3lYcEkzM2lrS3lRZ0MtbkMzYnYxemNZcTR5UXQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "L'appel qui a fait vaciller la stratégie de Donald Trump au Moyen-Orient - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQSmU3VXVIRjZqLTVUaVYwYXM2WXVxN2xQRnBTel8tYUxjWkRsamFKRTdkUUR0SGZOWktTc0l3SXA4UVZVc0x4YWZ6OFVBd0hXUWdwSDVsWUlIUUNTNnFXQjZJeWkwUDB0RkpJbFh4d291RXUzZXIxNmdzdHlyS2VCVmRuWnBYLTRCcUlndmtJV3U3T3BFZXB1UFBlTFJOLWt0NW5VT3FSRUJ3aWtPS1RIMENNUFV2ZEJvZUNiLWFHVGhUMTZYaU5MLVNOQzFDUGJzNTRtU3lWMTc3dmlsVXk0ZVRsN1Q2WUNlT1RveUZxWEw5UWJyaHVWaw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaanse tv-zenders staken rapportering Witte Huis uit solidariteit met gebande media - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcHlUSjFtQlh5MkR2ZklIb1g2RFE2Ri1yRzBDSEFIdm9aUlYtS1ZtdFpfWGNBMDdZdW5sWDB0QU11WGFKWFZLUUxDcG5RWXBpYmVvM1g1N3M0d21Qd1ZPOGtiMHhyamd5eFlaNnVWWER5aTNIX0ZicWVKMUhCb1BfOGlIenY4bHNOWUNjM3hOUS0tamg4QjMxNERFVlM5X1htSkZmdHd5ajVJajJ3Mmk1YWUwUl9TdEdETXU5RVJsazJmdXZtX3ZfeVhPelkwNmpoMTQ4RA?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Groenlanders reageren op deal met Trump: “Ik vrees dat hij nog altijd hoopt dat hij ons land kan binnenvallen” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVWgyTDB0anhyWXdjQmV1X0Y3RFd3N05ucFZGYU84N1RDWEp2WkJIV0JHUkV4MUNRTTBoU25JM2xzeUwyaEdvcEViY2hrTDlnN3dGZVRBRXg3WmQtZDBOQWVvRG95bHhROFJGTlRYWW9PWktJQ2RWRmtvUkhoVVFzUW04WmsydVlfaWRUcW44Y0VGZWdfeUJ6anNVQjQ5YjBsT1hLMVUwTGpvMWsteDJtQnh0UUR1ZE9pQ0JKOVN6Q1duOEZKQ0pwQlFITEt3d2JFM2hDc0J4aHF6bVc2Nm84STZNYy0ySFc4MHREcXpFVQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "CNN, Politico en MS Now spannen rechtszaak aan nadat ze werden verbannen uit het Witte Huis - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb0hVNFg5WFBfcThXamZoR0haZGdFY1VpY1R2U3hKSTdVeXRVdWs2QXlZYUNZT1ZXRS1VODJMMzMwTUtkOElWZTBFNDltOGtNaUh2eGI2Z3MtWC1CNFExdUlNLVJyekhyTExHdEliVFQ1czBfTjRYTFViOVZzUmRIRXROeEJPb2w3d1Jtdw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Amerika op kruispunt met Iran: Afshin Ellian over Trump, Vance en IRGC - De Telegraaf",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPWE82akYxcWZMdEJLLVZZckY5R3Vvd0Z0R1N3dUtUX09ZQnZKR2tLUGgyTlZ3Z29FRGpoMktqby1qcXcxZENOQzlwd1JUWk5jcFIwWjVuRFdlRGFrNU0xRkU2enJnbGNQYkpNOXZfT3N2Z0JUUG1FWkpZamNoMDJGR3U5SlJ3Q2FlTzFLYUZCY3BCLTFsSjdXSGI5eFFpenplU0cybUlFOFd3UlpIUWl4RHcxTUxPVjZuT2dQLUxlSnFzaDIzX0NFZ2t0NlJGalZKX3c5RXVKNzBXUEx3M2dCRGlZU2hZZnlIcDlfbzgwWVdpLUdGb2VQLXJqV0NKeEJJSVAtNWl3?oc=5",
+        "source": "google_nl_politics",
         "name_only": true
       },
       {
@@ -97784,52 +97928,88 @@
         "name_only": true
       },
       {
-        "title": "‘Menselijke printer’ Natalie Harp blijkt cruciale rol gespeeld te hebben in bannen van ‘CNN’ uit Witte Huis - HLN",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWlpmNGpuMzE3RVdNc2NqWXV1SzREXzdncmpGbUwyUWRhSzhzQzNFNW9KV2hfNWFqX1hwYzBKbmZkeUNNVzRRYk1uMkg3UndKV1N2LTI1cDg0bDA1eThPQmprY3d6bWwxYVNwelV5UU10V3BhelYtWmNNdUlmb3puYy1SaGVzX1hIOWtjYjRidVQxSHAtTnhBQlg0QlJPNDU5blhoUEVnaGdhNDlxTFhoVkJNR25ZYlJQcENPTFB3UGN6TGtjdlRtclZNWE8ycXItVTBTQmNNdk9jbTQ?oc=5",
+        "title": "Uit solidariteit met CNN weigeren ook zenders CBS, NBC, ABC en Fox activiteiten van president Trump te filmen - VRT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb25hOGk0S0hRRjdzbmJYOGlQdG1NVzFneU8wNWljZTJYaHZjS1V6dmRuN1hlME9yMzQ1aUNvYTAwY1ZldWgyeEVjeVVwQzdPQjVYbXRPV0hlYk1nMnJrUC0tY2N0cVJSVWQtZjI0QmE1MjdSOUo4ZlNPZmdWQmVEcUpjQkFmRTY5WVZuR2JTS0hlb3BvN0YwV2kxX3FxODluc2JyZWstNA?oc=5",
         "source": "google_nl_world",
-        "name_only": false
-      },
-      {
-        "title": "Aan vooravond van historische ontmoeting met Xi, wil Trump de AI-wedloop met China nog versnellen - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZlMydGxaQS16czFLUFVBdUsxa3FraEhyOWRIeXNrekZtYTZEUm9fWkpJckhKUHpsQ2dlMmc0RWxjT1BzVzlVaWJOd2l6SzVuVFNoNG5EQ0ZtX3RuRVNsRndPal84b2VLYnRVWXhxUmVWR1BDdWJfa1o0OWZjSThKX3JjSkxkY0xOQUxFbzdsdkE5NW1XckNKUDRzWGVYN0tFcjg3UXI4QlBMN1hXQ3BFbzhoM1g1eU84cFR2a2FWMU1FYlhvcW5mRHE3ZDVmMW5XbTBiMlpuV1FxX2N2dGh4Mg?oc=5",
-        "source": "google_nl_business",
-        "name_only": true
-      },
-      {
-        "title": "Zelfs Saudi-Arabië ervaart nu de onbetrouwbaarheid van Trump - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT3cyLTEyakV1bjBuZnRaU0tESTNVMDZlZWJYZmFfS2RjZXdPeVNGbk1MdVUwazE1UVNlTTdWMmpQYUJseGFVODg4U0JtclpqTkhzTE5mbWN0YnhKQ19DVHZvZzFnVW40R25YVWpYZFZOb3YtUURyMkcxb2l3bmozWGpIZnpGLUdHa2VGZGVDaVphOVlDZDd1T3p6bG9qWUZPcV85VGxtT1lQSGVW?oc=5",
-        "source": "google_nl_business",
-        "name_only": true
-      },
-      {
-        "title": "Une rencontre entre Emmanuel Macron et Donald Trump prévue ce lundi - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVFk4RmVMRUphRV9mSk9tTUtydEc2TW9mUXFLMGxUdElpZlhWTTVod0FlNko4eFBkZERwWGUtcFZONU4zSXl3Wkl5N3ltZVVYRmVRSXRYb21hajAwS0dxSUpPTXUteTF2TFZNYjVRMHp2SG1VMDhIX0NLRExfem02ay1TX0R1aVdZRW1pTU1qRGQ2cGFjN2dVTDdHeWxBRFBfUmNCbXhQQ0g1X2lEMFZ0Z2NSS3d5dw?oc=5",
-        "source": "google_fr_world",
-        "name_only": true
-      },
-      {
-        "title": "Donald Trump interdit certains médias à la Maison-Blanche mais cela pose plusieurs problèmes - dhnet.be",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZWZNVzdtRXhWMGpwU2tDNjJtd3hkRU9YaGlNaGVKam1FY0VfMnl6bk1pZG9iMENNZk1TMHFGV1VJRkx6eTY1TldfeUhFMXJ2OG5NX1dXYWFqV3ZqeW40LWxqczEzRS1YNnNPa2tiVU40blNzWW5iVU42bjVudWYxbC1WUi13VW10UDktQU1hYzl6R2hpNmtkcHE4clQ1V2ppYWFRajlLWFVSV0M1ZTJnRE9YbFV6SUdpaDZpNmwyTG1SQXBxQXZ6U05obmh3UC1sMEhEUVpqbGRncDQzd1EwZWFQZ0U4djVaSEV4S2drZWEwcC1KWnc?oc=5",
-        "source": "google_fr_world",
         "name_only": true
       },
       {
         "title": "Laat de controle over AI niet aan Trump en zijn techbro’s - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjRSN3RuZDVtRzVUSG83YWQ5S180dXlTeWZ3dnZhWGpHbkhzRk1qRFcyS1ZhN2N4UjJfMmFoYlZWcm1qYklWLV81YjBXaDM5TlFCWGZaQURkTFh3aXZJS3VrMGxYUXhyQjlXaVQ0cmx3TmI5TUFJc1FMZmRocHpnVXN0T2pEYjF5R05CWEM2a3d3T2RFRnBXOEFlUkJpbGlEVldkcUtZQQ?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "De gevaren van AI noemt Trump “bedrog”, maar toch wil de VS een directe telefoonlijn met China om incidenten te melden - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWkRhcVNwWnlvWmIwR2w3ZWlUMUh5MkZDV2hWMGJDU1o3NzU3VEUzQ2h5YkVUT05HNzZ2MG1RM3phOUhZdnpwLWlGME9OcV9PZ0hkRGxOS1B6Tm9aV0Z5eWNPbllKQWRBTDJiaWl1YzRFVFlldnRDT3lQTm0wWTEzTFBUaTVQUkhST09ydHRieTRSeWZlTjlBY1NKV09vcGUwSzZEc05ueGNZWmdCQ2dERkcyUVVvZl96Zm1lV0ViVWozRmtCZEpoamFwZVZSa0stMm9IVTZoR0N0VFB2OHB1ZWZyRzJYb1h3VkEwTTM3WWY5MGh6NzlROFBPVQ?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "Aan vooravond van historische ontmoeting met Xi, wil Trump de AI-wedloop met China nog versnellen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZlMydGxaQS16czFLUFVBdUsxa3FraEhyOWRIeXNrekZtYTZEUm9fWkpJckhKUHpsQ2dlMmc0RWxjT1BzVzlVaWJOd2l6SzVuVFNoNG5EQ0ZtX3RuRVNsRndPal84b2VLYnRVWXhxUmVWR1BDdWJfa1o0OWZjSThKX3JjSkxkY0xOQUxFbzdsdkE5NW1XckNKUDRzWGVYN0tFcjg3UXI4QlBMN1hXQ3BFbzhoM1g1eU84cFR2a2FWMU1FYlhvcW5mRHE3ZDVmMW5XbTBiMlpuV1FxX2N2dGh4Mg?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "Reporters - ICE, Trump et l'Afrique : accords secrets, vies sacrifiées - France 24",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQd3JrU0dZNWJxSjROTm5YMy1jdkNLNTFTWE5rVTVtYVlHYkNZZ3hxUGlMR0s4b3MtQkNreWowUGFYR211akktTHAwaFRRZkJRSkwzV1YyZG9MQkh0b28tXzNjRkxxcm9hQ19xQnI3Y3RObzZUMzJBRFJ1SW1WRzVhellxa2xoTllLSXpDVlU1OFNHQ0pfQ3p5Ykt6SGFoZmh5NnB3N0dmeWZENElqbnprWEdPX0ZDcXdIbUowNHlUNU94N1c1?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump rencontrera Emmanuel Macron à New York lundi: qu'est-ce qui est sur la table? - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOel8tN0hLY0UyaWU2ZjFDb01QaF9hekpjWmgtRFRuUFQ3RWJYSURQV1VYMFl5am5VSUc5Skk2YmVhYW02RDRxMk9oNThEdTFwd2c5NVMzWm8tNWttV0FzWG5USUluTjV5WnJOc1pkTUM5ZWhVMW00WHZQWFpfT2dEQkZBUmdEMGtwTUVlVmhvUE53bl9NMWI1TnZyZGwtWktXVWVWeC00ZmhPY1FkTWFzaUJ4b1NCLXBqQWhSNzdiSlBvTlBQSGNMNEtPNlNsQkJtbnV5bWkzLU5uWE5WamdHdlRldUF4WERqVUZBOHpQUQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Le message de Carney et Macron à Trump depuis Saint-Pierre-et-Miquelon - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUGdlWUJ0SW5vbV9yRUlwTHdLVkxOdURQZ3BJM0p4V1U3VlhpWjlOZ3M3M2tRSjJFdk82U19LTnBINFVsclA4Q1NrMzRnWlQzeGdvZFprd3hXdFFTWGtmNjRsZ3VSbGxwMWVSQjJtckpJbkNiZ1NQUWQ3RnZGSERFRDFsTFBOUTBuS2EycS13ZTZlc2dnbm9aNnJwZGtKOGFTRkpKb1Y3a2VKQWs?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump n’a plus de carte à jouer face au tandem Iran-Houthis, et c’est l’économie mondiale qui vacille - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ1c4UkhHWV9CeUhELXNvSEl3TmRxV3NoM0NGbHppY05uZ3Y3STNFR1V0UXNTZ25GTXo5bUUzMFRzZVBmN0gyUDhoc01PdzZhOWlUMXRxb0Rsb20xWDQzZlR3ZldsVUE2bXR3YU9zTUItd0hwWDVYaC16SzV5ZFFNQ3ZxdHBkVHVzN3B5cTN4QzgzUmdrSTg0WDBwYkh5ajFneXJtd0MtRmhVTklya01WY2FKOThQTXk4SVQ0WXY1ZUxTYzN1Vk03LWNvcUh2TG8?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Uit solidariteit met CNN: 4 grote zenders weigeren president Trump te filmen",
+        "url": "https://vrtnws.be/p.APXZMXQn6",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Zelfs Saudi-Arabië ervaart nu de onbetrouwbaarheid van Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT3cyLTEyakV1bjBuZnRaU0tESTNVMDZlZWJYZmFfS2RjZXdPeVNGbk1MdVUwazE1UVNlTTdWMmpQYUJseGFVODg4U0JtclpqTkhzTE5mbWN0YnhKQ19DVHZvZzFnVW40R25YVWpYZFZOb3YtUURyMkcxb2l3bmozWGpIZnpGLUdHa2VGZGVDaVphOVlDZDd1T3p6bG9qWUZPcV85VGxtT1lQSGVW?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Trump bereidt zware sancties voor  tegen het Internationaal Strafhof in Den Haag",
-        "url": "https://www.hln.be/buitenland/trump-bereidt-zware-sancties-voor-tegen-het-internationaal-strafhof-in-den-haag~a25fd50a/",
+        "title": "Plots is er geen enkele tv-ploeg meer bij activiteiten van Trump: ook Fox News protesteert mee tegen beslissing om CNN en Politico te weren uit Witte Huis",
+        "url": "https://www.hln.be/buitenland/plots-is-er-geen-enkele-tv-ploeg-meer-bij-activiteiten-van-trump-ook-fox-news-protesteert-mee-tegen-beslissing-om-cnn-en-politico-te-weren-uit-witte-huis~a79c6d94/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "‘Menselijke printer’ Natalie Harp blijkt cruciale rol gespeeld te hebben in bannen van ‘CNN’ uit Witte Huis",
-        "url": "https://www.hln.be/buitenland/menselijke-printer-natalie-harp-blijkt-cruciale-rol-gespeeld-te-hebben-in-bannen-van-cnn-uit-witte-huis~ab407dc6/",
-        "source": "hln",
-        "name_only": false
+        "title": "Vanaf wanneer mag je zeggen dat Trumps roekeloze oorlog in Iran een catastrofe is?",
+        "url": "https://www.demorgen.be/meningen/vanaf-wanneer-mag-je-zeggen-dat-trumps-roekeloze-oorlog-in-iran-een-catastrofe-is~b3c99294/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Kiev: opheffen Europese sancties tegen Russische oligarchen zou ‘onaanvaardbaar’ zijn • ‘Trump wil dat Oekraïne stopt met aanvallen op raffinaderijen’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-wil-dat-oekraine-stopt-met-aanvallen-op-raffinaderijen-partij-poetin-haalt-beste-resultaat-ooit-en-bouwt-meerderheid-in-parlement-nog-uit~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Iraanse luchtvaartmaatschappijen komen vanaf woensdag in problemen door sancties’ • President Jemen vroeg Trump om militaire steun tegen Houthi’s",
+        "url": "https://www.demorgen.be/snelnieuws/live-amerikaanse-minister-van-financien-iraanse-luchtvaartmaatschappijen-komen-vanaf-woensdag-in-problemen-door-sancties~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
       },
       {
         "title": "Regering-Trump bereidt sancties voor tegen het hele Strafhof in Den Haag",
@@ -97838,26 +98018,62 @@
         "name_only": true
       },
       {
-        "title": "Live - Man zwaargewond nadat ICE-agent hem neerschiet in Texas • CNN uit perspool van Witte Huis gezet voor tv-verslaggeving over Trump",
-        "url": "https://www.demorgen.be/snelnieuws/live-man-zwaargewond-nadat-ice-agent-hem-neerschiet-in-texas-cnn-uit-perspool-van-witte-huis-gezet-voor-tv-verslaggeving-over-trump~b13cc951/",
+        "title": "Live - China bevestigt staatsbezoek president Xi Jinping aan Verenigde Staten • Andere nieuwszenders nemen taken CNN bij Witte Huis niet over: maandag geen opnames bij reis Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-china-bevestigt-staatsbezoek-president-xi-jinping-aan-verenigde-staten-amerikaanse-media-naar-rechter-om-opnieuw-toegang-te-krijgen-tot-witte-huis~b13cc951/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "CNN staat voor een dichte deur van het Witte Huis, volgens Trump produceert de zender voortdurend ‘fictie en leugens’",
-        "url": "https://www.demorgen.be/nieuws/cnn-staat-voor-een-dichte-deur-van-het-witte-huis-volgens-trump-produceert-de-zender-voortdurend-fictie-en-leugens~b94bd8f2/",
+        "title": "Trump kreeg de ene nederlaag na de andere over zich heen. En toen richtte hij zich op een vertrouwd doelwit: de pers",
+        "url": "https://www.demorgen.be/politiek/trump-kreeg-de-ene-nederlaag-na-de-andere-over-zich-heen-en-toen-richtte-hij-zich-op-een-vertrouwd-doelwit-de-pers~b04aa4d8/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "LIVE MIDDEN-OOSTEN. Dan toch niet: twijfelende Trump beslist om Houthi’s (voorlopig) niet aan te vallen",
-        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-dan-toch-niet-twijfelende-trump-beslist-om-houthis-voorlopig-niet-aan-te-vallen/159603018.html",
+        "title": "LIVE VS. Grote tv-netwerken zetten gezamenlijke verslaggeving over president Trump stop",
+        "url": "https://www.gva.be/buitenland/live-vs.-grote-tv-netwerken-zetten-gezamenlijke-verslaggeving-over-president-trump-stop/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "De gevaren van AI noemt Trump “bedrog”, maar toch wil de VS een directe telefoonlijn met China om incidenten te melden",
+        "url": "https://www.gva.be/buitenland/de-gevaren-van-ai-noemt-trump-bedrog-maar-toch-wil-de-vs-een-directe-telefoonlijn-met-china-om-incidenten-te-melden/161772000.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Grote tv-netwerken zetten gezamenlijke verslaggeving over president Trump stop",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-grote-tv-netwerken-zetten-gezamenlijke-verslaggeving-over-president-trump-stop/151623011.html",
         "source": "hbvl",
         "name_only": true
       },
       {
-        "title": "Xi Jinping se rendra aux États-Unis pour rencontrer Donald Trump : Pékin veut \"renforcer le dialogue et la coopération\"",
-        "url": "https://www.lalibre.be/international/asie/2026/09/21/xi-jinping-se-rendra-aux-etats-unis-pour-rencontrer-donald-trump-pekin-veut-renforcer-le-dialogue-et-la-cooperation-4LRPR6JZCBC4NOJ6OGBLB2U6QA/",
+        "title": "De gevaren van AI noemt Trump “bedrog”, maar toch wil de VS een directe telefoonlijn met China om incidenten te melden",
+        "url": "https://www.hbvl.be/buitenland/de-gevaren-van-ai-noemt-trump-bedrog-maar-toch-wil-de-vs-een-directe-telefoonlijn-met-china-om-incidenten-te-melden/161778513.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : exclus de la Maison Blanche par Trump, trois médias américains saisissent la justice, les grandes chaînes solidaires",
+        "url": "https://www.rtbf.be/article/etats-unis-exclus-de-la-maison-blanche-par-trump-trois-medias-americains-saisissent-la-justice-les-grandes-chaines-solidaires-11788375",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "En soutien à CNN, quatre chaînes américaines vont cesser de suivre Trump",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/21/en-soutien-a-cnn-quatre-chaines-americaines-vont-cesser-de-suivre-trump-V4GXFOED4ZBZ3KJPIEPRX4MHCA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Voici quand aura lieu la rencontre entre Zelensky et Trump",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/09/21/voici-quand-aura-lieu-la-rencontre-entre-zelensky-et-trump-WF76RYTCPJBOJP4MW227GON2VY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La semaine compliquée de Donald Trump, avec plusieurs épisodes embarrassants : \"Ce fut une série de feux rouges brutaux\"",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/09/21/la-semaine-compliquee-de-donald-trump-avec-plusieurs-episodes-embarrassants-ce-fut-une-serie-de-feux-rouges-brutaux-6H3QJN2GJFFKPGHWUMM5ED5OAE/",
         "source": "lalibre",
         "name_only": true
       },
@@ -97868,14 +98084,32 @@
         "name_only": true
       },
       {
+        "title": "L’appel qui a fait vaciller la stratégie de Donald Trump au Moyen-Orient",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/09/21/lappel-qui-a-fait-vaciller-la-strategie-de-donald-trump-au-moyen-orient-UI5XVLX365DCPK4INIZS6FVULA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le très généreux cadeau de mariage d’un ami russe qui embarrasse la famille Trump",
+        "url": "https://www.lalibre.be/economie/mes-finances/2026/09/21/le-tres-genereux-cadeau-de-mariage-dun-ami-russe-qui-embarrasse-la-famille-trump-ET3RWSOHWZGL3FNIZXVEJ5UEJI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping se rendra aux États-Unis pour rencontrer Donald Trump : Pékin veut \"renforcer le dialogue et la coopération\"",
+        "url": "https://www.lalibre.be/international/asie/2026/09/21/xi-jinping-se-rendra-aux-etats-unis-pour-rencontrer-donald-trump-pekin-veut-renforcer-le-dialogue-et-la-cooperation-4LRPR6JZCBC4NOJ6OGBLB2U6QA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
         "title": "Trump et Macron se retrouvent à New York : quels sujets seront au cœur de leur discussion ?",
         "url": "https://www.lalibre.be/international/2026/09/21/trump-et-macron-se-retrouvent-a-new-york-quels-sujets-seront-au-coeur-de-leur-discussion-RLFVORM7HVHUXGWL5K4ZQNTOII/",
         "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "Xi chez Trump, l'AG de l'ONU, l'Odoo Experience… Les rendez-vous à suivre - L'Echo",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTFpCSVFHXzVJVzhCT1NEaTFTMFN1YUlGbjNFN0Zhc2VlY0t1OXMyM0VKZzFOS0twU09wVDA5aVBfa2k2QkY5NE5UQzBPV1QxS3hER3M1OFR2dDBubThRT29vMG1sRHBjYWQwZC0wY3FNeGxJM2YyVWl6NC1XcjlQM29GNWF5SjZVR2V4cGpQTi0xRFR2LW5fTWJobnJsQThVbkRlckJQazBLaEUxLU5zLXhnMVFMLTZRN0VtdVV5X2VPMzB1MmhNbS1XeXRGVmxWQVZF?oc=5",
+        "title": "Bannis de la Maison-Blanche par Donald Trump, CNN et Politico contre-attaquent - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaENRRG9oM0JjTUNKbjgxZEdQcWJtdTVNMTQ4bDJxQTY0c1hOdzRxTGxCTjE2MU5MZTFsWjhrSktXN3R0T0dDOFdiSW9BU1UyQlhFWmw2LWYtTVF1dGlNUXRjZUxvSWI3QzFwUl9PcUwtRXVOcFBiY0RKTzFSSkxSbFdEVG9YRHJxYWhaNXo1aFpkNGNSeXlRc3NMN2tGZnhMMjNrTFQ3UUczeXRpY05LTGNXX0NpOGd2TnlSdXp0cWFzb25GZVl5OS1OQXpCeW5PSlVjYzhLNkxJTTJVR3JHQVd1QQ?oc=5",
         "source": "lecho",
         "name_only": true
       },
@@ -97886,33 +98120,51 @@
         "name_only": false
       },
       {
-        "title": "Donald Trump rencontrera Emmanuel Macron à New York lundi: qu'est-ce qui est sur la table?",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/21/donald-trump-rencontrera-emmanuel-macron-a-new-york-lundi-quest-ce-qui-est-sur-la-table-VJM3S3DDWBHBZKGLYIDELDBSMM/",
+        "title": "Xi chez Trump, l'AG de l'ONU, l'Odoo Experience… Les rendez-vous à suivre - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTFpCSVFHXzVJVzhCT1NEaTFTMFN1YUlGbjNFN0Zhc2VlY0t1OXMyM0VKZzFOS0twU09wVDA5aVBfa2k2QkY5NE5UQzBPV1QxS3hER3M1OFR2dDBubThRT29vMG1sRHBjYWQwZC0wY3FNeGxJM2YyVWl6NC1XcjlQM29GNWF5SjZVR2V4cGpQTi0xRFR2LW5fTWJobnJsQThVbkRlckJQazBLaEUxLU5zLXhnMVFMLTZRN0VtdVV5X2VPMzB1MmhNbS1XeXRGVmxWQVZF?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "En soutien à CNN, les chaînes américaines CBS, NBC, ABC et Fox cessent de suivre Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/21/en-soutien-a-cnn-les-chaines-americaines-cbs-nbc-abc-et-fox-cessent-de-suivre-trump-D3DPZ3HIV5FN5M4ULOELYCHLMI/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Donald Trump interdit certains médias à la Maison-Blanche mais cela pose plusieurs problèmes",
-        "url": "https://www.dhnet.be/actu/monde/2026/09/21/donald-trump-interdit-certains-medias-a-la-maison-blanche-mais-cela-pose-plusieurs-problemes-O36WTC3AGRCCRJ2S35MASPZ65I/",
+        "title": "\"Une menace pour la sécurité nationale\" : exclus de la Maison Blanche, trois médias américains engagent des poursuites contre l'administration Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/21/trois-medias-poursuivent-ladministration-trump-apres-leur-exclusion-de-la-maison-blanche-M2A2ULMOHFALLBO4XSIDY2KIEM/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "CNN bannie de la Maison-Blanche: le rôle crucial de Natalie Harp, l’assistante personnelle de Donald Trump",
-        "url": "https://www.7sur7.be/monde/cnn-bannie-de-la-maison-blanche-le-role-crucial-de-natalie-harp-lassistante-personnelle-de-donald-trump~ab407dc6/",
+        "title": "Le gouvernement Trump prépare des sanctions contre la CPI",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/21/le-gouvernement-trump-prepare-des-sanctions-contre-la-cpi-6LVAS2MR6VGRZBU6ZGESJ23T7Q/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "En soutien à CNN, quatre chaînes américaines cessent de suivre Trump",
+        "url": "https://www.7sur7.be/monde/en-soutien-a-cnn-quatre-chaines-americaines-cessent-de-suivre-trump~a60d7c1d/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Trump n’a plus de carte à jouer face au tandem Iran-Houthis, et c’est l’économie mondiale qui vacille",
-        "url": "https://www.7sur7.be/monde/trump-na-plus-de-carte-a-jouer-face-au-tandem-iran-houthis-et-cest-leconomie-mondiale-qui-vacille~ada13245/",
+        "title": "Une forteresse en plein Washington? Trump évoque “un complexe militaire doublé d’un arc de triomphe”",
+        "url": "https://www.7sur7.be/monde/une-forteresse-en-plein-washington-trump-evoque-un-complexe-militaire-double-dun-arc-de-triomphe~a8b4d76e/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Menaces d’annexion du Canada, prix du pétrole: Trump et Macron se retrouvent à New York",
-        "url": "https://www.7sur7.be/monde/menaces-dannexion-du-canada-prix-du-petrole-trump-et-macron-se-retrouvent-a-new-york~affc8125/",
-        "source": "septsursept",
+        "title": "Techbazen Altman, Musk en Bezos krijgen plaats aan tafel bij Trump en Xi - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMTl6OXdmMUM4dnl5UFBzSGUtRUp5YmVCS0JlN0c2LWsxZHpiNVZxeF82R3VuUVpGOFBvVE1FV1J3a3lTUHBOdmxuNmNHMUJUVW5yTjdSbGpyeTZpYW5qbnI5ZTFOdW1aZDFubWhtMnJsOWpPVWJoc19JVlc1dXpmTUVieHRoSDlnWDkyZUlpbWFnSlNGTkhsQ0g4eDJXTFBSemVNaWg4VWx2SFN1dnlCWldKcy1FUF81ODBYeVg1eFgzTmV4Z0E?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Olieprijs tuimelt onder 100 dollar na uitspraken van Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQenpIX3IwRVg5SXU5TTZFX2tscXdWSFNtN0piSXVQLXhBRzFURGpEQmpVSkFBQkFJMTYxR2xrd1BRUlZkcXpVQmx3UC1Kd0dMeEs0REgtQ1hZUUxNNkhlNzc5QkI1LUVKVFZmTkNyb0xBN1ZORU55dFZ0NXIzbFdaeFhpT2Frek9MQS16S0NJc3RSNXJwbU40Z2hDUmFFaDRoeWhQdEFVenBIT3ZYT0tPNi1MM3JFWjNrYWlwSExR?oc=5",
+        "source": "detijd_g",
         "name_only": true
       },
       {
@@ -97922,14 +98174,20 @@
         "name_only": true
       },
       {
-        "title": "De week die komt: Trump en Xi, Novo, AB InBev, begroting, VN, Marokko en Leo XIV - De Tijd",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOHlzS1lGN2RvdjF1NTdUamFSSlF1cUlxWHJPTnI0bWZfRlI0cGZfQmNpRzFOSWo1RTNDdVJWMHZFanlOYkQ3UldfQm54eGYyTzV5OThfUGZobVZCRU5MNzdoRXJRR0Vvb0JzOXNQemxEQndGXzBDa3daclFJZU8yaGJ0cVZndHpSME9tRGc4cmNtam4wYUlnb1AtZ3o5dVJES2VuUk5RSXRpelF5ZFhwVzFZZ0lrVnREYzAyTmFBX2lXcXdXZVJvOA?oc=5",
+        "title": "Wat Trump en Xi ook beslissen, Europa dreigt de rekening te betalen - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUFnN3JkTjNFdlFnREZSanJ5a3JIVG1OdjZ3d25jajZiS3FSS2ZudTY4TDAyYXpZUmhwSXZ1dkROVFRiT3JVc0ppMEg5RzJqQjVsbC1nQjMwWlpjNTZqNTFDVVpnalpJYUZqcGY5ejRYMXdkLXdGRGZENlZIcDJkT3pJM1U5Yk1BYWJUR21hQU5iT3AtYTVOaGRNYjhMQk5SZEExWWtUX0tGU2NCQTFlTnl1UVhwbjQ?oc=5",
         "source": "detijd_g",
         "name_only": true
       },
       {
-        "title": "Comment gagner contre Trump sans le laisser perdre - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNElTZ1ZFNTZQcUgzQy04R0xQUUdUQnZEdjdqZmRDc1M5QW1HSjhuenktMldzMkg1b2ptakFRQmZuWk51bzYwdlA4Mi0xYWRMUHhwc1lYWkZTZVAtemF0V3FpYzljcDY3LWlWdnVGS0FHZGxaRGFTM1F2VWRrU2ZrZWxjQjNuOGpHWm1rZTlxdUx6LUVQc1RXV0NLUk1fc00?oc=5",
+        "title": "Techbazen Altman, Musk en Bezos krijgen plaats aan tafel bij Xi en Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZFRGcDFZYldYUkZJRFVoRFY3Y3pBSXpCazJZQ1ZWY1dNc1NfdmRDUHEwUVh2X3VvajRjMTB0d2hMQzRYdFZidHd2ZlllV0dUbFNOVlB5TXhkdDZFQWlSaURoOHZmVXp0M1gwZFJCTy1OSGZ6VHhPZHlrdDBqTklPWmlWLXRvMHlQVXFndXh3M1VxWXQ1R09sTnlWXzNxY0Vpa3JWT0JndUdmRTI0ZnlKdWNTTWpSM1UzY01Fd1hFQQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Les médias CNN, MS NOW, Politico annoncent poursuivre l’administration Trump après leur exclusion de la Maison-Blanche - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcWNxWVlyQ3lrbGVwV0JrWWdrSjNkcE1ESHBzcXdoM2g1cTMwYlM2WkZIdmV2c3hHM2QyU0xDMXJoeUMwX0JnVDBjZmM2bWpyVDFjaDBJZWNTUjVZQWtsNFd2QUI3X3pjN01raTFwVGdCSzFlTFJSODhseUFnVDcycVVKMDlyWUFZczBRX2FvdkdQMFQ2V0wzd2pXSnlBTFJlMlREbkNwMXdPY004UHBKWjZIeS1fYnZHRFJweDZ4enZRWnFVVFE?oc=5",
         "source": "lesoir_g",
         "name_only": true
       },
@@ -97946,8 +98204,26 @@
         "name_only": true
       },
       {
+        "title": "CNN bannie de la Maison-Blanche : quatre médias américains annoncent ne plus couvrir les activités de Donald Trump en soutien à la chaîne - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaFZWXzNHTVJvNmxwRXBRUVVXQU53R3l0bGFwTGhUTkVoejVvU0w2emVheWZ4Q05nLS1OXzVIYk1ETUh6ZzNjRWZ4eGppZld5VDFtMWV5U2hiS0NJZnpqZm1XUjVXNi1CYXNkUE1ubW1yQ1BVOGhmd01McFdLOUJDdzZYaUl0Q2RZZTJmMkFTSmtBeUp3bXV0a1pGdWdBQldlMW9LRHg2d19GWFdUd1pPVlFqV2daU1NoZlBBRGllR01FV3p3?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Trois médias poursuivent l’administration Trump après leur exclusion de la Maison Blanche : « Une procédure judiciaire pour défendre nos droits » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTmJGTmZENkFFTWhCcGN2eHRNWEpFUW52dVowR3FoaGw4REU4VTFpREZkTEc2elZfbW5pYTBTVmp6QWhIVER0Njl3NFVPMmxCWDFrZkdVV1FOQUIwUTRuM1oxVEpiVmxIZlVOcWxwWDlFZTQtQTFuNGZXcE9ZZkdkd20yX2xxVmtmbjl5NkRXREc2dXQ5RHNGallZb1RFQmZvdmJCc3ZoRnFfRUtCMDEtc1c0NkVMWnUxMlF4MVdYQ3BjcG5PNU9RYXhCUzE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
         "title": "IA : les États-Unis proposent un « mécanisme » de dialogue avec la Chine avant le sommet entre Donald Trump et Xi Jinping - RTL Info",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQM1VseDdrbXRSaks5M2ZiTkxTd1FHZnBYUG9YUjh0R1JPbGFyTHBacWtubkxNRFlfNXZ3TE1hYjc5OVl1dnphbVJRQmhjOGlzRWZjTzRKVG5rX0F2dk1xM3BFdzExMjFWSEtSbVpmdkZvaS1zZ3V1TXg3Tld1dzlHWDl6eDhDSTF1OEZ1bnpiSTZacUxrdGFDV1RzUDk1aFYwc1d2bFlBYTJYa3paY01GYkc2YUpxV0x0dFZVak5LaDZhUlpwUXBoMloteVpiOEpPOW1QRW9MdzdzbVdEbUE?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "CNN, MS NOW et Politico attaquent Trump après leur exclusion de la Maison Blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONXAyNEFLTERHNnF6NDZLUEFWU1RLRHN1Um04TmtnaFhLQlZhcU1Laldhd3hjN3NvS3J3TjFSWVBwZ1VvZTkxa0dBM21US0pkakxpRFB3b1RYcWxqUnJzdmRDQjhhWkd2Q0l3UW8xWHQwYl94bS1OMlJJN0lSRmdxQ0NJU1FmSHh3OGROb0RzLTY3MW05TzB3QWo2RFRwRG0tZE1tUTRidm1QVUh0VUdUZDctX0dDdlBCWTRVNFhQOU54ZHZHNDJUWmFBcmJvbzl0YWtkZzRKZ2FwRTVLUmZFQlpEOHA?oc=5",
         "source": "rtl_g",
         "name_only": true
       },
@@ -97962,77 +98238,83 @@
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaVFsUjU5Yk1aMkdIS2VFNXpFVDF1cXEtdEYyZ0dubktLVGR5SDVQVG5nNGpxWXdGOXNzZFMzMlcwTDI1QWktWVFKcnlMME1sNUdTRlN1c2l4X21fR1pjdk81UHlZZU9YTG9kOFBid09RSzJmVUNYWjkyTUZ2M1ozUFhwY1JrM2FaYVlScHlLdXB1aVdtV0JsSFM2TzdYLUZjUlFlNjM2SlVkdjJYYTh0bzkxX0VYWnNnaFQ1dnNSeWpiR0JzbG1rMGVJMTN0VjlxMlhtZw?oc=5",
         "source": "rtl_g",
         "name_only": true
+      },
+      {
+        "title": "Les jeunes talents fuient l'Amérique de Trump, mais la Belgique risque de manquer le coche - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMFFCcmVjN3NBOFpXRGdRczV6S0x1UTJ3bGkwNUtsSktuLW11QkNEOEZwbHVFR0tTZjJjUWZjWGpBcnA2dXM3b3dldEhVU2JvUktCS0NrMzVDeklNa2RfT3FhVXVMdGMxNVFiYUtKWV9OajRFQ2Q1RU9vcmZHVWNvajdtbVl6aVUzdkpsNmhUYkh5UXhwbU1UVDYxR3RuajVPdzJpcnE5Rk03VFpHZ0Y2WVdoRlhkQ01VUFRwSDhIdlo3bVA2VjhJcHUySzk1ZXlyVG1DQg?oc=5",
+        "source": "tendances_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 23,
+      "trump": 42,
       "putin": 6,
-      "macron": 5,
+      "macron": 3,
       "netanyahu": 0,
-      "zelensky": 0,
+      "zelensky": 1,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 1,
+      "de_wever": 9,
       "bouchez": 0,
-      "magnette": 0,
+      "magnette": 1,
       "prevot": 1,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 30,
-      "putin": 10,
-      "macron": 6,
+      "trump": 59,
+      "putin": 12,
+      "macron": 5,
       "netanyahu": 0,
-      "zelensky": 0,
+      "zelensky": 1,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 3,
+      "de_wever": 15,
       "bouchez": 0,
-      "magnette": 0,
+      "magnette": 2,
       "prevot": 2,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 2,
       "crevits": 0,
       "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 10,
-      "crime": 10,
-      "eu": 15,
-      "politics": 24,
-      "be_gov": 10,
-      "culture": 12,
-      "tech": 6,
-      "economy": 21,
-      "sports": 28,
-      "health": 10,
-      "climate": 10,
-      "migration": 5,
-      "education": 6,
-      "weather": 5
+      "war": 18,
+      "crime": 42,
+      "eu": 32,
+      "politics": 51,
+      "be_gov": 30,
+      "culture": 26,
+      "tech": 17,
+      "economy": 41,
+      "sports": 50,
+      "health": 13,
+      "climate": 12,
+      "migration": 4,
+      "education": 14,
+      "weather": 10
     },
     "wide_themes": {
-      "war": 14,
-      "crime": 13,
-      "eu": 20,
-      "politics": 40,
-      "be_gov": 14,
-      "culture": 18,
-      "tech": 11,
-      "economy": 27,
-      "sports": 44,
-      "health": 16,
-      "climate": 14,
+      "war": 31,
+      "crime": 50,
+      "eu": 45,
+      "politics": 75,
+      "be_gov": 41,
+      "culture": 37,
+      "tech": 30,
+      "economy": 51,
+      "sports": 79,
+      "health": 18,
+      "climate": 20,
       "migration": 5,
-      "education": 8,
-      "weather": 7
+      "education": 16,
+      "weather": 14
     }
   }
 ]
