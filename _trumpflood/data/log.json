@@ -98316,5 +98316,778 @@
       "education": 16,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-09-22",
+    "generated_at": "2026-09-22T10:47:26+02:00",
+    "last_checked_at": "2026-09-22T10:47:26+02:00",
+    "total_articles": 440,
+    "trump_articles": 22,
+    "percentage": 5.0,
+    "core_percentage": 5.0,
+    "core_percentage_name": 5.0,
+    "trump_articles_expanded": 25,
+    "core_percentage_expanded": 5.7,
+    "indirect_references": 3,
+    "wide_total_articles": 632,
+    "wide_trump_articles": 34,
+    "wide_percentage": 5.4,
+    "wide_trump_articles_expanded": 37,
+    "wide_percentage_expanded": 5.9,
+    "macro_percentage": 5.4,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 8.2,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.75,
+    "breadth": 0.71,
+    "deviation": 2.04,
+    "smoothed_pct": 3.09,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "google_nl_politics": {
+        "fetched": 38,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_nl_tech": {
+        "fetched": 67,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 21,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 27,
+        "kept": 27,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.41
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.52
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 34,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.94
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 6.67
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 48,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.17
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 28,
+        "kept": 28,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.14
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 19,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.79
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 16,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "trends_g": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 86,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Witte Huis lanceert 'Trump TV', kort na ban op CNN en andere media wegens 'fake news'",
+        "url": "https://vrtnws.be/p.0YJD7K4we",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Macron had \"zeer constructief\" gesprek met Trump, Amerikaanse president spreekt vanmiddag Algemene Vergadering toe",
+        "url": "https://vrtnws.be/p.lOl8Qwl6B",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Fox betoont zich solidair met geweerde media uit Witte Huis - standaard.be",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd0IwZ05maHJ0SjJpM1pfbVBQZllVNHc1LXo5NDNvNkxMUVhwMk40QUJvR1hkdjNDdEYzR0hxWWdWNXZiQjRMbWNnaUowV3FxMFdtSXJCMVFsRjhiaUlZVU40bExPMzVMLTg2NTBENnNBU29TN0tDQ1VuY3Jocm8xbDQxMEhGMTEwbGw3Q0JCVmplUXRxLTBfRHdsNEw2WFVza2hGNVVKRlFqbG9VX3NB?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "Witte Huis lanceert Trump TV als alternatief voor traditionele nieuwszenders",
+        "url": "https://www.hln.be/buitenland/witte-huis-lanceert-trump-tv-als-alternatief-voor-traditionele-nieuwszenders~a17df859/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis lanceert Trump TV na conflict met Amerikaanse media",
+        "url": "https://www.demorgen.be/nieuws/witte-huis-lanceert-trump-tv-na-conflict-met-amerikaanse-media~b17df859/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Nu Canada de kraan dichtdraait, kijkt Trump naar Wit-Rusland voor meststof potas",
+        "url": "https://www.demorgen.be/nieuws/nu-canada-de-kraan-dichtdraait-kijkt-trump-naar-wit-rusland-voor-meststof-potas~b52d1ef3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump lanceert eigen Trump TV en drijft ruzie met tv-zenders op de spits",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-lanceert-eigen-trump-tv-en-drijft-ruzie-met-tv-zenders-op-de-spits/161842059.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump lanceert eigen Trump TV en drijft ruzie met tv-zenders op de spits",
+        "url": "https://www.hbvl.be/buitenland/trump-lanceert-eigen-trump-tv-en-drijft-ruzie-met-tv-zenders-op-de-spits/161845561.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Geen CNN, geen microfoon: president Trump onverstaanbaar bij persmoment",
+        "url": "https://www.hbvl.be/buitenland/geen-cnn-geen-microfoon-president-trump-onverstaanbaar-bij-persmoment/161841844.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Steun voor president Trump op laagste niveau ooit",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-steun-voor-president-trump-op-laagste-niveau-ooit/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "L’annonce de la Maison Blanche en plein bras de fer avec les médias : “Tous les grands moments n’ont pas forcément été diffusés à la télévision”",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/22/lannonce-de-la-maison-blanche-en-plein-bras-de-fer-avec-les-medias-tous-les-grands-moments-nont-pas-forcement-ete-diffuses-a-la-television-XTENGVEY4JDZPKQVTPLDZQ75VA/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Réunion entre Trump et Macron : quels ont été les sujets au coeur de leur discussion ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/22/reunion-entre-trump-et-macron-quels-ont-ete-les-sujets-au-coeur-de-leur-discussion-MSPNNYQQR5F6RPZXLJ6U5YZRDE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La Maison-Blanche lance la \"Trump TV\" en plein clash avec les médias américains - lecho.be",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRExpM21jUVd2VFpPRDNBTXM0WGttUU11WWFrZjJ5NVBwekJWZ2hGTWIwaHA1YkNjdEtYTUxfQm1iQmIyTnhDSUo5bVpoS0NTclFielNfWDdFWlNEbndQUE5pRGx6amVnU1FSWV9xa2F1LTZXZUFTMjZhN3NTcGhwVUhhT0FxVXEyMUVqSUkzZ3V4S2J1Z1NJbVZsTW1EdEY4SFNjdk1vbTdUY2IxUHctV2NaRHJ1N2gySHVvODd4TmtxNGFmZ3pOYWNYU1hGS1JtLTFqUGtEMHB5a0hSN1R1TjBDZw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L'ONU face à un monde en crise et à l’IA, Xi Jinping à la Maison-Blanche... Bernard Keppenne (CBC) est l'invité du Brief - lecho.be",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVUpZUnVuYmNlaTZBRHRYdkl3WTQ1TGlOQ3ctN2dnZjdESXNnbDAteGpubzJZcnEzOUx5MXV1ejZJUndndEYzNEUxVTRnSWdDRzZQNFB6ZXBBaVliYWlhMHZrNkpQaV9VRjM2aHFPcHRWS2RrNS11ZnkzVUtIRFFpQlprZjFJeUhtS012WHRFWVUxVXZmbVJiSEdRRHYxVUtWUHZzN21CNTllVXZxcUJaUzJRaXhUbnpjd1NvQUZCbi10WGNNbGQxMlBMYVdJTWQyUWdENjRLUDQ4cEttR2pfbjdoU2drR3lRNHpTN2ZxMWM2MERyeFJKaGxn?oc=5",
+        "source": "lecho",
+        "name_only": false
+      },
+      {
+        "title": "Pressé par l’Arabie saoudite, Donald Trump hésite à ouvrir un nouveau front contre les Houthis - lecho.be",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTWpHZDFCZDY5NmszSzZ4Uk0yWEY3X3JfUE16bmlKdl8tc3lPSUVaVWVVZkZHQ0xwMXY2WFppSGV2MUhtV1ZzcE9WT2lpSGZSc2FRZkI4ZmtzMTEzMGs0dVNybkZnaDRXa1dmZ1I0a3IwYm1lcmdjMl9kMjNFVlc5Qi1EZXdGek9FZk5jdVJibjBmNkxVMWdYQzd3MnpCQ2NGVVZIZkJfeG5PdndFZWttVVdTREw0a3FIcXdHSndfVUlFdGhXbGRDUENnNWN3b2tiVng3VVdvSnd2RV9Ubnoxd0N4Nkhodi11ZUw0eG9DNnJuUQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Tous les grands moments n’ont pas forcément été diffusés à la télévision\": le clash continue entre les médias et Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/22/tous-les-grands-moments-nont-pas-forcement-ete-diffuses-a-la-television-le-clash-continue-entre-des-medias-et-donald-trump-DRY7QP7Z35EU5KBP7F52X6HPRI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Prix du gaz: stocks sous pression et peu d’espoir de baisse à l’approche de l’hiver, “si demain Trump décide de couper les livraisons, que fait-on ?”",
+        "url": "https://www.dhnet.be/conso/prixenergie/2026/09/22/prix-du-gaz-stocks-sous-pression-et-peu-despoir-de-baisse-a-lapproche-de-lhiver-si-demain-trump-decide-de-couper-les-livraisons-que-fait-on-JPAL2ULC2JF6VG52HNXV5HRD6I/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Après avoir évincé trois grands médias, la Maison-Blanche lance “Trump TV”",
+        "url": "https://www.7sur7.be/monde/apres-avoir-evince-trois-grands-medias-la-maison-blanche-lance-trump-tv~ab3b66e0/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Ukraine, mer Rouge: un tête-à-tête “très constructif” entre Trump et Macron",
+        "url": "https://www.7sur7.be/monde/ukraine-mer-rouge-un-tete-a-tete-tres-constructif-entre-trump-et-macron~a45cbc3a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Emmanuel Macron a rencontré Donald Trump à New York : voici de quoi les deux chefs d’État ont discuté, « c’était très constructif » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcTNSRVR0Q2tCaEpoUjc5Wnh5MUltY2VZbG5FWW9ZbkdZc2o3d3UxaTBwZ095NXRuWkxFVkZsSTFaWHQ0QnhlemNqMXFzYU9ybE1fZVlMTEF5QXVPM1ctVGdHV2JHeDlQTXRvSThKS0k5QVZCNEpfeVZFRzYzTU9PTjY5Uzk3NEo3d0VvM3g0b3VCU0V1SUdOS19CUEVBbEZXVzZHR20wOTFYdF9zV0FYU3NWZWp5dVFxSEZNam5IVFhKVV9mWDRJ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle décision choc de Donald Trump : boycotté par plusieurs médias, le président américain lance sa « Trump TV » sur YouTube - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY3liUmxxM1o0MGNRUXM2YWU3T0hGeHpTVGNNRGk1Ym5CVUZ1clczd2hHRHhQTmlLN2Z1RzBBYWNESWV4TGtfTUhaOUgwOThkV25kS2FfV3Vra045R2NjTWd1eUdmUEQwYm1keUs2bm9YUUJHQWExVTJyQmpLektHdUsxWDRyeF9VOElHeFAxSnd5bEN0dFBxWG1DQW9zazFtUVJ4NmFvanBqeHlDTTlCT2lTSnF0WllmczdHNURIU1BPSDdj?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Les médias américains organisent la riposte face à Donald Trump qui continue de les menacer : « D’autres propagateurs de fausses informations suivront » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSklZSWFZck5RRDZWbnpsQUNCM254VV9SdkQxcmhGR3pCcDJMV0l1RFVkOFhWNkljVHZXZ1dibkNHVldrNTMzZEU4a3ZnWDFYenBvOGtpU1BFVzBhT1JnelR2cUJhODRPRVJmVkMtUGlBQmdFeklmeFd6b09SeWFuY0tQLXoxb1FSM2QtcDJXVGFobUZVM1NabXFaRkppT3lvMWtzcmREdEJZbExnU25ua2hrS3JrN25qYjNIdEl4SG1TQXBnTDRzUA?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« D’autres médias propagateurs de fausses informations suivront » : Trump hausse le ton face aux médias - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSnl4OWdybjMzX01MYk9aNXJ4QUN2dHBIV21yNjhLaU9KWUs0a1NIYVpnci1qU2c5a29GbUNMamI2VFZYN1R0RTE3S0g0RFVRYnVMaWR6SnNOM0lxcFp4SXdmSWxFRFo4QkczdzFOVzk4cm9uZTh4WldWZXVHaTFKMUdCaGtiVEdPalk4T2MxR29rUnl1akNzSzNVelZwOGlJSU9EbmdOVXlCdHBBZVZrUXhJMmc2akJiYzcwdkNxQ25wS05KM194Y1JncjZRNW1XVTlqWk5vWHhaZ19iUmZZYTZXNXE?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« Très constructif » : Macron et Trump ont parlé Ukraine et mer Rouge à New York - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRkRWZGtINWJLZzc2b0dWSjlydDNLSU1FTDloMFpFbHU1amEzOWhFa3RGYzhrdHVwOFo5QUtHZG9feWxxR1dzZ21rOUNvMzh1YWI0RF9YX0FZMW5CVkxKeW9HTUV1YmItNWRxRER5MWczYVdQRWdjTm9sVTJWMzQ5VVFuNzFqU1N4WjBac1hpVmNCVVFjS2Zza0QyYkpYQ3A2R2Q1Z0FGaC1VNTVRalJNb2hkWmFNWlM0aFhWWnJhNDU2N3hpUDh3eWhKWVQyTGRRR0Z2VkZDQkVrUQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump peut couper l’Iran du dollar. Mais peut-il vraiment couper la Chine ? - trends.levif.be",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbTFIelJDci1lckYtcU9Hb0w5SGk2RUVNdWoxN1RON2hPS1J3SlJkTV85dzJ6UURlTmlsbmZlc0s4dnpyQmRBMnItdjZobDRZV2RiRnBqbVV3b1BqOW1RRzJNRWd1dGlDNjhnaEw0NGhlN04wWHVRWDRhcG9rZjVuUjZKZ091bXZZU0dMdkt2TWVERHdoZHpSakZrXzZJYXBNVnIzODBRNGg4R2pZOEF6NjZRV2JWdVU?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Witte Huis lanceert Trump TV als alternatief voor traditionele nieuwszenders - HLN",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeWxENUVVTkdDTk5sRXhnX3VYTXRPSV9peFhjSUMyVGVUVXFweWJoQ2JFbkIxcERSNGhqOTM4OEVZWW1VUHNnMllBekxzT2RULWRHTnpPVzAyRkI0eUJHZmhyRkVBS3ZBWDJvbnFCaFhIdVRMYmZxNjJQU29ud3NTSFB2N3pFMmxBcU5TdFA3bWlZYkZ5YkpyeWxUZVNHMDExMHFMWjM0dVlsdXQweWNyVk83SWdDSjg?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Macron had “zeer constructief” gesprek met Trump in New York - standaard.be",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWmxySmVNeUJwNkFIdlBITzMwMTlQaGhpUFRnQURscks2ZG5BaHdzNk9XbVhlMDZmUFBIRk1IZUNFT3M0RGF1YUdBNFVxTTdMcFFzSTBhVGZWenZzQmhielFOUmdaUDdWenhFd2hUT2JPNTBqcWRBbTRaejUtMU1zeUZVNGs5ZTZjNzgxSE5YSEZNWWJPSEpPQ0tOVk9EMzBQODAyNmJvamg3aEJCUmc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "La Maison-Blanche lance la Trump TV face à la fronde des médias américains - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcEFqdzNadWtlQUU0TnJ5ZU1zQUpaeVRqR01NVjJtX1JSd1I2Uy1fNlNrX09UcnJ0bkIwNTVkTktadW9ZWDFxV3pyUUl1eE9NR3FiSk13V2o2Nm4zN010d3ZBN1dlS2o0YkkyX1VGTEtjckhWMm9tTkRWdTZrSXdHSzRfdVlIOXF2UnF6aXdud0Q1VzZZX00zUEhNSnNIalFMRzZvVmFneGgzQ1dQNVZpR3JNZGhFcThNeTlDVQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Macron propose plusieurs initiatives à Trump face à l’envolée des prix du pétrole - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQODdxTFEzX3B3VFFTRkZURWhrbXNkS3hwYkFDQWk0dUZPbmphZF9ycGNhSkxrMEpybHZya3lXT1g2bGN3a2xGNUw2c2xtYV9BMllFTWNGNE1vWkRZaTJlRW1aSFMzNmZsdzk3NlIzNmZsN3YtNWVVZGdhQ05UNmVXVS1LOWVseGJjT3J5M1dvcFkyTUVRUUFDSFVINVFfZkJobm5adVlPek5qRHNHTV8tbWVIbm1tQ0JkekRJdUVaMkI0Zw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis lanceert 'Trump TV', kort na ban op CNN en andere media wegens 'fake news' - VRT",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mN1VGcG92TkY3VGgxSVMxZV9zOHhsSG94cU9QSU55MDE0S2Y4ZnN1eUtrZ0poa0pwaTg4YUItQk5VWG9sUTlOV212TmJEMTNLVXNtbTh0eEdvcmpKaHI2T3BaUC16UU42VWpFM3h6ektMclltd1c4Mg?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Wereldleiders zakken af naar VN-vergadering in New York: Macron heeft “lang en goed gesprek” met Trump en koningin Mathilde pleit voor bescherming kinderen tegen techbedrijven - HLN",
+        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPeTFCUXg0V1VZN2dYOWNZYThzQThVRmNkWkdiYTdNWjZvX2FhMzJEaFJyNU1YTkhXUjF2UmNDbkwyVUJyVVdIb0VKa3k0V2kwWXN3V3VhLUNwdF9iVEF0blhBaUJUejBoMk9NRzNMYUFCNE1ieWgxRVVsaTdPUU9zQV9aY1gwUTFXRk5ZWmJxcDJiUGZyUzFXZFRMOGhEcHVteFVPVFdVMV80TVRRYmVpVHpDYThUYzlaQlNKLVV0V1ZubmVQVlR3cXdLaVFZd2tDVFVsMWtsZm1ha2JQUG8zWEl5SHpGTVQ3R0VtV2hpSEVFU2c3eS00ZmpqNXlneklhZUFDUzV4WV9jdmFjMWRYaGVYOWZEZmpuck9nQmJZLUlYaF9KcGdRUHN6N0ZrUlZIbkJnZVA4cw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "De gevaren van AI noemt Trump “bedrog”, maar toch wil de VS een directe telefoonlijn met China om incidenten te melden - nieuwsblad.be",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWkRhcVNwWnlvWmIwR2w3ZWlUMUh5MkZDV2hWMGJDU1o3NzU3VEUzQ2h5YkVUT05HNzZ2MG1RM3phOUhZdnpwLWlGME9OcV9PZ0hkRGxOS1B6Tm9aV0Z5eWNPbllKQWRBTDJiaWl1YzRFVFlldnRDT3lQTm0wWTEzTFBUaTVQUkhST09ydHRieTRSeWZlTjlBY1NKV09vcGUwSzZEc05ueGNZWmdCQ2dERkcyUVVvZl96Zm1lV0ViVWozRmtCZEpoamFwZVZSa0stMm9IVTZoR0N0VFB2OHB1ZWZyRzJYb1h3VkEwTTM3WWY5MGh6NzlROFBPVQ?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Trump et Mamdani affichent de nouveau leur bonne entente à New York - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbGVsYVFfcDI2MHpKSW1nbE4xUXBiQUR5MlNPM1QySno5TWdoS05NODZxWHFaVkVadWxCZ3hzbkRBMEg1bkgtYlRmdFRSa1hqQWExMmw4LVNoenp4a0NwSEE1SDFZbHpsd3g1b2Vtajg2cFNpMkJxeDNNb3BCUHlwSlloYkxBRVVqMFphRG9vN2pLZnJpcXJuYUduempfVmxtZ0hjcmdqN3NSWml0OEZHSUE1SUVQbVc2Sm9DaEx3NThIU0twY1RhVXRONA?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Fronde historique à la Maison Blanche : les principaux médias américains boycottent Donald Trump après sa dernière décision controversée - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNkREMXFnaEJqYk9rS21aUjExRW9HbUFyVkZrcFFmbWpIUzhlUFBDSXhkTFBNVVlnQWNQUUhDYzhSNVZVdHpub1RBQUtwMENXNzh3OHVkV0t2Qnd0UTkwR3V3cmdnRC1hQVFUMDNMTS1UWkc4NEVhRDBCQ0gwN2RhQ2dqUmlJZ0xDTzFPX1YxMWgwUFdwNFk1NE1yeElwQVlpY2pEMHNyOWlqVjdmbzg4cWdsampmRFdWQUw3UjEteHRWMzAwM0cyaHA3cFFmeGRZamRZN2FuTE5PN2NjS2xmbk1fdw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Prix du gaz: stocks sous pression et peu d'espoir de baisse à l'approche de l'hiver, \"si demain Trump décide de couper les livraisons, que fait-on ?\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOdzBzcmRRWUdxSFg4N0xjRTZFSjQ0U0xlMGZZUFZ6UkNfZF8yRFpQcjFmM21VVXUxWUMtVUhpSV94YXlTLXhWNWtjN0wwTmpIbzFwcGxYa3VrTHNtdjZSOFpPRFo1MXdGSnN0bVFoUlFDUm5sTzdIc0NLdXJiTmJhRzRGeHVFLVViMnNqNjdLTjhnVFhFUEdSXzhEbXF4TXoyalhYSkxtemJXT0djMkkza2s1aHVZMUdnVklGRTVoQm1iTy1Xczc4cFBYdUlEMTYwbjdoLVcybl82bl9LQVRrQkNuX210SF9GbEhGeVY2VjF1UUZVX2otb0JpUnhIcFpzbjM5U1kxZjZMTGJsQy1SSkRQZ3ZZX292T255N2FtNjdRZmdLRWNvODA1U3dpNFlxalYyZEtMbFNWQU5EcGc?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis lanceert 'Trump TV', kort na ban op CNN en andere media wegens 'fake news'",
+        "url": "https://vrtnws.be/p.0YJD7K4we",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Macron had \"zeer constructief\" gesprek met Trump, Amerikaanse president spreekt vanmiddag Algemene Vergadering toe",
+        "url": "https://vrtnws.be/p.lOl8Qwl6B",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Fox betoont zich solidair met geweerde media uit Witte Huis - standaard.be",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd0IwZ05maHJ0SjJpM1pfbVBQZllVNHc1LXo5NDNvNkxMUVhwMk40QUJvR1hkdjNDdEYzR0hxWWdWNXZiQjRMbWNnaUowV3FxMFdtSXJCMVFsRjhiaUlZVU40bExPMzVMLTg2NTBENnNBU29TN0tDQ1VuY3Jocm8xbDQxMEhGMTEwbGw3Q0JCVmplUXRxLTBfRHdsNEw2WFVza2hGNVVKRlFqbG9VX3NB?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "Witte Huis lanceert Trump TV als alternatief voor traditionele nieuwszenders",
+        "url": "https://www.hln.be/buitenland/witte-huis-lanceert-trump-tv-als-alternatief-voor-traditionele-nieuwszenders~a17df859/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis lanceert Trump TV na conflict met Amerikaanse media",
+        "url": "https://www.demorgen.be/nieuws/witte-huis-lanceert-trump-tv-na-conflict-met-amerikaanse-media~b17df859/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Nu Canada de kraan dichtdraait, kijkt Trump naar Wit-Rusland voor meststof potas",
+        "url": "https://www.demorgen.be/nieuws/nu-canada-de-kraan-dichtdraait-kijkt-trump-naar-wit-rusland-voor-meststof-potas~b52d1ef3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump lanceert eigen Trump TV en drijft ruzie met tv-zenders op de spits",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-lanceert-eigen-trump-tv-en-drijft-ruzie-met-tv-zenders-op-de-spits/161842059.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump lanceert eigen Trump TV en drijft ruzie met tv-zenders op de spits",
+        "url": "https://www.gva.be/buitenland/trump-lanceert-eigen-trump-tv-en-drijft-ruzie-met-tv-zenders-op-de-spits/161843317.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Geen CNN, geen microfoon: president Trump onverstaanbaar bij persmoment",
+        "url": "https://www.gva.be/buitenland/geen-cnn-geen-microfoon-president-trump-onverstaanbaar-bij-persmoment/161841725.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump lanceert eigen Trump TV en drijft ruzie met tv-zenders op de spits",
+        "url": "https://www.hbvl.be/buitenland/trump-lanceert-eigen-trump-tv-en-drijft-ruzie-met-tv-zenders-op-de-spits/161845561.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Geen CNN, geen microfoon: president Trump onverstaanbaar bij persmoment",
+        "url": "https://www.hbvl.be/buitenland/geen-cnn-geen-microfoon-president-trump-onverstaanbaar-bij-persmoment/161841844.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Steun voor president Trump op laagste niveau ooit",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-steun-voor-president-trump-op-laagste-niveau-ooit/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "L’annonce de la Maison Blanche en plein bras de fer avec les médias : “Tous les grands moments n’ont pas forcément été diffusés à la télévision”",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/22/lannonce-de-la-maison-blanche-en-plein-bras-de-fer-avec-les-medias-tous-les-grands-moments-nont-pas-forcement-ete-diffuses-a-la-television-XTENGVEY4JDZPKQVTPLDZQ75VA/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Réunion entre Trump et Macron : quels ont été les sujets au coeur de leur discussion ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/22/reunion-entre-trump-et-macron-quels-ont-ete-les-sujets-au-coeur-de-leur-discussion-MSPNNYQQR5F6RPZXLJ6U5YZRDE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La Maison-Blanche lance la \"Trump TV\" en plein clash avec les médias américains - lecho.be",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRExpM21jUVd2VFpPRDNBTXM0WGttUU11WWFrZjJ5NVBwekJWZ2hGTWIwaHA1YkNjdEtYTUxfQm1iQmIyTnhDSUo5bVpoS0NTclFielNfWDdFWlNEbndQUE5pRGx6amVnU1FSWV9xa2F1LTZXZUFTMjZhN3NTcGhwVUhhT0FxVXEyMUVqSUkzZ3V4S2J1Z1NJbVZsTW1EdEY4SFNjdk1vbTdUY2IxUHctV2NaRHJ1N2gySHVvODd4TmtxNGFmZ3pOYWNYU1hGS1JtLTFqUGtEMHB5a0hSN1R1TjBDZw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L'ONU face à un monde en crise et à l’IA, Xi Jinping à la Maison-Blanche... Bernard Keppenne (CBC) est l'invité du Brief - lecho.be",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVUpZUnVuYmNlaTZBRHRYdkl3WTQ1TGlOQ3ctN2dnZjdESXNnbDAteGpubzJZcnEzOUx5MXV1ejZJUndndEYzNEUxVTRnSWdDRzZQNFB6ZXBBaVliYWlhMHZrNkpQaV9VRjM2aHFPcHRWS2RrNS11ZnkzVUtIRFFpQlprZjFJeUhtS012WHRFWVUxVXZmbVJiSEdRRHYxVUtWUHZzN21CNTllVXZxcUJaUzJRaXhUbnpjd1NvQUZCbi10WGNNbGQxMlBMYVdJTWQyUWdENjRLUDQ4cEttR2pfbjdoU2drR3lRNHpTN2ZxMWM2MERyeFJKaGxn?oc=5",
+        "source": "lecho",
+        "name_only": false
+      },
+      {
+        "title": "Pressé par l’Arabie saoudite, Donald Trump hésite à ouvrir un nouveau front contre les Houthis - lecho.be",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTWpHZDFCZDY5NmszSzZ4Uk0yWEY3X3JfUE16bmlKdl8tc3lPSUVaVWVVZkZHQ0xwMXY2WFppSGV2MUhtV1ZzcE9WT2lpSGZSc2FRZkI4ZmtzMTEzMGs0dVNybkZnaDRXa1dmZ1I0a3IwYm1lcmdjMl9kMjNFVlc5Qi1EZXdGek9FZk5jdVJibjBmNkxVMWdYQzd3MnpCQ2NGVVZIZkJfeG5PdndFZWttVVdTREw0a3FIcXdHSndfVUlFdGhXbGRDUENnNWN3b2tiVng3VVdvSnd2RV9Ubnoxd0N4Nkhodi11ZUw0eG9DNnJuUQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Tous les grands moments n’ont pas forcément été diffusés à la télévision\": le clash continue entre les médias et Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/22/tous-les-grands-moments-nont-pas-forcement-ete-diffuses-a-la-television-le-clash-continue-entre-des-medias-et-donald-trump-DRY7QP7Z35EU5KBP7F52X6HPRI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Prix du gaz: stocks sous pression et peu d’espoir de baisse à l’approche de l’hiver, “si demain Trump décide de couper les livraisons, que fait-on ?”",
+        "url": "https://www.dhnet.be/conso/prixenergie/2026/09/22/prix-du-gaz-stocks-sous-pression-et-peu-despoir-de-baisse-a-lapproche-de-lhiver-si-demain-trump-decide-de-couper-les-livraisons-que-fait-on-JPAL2ULC2JF6VG52HNXV5HRD6I/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Après avoir évincé trois grands médias, la Maison-Blanche lance “Trump TV”",
+        "url": "https://www.7sur7.be/monde/apres-avoir-evince-trois-grands-medias-la-maison-blanche-lance-trump-tv~ab3b66e0/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Ukraine, mer Rouge: un tête-à-tête “très constructif” entre Trump et Macron",
+        "url": "https://www.7sur7.be/monde/ukraine-mer-rouge-un-tete-a-tete-tres-constructif-entre-trump-et-macron~a45cbc3a/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Emmanuel Macron a rencontré Donald Trump à New York : voici de quoi les deux chefs d’État ont discuté, « c’était très constructif » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcTNSRVR0Q2tCaEpoUjc5Wnh5MUltY2VZbG5FWW9ZbkdZc2o3d3UxaTBwZ095NXRuWkxFVkZsSTFaWHQ0QnhlemNqMXFzYU9ybE1fZVlMTEF5QXVPM1ctVGdHV2JHeDlQTXRvSThKS0k5QVZCNEpfeVZFRzYzTU9PTjY5Uzk3NEo3d0VvM3g0b3VCU0V1SUdOS19CUEVBbEZXVzZHR20wOTFYdF9zV0FYU3NWZWp5dVFxSEZNam5IVFhKVV9mWDRJ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle décision choc de Donald Trump : boycotté par plusieurs médias, le président américain lance sa « Trump TV » sur YouTube - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY3liUmxxM1o0MGNRUXM2YWU3T0hGeHpTVGNNRGk1Ym5CVUZ1clczd2hHRHhQTmlLN2Z1RzBBYWNESWV4TGtfTUhaOUgwOThkV25kS2FfV3Vra045R2NjTWd1eUdmUEQwYm1keUs2bm9YUUJHQWExVTJyQmpLektHdUsxWDRyeF9VOElHeFAxSnd5bEN0dFBxWG1DQW9zazFtUVJ4NmFvanBqeHlDTTlCT2lTSnF0WllmczdHNURIU1BPSDdj?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Les médias américains organisent la riposte face à Donald Trump qui continue de les menacer : « D’autres propagateurs de fausses informations suivront » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSklZSWFZck5RRDZWbnpsQUNCM254VV9SdkQxcmhGR3pCcDJMV0l1RFVkOFhWNkljVHZXZ1dibkNHVldrNTMzZEU4a3ZnWDFYenBvOGtpU1BFVzBhT1JnelR2cUJhODRPRVJmVkMtUGlBQmdFeklmeFd6b09SeWFuY0tQLXoxb1FSM2QtcDJXVGFobUZVM1NabXFaRkppT3lvMWtzcmREdEJZbExnU25ua2hrS3JrN25qYjNIdEl4SG1TQXBnTDRzUA?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« D’autres médias propagateurs de fausses informations suivront » : Trump hausse le ton face aux médias - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSnl4OWdybjMzX01MYk9aNXJ4QUN2dHBIV21yNjhLaU9KWUs0a1NIYVpnci1qU2c5a29GbUNMamI2VFZYN1R0RTE3S0g0RFVRYnVMaWR6SnNOM0lxcFp4SXdmSWxFRFo4QkczdzFOVzk4cm9uZTh4WldWZXVHaTFKMUdCaGtiVEdPalk4T2MxR29rUnl1akNzSzNVelZwOGlJSU9EbmdOVXlCdHBBZVZrUXhJMmc2akJiYzcwdkNxQ25wS05KM194Y1JncjZRNW1XVTlqWk5vWHhaZ19iUmZZYTZXNXE?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« Très constructif » : Macron et Trump ont parlé Ukraine et mer Rouge à New York - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRkRWZGtINWJLZzc2b0dWSjlydDNLSU1FTDloMFpFbHU1amEzOWhFa3RGYzhrdHVwOFo5QUtHZG9feWxxR1dzZ21rOUNvMzh1YWI0RF9YX0FZMW5CVkxKeW9HTUV1YmItNWRxRER5MWczYVdQRWdjTm9sVTJWMzQ5VVFuNzFqU1N4WjBac1hpVmNCVVFjS2Zza0QyYkpYQ3A2R2Q1Z0FGaC1VNTVRalJNb2hkWmFNWlM0aFhWWnJhNDU2N3hpUDh3eWhKWVQyTGRRR0Z2VkZDQkVrUQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump peut couper l’Iran du dollar. Mais peut-il vraiment couper la Chine ? - trends.levif.be",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbTFIelJDci1lckYtcU9Hb0w5SGk2RUVNdWoxN1RON2hPS1J3SlJkTV85dzJ6UURlTmlsbmZlc0s4dnpyQmRBMnItdjZobDRZV2RiRnBqbVV3b1BqOW1RRzJNRWd1dGlDNjhnaEw0NGhlN04wWHVRWDRhcG9rZjVuUjZKZ091bXZZU0dMdkt2TWVERHdoZHpSakZrXzZJYXBNVnIzODBRNGg4R2pZOEF6NjZRV2JWdVU?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 22,
+      "putin": 1,
+      "macron": 5,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 34,
+      "putin": 2,
+      "macron": 8,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 15,
+      "crime": 21,
+      "eu": 14,
+      "politics": 11,
+      "be_gov": 6,
+      "culture": 21,
+      "tech": 16,
+      "economy": 14,
+      "sports": 26,
+      "health": 1,
+      "climate": 5,
+      "migration": 3,
+      "education": 11,
+      "weather": 12
+    },
+    "wide_themes": {
+      "war": 23,
+      "crime": 27,
+      "eu": 22,
+      "politics": 20,
+      "be_gov": 10,
+      "culture": 30,
+      "tech": 30,
+      "economy": 21,
+      "sports": 38,
+      "health": 4,
+      "climate": 6,
+      "migration": 4,
+      "education": 12,
+      "weather": 15
+    }
   }
 ]
