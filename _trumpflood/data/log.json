@@ -99557,5 +99557,658 @@
       "education": 20,
       "weather": 17
     }
+  },
+  {
+    "date": "2026-09-23",
+    "generated_at": "2026-09-23T10:49:02+02:00",
+    "last_checked_at": "2026-09-23T10:49:02+02:00",
+    "total_articles": 430,
+    "trump_articles": 17,
+    "percentage": 4.0,
+    "core_percentage": 4.0,
+    "core_percentage_name": 4.0,
+    "trump_articles_expanded": 17,
+    "core_percentage_expanded": 4.0,
+    "indirect_references": 0,
+    "wide_total_articles": 621,
+    "wide_trump_articles": 23,
+    "wide_percentage": 3.7,
+    "wide_trump_articles_expanded": 25,
+    "wide_percentage_expanded": 4.0,
+    "macro_percentage": 3.1,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 30,
+    "cross_outlet_dup_groups": 15,
+    "cross_outlet_dup_rate": 7.0,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.31,
+    "breadth": 0.53,
+    "deviation": 1.48,
+    "smoothed_pct": 3.71,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 25,
+        "kept": 25,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "google_nl_politics": {
+        "fetched": 52,
+        "today": 12,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 59,
+        "today": 9,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 28,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 17,
+        "kept": 17,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 17.65
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 39,
+        "kept": 39,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.56
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.45
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 36,
+        "kept": 35,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 8.57
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 55,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.82
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 13.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 90,
+        "today": 9,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 82,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Een flop voor een president die zoveel belang hecht aan kijkcijfers: Trump TV lokt amper kijkers",
+        "url": "https://www.demorgen.be/nieuws/een-flop-voor-een-president-die-zoveel-belang-hecht-aan-kijkcijfers-trump-tv-lokt-amper-kijkers~bab200e2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Peilingen zetten Democraten op winst. Is een blauwe tsunami in de maak? ‘Trumps achterban begint te morren’",
+        "url": "https://www.demorgen.be/nieuws/peilingen-zetten-democraten-op-winst-is-een-blauwe-tsunami-in-de-maak-trumps-achterban-begint-te-morren~b999f12b/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Verenigde Staten en Iran hebben volgens Trump drie uur overlegd in New York: ‘Zeer goede ontmoeting’",
+        "url": "https://www.demorgen.be/snelnieuws/live-verenigde-staten-en-iran-hebben-volgens-trump-drie-uur-overlegd-in-new-york-zeer-goede-ontmoeting~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Diesel duikt weer onder de 2,50 euro per liter, maar Trump denkt aan exportverbod voor diesel",
+        "url": "https://www.nieuwsblad.be/nieuws/diesel-duikt-weer-onder-de-250-euro-per-liter-maar-trump-denkt-aan-exportverbod-voor-diesel/161941939.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump ontmoet Venezolaanse interim-president in New York",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-ontmoet-venezolaanse-interim-president-in-new-york/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Comment l’Administration Trump a expulsé 25 447 personnes en créant un “Bureau de la remigration”",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/23/comment-ladministration-trump-a-expulse-25-447-personnes-en-creant-un-bureau-de-la-remigration-GFGOQH2LTJBJHCGZ7YSFGV6XNU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump à l’Onu : un constat d’échec",
+        "url": "https://www.lalibre.be/debats/2026/09/23/donald-trump-a-lonu-un-constat-dechec-EPGGNGZC5ZG2BHAFFUJQKB5EQA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"L'accès à la Maison-Blanche est un privilège\": le département de la Justice soutient Trump dans son clash face aux médias - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbjB0TkYza3doVW1DbkxaUUZTclBzeC1FaXJYbm4xbWE2RDAzeVBwLV9HRU1JUUJRRWl6aUx2NEcyN0tYVDZIdU1rajNUV1R3R0lmVjUxNmFab3hJVkVMaWxZbXBHcHJYZTJyYWE1Ti1GTGVsTG8ycXU0cDdTMThab2xtVTQwdXZ2UWFPeHEweUpHT0thSFZIZjdfb0dsaG1relA2ZGxmUUNndnk1Z0FvdHozVzNEZ0Vqekd4RjlpYzJ1eWZPT0tWbXVvaEttQ3lpMU1oNE5CUUZHeEZSLW1TbVkwWC1RS29HUzZWX1V3ZVhKeWZTNU9DeTRRTEdBS0N3V2JqSFFBX0pZVXg5TmZVWG83eWE3N0dVUy1v?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "À l’ONU, le \"show Trump\" révèle les failles du multilatéralisme - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdG1UNnV6OXZDVGQ1T3dqbU12OXpCX2g5Tlg4aDhuQlFxMnNLUVZONjV5YVMxem51WkIzNHNyMXN3SUVjejhnTjViNEtTR2NJcENoMHpqZkFCLTYzd3QwX2NBbFBoRWR1TFBnb0JKOW4xVHZjSzFodTBaVFJRUnZ0dHZFNnBRUDVmbm5scWNndElwYzNxTFg1WGJxNFJxSWhwcHV3cEVBcVJ4dEhLR0pEUTBSTVRyUVQyMkxCYXNLbGRPRDFpWEpOaVlkMkxrWjJsN2c?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Sommet Trump – Xi : investir dans l'IA chinoise par le biais des puces, du cloud ou encore des robots humanoïdes - L'Investisseur",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOTGhHQ1BRSXUxbDlhZ2NBRGE0V3hUaGpkNDhLejdyaVpYZXM4ejJSeEVsUEF3LUktenN0aGoyMURDUVBITmk0OFg1dkgteU1TdlVqd3hNYTRyd0RHSVRuNUIzcXZIV3R4dDkwVGJISFJMRzBFbVlOTHZVSXpHUm5jN1lvZXJOMVdmOVllbnZKU3FtY1lvc1Y5YVowakRfc0J2WGJBdWVkU2JhdUNFQ1Rka0NZTVhJaDQzcHJvdnNDb2xKNlBsTXdtYlNNMThWN2hUa0hrSkcyaUNLWFhicF92bVY4MjhncERqRVg2a3NCOWxHdjg2aXJ5YWlmUDFyN0xMaTdzbV9IZWRyYWtfazhkVkhKYw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Est-ce que je les envoie en enfer?\": Trump menace l'Iran devant l'ONU puis annonce une reprise du dialogue",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/23/est-ce-que-je-les-envoie-en-enfer-trump-menace-liran-devant-lonu-puis-annonce-une-reprise-du-dialogue-XCFCEJTDDVFA3JOK3SBZUIX4LM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Il traite la presse comme des chiens”: pourquoi le coup de sang de Trump risque de lui coûter cher",
+        "url": "https://www.7sur7.be/monde/il-traite-la-presse-comme-des-chiens-pourquoi-le-coup-de-sang-de-trump-risque-de-lui-couter-cher~a47a1b93/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump favorable à une interdiction des exportations de diesel américain",
+        "url": "https://www.7sur7.be/monde/trump-favorable-a-une-interdiction-des-exportations-de-diesel-americain~a875f7ee/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "La présidente vénézuélienne rencontre Trump, alors que sa principale opposante est empêchée de rentrer au Venezuela",
+        "url": "https://www.7sur7.be/monde/la-presidente-venezuelienne-rencontre-trump-alors-que-sa-principale-opposante-est-empechee-de-rentrer-au-venezuela~a6036ae1/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Avons-nous encore une boussole commune?”: Prévot critique indirectement Trump et défend l’ONU",
+        "url": "https://www.7sur7.be/belgique/avons-nous-encore-une-boussole-commune-prevot-critique-indirectement-trump-et-defend-lonu~a2998f4c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump overweegt exportverbod voor diesel - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUFZ6NS0ySE9vRGdsT3JFV2JHeEpCUmtwbk1DVXVRaHNBeUcxVWk4UVQ5WDJzWW5kVXBWNnBfVWs3bjJucnBrTGZ3RDBhdVRJbk5PczdmV1dkWVJtRDZacE9nWjJ4MGJLYlhxenNQaC1TVkNVSmwtOEZhMFFxU0pWQzNoT05scGNzMUkxbXNJX0pwaGVqZDFvQVZHVHF4MDJFTnlLblJCNWZCaEhScHdjd183aEMwa0E?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Le SOX rebondit de 5 %: le marché parie déjà sur un dégel Trump-Xi - trends.levif.be",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObVhlWXVleFhIYmU0Rk8wU2ppQktXamQtT21Mc1ZEbzVTNUJFQTQzNmQyNzNCM1dCREV6bHBYQW9lVS1xSndBZnpkTDVDMzlfRGxvVmJ1UkF2YndJR2hQUG53QlFiNFNRdnYyVVZkYVl3T0NiSmRMaklrY3VwQjdNUWhhX0tmTUhaNzZqdWpwUXRKdGZMOTFUMGVoWQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Een flop voor een president die zoveel belang hecht aan kijkcijfers: Trump TV lokt amper kijkers - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMXpPU1FtVEtjSDBSN3c3OEFSR1hlTHlrSDNWOUFCa3ltaXpuaUpNa3dBNGdtZmhHdUhLdW9YVjdoanhnd3o3NjFPZGNQTUtsR2ZhdDlWcy1NZHh2cURtdWNIRDVjZndNd0pOQUUzbDZWNFRqcVJCMk15WFF6Z1Zqc1RGc2lILTFWNmRGSXgwU3ZzWXE5dldfVjc3eVRCRFVsUGhEX1NUOXIzcUZaMUZteWN3bldqTzJsM3NGYVVKUExyT3RfRlFoaFVoZUphTmV6Mmc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump ondertekent deal over Groenland - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUm9pcnFKRk5ZUGhYZzdXYm5zdmp5QklsYWFleXY5ckVudFV0SS1zbURVS2FfbkY1QXBCMjM3dUNOX2szZG5fM25mN3lMekNHWE51VVBiMEduc2NyZkZzX3BzLUZraUVmOVFMbGI4ZVRiSE93bFpmZU5WMnlNbE9uLWlyOXplSHFtMTF6d0FVb3R6QQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur le discours de Trump à l’ONU - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdjduaG9DZkxFdkQxM1ZKRWMwNlFseVpaQ09GY3BrSnNWdDFWZnRyTGYtRXB1Nkh0X1JUX0xWXzlJcENUbklxNDVCMG5UVEltZW10Z213aFdUSjg0eXVtWGNIZWhqSjJXNmlFN3VhbHVHakQyVWdxQXpxeHJfVkFiMFBSbnRud09ZYVd4NkNqOTc4SUJMT1p6N2tR?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Republikeinse senator eist onderzoek naar trouwfeest van presidentszoon Donald Trump Jr. - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdWNRbXNkVFRKVFFIdFBBb3hEaUI0cW9XcVV6UmZZYjI1NFFmWE5aWE83aU9lNjZlLW1kTl9ZVFp5NEtibmdUWDh3TjVWWDBleWljN0g4dFdSZlJhbGEyUXFlR0xmYndrbDMza3hXVUhQSF9tTnhyZjZFX3FDaTVsNjBpbkZuUU42RnJ3dVFQTFhMYzVrLXJoc09sbU14RU1LS3VTRHVxWEk1RkNXX1hGTE5DS2w0amxzbUtBMjVRV09xRXVMSjZMdjFvZzFIc0U?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Zeker zes grote Amerikaanse ziekenhuizen stoppen onder druk van regering-Trump met behandelingen voor gendertransitie - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVnMtWm5pRlpoaUhjdEpQekhpU1VYbjhxRHh3TmNYSU9kSmxyTlhFV1hkLXZMVkJ3dFM4QzBzY0JWSFBYcjZLSWp4TlJ6MEFQOTd4bExoTTYza3FDZEZWcnh5VWc5SG9xRzFRTVZZc2xtNWQ4eHI4Q1daRURmNWZaaE41TFB2RUJjOFpQMndxZldYQUJiUHI3S2VvM3lmbHN3NGxITkY3WjR3eTB5ZlNMY0ZPOEg5OWtFTW5WalVRQlVfOWJxanVXdlQ1Y3JsZGRuVWFrbFVlYXhXOEcyUms0cHhRei16RXh1VkdqSFh3?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Republikeinse senator eist onderzoek naar trouwfeest van presidentszoon Donald Trump Jr. - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQ05lcDR5YmxTdVJOV2VCaUtRMmtoaUh0R2Jtem5ZZXJaSlk2NWdDaEkyTzdySmxZczdDRFZrbGhhald0aS1VZEpiLUR4QWF4ZmE1cXJCbjRDYWVWUmdXdWFDZkNiY0R2ODdCblFfb1pTM003NWNveU1sYncyb3VUTUIta2dqWmRjaS1zOF9VZW1yNUhmSGlMT2UyX2E5ZHNEWWluUmdaTEdmcHNkeUhueDFrWTdWWUptUnc5YmpUcHNXZ21XY1pqSENoRE5IRXU5ZEJKdUhtcw?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "\"Des êtres humains sont bradés d’obtenir des concessions\" : une enquête détaille la politique d'expulsions massives de l'Administration Trump - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOdFY0RVhocEJpZDZjRDVuT0NGN2NpMnd6THVFdHZfMGxTbWt4WnVObU9GNmpYejJiNUwwT0dMRTh3SDU5SGlObzJVNzZQb1VsWjFYN3dUUTdhcERqcFY5NWNUNXNscXRGcnVwdnNFSGwxUTVFZDRhQVZ3LVhxVENycHBRS0RPMk4tSU1vaHZxVTZzMlRJSzNybVd0czZmT1QwZ21DOWRkMlo4SnI1ZFVDMWV3alFjTXM5a0VsZWNQbW9EbHkxNEJ0QW15U2FaSi04aG15SlNGQmxwcGZzNjdhelF4UjNIYnh2bGdMclRwVWFVbXFOUXhMbm1IcktSOG94emZ3TGRmUXRlWk0?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump souhaite interdire les exportations de diesel américain - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQi04NUItdUtuc3JZUHlXdk9GWW15YUZhZE5GeWdSamZDT2lmMmRuak1XSG81UmlkVGhqcndlZkFIMFl0Z0JTZFBvdkRFbTFXZlBZUHZEbU5OUVlsRmgtT2VHYjQ2OU9jbVRVSl93N1ZZaXQ1UXQyNFJUakNqVGExMml3UzNybWNrR2IwN2x6TzZVQnVvTkZTVmhvZWFMaWM2OVBJWGdmaU50TnZQamJ2X25wZFo2YlU?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Een flop voor een president die zoveel belang hecht aan kijkcijfers: Trump TV lokt amper kijkers",
+        "url": "https://www.demorgen.be/nieuws/een-flop-voor-een-president-die-zoveel-belang-hecht-aan-kijkcijfers-trump-tv-lokt-amper-kijkers~bab200e2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Peilingen zetten Democraten op winst. Is een blauwe tsunami in de maak? ‘Trumps achterban begint te morren’",
+        "url": "https://www.demorgen.be/nieuws/peilingen-zetten-democraten-op-winst-is-een-blauwe-tsunami-in-de-maak-trumps-achterban-begint-te-morren~b999f12b/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Verenigde Staten en Iran hebben volgens Trump drie uur overlegd in New York: ‘Zeer goede ontmoeting’",
+        "url": "https://www.demorgen.be/snelnieuws/live-verenigde-staten-en-iran-hebben-volgens-trump-drie-uur-overlegd-in-new-york-zeer-goede-ontmoeting~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Diesel duikt weer onder de 2,50 euro per liter, maar Trump denkt aan exportverbod voor diesel",
+        "url": "https://www.nieuwsblad.be/nieuws/diesel-duikt-weer-onder-de-250-euro-per-liter-maar-trump-denkt-aan-exportverbod-voor-diesel/161941939.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump ontmoet Venezolaanse interim-president in New York",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-ontmoet-venezolaanse-interim-president-in-new-york/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Comment l’Administration Trump a expulsé 25 447 personnes en créant un “Bureau de la remigration”",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/23/comment-ladministration-trump-a-expulse-25-447-personnes-en-creant-un-bureau-de-la-remigration-GFGOQH2LTJBJHCGZ7YSFGV6XNU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump à l’Onu : un constat d’échec",
+        "url": "https://www.lalibre.be/debats/2026/09/23/donald-trump-a-lonu-un-constat-dechec-EPGGNGZC5ZG2BHAFFUJQKB5EQA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"L'accès à la Maison-Blanche est un privilège\": le département de la Justice soutient Trump dans son clash face aux médias - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbjB0TkYza3doVW1DbkxaUUZTclBzeC1FaXJYbm4xbWE2RDAzeVBwLV9HRU1JUUJRRWl6aUx2NEcyN0tYVDZIdU1rajNUV1R3R0lmVjUxNmFab3hJVkVMaWxZbXBHcHJYZTJyYWE1Ti1GTGVsTG8ycXU0cDdTMThab2xtVTQwdXZ2UWFPeHEweUpHT0thSFZIZjdfb0dsaG1relA2ZGxmUUNndnk1Z0FvdHozVzNEZ0Vqekd4RjlpYzJ1eWZPT0tWbXVvaEttQ3lpMU1oNE5CUUZHeEZSLW1TbVkwWC1RS29HUzZWX1V3ZVhKeWZTNU9DeTRRTEdBS0N3V2JqSFFBX0pZVXg5TmZVWG83eWE3N0dVUy1v?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "À l’ONU, le \"show Trump\" révèle les failles du multilatéralisme - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdG1UNnV6OXZDVGQ1T3dqbU12OXpCX2g5Tlg4aDhuQlFxMnNLUVZONjV5YVMxem51WkIzNHNyMXN3SUVjejhnTjViNEtTR2NJcENoMHpqZkFCLTYzd3QwX2NBbFBoRWR1TFBnb0JKOW4xVHZjSzFodTBaVFJRUnZ0dHZFNnBRUDVmbm5scWNndElwYzNxTFg1WGJxNFJxSWhwcHV3cEVBcVJ4dEhLR0pEUTBSTVRyUVQyMkxCYXNLbGRPRDFpWEpOaVlkMkxrWjJsN2c?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Sommet Trump – Xi : investir dans l'IA chinoise par le biais des puces, du cloud ou encore des robots humanoïdes - L'Investisseur",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOTGhHQ1BRSXUxbDlhZ2NBRGE0V3hUaGpkNDhLejdyaVpYZXM4ejJSeEVsUEF3LUktenN0aGoyMURDUVBITmk0OFg1dkgteU1TdlVqd3hNYTRyd0RHSVRuNUIzcXZIV3R4dDkwVGJISFJMRzBFbVlOTHZVSXpHUm5jN1lvZXJOMVdmOVllbnZKU3FtY1lvc1Y5YVowakRfc0J2WGJBdWVkU2JhdUNFQ1Rka0NZTVhJaDQzcHJvdnNDb2xKNlBsTXdtYlNNMThWN2hUa0hrSkcyaUNLWFhicF92bVY4MjhncERqRVg2a3NCOWxHdjg2aXJ5YWlmUDFyN0xMaTdzbV9IZWRyYWtfazhkVkhKYw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Est-ce que je les envoie en enfer?\": Trump menace l'Iran devant l'ONU puis annonce une reprise du dialogue",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/23/est-ce-que-je-les-envoie-en-enfer-trump-menace-liran-devant-lonu-puis-annonce-une-reprise-du-dialogue-XCFCEJTDDVFA3JOK3SBZUIX4LM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Il traite la presse comme des chiens”: pourquoi le coup de sang de Trump risque de lui coûter cher",
+        "url": "https://www.7sur7.be/monde/il-traite-la-presse-comme-des-chiens-pourquoi-le-coup-de-sang-de-trump-risque-de-lui-couter-cher~a47a1b93/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump favorable à une interdiction des exportations de diesel américain",
+        "url": "https://www.7sur7.be/monde/trump-favorable-a-une-interdiction-des-exportations-de-diesel-americain~a875f7ee/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "La présidente vénézuélienne rencontre Trump, alors que sa principale opposante est empêchée de rentrer au Venezuela",
+        "url": "https://www.7sur7.be/monde/la-presidente-venezuelienne-rencontre-trump-alors-que-sa-principale-opposante-est-empechee-de-rentrer-au-venezuela~a6036ae1/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Avons-nous encore une boussole commune?”: Prévot critique indirectement Trump et défend l’ONU",
+        "url": "https://www.7sur7.be/belgique/avons-nous-encore-une-boussole-commune-prevot-critique-indirectement-trump-et-defend-lonu~a2998f4c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump overweegt exportverbod voor diesel - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUFZ6NS0ySE9vRGdsT3JFV2JHeEpCUmtwbk1DVXVRaHNBeUcxVWk4UVQ5WDJzWW5kVXBWNnBfVWs3bjJucnBrTGZ3RDBhdVRJbk5PczdmV1dkWVJtRDZacE9nWjJ4MGJLYlhxenNQaC1TVkNVSmwtOEZhMFFxU0pWQzNoT05scGNzMUkxbXNJX0pwaGVqZDFvQVZHVHF4MDJFTnlLblJCNWZCaEhScHdjd183aEMwa0E?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Le SOX rebondit de 5 %: le marché parie déjà sur un dégel Trump-Xi - trends.levif.be",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObVhlWXVleFhIYmU0Rk8wU2ppQktXamQtT21Mc1ZEbzVTNUJFQTQzNmQyNzNCM1dCREV6bHBYQW9lVS1xSndBZnpkTDVDMzlfRGxvVmJ1UkF2YndJR2hQUG53QlFiNFNRdnYyVVZkYVl3T0NiSmRMaklrY3VwQjdNUWhhX0tmTUhaNzZqdWpwUXRKdGZMOTFUMGVoWQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 17,
+      "putin": 0,
+      "macron": 6,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 6,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 23,
+      "putin": 0,
+      "macron": 8,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 9,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 12,
+      "crime": 15,
+      "eu": 18,
+      "politics": 23,
+      "be_gov": 14,
+      "culture": 12,
+      "tech": 14,
+      "economy": 9,
+      "sports": 27,
+      "health": 3,
+      "climate": 3,
+      "migration": 3,
+      "education": 5,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 12,
+      "crime": 22,
+      "eu": 25,
+      "politics": 38,
+      "be_gov": 20,
+      "culture": 17,
+      "tech": 24,
+      "economy": 11,
+      "sports": 46,
+      "health": 6,
+      "climate": 5,
+      "migration": 6,
+      "education": 7,
+      "weather": 14
+    }
   }
 ]
