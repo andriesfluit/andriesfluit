@@ -100210,5 +100210,874 @@
       "education": 7,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-09-24",
+    "generated_at": "2026-09-24T10:44:01+02:00",
+    "last_checked_at": "2026-09-24T10:44:01+02:00",
+    "total_articles": 453,
+    "trump_articles": 33,
+    "percentage": 7.3,
+    "core_percentage": 7.3,
+    "core_percentage_name": 7.3,
+    "trump_articles_expanded": 34,
+    "core_percentage_expanded": 7.5,
+    "indirect_references": 1,
+    "wide_total_articles": 650,
+    "wide_trump_articles": 43,
+    "wide_percentage": 6.6,
+    "wide_trump_articles_expanded": 44,
+    "wide_percentage_expanded": 6.8,
+    "macro_percentage": 7.8,
+    "qualifying_outlets": 25,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 38,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 8.4,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 4.71,
+    "breadth": 0.82,
+    "deviation": 2.7,
+    "smoothed_pct": 4.23,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 1,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.11
+      },
+      "google_nl_politics": {
+        "fetched": 48,
+        "today": 6,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 49,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 32,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 10,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 30.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 26,
+        "kept": 26,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 11.54
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 62,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 21,
+        "kept": 21,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 9.52
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 41,
+        "kept": 41,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 7.32
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 9.38
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 38,
+        "kept": 37,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 8.11
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 63,
+        "kept": 63,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 4.76
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 14,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 21.43
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 16,
+        "kept": 13,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 23.08
+      },
+      "trends_g": {
+        "fetched": 88,
+        "today": 9,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 62,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump ontvangt Xi Jinping met rode loper en militaire fly-over, later vandaag volgt overleg en staatsdiner",
+        "url": "https://vrtnws.be/p.OvXEDRQOq",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Rechter verplicht Trump om journalisten van CNN, MS NOW en Politico weer toe te laten in Witte Huis",
+        "url": "https://vrtnws.be/p.oL169MlGa",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping komt sterker naar Washington dan Trump lief is en toch hebben beide presidenten elkaar nodig",
+        "url": "https://vrtnws.be/p.ZWyjGoQ3R",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "De doelen van Xi Jinping in het Witte Huis: Trump managen en de vrede bewaren - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOVZYelN6ZXBjOGxsMU9wM2Y1amk5WGNGWG5QNm43dzFVc1NRZmJxUnd0NXA1bWFkaExhQkloWEMzOWtEOXp0THRZSGZNTnJpUkUxQlNvcU5IVlB1U1JXTlRxRmYwblhKQVNoRFZ1blFVc3lhQXgwUmJKc0plSmhFM1VrY0lRSjAtXzBsNVpCRV9IdURTNm1CM3A1Z2RQaTFlZ0xtRll6Z3VuSjRxZllQU2RLNW50U2dqWmR1cDVKeFVsNW15U0E?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump rolt rode loper uit voor Xi Jinping, bestand over handelsconflict verlengd: “We moeten partners zijn in plaats van rivalen”",
+        "url": "https://www.hln.be/buitenland/trump-rolt-rode-loper-uit-voor-xi-jinping-bestand-over-handelsconflict-verlengd-we-moeten-partners-zijn-in-plaats-van-rivalen~ad9d632d/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump moet journalisten van 'CNN', 'MS NOW' en 'Politico' opnieuw toelaten tot Witte Huis",
+        "url": "https://www.hln.be/buitenland/trump-moet-journalisten-van-cnn-ms-now-en-politico-opnieuw-toelaten-tot-witte-huis~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Verenigde Staten onder Trump zijn niet meer bondgenoot van weleer’, schrijft Buitenlandse Zaken in intern werkdocument",
+        "url": "https://www.demorgen.be/nieuws/verenigde-staten-onder-trump-zijn-niet-meer-bondgenoot-van-weleer-schrijft-buitenlandse-zaken-in-intern-werkdocument~be05b1bd/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump moet CNN, MS NOW en Politico van rechter weer toelaten tot Witte Huis • Chinese president Xi gearriveerd in VS voor driedaags staatsbezoek",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-moet-cnn-ms-now-en-politico-van-rechter-weer-toelaten-tot-witte-huis-chinese-president-xi-gearriveerd-in-vs-voor-driedaags-staatsbezoek~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis verbande ‘Politico’ en co. vanwege gebruik van anonieme bron. Die blijkt nu... het Witte Huis zelf te zijn",
+        "url": "https://www.demorgen.be/nieuws/witte-huis-verbande-politico-en-co-vanwege-gebruik-van-anonieme-bron-die-blijkt-nu-het-witte-huis-zelf-te-zijn~b08732ca/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Rechter blokkeert beslissing van Trump om pers toegang tot Witte Huis te ontzeggen",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-rechter-blokkeert-beslissing-van-trump-om-pers-toegang-tot-witte-huis-te-ontzeggen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Venezolaanse interim-president bedankt Trump en belooft verkiezingen",
+        "url": "https://www.hbvl.be/buitenland/venezolaanse-interim-president-bedankt-trump-en-belooft-verkiezingen/162046397.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump verwelkomt Chinese president uitzonderlijk zelf op vliegveld in VS: “Geweldige mensen”",
+        "url": "https://www.hbvl.be/buitenland/trump-verwelkomt-chinese-president-uitzonderlijk-zelf-op-vliegveld-in-vs-geweldige-mensen/162046329.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Un juge ordonne à Trump de rouvrir la Maison-Blanche à CNN, MS NOW et Politico",
+        "url": "https://www.rtbf.be/article/un-juge-ordonne-a-trump-de-rouvrir-la-maison-blanche-a-cnn-ms-now-et-politico-11789768",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping à Washington chez Donald Trump... Chine et États-Unis, rivaux partout mais condamnés à s’entendre",
+        "url": "https://www.rtbf.be/article/xi-jinping-a-washington-chez-donald-trump-chine-et-etats-unis-rivaux-partout-mais-condamnes-a-s-entendre-11789744",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "”Anéantir l’Iran ou passer un accord” : Donald Trump divise plus que jamais aux Nations Unies",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/24/aneantir-liran-ou-passer-un-accord-donald-trump-divise-plus-que-jamais-aux-nations-unies-XC6OSRS7KJGWFPUYK6YMV4MYKA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Revers en justice pour Donald Trump : un juge rétablit l’accès de CNN, MS NOW et Politico à la Maison Blanche",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/24/revers-en-justice-pour-donald-trump-un-juge-retablit-lacces-de-cnn-ms-now-et-politico-a-la-maison-blanche-VIAUVAWYWZEYLPOCYE4XKIFAXU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump bouscule le protocole pour Xi Jinping, la trêve commerciale prolongée",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/24/donald-trump-bouscule-le-protocole-pour-xi-jinping-la-treve-commerciale-prolongee-OAPSRFMYRRFFHLFSWWVY3JVOK4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les bourses en direct | Prudence avant le sommet Trump-Xi, Hyloris bondit, H&M en retrait, fan mail pour WDP - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSk5LQ1QycENuQ29yWDlGQTdoNGRZQlZRZ1FST0J4QlFnMFczYTgzSlA0cTdyX1hHSUtrZjd2eVFhU245dWh1NGpqZ2lOaXRZQTdFSkRESU4xS0RIWGpmRHJrdENjNUk2RU9SWm90RmFLanhMVkxQdmxheHJvbDNISVNzTFRrbU94WGVNQVotd1pZT1piT1NkYVZoWEdSY0ZLMklkeVNWb2lLQzl0eE1abUdaRktHeExFa25oRU9tRTNtSXFfdVNsby11WVV6SnlmemJueE9JandCbC00Z0w1dzR5NFczUWNONnRqbTk1OVY4dw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La justice américaine contraint Donald Trump à réintégrer CNN et Politico à la Maison-Blanche - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQeWtEbDRhcXR0dTBiNXRIcWhyeFdZYTlNT0xmaFRrZGlGcU9ZNGtZU0RrNUZvVDh2dE81anRYVmlEVW5hamZHZGliS3VRaVNWdXJjazZfdXp1Z0RoaG5Ta0ozS1cwOGFUVWZyTDd5MV9LeW01RFRzaUFzVVpVTDk3ZE1TcTN6VjlweHZvai1WT3pYcGVnUVBDV0dWbktFVEluUzlhRDhhQmZrMEJJQzRsdGxfYTBTSnJLdEVlcUFCTVAzQi1JVFdjcUFFNFVKajI4X2RtZTUtcWNQX2poZktuX1RTcnczd3FkdEFfb1k3ZXFFLV9BckRYZA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Les bourses en direct | Prudence avant le sommet Trump-Xi, Hyloris bondit, fan mail pour WDP - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcjViMVVoSXljdFhJZzlVaFVueVdKSFJXNTJ2Tml5RHc3Y0RXdm0wY0N1dDRmUW1zNk5KTVRRN25FMjRvRG1EaHJGX3FTNUJWbXVoaFNuaWJZc3NaV0NaWFJUQ25NVEZlMG9ramJsSDlCVU1ESTJRbjF1dTRBa3VESlVORmItRkNuV2NjRzBaRTVHNEViS05TNmhJc1BJTDR5TmRickNBNUM5SGN1azM0RGVlaEcwcWxWWkdzQTBUNTJlVlVESWdWZk81TQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "”Anéantir l’Iran”, provocations et alliés en fuite : Donald Trump divise plus que jamais aux Nations Unies",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/24/aneantir-liran-provocations-et-allies-en-fuite-donald-trump-divise-plus-que-jamais-aux-nations-unies-4S74OYPMPJHJXLDMNOSWOWOQPU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le clin d'oeil du président chinois Xi Jinping lors de sa rencontre avec Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/24/nos-deux-pays-devraient-etre-partenaires-plutot-que-rivaux-ce-quil-faut-retenir-de-la-rencontre-entre-xi-jinping-et-donald-trump-MWPAXM4YFVEBLEXGWVOE3HADME/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Médias interdits à la Maison Blanche: un juge inflige un revers à Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/24/medias-interdits-a-la-maison-blanche-un-juge-inflige-un-revers-a-donald-trump-WIQN36BSFFBOJENIGJ4K63UBYI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un juge ordonne à Trump de rouvrir la Maison-Blanche à plusieurs médias",
+        "url": "https://www.7sur7.be/monde/un-juge-ordonne-a-trump-de-rouvrir-la-maison-blanche-a-plusieurs-medias~a30be25c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Accueil aux petits soins, sujets de friction: ce qu’il faut savoir sur la rencontre entre Xi Jinping et Donald Trump",
+        "url": "https://www.7sur7.be/monde/accueil-aux-petits-soins-sujets-de-friction-ce-quil-faut-savoir-sur-la-rencontre-entre-xi-jinping-et-donald-trump~a67eb2e6/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Warrantenbonussen plots dubbel zo populair | VS en China verlengen handelsbestand aan begin Trump-Xi-top | Muse blijft beurzen dooreenschudden - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbGdMYVU2b1NKcHQ4dmFmX2JDU2IzbGVMdk90Y0NjckFVT3pBVVBqYXNlV3ZVc2ptU2lWY3RqMzhUaUFCNldTSmY5YTJoeWxGQXFqZnhMb2QwOVBabzN1Nkw3aC1LWkcxUWhZb2cxbnlnRXdRWXowUmM2MnJJSzB4THdlanVILWJLUHoyTVFtclhaY1lFSVM5MGtlS3dJVy1mMW9GTDNsWWZhMjZJaUhrcjhCYTFSYkhmbGJQd1JwZGtjRTJ3TTBHYUFlcVE4Y3pJTXdjb214ODdteTNjZExVVlFVNGhXVnFFRG44UlRhdlJlNmlycEp3UnlxSDNEMGNNMUN4a09MM3ZIUFl5TGc?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Warrantenbonus plots 2x zo populair | VS & China verlengen handelsbestand aan begin Trump-Xi-top | Muse schudt beurzen weer dooreen, maar nu anders - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQVnlxSEZXeUlnMFhvYXVfZ1JxdFJYWmRlWUNSMGQ2Q0pVY3otMUthYThKSEtIdGNlZDZTamZNODB3RWJGTlZYTFlJZkRpbk96WTVoR3ROUW94VHhFYTAyOUdKMW1lU0wzRnZYcEo0RUVibDhzTndObWgweFU3YzBOT3o5d3pVMHRFMmYxUnh5SzZpYlVsZlNscHpPc2Y3TFpUcUIxQzF5MFV5ZTkxeDVXbE5vNmhJSkREMi1zelZ3Wkp5UEhydEZUS3JnUk84bE5sMXhfQS1ZNlRwVWZCb2tRMnNMQ2x6bEZUenVxUGVnYVUzSkotMUxSOWRlYzdoQXBLZUN4d1N4Zl9ER3NVdVJPTnFldmROVzg?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Rechter verplicht Trump om CNN en Politico weer toe te laten in het Witte Huis - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYUVkXzhnM0M4cnQtUWt1VlNhR0FaXzh4UjREXzhmOFo1UTR4X2JmVGNORFFJSmdsdnNVY3piUlNGZ055em5RT1ByUElwZTkxMFQ1QW9XSFAxbHVPU3VyUDluSEpBenAxZ3d0dmNITmVGVk5tVWtoZnFpZE11bmh5WUZGNU5KSmtmN1pfaTJ1TjlMYk80RUY2bUY4YnpoRFYxdVU0bF9saE9PVWxWSU5keUt5WnhyczVIX0oxUG5veFBMUE8wcmM3SkpVUFNfSURzMDFkcXZiejdaLWxOYnJoYXp3?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Un juge ordonne à Donald Trump de rouvrir la Maison Blanche à plusieurs médias : la mesure du président américain a été prise sans « procédure régulière conforme à la Constitution » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLWJCY0lJWUM0NFhjSzNiOHY3WFItNjRKQkNFSmdPVm9sNF9mdXR2UkgtRTJKSGJERU8xZWpQZXpremY1enhEbkRvVHRIV2dzcjh4c1BJdEcyVHhVYVFfNXBqMElaU1RPMU9vdjdubmhsNDJGSEVvZ0ZqQk1taXNGdTJ2Y0dxOGNSYW9TRlBXTnZqS25pOWhyV0pWeVJnMlhBbWVPTjl3Z0pMWS1UdW9wbHZiUE40ZG9VNXdRdjg5czZfMWZReFh4Zg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "La visite de Xi Jinping aux États-Unis a déjà rempli son principal objectif avant de rejoindre la Maison Blanche avec Donald Trump : « Nos deux pays devraient être partenaires plutôt que rivaux » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSG43SEIxYTVIUGVZclBtSncwSlFXeGZGT05WT2lkVzV3anEyTW4zSDlmLWFiR0pqNWtRQ2x3czdUMTM2c1owTGtrZU8yejRTTHJKS3ZxcFE3S216Tlc4ME5pZXFjRGg5LU1vR2RkRHZfc2Y5WHFaRGNwZmhIbEp5MHRudUZtd1c3Qk5CRmRiNU9USjFvUWFfaDRNaGRQVVZsU3JjcERXWmxNaExXMmIwVVFNYVpWTHQ3c1BPNnB1cTE1SHJWQUdpVlRuYw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Le secteur diamantaire d’Anvers offre une bague à Donald Trump : rencontre avec l’ambassadeur américain Bill White - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbXB4RWZLSndZd1BPbDZLYTIwRGhpSHFXTFcwc1VtOTZjSWxhVko4M2tlMzBfZ3F5Q1ZnV0dQVzVaTWJxNzlPTTRNZkFIQ2ZHZzh6WTlOT3k5N3JxOU9IMVE1RGVLT205a2ZuX0M4SHRhQzRhNU55eHd5c24wSV85THlVZzlxYkU0YW1TMmw1STFfbEw3U1BkcG11Umd1WTRGdXRJZERnelJGOE1vNnp6c3VodHQtLXZEUjFzbUJwRzlLbFhMRW8yLQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Rencontre Xi - Trump : un pas décisif vers la fin du conflit au Moyen Orient ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbDJ4SEVsX3BJaVE2M29BRmN1dDlvTTFGZXhTOFdXY2FlSGRXaWhGcTJyWnh2YTQwMVIwdnhUOTN2aElOXzBHYldKa3JLUm91VmY3SExia0hURGw1ZDJwMXdlalEzYVJXbl9FeE9VRlFMdUJMMnhIR1o2V3VaV0plaDdlRnMtdnNfVndqeC1rUVB1NE43U1kwMDJqRjV2MmIxaUhEZDMtZWlFd3ZxOV9FQUhYWUJFOE9PaGpaRG9JWmFUN1Bmbmc?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Le président chinois Xi Jinping se rend à la Maison Blanche pour rencontrer Donald Trump : « Prolonger la détente économique entre nos deux pays » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUV8zU0k3c1Y5V0hpUEh1SVFJN0J6RnhTV0dnNzI4ZTMtc00yYWxyaTBRUF8xbllrX2hHRVRyOEc5V0JUcnNOaldWOXNWSndqNXVyNEJOTU83dW50d1FIUjZaeVVzZ05CZTcwUkpvQV9wdUtCZXcxM1JocDkzSjRyWFRjNzhhZzcwSkpENDVILVJIbFRsdlI3ZXE3cElUUksxM1dFY1h1T3g2elBLOW5QU1FKSWRsaEZsN0ZJTmxPSTlMaWdFSDdMQzFBeEhqWWFjZnhhaHhaQmZfNUYwNEkyX0xsNDA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "\"Les États-Unis de Trump ne sont plus un allié fiable\" : un document de la Belgique fuite en pleine Assemblée de l'ONU - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOaGY4UXlhYzZEcGVZNzhNaTN1V0ZoN1FDVDE3Z0VoMF9JTnhIa3RMOXZTRk5qM0lFRTJkYVdMQU54ZWMyUUQ5RnUzZkE4X1Y4RXZJVTkzS2d5RzNVd3dkWTVJQjFIa3pTZHJjQnNzSmxvVjFReUNKbUlmSkZXak5PSmxKbG0yYktKcGJYYlNmRG5iUF9fT2xQemNnekdvSWg4MEdnUE1FQjdrRFZhTm9COFlKY0hFc1RmZHB3Zmt1YWhjemF0VEV1dGFiVEU3QUl2Y1dvdzNDYlVYM3lQcjZfTElCVk5hNkl5UzZPWUdYSnJsQQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Rechter verplicht Trump om journalisten van CNN, MS NOW en Politico weer toe te laten in Witte Huis - VRT",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdzdzR0MyaXUwVUJGTE1FbVBTaWpCdVdySkRQVjZMUkwzc1BmXzI4LUJyT3FRM2ZJX1ZHbktSY0ZlU1pVVDVOTVgtYkNFbjFFZ2RrdkJTYjBGc1RHM25VbENILXZDNHRnSGVFLTAzVUltZFJFQzRKN3B1WkJXbnNHOTdtUEFMSkpIdVlEWkp2SUpyTVlTT2syd3JDbw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "\"We hopen dat hij zal komen\": VS nodigen Poetin uit voor de G20-top op de golfclub van Trump - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN0otaGdFZjFMMWY3ajJyV3pXUnA5dlJtN09yTkhLekRPUmhXeDFtcG0tWFZrXzRuVlRRZTJubWJpYlEwUVJFaEpuaTJSVldTZHYycUtyNzhOWm9nSi1SUGhtWnMyVEFwZ05pMGJBNUtIMFBBQW42SnhvX2xWRGN2blhiZVJpQTdlVWtwLWg5Yl8yMktJM1I4UzlVYkJxOUJXSzd1TkxKTU5XYmJJVzlIWFM0WTJ0Q2tDQXNFNzJZUXl6dzQxdW1STA?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping à Washington chez Donald Trump... Chine et États-Unis, rivaux partout mais condamnés à s’entendre - rtbf.be",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWkJSTlkwaVp0WXhJN3JtNEREZ3ZXd3U0MEZYYkZjTGN6bm9WQ3pSTEU0dUtqRmp1VG9ESHQtQ19WT0ZZZzRLc1VVSWkwdUNaMEt0TENFbDNMZDhlRkhnNGJ6TWgtTmtGbkhjTmhWSDFMeWxjaE1mZkxPbU43d09Hbml1VEhoVEN5aXJEYWlabnI2blFRZF9VTjdsZzFCTS1sSFc1LVYxMDRzQzRVaElqUzc3anROdFVvdHZnb2xVZVZnVzVkR3h5cC1WV3hrTlVCbUV3OVR3OGc?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump contraint de rouvrir la Maison-Blanche à plusieurs médias - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZVJoN3ZxYzlUbTd0WU9HMk9HN0tiY2xrSFJibDhtelJjd1g0dlN1amttT0JOLWFZT0hGZnA4M002NXFSb2pLVjItb3ZGQnU5UGxsQmVvZEpmbGVYNmNJVUtmWnRvM1BvTGZRRUZCNjUwajhoLUFLRXQ2WmV3eUNDSF9NVTRiVWxvcXJqdWZ4QnJ1VlVReDk0dzBCR1BIOWZac3RjUi1kYlEwY3REcXFEYkNsVHU4UUE?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump wacht Xi uitzonderlijk op aan landingsbaan - CNN, MS NOW en Politico krijgen van rechter opnieuw toegang tot Witte Huis - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOQlczNHNRVG4tcjYzUVhQZWh5UzhpU0dQdnB3V1I0STV1VS1sRGFPLVNyNzlJYjByUHBwMjhvQTBDMkF2dTBYOWQ1Y0Z2WWxEOWZmMTNmYnktUUt5b2t2MUVBcmQwSVEtN1NqNEZyRWJPMDEyTnlOMlZMY3Y5QTlMcWZycUhHY1NsdEp6UnlRdGgxdGRYbUhiSWx0djY2TXU1eEpfLUlPNFVxWVlYQXl1WWJoQ2k4Q2NkOS1GUjhKQnowRHVSLVlqeTg5QndrckxodnQwZHM2UGtJS2szSkNiZG9aM1NjTldDV1lhLW1sMk1GNlBPMld1ZXFBdFd6aXU4aGc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Visite de trois jours à Washington | Xi Jinping accueilli par Donald Trump à l’aéroport - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMUwzNE9DRzJlUjcyRGt5R0ZjUElaZ3ZXSEgyVHU0OENfTzF5dFRwbGVvTkloS1h6VmJBc3A4MTBKd0xKbi0zSFllYnYxaU1YdndBNTNTWnUwZVc2RkxzZ2ZRSmdVUVRiMGQzbjhxb0h4VEtNUXZRN19kY0RMeDVMMWdQUndTNTdDd1V6RDVFN2g5WGtkSTFuWVN5aHFnS1BNVEE0TjR5X3V3QVlLc1R6R0UzTGIxaXhUbmFhWWFBOGpjRzZWY0tOZjdqQnZ2V3F1dmlhMw?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Le clin d'oeil du président chinois Xi Jinping lors de sa rencontre avec Donald Trump - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQc3pWdmdjd2lEcktkQ0tvbEM1MVBuUG91c0ZpRXpRTjJSNEpxLUlrdzd0Y3BRVzh0WWJ6Mi0tMExydE14Q21VNzNkeHVLeElIRHRhbFMwQTlQTVVaVmNnUHVXa216NUo5ZVZwcVpZQjdJQy1IemcwSnY3Uy1ISTdnaUJMeVV5ZlQybzE0UzN6Tm9VZGZvRnZmNW9oSGVQRklaY3R5d0FDRFU0UTU0ZXFUUjhxVGRzZnYxMC1IcFhEZlZqRF9oOUtmTF9SNWdnZ3pfd2VqbUpPNG9oXzNGNlBhcHFwd240STJ4WHVRT3MwTFQyS0RubWs3M3BoYzlBSzZrdDFoTzhJOXRmdl8yUmk2MWFxUEVSOHRsTnpicDVWa2tTZGlZS2c?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Un juge ordonne à Trump de rouvrir la Maison Blanche à CNN, MS NOW et Politico - rtbf.be",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRHBDandpak84ZzB2Wk9NUEowWjBWNXJvN2hBLVpIZjhrdjczZmlNM0xyRGRzMTRuN2Y2bUYyZ3BHSUxQbEdpMVpVMkZ6bXNYQlAwaDBzeVJRSkZkZFJZb0pjQXItMjdOVTJEeWIxM0pmRDM2NDc4WXBpeGp2VkZOLVR2MXVIR3Z0Z0JhTEdyVWFtNWpjbW9KVDBNZmFGYWhJeUJnT2RWdl85TGht?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "La Chine propose un marché à Donald Trump pour mettre fin à la guerre en Iran : une offre qui inquiète de nombreux pays - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVm1OeGdUcUhGM0JMYnBCeVp6UFJjVFpwZGhodEIxdTVRMXhwcTE2WmI1M0JJemI5Y21kOEFKRG1qS01HUnItZWpyZ2Vnam9YMkVtaFRwbFN0RlYwa3ZVSmtydHFYbWs1YkV5Vl9jREZVUlczcXRSMHdqQXhZcGNTZjhMY0dpUEVhbmE1aHJRTURZRnFWTk56dHR5cXNZYU5nWmszWUdLV3JHV21NbElza1h3RF9peTlRTUtLejBjcGhpRFhXbHVQZjFiNE9SV0x6ajJoLVY2V0dZQVg3RWdWVw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump ontvangt Xi Jinping met rode loper en militaire fly-over, later vandaag volgt overleg en staatsdiner",
+        "url": "https://vrtnws.be/p.OvXEDRQOq",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Rechter verplicht Trump om journalisten van CNN, MS NOW en Politico weer toe te laten in Witte Huis",
+        "url": "https://vrtnws.be/p.oL169MlGa",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping komt sterker naar Washington dan Trump lief is en toch hebben beide presidenten elkaar nodig",
+        "url": "https://vrtnws.be/p.ZWyjGoQ3R",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "De doelen van Xi Jinping in het Witte Huis: Trump managen en de vrede bewaren - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOVZYelN6ZXBjOGxsMU9wM2Y1amk5WGNGWG5QNm43dzFVc1NRZmJxUnd0NXA1bWFkaExhQkloWEMzOWtEOXp0THRZSGZNTnJpUkUxQlNvcU5IVlB1U1JXTlRxRmYwblhKQVNoRFZ1blFVc3lhQXgwUmJKc0plSmhFM1VrY0lRSjAtXzBsNVpCRV9IdURTNm1CM3A1Z2RQaTFlZ0xtRll6Z3VuSjRxZllQU2RLNW50U2dqWmR1cDVKeFVsNW15U0E?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump rolt rode loper uit voor Xi Jinping, bestand over handelsconflict verlengd: “We moeten partners zijn in plaats van rivalen”",
+        "url": "https://www.hln.be/buitenland/trump-rolt-rode-loper-uit-voor-xi-jinping-bestand-over-handelsconflict-verlengd-we-moeten-partners-zijn-in-plaats-van-rivalen~ad9d632d/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump moet journalisten van 'CNN', 'MS NOW' en 'Politico' opnieuw toelaten tot Witte Huis",
+        "url": "https://www.hln.be/buitenland/trump-moet-journalisten-van-cnn-ms-now-en-politico-opnieuw-toelaten-tot-witte-huis~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Verenigde Staten onder Trump zijn niet meer bondgenoot van weleer’, schrijft Buitenlandse Zaken in intern werkdocument",
+        "url": "https://www.demorgen.be/nieuws/verenigde-staten-onder-trump-zijn-niet-meer-bondgenoot-van-weleer-schrijft-buitenlandse-zaken-in-intern-werkdocument~be05b1bd/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump moet CNN, MS NOW en Politico van rechter weer toelaten tot Witte Huis • Chinese president Xi gearriveerd in VS voor driedaags staatsbezoek",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-moet-cnn-ms-now-en-politico-van-rechter-weer-toelaten-tot-witte-huis-chinese-president-xi-gearriveerd-in-vs-voor-driedaags-staatsbezoek~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis verbande ‘Politico’ en co. vanwege gebruik van anonieme bron. Die blijkt nu... het Witte Huis zelf te zijn",
+        "url": "https://www.demorgen.be/nieuws/witte-huis-verbande-politico-en-co-vanwege-gebruik-van-anonieme-bron-die-blijkt-nu-het-witte-huis-zelf-te-zijn~b08732ca/",
+        "source": "demorgen",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Rechter blokkeert beslissing van Trump om pers toegang tot Witte Huis te ontzeggen",
+        "url": "https://www.gva.be/buitenland/live-vs.-rechter-blokkeert-beslissing-van-trump-om-pers-toegang-tot-witte-huis-te-ontzeggen/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Rechter blokkeert beslissing van Trump om pers toegang tot Witte Huis te ontzeggen",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-rechter-blokkeert-beslissing-van-trump-om-pers-toegang-tot-witte-huis-te-ontzeggen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Venezolaanse interim-president bedankt Trump en belooft verkiezingen",
+        "url": "https://www.hbvl.be/buitenland/venezolaanse-interim-president-bedankt-trump-en-belooft-verkiezingen/162046397.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump verwelkomt Chinese president uitzonderlijk zelf op vliegveld in VS: “Geweldige mensen”",
+        "url": "https://www.hbvl.be/buitenland/trump-verwelkomt-chinese-president-uitzonderlijk-zelf-op-vliegveld-in-vs-geweldige-mensen/162046329.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Un juge ordonne à Trump de rouvrir la Maison-Blanche à CNN, MS NOW et Politico",
+        "url": "https://www.rtbf.be/article/un-juge-ordonne-a-trump-de-rouvrir-la-maison-blanche-a-cnn-ms-now-et-politico-11789768",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping à Washington chez Donald Trump... Chine et États-Unis, rivaux partout mais condamnés à s’entendre",
+        "url": "https://www.rtbf.be/article/xi-jinping-a-washington-chez-donald-trump-chine-et-etats-unis-rivaux-partout-mais-condamnes-a-s-entendre-11789744",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "”Anéantir l’Iran ou passer un accord” : Donald Trump divise plus que jamais aux Nations Unies",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/24/aneantir-liran-ou-passer-un-accord-donald-trump-divise-plus-que-jamais-aux-nations-unies-XC6OSRS7KJGWFPUYK6YMV4MYKA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Revers en justice pour Donald Trump : un juge rétablit l’accès de CNN, MS NOW et Politico à la Maison Blanche",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/24/revers-en-justice-pour-donald-trump-un-juge-retablit-lacces-de-cnn-ms-now-et-politico-a-la-maison-blanche-VIAUVAWYWZEYLPOCYE4XKIFAXU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump bouscule le protocole pour Xi Jinping, la trêve commerciale prolongée",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/24/donald-trump-bouscule-le-protocole-pour-xi-jinping-la-treve-commerciale-prolongee-OAPSRFMYRRFFHLFSWWVY3JVOK4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les bourses en direct | Prudence avant le sommet Trump-Xi, Hyloris bondit, H&M en retrait, fan mail pour WDP - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSk5LQ1QycENuQ29yWDlGQTdoNGRZQlZRZ1FST0J4QlFnMFczYTgzSlA0cTdyX1hHSUtrZjd2eVFhU245dWh1NGpqZ2lOaXRZQTdFSkRESU4xS0RIWGpmRHJrdENjNUk2RU9SWm90RmFLanhMVkxQdmxheHJvbDNISVNzTFRrbU94WGVNQVotd1pZT1piT1NkYVZoWEdSY0ZLMklkeVNWb2lLQzl0eE1abUdaRktHeExFa25oRU9tRTNtSXFfdVNsby11WVV6SnlmemJueE9JandCbC00Z0w1dzR5NFczUWNONnRqbTk1OVY4dw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La justice américaine contraint Donald Trump à réintégrer CNN et Politico à la Maison-Blanche - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQeWtEbDRhcXR0dTBiNXRIcWhyeFdZYTlNT0xmaFRrZGlGcU9ZNGtZU0RrNUZvVDh2dE81anRYVmlEVW5hamZHZGliS3VRaVNWdXJjazZfdXp1Z0RoaG5Ta0ozS1cwOGFUVWZyTDd5MV9LeW01RFRzaUFzVVpVTDk3ZE1TcTN6VjlweHZvai1WT3pYcGVnUVBDV0dWbktFVEluUzlhRDhhQmZrMEJJQzRsdGxfYTBTSnJLdEVlcUFCTVAzQi1JVFdjcUFFNFVKajI4X2RtZTUtcWNQX2poZktuX1RTcnczd3FkdEFfb1k3ZXFFLV9BckRYZA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Les bourses en direct | Prudence avant le sommet Trump-Xi, Hyloris bondit, fan mail pour WDP - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcjViMVVoSXljdFhJZzlVaFVueVdKSFJXNTJ2Tml5RHc3Y0RXdm0wY0N1dDRmUW1zNk5KTVRRN25FMjRvRG1EaHJGX3FTNUJWbXVoaFNuaWJZc3NaV0NaWFJUQ25NVEZlMG9ramJsSDlCVU1ESTJRbjF1dTRBa3VESlVORmItRkNuV2NjRzBaRTVHNEViS05TNmhJc1BJTDR5TmRickNBNUM5SGN1azM0RGVlaEcwcWxWWkdzQTBUNTJlVlVESWdWZk81TQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "”Anéantir l’Iran”, provocations et alliés en fuite : Donald Trump divise plus que jamais aux Nations Unies",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/24/aneantir-liran-provocations-et-allies-en-fuite-donald-trump-divise-plus-que-jamais-aux-nations-unies-4S74OYPMPJHJXLDMNOSWOWOQPU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le clin d'oeil du président chinois Xi Jinping lors de sa rencontre avec Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/24/nos-deux-pays-devraient-etre-partenaires-plutot-que-rivaux-ce-quil-faut-retenir-de-la-rencontre-entre-xi-jinping-et-donald-trump-MWPAXM4YFVEBLEXGWVOE3HADME/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Médias interdits à la Maison Blanche: un juge inflige un revers à Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/24/medias-interdits-a-la-maison-blanche-un-juge-inflige-un-revers-a-donald-trump-WIQN36BSFFBOJENIGJ4K63UBYI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un juge ordonne à Trump de rouvrir la Maison-Blanche à plusieurs médias",
+        "url": "https://www.7sur7.be/monde/un-juge-ordonne-a-trump-de-rouvrir-la-maison-blanche-a-plusieurs-medias~a30be25c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Accueil aux petits soins, sujets de friction: ce qu’il faut savoir sur la rencontre entre Xi Jinping et Donald Trump",
+        "url": "https://www.7sur7.be/monde/accueil-aux-petits-soins-sujets-de-friction-ce-quil-faut-savoir-sur-la-rencontre-entre-xi-jinping-et-donald-trump~a67eb2e6/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Warrantenbonussen plots dubbel zo populair | VS en China verlengen handelsbestand aan begin Trump-Xi-top | Muse blijft beurzen dooreenschudden - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbGdMYVU2b1NKcHQ4dmFmX2JDU2IzbGVMdk90Y0NjckFVT3pBVVBqYXNlV3ZVc2ptU2lWY3RqMzhUaUFCNldTSmY5YTJoeWxGQXFqZnhMb2QwOVBabzN1Nkw3aC1LWkcxUWhZb2cxbnlnRXdRWXowUmM2MnJJSzB4THdlanVILWJLUHoyTVFtclhaY1lFSVM5MGtlS3dJVy1mMW9GTDNsWWZhMjZJaUhrcjhCYTFSYkhmbGJQd1JwZGtjRTJ3TTBHYUFlcVE4Y3pJTXdjb214ODdteTNjZExVVlFVNGhXVnFFRG44UlRhdlJlNmlycEp3UnlxSDNEMGNNMUN4a09MM3ZIUFl5TGc?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Warrantenbonus plots 2x zo populair | VS & China verlengen handelsbestand aan begin Trump-Xi-top | Muse schudt beurzen weer dooreen, maar nu anders - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQVnlxSEZXeUlnMFhvYXVfZ1JxdFJYWmRlWUNSMGQ2Q0pVY3otMUthYThKSEtIdGNlZDZTamZNODB3RWJGTlZYTFlJZkRpbk96WTVoR3ROUW94VHhFYTAyOUdKMW1lU0wzRnZYcEo0RUVibDhzTndObWgweFU3YzBOT3o5d3pVMHRFMmYxUnh5SzZpYlVsZlNscHpPc2Y3TFpUcUIxQzF5MFV5ZTkxeDVXbE5vNmhJSkREMi1zelZ3Wkp5UEhydEZUS3JnUk84bE5sMXhfQS1ZNlRwVWZCb2tRMnNMQ2x6bEZUenVxUGVnYVUzSkotMUxSOWRlYzdoQXBLZUN4d1N4Zl9ER3NVdVJPTnFldmROVzg?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Rechter verplicht Trump om CNN en Politico weer toe te laten in het Witte Huis - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYUVkXzhnM0M4cnQtUWt1VlNhR0FaXzh4UjREXzhmOFo1UTR4X2JmVGNORFFJSmdsdnNVY3piUlNGZ055em5RT1ByUElwZTkxMFQ1QW9XSFAxbHVPU3VyUDluSEpBenAxZ3d0dmNITmVGVk5tVWtoZnFpZE11bmh5WUZGNU5KSmtmN1pfaTJ1TjlMYk80RUY2bUY4YnpoRFYxdVU0bF9saE9PVWxWSU5keUt5WnhyczVIX0oxUG5veFBMUE8wcmM3SkpVUFNfSURzMDFkcXZiejdaLWxOYnJoYXp3?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Un juge ordonne à Donald Trump de rouvrir la Maison Blanche à plusieurs médias : la mesure du président américain a été prise sans « procédure régulière conforme à la Constitution » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLWJCY0lJWUM0NFhjSzNiOHY3WFItNjRKQkNFSmdPVm9sNF9mdXR2UkgtRTJKSGJERU8xZWpQZXpremY1enhEbkRvVHRIV2dzcjh4c1BJdEcyVHhVYVFfNXBqMElaU1RPMU9vdjdubmhsNDJGSEVvZ0ZqQk1taXNGdTJ2Y0dxOGNSYW9TRlBXTnZqS25pOWhyV0pWeVJnMlhBbWVPTjl3Z0pMWS1UdW9wbHZiUE40ZG9VNXdRdjg5czZfMWZReFh4Zg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "La visite de Xi Jinping aux États-Unis a déjà rempli son principal objectif avant de rejoindre la Maison Blanche avec Donald Trump : « Nos deux pays devraient être partenaires plutôt que rivaux » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSG43SEIxYTVIUGVZclBtSncwSlFXeGZGT05WT2lkVzV3anEyTW4zSDlmLWFiR0pqNWtRQ2x3czdUMTM2c1owTGtrZU8yejRTTHJKS3ZxcFE3S216Tlc4ME5pZXFjRGg5LU1vR2RkRHZfc2Y5WHFaRGNwZmhIbEp5MHRudUZtd1c3Qk5CRmRiNU9USjFvUWFfaDRNaGRQVVZsU3JjcERXWmxNaExXMmIwVVFNYVpWTHQ3c1BPNnB1cTE1SHJWQUdpVlRuYw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Le secteur diamantaire d’Anvers offre une bague à Donald Trump : rencontre avec l’ambassadeur américain Bill White - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbXB4RWZLSndZd1BPbDZLYTIwRGhpSHFXTFcwc1VtOTZjSWxhVko4M2tlMzBfZ3F5Q1ZnV0dQVzVaTWJxNzlPTTRNZkFIQ2ZHZzh6WTlOT3k5N3JxOU9IMVE1RGVLT205a2ZuX0M4SHRhQzRhNU55eHd5c24wSV85THlVZzlxYkU0YW1TMmw1STFfbEw3U1BkcG11Umd1WTRGdXRJZERnelJGOE1vNnp6c3VodHQtLXZEUjFzbUJwRzlLbFhMRW8yLQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Rencontre Xi - Trump : un pas décisif vers la fin du conflit au Moyen Orient ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbDJ4SEVsX3BJaVE2M29BRmN1dDlvTTFGZXhTOFdXY2FlSGRXaWhGcTJyWnh2YTQwMVIwdnhUOTN2aElOXzBHYldKa3JLUm91VmY3SExia0hURGw1ZDJwMXdlalEzYVJXbl9FeE9VRlFMdUJMMnhIR1o2V3VaV0plaDdlRnMtdnNfVndqeC1rUVB1NE43U1kwMDJqRjV2MmIxaUhEZDMtZWlFd3ZxOV9FQUhYWUJFOE9PaGpaRG9JWmFUN1Bmbmc?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Le président chinois Xi Jinping se rend à la Maison Blanche pour rencontrer Donald Trump : « Prolonger la détente économique entre nos deux pays » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUV8zU0k3c1Y5V0hpUEh1SVFJN0J6RnhTV0dnNzI4ZTMtc00yYWxyaTBRUF8xbllrX2hHRVRyOEc5V0JUcnNOaldWOXNWSndqNXVyNEJOTU83dW50d1FIUjZaeVVzZ05CZTcwUkpvQV9wdUtCZXcxM1JocDkzSjRyWFRjNzhhZzcwSkpENDVILVJIbFRsdlI3ZXE3cElUUksxM1dFY1h1T3g2elBLOW5QU1FKSWRsaEZsN0ZJTmxPSTlMaWdFSDdMQzFBeEhqWWFjZnhhaHhaQmZfNUYwNEkyX0xsNDA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "\"Les États-Unis de Trump ne sont plus un allié fiable\" : un document de la Belgique fuite en pleine Assemblée de l'ONU - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOaGY4UXlhYzZEcGVZNzhNaTN1V0ZoN1FDVDE3Z0VoMF9JTnhIa3RMOXZTRk5qM0lFRTJkYVdMQU54ZWMyUUQ5RnUzZkE4X1Y4RXZJVTkzS2d5RzNVd3dkWTVJQjFIa3pTZHJjQnNzSmxvVjFReUNKbUlmSkZXak5PSmxKbG0yYktKcGJYYlNmRG5iUF9fT2xQemNnekdvSWg4MEdnUE1FQjdrRFZhTm9COFlKY0hFc1RmZHB3Zmt1YWhjemF0VEV1dGFiVEU3QUl2Y1dvdzNDYlVYM3lQcjZfTElCVk5hNkl5UzZPWUdYSnJsQQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 33,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 43,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 21,
+      "crime": 28,
+      "eu": 20,
+      "politics": 25,
+      "be_gov": 12,
+      "culture": 10,
+      "tech": 18,
+      "economy": 11,
+      "sports": 17,
+      "health": 6,
+      "climate": 3,
+      "migration": 1,
+      "education": 1,
+      "weather": 12
+    },
+    "wide_themes": {
+      "war": 28,
+      "crime": 38,
+      "eu": 30,
+      "politics": 35,
+      "be_gov": 16,
+      "culture": 14,
+      "tech": 30,
+      "economy": 13,
+      "sports": 20,
+      "health": 8,
+      "climate": 6,
+      "migration": 1,
+      "education": 2,
+      "weather": 17
+    }
   }
 ]
