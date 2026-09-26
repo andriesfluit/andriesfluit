@@ -101798,5 +101798,598 @@
       "education": 11,
       "weather": 10
     }
+  },
+  {
+    "date": "2026-09-26",
+    "generated_at": "2026-09-26T10:48:50+02:00",
+    "last_checked_at": "2026-09-26T10:48:50+02:00",
+    "total_articles": 393,
+    "trump_articles": 13,
+    "percentage": 3.3,
+    "core_percentage": 3.3,
+    "core_percentage_name": 3.3,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 3.3,
+    "indirect_references": 0,
+    "wide_total_articles": 541,
+    "wide_trump_articles": 19,
+    "wide_percentage": 3.5,
+    "wide_trump_articles_expanded": 19,
+    "wide_percentage_expanded": 3.5,
+    "macro_percentage": 5.0,
+    "qualifying_outlets": 17,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 51,
+    "cross_outlet_dup_groups": 24,
+    "cross_outlet_dup_rate": 13.0,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.17,
+    "breadth": 0.56,
+    "deviation": 1.02,
+    "smoothed_pct": 4.66,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 13,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "google_nl_politics": {
+        "fetched": 38,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 53,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 30,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 63,
+        "kept": 61,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 44,
+        "kept": 44,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.55
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 15,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 75,
+        "today": 6,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Live - WSJ: Trump weigert Iraans voorstel voor staakt-het-vuren, wil nieuwe bombardementen in november",
+        "url": "https://www.demorgen.be/snelnieuws/live-wsj-trump-weigert-iraans-voorstel-voor-staakt-het-vuren~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump verwerpt staakt-het-vuren met Iran en verwacht hervatting van bombardementen na tussentijdse verkiezingen",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-verwerpt-staakt-het-vuren-met-iran-en-verwacht-hervatting-van-bombardementen-na-tussentijdse-verkiezingen/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump verwerpt staakt-het-vuren met Iran en verwacht hervatting van bombardementen na tussentijdse verkiezingen",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-trump-verwerpt-staakt-het-vuren-met-iran-en-verwacht-hervatting-van-bombardementen-na-tussentijdse-verkiezingen/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump weigert Iraans onderhandelingsvoorstel en wil in november nieuwe bombardementen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWWx0bk9qQms1V3VpMmVrZW54dTVwczBIVEE5QjBlSW5WRkliWlJpLXlqQ3ExMU9zREtDYW4wZEFkU3BuZXhENFBRQ1pSUEp2eXEtTzU5b3VZVGw4c3J2c0tBOTVVM291TG5sTTVwNDR5S0ZudG1rdFVpNDFaLXktTlp3LUlpRzRBYUNjRERSQUp4STV3Qnp6U25RNlh1RXk0b1p2QVc2VHhVcVh5TVU5S0JodG4zeXQzOERVSUxGQWp5VXZna2FQdUtvVW52cHdhQ3V2Vnc4alJ1Vk0zUDZPeUF2dEp3QzVyUi0xSDVUQm4?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Médias à la Maison Blanche : rupture consommée entre Fox News et Donald Trump ?",
+        "url": "https://www.rtbf.be/article/medias-a-la-maison-blanche-rupture-consommee-entre-fox-news-et-donald-trump-11790700",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump refuse l’offre iranienne pour rouvrir le détroit d’Ormuz",
+        "url": "https://www.rtbf.be/article/donald-trump-refuse-l-offre-iranienne-pour-rouvrir-le-detroit-d-ormuz-11790913",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "La Maison Blanche écarte CNN de la couverture d'un voyage de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/26/la-maison-blanche-ecarte-cnn-de-la-couverture-dun-voyage-de-donald-trump-MJOCGPJMEVEADJ727OPK7UPI4I/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Le Détroit Trump\" : le président américain refuse l'offre iranienne pour rouvrir le détroit d'Ormuz",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/26/le-detroit-trump-le-president-americain-refuse-loffre-iranienne-pour-rouvrir-le-detroit-dormuz-2DN33GBJOBHYHLBIAHALEDLEAU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Détroit d’Ormuz: Donald Trump rejette la proposition iranienne et envisage de nouvelles frappes après les midterms - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPanlsQXJFY3l0NTFBRnlvd1RLNWlpMXBXZXhCUHE5bUg0NGNuQ1VDWDZDN2NNU1FOd1RzTy1BVVFHVzA2N0hsYV92dm85Q05ta3pfTTB6bUxkNERmTWRjdmo0RzAtM1lYeTc4TXBYQkFZVUF1ZGJSX2VtUzhJTVYxb0ZtRlBoOUhSWEd1YTY5NlhOeUs4UjhhczdvTGxjeUV6Vm41aENoeXd5NVpEWWV4c01kWXVDMzFXVVJmZTVzR0MwUGZZSUs0amFLX09XdEF2cndXQ3A5T1h0QWl0ZUQ2Mm1HbGlMamVYV3NTVDhLX2taLThJd0ZGLXlBWlZnZ1pfZjJsX2N3dDVUT05S?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient: Donald Trump refuse l'offre iranienne pour rouvrir le détroit d'Ormuz",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/26/guerre-au-moyen-orient-donald-trump-refuse-loffre-iranienne-pour-rouvrir-le-detroit-dormuz-MD6CQBTDNNECZO3LXSPPBWFEFQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La Maison Blanche écarte CNN de la couverture d'un voyage de Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/26/la-maison-blanche-ecarte-cnn-de-la-couverture-dun-voyage-de-donald-trump-C2BV6OXS4BFJNMEKOSMOLYM4T4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La Maison Blanche écarte CNN de la couverture d’un voyage de Donald Trump",
+        "url": "https://www.7sur7.be/monde/la-maison-blanche-ecarte-cnn-de-la-couverture-dun-voyage-de-donald-trump~a0f1e152/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump refuse l’offre iranienne pour rouvrir le détroit d’Ormuz",
+        "url": "https://www.7sur7.be/monde/donald-trump-refuse-loffre-iranienne-pour-rouvrir-le-detroit-dormuz~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Donald Trump refuse l’offre iranienne pour rouvrir le détroit d’Ormuz - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWXE2SUJzLUZlR2FXV1htcnR2aU1VVTBOU0FDUUNPUFRpQ2hoS21NYkMyQmFCMW42SzdwV25oaEtTcURqaGRXaVhZaVByNEFQZzl1MlpJaXZTWkw3LU9pYUVGZC04UVBHaVM0QV90eWl6N3RDMTVaQzRTSWVSXzdlVzloMFhCYzc3RmEzbUk4aTB3ZGlmTGFHX2tVLVhMdVN2T3h6WmtBMkVjc3RIYXFaU3FOQXhMUQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle attaque du président américain contre les médias : la seule chaîne de télévision autorisée lors de son déplacement est… pro-Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWp4OVl4eXBiNnljX0RpTnBYUEJUejlLUlpIZDF0SnlpMzNBZ1RMb1ZFV05tSjgyZ2lNbkpNMG4wMkl0bW90bU9wX1BxcnIzY2hjbFVCT1dXRzBTVWNkbVJ2d0JWaG04V2poWncwNV9fTXZoUnNDdVg5bU5zR05rY2tMeHFUMFBFMFF1MmxJM0MwdkRWTkJyZzY3V1gyalo0VU0taFNJLWtkbE5EMExtNmVjUWRGUy1GMUM4eGRlV01tN1B4ZnFTZnA1elI0M2U5NTRUNnlwR3M4TUE2T1c0?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Panda’s, een zeearend en veel vertoon, maar Xi en Trump boekten nauwelijks concrete resultaten in Washington - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOE9razNkMVRMWlFleFhHOFJjeFN2ajNENUl2VUh3bGhoVTRjeWRKUUd2ek1QLXVaRk1GeVNrMHdHQTRsendjdno0bE5CQ29pSUZkcTJ5b3JodkdqcTRzYndWTGlod1MzRDhraVVObzVKWDVsYnQ3QVltVWx0MlpSN3g0Z0tzdUIzX2oyZDU5LWxjeEF1bDFDbklqQ3RabldTYjBBS1V1Q2lRV0NYekttRDQxWW9vREdlQUEwa0Y4LW9mZXRFSGZ4d2xQSFFNamljVjN2aG9LRnd2VUI1WHVRRUtqaDYtUQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "\"Le Détroit Trump\" : le président américain refuse l'offre iranienne pour rouvrir le détroit d'Ormuz - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOb3FuN2F5bVJRdXlnVW44akw4M2N0Rm5sdFFZcDQzUUVsUnFIckM3aWxJaTBXazZ4YUUtWWRfeThYdnhGckd5WHlYYzR3SjljYlpqdnQxMHUxUVhyTHRYenllSlNBeDdpVmc0OGFJaXNhdFp6QlRyZDRQMFp6THduSXMwdnVpai1TdnZROFM4QUNNbFdTa3l6Qlh6LURyQWk2MkJLTzVYSzFrdmVKZVI5ZTZnYVlDTlFyX2d3dVdwb2p1R2RhamlFNWJSRWVMNTM2dHI1dWtXUDVfTHlNNFdHWWxER2pIVEthOE52c3JJdEp5dS04TVJBcElyMldpSGFCekdIUzFKb2xHRzA?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Live - WSJ: Trump weigert Iraans voorstel voor staakt-het-vuren, wil nieuwe bombardementen in november",
+        "url": "https://www.demorgen.be/snelnieuws/live-wsj-trump-weigert-iraans-voorstel-voor-staakt-het-vuren~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump verwerpt staakt-het-vuren met Iran en verwacht hervatting van bombardementen na tussentijdse verkiezingen",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-trump-verwerpt-staakt-het-vuren-met-iran-en-verwacht-hervatting-van-bombardementen-na-tussentijdse-verkiezingen/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump verwerpt staakt-het-vuren met Iran en verwacht hervatting van bombardementen na tussentijdse verkiezingen",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-trump-verwerpt-staakt-het-vuren-met-iran-en-verwacht-hervatting-van-bombardementen-na-tussentijdse-verkiezingen/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "ANALYSE. Liesbeth Van Impe over de cruciale verkiezingen, straks in de VS: \n“Trump staat op het punt de controle te verliezen, maar verandert dat ook iets?”",
+        "url": "https://www.gva.be/buitenland/analyse.-liesbeth-van-impe-over-de-cruciale-verkiezingen-straks-in-de-vs-trump-staat-op-het-punt-de-controle-te-verliezen-maar-verandert-dat-ook-iets/162179727.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump verwerpt staakt-het-vuren met Iran en verwacht hervatting van bombardementen na tussentijdse verkiezingen",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-trump-verwerpt-staakt-het-vuren-met-iran-en-verwacht-hervatting-van-bombardementen-na-tussentijdse-verkiezingen/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump weigert Iraans onderhandelingsvoorstel en wil in november nieuwe bombardementen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWWx0bk9qQms1V3VpMmVrZW54dTVwczBIVEE5QjBlSW5WRkliWlJpLXlqQ3ExMU9zREtDYW4wZEFkU3BuZXhENFBRQ1pSUEp2eXEtTzU5b3VZVGw4c3J2c0tBOTVVM291TG5sTTVwNDR5S0ZudG1rdFVpNDFaLXktTlp3LUlpRzRBYUNjRERSQUp4STV3Qnp6U25RNlh1RXk0b1p2QVc2VHhVcVh5TVU5S0JodG4zeXQzOERVSUxGQWp5VXZna2FQdUtvVW52cHdhQ3V2Vnc4alJ1Vk0zUDZPeUF2dEp3QzVyUi0xSDVUQm4?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Médias à la Maison Blanche : rupture consommée entre Fox News et Donald Trump ?",
+        "url": "https://www.rtbf.be/article/medias-a-la-maison-blanche-rupture-consommee-entre-fox-news-et-donald-trump-11790700",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump refuse l’offre iranienne pour rouvrir le détroit d’Ormuz",
+        "url": "https://www.rtbf.be/article/donald-trump-refuse-l-offre-iranienne-pour-rouvrir-le-detroit-d-ormuz-11790913",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "La Maison Blanche écarte CNN de la couverture d'un voyage de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/26/la-maison-blanche-ecarte-cnn-de-la-couverture-dun-voyage-de-donald-trump-MJOCGPJMEVEADJ727OPK7UPI4I/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Le Détroit Trump\" : le président américain refuse l'offre iranienne pour rouvrir le détroit d'Ormuz",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/26/le-detroit-trump-le-president-americain-refuse-loffre-iranienne-pour-rouvrir-le-detroit-dormuz-2DN33GBJOBHYHLBIAHALEDLEAU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Détroit d’Ormuz: Donald Trump rejette la proposition iranienne et envisage de nouvelles frappes après les midterms - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPanlsQXJFY3l0NTFBRnlvd1RLNWlpMXBXZXhCUHE5bUg0NGNuQ1VDWDZDN2NNU1FOd1RzTy1BVVFHVzA2N0hsYV92dm85Q05ta3pfTTB6bUxkNERmTWRjdmo0RzAtM1lYeTc4TXBYQkFZVUF1ZGJSX2VtUzhJTVYxb0ZtRlBoOUhSWEd1YTY5NlhOeUs4UjhhczdvTGxjeUV6Vm41aENoeXd5NVpEWWV4c01kWXVDMzFXVVJmZTVzR0MwUGZZSUs0amFLX09XdEF2cndXQ3A5T1h0QWl0ZUQ2Mm1HbGlMamVYV3NTVDhLX2taLThJd0ZGLXlBWlZnZ1pfZjJsX2N3dDVUT05S?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient: Donald Trump refuse l'offre iranienne pour rouvrir le détroit d'Ormuz",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/26/guerre-au-moyen-orient-donald-trump-refuse-loffre-iranienne-pour-rouvrir-le-detroit-dormuz-MD6CQBTDNNECZO3LXSPPBWFEFQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La Maison Blanche écarte CNN de la couverture d'un voyage de Donald Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/26/la-maison-blanche-ecarte-cnn-de-la-couverture-dun-voyage-de-donald-trump-C2BV6OXS4BFJNMEKOSMOLYM4T4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La Maison Blanche écarte CNN de la couverture d’un voyage de Donald Trump",
+        "url": "https://www.7sur7.be/monde/la-maison-blanche-ecarte-cnn-de-la-couverture-dun-voyage-de-donald-trump~a0f1e152/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump refuse l’offre iranienne pour rouvrir le détroit d’Ormuz",
+        "url": "https://www.7sur7.be/monde/donald-trump-refuse-loffre-iranienne-pour-rouvrir-le-detroit-dormuz~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 13,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 19,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 3,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 10,
+      "crime": 3,
+      "eu": 17,
+      "politics": 8,
+      "be_gov": 14,
+      "culture": 7,
+      "tech": 22,
+      "economy": 11,
+      "sports": 31,
+      "health": 3,
+      "climate": 8,
+      "migration": 0,
+      "education": 6,
+      "weather": 17
+    },
+    "wide_themes": {
+      "war": 16,
+      "crime": 6,
+      "eu": 17,
+      "politics": 21,
+      "be_gov": 18,
+      "culture": 9,
+      "tech": 35,
+      "economy": 18,
+      "sports": 51,
+      "health": 7,
+      "climate": 10,
+      "migration": 0,
+      "education": 8,
+      "weather": 20
+    }
   }
 ]
