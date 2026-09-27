@@ -102394,118 +102394,118 @@
   },
   {
     "date": "2026-09-27",
-    "generated_at": "2026-09-27T11:30:42+02:00",
-    "last_checked_at": "2026-09-27T11:30:42+02:00",
-    "total_articles": 342,
-    "trump_articles": 4,
-    "percentage": 1.2,
-    "core_percentage": 1.2,
-    "core_percentage_name": 1.2,
-    "trump_articles_expanded": 4,
-    "core_percentage_expanded": 1.2,
+    "generated_at": "2026-09-27T17:16:44+02:00",
+    "last_checked_at": "2026-09-27T17:16:44+02:00",
+    "total_articles": 607,
+    "trump_articles": 9,
+    "percentage": 1.5,
+    "core_percentage": 1.5,
+    "core_percentage_name": 1.5,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 1.5,
     "indirect_references": 0,
-    "wide_total_articles": 485,
-    "wide_trump_articles": 5,
-    "wide_percentage": 1.0,
-    "wide_trump_articles_expanded": 5,
-    "wide_percentage_expanded": 1.0,
-    "macro_percentage": 1.5,
-    "qualifying_outlets": 17,
+    "wide_total_articles": 822,
+    "wide_trump_articles": 13,
+    "wide_percentage": 1.6,
+    "wide_trump_articles_expanded": 13,
+    "wide_percentage_expanded": 1.6,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 25,
     "core_outlets_total": 19,
-    "core_outlets_active": 17,
-    "active_core_fraction": 0.895,
-    "cross_outlet_dup_headlines": 48,
-    "cross_outlet_dup_groups": 24,
-    "cross_outlet_dup_rate": 14.0,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 56,
+    "cross_outlet_dup_groups": 28,
+    "cross_outlet_dup_rate": 9.2,
     "zone": "soaked",
     "label": "The zone is soaked",
     "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 2.0,
-    "breadth": 0.24,
-    "deviation": 0.35,
-    "smoothed_pct": 4.47,
+    "dominance": 3.0,
+    "breadth": 0.44,
+    "deviation": 0.43,
+    "smoothed_pct": 4.51,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 10,
+    "theme_rank": 8,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 22,
-        "kept": 22,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
       },
       "google_fr": {
         "fetched": 34,
-        "today": 18,
-        "kept": 18,
+        "today": 23,
+        "kept": 23,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 38,
-        "today": 5,
-        "kept": 4,
+        "fetched": 35,
+        "today": 9,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 11,
+        "today": 19,
+        "kept": 15,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 20.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 13,
         "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_nl_business": {
-        "fetched": 70,
-        "today": 6,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
       "google_nl_tech": {
-        "fetched": 46,
-        "today": 6,
+        "fetched": 47,
+        "today": 7,
         "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 64,
-        "today": 15,
-        "kept": 11,
+        "fetched": 70,
+        "today": 33,
+        "kept": 31,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 24,
-        "today": 3,
-        "kept": 3,
+        "fetched": 26,
+        "today": 7,
+        "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
-        "fetched": 70,
-        "today": 7,
-        "kept": 5,
+        "fetched": 67,
+        "today": 17,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_business": {
-        "fetched": 70,
+        "fetched": 65,
         "today": 5,
         "kept": 2,
         "trump": 0,
@@ -102514,16 +102514,16 @@
       },
       "vrt": {
         "fetched": 50,
-        "today": 17,
-        "kept": 17,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 42,
+        "kept": 42,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.38
       },
       "standaard": {
-        "fetched": 89,
-        "today": 35,
-        "kept": 8,
+        "fetched": 84,
+        "today": 45,
+        "kept": 12,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -102532,27 +102532,19 @@
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "demorgen": {
-        "fetched": 29,
-        "today": 15,
-        "kept": 15,
-        "trump": 1,
-        "trump_expanded": 1,
+        "trump": 2,
+        "trump_expanded": 2,
         "share": 6.67
       },
-      "nieuwsblad": {
-        "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+      "demorgen": {
+        "fetched": 28,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
       },
-      "gva": {
+      "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
@@ -102560,138 +102552,146 @@
         "trump_expanded": 1,
         "share": 2.0
       },
-      "hbvl": {
+      "gva": {
         "fetched": 50,
-        "today": 41,
-        "kept": 40,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
       "knack": {
         "fetched": 100,
-        "today": 26,
-        "kept": 26,
+        "today": 38,
+        "kept": 38,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 9,
-        "kept": 9,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 3,
-        "kept": 3,
+        "today": 6,
+        "kept": 6,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 15,
-        "kept": 15,
+        "today": 16,
+        "kept": 16,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 17,
-        "kept": 17,
+        "today": 39,
+        "kept": 39,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 5.88
+        "share": 2.56
       },
       "lecho": {
         "fetched": 100,
-        "today": 22,
-        "kept": 21,
+        "today": 37,
+        "kept": 35,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.76
+        "share": 2.86
       },
       "dhnet": {
         "fetched": 100,
-        "today": 29,
-        "kept": 29,
+        "today": 91,
+        "kept": 91,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "septsursept": {
         "fetched": 30,
-        "today": 15,
-        "kept": 15,
+        "today": 24,
+        "kept": 24,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 6.67
+        "share": 4.17
       },
       "bx1": {
         "fetched": 10,
-        "today": 0,
-        "kept": 0,
+        "today": 2,
+        "kept": 2,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 5,
-        "kept": 5,
+        "today": 26,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 29,
-        "kept": 24,
+        "today": 48,
+        "kept": 42,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 17,
-        "kept": 15,
+        "today": 40,
+        "kept": 37,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 8,
-        "kept": 8,
+        "today": 28,
+        "kept": 28,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 97,
-        "today": 3,
-        "kept": 2,
+        "fetched": 99,
+        "today": 20,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 40,
-        "today": 7,
+        "fetched": 29,
+        "today": 8,
         "kept": 0,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0
       },
       "tendances_g": {
-        "fetched": 45,
-        "today": 6,
-        "kept": 5,
+        "fetched": 34,
+        "today": 13,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -102720,9 +102720,39 @@
     ],
     "matches": [
       {
+        "title": "\"Onder de grap zit een enge werkelijkheid\": wordt Trump een dictator?",
+        "url": "https://vrtnws.be/p.kQG5aNA1Y",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump reageert op arrestatie vijf mannen na grote politieactie bij Amerikaanse vliegbasis in VK: “Ze wilden grote schade aanrichten”",
+        "url": "https://www.hln.be/nieuws/trump-reageert-op-arrestatie-vijf-mannen-na-grote-politieactie-bij-amerikaanse-vliegbasis-in-vk-ze-wilden-grote-schade-aanrichten~af8c2139/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Oud-woordvoerder barst in lachen uit als ze vertelt hoe Trump voormalig Brits premier Starmer met grond gelijk maakte: “En dat in zijn eigen huis”",
+        "url": "https://www.hln.be/buitenland/oud-woordvoerder-barst-in-lachen-uit-als-ze-vertelt-hoe-trump-voormalig-brits-premier-starmer-met-grond-gelijk-maakte-en-dat-in-zijn-eigen-huis~ae4f11507/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
         "title": "Live - Iran wil officiële reactie VS na Trumps afwijzing voorstel heropening Straat van Hormuz",
         "url": "https://www.demorgen.be/snelnieuws/live-iran-wil-officiele-reactie-vs-na-trumps-afwijzing-voorstel-heropening-straat-van-hormuz~be9c4f82/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump wilden ze “grote schade aanrichten”: vijf mannen wilden aanslag plegen op Amerikaanse luchtmachtbasis in VK",
+        "url": "https://www.nieuwsblad.be/buitenland/volgens-trump-wilden-ze-grote-schade-aanrichten-vijf-mannen-wilden-aanslag-plegen-op-amerikaanse-luchtmachtbasis-in-vk/162215578.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump wilden ze “grote schade aanrichten”: vijf mannen wilden aanslag plegen op Amerikaanse luchtmachtbasis in VK",
+        "url": "https://www.hbvl.be/buitenland/volgens-trump-wilden-ze-grote-schade-aanrichten-vijf-mannen-wilden-aanslag-plegen-op-amerikaanse-luchtmachtbasis-in-vk/162215969.html",
+        "source": "hbvl",
         "name_only": true
       },
       {
@@ -102746,15 +102776,63 @@
     ],
     "wide_matches": [
       {
+        "title": "Trump verwerpt voorstel tot bestand van Iran om Straat van Hormuz te heropenen - tijd.be",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbWxmZFBRbWhiSHhtSzhSWXBYemlfTmJrY2lhaXVVaVlKUWYwVE53TU5ZdEV4MnlReElFdGN0UzlmTFlyVmQwUVVhYzl1blA3Wnk5Q3BnaEpfRE5Ka2RfY2hIR3ZnQVVwQmNiQmlDazlaYXl5azJsY0tkMzZUM3hJaklEUEhMQnJNcUo2eTA3UWdMV2RYcXNRSHpxNGM4WkZ3bllVNVZEY0VZckpYbTM4SnF0QlpLdWFpMGdBcVREd19aTzFXTmhTZ3RHOFM5V1gwdUVaeW5YR2JCaWJQUTd1Rmd3?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump reageert op arrestatie vijf mannen na grote politieactie bij Amerikaanse vliegbasis in VK: “Ze wilden grote schade aanrichten” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbXlsWi1jck5qWk1uWm8ydmlVcThyUjJSRHM0MThJc19sRXJ5TjNpR1p6T29WcWZvaERBTVZkVklIUDF5dF9CYWhWc1JqdmxZM3dKeUU5aTVXTE9scmxhbzRtNWRkT09BWXpqZ29xRFMtUDVVQW5yUEdHemkxVld0enlsWU9qM3JidW5ISTI3SFVCVXhrbDVCVnhOVXBweUJ4M3NaUFZYaXZ2NWxNX3BHYzJYdFhrak1BQjBWZHRVU1phU2t2QjZseElXLTVSXzM4QkpEVXE0eE9jQUtqOG8zdkZWaENRcTEyNU5RYlJDV29vbDgxSmxNMw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "China stuurt panda’s naar VS als diplomatiek gebaar vlak na top Xi en Trump - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZk5qVkVQTVhUOGpHT2N0SDJhcFdod3AtRGo0Snp5ZGxxbk1TMVpKazhCWTExd1hJVS1EM0RUc09ydHBlVFNXbEJZN3JpdWctb0FkS2I0ZnJDbUdYMllTQ1pjS0RhbHZWWmdzWkVPVEFGZEkwU3ZlaE54djNuVHM4cl9jUXB6LW5UTHdJMWx5Znk1T1c4N1lFNEQ0ZlczTWt5dzZ5UjFOczRfWWNOalhmd3NrUFdlWmRoVFhGSHRnVzcwYUZm?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump glijdt steeds verder af in zijn obsessie: zichzelf onsterfelijk maken door Washington te verbouwen - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOHY1TVlxY1RqMVk2MDF2QnV3aklsaElHRUJpZjV1X2I5ai1ESVM4bWRxNzZjMXFjeEk3TmJuOW5MQmNaNmNBSXpUdTNJVlpjdUc4RHdNUi1XMmRsUkkwdlJGZmgyek5XRzdBVUl4cmYzajUyTUJxMFpIZzdGTTBwb2ZMTTVJalN6b2lNTFlUdXJVYVdPR1RIdHNJRmNoS2duV1VoSDhpSHhISXdaRjdMeWhoLXl6NFZsVzNiZjRGYTJsUURycU5HT2JYOXhqR1ZxTks5bFFVVDBTRVozeWFfSUNGZVB4eWJjMXB3?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "\"Onder de grap zit een enge werkelijkheid\": wordt Trump een dictator?",
+        "url": "https://vrtnws.be/p.kQG5aNA1Y",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump reageert op arrestatie vijf mannen na grote politieactie bij Amerikaanse vliegbasis in VK: “Ze wilden grote schade aanrichten”",
+        "url": "https://www.hln.be/nieuws/trump-reageert-op-arrestatie-vijf-mannen-na-grote-politieactie-bij-amerikaanse-vliegbasis-in-vk-ze-wilden-grote-schade-aanrichten~af8c2139/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Oud-woordvoerder barst in lachen uit als ze vertelt hoe Trump voormalig Brits premier Starmer met grond gelijk maakte: “En dat in zijn eigen huis”",
+        "url": "https://www.hln.be/buitenland/oud-woordvoerder-barst-in-lachen-uit-als-ze-vertelt-hoe-trump-voormalig-brits-premier-starmer-met-grond-gelijk-maakte-en-dat-in-zijn-eigen-huis~ae4f11507/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
         "title": "Live - Iran wil officiële reactie VS na Trumps afwijzing voorstel heropening Straat van Hormuz",
         "url": "https://www.demorgen.be/snelnieuws/live-iran-wil-officiele-reactie-vs-na-trumps-afwijzing-voorstel-heropening-straat-van-hormuz~be9c4f82/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "China stuurt panda’s naar VS als diplomatiek gebaar vlak na top Xi en Trump",
-        "url": "https://www.gva.be/buitenland/china-stuurt-pandas-naar-vs-als-diplomatiek-gebaar-vlak-na-top-xi-en-trump/162212990.html",
-        "source": "gva",
+        "title": "Volgens Trump wilden ze “grote schade aanrichten”: vijf mannen wilden aanslag plegen op Amerikaanse luchtmachtbasis in VK",
+        "url": "https://www.nieuwsblad.be/buitenland/volgens-trump-wilden-ze-grote-schade-aanrichten-vijf-mannen-wilden-aanslag-plegen-op-amerikaanse-luchtmachtbasis-in-vk/162215578.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump wilden ze “grote schade aanrichten”: vijf mannen wilden aanslag plegen op Amerikaanse luchtmachtbasis in VK",
+        "url": "https://www.hbvl.be/buitenland/volgens-trump-wilden-ze-grote-schade-aanrichten-vijf-mannen-wilden-aanslag-plegen-op-amerikaanse-luchtmachtbasis-in-vk/162215969.html",
+        "source": "hbvl",
         "name_only": true
       },
       {
@@ -102777,8 +102855,8 @@
       }
     ],
     "comparisons": {
-      "trump": 4,
-      "putin": 0,
+      "trump": 9,
+      "putin": 1,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
@@ -102796,8 +102874,8 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 5,
-      "putin": 0,
+      "trump": 13,
+      "putin": 2,
       "macron": 0,
       "netanyahu": 0,
       "zelensky": 0,
@@ -102815,36 +102893,36 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 14,
-      "crime": 13,
-      "eu": 6,
-      "politics": 8,
-      "be_gov": 3,
-      "culture": 3,
-      "tech": 13,
-      "economy": 6,
-      "sports": 26,
-      "health": 1,
-      "climate": 5,
+      "war": 24,
+      "crime": 16,
+      "eu": 9,
+      "politics": 19,
+      "be_gov": 12,
+      "culture": 6,
+      "tech": 9,
+      "economy": 11,
+      "sports": 47,
+      "health": 3,
+      "climate": 6,
       "migration": 0,
-      "education": 2,
-      "weather": 8
+      "education": 6,
+      "weather": 14
     },
     "wide_themes": {
-      "war": 17,
-      "crime": 19,
-      "eu": 7,
-      "politics": 13,
-      "be_gov": 6,
-      "culture": 4,
-      "tech": 19,
-      "economy": 9,
-      "sports": 43,
-      "health": 3,
-      "climate": 7,
+      "war": 31,
+      "crime": 21,
+      "eu": 12,
+      "politics": 24,
+      "be_gov": 16,
+      "culture": 8,
+      "tech": 14,
+      "economy": 19,
+      "sports": 78,
+      "health": 6,
+      "climate": 10,
       "migration": 0,
-      "education": 2,
-      "weather": 10
+      "education": 6,
+      "weather": 20
     }
   }
 ]
