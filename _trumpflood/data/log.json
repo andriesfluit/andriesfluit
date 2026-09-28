@@ -102924,5 +102924,616 @@
       "education": 6,
       "weather": 20
     }
+  },
+  {
+    "date": "2026-09-28",
+    "generated_at": "2026-09-28T12:08:25+02:00",
+    "last_checked_at": "2026-09-28T12:08:25+02:00",
+    "total_articles": 574,
+    "trump_articles": 12,
+    "percentage": 2.1,
+    "core_percentage": 2.1,
+    "core_percentage_name": 2.1,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 2.3,
+    "indirect_references": 1,
+    "wide_total_articles": 787,
+    "wide_trump_articles": 20,
+    "wide_percentage": 2.5,
+    "wide_trump_articles_expanded": 22,
+    "wide_percentage_expanded": 2.8,
+    "macro_percentage": 3.3,
+    "qualifying_outlets": 28,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 44,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 7.7,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 4.0,
+    "breadth": 0.39,
+    "deviation": 0.61,
+    "smoothed_pct": 4.19,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 31,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 30,
+        "today": 15,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "google_nl_tech": {
+        "fetched": 51,
+        "today": 6,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 22,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 67,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 21,
+        "kept": 21,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.52
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 49,
+        "kept": 49,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.16
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 37,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 65,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.54
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 36,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 25,
+        "today": 12,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 33,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Witte Huis spreekt Amerikaanse ambassadeur tegen: “Er worden geen wapens verkocht aan China”",
+        "url": "https://www.hln.be/buitenland/witte-huis-spreekt-amerikaanse-ambassadeur-tegen-er-worden-geen-wapens-verkocht-aan-china~a79c6d94/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Live - VS-ambassadeur: ‘Trump vroeg Xi Jinping of China Amerikaanse wapens wilde kopen’, maar Witte Huis ontkent aanbod",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-ambassadeur-trump-vroeg-xi-jinping-of-china-amerikaanse-wapens-wil-kopen~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Olieprijzen stijgen na Trumps afwijzing van Iraans voorstel",
+        "url": "https://www.demorgen.be/snelnieuws/live-olieprijzen-stijgen-na-trumps-afwijzing-van-iraans-voorstel~b31dbb6e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "'Los van zijn aanval op de persvrijheid, past Trump wel één van de belangrijkste lessen in personal branding toe' - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05UDdGMzd3X1dRTGtSY2hFRlh1NHVvNU5GVXpPOTVqaFRIR1U4dklHYWdSN3NYLVNPMVpzVkVrSlhERXprSk9yLXoxSmJMa0dXaWR0UXhrVG9nRGo4RnVzeVFhWFBSZw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Aux États-Unis, le prix du burger ne cesse d’augmenter : Trump autorise l’importation de viande de bœuf sans taxe, les éleveurs mécontents",
+        "url": "https://www.rtbf.be/article/aux-etats-unis-le-prix-du-burger-ne-cesse-d-augmenter-trump-autorise-l-importation-de-viande-de-b-uf-sans-taxe-les-eleveurs-mecontents-11791338",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Il a même demandé à Xi Jinping s’il voulait en acheter\": Trump propose des armes américaines à la Chine",
+        "url": "https://www.lalibre.be/international/2026/09/28/il-a-meme-demande-a-xi-jinping-sil-voulait-en-acheter-trump-propose-des-armes-americaines-a-la-chine-U5MHUF3REFBNXIPXSLZC3RTE2Y/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient: l'Iran dément une reprise prochaine des négociations annoncée par Trump",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/09/28/guerre-au-moyen-orient-liran-dement-une-reprise-prochaine-des-negociations-annoncee-par-trump-Y2TSHBE6KZE3RE6UTCTSWR3PDM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le pétrole repart à la hausse : le bras de fer entre Trump et l’Iran inquiète les marchés",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/28/le-petrole-repart-a-la-hausse-le-bras-de-fer-entre-trump-et-liran-inquiete-les-marches-LPSFDSCSABALTADA7JIEP4NCYM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Après des mois de conflit, Trump retrouve le patron d’Anthropic autour d’un dîner",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/09/28/apres-des-mois-de-conflit-trump-retrouve-le-patron-danthropic-autour-dun-diner-25OFIJKCPBCTVNPTLYBHEFGAYU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump confirme dîner avec le \"très respecté\" patron d'Anthropic, après des mois de tensions",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/28/trump-confirme-diner-avec-le-tres-respecte-patron-danthropic-apres-des-mois-de-tensions-ZNJ4CYE5UZCDBCAFMYPULPX5OQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump va dîner avec le “très respecté” patron d’Anthropic, après des mois de tensions",
+        "url": "https://www.7sur7.be/monde/trump-va-diner-avec-le-tres-respecte-patron-danthropic-apres-des-mois-de-tensions~a55e648c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Polémique à Washington: Trump aurait proposé des armes à la Chine",
+        "url": "https://www.7sur7.be/monde/polemique-a-washington-trump-aurait-propose-des-armes-a-la-chine~adef3f04/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump aurait proposé à Xi Jinping de vendre des armes à la Chine : « La législation américaine l’interdit », rappelle le Département d’État - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUG12UzJyN21xSXBfdVlCdXB1ZzZfcks3bERpQjFRc0pXX2ZEeTRVZXpteVd0UWxKelgtMUgyS0pWRzlaYUtqbW1VTlRUNGdmQ2tUMVlpcmdsV2M3Sk1wV3p6czF6b1gtc3NTLXhwUzRZNFJyeEdJanVneFZsUl9INHFzSlZMbXdzUWlCUEQzV000MWZXMU4xZHJPOWVBcDVGNktNVzRZXy1YSklvSkQ1Tm5BSEo4Vk1hVU1kM1RyTQ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump verwacht komende week nieuwe onderhandelingen met Iran - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObnltYXBEaUY5ZnhBUWFuTXRHN0JGbW9aVGlYeW5sNEpidGpFN09uSzBjbDkxQ3QxTDFsbG9tVWZ6MzdEN3duU1dDVnB4MFBTbmRNb2ptdzNHZEYzMzFTVFZrU1ZjekRPSEFzLXZtQlJKTmRBOTJnWXV3SGpDZnR2U1ZZRnJQdkUyNXF3VFI1S3R5TjVZekItdHFJQnRWUXJtbXc4TWFVUXpKQkdFR041WnlUajgwcVVPNDFiTnVZTXc5U3pu?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis spreekt Amerikaanse ambassadeur tegen: “Er worden geen wapens verkocht aan China” | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY3dZakZ5N0FLM1hsRzQ5SWMzMU9lTUY1VGo4MnhFbG5lLUZZQk1XRV8zdm02WDdtTndlZFhYVWtUdnNhUVRXTGlmVC00aFM1TDd3MUxVeW5mb05EUEgwX2VoZmxMWGpYN2tSR3d4ZnRpdGgyeTc5UmQ5RG9OYjY1RFluRjU2X0RlYTA3c3FwTURlaDdienljRE85bVZ5UXVmeFVzYXp1ZEhULXpIbENGWXkyTEVyMHFMOHlZYmhXbHRpcG84b1JwUg?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Ondanks vete dineert Trump met Anthropic-baas op Witte Huis - standaard.be",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbVZIckF1SGM5aE5mZzltbTQzSUVFaVA2Z1hEQmFxcXZQdlp0SFcwdnRhWU1qQWFDZTlRR3JhWTlOTnU2RTU5SXdWSTFpY05sYkl1eXMzU255QkNFRzU1czF5N3NGUjRfRUlrY3BKeWpsVDRMZ01sRFlNZGotZENscEZ5Q2g5bzdOVmlBMXB2RWI3S0R2cTI4NkVxWC1kUTQ2VnZPa09LY3ZPR2tiUGc?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Is diesel op weg naar “ruim boven 3 euro” als Trump zijn dreigement uitvoert? En hoe pijnlijk zijn zijn plannen voor exportverbod? - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNT2duS3Y2dmxkRnNmVXdoeV84LW9wWjlYMXRCdzZtUndwN2M3VWJIMTdxY29PZ2lzUVg5Q3RkMUNWUG0ySVBHc0RRYXM3V04ybVMyR1pINkphd09leng4dnFRTXhDNUZJOWFFbVhuLWhKdTRTWFJFNUwyYUJaWVJiN3o4bE5SYTBjWTU2aTh0YkZRbGVobmg4WW4wQ2JkQVNZZjZVek8yOU4yQnAxWjJaNnVOd3pfZjFqcWJ3cjQtVlJVQ3hOcTdfQjVmUDhtUk4yM3d3NDlfWE9WUEt0NG5ack5qbHhvVC1yRVk5eHFWNjhRdjNGeUFKWmhmd0VDc0JyckFxWFZZVGN6Zw?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Bitcoin, Ethereum en XRP dalen nadat Trump nieuwe aanvallen op Iran niet uitsluit - BLOX | Nieuws",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HOFdXaWVDck56WXZINE9xWVNHR0NUMU0tRmJBa0lMeFB4bFI5WEFqb3RwNUFWSWk4bXVja1ZuQlN6dDZlU0p0Ymk3U2VVWW9RcFJCT3pOSEpsTmVRdHIzcg?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "L’ambassadeur américain en Chine affirme que Trump a proposé de vendre des armes à Pékin, la Maison-Blanche dément - lesoir.be",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZjVnQy1PUXk2eVpiVDVqMWF4TVppWHdkbWpNLTgxZVlZei1JTG43QUxaME9NY1FEbmFGREhPWUNvSmtxMHoyc0NDNzR3SnBSc0lwWVVNODNxVlJEX0xGRDhtREk0MkUxVnZNS21sdkpnNlota1RoX2JhblZHQVJqV2phWEZ6VUJCSzdQVWYzOTYzWWFNSXJrN1pRemJYLU90SzNwUHJBdDVGcTczSlRhMGFadURQajFrQjNLMUJ5T0tPcHc?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump confirme dîner avec le « très respecté » patron d’Anthropic, après des mois de tensions - lesoir.be",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZUFkaWF5SFdPWl8yWVFycjhCd3Vmam5PeFBsMzJ2YkVzVl9DWEJ0TEJDMDFrZjRkX0tNOGJIbXFxMUc0WDNqRFFhdmxjWVAtVHc0MjNNckhhUkh1NTV2RVFtWDQxUUNPRWczelo4bTBmRXIzVkJFakJrVEhuX25abHl0M3NUVU1sc05hRzJiSzNjTW41WUJSWWNZQzFvb3NTcVJhbHQ0Nl9GelpQMzdvbml1X0otc3RpYWs2czJhcEpGMWVH?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump confirme dîner avec le \"très respecté\" patron d'Anthropic, après des mois de tensions - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQy03SC1vLXdzY19zNU1FcFpSQlFFVDBNc0J0M0I4emVUTGtBS18tQzYwZEx2UVh3eEJZcUdtTkpzNE81TU0zVl9LNVZhbXhUZTd5ZWVkX3k0bU1LRFZPWUdCLW43OUtxOW9rbmNrdGdGNTdNMTdYb0lqcUw5UzBPSEVZblRYN1o2NUFYOHZmZnZOOFptT0NYaFl4eDFzQlNVMFNHUTNMWEdvMzZiRW1DRVdJSE1tLUxJUGxtdkVXNTQyczNzbC1WM0dPRUhMQ2FnYUt3RkdmUHJ5cTM5ZG5PTWUxemJObkNFbERCeHh1Yw?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Aux États-Unis, le prix du burger ne cesse d’augmenter : Trump autorise l’importation de viande de bœuf sans taxe, les éleveurs mécontents - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNaEM2bDNNR01QWkJqclRvWXduN0QwQlNCU2tYWEwwWEJJR1hEcnVEdmpxd1BRM1Q2clBFdnNPdWZoODJERTVGbXZBVlctVXNZQUQ5b21GVEJaWXVlT0FRRjlXeFBOSWZzdnU2MEY3X2Z5OFRHd3NZRXN2MkRBREJWdlNkamNESTAxT3J3Y05LWGUzX2tHZHJDS1h3OFRHRXhFR1ZENXNETGQ5MWJiTW5oMV9YbzUyOXp2YXU4WVdwSmw1NEJjSVRsYy1ZYTcxMnlESHQ0Q3NQMm1TUWJVTUVkLVFZVWtZTVZ4WGh6ZEhDS3kxeUtFNzFlRWYwOV9jaE5w?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis spreekt Amerikaanse ambassadeur tegen: “Er worden geen wapens verkocht aan China”",
+        "url": "https://www.hln.be/buitenland/witte-huis-spreekt-amerikaanse-ambassadeur-tegen-er-worden-geen-wapens-verkocht-aan-china~a79c6d94/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Live - VS-ambassadeur: ‘Trump vroeg Xi Jinping of China Amerikaanse wapens wilde kopen’, maar Witte Huis ontkent aanbod",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-ambassadeur-trump-vroeg-xi-jinping-of-china-amerikaanse-wapens-wil-kopen~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Olieprijzen stijgen na Trumps afwijzing van Iraans voorstel",
+        "url": "https://www.demorgen.be/snelnieuws/live-olieprijzen-stijgen-na-trumps-afwijzing-van-iraans-voorstel~b31dbb6e/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "'Los van zijn aanval op de persvrijheid, past Trump wel één van de belangrijkste lessen in personal branding toe' - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05UDdGMzd3X1dRTGtSY2hFRlh1NHVvNU5GVXpPOTVqaFRIR1U4dklHYWdSN3NYLVNPMVpzVkVrSlhERXprSk9yLXoxSmJMa0dXaWR0UXhrVG9nRGo4RnVzeVFhWFBSZw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Aux États-Unis, le prix du burger ne cesse d’augmenter : Trump autorise l’importation de viande de bœuf sans taxe, les éleveurs mécontents",
+        "url": "https://www.rtbf.be/article/aux-etats-unis-le-prix-du-burger-ne-cesse-d-augmenter-trump-autorise-l-importation-de-viande-de-b-uf-sans-taxe-les-eleveurs-mecontents-11791338",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Il a même demandé à Xi Jinping s’il voulait en acheter\": Trump propose des armes américaines à la Chine",
+        "url": "https://www.lalibre.be/international/2026/09/28/il-a-meme-demande-a-xi-jinping-sil-voulait-en-acheter-trump-propose-des-armes-americaines-a-la-chine-U5MHUF3REFBNXIPXSLZC3RTE2Y/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient: l'Iran dément une reprise prochaine des négociations annoncée par Trump",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/09/28/guerre-au-moyen-orient-liran-dement-une-reprise-prochaine-des-negociations-annoncee-par-trump-Y2TSHBE6KZE3RE6UTCTSWR3PDM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le pétrole repart à la hausse : le bras de fer entre Trump et l’Iran inquiète les marchés",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/28/le-petrole-repart-a-la-hausse-le-bras-de-fer-entre-trump-et-liran-inquiete-les-marches-LPSFDSCSABALTADA7JIEP4NCYM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Après des mois de conflit, Trump retrouve le patron d’Anthropic autour d’un dîner",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/09/28/apres-des-mois-de-conflit-trump-retrouve-le-patron-danthropic-autour-dun-diner-25OFIJKCPBCTVNPTLYBHEFGAYU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump confirme dîner avec le \"très respecté\" patron d'Anthropic, après des mois de tensions",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/28/trump-confirme-diner-avec-le-tres-respecte-patron-danthropic-apres-des-mois-de-tensions-ZNJ4CYE5UZCDBCAFMYPULPX5OQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump va dîner avec le “très respecté” patron d’Anthropic, après des mois de tensions",
+        "url": "https://www.7sur7.be/monde/trump-va-diner-avec-le-tres-respecte-patron-danthropic-apres-des-mois-de-tensions~a55e648c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Polémique à Washington: Trump aurait proposé des armes à la Chine",
+        "url": "https://www.7sur7.be/monde/polemique-a-washington-trump-aurait-propose-des-armes-a-la-chine~adef3f04/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump aurait proposé à Xi Jinping de vendre des armes à la Chine : « La législation américaine l’interdit », rappelle le Département d’État - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUG12UzJyN21xSXBfdVlCdXB1ZzZfcks3bERpQjFRc0pXX2ZEeTRVZXpteVd0UWxKelgtMUgyS0pWRzlaYUtqbW1VTlRUNGdmQ2tUMVlpcmdsV2M3Sk1wV3p6czF6b1gtc3NTLXhwUzRZNFJyeEdJanVneFZsUl9INHFzSlZMbXdzUWlCUEQzV000MWZXMU4xZHJPOWVBcDVGNktNVzRZXy1YSklvSkQ1Tm5BSEo4Vk1hVU1kM1RyTQ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 12,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 3,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 20,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 4,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 22,
+      "crime": 21,
+      "eu": 18,
+      "politics": 26,
+      "be_gov": 15,
+      "culture": 12,
+      "tech": 6,
+      "economy": 16,
+      "sports": 24,
+      "health": 5,
+      "climate": 6,
+      "migration": 1,
+      "education": 9,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 30,
+      "crime": 29,
+      "eu": 27,
+      "politics": 34,
+      "be_gov": 21,
+      "culture": 13,
+      "tech": 10,
+      "economy": 24,
+      "sports": 41,
+      "health": 6,
+      "climate": 8,
+      "migration": 2,
+      "education": 10,
+      "weather": 12
+    }
   }
 ]
