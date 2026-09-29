@@ -103535,5 +103535,562 @@
       "education": 10,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-09-29",
+    "generated_at": "2026-09-29T12:06:47+02:00",
+    "last_checked_at": "2026-09-29T12:06:47+02:00",
+    "total_articles": 550,
+    "trump_articles": 10,
+    "percentage": 1.8,
+    "core_percentage": 1.8,
+    "core_percentage_name": 1.8,
+    "trump_articles_expanded": 10,
+    "core_percentage_expanded": 1.8,
+    "indirect_references": 0,
+    "wide_total_articles": 774,
+    "wide_trump_articles": 16,
+    "wide_percentage": 2.1,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 2.1,
+    "macro_percentage": 3.0,
+    "qualifying_outlets": 28,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 38,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 6.9,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.11,
+    "breadth": 0.33,
+    "deviation": 0.52,
+    "smoothed_pct": 3.41,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 9,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 35,
+        "today": 17,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 25,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 65,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 27,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 10,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 30.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 43,
+        "kept": 43,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 35,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.71
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 57,
+        "kept": 57,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 5.26
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 58,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 50,
+        "today": 16,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 41,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump ontkent dat hij Iran versoepeling sancties heeft aangeboden, Teheran zegt klaar te zijn voor gesprekken",
+        "url": "https://www.hln.be/buitenland/trump-ontkent-dat-hij-iran-versoepeling-sancties-heeft-aangeboden-teheran-zegt-klaar-te-zijn-voor-gesprekken~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Historicus Paul Scheffer: ‘We mogen Donald Trump niet wegzetten als een toevalligheid’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDdkaV9LMHRyMlBVS0NMMFRydUxpbmVHOTBiODRJYXowNnQ5anFtWUpwR0JGdnMteU9xaXZHRllCOUJkQkY1ZGc0cEszZnVNekF1NnYxbENZZGpvQnFqUVlIamkzaE9GdzZWcnpkUzlidHlDWm45eFBPTHh1ZnNhaGQ3MFUxd3ZzVkNxcUMxcXlBdlNIUXlBZFNWTGlWZG5mWHZ0alJjdGxpS3A0bzR0UmNzdjgtYzZFRVRZ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump staat nergens op de kieslijst, maar hij heeft zichzelf tot inzet van de verkiezingen gemaakt’ - trends.knack.be",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FOWNLRjhuZm5wZ0NSd1NaYVRnOGxjLWxxd2x3cHY5Z0FGWUI0cXBqa0JpT28tZkFiX0lpakNpdldXejI0WkczV2tyZUUyVnA1TlRWZXhxeXBRUzVtSU5pWTNuR0tRcXBTNVphUmp2V0szREU4YkFUamJiUlRndw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Midterms aux États-Unis : Trump, en difficulté dans les sondages, annonce la construction d’une très grande aciérie en Iowa",
+        "url": "https://www.rtbf.be/article/midterms-aux-etats-unis-trump-en-difficulte-dans-les-sondages-annonce-la-construction-d-une-tres-grande-acierie-en-iowa-11791995",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "En s’attaquant au Canada ce mardi, Donald Trump pourrait s’attirer la foudre des \"gym bros\" adeptes de musculation",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/29/en-sattaquant-au-canada-ce-mardi-donald-trump-pourrait-sattirer-la-foudre-des-gym-bros-adeptes-de-musculation-IKJP2YNRNNBYDOK5YVXQF3KNQY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Critiqué sur son bilan économique, Donald Trump fait une grande annonce à l'approche de midterms",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/09/29/ce-sera-la-plus-grande-de-lhistoire-des-etats-unis-critique-sur-son-bilan-economique-donald-trump-fait-une-grande-annonce-JGPIUFVZSFFKLNKJHEHPIFEMC4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Je ne leur ai rien offert\": Trump recadre un média sur des informations à propos de l'Iran",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/29/je-ne-leur-ai-rien-offert-trump-recadre-un-media-sur-des-informations-a-propos-de-liran-L5G7DCOSJRCA7OYC73ETBF3QEU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“Fermez vos frontières”: l’étonnante scène où Trump a sermonné Starmer racontée par son ancienne porte-parole",
+        "url": "https://www.7sur7.be/monde/fermez-vos-frontieres-letonnante-scene-ou-trump-a-sermonne-starmer-racontee-par-son-ancienne-porte-parole~a1e613f2/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Critiqué pour son bilan économique, Trump annonce un projet industriel à 18 milliards d’euros",
+        "url": "https://www.7sur7.be/monde/critique-pour-son-bilan-economique-trump-annonce-un-projet-industriel-a-18-milliards-deuros~af426eb8/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« La plus grande » de l’histoire des États-Unis : Trump dévoile un méga-projet à l’approche des élections de mi-mandat - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSzZCUWg2RXdXUWxWNFJ0WC0yTUxfUGp0NjRLakxCdXZlQjhiVzV1dHF4OHZuR3o3dFNhWjdXX1JsUzRkMWQwT3FGU0FLU1J0VGhubHljX3lNei1KWVloSFgwWDQ2emVlalRiXzZDRDU2OGdkWEZuSG9HMUFGelFUS2ZqTEFqT1pJcUlXeVVibkNvbTJSU0FKQ1hqaWhOMEtTMld2OVpnN1MyVlZNemdDaEZRQklVT0hReFY1TkFJaS0?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "President Trump opnieuw op vingers getikt voor poging om meer greep te krijgen op verkiezingen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOQlczNHNRVG4tcjYzUVhQZWh5UzhpU0dQdnB3V1I0STV1VS1sRGFPLVNyNzlJYjByUHBwMjhvQTBDMkF2dTBYOWQ1Y0Z2WWxEOWZmMTNmYnktUUt5b2t2MUVBcmQwSVEtN1NqNEZyRWJPMDEyTnlOMlZMY3Y5QTlMcWZycUhHY1NsdEp6UnlRdGgxdGRYbUhiSWx0djY2TXU1eEpfLUlPNFVxWVlYQXl1WWJoQ2k4Q2NkOS1GUjhKQnowRHVSLVlqeTg5QndrckxodnQwZHM2UGtJS2szSkNiZG9aM1NjTldDV1lhLW1sMk1GNlBPMld1ZXFBdFd6aXU4aGc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "\"Je n'ai jamais entendu parler de ça\" : Donald Trump contredit son ambassadeur en Chine - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMFVnUmNrbEpUVWJFVnVTQm1sVDNXTFRFRnJOSUZrV2FPVFdfVWowUlZrblJYY2hWRHpIR21FWFVwaU5ZTmhFc2p0dmh2Z1ZjUUlhdmZ5YXhZbXNvckVQOWdnak00TWIwVzcwQmtfSjctclpubkNNdnNMazBkRUh5Q01mSDU5OTdycjdMUVR5Nm9OUTBZZzNxU3d1NU4wRTZmVHVfV2ppNWRUcmMyMXhsZDBJUmQ0bEpSNUNFZml0aUhNTFV5ZEdTZjQ4TWIyYUFwRV9EZjBvbTdsT1Q4akxpZTJrV1QtcVIyN2tlZHJ3OVNsckZVX2NjNy1ZOA?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Élections de mi-mandat aux États-Unis : très critiqué, Donald Trump annonce un énorme projet qui créera des milliers d’emplois - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNc0RMR0hSQmpqcEMtTDNuVUI1Y3F3WmxGVUw2QlczdjVwTEktdmdlamQ5cmJoWl93Ri1IOHhuUTZkSXdrWEh5d1o0ZzhaVEV1RXNMZFFHWnNkTEMwVFE0SE5Ra3MxbmpWUFRnWU81R1pVMGNmR2ZoZjByTGRMaERHSkFxREc0dVpvbG9DbmRYY3VHeGhrNkdaNGtnSERKWnBMbzdTeW9fUFk1WWhZWnJoRlFtaGloV0M1ampYU05uN0hxTGlqZ2NLSHRXSHlWbk42UFB2ekQxaWx4Z2k5Ymc?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "“Fermez vos frontières”: l’étonnante scène où Trump a sermonné Starmer racontée par son ancienne porte-parole - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbGotTDh1QlBaZXZELXphUS1sU3diLXRFRHRyZzFIY2d2VndaQlJRcnoxTTFrTVcxWVprTnlyZEVKMXd2RzB4cmRWa3ZWRnVGdFgyMXBLeUhZbkRQaXk0endMdUVMZU5IMEp1TGY1aGNHYURzaUtzMnl1T3hES1VYQ2Z2VG1GVFdtTW8wT0pVcjNIWGM0MVlXVFd1MnI1MjF3Q3AxZFE3cU9LOHI2a3VUS1JHQjdKQ3dRM1N4U0pZbTZSVTFzREtBZ2JXTXh2RmUtQVJhOXhSdGJJQQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Critiqué sur son bilan économique, Donald Trump fait une grande annonce à l'approche de midterms - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNaUE0aXd3YnhRNlFVWWd4dkJTZzZtUUtzRWxENW9WWlVUTTNzc3BrWVF1QVFXaWN5TXM3QXNONVBwZWpSYzI5SGJiYU10LVpVYkxybFNadE5lT3piQUljd1Vfc3RWbEdWUi16QUd3NzJwUkFFWXdsM3VfWkVSYmRQdTJkTnlTdjIxbHluNTY3OW14bWcxcGVhT1JDOU9LRFpTM2NSeGFIeklVcFRhTi1iUHZnTlM2NlU3bWpnMUtxblFSNXdiRkdsN0hKS2xmZEcxMkxuT1pGMC1TcVpqNDFmWEZ5T2owSDNLQndSeEdVOF95d19DX19EcmtNel82bm5xMURTalNhdGV1b01kdFoyU01Ya1hEOTFTOGNnaGxoU1otNVN1WlVVWjlERTZEa3lWajBBR0ZfY3psN2xhWlpTSw?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "En s'attaquant au Canada ce mardi, Donald Trump pourrait s'attirer la foudre des \"gym bros\" adeptes de musculation - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOUWJ0empkQlFXTzhhU21DOEVVMUlLUDB4bjQ0RlFlMlVfbnNSZVJEZ2tUUnJTMzk1T3FOcG83ZDczVHhnSWlsajdaNXo0ZnpKaWlDanI2X1BHZ0E0NTk1alpTV09rVWV0a0QxVjQwR0xYbE5jMWRWbmZWUmJOc2FSZUFKRW9tYWdkS1pxQ3c1YjdYeldQM2tKSkV6Mkp4S1pRSlI5Sm9rbk82a0ZYMTNQZlJaQmJHT05pVDZQMmdHN2RvcGpHdUxNVnhkSUdxbW5IWGlkSGpuUUVBQ2RoVlJPWEtZUEZ4bVpqNGMwQ0RXU2dpMUdFWGVvcHFVcXBBdHdYN1ZtZzZLYmV3TVgzeVV2bTlWS2paOGI0aFZ1Mg?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Trump ontkent dat hij Iran versoepeling sancties heeft aangeboden, Teheran zegt klaar te zijn voor gesprekken",
+        "url": "https://www.hln.be/buitenland/trump-ontkent-dat-hij-iran-versoepeling-sancties-heeft-aangeboden-teheran-zegt-klaar-te-zijn-voor-gesprekken~a99e0324/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Historicus Paul Scheffer: ‘We mogen Donald Trump niet wegzetten als een toevalligheid’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDdkaV9LMHRyMlBVS0NMMFRydUxpbmVHOTBiODRJYXowNnQ5anFtWUpwR0JGdnMteU9xaXZHRllCOUJkQkY1ZGc0cEszZnVNekF1NnYxbENZZGpvQnFqUVlIamkzaE9GdzZWcnpkUzlidHlDWm45eFBPTHh1ZnNhaGQ3MFUxd3ZzVkNxcUMxcXlBdlNIUXlBZFNWTGlWZG5mWHZ0alJjdGxpS3A0bzR0UmNzdjgtYzZFRVRZ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump staat nergens op de kieslijst, maar hij heeft zichzelf tot inzet van de verkiezingen gemaakt’ - trends.knack.be",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FOWNLRjhuZm5wZ0NSd1NaYVRnOGxjLWxxd2x3cHY5Z0FGWUI0cXBqa0JpT28tZkFiX0lpakNpdldXejI0WkczV2tyZUUyVnA1TlRWZXhxeXBRUzVtSU5pWTNuR0tRcXBTNVphUmp2V0szREU4YkFUamJiUlRndw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Midterms aux États-Unis : Trump, en difficulté dans les sondages, annonce la construction d’une très grande aciérie en Iowa",
+        "url": "https://www.rtbf.be/article/midterms-aux-etats-unis-trump-en-difficulte-dans-les-sondages-annonce-la-construction-d-une-tres-grande-acierie-en-iowa-11791995",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "En s’attaquant au Canada ce mardi, Donald Trump pourrait s’attirer la foudre des \"gym bros\" adeptes de musculation",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/09/29/en-sattaquant-au-canada-ce-mardi-donald-trump-pourrait-sattirer-la-foudre-des-gym-bros-adeptes-de-musculation-IKJP2YNRNNBYDOK5YVXQF3KNQY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Critiqué sur son bilan économique, Donald Trump fait une grande annonce à l'approche de midterms",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/09/29/ce-sera-la-plus-grande-de-lhistoire-des-etats-unis-critique-sur-son-bilan-economique-donald-trump-fait-une-grande-annonce-JGPIUFVZSFFKLNKJHEHPIFEMC4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Je ne leur ai rien offert\": Trump recadre un média sur des informations à propos de l'Iran",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/29/je-ne-leur-ai-rien-offert-trump-recadre-un-media-sur-des-informations-a-propos-de-liran-L5G7DCOSJRCA7OYC73ETBF3QEU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“Fermez vos frontières”: l’étonnante scène où Trump a sermonné Starmer racontée par son ancienne porte-parole",
+        "url": "https://www.7sur7.be/monde/fermez-vos-frontieres-letonnante-scene-ou-trump-a-sermonne-starmer-racontee-par-son-ancienne-porte-parole~a1e613f2/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Critiqué pour son bilan économique, Trump annonce un projet industriel à 18 milliards d’euros",
+        "url": "https://www.7sur7.be/monde/critique-pour-son-bilan-economique-trump-annonce-un-projet-industriel-a-18-milliards-deuros~af426eb8/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« La plus grande » de l’histoire des États-Unis : Trump dévoile un méga-projet à l’approche des élections de mi-mandat - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSzZCUWg2RXdXUWxWNFJ0WC0yTUxfUGp0NjRLakxCdXZlQjhiVzV1dHF4OHZuR3o3dFNhWjdXX1JsUzRkMWQwT3FGU0FLU1J0VGhubHljX3lNei1KWVloSFgwWDQ2emVlalRiXzZDRDU2OGdkWEZuSG9HMUFGelFUS2ZqTEFqT1pJcUlXeVVibkNvbTJSU0FKQ1hqaWhOMEtTMld2OVpnN1MyVlZNemdDaEZRQklVT0hReFY1TkFJaS0?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 10,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 5,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 16,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 3,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 7,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 22,
+      "crime": 6,
+      "eu": 20,
+      "politics": 22,
+      "be_gov": 29,
+      "culture": 10,
+      "tech": 28,
+      "economy": 26,
+      "sports": 28,
+      "health": 6,
+      "climate": 7,
+      "migration": 1,
+      "education": 4,
+      "weather": 13
+    },
+    "wide_themes": {
+      "war": 34,
+      "crime": 14,
+      "eu": 31,
+      "politics": 39,
+      "be_gov": 40,
+      "culture": 13,
+      "tech": 38,
+      "economy": 36,
+      "sports": 47,
+      "health": 9,
+      "climate": 8,
+      "migration": 2,
+      "education": 6,
+      "weather": 19
+    }
   }
 ]
