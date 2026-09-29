@@ -103538,136 +103538,136 @@
   },
   {
     "date": "2026-09-29",
-    "generated_at": "2026-09-29T12:06:47+02:00",
-    "last_checked_at": "2026-09-29T18:37:24+02:00",
-    "total_articles": 550,
-    "trump_articles": 10,
-    "percentage": 1.8,
-    "core_percentage": 1.8,
-    "core_percentage_name": 1.8,
-    "trump_articles_expanded": 10,
-    "core_percentage_expanded": 1.8,
+    "generated_at": "2026-09-29T23:02:48+02:00",
+    "last_checked_at": "2026-09-29T23:02:48+02:00",
+    "total_articles": 877,
+    "trump_articles": 17,
+    "percentage": 1.9,
+    "core_percentage": 1.9,
+    "core_percentage_name": 1.9,
+    "trump_articles_expanded": 17,
+    "core_percentage_expanded": 1.9,
     "indirect_references": 0,
-    "wide_total_articles": 774,
-    "wide_trump_articles": 16,
+    "wide_total_articles": 1297,
+    "wide_trump_articles": 27,
     "wide_percentage": 2.1,
-    "wide_trump_articles_expanded": 16,
+    "wide_trump_articles_expanded": 27,
     "wide_percentage_expanded": 2.1,
-    "macro_percentage": 3.0,
-    "qualifying_outlets": 28,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 33,
     "core_outlets_total": 19,
-    "core_outlets_active": 18,
-    "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 38,
-    "cross_outlet_dup_groups": 19,
-    "cross_outlet_dup_rate": 6.9,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 70,
+    "cross_outlet_dup_groups": 35,
+    "cross_outlet_dup_rate": 8.0,
     "zone": "soaked",
     "label": "The zone is soaked",
     "narrative": "Alone out-mentions the sixteen other figures combined.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 1.11,
-    "breadth": 0.33,
-    "deviation": 0.52,
-    "smoothed_pct": 3.41,
+    "dominance": 1.06,
+    "breadth": 0.53,
+    "deviation": 0.55,
+    "smoothed_pct": 3.43,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 9,
+    "theme_rank": 10,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 30,
-        "kept": 30,
+        "today": 32,
+        "kept": 32,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 18,
-        "kept": 18,
+        "today": 32,
+        "kept": 32,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 35,
-        "today": 17,
-        "kept": 16,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 6.25
-      },
-      "google_nl_world": {
-        "fetched": 70,
-        "today": 18,
-        "kept": 10,
+        "fetched": 32,
+        "today": 19,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 41,
+        "kept": 36,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.56
+      },
       "google_nl_business": {
         "fetched": 70,
-        "today": 25,
-        "kept": 21,
+        "today": 45,
+        "kept": 41,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 65,
-        "today": 11,
-        "kept": 9,
+        "fetched": 58,
+        "today": 31,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 20,
-        "kept": 16,
+        "today": 47,
+        "kept": 43,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 27,
-        "today": 7,
-        "kept": 7,
+        "fetched": 25,
+        "today": 15,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 11,
-        "kept": 10,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 30.0
+        "today": 42,
+        "kept": 38,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 13.16
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 16,
-        "kept": 13,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 15.38
+        "today": 37,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
       },
       "vrt": {
         "fetched": 50,
-        "today": 43,
-        "kept": 43,
+        "today": 44,
+        "kept": 44,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
         "fetched": 100,
-        "today": 50,
-        "kept": 34,
+        "today": 97,
+        "kept": 64,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -103681,89 +103681,89 @@
         "share": 3.33
       },
       "demorgen": {
-        "fetched": 28,
-        "today": 20,
-        "kept": 20,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 27,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
       },
       "gva": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
       },
       "hbvl": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "knack": {
         "fetched": 100,
-        "today": 35,
-        "kept": 35,
+        "today": 43,
+        "kept": 42,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 5.71
+        "share": 4.76
       },
       "sporza": {
         "fetched": 20,
-        "today": 8,
-        "kept": 8,
+        "today": 15,
+        "kept": 15,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 6,
-        "kept": 6,
+        "today": 33,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 17,
-        "kept": 17,
+        "today": 18,
+        "kept": 18,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 5.88
+        "share": 5.56
       },
       "lalibre": {
         "fetched": 100,
-        "today": 57,
-        "kept": 57,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 5.26
+        "today": 92,
+        "kept": 92,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 4.35
       },
       "lecho": {
         "fetched": 100,
-        "today": 33,
-        "kept": 32,
+        "today": 70,
+        "kept": 65,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 58,
-        "kept": 58,
+        "today": 99,
+        "kept": 99,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -103786,56 +103786,56 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 28,
-        "kept": 21,
+        "today": 58,
+        "kept": 45,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 14,
-        "kept": 13,
+        "today": 30,
+        "kept": 27,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 21,
-        "kept": 19,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 5.26
+        "today": 52,
+        "kept": 46,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.35
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 13,
-        "kept": 13,
+        "today": 47,
+        "kept": 46,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 22,
-        "kept": 18,
+        "today": 46,
+        "kept": 40,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 50,
-        "today": 16,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "fetched": 75,
+        "today": 42,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
       },
       "tendances_g": {
-        "fetched": 41,
-        "today": 10,
-        "kept": 10,
+        "fetched": 58,
+        "today": 36,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -103864,27 +103864,57 @@
     ],
     "matches": [
       {
-        "title": "Trump ontkent dat hij Iran versoepeling sancties heeft aangeboden, Teheran zegt klaar te zijn voor gesprekken",
-        "url": "https://www.hln.be/buitenland/trump-ontkent-dat-hij-iran-versoepeling-sancties-heeft-aangeboden-teheran-zegt-klaar-te-zijn-voor-gesprekken~a99e0324/",
+        "title": "Hooggerechtshof staat Trump toe om uitzetting migranten naar derde landen te hervatten",
+        "url": "https://www.hln.be/buitenland/hooggerechtshof-staat-trump-toe-om-uitzetting-migranten-naar-derde-landen-te-hervatten~a79c6d94/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Historicus Paul Scheffer: ‘We mogen Donald Trump niet wegzetten als een toevalligheid’ - Knack",
+        "title": "Xi pakte Trump in tijdens staatsbezoek, Aziatische bondgenoten van VS kijken met lede ogen toe",
+        "url": "https://www.demorgen.be/nieuws/xi-pakte-trump-in-tijdens-staatsbezoek-aziatische-bondgenoten-van-vs-kijken-met-lede-ogen-toe~bfbb9d80/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Hooggerechtshof staat Trump toe om uitzetting migranten naar derde landen te hervatten",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-hooggerechtshof-staat-trump-toe-om-uitzetting-migranten-naar-derde-landen-te-hervatten/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“De voorzitter die campagne voert tegen Trump, speelt nu zelf voor Trump”: Jinnih Beels over poging om haar uit provinciebestuur te zetten",
+        "url": "https://www.nieuwsblad.be/regio/antwerpen/regio-antwerpen/antwerpen/de-voorzitter-die-campagne-voert-tegen-trump-speelt-nu-zelf-voor-trump-jinnih-beels-over-poging-om-haar-uit-provinciebestuur-te-zetten/162348951.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Hooggerechtshof staat Trump toe om uitzetting migranten naar derde landen te hervatten",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-hooggerechtshof-staat-trump-toe-om-uitzetting-migranten-naar-derde-landen-te-hervatten/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Auteur Paul Scheffer: ‘We mogen Donald Trump niet wegzetten als een toevalligheid’ - Knack",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDdkaV9LMHRyMlBVS0NMMFRydUxpbmVHOTBiODRJYXowNnQ5anFtWUpwR0JGdnMteU9xaXZHRllCOUJkQkY1ZGc0cEszZnVNekF1NnYxbENZZGpvQnFqUVlIamkzaE9GdzZWcnpkUzlidHlDWm45eFBPTHh1ZnNhaGQ3MFUxd3ZzVkNxcUMxcXlBdlNIUXlBZFNWTGlWZG5mWHZ0alJjdGxpS3A0bzR0UmNzdjgtYzZFRVRZ?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "‘Trump staat nergens op de kieslijst, maar hij heeft zichzelf tot inzet van de verkiezingen gemaakt’ - trends.knack.be",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FOWNLRjhuZm5wZ0NSd1NaYVRnOGxjLWxxd2x3cHY5Z0FGWUI0cXBqa0JpT28tZkFiX0lpakNpdldXejI0WkczV2tyZUUyVnA1TlRWZXhxeXBRUzVtSU5pWTNuR0tRcXBTNVphUmp2V0szREU4YkFUamJiUlRndw?oc=5",
+        "title": "Donald Trump blijft de regering-De Wever verdelen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSExhSnpHVU9zdWUxN1NxNXBaaEp0dTd6akFpUzF6SExhRm5ZdXpRbG1lQTh3WWEtOU9Xci1MRTdyNXBaM2VuMkRiTThMOXJmcVdzaTNRS2pzLW4xdFJtNk4yX1NGNXQ4aFZadlpjdFJtR2tZNzVSOTV3TnpnWXZuNGFGMGRJRFlrQXZubjNn?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "Midterms aux États-Unis : Trump, en difficulté dans les sondages, annonce la construction d’une très grande aciérie en Iowa",
-        "url": "https://www.rtbf.be/article/midterms-aux-etats-unis-trump-en-difficulte-dans-les-sondages-annonce-la-construction-d-une-tres-grande-acierie-en-iowa-11791995",
+        "title": "Donald Trump plaide pour \"l'auto-régulation\" en recevant les grands patrons de l'IA",
+        "url": "https://www.rtbf.be/article/donald-trump-plaide-pour-l-auto-regulation-en-recevant-les-grands-patrons-de-l-ia-11792481",
         "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump plaide pour \"l'auto-régulation\" en recevant les grands patrons de l'IA",
+        "url": "https://www.lalibre.be/economie/digital/2026/09/29/trump-plaide-pour-lauto-regulation-en-recevant-les-grands-patrons-de-lia-OUMDMC4GSBDRTP7FVHZZPIFPQI/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -103906,14 +103936,14 @@
         "name_only": true
       },
       {
-        "title": "“Fermez vos frontières”: l’étonnante scène où Trump a sermonné Starmer racontée par son ancienne porte-parole",
-        "url": "https://www.7sur7.be/monde/fermez-vos-frontieres-letonnante-scene-ou-trump-a-sermonne-starmer-racontee-par-son-ancienne-porte-parole~a1e613f2/",
+        "title": "Donald Trump plaide pour “l’auto-régulation” de l’IA et évoque \"un accord contraignant sur le plan moral\"",
+        "url": "https://www.7sur7.be/tech/donald-trump-plaide-pour-lauto-regulation-de-lia-et-evoque-un-accord-contraignant-sur-le-plan-moral~a989ce01/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Critiqué pour son bilan économique, Trump annonce un projet industriel à 18 milliards d’euros",
-        "url": "https://www.7sur7.be/monde/critique-pour-son-bilan-economique-trump-annonce-un-projet-industriel-a-18-milliards-deuros~af426eb8/",
+        "title": "Alerte antiterroriste en Angleterre: “Je n’aurais pas fait ça”, réagit Trump après la libération des suspects",
+        "url": "https://www.7sur7.be/monde/alerte-antiterroriste-en-angleterre-je-naurais-pas-fait-ca-reagit-trump-apres-la-liberation-des-suspects~a8bf0f4d/",
         "source": "septsursept",
         "name_only": true
       },
@@ -103922,13 +103952,31 @@
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSzZCUWg2RXdXUWxWNFJ0WC0yTUxfUGp0NjRLakxCdXZlQjhiVzV1dHF4OHZuR3o3dFNhWjdXX1JsUzRkMWQwT3FGU0FLU1J0VGhubHljX3lNei1KWVloSFgwWDQ2emVlalRiXzZDRDU2OGdkWEZuSG9HMUFGelFUS2ZqTEFqT1pJcUlXeVVibkNvbTJSU0FKQ1hqaWhOMEtTMld2OVpnN1MyVlZNemdDaEZRQklVT0hReFY1TkFJaS0?oc=5",
         "source": "sudinfo_g",
         "name_only": true
+      },
+      {
+        "title": "Musk, Zuckerberg, Bezos… : Donald Trump réunit les patrons de la tech et annonce un changement pour l’IA - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbzJnU290VUxBQnMwVDFvX2toREpocGRaTUpWaFA2S09jbVpRU05CZzNRVmdtZXYwNGN1dm9EWHpJT0otbmFPQ3oyanlqTUxDeVdCTFpHODNPRUx0bUp4TXM5elBwWURIYVZoYTZvZS0xYVU5azhoTWlKVnBiQTFEa0lSVGNPNFAzY0pEbjVRSEF6eFdYRkUxb05Gc1FZdHZzRkI2aEJZRUd4TXFrM2tEaVE0Wnk3SFAtV0hVVVVKY2l3YkZ4ZEpGMU1n?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump staat nergens op de kieslijst, maar hij heeft zichzelf tot inzet van de verkiezingen gemaakt’ - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FOWNLRjhuZm5wZ0NSd1NaYVRnOGxjLWxxd2x3cHY5Z0FGWUI0cXBqa0JpT28tZkFiX0lpakNpdldXejI0WkczV2tyZUUyVnA1TlRWZXhxeXBRUzVtSU5pWTNuR0tRcXBTNVphUmp2V0szREU4YkFUamJiUlRndw?oc=5",
+        "source": "trends_g",
+        "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "President Trump opnieuw op vingers getikt voor poging om meer greep te krijgen op verkiezingen - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOQlczNHNRVG4tcjYzUVhQZWh5UzhpU0dQdnB3V1I0STV1VS1sRGFPLVNyNzlJYjByUHBwMjhvQTBDMkF2dTBYOWQ1Y0Z2WWxEOWZmMTNmYnktUUt5b2t2MUVBcmQwSVEtN1NqNEZyRWJPMDEyTnlOMlZMY3Y5QTlMcWZycUhHY1NsdEp6UnlRdGgxdGRYbUhiSWx0djY2TXU1eEpfLUlPNFVxWVlYQXl1WWJoQ2k4Q2NkOS1GUjhKQnowRHVSLVlqeTg5QndrckxodnQwZHM2UGtJS2szSkNiZG9aM1NjTldDV1lhLW1sMk1GNlBPMld1ZXFBdFd6aXU4aGc?oc=5",
-        "source": "google_nl_politics",
+        "title": "Hooggerechtshof staat Trump toe om uitzetting migranten naar derde landen te hervatten - HLN",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa1dvSVZ3c1ZvbzlpbjZKX0RiOGRMVXlBOTZSaERBRzBvMlFwbWV1M1pFSHl0VWxKZV96bTBONU9DZ0I5LUdHYUtfa0ZRamFyOUFSSzBGbFZtMWVmM0xDa0VsaThyMGpHcnZFWmpweW13VkN1a0ZMc09SY1puLVF6WEdEbUZleW5Gb2lIMmRwdVBQejFrREpUbF9NWDd0Vnd4UEM5bndlTzBKWnkyZ0Zrb3NQd2V3N0szT0dyR0dEUUJGZk4w?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Xi pakte Trump in tijdens staatsbezoek, Aziatische bondgenoten van VS kijken met lede ogen toe - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT21GZEREOUZhZ2tZcVZDTGxHYlNaNnR4WktqY2JVaUxYSmZTX2VWNGFlbjdMUF9OOTN4U3BVMl9lQjFKcE83ckdQTGwtLVM5T2tMa3JpMUVKT1hMNFJDTVV4SFlyZ2pxWmwyYVM3SGFiT2g4Q010RGNxQTkyNlkyVTBNRHlsQ0hGWnZvc1ZPWXo2OGRfUTZjMk5UYS1lX3dQMFV5T216aU1TR0FwUnpHOTdRVVNzY0o3cVE2bnFIMXZrdXBuaXJSbUpOakZMc1U?oc=5",
+        "source": "google_nl_world",
         "name_only": true
       },
       {
@@ -103938,8 +103986,14 @@
         "name_only": true
       },
       {
-        "title": "Élections de mi-mandat aux États-Unis : très critiqué, Donald Trump annonce un énorme projet qui créera des milliers d’emplois - RTL Info",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNc0RMR0hSQmpqcEMtTDNuVUI1Y3F3WmxGVUw2QlczdjVwTEktdmdlamQ5cmJoWl93Ri1IOHhuUTZkSXdrWEh5d1o0ZzhaVEV1RXNMZFFHWnNkTEMwVFE0SE5Ra3MxbmpWUFRnWU81R1pVMGNmR2ZoZjByTGRMaERHSkFxREc0dVpvbG9DbmRYY3VHeGhrNkdaNGtnSERKWnBMbzdTeW9fUFk1WWhZWnJoRlFtaGloV0M1ampYU05uN0hxTGlqZ2NLSHRXSHlWbk42UFB2ekQxaWx4Z2k5Ymc?oc=5",
+        "title": "Le « cadeau » des États-Unis à la Belgique : bientôt un avantage pour les voyageurs belges, Donald Trump se dit « très heureux » de cet accord - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWXgxbTY4STNoeXVqVlVMWTN1NGlRajNIZFBydGdpZUNZNHgtcDN6TnBwMGl4RXpJcnZSLUtwSlpfUkJ3UlNOUDBFNmRxYnhocmQzMmZ5RHJocVhJNFo5QWRwV2s2UnJjemU2WUtfQWR4cHFYSjBTVHpURG5LR1FsRVdISm91NE84QmdhQnVLRDRRMk9DbjlHZEZMaTlYdVZWZnlKZ0RoaGszZ2tCT3JSdDZqZkR4b3hWc0Jxbk8xX1M1aTJkMVE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Critiqué pour son bilan économique, Trump annonce un projet industriel à 18 milliards d’euros - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSjViZG9kODV2SDV6aEI5Z3FnN09kT1h1UmNhU2FnZWtDdTVJLXhaSVJLc2ZDR2IzQWZuM1dESHpMejhGYVFrVTNuWEhUU1ZPTHk2cFFvWmNTamxfVVF2akJXZTJKMDJQTkRFMlVtcU9uR2dmNjlFdkE5aElOcm1oRWhzR1VEclZORERCLU1uOXdRU2tGS0hIR01CSjFad3hPMkdxbjJYZUVIWnJQSUcxMlBMVzE4TUlMWmJvRjdqZERTMm9OQkJz?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
@@ -103950,39 +104004,81 @@
         "name_only": true
       },
       {
-        "title": "Critiqué sur son bilan économique, Donald Trump fait une grande annonce à l'approche de midterms - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNaUE0aXd3YnhRNlFVWWd4dkJTZzZtUUtzRWxENW9WWlVUTTNzc3BrWVF1QVFXaWN5TXM3QXNONVBwZWpSYzI5SGJiYU10LVpVYkxybFNadE5lT3piQUljd1Vfc3RWbEdWUi16QUd3NzJwUkFFWXdsM3VfWkVSYmRQdTJkTnlTdjIxbHluNTY3OW14bWcxcGVhT1JDOU9LRFpTM2NSeGFIeklVcFRhTi1iUHZnTlM2NlU3bWpnMUtxblFSNXdiRkdsN0hKS2xmZEcxMkxuT1pGMC1TcVpqNDFmWEZ5T2owSDNLQndSeEdVOF95d19DX19EcmtNel82bm5xMURTalNhdGV1b01kdFoyU01Ya1hEOTFTOGNnaGxoU1otNVN1WlVVWjlERTZEa3lWajBBR0ZfY3psN2xhWlpTSw?oc=5",
+        "title": "Actualité | Agression rwandaise : Donald Trump promet d'intervenir en cas de violation de l'accord de paix - mediacongo.net",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbnFqd2ZWV3Ezanp1b0FLT20xYmZvUFZBMzNMYk5sd2U4RG5JMVFsY0I3OUtzbGV0eXlsdTlpcGswLXZuUzA0T2Z0bGxMUTFJc1ZtQTlLRVE4TG9Va0JGdDNEdW9vVkVSeVBrUnNLZVVZMWF6MDQ0UHhvMHNPMHBEMTZnaGJ4UWt6NlhsYS1pWEs3cFdRN2loQ3Q5WUxQX2NLZ0E2QUw5YnRyOXd1dmhYQUFnWFVhNXhIZndWS2FtZzh2M3A3VkJxLUVZNWdNWTY1QXg0MFpUOGYyNmFWSWNFMTBlWQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Midterms aux États-Unis : Trump, en difficulté dans les sondages, annonce la construction d’une très grande aciérie en Iowa - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNN0U3UlZzcUJ5cERPLUd4OUVvb2ZYa05WMXNDcmhEd0FaU2gtM3hSdXRPTUMwNElXOE1rbW9Wb2pNWnlFS2l0Q3R1RTlxTV9pVnJHZjhmYkcycHllVmdueWRuMnFqeDhCSzlHVDhnb0ppWTNMdWJ6ZTE0b3dxMWowYWdMTWxsQzJPZWQwQWk5Q01EelRIRXJqVUNXdnU2NURndkRLTl9BdnBlcnJZazBwZFZXSmZmdFZIR3NISWR6SW1qY0w1YVNrUW8wMnlNWnkycUNtQTk3ZmZ2dzYxeFJURkJxNUc1cEpmajRYVVB5R3dTZ2RaejgtWEZQRURRZnM?oc=5",
         "source": "google_fr_business",
         "name_only": true
       },
       {
-        "title": "En s'attaquant au Canada ce mardi, Donald Trump pourrait s'attirer la foudre des \"gym bros\" adeptes de musculation - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOUWJ0empkQlFXTzhhU21DOEVVMUlLUDB4bjQ0RlFlMlVfbnNSZVJEZ2tUUnJTMzk1T3FOcG83ZDczVHhnSWlsajdaNXo0ZnpKaWlDanI2X1BHZ0E0NTk1alpTV09rVWV0a0QxVjQwR0xYbE5jMWRWbmZWUmJOc2FSZUFKRW9tYWdkS1pxQ3c1YjdYeldQM2tKSkV6Mkp4S1pRSlI5Sm9rbk82a0ZYMTNQZlJaQmJHT05pVDZQMmdHN2RvcGpHdUxNVnhkSUdxbW5IWGlkSGpuUUVBQ2RoVlJPWEtZUEZ4bVpqNGMwQ0RXU2dpMUdFWGVvcHFVcXBBdHdYN1ZtZzZLYmV3TVgzeVV2bTlWS2paOGI0aFZ1Mg?oc=5",
-        "source": "google_fr_business",
-        "name_only": true
-      },
-      {
-        "title": "Trump ontkent dat hij Iran versoepeling sancties heeft aangeboden, Teheran zegt klaar te zijn voor gesprekken",
-        "url": "https://www.hln.be/buitenland/trump-ontkent-dat-hij-iran-versoepeling-sancties-heeft-aangeboden-teheran-zegt-klaar-te-zijn-voor-gesprekken~a99e0324/",
+        "title": "Hooggerechtshof staat Trump toe om uitzetting migranten naar derde landen te hervatten",
+        "url": "https://www.hln.be/buitenland/hooggerechtshof-staat-trump-toe-om-uitzetting-migranten-naar-derde-landen-te-hervatten~a79c6d94/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Historicus Paul Scheffer: ‘We mogen Donald Trump niet wegzetten als een toevalligheid’ - Knack",
+        "title": "Xi pakte Trump in tijdens staatsbezoek, Aziatische bondgenoten van VS kijken met lede ogen toe",
+        "url": "https://www.demorgen.be/nieuws/xi-pakte-trump-in-tijdens-staatsbezoek-aziatische-bondgenoten-van-vs-kijken-met-lede-ogen-toe~bfbb9d80/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Hooggerechtshof staat Trump toe om uitzetting migranten naar derde landen te hervatten",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-hooggerechtshof-staat-trump-toe-om-uitzetting-migranten-naar-derde-landen-te-hervatten/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“De voorzitter die campagne voert tegen Trump, speelt nu zelf voor Trump”: Jinnih Beels over poging om haar uit provinciebestuur te zetten",
+        "url": "https://www.nieuwsblad.be/regio/antwerpen/regio-antwerpen/antwerpen/de-voorzitter-die-campagne-voert-tegen-trump-speelt-nu-zelf-voor-trump-jinnih-beels-over-poging-om-haar-uit-provinciebestuur-te-zetten/162348951.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Hooggerechtshof staat Trump toe om uitzetting migranten naar derde landen te hervatten",
+        "url": "https://www.gva.be/buitenland/live-vs.-hooggerechtshof-staat-trump-toe-om-uitzetting-migranten-naar-derde-landen-te-hervatten/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "“De voorzitter die campagne voert tegen Trump, speelt nu zelf voor Trump”: Jinnih Beels over poging om haar uit provinciebestuur te zetten",
+        "url": "https://www.gva.be/regio/antwerpen/regio-antwerpen/antwerpen/de-voorzitter-die-campagne-voert-tegen-trump-speelt-nu-zelf-voor-trump-jinnih-beels-over-poging-om-haar-uit-provinciebestuur-te-zetten/162306813.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Hooggerechtshof staat Trump toe om uitzetting migranten naar derde landen te hervatten",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-hooggerechtshof-staat-trump-toe-om-uitzetting-migranten-naar-derde-landen-te-hervatten/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Auteur Paul Scheffer: ‘We mogen Donald Trump niet wegzetten als een toevalligheid’ - Knack",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDdkaV9LMHRyMlBVS0NMMFRydUxpbmVHOTBiODRJYXowNnQ5anFtWUpwR0JGdnMteU9xaXZHRllCOUJkQkY1ZGc0cEszZnVNekF1NnYxbENZZGpvQnFqUVlIamkzaE9GdzZWcnpkUzlidHlDWm45eFBPTHh1ZnNhaGQ3MFUxd3ZzVkNxcUMxcXlBdlNIUXlBZFNWTGlWZG5mWHZ0alJjdGxpS3A0bzR0UmNzdjgtYzZFRVRZ?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "‘Trump staat nergens op de kieslijst, maar hij heeft zichzelf tot inzet van de verkiezingen gemaakt’ - trends.knack.be",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FOWNLRjhuZm5wZ0NSd1NaYVRnOGxjLWxxd2x3cHY5Z0FGWUI0cXBqa0JpT28tZkFiX0lpakNpdldXejI0WkczV2tyZUUyVnA1TlRWZXhxeXBRUzVtSU5pWTNuR0tRcXBTNVphUmp2V0szREU4YkFUamJiUlRndw?oc=5",
+        "title": "Donald Trump blijft de regering-De Wever verdelen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSExhSnpHVU9zdWUxN1NxNXBaaEp0dTd6akFpUzF6SExhRm5ZdXpRbG1lQTh3WWEtOU9Xci1MRTdyNXBaM2VuMkRiTThMOXJmcVdzaTNRS2pzLW4xdFJtNk4yX1NGNXQ4aFZadlpjdFJtR2tZNzVSOTV3TnpnWXZuNGFGMGRJRFlrQXZubjNn?oc=5",
         "source": "knack",
         "name_only": true
       },
       {
-        "title": "Midterms aux États-Unis : Trump, en difficulté dans les sondages, annonce la construction d’une très grande aciérie en Iowa",
-        "url": "https://www.rtbf.be/article/midterms-aux-etats-unis-trump-en-difficulte-dans-les-sondages-annonce-la-construction-d-une-tres-grande-acierie-en-iowa-11791995",
+        "title": "Donald Trump plaide pour \"l'auto-régulation\" en recevant les grands patrons de l'IA",
+        "url": "https://www.rtbf.be/article/donald-trump-plaide-pour-l-auto-regulation-en-recevant-les-grands-patrons-de-l-ia-11792481",
         "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump plaide pour \"l'auto-régulation\" en recevant les grands patrons de l'IA",
+        "url": "https://www.lalibre.be/economie/digital/2026/09/29/trump-plaide-pour-lauto-regulation-en-recevant-les-grands-patrons-de-lia-OUMDMC4GSBDRTP7FVHZZPIFPQI/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -104004,14 +104100,14 @@
         "name_only": true
       },
       {
-        "title": "“Fermez vos frontières”: l’étonnante scène où Trump a sermonné Starmer racontée par son ancienne porte-parole",
-        "url": "https://www.7sur7.be/monde/fermez-vos-frontieres-letonnante-scene-ou-trump-a-sermonne-starmer-racontee-par-son-ancienne-porte-parole~a1e613f2/",
+        "title": "Donald Trump plaide pour “l’auto-régulation” de l’IA et évoque \"un accord contraignant sur le plan moral\"",
+        "url": "https://www.7sur7.be/tech/donald-trump-plaide-pour-lauto-regulation-de-lia-et-evoque-un-accord-contraignant-sur-le-plan-moral~a989ce01/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "Critiqué pour son bilan économique, Trump annonce un projet industriel à 18 milliards d’euros",
-        "url": "https://www.7sur7.be/monde/critique-pour-son-bilan-economique-trump-annonce-un-projet-industriel-a-18-milliards-deuros~af426eb8/",
+        "title": "Alerte antiterroriste en Angleterre: “Je n’aurais pas fait ça”, réagit Trump après la libération des suspects",
+        "url": "https://www.7sur7.be/monde/alerte-antiterroriste-en-angleterre-je-naurais-pas-fait-ca-reagit-trump-apres-la-liberation-des-suspects~a8bf0f4d/",
         "source": "septsursept",
         "name_only": true
       },
@@ -104020,77 +104116,89 @@
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSzZCUWg2RXdXUWxWNFJ0WC0yTUxfUGp0NjRLakxCdXZlQjhiVzV1dHF4OHZuR3o3dFNhWjdXX1JsUzRkMWQwT3FGU0FLU1J0VGhubHljX3lNei1KWVloSFgwWDQ2emVlalRiXzZDRDU2OGdkWEZuSG9HMUFGelFUS2ZqTEFqT1pJcUlXeVVibkNvbTJSU0FKQ1hqaWhOMEtTMld2OVpnN1MyVlZNemdDaEZRQklVT0hReFY1TkFJaS0?oc=5",
         "source": "sudinfo_g",
         "name_only": true
+      },
+      {
+        "title": "Musk, Zuckerberg, Bezos… : Donald Trump réunit les patrons de la tech et annonce un changement pour l’IA - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbzJnU290VUxBQnMwVDFvX2toREpocGRaTUpWaFA2S09jbVpRU05CZzNRVmdtZXYwNGN1dm9EWHpJT0otbmFPQ3oyanlqTUxDeVdCTFpHODNPRUx0bUp4TXM5elBwWURIYVZoYTZvZS0xYVU5azhoTWlKVnBiQTFEa0lSVGNPNFAzY0pEbjVRSEF6eFdYRkUxb05Gc1FZdHZzRkI2aEJZRUd4TXFrM2tEaVE0Wnk3SFAtV0hVVVVKY2l3YkZ4ZEpGMU1n?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump staat nergens op de kieslijst, maar hij heeft zichzelf tot inzet van de verkiezingen gemaakt’ - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FOWNLRjhuZm5wZ0NSd1NaYVRnOGxjLWxxd2x3cHY5Z0FGWUI0cXBqa0JpT28tZkFiX0lpakNpdldXejI0WkczV2tyZUUyVnA1TlRWZXhxeXBRUzVtSU5pWTNuR0tRcXBTNVphUmp2V0szREU4YkFUamJiUlRndw?oc=5",
+        "source": "trends_g",
+        "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 10,
+      "trump": 17,
       "putin": 1,
-      "macron": 0,
-      "netanyahu": 2,
-      "zelensky": 0,
+      "macron": 1,
+      "netanyahu": 1,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 5,
+      "de_wever": 6,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 2,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 27,
+      "putin": 2,
+      "macron": 3,
+      "netanyahu": 3,
+      "zelensky": 3,
+      "rutte": 1,
+      "von_der_leyen": 0,
+      "de_wever": 9,
+      "bouchez": 3,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 1,
       "francken": 0,
-      "crevits": 0,
+      "crevits": 4,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 0
-    },
-    "wide_comparisons": {
-      "trump": 16,
-      "putin": 3,
-      "macron": 0,
-      "netanyahu": 3,
-      "zelensky": 0,
-      "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 1,
-      "bouchez": 7,
-      "magnette": 0,
-      "prevot": 1,
-      "rousseau": 1,
-      "francken": 0,
-      "crevits": 0,
-      "jambon": 0,
-      "van_peteghem": 0,
-      "verlinden": 0
+      "verlinden": 1
     },
     "themes": {
-      "war": 22,
-      "crime": 6,
-      "eu": 20,
-      "politics": 22,
-      "be_gov": 29,
-      "culture": 10,
-      "tech": 28,
-      "economy": 26,
-      "sports": 28,
-      "health": 6,
-      "climate": 7,
+      "war": 37,
+      "crime": 29,
+      "eu": 32,
+      "politics": 56,
+      "be_gov": 54,
+      "culture": 19,
+      "tech": 33,
+      "economy": 57,
+      "sports": 37,
+      "health": 11,
+      "climate": 10,
       "migration": 1,
-      "education": 4,
-      "weather": 13
+      "education": 8,
+      "weather": 17
     },
     "wide_themes": {
-      "war": 34,
-      "crime": 14,
-      "eu": 31,
-      "politics": 39,
-      "be_gov": 40,
-      "culture": 13,
-      "tech": 38,
-      "economy": 36,
-      "sports": 47,
-      "health": 9,
-      "climate": 8,
+      "war": 56,
+      "crime": 44,
+      "eu": 55,
+      "politics": 94,
+      "be_gov": 81,
+      "culture": 21,
+      "tech": 50,
+      "economy": 78,
+      "sports": 61,
+      "health": 13,
+      "climate": 17,
       "migration": 2,
-      "education": 6,
-      "weather": 19
+      "education": 13,
+      "weather": 26
     }
   }
 ]
