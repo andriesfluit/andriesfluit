@@ -104203,155 +104203,155 @@
   },
   {
     "date": "2026-09-30",
-    "generated_at": "2026-09-30T18:29:57+02:00",
-    "last_checked_at": "2026-09-30T18:29:57+02:00",
-    "total_articles": 776,
-    "trump_articles": 13,
-    "percentage": 1.7,
-    "core_percentage": 1.7,
-    "core_percentage_name": 1.7,
-    "trump_articles_expanded": 13,
-    "core_percentage_expanded": 1.7,
-    "indirect_references": 0,
-    "wide_total_articles": 1106,
-    "wide_trump_articles": 23,
-    "wide_percentage": 2.1,
-    "wide_trump_articles_expanded": 23,
+    "generated_at": "2026-09-30T22:58:47+02:00",
+    "last_checked_at": "2026-09-30T22:58:47+02:00",
+    "total_articles": 908,
+    "trump_articles": 17,
+    "percentage": 1.9,
+    "core_percentage": 1.9,
+    "core_percentage_name": 1.9,
+    "trump_articles_expanded": 18,
+    "core_percentage_expanded": 2.0,
+    "indirect_references": 1,
+    "wide_total_articles": 1289,
+    "wide_trump_articles": 26,
+    "wide_percentage": 2.0,
+    "wide_trump_articles_expanded": 27,
     "wide_percentage_expanded": 2.1,
-    "macro_percentage": 2.6,
-    "qualifying_outlets": 32,
+    "macro_percentage": 2.4,
+    "qualifying_outlets": 33,
     "core_outlets_total": 19,
     "core_outlets_active": 19,
     "active_core_fraction": 1.0,
-    "cross_outlet_dup_headlines": 34,
-    "cross_outlet_dup_groups": 17,
-    "cross_outlet_dup_rate": 4.4,
+    "cross_outlet_dup_headlines": 60,
+    "cross_outlet_dup_groups": 30,
+    "cross_outlet_dup_rate": 6.6,
     "zone": "wet",
     "label": "The zone is getting wet",
     "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.65,
-    "breadth": 0.47,
-    "deviation": 0.55,
-    "smoothed_pct": 3.1,
+    "dominance": 0.81,
+    "breadth": 0.53,
+    "deviation": 0.61,
+    "smoothed_pct": 3.13,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 11,
+    "theme_rank": 10,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 31,
-        "kept": 31,
+        "today": 32,
+        "kept": 32,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 26,
-        "kept": 26,
+        "today": 27,
+        "kept": 27,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.85
+        "share": 3.7
       },
       "google_nl_politics": {
         "fetched": 33,
-        "today": 12,
-        "kept": 12,
+        "today": 15,
+        "kept": 15,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 8.33
+        "share": 6.67
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 27,
-        "kept": 20,
+        "today": 35,
+        "kept": 30,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 10.0
+        "share": 6.67
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 43,
-        "kept": 40,
+        "today": 46,
+        "kept": 42,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.5
+        "share": 2.38
       },
       "google_nl_tech": {
         "fetched": 53,
-        "today": 27,
-        "kept": 21,
+        "today": 35,
+        "kept": 25,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.76
+        "share": 4.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 30,
-        "kept": 26,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.85
-      },
-      "google_fr_politics": {
-        "fetched": 28,
-        "today": 10,
-        "kept": 9,
+        "today": 45,
+        "kept": 41,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_fr_politics": {
+        "fetched": 30,
+        "today": 14,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
       "google_fr_world": {
         "fetched": 70,
-        "today": 24,
-        "kept": 19,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 10.53
-      },
-      "google_fr_business": {
-        "fetched": 70,
-        "today": 26,
+        "today": 28,
         "kept": 23,
         "trump": 1,
         "trump_expanded": 1,
         "share": 4.35
       },
-      "vrt": {
-        "fetched": 50,
-        "today": 45,
-        "kept": 45,
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 28,
+        "kept": 25,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.22
+        "share": 4.0
       },
-      "standaard": {
-        "fetched": 100,
-        "today": 76,
-        "kept": 64,
+      "vrt": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 94,
+        "kept": 81,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.23
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.33
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "demorgen": {
-        "fetched": 28,
-        "today": 23,
-        "kept": 23,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.35
+        "fetched": 29,
+        "today": 26,
+        "kept": 26,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.69
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -104379,8 +104379,8 @@
       },
       "knack": {
         "fetched": 100,
-        "today": 35,
-        "kept": 34,
+        "today": 48,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -104395,8 +104395,8 @@
       },
       "bruzz": {
         "fetched": 100,
-        "today": 28,
-        "kept": 28,
+        "today": 33,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -104411,35 +104411,35 @@
       },
       "lalibre": {
         "fetched": 100,
-        "today": 72,
-        "kept": 72,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 4.17
+        "today": 90,
+        "kept": 90,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 5.56
       },
       "lecho": {
         "fetched": 100,
-        "today": 61,
-        "kept": 60,
+        "today": 67,
+        "kept": 65,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 3.33
+        "share": 3.08
       },
       "dhnet": {
         "fetched": 100,
-        "today": 97,
-        "kept": 97,
+        "today": 98,
+        "kept": 98,
         "trump": 1,
-        "trump_expanded": 1,
-        "share": 1.03
+        "trump_expanded": 2,
+        "share": 1.02
       },
       "septsursept": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "bx1": {
         "fetched": 10,
@@ -104451,59 +104451,59 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 39,
-        "kept": 31,
+        "today": 57,
+        "kept": 49,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 3.23
+        "share": 2.04
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 37,
-        "kept": 31,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 62,
+        "kept": 56,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.79
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 27,
-        "kept": 25,
+        "today": 39,
+        "kept": 37,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 39,
-        "kept": 38,
+        "today": 44,
+        "kept": 43,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 100,
-        "today": 35,
-        "kept": 33,
+        "fetched": 99,
+        "today": 49,
+        "kept": 44,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
         "fetched": 100,
-        "today": 26,
-        "kept": 22,
+        "today": 27,
+        "kept": 19,
         "trump": 2,
         "trump_expanded": 2,
-        "share": 9.09
+        "share": 10.53
       },
       "tendances_g": {
-        "fetched": 90,
-        "today": 25,
-        "kept": 22,
+        "fetched": 100,
+        "today": 31,
+        "kept": 27,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.55
+        "share": 3.7
       }
     },
     "core_sources": [
@@ -104529,21 +104529,33 @@
     ],
     "matches": [
       {
-        "title": "Gent is razend over besparingen: \"Alle inspanningen tenietgedaan door toxische combinatie van Trump en Diependaele\"",
-        "url": "https://vrtnws.be/p.dLy7ROLOV",
-        "source": "vrt",
-        "name_only": true
-      },
-      {
-        "title": "“President of the Unites States”: typfout in nieuw AI-akkoord van Trump",
-        "url": "https://www.hln.be/buitenland/president-of-the-unites-states-typfout-in-nieuw-ai-akkoord-van-trump~a79c6d94/",
-        "source": "hln",
+        "title": "Olie stroomt weer door Straat van Hormuz, maar nu overweegt Trump exportverbod op diesel: uiteenlopende signalen houden olieprijs hoog - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNV3l3b1pYampXY01kbkY3SUVMNUR1cDBYdFpVdExjLW8walQtT0FYSHVHcmk0QnVEZEhBWUxsQ2JhMDl0aktkTWd5ektsTjRUZm1hSU1YMGQzZFZkTkVoYTVGU05KM3lKTnMxWUJIYXVYYXctSHNtdW5Bc0hLV2dvVmluczBDX0hFWVlzMFdEMmx1UFlOMnJDNHdXck5MaVVFZk4xME9HRlNhTFBEb0ZGaEZjcmlDY1BncFRETzJkVmhTRmNLWWh0YUp6OWhweWNsWDRpNG1CNmswTmFQaHh3VjVZWS0yRjZwNEdBZXBxTWd5MHJzZEZxOG1BS1ZReFM0dDBVMUR4SkNMMUttT3c?oc=5",
+        "source": "standaard",
         "name_only": true
       },
       {
         "title": "Steeds meer Republikeinen keren zich af van Trump: ‘Zelfs rode staten zijn niet veilig tijdens de midterms’",
         "url": "https://www.demorgen.be/nieuws/steeds-meer-republikeinen-keren-zich-af-van-trump-zelfs-rode-staten-zijn-niet-veilig-tijdens-de-midterms~b394ea8d/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Texaanse kandidaat-senator erkent achter gesloten deuren dat Trump blok aan been van Republikeinen is • Hegseth bevestigt: een op vijf generaals en admiraals moet weg",
+        "url": "https://www.demorgen.be/snelnieuws/live-pentagon-wil-opnieuw-snoeien-in-amerikaanse-legertop-vs-verzwaren-sancties-tegen-cuba~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Coup de théâtre pour Donald Trump : l’enquête sur Jerome Powell ne trouve aucun motif de poursuites",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/30/coup-de-theatre-pour-donald-trump-lenquete-sur-jerome-powell-ne-trouve-aucun-motif-de-poursuites-FWK2I3G3MJA4RLN4NTOXBNMHMI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump qualifie le retrait d'Irak de \"victoire\" pour les États-Unis",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/09/30/donald-trump-qualifie-le-retrait-dirak-de-victoire-pour-les-etats-unis-HMULZAKV4NGAZEOQY4EVFSWVXQ/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -104577,15 +104589,33 @@
         "name_only": true
       },
       {
+        "title": "Les géants américains de la tech signent un code de bonne conduite pour l'IA à la Maison-Blanche : ce que l'on sait sur cette \"charte\"",
+        "url": "https://www.dhnet.be/actu/new-tech/2026/09/30/les-geants-americains-de-la-tech-signent-un-code-de-bonne-conduite-pour-lia-a-la-maison-blanche-ce-que-lon-sait-sur-cette-charte-D6IUTQLJ4FAXHIIGNJOT7BWLX4/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
         "title": "Accord historique sur l'IA signé entre Trump et les géants technologiques ce mardi : \"Ce sont les personnes les plus importantes de la planète\"",
         "url": "https://www.dhnet.be/actu/monde/2026/09/30/accord-historique-sur-lia-signe-entre-trump-et-les-geants-technologiques-ce-mardi-ce-sont-les-personnes-les-plus-importantes-de-la-planete-ZZMHMDMOJNGGBMRRFGP4ZV5XZM/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Trump laat AI-bedrijven zichzelf controleren met ‘moreel bindend’ akkoord - De Tijd",
+        "title": "“Il devrait démissionner immédiatement”: Trump relance ses attaques contre l’ex-patron de la Fed",
+        "url": "https://www.7sur7.be/monde/il-devrait-demissionner-immediatement-trump-relance-ses-attaques-contre-lex-patron-de-la-fed~aef648ad/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump laat AI-bedrijven zichzelf controleren met ‘moreel bindend’ akkoord - tijd.be",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM2JYSkp1YUxIQ1hnaGZmSHV4T2ZoRXJOb2ZhZzhmVHNFMFJjdnc1STdsQUk5UFczQVd3NEJjYlY2NWJiU2pYalJ4dFJGS2s5Tjh2cGNsT05zdTFjdV84Tm5iQVRldldhQ0R4X2wyZm1XYjJBSDFFaHB1RU5aS1pjcWQtcFVVNE1id3VXbzdtX0w4ZlAtdWNoaFhuUDhSSkJKd09WcDFCdE5jRk51X05iR0N2QThFYmhkQlQyUGxyOV9pMW8waEgyVnRrZ0N3TVFtWXlBUThqdno?oc=5",
         "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Comment Trump a scellé l’avenir de l’IA sur un carton de bière - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa1ViYnNLdmJMQm5lQ2EwYk5kcVRNNGdPQjdyeG5tYkNodnpYUjAwdWduMWlNUUF0NVdDdXFwLVp4d2V0cXpjTEpFUHVaTkxJejVZY3NHUkdzNENvaWdla1RlcVdFNk5wZDJHYWNINVBLQnBJSkV4bWlsWjJwSkpPcEUydDVIS0hJNVhVWldRNndtcDF0ZzNwSEZkOHYzU3h0dGxCakhLMU9vQQ?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
@@ -104645,20 +104675,14 @@
         "name_only": true
       },
       {
-        "title": "Gaat NBA-kampioen New York Knicks wel of niet naar President Trump? - NBA-Belgen klaar voor hun seizoen - HLN",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQazZ2S1M5b3NQVGdERXVQVkpZQm5ELXNHNEx4Wlh1N2lXQlBzNGRSNVpFMjVDTGJrQl9VcERLNlJyQ0VremVraHFYZTRfZFp3QnBnWlRZZWVGSUJJemdtWTZvS3Q2UzJ1YWtHNE5uaHh0QzdMaTBOQTVHVmMzMGJBSU1GU0pVWElJb19mQTRaN3pvT2ttNVktWTVSTDhsV3pYcnRUYU5MdGRNdGV1T04xbU1lSUdoOWcxWHl1My1xdTk0bXUxRHRQM25xUUR6UQ?oc=5",
-        "source": "google_nl_sport",
+        "title": "Une enquête soutenue par Trump ne révèle pas de « motifs » de poursuites contre Powell - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSUI5LUR4VlpkMmtxZTBfamdkSENlekx5emxabEtuek5vYWxKZXUycmhCS1lKNjlJcDdKSFdtSlpodDNUSWI5aXJ4bFVsVHFWSWZmRXptUGpRQlRWY0Vmc0V0cDJvYzFQRVhNV2pHNS0tQXB1V3loamR2OHVsZDhpNEpkRDIxSWhVTHU1NGtTZ1d0WmJhdGpTTWZOeUZhMDFZQ2dXZHlfSzZubGtFWWZmTDhqTVM2V2UyQldUbGp3NzF2TFNjUGRkMHMxOEVJVGxBVU1PVHdZc0U0UHBNMzRfMDd2WFQzdUI2QmlLVF9MWnhUcVdpcDFlWnZlaw?oc=5",
+        "source": "google_fr_politics",
         "name_only": true
       },
       {
         "title": "Aux Etats-Unis, les sondages pointent à l’unisson l’impopularité de Donald Trump - Le Soir",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXdHaEVnNG5uWnliQ1BJQ0d6QXFrTFlqUUpOQlBSSGdDTzd1bXk2YzZCaUtBQW5ST21aeXJ4YkpMTDJ0TkZoS0hXR3ZIcGlHSXhYbE5YSnFOaHN5aTlwc2RLTHZITjVLMEVPWmlUX2pnRUwtc090ME9meFg1OHJTNWl6ZTFYQndla0w2LV9FbW83Q1dNS0dtSGZubWxBdEZ0TWROX0s0ckhUQ3hrUFB5Q09OeDlkTk5JNm9fdUVzbHU?oc=5",
-        "source": "google_fr_world",
-        "name_only": true
-      },
-      {
-        "title": "Pourquoi Kim Jong-un peut garder la bombe atomique ? La réponse très personnelle de Donald Trump - RTBF",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcGtEYUp0bE9scUwtT3ZmdVFJWUFBZzRiaFJqNk4wa1BSSUdVOEczblFVUUJNLTU0SF9TNEZ6Wi1IcERINVl5ZHY3Q3dZMU1sTmp0ZUNNcC1TcTFUa3JmSzBOWVdNZlZTa1l3SWlERXdVVVVxbWZVamMybkYtS0p0Y0JMSUJNWFlEeUEzWEh1V2MxZkpjSG8xaVpGdkg4OG9GcWttbW5qVnpmSkFzZHJwYWtMRFlCQ19XbFpRN2cwNXo2ZjlERnpfQnlsNng0TWJ2aHQ2eFdJUl9IcnlqU0xyTWlLVW4?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
@@ -104669,21 +104693,33 @@
         "name_only": true
       },
       {
-        "title": "Gent is razend over besparingen: \"Alle inspanningen tenietgedaan door toxische combinatie van Trump en Diependaele\"",
-        "url": "https://vrtnws.be/p.dLy7ROLOV",
-        "source": "vrt",
-        "name_only": true
-      },
-      {
-        "title": "“President of the Unites States”: typfout in nieuw AI-akkoord van Trump",
-        "url": "https://www.hln.be/buitenland/president-of-the-unites-states-typfout-in-nieuw-ai-akkoord-van-trump~a79c6d94/",
-        "source": "hln",
+        "title": "Olie stroomt weer door Straat van Hormuz, maar nu overweegt Trump exportverbod op diesel: uiteenlopende signalen houden olieprijs hoog - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNV3l3b1pYampXY01kbkY3SUVMNUR1cDBYdFpVdExjLW8walQtT0FYSHVHcmk0QnVEZEhBWUxsQ2JhMDl0aktkTWd5ektsTjRUZm1hSU1YMGQzZFZkTkVoYTVGU05KM3lKTnMxWUJIYXVYYXctSHNtdW5Bc0hLV2dvVmluczBDX0hFWVlzMFdEMmx1UFlOMnJDNHdXck5MaVVFZk4xME9HRlNhTFBEb0ZGaEZjcmlDY1BncFRETzJkVmhTRmNLWWh0YUp6OWhweWNsWDRpNG1CNmswTmFQaHh3VjVZWS0yRjZwNEdBZXBxTWd5MHJzZEZxOG1BS1ZReFM0dDBVMUR4SkNMMUttT3c?oc=5",
+        "source": "standaard",
         "name_only": true
       },
       {
         "title": "Steeds meer Republikeinen keren zich af van Trump: ‘Zelfs rode staten zijn niet veilig tijdens de midterms’",
         "url": "https://www.demorgen.be/nieuws/steeds-meer-republikeinen-keren-zich-af-van-trump-zelfs-rode-staten-zijn-niet-veilig-tijdens-de-midterms~b394ea8d/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Texaanse kandidaat-senator erkent achter gesloten deuren dat Trump blok aan been van Republikeinen is • Hegseth bevestigt: een op vijf generaals en admiraals moet weg",
+        "url": "https://www.demorgen.be/snelnieuws/live-pentagon-wil-opnieuw-snoeien-in-amerikaanse-legertop-vs-verzwaren-sancties-tegen-cuba~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Coup de théâtre pour Donald Trump : l’enquête sur Jerome Powell ne trouve aucun motif de poursuites",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/30/coup-de-theatre-pour-donald-trump-lenquete-sur-jerome-powell-ne-trouve-aucun-motif-de-poursuites-FWK2I3G3MJA4RLN4NTOXBNMHMI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump qualifie le retrait d'Irak de \"victoire\" pour les États-Unis",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/09/30/donald-trump-qualifie-le-retrait-dirak-de-victoire-pour-les-etats-unis-HMULZAKV4NGAZEOQY4EVFSWVXQ/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -104717,15 +104753,33 @@
         "name_only": true
       },
       {
+        "title": "Les géants américains de la tech signent un code de bonne conduite pour l'IA à la Maison-Blanche : ce que l'on sait sur cette \"charte\"",
+        "url": "https://www.dhnet.be/actu/new-tech/2026/09/30/les-geants-americains-de-la-tech-signent-un-code-de-bonne-conduite-pour-lia-a-la-maison-blanche-ce-que-lon-sait-sur-cette-charte-D6IUTQLJ4FAXHIIGNJOT7BWLX4/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
         "title": "Accord historique sur l'IA signé entre Trump et les géants technologiques ce mardi : \"Ce sont les personnes les plus importantes de la planète\"",
         "url": "https://www.dhnet.be/actu/monde/2026/09/30/accord-historique-sur-lia-signe-entre-trump-et-les-geants-technologiques-ce-mardi-ce-sont-les-personnes-les-plus-importantes-de-la-planete-ZZMHMDMOJNGGBMRRFGP4ZV5XZM/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Trump laat AI-bedrijven zichzelf controleren met ‘moreel bindend’ akkoord - De Tijd",
+        "title": "“Il devrait démissionner immédiatement”: Trump relance ses attaques contre l’ex-patron de la Fed",
+        "url": "https://www.7sur7.be/monde/il-devrait-demissionner-immediatement-trump-relance-ses-attaques-contre-lex-patron-de-la-fed~aef648ad/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump laat AI-bedrijven zichzelf controleren met ‘moreel bindend’ akkoord - tijd.be",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM2JYSkp1YUxIQ1hnaGZmSHV4T2ZoRXJOb2ZhZzhmVHNFMFJjdnc1STdsQUk5UFczQVd3NEJjYlY2NWJiU2pYalJ4dFJGS2s5Tjh2cGNsT05zdTFjdV84Tm5iQVRldldhQ0R4X2wyZm1XYjJBSDFFaHB1RU5aS1pjcWQtcFVVNE1id3VXbzdtX0w4ZlAtdWNoaFhuUDhSSkJKd09WcDFCdE5jRk51X05iR0N2QThFYmhkQlQyUGxyOV9pMW8waEgyVnRrZ0N3TVFtWXlBUThqdno?oc=5",
         "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Comment Trump a scellé l’avenir de l’IA sur un carton de bière - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa1ViYnNLdmJMQm5lQ2EwYk5kcVRNNGdPQjdyeG5tYkNodnpYUjAwdWduMWlNUUF0NVdDdXFwLVp4d2V0cXpjTEpFUHVaTkxJejVZY3NHUkdzNENvaWdla1RlcVdFNk5wZDJHYWNINVBLQnBJSkV4bWlsWjJwSkpPcEUydDVIS0hJNVhVWldRNndtcDF0ZzNwSEZkOHYzU3h0dGxCakhLMU9vQQ?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       },
       {
@@ -104748,74 +104802,74 @@
       }
     ],
     "comparisons": {
-      "trump": 13,
+      "trump": 17,
       "putin": 1,
       "macron": 4,
       "netanyahu": 5,
       "zelensky": 0,
       "rutte": 1,
       "von_der_leyen": 0,
-      "de_wever": 0,
+      "de_wever": 2,
       "bouchez": 0,
-      "magnette": 1,
+      "magnette": 2,
       "prevot": 0,
       "rousseau": 1,
-      "francken": 4,
-      "crevits": 1,
+      "francken": 3,
+      "crevits": 0,
       "jambon": 0,
       "van_peteghem": 1,
       "verlinden": 1
     },
     "wide_comparisons": {
-      "trump": 23,
+      "trump": 26,
       "putin": 3,
-      "macron": 5,
+      "macron": 7,
       "netanyahu": 6,
       "zelensky": 0,
       "rutte": 2,
       "von_der_leyen": 0,
-      "de_wever": 0,
+      "de_wever": 3,
       "bouchez": 0,
-      "magnette": 1,
+      "magnette": 2,
       "prevot": 0,
       "rousseau": 1,
-      "francken": 6,
-      "crevits": 1,
+      "francken": 5,
+      "crevits": 0,
       "jambon": 0,
       "van_peteghem": 1,
       "verlinden": 3
     },
     "themes": {
-      "war": 36,
-      "crime": 37,
-      "eu": 37,
-      "politics": 63,
-      "be_gov": 47,
-      "culture": 24,
-      "tech": 17,
-      "economy": 39,
-      "sports": 36,
-      "health": 13,
-      "climate": 8,
-      "migration": 8,
-      "education": 14,
-      "weather": 9
+      "war": 39,
+      "crime": 35,
+      "eu": 44,
+      "politics": 71,
+      "be_gov": 56,
+      "culture": 26,
+      "tech": 20,
+      "economy": 47,
+      "sports": 54,
+      "health": 16,
+      "climate": 15,
+      "migration": 11,
+      "education": 13,
+      "weather": 14
     },
     "wide_themes": {
-      "war": 44,
-      "crime": 56,
-      "eu": 55,
-      "politics": 79,
-      "be_gov": 61,
-      "culture": 30,
-      "tech": 33,
-      "economy": 53,
-      "sports": 63,
-      "health": 13,
-      "climate": 9,
-      "migration": 10,
-      "education": 16,
-      "weather": 15
+      "war": 48,
+      "crime": 46,
+      "eu": 70,
+      "politics": 91,
+      "be_gov": 74,
+      "culture": 35,
+      "tech": 38,
+      "economy": 61,
+      "sports": 90,
+      "health": 18,
+      "climate": 17,
+      "migration": 13,
+      "education": 14,
+      "weather": 20
     }
   }
 ]
