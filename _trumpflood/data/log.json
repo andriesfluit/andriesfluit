@@ -104203,155 +104203,155 @@
   },
   {
     "date": "2026-09-30",
-    "generated_at": "2026-09-30T11:58:55+02:00",
-    "last_checked_at": "2026-09-30T11:58:55+02:00",
-    "total_articles": 529,
-    "trump_articles": 6,
-    "percentage": 1.1,
-    "core_percentage": 1.1,
-    "core_percentage_name": 1.1,
-    "trump_articles_expanded": 6,
-    "core_percentage_expanded": 1.1,
+    "generated_at": "2026-09-30T18:29:57+02:00",
+    "last_checked_at": "2026-09-30T18:29:57+02:00",
+    "total_articles": 776,
+    "trump_articles": 13,
+    "percentage": 1.7,
+    "core_percentage": 1.7,
+    "core_percentage_name": 1.7,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 1.7,
     "indirect_references": 0,
-    "wide_total_articles": 747,
-    "wide_trump_articles": 11,
-    "wide_percentage": 1.5,
-    "wide_trump_articles_expanded": 11,
-    "wide_percentage_expanded": 1.5,
-    "macro_percentage": 1.9,
-    "qualifying_outlets": 27,
+    "wide_total_articles": 1106,
+    "wide_trump_articles": 23,
+    "wide_percentage": 2.1,
+    "wide_trump_articles_expanded": 23,
+    "wide_percentage_expanded": 2.1,
+    "macro_percentage": 2.6,
+    "qualifying_outlets": 32,
     "core_outlets_total": 19,
-    "core_outlets_active": 18,
-    "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 27,
-    "cross_outlet_dup_groups": 13,
-    "cross_outlet_dup_rate": 5.1,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Below a normal president's ordinary day.",
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 34,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 4.4,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.86,
-    "breadth": 0.28,
-    "deviation": 0.35,
-    "smoothed_pct": 3.01,
+    "dominance": 0.65,
+    "breadth": 0.47,
+    "deviation": 0.55,
+    "smoothed_pct": 3.1,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 14,
+    "theme_rank": 11,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 27,
-        "kept": 27,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.7
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 20,
-        "kept": 20,
+        "today": 26,
+        "kept": 26,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 5.0
+        "share": 3.85
       },
       "google_nl_politics": {
-        "fetched": 34,
-        "today": 7,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_world": {
-        "fetched": 70,
-        "today": 17,
-        "kept": 14,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_business": {
-        "fetched": 70,
-        "today": 30,
-        "kept": 25,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_tech": {
-        "fetched": 52,
-        "today": 16,
-        "kept": 10,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 10.0
-      },
-      "google_nl_sport": {
-        "fetched": 70,
-        "today": 16,
+        "fetched": 33,
+        "today": 12,
         "kept": 12,
         "trump": 1,
         "trump_expanded": 1,
         "share": 8.33
       },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 27,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 43,
+        "kept": 40,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.5
+      },
+      "google_nl_tech": {
+        "fetched": 53,
+        "today": 27,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 30,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
       "google_fr_politics": {
-        "fetched": 24,
-        "today": 6,
-        "kept": 6,
+        "fetched": 28,
+        "today": 10,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 11,
-        "kept": 8,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 24,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 14,
-        "kept": 11,
+        "today": 26,
+        "kept": 23,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 9.09
+        "share": 4.35
       },
       "vrt": {
         "fetched": 50,
-        "today": 41,
-        "kept": 41,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 45,
+        "kept": 45,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.22
       },
       "standaard": {
         "fetched": 100,
-        "today": 55,
-        "kept": 46,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.17
+        "today": 76,
+        "kept": 64,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "demorgen": {
-        "fetched": 29,
-        "today": 20,
-        "kept": 20,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 5.0
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -104379,29 +104379,13 @@
       },
       "knack": {
         "fetched": 100,
-        "today": 17,
-        "kept": 17,
+        "today": 35,
+        "kept": 34,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
-        "fetched": 20,
-        "today": 10,
-        "kept": 10,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "bruzz": {
-        "fetched": 100,
-        "today": 9,
-        "kept": 9,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "rtbf": {
         "fetched": 20,
         "today": 15,
         "kept": 15,
@@ -104409,29 +104393,45 @@
         "trump_expanded": 0,
         "share": 0.0
       },
-      "lalibre": {
+      "bruzz": {
         "fetched": 100,
-        "today": 42,
-        "kept": 42,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 4.76
-      },
-      "lecho": {
-        "fetched": 100,
-        "today": 34,
-        "kept": 33,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.03
-      },
-      "dhnet": {
-        "fetched": 100,
-        "today": 74,
-        "kept": 74,
+        "today": 28,
+        "kept": 28,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 72,
+        "kept": 72,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 4.17
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 61,
+        "kept": 60,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.33
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 97,
+        "kept": 97,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.03
       },
       "septsursept": {
         "fetched": 30,
@@ -104451,59 +104451,59 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 18,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 39,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 12,
-        "kept": 10,
+        "today": 37,
+        "kept": 31,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 6,
-        "kept": 4,
+        "today": 27,
+        "kept": 25,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 16,
-        "kept": 16,
+        "today": 39,
+        "kept": 38,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 19,
-        "kept": 19,
+        "today": 35,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 93,
-        "today": 11,
-        "kept": 9,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 11.11
+        "fetched": 100,
+        "today": 26,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
       },
       "tendances_g": {
-        "fetched": 78,
-        "today": 11,
-        "kept": 11,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 90,
+        "today": 25,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
       }
     },
     "core_sources": [
@@ -104529,15 +104529,27 @@
     ],
     "matches": [
       {
-        "title": "Wie ontwart de AI-veiligheidsknoop? Niet Washington, vertelt Trump aan tech-ceo’s - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT1J2OXJSOGxGcmJlaG9CVlFTdmdaaEYxZ18tQnZ1NE9lMllXTDJYSkdsME9vcHB1WWh5NzBJT1c0WjBYRGp3OTliQWNvV09PTmM4ZUY2dDJNQXJVWkhDOGdmY2cwbWhhdEltR0tMRi1iRERoWS1pQ2tLU3d1azFBbU5wTFVnaGxxa3daTHN1TUsySTBGeXRBTkc3dDdiQl9qdmxFUkxSQ2JBbVlOTWRoVlRLZ1o0Tzk1dDJNTm90ZFB2OS1DUXVpZg?oc=5",
-        "source": "standaard",
+        "title": "Gent is razend over besparingen: \"Alle inspanningen tenietgedaan door toxische combinatie van Trump en Diependaele\"",
+        "url": "https://vrtnws.be/p.dLy7ROLOV",
+        "source": "vrt",
         "name_only": true
       },
       {
-        "title": "AI-topmannen sluiten vaag ‘moreel bindend’ akkoord met Trump dat controles toelaat, maar ‘zelfregulering’ lijkt kernwoord",
-        "url": "https://www.demorgen.be/tech-ai/ai-topmannen-sluiten-vaag-moreel-bindend-akkoord-met-trump-dat-controles-toelaat-maar-zelfregulering-lijkt-kernwoord~bb6d098c/",
+        "title": "“President of the Unites States”: typfout in nieuw AI-akkoord van Trump",
+        "url": "https://www.hln.be/buitenland/president-of-the-unites-states-typfout-in-nieuw-ai-akkoord-van-trump~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Steeds meer Republikeinen keren zich af van Trump: ‘Zelfs rode staten zijn niet veilig tijdens de midterms’",
+        "url": "https://www.demorgen.be/nieuws/steeds-meer-republikeinen-keren-zich-af-van-trump-zelfs-rode-staten-zijn-niet-veilig-tijdens-de-midterms~b394ea8d/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "La dernière sortie de Donald Trump interpelle : “Ce gars est un monstre et personne ne le sait”",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/30/la-derniere-sortie-de-donald-trump-interpelle-ce-gars-est-un-monstre-et-personne-ne-le-sait-CPX4QGDB6JFWBEQHDJCLAF5UX4/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -104553,34 +104565,82 @@
         "name_only": true
       },
       {
+        "title": "Trump confie aux géants de l’IA le soin de se surveiller eux-mêmes - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNV2w3OVhOR2ZObUR0Mkc0RUowOFhidUZCU0hNT0ZqYzZQSzJYNldTRDc1bHJXbS1rSktPbHY4OFVWNzZ3QXZrdHcyazYwaU1BVkNkNzZ2UDZjS1dyYlRKN2l1bFVwZV9nUGFKV2JwSVl1b21wc2pXUGticEdsSlNhMThCLXhUZVVtXzdQRTZiYWFNWFJJOEhOaG5NMzJ2MVZneGVDcTFJWGxTenVtalo1eGUwSTdnLVRYcTJfR25jZ0hUMEVJ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
         "title": "Donald Trump accueille les géants de l'IA à la Maison-Blanche et présente \"un accord contraignant sur le plan moral\" - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQczBDVjBxd2pVZFFzVVRKQnJydWR3WTdsbHN6cThEWUZaejlfTEI4ZUFVV1plSmw5Mi1KaXhvMjFVcUhuNGV3VkQ0YUxqV0RtSm9TaUFJU0pmUU5iVlpqa1FkeDRZd1Joc2loYlpGNzlNUnRpZVczdmVOSVpyMi16WE5jR25USjhpd1lzT28xR01rdGV4UUhGeXJMcHhYcUdwXzdwOGR3Y2NaYjJYUXdqNTdoYnlOMzA4VzA5Z1dIX1FUekVuS3pNNkNDYVdoZXdkV0xaamZ1cmRLeFp2QWNmTmFSSk5qaUdyNmlUeU5lSUFBcWtXT0dQMDlyLWwxS1pfRWwxTw?oc=5",
         "source": "lecho",
         "name_only": true
       },
       {
-        "title": "Trump laat AI-sector zichzelf controleren: een “grondwet” zonder wettelijke tanden - Trends.be",
+        "title": "Accord historique sur l'IA signé entre Trump et les géants technologiques ce mardi : \"Ce sont les personnes les plus importantes de la planète\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/30/accord-historique-sur-lia-signe-entre-trump-et-les-geants-technologiques-ce-mardi-ce-sont-les-personnes-les-plus-importantes-de-la-planete-ZZMHMDMOJNGGBMRRFGP4ZV5XZM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump laat AI-bedrijven zichzelf controleren met ‘moreel bindend’ akkoord - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM2JYSkp1YUxIQ1hnaGZmSHV4T2ZoRXJOb2ZhZzhmVHNFMFJjdnc1STdsQUk5UFczQVd3NEJjYlY2NWJiU2pYalJ4dFJGS2s5Tjh2cGNsT05zdTFjdV84Tm5iQVRldldhQ0R4X2wyZm1XYjJBSDFFaHB1RU5aS1pjcWQtcFVVNE1id3VXbzdtX0w4ZlAtdWNoaFhuUDhSSkJKd09WcDFCdE5jRk51X05iR0N2QThFYmhkQlQyUGxyOV9pMW8waEgyVnRrZ0N3TVFtWXlBUThqdno?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Van het twintigtal AI-leiders rond de tafel van Trump was er één vrouw - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbDlOWjljNmxVX3RQWlVicG9LTTV4eHE5SjVrS2NjNlNSaVRJOXQzM0pDLWhabTRHaTdlZVMzUFcwY3hndVhwWGwwa2FLVjVNWG1pQmJVdDBaRkFCeVNnSWFDTHhvNDE5V3dNM2trb0diZWEyLTRzbVhiSG83dFVGVmZUVFlIQnJsMmZrTWEtNFpPLUljZ001OG0wMlRrbXZDdzJmTA?oc=5",
+        "source": "trends_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump laat AI-sector zichzelf controleren: een ‘grondwet’ zonder wettelijke tanden - Trends.be",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbHpsczlzSldEdFYzbmxoaHp3bDRjS1hKRnEzaGl4UDVrTnpNRnl0a0FTNml4UGpZQTlqR2hPbDR4aXFEYmJMSktNbmZPUWZoQ2xmb05iX2xyajlZNW4xdjNwckFpMUpoWkpnX2o2aHR4RGpKa194bmpDSXZQOWIxX1hqTnF4bHMtdjZEaE40Mm95X0NNSHdreno1MXB5aXZWUlhTY1JZTXB2eWM1UnBDbnhpcU9ZQjBXdkYxYlozc0lUV3VO?oc=5",
         "source": "trends_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump va permettre au secteur de l’IA de s’autocontrôler: une sorte de ‘constitution’ sans astreinte légale - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOU3RxS01Jd1ZnOGFUZG5oYzZjRmJ2dWRFSTBKS2pTR0FnSGJrMFEyWndiN2ljRDVEYVNSZy1xeV9aY0h1QUhuNldaaHg3b01VVVZYeDdmXzB5ZmxnSUIwblByUUhJeVpYN3Nxb1JaaGJCRlZ3TWJRbmwxOFlVT2h6WnFaejZfVXZOWlBNV1NwMW9ISFBGQ014SGE0TzB0bjFCTHAyOEl0SjZvNTVHQkdxV2NRMGs5QVZjT0dvRVJFMnh1aV9pcjNFV2NEV1hsT2FDbGV2UnVMMXZjNFFV?oc=5",
+        "source": "tendances_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Wie ontwart de AI-veiligheidsknoop? “Geweldige zelfregulering” volstaat, vertelt Trump aan tech-ceo’s - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNamlZT2ZrWWVwQXJkZUlfLTBfVTdqTjVHZXFZQjlGdWNTZllHZlVMVWJVc2lpa2Z0cDNFUUxmMWI4LWVqMU9uN0tiYjlkWFJ1ZUpvN195cElyM2ljR0tGZDVRcWxmTzM2ODFoVDNnUzI4M0xUZTdjajl5VDE3a0MwT3JySzAzWXJXbzRWYktvNXBGdDZGczh1M0RZODVqeDlDYjFPak5aYm82V2tXeGNXbk5kMzI1OTlCNkNhRE1BcVgzcTE1N05uRm5FeTROX1MzRHdrQ1hZR2RYd3NoRlBtTg?oc=5",
-        "source": "google_nl",
-        "name_only": true
-      },
-      {
-        "title": "« Comme une Constitution » : les patrons des géants de l’IA promettent de s’auto-réguler devant Trump - Le Soir",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMzdSa0dQaFFhWURBSW5hdEFYMDZfdkFackswV1NLUWNpNThPeTUwQ2puZVlhOHhTWlBLT1hiRXZBYVg5eFp4dzYxMnpVSEJHZHVZeEtDWHBfX3dscEFxcG8wQjRSaHUtdTVpZ1RtZk5oTXNtS2c4aWNseW5pVWphV1VxUHN6TDd3dEFzYWtRWXo2QjZPMzJ1c2lMd284dkF6aUxFZ1VrV19mQi1OQWJkNzZTLURFVnA5eGlNUFFqdEtQNjVjaWUw?oc=5",
+        "title": "La dernière sortie de Donald Trump interpelle : \"Ce gars est un monstre et personne ne le sait\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZG5tTTc1YVpJVGhPU0FBUE1JY3hobzNldWlsckxKeE1XQ3JUVFJwNEtpajdXRDh5aWdFaVJySTlRQkZJbHMzOG9neUYzazV6Z1AyTGVtdGoxek9pNHhhZVlPYm4zRmtXSnZST0VaLTNNQmR2UjNnRHNfYkpLZXdkRVRKT1pRWHJuVHhMSEl0UFQ4VjRCekRuM1lncjFIRm9jX1pfR2o5cEpTSk1JOUZncUNfeHlvVEl1M042c2lWWU5KVVJIUEJzR2hyQnRxRlYzeG54M0hKaEtmMnktUG42R3BZYlBvQi1YNUpEcWtaamxub0FqeXh5aWFPQ0lZM003VUFyTTRJbw?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "LIVE Trump tekent akkoord met belangrijkste bedrijfsleiders uit AI-sector: \"Veiligheid kan botsen met winst\" - VRT",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUlhoZXhYY3BYMWl3OTBXbXMxajEzOUhzQTk3Szg4Y1F6NEhUa3lkR3dhNk56THp6YktXN255dXdtemxDQzhuVzA3M2JPOUthNWdPRXdGZUpNWWlFbTVRWExpNkxFVkZUbTFQQ1EzQThneUltLURaT0pDa0Y2SXM1b1lnX19xU3RyUGY3akhvekJqaVM2NWdaY1Jjcjg5STV1alUzY3pjSHVVeGcxYWRHQ0NGR1RPT0E?oc=5",
+        "title": "Gent is razend over besparingen: \"Alle inspanningen tenietgedaan door toxische combinatie van Trump en Diependaele\" - VRT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZktBX2Q4WWczNnlPZGUxVFRubXRaczhHV0o2ZEMwSk5KdFQ0SXJzZlM4NWthdTFzNkM1VS1BdElZM2VscE93UGd5YzNNSTI5blFnS2Fra2Z5VVNHaUlNbE80T0hiQlBoQmVQSjJ1alJBT3lxanVmclBTdzJHTGFIRGNoT1pEV0ctQmZfX1VCbGMwNU54c09DQkZ0UDNCS3NUcUhGSlNxcjQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Wie ontwart de AI-veiligheidsknoop? Niet Washington, vertelt Trump aan tech-ceo’s - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT1J2OXJSOGxGcmJlaG9CVlFTdmdaaEYxZ18tQnZ1NE9lMllXTDJYSkdsME9vcHB1WWh5NzBJT1c0WjBYRGp3OTliQWNvV09PTmM4ZUY2dDJNQXJVWkhDOGdmY2cwbWhhdEltR0tMRi1iRERoWS1pQ2tLU3d1azFBbU5wTFVnaGxxa3daTHN1TUsySTBGeXRBTkc3dDdiQl9qdmxFUkxSQ2JBbVlOTWRoVlRLZ1o0Tzk1dDJNTm90ZFB2OS1DUXVpZg?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Steeds meer Republikeinen keren zich af van Trump: ‘Zelfs rode staten zijn niet veilig tijdens de midterms’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQekdWMG9rOG1LYlBFR0RlUnIxOEwyeXdFY0hCZnEtQzQtNTZ0Y2JkdUFrX2FpX0RHemJrUGJhQ0dqNDNqSTJwTU5MaTk0LVJwZVlsdUV2bEpxZEh0bFlzOEZncWEzT2c2b0VSSXFQcWp3cU1ab1Y4ZFNuSEFvb2c1Sk1ycC1pMjIzbnhFWDVFdmluN2YwNjNjbEtEQVAxLU94RjUtcnlPNkM4VW1yZHp5UUZKVUZoc2Y5VnJRSWpEMWpXRUNBOGt2MEU1UUE5Tm96V18wOWdOQTB3VUpPYUE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Wie ontwart de AI-veiligheidsknoop? “Geweldige zelfregulering” volstaat, vertelt Trump aan tech-ceo’s - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNamlZT2ZrWWVwQXJkZUlfLTBfVTdqTjVHZXFZQjlGdWNTZllHZlVMVWJVc2lpa2Z0cDNFUUxmMWI4LWVqMU9uN0tiYjlkWFJ1ZUpvN195cElyM2ljR0tGZDVRcWxmTzM2ODFoVDNnUzI4M0xUZTdjajl5VDE3a0MwT3JySzAzWXJXbzRWYktvNXBGdDZGczh1M0RZODVqeDlDYjFPak5aYm82V2tXeGNXbk5kMzI1OTlCNkNhRE1BcVgzcTE1N05uRm5FeTROX1MzRHdrQ1hZR2RYd3NoRlBtTg?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "LIVE Trump ondertekent akkoord met belangrijkste bedrijfsleiders uit AI-sector - VRT",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaHB1NmlHaDVNakhRNV9adnVQWFNCcHRsY3E4cmwzV3lxdFNUNEdTdFZ6RWltOUJReWNyeHFqcGdqNEhIMGpmRE5zX0VsU044NzRxWExtaDIxTXk5TVQ4bkZFaU5HTUNPMDA3enVmaVRRWmVZM2g1S2ZPaFdBVGwydlF3djlJcndvdXF5QXZxUXJVbmU5ZWkyYlNvR21SZm96M0ktLWFwaFJwUDA0NzFZajUwY0ZzaUFl?oc=5",
         "source": "google_nl_tech",
         "name_only": true
       },
@@ -104591,21 +104651,45 @@
         "name_only": true
       },
       {
-        "title": "Après le Qatar, Lufthansa \"à la rescousse\" de Trump : pourquoi les avions d'Air Force One sont-ils déjà vieux avant même leur livraison - lalibre.be",
+        "title": "Aux Etats-Unis, les sondages pointent à l’unisson l’impopularité de Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXdHaEVnNG5uWnliQ1BJQ0d6QXFrTFlqUUpOQlBSSGdDTzd1bXk2YzZCaUtBQW5ST21aeXJ4YkpMTDJ0TkZoS0hXR3ZIcGlHSXhYbE5YSnFOaHN5aTlwc2RLTHZITjVLMEVPWmlUX2pnRUwtc090ME9meFg1OHJTNWl6ZTFYQndla0w2LV9FbW83Q1dNS0dtSGZubWxBdEZ0TWROX0s0ckhUQ3hrUFB5Q09OeDlkTk5JNm9fdUVzbHU?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi Kim Jong-un peut garder la bombe atomique ? La réponse très personnelle de Donald Trump - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcGtEYUp0bE9scUwtT3ZmdVFJWUFBZzRiaFJqNk4wa1BSSUdVOEczblFVUUJNLTU0SF9TNEZ6Wi1IcERINVl5ZHY3Q3dZMU1sTmp0ZUNNcC1TcTFUa3JmSzBOWVdNZlZTa1l3SWlERXdVVVVxbWZVamMybkYtS0p0Y0JMSUJNWFlEeUEzWEh1V2MxZkpjSG8xaVpGdkg4OG9GcWttbW5qVnpmSkFzZHJwYWtMRFlCQ19XbFpRN2cwNXo2ZjlERnpfQnlsNng0TWJ2aHQ2eFdJUl9IcnlqU0xyTWlLVW4?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Après le Qatar, Lufthansa \"à la rescousse\" de Trump : pourquoi les avions d'Air Force One sont-ils déjà vieux avant même leur livraison - La Libre.be",
         "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOajlHT3pPa1VkNE84WXktWnZUVXlwbTJrVWsxUzJkdDNiQVA2WjZZV0Z6OWgwUDJEekRXNEN4YXlJLVltX0YwSTZxbEV6NDZDQkQ1ZTU5TUdLYjVUcEphc2hCblpPWC0zWEx5QV9FM2xqazlOcFo3MjdVMHd3WEdSdVVtTXdSRTNSNXR2M1pUQ2dua0R6TTdGbHJkeWhCblRRRXlDQnM1S2QzSTU3OVZCQm9Mam1fMC1sNVlKUzFfVGRVNHk4eTZPWlhoQUFiVFJLVVdXOUk0Qy1fY0tIcWU0cVdwcERfMk1aXzZaRnVvOEVFVm1aMHpPN0FOODhxeFQwd0NTdTA3ZHowN0NHNGFCWnFzUF9PTUs4ckdNM05Edmw0UnBUQnZhOXk1STFEaHlNb2Z2bF82emZJbU5zNmZTcm1n?oc=5",
         "source": "google_fr_business",
         "name_only": true
       },
       {
-        "title": "Wie ontwart de AI-veiligheidsknoop? Niet Washington, vertelt Trump aan tech-ceo’s - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT1J2OXJSOGxGcmJlaG9CVlFTdmdaaEYxZ18tQnZ1NE9lMllXTDJYSkdsME9vcHB1WWh5NzBJT1c0WjBYRGp3OTliQWNvV09PTmM4ZUY2dDJNQXJVWkhDOGdmY2cwbWhhdEltR0tMRi1iRERoWS1pQ2tLU3d1azFBbU5wTFVnaGxxa3daTHN1TUsySTBGeXRBTkc3dDdiQl9qdmxFUkxSQ2JBbVlOTWRoVlRLZ1o0Tzk1dDJNTm90ZFB2OS1DUXVpZg?oc=5",
-        "source": "standaard",
+        "title": "Gent is razend over besparingen: \"Alle inspanningen tenietgedaan door toxische combinatie van Trump en Diependaele\"",
+        "url": "https://vrtnws.be/p.dLy7ROLOV",
+        "source": "vrt",
         "name_only": true
       },
       {
-        "title": "AI-topmannen sluiten vaag ‘moreel bindend’ akkoord met Trump dat controles toelaat, maar ‘zelfregulering’ lijkt kernwoord",
-        "url": "https://www.demorgen.be/tech-ai/ai-topmannen-sluiten-vaag-moreel-bindend-akkoord-met-trump-dat-controles-toelaat-maar-zelfregulering-lijkt-kernwoord~bb6d098c/",
+        "title": "“President of the Unites States”: typfout in nieuw AI-akkoord van Trump",
+        "url": "https://www.hln.be/buitenland/president-of-the-unites-states-typfout-in-nieuw-ai-akkoord-van-trump~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Steeds meer Republikeinen keren zich af van Trump: ‘Zelfs rode staten zijn niet veilig tijdens de midterms’",
+        "url": "https://www.demorgen.be/nieuws/steeds-meer-republikeinen-keren-zich-af-van-trump-zelfs-rode-staten-zijn-niet-veilig-tijdens-de-midterms~b394ea8d/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "La dernière sortie de Donald Trump interpelle : “Ce gars est un monstre et personne ne le sait”",
+        "url": "https://www.lalibre.be/international/amerique/2026/09/30/la-derniere-sortie-de-donald-trump-interpelle-ce-gars-est-un-monstre-et-personne-ne-le-sait-CPX4QGDB6JFWBEQHDJCLAF5UX4/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -104621,87 +104705,117 @@
         "name_only": true
       },
       {
+        "title": "Trump confie aux géants de l’IA le soin de se surveiller eux-mêmes - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNV2w3OVhOR2ZObUR0Mkc0RUowOFhidUZCU0hNT0ZqYzZQSzJYNldTRDc1bHJXbS1rSktPbHY4OFVWNzZ3QXZrdHcyazYwaU1BVkNkNzZ2UDZjS1dyYlRKN2l1bFVwZV9nUGFKV2JwSVl1b21wc2pXUGticEdsSlNhMThCLXhUZVVtXzdQRTZiYWFNWFJJOEhOaG5NMzJ2MVZneGVDcTFJWGxTenVtalo1eGUwSTdnLVRYcTJfR25jZ0hUMEVJ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
         "title": "Donald Trump accueille les géants de l'IA à la Maison-Blanche et présente \"un accord contraignant sur le plan moral\" - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQczBDVjBxd2pVZFFzVVRKQnJydWR3WTdsbHN6cThEWUZaejlfTEI4ZUFVV1plSmw5Mi1KaXhvMjFVcUhuNGV3VkQ0YUxqV0RtSm9TaUFJU0pmUU5iVlpqa1FkeDRZd1Joc2loYlpGNzlNUnRpZVczdmVOSVpyMi16WE5jR25USjhpd1lzT28xR01rdGV4UUhGeXJMcHhYcUdwXzdwOGR3Y2NaYjJYUXdqNTdoYnlOMzA4VzA5Z1dIX1FUekVuS3pNNkNDYVdoZXdkV0xaamZ1cmRLeFp2QWNmTmFSSk5qaUdyNmlUeU5lSUFBcWtXT0dQMDlyLWwxS1pfRWwxTw?oc=5",
         "source": "lecho",
         "name_only": true
       },
       {
-        "title": "Trump laat AI-sector zichzelf controleren: een “grondwet” zonder wettelijke tanden - Trends.be",
+        "title": "Accord historique sur l'IA signé entre Trump et les géants technologiques ce mardi : \"Ce sont les personnes les plus importantes de la planète\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/09/30/accord-historique-sur-lia-signe-entre-trump-et-les-geants-technologiques-ce-mardi-ce-sont-les-personnes-les-plus-importantes-de-la-planete-ZZMHMDMOJNGGBMRRFGP4ZV5XZM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump laat AI-bedrijven zichzelf controleren met ‘moreel bindend’ akkoord - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM2JYSkp1YUxIQ1hnaGZmSHV4T2ZoRXJOb2ZhZzhmVHNFMFJjdnc1STdsQUk5UFczQVd3NEJjYlY2NWJiU2pYalJ4dFJGS2s5Tjh2cGNsT05zdTFjdV84Tm5iQVRldldhQ0R4X2wyZm1XYjJBSDFFaHB1RU5aS1pjcWQtcFVVNE1id3VXbzdtX0w4ZlAtdWNoaFhuUDhSSkJKd09WcDFCdE5jRk51X05iR0N2QThFYmhkQlQyUGxyOV9pMW8waEgyVnRrZ0N3TVFtWXlBUThqdno?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Van het twintigtal AI-leiders rond de tafel van Trump was er één vrouw - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbDlOWjljNmxVX3RQWlVicG9LTTV4eHE5SjVrS2NjNlNSaVRJOXQzM0pDLWhabTRHaTdlZVMzUFcwY3hndVhwWGwwa2FLVjVNWG1pQmJVdDBaRkFCeVNnSWFDTHhvNDE5V3dNM2trb0diZWEyLTRzbVhiSG83dFVGVmZUVFlIQnJsMmZrTWEtNFpPLUljZ001OG0wMlRrbXZDdzJmTA?oc=5",
+        "source": "trends_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump laat AI-sector zichzelf controleren: een ‘grondwet’ zonder wettelijke tanden - Trends.be",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbHpsczlzSldEdFYzbmxoaHp3bDRjS1hKRnEzaGl4UDVrTnpNRnl0a0FTNml4UGpZQTlqR2hPbDR4aXFEYmJMSktNbmZPUWZoQ2xmb05iX2xyajlZNW4xdjNwckFpMUpoWkpnX2o2aHR4RGpKa194bmpDSXZQOWIxX1hqTnF4bHMtdjZEaE40Mm95X0NNSHdreno1MXB5aXZWUlhTY1JZTXB2eWM1UnBDbnhpcU9ZQjBXdkYxYlozc0lUV3VO?oc=5",
         "source": "trends_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump va permettre au secteur de l’IA de s’autocontrôler: une sorte de ‘constitution’ sans astreinte légale - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOU3RxS01Jd1ZnOGFUZG5oYzZjRmJ2dWRFSTBKS2pTR0FnSGJrMFEyWndiN2ljRDVEYVNSZy1xeV9aY0h1QUhuNldaaHg3b01VVVZYeDdmXzB5ZmxnSUIwblByUUhJeVpYN3Nxb1JaaGJCRlZ3TWJRbmwxOFlVT2h6WnFaejZfVXZOWlBNV1NwMW9ISFBGQ014SGE0TzB0bjFCTHAyOEl0SjZvNTVHQkdxV2NRMGs5QVZjT0dvRVJFMnh1aV9pcjNFV2NEV1hsT2FDbGV2UnVMMXZjNFFV?oc=5",
+        "source": "tendances_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 6,
+      "trump": 13,
       "putin": 1,
-      "macron": 0,
-      "netanyahu": 1,
+      "macron": 4,
+      "netanyahu": 5,
       "zelensky": 0,
-      "rutte": 0,
+      "rutte": 1,
       "von_der_leyen": 0,
       "de_wever": 0,
       "bouchez": 0,
       "magnette": 1,
       "prevot": 0,
       "rousseau": 1,
-      "francken": 2,
-      "crevits": 0,
+      "francken": 4,
+      "crevits": 1,
       "jambon": 0,
-      "van_peteghem": 0,
+      "van_peteghem": 1,
       "verlinden": 1
     },
     "wide_comparisons": {
-      "trump": 11,
-      "putin": 1,
-      "macron": 1,
-      "netanyahu": 1,
+      "trump": 23,
+      "putin": 3,
+      "macron": 5,
+      "netanyahu": 6,
       "zelensky": 0,
-      "rutte": 0,
+      "rutte": 2,
       "von_der_leyen": 0,
       "de_wever": 0,
       "bouchez": 0,
       "magnette": 1,
       "prevot": 0,
       "rousseau": 1,
-      "francken": 3,
-      "crevits": 0,
+      "francken": 6,
+      "crevits": 1,
       "jambon": 0,
-      "van_peteghem": 0,
+      "van_peteghem": 1,
       "verlinden": 3
     },
     "themes": {
-      "war": 21,
-      "crime": 26,
-      "eu": 21,
-      "politics": 22,
-      "be_gov": 26,
-      "culture": 19,
+      "war": 36,
+      "crime": 37,
+      "eu": 37,
+      "politics": 63,
+      "be_gov": 47,
+      "culture": 24,
       "tech": 17,
-      "economy": 19,
-      "sports": 26,
-      "health": 12,
-      "climate": 7,
+      "economy": 39,
+      "sports": 36,
+      "health": 13,
+      "climate": 8,
       "migration": 8,
-      "education": 5,
-      "weather": 7
+      "education": 14,
+      "weather": 9
     },
     "wide_themes": {
-      "war": 27,
-      "crime": 35,
-      "eu": 33,
-      "politics": 37,
-      "be_gov": 36,
-      "culture": 22,
-      "tech": 27,
-      "economy": 28,
-      "sports": 40,
+      "war": 44,
+      "crime": 56,
+      "eu": 55,
+      "politics": 79,
+      "be_gov": 61,
+      "culture": 30,
+      "tech": 33,
+      "economy": 53,
+      "sports": 63,
       "health": 13,
-      "climate": 7,
-      "migration": 12,
-      "education": 6,
-      "weather": 13
+      "climate": 9,
+      "migration": 10,
+      "education": 16,
+      "weather": 15
     }
   }
 ]
