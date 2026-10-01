@@ -104871,5 +104871,496 @@
       "education": 14,
       "weather": 20
     }
+  },
+  {
+    "date": "2026-10-01",
+    "generated_at": "2026-10-01T12:26:47+02:00",
+    "last_checked_at": "2026-10-01T12:26:47+02:00",
+    "total_articles": 538,
+    "trump_articles": 7,
+    "percentage": 1.3,
+    "core_percentage": 1.3,
+    "core_percentage_name": 1.3,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 1.3,
+    "indirect_references": 0,
+    "wide_total_articles": 768,
+    "wide_trump_articles": 8,
+    "wide_percentage": 1.0,
+    "wide_trump_articles_expanded": 8,
+    "wide_percentage_expanded": 1.0,
+    "macro_percentage": 1.4,
+    "qualifying_outlets": 28,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 0,
+    "cross_outlet_dup_groups": 0,
+    "cross_outlet_dup_rate": 0.0,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.47,
+    "breadth": 0.39,
+    "deviation": 0.42,
+    "smoothed_pct": 2.27,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 28,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 33,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 33,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 11,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 33,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "nieuwsblad": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 79,
+        "kept": 79,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 27,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 96,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Is de strategie van Trump wel de juiste? Steeds meer Republikeinse kandidaten zetten zich tegen hem af",
+        "url": "https://www.hln.be/buitenland/is-de-strategie-van-trump-wel-de-juiste-steeds-meer-republikeinse-kandidaten-zetten-zich-tegen-hem-af~a422ec40/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump en Vance gaan op campagne in dieprode gebieden • Texaanse kandidaat-senator erkent achter gesloten deuren dat Trump blok aan been van Republikeinen is",
+        "url": "https://www.demorgen.be/snelnieuws/live-texaanse-kandidaat-senator-erkent-achter-gesloten-deuren-dat-trump-blok-aan-been-van-republikeinen-is-hegseth-bevestigt-een-op-vijf-generaals-en-admiraals-moet-weg~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE. Toestand van neergestoken piloot op vlucht flydubai is stabiel - Trump: “Copiloot was misschien een terrorist”",
+        "url": "https://www.hbvl.be/buitenland/live.-toestand-van-neergestoken-piloot-op-vlucht-flydubai-is-stabiel-trump-copiloot-was-misschien-een-terrorist/162358496.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Hoe Donald Trump de midterms (niet) over zichzelf laat gaan - Knack",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdTJJTmRCOVY2N195Zzc1clM3d0R0QjBqTjQ0ZDRWRWpkUDNKMGM5SlJUY2QtNFFaR3dTRS0xdjdmODdVVFJ4RkxlMTZCNWhSUEtHOEV5ajBmZWNtbVhGamR3R0dwXzhhVWVZRm1naHNGczR2dERNb21rZlNGNVRfU1oyNFpGVW40R1RzX2tXZ3E5R3Q2THJVSA?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Trump: 'Powell moet ontslag nemen bij de Fed' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOclBZejZfbDJ5N3dHUWpxSjRJY2MyTVF1MGU0cF9ZaVRjRVhKUGNnVmU4bEwySG1iRjFyMjRqd0NTVHdlQzlPQmRvRGVJNk9zb0xIZnhzNVkzSUVHclpWUTVuYko2M01EeGp3aVZMcmVBb2cxZ2QyOWMwamYwNURIR1dGWnZlWXFDX21WU0RaVDNWcXh2Y0ZaMWhucWNVMnlCbXlEcURGNXBXM205M3JhN3N3?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce 200 milliards de dollars d’investissements sud-coréens aux Etats-Unis - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQnpta25WaG1HdWJ1bk9hQ0J0anJOMFBMWnhIZXA4YjBRN0p2WnB3bFBySlp0NnlkSlhFY1pBNTdTS2lySGFKNnBEaVZEYUYtUXFaejNGSGJpN0J1MkRhMjVZRm1tMmJfMkhYaXd1YzFWUDlRd29fMUVjdVVsVktqM1ZLZGhNN2JpZHpkcHFjOG4zRnVjOHVJR2VOOTdQS3oyQ1Q4azFTV3ItMUlBSEc1M1dOLWN4c1MwYWExR2pabzZEY0E?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle dérive de l’IA : un site du gouvernement américain alimenté par un chatbot cesse de réfuter certaines affirmations de Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNakhEMTVSZ1FHM3BTTHREb1lKTTc0U0RRYWM5WTBRb01EbXVGZFZTa0FEczBNdW56NnJ6TDVOaGFqNW5iTnF3aEZOWlZtOTd0X3pMUFI2OHZ5WE1zdFhvMDJYRWJUX3diSjU1cE01N0ZmRU1zZVNhYUdmaHNwd09YOUw3akhUVEJjbV9VMkpzRFVNZmg4c2d4SDJYY2ZxMDdJNFRQM0VsUEJhWlBQbjU2NFUxUEowOXRZMHNUMWtTZ0g1SzhlZWlKNTNKVkg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Is de strategie van Trump wel de juiste? Steeds meer Republikeinse kandidaten zetten zich tegen hem af - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQejAxT0NFLWpWZUYwTjVqU3NWc2FqaE5KNF9waUYyLVh5SFM0TXRzVzU3eGo1WnY3d3pYMTBkVFhpMnUxODRPMExnUXFyWng5bUhseXE4eDEwR0EzSlh3UjdtbTMxdnlnbVZLZ1NQWWpaaU9GUEhpRmtid0NJYjVfdHcydTRPc1g0WHI1c29CWDZ6ZjgtOTVxZWt5RkRsZmtCbGVWMHdFVTNwYXppWFFzX1A0cmJTRWI2X2pGNXIxQ1RJODhyMTJDU0lwYjNzZERESkJ6Q0FSM2I?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Is de strategie van Trump wel de juiste? Steeds meer Republikeinse kandidaten zetten zich tegen hem af",
+        "url": "https://www.hln.be/buitenland/is-de-strategie-van-trump-wel-de-juiste-steeds-meer-republikeinse-kandidaten-zetten-zich-tegen-hem-af~a422ec40/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump en Vance gaan op campagne in dieprode gebieden • Texaanse kandidaat-senator erkent achter gesloten deuren dat Trump blok aan been van Republikeinen is",
+        "url": "https://www.demorgen.be/snelnieuws/live-texaanse-kandidaat-senator-erkent-achter-gesloten-deuren-dat-trump-blok-aan-been-van-republikeinen-is-hegseth-bevestigt-een-op-vijf-generaals-en-admiraals-moet-weg~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE. Toestand van neergestoken piloot op vlucht flydubai is stabiel - Trump: “Copiloot was misschien een terrorist”",
+        "url": "https://www.hbvl.be/buitenland/live.-toestand-van-neergestoken-piloot-op-vlucht-flydubai-is-stabiel-trump-copiloot-was-misschien-een-terrorist/162358496.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Hoe Donald Trump de midterms (niet) over zichzelf laat gaan - Knack",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdTJJTmRCOVY2N195Zzc1clM3d0R0QjBqTjQ0ZDRWRWpkUDNKMGM5SlJUY2QtNFFaR3dTRS0xdjdmODdVVFJ4RkxlMTZCNWhSUEtHOEV5ajBmZWNtbVhGamR3R0dwXzhhVWVZRm1naHNGczR2dERNb21rZlNGNVRfU1oyNFpGVW40R1RzX2tXZ3E5R3Q2THJVSA?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Trump: 'Powell moet ontslag nemen bij de Fed' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOclBZejZfbDJ5N3dHUWpxSjRJY2MyTVF1MGU0cF9ZaVRjRVhKUGNnVmU4bEwySG1iRjFyMjRqd0NTVHdlQzlPQmRvRGVJNk9zb0xIZnhzNVkzSUVHclpWUTVuYko2M01EeGp3aVZMcmVBb2cxZ2QyOWMwamYwNURIR1dGWnZlWXFDX21WU0RaVDNWcXh2Y0ZaMWhucWNVMnlCbXlEcURGNXBXM205M3JhN3N3?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce 200 milliards de dollars d’investissements sud-coréens aux Etats-Unis - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQnpta25WaG1HdWJ1bk9hQ0J0anJOMFBMWnhIZXA4YjBRN0p2WnB3bFBySlp0NnlkSlhFY1pBNTdTS2lySGFKNnBEaVZEYUYtUXFaejNGSGJpN0J1MkRhMjVZRm1tMmJfMkhYaXd1YzFWUDlRd29fMUVjdVVsVktqM1ZLZGhNN2JpZHpkcHFjOG4zRnVjOHVJR2VOOTdQS3oyQ1Q4azFTV3ItMUlBSEc1M1dOLWN4c1MwYWExR2pabzZEY0E?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle dérive de l’IA : un site du gouvernement américain alimenté par un chatbot cesse de réfuter certaines affirmations de Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNakhEMTVSZ1FHM3BTTHREb1lKTTc0U0RRYWM5WTBRb01EbXVGZFZTa0FEczBNdW56NnJ6TDVOaGFqNW5iTnF3aEZOWlZtOTd0X3pMUFI2OHZ5WE1zdFhvMDJYRWJUX3diSjU1cE01N0ZmRU1zZVNhYUdmaHNwd09YOUw3akhUVEJjbV9VMkpzRFVNZmg4c2d4SDJYY2ZxMDdJNFRQM0VsUEJhWlBQbjU2NFUxUEowOXRZMHNUMWtTZ0g1SzhlZWlKNTNKVkg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 3,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 3,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 8,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 5,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 4,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 14,
+      "crime": 37,
+      "eu": 28,
+      "politics": 14,
+      "be_gov": 27,
+      "culture": 12,
+      "tech": 9,
+      "economy": 29,
+      "sports": 34,
+      "health": 15,
+      "climate": 7,
+      "migration": 0,
+      "education": 2,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 21,
+      "crime": 46,
+      "eu": 43,
+      "politics": 17,
+      "be_gov": 32,
+      "culture": 19,
+      "tech": 16,
+      "economy": 32,
+      "sports": 56,
+      "health": 18,
+      "climate": 9,
+      "migration": 0,
+      "education": 4,
+      "weather": 8
+    }
   }
 ]
