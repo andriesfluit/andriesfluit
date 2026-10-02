@@ -105365,103 +105365,103 @@
   },
   {
     "date": "2026-10-02",
-    "generated_at": "2026-10-02T18:21:28+02:00",
-    "last_checked_at": "2026-10-02T18:21:28+02:00",
-    "total_articles": 779,
-    "trump_articles": 9,
-    "percentage": 1.2,
-    "core_percentage": 1.2,
-    "core_percentage_name": 1.2,
-    "trump_articles_expanded": 9,
-    "core_percentage_expanded": 1.2,
+    "generated_at": "2026-10-02T22:56:50+02:00",
+    "last_checked_at": "2026-10-02T22:56:50+02:00",
+    "total_articles": 887,
+    "trump_articles": 14,
+    "percentage": 1.6,
+    "core_percentage": 1.6,
+    "core_percentage_name": 1.6,
+    "trump_articles_expanded": 14,
+    "core_percentage_expanded": 1.6,
     "indirect_references": 0,
-    "wide_total_articles": 1105,
-    "wide_trump_articles": 11,
-    "wide_percentage": 1.0,
-    "wide_trump_articles_expanded": 11,
-    "wide_percentage_expanded": 1.0,
-    "macro_percentage": 0.8,
+    "wide_total_articles": 1271,
+    "wide_trump_articles": 18,
+    "wide_percentage": 1.4,
+    "wide_trump_articles_expanded": 18,
+    "wide_percentage_expanded": 1.4,
+    "macro_percentage": 1.1,
     "qualifying_outlets": 31,
     "core_outlets_total": 19,
     "core_outlets_active": 19,
     "active_core_fraction": 1.0,
-    "cross_outlet_dup_headlines": 46,
-    "cross_outlet_dup_groups": 23,
+    "cross_outlet_dup_headlines": 52,
+    "cross_outlet_dup_groups": 26,
     "cross_outlet_dup_rate": 5.9,
     "zone": "wet",
     "label": "The zone is getting wet",
     "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.75,
-    "breadth": 0.32,
-    "deviation": 0.44,
-    "smoothed_pct": 1.89,
+    "dominance": 0.93,
+    "breadth": 0.42,
+    "deviation": 0.59,
+    "smoothed_pct": 1.94,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 13,
+    "theme_rank": 11,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
         "today": 31,
         "kept": 31,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
       },
       "google_fr": {
         "fetched": 34,
         "today": 29,
         "kept": 29,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.45
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.9
       },
       "google_nl_politics": {
         "fetched": 42,
-        "today": 13,
-        "kept": 11,
+        "today": 20,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 29,
-        "kept": 24,
+        "today": 37,
+        "kept": 33,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 39,
-        "kept": 35,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.86
+        "today": 44,
+        "kept": 40,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 66,
-        "today": 24,
-        "kept": 18,
+        "fetched": 65,
+        "today": 30,
+        "kept": 27,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 37,
-        "kept": 34,
+        "today": 42,
+        "kept": 37,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
         "fetched": 30,
-        "today": 8,
+        "today": 9,
         "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
@@ -105469,16 +105469,16 @@
       },
       "google_fr_world": {
         "fetched": 68,
-        "today": 18,
-        "kept": 14,
+        "today": 25,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 22,
-        "kept": 18,
+        "today": 33,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -105493,8 +105493,8 @@
       },
       "standaard": {
         "fetched": 100,
-        "today": 75,
-        "kept": 64,
+        "today": 97,
+        "kept": 84,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -105503,17 +105503,17 @@
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.33
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "demorgen": {
         "fetched": 28,
-        "today": 21,
-        "kept": 21,
+        "today": 24,
+        "kept": 24,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.76
+        "share": 4.17
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -105527,22 +105527,22 @@
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "hbvl": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "knack": {
         "fetched": 100,
-        "today": 46,
-        "kept": 46,
+        "today": 51,
+        "kept": 51,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -105557,43 +105557,43 @@
       },
       "bruzz": {
         "fetched": 100,
-        "today": 24,
-        "kept": 24,
+        "today": 31,
+        "kept": 31,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 16,
-        "kept": 16,
+        "today": 19,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 70,
-        "kept": 70,
-        "trump": 4,
-        "trump_expanded": 4,
-        "share": 5.71
+        "today": 82,
+        "kept": 82,
+        "trump": 6,
+        "trump_expanded": 6,
+        "share": 7.32
       },
       "lecho": {
         "fetched": 100,
-        "today": 63,
-        "kept": 61,
+        "today": 73,
+        "kept": 71,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 1.64
+        "share": 1.41
       },
       "dhnet": {
         "fetched": 100,
-        "today": 97,
-        "kept": 97,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 98,
+        "kept": 98,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.04
       },
       "septsursept": {
         "fetched": 30,
@@ -105613,47 +105613,47 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 49,
-        "kept": 38,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 61,
+        "kept": 51,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.96
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 18,
-        "kept": 14,
+        "today": 29,
+        "kept": 24,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 54,
-        "kept": 39,
+        "today": 70,
+        "kept": 44,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.56
+        "share": 2.27
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 39,
-        "kept": 38,
+        "today": 49,
+        "kept": 49,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 36,
-        "kept": 35,
+        "today": 49,
+        "kept": 46,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 53,
-        "today": 20,
+        "fetched": 51,
+        "today": 21,
         "kept": 8,
         "trump": 1,
         "trump_expanded": 1,
@@ -105661,8 +105661,8 @@
       },
       "tendances_g": {
         "fetched": 100,
-        "today": 28,
-        "kept": 27,
+        "today": 34,
+        "kept": 31,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -105691,15 +105691,27 @@
     ],
     "matches": [
       {
-        "title": "G7-landen akkoord over vrijgave diesel na dreigement Trump: “Zou de prijzen moeten doen dalen”",
-        "url": "https://www.hln.be/economie/g7-landen-akkoord-over-vrijgave-diesel-na-dreigement-trump-zou-de-prijzen-moeten-doen-dalen~a634e96a/",
-        "source": "hln",
+        "title": "Live - G7-landen geven 100 miljoen vaten olie en diesel vrij na dreigement Trump, maar ‘verbod lag nooit echt op tafel’ zegt hij nu",
+        "url": "https://www.demorgen.be/snelnieuws/live-g7-landen-geven-100-miljoen-vaten-olie-en-diesel-vrij-na-dreigement-trump-maar-verbod-lag-nooit-echt-op-tafel-zegt-hij-nu~b31dbb6e/",
+        "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "Live - G7-landen akkoord over vrijgave van 100 miljoen vaten olie en diesel na dreigement Trump, bevestigt Macron",
-        "url": "https://www.demorgen.be/snelnieuws/live-g7-landen-akkoord-over-vrijgave-van-100-miljoen-vaten-olie-en-diesel-na-dreigement-trump-bevestigt-macron~b31dbb6e/",
-        "source": "demorgen",
+        "title": "Trump haalt slag thuis nu G7-landen 100 miljoen vaten olie op de markt brengen: gaan we dat snel voelen aan de pomp? En wat doet België?",
+        "url": "https://www.hbvl.be/economie/trump-haalt-slag-thuis-nu-g7-landen-100-miljoen-vaten-olie-op-de-markt-brengen-gaan-we-dat-snel-voelen-aan-de-pomp-en-wat-doet-belgie/162524612.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "La remarque surprenante de Donald Trump sur l’exécution ratée de Christa Pike",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/02/la-remarque-surprenante-de-donald-trump-sur-lexecution-ratee-de-christa-pike-FDGGXBPNMRCD3O7LQWH4LCTS4I/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump court-circuite l'Europe et se félicite de l'avoir fait céder sur le diesel",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/10/02/sous-la-pression-de-trump-le-g7-libere-jusqua-100-millions-de-barils-de-quoi-freiner-les-prix-a-la-pompe-UU5WH6MWZJGDPMC72KQKOFQT4Y/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -105709,14 +105721,14 @@
         "name_only": true
       },
       {
-        "title": "Le prix du pétrole chute après le bras de fer entre Trump et l'Europe",
-        "url": "https://www.lalibre.be/economie/placements/2026/10/02/le-prix-du-petrole-chute-apres-le-bras-de-fer-entre-trump-et-leurope-VW33F5POUVDZHPQGTZH4BCC3VM/",
+        "title": "\"Le processus va commencer immédiatement\": Trump affirme que l'Europe a cédé à ses pressions sur le diesel",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/10/02/trump-assure-que-leurope-vient-daccepter-de-mettre-une-quantite-massive-de-gazole-sur-le-marche-le-processus-va-commencer-immediatement-QHGDKUYPWNG5DNRTUE67VQIK4M/",
         "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "\"Le processus va commencer immédiatement\": Trump affirme que l'Europe a cédé à ses pressions sur le diesel",
-        "url": "https://www.lalibre.be/economie/conjoncture/2026/10/02/trump-assure-que-leurope-vient-daccepter-de-mettre-une-quantite-massive-de-gazole-sur-le-marche-le-processus-va-commencer-immediatement-QHGDKUYPWNG5DNRTUE67VQIK4M/",
+        "title": "Le prix du pétrole chute après le bras de fer entre Trump et l'Europe",
+        "url": "https://www.lalibre.be/economie/placements/2026/10/02/le-prix-du-petrole-chute-apres-le-bras-de-fer-entre-trump-et-leurope-VW33F5POUVDZHPQGTZH4BCC3VM/",
         "source": "lalibre",
         "name_only": true
       },
@@ -105730,6 +105742,24 @@
         "title": "L’Europe peut-elle faire baisser les prix du diesel comme le réclame Donald Trump? - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeWc2TldjUzZzMEdyWmRJZVl3UE4yVHlTRmNlckQ3Rkg5dmJFT1ZkTTloandVMXBDcTZ4VXlkOXNUSE8yYXJJdDUwYXc5ekpuVEZtZ3ljc3hHNnZCREpYcFdQVnJQcFR4Si1BZkZ6amp5SWFFMlVBLW9pSXRSSTZvOEsyQ3hNQnFFN2piNDEwdGJWYloyVDFiRWVRU1g3eGIyc21Xa0xhbmx4QmI5VS1oZmlGMG5wejlvZmUzckxBUUNyRUFPVG9Zb2cyWF9xLXZrd0RRLUk3R19vbXk2TEJaUmJkTGc?oc=5",
         "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La réaction inattendue de Donald Trump à propos de l’exécution ratée de Christa Pike",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/02/la-reaction-inattendue-de-donald-trump-a-propos-de-lexecution-ratee-de-christa-pike-BN2TEP6QGBABBDSA3JUFPKH5VE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump discret et affaibli à l’approche des élections de mi-mandat: quelles conséquences en Europe et en Belgique ?",
+        "url": "https://www.dhnet.be/actu/belgique/2026/10/02/donald-trump-discret-et-affaibli-a-lapproche-des-elections-de-mi-mandat-quelles-consequences-en-europe-et-en-belgique-4TS66SLVK5CNVL3T5DBQWKVG3M/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Europa geeft dieselvoorraden vrij om exportban van Trump te voorkomen - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeWhRa1JfLW0xSlRuOHhQTXZYelEzTFdaMU5VNDVoQk1oREx6Q3lFTGJVNXpsLXJTWlFaWGpRbGNodHdpNFJnYjItLThqUnB0YXlBMUZLUjlkbXQ0Y2k5WkdDUWIzNUM0WFhfWF9MbnFEc0VNWWlLbGVVUmJBSmR4SGlYWVRLUWxzRmVoRWpyY0dVcW5vaFpXdDhDaGdDenZqcGpiRFhKcEtiWGlOWHJBY2x0M2xzR3lsLUpab3pNSFdIUU9fN3JqTA?oc=5",
+        "source": "detijd_g",
         "name_only": true
       },
       {
@@ -105747,27 +105777,51 @@
     ],
     "wide_matches": [
       {
-        "title": "\"Le processus va commencer immédiatement\": Trump affirme que l'Europe a cédé à ses pressions sur le diesel - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPa1ZsMXlFbUV4OHJ6QVNzZ3lSeVlKeFZTVjhueXU1WTZFR3RXYTB5NWxuZ0ZRdUNtWVdOUnZ0VnM3Q3JFcU9WZkNweVYyb1MtTkl6QVNLbW9wVDFqOWx3aU9QYWZCNFdWaTJBVWdvVmxTYnc4N2xaOGxBSVhIM2VMamNiQTlobjlZVWhQUkRqVVd2ZWd0aDF2OEVPN3hzZUppa0ozY3gzeDhJSXJLbDFlcjEzOGoySWV2RnJ6V2dSajhZQXlERlFWX3ZIYlhFZndTampQTGJCcHJkV2R4cW5kTUxSOFpXVld6SVRHZDYwQmc5ZlRELXhZVG9uLUtXNWxHS1BVMFl1NzliVF94ajFEUkVKdEpfS1YyQ3NHcTdnbWZlUDM4a0Q1Q3BLb0FaalBMYklrOWk2OXpqY3Y0bVQw?oc=5",
+        "title": "Trump haalt slag thuis nu G7-landen 100 miljoen vaten olie op de markt brengen: gaan we dat snel voelen aan de pomp? En wat doet België? - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQajltVXBCcHBOLW50TXlHbnVBV01zYVNIdXY0ZTVlUUk3YThvaGVfbnBkVUxXVmhCcWtLZlRWTTViMWM3SU1BQjFWbmFUQk92cy0ySHlIcm5xLU50OXZ6UWhFNFFza3ZmeS1KNnJuMThLZzZENms0Q2I1c0Ryb1ZFSFRYaXczUE01eHlXQ1FQTVIwNGZ4OXlSUjg0VWdrNzVxSkFSWWF5Ym5wT0dVa0RzV2dKMVhUbnRxbkw1aVh2YjdsVmlDVEpEeFNYWjNlZG1NUFJkT1NYQkhsUlE0clAtN1piaEZvdklwN1dZbC1yZld0R25SX0JtZEJsTTd3X3hBMEFWTmpITU9fdUtoN0o5SA?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump discret et affaibli à l'approche des élections de mi-mandat: quelles conséquences en Europe et en Belgique ? - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQYW1qUlZzalRZNDRLdVYxQ2N1QnRuNHFZekRoV284ME9vZDBoWjlJbXdOMnVvWE5TSUVKRFg3dVJtMHE3dHpnTlJjb2tZUUM4cG9GdU1PcjVkQWRqZ2RXaGktbGFUYnRSVEh3VV9qaG5ILUEtNjItSnFMNGZaMUZYSG1BRWlqc2VrOTVGY3ZCTVlUMnZLMTd2OGdaSEMyenRwVDkyY2RHejVjb0t2UnVkSVBHMDJBenZMMnZDX3dqYTAwY1BPQ1l2bXg5TG1ZUXFodjZob0hFWlNraUYtNkJqWjNVQnZaTzUybkM1X3AzRWpOZjBZem9ta1MxNkRyN2MwSE14NkFjQzRFNUtuOHhoOC15QmViTk5uWnR3?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Macron en EU roepen Trump op geen exportverbod op te leggen na dreigementen - HLN",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZF9vUXpMb1BKbi1vNFh6dExvVmZDdFJvUVl3UWJyc3RlQ1lPenp6NmpqWk9GMmNhV2l6U1RraTFIQ1F0MzFhczk3OE1JZVBqSHJkeEVyc1JyWGhBXzU4Y2xkcW9WdmJYa0lSU3JMVFZBS3lfNC16YXF1elowMEljWG1rc0NxRl91b1FNUlJUMnZVRFNMT1owbkJTVmlEOFhkNm1lVXIyR1hYOHlXd3JzMFNGM0NWUQ?oc=5",
-        "source": "google_nl_business",
+        "title": "La remarque surprenante de Donald Trump sur l'exécution ratée de Christa Pike - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPOEtBNWFpS3FoZ0kxYk03UlZ6NFI5ZGd5Y2R1V3ByeWhaNUx4MVFkOWFJMENENy0yYmNWQTI2RkdXajRZZFlDdG9qWjYwd0ZvM2NBSkFRazJCX1Fza2d4Yno1LXdEYjgtMzlNME5aSGhNRXVmc3YxenBIdVdQbjFzT3NFX2RrRGoybzRfelY4NE9jeDZXaHg0Z0hZUzMyMzdER1JxY1oyRXZ6VkpmbzF4cExmZ0VyaEwyU3R3YVBvdzE1NzkzdzVMVm1xQzQ2NGlGcVNlU1Rjc2VGbEk1TlVPQXVfU3ZhaEtQdzVIYnlTbEl2dFk?oc=5",
+        "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "G7-landen akkoord over vrijgave diesel na dreigement Trump: “Zou de prijzen moeten doen dalen”",
-        "url": "https://www.hln.be/economie/g7-landen-akkoord-over-vrijgave-diesel-na-dreigement-trump-zou-de-prijzen-moeten-doen-dalen~a634e96a/",
-        "source": "hln",
-        "name_only": true
-      },
-      {
-        "title": "Live - G7-landen akkoord over vrijgave van 100 miljoen vaten olie en diesel na dreigement Trump, bevestigt Macron",
-        "url": "https://www.demorgen.be/snelnieuws/live-g7-landen-akkoord-over-vrijgave-van-100-miljoen-vaten-olie-en-diesel-na-dreigement-trump-bevestigt-macron~b31dbb6e/",
+        "title": "Live - G7-landen geven 100 miljoen vaten olie en diesel vrij na dreigement Trump, maar ‘verbod lag nooit echt op tafel’ zegt hij nu",
+        "url": "https://www.demorgen.be/snelnieuws/live-g7-landen-geven-100-miljoen-vaten-olie-en-diesel-vrij-na-dreigement-trump-maar-verbod-lag-nooit-echt-op-tafel-zegt-hij-nu~b31dbb6e/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump haalt slag thuis nu G7-landen 100 miljoen vaten olie op de markt brengen: gaan we dat snel voelen aan de pomp? En wat doet België?",
+        "url": "https://www.gva.be/economie/trump-haalt-slag-thuis-nu-g7-landen-100-miljoen-vaten-olie-op-de-markt-brengen-gaan-we-dat-snel-voelen-aan-de-pomp-en-wat-doet-belgie/162524524.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump haalt slag thuis nu G7-landen 100 miljoen vaten olie op de markt brengen: gaan we dat snel voelen aan de pomp? En wat doet België?",
+        "url": "https://www.hbvl.be/economie/trump-haalt-slag-thuis-nu-g7-landen-100-miljoen-vaten-olie-op-de-markt-brengen-gaan-we-dat-snel-voelen-aan-de-pomp-en-wat-doet-belgie/162524612.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "La remarque surprenante de Donald Trump sur l’exécution ratée de Christa Pike",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/02/la-remarque-surprenante-de-donald-trump-sur-lexecution-ratee-de-christa-pike-FDGGXBPNMRCD3O7LQWH4LCTS4I/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump court-circuite l'Europe et se félicite de l'avoir fait céder sur le diesel",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/10/02/sous-la-pression-de-trump-le-g7-libere-jusqua-100-millions-de-barils-de-quoi-freiner-les-prix-a-la-pompe-UU5WH6MWZJGDPMC72KQKOFQT4Y/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -105777,14 +105831,14 @@
         "name_only": true
       },
       {
-        "title": "Le prix du pétrole chute après le bras de fer entre Trump et l'Europe",
-        "url": "https://www.lalibre.be/economie/placements/2026/10/02/le-prix-du-petrole-chute-apres-le-bras-de-fer-entre-trump-et-leurope-VW33F5POUVDZHPQGTZH4BCC3VM/",
+        "title": "\"Le processus va commencer immédiatement\": Trump affirme que l'Europe a cédé à ses pressions sur le diesel",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/10/02/trump-assure-que-leurope-vient-daccepter-de-mettre-une-quantite-massive-de-gazole-sur-le-marche-le-processus-va-commencer-immediatement-QHGDKUYPWNG5DNRTUE67VQIK4M/",
         "source": "lalibre",
         "name_only": true
       },
       {
-        "title": "\"Le processus va commencer immédiatement\": Trump affirme que l'Europe a cédé à ses pressions sur le diesel",
-        "url": "https://www.lalibre.be/economie/conjoncture/2026/10/02/trump-assure-que-leurope-vient-daccepter-de-mettre-une-quantite-massive-de-gazole-sur-le-marche-le-processus-va-commencer-immediatement-QHGDKUYPWNG5DNRTUE67VQIK4M/",
+        "title": "Le prix du pétrole chute après le bras de fer entre Trump et l'Europe",
+        "url": "https://www.lalibre.be/economie/placements/2026/10/02/le-prix-du-petrole-chute-apres-le-bras-de-fer-entre-trump-et-leurope-VW33F5POUVDZHPQGTZH4BCC3VM/",
         "source": "lalibre",
         "name_only": true
       },
@@ -105801,6 +105855,24 @@
         "name_only": true
       },
       {
+        "title": "La réaction inattendue de Donald Trump à propos de l’exécution ratée de Christa Pike",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/02/la-reaction-inattendue-de-donald-trump-a-propos-de-lexecution-ratee-de-christa-pike-BN2TEP6QGBABBDSA3JUFPKH5VE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump discret et affaibli à l’approche des élections de mi-mandat: quelles conséquences en Europe et en Belgique ?",
+        "url": "https://www.dhnet.be/actu/belgique/2026/10/02/donald-trump-discret-et-affaibli-a-lapproche-des-elections-de-mi-mandat-quelles-consequences-en-europe-et-en-belgique-4TS66SLVK5CNVL3T5DBQWKVG3M/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Europa geeft dieselvoorraden vrij om exportban van Trump te voorkomen - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeWhRa1JfLW0xSlRuOHhQTXZYelEzTFdaMU5VNDVoQk1oREx6Q3lFTGJVNXpsLXJTWlFaWGpRbGNodHdpNFJnYjItLThqUnB0YXlBMUZLUjlkbXQ0Y2k5WkdDUWIzNUM0WFhfWF9MbnFEc0VNWWlLbGVVUmJBSmR4SGlYWVRLUWxzRmVoRWpyY0dVcW5vaFpXdDhDaGdDenZqcGpiRFhKcEtiWGlOWHJBY2x0M2xzR3lsLUpab3pNSFdIUU9fN3JqTA?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
         "title": "« Le processus va commencer immédiatement » : Donald Trump assure que l’Europe « vient d’accepter » de mettre une « quantité massive » de diesel sur le marché - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTDZsYWRZOGZmQVZJbEJBNnl3SnU4M3VMSUJPWHVtZWR4YUtmLTl3MXVlN05qblhIai1Od0k0WFgwRFRzVmFRbG44X0lEYXprMFZQUWRUdEcxTTliUVhxVEUtTGR1VHk1WEdiSFotTUp2a3ptWXo4TEd6WV9vWllQeGVaS0N4ZEM3LVprVzRMeHN3d0h5TDk0Ti14RnhiUml3blF0aXB4MmljZER3MXhWUlJBX3gyVTdTZ3hfUnNyQ3hIbjlPMEJvWQ?oc=5",
         "source": "sudinfo_g",
@@ -105814,74 +105886,74 @@
       }
     ],
     "comparisons": {
-      "trump": 9,
-      "putin": 5,
+      "trump": 14,
+      "putin": 3,
       "macron": 3,
       "netanyahu": 0,
-      "zelensky": 1,
+      "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 2,
-      "bouchez": 1,
+      "de_wever": 6,
+      "bouchez": 2,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
-      "jambon": 0,
+      "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 11,
-      "putin": 7,
-      "macron": 5,
+      "trump": 18,
+      "putin": 6,
+      "macron": 3,
       "netanyahu": 0,
-      "zelensky": 1,
+      "zelensky": 0,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 3,
-      "bouchez": 1,
-      "magnette": 0,
+      "de_wever": 8,
+      "bouchez": 3,
+      "magnette": 1,
       "prevot": 0,
       "rousseau": 0,
       "francken": 0,
       "crevits": 0,
-      "jambon": 0,
+      "jambon": 1,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 15,
-      "crime": 28,
-      "eu": 36,
-      "politics": 39,
-      "be_gov": 30,
+      "war": 16,
+      "crime": 29,
+      "eu": 40,
+      "politics": 44,
+      "be_gov": 34,
       "culture": 17,
-      "tech": 17,
-      "economy": 45,
-      "sports": 48,
-      "health": 7,
-      "climate": 10,
-      "migration": 7,
-      "education": 13,
-      "weather": 12
+      "tech": 20,
+      "economy": 47,
+      "sports": 73,
+      "health": 8,
+      "climate": 9,
+      "migration": 5,
+      "education": 16,
+      "weather": 11
     },
     "wide_themes": {
-      "war": 22,
+      "war": 28,
       "crime": 41,
-      "eu": 50,
-      "politics": 71,
-      "be_gov": 43,
-      "culture": 23,
-      "tech": 26,
-      "economy": 59,
-      "sports": 76,
-      "health": 9,
-      "climate": 11,
-      "migration": 9,
-      "education": 13,
-      "weather": 19
+      "eu": 53,
+      "politics": 80,
+      "be_gov": 49,
+      "culture": 21,
+      "tech": 34,
+      "economy": 62,
+      "sports": 112,
+      "health": 12,
+      "climate": 15,
+      "migration": 6,
+      "education": 17,
+      "weather": 15
     }
   }
 ]
