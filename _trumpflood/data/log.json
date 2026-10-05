@@ -106907,5 +106907,490 @@
       "education": 11,
       "weather": 13
     }
+  },
+  {
+    "date": "2026-10-05",
+    "generated_at": "2026-10-05T12:49:25+02:00",
+    "last_checked_at": "2026-10-05T12:49:25+02:00",
+    "total_articles": 648,
+    "trump_articles": 5,
+    "percentage": 0.8,
+    "core_percentage": 0.8,
+    "core_percentage_name": 0.8,
+    "trump_articles_expanded": 5,
+    "core_percentage_expanded": 0.8,
+    "indirect_references": 0,
+    "wide_total_articles": 870,
+    "wide_trump_articles": 9,
+    "wide_percentage": 1.0,
+    "wide_trump_articles_expanded": 9,
+    "wide_percentage_expanded": 1.0,
+    "macro_percentage": 1.7,
+    "qualifying_outlets": 28,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 52,
+    "cross_outlet_dup_groups": 26,
+    "cross_outlet_dup_rate": 8.0,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.83,
+    "breadth": 0.22,
+    "deviation": 0.4,
+    "smoothed_pct": 1.43,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 14,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 31,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 66,
+        "today": 17,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 33,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_fr_business": {
+        "fetched": 55,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 37,
+        "kept": 37,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 82,
+        "kept": 36,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.78
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 40,
+        "kept": 40,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 59,
+        "kept": 56,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 65,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 78,
+        "kept": 75,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 36,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 20,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 29,
+        "today": 9,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump herdoopt AI tot “superintelligentie”: kan dat zomaar? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMEtPYzQxclNRVEpvODI3TmY0OUFwTzlRQ1B3Vnd4UG5MX3ZKM19LLTJXaXlROTA5Qy00RjVwWnZXU1pmelhhcHZ6enFNRTQxazJtY0NSNGxvcU8tMmRlNkVDLWZHTkk2elFwdW5qR2xVRFNGNVlQbjFkRjYyWFg3R18xSWE4ajRfYWpyUmoxNGJMajJ3WHpGUFhUUXA1LUQ3TVExeUVKNkNwcmxSQlFPdVJB?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump steunt nucleair megaproject van Poolse miljardair voor 62 kernreactoren in Europa",
+        "url": "https://www.hln.be/buitenland/regering-trump-steunt-nucleair-megaproject-van-poolse-miljardair-voor-62-kernreactoren-in-europa~aaac7af5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Un Républicain a tenu tête à Donald Trump et l'a fait sortir de ses gonds: \"On veut mettre fin à cette coutume ridicule\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/05/un-republicain-a-tenu-tete-a-donald-trump-qui-est-sorti-de-ses-gonds-on-veut-mettre-fin-a-cette-coutume-ridicule-BCOPXVYHMVBR7BUMICZ7LYSJV4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a-t-il réussi son coup pour protéger cette industrie stratégique ? Pas sûr...",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/10/05/donald-trump-a-t-il-reussi-son-coup-pour-proteger-cette-industrie-strategique-pas-sur-RGB7J3OQCNAYLIITGISCOXIPKQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump s’en prend à un allié républicain et dévoile son numéro de portable: “Appelez-le!”",
+        "url": "https://www.7sur7.be/monde/trump-sen-prend-a-un-allie-republicain-et-devoile-son-numero-de-portable-appelez-le~ae467102/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump deelt telefoonnummer van tegenstribbelende partijgenoot online om permanente zomertijd af te dwingen: “Golfers hebben daglicht nodig” - hln.be",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPYkJ2WDhxalRFNkRBQ0poQk1GVm1odWJNWTcweS1XOERtNC1CUE1xanlnZWN0RUxsR01tMkJyOUloSmhLXzN2ZEdRWWQ0bFhXYjZJSVZETUstUWVpV0k5Z25IOTVtQWFCZjNfb2xYMTZoOFM5WGRKR3J2ckQ4Sm51Y0d1emxvV3diQ0cwQTJaMUJKdzMweUpCNkc0UFlpZEZHVUQyMk0zSXJMWnczSWRRMm9OYTQtc3gwME5aUlctS2lRTWx3SU1DOUZzTE40TUpQVnRmZHBFNjMyZHhZU2szdFp3UGNmMUdfdDJUZ2l3ZVBSdXBzTXdySXIyTE50MlpNczdNbm5mcw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "LIVE President Trump richt 'Super Intelligence Force' op, geleid door inlichtingenbaas Jay Clayton - VRT",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPamlZNHIwMWx4LWJ1cEJMUnBjTExiaFh2bTlWY2Vza1NuSHFDMXdJUl8yS0FqT0pWZWx5TU9TLXZYN2w0ZXh2REFtR3ZOYU1Md284RVp1bnFiQTJvTlItcFUzZFpORnY1a21TSXlHamtXUTJyWUNhYWJUcUxFZ3Z0Q01wQngzV1luNnRhZ3NSRWp6WmpRVG5rNFNoRDBld2lVS3BJZTRzVG5GSjR1TGE3S1VMeDE?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "Trump belooft opnieuw 5.000 dollar aan Amerikanen: kan Bitcoin hierdoor stijgen? - BLOX | Nieuws",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcTNQNXJiLUZpM2FZb2duWm1GYXVtQlJ0TGtZaE9ELUstWmZVQy1rcThfZTQ0NXJaMU5pUWlrbU1nZEFaTUwweWE2Q3J5M1hPVk1ORmNVSkZGQU9pNERrSFA1YkNmSHBWak03YU52VmdFZVM2UHRVTUw3U0ExMnRjVVRRWUItVk9lSVphcTVBX1VkNUxUYUY0Rjc0TDNzc1pVR0trRVM2dHp3Tm8?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "Trump dévoile le numéro de portable d’un collègue de son parti opposé à l’heure d’été permanente: “Appelez-le!” - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVFJFS1FqV3Jsdmd1ek9GR1dWTlBZS0Jid1pLbm81OFRCREdUNnBXYmZmenphdXdlMjJkb2NESTFnZFN4Y1Z1LTdLVVVYY0NhMG9RNkxUTDNwUGFfa2oybHE3b3pmVmJTYWstcExFY0wzalQxdTdKV3hrai11Q25ndTBGbURRWDRmM3pTd0FKZzBPQzVzUHRRRGV6S0VmX0JvQmM5R3dBTDlWOENWR0VxeC1rT0tsaGtJZEZHaHNJbmxETTZ3Ulg2NmFSWDhwMl9IbmxBc3VqRlI?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump herdoopt AI tot “superintelligentie”: kan dat zomaar? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMEtPYzQxclNRVEpvODI3TmY0OUFwTzlRQ1B3Vnd4UG5MX3ZKM19LLTJXaXlROTA5Qy00RjVwWnZXU1pmelhhcHZ6enFNRTQxazJtY0NSNGxvcU8tMmRlNkVDLWZHTkk2elFwdW5qR2xVRFNGNVlQbjFkRjYyWFg3R18xSWE4ajRfYWpyUmoxNGJMajJ3WHpGUFhUUXA1LUQ3TVExeUVKNkNwcmxSQlFPdVJB?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump steunt nucleair megaproject van Poolse miljardair voor 62 kernreactoren in Europa",
+        "url": "https://www.hln.be/buitenland/regering-trump-steunt-nucleair-megaproject-van-poolse-miljardair-voor-62-kernreactoren-in-europa~aaac7af5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Un Républicain a tenu tête à Donald Trump et l'a fait sortir de ses gonds: \"On veut mettre fin à cette coutume ridicule\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/05/un-republicain-a-tenu-tete-a-donald-trump-qui-est-sorti-de-ses-gonds-on-veut-mettre-fin-a-cette-coutume-ridicule-BCOPXVYHMVBR7BUMICZ7LYSJV4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a-t-il réussi son coup pour protéger cette industrie stratégique ? Pas sûr...",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/10/05/donald-trump-a-t-il-reussi-son-coup-pour-proteger-cette-industrie-strategique-pas-sur-RGB7J3OQCNAYLIITGISCOXIPKQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump s’en prend à un allié républicain et dévoile son numéro de portable: “Appelez-le!”",
+        "url": "https://www.7sur7.be/monde/trump-sen-prend-a-un-allie-republicain-et-devoile-son-numero-de-portable-appelez-le~ae467102/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 5,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 4,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 9,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 7,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 20,
+      "crime": 22,
+      "eu": 35,
+      "politics": 37,
+      "be_gov": 19,
+      "culture": 12,
+      "tech": 9,
+      "economy": 31,
+      "sports": 34,
+      "health": 7,
+      "climate": 4,
+      "migration": 6,
+      "education": 6,
+      "weather": 12
+    },
+    "wide_themes": {
+      "war": 30,
+      "crime": 32,
+      "eu": 46,
+      "politics": 54,
+      "be_gov": 29,
+      "culture": 15,
+      "tech": 12,
+      "economy": 44,
+      "sports": 54,
+      "health": 9,
+      "climate": 5,
+      "migration": 9,
+      "education": 7,
+      "weather": 18
+    }
   }
 ]
