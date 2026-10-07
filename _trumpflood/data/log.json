@@ -108063,5 +108063,508 @@
       "education": 7,
       "weather": 13
     }
+  },
+  {
+    "date": "2026-10-07",
+    "generated_at": "2026-10-07T12:33:19+02:00",
+    "last_checked_at": "2026-10-07T12:33:19+02:00",
+    "total_articles": 557,
+    "trump_articles": 7,
+    "percentage": 1.3,
+    "core_percentage": 1.3,
+    "core_percentage_name": 1.3,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 1.3,
+    "indirect_references": 0,
+    "wide_total_articles": 798,
+    "wide_trump_articles": 10,
+    "wide_percentage": 1.3,
+    "wide_trump_articles_expanded": 10,
+    "wide_percentage_expanded": 1.3,
+    "macro_percentage": 1.6,
+    "qualifying_outlets": 29,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 46,
+    "cross_outlet_dup_groups": 23,
+    "cross_outlet_dup_rate": 8.3,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.7,
+    "breadth": 0.33,
+    "deviation": 0.68,
+    "smoothed_pct": 1.51,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 29,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 45,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 30,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 16,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 33,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 44,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.27
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 44,
+        "kept": 44,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.27
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 29,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.9
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 85,
+        "kept": 85,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 60,
+        "today": 15,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 99,
+        "today": 13,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump noemt opofferen Los Angeles en San Diego bij oorlog met Iran \"kleine prijs\", Californië reageert woedend",
+        "url": "https://vrtnws.be/p.7n57bb91j",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Standbeeld van naakte Donald Trump opgedoken in Europees Parlement - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSmpFaTFyZXlDcm1STEVxYVNiVjN5NEM4SkY4RXJqWWRscUhrU3htSUtuWGFZbU5XYk4zLWgtNEhxVkJRd2tiX01TOG1iQ2tSLVQ3S1QtTUpjTXljT1otd1NuWG4xcEZyVG5vOUxNQl9SNU9DRGtaNU9Ea3J1QzVoY21iMGxIOTRDZGJMMDRDUnVlNHEzMnZNQVFhYzItNjdsTUFYNFZBSlRodVBNcnBTMEtOdy1DUGgw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Verenigde Staten vragen formeel extra uitleg aan Rusland over mogelijke pestuitbraak, Trump wil snel overleg met Poetin",
+        "url": "https://www.demorgen.be/nieuws/verenigde-staten-vragen-formeel-extra-uitleg-aan-rusland-over-mogelijke-pestuitbraak-trump-wil-snel-overleg-met-poetin~bca84d479/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump au pied de l'Alamo pour tenter de sauver un de ses candidats au Texas",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/07/donald-trump-au-pied-de-lalamo-pour-tenter-de-sauver-un-de-ses-candidats-au-texas-OE4VZU7H5VCV3LVIHU77Q5XN7E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump mise sur le diesel rouge pour alléger la facture énergétique des Américains avant les midterms - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxONHJRYm5obG9WYUtYN0N0N2V2Z0E4TW1pVElsTUYwZVpHUnNmREdfU2NvZkRqWlNjTzlPNmdRWXl1dDVEQzNqWGt2bm16V19GUnBxek4zaERZN2hDSDFxZmlFN3kzdHVJcEtyTFlVZDlnVGQyNGdka3RVN2xqb3I3cVJOTm1zVS1mVzk2VjVPaDRzejVRc1pCQmJQMTI5N0VwWW5oWmdiWlVQOGl5ZjZ5RmdMdFh3TnJaS0xRRzlCNU9ud1k3dllLdlZuczNBamYwbHh3a05iRDI5M3pUUHNnREZfSnROV1ZtQVd3Z25MVVJjWTE5anloT1NvTjJaczNEVDBZalJuTUIzLVk?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Revue de presse | Le virage à droite de l'Amérique latine qui sert les ambitions de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcmhYeGVsVVdvVXFoMXFpellVWHRMSE5TNnZzblBmV2o3Q3dfXzY4QmR1ZFhqcURUOXlHeWVNY0tyUnZDVFktZmhERnh6VmhpbXIyY2VwNXUyc083UWkwM0xTOERsYWMyTE5TQk1ydTgwU195d21ySld3cG1idzg5cTJWekRIRXRxVXpiR083dWV1VVpkRkZBS3d6MjMxTkppZTM3Mm1wc2cwYjRWc3huTjIwOE1JQklSRHhoX3gwLWV1LWdrQzQ3anRPT2FVaDgwNHg3RkNNV0xQRzA3WXZsU2VHV0E?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Soupçon de peste en Russie : les États-Unis et l’OMS réclament de la transparence, Donald Trump va en parler à Vladimir Poutine - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRFdxTTlwM2xXSEFBTWI0RGwwZWxrbnIwdXpweEFHeTVCZXZZd2o3Ul9WTUwtZ0JydmdVcnVKd3lRVDBrcjJiQ1FfUURHZFQ5ZkNOOEZVRmxoTlNER0o2aUVRZVNqcnZsYXRVMDItMGYwdHhuZ1E3djJUOUMtN2VQb1VnX0tFV1dLcjZINDVaV0ZVdFozaFBGUGplZldhQi1wSV9STU9OWTFsN3lpNkNUTjJsa09zTFpmM0N0Vng5ZUUtODl1SF9pTlNR?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Verenigde Staten vragen formeel extra uitleg aan Rusland over mogelijke pestuitbraak, Trump wil snel overleg met Poetin - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbXkxT0R4ZmViWU1VUEpGU3FCaG5Cbl9adVNPV3dndUl3RHJ2OC1hTkNJTFNmeTJfN1V1b1FvOEZrRDQ2QzRGYV9TSXNZQWZpLUJycEN5cExVQ0dTdTdMUTItckFMS0hTMmtnNEJFSmFWbDRmUnhUU0JFRHNuTGRlWGFYUXIyY0c2VDF5SW42Tl9Wa1Z3NjEtTTgyX3ViVGJTeU5vOGJXbDBRN2gwQTJjLTlTLUxfc011WGhTVHhSdWhVV3NRVnJmNC1TbEhHeHRGOU5UXzZIdDJuSzQ3a05SVnFRUk0wMGhTczluRi1PUmN6QQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump gaat Poetin bellen over mogelijke pestuitbraak in Rusland - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRzJ4OFdNNXgxXzkycmlDazdIbGRRa3A0Qkx1T2xEcG15NkZsd3BaMFdLNTV6emUwSl9BTWRKS2E0VUk0WkprX2FkdjkxbGRNOTQ0eW11VW1WQnd6UUZKdld4ZGN5akhCU1hFbVNIOTVwUUxoMVNuQWQ0NHB0OW1IWFBNaVNwZVh2RS1oTEU5SDllUE5pc3J2SFIySVFoNkVoZlE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump oogst kritiek met gewaagde uitspraak: “Laat ze San Diego of Los Angeles maar vernietigen, dat is een kleine prijs om te betalen” - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZ19Lekc0UXd3UE8zVnU5clpKSHhrTjYtSXA4TFpxMFJoeVI5TTJDUFJINFZrd2Jfd3FYOG1EYnd0WHY0UnM2RlBvZzdyaVVTV0NmM0xEbWFhczFaQmZjSEVZNTJVNmR1TVc3djZfUWxvOFpaZWZnSFUta2Zqcmh6a2JXM0NBVFA3dnB1LTFObW9DeG9aVDBfNHZqMjJBVEhEVzBBQVA3RS13TlpCQTM2Y3BqbERkRFZONzdMZjliRkRoeG1zOUdUbHdERU5BLTBnb0FoN0cwSnFCVzFsMXc3MmVzT0lIUzFJOUo1MTduRFNxZWJ5MUpPMVFaSkljRl9fd2hiU0hMYw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt opofferen Los Angeles en San Diego bij oorlog met Iran \"kleine prijs\", Californië reageert woedend",
+        "url": "https://vrtnws.be/p.7n57bb91j",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Standbeeld van naakte Donald Trump opgedoken in Europees Parlement - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSmpFaTFyZXlDcm1STEVxYVNiVjN5NEM4SkY4RXJqWWRscUhrU3htSUtuWGFZbU5XYk4zLWgtNEhxVkJRd2tiX01TOG1iQ2tSLVQ3S1QtTUpjTXljT1otd1NuWG4xcEZyVG5vOUxNQl9SNU9DRGtaNU9Ea3J1QzVoY21iMGxIOTRDZGJMMDRDUnVlNHEzMnZNQVFhYzItNjdsTUFYNFZBSlRodVBNcnBTMEtOdy1DUGgw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Verenigde Staten vragen formeel extra uitleg aan Rusland over mogelijke pestuitbraak, Trump wil snel overleg met Poetin",
+        "url": "https://www.demorgen.be/nieuws/verenigde-staten-vragen-formeel-extra-uitleg-aan-rusland-over-mogelijke-pestuitbraak-trump-wil-snel-overleg-met-poetin~bca84d479/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump au pied de l'Alamo pour tenter de sauver un de ses candidats au Texas",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/07/donald-trump-au-pied-de-lalamo-pour-tenter-de-sauver-un-de-ses-candidats-au-texas-OE4VZU7H5VCV3LVIHU77Q5XN7E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump mise sur le diesel rouge pour alléger la facture énergétique des Américains avant les midterms - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxONHJRYm5obG9WYUtYN0N0N2V2Z0E4TW1pVElsTUYwZVpHUnNmREdfU2NvZkRqWlNjTzlPNmdRWXl1dDVEQzNqWGt2bm16V19GUnBxek4zaERZN2hDSDFxZmlFN3kzdHVJcEtyTFlVZDlnVGQyNGdka3RVN2xqb3I3cVJOTm1zVS1mVzk2VjVPaDRzejVRc1pCQmJQMTI5N0VwWW5oWmdiWlVQOGl5ZjZ5RmdMdFh3TnJaS0xRRzlCNU9ud1k3dllLdlZuczNBamYwbHh3a05iRDI5M3pUUHNnREZfSnROV1ZtQVd3Z25MVVJjWTE5anloT1NvTjJaczNEVDBZalJuTUIzLVk?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Revue de presse | Le virage à droite de l'Amérique latine qui sert les ambitions de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcmhYeGVsVVdvVXFoMXFpellVWHRMSE5TNnZzblBmV2o3Q3dfXzY4QmR1ZFhqcURUOXlHeWVNY0tyUnZDVFktZmhERnh6VmhpbXIyY2VwNXUyc083UWkwM0xTOERsYWMyTE5TQk1ydTgwU195d21ySld3cG1idzg5cTJWekRIRXRxVXpiR083dWV1VVpkRkZBS3d6MjMxTkppZTM3Mm1wc2cwYjRWc3huTjIwOE1JQklSRHhoX3gwLWV1LWdrQzQ3anRPT2FVaDgwNHg3RkNNV0xQRzA3WXZsU2VHV0E?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Soupçon de peste en Russie : les États-Unis et l’OMS réclament de la transparence, Donald Trump va en parler à Vladimir Poutine - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRFdxTTlwM2xXSEFBTWI0RGwwZWxrbnIwdXpweEFHeTVCZXZZd2o3Ul9WTUwtZ0JydmdVcnVKd3lRVDBrcjJiQ1FfUURHZFQ5ZkNOOEZVRmxoTlNER0o2aUVRZVNqcnZsYXRVMDItMGYwdHhuZ1E3djJUOUMtN2VQb1VnX0tFV1dLcjZINDVaV0ZVdFozaFBGUGplZldhQi1wSV9STU9OWTFsN3lpNkNUTjJsa09zTFpmM0N0Vng5ZUUtODl1SF9pTlNR?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 5,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 10,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 6,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 22,
+      "crime": 31,
+      "eu": 34,
+      "politics": 13,
+      "be_gov": 27,
+      "culture": 15,
+      "tech": 15,
+      "economy": 31,
+      "sports": 33,
+      "health": 7,
+      "climate": 4,
+      "migration": 1,
+      "education": 12,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 29,
+      "crime": 43,
+      "eu": 49,
+      "politics": 26,
+      "be_gov": 36,
+      "culture": 22,
+      "tech": 24,
+      "economy": 47,
+      "sports": 53,
+      "health": 9,
+      "climate": 8,
+      "migration": 1,
+      "education": 19,
+      "weather": 6
+    }
   }
 ]
