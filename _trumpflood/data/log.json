@@ -108566,5 +108566,532 @@
       "education": 19,
       "weather": 6
     }
+  },
+  {
+    "date": "2026-10-08",
+    "generated_at": "2026-10-08T12:54:21+02:00",
+    "last_checked_at": "2026-10-08T12:54:21+02:00",
+    "total_articles": 549,
+    "trump_articles": 8,
+    "percentage": 1.5,
+    "core_percentage": 1.5,
+    "core_percentage_name": 1.5,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 1.5,
+    "indirect_references": 0,
+    "wide_total_articles": 787,
+    "wide_trump_articles": 13,
+    "wide_percentage": 1.7,
+    "wide_trump_articles_expanded": 13,
+    "wide_percentage_expanded": 1.7,
+    "macro_percentage": 1.6,
+    "qualifying_outlets": 29,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 22,
+    "cross_outlet_dup_groups": 11,
+    "cross_outlet_dup_rate": 4.0,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.8,
+    "breadth": 0.33,
+    "deviation": 0.86,
+    "smoothed_pct": 1.54,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 55,
+        "today": 6,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 27,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 56,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 23,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 33,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 43,
+        "kept": 43,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.45
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 51,
+        "kept": 51,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.96
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 86,
+        "kept": 86,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.16
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 10,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 49,
+        "today": 12,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Betogers onderbreken Trump tijdens rally voor gespannen senaatsverkiezing in Texas - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONUp3NTFMd3VGeVpRdHdKSVdOXzBtU2w5YmR2LXhmWnJjbDhXWl9iYmppSVlNai0xdnVoakZhUUEwWXZ6Rk5iTEhCa3pLcnYwallQcVN4eHlzc3FMTmYtRkpiWUJWV2wwODItb0c3Umx3ZmJtZ25mcnRJZFpYeHFBZGc5c2dwaUdVODdiUEZkVC1tQWVMZW00US1ScC1feHZRajZsV1ZJQlZiRnZIbzQxakFLajhvenZvakZhcmVCbUZQVTNUZzZNV3FwVkdDZw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Trump probeert ons met sancties klein te krijgen. Maar we zullen bewijzen dat Netanyahu een oorlogsmisdadiger is” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPLVBfU3M0MVJWOENJWWJZejF2UmJQQ2gxSnE2UUVPYWhyeE9UcHRseHgwOEtWQ3FRV055UHdQVmtGajNmWjRNTGJYc2d5dDZjb3RJR0w4TGZCaTVuQzdCUDlkVnVZNWduN1VJa2Jydm84MTRnQ1lUa000clpjbFlSVFBNd1BfSGFjV19ralZkcm40YU5GOVkteGtoY2RQZ3dhWWtLbWJXdEUtQlFCb2ZyV3VEUVlCQlhHRDJqdVV5TVEwclAzZGZaY0w2Z0ZaQ3R2RkVWd3U2TF80My1nY2ZCZ3ZIckZyTkJEU2dYTkxnbWN3S1RuN2c?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump overweegt topadviseurs te ontslaan na omstreden Balkanreis voor pro-Russische regering: “Als er een belangenconflict is, vliegen ze eruit”",
+        "url": "https://www.hln.be/buitenland/trump-overweegt-topadviseurs-te-ontslaan-na-omstreden-balkanreis-voor-pro-russische-regering-als-er-een-belangenconflict-is-vliegen-ze-eruit~a0487dea/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Zware ontploffingen gehoord in Saudische hoofdstad Riyad • ‘Trump overweegt nieuwe aanval op Iran vóór de tussentijdse verkiezingen’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-overweegt-nieuwe-aanval-op-iran-voor-de-tussentijdse-verkiezingen-houthi-s-ballistische-raket-afgevuurd-op-luchthaven-in-riyad~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Laat ze Los Angeles maar verwoesten’: wat Trump precies zei en hoe het Witte Huis die uitspraak verdedigt",
+        "url": "https://www.demorgen.be/nieuws/laat-ze-los-angeles-maar-verwoesten-wat-trump-precies-zei-en-hoe-het-witte-huis-die-uitspraak-verdedigt~b9d55ee2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump wil nieuw Camp David op zijn golfclub in Florida bouwen: “Voor alle toekomstige presidenten”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-wil-nieuw-camp-david-op-zijn-golfclub-in-florida-bouwen-voor-alle-toekomstige-presidenten/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Musk décoré jeudi par Trump pour ses contributions à la science : \"Le gouvernement est reconnaissant\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/08/musk-decore-jeudi-par-trump-pour-ses-contributions-a-la-science-le-gouvernement-est-reconnaissant-LMU7VXXEYZBR7BGLCSRCLNCFTM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Voici la récompense qu'Elon Musk recevra de Donald Trump ce jeudi",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/08/voici-la-recompense-quelon-musk-recevra-de-donald-trump-ce-jeudi-WKOFNFOZGNBS5GU3ALF763UMDY/",
+        "source": "dhnet",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "‘Laat ze Los Angeles maar verwoesten’: wat Trump precies zei en hoe het Witte Huis die uitspraak verdedigt - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM2FBNFRFa25xU0s4Um9TRU1IMklIaGdpYmM5d21hOXNoWmVrSG04RERiZDhIOTgzM05wU1BfUF8xR25RcHNhTnQ1ODBxWUhFVHlhSUxXSmpwdWxHd1k1bnZvb3VocWlQLUluT0VDSUxPUjloU0toRW5pY2c5cGh6T08wbE14QTk1MG5jM3h1SHUya054cWJGLUVaR2NDcnBxdFNEckJiWndqVFh3bDdIQjRGSnlwOGEzUGJ6bUFfUFRjeU1TdmFZaWxVdEJPNEYtSW9PRkZ4WlRCQmVC?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil nieuw Camp David op zijn golfclub in Florida bouwen: “Voor alle toekomstige presidenten” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRnZxUTF2S2xQeTFOQWRseHlCR0V0djlkZ25pMElqWC0wc3lWWE5BT0lvMUNXS2Q3TW10d2xLbi1zRmgtTnF0Sms2VXFBYlI3ZFZ6MnZtYzdqM3N3RUN0MVQwQzRESjNsb2lfbEdPTEszM0UyYkdqQXVTNzRET0pvNTNpNTVhVml3N3BiZldDUjhSUXpfUTNKNmNXVlZhbWpGWjFlTTlNOFJEcUR3NWlfR0tYdTZ0Tk9DdDZfZFpaV1hESUZ4cDZDUFlVRWxfNW4xX0FJNVkzSFJaX1JCRFE?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump overweegt topadviseurs te ontslaan na omstreden Balkanreis voor pro-Russische regering: “Als er een belangenconflict is, vliegen ze eruit” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPTG9Gc0J0Ul9acldTaF9qajFzTWxWZ2NRMVZoX3U1TXdWeHBmakw0RnhkUUl3aFVSRHVRbGdTVnl4WWdqUVNxOEtTeGtJMVY0TlAwcTg2eDZFX2FHTXFielBvaGU0WDBNTjc0dW9aNnBlWU5HWUwyY3VTMEJfOFFVM0Y4cXlNZ0FfN1lxWXI1alhNVzJaazU2SmJFWGNEbEh6dVV2MnVtaF9qenlkZnJueFJkdWNDVTcwNUV2TVBER1Y0VHBKem8xRlI1dTJZX0MzM2FfRnc5ZlJta0puMHdhRUdzaUR5NGI4Zkp1ODRqaUJwb0NtSjNJeG5vNU9WNnBkOHdaSTJNazQ3MTB6?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Le retour en grâce après la brouille: pourquoi Musk va être décoré par Trump - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWjhNSGlFVTNwaHlzeUE2cUhaYVdON3A1emVhUnpvLUtWOXhpMzdyQzQtZXF6cHkwVmoyVjVwd01LZllfcmEwNU10aGRuc3VJLU5ITC1NOFFBOTBYNklja3l4MWxXV3NKNFNOV1JuUHlHY1ZuTk5jUS1HZVFfVVJIOFU2VjdjVElUdDBacFRVSG11RXU4cXdtZ3FRQ05RMVVzZnZfYkZaSTNQVUFmcEp5d2xSMTB0dw?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Betogers onderbreken Trump tijdens rally voor gespannen senaatsverkiezing in Texas - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONUp3NTFMd3VGeVpRdHdKSVdOXzBtU2w5YmR2LXhmWnJjbDhXWl9iYmppSVlNai0xdnVoakZhUUEwWXZ6Rk5iTEhCa3pLcnYwallQcVN4eHlzc3FMTmYtRkpiWUJWV2wwODItb0c3Umx3ZmJtZ25mcnRJZFpYeHFBZGc5c2dwaUdVODdiUEZkVC1tQWVMZW00US1ScC1feHZRajZsV1ZJQlZiRnZIbzQxakFLajhvenZvakZhcmVCbUZQVTNUZzZNV3FwVkdDZw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Trump probeert ons met sancties klein te krijgen. Maar we zullen bewijzen dat Netanyahu een oorlogsmisdadiger is” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPLVBfU3M0MVJWOENJWWJZejF2UmJQQ2gxSnE2UUVPYWhyeE9UcHRseHgwOEtWQ3FRV055UHdQVmtGajNmWjRNTGJYc2d5dDZjb3RJR0w4TGZCaTVuQzdCUDlkVnVZNWduN1VJa2Jydm84MTRnQ1lUa000clpjbFlSVFBNd1BfSGFjV19ralZkcm40YU5GOVkteGtoY2RQZ3dhWWtLbWJXdEUtQlFCb2ZyV3VEUVlCQlhHRDJqdVV5TVEwclAzZGZaY0w2Z0ZaQ3R2RkVWd3U2TF80My1nY2ZCZ3ZIckZyTkJEU2dYTkxnbWN3S1RuN2c?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump overweegt topadviseurs te ontslaan na omstreden Balkanreis voor pro-Russische regering: “Als er een belangenconflict is, vliegen ze eruit”",
+        "url": "https://www.hln.be/buitenland/trump-overweegt-topadviseurs-te-ontslaan-na-omstreden-balkanreis-voor-pro-russische-regering-als-er-een-belangenconflict-is-vliegen-ze-eruit~a0487dea/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Zware ontploffingen gehoord in Saudische hoofdstad Riyad • ‘Trump overweegt nieuwe aanval op Iran vóór de tussentijdse verkiezingen’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-overweegt-nieuwe-aanval-op-iran-voor-de-tussentijdse-verkiezingen-houthi-s-ballistische-raket-afgevuurd-op-luchthaven-in-riyad~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Laat ze Los Angeles maar verwoesten’: wat Trump precies zei en hoe het Witte Huis die uitspraak verdedigt",
+        "url": "https://www.demorgen.be/nieuws/laat-ze-los-angeles-maar-verwoesten-wat-trump-precies-zei-en-hoe-het-witte-huis-die-uitspraak-verdedigt~b9d55ee2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump wil nieuw Camp David op zijn golfclub in Florida bouwen: “Voor alle toekomstige presidenten”",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-wil-nieuw-camp-david-op-zijn-golfclub-in-florida-bouwen-voor-alle-toekomstige-presidenten/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump wil nieuw Camp David op zijn golfclub in Florida bouwen: “Voor alle toekomstige presidenten”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-wil-nieuw-camp-david-op-zijn-golfclub-in-florida-bouwen-voor-alle-toekomstige-presidenten/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Musk décoré jeudi par Trump pour ses contributions à la science : \"Le gouvernement est reconnaissant\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/08/musk-decore-jeudi-par-trump-pour-ses-contributions-a-la-science-le-gouvernement-est-reconnaissant-LMU7VXXEYZBR7BGLCSRCLNCFTM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Voici la récompense qu'Elon Musk recevra de Donald Trump ce jeudi",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/08/voici-la-recompense-quelon-musk-recevra-de-donald-trump-ce-jeudi-WKOFNFOZGNBS5GU3ALF763UMDY/",
+        "source": "dhnet",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 8,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 5,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 13,
+      "putin": 4,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 5,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 18,
+      "crime": 19,
+      "eu": 23,
+      "politics": 24,
+      "be_gov": 19,
+      "culture": 10,
+      "tech": 7,
+      "economy": 25,
+      "sports": 34,
+      "health": 4,
+      "climate": 6,
+      "migration": 2,
+      "education": 14,
+      "weather": 12
+    },
+    "wide_themes": {
+      "war": 28,
+      "crime": 24,
+      "eu": 37,
+      "politics": 29,
+      "be_gov": 23,
+      "culture": 11,
+      "tech": 12,
+      "economy": 33,
+      "sports": 57,
+      "health": 10,
+      "climate": 11,
+      "migration": 5,
+      "education": 16,
+      "weather": 15
+    }
   }
 ]
