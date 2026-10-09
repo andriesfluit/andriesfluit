@@ -109285,5 +109285,556 @@
       "education": 12,
       "weather": 15
     }
+  },
+  {
+    "date": "2026-10-09",
+    "generated_at": "2026-10-09T12:53:13+02:00",
+    "last_checked_at": "2026-10-09T12:53:13+02:00",
+    "total_articles": 594,
+    "trump_articles": 8,
+    "percentage": 1.3,
+    "core_percentage": 1.3,
+    "core_percentage_name": 1.3,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 1.5,
+    "indirect_references": 1,
+    "wide_total_articles": 810,
+    "wide_trump_articles": 15,
+    "wide_percentage": 1.9,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 2.0,
+    "macro_percentage": 2.6,
+    "qualifying_outlets": 26,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 29,
+    "cross_outlet_dup_groups": 14,
+    "cross_outlet_dup_rate": 4.9,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.67,
+    "breadth": 0.39,
+    "deviation": 0.74,
+    "smoothed_pct": 1.57,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 59,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 25,
+        "kept": 22,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 13.64
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 25,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 13,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 39,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 49,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 39,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.56
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 84,
+        "kept": 84,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.19
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 26,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "trends_g": {
+        "fetched": 53,
+        "today": 19,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Vrijdag op tv: een zwierige worp van Tarantino, de coming of age van Trump en een belangrijke stap voor de Red Flames - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQTgxenZQWE0wblpJOUdZSEppTnp6dDZ1aVM5Y1ZUNUtxdm9pazZ0YmFlOXBoRzRWTGx3Q3JIS1RINi1EZGpYOWFsNmJlaEt4TG5vUUVXMjg3dE1LbmVkQ29DeG1ZM2Z3WDVDZEtvOTlEbU1JRkRESkZaUFdzU2tBbXI4RVd4MjEtcXJ1QzFrZzdiNzFhZlV6Q2tsb0NkaTlYWE1lUW5qV1hER3NpN2pyTjdPeDVZNXE5ZG9tcGFQTldwOV8ySFMwYnpJTnQxaXBQUS1oMWdSaG5xQ2N4aHVoaDZVOHl6R2YzRjZ0U2R4cGdZWmZP?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Nobelprijs voor de Vrede gaat naar oud-VN-mensenrechtenchef Navanethem Pillay, die meteen grapt over Trump",
+        "url": "https://www.demorgen.be/nieuws/nobelprijs-voor-de-vrede-gaat-naar-oud-vn-mensenrechtenchef-navanethem-pillay-die-meteen-grapt-over-trump~b09239e5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Losgeslagen anti-Amerikaans tribunaal’: waarom een Nobelprijs voor het Internationaal Strafhof Trump diep kan beledigen",
+        "url": "https://www.demorgen.be/nieuws/losgeslagen-anti-amerikaans-tribunaal-waarom-een-nobelprijs-voor-het-internationaal-strafhof-trump-diep-kan-beledigen~beb3b2b5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump exclut d’attaquer l’Iran avant les élections de mi-mandat",
+        "url": "https://www.rtbf.be/article/trump-exclut-d-attaquer-l-iran-avant-les-elections-de-mi-mandat-11797382",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Philippe Paquet: “L’alternance ramènera à la Maison-Blanche des dirigeants épris de solidarité transatlantique”",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/10/09/philippe-paquet-lespoir-en-guise-dau-revoir-lalternance-ramenera-a-la-maison-blanche-des-dirigeants-epris-de-solidarite-transatlantique-WIKSVLNKCJHGLLI5MWDIIFIMCU/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Que se passe-t-il entre Donald Trump et Elon Musk ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/09/que-se-passe-t-il-entre-donald-trump-et-elon-musk-3OZX6SZREBA4RKAOWQJGD6FVBY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Vers une réconciliation entre Trump et Musk ? Le Président décore le multimilliardaire d’une médaille scientifique et le qualifie de “trésor national”",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/09/vers-une-reconciliation-entre-trump-et-musk-le-president-decore-le-multimilliardaire-dune-medaille-scientifique-et-le-qualifie-de-tresor-national-UIZEQEU6JFH4PFSS7NBTN56OWY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump décore Elon Musk d’une médaille scientifique et le qualifie de « trésor national » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlV2aHluWDZXVl9ZVmFCWmxPSFlyS2JIOTZXSllNTHl4bTZBbW5VQ2NNRHFRbVVjYktfMTlPUVFQOGFhXzRWb0owNnVreXBUbW4zZDYwaWNxQlJmc1M2ZmVnbER0QkM5RlRaZF9yWEJISEhlMHVWVUZIZExLTXpUckFOMkdodDRNdG51STZKY3c4M2t4aVhyQVdOdWlrSGVDTGtEUEVVNlBZWGdkTDhZQkJzTWE3ZUNLeEYyR1FkTQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump décore Elon Musk d’une médaille scientifique et le qualifie de « trésor national - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdjJVbjk2bTNIVGUwbE1QVUVNSnhtd3dYZVh5b0FQVTdXNjBwWk1MaW02WnptNGJjOU90VjNmYTk2TS1DbXJRcDg3VktTWXdoeFZ6ZEhZdDZaQ0F6cENnWHAtTUNHck5aWVpZTEhiOXFydThJZjJLa0xqUktlOVB5aTlNTHU0aWNET1hCbkpSVmZFZnpSUVNJS0dqUF9oUGhxRmFLMlJiV0tRWDJ2NXdjbmZBdTJDa1I1b3dhTF9TTE96dkRiWTlRY0Y0TVZub0hZSndlLXZIb2RzQ3dq?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "‘Losgeslagen anti-Amerikaans tribunaal’: waarom een Nobelprijs voor het Internationaal Strafhof Trump diep kan beledigen - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdTFPazg5TFMydVZvU3RZeUtrelhkUl82UE1TUVl0QVZSdDY3SXp3bWdrUVh4TldVaU5QM0V6S2tKNEVZRmxHOElFZHBCYkdhM0EyLVgzak9pc1NUUVM4YzUzaWl2b2JRMjhtSVRENDlnLU9ZaTJFM0s3VFV6RTJnTmtnYVZjbVAzcl9McmVJYXRBdEk3NjlHNVFnTlJQcV9tMmdjcTc1T2hSNjdDZmx2eVUyMTJNT21lUTQtRDJueVhKS3hsM0lGeVMxU3hjeDFGaFNXYW84bFZSSjZfdmhxeE4zZjRaTlhIUlR3aEJ1TQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Als Internationaal Strafhof de Nobelprijs voor de Vrede wint, is zelfbenoemd kanshebber Trump nog dieper beledigd dan vorig jaar - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQllXcVNPZTlLMHo4NXYxektFaUtMMlg0NjNrdlhYOGFVaW9rd0U4dEpzRmZxYVBOYnJuYXh6a1VwVWR1QXROeTlOUHVUN2puajYtMEF6VUQ4NS0xSXpYc2Y0YmpHMExMb1ZHdVF6NV9iN0FDSkRBZEpZRWhYX0R0YWNqMlNMb1FCMmliLXNvSmYyQW4yZW5xRFY1SGxGeE8wdVFSWG4wajNvU1c1SGN3bnJrQTJfZFY0WjBjQ3dxWWtFUV9wYmdzNmFWai0tZVB1THpKMFJNeGJ6N05lcEhVZ3NlLW1qeWQxb2JZSGRFNmZjYWl5M1k3TW51cG0?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Metro in Kiev ligt stil door Russische aanvallen - Oekraïenes spreekt dit weekend met Trump-team in VS, ook Europa zou aanschuiven - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQajFiZnlyel8weEZOV3U0V0t3dm85SkI1TFB6VGxJX0t0U3oxX2VlVDVXaHphMjFGRFZ5dG1JVXJ4ak5DcmdtcXVVTnZPR19WRTFhZHNZbXJuQmpudzBYQ1hFdFZuX2cxWmlxYU56dC1vRWVfS2JHVEZibW5FLV9hYUVYZDhtdC1MUy1wVFAycy1EaVlzV1ZlWmtFX3A2ZTZJeUR3dlpQdVpFZ0lxUlJOZ1cyRzUtSnRHTjFtOWtTd2l0eHlZX1ZyaWdpbXJCY05nZmxGOWRNZTRMZllobTMtMUdJd3RQWXRNU3Y1QUxxdS0zNTFSX3d4alBQNA?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Onderzoeker Shawan Jabarin: “Trump wil ons met sancties klein krijgen, maar we zullen bewijzen dat Netanyahu een oorlogsmisdadiger is” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOY2lYbFR2SmZXeVd5MHQ0OVNGYVZsdTZYb1lNZi1UeTBPNDRxRHlTQ05wOEFoN2JjTG5ydkFtSkpjeGhldER5ODE1LU9HMlZnTTd5VldDV3BITEZqdHUwOXNRZEk4UXFBRzBod0tERHFpZHMyWVRvU25OWUhPY2s5ekMzN21EcEM2VkJKNW5OUkQzc3VZeG9ETTJmMWZOWldONWVFZ1ZFbmVZVy1WWGYySWdRZFAwdW5tcWFaazdMSmVOd1c0ZFJoNTRFUXIxTUhMOVZ1c1REOE1WeFBxYWR3UGJGVi1rMUdNMnV2cGhHRzhfaDRPbFBnUzVxV2UzUTJPVFFPOUpQS2ZHQkR4Nnc?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Du jamais vu : Donald Trump valide une exécution capitale qui sera diffusée en direct à la télévision - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWlVTT2JRUFJxZnZiQkVMc2N0azNSM2FqRHhEamMxV2g4YU1uaGxBc0tzbWlCdm1uMXZDWTNqX29pS1phQ2dhQ0kxVFNGRk9DeEU4VDJlNFVYZUJuYnQzMkZjX2NodW1iVFg5WmtGRzYyQU1ITi1LbGpzUDlQSnB2NHJHQi1aYk9CS0RzSEJOMGxjclpPVmF4Mm5adlNuMzlnNHRvUzl3UGxFM0xJZllrbl9SNVJfMlJhSUVha1NkVHhBY2NmWnk0?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump exclut d’attaquer l’Iran avant les élections de mi-mandat - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQnktMUZYMTRWd0RPX0lTanFVZ3VIdENXQ3ItbXdBa2cwVXF5NzZsTk02VlRodWtTM19mSDNJY09QVzU5aUJFUWhZdDh3N0xxckt3UXdYV3Y0NER3V0ZtN1hIMGhYd2ZuQlRzSWtqdGZNZnZIc214Z3lKc1RvQU85N1VFcDlXY2tOMS1raHNsWXBSRnI4YS1yaE8zZzRiVWFhT2c?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump décore Musk d’une médaille scientifique et le qualifie de \"trésor national\" - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYzdqbFBCTWRmMG1JbnZyVmlLMG40ZUkzTjdESnlpcWlhaG9GYnRQMHNhUndSN2VIajcwUDlubTV2TWYyWUt5NGlDaUcxMXhMT1VRRmk0cldRRFF3V3N2bnB1cUNwUVRsekxmWjRTaFdFOGg2OTRUWnJ3VWFjUW1KZzBUbUJKeElOdE5SRWJsZmY3ZmFXNGswRlBUc1ZvcFhFYmRQUmZHZ2pRM0t5Q0tyZnN0djJ1N2s?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Vrijdag op tv: een zwierige worp van Tarantino, de coming of age van Trump en een belangrijke stap voor de Red Flames - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQTgxenZQWE0wblpJOUdZSEppTnp6dDZ1aVM5Y1ZUNUtxdm9pazZ0YmFlOXBoRzRWTGx3Q3JIS1RINi1EZGpYOWFsNmJlaEt4TG5vUUVXMjg3dE1LbmVkQ29DeG1ZM2Z3WDVDZEtvOTlEbU1JRkRESkZaUFdzU2tBbXI4RVd4MjEtcXJ1QzFrZzdiNzFhZlV6Q2tsb0NkaTlYWE1lUW5qV1hER3NpN2pyTjdPeDVZNXE5ZG9tcGFQTldwOV8ySFMwYnpJTnQxaXBQUS1oMWdSaG5xQ2N4aHVoaDZVOHl6R2YzRjZ0U2R4cGdZWmZP?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Nobelprijs voor de Vrede gaat naar oud-VN-mensenrechtenchef Navanethem Pillay, die meteen grapt over Trump",
+        "url": "https://www.demorgen.be/nieuws/nobelprijs-voor-de-vrede-gaat-naar-oud-vn-mensenrechtenchef-navanethem-pillay-die-meteen-grapt-over-trump~b09239e5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Losgeslagen anti-Amerikaans tribunaal’: waarom een Nobelprijs voor het Internationaal Strafhof Trump diep kan beledigen",
+        "url": "https://www.demorgen.be/nieuws/losgeslagen-anti-amerikaans-tribunaal-waarom-een-nobelprijs-voor-het-internationaal-strafhof-trump-diep-kan-beledigen~beb3b2b5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump exclut d’attaquer l’Iran avant les élections de mi-mandat",
+        "url": "https://www.rtbf.be/article/trump-exclut-d-attaquer-l-iran-avant-les-elections-de-mi-mandat-11797382",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Philippe Paquet: “L’alternance ramènera à la Maison-Blanche des dirigeants épris de solidarité transatlantique”",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/10/09/philippe-paquet-lespoir-en-guise-dau-revoir-lalternance-ramenera-a-la-maison-blanche-des-dirigeants-epris-de-solidarite-transatlantique-WIKSVLNKCJHGLLI5MWDIIFIMCU/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Que se passe-t-il entre Donald Trump et Elon Musk ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/09/que-se-passe-t-il-entre-donald-trump-et-elon-musk-3OZX6SZREBA4RKAOWQJGD6FVBY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Vers une réconciliation entre Trump et Musk ? Le Président décore le multimilliardaire d’une médaille scientifique et le qualifie de “trésor national”",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/09/vers-une-reconciliation-entre-trump-et-musk-le-president-decore-le-multimilliardaire-dune-medaille-scientifique-et-le-qualifie-de-tresor-national-UIZEQEU6JFH4PFSS7NBTN56OWY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump décore Elon Musk d’une médaille scientifique et le qualifie de « trésor national » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlV2aHluWDZXVl9ZVmFCWmxPSFlyS2JIOTZXSllNTHl4bTZBbW5VQ2NNRHFRbVVjYktfMTlPUVFQOGFhXzRWb0owNnVreXBUbW4zZDYwaWNxQlJmc1M2ZmVnbER0QkM5RlRaZF9yWEJISEhlMHVWVUZIZExLTXpUckFOMkdodDRNdG51STZKY3c4M2t4aVhyQVdOdWlrSGVDTGtEUEVVNlBZWGdkTDhZQkJzTWE3ZUNLeEYyR1FkTQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump décore Elon Musk d’une médaille scientifique et le qualifie de « trésor national - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdjJVbjk2bTNIVGUwbE1QVUVNSnhtd3dYZVh5b0FQVTdXNjBwWk1MaW02WnptNGJjOU90VjNmYTk2TS1DbXJRcDg3VktTWXdoeFZ6ZEhZdDZaQ0F6cENnWHAtTUNHck5aWVpZTEhiOXFydThJZjJLa0xqUktlOVB5aTlNTHU0aWNET1hCbkpSVmZFZnpSUVNJS0dqUF9oUGhxRmFLMlJiV0tRWDJ2NXdjbmZBdTJDa1I1b3dhTF9TTE96dkRiWTlRY0Y0TVZub0hZSndlLXZIb2RzQ3dq?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 8,
+      "putin": 4,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 3,
+      "magnette": 2,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 15,
+      "putin": 9,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 3,
+      "magnette": 3,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 24,
+      "crime": 39,
+      "eu": 36,
+      "politics": 12,
+      "be_gov": 21,
+      "culture": 23,
+      "tech": 19,
+      "economy": 23,
+      "sports": 48,
+      "health": 8,
+      "climate": 8,
+      "migration": 2,
+      "education": 5,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 29,
+      "crime": 53,
+      "eu": 46,
+      "politics": 21,
+      "be_gov": 25,
+      "culture": 27,
+      "tech": 27,
+      "economy": 30,
+      "sports": 65,
+      "health": 10,
+      "climate": 10,
+      "migration": 3,
+      "education": 6,
+      "weather": 10
+    }
   }
 ]
