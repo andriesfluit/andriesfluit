@@ -110172,5 +110172,844 @@
       "education": 15,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-10-10",
+    "generated_at": "2026-10-10T12:06:27+02:00",
+    "last_checked_at": "2026-10-10T12:06:27+02:00",
+    "total_articles": 447,
+    "trump_articles": 28,
+    "percentage": 6.3,
+    "core_percentage": 6.3,
+    "core_percentage_name": 6.3,
+    "trump_articles_expanded": 29,
+    "core_percentage_expanded": 6.5,
+    "indirect_references": 1,
+    "wide_total_articles": 619,
+    "wide_trump_articles": 43,
+    "wide_percentage": 6.9,
+    "wide_trump_articles_expanded": 44,
+    "wide_percentage_expanded": 7.1,
+    "macro_percentage": 6.7,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 47,
+    "cross_outlet_dup_groups": 23,
+    "cross_outlet_dup_rate": 10.5,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.22,
+    "breadth": 0.72,
+    "deviation": 3.6,
+    "smoothed_pct": 2.54,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 2,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.79
+      },
+      "google_nl_politics": {
+        "fetched": 51,
+        "today": 5,
+        "kept": 5,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 40.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 31,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 61,
+        "kept": 57,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.51
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 29,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.9
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 20,
+        "kept": 20,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 9.68
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 43,
+        "kept": 43,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 28,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.14
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 7,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 42.86
+      },
+      "trends_g": {
+        "fetched": 57,
+        "today": 5,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Waarom Trump plots diesel koopt bij Poetin: \"Hij wil de prijzen echt naar beneden krijgen tegen de verkiezingen\"",
+        "url": "https://vrtnws.be/p.ewPeywlbq",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Ondanks sancties sluiten Trump en Poetin deal over 300.000 ton diesel: “Rusland zal terugbetalen met meer terreur en verraad” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQM0dDeXhCODNJeXRaME1kR21CVm9kQWdsUExpam1LTXRrRE9hV3hnX1B0M1E5ZmVJbng0NlNzVC1kdWdabnAtVFdNYXhXaUVsU1E1bVE5Z01GUkswS3FTNkY0NV90Nk9pNzJKNm5NMU5xV29YS1hQbG1wdlZzdjJVUFJDZk15WnlpakRVLXR1QWV2elQ5dTVaSkEtdDVWa1BpYnYyZXFPMFYwNUhiLTRxeHdxdU03eEdEMEYtSzFDOFVlTjRja3lhT1FQTFZiWkNOMjdsSWswcjYyU01oTy1HNTNBZzJReUJvRW95TElDNV9qd0U4eVRtMVJ2cG81b3NiYTNj?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Poetin sluiten deal over 300.000 ton diesel: “Rusland zal terugbetalen met meer terreur en verraad” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOekpXMXF5emhueUtJUHRPOFFVbUJrOGFNUV9ZTnpxUmZheS1NOUZ4ZzdDYjdXRzZlMnZNZ0xVY2s5dGJVYnp0YTJXOGM3SXE5eVoyb0tlQmUwR3dOMTVMNWU0ZDBSbGJsb2szZElYampxUVY2b1BOV2NwUGpfMGRsZjczVTVkS01PcHVfOWxQZTcycFU1LXlzYU9hdDUyYmVsWFM5dG01ZkEzQnFreHJmQ09md1dSQUFTRXNxcVo4d0NkZ0h3aGl5eHF4eFNnemdCS0pkVEVVQ0cwZGdoeDMzQ05Bd2E4YW15eE5ldg?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Poetin reageert met “begrip” op voorstellen Trump om oorlog in Oekraïne te “de-escaleren”",
+        "url": "https://www.hln.be/buitenland/poetin-reageert-met-begrip-op-voorstellen-trump-om-oorlog-in-oekraine-te-de-escaleren~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump heft sancties tegen Rusland deels op voor deal met Poetin over miljoenen tonnen diesel: Zelensky reageert verontwaardigd",
+        "url": "https://www.hln.be/buitenland/trump-heft-sancties-tegen-rusland-deels-op-voor-deal-met-poetin-over-miljoenen-tonnen-diesel-zelensky-reageert-verontwaardigd~adf91711/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "▶ Trump reageert scherp na mislopen Nobelprijs voor de Vrede: ‘Een onuitwisbare smet op Noorwegen’",
+        "url": "https://www.demorgen.be/nieuws/trump-reageert-scherp-na-mislopen-nobelprijs-voor-de-vrede-een-onuitwisbare-smet-op-noorwegen~b1269bcc/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Opvallende koerswijziging: Trump sluit deal met Poetin voor Russische diesel om zo de prijzen te drukken voor de midterms",
+        "url": "https://www.demorgen.be/nieuws/opvallende-koerswijziging-trump-sluit-deal-met-poetin-voor-russische-diesel-om-zo-de-prijzen-te-drukken-voor-de-midterms~b3298121/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump is een terugval, maar ik denk niet dat we ten onder gaan’: historicus Johan Op de Beeck over de VS, Napoleon, berenmutsen en hatespeech",
+        "url": "https://www.demorgen.be/niet-te-missen/trump-is-een-terugval-maar-ik-denk-niet-dat-we-ten-onder-gaan-historicus-johan-op-de-beeck-over-de-vs-napoleon-berenmutsen-en-hatespeech~b7947ec1/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Ambassadeur Bill White en Trump ontmoeten elkaar in Oval Office om relaties tussen België en VS te verbeteren",
+        "url": "https://www.nieuwsblad.be/nieuws/ambassadeur-bill-white-en-trump-ontmoeten-elkaar-in-oval-office-om-relaties-tussen-belgie-en-vs-te-verbeteren/162874042.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump: “Nog geen beslissing over livestream van executie\"",
+        "url": "https://www.nieuwsblad.be/nieuws/donald-trump-nog-geen-beslissing-over-livestream-van-executie/162873188.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“We zullen het niet vergeten, Noorwegen”: Trump bekritiseert Nobelprijs voor de Vrede én winnares",
+        "url": "https://www.nieuwsblad.be/nieuws/we-zullen-het-niet-vergeten-noorwegen-trump-bekritiseert-nobelprijs-voor-de-vrede-en-winnares/162873085.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Ambassadeur Bill White en Trump ontmoeten elkaar in Oval Office om relaties tussen België en VS te verbeteren",
+        "url": "https://www.hbvl.be/nieuws/ambassadeur-bill-white-en-trump-ontmoeten-elkaar-in-oval-office-om-relaties-tussen-belgie-en-vs-te-verbeteren/162876537.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump: “Nog geen beslissing over livestream van executie\"",
+        "url": "https://www.hbvl.be/nieuws/donald-trump-nog-geen-beslissing-over-livestream-van-executie/162875039.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“We zullen het niet vergeten, Noorwegen”: Trump bekritiseert Nobelprijs voor de Vrede én winnares",
+        "url": "https://www.hbvl.be/nieuws/we-zullen-het-niet-vergeten-noorwegen-trump-bekritiseert-nobelprijs-voor-de-vrede-en-winnares/162873263.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump haalt uit nu hij Nobelprijs voor de Vrede alweer niet krijgt: “We zullen het niet vergeten, Noorwegen”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-haalt-uit-nu-hij-nobelprijs-voor-de-vrede-alweer-niet-krijgt-we-zullen-het-niet-vergeten-noorwegen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Van ‘Fuck Biden’ naar het Witte Huis: de bliksemcarrière van Beni Rae Harmony - Knack",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSFplSXpPWEYyZWZoUDBTd3Z5aUF1VzdwTTluT2l1NXNQdDVqUFFZalBOZHI5bGE2cUlSUFRHVTVXTmxjbzJQUmd6ZTdJaWhvVmhoUFZDQnBkeTV1Yk1KX0I5eXRtU3hLbzI1OTFhalFXdFluSXBpNks2M1ViRll2SzhTOWFaZDdNeWgzVk14RHJ6NXp5NmpiTE12TkI5cnhicE1GZ0x2cTA5UVZmUkw4?oc=5",
+        "source": "knack",
+        "name_only": false
+      },
+      {
+        "title": "Pour faire baisser le prix du plein avant les midterms, Trump déroule le tapis rouge au diesel russe de Poutine",
+        "url": "https://www.rtbf.be/article/pour-faire-baisser-le-prix-du-plein-avant-les-midterms-trump-deroule-le-tapis-rouge-au-diesel-russe-de-poutine-11797925",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Poutine a reçu \"avec compréhension\" des propositions de Trump visant à une \"désescalade\" en Ukraine",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/10/10/poutine-a-recu-avec-comprehension-des-propositions-de-trump-visant-a-une-desescalade-en-ukraine-XVUNPHGCPVD4NJJKOXVN3EA6FU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Idéologues radicaux\", \"Ennemis de la civilisation\" : Trump s'indigne à nouveau de ne pas avoir été choisi pour le Nobel de la paix",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/10/ideologues-radicaux-ennemis-de-la-civilisation-trump-sindigne-a-nouveau-de-ne-pas-avoir-ete-choisi-pour-le-nobel-de-la-paix-Z7PQ7UUJFVEEJMVCRN62WEZEBY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump scelle un accord surprise avec Poutine sur le diesel, Zelensky s'indigne : \"Une décision faible\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/10/trump-scelle-un-accord-surprise-avec-poutine-sur-le-diesel-zelensky-sindigne-une-decision-faible-JAKYKLCRCNFPXBHUHX63ERFGYA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump s'indigne de ne pas avoir été choisi pour le Nobel de la paix - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcHhCWkZ3WlFLY3RxMW5LTDdFcFZWTF9rRVNoYXB0QlNKbVpNQW5CLVFTSjJqcnNCVHJTZVpsRlFLeUpGMFkxa2pjNDdkNlU3SlpGc3NDY1F1TFhRNlcyeEpSTnAzM0VPYy1ZOE5uWTM0NWs5TUdKVEwxcGJkR3MtR1FRUUpySlZoT1BiSHlHT092Tk1VR2ZwZ3RrZG9FOFhOd2Z5aVoyanNtdFJxZmpBbGZiWG5PaHp5ZnZyenVIdXh3VWl0ZnJ4b1YxTC1yZkctZ0U2UnB1Q1k2SmM?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "“Il sera tué”, mais...: Trump sème le doute sur la diffusion en direct de l’exécution de Nidal Hasan",
+        "url": "https://www.7sur7.be/monde/il-sera-tue-mais-trump-seme-le-doute-sur-la-diffusion-en-direct-de-lexecution-de-nidal-hasan~acabb0e6/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Une décision honteuse” : Trump s’indigne de ne pas avoir reçu le Nobel de la paix",
+        "url": "https://www.7sur7.be/monde/une-decision-honteuse-trump-sindigne-de-ne-pas-avoir-recu-le-nobel-de-la-paix~a62c945c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump bekritiseert Noorwegen over Nobelprijs - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa1gzSU4zQmJaa1NLWjQ3NHBJZjBwR243RlA3T1FMMlN0eXRaWEhqdWo2MV9GNDVPTjl3MHNzOFBOY3o3VlRYRGQya1dxYXp3MzlOUzQzenRQNXJySFFMRFF3dnZuS25vbkU0TWZnWVU1Z1BRRDdQbXZyakQtVk9lY2pHNEMxNklQcWlSN2txblBLVkN3WDJPd2YyM29VUlpEME9fb1N6U2dOMjlCZG9uaXZtZG50ay0tOGlvbw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "« Honteux » : Donald Trump s’indigne de ne pas avoir reçu le Nobel de la paix - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU1h4Z3d6UFA4eDVzSWdLaTVmM3FFTGticE5hSkxSdmFKUFB2RjNINkJ3a0VuNXpSV3hqYUw2a29FM3RpTDNqTDNVZlNWdDFwY1hTSkNrdVYyaE5RWkxKYWhOTkNmeTkzUW5tNTljYmlMek8tU2lVOElSX250QjNoc1I3dkFHdHJaYTRHME12bzBtcTlfdWNPVHZUVV9LRXRXZ09QckI1YXlfZUtpNG5sZ1pWaF9zUmRaNVE?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Poutine a reçu « avec compréhension » des propositions de Trump visant à une « désescalade » en Ukraine - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcmZGVUUyUkpUdGxnWklEbGEyTmlBYmJyelRPeU9uTEtzckZ0ZEwxelluc3hIc3hCa3dOelhRSE5HM3VXRU1PZHVlb0tSMlp4UUFPSXBKVlNNOWtwMWI3MjhMbWlvcjNTU2JSMUhtZ2RMUWcyMGdKUjY0b3Y0aVZKd2xJY3BGZkRUWGkyOW1PaGtqRExzMEUzaHhhbHZvbG1kR1VxdWVJeEp4aTJLZHhvNVlUbHdNZWdBdWxGTjRjSk1EZWI2X0Jn?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Une décision honteuse et embarrassante » : le prix Nobel de la paix échappe à Donald Trump, qui s’en indigne - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONlNWMEVldW5KOGljWkhLMjdlcDR3algtcDVWNGd0SXlCS1UtZHR6RmlJZFZtUHhyNmJxMk8tcWdjUDFKMXh6X1VSa0piNlhjRUQxOVZJNHVQNndjX1BXaGlvcF9FY295Tl8yRjI4YjcyamdPVUpfRjB4dEd4Y1B1TEFVMi1ERk1wSFZGVmNoNVA5T25faXE5Z0hCbEQ3SDdQc2ZqeVlPUW9Db19LVmw5ek00NGpmZlBnZFNzb002alJvRFN3cldHRHo5N0FjR0VrSkN5WjJjc3lqOUVUN25IZVJ3?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump estime qu'un meurtrier de militaires \"mérite\" la mort par peloton d'exécution - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUmNfazU0dm94WVhHT0N2N2NDdy1MNVJSMXZ4TzBIWjdPanFxWG9BeFBJaTEydmdTTTQ3dW11UzB6NmVYRFdyZFlHWmRJc1RNOTRrTWZsV0czekNOYWotS3g1Rm05dmlma2JCOUo4YVJZSFliakdWN0hEdnNDNGp2RzkzWV9NR0VlRWVkWmt1WWNqTU0yaXgtaVVIaVZqSFJlS1c3YjdTLXF4Qk52X1pqSU1TTnMtc21uckFxbm13SWNjdG1iTFN6eVUyMngxMFk?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump s'indigne encore de ne pas avoir reçu le Nobel de la paix : \"Une décision honteuse et embarrassante\" - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMVdrVU5VRWlMcUZ5aEg5V1lQblRVZzE0aWFac3BfdFVMMW1zWlJHT0czbFZQLWdqMmM4WWRqT3NaX096Skp3YUJLcXllQjNPODMtUWRpSXEta1ItRTNTNWF3aUEyZ0x4QVJZMmZEaDE3Y3pYYkRneHNwbDFZRDVfa0IzeHZvbHotamRndHhZMlh6MVpXYk9JZmxSbWtSU3NBQ1JNN2IyM19YU2JnV2lVd1U3RzhvaHdneWdaTTBBUTc1Q293cDZ1TUZR?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump reageert scherp na mislopen Nobelprijs voor de Vrede: ‘Een onuitwisbare smet op Noorwegen’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWHRDdzBsZ2l2NG9CNGcwMVd0S0tCRTJJSXROMGpMWFkxQ1RCaVZudzlZTWtsUkNxTEJMQUl2OU9VWXlnejFRNU5BbjVIbkRaQjUtT3hlY3dYM2dyaXVoS24wdW5zeGpUN0lOODFQeDJOTF9GdVhKNkxrd2pqcXBhcmhCUnNIbWRISWYxamxlVGpsbXdCdjA5ODUxeXdWSXpsdllQRjRrMHBROEttSGdsTXJSZWtvMVFvbXlWLWsyakh6Z0FJTEotRHdmMnNWLXM?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Ondanks eerdere sancties sluiten Trump en Poetin deal over 300.000 ton diesel: “Rusland zal terugbetalen met meer terreur en verraad” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQVnUybDFrQnA2WjB2NldMRXMySEFiVFZIMlhMTVpzSFNxWmN5R3VOOGhLSFZSeGRwQzdQeksyRHdZbWxjSEdRN1ZSb0Iwa1UtekQzUW1CUlBhTFVlNEd0WVpqV1JLUFlaelA2Qng2TlZ1anBCbi1UQmh0b2MxTHhnMWpjU3FaUG1XNXlIUDR2dkhybGVjbXlpSy1YMTF4SGhGSEFOejJDa1hRU3VxcXBmQk80ZTBfZGZXdjdQX2p1ZWNYa2w1cUVSS0tmZURqOEhDTUtrbDRqRVFpOFJaMmp2ZFFYb3BhVTJsdk9wUm5TXzB5QTRtZ2ZyMEViRXRjV3FrRXJtQl9XNEFSc29nSkE?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "'Idéologues radicaux', 'ennemis de la civilisation' : Trump s’indigne comme l’an dernier de ne pas avoir reçu le Nobel de la paix - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVi0zQ1hWY2pRSWd2eVBFZ2xCSWZPcGplRzZUY1ZXUXhCSU03LXBHSzZvcGlqNVFYZjMzSkpaeEw2ZXA4MER4VWhMSHN2SUphZHpTa0NFWWJpdUp2Zmhxc2FLTGpYdkV3T2J5TmhiZndVaGJrWHhLcmlkNlZzVERPX09kVm5MYW1ZS0MzUDhTbFpuS1dROVVrcElvU3hQeXltU0xmZ3FpVE1oYUp0YjhGQ3R4ak1qMjVQNEpyOWJBaDZPSEdVdDVfZ3lNVENKVjlTcjJ0aUVGUW1XR0FITDd6WXBXWk40Y3o3YXdKb1dXb2E?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump scelle un accord surprise avec Poutine sur le diesel, Zelensky s'indigne : \"Une décision faible\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxORmhyUVR0MTJaUW5penN1THZuV2VVZkFPYkdHVG5QQXNuQjFBR1dNXzBBeVBBbUs1cHZNbmJwVnZGWXdKOTNvUW9nVU1vVzZobXF0SF9OTGlDM05mLVRUb0Jic0NiMXdTZFhPOTM5REQyVjR3cDNhQzkwYVM3Q1I0NzEwVnluMFZySWpDZS1DUDZkMGhUT0IzbHZYdm8yNGItajJFWjZDLTg5VlJidV9HMDRaM2JpVy1SSFBLaXp6S0hGb0xYdVlzU2kwVFNnRXdOVjNtcUtIYjVJOHZDWG1GZlNFNjhNVW1QNDg4YmpmRzl4NXhpMWZqTTZaeml4c1RHaGctMnpnZE1QZTh3dEE?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Exécution capitale diffusée en direct à la télévision : cette phrase de Donald Trump qui sème le doute ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRFhTLUEzZGpkR21aNEplWHk3N3owQUZSaHEyVFpWSUlPdWw5R3FDanRLYkhzcTY5aDRpWjFmRERlS2ExOHVwdC0xbkNwUTIwVllUeTcwa2c5Mmk1TVhSRkpPaDFIR1V1QmNiYk90aEtrZElLc0xZNzI1SWVkZFRGNl9qU2ctaDVHeDBlTm1KZWJmZk9fb2VtZjczZnk0VW9lS2NsLV9PLWoyQU5hbHpBMVk5Vk5uczAwMXBRejBGOGVWb0x6UFRVQTJuTTY?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump bekritiseert opnieuw Noorwegen voor keuze Nobelprijswinnares - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ1d3UzdTcVlCZGM5bFd1TGRLbFFaV1Eyb0R0dHB1akdXWVNUYldhS0FWVzlhRE5KTTlXTnJOMG1nOEpLcFhmSTUwalM4Rm91RUFBb1dqTndjZU4zdDczV2w1bHpMVmR2dWNNaFlKb1BhekxCaTQyaGtpVUpkclpjc2prMGtZeVoycVpuVHJIaHhxWHFRTUJvRktYTllJclZzOFlWcUFlZnBLN1l3ZWF4cDhsR0l2Q1BXTnU2ZE9R?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Ambassadeur Bill White en Trump ontmoeten elkaar in Oval Office om relaties tussen België en VS te verbeteren - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTVc3YnFIMVhaSzk5TjU4V2VzWU9BMGd1ZTJ3WDR1MTUtZHYxTl9GdlJxUHRjUzRQcVgtd25IZFd2bEE0U1N3SWZzNFdTWl80cXNscjZPNHFDV2Jkdzg2ZGlTUEswNXBqZlJ1QUlBZk9SR2trRkpaV3QyZTN1NFo2MzJCazg3dHlZcFhJaUtzdElUcVVnQlMwRUZMV2hLRkJRcGhoYjRZS20xS1J4Zy1lcVBsNmlJTWdhUGRYeGpGaXJXa1JWN2lkUl9XaDlaTWhaQUZ2aU5pNkZGdm5rQTFXbE45ZF9uNjdMWFdkQ1Jn?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump: “Nog geen beslissing over livestream van executie\" - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcUlVOG8tX3ZEQVVCQUctZmRybVlMTHJ6eGdmeWFLOW9LMWluNmd1N1IydFgxMjhJUEp6NGttMWpRWTZxQ2tpSnR2TXpraGNIbVN2MlhoMFZ0QjN0Mk1ZVW5FaHRKQXNHZ2pRajMtVGxQcXJQQ3FYbjVqNm5zVGtlTjZHSXItOVRpaUZIdGpsWks2V01DQ3h3T3Vaa1JQM2pYV3F4SVRRVUl3Y0pPWmc?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump herpost: “Nobelprijswinnaar haat Israël en Amerika en prijst terroristen” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZWZ3dmJ6SFZxV210UUNlalpLM3pMNGdSRVRoM3FDVExscG9STUwwOGpOV3ZkNXlBdUdMTHpwT1RSMUw1N1lxWUUwcGcyYVUzZklVTnJzOTI2Q2NtTUZxNDlPOWtCVmJmaGZUY0tfOTNjUUx4T1BkWTNJUmM0Y24tOU5WdmtJa2pzVzBxODE2a1VFam40SDJKUk4wUURvdjhBWGpUTFhseUlqNTNTZk9qWHVmb05ELUQ0T19ta3NLYTZvUTd4UlE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "“We zullen transacties met dit schurkenhof verbieden”: meteen nadat voormalig rechter Nobelprijs voor de Vrede wint, legt Trump sancties op aan Internationaal Strafhof - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNRk1ndFR4Z1J1VWxFSmVOUjhVaUZ2SWRXTnZndjNCMXZ6djRxenVjVWFKQXJ6MERlSWhqVHlxRmF3VjRSejdWZHQ3TDI2Tks5VzVFOGR4NVRPa19sNVM3YU02YWtmVk5YQWpCaVFGY2d3T3RoYnREeXhLeVhUQ0tYOUJjRFk5bDVjWU5ud2k3a211c0plYUx3ZTUtZFZURGJ3NF9FVVBzRmhWdHVBd1RXX2hiT1BrbzdxTHk5Umx3ckR1VkxSYnpQTVY0aDRmX19oS2ZXM2s2Z1BNY25fOGdwOVZlOUpzSjNNclNGbHhzNldaalY1Yk5iRVhWSlBSczM3bzZPMEhpYTNmdUt2NE9FMlUzbENBRk1nbjJ2ZlhLdURwVXdjWEFEcGk4eE1TeXBPVTc3NzltaVZoSlU?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Accord entre Poutine et Trump sur du pétrole russe : Zelensky fustige et dénonce une décision « faible » et « indigne » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYzJ1dnlhMjBUVGdhMDhselI2UUk1M05QUk5CbVFLRU5yWWdDQVZFWDhJZUY2d1dyVy0tVmlDZ0VWZTNTN0dUUXkxSFVNUzVWcFp6ay1xT1p2RkJjQm5WaVAyeE4xMGJEaUVWYjdfbHBNalcySkN1b1UyZkJwdWRheU83TU1ZeDRfNkJ1ZUNkcldHNlkwUG9VV0ExSm5aaExHd0V0WmdKNW95UEY5SUxvV2J5dkszQzFSNXBZRk1CNFVwZ0JXNVJqWk5wWmx3SUp4OW91TTRhSGxXQ0FMUHdwR29n?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Waarom Trump plots diesel koopt bij Poetin: \"Hij wil de prijzen echt naar beneden krijgen tegen de verkiezingen\"",
+        "url": "https://vrtnws.be/p.ewPeywlbq",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Ondanks sancties sluiten Trump en Poetin deal over 300.000 ton diesel: “Rusland zal terugbetalen met meer terreur en verraad” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQM0dDeXhCODNJeXRaME1kR21CVm9kQWdsUExpam1LTXRrRE9hV3hnX1B0M1E5ZmVJbng0NlNzVC1kdWdabnAtVFdNYXhXaUVsU1E1bVE5Z01GUkswS3FTNkY0NV90Nk9pNzJKNm5NMU5xV29YS1hQbG1wdlZzdjJVUFJDZk15WnlpakRVLXR1QWV2elQ5dTVaSkEtdDVWa1BpYnYyZXFPMFYwNUhiLTRxeHdxdU03eEdEMEYtSzFDOFVlTjRja3lhT1FQTFZiWkNOMjdsSWswcjYyU01oTy1HNTNBZzJReUJvRW95TElDNV9qd0U4eVRtMVJ2cG81b3NiYTNj?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Poetin sluiten deal over 300.000 ton diesel: “Rusland zal terugbetalen met meer terreur en verraad” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOekpXMXF5emhueUtJUHRPOFFVbUJrOGFNUV9ZTnpxUmZheS1NOUZ4ZzdDYjdXRzZlMnZNZ0xVY2s5dGJVYnp0YTJXOGM3SXE5eVoyb0tlQmUwR3dOMTVMNWU0ZDBSbGJsb2szZElYampxUVY2b1BOV2NwUGpfMGRsZjczVTVkS01PcHVfOWxQZTcycFU1LXlzYU9hdDUyYmVsWFM5dG01ZkEzQnFreHJmQ09md1dSQUFTRXNxcVo4d0NkZ0h3aGl5eHF4eFNnemdCS0pkVEVVQ0cwZGdoeDMzQ05Bd2E4YW15eE5ldg?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Poetin reageert met “begrip” op voorstellen Trump om oorlog in Oekraïne te “de-escaleren”",
+        "url": "https://www.hln.be/buitenland/poetin-reageert-met-begrip-op-voorstellen-trump-om-oorlog-in-oekraine-te-de-escaleren~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump heft sancties tegen Rusland deels op voor deal met Poetin over miljoenen tonnen diesel: Zelensky reageert verontwaardigd",
+        "url": "https://www.hln.be/buitenland/trump-heft-sancties-tegen-rusland-deels-op-voor-deal-met-poetin-over-miljoenen-tonnen-diesel-zelensky-reageert-verontwaardigd~adf91711/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "▶ Trump reageert scherp na mislopen Nobelprijs voor de Vrede: ‘Een onuitwisbare smet op Noorwegen’",
+        "url": "https://www.demorgen.be/nieuws/trump-reageert-scherp-na-mislopen-nobelprijs-voor-de-vrede-een-onuitwisbare-smet-op-noorwegen~b1269bcc/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Opvallende koerswijziging: Trump sluit deal met Poetin voor Russische diesel om zo de prijzen te drukken voor de midterms",
+        "url": "https://www.demorgen.be/nieuws/opvallende-koerswijziging-trump-sluit-deal-met-poetin-voor-russische-diesel-om-zo-de-prijzen-te-drukken-voor-de-midterms~b3298121/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump is een terugval, maar ik denk niet dat we ten onder gaan’: historicus Johan Op de Beeck over de VS, Napoleon, berenmutsen en hatespeech",
+        "url": "https://www.demorgen.be/niet-te-missen/trump-is-een-terugval-maar-ik-denk-niet-dat-we-ten-onder-gaan-historicus-johan-op-de-beeck-over-de-vs-napoleon-berenmutsen-en-hatespeech~b7947ec1/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Ambassadeur Bill White en Trump ontmoeten elkaar in Oval Office om relaties tussen België en VS te verbeteren",
+        "url": "https://www.nieuwsblad.be/nieuws/ambassadeur-bill-white-en-trump-ontmoeten-elkaar-in-oval-office-om-relaties-tussen-belgie-en-vs-te-verbeteren/162874042.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump: “Nog geen beslissing over livestream van executie\"",
+        "url": "https://www.nieuwsblad.be/nieuws/donald-trump-nog-geen-beslissing-over-livestream-van-executie/162873188.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“We zullen het niet vergeten, Noorwegen”: Trump bekritiseert Nobelprijs voor de Vrede én winnares",
+        "url": "https://www.nieuwsblad.be/nieuws/we-zullen-het-niet-vergeten-noorwegen-trump-bekritiseert-nobelprijs-voor-de-vrede-en-winnares/162873085.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Ambassadeur Bill White en Trump ontmoeten elkaar in Oval Office om relaties tussen België en VS te verbeteren",
+        "url": "https://www.gva.be/buitenland/ambassadeur-bill-white-en-trump-ontmoeten-elkaar-in-oval-office-om-relaties-tussen-belgie-en-vs-te-verbeteren/162875825.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump: “Nog geen beslissing over livestream van executie\"",
+        "url": "https://www.gva.be/buitenland/donald-trump-nog-geen-beslissing-over-livestream-van-executie/162873289.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "“We zullen het niet vergeten, Noorwegen”: Trump bekritiseert Nobelprijs voor de Vrede én winnares",
+        "url": "https://www.gva.be/buitenland/we-zullen-het-niet-vergeten-noorwegen-trump-bekritiseert-nobelprijs-voor-de-vrede-en-winnares/162873155.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump haalt uit nu hij Nobelprijs voor de Vrede alweer niet krijgt: “We zullen het niet vergeten, Noorwegen”",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-haalt-uit-nu-hij-nobelprijs-voor-de-vrede-alweer-niet-krijgt-we-zullen-het-niet-vergeten-noorwegen/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Ambassadeur Bill White en Trump ontmoeten elkaar in Oval Office om relaties tussen België en VS te verbeteren",
+        "url": "https://www.hbvl.be/nieuws/ambassadeur-bill-white-en-trump-ontmoeten-elkaar-in-oval-office-om-relaties-tussen-belgie-en-vs-te-verbeteren/162876537.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump: “Nog geen beslissing over livestream van executie\"",
+        "url": "https://www.hbvl.be/nieuws/donald-trump-nog-geen-beslissing-over-livestream-van-executie/162875039.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“We zullen het niet vergeten, Noorwegen”: Trump bekritiseert Nobelprijs voor de Vrede én winnares",
+        "url": "https://www.hbvl.be/nieuws/we-zullen-het-niet-vergeten-noorwegen-trump-bekritiseert-nobelprijs-voor-de-vrede-en-winnares/162873263.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump haalt uit nu hij Nobelprijs voor de Vrede alweer niet krijgt: “We zullen het niet vergeten, Noorwegen”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-haalt-uit-nu-hij-nobelprijs-voor-de-vrede-alweer-niet-krijgt-we-zullen-het-niet-vergeten-noorwegen/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Van ‘Fuck Biden’ naar het Witte Huis: de bliksemcarrière van Beni Rae Harmony - Knack",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSFplSXpPWEYyZWZoUDBTd3Z5aUF1VzdwTTluT2l1NXNQdDVqUFFZalBOZHI5bGE2cUlSUFRHVTVXTmxjbzJQUmd6ZTdJaWhvVmhoUFZDQnBkeTV1Yk1KX0I5eXRtU3hLbzI1OTFhalFXdFluSXBpNks2M1ViRll2SzhTOWFaZDdNeWgzVk14RHJ6NXp5NmpiTE12TkI5cnhicE1GZ0x2cTA5UVZmUkw4?oc=5",
+        "source": "knack",
+        "name_only": false
+      },
+      {
+        "title": "Pour faire baisser le prix du plein avant les midterms, Trump déroule le tapis rouge au diesel russe de Poutine",
+        "url": "https://www.rtbf.be/article/pour-faire-baisser-le-prix-du-plein-avant-les-midterms-trump-deroule-le-tapis-rouge-au-diesel-russe-de-poutine-11797925",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Poutine a reçu \"avec compréhension\" des propositions de Trump visant à une \"désescalade\" en Ukraine",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/10/10/poutine-a-recu-avec-comprehension-des-propositions-de-trump-visant-a-une-desescalade-en-ukraine-XVUNPHGCPVD4NJJKOXVN3EA6FU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Idéologues radicaux\", \"Ennemis de la civilisation\" : Trump s'indigne à nouveau de ne pas avoir été choisi pour le Nobel de la paix",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/10/ideologues-radicaux-ennemis-de-la-civilisation-trump-sindigne-a-nouveau-de-ne-pas-avoir-ete-choisi-pour-le-nobel-de-la-paix-Z7PQ7UUJFVEEJMVCRN62WEZEBY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump scelle un accord surprise avec Poutine sur le diesel, Zelensky s'indigne : \"Une décision faible\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/10/trump-scelle-un-accord-surprise-avec-poutine-sur-le-diesel-zelensky-sindigne-une-decision-faible-JAKYKLCRCNFPXBHUHX63ERFGYA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump s'indigne de ne pas avoir été choisi pour le Nobel de la paix - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcHhCWkZ3WlFLY3RxMW5LTDdFcFZWTF9rRVNoYXB0QlNKbVpNQW5CLVFTSjJqcnNCVHJTZVpsRlFLeUpGMFkxa2pjNDdkNlU3SlpGc3NDY1F1TFhRNlcyeEpSTnAzM0VPYy1ZOE5uWTM0NWs5TUdKVEwxcGJkR3MtR1FRUUpySlZoT1BiSHlHT092Tk1VR2ZwZ3RrZG9FOFhOd2Z5aVoyanNtdFJxZmpBbGZiWG5PaHp5ZnZyenVIdXh3VWl0ZnJ4b1YxTC1yZkctZ0U2UnB1Q1k2SmM?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "“Il sera tué”, mais...: Trump sème le doute sur la diffusion en direct de l’exécution de Nidal Hasan",
+        "url": "https://www.7sur7.be/monde/il-sera-tue-mais-trump-seme-le-doute-sur-la-diffusion-en-direct-de-lexecution-de-nidal-hasan~acabb0e6/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Une décision honteuse” : Trump s’indigne de ne pas avoir reçu le Nobel de la paix",
+        "url": "https://www.7sur7.be/monde/une-decision-honteuse-trump-sindigne-de-ne-pas-avoir-recu-le-nobel-de-la-paix~a62c945c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump bekritiseert Noorwegen over Nobelprijs - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa1gzSU4zQmJaa1NLWjQ3NHBJZjBwR243RlA3T1FMMlN0eXRaWEhqdWo2MV9GNDVPTjl3MHNzOFBOY3o3VlRYRGQya1dxYXp3MzlOUzQzenRQNXJySFFMRFF3dnZuS25vbkU0TWZnWVU1Z1BRRDdQbXZyakQtVk9lY2pHNEMxNklQcWlSN2txblBLVkN3WDJPd2YyM29VUlpEME9fb1N6U2dOMjlCZG9uaXZtZG50ay0tOGlvbw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "« Honteux » : Donald Trump s’indigne de ne pas avoir reçu le Nobel de la paix - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU1h4Z3d6UFA4eDVzSWdLaTVmM3FFTGticE5hSkxSdmFKUFB2RjNINkJ3a0VuNXpSV3hqYUw2a29FM3RpTDNqTDNVZlNWdDFwY1hTSkNrdVYyaE5RWkxKYWhOTkNmeTkzUW5tNTljYmlMek8tU2lVOElSX250QjNoc1I3dkFHdHJaYTRHME12bzBtcTlfdWNPVHZUVV9LRXRXZ09QckI1YXlfZUtpNG5sZ1pWaF9zUmRaNVE?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Poutine a reçu « avec compréhension » des propositions de Trump visant à une « désescalade » en Ukraine - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcmZGVUUyUkpUdGxnWklEbGEyTmlBYmJyelRPeU9uTEtzckZ0ZEwxelluc3hIc3hCa3dOelhRSE5HM3VXRU1PZHVlb0tSMlp4UUFPSXBKVlNNOWtwMWI3MjhMbWlvcjNTU2JSMUhtZ2RMUWcyMGdKUjY0b3Y0aVZKd2xJY3BGZkRUWGkyOW1PaGtqRExzMEUzaHhhbHZvbG1kR1VxdWVJeEp4aTJLZHhvNVlUbHdNZWdBdWxGTjRjSk1EZWI2X0Jn?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "« Une décision honteuse et embarrassante » : le prix Nobel de la paix échappe à Donald Trump, qui s’en indigne - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONlNWMEVldW5KOGljWkhLMjdlcDR3algtcDVWNGd0SXlCS1UtZHR6RmlJZFZtUHhyNmJxMk8tcWdjUDFKMXh6X1VSa0piNlhjRUQxOVZJNHVQNndjX1BXaGlvcF9FY295Tl8yRjI4YjcyamdPVUpfRjB4dEd4Y1B1TEFVMi1ERk1wSFZGVmNoNVA5T25faXE5Z0hCbEQ3SDdQc2ZqeVlPUW9Db19LVmw5ek00NGpmZlBnZFNzb002alJvRFN3cldHRHo5N0FjR0VrSkN5WjJjc3lqOUVUN25IZVJ3?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump estime qu'un meurtrier de militaires \"mérite\" la mort par peloton d'exécution - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUmNfazU0dm94WVhHT0N2N2NDdy1MNVJSMXZ4TzBIWjdPanFxWG9BeFBJaTEydmdTTTQ3dW11UzB6NmVYRFdyZFlHWmRJc1RNOTRrTWZsV0czekNOYWotS3g1Rm05dmlma2JCOUo4YVJZSFliakdWN0hEdnNDNGp2RzkzWV9NR0VlRWVkWmt1WWNqTU0yaXgtaVVIaVZqSFJlS1c3YjdTLXF4Qk52X1pqSU1TTnMtc21uckFxbm13SWNjdG1iTFN6eVUyMngxMFk?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump s'indigne encore de ne pas avoir reçu le Nobel de la paix : \"Une décision honteuse et embarrassante\" - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMVdrVU5VRWlMcUZ5aEg5V1lQblRVZzE0aWFac3BfdFVMMW1zWlJHT0czbFZQLWdqMmM4WWRqT3NaX096Skp3YUJLcXllQjNPODMtUWRpSXEta1ItRTNTNWF3aUEyZ0x4QVJZMmZEaDE3Y3pYYkRneHNwbDFZRDVfa0IzeHZvbHotamRndHhZMlh6MVpXYk9JZmxSbWtSU3NBQ1JNN2IyM19YU2JnV2lVd1U3RzhvaHdneWdaTTBBUTc1Q293cDZ1TUZR?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 28,
+      "putin": 11,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 7,
+      "bouchez": 1,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 43,
+      "putin": 14,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 9,
+      "bouchez": 1,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 18,
+      "crime": 23,
+      "eu": 13,
+      "politics": 16,
+      "be_gov": 17,
+      "culture": 15,
+      "tech": 9,
+      "economy": 20,
+      "sports": 43,
+      "health": 5,
+      "climate": 3,
+      "migration": 0,
+      "education": 2,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 21,
+      "crime": 34,
+      "eu": 18,
+      "politics": 23,
+      "be_gov": 21,
+      "culture": 19,
+      "tech": 16,
+      "economy": 25,
+      "sports": 63,
+      "health": 8,
+      "climate": 4,
+      "migration": 0,
+      "education": 5,
+      "weather": 8
+    }
   }
 ]
