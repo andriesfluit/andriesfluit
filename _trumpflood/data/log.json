@@ -111011,5 +111011,586 @@
       "education": 5,
       "weather": 8
     }
+  },
+  {
+    "date": "2026-10-11",
+    "generated_at": "2026-10-11T12:17:41+02:00",
+    "last_checked_at": "2026-10-11T12:17:41+02:00",
+    "total_articles": 375,
+    "trump_articles": 12,
+    "percentage": 3.2,
+    "core_percentage": 3.2,
+    "core_percentage_name": 3.2,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 3.5,
+    "indirect_references": 1,
+    "wide_total_articles": 539,
+    "wide_trump_articles": 16,
+    "wide_percentage": 3.0,
+    "wide_trump_articles_expanded": 17,
+    "wide_percentage_expanded": 3.2,
+    "macro_percentage": 3.0,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 58,
+    "cross_outlet_dup_groups": 29,
+    "cross_outlet_dup_rate": 15.5,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.55,
+    "breadth": 0.44,
+    "deviation": 1.83,
+    "smoothed_pct": 2.83,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_nl_politics": {
+        "fetched": 43,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 26,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 79,
+        "today": 35,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 8,
+        "kept": 8,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 25.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 95,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 17,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 17.65
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 11,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "trends_g": {
+        "fetched": 26,
+        "today": 4,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 74,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "VS onderzoekt vijf tv-zenders na opschorten Trump-beelden: “Ze hebben met trots gekozen om te boycotten”",
+        "url": "https://www.hln.be/buitenland/vs-onderzoekt-vijf-tv-zenders-na-opschorten-trump-beelden-ze-hebben-met-trots-gekozen-om-te-boycotten~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live – Justitie VS onderzoekt tv-zenders die verslaggeving over Trump opschortten",
+        "url": "https://www.demorgen.be/snelnieuws/live-justitie-vs-onderzoekt-tv-zenders-die-verslaggeving-over-trump-opschortten~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "▶ Trump zet Zelensky onder druk: ‘Hij kan er maar verdomme beter mee ophouden’",
+        "url": "https://www.demorgen.be/nieuws/trump-zet-zelensky-onder-druk-hij-kan-er-maar-verdomme-beter-mee-ophouden~b886364d/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Na maandenlang protest wordt tweehonderd jaar oude boom dan toch geveld voor Trumps grensmuur: “Dit breekt je hart”",
+        "url": "https://www.hbvl.be/buitenland/na-maandenlang-protest-wordt-tweehonderd-jaar-oude-boom-dan-toch-geveld-voor-trumps-grensmuur-dit-breekt-je-hart/162894387.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Diesel : la Russie lève partiellement son interdiction d’exporter après un accord avec Trump",
+        "url": "https://www.rtbf.be/article/diesel-la-russie-leve-partiellement-son-interdiction-d-exporter-apres-un-accord-avec-trump-11798327",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "États-Unis : cinq grandes chaînes de télévision visées par une enquête après un boycott de la Maison-Blanche",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/11/etats-unis-cinq-grandes-chaines-de-television-visees-par-une-enquete-apres-un-boycott-de-la-maison-blanche-ND47TNU7NZDLXETRKUS7CUDVFI/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Donald Trump attaque frontalement Volodymyr Zelensky et réclame son départ : \"Il est temps d'avoir un nouveau président\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/11/donald-trump-attaque-frontalement-volodymyr-zelensky-et-reclame-son-depart-il-est-temps-davoir-un-nouveau-president-AY5FFL3SRNBUJDG22CAH5FYSFY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le ministère américain de la Justice enquête sur les chaînes de télévision qui ont suspendu leur couverture de Trump",
+        "url": "https://www.7sur7.be/monde/le-ministere-americain-de-la-justice-enquete-sur-les-chaines-de-television-qui-ont-suspendu-leur-couverture-de-trump~a6fd8280/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Poutine veut conclure un accord pour mettre fin à la guerre mais Zelensky refuse”",
+        "url": "https://www.7sur7.be/monde/trump-poutine-veut-conclure-un-accord-pour-mettre-fin-a-la-guerre-mais-zelensky-refuse~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Accord entre Donald Trump et Vladimir Poutine : la Russie a levé son interdiction totale d’exporter du diesel - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWpkMm9WT05VcHRwd08xSWlQTVROWmtNc1Q4ckN6aUpqdzJhbkE1cS1FQUZld2pHNkZ6QXZkM2NoZTRvLVZDZTY1VE12RkRRdXZZQ0RuWjltb1JJWVJuQUhnN1RpdmVlYlh6anhUTk1yVnlNWlNNd3RMRHRCSVJzRmRmaEczVDM4OEJVM201aDJfdExLSzg2OHNuaE5ia2xGZ3k0MDl6V2lGbUZqVm0wLWxBYkJHMHBYYkRkNlRCOHlmOFNzeFJlMg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« Je leur suggère de se doter d’un nouveau dirigeant » : Donald Trump s’en prend à Volodymyr Zelensky et veut un nouveau président en Ukraine ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRTN1RVJEQThIdTJzNXRVVE9mZHM4TTBQTVBKVGp0OHhFWHY2LVBtdGhfYXdfd1h3eDBNaElkZHZobm4zcUhwOHR2eU9OLVMzemkwT2JaOWswQWxhc3NHbWNPajRlY21MaU1YUmJxR3JUTnRHUEFzMGRQZVNvVmM1UWlGVHZCV1JfZUFTR3VJMVRMM2hrbDFlemNJZVhObFBRSVgtdFg4cENIdHlzNEN5SmFZaS1kcHpyM09KU3NRTnRMdw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Bras de fer entre Donald Trump et les médias : cinq grandes chaînes américaines visées par une enquête ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb01WdmpIU1FvVVNhcDJnTE5pSksyVWJkZDh3bDNmYXBhMEFJYU1LQm4zZVFlcXc5NlNTX3M1VlpYWW1GbTVUZktUZEZQY3h2bXB6ZnBFeUpxVXJvVlB1SE5ZR3pUVVRoZC15Yi1iZUVIMExXRWlORTJuTHhtT1lVa3V1alFvTjQ2dGswU1BuV3JESk9ZU2ZkSThndHpVa05BUm50cGs5dFRiUDUzSjhqVjlKTDBwSk44YkxIN1NJTktoc1NSeWF5Xw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« Il a intérêt à arrêter » : Trump menace Zelensky et réclame... un « nouveau président » ukrainien - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0UxSjhvZ1M2cFNRU2tGOXBMSzVjWTB0aEVOUVh5NEVwSmJpaVdhcjRydmVwZlBySi00dGU0cmJpWXR0N01rZDYwRUdSVG9vbUxHZ2hZcU1NMUVRdnF1WE1ZLUQ0YjVLUVFoUlRWU3dsMHk0RlJhSm53SVVnRUJINGdjYmxtYlNZZDlfXzFrcGdZY3JVZXVDRV9ibk9LNThpMFF5Q2c0LUJiQU9XaExLX01HSW1zM1FvYUc2VG9VQUphMllocGRQLVRmYW9uZUhXVWZGWXN4UVNGdw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "▶ Trump zet Zelensky onder druk: ‘Hij kan er maar verdomme beter mee ophouden’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRUhabGNjbjlMemdFZFFfV05YaWZ5MlRTTzVyZy1ZVEtITUc5c3ZuM2ZPNWRJVUlZNXB1Q2FyeFM0Mk9jMTJSVW9pOUpwVks0REhteDVqSzVJSng2TDNZRW5vY3pIRENmeF9zN1NXbDYxUTg5bEVnVHk1Qk1waDJzN2xlTG0xdTRHM3Q1QlcweExlYzY0a0VZb1g1WWxBMWRpRWxfQlBOTTNBOVVQLS1MemtaOG8?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump s’en prend à Zelensky et affirme que Poutine veut « un règlement » avec l’Ukraine - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNb0R4TDBNajlIVzBOMUc0V1pocldqaDBhUGRxa0theldVNzAwVW5zSmtrLXM3Vm01X0dyU2pnOU1CZmhvNkd2YllaaFFFLUE5d0dIb0FsbnlPOG8tdW5BX0tKc0g3Sk9mZ3kyV2Y3ZGdhQnZrRExvbFdxdlVRQlBrNmJSdmx3cE12SDJsU1M4aXp2QXN4UXFTN0xXNzlSN1RSSkdEb2JKOTlNYzRpRzA2anF4ZjJZRDNacndZZnB3Q1FrVmtKbEE?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Le ministère américain de la Justice enquête sur les chaînes de télévision qui ont suspendu leur couverture de Trump - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZmNTNGtrdXljUDJOd09hUnZVandXUU1ZWGc3Wl9XSTBOX1NiaHcyZ1NaVV95OVZUZGRta1M4RkVUTkxFbGhXUFJ4TEJKRWpZdERkSE53YlhsMkk3Y0Y3VS1NNFNRVDlIb3g4MTBpTWNuNi1wcW5HZVUzMDZNdnZ3cmRQSkxJamFNbHNYcnlOOEt6cENNRm1KZmdTOFUtRWhtYUd1bW5CWWpkMWZ3dDR5UkV2YzdocUhKR2JUZGhvMW1pOUw5RkEzd2VzWnhlTVFsbnR0NHBGcFhFN0NWd2NuQkUwaVN0bk1p?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "'Idéologues radicaux', 'ennemis de la civilisation' : Trump s’indigne comme l’an dernier de ne pas avoir reçu le Nobel de la paix - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVi0zQ1hWY2pRSWd2eVBFZ2xCSWZPcGplRzZUY1ZXUXhCSU03LXBHSzZvcGlqNVFYZjMzSkpaeEw2ZXA4MER4VWhMSHN2SUphZHpTa0NFWWJpdUp2Zmhxc2FLTGpYdkV3T2J5TmhiZndVaGJrWHhLcmlkNlZzVERPX09kVm5MYW1ZS0MzUDhTbFpuS1dROVVrcElvU3hQeXltU0xmZ3FpVE1oYUp0YjhGQ3R4ak1qMjVQNEpyOWJBaDZPSEdVdDVfZ3lNVENKVjlTcjJ0aUVGUW1XR0FITDd6WXBXWk40Y3o3YXdKb1dXb2E?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "VS onderzoekt vijf tv-zenders na opschorten Trump-beelden: “Ze hebben met trots gekozen om te boycotten”",
+        "url": "https://www.hln.be/buitenland/vs-onderzoekt-vijf-tv-zenders-na-opschorten-trump-beelden-ze-hebben-met-trots-gekozen-om-te-boycotten~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live – Justitie VS onderzoekt tv-zenders die verslaggeving over Trump opschortten",
+        "url": "https://www.demorgen.be/snelnieuws/live-justitie-vs-onderzoekt-tv-zenders-die-verslaggeving-over-trump-opschortten~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "▶ Trump zet Zelensky onder druk: ‘Hij kan er maar verdomme beter mee ophouden’",
+        "url": "https://www.demorgen.be/nieuws/trump-zet-zelensky-onder-druk-hij-kan-er-maar-verdomme-beter-mee-ophouden~b886364d/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Na maandenlang protest wordt tweehonderd jaar oude boom dan toch geveld voor Trumps grensmuur: “Dit breekt je hart”",
+        "url": "https://www.hbvl.be/buitenland/na-maandenlang-protest-wordt-tweehonderd-jaar-oude-boom-dan-toch-geveld-voor-trumps-grensmuur-dit-breekt-je-hart/162894387.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Diesel : la Russie lève partiellement son interdiction d’exporter après un accord avec Trump",
+        "url": "https://www.rtbf.be/article/diesel-la-russie-leve-partiellement-son-interdiction-d-exporter-apres-un-accord-avec-trump-11798327",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "États-Unis : cinq grandes chaînes de télévision visées par une enquête après un boycott de la Maison-Blanche",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/11/etats-unis-cinq-grandes-chaines-de-television-visees-par-une-enquete-apres-un-boycott-de-la-maison-blanche-ND47TNU7NZDLXETRKUS7CUDVFI/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Donald Trump attaque frontalement Volodymyr Zelensky et réclame son départ : \"Il est temps d'avoir un nouveau président\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/11/donald-trump-attaque-frontalement-volodymyr-zelensky-et-reclame-son-depart-il-est-temps-davoir-un-nouveau-president-AY5FFL3SRNBUJDG22CAH5FYSFY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le ministère américain de la Justice enquête sur les chaînes de télévision qui ont suspendu leur couverture de Trump",
+        "url": "https://www.7sur7.be/monde/le-ministere-americain-de-la-justice-enquete-sur-les-chaines-de-television-qui-ont-suspendu-leur-couverture-de-trump~a6fd8280/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump: “Poutine veut conclure un accord pour mettre fin à la guerre mais Zelensky refuse”",
+        "url": "https://www.7sur7.be/monde/trump-poutine-veut-conclure-un-accord-pour-mettre-fin-a-la-guerre-mais-zelensky-refuse~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Accord entre Donald Trump et Vladimir Poutine : la Russie a levé son interdiction totale d’exporter du diesel - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTWpkMm9WT05VcHRwd08xSWlQTVROWmtNc1Q4ckN6aUpqdzJhbkE1cS1FQUZld2pHNkZ6QXZkM2NoZTRvLVZDZTY1VE12RkRRdXZZQ0RuWjltb1JJWVJuQUhnN1RpdmVlYlh6anhUTk1yVnlNWlNNd3RMRHRCSVJzRmRmaEczVDM4OEJVM201aDJfdExLSzg2OHNuaE5ia2xGZ3k0MDl6V2lGbUZqVm0wLWxBYkJHMHBYYkRkNlRCOHlmOFNzeFJlMg?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« Je leur suggère de se doter d’un nouveau dirigeant » : Donald Trump s’en prend à Volodymyr Zelensky et veut un nouveau président en Ukraine ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRTN1RVJEQThIdTJzNXRVVE9mZHM4TTBQTVBKVGp0OHhFWHY2LVBtdGhfYXdfd1h3eDBNaElkZHZobm4zcUhwOHR2eU9OLVMzemkwT2JaOWswQWxhc3NHbWNPajRlY21MaU1YUmJxR3JUTnRHUEFzMGRQZVNvVmM1UWlGVHZCV1JfZUFTR3VJMVRMM2hrbDFlemNJZVhObFBRSVgtdFg4cENIdHlzNEN5SmFZaS1kcHpyM09KU3NRTnRMdw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Bras de fer entre Donald Trump et les médias : cinq grandes chaînes américaines visées par une enquête ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb01WdmpIU1FvVVNhcDJnTE5pSksyVWJkZDh3bDNmYXBhMEFJYU1LQm4zZVFlcXc5NlNTX3M1VlpYWW1GbTVUZktUZEZQY3h2bXB6ZnBFeUpxVXJvVlB1SE5ZR3pUVVRoZC15Yi1iZUVIMExXRWlORTJuTHhtT1lVa3V1alFvTjQ2dGswU1BuV3JESk9ZU2ZkSThndHpVa05BUm50cGs5dFRiUDUzSjhqVjlKTDBwSk44YkxIN1NJTktoc1NSeWF5Xw?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« Il a intérêt à arrêter » : Trump menace Zelensky et réclame... un « nouveau président » ukrainien - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa0UxSjhvZ1M2cFNRU2tGOXBMSzVjWTB0aEVOUVh5NEVwSmJpaVdhcjRydmVwZlBySi00dGU0cmJpWXR0N01rZDYwRUdSVG9vbUxHZ2hZcU1NMUVRdnF1WE1ZLUQ0YjVLUVFoUlRWU3dsMHk0RlJhSm53SVVnRUJINGdjYmxtYlNZZDlfXzFrcGdZY3JVZXVDRV9ibk9LNThpMFF5Q2c0LUJiQU9XaExLX01HSW1zM1FvYUc2VG9VQUphMllocGRQLVRmYW9uZUhXVWZGWXN4UVNGdw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 12,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 5,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 10,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 16,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 7,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 14,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 13,
+      "crime": 22,
+      "eu": 20,
+      "politics": 9,
+      "be_gov": 17,
+      "culture": 19,
+      "tech": 10,
+      "economy": 7,
+      "sports": 31,
+      "health": 1,
+      "climate": 1,
+      "migration": 0,
+      "education": 2,
+      "weather": 4
+    },
+    "wide_themes": {
+      "war": 21,
+      "crime": 27,
+      "eu": 26,
+      "politics": 13,
+      "be_gov": 26,
+      "culture": 24,
+      "tech": 15,
+      "economy": 13,
+      "sports": 57,
+      "health": 1,
+      "climate": 2,
+      "migration": 0,
+      "education": 3,
+      "weather": 8
+    }
   }
 ]
