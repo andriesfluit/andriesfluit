@@ -205,10 +205,14 @@ def build_summary(rows: list[dict], ranking: list[dict], unclassified: int) -> s
 
     incomplete = [r for r in rows if r["tekst_onvolledig"]]
     recruiters = [r for r in rows if r["recruiter_vlag"]]
+    linkedin_terms = len(list((common.RAW_DIR / "linkedin").glob("*.json")))
     out += ["## Kanttekeningen", ""]
+    if linkedin_terms < len(common.ALL_TERMS):
+        out.append(
+            f"- LinkedIn is maar voor {linkedin_terms} van de {len(common.ALL_TERMS)} zoektermen doorzocht: het gaf "
+            "een rate limit (HTTP 429) en werd volgens de regels overgeslagen."
+        )
     out += [
-        "- LinkedIn is maar voor 6 van de 27 zoektermen doorzocht: daarna gaf het een rate limit (HTTP 429) "
-        "en werd het volgens de regels overgeslagen.",
         f"- {len(incomplete)} vacatures kwamen enkel via Adzuna en zijn beoordeeld op de eerste 500 tekens "
         f"(kolom tekst_onvolledig); {sum(r['relevant'] == 'ja' for r in incomplete)} daarvan zijn relevant. "
         "Bij de andere kan een relevant signaal gemist zijn.",
