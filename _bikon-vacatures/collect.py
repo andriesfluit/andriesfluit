@@ -421,19 +421,22 @@ def build_summary(files, records, jobs, too_old, run_status, stopped, request_co
             state = run_status[source]["_reden"]
         elif any(s.get("status") == "fout" for s in run_status.get(source, {}).values() if isinstance(s, dict)):
             state = "ok, met fouten (zie run_log.json)"
+        elif any(not f["volledig"] for f in source_files):
+            state = "onvolledig (zie data/raw/run_log.json)"
         else:
             state = "ok"
         rows.append(
             [
                 source,
                 state,
+                f"{len({f['zoekterm'] for f in source_files})}/{len(common.ALL_TERMS)}",
                 request_counts.get(source, "-"),
                 found,
                 f"{100 * with_text / found:.0f}%" if found else "-",
                 int(statistics.median(lengths)) if lengths else "-",
             ]
         )
-    out += [md_table(["bron", "status", "requests deze run", "vacatures", "met tekst", "mediaan tekstlengte"], rows), ""]
+    out += [md_table(["bron", "status", "termen", "requests deze run", "vacatures", "met tekst", "mediaan tekstlengte"], rows), ""]
 
     out += ["## Per zoekterm", ""]
     by_term_source = {(f["zoekterm"], f["bron"]): f for f in files}
@@ -531,6 +534,7 @@ def main() -> None:
     stopped: dict[str, str] = {}
     request_counts: dict[str, int] = {}
     run_log_path = common.RAW_DIR / "run_log.json"
+    previous = json.loads(run_log_path.read_text(encoding="utf-8")) if run_log_path.exists() else {}
 
     if not args.only_process:
         if "adzuna" in sources and not (os.getenv("ADZUNA_APP_ID") and os.getenv("ADZUNA_APP_KEY")):
@@ -550,7 +554,12 @@ def main() -> None:
             futures = {s: pool.submit(run_source, s, terms, args, polite) for s in sources}
             for source, future in futures.items():
                 run_status[source] = future.result()
-        stopped, request_counts = polite.stopped, dict(polite.requests)
+        # Bronnen die deze keer niet meededen, houden hun status uit de vorige run.
+        stopped = {s: r for s, r in previous.get("gestopt", {}).items() if s not in args.sources}
+        stopped |= polite.stopped
+        earlier = {s: st for s, st in previous.get("per_bron", {}).items() if s not in run_status}
+        run_status = earlier | run_status
+        request_counts = dict(polite.requests)
         common.write_json(
             run_log_path,
             {
@@ -563,8 +572,7 @@ def main() -> None:
             },
         )
 
-    elif run_log_path.exists():
-        previous = json.loads(run_log_path.read_text(encoding="utf-8"))
+    else:
         stopped, run_status = previous.get("gestopt", {}), previous.get("per_bron", {})
 
     records, files = load_raw()
