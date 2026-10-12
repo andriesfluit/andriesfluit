@@ -111592,5 +111592,502 @@
       "education": 3,
       "weather": 8
     }
+  },
+  {
+    "date": "2026-10-12",
+    "generated_at": "2026-10-12T13:18:07+02:00",
+    "last_checked_at": "2026-10-12T13:18:07+02:00",
+    "total_articles": 646,
+    "trump_articles": 6,
+    "percentage": 0.9,
+    "core_percentage": 0.9,
+    "core_percentage_name": 0.9,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 0.9,
+    "indirect_references": 0,
+    "wide_total_articles": 893,
+    "wide_trump_articles": 10,
+    "wide_percentage": 1.1,
+    "wide_trump_articles_expanded": 10,
+    "wide_percentage_expanded": 1.1,
+    "macro_percentage": 1.5,
+    "qualifying_outlets": 28,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 38,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 5.9,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.4,
+    "breadth": 0.28,
+    "deviation": 0.47,
+    "smoothed_pct": 2.84,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 13,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 37,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 24,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 31,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 69,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 25,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 35,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 33,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 72,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 99,
+        "today": 31,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 45,
+        "kept": 45,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 54,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 89,
+        "kept": 89,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.12
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 71,
+        "kept": 67,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.49
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 44,
+        "kept": 38,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 24,
+        "today": 12,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 37,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Des publicités électorales à la gloire de Trump payées par l'argent public : c'est de la \"propagande\" illégale selon la justice américaine",
+        "url": "https://www.rtbf.be/article/des-publicites-electorales-a-la-gloire-de-trump-payees-par-l-argent-public-c-est-de-la-propagande-illegale-selon-la-justice-americaine-11798730",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : diesel russe, chèques et règles électorales… Les multiples manœuvres de Trump pour faire gagner son camp",
+        "url": "https://www.rtbf.be/article/midterms-2026-diesel-russe-cheques-et-regles-electorales-les-multiples-man-uvres-de-trump-pour-faire-gagner-son-camp-11798548",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "La trêve énergétique de Donald Trump: un coup dans le vide qui met Kiev sous pression - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObTJlZktkRnB0Mm0yQmNFb0pxcUpqYTRrc3FZLUZycVF1Vm5hWVVCNjF3VVdCdzhKMnZZOHRCQThVd251NXY0alQ0bGJ3N0FSVXI3N3lnQTdiRzZqUVNBTUxYOHJrU0pQcFB4UmJuMll2bGRieEgzYW8tRXFuTERJdVNUaXBrZTVacWhCYVBiekV0YXM2eFQ1SWdScEx6TlZvTDIyYnlHYVZyRUs2RHV0UVRFZzFQOFo2WmRBX25KQklZazBwLWY3T3lYOGZUYm5pNFRabFRGX1ROZWl5WVV1ZFpoc3JyZw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Furieux\": comment l’ex-belle-fille de Donald Trump embarrasse la Maison Blanche avec des histoires “gênantes” et tyranniques",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/12/furieux-comment-lex-belle-fille-de-donald-trump-embarrasse-la-maison-blanche-avec-des-histoires-genantes-et-tyranniques-JAZ6NZKM4FHARFHOQH5IYXFMSI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Furieux” contre son ex-belle-fille, Trump penserait à la démettre de son titre d’ambassadrice en Grèce",
+        "url": "https://www.7sur7.be/monde/furieux-contre-son-ex-belle-fille-trump-penserait-a-la-demettre-de-son-titre-dambassadrice-en-grece~a6b1ff242/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "De week die komt: begroting, LVMH, ASML, Amerikaanse banken, Europese top, Trump en autosalon Parijs - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVGpFN1BKM1oxTzdhbm9KQjRWckRjQTVRdzkxclRrdE41NHJsSzVwWFc0cm81WlFGRnZyd0FMTTNObk1OOU96SXBVd2xXNEk2WDFwTTdxRDFpRXlRMHYySXViTGRLbERxY1hNLXNoOXlqZXZDM2gwSmxOT1ZlZzNWdXE1NXVUMTRqNUJob3R5T1NtUk1MNHZTRkFrWTFuYXFrQUJILUhqLWFzLUtOXzE5RUFtLXo5XzRDVzJsQjZ5RHJpcjR3YU91MHJlNmJsNFUyMzd3UUh2eENOaFRkY19VVDhJSQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump “woest” op ex-schoondochter na berichten over “ongepast en mogelijk illegaal gedrag” in Griekenland - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOTItNzBxVF9CRV9DMDNTUUg4amFUNEN5cTNaQkZZSm53eFFyeW95d0IxaDN1SFlMVzMwaF84WlN6b0ZMMmxqWTdER3RyVXRyM1hjUW9VV0ttbVQ4QVBtSUltNUVFeDlXdm83bXczem92eW5wZ1NzYkFXWW1TRWNGMzRPQXZReWxsaHNzdTFnMnN3OGdVUkpQQnZ1dlZ4MFRCZU5oeVljNDV5OUtKaDlOMkJpMG13a2tINkdpY0FvdmY5Z2JoQy1wNmF0eWYxNlNBMVZaRmpma3lxdw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt wapenleveringen te stoppen als Oekraïne energiebestand schendt - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVWpHaTZLYVd6NXIyaV9zaFB5ZjhZT0RrZFlDWUpRQW1Hak5EVlFlbUwyc3VDdm16YlJOODZyd0YyamFWT3pvcV9LU25QMG81Y3FTRUhIZ1o0YWRjM2NlYWRzTWg3UTFlbUFGaTFkS3hQM1QtbTBXbktHVWZKZDlweXVPeC1tVE9IYzN4engxMG85NlNrSURvcThIbFVnRThULVJ5U2t2dXNJaGNrTjVVX3MyN1RWM0xhbFB3T2xXWGhaaGJadmRRTzVrZnd0RENoZ2tB?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "\"Furieux\": comment l'ex-belle-fille de Donald Trump embarrasse la Maison Blanche avec des histoires \"gênantes\" et tyranniques - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNNVc5M21GX1NoN1pUcFctVV9MazducktZSjh3QlJZWlp0bENXMkpLZDg1UVdJMnpCbVRwWm9IUy1XZlpBMThlN2NnME5HQkxWRl9TX1IzWlVpZ3JWN2R1QWxMUjEyYzR6eTBxQTR4UUhrLXRhOG5HQjVRUjFlVnRnd1hWb21XMWxrUXVBVXI4SENqaWdMZi1jUjliSEo4d2d3dWpyZXZoYkREcTBMSmZ0X1VHYzJHN3d6cmFMVmI1MWFMSDBVQUJJMDZZUGdOZW5COGtIRzlzc09YUFNNWHBTVWMzOTJQRklfTEQtXzRodjRyd19FVlFzYk50RXI2UEVYYjMxNEdudHpLQ0pZN0N4Zk1MWUxvY21KV1E?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Après le golfe du Mexique, Trump s’attaque à un autre nom sur la carte du monde : « Nous avons besoin d’un océan » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZXdlaGJFWk5mZXhqOFZ2V2lmRUpNa2k3NGFNbjNPZllaMXFIUVd4bC1NTnVzUWVzZ0pTeTEzMDJRM3FrQ0JWYVc2SDI5ZGw2SlU5ZDVHb3E5RThRaVFfWmd2ZlhZUmtTNG44VDFRUE4tOEhHMldUcjhiNWlzdEt6cU9memF6c0ZoSTdQZVlZUWpzQnQ0OFVZRzFxMXlPeHFJMFJVVVMyckNaNUFqRTYxZVNEaXJnTkUzUWZWdHRSS0oyUTJOOUpmOVhmSjRPUWVLT1hZVHY5TzNrbVRlLVVsWGhCYkM?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Des publicités électorales à la gloire de Trump payées par l'argent public : c'est de la \"propagande\" illégale selon la justice américaine",
+        "url": "https://www.rtbf.be/article/des-publicites-electorales-a-la-gloire-de-trump-payees-par-l-argent-public-c-est-de-la-propagande-illegale-selon-la-justice-americaine-11798730",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : diesel russe, chèques et règles électorales… Les multiples manœuvres de Trump pour faire gagner son camp",
+        "url": "https://www.rtbf.be/article/midterms-2026-diesel-russe-cheques-et-regles-electorales-les-multiples-man-uvres-de-trump-pour-faire-gagner-son-camp-11798548",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "La trêve énergétique de Donald Trump: un coup dans le vide qui met Kiev sous pression - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObTJlZktkRnB0Mm0yQmNFb0pxcUpqYTRrc3FZLUZycVF1Vm5hWVVCNjF3VVdCdzhKMnZZOHRCQThVd251NXY0alQ0bGJ3N0FSVXI3N3lnQTdiRzZqUVNBTUxYOHJrU0pQcFB4UmJuMll2bGRieEgzYW8tRXFuTERJdVNUaXBrZTVacWhCYVBiekV0YXM2eFQ1SWdScEx6TlZvTDIyYnlHYVZyRUs2RHV0UVRFZzFQOFo2WmRBX25KQklZazBwLWY3T3lYOGZUYm5pNFRabFRGX1ROZWl5WVV1ZFpoc3JyZw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Furieux\": comment l’ex-belle-fille de Donald Trump embarrasse la Maison Blanche avec des histoires “gênantes” et tyranniques",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/12/furieux-comment-lex-belle-fille-de-donald-trump-embarrasse-la-maison-blanche-avec-des-histoires-genantes-et-tyranniques-JAZ6NZKM4FHARFHOQH5IYXFMSI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Furieux” contre son ex-belle-fille, Trump penserait à la démettre de son titre d’ambassadrice en Grèce",
+        "url": "https://www.7sur7.be/monde/furieux-contre-son-ex-belle-fille-trump-penserait-a-la-demettre-de-son-titre-dambassadrice-en-grece~a6b1ff242/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "De week die komt: begroting, LVMH, ASML, Amerikaanse banken, Europese top, Trump en autosalon Parijs - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVGpFN1BKM1oxTzdhbm9KQjRWckRjQTVRdzkxclRrdE41NHJsSzVwWFc0cm81WlFGRnZyd0FMTTNObk1OOU96SXBVd2xXNEk2WDFwTTdxRDFpRXlRMHYySXViTGRLbERxY1hNLXNoOXlqZXZDM2gwSmxOT1ZlZzNWdXE1NXVUMTRqNUJob3R5T1NtUk1MNHZTRkFrWTFuYXFrQUJILUhqLWFzLUtOXzE5RUFtLXo5XzRDVzJsQjZ5RHJpcjR3YU91MHJlNmJsNFUyMzd3UUh2eENOaFRkY19VVDhJSQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 7,
+      "bouchez": 4,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 10,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 8,
+      "bouchez": 5,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 15,
+      "crime": 17,
+      "eu": 29,
+      "politics": 28,
+      "be_gov": 38,
+      "culture": 14,
+      "tech": 19,
+      "economy": 39,
+      "sports": 24,
+      "health": 10,
+      "climate": 2,
+      "migration": 1,
+      "education": 7,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 27,
+      "crime": 22,
+      "eu": 42,
+      "politics": 36,
+      "be_gov": 44,
+      "culture": 16,
+      "tech": 25,
+      "economy": 54,
+      "sports": 43,
+      "health": 13,
+      "climate": 5,
+      "migration": 2,
+      "education": 12,
+      "weather": 12
+    }
   }
 ]
