@@ -24,7 +24,8 @@ CSV_COLUMNS = [
 ]
 
 # Organisatiescore: de hoogste score van de relevante vacatures, plus 0,5 per extra relevante
-# vacature (hoogstens +1,5). Zo telt een organisatie met meerdere vacatures als sterker signaal.
+# functie (hoogstens +1,5). Zo telt een organisatie met meerdere vacatures als sterker signaal;
+# dezelfde functietitel in twee steden telt maar één keer.
 EXTRA_PER_JOB = 0.5
 MAX_EXTRA = 1.5
 TOP_N = 25
@@ -88,24 +89,28 @@ def org_ranking(rows: list[dict]) -> list[dict]:
     for jobs in orgs.values():
         jobs.sort(key=lambda r: -r["score"])
         best = jobs[0]
-        extra = min(MAX_EXTRA, EXTRA_PER_JOB * (len(jobs) - 1))
+        titles: dict[str, str] = {}  # genormaliseerde titel -> titel van de best scorende vacature
+        for j in jobs:
+            titles.setdefault(common.normalize_title(j["titel"]), j["titel"])
+        extra = min(MAX_EXTRA, EXTRA_PER_JOB * (len(titles) - 1))
         ranking.append(
             {
                 "naam": Counter(j["bedrijf"] for j in jobs).most_common(1)[0][0],
                 "orgscore": best["score"] + extra,
                 "aantal": len(jobs),
+                "functies": len(titles),
                 "hoogste": best["score"],
                 "gemiddelde": sum(j["score"] for j in jobs) / len(jobs),
                 "rol": ", ".join(sorted({j["rol_organisatie"] for j in jobs})),
                 "sector": Counter(j["sector"] for j in jobs).most_common(1)[0][0],
                 "gereguleerd": "ja" if any(j["gereguleerd"] == "ja" for j in jobs) else "nee",
                 "signalen": ", ".join(s for s in common.SEARCH_TERMS if any(s in j["_signalen"] for j in jobs)),
-                "titels": [j["titel"] for j in jobs[:2]],
+                "titels": list(titles.values())[:2],
                 "motivatie": best["motivatie"],
                 "onvolledig": best["tekst_onvolledig"] == "ja",
             }
         )
-    ranking.sort(key=lambda o: (-o["orgscore"], -o["aantal"], -o["gemiddelde"], o["naam"].lower()))
+    ranking.sort(key=lambda o: (-o["orgscore"], -o["functies"], -o["gemiddelde"], o["naam"].lower()))
     return ranking
 
 
@@ -153,14 +158,15 @@ def build_summary(rows: list[dict], ranking: list[dict], unclassified: int) -> s
     out += [f"## Top {TOP_N} organisaties", ""]
     out += [
         f"Organisatiescore = hoogste score van haar relevante vacatures + {EXTRA_PER_JOB:g} per extra relevante "
-        f"vacature (hoogstens +{MAX_EXTRA:g}). Recruitmentbureaus en interimkantoren tellen niet mee.",
+        f"functie (hoogstens +{MAX_EXTRA:g}); dezelfde functietitel op meerdere plaatsen telt één keer. "
+        "Recruitmentbureaus, interimkantoren en andere tussenpersonen tellen niet mee.",
         "",
     ]
     out += md_table(
-        ["#", "organisatie", "orgscore", "relevante vacatures", "rol", "sector", "gereg.", "signaaltypes",
+        ["#", "organisatie", "orgscore", "relevante vacatures / functies", "rol", "sector", "gereg.", "signaaltypes",
          "voorbeelden", "motivatie (beste vacature)"],
         [
-            [i, o["naam"], f"{o['orgscore']:g}", o["aantal"], o["rol"], o["sector"], o["gereguleerd"], o["signalen"],
+            [i, o["naam"], f"{o['orgscore']:g}", f"{o['aantal']} / {o['functies']}", o["rol"], o["sector"], o["gereguleerd"], o["signalen"],
              " / ".join(o["titels"]), o["motivatie"] + (" (tekst onvolledig)" if o["onvolledig"] else "")]
             for i, o in enumerate(ranking[:TOP_N], start=1)
         ],

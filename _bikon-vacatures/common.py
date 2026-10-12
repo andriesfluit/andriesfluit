@@ -207,7 +207,8 @@ CONNECTOR_WORDS = {"and", "en", "et", "und"}  # "Johnson & Johnson" = "Johnson a
 
 
 def normalize_company(name: str | None) -> str:
-    words = [w for w in fold(name).split() if w not in LEGAL_FORMS and w not in CONNECTOR_WORDS]
+    # Punten weg, zodat "N.V." als "NV" herkend wordt en niet als losse letters.
+    words = [w for w in fold((name or "").replace(".", "")).split() if w not in LEGAL_FORMS and w not in CONNECTOR_WORDS]
     return " ".join(words)
 
 
@@ -259,6 +260,8 @@ RECRUITER_NAMES = [
     "brightplus", "house of hr", "olympia", "covebo", "sd worx staffing", "sd worx jobs",
     "creyf s", "solvus", "kelly services", "darwin recruitment", "huxley", "sthree",
     "progressive recruitment", "selecthr", "select hr", "jobs4sales",
+    # Uit de eerste run: tussenpersonen die de eigenlijke werkgever niet noemen.
+    "koda tech", "koda staff", "collective work", "talentsquare", "deeprec",
 ]
 RECRUITER_NAME_RE = re.compile(
     r"recruit|recrut|interim|uitzend|staffing|headhunt|executive search|selection|"

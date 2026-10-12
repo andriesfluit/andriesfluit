@@ -48,6 +48,16 @@ class ReportTest(unittest.TestCase):
         self.assertEqual(ranking[0]["orgscore"], 5.0)
         self.assertEqual(ranking[0]["aantal"], 3)
         self.assertEqual(ranking[0]["signalen"], "bouwen, governance")
+        self.assertEqual(ranking[0]["titels"], ["Titel a", "Titel b"])  # best scorende eerst
+
+    def test_same_title_in_two_places_counts_once(self):
+        jobs = [job("x", "Bluecrux"), job("y", "Bluecrux")]
+        for j in jobs:
+            j["titel"] = "AI Engineer"
+        rows = report.build_rows(jobs, {"x": cls(score=3), "y": cls(score=3)})
+        org = report.org_ranking(rows)[0]
+        self.assertEqual((org["orgscore"], org["aantal"], org["functies"]), (3, 2, 1))
+        self.assertEqual(org["titels"], ["AI Engineer"])
 
     def test_extra_is_capped(self):
         jobs = [job(str(i), "Groot") for i in range(10)]

@@ -60,6 +60,7 @@ class NormalizeTest(unittest.TestCase):
         b = common.dedup_key("Johnson and Johnson", "Senior Ontologist, Biologics Discovery - BE", "Beerse", "u2")
         self.assertEqual(a, b)
         self.assertEqual(common.normalize_company("Claeys & Engels"), common.normalize_company("Claeys en Engels"))
+        self.assertEqual(common.normalize_company("Bleckmann België N.V."), common.normalize_company("Bleckmann"))
 
     def test_country_only_place_is_empty(self):
         self.assertEqual(common.normalize_place("Belgium"), "")
@@ -85,6 +86,10 @@ class NormalizeTest(unittest.TestCase):
 class RecruiterFlagTest(unittest.TestCase):
     def test_known_agency(self):
         self.assertTrue(common.recruiter_flag("Randstad Professionals", "")[0])
+
+    def test_intermediaries_from_first_run(self):
+        for name in ("Koda Tech", "Collective.work", "Talentsquare", "DeepRec.ai"):
+            self.assertTrue(common.recruiter_flag(name, "")[0], name)
 
     def test_keyword_in_name(self):
         self.assertTrue(common.recruiter_flag("Brainwave Recruitment", "")[0])
