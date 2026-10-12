@@ -7,7 +7,7 @@ Alles draait lokaal; geen database, geen hosting.
 | Fase | Script | Resultaat |
 |---|---|---|
 | 1. Verzamelen | `collect.py` | `data/raw/`, `data/vacatures.jsonl`, `data/vacatures_fase1.csv`, `data/fase1_overzicht.md` |
-| 2. Classificeren | `classify.py` (volgt na akkoord op fase 1) | |
+| 2. Classificeren | `classify.py` | `data/classificaties.jsonl`, `data/fase2_test.md` |
 | 3. Output | `report.py` (volgt na akkoord op fase 2) | `output/vacatures.csv`, `output/samenvatting.md` |
 
 ## Installatie (eenmalig)
@@ -57,6 +57,39 @@ Het overzicht verschijnt op het scherm en in `data/fase1_overzicht.md`.
 | `--no-linkedin-details` | LinkedIn zonder vacaturetekst |
 | `--loose` | zoektermen niet als exacte woordgroep zoeken |
 | `--seed 1` | vaste keuze van de tien voorbeelden |
+
+## Fase 2 draaien
+
+Zet eerst `ANTHROPIC_API_KEY` in `.env` (aan te maken op console.anthropic.com, onder API Keys).
+Na `git pull` installeer je de nieuwe pakketten één keer opnieuw:
+
+```bash
+pip install -r requirements.txt
+```
+
+Test op 20 willekeurige vacatures (enkele seconden, kost minder dan een cent):
+
+```bash
+python classify.py --test 20
+```
+
+Dat toont per vacature het oordeel van het model en een kostenschatting voor de volledige set,
+en bewaart alles in `data/fase2_test.md`. De volledige set pas na akkoord:
+
+```bash
+python classify.py
+```
+
+Wat al geclassificeerd is met dezelfde prompt, wordt niet opnieuw gestuurd. Pas je de prompt in
+`classify.py` aan, dan classificeert het script automatisch opnieuw.
+
+Hoe het werkt:
+- Model `claude-haiku-5-5`, effort `low`, met een vaste systeemprompt (definities van alle velden,
+  scoreschaal 1 tot 5) die in de cache van de API blijft, zodat hij maar één keer volledig betaald wordt.
+- Het model moet JSON teruggeven volgens een vast schema (structured outputs). Het script valideert
+  dat JSON daarna nog eens zelf: ongeldige waarden worden als fout gemeld en niet bewaard.
+- Tegenstrijdigheden (bv. "niet relevant" met score 4) worden bewaard maar gemarkeerd.
+- De vacaturetekst gaat als gegevens mee, zonder persoonsgegevens (die zijn in fase 1 al verwijderd).
 
 ## Regels die in de code zitten
 
