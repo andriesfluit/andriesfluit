@@ -242,7 +242,11 @@ def run_source(source: str, terms: list[str], args, polite: Politeness) -> dict:
         path = raw_path(source, term)
         if path.exists() and not args.refresh:
             cached = json.loads(path.read_text(encoding="utf-8"))
-            if cached.get("volledig"):
+            # LinkedIn zonder tekst (proefrun met --no-linkedin-details) opnieuw ophalen met tekst.
+            missing_details = (
+                source == "linkedin" and not args.no_linkedin_details and not cached.get("linkedin_details")
+            )
+            if cached.get("volledig") and not missing_details:
                 status[term] = {"status": "al opgehaald", "aantal": len(cached["resultaten"])}
                 continue
         if source in polite.stopped:
@@ -276,6 +280,7 @@ def run_source(source: str, terms: list[str], args, polite: Politeness) -> dict:
                     "query": term if args.loose or source == "adzuna" else query_for(term),
                     "opgehaald_op": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                     "max_dagen": args.days,
+                    "linkedin_details": source == "linkedin" and not args.no_linkedin_details,
                     "volledig": complete,
                     "pii_verwijderd": dict(pii),
                     "resultaten": rows,

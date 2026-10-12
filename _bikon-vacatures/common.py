@@ -234,8 +234,11 @@ def job_id(key: str) -> str:
 
 
 def term_in_text(term: str, text: str | None) -> bool:
-    folded = f" {fold(text)} "
-    return f" {fold(term)} " in folded
+    """Komt de zoekterm voor, ook als meervoud of begin van een samenstelling (chatbots,
+    chatbotteam)? Korte woorden (RAG, Act, AI) moeten wel als los woord staan."""
+    words = fold(term).split()
+    end = r"s?\b" if len(words[-1]) < 4 else ""
+    return re.search(rf"\b{re.escape(' '.join(words))}{end}", fold(text)) is not None
 
 
 # --- Recruitmentbureaus en interimkantoren -----------------------------------------

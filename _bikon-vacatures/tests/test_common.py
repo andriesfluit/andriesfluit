@@ -68,6 +68,12 @@ class NormalizeTest(unittest.TestCase):
     def test_term_in_text(self):
         self.assertTrue(common.term_in_text("AI-assistent", "Je bouwt een AI assistent"))
         self.assertFalse(common.term_in_text("RAG", "drag and drop"))
+        self.assertFalse(common.term_in_text("RAG", "rage and storage"))
+        self.assertTrue(common.term_in_text("RAG", "RAG-systemen en RAGs"))
+        self.assertTrue(common.term_in_text("chatbot", "Onze chatbots en het chatbotteam"))
+        self.assertTrue(common.term_in_text("kennisbank", "beheer van kennisbanken"))
+        self.assertTrue(common.term_in_text("AI Act", "conform de AI-Act"))
+        self.assertFalse(common.term_in_text("AI Act", "AI actions and activities"))
 
 
 class RecruiterFlagTest(unittest.TestCase):
