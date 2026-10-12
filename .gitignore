@@ -48,3 +48,12 @@ _destandaard/__pycache__/
 _destandaard/.DS_Store
 # Local dry-run HTML previews (the committed digest is the .md).
 _destandaard/data/digests/*.html
+
+# Bikon-vacatures: enkel code committen; vacaturedata, output en sleutels blijven lokaal.
+_bikon-vacatures/.env
+_bikon-vacatures/.venv/
+_bikon-vacatures/venv/
+_bikon-vacatures/__pycache__/
+_bikon-vacatures/tests/__pycache__/
+_bikon-vacatures/data/
+_bikon-vacatures/output/
