@@ -114,6 +114,16 @@ plus 0,5 per extra relevante functie (hoogstens +1,5); dezelfde functietitel op 
 telt één keer. Recruitmentbureaus, interimkantoren en andere tussenpersonen (vacatureplatformen,
 freelanceplatformen) tellen niet mee in de top 25.
 
+## Fiches per organisatie (na fase 3)
+
+```bash
+python fiches.py
+```
+
+Zet de relevante vacatureteksten van de 10 organisaties uit de shortlist in
+`output/fiches_input.md` (eigen selectie: `python fiches.py Argenta "Delen Private Bank"`).
+Dat bestand dient als basis voor een fiche per organisatie.
+
 ## Regels die in de code zitten
 
 - Geen login, geen accounts, geen eigen cookies: enkel publieke zoekpagina's en de Adzuna-API.
