@@ -8,7 +8,7 @@ Alles draait lokaal; geen database, geen hosting.
 |---|---|---|
 | 1. Verzamelen | `collect.py` | `data/raw/`, `data/vacatures.jsonl`, `data/vacatures_fase1.csv`, `data/fase1_overzicht.md` |
 | 2. Classificeren | `classify.py` | `data/classificaties.jsonl`, `data/fase2_test.md` |
-| 3. Output | `report.py` (volgt na akkoord op fase 2) | `output/vacatures.csv`, `output/samenvatting.md` |
+| 3. Output | `report.py` | `output/vacatures.csv`, `output/samenvatting.md` |
 
 ## Installatie (eenmalig)
 
@@ -95,6 +95,23 @@ Hoe het werkt:
 - Bank, verzekering, overheid, zorg, juridisch, HR en payroll en telecom zijn altijd "gereguleerd";
   zegt het model iets anders, dan past het script dat aan en markeert het.
 - De vacaturetekst gaat als gegevens mee, zonder persoonsgegevens (die zijn in fase 1 al verwijderd).
+
+## Fase 3 draaien
+
+```bash
+python report.py
+```
+
+Geen netwerkverkeer en geen kosten. Het maakt:
+- `output/vacatures.csv`: alle geclassificeerde vacatures, hoogste score bovenaan, met puntkomma
+  als scheidingsteken (opent zo meteen in kolommen in Excel met Belgische instellingen). De laatste
+  kolom `tekst_onvolledig` markeert vacatures die enkel via Adzuna kwamen (500 tekens tekst).
+- `output/samenvatting.md`: aantal relevante vacatures, verdeling per signaaltype, sector en rol,
+  de top 25 organisaties, ruis per zoekterm, relevant per bron en de kanttekeningen.
+
+Organisatiescore in de top 25: de hoogste score van de relevante vacatures van die organisatie,
+plus 0,5 per extra relevante vacature (hoogstens +1,5). Recruitmentbureaus en interimkantoren
+tellen niet mee in de top 25.
 
 ## Regels die in de code zitten
 
