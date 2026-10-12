@@ -31,6 +31,7 @@ MODEL = "claude-haiku-5-5"
 EFFORT = "low"  # classificatie: weinig denkwerk nodig, goedkoopst en snelst
 MAX_TOKENS = 4000  # ruimte voor het denkwerk van het model plus het JSON-antwoord
 CLASS_FILE = common.DATA_DIR / "classificaties.jsonl"
+TEST_IDS_FILE = common.DATA_DIR / "fase2_test_ids.json"
 
 # USD per miljoen tokens voor claude-haiku-5-5 bij prompts tot 100.000 tokens
 # (platform.claude.com/docs/en/about-claude/pricing, nagekeken op 12 oktober 2026).
@@ -40,6 +41,7 @@ PRICE_CACHE_READ = 0.01
 PRICE_OUTPUT = 0.50
 
 SIGNALS = ["bouwen", "beheren", "kopen_uitrollen", "governance"]
+REGULATED_SECTORS = {"bank", "verzekering", "overheid", "zorg", "juridisch", "HR en payroll", "telecom"}
 ROLES = ["koper", "bouwer", "integrator", "onduidelijk"]
 SECTORS = [
     "bank", "verzekering", "overheid", "zorg", "juridisch", "HR en payroll",
@@ -56,11 +58,12 @@ Geef deze velden terug:
 
 relevant: "ja" of "nee".
 "ja" als de job echt gaat over het bouwen, beheren, aankopen, uitrollen of reguleren van een RAG-chatbot, een generatieve AI-assistent of de kennisbank erachter, of als zo'n assistent een duidelijk en concreet onderdeel van de job is.
+Ook "ja" als de job gaat over de data, de kennisbank, de ontologie of de content die een RAG-systeem, een generatieve assistent of AI-agents voedt, ook als de job die assistent zelf niet bouwt.
 "nee" als AI, LLM's of chatbots enkel terloops vermeld worden, als het gaat om klassieke machine learning, data-engineering of software zonder generatieve assistent, of als de zoekterm in een andere betekenis voorkomt.
 
 signaaltype: lijst met nul, één of meer van deze waarden. Leeg als relevant "nee" is.
 - bouwen: de organisatie ontwikkelt een RAG-chatbot of generatieve AI-assistent (LLM- of GenAI-engineering, retrieval, vector databases, LangChain, Azure OpenAI, Copilot Studio en dergelijke).
-- beheren: de inhoud of de werking van een assistent of de kennisbank erachter onderhouden en verbeteren (kennisbeheer, content, conversational design, kwaliteit van de antwoorden).
+- beheren: de inhoud of de werking van een assistent of de kennisbank erachter onderhouden en verbeteren (kennisbeheer, content, ontologieën en kennisgrafen, conversational design, kwaliteit van de antwoorden).
 - kopen_uitrollen: een oplossing kiezen, aankopen, invoeren of uitrollen in de organisatie (product owner, projectleiding, adoptie).
 - governance: AI-regelgeving zoals de AI Act, risicobeheer, compliance of verantwoord gebruik van AI.
 
@@ -72,7 +75,7 @@ rol_organisatie: de rol van de organisatie die de vacature uitschrijft.
 
 sector: de sector van de organisatie zelf. Bij een recruitmentbureau of interimkantoor de sector van de eindklant als die genoemd wordt, anders "andere". Kies één van: bank (ook vermogensbeheer en betalingen), verzekering (ook pensioenfondsen), overheid (ook Europese instellingen en openbare diensten), zorg, juridisch, HR en payroll (ook sociale secretariaten), telecom, retail, tech, consultancy, andere.
 
-gereguleerd: "ja" als de organisatie (of de genoemde eindklant) werkt in een sector met strikte regelgeving en toezicht, zoals bank, verzekering, pensioenen, zorg, farma, juridisch, overheid, sociale zekerheid en payroll, telecom of energie. Anders "nee".
+gereguleerd: "ja" als de organisatie (of de genoemde eindklant) werkt in een sector met strikte regelgeving en toezicht. Bij de sectoren bank, verzekering, overheid, zorg, juridisch, HR en payroll en telecom is het altijd "ja". Ook farma, pensioenen en energie zijn gereguleerd. Anders "nee".
 
 score: geheel getal van 1 tot 5. Hoe interessant is deze organisatie als lead voor Bikon?
 5: relevante vacature bij een koper in een gereguleerde sector, en de tekst zegt ook iets over de kwaliteit van data of kennisbank, bronnen, traceerbaarheid, betrouwbaarheid of compliance van de assistent.
@@ -82,7 +85,7 @@ score: geheel getal van 1 tot 5. Hoe interessant is deze organisatie als lead vo
 1: niet relevant, of te weinig informatie.
 Is relevant "nee", dan is de score 1 of 2.
 
-motivatie: één zin in het Nederlands van hoogstens 30 woorden, die het oordeel onderbouwt met wat concreet in de vacature staat. Noem geen namen van personen. Is de tekst kort of onvolledig, zeg dat dan."""
+motivatie: één korte zin in het Nederlands van hoogstens 25 woorden, die het oordeel onderbouwt met wat concreet in de vacature staat. Noem geen namen van personen. Is de tekst kort of onvolledig, zeg dat dan."""
 
 SCHEMA = {
     "type": "object",
@@ -198,10 +201,17 @@ def classify_job(client, job: dict) -> dict:
         raise ClassificationError(f"ongeldige JSON: {e.errors()[0]['msg']}") from None
     result = parsed.model_dump()
     result["signaaltype"] = list(dict.fromkeys(result["signaaltype"]))
+    warnings = consistency_warnings(parsed)
+    if result["sector"] in REGULATED_SECTORS and result["gereguleerd"] == "nee":
+        # De definitie zegt: deze sectoren zijn altijd gereguleerd.
+        result["gereguleerd"] = "ja"
+        warnings.append(f"gereguleerd aangepast naar ja (sector {result['sector']})")
     return {
         "job_id": job["job_id"],
+        "bedrijf": job.get("bedrijf"),
+        "titel": job.get("titel"),
         **result,
-        "waarschuwingen": consistency_warnings(parsed),
+        "waarschuwingen": warnings,
         "model": MODEL,
         "effort": EFFORT,
         "prompt_versie": PROMPT_VERSION,
@@ -220,6 +230,22 @@ def load_classifications() -> dict[str, dict]:
         if row.get("prompt_versie") == PROMPT_VERSION:
             done[row["job_id"]] = row
     return done
+
+
+def load_previous() -> dict[str, dict]:
+    """Resultaten van een eerdere promptversie, om voor en na te vergelijken."""
+    if not CLASS_FILE.exists():
+        return {}
+    return {row["job_id"]: row for row in common.read_jsonl(CLASS_FILE) if row.get("prompt_versie") != PROMPT_VERSION}
+
+
+def previous_test_ids() -> set[str]:
+    if TEST_IDS_FILE.exists():
+        return set(json.loads(TEST_IDS_FILE.read_text(encoding="utf-8")))
+    # De eerste versie van dit script bewaarde de testselectie niet: neem wat toen geclassificeerd werd.
+    if CLASS_FILE.exists():
+        return {row["job_id"] for row in common.read_jsonl(CLASS_FILE)}
+    return set()
 
 
 def run(client, jobs: list[dict], workers: int) -> tuple[list[dict], list[tuple[dict, str]]]:
@@ -275,17 +301,22 @@ def test_report(sample: list[dict], classified: dict[str, dict], measured: list[
     by_id = {job["job_id"]: job for job in sample}
     rows = [classified[j["job_id"]] for j in sample if j["job_id"] in classified]
     rows.sort(key=lambda r: (-r["score"], r["relevant"] != "ja"))
+    previous = load_previous()
+    compare = any(r["job_id"] in previous for r in rows)
     out = [f"# Fase 2: test op {len(sample)} vacatures", "", f"Model {MODEL}, effort {EFFORT}, promptversie {PROMPT_VERSION}.", ""]
-    out += [
-        "| score | relevant | bedrijf | titel | bron | signaaltype | rol | sector | gereg. | motivatie |",
-        "|---|---|---|---|---|---|---|---|---|---|",
-    ]
+    headers = ["score", "relevant", "bedrijf", "titel", "bron", "signaaltype", "rol", "sector", "gereg.", "motivatie"]
+    if compare:
+        out += ["'vorige' is score en relevantie met de vorige prompt.", ""]
+        headers.insert(2, "vorige")
+    out += ["| " + " | ".join(headers) + " |", "|" + "---|" * len(headers)]
     for r in rows:
         job = by_id[r["job_id"]]
+        before = previous.get(r["job_id"])
+        extra = [f"{before['score']} / {before['relevant']}" if before else "nieuw"] if compare else []
         out.append(
             "| " + " | ".join(
                 md_cell(v) for v in [
-                    r["score"], r["relevant"], job.get("bedrijf"), job.get("titel"), job.get("bron"),
+                    r["score"], r["relevant"], *extra, job.get("bedrijf"), job.get("titel"), job.get("bron"),
                     ", ".join(r["signaaltype"]) or "-", r["rol_organisatie"], r["sector"], r["gereguleerd"],
                     r["motivatie"] + (f" (let op: {'; '.join(r['waarschuwingen'])})" if r["waarschuwingen"] else ""),
                 ]
@@ -319,6 +350,7 @@ def test_report(sample: list[dict], classified: dict[str, dict], measured: list[
 def parse_args():
     parser = argparse.ArgumentParser(description="Fase 2: vacatures classificeren")
     parser.add_argument("--test", type=int, metavar="N", help="enkel N willekeurige vacatures (bv. 20)")
+    parser.add_argument("--retest", action="store_true", help="dezelfde vacatures als de vorige test opnieuw")
     parser.add_argument("--seed", type=int, default=42, help="seed voor de testselectie")
     parser.add_argument("--workers", type=int, default=4, help="aantal aanvragen tegelijk")
     parser.add_argument("--refresh", action="store_true", help="ook al geclassificeerde vacatures opnieuw doen")
@@ -337,7 +369,18 @@ def main() -> None:
 
     client = anthropic.Anthropic(max_retries=5)
     jobs = common.read_jsonl(common.JOBS_FILE)
-    selection = random.Random(args.seed).sample(jobs, min(args.test, len(jobs))) if args.test else jobs
+    if args.retest:
+        ids = previous_test_ids()
+        selection = [job for job in jobs if job["job_id"] in ids]
+        if not selection:
+            sys.exit("Geen eerdere test gevonden. Gebruik --test 20.")
+    elif args.test:
+        selection = random.Random(args.seed).sample(jobs, min(args.test, len(jobs)))
+    else:
+        selection = jobs
+    testing = bool(args.test or args.retest)
+    if testing:
+        common.write_json(TEST_IDS_FILE, [job["job_id"] for job in selection])
     classified = {} if args.refresh else load_classifications()
     todo = [job for job in selection if job["job_id"] not in classified]
     print(
@@ -355,7 +398,7 @@ def main() -> None:
         for job, message in errors:
             print(f"- {job.get('bedrijf')} | {job.get('titel')}: {message}")
 
-    if args.test:
+    if testing:
         measured = [classified[j["job_id"]] for j in selection if j["job_id"] in classified]
         report = test_report(selection, classified, measured, len(jobs))
         (common.DATA_DIR / "fase2_test.md").write_text(report, encoding="utf-8")

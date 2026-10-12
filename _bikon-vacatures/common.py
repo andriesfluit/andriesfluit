@@ -203,13 +203,20 @@ PLACE_NOISE = {"region", "metropolitan", "area", "greater", "hoofdstedelijk", "g
 COUNTRY_NAMES = {"belgium", "belgique", "belgie", "be", "belgien"}
 
 
+CONNECTOR_WORDS = {"and", "en", "et", "und"}  # "Johnson & Johnson" = "Johnson and Johnson"
+
+
 def normalize_company(name: str | None) -> str:
-    words = [w for w in fold(name).split() if w not in LEGAL_FORMS]
+    words = [w for w in fold(name).split() if w not in LEGAL_FORMS and w not in CONNECTOR_WORDS]
     return " ".join(words)
 
 
 def normalize_title(title: str | None) -> str:
-    return fold(GENDER_MARKER_RE.sub(" ", title or ""))
+    """Zonder m/v/x en zonder landnaam achteraan ("... - BE")."""
+    words = fold(GENDER_MARKER_RE.sub(" ", title or "")).split()
+    while words and words[-1] in COUNTRY_NAMES:
+        words.pop()
+    return " ".join(words)
 
 
 def normalize_place(place: str | None) -> str:

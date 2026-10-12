@@ -365,6 +365,18 @@ def deduplicate(records: list[dict], days: int) -> tuple[list[dict], int]:
         key = common.dedup_key(record["bedrijf"], record["titel"], record["plaats"], record["url"] or "")
         groups.setdefault(key, []).append(record)
 
+    # Een vacature zonder plaats hoort bij dezelfde vacature mét plaats, als er maar één zo is.
+    by_company_title: dict[str, list[str]] = {}
+    for key in groups:
+        if not key.startswith("url|"):
+            by_company_title.setdefault(key.rpartition("|")[0], []).append(key)
+    for keys in by_company_title.values():
+        with_place = [k for k in keys if not k.endswith("|")]
+        if len(with_place) == 1:
+            for k in keys:
+                if k.endswith("|"):
+                    groups[with_place[0]] += groups.pop(k)
+
     term_order = {t: i for i, t in enumerate(common.ALL_TERMS)}
     jobs = []
     for key, group in groups.items():

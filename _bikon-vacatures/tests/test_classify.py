@@ -66,6 +66,12 @@ class ClassifyJobTest(unittest.TestCase):
         result = classify.classify_job(FakeClient(json.dumps(answer)), JOB)
         self.assertEqual(len(result["waarschuwingen"]), 2)
 
+    def test_regulated_sector_is_always_regulated(self):
+        answer = {**VALID, "sector": "juridisch", "gereguleerd": "nee"}
+        result = classify.classify_job(FakeClient(json.dumps(answer)), JOB)
+        self.assertEqual(result["gereguleerd"], "ja")
+        self.assertIn("gereguleerd aangepast naar ja (sector juridisch)", result["waarschuwingen"])
+
     def test_prompt_marks_short_adzuna_text(self):
         self.assertIn("500 tekens", classify.job_prompt({**JOB, "bron": "adzuna"}))
         self.assertNotIn("500 tekens", classify.job_prompt({**JOB, "bron": "adzuna; indeed"}))

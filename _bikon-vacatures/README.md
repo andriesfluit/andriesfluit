@@ -80,6 +80,9 @@ en bewaart alles in `data/fase2_test.md`. De volledige set pas na akkoord:
 python classify.py
 ```
 
+Na een aanpassing aan de prompt toont `python classify.py --retest` dezelfde vacatures als de vorige
+test opnieuw, met de vorige score ernaast.
+
 Wat al geclassificeerd is met dezelfde prompt, wordt niet opnieuw gestuurd. Pas je de prompt in
 `classify.py` aan, dan classificeert het script automatisch opnieuw.
 
@@ -89,6 +92,8 @@ Hoe het werkt:
 - Het model moet JSON teruggeven volgens een vast schema (structured outputs). Het script valideert
   dat JSON daarna nog eens zelf: ongeldige waarden worden als fout gemeld en niet bewaard.
 - Tegenstrijdigheden (bv. "niet relevant" met score 4) worden bewaard maar gemarkeerd.
+- Bank, verzekering, overheid, zorg, juridisch, HR en payroll en telecom zijn altijd "gereguleerd";
+  zegt het model iets anders, dan past het script dat aan en markeert het.
 - De vacaturetekst gaat als gegevens mee, zonder persoonsgegevens (die zijn in fase 1 al verwijderd).
 
 ## Regels die in de code zitten
@@ -108,8 +113,9 @@ Hoe het werkt:
 ## Deduplicatie en recruitervlag
 
 - Dubbels over bronnen en zoektermen heen worden samengevoegd op genormaliseerde bedrijfsnaam
-  (zonder NV, SA, Group, Belgium...), functietitel (zonder m/v/x) en plaats (Brussel, Bruxelles
-  en Brussels tellen als één plaats). De versie met de langste tekst blijft over; bronnen en
+  (zonder NV, SA, Group, Belgium..., en "&" telt als "and"), functietitel (zonder m/v/x en zonder
+  landnaam achteraan) en plaats (Brussel, Bruxelles en Brussels tellen als één plaats). Een vacature
+  zonder plaats wordt samengevoegd met dezelfde vacature mét plaats, als er maar één zo is. De versie met de langste tekst blijft over; bronnen en
   zoektermen worden samengevoegd.
 - Recruitmentbureaus en interimkantoren worden gemarkeerd (`recruiter_vlag`, met reden), niet
   verwijderd: op naam (lijst van bekende bureaus en woorden als recruitment, interim, staffing)

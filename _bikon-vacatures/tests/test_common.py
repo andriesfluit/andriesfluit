@@ -55,6 +55,12 @@ class NormalizeTest(unittest.TestCase):
         b = common.dedup_key("KBC", "AI engineer", "Bruxelles, Région de Bruxelles-Capitale", "u2")
         self.assertEqual(a, b)
 
+    def test_ampersand_and_country_suffix(self):
+        a = common.dedup_key("Johnson & Johnson", "Senior Ontologist, Biologics Discovery", "Beerse, Flemish Region, Belgium", "u1")
+        b = common.dedup_key("Johnson and Johnson", "Senior Ontologist, Biologics Discovery - BE", "Beerse", "u2")
+        self.assertEqual(a, b)
+        self.assertEqual(common.normalize_company("Claeys & Engels"), common.normalize_company("Claeys en Engels"))
+
     def test_country_only_place_is_empty(self):
         self.assertEqual(common.normalize_place("Belgium"), "")
         self.assertEqual(common.normalize_place("Brussels Metropolitan Area"), "brussels")
@@ -108,6 +114,20 @@ class DeduplicateTest(unittest.TestCase):
         self.assertEqual(jobs[0]["bron"], "indeed; linkedin")
         self.assertEqual(jobs[0]["zoekterm"], "RAG; AI engineer")
         self.assertEqual(jobs[0]["beschrijving"], "veel langere tekst")
+
+    def test_job_without_place_joins_the_only_job_with_place(self):
+        today = collect.date.today().isoformat()
+        base = {"zoekterm": "RAG", "titel": "AI Engineer", "bedrijf": "KBC", "datum": today,
+                "beschrijving": "", "sector_bron": None}
+        records = [
+            {**base, "bron": "indeed", "plaats": "Brussel", "url": "a"},
+            {**base, "bron": "linkedin", "plaats": "Belgium", "url": "b"},
+        ]
+        jobs, _ = collect.deduplicate(records, 30)
+        self.assertEqual(len(jobs), 1)
+        records.append({**base, "bron": "adzuna", "plaats": "Gent", "url": "c"})
+        jobs, _ = collect.deduplicate(records, 30)
+        self.assertEqual(len(jobs), 3)  # twee plaatsen: niet raden waar de vacature zonder plaats hoort
 
 
 if __name__ == "__main__":
