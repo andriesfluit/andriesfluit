@@ -261,7 +261,7 @@ RECRUITER_NAMES = [
     "creyf s", "solvus", "kelly services", "darwin recruitment", "huxley", "sthree",
     "progressive recruitment", "selecthr", "select hr", "jobs4sales",
     # Uit de eerste run: tussenpersonen die de eigenlijke werkgever niet noemen.
-    "koda tech", "koda staff", "collective work", "talentsquare", "deeprec",
+    "koda tech", "koda staff", "collective work", "talentsquare", "deeprec", "jobloom",
 ]
 RECRUITER_NAME_RE = re.compile(
     r"recruit|recrut|interim|uitzend|staffing|headhunt|executive search|selection|"

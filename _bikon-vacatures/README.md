@@ -110,8 +110,9 @@ Geen netwerkverkeer en geen kosten. Het maakt:
   de top 25 organisaties, ruis per zoekterm, relevant per bron en de kanttekeningen.
 
 Organisatiescore in de top 25: de hoogste score van de relevante vacatures van die organisatie,
-plus 0,5 per extra relevante vacature (hoogstens +1,5). Recruitmentbureaus en interimkantoren
-tellen niet mee in de top 25.
+plus 0,5 per extra relevante functie (hoogstens +1,5); dezelfde functietitel op meerdere plaatsen
+telt één keer. Recruitmentbureaus, interimkantoren en andere tussenpersonen (vacatureplatformen,
+freelanceplatformen) tellen niet mee in de top 25.
 
 ## Regels die in de code zitten
 
