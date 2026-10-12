@@ -112089,5 +112089,430 @@
       "education": 12,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-10-13",
+    "generated_at": "2026-10-13T01:11:50+02:00",
+    "last_checked_at": "2026-10-13T01:11:50+02:00",
+    "total_articles": 35,
+    "trump_articles": 2,
+    "percentage": 5.7,
+    "core_percentage": 5.7,
+    "core_percentage_name": 5.7,
+    "trump_articles_expanded": 2,
+    "core_percentage_expanded": 5.7,
+    "indirect_references": 0,
+    "wide_total_articles": 41,
+    "wide_trump_articles": 2,
+    "wide_percentage": 4.9,
+    "wide_trump_articles_expanded": 2,
+    "wide_percentage_expanded": 4.9,
+    "macro_percentage": 7.4,
+    "qualifying_outlets": 1,
+    "core_outlets_total": 19,
+    "core_outlets_active": 1,
+    "active_core_fraction": 0.053,
+    "cross_outlet_dup_headlines": 0,
+    "cross_outlet_dup_groups": 0,
+    "cross_outlet_dup_rate": 0.0,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.0,
+    "breadth": 1.0,
+    "deviation": 3.26,
+    "smoothed_pct": 3.21,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_politics": {
+        "fetched": 38,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_tech": {
+        "fetched": 65,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 1,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_politics": {
+        "fetched": 31,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 69,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.41
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 25,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "trends_g": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 54,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Als Trump Nero is, dan is Europa Seneca - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSGd1Zy1CeDBpUUUxSWJwS08yWDdBUDZMT0pna1VHTzVOVElpcEQ1RTJmcTdGd0psVE05d2RWck42QkptS1lDbXNPX1VFb3RDSEdTelg4SkgtM0lIRDJEOXk3Y0dRN1M5NHRLOWFYakpPYjhJcVNrbkpYZ0NVcy1CRVZwWjlRRDMwUWFkMTBmWQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "De grote werken van Trump mogen niet verdwijnen: maak er een expositie van - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaXZhRVpfTkVhZHN5OHVlb0N2cFkxcFNLYTNON1ZxLVpqc1RfSlREX3lKSm9TS2RqOHFwRUc4QlM3ekRrTDJac2lZM1dWa244UXozM1dWZWlDdWNPS2J2amYtZ3VyU0RBdk1KanRCcjVQaDNIdW0wZkJkMEsxZU1xY2l4Q2MxTV9pcnJFbllpbjJwaGZrTkVST0tXeU9YdGEtaWF4LUc0c01mdVZReFVrdkZteUk4NTZZVlZwcEJrRi1TcUQ0cnEwSU53?oc=5",
+        "source": "standaard",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Als Trump Nero is, dan is Europa Seneca - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSGd1Zy1CeDBpUUUxSWJwS08yWDdBUDZMT0pna1VHTzVOVElpcEQ1RTJmcTdGd0psVE05d2RWck42QkptS1lDbXNPX1VFb3RDSEdTelg4SkgtM0lIRDJEOXk3Y0dRN1M5NHRLOWFYakpPYjhJcVNrbkpYZ0NVcy1CRVZwWjlRRDMwUWFkMTBmWQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "De grote werken van Trump mogen niet verdwijnen: maak er een expositie van - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaXZhRVpfTkVhZHN5OHVlb0N2cFkxcFNLYTNON1ZxLVpqc1RfSlREX3lKSm9TS2RqOHFwRUc4QlM3ekRrTDJac2lZM1dWa244UXozM1dWZWlDdWNPS2J2amYtZ3VyU0RBdk1KanRCcjVQaDNIdW0wZkJkMEsxZU1xY2l4Q2MxTV9pcnJFbllpbjJwaGZrTkVST0tXeU9YdGEtaWF4LUc0c01mdVZReFVrdkZteUk4NTZZVlZwcEJrRi1TcUQ0cnEwSU53?oc=5",
+        "source": "standaard",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 2,
+      "crime": 1,
+      "eu": 4,
+      "politics": 3,
+      "be_gov": 2,
+      "culture": 3,
+      "tech": 1,
+      "economy": 0,
+      "sports": 1,
+      "health": 0,
+      "climate": 0,
+      "migration": 0,
+      "education": 0,
+      "weather": 0
+    },
+    "wide_themes": {
+      "war": 2,
+      "crime": 1,
+      "eu": 5,
+      "politics": 4,
+      "be_gov": 2,
+      "culture": 3,
+      "tech": 1,
+      "economy": 0,
+      "sports": 1,
+      "health": 0,
+      "climate": 0,
+      "migration": 0,
+      "education": 0,
+      "weather": 0
+    }
   }
 ]
