@@ -112514,5 +112514,670 @@
       "education": 0,
       "weather": 0
     }
+  },
+  {
+    "date": "2026-10-14",
+    "generated_at": "2026-10-14T11:00:16+02:00",
+    "last_checked_at": "2026-10-14T11:00:16+02:00",
+    "total_articles": 460,
+    "trump_articles": 16,
+    "percentage": 3.5,
+    "core_percentage": 3.5,
+    "core_percentage_name": 3.5,
+    "trump_articles_expanded": 18,
+    "core_percentage_expanded": 3.9,
+    "indirect_references": 2,
+    "wide_total_articles": 640,
+    "wide_trump_articles": 23,
+    "wide_percentage": 3.6,
+    "wide_trump_articles_expanded": 26,
+    "wide_percentage_expanded": 4.1,
+    "macro_percentage": 4.9,
+    "qualifying_outlets": 24,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 37,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 8.0,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.6,
+    "breadth": 0.53,
+    "deviation": 2.0,
+    "smoothed_pct": 3.53,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 53,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 14.29
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 7,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 25,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 36,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 20,
+        "kept": 20,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 42,
+        "kept": 42,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 7.14
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 55,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.82
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 25,
+        "kept": 25,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 12.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 11,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "trends_g": {
+        "fetched": 62,
+        "today": 9,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 76,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Rechter garandeert CNN, MS NOW en Politico opnieuw (tijdelijk) toegang tot het Witte Huis",
+        "url": "https://www.hln.be/buitenland/rechter-garandeert-cnn-ms-now-en-politico-opnieuw-tijdelijk-toegang-tot-het-witte-huis~a79c6d94/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "‘Daar moet ik later op terugkomen’: de pijnlijke vuurdoop van Trumps nieuwe woordvoerder Katia Zacharia",
+        "url": "https://www.demorgen.be/nieuws/daar-moet-ik-later-op-terugkomen-de-pijnlijke-vuurdoop-van-trumps-nieuwe-woordvoerder-katia-zacharia~b4a4e484/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump moet CNN en andere verbannen media van rechter weer toelaten tot Witte Huis",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-moet-cnn-en-andere-verbannen-media-van-rechter-weer-toelaten-tot-witte-huis~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Gewonden in Saudische hoofdstad na nieuwe aanvallen van Houthi’s • Trump belooft kiezers in Alaska dat oorlog ‘heel snel’ zal eindigen",
+        "url": "https://www.demorgen.be/snelnieuws/live-gewonden-in-saudische-hoofdstad-na-nieuwe-aanvallen-van-houthi-s-trump-belooft-kiezers-in-alaska-dat-oorlog-heel-snel-zal-eindigen~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump kondigt olie- en gaswinning op “ons nieuwe en prachtige Groenland” aan",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-kondigt-olie-en-gaswinning-op-ons-nieuwe-en-prachtige-groenland-aan/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Dit zijn niet de verkiezingen van Donald Trump: waarom de president toch de midterms wil kapen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd2RGZTJEcTV1T20zdWRRTlpYVkhZU1pIbnJ6NmxoUWxETUoxN0dVTVR2Umc1MEoyXzVYcVFMZkNIMEJvTWR2Vk1QTTlBN1o4OEkxVTZ6SWN6OGkyNXlWbTJyNGFsaEY4U3BYVmJhOVM0V2tibkNQa1FkYzhuZldtVWVzRG1tdTA0aDVHTV81enZxX2l0NWlkLTBkNjJfTjE3dHNoTHJHLXgzaHJBWjRxTHYwVkV2THNMd0x2d3VCTjZ6N0Zka0ROMQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Accord sur le diesel entre Trump et Poutine : un coup de poignard dans le dos de l’UE et de l’Ukraine ?",
+        "url": "https://www.rtbf.be/article/accord-sur-le-diesel-entre-trump-et-poutine-un-coup-de-poignard-dans-le-dos-de-l-ue-et-de-l-ukraine-11799796",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Taïwan prêt à investir 4,4 milliards dans un projet de gazoduc en Alaska promu par Trump",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/10/14/taiwan-pret-a-investir-44-milliards-dans-un-projet-de-gazoduc-en-alaska-promu-par-trump-ZZZYGTOO7NA4FDKBIZWVOM7ZFQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce qu'une \"exploration pétrolière, gazière et minière massive\" se prépare \"dans notre nouveau et magnifique Groenland\"",
+        "url": "https://www.lalibre.be/international/europe/2026/10/14/trump-annonce-quune-exploration-petroliere-gaziere-et-miniere-massive-se-prepare-dans-notre-nouveau-et-magnifique-groenland-GI2MK3UW4JFFPNFWYBCTEEDZ2E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un juge garantit temporairement à CNN, MS NOW et Politico leur accès à la Maison Blanche",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/14/un-juge-garantit-temporairement-a-cnn-ms-now-et-politico-leur-acces-a-la-maison-blanche-P7OWAC6DR5GOHI5CCF32GKBT7U/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Un revers pour Donald Trump ? Lisa Cook repousse la convocation du président alors qu'il tente de la révoquer",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/14/un-revers-pour-donald-trump-lisa-cook-repousse-la-convocation-du-president-alors-quil-tente-de-la-revoquer-ILDK6VRYTNHKJKHVLCVAH677SY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Contrat de 20 ans et investissement de 4,4 milliards de dollars : Trump affirme que ce pays va acheter 30 % de la production du futur gazoduc en Alaska",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/14/contrat-de-20-ans-et-investissement-de-44-milliards-de-dollars-trump-affirme-que-ce-pays-va-acheter-30-de-la-production-du-futur-gazoduc-en-alaska-67WNSUG44ZH7JNFONZIO2Y5YOY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Lapsus, hésitations, réponses lunaires: baptême du feu très embarrassant pour la nouvelle porte-parole de Trump",
+        "url": "https://www.7sur7.be/monde/lapsus-hesitations-reponses-lunaires-bapteme-du-feu-tres-embarrassant-pour-la-nouvelle-porte-parole-de-trump~abdba30d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Notre Groenland”: Trump annonce une “exploration massive” des ressources de l’île arctique",
+        "url": "https://www.7sur7.be/monde/notre-groenland-trump-annonce-une-exploration-massive-des-ressources-de-lile-arctique~a63eb48e/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump débouté provisoirement: trois médias conservent leur accès à la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/trump-deboute-provisoirement-trois-medias-conservent-leur-acces-a-la-maison-blanche~aae7827da/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Ne jouez jamais avec la nature ! » : Donald Trump relance la polémique après la mort d’un homme dans un zoo britannique - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeGR2NWNEdm9vOGhBOXQ4aFROVmJITlFIMG9xamVzb2tVcFlOLWEtVnFQOXdMNjI5SFhZZVVmaE9Dai1XRXJqQmw1QXIxanhsR3ZqZTVqdzN4SUlyNU9hdTVuTEFZLXBSQ1JkTDNYQm9iVFN1VnEtb2FncklORVQ5RVVwbTdSM1ZiVGhiLWtaYlVGeDlEeE45ZmRvRHdhMFEtWTNtUlNxbDA4ZURMdzVZUkpyUWZGaGtOVkVHZ3FtY2sxZDdrSWZoSXA1QmJrUFFLMEV4dUYzY1duV0d2OXJPRm9n?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« Notre nouveau et magnifique Groenland » : voici ce que prépare Trump pour les ressources de l’île danoise - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUDQxNDducF9UellMMm1KWVFkZG1wVkxrOGZyNlFqS3NmU2VoVk9FWG9jRi1ZVmVpNFdnZmFpcU5LTjNxUnVkU2xhLTd5ZkdFc0xod0hvSDBHeFpmRk5XR2ZwUDVwdEZjZXNmWkdKWmNWbFVIOWZlY3RqbFR1XzlOZloyUXdkZ1hJTVkyOC15V2FuNXRIVmJHT3lGV0FrclRpNTRMZEs1cW5lVmNlakVIMlBRS0tVUzhsOUxZVVZFcEZlVDFMRTZDemZGaFVseDFhaUc1ZUhFTjZWeHM?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "\"Alimenter le chaos\" : le calcul électoral de Trump pour novembre - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS2tFRkZZVXluM1V4bTFaeU9PTFpoeVhlVm03M0xldkdGSU9fa1RjbGJEUzY1a25qVHpIN2RkUjU5ZVFpbDdWN0NEci1GYW5nMmRnaFk5a19pUTRFaU4yc3B1cFhCN0EzRFcwcXlFRDhGdWhNRm9BZUpmM3ZYRURTTE42aXBtRDZPOXJzUTZHNGlQNlo1ZjNBU3VXVQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Rechter verlengt toegang tot Witte Huis voor CNN, Politico en MSNow - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkRMNDkxa0VrMlZoc0pJNFUyT21MeXJ3aUE2TUZDZ2NuNVh6V0RNaWdwVlZydm9aWVhEQkNOVWhjS3M5UE9FdDZ5TVIwN1FCSjNEVEhiNkFsNDhmcVBBR0xLQm9pUExPVnVmOFpnb3U3bGZrZXRXeGxPaFBKNjRWaUM3R3N4LWcwbDQ2SWVQc2NZWW5TYnEtOE1vczRvWmxIQ0dpSWpYMG9CSHFVUll4b01rY2lmbEk?oc=5",
+        "source": "google_nl_politics",
+        "name_only": false
+      },
+      {
+        "title": "Trump kondigt “massale exploitatie” van olie- en gasvelden “in ons nieuwe en prachtige Groenland” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPekM1WEVJTEQ3a2x0QS0yUVNnUkRWZWN6NS1ydkNxUm9FZllfTUJ1RHgyTHE4ZjZhNk4tSTllVzN3Tm8yV003Z3VnMF9LcEhKZkNDQzJNTTVEeXhGSVNHQmdQczFmdG03b2J2VzlZdmdoeEN1WWctQUtVQ0o3V1BuUXAzcmkzV3A5WGlldVk0RlZvVzZ5d3EzS2ZPUHdxdXZteHZJazdUSFluLUwyQzRzaC1oNFgtakl5b09zWnp4QjFwb0toVDNQYUR6ZFBHWmR4TzR5R1F1WTNtdw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump kondigt “exploratie” naar olie en gas aan op “ons nieuwe en prachtige Groenland” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd3NkckRscWNia3h3R1d4LThFNXFrM2tXQ3dabVItM3BtWDR2MEppT0lQa0FtU3gyVnNldEpkekVRZDd1YTVIYmVibGpQNHFqalZucERRUGRUSzRvMFdrNjFseW5HTERoUTlBTVZ5dFZIcDN3N04yUlEyMGFiRTV6ZmFQZ3BEZUg4eFoybzgzZ014MHdvSzY1Si1GcVhtWlM3Rkh1aVFHaWZKN2JuWmVxMlVqdE0zRGtKeWtTMmF3RQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "La nouvelle annonce choc de Donald Trump : une « exploration pétrolière, gazière et minière massive » se prépare « dans notre Groenland » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTHJ2T1JVYXZ1dnFfandZWHhLOGQzSzN3XzBBdnMyaWFKdmZteHNLdzZQNkt0Z0lvNHJDUXdUeU1YRVNEa3NmZVF5aWRsOGxpd3lIX1lFUHF6QnhycGpxVWw2QXA1WkxfbkJjSWZrMnZkczJCd0FSMndNdGJkWGM2VW5XOXVBWlFiME1NdlJKREtuLXV5NzhlWGJZWGViZExwekNTYU90UWNfUUlNbmVPZ0dZTWJqaTlSLUp1LTdVZmpUMEc3Tm1YeEp3?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "« Ne jouez jamais avec la nature ! » : Donald Trump relance la polémique après la mort de William, tué par un tigre alors qu’il avait franchi la barrière de l’enclos - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVWpfZ1BNLTNSRDQxVGxfSkwtQnRsVnZXY0dvRjN1bFJfRHJPZWR6U2lSYVlaZTRKWHpTeDdwZzU4UE1BM0RlY1pPQy1aa1dHcGFKM1BuazBsRzhzbHE3N3VweXhPamlSYWM3aS01OVdtS3VLbUF6Vi02OFF4NXFCM0RBYjFaQm1GM1dzOF9rdWpPU21sN0oxd0pFcHFZbEJCZGNNOEt1TEVlSGx3YmxiRXZVM3RjRklGYnI5V0ZjeFYwMTg2WW9LZWZ3?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Contrat de 20 ans et investissement de 4,4 milliards de dollars : Trump affirme que ce pays va acheter 30 % de la production du futur gazoduc en Alaska - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxObUN2VURWTTdUdHBpM0VPUWZBSWhjNDFXV1ExX3d2SWtfLUhIV2ItMkpMb0M2SWlQMldSbC1MRUtJVVNpb244ZGhtNEpMb19OT0FoeHY1Nm5iNXl6YTlobTV1LU1kTnoxY1h3QlBKVE9NXzlLdHNOS1NZUGs4OWwyUXZacnFRbEg2YXUtQThiSjRfaWJmTUUxNEwyTkNNUUdoaEFoQ2gwTTB3Vm9XZVRKWTJrT3JUTzJ4SEVoSkFiSV93S3hidWt6bVlZZlZJNlVfbUpNYVhWNVZvRlEyQklSM21yZERac25rWDdlODhLR00tVHhpUjFPZF9xUUJLcE9jbVlRRWdaS0xoTGxBRTZRNXY3cTE1cTM1bjJ2dnVEcFFKMTNMZjVxZzVoXzNScGZDb0gzVlRjSmtnWEJEc3c?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Un revers pour Donald Trump ? Lisa Cook repousse la convocation du président alors qu'il tente de la révoquer - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOSVFfRlNYdk1sanViTy1vOGFJdFJfY1NUT2NtOGdvV3ZLbmV0MXN0ZVVHVG5raGJwejBZbnJTWWZ6TzZmVV9TT0xZOHdLTEZ6eXZyZmhoMmhUYk80d1dJb3RHcGV4QTJvVmppTHp3UmtGQWYwLVk4ZnMzcElRU05CWkdRRlk5YTc1ZXdLOTdaTE9iS0xZYnNteFcyOVhPaXFnLUt5T0tzb3ZybVZNbFhDSkVtYm5xeDlLUDNONmRzeGN3SWhuSnFCQ2thSVBnbzFsRUREcEhpWk0yRUtHT2pvLXVucGpCQm05d3l4ZlM5R3Q5UEJBVVN0NEZhNEtWWFIzMkJ3VF9ZMTQ4QzhVYW9YS3JXV1J4U29QbE04?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Rechter garandeert CNN, MS NOW en Politico opnieuw (tijdelijk) toegang tot het Witte Huis",
+        "url": "https://www.hln.be/buitenland/rechter-garandeert-cnn-ms-now-en-politico-opnieuw-tijdelijk-toegang-tot-het-witte-huis~a79c6d94/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "‘Daar moet ik later op terugkomen’: de pijnlijke vuurdoop van Trumps nieuwe woordvoerder Katia Zacharia",
+        "url": "https://www.demorgen.be/nieuws/daar-moet-ik-later-op-terugkomen-de-pijnlijke-vuurdoop-van-trumps-nieuwe-woordvoerder-katia-zacharia~b4a4e484/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump moet CNN en andere verbannen media van rechter weer toelaten tot Witte Huis",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-moet-cnn-en-andere-verbannen-media-van-rechter-weer-toelaten-tot-witte-huis~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Gewonden in Saudische hoofdstad na nieuwe aanvallen van Houthi’s • Trump belooft kiezers in Alaska dat oorlog ‘heel snel’ zal eindigen",
+        "url": "https://www.demorgen.be/snelnieuws/live-gewonden-in-saudische-hoofdstad-na-nieuwe-aanvallen-van-houthi-s-trump-belooft-kiezers-in-alaska-dat-oorlog-heel-snel-zal-eindigen~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump kondigt olie- en gaswinning op “ons nieuwe en prachtige Groenland” aan",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-kondigt-olie-en-gaswinning-op-ons-nieuwe-en-prachtige-groenland-aan/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump kondigt olie- en gaswinning op “ons nieuwe en prachtige Groenland” aan",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-kondigt-olie-en-gaswinning-op-ons-nieuwe-en-prachtige-groenland-aan/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Dit zijn niet de verkiezingen van Donald Trump: waarom de president toch de midterms wil kapen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd2RGZTJEcTV1T20zdWRRTlpYVkhZU1pIbnJ6NmxoUWxETUoxN0dVTVR2Umc1MEoyXzVYcVFMZkNIMEJvTWR2Vk1QTTlBN1o4OEkxVTZ6SWN6OGkyNXlWbTJyNGFsaEY4U3BYVmJhOVM0V2tibkNQa1FkYzhuZldtVWVzRG1tdTA0aDVHTV81enZxX2l0NWlkLTBkNjJfTjE3dHNoTHJHLXgzaHJBWjRxTHYwVkV2THNMd0x2d3VCTjZ6N0Zka0ROMQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Accord sur le diesel entre Trump et Poutine : un coup de poignard dans le dos de l’UE et de l’Ukraine ?",
+        "url": "https://www.rtbf.be/article/accord-sur-le-diesel-entre-trump-et-poutine-un-coup-de-poignard-dans-le-dos-de-l-ue-et-de-l-ukraine-11799796",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Taïwan prêt à investir 4,4 milliards dans un projet de gazoduc en Alaska promu par Trump",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/10/14/taiwan-pret-a-investir-44-milliards-dans-un-projet-de-gazoduc-en-alaska-promu-par-trump-ZZZYGTOO7NA4FDKBIZWVOM7ZFQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce qu'une \"exploration pétrolière, gazière et minière massive\" se prépare \"dans notre nouveau et magnifique Groenland\"",
+        "url": "https://www.lalibre.be/international/europe/2026/10/14/trump-annonce-quune-exploration-petroliere-gaziere-et-miniere-massive-se-prepare-dans-notre-nouveau-et-magnifique-groenland-GI2MK3UW4JFFPNFWYBCTEEDZ2E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un juge garantit temporairement à CNN, MS NOW et Politico leur accès à la Maison Blanche",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/14/un-juge-garantit-temporairement-a-cnn-ms-now-et-politico-leur-acces-a-la-maison-blanche-P7OWAC6DR5GOHI5CCF32GKBT7U/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Un revers pour Donald Trump ? Lisa Cook repousse la convocation du président alors qu'il tente de la révoquer",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/14/un-revers-pour-donald-trump-lisa-cook-repousse-la-convocation-du-president-alors-quil-tente-de-la-revoquer-ILDK6VRYTNHKJKHVLCVAH677SY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Contrat de 20 ans et investissement de 4,4 milliards de dollars : Trump affirme que ce pays va acheter 30 % de la production du futur gazoduc en Alaska",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/14/contrat-de-20-ans-et-investissement-de-44-milliards-de-dollars-trump-affirme-que-ce-pays-va-acheter-30-de-la-production-du-futur-gazoduc-en-alaska-67WNSUG44ZH7JNFONZIO2Y5YOY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Lapsus, hésitations, réponses lunaires: baptême du feu très embarrassant pour la nouvelle porte-parole de Trump",
+        "url": "https://www.7sur7.be/monde/lapsus-hesitations-reponses-lunaires-bapteme-du-feu-tres-embarrassant-pour-la-nouvelle-porte-parole-de-trump~abdba30d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Notre Groenland”: Trump annonce une “exploration massive” des ressources de l’île arctique",
+        "url": "https://www.7sur7.be/monde/notre-groenland-trump-annonce-une-exploration-massive-des-ressources-de-lile-arctique~a63eb48e/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump débouté provisoirement: trois médias conservent leur accès à la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/trump-deboute-provisoirement-trois-medias-conservent-leur-acces-a-la-maison-blanche~aae7827da/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Ne jouez jamais avec la nature ! » : Donald Trump relance la polémique après la mort d’un homme dans un zoo britannique - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeGR2NWNEdm9vOGhBOXQ4aFROVmJITlFIMG9xamVzb2tVcFlOLWEtVnFQOXdMNjI5SFhZZVVmaE9Dai1XRXJqQmw1QXIxanhsR3ZqZTVqdzN4SUlyNU9hdTVuTEFZLXBSQ1JkTDNYQm9iVFN1VnEtb2FncklORVQ5RVVwbTdSM1ZiVGhiLWtaYlVGeDlEeE45ZmRvRHdhMFEtWTNtUlNxbDA4ZURMdzVZUkpyUWZGaGtOVkVHZ3FtY2sxZDdrSWZoSXA1QmJrUFFLMEV4dUYzY1duV0d2OXJPRm9n?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« Notre nouveau et magnifique Groenland » : voici ce que prépare Trump pour les ressources de l’île danoise - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUDQxNDducF9UellMMm1KWVFkZG1wVkxrOGZyNlFqS3NmU2VoVk9FWG9jRi1ZVmVpNFdnZmFpcU5LTjNxUnVkU2xhLTd5ZkdFc0xod0hvSDBHeFpmRk5XR2ZwUDVwdEZjZXNmWkdKWmNWbFVIOWZlY3RqbFR1XzlOZloyUXdkZ1hJTVkyOC15V2FuNXRIVmJHT3lGV0FrclRpNTRMZEs1cW5lVmNlakVIMlBRS0tVUzhsOUxZVVZFcEZlVDFMRTZDemZGaFVseDFhaUc1ZUhFTjZWeHM?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "\"Alimenter le chaos\" : le calcul électoral de Trump pour novembre - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS2tFRkZZVXluM1V4bTFaeU9PTFpoeVhlVm03M0xldkdGSU9fa1RjbGJEUzY1a25qVHpIN2RkUjU5ZVFpbDdWN0NEci1GYW5nMmRnaFk5a19pUTRFaU4yc3B1cFhCN0EzRFcwcXlFRDhGdWhNRm9BZUpmM3ZYRURTTE42aXBtRDZPOXJzUTZHNGlQNlo1ZjNBU3VXVQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 16,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 6,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 23,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 7,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 4,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 14,
+      "crime": 22,
+      "eu": 17,
+      "politics": 25,
+      "be_gov": 15,
+      "culture": 21,
+      "tech": 10,
+      "economy": 23,
+      "sports": 20,
+      "health": 8,
+      "climate": 4,
+      "migration": 0,
+      "education": 10,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 17,
+      "crime": 28,
+      "eu": 29,
+      "politics": 36,
+      "be_gov": 21,
+      "culture": 28,
+      "tech": 13,
+      "economy": 33,
+      "sports": 37,
+      "health": 9,
+      "climate": 6,
+      "migration": 1,
+      "education": 16,
+      "weather": 10
+    }
   }
 ]
