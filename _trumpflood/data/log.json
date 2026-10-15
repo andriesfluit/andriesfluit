@@ -113179,5 +113179,526 @@
       "education": 16,
       "weather": 10
     }
+  },
+  {
+    "date": "2026-10-15",
+    "generated_at": "2026-10-15T10:34:13+02:00",
+    "last_checked_at": "2026-10-15T10:34:13+02:00",
+    "total_articles": 433,
+    "trump_articles": 6,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "core_percentage_name": 1.4,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 1.4,
+    "indirect_references": 0,
+    "wide_total_articles": 616,
+    "wide_trump_articles": 14,
+    "wide_percentage": 2.3,
+    "wide_trump_articles_expanded": 14,
+    "wide_percentage_expanded": 2.3,
+    "macro_percentage": 1.9,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 38,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 8.8,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.35,
+    "breadth": 0.28,
+    "deviation": 0.78,
+    "smoothed_pct": 3.44,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 12,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 28,
+        "kept": 28,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.14
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "google_nl_politics": {
+        "fetched": 54,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 9,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 33.33
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 69,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 46,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 42,
+        "kept": 42,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.38
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 60,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 97,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 57,
+        "today": 6,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 58,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Valse start voor nieuwe Trump-woordvoerster Katie Zacharia: ze noemt zichzelf advocaat, maar slaagde nooit voor examen",
+        "url": "https://www.hln.be/buitenland/valse-start-voor-nieuwe-trump-woordvoerster-katie-zacharia-ze-noemt-zichzelf-advocaat-maar-slaagde-nooit-voor-examen~a1269496/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Katie Zacharia, Trumps nieuwe woordvoerder, noemt zich advocaat, maar niemand vindt haar vergunning",
+        "url": "https://www.demorgen.be/nieuws/katie-zacharia-trumps-nieuwe-woordvoerder-noemt-zich-advocaat-maar-niemand-vindt-haar-vergunning~b1819ff5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump kondigt militair supercomplex aan in Montana • ‘Rechtszaak tegen Jared Kushner als speciaal gezant wegens belangenverstrengeling’",
+        "url": "https://www.demorgen.be/snelnieuws/live-regering-trump-in-beroep-tegen-toegang-witte-huis-voor-cnn-ms-now-en-politico-groenland-spreekt-trump-tegen-over-grootschalige-mijnbouwverkenning~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Zelensky voelde zich “verraden” na recente aankondigingen Trump",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-zelensky-voelde-zich-verraden-na-recente-aankondigingen-trump/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "”La mère de toutes les bombes” : qu’est-ce que la MOAB, cette arme que Trump veut utiliser pour mettre fin à la guerre en Iran ?",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/10/15/la-mere-de-toutes-les-bombes-quest-ce-que-la-moab-cette-arme-que-trump-veut-utiliser-pour-mettre-fin-a-la-guerre-en-iran-2F34YFJVJNETNC3ZBIYUPGUJOA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“Elle sait où sont enterrés les cadavres”: l’ex-belle-fille de Trump va-t-elle se venger de sa mise à l’écart?",
+        "url": "https://www.7sur7.be/monde/elle-sait-ou-sont-enterres-les-cadavres-lex-belle-fille-de-trump-va-t-elle-se-venger-de-sa-mise-a-lecart~a5b804c0/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Geen spontane woede-uitbarsting, maar een weldoordachte strategie: Zelensky zet Trump al dagen na elkaar in zijn hemd - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWkZhVjM3TWE3ZVVzY3Y0S2I5UWw3V0p5Y0plR2k2bi1wX0syQmtkTUszSmtoV2otZHQ5YnZjYUlnOXVEcVl5N1JYTlJnQ2Y4Vkh4Q2w1OTdLTENLNDlGV3QxZFYxWU1hVVJQN0JMQXJMaTVFbmlIMW5oTEpIWEt0U1BtLVlFSWlzYnpVN1VfUjduWmdSMThPMldQU09sUFVrenRobmJuRmhjYUVKS1JoNzhTeVJLY3hpQ25hYVNFYjJmSEZkeEFuX2NjcUpVenY4MXBwODE1T3NUczBqTjc5ZVpCNy1IRHZOTEZzcnhBWnNUOElxN3VtaGxyZw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Valse start voor nieuwe Trump-woordvoerster Katie Zacharia: ze noemt zichzelf advocaat, maar slaagde nooit voor examen - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVXBuTjV4MHQwYmQ3N3l3Z2c0M1pZd3lFVGpxdjk3TjN6SHdKY0lmMklRQzFjWTFqUVdELTRDZWUtbE1kU3JDTDNiQ3pwQm9RZVNDaWcza0o3Rko4c2VxWFhhR0NIN21NcGJubTFZSUdjdk8xLWltUEI5SllFRWZmSVhsTWZ0QlpQXzVWeVIyd0Yyb0MyRVhLRl9iSUxpMnI1a2ppY1lmYkh2dEt0SXN6LURCcnJxcE50bjZsVGxqUVBBOFo0MTJnblpZQ1p5NTFoS2NieTNaRm03a1RXYjREYU5OdnJEd2RkSnVubA?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump menace d’utiliser « la mère de toutes les bombes », la plus puissante de son armée, en Iran - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSWNIbGZBWGJDaVlmVHJOa1pSTDh1YXY5d2hhWVpKWm5hR1Z5Z0NDaTVaVU43UkR0WGwySFIyME9MVWRMUUtPUElyUmxBekNvOWFtSnpBME1YaFcyS2txOEgxZVJRQm0xN0hlTmlTVGdtbEpiWmdqSDFoV25JakpkVDF0cTVWX2ZybXFzdlp1dThUZ085UEI1MDBWd3JPWnoyZnpGOEpWc2hmWERtT1o5bXp6R0o0QmdaNXQ3cEFhaU45bkF5bHUxcHhUak1WXzJ6d2JoMEM2ZFp5UFZYWE5fTVdaOA?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Regering-Trump in beroep tegen toegang tot Witte Huis voor CNN, MS NOW en Politico | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUERxYlBCNTFqMjJjT1pmSkpVZFdEUW5sTDFwV2ZvSUZoNVoxMjNyMGNyT0ZDdURDdEFaRXM2N2t0Ym1faTlaVU5vSTZ6QWxETEp1ckVaXzlENkt0czZFLU1TV3RLM3RkLWJhR21fNlpwRDU2Q2trOWlCWXVBYjM0LXhBbWhFN2ZwcHpmZ2o4a3p1WEVTWWluNHNKQ3RKOWFLUUdYdnEtdFU2SkQ1LUpkYkdoLTNOQ3o5NXZjUU1SNDQxbXc0TWlIdEtyUFIwWURXLUlldFRZLVd0NGFidzFz?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Waarom Kiev Russische raketten pas zag toen ze al vlakbij waren: “Dit kan Trump niet volhouden, of hij schiet zichzelf in de voet” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNmlob212TDAyRVlDNENMWFpGUHJndTk0eVVXcHptVzI2T1NHZEdGamJaT1BWVnFzQ09ON0paYmJuM3J3Ql8xZmM5SFhUdjRpclBZZ1ZRaVlzVTlmS0duSmliQmJLbklYeC1IMDQwcHhrcVZzQk5KakY1LTFmUVZvQ3FBRXRxeHpvbUE0ajBZX3poNi0wUVlnSmIxZ251ck5PTHBPdElXWmpyRGswNkJkbUlnemtBZTlZbTJveGI1RktxdWMwWGtYQktLVHdhVnBMMFdMOVBpU291Nm4wY20xTlFKWTdoMWtvdFp5UllNQ0c4MkduSjREZFl3?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Olie uit Groenland, diesel uit Rusland? Trumps dubieuze beloftes om benzineprijzen te verlagen, doen vooral zijn bondgenoten pijn - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbFBNNjNBVU02cmlRWHhRSTM0OFhqbVVlMXZYNlVqUmFnOUZ3U3B3RDM3dEN0RmdvYThoS0xkV3NZbUpzREdVYXk1azhKQTVjblB4NXRFYl9DcWVpWGVzdGxZOTJLeTRLS3pyNE9IYS1pUEdmUEFZLVMyYmRiRDdFWG1FSjNkVTlUQlUwSHZmbzh0VGxldmdod3E1WUowaEZQcjdCdEZ3NEdwa0xRbGJmRWg5aHkyLV9BWmlkcVFoOXRqV2x2c1JzMnVoZm5pVWJfQTZ6MVBfa2Vac2hyMl93U1VMNmt1ZF9telNKSW83VHBJT1ZpVFZGOXpCbWN6U3ZfQmFxekdNWnc?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trots, eigengereid en inheems: gewezen Miss Native America kan de vrouw worden die Trumps almacht stopt - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNXBUcGstTVRvRUFtZWpmZThqWVpMNTMyNUNWYjdieHJMOXE1czhSZXRUUTJYOE9xWFFpalVXMktRX0Z5SVRvd0ZHY0RqUnZndXBBR3dOWVIyNmFNYi1GTUFUTl9DQUl3NWRPTzR0QmtqaHJkLUdjd0FmVXhXbjNIWV9FNFJFbmxBSi1oOU9rc0RMN2dEYm5oNE9CR25VcEtlTzI2OC16YVNkLWFIbFlzaWVTV1FPc0xQUEtPVl94Zk9qZWxfdjF5ZmpCTTM5aDhFbHoxRXVyOE0xMDRSRlpWV3JROUNHQXM?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Valse start voor nieuwe Trump-woordvoerster Katie Zacharia: ze noemt zichzelf advocaat, maar slaagde nooit voor examen",
+        "url": "https://www.hln.be/buitenland/valse-start-voor-nieuwe-trump-woordvoerster-katie-zacharia-ze-noemt-zichzelf-advocaat-maar-slaagde-nooit-voor-examen~a1269496/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Katie Zacharia, Trumps nieuwe woordvoerder, noemt zich advocaat, maar niemand vindt haar vergunning",
+        "url": "https://www.demorgen.be/nieuws/katie-zacharia-trumps-nieuwe-woordvoerder-noemt-zich-advocaat-maar-niemand-vindt-haar-vergunning~b1819ff5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump kondigt militair supercomplex aan in Montana • ‘Rechtszaak tegen Jared Kushner als speciaal gezant wegens belangenverstrengeling’",
+        "url": "https://www.demorgen.be/snelnieuws/live-regering-trump-in-beroep-tegen-toegang-witte-huis-voor-cnn-ms-now-en-politico-groenland-spreekt-trump-tegen-over-grootschalige-mijnbouwverkenning~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Zelensky voelde zich “verraden” na recente aankondigingen Trump",
+        "url": "https://www.gva.be/buitenland/live-oorlog-in-oekraine.-zelensky-voelde-zich-verraden-na-recente-aankondigingen-trump/76695337.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Zelensky voelde zich “verraden” na recente aankondigingen Trump",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-zelensky-voelde-zich-verraden-na-recente-aankondigingen-trump/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "”La mère de toutes les bombes” : qu’est-ce que la MOAB, cette arme que Trump veut utiliser pour mettre fin à la guerre en Iran ?",
+        "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/10/15/la-mere-de-toutes-les-bombes-quest-ce-que-la-moab-cette-arme-que-trump-veut-utiliser-pour-mettre-fin-a-la-guerre-en-iran-2F34YFJVJNETNC3ZBIYUPGUJOA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "“Elle sait où sont enterrés les cadavres”: l’ex-belle-fille de Trump va-t-elle se venger de sa mise à l’écart?",
+        "url": "https://www.7sur7.be/monde/elle-sait-ou-sont-enterres-les-cadavres-lex-belle-fille-de-trump-va-t-elle-se-venger-de-sa-mise-a-lecart~a5b804c0/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 6,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 9,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 14,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 9,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 11,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 35,
+      "crime": 16,
+      "eu": 23,
+      "politics": 15,
+      "be_gov": 13,
+      "culture": 9,
+      "tech": 9,
+      "economy": 19,
+      "sports": 28,
+      "health": 5,
+      "climate": 2,
+      "migration": 1,
+      "education": 13,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 49,
+      "crime": 17,
+      "eu": 34,
+      "politics": 27,
+      "be_gov": 17,
+      "culture": 13,
+      "tech": 12,
+      "economy": 21,
+      "sports": 42,
+      "health": 5,
+      "climate": 4,
+      "migration": 1,
+      "education": 17,
+      "weather": 13
+    }
   }
 ]
