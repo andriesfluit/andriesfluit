@@ -113931,45 +113931,53 @@
   },
   {
     "date": "2026-10-16",
-    "generated_at": "2026-10-16T16:59:21+02:00",
-    "last_checked_at": "2026-10-16T16:59:21+02:00",
-    "total_articles": 734,
-    "trump_articles": 23,
-    "percentage": 3.1,
-    "core_percentage": 3.1,
-    "core_percentage_name": 3.1,
-    "trump_articles_expanded": 26,
-    "core_percentage_expanded": 3.5,
-    "indirect_references": 3,
-    "wide_total_articles": 1083,
-    "wide_trump_articles": 47,
-    "wide_percentage": 4.3,
-    "wide_trump_articles_expanded": 53,
+    "generated_at": "2026-10-16T21:41:21+02:00",
+    "last_checked_at": "2026-10-16T21:41:21+02:00",
+    "total_articles": 877,
+    "trump_articles": 29,
+    "percentage": 3.3,
+    "core_percentage": 3.3,
+    "core_percentage_name": 3.3,
+    "trump_articles_expanded": 40,
+    "core_percentage_expanded": 4.6,
+    "indirect_references": 11,
+    "wide_total_articles": 1287,
+    "wide_trump_articles": 48,
+    "wide_percentage": 3.7,
+    "wide_trump_articles_expanded": 63,
     "wide_percentage_expanded": 4.9,
-    "macro_percentage": 4.9,
+    "macro_percentage": 4.0,
     "qualifying_outlets": 31,
     "core_outlets_total": 19,
     "core_outlets_active": 19,
     "active_core_fraction": 1.0,
-    "cross_outlet_dup_headlines": 28,
-    "cross_outlet_dup_groups": 14,
-    "cross_outlet_dup_rate": 3.8,
+    "cross_outlet_dup_headlines": 62,
+    "cross_outlet_dup_groups": 31,
+    "cross_outlet_dup_rate": 7.1,
     "zone": "wet",
     "label": "The zone is getting wet",
     "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.88,
-    "breadth": 0.68,
-    "deviation": 1.24,
-    "smoothed_pct": 3.67,
+    "dominance": 0.85,
+    "breadth": 0.63,
+    "deviation": 1.32,
+    "smoothed_pct": 3.7,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 7,
+    "theme_rank": 8,
     "n_themes": 15,
     "sources": {
       "google_nl": {
+        "fetched": 34,
+        "today": 33,
+        "kept": 33,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 6.06
+      },
+      "google_fr": {
         "fetched": 34,
         "today": 31,
         "kept": 31,
@@ -113977,141 +113985,133 @@
         "trump_expanded": 3,
         "share": 9.68
       },
-      "google_fr": {
-        "fetched": 34,
-        "today": 29,
-        "kept": 29,
-        "trump": 3,
-        "trump_expanded": 4,
-        "share": 10.34
-      },
       "google_nl_politics": {
-        "fetched": 54,
-        "today": 20,
-        "kept": 20,
+        "fetched": 57,
+        "today": 26,
+        "kept": 25,
         "trump": 1,
-        "trump_expanded": 2,
-        "share": 5.0
+        "trump_expanded": 1,
+        "share": 4.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 31,
-        "kept": 25,
-        "trump": 7,
-        "trump_expanded": 7,
-        "share": 28.0
+        "today": 40,
+        "kept": 33,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 15.15
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 47,
-        "kept": 43,
+        "today": 44,
+        "kept": 39,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.33
+        "share": 2.56
       },
       "google_nl_tech": {
-        "fetched": 55,
-        "today": 20,
-        "kept": 16,
+        "fetched": 56,
+        "today": 32,
+        "kept": 31,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 39,
-        "kept": 35,
+        "today": 49,
+        "kept": 45,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 26,
-        "today": 10,
-        "kept": 10,
+        "fetched": 25,
+        "today": 13,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 1,
         "share": 0.0
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 29,
-        "kept": 23,
+        "today": 33,
+        "kept": 28,
         "trump": 6,
         "trump_expanded": 6,
-        "share": 26.09
+        "share": 21.43
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 24,
-        "kept": 21,
+        "today": 33,
+        "kept": 30,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.76
+        "share": 3.33
       },
       "vrt": {
         "fetched": 50,
-        "today": 45,
-        "kept": 45,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 44,
+        "kept": 44,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.27
       },
       "standaard": {
         "fetched": 100,
-        "today": 70,
-        "kept": 61,
+        "today": 91,
+        "kept": 76,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 1.64
+        "share": 1.32
       },
       "hln": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
         "trump": 2,
-        "trump_expanded": 2,
+        "trump_expanded": 3,
         "share": 6.67
       },
       "demorgen": {
-        "fetched": 26,
-        "today": 21,
-        "kept": 21,
-        "trump": 4,
+        "fetched": 28,
+        "today": 23,
+        "kept": 23,
+        "trump": 3,
         "trump_expanded": 4,
-        "share": 19.05
+        "share": 13.04
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 2,
+        "trump": 0,
         "trump_expanded": 2,
-        "share": 4.0
+        "share": 0.0
       },
       "gva": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 2,
+        "trump": 0,
         "trump_expanded": 2,
-        "share": 4.0
+        "share": 0.0
       },
       "hbvl": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 1,
+        "trump": 0,
         "trump_expanded": 1,
-        "share": 2.0
+        "share": 0.0
       },
       "knack": {
         "fetched": 100,
-        "today": 43,
-        "kept": 43,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.33
+        "today": 50,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.08
       },
       "sporza": {
         "fetched": 20,
@@ -114123,51 +114123,51 @@
       },
       "bruzz": {
         "fetched": 100,
-        "today": 26,
-        "kept": 26,
+        "today": 32,
+        "kept": 32,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 17,
-        "kept": 17,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 5.56
       },
       "lalibre": {
         "fetched": 100,
-        "today": 62,
-        "kept": 62,
-        "trump": 3,
-        "trump_expanded": 4,
-        "share": 4.84
+        "today": 84,
+        "kept": 84,
+        "trump": 5,
+        "trump_expanded": 7,
+        "share": 5.95
       },
       "lecho": {
         "fetched": 100,
-        "today": 42,
-        "kept": 41,
+        "today": 52,
+        "kept": 48,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 97,
-        "kept": 97,
-        "trump": 3,
-        "trump_expanded": 3,
-        "share": 3.09
+        "today": 99,
+        "kept": 99,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 4.04
       },
       "septsursept": {
         "fetched": 30,
         "today": 30,
         "kept": 30,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 6.67
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
       },
       "bx1": {
         "fetched": 0,
@@ -114179,56 +114179,56 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 34,
-        "kept": 28,
+        "today": 63,
+        "kept": 56,
         "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.57
+        "trump_expanded": 2,
+        "share": 1.79
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 36,
-        "kept": 34,
+        "today": 48,
+        "kept": 45,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.94
+        "share": 2.22
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 35,
-        "kept": 33,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 3.03
+        "today": 58,
+        "kept": 54,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 7.41
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 31,
-        "kept": 30,
+        "today": 44,
+        "kept": 43,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 99,
-        "today": 37,
-        "kept": 34,
-        "trump": 1,
-        "trump_expanded": 2,
-        "share": 2.94
+        "fetched": 100,
+        "today": 51,
+        "kept": 45,
+        "trump": 4,
+        "trump_expanded": 5,
+        "share": 8.89
       },
       "trends_g": {
-        "fetched": 60,
-        "today": 18,
+        "fetched": 52,
+        "today": 21,
         "kept": 7,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 91,
-        "today": 26,
-        "kept": 21,
+        "fetched": 96,
+        "today": 34,
+        "kept": 26,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -114257,26 +114257,38 @@
     ],
     "matches": [
       {
+        "title": "Katie Zacharia stopt als woordvoerster Witte Huis, nadat Trump haar had aangeraden \"om job te heroverwegen\"",
+        "url": "https://vrtnws.be/p.3BxO0QM8n",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
         "title": "Trump schrapt livestream van militaire executie door vuurpeloton: “Mensen willen niet zien hoe hij sterft” - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM2c4VlpBcmZRR1VDT3BOMjlXQXM4dHNGYjVXM3ZIaWNuUlR5ZHI4aU1SZXc4X05sdU8wcm5nbkdJYVRsREZSMUNGajJ0bDV0YUREYnhta1BqR2ZZTGM0VUU5OU85RVRzZ1A4c2ZES3VFZGh0bW14Z1k4OWxBUHBOV1QzaUQ2al96NUdRTWFRMFBONnU1M3g4UGx0c1RVcHFxWXotZWVKVkdwNGcyTDl3S0lDWGxhSzdrRjRTM3duR3ZFeFAyc1k1S19xYWNLd0dUbHVhbEhlTXlKaEs0RlNfWHRidmw1SUNfMXc?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Zelensky vraagt op EU-top 70 miljard euro steun voor volgend jaar - “Trump gaf nooit opdracht voor beperken Starshield”",
-        "url": "https://www.hln.be/buitenland/zelensky-vraagt-op-eu-top-70-miljard-euro-steun-voor-volgend-jaar-trump-gaf-nooit-opdracht-voor-beperken-starshield~a93df6b5/",
+        "title": "“Musk benaderde Trump om Starlink in Oekraïne te vertragen”",
+        "url": "https://www.hln.be/buitenland/musk-benaderde-trump-om-starlink-in-oekraine-te-vertragen~a93df6b5/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "KIJK. Zelensky antwoordt met gevatte grijns op vraag of hij “zondebok” is voor problemen van Trump in aanloop naar de midterms",
-        "url": "https://www.hln.be/nieuws/kijk-zelensky-antwoordt-met-gevatte-grijns-op-vraag-of-hij-zondebok-is-voor-problemen-van-trump-in-aanloop-naar-de-midterms~a14a8495/",
+        "title": "Witte Huis-woordvoerster Katie Zacharia na amper vijf dagen ontslagen",
+        "url": "https://www.hln.be/buitenland/witte-huis-woordvoerster-katie-zacharia-na-amper-vijf-dagen-ontslagen~ac79336c/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "“Bondgenoten Trump overwegen staat van beleg als verkiezingen volgens hen niet eerlijk verlopen”",
+        "url": "https://www.hln.be/buitenland/bondgenoten-trump-overwegen-staat-van-beleg-als-verkiezingen-volgens-hen-niet-eerlijk-verlopen~ab4cb61de/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - Zelensky over incident met Starlink: ‘Niet langer in staat om bevolking te beschermen’ • ‘Trump gaf nooit opdracht om Starlink te beperken’",
-        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-zelensky-over-incident-met-starlink-niet-langer-in-staat-om-bevolking-te-beschermen-miljoenen-oekrainers-dreigen-deze-winter-opnieuw-te-moeten-vluchten~b38bed0a/",
+        "title": "Live - Paus vraagt Poetin om staakt-het-vuren in Oekraïense stad Olesjky • ‘Trump gaf nooit opdracht om Starlink te beperken’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-zelensky-over-incident-met-starlink-niet-langer-in-staat-om-bevolking-te-beschermen-trump-gaf-nooit-opdracht-om-starlink-te-beperken~b38bed0a/",
         "source": "demorgen",
         "name_only": true
       },
@@ -114293,28 +114305,28 @@
         "name_only": true
       },
       {
-        "title": "Live - Apple en Nvidia droegen elk 25 miljoen dollar bij aan Trumps prestigieuze balzaal • Trump zou overwegen kabinetschef Susie Wiles te ontslaan",
-        "url": "https://www.demorgen.be/snelnieuws/live-apple-en-nvidia-droegen-elk-25-miljoen-dollar-bij-aan-balzaal-van-president-trump-trump-zou-overwegen-kabinetschef-susie-wiles-te-ontslaan~b13cc951/",
+        "title": "Live - Witte Huis-woordvoerster Katie Zacharia na amper vijf dagen ontslagen",
+        "url": "https://www.demorgen.be/snelnieuws/live-witte-huis-woordvoerster-katie-zacharia-na-amper-vijf-dagen-ontslagen~b13cc951/",
         "source": "demorgen",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "Met dank aan Apple en Nvidia: geheime documenten onthullen geldschieters voor nieuwe balzaal van Donald Trump",
-        "url": "https://www.nieuwsblad.be/buitenland/met-dank-aan-apple-en-nvidia-geheime-documenten-onthullen-geldschieters-voor-nieuwe-balzaal-van-donald-trump/163179949.html",
+        "title": "Nieuwe woordvoerster Witte Huis na amper een week ontslagen: “Misschien is het niets voor haar”",
+        "url": "https://www.nieuwsblad.be/buitenland/nieuwe-woordvoerster-witte-huis-na-amper-een-week-ontslagen-misschien-is-het-niets-voor-haar/163204006.html",
         "source": "nieuwsblad",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "“You’re fired!”: waarom Trump enkel nog vrouwen de laan uitstuurt en alle mannen veilig zijn in het Witte Huis",
-        "url": "https://www.nieuwsblad.be/buitenland/youre-fired-waarom-trump-enkel-nog-vrouwen-de-laan-uitstuurt-en-alle-mannen-veilig-zijn-in-het-witte-huis/163094023.html",
+        "title": "LIVE VS. Nieuwe woordvoerster van Witte Huis al ontslagen na vijf dagen",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-nieuwe-woordvoerster-van-witte-huis-al-ontslagen-na-vijf-dagen/27528053.html",
         "source": "nieuwsblad",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "“You’re fired!”: waarom Trump enkel nog vrouwen de laan uitstuurt en alle mannen veilig zijn in het Witte Huis",
-        "url": "https://www.hbvl.be/buitenland/youre-fired-waarom-trump-enkel-nog-vrouwen-de-laan-uitstuurt-en-alle-mannen-veilig-zijn-in-het-witte-huis/163185949.html",
+        "title": "LIVE VS. Nieuwe woordvoerster van Witte Huis al ontslagen na vijf dagen",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-nieuwe-woordvoerster-van-witte-huis-al-ontslagen-na-vijf-dagen/151623011.html",
         "source": "hbvl",
-        "name_only": true
+        "name_only": false
       },
       {
         "title": "Midtermverkiezingen in de VS: Staten bereiden zich voor op sabotage door Donald Trump - Knack",
@@ -114323,9 +114335,39 @@
         "name_only": true
       },
       {
-        "title": "Ukraine : l’ordre de brider la branche militaire de Starlink émanerait de la Maison Blanche, l’UE dit ne pas pouvoir remplacer Starlink à court terme",
-        "url": "https://www.rtbf.be/article/ukraine-l-ordre-de-brider-la-branche-militaire-de-starlink-emanerait-de-la-maison-blanche-l-ue-dit-ne-pas-pouvoir-remplacer-starlink-a-court-terme-11801217",
+        "title": "Trump ontslaat nieuwe woordvoerster Witte Huis - Knack",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMmV5dF9PYmxrT0dzUXdjTy05clgxTmFaRW84TEZqeEJTMnpEdmVxRHRIbExXSTI0MXdySlRMY05Hd1hOdG1lbVBHRHA5YUlHU2VtM2w3WTJmQU1TaU1GemVEVGJDYUpUQkJ5a0VKSTVwd0s4a2N6VWE5MHEyX1Y3NE9QRUJuMEpadXM4ekkxMnR0azlJR2dWZW1OUlQ1RS0xTllxeWlOZno4Z25K?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "États-Unis : la nouvelle porte-parole de la Maison Blanche déjà limogée après à peine une semaine",
+        "url": "https://www.rtbf.be/article/etats-unis-la-nouvelle-porte-parole-de-la-maison-blanche-deja-limogee-apres-a-peine-une-semaine-11801626",
         "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Trump n’a \"jamais\" donné l’ordre de brider le réseau Starshield, selon la Maison Blanche",
+        "url": "https://www.rtbf.be/article/trump-n-a-jamais-donne-l-ordre-de-brider-le-reseau-starshield-selon-la-maison-blanche-11801482",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Après seulement cinq jours, Donald Trump licencie sa nouvelle porte-parole",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/16/trump-dit-que-sa-nouvelle-porte-parole-sous-le-feu-des-critiques-devrait-reconsiderer-son-avenir-a-ce-poste-BAUVR6QA2NBH5OOA4Y5SLOTSXA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une chanteuse canadienne devient américaine : un moyen de contrer Donald Trump à l’approche des élections ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/16/une-chanteuse-canadienne-devient-americaine-un-moyen-de-contrer-donald-trump-a-lapproche-des-elections-JVXXQZ3QVFFMLHTQI25XK3ZRYA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Toilettes chinoises, \"mon président\", et balbutiements : en quelques jours à la Maison-Blanche, Katie Zacharia a enchaîné les bévues",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/16/toilettes-chinoises-mon-president-et-balbutiements-pour-ses-debuts-a-la-maison-blanche-katie-zacharia-enchaine-les-bevues-VJHNAQKTMRF5VHQGLGIO3YRCP4/",
+        "source": "lalibre",
         "name_only": false
       },
       {
@@ -114353,34 +114395,40 @@
         "name_only": true
       },
       {
+        "title": "Au bout d'une semaine, Trump pousse déjà sa nouvelle porte-parole vers la sortie",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/16/au-bout-dune-semaine-trump-pousse-deja-sa-nouvelle-porte-parole-vers-la-sortie-KIR65JGCPVGYFCPV4OHOW42FLI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Une chanteuse canadienne devient citoyenne américaine: un levier pour faire barrage à Donald Trump lors des midterms ?",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/16/une-chanteuse-canadienne-devient-citoyenne-americaine-un-levier-pour-faire-barrage-a-donald-trump-lors-des-midterms-HYGTBBX5SFCMDCOBW4FYHB5E4E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump qualifie de \"héros\" l'homme armé qui a tué le tireur dans une école américaine",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/16/donald-trump-qualifie-de-heros-lhomme-arme-qui-a-tue-le-tireur-dans-une-ecole-americaine-RAN6CFBR2FHBDLIXMUMBMU5CTM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
         "title": "Un “nouveau Far West” à la Maison-Blanche ? Une lutte interne pour le pouvoir est lancée dans l'administration Trump",
         "url": "https://www.dhnet.be/actu/monde/2026/10/16/un-nouveau-far-west-a-la-maison-blanche-une-lutte-interne-pour-le-pouvoir-est-lancee-dans-ladministration-trump-JDB6RAV335HG3JK3ZO7ILUFN34/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Que contient cet enregistrement confidentiel et explosif qui pourrait faire tomber \"toute l'administration Trump\"?",
-        "url": "https://www.dhnet.be/actu/monde/2026/10/16/que-contient-cet-enregistrement-confidentiel-et-explosif-qui-pourrait-faire-tomber-toute-ladministration-trump-32WC4D477ZBEJFAHPAV7XWTMEU/",
-        "source": "dhnet",
-        "name_only": true
-      },
-      {
-        "title": "Pourquoi la marque du costume Donald Trump fait autant de bruit",
-        "url": "https://www.dhnet.be/lifestyle/beaute-mode/2026/10/16/pourquoi-la-marque-du-costume-donald-trump-fait-autant-de-bruit-KSOC42SAMRFE3CI7S57TKJT7AU/",
-        "source": "dhnet",
-        "name_only": true
-      },
-      {
-        "title": "Trump n’a “jamais” donné l’ordre de brider le réseau Starshield, dément la Maison Blanche",
-        "url": "https://www.7sur7.be/monde/trump-na-jamais-donne-lordre-de-brider-le-reseau-starshield-dement-la-maison-blanche~a33fdd82/",
+        "title": "Katie Zacharia, la porte-parole de la Maison Blanche, déjà limogée",
+        "url": "https://www.7sur7.be/monde/katie-zacharia-la-porte-parole-de-la-maison-blanche-deja-limogee~aba3c375/",
         "source": "septsursept",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "Trump réfléchirait à licencier sa cheffe de cabinet: “Il passe des coups de fil pour voir qui pourrait la remplacer”",
-        "url": "https://www.7sur7.be/monde/trump-reflechirait-a-licencier-sa-cheffe-de-cabinet-il-passe-des-coups-de-fil-pour-voir-qui-pourrait-la-remplacer~a2a90b06/",
-        "source": "septsursept",
-        "name_only": true
+        "title": "‘Woordvoerster Witte Huis na vijf dagen naar exit geduwd’ - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUnZaNDBZaWJNejl2VlRJNkpHZExRSmdKM0NFLW5vTk5mRDg3cDJLbTFteGNKWERBYTlzTkFCRkVnZWRRMmViN1kyZ29HNlAySmk4VTNrVGY4Y05yMGZ5dVZManZXNldqdU1TeDlDX1l0TDhSZEhYdUt3SG80dGVSNmFTVjdBQW4zZmJoMC1iTlFJQVk5MTJhcW43VkRHMXFad2RnamFfWkc0QllNU1VLN0VpbGIzWmQxdGlPM1hscmVpWHM?oc=5",
+        "source": "detijd_g",
+        "name_only": false
       },
       {
         "title": "Trump overweegt sancties op Russische schaduwvloot in te perken - De Tijd",
@@ -114395,9 +114443,45 @@
         "name_only": true
       },
       {
+        "title": "Qui a bridé le réseau Starlink en Ukraine ? Trump sort du silence après des révélations, la polémique enfle ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRDdrZUFjTlk1MTdlU1ZpTHNrbEw0WGRkWnRaVVdPcXNndEVoNEVlSVI4cy1hbTYySUlxUUVfU2ZZcVBsLTlock5CU1VGLWhrOTRQQkR4QkFEM3ZLNm1wU1JUejF2bUE3cWpWTW5LN1lENkhWSGNsOTBPR2c0dEFHbzVGMENjZTJuaFF6cWdreFg5QmRUa0tGX1BCNjJIeTRnVDg5bnEwSjU4XzVMamdkUnByTnR1cWF0dy1Cc2F6VmE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
         "title": "« C’est honteux », « vous ne rendez pas service au monde » : Donald Trump scandalisé cette nuit après la reprise des frappes ukrainiennes sur les raffineries russes - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZnI2RUdWYWIxMERRbXk2S0Z2MmdHV2tJNWgydjJBelJEN005QWpnQl9ncXFaMVRpdXhQTmt1QURlN3ZuT1ZVdDZpVFpzdGZzQ2JKZXdnZkNuN2hqTW5tNkFNSFRzS25HTHExM3dLeWlLcUJHbms2RGxQcFhsRG95TTlyUlNBTGZRRm9JRFN1TXZoLWk3OGw0VEZDdWNuMEFQano4ZWFsTjZaaGFybUNvNEI3TVltSVNmeVVvbUVIeGlqRzhTNy1yTnV3?oc=5",
         "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« Heureusement il y avait un homme qui avait une arme » : la réaction de Donald Trump après la fusillade qui a fait quatre morts dans une école primaire - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQajhlbnE0X0dMdU43VVBOWVMteDZ4aFdXaUZnRWd3N3EyZVpWei1CUENsdE1wWE5yVjhQRHJxbWVPVF9xc0doX19WaDc5SF9qQm9DY3dGekl6MEc4OWNRbV9iSFdUQk5PME5pbVQ4V1N2QVU0djZUTXJzRmZvNmNpN19sNDU3akp4ZVlHY3RDZDVmVTByT3ZSWk02eS1UZ09GSHNZSkoyUTVQNTNucWZPNlI0dVpTT3hURFJjWHZBMzdSQ2xEWEZGYnBiWQ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "À peine arrivée, déjà limogée : Donald Trump se sépare de sa porte-parole ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNDRFQmM0QUhrS0lqZVNpVnlKX3JKVlhzdUVNWkhYZjF3b0NaRTdvNzVxeTVfZlBfTGNoSE9SZjIzeVV0dGxxZ0kyMFFUbzk1ODVDLWVGU0RkWGZEeWdnbXlDYkZxMGJkbGVscTRJNGdNZENuV0N5TkN0V01tRmxRTGRsNHlJeHhLempGaGtpSkc2LVljXzJUWWc2QVF3cElHNVFlWFNFMjVvOG5jTThVV2JwbXNiUExKVTFFMQ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump s’en prend à sa nouvelle porte-parole après les révélations sur ses qualifications d’avocate - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUUxtUXhDajJnSUg2QzllTjJqLUZmOC0zZzBoZ2x4VV9FWmlSaEs2MzkyUEJ4TU5sMlIxUlV4Vl9iVE1RZWc1ZWl3c0F2a1docklhS3VmblpVamQ5TVpkcWtTR2ltdTJYU0RxVGk5bHgwN1NTaXBuSmdLajE0eU4xVENrb0J0eUx1VUswdEptb01kOVpjZDdMQmp2TnliYnktSGhXN2FORlBmVlJJeFNiMlVjbFJaRVJyWlVWVkFlcXRzYURjcFdIOEZxQjVQZmhVV0RqZENGYkxOSEMwdEpVZQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump juge que la reprise par l’Ukraine des frappes sur les raffineries russes est une «honte - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPem5WY0tFYU9BT0lqQ3Zua0h2aDZ4cVZwV2NhM1lKcG9qTWRnZHRkZ3pCWmlfUUFsNENaa09leTh1WUIyT0lLaFk0QXBmRVpiVmlocTlFeGFJenZtTThlQ3Y5eEpqYmlmQWs2ckM3YTVZLWNId3lQSnVQQkVUTVBma2VDQ1B3c1ZlNUpnV05BNHdfeDNKdXlHZC1CVVRGVC1GcjlQUW9MV2VuNFpWNFo5U0hhSzljRlZfN2NyMXpWMVBRc3d5ai0tNk5MMEIxSUdEOEpoSzRyRUxNZDI4LVFqVldxX3Z1dEpTek44d053T1JWR3NGYXlaXw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump limoge sa nouvelle porte-parole après seulement une semaine à la Maison Blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWFh2RjljLVQwZHB3N0xwV1hsYXdUQ1J6d01ublVBYTY2UzA0VlkzN1FKUVBqWG9OTjRWUHV6S2s5RGcxdmJKQkNySmdGUXJid2hpUTJwZGZNWFM5VzI1QjNvYXpWaFluWXI5MkwyTG9NX0NBTGJ4Wnp6cktsQlBaNWtXX2RzTFRPdFBiMHVDTEZmbmpCMFZPaWFzU1BzQ3lrOVBvNEg1XzlZSGlieXhUSnF5dGJiU1lEbDNnbzg1TWRRV0JBbnZMTUsxX0VQOVBvRG9rLWJEa29TQmlSVnc?oc=5",
+        "source": "rtl_g",
         "name_only": true
       },
       {
@@ -114415,14 +114499,14 @@
     ],
     "wide_matches": [
       {
-        "title": "Nieuwe woordvoerster Witte Huis geeft toe dat ze geen advocaat is, ondanks claim van Trump - De Tijd",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPOFpYQ2duRTlDblEtWktmM1EtNThUQkx0YTd4ZmZlTTRwbF9BSE5Zb09tdmFoS29zSlZ4MENQWVJfTE05YTNHLW5oQi1iWkF4S2VkdnJ6LVMxWjQyd0RQNGM4dWxKeDJkRTBHWmV5NTlfVjV1UHo0YmEtM2RHS3ZVa1ZpQm95a3VlaE0wSFJFLUVEU2lBTkpJaGpPRmNUZ0ZPbW9IRTJTdmZSZjBtUUo3cE1WcnNRek12R2ZvdTI0cXNyNjhFSzREQ1pKeFdhMU9QeGIzSHlhOWNmRHhOZkhDY0hQVVNDZVhWTDB2Z0hReWw?oc=5",
+        "title": "Witte Huis-woordvoerster Katie Zacharia na amper vijf dagen ontslagen - HLN",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMjlTaVlFaHR1MC1rUjdjOXIweXJ3MVY2cFZrSXJDYVM2MlBaOXNzc2lDX0JWU01zU09obWR4UjA3WkJ5VXY4OGxWZ01SREw0ZzRnUUV5d2FMd01WdDJCWU84VVZzN29qam9qXy1icUx0NXpzNktNRHB2eUpyNTQ5UmwxOGdGMkVDLVZURkNLN1RTb3RBcTNkQi1MdTg4MUZXazAySmxVd09aSW5iSnc?oc=5",
         "source": "google_nl",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "Haaien cirkelen rond Trumps kabinetschef Susie Wiles: “Hij belt achter de schermen rond met de vraag wie haar zou kunnen vervangen” - HLN",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZHd0dlVIUTZsajVWMmRxYjRtcUU0NkFPZ2g2NEo1eWo1NUg5ZTl3ZEo1bjRMZmp6MGc4am1iT2Fibjc5VUF2RUFTaG1XemlHVkc3dDNvYVc3ZEh1SzJJUVh1Uk9mRVpsUEFUc04tMmstc29NUmZyU0czYzFDWDV3c3pXUGdfbUVOVVg1NEx3X3ZxUDRJRTZ6ckc0ZVhGUjR5ZTZFamNwSXFLREQwTGNRSVE1Nk92Nk5VSTJ1ZUpyNTZoMmF3Q05XbU1JTXZMTEFRQ0VfdnZiTl9JTmxtSFQxYmpWSkhPWWhWSl9kVC1GeDdzWW95YmJVZEFfN1I?oc=5",
+        "title": "Midden-Oosten-expert Kim Ghattas: ‘De regering-Trump heeft echt de zwakke plek van Iran gevonden’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRHlCLVo4ZTRoaDJ4MjU1akttdW5pUHVHX1FiME1na0FoT2Y5UlBWUXNQTm5KRWowQW5vXzZFM09YWTdZS1pXbXdjTjlmSkVXekh0a1lQQkN0ODlzeUpEdUZhZUhrNTN1ZW1GcnFBT1lsZFNETzVVYnVRZldNZ2ZaaVc5QW5uRU4ydHFUSjNMbHJfclRuYjY2RGpBc09JSnhjbDNMamgxcmhFNDI3RVFlNGduMTQ5eFBsb2VoRVIzRG5RMEdqX1dyY3Z6RVlxNm9m?oc=5",
         "source": "google_nl",
         "name_only": true
       },
@@ -114433,34 +114517,22 @@
         "name_only": true
       },
       {
-        "title": "\"Un enregistrement qui pourrait faire tomber toute l'administration Trump\": les ennuis s'accumulent pour Kimberly Guilfoyle - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPYlBTMXVvN184dGVScHRFSWNTS295OU5pYURhaF9HUEpocllTY21WVm4xNS1pdzhneWNwbVFJQ0FRMlhhSmFfV1A4YnRFZ1pEa2dyVWR0VUR2Zm1pamJnRUw5Yjd6SmV0eXJhVmpwZkI5dVVaVGxEZVRmSUw0Vm9JR3R0dkJRcnRNZTV3dFZWRElDTEU3ako0dlluczBsVHZxVWo2RjZhbHVHNjVIME1YT0Ixb1phbjNuWTFxTlJoQzJMZ2pxbWVHeERPcHFwSkVxaHIzYWtiTENaTUZSaVdsTDIxYXVzeTFjaE5HdEswUUxhdXpQdkxPLVczLVRmSlN5S1JsaE45T2RPamdUbzBxX2p3a05ncnlKTTBFYUxvdE5tLUZqYkZna1F4NA?oc=5",
+        "title": "Donald Trump met en cause sa porte-parole Katie Zacharia - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbUJHQ25kZUxTMFZzRVM2OS1pdTQ1XzM3Tm05VW41MjF1bFAtYlBhdlRvaGJTTUtGX0xwRkhyVEpocjk3eXI3RkN0QU8zVnJ4eXp4Sm91M1JaM2Q5aWpiU2lhcXZMUGZPNnlnZ1BpREdra3R5WDJtUDNWNDBtTVE3czZia1BvbVFWR3VPb0cyd0RZVlo5Q3EzMGFQMUpVMG43X1JzVEpoVjlRYWppd29UMks3U0dnLVJQWGppNndfZGJoZHRTUjdMRjlXY1hMZERaY0FsMnlVQUdxX2h0SC1WYQ?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Ukraine : l’ordre de brider la branche militaire de Starlink émanerait de la Maison Blanche, l’UE dit ne pas pouvoir remplacer Starlink à court terme - RTBF",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZnllNElidFNBYXVSakVqMFdHTzZkWmxEWWhldXAtaEFQcUNmSFM3d2JxSDdGemVnMG9SR1hrVW5zTjI5dHZOSGFrRjBHRko2aGZGSVhzYU5ERzVMZTJZd25oN2hPZ2ZvcHVsX2RCZDJOVkZ6dXdHMXpXVHNZMF9UZnNRV2kwVjFPQTJGX2JpNm1GNlpHVHZYck1icHdKdFV1WmIwUVJrbGg0bV9MLS1tUXZOQjYyZGQtLTNfM0p6NDAwbnZEUXdGN01DRHY3dkdsQ3c?oc=5",
-        "source": "google_fr",
-        "name_only": false
-      },
-      {
-        "title": "Etats-Unis : Katie Zacharia, la nouvelle porte-parole de Trump, critique les WC chinois, Pékin l’invite à venir 'plus souvent' - RTBF",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORWtqOXdsOXFnR1d5eVJQbnF4RmZyQk1lSXVPOUJGYXU1UnFBY3hONXlqWE5iMmE2VzNMODNxUE9qN1l1Tnc2cWlVVDdlS2lGSDZ3T2xLcUpnQkZvU2JkOVp4N1NWRE1lN1dENzFOVFNZQjhEemVVQUZRbTM1dzAxTV9BaFQ0ejZzYkl0R2V5OWNjbEN6NkMzQjNZbExQbnNHaHY3YUw0bTNDT3o1QU1wa194OXhFaGp5Q1NkZkNEVWtlMzliMTNNWFBMWlhGUWk0ZG1rNTUzNHgtQjFZbFlEeWd3cUdXYVV6S1gzRA?oc=5",
+        "title": "Que contient cet enregistrement confidentiel et explosif qui pourrait faire tomber \"toute l'administration Trump\"? - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPc1pTcUdlZUxWeEJXVC1ycmZ2czlfaDFRVEJSQXFTeTdWZHdwZG5DdnoxR0JBLW90bkh4UnN6YjdrYnR1MXpQV1ZyZC11WURRY25KZDdyRG1hUmFTYk5haHY0YWw2MVNqb1JldHROSERiaUF2TWI3X3hUM2EzY0prLXgtUGpLOWlNUHZXMGVYZVk5SFFrX0h1UHkyWlp3WE1QVEVoTE05VXpGSXFGdk9fZTBvaERlbk1rWkJwaFM4VU5vU2wzMkZrdmNtTTM5dFF1SURoSFkzV2VEeFFQSngwMkR4RkRfSEg2REJmT3E0bGVBcExKTEpER3ZkZGZwWkxuSDBudjZMZ2Z4OVVEelE?oc=5",
         "source": "google_fr",
         "name_only": true
       },
       {
-        "title": "Donald Trump juge que la reprise par l’Ukraine des frappes sur les raffineries russes est une «honte - RTL Info",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPem5WY0tFYU9BT0lqQ3Zua0h2aDZ4cVZwV2NhM1lKcG9qTWRnZHRkZ3pCWmlfUUFsNENaa09leTh1WUIyT0lLaFk0QXBmRVpiVmlocTlFeGFJenZtTThlQ3Y5eEpqYmlmQWs2ckM3YTVZLWNId3lQSnVQQkVUTVBma2VDQ1B3c1ZlNUpnV05BNHdfeDNKdXlHZC1CVVRGVC1GcjlQUW9MV2VuNFpWNFo5U0hhSzljRlZfN2NyMXpWMVBRc3d5ai0tNk5MMEIxSUdEOEpoSzRyRUxNZDI4LVFqVldxX3Z1dEpTek44d053T1JWR3NGYXlaXw?oc=5",
+        "title": "« Une honte » : Donald Trump agacé par la reprise des frappes ukrainiennes sur les raffineries russes - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbGtvLWU1Z1hBRkcxeTN2LXlkYzZMd3R2MWF2aXBwNzZ6NjhhT1p4ODBScWJFRHpIbngybm0xaXV3VXBaQXpISnpfaUEzaEQ2WWl0UlVtdmxGYUVEWUd0NDdHSUYzOGZRTWZMNFYyZ1EzX0pZVk5QWkt2N1FQNmgwU0lmd2FnY1d4X21iOWpucnZlSmxlMlNwc0FmRDFFdEFyNVFpOXd0cnZfWkpwM09qc255VDRjRV9RUV9yZGJGLXBDUQ?oc=5",
         "source": "google_fr",
         "name_only": true
-      },
-      {
-        "title": "Valse start voor woordvoerder Witte Huis: Katie Zacharia moet toegeven dat ze nooit geslaagd is voor advocatenexamen - HBVL",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNOHdpR2RqWHJ2dlFqM1l3R2NXZkhnSW9HOE9EaGlaREJqUFJyQjhWQXZweXRSLUR3R2plT0dXMWx4X3FXV2J0TVo1Z3dTcXBSVXRfcE54X1Y4QktuTWRCN3JYenhSTTV5Tkg1ODk4bVNSRElYeTdYcUFmSm1TSm1KM2RSUG54SDNDbkhOMEd3NTNRWFN2VHozRHBfNFVkNW5adU9rYzJSanA0endBMHpwaGZsaV9qYjdBazBPMTJoNDRUQWpjdnFNYnE0SkRUOVBEb20tcXg0UW1DcnlHcVItXy1RQzc5QWZkb2I3XzYwX1czbzQ?oc=5",
-        "source": "google_nl_politics",
-        "name_only": false
       },
       {
         "title": "Geldschieters Trumps balzaal bekend: techgiganten en VS-ambassadeur in Nederland - NOS",
@@ -114469,14 +114541,8 @@
         "name_only": true
       },
       {
-        "title": "Wie blijft doen alsof Trump verantwoord met macht kan omgaan, werkt mee aan de ondergang van de VS als supermacht - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWjRaaU1RQ3otLWtTcnlNa0IwWTJKSko5SzZvMFdrYkhZM1VNV3BvbkVTeVdmTU1lWW9VUzFHSVZEZjdEeUFjQ1pfaTZYNVF3S1BkYmhfamd4QmM1cEhnck5CYzdhdlpEUmJGRktjZ0JxbVAwV05aTEdhYm1leGxuVTN4Y0xtald2SVlkQnkxRXhPYndSSWU2bWlRSVM3UktvQXJ2VnVtWXNhYWxwMUhoSmM2SnhjSE1UOWFEbGw5TWpReHBGbHF2RnNUN3RlWWVhUFRhdDlQSldKczRYdDZtTy1tLWxBNEU3TGhF?oc=5",
-        "source": "google_nl_world",
-        "name_only": true
-      },
-      {
-        "title": "Trump sneert opnieuw naar Zelensky en zet verhoudingen verder op scherp: “Moeilijker om met hem te onderhandelen dan met Poetin” - HLN",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOcjk2dDRtWENuVHlPVGlJZDhGLVgwTFlpdzNNTmxzMjZyaE1lUVphQlBIRWdGS01TQjY0OHQwT1FET3N5M3Y1b1RvQ3lUSVNGaVNwd2Q2d1ZjX1ZCaXJfVWhmSkNWUkpTR0hwWUJUbVJ2bllPRlhVMTFFMllSVlpjS1MtaWlyTE1SWXZkVlZoa3RuQXdVVlBjZ05HRTNLREVxWWZWdnBTSWZiRk5fanl5NGNxVUx5eVhaZTJXZG5EeU1veHduWVhLT0d2Zlh1aEJfbW8zZVVPRnZvM2ZmTlJ1OHhvVjdLQXM?oc=5",
+        "title": "Haaien cirkelen rond Trumps kabinetschef Susie Wiles: “Hij belt achter de schermen rond met de vraag wie haar zou kunnen vervangen” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZHd0dlVIUTZsajVWMmRxYjRtcUU0NkFPZ2g2NEo1eWo1NUg5ZTl3ZEo1bjRMZmp6MGc4am1iT2Fibjc5VUF2RUFTaG1XemlHVkc3dDNvYVc3ZEh1SzJJUVh1Uk9mRVpsUEFUc04tMmstc29NUmZyU0czYzFDWDV3c3pXUGdfbUVOVVg1NEx3X3ZxUDRJRTZ6ckc0ZVhGUjR5ZTZFamNwSXFLREQwTGNRSVE1Nk92Nk5VSTJ1ZUpyNTZoMmF3Q05XbU1JTXZMTEFRQ0VfdnZiTl9JTmxtSFQxYmpWSkhPWWhWSl9kVC1GeDdzWW95YmJVZEFfN1I?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
@@ -114487,32 +114553,26 @@
         "name_only": true
       },
       {
-        "title": "Midden-Oosten-expert Kim Ghattas: ‘De regering-Trump heeft echt de zwakke plek van Iran gevonden’ - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRHlCLVo4ZTRoaDJ4MjU1akttdW5pUHVHX1FiME1na0FoT2Y5UlBWUXNQTm5KRWowQW5vXzZFM09YWTdZS1pXbXdjTjlmSkVXekh0a1lQQkN0ODlzeUpEdUZhZUhrNTN1ZW1GcnFBT1lsZFNETzVVYnVRZldNZ2ZaaVc5QW5uRU4ydHFUSjNMbHJfclRuYjY2RGpBc09JSnhjbDNMamgxcmhFNDI3RVFlNGduMTQ5eFBsb2VoRVIzRG5RMEdqX1dyY3Z6RVlxNm9m?oc=5",
-        "source": "google_nl_world",
-        "name_only": true
-      },
-      {
-        "title": "“You’re fired!”: waarom Trump enkel nog vrouwen de laan uitstuurt en alle mannen veilig zijn in het Witte Huis - Nieuwsblad",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNR1AwbzNPNFAyTUh2WVdaQnpnNmQ2WExpTUltTEp3VlpKOVpqWERtMUk4bno0YkxNMlJxVlJ1N3VmSzY0eGpqTmpCZGxZZlVzWk03RlZSdllaRXZ3cHlXVkJmdWI4Z25mTmxZZDByTGJHNGV2WHNTd1AtT0ZHeDJWdkNpa3FqaDhILVNsdmxnN3kxd1dxVXBPTGdpdWlYUFllX1J3Mm5Xb19RRm54Z3QxZGJZcE9OWms5RDl5Si1JZHFKdHBma0xOdWVGV2RYQkhURE5nekNrVmVWeWQ3RGFMZkV0UGZ5aUJQb2N4VjBB?oc=5",
-        "source": "google_nl_world",
-        "name_only": true
-      },
-      {
         "title": "LIVE OORLOG IN OEKRAÏNE. Trump op ramkoers met Zelensky na Oekraïense aanvallen op Russische raffinaderijen: “Een schande” - HBVL",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNUWFrcG5tcWlNRjVPeXBJQTBZSnV5MHJrTnFVWmpEdzBPclBSRHNPMXJ3WHJ4LUxJRVZaRGRJQmd6VHozU0IzZEZRYXZYZWNybEtUeVpxT1g0Z1l4Qlk2MzJQOTFNaW92Mm9IcFpUaGdBM0EtZTFPZERpYzlXUUNvbG5lVW9IQUE0M1VVZE12WHRJeTF5N0hKQkJ5NUY5Z01NWGlLdkJidzNXNk1mMFIwMFNXTUppa2xNS3ozRnpyYkh5a3VWbERNMV82MjVvQnBvZWdqb1JZQnBiS3N0RTdxRTlSX200SzdBM2g2d0FGTmw3bmg5a2c?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
       {
-        "title": "‘Gênante’ uitgelekte mailwisseling tussen regeringsleden verraadt frictie binnen team-Trump - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWWNqeTN5OGVyNEVWeF9iek96Z1NrMVhXc09Jb2syOWhSa0VTWWx6NHhUeWZzQTljS2k5VFFVbzVYMDRfUFI1bXlTSURwNTYwSFh2MXlxRTRlTmx2NW56UTljOXZzVzgwQmx4aXZTM0ZwaFNWcDYtenQyVFp2eWR6MmxNQ0Z4RXk3TXVqcEVQMUxpY0FReGlsVVFCWXo3akJSUVdHZEE0bkYyQmRDd3Yxa0FTU3NuWTd3Tl9jOWVBM1hJVU5LMTdPei1B?oc=5",
+        "title": "Wie blijft doen alsof Trump verantwoord met macht kan omgaan, werkt mee aan de ondergang van de VS als supermacht - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWjRaaU1RQ3otLWtTcnlNa0IwWTJKSko5SzZvMFdrYkhZM1VNV3BvbkVTeVdmTU1lWW9VUzFHSVZEZjdEeUFjQ1pfaTZYNVF3S1BkYmhfamd4QmM1cEhnck5CYzdhdlpEUmJGRktjZ0JxbVAwV05aTEdhYm1leGxuVTN4Y0xtald2SVlkQnkxRXhPYndSSWU2bWlRSVM3UktvQXJ2VnVtWXNhYWxwMUhoSmM2SnhjSE1UOWFEbGw5TWpReHBGbHF2RnNUN3RlWWVhUFRhdDlQSldKczRYdDZtTy1tLWxBNEU3TGhF?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
       {
-        "title": "Documenten onthullen geldschieters van Trumps balzaal: Apple en Nvidia doneerden allebei 25 miljoen. En er zijn nog opvallende topdonoren - HLN",
-        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUTYwYm9LaG4wVEowY0ZrMUt2UmlQc0JRUy1JcWI4bmVMV01kVjJSWkY4VzIwM1JTWFN3ZFZLb2M2aFpyWDI2U2oxdnJ4VDhESzBqSmxlQjZtRHp1X3JkN2VGTXFvM0ZVckZXaV9salFTTV9pNjdSRkNQV0Zua3l3QkhfQXRsSUsxeThXa21iWjVSazBiclN2UFVlU0VKSGx2VDFoM2lxNmhmTlFpVTRMai1BN3RsSTVCM0F2MWYxOVQweDJuUlpqNmNvM3MtbkxKS0xzb2JDeDFyR2NyYWthVW5SWmx3ZEpWM0JGZ0dkdVRQNllqMHRfUVFiQVZrWHR1Y1NOVFZn?oc=5",
+        "title": "“You’re fired!”: waarom Trump enkel nog vrouwen de laan uitstuurt en alle mannen veilig zijn in het Witte Huis - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOb3phTi1fRFJtUzBJNHVlSEw4WDlZSDB5UUQ1Wm5IblJmUTRqVUdvV0toWVpROTVLb00zZ045ZkpFY3hYTlRLaEtsTjI1aVZvX2N1U3FBNzdueUU3LXl4QXZlcHNOdnRMcXRSSU5MYnlsdTgwSGpnemQwTl96NWdxbmV0aG1MYVlxNXNNS1didXZEMTZxQ2RhcGpjMmFsdVRuV3NvSmJSN3B3WC1LLWdaQ1hrX2NQNnlOZjRGVGhTRGxsdlUweVhDUVJnM2oxNmJ5TUR1b2FuUmdtVlZqZTRGWTkyMkt1QQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Met dank aan Apple en Nvidia: geheime documenten onthullen geldschieters voor nieuwe balzaal van Donald Trump - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPM3pYaVl5U09NSXU1Z1ltVmoyNVJmQTNVUGNqbTJBOXhjdzNET01Oa0dWb0hGNGNBbC1vNlVxeVExS0dLSGpZbERISzRVUFVtQzlzTHdmdmVFZkRLakExRXFjZGhKcXhCVXExQ1RzaFVfMEtEeGM1YXlWSnBJRUFLNml1anduQXBsMnlzNU9ZVmRsTkFKNF8zMHVUbUFXeE1Ra0poaE1CZ3BWd01JdEVkMHJKRnNhSF9qLVhIaXNSWjhUaHBJcExjM0kxY1kwcG91WnhRcGJJQW1MQVV2SkVuLWtEQXFUNGlHQTd1WDk5emM4dw?oc=5",
         "source": "google_nl_business",
         "name_only": true
       },
@@ -114529,8 +114589,8 @@
         "name_only": true
       },
       {
-        "title": "Trump réfléchirait à licencier sa cheffe de cabinet: “Il passe des coups de fil pour voir qui pourrait la remplacer” - 7sur7.be",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMFh5cE5wQ0hwRlg3Q29YNEJjSmpTZ21NcXMzRk9qajZSR3RtYUZrYmtOejRjbFctNVFVS2JlMmhDZ0tGQzV6NG9Rbnh4U2h0cnM1eEV3dU9vdDZndFlWS2Etclk3Y1NfM05ZRHVXY1hyRHpwbmZ6eTktN1I0VEtqYW5Wc2pXX19kelA2a2s5aUVhSVF5T2hMcGZ3cXE1RW1xTlZQaVAtU3RNeGRlYlFrS1dBalpkWU9IdkcyQjk0U3RCOGJQMWJQeFRYU2tQOXk2SVdTTmNtRzRmc0gtTG04eDZscFk?oc=5",
+        "title": "Un \"nouveau Far West\" à la Maison-Blanche ? Les membres de l'administration Trump dans une course pour le pouvoir - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOMlJQUzRNWkhERHlUVVJQdDB6YnVqUVlSLWh3R3Y2UzNub0VCZTNzWXJwWWdJS2JjNXpid0RwUGVTYkd3d1RVTmdLM19HQzFJZGVHdGJqNTh4Q3dRRVM2MjVKT2tpaWFyU3JWdVJSaTZMdVROeXBKcndwRThJS1EtYjJIMVZ1MXV0N0F5NjZDOVVlcEpXbDhkamxPTFFGSXM5VHpOaUNET0FMYm1Rd2ZUamJ2MWtubXdGVTFiQXpibWhjQ2QzVWpqU19zRGxWbGczT2pPNmdsLS1CWjFTTXd1OERMMGZKR3lYSm1Ua1M4aDNScklObFVNSjJVaWFtM1RDUUZ0Wko3MG83cXZvUC1ka1YzRUREV2R1MGhld1ln?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
@@ -114541,8 +114601,8 @@
         "name_only": true
       },
       {
-        "title": "Que contient cet enregistrement confidentiel et explosif qui pourrait faire tomber \"toute l'administration Trump\"? - DHnet",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPc1pTcUdlZUxWeEJXVC1ycmZ2czlfaDFRVEJSQXFTeTdWZHdwZG5DdnoxR0JBLW90bkh4UnN6YjdrYnR1MXpQV1ZyZC11WURRY25KZDdyRG1hUmFTYk5haHY0YWw2MVNqb1JldHROSERiaUF2TWI3X3hUM2EzY0prLXgtUGpLOWlNUHZXMGVYZVk5SFFrX0h1UHkyWlp3WE1QVEVoTE05VXpGSXFGdk9fZTBvaERlbk1rWkJwaFM4VU5vU2wzMkZrdmNtTTM5dFF1SURoSFkzV2VEeFFQSngwMkR4RkRfSEg2REJmT3E0bGVBcExKTEpER3ZkZGZwWkxuSDBudjZMZ2Z4OVVEelE?oc=5",
+        "title": "\"Un enregistrement qui pourrait faire tomber toute l'administration Trump\": les ennuis s'accumulent pour Kimberly Guilfoyle - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPYlBTMXVvN184dGVScHRFSWNTS295OU5pYURhaF9HUEpocllTY21WVm4xNS1pdzhneWNwbVFJQ0FRMlhhSmFfV1A4YnRFZ1pEa2dyVWR0VUR2Zm1pamJnRUw5Yjd6SmV0eXJhVmpwZkI5dVVaVGxEZVRmSUw0Vm9JR3R0dkJRcnRNZTV3dFZWRElDTEU3ako0dlluczBsVHZxVWo2RjZhbHVHNjVIME1YT0Ixb1phbjNuWTFxTlJoQzJMZ2pxbWVHeERPcHFwSkVxaHIzYWtiTENaTUZSaVdsTDIxYXVzeTFjaE5HdEswUUxhdXpQdkxPLVczLVRmSlN5S1JsaE45T2RPamdUbzBxX2p3a05ncnlKTTBFYUxvdE5tLUZqYkZna1F4NA?oc=5",
         "source": "google_fr_world",
         "name_only": true
       },
@@ -114565,26 +114625,38 @@
         "name_only": true
       },
       {
+        "title": "Katie Zacharia stopt als woordvoerster Witte Huis, nadat Trump haar had aangeraden \"om job te heroverwegen\"",
+        "url": "https://vrtnws.be/p.3BxO0QM8n",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
         "title": "Trump schrapt livestream van militaire executie door vuurpeloton: “Mensen willen niet zien hoe hij sterft” - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM2c4VlpBcmZRR1VDT3BOMjlXQXM4dHNGYjVXM3ZIaWNuUlR5ZHI4aU1SZXc4X05sdU8wcm5nbkdJYVRsREZSMUNGajJ0bDV0YUREYnhta1BqR2ZZTGM0VUU5OU85RVRzZ1A4c2ZES3VFZGh0bW14Z1k4OWxBUHBOV1QzaUQ2al96NUdRTWFRMFBONnU1M3g4UGx0c1RVcHFxWXotZWVKVkdwNGcyTDl3S0lDWGxhSzdrRjRTM3duR3ZFeFAyc1k1S19xYWNLd0dUbHVhbEhlTXlKaEs0RlNfWHRidmw1SUNfMXc?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Zelensky vraagt op EU-top 70 miljard euro steun voor volgend jaar - “Trump gaf nooit opdracht voor beperken Starshield”",
-        "url": "https://www.hln.be/buitenland/zelensky-vraagt-op-eu-top-70-miljard-euro-steun-voor-volgend-jaar-trump-gaf-nooit-opdracht-voor-beperken-starshield~a93df6b5/",
+        "title": "“Musk benaderde Trump om Starlink in Oekraïne te vertragen”",
+        "url": "https://www.hln.be/buitenland/musk-benaderde-trump-om-starlink-in-oekraine-te-vertragen~a93df6b5/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "KIJK. Zelensky antwoordt met gevatte grijns op vraag of hij “zondebok” is voor problemen van Trump in aanloop naar de midterms",
-        "url": "https://www.hln.be/nieuws/kijk-zelensky-antwoordt-met-gevatte-grijns-op-vraag-of-hij-zondebok-is-voor-problemen-van-trump-in-aanloop-naar-de-midterms~a14a8495/",
+        "title": "Witte Huis-woordvoerster Katie Zacharia na amper vijf dagen ontslagen",
+        "url": "https://www.hln.be/buitenland/witte-huis-woordvoerster-katie-zacharia-na-amper-vijf-dagen-ontslagen~ac79336c/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "“Bondgenoten Trump overwegen staat van beleg als verkiezingen volgens hen niet eerlijk verlopen”",
+        "url": "https://www.hln.be/buitenland/bondgenoten-trump-overwegen-staat-van-beleg-als-verkiezingen-volgens-hen-niet-eerlijk-verlopen~ab4cb61de/",
         "source": "hln",
         "name_only": true
       },
       {
-        "title": "Live - Zelensky over incident met Starlink: ‘Niet langer in staat om bevolking te beschermen’ • ‘Trump gaf nooit opdracht om Starlink te beperken’",
-        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-zelensky-over-incident-met-starlink-niet-langer-in-staat-om-bevolking-te-beschermen-miljoenen-oekrainers-dreigen-deze-winter-opnieuw-te-moeten-vluchten~b38bed0a/",
+        "title": "Live - Paus vraagt Poetin om staakt-het-vuren in Oekraïense stad Olesjky • ‘Trump gaf nooit opdracht om Starlink te beperken’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-zelensky-over-incident-met-starlink-niet-langer-in-staat-om-bevolking-te-beschermen-trump-gaf-nooit-opdracht-om-starlink-te-beperken~b38bed0a/",
         "source": "demorgen",
         "name_only": true
       },
@@ -114601,40 +114673,40 @@
         "name_only": true
       },
       {
-        "title": "Live - Apple en Nvidia droegen elk 25 miljoen dollar bij aan Trumps prestigieuze balzaal • Trump zou overwegen kabinetschef Susie Wiles te ontslaan",
-        "url": "https://www.demorgen.be/snelnieuws/live-apple-en-nvidia-droegen-elk-25-miljoen-dollar-bij-aan-balzaal-van-president-trump-trump-zou-overwegen-kabinetschef-susie-wiles-te-ontslaan~b13cc951/",
+        "title": "Live - Witte Huis-woordvoerster Katie Zacharia na amper vijf dagen ontslagen",
+        "url": "https://www.demorgen.be/snelnieuws/live-witte-huis-woordvoerster-katie-zacharia-na-amper-vijf-dagen-ontslagen~b13cc951/",
         "source": "demorgen",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "Met dank aan Apple en Nvidia: geheime documenten onthullen geldschieters voor nieuwe balzaal van Donald Trump",
-        "url": "https://www.nieuwsblad.be/buitenland/met-dank-aan-apple-en-nvidia-geheime-documenten-onthullen-geldschieters-voor-nieuwe-balzaal-van-donald-trump/163179949.html",
+        "title": "Nieuwe woordvoerster Witte Huis na amper een week ontslagen: “Misschien is het niets voor haar”",
+        "url": "https://www.nieuwsblad.be/buitenland/nieuwe-woordvoerster-witte-huis-na-amper-een-week-ontslagen-misschien-is-het-niets-voor-haar/163204006.html",
         "source": "nieuwsblad",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "“You’re fired!”: waarom Trump enkel nog vrouwen de laan uitstuurt en alle mannen veilig zijn in het Witte Huis",
-        "url": "https://www.nieuwsblad.be/buitenland/youre-fired-waarom-trump-enkel-nog-vrouwen-de-laan-uitstuurt-en-alle-mannen-veilig-zijn-in-het-witte-huis/163094023.html",
+        "title": "LIVE VS. Nieuwe woordvoerster van Witte Huis al ontslagen na vijf dagen",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-nieuwe-woordvoerster-van-witte-huis-al-ontslagen-na-vijf-dagen/27528053.html",
         "source": "nieuwsblad",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "Met dank aan Apple en Nvidia: geheime documenten onthullen geldschieters voor nieuwe balzaal van Donald Trump",
-        "url": "https://www.gva.be/buitenland/met-dank-aan-apple-en-nvidia-geheime-documenten-onthullen-geldschieters-voor-nieuwe-balzaal-van-donald-trump/163187868.html",
+        "title": "Nieuwe woordvoerster Witte Huis na amper een week ontslagen: “Misschien is het niets voor haar”",
+        "url": "https://www.gva.be/buitenland/nieuwe-woordvoerster-witte-huis-na-amper-een-week-ontslagen-misschien-is-het-niets-voor-haar/163204508.html",
         "source": "gva",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "“You’re fired!”: waarom Trump enkel nog vrouwen de laan uitstuurt en alle mannen veilig zijn in het Witte Huis",
-        "url": "https://www.gva.be/buitenland/youre-fired-waarom-trump-enkel-nog-vrouwen-de-laan-uitstuurt-en-alle-mannen-veilig-zijn-in-het-witte-huis/163166330.html",
+        "title": "LIVE VS. Nieuwe woordvoerster van Witte Huis al ontslagen na vijf dagen",
+        "url": "https://www.gva.be/buitenland/live-vs.-nieuwe-woordvoerster-van-witte-huis-al-ontslagen-na-vijf-dagen/76845705.html",
         "source": "gva",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "“You’re fired!”: waarom Trump enkel nog vrouwen de laan uitstuurt en alle mannen veilig zijn in het Witte Huis",
-        "url": "https://www.hbvl.be/buitenland/youre-fired-waarom-trump-enkel-nog-vrouwen-de-laan-uitstuurt-en-alle-mannen-veilig-zijn-in-het-witte-huis/163185949.html",
+        "title": "LIVE VS. Nieuwe woordvoerster van Witte Huis al ontslagen na vijf dagen",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-nieuwe-woordvoerster-van-witte-huis-al-ontslagen-na-vijf-dagen/151623011.html",
         "source": "hbvl",
-        "name_only": true
+        "name_only": false
       },
       {
         "title": "Midtermverkiezingen in de VS: Staten bereiden zich voor op sabotage door Donald Trump - Knack",
@@ -114643,9 +114715,39 @@
         "name_only": true
       },
       {
-        "title": "Ukraine : l’ordre de brider la branche militaire de Starlink émanerait de la Maison Blanche, l’UE dit ne pas pouvoir remplacer Starlink à court terme",
-        "url": "https://www.rtbf.be/article/ukraine-l-ordre-de-brider-la-branche-militaire-de-starlink-emanerait-de-la-maison-blanche-l-ue-dit-ne-pas-pouvoir-remplacer-starlink-a-court-terme-11801217",
+        "title": "Trump ontslaat nieuwe woordvoerster Witte Huis - Knack",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMmV5dF9PYmxrT0dzUXdjTy05clgxTmFaRW84TEZqeEJTMnpEdmVxRHRIbExXSTI0MXdySlRMY05Hd1hOdG1lbVBHRHA5YUlHU2VtM2w3WTJmQU1TaU1GemVEVGJDYUpUQkJ5a0VKSTVwd0s4a2N6VWE5MHEyX1Y3NE9QRUJuMEpadXM4ekkxMnR0azlJR2dWZW1OUlQ1RS0xTllxeWlOZno4Z25K?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "États-Unis : la nouvelle porte-parole de la Maison Blanche déjà limogée après à peine une semaine",
+        "url": "https://www.rtbf.be/article/etats-unis-la-nouvelle-porte-parole-de-la-maison-blanche-deja-limogee-apres-a-peine-une-semaine-11801626",
         "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Trump n’a \"jamais\" donné l’ordre de brider le réseau Starshield, selon la Maison Blanche",
+        "url": "https://www.rtbf.be/article/trump-n-a-jamais-donne-l-ordre-de-brider-le-reseau-starshield-selon-la-maison-blanche-11801482",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Après seulement cinq jours, Donald Trump licencie sa nouvelle porte-parole",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/16/trump-dit-que-sa-nouvelle-porte-parole-sous-le-feu-des-critiques-devrait-reconsiderer-son-avenir-a-ce-poste-BAUVR6QA2NBH5OOA4Y5SLOTSXA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une chanteuse canadienne devient américaine : un moyen de contrer Donald Trump à l’approche des élections ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/16/une-chanteuse-canadienne-devient-americaine-un-moyen-de-contrer-donald-trump-a-lapproche-des-elections-JVXXQZ3QVFFMLHTQI25XK3ZRYA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Toilettes chinoises, \"mon président\", et balbutiements : en quelques jours à la Maison-Blanche, Katie Zacharia a enchaîné les bévues",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/16/toilettes-chinoises-mon-president-et-balbutiements-pour-ses-debuts-a-la-maison-blanche-katie-zacharia-enchaine-les-bevues-VJHNAQKTMRF5VHQGLGIO3YRCP4/",
+        "source": "lalibre",
         "name_only": false
       },
       {
@@ -114673,34 +114775,40 @@
         "name_only": true
       },
       {
+        "title": "Au bout d'une semaine, Trump pousse déjà sa nouvelle porte-parole vers la sortie",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/16/au-bout-dune-semaine-trump-pousse-deja-sa-nouvelle-porte-parole-vers-la-sortie-KIR65JGCPVGYFCPV4OHOW42FLI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Une chanteuse canadienne devient citoyenne américaine: un levier pour faire barrage à Donald Trump lors des midterms ?",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/16/une-chanteuse-canadienne-devient-citoyenne-americaine-un-levier-pour-faire-barrage-a-donald-trump-lors-des-midterms-HYGTBBX5SFCMDCOBW4FYHB5E4E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump qualifie de \"héros\" l'homme armé qui a tué le tireur dans une école américaine",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/16/donald-trump-qualifie-de-heros-lhomme-arme-qui-a-tue-le-tireur-dans-une-ecole-americaine-RAN6CFBR2FHBDLIXMUMBMU5CTM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
         "title": "Un “nouveau Far West” à la Maison-Blanche ? Une lutte interne pour le pouvoir est lancée dans l'administration Trump",
         "url": "https://www.dhnet.be/actu/monde/2026/10/16/un-nouveau-far-west-a-la-maison-blanche-une-lutte-interne-pour-le-pouvoir-est-lancee-dans-ladministration-trump-JDB6RAV335HG3JK3ZO7ILUFN34/",
         "source": "dhnet",
         "name_only": true
       },
       {
-        "title": "Que contient cet enregistrement confidentiel et explosif qui pourrait faire tomber \"toute l'administration Trump\"?",
-        "url": "https://www.dhnet.be/actu/monde/2026/10/16/que-contient-cet-enregistrement-confidentiel-et-explosif-qui-pourrait-faire-tomber-toute-ladministration-trump-32WC4D477ZBEJFAHPAV7XWTMEU/",
-        "source": "dhnet",
-        "name_only": true
-      },
-      {
-        "title": "Pourquoi la marque du costume Donald Trump fait autant de bruit",
-        "url": "https://www.dhnet.be/lifestyle/beaute-mode/2026/10/16/pourquoi-la-marque-du-costume-donald-trump-fait-autant-de-bruit-KSOC42SAMRFE3CI7S57TKJT7AU/",
-        "source": "dhnet",
-        "name_only": true
-      },
-      {
-        "title": "Trump n’a “jamais” donné l’ordre de brider le réseau Starshield, dément la Maison Blanche",
-        "url": "https://www.7sur7.be/monde/trump-na-jamais-donne-lordre-de-brider-le-reseau-starshield-dement-la-maison-blanche~a33fdd82/",
+        "title": "Katie Zacharia, la porte-parole de la Maison Blanche, déjà limogée",
+        "url": "https://www.7sur7.be/monde/katie-zacharia-la-porte-parole-de-la-maison-blanche-deja-limogee~aba3c375/",
         "source": "septsursept",
-        "name_only": true
+        "name_only": false
       },
       {
-        "title": "Trump réfléchirait à licencier sa cheffe de cabinet: “Il passe des coups de fil pour voir qui pourrait la remplacer”",
-        "url": "https://www.7sur7.be/monde/trump-reflechirait-a-licencier-sa-cheffe-de-cabinet-il-passe-des-coups-de-fil-pour-voir-qui-pourrait-la-remplacer~a2a90b06/",
-        "source": "septsursept",
-        "name_only": true
+        "title": "‘Woordvoerster Witte Huis na vijf dagen naar exit geduwd’ - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUnZaNDBZaWJNejl2VlRJNkpHZExRSmdKM0NFLW5vTk5mRDg3cDJLbTFteGNKWERBYTlzTkFCRkVnZWRRMmViN1kyZ29HNlAySmk4VTNrVGY4Y05yMGZ5dVZManZXNldqdU1TeDlDX1l0TDhSZEhYdUt3SG80dGVSNmFTVjdBQW4zZmJoMC1iTlFJQVk5MTJhcW43VkRHMXFad2RnamFfWkc0QllNU1VLN0VpbGIzWmQxdGlPM1hscmVpWHM?oc=5",
+        "source": "detijd_g",
+        "name_only": false
       },
       {
         "title": "Trump overweegt sancties op Russische schaduwvloot in te perken - De Tijd",
@@ -114715,9 +114823,45 @@
         "name_only": true
       },
       {
+        "title": "Qui a bridé le réseau Starlink en Ukraine ? Trump sort du silence après des révélations, la polémique enfle ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRDdrZUFjTlk1MTdlU1ZpTHNrbEw0WGRkWnRaVVdPcXNndEVoNEVlSVI4cy1hbTYySUlxUUVfU2ZZcVBsLTlock5CU1VGLWhrOTRQQkR4QkFEM3ZLNm1wU1JUejF2bUE3cWpWTW5LN1lENkhWSGNsOTBPR2c0dEFHbzVGMENjZTJuaFF6cWdreFg5QmRUa0tGX1BCNjJIeTRnVDg5bnEwSjU4XzVMamdkUnByTnR1cWF0dy1Cc2F6VmE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
         "title": "« C’est honteux », « vous ne rendez pas service au monde » : Donald Trump scandalisé cette nuit après la reprise des frappes ukrainiennes sur les raffineries russes - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZnI2RUdWYWIxMERRbXk2S0Z2MmdHV2tJNWgydjJBelJEN005QWpnQl9ncXFaMVRpdXhQTmt1QURlN3ZuT1ZVdDZpVFpzdGZzQ2JKZXdnZkNuN2hqTW5tNkFNSFRzS25HTHExM3dLeWlLcUJHbms2RGxQcFhsRG95TTlyUlNBTGZRRm9JRFN1TXZoLWk3OGw0VEZDdWNuMEFQano4ZWFsTjZaaGFybUNvNEI3TVltSVNmeVVvbUVIeGlqRzhTNy1yTnV3?oc=5",
         "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "« Heureusement il y avait un homme qui avait une arme » : la réaction de Donald Trump après la fusillade qui a fait quatre morts dans une école primaire - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQajhlbnE0X0dMdU43VVBOWVMteDZ4aFdXaUZnRWd3N3EyZVpWei1CUENsdE1wWE5yVjhQRHJxbWVPVF9xc0doX19WaDc5SF9qQm9DY3dGekl6MEc4OWNRbV9iSFdUQk5PME5pbVQ4V1N2QVU0djZUTXJzRmZvNmNpN19sNDU3akp4ZVlHY3RDZDVmVTByT3ZSWk02eS1UZ09GSHNZSkoyUTVQNTNucWZPNlI0dVpTT3hURFJjWHZBMzdSQ2xEWEZGYnBiWQ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "À peine arrivée, déjà limogée : Donald Trump se sépare de sa porte-parole ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNDRFQmM0QUhrS0lqZVNpVnlKX3JKVlhzdUVNWkhYZjF3b0NaRTdvNzVxeTVfZlBfTGNoSE9SZjIzeVV0dGxxZ0kyMFFUbzk1ODVDLWVGU0RkWGZEeWdnbXlDYkZxMGJkbGVscTRJNGdNZENuV0N5TkN0V01tRmxRTGRsNHlJeHhLempGaGtpSkc2LVljXzJUWWc2QVF3cElHNVFlWFNFMjVvOG5jTThVV2JwbXNiUExKVTFFMQ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump s’en prend à sa nouvelle porte-parole après les révélations sur ses qualifications d’avocate - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUUxtUXhDajJnSUg2QzllTjJqLUZmOC0zZzBoZ2x4VV9FWmlSaEs2MzkyUEJ4TU5sMlIxUlV4Vl9iVE1RZWc1ZWl3c0F2a1docklhS3VmblpVamQ5TVpkcWtTR2ltdTJYU0RxVGk5bHgwN1NTaXBuSmdLajE0eU4xVENrb0J0eUx1VUswdEptb01kOVpjZDdMQmp2TnliYnktSGhXN2FORlBmVlJJeFNiMlVjbFJaRVJyWlVWVkFlcXRzYURjcFdIOEZxQjVQZmhVV0RqZENGYkxOSEMwdEpVZQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump juge que la reprise par l’Ukraine des frappes sur les raffineries russes est une «honte - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPem5WY0tFYU9BT0lqQ3Zua0h2aDZ4cVZwV2NhM1lKcG9qTWRnZHRkZ3pCWmlfUUFsNENaa09leTh1WUIyT0lLaFk0QXBmRVpiVmlocTlFeGFJenZtTThlQ3Y5eEpqYmlmQWs2ckM3YTVZLWNId3lQSnVQQkVUTVBma2VDQ1B3c1ZlNUpnV05BNHdfeDNKdXlHZC1CVVRGVC1GcjlQUW9MV2VuNFpWNFo5U0hhSzljRlZfN2NyMXpWMVBRc3d5ai0tNk5MMEIxSUdEOEpoSzRyRUxNZDI4LVFqVldxX3Z1dEpTek44d053T1JWR3NGYXlaXw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump limoge sa nouvelle porte-parole après seulement une semaine à la Maison Blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWFh2RjljLVQwZHB3N0xwV1hsYXdUQ1J6d01ublVBYTY2UzA0VlkzN1FKUVBqWG9OTjRWUHV6S2s5RGcxdmJKQkNySmdGUXJid2hpUTJwZGZNWFM5VzI1QjNvYXpWaFluWXI5MkwyTG9NX0NBTGJ4Wnp6cktsQlBaNWtXX2RzTFRPdFBiMHVDTEZmbmpCMFZPaWFzU1BzQ3lrOVBvNEg1XzlZSGlieXhUSnF5dGJiU1lEbDNnbzg1TWRRV0JBbnZMTUsxX0VQOVBvRG9rLWJEa29TQmlSVnc?oc=5",
+        "source": "rtl_g",
         "name_only": true
       },
       {
@@ -114734,74 +114878,74 @@
       }
     ],
     "comparisons": {
-      "trump": 23,
-      "putin": 3,
-      "macron": 0,
+      "trump": 29,
+      "putin": 7,
+      "macron": 1,
       "netanyahu": 0,
-      "zelensky": 8,
+      "zelensky": 7,
       "rutte": 0,
       "von_der_leyen": 1,
-      "de_wever": 11,
-      "bouchez": 2,
+      "de_wever": 12,
+      "bouchez": 1,
       "magnette": 0,
-      "prevot": 1,
+      "prevot": 4,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 47,
-      "putin": 7,
-      "macron": 0,
+      "trump": 48,
+      "putin": 9,
+      "macron": 1,
       "netanyahu": 0,
-      "zelensky": 13,
+      "zelensky": 12,
       "rutte": 0,
       "von_der_leyen": 1,
-      "de_wever": 16,
-      "bouchez": 3,
+      "de_wever": 17,
+      "bouchez": 2,
       "magnette": 0,
-      "prevot": 1,
+      "prevot": 5,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "themes": {
-      "war": 23,
-      "crime": 41,
-      "eu": 44,
-      "politics": 18,
-      "be_gov": 30,
-      "culture": 27,
-      "tech": 22,
-      "economy": 30,
-      "sports": 28,
-      "health": 10,
-      "climate": 6,
-      "migration": 2,
-      "education": 12,
-      "weather": 9
+      "war": 33,
+      "crime": 40,
+      "eu": 59,
+      "politics": 19,
+      "be_gov": 38,
+      "culture": 31,
+      "tech": 25,
+      "economy": 38,
+      "sports": 32,
+      "health": 12,
+      "climate": 9,
+      "migration": 3,
+      "education": 14,
+      "weather": 14
     },
     "wide_themes": {
-      "war": 40,
+      "war": 50,
       "crime": 56,
-      "eu": 69,
-      "politics": 34,
-      "be_gov": 40,
-      "culture": 33,
-      "tech": 36,
-      "economy": 42,
-      "sports": 55,
-      "health": 14,
-      "climate": 6,
-      "migration": 2,
+      "eu": 87,
+      "politics": 35,
+      "be_gov": 50,
+      "culture": 37,
+      "tech": 44,
+      "economy": 54,
+      "sports": 67,
+      "health": 16,
+      "climate": 10,
+      "migration": 4,
       "education": 18,
-      "weather": 13
+      "weather": 23
     }
   }
 ]
