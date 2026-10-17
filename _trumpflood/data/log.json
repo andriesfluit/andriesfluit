@@ -114947,5 +114947,652 @@
       "education": 18,
       "weather": 23
     }
+  },
+  {
+    "date": "2026-10-17",
+    "generated_at": "2026-10-17T10:01:01+02:00",
+    "last_checked_at": "2026-10-17T10:01:01+02:00",
+    "total_articles": 398,
+    "trump_articles": 16,
+    "percentage": 4.0,
+    "core_percentage": 4.0,
+    "core_percentage_name": 4.0,
+    "trump_articles_expanded": 16,
+    "core_percentage_expanded": 4.0,
+    "indirect_references": 0,
+    "wide_total_articles": 538,
+    "wide_trump_articles": 23,
+    "wide_percentage": 4.3,
+    "wide_trump_articles_expanded": 25,
+    "wide_percentage_expanded": 4.6,
+    "macro_percentage": 4.9,
+    "qualifying_outlets": 17,
+    "core_outlets_total": 19,
+    "core_outlets_active": 15,
+    "active_core_fraction": 0.789,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 9.0,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.89,
+    "breadth": 0.67,
+    "deviation": 1.31,
+    "smoothed_pct": 3.37,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 8.7
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_politics": {
+        "fetched": 50,
+        "today": 7,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 62,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 20,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 70,
+        "kept": 64,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.55
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 62,
+        "kept": 59,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.39
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 37,
+        "kept": 37,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 8.11
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 53,
+        "today": 5,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 92,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Is breuk tussen Trump en Zelensky nog te lijmen? \"Er is hoop, maar het blijft uitstel van executie\"",
+        "url": "https://vrtnws.be/p.OvXll9ObJ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump werpt Poetin nieuwe reddingsboei toe: VS zien af van hoge heffingen en sancties op Russische energie, ‘historisch’ volgens Russische gezant",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-werpt-poetin-nieuwe-reddingsboei-toe-vs-zien-af-van-hoge-heffingen-en-sancties-op-russische-energie~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky reageert heel anders op nieuwe dolk van Trump in rug: ‘Het is genoeg geweest’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/zelensky-reageert-heel-anders-op-nieuwe-dolk-van-trump-in-rug-het-is-genoeg-geweest~b4c98c0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Trump ziet af van heffingen en sancties op Russische energie vlak voor nieuwe wet van kracht wordt",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-trump-ziet-af-van-heffingen-en-sancties-op-russische-energie-vlak-voor-nieuwe-wet-van-kracht-wordt/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Trump ziet af van heffingen en sancties op Russische energie vlak voor nieuwe wet van kracht wordt",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-trump-ziet-af-van-heffingen-en-sancties-op-russische-energie-vlak-voor-nieuwe-wet-van-kracht-wordt/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Alweer 180 graden gedraaid: waarom Trump plots weer opvallend het kamp van Poetin kiest",
+        "url": "https://www.hbvl.be/buitenland/alweer-180-graden-gedraaid-waarom-trump-plots-weer-opvallend-het-kamp-van-poetin-kiest/163203014.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"J’exempte l’application de telles sanctions\": Donald Trump dispense la Russie de nouvelles restrictions, en pleine crise avec l’Ukraine",
+        "url": "https://www.rtbf.be/article/j-exempte-l-application-de-telles-sanctions-donald-trump-dispense-la-russie-de-nouvelles-restrictions-en-pleine-crise-avec-l-ukraine-11801694",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Il s’agit d’une histoire fausse\": Trump réagit aux récentes rumeurs aux sujets de Susie Wiles",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/17/il-sagit-dune-histoire-fausse-trump-reagit-aux-recentes-rumeurs-aux-sujets-de-susie-wiles-EFJAVBKMRFE2PCENMXQZ5476DU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump exempte la Russie de nouvelles sanctions \"invoquant \"l'intérêt national des États-Unis\"",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/10/17/trump-exempte-la-russie-de-nouvelles-sanctions-invoquant-linteret-national-des-etats-unis-UR5Q676DGVHBDKXOBAOOP6B5PA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump tend la main à Poutine, Zelensky presse l'Europe - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVXJJSlRKY1pmdkFEY3lGdkUtakJGWTFieU0tRzdVSk5KWVRqZktkY1BmcEdnU1ItTVZUbTFxUkZUNFh3X0trSmhvZE1pUjl5MG9CWFZyNTNSQkU3d2swS2tUVWNwQ3Zlam90bkZPVmVLOHZnMWhCM3drUGFqY2RTVU1YYmVkRTRnMURiNG5Lc0VFLVBaLWRCVjRGZ2NIaWtNMlI1VjgwSlZId1doT21wZ3Fnel9aX2RPd1o5XzVvdw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump exempte la Russie de nouvelles sanctions, en pleine crise avec Kiev - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbGMwVzRkVTZjbHNFcGkzcEoxemFPNURKWVVtNlROelhzcXpzRm96N3NqTmo1UVMzY1VDa0k4RjhzV2pUV055aVJ6U3VsejV3c1lobmh5dWQwa0U0WVh5V194MEsxM0Q5S2dMYVpjclJvVVdNYVdzanNYb2VPQ1NVMjJGZkpSLWctSk50emlNZ3dibTdPdEEwUWNCSTRhOElyUTN1WlhCLTJSQmFpRnZxSzdrQlJJQ1lPYi1XNTVic0JQRXlva0xIUUJEZzJNTkh3b1BDSE1B?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump suspend les sanctions contre la Russie: le Kremlin salue un moment \"historique\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/17/trump-suspend-les-sanctions-contre-la-russie-le-kremlin-salue-un-moment-historique-E4SA5AT3AZBEFDVPH357K64YCA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "”Il s’agit d’une histoire fausse” : Donald Trump balaie les rumeurs de guerre interne au sein de la Maison Blanche",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/17/il-sagit-dune-histoire-fausse-donald-trump-balaie-les-rumeurs-de-guerre-interne-au-sein-de-la-maison-blanche-ZYMI5W4JOZFJBIPBSEZLJDVAR4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump suspend les sanctions du Congrès contre la Russie au nom de l'\"intérêt national\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/17/donald-trump-suspend-les-sanctions-du-congres-contre-la-russie-au-nom-de-linteret-national-KNSV7V7F7VHHVH4JX4Q3OGWU5E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump suspend les sanctions du Congrès contre la Russie au nom de l’“intérêt national”",
+        "url": "https://www.7sur7.be/monde/trump-suspend-les-sanctions-du-congres-contre-la-russie-au-nom-de-linteret-national~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevriest Russisch sanctiepakket - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMk5ma2ZFTndyaEJMS0J4Z0xxQmVYZmt4cGpIVHZBeXB2X1M0YkN2aGx2akJxek9GNlktZ09Nb0pqTXY2eXRqVjBGeXJlWkpzZkVOVk5SVmxVenZkNndneFVtOEllQnRfWGdQWlV4ZHJMMGxaT1NSQUN0dEU3UVB3QWxrbFM4SzllcWd0QUU4ekQ0RWRDenBYenlrRUVDVllkamt1aG5neFhpc1k?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Zelensky reageert heel anders op nieuwe dolk van Trump in rug: ‘Het is genoeg geweest’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOM1F0bjQzNXpxYUhPSjdZMUVJMnRnVG9wZWlzckVlVUJaNldOR0lHcUpBS0RKZTF6a0JuNDdwXy1jYTk4THNIMGZDTXdJUTdjUFUxZk96ZXJsZlRmZUNNOTM4aDhwdkdEV09nYzVBZ2doelNWYW1IaHdBRUlZc0Nrb01RTnY3OTNBZWhKeDg0aldoUDJHT29fUjdCYmRfSVduaHJXZ1c2NVZkY0pnamFUeHhiMmNpbGhkTjgtSFk3WjBxN2hDeFRKZHYzbTBBT1ZUdHc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Katie Zacharia neemt na vijf woelige dagen al afscheid als woordvoerder van Witte Huis - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPT3BiWXEzV29EeXdvTldKcnE3OUdZWU5uRmZXX09vamxZS1QtX3JxWTlnU0NsQ2VJOTc0WTFaTllDRlBtMVFTd25DSlVlMDRsbFZDbDJ6NkhJME40NWdPeXBDYmVRai16TUc5Q1M3bGZjTmtzVW9qTTFlSFNqQWQzVnNCSTV5OWVJUTZDOWpQUVp4SFE3MTM5SXZpeEdFMTljMTZQSDd0R0pILWtGYUV0SmdCakFjZngzNFFYOG9LOUFhNGZSZXNYV2Z4UVZJTm9VZHNR?oc=5",
+        "source": "google_nl",
+        "name_only": false
+      },
+      {
+        "title": "Trump spot tijdens campagnetoespraak met populariteit van de naam Mohammad - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSGMzRzU3YTFYbjJ0RzFnTGdkcDlMcjZMR0VtcEdsNUI1enRrNWowVGl1WHVweHpObHk1MDQ1RmU4OUllZklPaFRZZVhMOFpkNl90TGVVN0NnSEdTLUxMS3k2TE9PMC1RMlRsblRQSkp6N1RfUk16RmlZWFgtbDdwTURaRkxLSFBUckp2UlVYY3A0dE9jRkhuQ3F2bFRwX2ZSeDNGWFdWUEs5cWUwS3FRcUx4cnFaZVZWbVlwS2tzQmIxY2xM?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "'J’exempte l’application de telles sanctions': Donald Trump dispense la Russie de nouvelles restrictions, en pleine crise avec l’Ukraine - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSEZNb2RGdE9ZTVo2V3U1MEFoZS13a0V4YXpLaWhiNWpVNF9LblhKeklrbld4c2JIQ0RqaW9WZVdWZW1qWll5UlVtdUUxbjJzalBYQUdOd0Z2emJaQUJVWV80bFRSOTBFaXdtQllVMmw2bTlTMzY1bWtmdUJqZ3J0YkMtR3R1YWppRVZJYi1KOFVxSUc4QmZDeHRtZ0E2OHpNaGE2eUpZV3hNS1p3X2gtVzRFcXlJWF9WVWhlQm9MeWszY2tobUpybk4wNldXM3J4Qjl1dUl2TVZSVkNpZU9VYm55VzRyWnhGM2VsdE9qam80RFJTX3VLWmNBa21Vdw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump pauzeert heffingen en sancties op Russische energie - bnr.nl",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRUtjMGhpUjEyQjdCc3ZmWE1jaXV4dlJFNy1GQ1FxWWU2ZkdnZnVCQlMwZlltOFB1UUtpU1BSNFZtVkdnMFVHbndodzlOQ0JtNFdRVUc1amZ3ekJjOURhUU40Y19hVmNZbmRRVnVLMHhHcnhjZ0J2RjJ2c2RoRFBZR2E4MnVuNVVLX2JsR0F4ejJ5NjZEWVU5SjUyMWVIU3AyS0VIV1k1NnpuSkU?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Alweer 180 graden gedraaid: waarom Trump plots weer opvallend het kamp van Poetin kiest - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNLVJUQTJxY3Q3dHpmWHVSaDV1RF83MmRqVlhKRjhyYTBOVGhpRUZ5eWJiVnZRN3pTY1ZxTERJNTl5R1pyUENGdFJIbEtDUTVkMmV1Ti1qNno5RzFGQnlWczZ4X3dOTFlxZmp5NHBBNGdDM0JsYTRwWjI4RVdHSjdUYkZVR2tXMWpDZDg0LVJwbkdWM1lCV1ZUTjlqaE9YcUlWM2xtTG1yR1ZBMlpZSlZhcFo0UlZad3dNd1lvbTlpbm1LTkh4dkdCc0VtdXQzNXo2STVnUA?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Katie Zacharia, porte-parole de la Maison-Blanche pendant cinq jours à peine - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTlJYbXpzWmVZT3dxYmtDM2x4X1N2eDc4VmRJNEhpNnNWZS1pTmZZREd2Y1kxMnhhT1FzS2hPRDhDNXRPdG1GcHIxT1FGdzBqbVR6YXVJcE9JMDdsMDlvNjlkNmpRYVVIT3BEMzlWSDhQNExENFFkYWZlbDNUa1ROT3EzdTc1Q1Z0OTVXUVRrWWkxaVM0ZlQ5bEh4QVpJSElNeFB1MGhzNXlsVjgwVnN6eFV0QTlHYTBSamNucHlJalVKOHVsZXNVYnVrWG9QWWJjeEFwSE1FWFFPcXRzNkVaSA?oc=5",
+        "source": "google_fr_politics",
+        "name_only": false
+      },
+      {
+        "title": "Is breuk tussen Trump en Zelensky nog te lijmen? \"Er is hoop, maar het blijft uitstel van executie\"",
+        "url": "https://vrtnws.be/p.OvXll9ObJ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump werpt Poetin nieuwe reddingsboei toe: VS zien af van hoge heffingen en sancties op Russische energie, ‘historisch’ volgens Russische gezant",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-werpt-poetin-nieuwe-reddingsboei-toe-vs-zien-af-van-hoge-heffingen-en-sancties-op-russische-energie~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky reageert heel anders op nieuwe dolk van Trump in rug: ‘Het is genoeg geweest’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/zelensky-reageert-heel-anders-op-nieuwe-dolk-van-trump-in-rug-het-is-genoeg-geweest~b4c98c0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Trump ziet af van heffingen en sancties op Russische energie vlak voor nieuwe wet van kracht wordt",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-trump-ziet-af-van-heffingen-en-sancties-op-russische-energie-vlak-voor-nieuwe-wet-van-kracht-wordt/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Trump ziet af van heffingen en sancties op Russische energie vlak voor nieuwe wet van kracht wordt",
+        "url": "https://www.gva.be/buitenland/live-oorlog-in-oekraine.-trump-ziet-af-van-heffingen-en-sancties-op-russische-energie-vlak-voor-nieuwe-wet-van-kracht-wordt/76695337.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Alweer 180 graden gedraaid: waarom Trump plots weer opvallend het kamp van Poetin kiest",
+        "url": "https://www.gva.be/binnenland/alweer-180-graden-gedraaid-waarom-trump-plots-weer-opvallend-het-kamp-van-poetin-kiest/163188664.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Trump ziet af van heffingen en sancties op Russische energie vlak voor nieuwe wet van kracht wordt",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-trump-ziet-af-van-heffingen-en-sancties-op-russische-energie-vlak-voor-nieuwe-wet-van-kracht-wordt/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Alweer 180 graden gedraaid: waarom Trump plots weer opvallend het kamp van Poetin kiest",
+        "url": "https://www.hbvl.be/buitenland/alweer-180-graden-gedraaid-waarom-trump-plots-weer-opvallend-het-kamp-van-poetin-kiest/163203014.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"J’exempte l’application de telles sanctions\": Donald Trump dispense la Russie de nouvelles restrictions, en pleine crise avec l’Ukraine",
+        "url": "https://www.rtbf.be/article/j-exempte-l-application-de-telles-sanctions-donald-trump-dispense-la-russie-de-nouvelles-restrictions-en-pleine-crise-avec-l-ukraine-11801694",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "\"Il s’agit d’une histoire fausse\": Trump réagit aux récentes rumeurs aux sujets de Susie Wiles",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/17/il-sagit-dune-histoire-fausse-trump-reagit-aux-recentes-rumeurs-aux-sujets-de-susie-wiles-EFJAVBKMRFE2PCENMXQZ5476DU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump exempte la Russie de nouvelles sanctions \"invoquant \"l'intérêt national des États-Unis\"",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/10/17/trump-exempte-la-russie-de-nouvelles-sanctions-invoquant-linteret-national-des-etats-unis-UR5Q676DGVHBDKXOBAOOP6B5PA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump tend la main à Poutine, Zelensky presse l'Europe - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVXJJSlRKY1pmdkFEY3lGdkUtakJGWTFieU0tRzdVSk5KWVRqZktkY1BmcEdnU1ItTVZUbTFxUkZUNFh3X0trSmhvZE1pUjl5MG9CWFZyNTNSQkU3d2swS2tUVWNwQ3Zlam90bkZPVmVLOHZnMWhCM3drUGFqY2RTVU1YYmVkRTRnMURiNG5Lc0VFLVBaLWRCVjRGZ2NIaWtNMlI1VjgwSlZId1doT21wZ3Fnel9aX2RPd1o5XzVvdw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump exempte la Russie de nouvelles sanctions, en pleine crise avec Kiev - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbGMwVzRkVTZjbHNFcGkzcEoxemFPNURKWVVtNlROelhzcXpzRm96N3NqTmo1UVMzY1VDa0k4RjhzV2pUV055aVJ6U3VsejV3c1lobmh5dWQwa0U0WVh5V194MEsxM0Q5S2dMYVpjclJvVVdNYVdzanNYb2VPQ1NVMjJGZkpSLWctSk50emlNZ3dibTdPdEEwUWNCSTRhOElyUTN1WlhCLTJSQmFpRnZxSzdrQlJJQ1lPYi1XNTVic0JQRXlva0xIUUJEZzJNTkh3b1BDSE1B?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump suspend les sanctions contre la Russie: le Kremlin salue un moment \"historique\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/17/trump-suspend-les-sanctions-contre-la-russie-le-kremlin-salue-un-moment-historique-E4SA5AT3AZBEFDVPH357K64YCA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "”Il s’agit d’une histoire fausse” : Donald Trump balaie les rumeurs de guerre interne au sein de la Maison Blanche",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/17/il-sagit-dune-histoire-fausse-donald-trump-balaie-les-rumeurs-de-guerre-interne-au-sein-de-la-maison-blanche-ZYMI5W4JOZFJBIPBSEZLJDVAR4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump suspend les sanctions du Congrès contre la Russie au nom de l'\"intérêt national\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/17/donald-trump-suspend-les-sanctions-du-congres-contre-la-russie-au-nom-de-linteret-national-KNSV7V7F7VHHVH4JX4Q3OGWU5E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump suspend les sanctions du Congrès contre la Russie au nom de l’“intérêt national”",
+        "url": "https://www.7sur7.be/monde/trump-suspend-les-sanctions-du-congres-contre-la-russie-au-nom-de-linteret-national~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump bevriest Russisch sanctiepakket - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMk5ma2ZFTndyaEJMS0J4Z0xxQmVYZmt4cGpIVHZBeXB2X1M0YkN2aGx2akJxek9GNlktZ09Nb0pqTXY2eXRqVjBGeXJlWkpzZkVOVk5SVmxVenZkNndneFVtOEllQnRfWGdQWlV4ZHJMMGxaT1NSQUN0dEU3UVB3QWxrbFM4SzllcWd0QUU4ekQ0RWRDenBYenlrRUVDVllkamt1aG5neFhpc1k?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 16,
+      "putin": 3,
+      "macron": 2,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 7,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 23,
+      "putin": 6,
+      "macron": 3,
+      "netanyahu": 0,
+      "zelensky": 6,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 10,
+      "bouchez": 6,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 11,
+      "crime": 15,
+      "eu": 18,
+      "politics": 11,
+      "be_gov": 13,
+      "culture": 16,
+      "tech": 17,
+      "economy": 10,
+      "sports": 23,
+      "health": 3,
+      "climate": 4,
+      "migration": 0,
+      "education": 5,
+      "weather": 13
+    },
+    "wide_themes": {
+      "war": 15,
+      "crime": 21,
+      "eu": 29,
+      "politics": 17,
+      "be_gov": 20,
+      "culture": 24,
+      "tech": 25,
+      "economy": 18,
+      "sports": 34,
+      "health": 5,
+      "climate": 6,
+      "migration": 2,
+      "education": 6,
+      "weather": 18
+    }
   }
 ]
