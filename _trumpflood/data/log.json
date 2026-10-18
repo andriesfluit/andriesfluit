@@ -115597,136 +115597,136 @@
   },
   {
     "date": "2026-10-18",
-    "generated_at": "2026-10-18T16:08:25+02:00",
-    "last_checked_at": "2026-10-18T16:08:25+02:00",
-    "total_articles": 548,
-    "trump_articles": 5,
-    "percentage": 0.9,
-    "core_percentage": 0.9,
-    "core_percentage_name": 0.9,
-    "trump_articles_expanded": 6,
-    "core_percentage_expanded": 1.1,
+    "generated_at": "2026-10-18T20:53:30+02:00",
+    "last_checked_at": "2026-10-18T20:53:30+02:00",
+    "total_articles": 726,
+    "trump_articles": 10,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "core_percentage_name": 1.4,
+    "trump_articles_expanded": 11,
+    "core_percentage_expanded": 1.5,
     "indirect_references": 1,
-    "wide_total_articles": 774,
-    "wide_trump_articles": 7,
-    "wide_percentage": 0.9,
-    "wide_trump_articles_expanded": 10,
-    "wide_percentage_expanded": 1.3,
-    "macro_percentage": 0.9,
-    "qualifying_outlets": 24,
+    "wide_total_articles": 1004,
+    "wide_trump_articles": 18,
+    "wide_percentage": 1.8,
+    "wide_trump_articles_expanded": 20,
+    "wide_percentage_expanded": 2.0,
+    "macro_percentage": 2.9,
+    "qualifying_outlets": 30,
     "core_outlets_total": 19,
     "core_outlets_active": 18,
     "active_core_fraction": 0.947,
-    "cross_outlet_dup_headlines": 60,
-    "cross_outlet_dup_groups": 30,
-    "cross_outlet_dup_rate": 10.9,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Below a normal president's ordinary day.",
-    "rank": 1,
+    "cross_outlet_dup_headlines": 42,
+    "cross_outlet_dup_groups": 21,
+    "cross_outlet_dup_rate": 5.8,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 2,
     "n_people": 17,
-    "dominance": 0.38,
-    "breadth": 0.22,
-    "deviation": 0.29,
-    "smoothed_pct": 3.04,
+    "dominance": 0.34,
+    "breadth": 0.28,
+    "deviation": 0.45,
+    "smoothed_pct": 3.11,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 13,
+    "theme_rank": 10,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 27,
-        "kept": 27,
+        "today": 30,
+        "kept": 30,
         "trump": 1,
-        "trump_expanded": 2,
-        "share": 3.7
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "google_fr": {
         "fetched": 34,
-        "today": 21,
-        "kept": 21,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.76
-      },
-      "google_nl_politics": {
-        "fetched": 45,
-        "today": 5,
-        "kept": 5,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
-      },
-      "google_nl_world": {
-        "fetched": 70,
-        "today": 12,
-        "kept": 8,
+        "today": 24,
+        "kept": 24,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_nl_politics": {
+        "fetched": 42,
+        "today": 11,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 16,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 25.0
+      },
       "google_nl_business": {
         "fetched": 70,
-        "today": 19,
-        "kept": 15,
+        "today": 24,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_tech": {
-        "fetched": 69,
-        "today": 7,
-        "kept": 6,
+        "fetched": 68,
+        "today": 13,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
         "fetched": 70,
-        "today": 30,
-        "kept": 25,
+        "today": 39,
+        "kept": 34,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_politics": {
-        "fetched": 17,
-        "today": 6,
-        "kept": 6,
+        "fetched": 19,
+        "today": 8,
+        "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
         "fetched": 67,
-        "today": 16,
-        "kept": 11,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 22,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 15,
-        "kept": 14,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 30,
-        "kept": 30,
+        "today": 44,
+        "kept": 44,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "standaard": {
-        "fetched": 74,
-        "today": 38,
-        "kept": 8,
+        "fetched": 76,
+        "today": 48,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -115741,11 +115741,11 @@
       },
       "demorgen": {
         "fetched": 24,
-        "today": 5,
-        "kept": 5,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 20.0
+        "today": 14,
+        "kept": 14,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 21.43
       },
       "nieuwsblad": {
         "fetched": 50,
@@ -115772,9 +115772,9 @@
         "share": 0.0
       },
       "knack": {
-        "fetched": 100,
-        "today": 35,
-        "kept": 34,
+        "fetched": 96,
+        "today": 39,
+        "kept": 38,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -115789,8 +115789,8 @@
       },
       "bruzz": {
         "fetched": 100,
-        "today": 19,
-        "kept": 19,
+        "today": 20,
+        "kept": 20,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -115805,35 +115805,35 @@
       },
       "lalibre": {
         "fetched": 100,
-        "today": 30,
-        "kept": 30,
-        "trump": 2,
-        "trump_expanded": 2,
-        "share": 6.67
+        "today": 44,
+        "kept": 44,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.82
       },
       "lecho": {
         "fetched": 100,
-        "today": 43,
-        "kept": 43,
-        "trump": 0,
-        "trump_expanded": 1,
-        "share": 0.0
+        "today": 51,
+        "kept": 51,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 3.92
       },
       "dhnet": {
         "fetched": 100,
-        "today": 86,
-        "kept": 85,
+        "today": 97,
+        "kept": 96,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "septsursept": {
         "fetched": 30,
-        "today": 24,
-        "kept": 24,
+        "today": 30,
+        "kept": 30,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 4.17
+        "share": 3.33
       },
       "bx1": {
         "fetched": 0,
@@ -115845,56 +115845,56 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 10,
-        "kept": 9,
+        "today": 60,
+        "kept": 57,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 54,
-        "kept": 51,
+        "today": 74,
+        "kept": 66,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 38,
-        "kept": 35,
+        "today": 46,
+        "kept": 44,
         "trump": 1,
         "trump_expanded": 1,
-        "share": 2.86
+        "share": 2.27
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 18,
-        "kept": 18,
+        "today": 29,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
-        "fetched": 99,
-        "today": 18,
-        "kept": 17,
+        "fetched": 98,
+        "today": 41,
+        "kept": 40,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "trends_g": {
-        "fetched": 29,
+        "fetched": 24,
         "today": 7,
-        "kept": 2,
+        "kept": 0,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0.0
+        "share": 0
       },
       "tendances_g": {
-        "fetched": 76,
-        "today": 20,
-        "kept": 10,
+        "fetched": 73,
+        "today": 28,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -115923,9 +115923,27 @@
     ],
     "matches": [
       {
-        "title": "Live - Politie zet opnieuw traangas in op Place de la République in Parijs • Trump over rellen in Frankrijk: ‘Sluit de grenzen en neem terug controle voor het te laat is’",
-        "url": "https://www.demorgen.be/nieuws/live-politie-zet-opnieuw-traangas-in-op-place-de-la-republique-in-parijs-trump-over-rellen-in-frankrijk-sluit-de-grenzen-en-neem-terug-controle-voor-het-te-laat-is~b34ff624/",
+        "title": "Met een veeg van zijn zwarte viltstift zette Trump het Amerikaanse Rusland-beleid volledig op zijn kop",
+        "url": "https://www.demorgen.be/nieuws/met-een-veeg-van-zijn-zwarte-viltstift-zette-trump-het-amerikaanse-rusland-beleid-volledig-op-zijn-kop~bcfe0eeb/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Donald Trump spreekt steun uit voor herverkiezing premier Netanyahu",
+        "url": "https://www.demorgen.be/snelnieuws/live-belgische-franse-en-poolse-diplomaten-aangevallen-door-gemaskerde-kolonisten-op-bezette-westelijke-jordaanoever~ba7f8873/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trouwe Trump-vriend en gezant Paolo Zampolli permitteerde zich net iets te veel politieke vrijheden",
+        "url": "https://www.demorgen.be/nieuws/trouwe-trump-vriend-en-gezant-paolo-zampolli-permitteerde-zich-net-iets-te-veel-politieke-vrijheden~b159e5b5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump apporte son \"soutien plein et entier\" à Netanyahu avant les élections en Israël",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/10/18/trump-apporte-son-soutien-plein-et-entier-a-netanyahu-avant-les-elections-en-israel-PITIGSOU6VCXXG235JKUFXGMZE/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -115941,19 +115959,31 @@
         "name_only": true
       },
       {
+        "title": "Trump adoube Netanyahu avant des législatives décisives en Israël - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdTA2ekRpdDg5aHJMWjB2N2Mzd1lnXzRQQ3FZQWFWNmRBMG9OUnFnMEpZdl9vd1M4cHQwSGpwZl9ZYjJfajF0Z1dIM1pydk9XWTl6aVBhV25nSDRfQmFoMjdKeHBPSDRJQU51dHNJZzBpQ1BNSC14QjczSDk1RUh1dUl4YlNOQU9kdVhGOUhIakM4MVh3TGtIM005ZVlSd3lEMkJmTFJJQWJBUFVqSWROQXk0M29jMVN1ejdCMGZVWGtadkE1ZWxvYS01cnBKZjhmNEJJMmNFZkpGSGtRUWk0?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump exempte la Russie de nouvelles sanctions, Moscou se réjouit - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSkVpSUdWVHkzM3NDZzlkVWk3YjdyU3lieDh2RERpYWFyVnowNXJtMUpHOEdjbnJ5T1pET290YkN0TkQxSDNGeS1NckZvbFlyU0oxVG5xSnFkSmdTSTV3S25lamlSN1FWc0VTa0p5bWhrQmtJZmtpYTFxamtKenkyazlEb2dOZDQ0M1JacmNfMTV3NGY4RjI1aVVpX1pyYXlLSEJ3cXl5OEtieHRuWUhhV1pRUG5tc1JjNXVlRmRobzNWcHlldXBZLTFKNA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
         "title": "Katie Zacharia, porte-parole de la Maison-Blanche pendant cinq jours à peine - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTlJYbXpzWmVZT3dxYmtDM2x4X1N2eDc4VmRJNEhpNnNWZS1pTmZZREd2Y1kxMnhhT1FzS2hPRDhDNXRPdG1GcHIxT1FGdzBqbVR6YXVJcE9JMDdsMDlvNjlkNmpRYVVIT3BEMzlWSDhQNExENFFkYWZlbDNUa1ROT3EzdTc1Q1Z0OTVXUVRrWWkxaVM0ZlQ5bEh4QVpJSElNeFB1MGhzNXlsVjgwVnN6eFV0QTlHYTBSamNucHlJalVKOHVsZXNVYnVrWG9QWWJjeEFwSE1FWFFPcXRzNkVaSA?oc=5",
         "source": "lecho",
         "name_only": false
       },
       {
-        "title": "“No kings”: des millions d’Américains dans la rue pour encourager le vote anticipé face à Donald Trump",
-        "url": "https://www.7sur7.be/monde/no-kings-des-millions-damericains-dans-la-rue-pour-encourager-le-vote-anticipe-face-a-donald-trump~af0d2d6f/",
+        "title": "Trump apporte son “soutien plein et entier” à Netanyahu pour les législatives israéliennes",
+        "url": "https://www.7sur7.be/monde/trump-apporte-son-soutien-plein-et-entier-a-netanyahu-pour-les-legislatives-israeliennes~a8fabb59/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "« Un pays brisé » : Donald Trump accuse l’immigration après les émeutes du 17 octobre - Sudinfo",
+        "title": "« Un pays brisé » : Donald Trump accuse l’immigration après les émeutes du 17 octobre en France - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWlZSQ3g1Y3owSHhMUHpjR0lXN3RrTFFZM003NTREOEp4d1liSUZfX1NESDlHRE5STy01dEdlMHVjU1pfUThVS0N6UG1LWUNGR2o2UWhUMHNKcUhlWGhwbXpTNlFCZkk1bXV5OER5OU93RGtPTFNuTE5zMG1WSW5oaXJGV1d6VkxhNVdmVnNnOEZRSngtUGxGT1NSQzg0OXlLbmlDZmtGV1M3dWUtc2JxMEZZN3pNUFV5WnB0c2lPV200bXcxSUVZdzdR?oc=5",
         "source": "sudinfo_g",
         "name_only": true
@@ -115961,21 +115991,9 @@
     ],
     "wide_matches": [
       {
-        "title": "Met een veeg van zijn zwarte viltstift zette Trump het Amerikaanse Ruslandbeleid volledig op zijn kop - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNWZSSHpEZkpDLTFLbDJJQ0NZMEJOajNIRi0xQXo3TWxBOUM2Nm1aMGxLWUNQSXZxdXlkODlKM01zeGhYTmhESkM5MzJSLU9hNUZtOGZzMnBFY3VtTWVJUG5WaHNKdTg2eDVtdXlLRm9sSXpoV1VfdnZSQ2tFa3pHdmJsWUROTjdINFFUSjNtRHJITTQ0bVhlcUZQREoxVGRWR0VVX056WjVPS3RObjE2ZURYTWRyQ3dWdjRFVVJ5Y1NLekFNSl9tNzBLX2RBTjJYLUR3bl9Zd1Z0WF8xNnJBTUUwSm8?oc=5",
+        "title": "Trump spreekt steun uit voor Netanyahu bij verkiezingen: ​​”Geweldige, strijdbare premier” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc1k1ZWN6WUFfVXVIUGJlOUpuaXNuYnVzWEFwNFBXYS1jOXA0VUc4UHJWWWlCY0Zud0UwaDdDV2xteU9meVpQQW5zeWJaSk5LZ2pzTmdFTjFkOFo5bklpdXp0NGlDU1c2NXF4Tl9EejlEcGlZNHZ0OGdjT1RvaXBLYWNRVkNCenBrMnRGY2dpVy15a1IweHpYaGxweGNsZW55ZWhXaWp5TzhCZENfQ0NSYUc3MDh4ZkdqaXJEWW9zeEZ6SzF5Y0pneEFFUU9nb25HbEhNOTJZMWxvUHc3Zmt5OFVybHRPR0Fm?oc=5",
         "source": "google_nl",
-        "name_only": true
-      },
-      {
-        "title": "Nieuwe perschef van Witte Huis reageert nadat ze na amper week ontslagen wordt: “Eer om voor hem te werken” - HBVL",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWFpPU1ZmQi1sSmRlNlZsUXd2Z2E0RW85d0VleE1Ia1hCM3FQT0x2VmlOdGR3X0JVMEwwQXV3VWYxNmZmNXhhYTdLRWxWd1J1ZGNIcmVZYm84TGVlUERwcXZUMW9kTVFGc2ZHNXJ6emxMX3ZtdnJaNU82Wlh2WUNNd0VjMjhmUEE1Qk5Zb0YyWG9vVVNSTHdsYmp2TFRTMkVkemxNRzEwS0ZZRkNxRmE3UXVhUGlkOTlIbTY0OFJQWFdYVXNpZ1ItSXctMXQ2U1p5RDI4Rmp5WEpJaWlSeXlaUl8yTEk?oc=5",
-        "source": "google_nl",
-        "name_only": false
-      },
-      {
-        "title": "\"Trump vient de donner à Poutine son meilleur cadeau d'anniversaire\" - La Libre.be",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSU1wVEE2WW9TcEFPOGFkeFpLeFRhZnJDS1VKNndiMzFmVWJKTFFFYnVVODB0MEpKSnZ4X2NuYVk3aHQ4d0NONER3TGVvTFVjaUxYVXl2RW15S0tXN2xpWk1qdUxPUEhJLXFTdEg1QnBWTFBEV004M1A5Mmlxb2p3VXZFeVY1dDUzOUZFcmdRWlVMLU52ZmtnTFNlTy1ieDYwdkRwemNZVlF5RHVBNXlMdWg5ZWd2aVpIZVRfYUZaQUszc2t4dTMxT1k1ZWxRUERwLXVtZVdoOG5tNmZIenBGa1BqZGI?oc=5",
-        "source": "google_fr",
         "name_only": true
       },
       {
@@ -115985,9 +116003,69 @@
         "name_only": false
       },
       {
-        "title": "Live - Politie zet opnieuw traangas in op Place de la République in Parijs • Trump over rellen in Frankrijk: ‘Sluit de grenzen en neem terug controle voor het te laat is’",
-        "url": "https://www.demorgen.be/nieuws/live-politie-zet-opnieuw-traangas-in-op-place-de-la-republique-in-parijs-trump-over-rellen-in-frankrijk-sluit-de-grenzen-en-neem-terug-controle-voor-het-te-laat-is~b34ff624/",
+        "title": "Trump-regering ziet vrouwelijke topambtenaren massaal vertrekken, mannen blijven zitten - bnr.nl",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeHhaUWsyTnpaa2ZFSExMQWJnSVYwTmdVQmVTa1NnTmVicEhpYjZjdFZfVUhMVTVMb0FCdFNPNy1RWjZ6UnNtTHVaZXVkRVM5WEo4TjBpd3E3aFhDaWx5ZHJVR1FSRjROakRWWTFRc2hMVG91aHJPdVptX0hadVVEby1nNG52OUExdDZ0VC1KMmZmWFh4R002Z3p4X0tsd3c5OWJRVVhhb3BCVlVxWWlzYkFWMWlIcWwxR05vd3pKMjRxTVNLV2VUbF9INDdkci10TWc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Live - Politie zet opnieuw traangas in op Place de la République in Parijs • Trump over rellen in Frankrijk: ‘Sluit de grenzen en neem terug controle voor het te laat is’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQdHpjSGlCM01XenM0T0NWODRmWkN1SVlSbU1mdnZSTnZqWjU4QzZEYXFEODBfVmxvVkZ5XzA5cmZWRG5OTnowcmJaNDVZaVoxdk5QTy12Si05YXRnZG1ZcTI1WWktN01KQXRLYVVDQmRNUWtSZ210VEJScV8yMTlQR1RqZWV1UmJqTDU1aENTWVBvOE04YmJGUlhsZVVGazVoU3VsYm9oWFY0aTNYMFZsSkJEWjI1MmNvdFl3NEtVVTZmUmN6cDJlSUpBZ210cHdnb2lmNVVBaW9vYllxdDZtam1nYkkzWlRDem95bGhmZnBtc2V5RDNwMnh5NGlCcTVKQTM5b1NrdkZSdVY0Q0xETGJCOHQzZzl4M3RzWGNjd01raFNTaGE2azJSems?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Met een veeg van zijn zwarte viltstift zette Trump het Amerikaanse Rusland-beleid volledig op zijn kop - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZ1BzNGVfNlRvX0lTeGpTUVRjOGZwdGVHTy1ZNFQ0VlZOUnIzMXh6SmpuLVRXVWswcElLOWZaSXVGTTVYaTFHM3lOa21kaDVTeGFJUUFNY1RPdGNJTEtkMzU2ZnNxd0M2S2xrU3l2aEdLTk1yaktFRWxka05qQVFJU3NVUGNQelI0VlRGVTAtd0hYSDFpdXNqVWV0Q0dFWjQ1WFdNc0p6aWhnWG1BdjNiWGhaUW9nMEFjeTNiY1dUbThRZW11UDFtcG8xVkE4MWFhdHd4cFlMOHhjZ0FhVXUzU1JZRFRlQQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump heeft de onvoorwaardelijke liefde van zijn blonde pretoriaanse wacht meer dan ooit nodig - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYkVBaFp1dmVPY3RnRmtxZmg2cjg1MmtJT0Q0MzAxbTJBLVU5R3hYTnc3NExZbWZRREptWnlmVDVqSXJRZzQyNDA2SWd5LTRxZ29Ncy1vMGs4WDRtb3JvWmcwamRzYUN6VEZSd2c4em9rcEJaa3BYZ01haFlDSTVZVGNock1SYVZ3NUlpbDg2dW12Q0EtNFZMQ2VMZkNUZ010TWw2b3htd1JodkdWbjVmRHRteHJ2VXhTdVJHUmRybVFDeF9zem9IU2lNdVl1YzZDQm9z?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trouwe Trump-vriend en gezant Paolo Zampolli permitteerde zich net iets te veel politieke vrijheden - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUFFKMW5jcnhmdENxWDd5OFhHV285UkdQQmhqTmpRMHE1ckF1Z2lCZmg3bVZfMVBjcTNlejd2RUdQZl84QlhTWGZTMm9vZFJmcUZnSFlrMmJqWjJ6eFpvRk1IUS1lX2RMdXhhX2MzOTByNFZRSkpETXUwckNYczJVZHJ5N0JuQlg4SklxUEFVV1lkVC03SUtacVhnMjJYdl9SNmZRdWh0SXhiaG5KOEFLZ0d4Q2N0Z1VoVnFfWTBhVG1CNXViV3BJekRFOWJsQmxTQUJ5RFdlOA?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "\"Trump vient de donner à Poutine son meilleur cadeau d'anniversaire\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSU1wVEE2WW9TcEFPOGFkeFpLeFRhZnJDS1VKNndiMzFmVWJKTFFFYnVVODB0MEpKSnZ4X2NuYVk3aHQ4d0NONER3TGVvTFVjaUxYVXl2RW15S0tXN2xpWk1qdUxPUEhJLXFTdEg1QnBWTFBEV004M1A5Mmlxb2p3VXZFeVY1dDUzOUZFcmdRWlVMLU52ZmtnTFNlTy1ieDYwdkRwemNZVlF5RHVBNXlMdWg5ZWd2aVpIZVRfYUZaQUszc2t4dTMxT1k1ZWxRUERwLXVtZVdoOG5tNmZIenBGa1BqZGI?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "« La France brûle ! » : Donald Trump réagit aux émeutes et désigne un de ses coupables favoris - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYXA3cTZLdGREbndfeVNhS19ZNk9ZX1ZaV3VINGZvRE1QYTk0OUF1Z0I0LXp2VVF6WWViWTZNdkFYMFB5aHFTUTljRjBHc0JRWE56eV9aVGhwY3JpSi03RWE5d2Z4WlUyZEdveUZaLXF0cTJ4V0Zyc0ZZTlVMMzI1RG9NekpFVWdnNmIxMTZFczd1MmVCQ2FBVTJTdGRvZ0VrYmpuYjRnazBROXh4TFBiWC1ON2p5R0VTX2lpZmh3dFdiV3d3WXpjbzVsOUg3dGxGZHpmbjYxbDU2WmJ0R0dPeEtn?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Met een veeg van zijn zwarte viltstift zette Trump het Amerikaanse Rusland-beleid volledig op zijn kop",
+        "url": "https://www.demorgen.be/nieuws/met-een-veeg-van-zijn-zwarte-viltstift-zette-trump-het-amerikaanse-rusland-beleid-volledig-op-zijn-kop~bcfe0eeb/",
         "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Donald Trump spreekt steun uit voor herverkiezing premier Netanyahu",
+        "url": "https://www.demorgen.be/snelnieuws/live-belgische-franse-en-poolse-diplomaten-aangevallen-door-gemaskerde-kolonisten-op-bezette-westelijke-jordaanoever~ba7f8873/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trouwe Trump-vriend en gezant Paolo Zampolli permitteerde zich net iets te veel politieke vrijheden",
+        "url": "https://www.demorgen.be/nieuws/trouwe-trump-vriend-en-gezant-paolo-zampolli-permitteerde-zich-net-iets-te-veel-politieke-vrijheden~b159e5b5/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump apporte son \"soutien plein et entier\" à Netanyahu avant les élections en Israël",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/10/18/trump-apporte-son-soutien-plein-et-entier-a-netanyahu-avant-les-elections-en-israel-PITIGSOU6VCXXG235JKUFXGMZE/",
+        "source": "lalibre",
         "name_only": true
       },
       {
@@ -116003,93 +116081,105 @@
         "name_only": true
       },
       {
+        "title": "Trump adoube Netanyahu avant des législatives décisives en Israël - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdTA2ekRpdDg5aHJMWjB2N2Mzd1lnXzRQQ3FZQWFWNmRBMG9OUnFnMEpZdl9vd1M4cHQwSGpwZl9ZYjJfajF0Z1dIM1pydk9XWTl6aVBhV25nSDRfQmFoMjdKeHBPSDRJQU51dHNJZzBpQ1BNSC14QjczSDk1RUh1dUl4YlNOQU9kdVhGOUhIakM4MVh3TGtIM005ZVlSd3lEMkJmTFJJQWJBUFVqSWROQXk0M29jMVN1ejdCMGZVWGtadkE1ZWxvYS01cnBKZjhmNEJJMmNFZkpGSGtRUWk0?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump exempte la Russie de nouvelles sanctions, Moscou se réjouit - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSkVpSUdWVHkzM3NDZzlkVWk3YjdyU3lieDh2RERpYWFyVnowNXJtMUpHOEdjbnJ5T1pET290YkN0TkQxSDNGeS1NckZvbFlyU0oxVG5xSnFkSmdTSTV3S25lamlSN1FWc0VTa0p5bWhrQmtJZmtpYTFxamtKenkyazlEb2dOZDQ0M1JacmNfMTV3NGY4RjI1aVVpX1pyYXlLSEJ3cXl5OEtieHRuWUhhV1pRUG5tc1JjNXVlRmRobzNWcHlldXBZLTFKNA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
         "title": "Katie Zacharia, porte-parole de la Maison-Blanche pendant cinq jours à peine - L'Echo",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTlJYbXpzWmVZT3dxYmtDM2x4X1N2eDc4VmRJNEhpNnNWZS1pTmZZREd2Y1kxMnhhT1FzS2hPRDhDNXRPdG1GcHIxT1FGdzBqbVR6YXVJcE9JMDdsMDlvNjlkNmpRYVVIT3BEMzlWSDhQNExENFFkYWZlbDNUa1ROT3EzdTc1Q1Z0OTVXUVRrWWkxaVM0ZlQ5bEh4QVpJSElNeFB1MGhzNXlsVjgwVnN6eFV0QTlHYTBSamNucHlJalVKOHVsZXNVYnVrWG9QWWJjeEFwSE1FWFFPcXRzNkVaSA?oc=5",
         "source": "lecho",
         "name_only": false
       },
       {
-        "title": "“No kings”: des millions d’Américains dans la rue pour encourager le vote anticipé face à Donald Trump",
-        "url": "https://www.7sur7.be/monde/no-kings-des-millions-damericains-dans-la-rue-pour-encourager-le-vote-anticipe-face-a-donald-trump~af0d2d6f/",
+        "title": "Trump apporte son “soutien plein et entier” à Netanyahu pour les législatives israéliennes",
+        "url": "https://www.7sur7.be/monde/trump-apporte-son-soutien-plein-et-entier-a-netanyahu-pour-les-legislatives-israeliennes~a8fabb59/",
         "source": "septsursept",
         "name_only": true
       },
       {
-        "title": "« Un pays brisé » : Donald Trump accuse l’immigration après les émeutes du 17 octobre - Sudinfo",
+        "title": "« Un pays brisé » : Donald Trump accuse l’immigration après les émeutes du 17 octobre en France - Sudinfo",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWlZSQ3g1Y3owSHhMUHpjR0lXN3RrTFFZM003NTREOEp4d1liSUZfX1NESDlHRE5STy01dEdlMHVjU1pfUThVS0N6UG1LWUNGR2o2UWhUMHNKcUhlWGhwbXpTNlFCZkk1bXV5OER5OU93RGtPTFNuTE5zMG1WSW5oaXJGV1d6VkxhNVdmVnNnOEZRSngtUGxGT1NSQzg0OXlLbmlDZmtGV1M3dWUtc2JxMEZZN3pNUFV5WnB0c2lPV200bXcxSUVZdzdR?oc=5",
         "source": "sudinfo_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 5,
+      "trump": 10,
       "putin": 1,
-      "macron": 4,
-      "netanyahu": 0,
-      "zelensky": 2,
+      "macron": 12,
+      "netanyahu": 4,
+      "zelensky": 3,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 4,
+      "de_wever": 7,
       "bouchez": 0,
       "magnette": 0,
       "prevot": 0,
-      "rousseau": 1,
-      "francken": 0,
+      "rousseau": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 1,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 7,
+      "trump": 18,
       "putin": 2,
-      "macron": 5,
-      "netanyahu": 0,
-      "zelensky": 3,
+      "macron": 16,
+      "netanyahu": 5,
+      "zelensky": 6,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 6,
-      "bouchez": 0,
+      "de_wever": 11,
+      "bouchez": 1,
       "magnette": 0,
       "prevot": 0,
-      "rousseau": 1,
-      "francken": 0,
+      "rousseau": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 1,
       "verlinden": 0
     },
     "themes": {
-      "war": 27,
-      "crime": 40,
-      "eu": 28,
-      "politics": 14,
-      "be_gov": 9,
-      "culture": 10,
+      "war": 37,
+      "crime": 43,
+      "eu": 31,
+      "politics": 26,
+      "be_gov": 12,
+      "culture": 12,
       "tech": 14,
-      "economy": 11,
-      "sports": 54,
-      "health": 11,
-      "climate": 6,
-      "migration": 2,
+      "economy": 14,
+      "sports": 81,
+      "health": 10,
+      "climate": 5,
+      "migration": 1,
       "education": 3,
-      "weather": 8
+      "weather": 9
     },
     "wide_themes": {
-      "war": 38,
-      "crime": 54,
-      "eu": 43,
-      "politics": 21,
-      "be_gov": 16,
-      "culture": 12,
-      "tech": 17,
-      "economy": 19,
-      "sports": 75,
-      "health": 17,
+      "war": 47,
+      "crime": 55,
+      "eu": 50,
+      "politics": 38,
+      "be_gov": 20,
+      "culture": 16,
+      "tech": 20,
+      "economy": 27,
+      "sports": 111,
+      "health": 15,
       "climate": 8,
-      "migration": 3,
-      "education": 4,
-      "weather": 13
+      "migration": 2,
+      "education": 5,
+      "weather": 17
     }
   }
 ]
