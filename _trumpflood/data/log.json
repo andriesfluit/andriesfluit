@@ -116181,5 +116181,676 @@
       "education": 5,
       "weather": 17
     }
+  },
+  {
+    "date": "2026-10-19",
+    "generated_at": "2026-10-19T11:16:43+02:00",
+    "last_checked_at": "2026-10-19T11:16:43+02:00",
+    "total_articles": 539,
+    "trump_articles": 18,
+    "percentage": 3.3,
+    "core_percentage": 3.3,
+    "core_percentage_name": 3.3,
+    "trump_articles_expanded": 18,
+    "core_percentage_expanded": 3.3,
+    "indirect_references": 0,
+    "wide_total_articles": 722,
+    "wide_trump_articles": 27,
+    "wide_percentage": 3.7,
+    "wide_trump_articles_expanded": 27,
+    "wide_percentage_expanded": 3.7,
+    "macro_percentage": 4.7,
+    "qualifying_outlets": 25,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 44,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 8.2,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.58,
+    "breadth": 0.5,
+    "deviation": 1.06,
+    "smoothed_pct": 3.46,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 39,
+        "today": 7,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "google_nl_tech": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 21,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 11,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 27.27
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 31,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.23
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 26,
+        "today": 20,
+        "kept": 20,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 20.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 41,
+        "kept": 41,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.44
+      },
+      "knack": {
+        "fetched": 91,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.25
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 53,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 52,
+        "kept": 52,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.85
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 25,
+        "kept": 25,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 72,
+        "kept": 68,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 98,
+        "today": 19,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "trends_g": {
+        "fetched": 25,
+        "today": 7,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 93,
+        "today": 20,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Terwijl Oekraïne Sint-Petersburg aanvalt, drijft Trump steun aan Poetin nog op - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTU0wZjJFVm1TQUdOaFBGdG1FbEtkRTYtUGlFWGJsY19pVUxmczBoXzUwdTNCRWtyTXdRZ0R3bTdaaW80ekNjS2R4RDFWd3dkRnpsYVFLeGFvSURBSVBxazkxUmJydUNOVWdLR28tcVZ5UTFobTMwVTJMZjhVUlJBZmt5SDhYSUtJVEVkbjVUdm93WlRGc2ZwX0pOMjBKYVdYbTc5ekUxbHpjamUxSjZCZVZDNW1lbUpqZ0dnMmdIWFF6WU0zbXc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe peiling legt pijnlijke cijfers bloot voor Trump: twee op drie Amerikanen keuren zijn beleid af",
+        "url": "https://www.hln.be/buitenland/nieuwe-peiling-legt-pijnlijke-cijfers-bloot-voor-trump-twee-op-drie-amerikanen-keuren-zijn-beleid-af~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trumps stafchef Susie Wiles zou kritisch Fox News-interview hebben geregeld dat perssecretaris Katie Zacharia haar job kostte",
+        "url": "https://www.hln.be/buitenland/trumps-stafchef-susie-wiles-zou-kritisch-fox-news-interview-hebben-geregeld-dat-perssecretaris-katie-zacharia-haar-job-kostte~ac67e913/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Oekraïne negeert Trump en vuurt duizendtal drones af op Rusland, ook raffinaderij getroffen",
+        "url": "https://www.demorgen.be/nieuws/oekraine-negeert-trump-en-vuurt-duizendtal-drones-af-op-rusland-ook-raffinaderij-getroffen~b4f8fa4d/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Twee op drie Amerikanen keuren beleid Trump af, leert nieuwe peiling",
+        "url": "https://www.demorgen.be/snelnieuws/live-twee-op-drie-amerikanen-keuren-beleid-trump-af-leert-nieuwe-peiling~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Poetin wil met Trump en Xi spreken over Oekraïne’ • Er is ‘geen onderbreking’ geweest in uitwisseling van inlichtingen met Kiev, zegt Rubio",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-poetin-wil-met-trump-en-xi-spreken-over-oekraine-dode-en-gewonden-bij-russische-aanvallen-op-kiev-ook-metrostation-geraakt~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Stafchef Susie Wiles regelde interview dat Trumps nieuwe woordvoerster fataal werd’",
+        "url": "https://www.demorgen.be/nieuws/stafchef-susie-wiles-regelde-interview-dat-trumps-nieuwe-woordvoerster-fataal-werd~bf3096e1/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. “Bezorgd, pessimistisch en diep ontevreden”: nieuwe peiling is vernietigend voor Amerikaanse president Trump",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-bezorgd-pessimistisch-en-diep-ontevreden-nieuwe-peiling-is-vernietigend-voor-amerikaanse-president-trump/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Poussée vers la sortie ? Chute et fin de la porte-parole de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/19/poussee-vers-la-sortie-chute-et-fin-de-la-porte-parole-de-donald-trump-RPVASVLZHZCDDBW24SQG6XRTEI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les sondages de Donald Trump au plus bas… Une opportunité en or pour les démocrates aux midterms ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/19/les-sondages-de-donald-trump-au-plus-bas-une-opportunite-en-or-pour-les-democrates-aux-midterms-H7YIQEMB6NCSXMIDPM7YRF67WU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Vladimir Poutine propose un sommet avec Donald Trump et Xi Jinping sur l’Ukraine, sans Volodymyr Zelensky - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcGNEanNWbFg5NXFOSXRDVFZiRndMRGRLNU5TQzFtQk9SV1lYaTlNV0tBYnpyUW9ZN0hVandlWW1vYWNqb1o4WW9qRnkya0VqSnQzRWZHRGMweE9KUDFBMjVUSk5rLTh0MWVKT2tzUk04MktIMmQ1SXBoa2tyblJvMnBzTTBUYy11eFJ1NHYydHIybWt6dUlrbV9fZnZVYVRkeDZrTENqQ1ZvNzNIRWxOd3dueU9wQkNqcGRIaDM4QmVkYjFfTTFCeFM0WlZscDR0azNZMzFzRnhub0tlMTA5ZFZPcE83SDhDdUdvcGdhMnNWWTdzZmVhOW1zajdLREp4?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump adoube Netanyahu avant des législatives décisives en Israël - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdTA2ekRpdDg5aHJMWjB2N2Mzd1lnXzRQQ3FZQWFWNmRBMG9OUnFnMEpZdl9vd1M4cHQwSGpwZl9ZYjJfajF0Z1dIM1pydk9XWTl6aVBhV25nSDRfQmFoMjdKeHBPSDRJQU51dHNJZzBpQ1BNSC14QjczSDk1RUh1dUl4YlNOQU9kdVhGOUhIakM4MVh3TGtIM005ZVlSd3lEMkJmTFJJQWJBUFVqSWROQXk0M29jMVN1ejdCMGZVWGtadkE1ZWxvYS01cnBKZjhmNEJJMmNFZkpGSGtRUWk0?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump exempte la Russie de nouvelles sanctions, Moscou se réjouit - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSkVpSUdWVHkzM3NDZzlkVWk3YjdyU3lieDh2RERpYWFyVnowNXJtMUpHOEdjbnJ5T1pET290YkN0TkQxSDNGeS1NckZvbFlyU0oxVG5xSnFkSmdTSTV3S25lamlSN1FWc0VTa0p5bWhrQmtJZmtpYTFxamtKenkyazlEb2dOZDQ0M1JacmNfMTV3NGY4RjI1aVVpX1pyYXlLSEJ3cXl5OEtieHRuWUhhV1pRUG5tc1JjNXVlRmRobzNWcHlldXBZLTFKNA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Départ de la nouvelle porte-parole de Donald Trump : un coup monté de la cheffe de cabinet du président américain ?",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/19/depart-de-la-nouvelle-porte-parole-de-donald-trump-un-coup-monte-de-la-cheffe-de-cabinet-du-president-americain-7EWAQZ2I6NDBNL5SVPNUYVNSMA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Les derniers sondages sont inquiétants pour Donald Trump avant les midterms... une chance pour les Démocrates ?",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/19/les-derniers-sondages-sont-inquietants-pour-donald-trump-avant-les-midterms-une-chance-pour-les-democrates-TCUG36HYFRGCDJVSBH6M62S5PA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "L’interview fatale: la cheffe de cabinet de Trump aurait orchestré la chute de Katie Zacharia",
+        "url": "https://www.7sur7.be/monde/linterview-fatale-la-cheffe-de-cabinet-de-trump-aurait-orchestre-la-chute-de-katie-zacharia~ac67e913/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Il ne veut pas mettre fin à la guerre”: Trump s’en prend (encore) à Zelensky",
+        "url": "https://www.7sur7.be/monde/il-ne-veut-pas-mettre-fin-a-la-guerre-trump-sen-prend-encore-a-zelensky~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Mauvaise passe pour Donald Trump : le président chute dans les sondages à l’approche des élections mi-mandat - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSmZmSEJWVEF6N1JhRUszN01xUHg1OUFoM2ZuTGx3STVnY2lDWkZPbjV3bnk2WkUtR2psa0FzQjVMbGwyNTRSZHI2eExmemRWajVrN1hzX3Q0X1ZtR2tFMUlocWg3UW9zbFNKOVlPd3RWeXZ0dEcxVE5JMklHYVE3STM1Sy04OVhiWURCclR3N3FoNnZVTkNUTTJjZkItVUFWNzZSbUpYSU1taExhd2l6eF9vTjVBYU41aGY1ZzROMVBFZGJ1WHFtcWxISVcyWE5JcmhsV1AwQTJNamFmUS1HcmhCYw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trumps stafchef Susie Wiles zou kritisch Fox News-interview hebben geregeld dat perssecretaris Katie Zacharia haar job kostte - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTWRfQnJpblhtVDA5VEZ3dWRhVXN3UDhhQ1lwMVRERlM3bmJCUE1xbE9oTEF1RUM0UTQ0dm5rWnEteW5Tb3VRSVd0M3hHVUs2TVdMUkxEZHJIcnVRNGV6LUtUZE5VRWFGcW40ZjVJWEdWb2hGN0hDRlZ4RmxyUV8xTWI1MjdTb3hhcnZKOTFfTjNJVXhaVlJ4RDJ1d3FfM0ZoeWZUeGZmRGxUcEVhQVhWamtFTGYzd1pHSnY1cDJhSHE5RFNTM0xpaVBwZEl4ajNBb3FYZnNFWHhub1pHWGlRS2ZoME1DcXE5NmJnajB5NjQ2VWM1VG5QYg?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Netanyahu bedankt Trump voor steun: “Nog nooit zo’n goede vriend in het Witte Huis gehad” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUFNCNG1FSFhTdjBwYkN5RnNaMW9kbzk5b1dQcTBEWTQtaVZkb3Jub2dlRm5PX2Zyb0VDbVd3MW5jWFNabUNHWkhsU2t3N3MyWk1yR0tiZzZBRzJQeXVoWk5lUTRiOTdQZUJQUjA0N2RoTFlCVW1ZTHhQUFpXbDUyY0t6OWVZWTJPQnB1Ukk4UGo1Z1BRa2htQzh4aVg1NkkwUElueXZuNkxucVMyc05XWGxoSy1CenhINGhxRkxnSXdTVVJNMjVpUnNDV0hkcmFl?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Poetin stelt top met Trump en Xi over Oekraïne voor, zonder Zelensky - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbkdNWnBSbk1qVTI3VWZreThZVTBOb0NEWXVBWVp6Q05jUFBqd0YxMDdxV1RVMUthWTduekI3djhsQTR1XzVkM3k0Q3pHWUw0OEJQZk5YUl93Nko5d25XdkdyLTJFX0xOY2lvZW9UM0xVWjBWckZ6c3FjaFJBMGJwaXFRSkU2bXF6VEk1bEhaeFZOZGJoNUQyUWVkZkV4M2FVY0R3N3Z5TWZXLXZzVDEycWxobE1aWDN6UWxMOElaZlIwbnVPSlRNYw?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump vloert eigen partij met opheffen van Russische sancties: “In het belang van de VS” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORlhCR2tTeGVTaDFwS1RvOG9jbzdGcjFVRV90blE5VG1oOHIzZGtCWkJTNEpMMEpYdjBLdG10MmJ2QlhpRGExajRDVmR0U3ZkVjZPX29wQm9ON1JKbVdKSVNtRmRzNzQwbjhPTTF1NXNHYzBkV2d2MjRHR1ZMYTNSemhBTW4xdW0xcTBOQUV1dS0zaDRRdGtUaEdBQVFGeDFnUEV1ZDFPNFRoNk4xVDgyVVZSYVlEX3o0bWVHMnp5VGlOaHVyXzdCVlBKOWsxOUxRTDJJ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Het handjevol Trump-vlaggen dat nog wappert in Yakima, ziet er vaal en versleten uit - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOazltOC0ySnFKNjNSX1NRSVBKX2hCMk05dG1sb0hjV0xuamd0aDV3bGxSY3pjazJoYjUyXzRUSkU5T096Qk9LZ01tVlNELWJXTXhqMmFEeUQ1M3FON3ZwR0x1NTRnN2NLVGF6dWgwNjJoUVlqY3NYWVdIc2p3MGZaV2E5RU9QamdOUzJzbDhiVlpIZzRzaFRKZjNjUlY4a2Vsemp1d1lvemZOOFZlMVJ4T2R5dW9OMUg2N0x0YmtzbzZ2Q0NxY05IcF9WZw?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "L’interview qui a coûté son poste à Katie Zacharia aurait été manigancée par Susie Wiles, la cheffe de cabinet de Trump - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMG1oYm92dEJvZlMwOTREMU5pbjR3VVVBX0pQdUxOMWdEUVlXZUZzVXVadHFhQV9VdnNPQmhWZHJBMXVobzdoc1hWam03TlJyUllzRk1kNU16VTEtaElnTUVpX0ZFTnhycEhQR1BuNGFCcGxBSVpELUtlOHdhOEw1ZFNaSlo3RF9tN3RIYlZrQkNKVzBOQ0xFN3c4a0gteW9HTnJLemZCZTVmdFFjSU9MZS1LUDFOR0h5N2pYRExJVElEOTN0eVJWdDlMblZxR2xTTjgxUVZoNEkwOTVXcko1VUExUXJPcnprYmc?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Vladimir Poutine souhaite s’entretenir avec Donald Trump et Xi Jinping au sujet de l’Ukraine - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORWtNZFFuV3FheWNKYmVNTnF3M1lDS1VJSXh1STlXV0ZHTWk1MzdPN2pvNEZqMmN6WWxnS1F1YmZObU1jX0U2UWpzWFY2dEdjVkY5WlhtQk51cG5iQkkxZ0F0TkdNNFBldGV5WGx2WDNiVEZCZDhGUXhjcEZ1OWFWNWV1ZzBVeVJLbkdKUEp0am5BU3p0X1lISEVfeFZYSXg4QlRDc2Z1b1V4TWxVRFA0b3otUFJvMGdFU193QVVhZ1BVWTJ2bi1HbzBxRHdOc2ctQ0c2SEg5Qm1JMzYzRnl6MGN3?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Les sondages de Donald Trump au plus bas… Une opportunité en or pour les démocrates aux midterms - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPMHNPcU5vbEczcXZHb0VqQ2s1WG05LWxZRFhETkRFaTBkdFp3Yy1MTUY2QWN6d1F0Z3VTMEpGaGlHSm9vaWxjUVp3WEw2aFVOcjJ3elNZOHJPejJYeG9mM2wxcnZFZGMxWWpIZ0NuSEgwbHo2by1KOEFqMW5aSXREQjBJVG52TmJqYUNtdFlBVVFiVWVDNThKd1EwQmpRTmtNWTNiTW9LV2xCU0hoSDFLOTg4SFRwRmJJSS1pZTM1eE5NRk9ISU11UF91Yi1SSHZ6ZmdaZ2UyZmhuMDdTb2NKblNmTFBvLTBkQU5vNlJVWnZLSlFfQjczYkt5VjM5a0pERV81Zk9vRVhFc1Vy?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Terwijl Oekraïne Sint-Petersburg aanvalt, drijft Trump steun aan Poetin nog op - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTU0wZjJFVm1TQUdOaFBGdG1FbEtkRTYtUGlFWGJsY19pVUxmczBoXzUwdTNCRWtyTXdRZ0R3bTdaaW80ekNjS2R4RDFWd3dkRnpsYVFLeGFvSURBSVBxazkxUmJydUNOVWdLR28tcVZ5UTFobTMwVTJMZjhVUlJBZmt5SDhYSUtJVEVkbjVUdm93WlRGc2ZwX0pOMjBKYVdYbTc5ekUxbHpjamUxSjZCZVZDNW1lbUpqZ0dnMmdIWFF6WU0zbXc?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe peiling legt pijnlijke cijfers bloot voor Trump: twee op drie Amerikanen keuren zijn beleid af",
+        "url": "https://www.hln.be/buitenland/nieuwe-peiling-legt-pijnlijke-cijfers-bloot-voor-trump-twee-op-drie-amerikanen-keuren-zijn-beleid-af~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trumps stafchef Susie Wiles zou kritisch Fox News-interview hebben geregeld dat perssecretaris Katie Zacharia haar job kostte",
+        "url": "https://www.hln.be/buitenland/trumps-stafchef-susie-wiles-zou-kritisch-fox-news-interview-hebben-geregeld-dat-perssecretaris-katie-zacharia-haar-job-kostte~ac67e913/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Oekraïne negeert Trump en vuurt duizendtal drones af op Rusland, ook raffinaderij getroffen",
+        "url": "https://www.demorgen.be/nieuws/oekraine-negeert-trump-en-vuurt-duizendtal-drones-af-op-rusland-ook-raffinaderij-getroffen~b4f8fa4d/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Twee op drie Amerikanen keuren beleid Trump af, leert nieuwe peiling",
+        "url": "https://www.demorgen.be/snelnieuws/live-twee-op-drie-amerikanen-keuren-beleid-trump-af-leert-nieuwe-peiling~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Poetin wil met Trump en Xi spreken over Oekraïne’ • Er is ‘geen onderbreking’ geweest in uitwisseling van inlichtingen met Kiev, zegt Rubio",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-poetin-wil-met-trump-en-xi-spreken-over-oekraine-dode-en-gewonden-bij-russische-aanvallen-op-kiev-ook-metrostation-geraakt~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Stafchef Susie Wiles regelde interview dat Trumps nieuwe woordvoerster fataal werd’",
+        "url": "https://www.demorgen.be/nieuws/stafchef-susie-wiles-regelde-interview-dat-trumps-nieuwe-woordvoerster-fataal-werd~bf3096e1/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. “Bezorgd, pessimistisch en diep ontevreden”: nieuwe peiling is vernietigend voor Amerikaanse president Trump",
+        "url": "https://www.gva.be/buitenland/live-vs.-bezorgd-pessimistisch-en-diep-ontevreden-nieuwe-peiling-is-vernietigend-voor-amerikaanse-president-trump/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. “Bezorgd, pessimistisch en diep ontevreden”: nieuwe peiling is vernietigend voor Amerikaanse president Trump",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-bezorgd-pessimistisch-en-diep-ontevreden-nieuwe-peiling-is-vernietigend-voor-amerikaanse-president-trump/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Poussée vers la sortie ? Chute et fin de la porte-parole de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/19/poussee-vers-la-sortie-chute-et-fin-de-la-porte-parole-de-donald-trump-RPVASVLZHZCDDBW24SQG6XRTEI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les sondages de Donald Trump au plus bas… Une opportunité en or pour les démocrates aux midterms ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/19/les-sondages-de-donald-trump-au-plus-bas-une-opportunite-en-or-pour-les-democrates-aux-midterms-H7YIQEMB6NCSXMIDPM7YRF67WU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Vladimir Poutine propose un sommet avec Donald Trump et Xi Jinping sur l’Ukraine, sans Volodymyr Zelensky - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcGNEanNWbFg5NXFOSXRDVFZiRndMRGRLNU5TQzFtQk9SV1lYaTlNV0tBYnpyUW9ZN0hVandlWW1vYWNqb1o4WW9qRnkya0VqSnQzRWZHRGMweE9KUDFBMjVUSk5rLTh0MWVKT2tzUk04MktIMmQ1SXBoa2tyblJvMnBzTTBUYy11eFJ1NHYydHIybWt6dUlrbV9fZnZVYVRkeDZrTENqQ1ZvNzNIRWxOd3dueU9wQkNqcGRIaDM4QmVkYjFfTTFCeFM0WlZscDR0azNZMzFzRnhub0tlMTA5ZFZPcE83SDhDdUdvcGdhMnNWWTdzZmVhOW1zajdLREp4?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump adoube Netanyahu avant des législatives décisives en Israël - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdTA2ekRpdDg5aHJMWjB2N2Mzd1lnXzRQQ3FZQWFWNmRBMG9OUnFnMEpZdl9vd1M4cHQwSGpwZl9ZYjJfajF0Z1dIM1pydk9XWTl6aVBhV25nSDRfQmFoMjdKeHBPSDRJQU51dHNJZzBpQ1BNSC14QjczSDk1RUh1dUl4YlNOQU9kdVhGOUhIakM4MVh3TGtIM005ZVlSd3lEMkJmTFJJQWJBUFVqSWROQXk0M29jMVN1ejdCMGZVWGtadkE1ZWxvYS01cnBKZjhmNEJJMmNFZkpGSGtRUWk0?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump exempte la Russie de nouvelles sanctions, Moscou se réjouit - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSkVpSUdWVHkzM3NDZzlkVWk3YjdyU3lieDh2RERpYWFyVnowNXJtMUpHOEdjbnJ5T1pET290YkN0TkQxSDNGeS1NckZvbFlyU0oxVG5xSnFkSmdTSTV3S25lamlSN1FWc0VTa0p5bWhrQmtJZmtpYTFxamtKenkyazlEb2dOZDQ0M1JacmNfMTV3NGY4RjI1aVVpX1pyYXlLSEJ3cXl5OEtieHRuWUhhV1pRUG5tc1JjNXVlRmRobzNWcHlldXBZLTFKNA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Départ de la nouvelle porte-parole de Donald Trump : un coup monté de la cheffe de cabinet du président américain ?",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/19/depart-de-la-nouvelle-porte-parole-de-donald-trump-un-coup-monte-de-la-cheffe-de-cabinet-du-president-americain-7EWAQZ2I6NDBNL5SVPNUYVNSMA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Les derniers sondages sont inquiétants pour Donald Trump avant les midterms... une chance pour les Démocrates ?",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/19/les-derniers-sondages-sont-inquietants-pour-donald-trump-avant-les-midterms-une-chance-pour-les-democrates-TCUG36HYFRGCDJVSBH6M62S5PA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "L’interview fatale: la cheffe de cabinet de Trump aurait orchestré la chute de Katie Zacharia",
+        "url": "https://www.7sur7.be/monde/linterview-fatale-la-cheffe-de-cabinet-de-trump-aurait-orchestre-la-chute-de-katie-zacharia~ac67e913/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Il ne veut pas mettre fin à la guerre”: Trump s’en prend (encore) à Zelensky",
+        "url": "https://www.7sur7.be/monde/il-ne-veut-pas-mettre-fin-a-la-guerre-trump-sen-prend-encore-a-zelensky~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Mauvaise passe pour Donald Trump : le président chute dans les sondages à l’approche des élections mi-mandat - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSmZmSEJWVEF6N1JhRUszN01xUHg1OUFoM2ZuTGx3STVnY2lDWkZPbjV3bnk2WkUtR2psa0FzQjVMbGwyNTRSZHI2eExmemRWajVrN1hzX3Q0X1ZtR2tFMUlocWg3UW9zbFNKOVlPd3RWeXZ0dEcxVE5JMklHYVE3STM1Sy04OVhiWURCclR3N3FoNnZVTkNUTTJjZkItVUFWNzZSbUpYSU1taExhd2l6eF9vTjVBYU41aGY1ZzROMVBFZGJ1WHFtcWxISVcyWE5JcmhsV1AwQTJNamFmUS1HcmhCYw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 18,
+      "putin": 4,
+      "macron": 9,
+      "netanyahu": 1,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 7,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 6,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 27,
+      "putin": 6,
+      "macron": 13,
+      "netanyahu": 2,
+      "zelensky": 5,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 10,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 9,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 24,
+      "crime": 18,
+      "eu": 19,
+      "politics": 32,
+      "be_gov": 21,
+      "culture": 12,
+      "tech": 4,
+      "economy": 14,
+      "sports": 23,
+      "health": 8,
+      "climate": 5,
+      "migration": 0,
+      "education": 4,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 32,
+      "crime": 25,
+      "eu": 26,
+      "politics": 45,
+      "be_gov": 32,
+      "culture": 14,
+      "tech": 11,
+      "economy": 20,
+      "sports": 40,
+      "health": 11,
+      "climate": 6,
+      "migration": 0,
+      "education": 7,
+      "weather": 9
+    }
   }
 ]
