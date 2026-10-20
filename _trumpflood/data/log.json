@@ -116852,5 +116852,556 @@
       "education": 7,
       "weather": 9
     }
+  },
+  {
+    "date": "2026-10-20",
+    "generated_at": "2026-10-20T10:51:29+02:00",
+    "last_checked_at": "2026-10-20T10:51:29+02:00",
+    "total_articles": 440,
+    "trump_articles": 9,
+    "percentage": 2.0,
+    "core_percentage": 2.0,
+    "core_percentage_name": 2.0,
+    "trump_articles_expanded": 11,
+    "core_percentage_expanded": 2.5,
+    "indirect_references": 2,
+    "wide_total_articles": 629,
+    "wide_trump_articles": 12,
+    "wide_percentage": 1.9,
+    "wide_trump_articles_expanded": 14,
+    "wide_percentage_expanded": 2.2,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 22,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 24,
+    "cross_outlet_dup_groups": 12,
+    "cross_outlet_dup_rate": 5.5,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.53,
+    "breadth": 0.39,
+    "deviation": 0.63,
+    "smoothed_pct": 2.93,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.69
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 40,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 27,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 19,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 62,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 38,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 33,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.06
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 46,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 2,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 31,
+        "today": 9,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "In het rode Ohio hebben veel Trumpkiezers berouw: “Trump belooft een dikke check ná de midterms. Hoe dom denkt hij dat wij zijn?” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOaWZRNlhzbmFWVzdrU09zbC1TeW5YRnowT29aQkdNNHk4NUFOVDlGdTIzVkd2UmVuVC1ISkhya0hPUGhfOGxqdVpZSzZDaHd0LWtZNVo1VWFyTmdkSjNiT0lTR3N0NmR6cEhMcjlOSk5UZEZKQ3NpSjVNb2xxLTczMzZkRjV5S0lXdWhQSVlYWFBMc2N5LVNOTklPOVdPQzhyeG5paWNULVNQNTY4TF94YUsyS3BaalJUR01ZU1FRNHRFam84UHk0UVQ3dWN6T0tXTTBmYlM5XzF2Njl0TEwyOFpZMXg4bDJJZDZyMjJ4ZGFhVGxwTWVLcW5HTm5LbDBrUkstcV9jWQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trumps triomfboog krijgt gouden gevleugeld beeld en eeuwige vlam: ‘Arc de Trump’ moet vanuit alle hoeken zichtbaar zijn",
+        "url": "https://www.hln.be/buitenland/trumps-triomfboog-krijgt-gouden-gevleugeld-beeld-en-eeuwige-vlam-arc-de-trump-moet-vanuit-alle-hoeken-zichtbaar-zijn~afc18454/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Pentagon vertraagt levering van Patriot-raketten aan Oekraïne • Zelensky vandaag in Noorwegen voor diplomatiek overleg, ook Trumps gezant Steve Witkoff reist naar Oslo",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-pentagon-vertraagt-levering-van-patriot-raketten-aan-oekraine-zelensky-reist-naar-noorwegen-mogelijk-ook-ontmoeting-met-witkoff-en-kushner~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump strooit vlak voor midterms met miljarden dollars om boeren tegemoet te komen • VS kan branden zoals Frankrijk als Democraten winnen, waarschuwt president",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-strooit-vlak-voor-midterms-met-miljarden-dollars-om-boeren-tegemoet-te-komen-vs-kan-branden-zoals-frankrijk-als-democraten-winnen-waarschuwt-president~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. VS vertragen levering van Patriot-raketten aan Oekraïne, zegt Zelensky - Trump: “Rusland heeft zich goed gedragen in Oekraïne”",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-vs-vertragen-levering-van-patriot-raketten-aan-oekrane-zegt-zelensky-trump-rusland-heeft-zich-goed-gedragen-in-oekrane/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Vladimir Poutine propose un sommet avec Donald Trump et Xi Jinping sur l’Ukraine, sans Volodymyr Zelensky - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcGNEanNWbFg5NXFOSXRDVFZiRndMRGRLNU5TQzFtQk9SV1lYaTlNV0tBYnpyUW9ZN0hVandlWW1vYWNqb1o4WW9qRnkya0VqSnQzRWZHRGMweE9KUDFBMjVUSk5rLTh0MWVKT2tzUk04MktIMmQ1SXBoa2tyblJvMnBzTTBUYy11eFJ1NHYydHIybWt6dUlrbV9fZnZVYVRkeDZrTENqQ1ZvNzNIRWxOd3dueU9wQkNqcGRIaDM4QmVkYjFfTTFCeFM0WlZscDR0azNZMzFzRnhub0tlMTA5ZFZPcE83SDhDdUdvcGdhMnNWWTdzZmVhOW1zajdLREp4?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump exempte la Russie de nouvelles sanctions, Moscou se réjouit - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSkVpSUdWVHkzM3NDZzlkVWk3YjdyU3lieDh2RERpYWFyVnowNXJtMUpHOEdjbnJ5T1pET290YkN0TkQxSDNGeS1NckZvbFlyU0oxVG5xSnFkSmdTSTV3S25lamlSN1FWc0VTa0p5bWhrQmtJZmtpYTFxamtKenkyazlEb2dOZDQ0M1JacmNfMTV3NGY4RjI1aVVpX1pyYXlLSEJ3cXl5OEtieHRuWUhhV1pRUG5tc1JjNXVlRmRobzNWcHlldXBZLTFKNA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump continue de s’en prendre à Zelensky: “Il est peut-être temps de changer de négociateur”",
+        "url": "https://www.7sur7.be/monde/trump-continue-de-sen-prendre-a-zelensky-il-est-peut-etre-temps-de-changer-de-negociateur~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Un palais présidentiel aux airs de Maison-Blanche fait polémique en Colombie - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeUtERXVySFU1bzBYbkpGM1JjQmlPWktZdHNxdVlqcWxUNmVDc1Q1aGpmdWQxMjFpUXhPdW5LV3Fqb2p6RTlFWEI5RnVEclA1bWtoVEhZeGh3MjNQTG5pSmpwSFBGSGxJcTdzVE94ci1iNHc3UjMzczFhNU1ZWHVqWUxhVHZBdUdwNVZGei1icU1FSXV3cjNOWXZ0Q2dPN25tZjlSY05VVVI5dHdDS0p5QmhIel9sU0ZLcGRpa25kN0YtQQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      },
+      {
+        "title": "Un palaise présidentiel aux airs de Maison-Blanche fait polémique en Colombie - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdHp1VHVJc3FXRWpTXzZYd0VTRFZCeGtzN0tJSlJaSDBUUzhYbHZEaE4zNlZXN1d3WjJJaE9qUG9ZNkhBaEllUDhvMEh1NnZoaVZhUzluWWtTRXdsZWo3c2otZldicE1jdkxwRGdWR0I1ZXVLYV9McGx5YkZTMXo1OWk0d0RsYXdxNW5ESUJKUGo1Nm1UOW5ZTGVtVWkwdE5RdllyYnlmQ2FERDJfWVNJNlZyWXdjNEVVdmtGNEVOTk4tLUU?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      },
+      {
+        "title": "« Il est peut-être temps de trouver un autre interlocuteur » : nouvelle période de tension entre Donald Trump et Volodymyr Zelensky - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNclpKY2hEMWdDUHFjQ0p4ak9mRDcyVmhJYTM4OVUxNWo1QW14UXFFQldXQ2kydjFjNnlZX2x2Y2gzcl9OVF85UGpfRWU2UEVacVVmNi1JR09SQ3VTS0R4Nzl3QkFXaG5Vb1c4RGZVMzd3ZkY3SUNxQW5IN3JLSGt5bmZvTXcxaUNzNHNOM0UwQjFiVGw2ckpPamlVQ3lXVFIxb3BQa0QySW9JSVNMZFBuTTJjREVqbTN5elkzMGE3Q0U2Q0NaekhJ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump waarschuwt inwoners Kansas: als Democraten midterms winnen, komen er rellen zoals in Frankrijk - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZTN0aFdzblJ3NXF5N2VCSzRxY2RpVWZpMnNobmNNa3hmZzRoTFRHdFJCbEFkczNLbFBMSHJDZTVmMHJuTnVHNl9xMkg5RzdaTEUyMl8ydHdDY0pIUmZGenJBSXZOVzlIRV9NN0pES21MYnNsdmJMTXVRbUpPSlVfdzVNa1FxQTVpMXU2Ujh6WV95VTRiUVhSYmRKb3hoQndOQ01ibER0X3VGRzI0cDVQRU8yTUVVNGg0TWxYZVBJdFlvOGtNTjNzN1NhTkozWHRkM1pnd2JUWFptazR1aWZ1Nk5R?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "In het rode Ohio hebben veel Trumpkiezers berouw: “Trump belooft een dikke cheque ná de midterms. Hoe dom denkt hij dat wij zijn?” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQVmgxSEVFdjZyMUM5aW5mbUNkRF9wNGpLS0xBaGczZ0ZSY215ZEtOd2Y5WGRMaXJqRnZNWTVYV2lJaElXdDlIYnVadVc1ZVRibTFHWWlXWm9EQmpBNlZORDByZE54RlJYMDI2Z200NkRIQ3p3Q3hza0ppWVJzNlBaRk84UFRjcExaeGtGOVU4dXY1SnVHNTZMUTh6OXpUbW8xaTBjbG50UEkxY0VQUi1HS0w2LWJGMzBCR1R0TVpYRkZLOEtKcnhmeFlrMGxUSUl4S0Fyb2Z2UzZPQkRoS3ZPRjI5RHZiZFh4bWNxMzJlc0NuQXFGaXJrSnBqa0doTTNYY3NzbEZuMUQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "\"Imaginez un monde sans l’Amérique\" : en Géorgie, le grand écart de l’Amérique de Trump - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaUJSazJMSG53T1dnN3dGWFAyeXEzQ3o4SXQwRTJ3QUtOM1FnLWRLVGlBdEFlVGtWVkthaEJiNHk1ZlNMRUk4Y2wwLUJEaEUtaVpEVXJLUjZhNHdLSEhUckRjMkpiTUt1Y1QtX1ZRVEVjQzJraEFsMnpJOTN6dEJmd2VBaHp1Tk0tOG9sd1B4RHczdVVXc09kbS1oZ2NsRXZPRTZudHBPeF9QMzFURXpyZ243Z2x6YnBDWHhn?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "In het rode Ohio hebben veel Trumpkiezers berouw: “Trump belooft een dikke check ná de midterms. Hoe dom denkt hij dat wij zijn?” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOaWZRNlhzbmFWVzdrU09zbC1TeW5YRnowT29aQkdNNHk4NUFOVDlGdTIzVkd2UmVuVC1ISkhya0hPUGhfOGxqdVpZSzZDaHd0LWtZNVo1VWFyTmdkSjNiT0lTR3N0NmR6cEhMcjlOSk5UZEZKQ3NpSjVNb2xxLTczMzZkRjV5S0lXdWhQSVlYWFBMc2N5LVNOTklPOVdPQzhyeG5paWNULVNQNTY4TF94YUsyS3BaalJUR01ZU1FRNHRFam84UHk0UVQ3dWN6T0tXTTBmYlM5XzF2Njl0TEwyOFpZMXg4bDJJZDZyMjJ4ZGFhVGxwTWVLcW5HTm5LbDBrUkstcV9jWQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trumps triomfboog krijgt gouden gevleugeld beeld en eeuwige vlam: ‘Arc de Trump’ moet vanuit alle hoeken zichtbaar zijn",
+        "url": "https://www.hln.be/buitenland/trumps-triomfboog-krijgt-gouden-gevleugeld-beeld-en-eeuwige-vlam-arc-de-trump-moet-vanuit-alle-hoeken-zichtbaar-zijn~afc18454/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Pentagon vertraagt levering van Patriot-raketten aan Oekraïne • Zelensky vandaag in Noorwegen voor diplomatiek overleg, ook Trumps gezant Steve Witkoff reist naar Oslo",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-pentagon-vertraagt-levering-van-patriot-raketten-aan-oekraine-zelensky-reist-naar-noorwegen-mogelijk-ook-ontmoeting-met-witkoff-en-kushner~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump strooit vlak voor midterms met miljarden dollars om boeren tegemoet te komen • VS kan branden zoals Frankrijk als Democraten winnen, waarschuwt president",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-strooit-vlak-voor-midterms-met-miljarden-dollars-om-boeren-tegemoet-te-komen-vs-kan-branden-zoals-frankrijk-als-democraten-winnen-waarschuwt-president~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. VS vertragen levering van Patriot-raketten aan Oekraïne, zegt Zelensky - Trump: “Rusland heeft zich goed gedragen in Oekraïne”",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-vs-vertragen-levering-van-patriot-raketten-aan-oekrane-zegt-zelensky-trump-rusland-heeft-zich-goed-gedragen-in-oekrane/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Vladimir Poutine propose un sommet avec Donald Trump et Xi Jinping sur l’Ukraine, sans Volodymyr Zelensky - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcGNEanNWbFg5NXFOSXRDVFZiRndMRGRLNU5TQzFtQk9SV1lYaTlNV0tBYnpyUW9ZN0hVandlWW1vYWNqb1o4WW9qRnkya0VqSnQzRWZHRGMweE9KUDFBMjVUSk5rLTh0MWVKT2tzUk04MktIMmQ1SXBoa2tyblJvMnBzTTBUYy11eFJ1NHYydHIybWt6dUlrbV9fZnZVYVRkeDZrTENqQ1ZvNzNIRWxOd3dueU9wQkNqcGRIaDM4QmVkYjFfTTFCeFM0WlZscDR0azNZMzFzRnhub0tlMTA5ZFZPcE83SDhDdUdvcGdhMnNWWTdzZmVhOW1zajdLREp4?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump exempte la Russie de nouvelles sanctions, Moscou se réjouit - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSkVpSUdWVHkzM3NDZzlkVWk3YjdyU3lieDh2RERpYWFyVnowNXJtMUpHOEdjbnJ5T1pET290YkN0TkQxSDNGeS1NckZvbFlyU0oxVG5xSnFkSmdTSTV3S25lamlSN1FWc0VTa0p5bWhrQmtJZmtpYTFxamtKenkyazlEb2dOZDQ0M1JacmNfMTV3NGY4RjI1aVVpX1pyYXlLSEJ3cXl5OEtieHRuWUhhV1pRUG5tc1JjNXVlRmRobzNWcHlldXBZLTFKNA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump continue de s’en prendre à Zelensky: “Il est peut-être temps de changer de négociateur”",
+        "url": "https://www.7sur7.be/monde/trump-continue-de-sen-prendre-a-zelensky-il-est-peut-etre-temps-de-changer-de-negociateur~a33fdd82/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Un palais présidentiel aux airs de Maison-Blanche fait polémique en Colombie - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeUtERXVySFU1bzBYbkpGM1JjQmlPWktZdHNxdVlqcWxUNmVDc1Q1aGpmdWQxMjFpUXhPdW5LV3Fqb2p6RTlFWEI5RnVEclA1bWtoVEhZeGh3MjNQTG5pSmpwSFBGSGxJcTdzVE94ci1iNHc3UjMzczFhNU1ZWHVqWUxhVHZBdUdwNVZGei1icU1FSXV3cjNOWXZ0Q2dPN25tZjlSY05VVVI5dHdDS0p5QmhIel9sU0ZLcGRpa25kN0YtQQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      },
+      {
+        "title": "Un palaise présidentiel aux airs de Maison-Blanche fait polémique en Colombie - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdHp1VHVJc3FXRWpTXzZYd0VTRFZCeGtzN0tJSlJaSDBUUzhYbHZEaE4zNlZXN1d3WjJJaE9qUG9ZNkhBaEllUDhvMEh1NnZoaVZhUzluWWtTRXdsZWo3c2otZldicE1jdkxwRGdWR0I1ZXVLYV9McGx5YkZTMXo1OWk0d0RsYXdxNW5ESUJKUGo1Nm1UOW5ZTGVtVWkwdE5RdllyYnlmQ2FERDJfWVNJNlZyWXdjNEVVdmtGNEVOTk4tLUU?oc=5",
+        "source": "lesoir_g",
+        "name_only": false
+      },
+      {
+        "title": "« Il est peut-être temps de trouver un autre interlocuteur » : nouvelle période de tension entre Donald Trump et Volodymyr Zelensky - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNclpKY2hEMWdDUHFjQ0p4ak9mRDcyVmhJYTM4OVUxNWo1QW14UXFFQldXQ2kydjFjNnlZX2x2Y2gzcl9OVF85UGpfRWU2UEVacVVmNi1JR09SQ3VTS0R4Nzl3QkFXaG5Vb1c4RGZVMzd3ZkY3SUNxQW5IN3JLSGt5bmZvTXcxaUNzNHNOM0UwQjFiVGw2ckpPamlVQ3lXVFIxb3BQa0QySW9JSVNMZFBuTTJjREVqbTN5elkzMGE3Q0U2Q0NaekhJ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 9,
+      "putin": 1,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 8,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 12,
+      "putin": 3,
+      "macron": 2,
+      "netanyahu": 0,
+      "zelensky": 10,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 6,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 3,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 23,
+      "crime": 15,
+      "eu": 20,
+      "politics": 25,
+      "be_gov": 9,
+      "culture": 19,
+      "tech": 10,
+      "economy": 15,
+      "sports": 31,
+      "health": 3,
+      "climate": 4,
+      "migration": 1,
+      "education": 1,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 30,
+      "crime": 22,
+      "eu": 31,
+      "politics": 40,
+      "be_gov": 17,
+      "culture": 21,
+      "tech": 20,
+      "economy": 18,
+      "sports": 48,
+      "health": 4,
+      "climate": 6,
+      "migration": 2,
+      "education": 1,
+      "weather": 13
+    }
   }
 ]
