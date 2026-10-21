@@ -117571,5 +117571,562 @@
       "education": 7,
       "weather": 23
     }
+  },
+  {
+    "date": "2026-10-21",
+    "generated_at": "2026-10-21T10:51:28+02:00",
+    "last_checked_at": "2026-10-21T10:51:28+02:00",
+    "total_articles": 467,
+    "trump_articles": 10,
+    "percentage": 2.1,
+    "core_percentage": 2.1,
+    "core_percentage_name": 2.1,
+    "trump_articles_expanded": 10,
+    "core_percentage_expanded": 2.1,
+    "indirect_references": 0,
+    "wide_total_articles": 662,
+    "wide_trump_articles": 16,
+    "wide_percentage": 2.4,
+    "wide_trump_articles_expanded": 16,
+    "wide_percentage_expanded": 2.4,
+    "macro_percentage": 2.9,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 20,
+    "cross_outlet_dup_groups": 10,
+    "cross_outlet_dup_rate": 4.3,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.42,
+    "breadth": 0.53,
+    "deviation": 0.67,
+    "smoothed_pct": 2.77,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "google_nl_politics": {
+        "fetched": 51,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 25,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 61,
+        "today": 15,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 25,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 30,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 43,
+        "kept": 43,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.33
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 44,
+        "kept": 44,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.27
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 58,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.72
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 55,
+        "today": 13,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Wie is Stephan Hubbard, de Amerikaanse leraar die Trump uit een Russische cel wil halen?",
+        "url": "https://vrtnws.be/p.8ep80Onlo",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump lonkt opnieuw naar Poetin en dat is slecht nieuws voor Europa - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU0xyU04yTXN0NUVOVEpBelgwTHg5NEp0clM1NDNLd1ZBeTI2aXBjQ05PcUZ3T1hENmswcEt6eHFOSUNUU0FLT0FOQUkzNUZqb2U1MjRGdWl5Y1p5bFRhVEY1NTllb1ZrVFliZXhtMTRfck5aVXB4X3k2OUF4U2dBQW9NWVJJeXZXVUt3a1Z4MmYxWDRDakFEcjF1U1diYmg3eVhRRV9mbFdEMlV1TjZvZjlEd2Zjdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Niet Trump, maar Musk vertraagde de verbinding met Starlink voor Oekraïne",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/niet-trump-maar-musk-vertraagde-de-verbinding-met-starlink-voor-oekraine~be54819c/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Het is eigenlijk een sanctie tegen Rusland”: hoe Trump-getrouwen met de meest bizarre argumenten kritiek op dieseldeal proberen te weerleggen",
+        "url": "https://www.nieuwsblad.be/binnenland/het-is-eigenlijk-een-sanctie-tegen-rusland-hoe-trump-getrouwen-met-de-meest-bizarre-argumenten-kritiek-op-dieseldeal-proberen-te-weerleggen/163291822.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump vliegt uit tegen reporter: “Je kunt maar beter voorzichtig zijn”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-vliegt-uit-tegen-reporter-je-kunt-maar-beter-voorzichtig-zijn/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "VIDEO Jan Jaap van der Wal in De Verenigde Status van Amerika: ‘Trump is God. En daarmee wordt zijn politiek een godsdienstoorlog' - Knack",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tMExOSHkwZ2JwamFuSjNEMHhlME5hN0xCTkdqQVBfQ05Ga09QZzEycnlUS0dsXzJTQ2lRQ1A3dk5abHowLVVpX0hqY0oxdm9GTzAxLTdFRE5wdEZzV3A3MndWaTZuaF9Id0lmeXRXWlppZw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : l’émissaire de Trump en route vers la Russie pour une rencontre avec Poutine",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-l-emissaire-de-trump-en-route-vers-la-russie-pour-une-rencontre-avec-poutine-11803428",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : après des discussions \"positives\" avec Zelensky, l’émissaire de Trump rencontre Poutine",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/10/21/guerre-en-ukraine-apres-des-discussions-positives-avec-zelensky-lemissaire-de-trump-rencontre-poutine-JT74CEPJNZEUBNAK52RF47WFEQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "”C’est aux géants de l’énergie de payer la guerre de Trump, pas aux travailleurs” : La guerre en Iran coûte cher aux propriétaires de voitures thermiques",
+        "url": "https://www.dhnet.be/actu/belgique/2026/10/21/cest-aux-geants-de-lenergie-de-payer-la-guerre-de-trump-pas-aux-travailleurs-la-guerre-en-iran-coute-cher-aux-proprietaires-de-voitures-thermiques-TMZNSDVG6ZEBFKHVZDF3FLB6DY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le retour du chaos à la Maison-Blanche de Donald Trump",
+        "url": "https://www.7sur7.be/monde/le-retour-du-chaos-a-la-maison-blanche-de-donald-trump~a15cb5c2/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump voert druk op Oekraïne nog op - Ambassadeur White: “Trump kiest niet de kant van Rusland, hij wil gewoon vrede” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZFVUQzBlLTBva0VPUXRpVkNRMWJtVFB3Z3hpZmlsWUNKQUdDOVVzU1N2WHBFcUFfeVE1bThlekkxR0NPWldmVi1oXzRMX0w1VXZaVHRGSk5NYVNQWXZZU3h0NUNHaFNNUXBoajJxZ1pJclo4ZmNxcGVrbm1aREU1WFZjVHBSMGNvWENnaktqbWNYOUF5c09FMF9PTWtraTBuNS1xRVNIRVRXcDFVcTJFOExuel9CWUMxRGE4WlZOZ3U5aThrbU0ySWlVeEpueGpyUFpkXzQ5c3l3Sk1EaHZ2VGpMTlhkZw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "L’émissaire de Trump est arrivé en Russie pour une rencontre avec Poutine sur l’Ukraine - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSF9zSUFmdEVSUWttajF3Qy14NUVoRHp4NFUzSWQ2ckozdGxjUTl1QXI4QkhycW8tT1FJX3pTUTh3VllSclp6ckVuTVZKLWRQWGI4S0hoVVlBd2wzSm1mYnpxaTZNcjJKTWtUYXVzNmRBNEtWbnA1QTFZSEd4RlF6bjJFWVN2MDdyckVST2ozbUNBUzFCOVlWQ1FDNDVfMGtIdmRrc1ZwSGtRMndGZWpTbzhKNEt3Y0VlWGl3RGlkN0paZw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump belooft geld voor tips over fraude en beloont conservatieve Youtuber - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUUVRZEVwM09NRDBvaXpFV2NSenAxcG1WZlpQUUFaN1d1a3ZQY0xMNGV1MnIwanBUX0lDSGZ6MV9NV05FVUtaUUpzeEs4T0VmcTNjVU5GQkU4UTZ6aWNiRFc4b29NR091ZGU0ZmU5TDU3a3lEWkRUdmY4QjBjcWUtZWJDTDVuclZHTUY4dFAtZ0c0MTVCR3VDRU5oQS1nUW43T0gwS0xHWEo1clVOUFpoNjU3YnFKZnhma1l6eVVNd01QZw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "“Voor Trump telt maar één ding, de rest is bijzaak”: waarom de VS plots de levering van Patriot-raketten voor Oekraïne blokkeren - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQU0dSU1Q4X0lBM3YzYm8tLXFaVnJXNmt4aUJIazBuSlRfWnhJTXRXckwtMzdTX0NtamtfMkFKaFVTZkE2RlgxTW9VUkRBd1NCMlEwckNab09sME9iamhDS3I4dEIwX2ZMeXFTLUxSWjJKZmJHLUpuMjd1MUFmWnBTUmtIV1lxN0Z4RTM0d0tsUTJfUlVnc2VOcEZPOXluSS0tS0NSanNab2NkTVFFX2JBai1ZSXdtdXhqQmJDZFNDYngyN2dzdnNBYnNEc2FmTEpieXB6azJzOEEtamtfSGpkV2FIY1ZZcjZJRmhUSERMNW9pZE1kX3p0R0Q3QmFLMHpWNGExMkJR?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Gazole : pourquoi la Russie ne pourra pas voler au secours de Trump en inondant le marché - Les Echos",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNHBnejVCSHdkeDE5RHc3ZnpuUEo4ampOUWVUTFRTOEU2eVR3LS1KbTdKWEJYVy1mVW1EN0pmQ1Q3clRWMEphdjhtYTJDZWExb1kyb1RTalItUlowdERzNU9wdnRPb3cyY2R5ZmdJR01KVGtPSUtHb3FKRkNCV0JaU256aUJpM2p6TmhTRkMyZWNpT096dFJwQmJiOE5RbVR0WjJrbmRCLVdTdkRITzBDUk9xTDVUbGJlSkY0X2NsVTIzeG9HQTNfY1dYUm5LVWpYcF9fYXBkMjBSZDUtMjBiRlNSZEwtSjl1ODAwQktEb0c1UQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Wie is Stephan Hubbard, de Amerikaanse leraar die Trump uit een Russische cel wil halen?",
+        "url": "https://vrtnws.be/p.8ep80Onlo",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump lonkt opnieuw naar Poetin en dat is slecht nieuws voor Europa - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU0xyU04yTXN0NUVOVEpBelgwTHg5NEp0clM1NDNLd1ZBeTI2aXBjQ05PcUZ3T1hENmswcEt6eHFOSUNUU0FLT0FOQUkzNUZqb2U1MjRGdWl5Y1p5bFRhVEY1NTllb1ZrVFliZXhtMTRfck5aVXB4X3k2OUF4U2dBQW9NWVJJeXZXVUt3a1Z4MmYxWDRDakFEcjF1U1diYmg3eVhRRV9mbFdEMlV1TjZvZjlEd2Zjdw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Niet Trump, maar Musk vertraagde de verbinding met Starlink voor Oekraïne",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/niet-trump-maar-musk-vertraagde-de-verbinding-met-starlink-voor-oekraine~be54819c/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Het is eigenlijk een sanctie tegen Rusland”: hoe Trump-getrouwen met de meest bizarre argumenten kritiek op dieseldeal proberen te weerleggen",
+        "url": "https://www.nieuwsblad.be/binnenland/het-is-eigenlijk-een-sanctie-tegen-rusland-hoe-trump-getrouwen-met-de-meest-bizarre-argumenten-kritiek-op-dieseldeal-proberen-te-weerleggen/163291822.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Het is eigenlijk een sanctie tegen Rusland”: hoe Trump-getrouwen met de meest bizarre argumenten kritiek op dieseldeal proberen te weerleggen",
+        "url": "https://www.gva.be/binnenland/het-is-eigenlijk-een-sanctie-tegen-rusland-hoe-trump-getrouwen-met-de-meest-bizarre-argumenten-kritiek-op-dieseldeal-proberen-te-weerleggen/163380079.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump vliegt uit tegen reporter: “Je kunt maar beter voorzichtig zijn”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-vliegt-uit-tegen-reporter-je-kunt-maar-beter-voorzichtig-zijn/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "VIDEO Jan Jaap van der Wal in De Verenigde Status van Amerika: ‘Trump is God. En daarmee wordt zijn politiek een godsdienstoorlog' - Knack",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tMExOSHkwZ2JwamFuSjNEMHhlME5hN0xCTkdqQVBfQ05Ga09QZzEycnlUS0dsXzJTQ2lRQ1A3dk5abHowLVVpX0hqY0oxdm9GTzAxLTdFRE5wdEZzV3A3MndWaTZuaF9Id0lmeXRXWlppZw?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : l’émissaire de Trump en route vers la Russie pour une rencontre avec Poutine",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-l-emissaire-de-trump-en-route-vers-la-russie-pour-une-rencontre-avec-poutine-11803428",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : après des discussions \"positives\" avec Zelensky, l’émissaire de Trump rencontre Poutine",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/10/21/guerre-en-ukraine-apres-des-discussions-positives-avec-zelensky-lemissaire-de-trump-rencontre-poutine-JT74CEPJNZEUBNAK52RF47WFEQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "”C’est aux géants de l’énergie de payer la guerre de Trump, pas aux travailleurs” : La guerre en Iran coûte cher aux propriétaires de voitures thermiques",
+        "url": "https://www.dhnet.be/actu/belgique/2026/10/21/cest-aux-geants-de-lenergie-de-payer-la-guerre-de-trump-pas-aux-travailleurs-la-guerre-en-iran-coute-cher-aux-proprietaires-de-voitures-thermiques-TMZNSDVG6ZEBFKHVZDF3FLB6DY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Le retour du chaos à la Maison-Blanche de Donald Trump",
+        "url": "https://www.7sur7.be/monde/le-retour-du-chaos-a-la-maison-blanche-de-donald-trump~a15cb5c2/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 10,
+      "putin": 7,
+      "macron": 1,
+      "netanyahu": 2,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 4
+    },
+    "wide_comparisons": {
+      "trump": 16,
+      "putin": 13,
+      "macron": 1,
+      "netanyahu": 2,
+      "zelensky": 7,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 8,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 7
+    },
+    "themes": {
+      "war": 23,
+      "crime": 29,
+      "eu": 33,
+      "politics": 19,
+      "be_gov": 14,
+      "culture": 18,
+      "tech": 10,
+      "economy": 14,
+      "sports": 27,
+      "health": 7,
+      "climate": 12,
+      "migration": 1,
+      "education": 3,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 35,
+      "crime": 35,
+      "eu": 43,
+      "politics": 36,
+      "be_gov": 21,
+      "culture": 24,
+      "tech": 21,
+      "economy": 18,
+      "sports": 43,
+      "health": 10,
+      "climate": 16,
+      "migration": 2,
+      "education": 4,
+      "weather": 11
+    }
   }
 ]
