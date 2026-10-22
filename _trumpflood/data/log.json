@@ -118398,5 +118398,520 @@
       "education": 8,
       "weather": 26
     }
+  },
+  {
+    "date": "2026-10-22",
+    "generated_at": "2026-10-22T10:54:05+02:00",
+    "last_checked_at": "2026-10-22T10:54:05+02:00",
+    "total_articles": 417,
+    "trump_articles": 8,
+    "percentage": 1.9,
+    "core_percentage": 1.9,
+    "core_percentage_name": 1.9,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 1.9,
+    "indirect_references": 0,
+    "wide_total_articles": 604,
+    "wide_trump_articles": 11,
+    "wide_percentage": 1.8,
+    "wide_trump_articles_expanded": 11,
+    "wide_percentage_expanded": 1.8,
+    "macro_percentage": 2.4,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 38,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 9.1,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.89,
+    "breadth": 0.29,
+    "deviation": 0.6,
+    "smoothed_pct": 2.73,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 11,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 41,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 22,
+        "today": 7,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 32,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 40,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 16,
+        "kept": 16,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 25.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 61,
+        "kept": 61,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "trends_g": {
+        "fetched": 62,
+        "today": 11,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Erik Prince, de controversiële huurlingen-ceo en sponsor van Trump, maakt nu ook brokken in Oost-Congo - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQXVEYkN4OWo2X3oxOUNzT1Z4NkVESEpRWWNuSE4zaHl2NzdzR05JbXNUbGFNZFJiV2pzWFlEN1d3Q1dGQ25WU1QycmR4MXRzUHVsUnF6X3lBdjVfb3hfSXRCczRNclU4SUQ5dW5yOEpjR2xIa011bUxQbEpXY1oxM2FrOW9XU2tHcW9DZUV2MVhoZEJmM3hoVnhRUEt1NDJJcnFzTkplV1ZhNVhDLUZwTEU1eHBPdml0aUFJam1TYVdyZDZBMmt4NEZpNTNibFRBRmNvb3JRMWFYTTU2QWE4eWtJbDJndw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump tevreden nadat betoger klap krijgt op rally: “Dat was geweldig”",
+        "url": "https://www.hln.be/buitenland/trump-tevreden-nadat-betoger-klap-krijgt-op-rally-dat-was-geweldig~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Poetin is een ijskoude moordenaar’: Trump-gezant Witkoff krijgt felle kritiek na opvallend ‘weldoener’-compliment voor Russische president",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/poetin-is-een-ijskoude-moordenaar-trump-gezant-witkoff-krijgt-felle-kritiek-na-opvallend-weldoener-compliment-voor-russische-president~beeb3ed3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Ook u bent een weldoener, ik complimenteer u’: Trump-gezant Witkoff boekt ondanks mooie woorden weinig succes bij Poetin",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/ook-u-bent-een-weldoener-ik-complimenteer-u-trump-gezant-witkoff-boekt-ondanks-mooie-woorden-weinig-succes-bij-poetin~b39646e2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "▶ Live - Voor- en tegenstanders van Trump in aanwezigheid van president op de vuist tijdens politieke rally",
+        "url": "https://www.demorgen.be/snelnieuws/live-voor-en-tegenstanders-van-trump-in-aanwezigheid-van-president-op-de-vuist-tijdens-politieke-rally~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump gaat over de schreef? Dan mogen wij dat ook, denkt deel van Democratische kiezers",
+        "url": "https://www.demorgen.be/politiek/trump-gaat-over-de-schreef-dan-mogen-wij-dat-ook-denkt-deel-van-democratische-kiezers~b92860c9/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump stapt naar Hooggerechtshof voor grensmuur - President vliegt uit tegen reporter: “Je kunt maar beter voorzichtig zijn”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-stapt-naar-hooggerechtshof-voor-grensmuur-president-vliegt-uit-tegen-reporter-je-kunt-maar-beter-voorzichtig-zijn/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce un accord proche, mais la Russie bombarde massivement l’Ukraine juste après le départ de l’émissaire américain - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOUtuRjlMaFdMT3BkSVlHSHFVTzBfVWo4NEpvbHZVWW5zYUkyZXVEeVNtcFlJd3NNeXppM3QtNGhQRUgxWXV0MHRpMER1bUd5Mm5BeVpWcGM1Q2ZvWWtielJtNmE5UldVSTVxQXNDMllTYnpSeldBcVU5WUxpX2JqOFgwYVgtZy1fLURQSlNnYlU1dnVmMUdMNFFxbXJEM0xfNXVQdWNqcDFNVEdza0FWWDlaOTNYcjFOSEVsNVVRNXF5TTl6ZGxUREwyMm9ENUg0MlRsYTZMNEJlODlWbTh6LS1wRzRLQkJLSVpyZ040RUg3R3huWWc?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "‘Ook u bent een weldoener, ik complimenteer u’: Trump-gezant Witkoff boekt ondanks mooie woorden weinig succes bij Poetin - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPM0p5N1RSRl96SGQtRzdCQ3lCMjlUejlUcmNxQ1BhY1JhTlJMN0xtMmotZHp5Z1FLR01FWnNRV1RNUXlOYzRVdkJZb2lRUjMtWm83bXZvWkFVY1FDV29iLUZoRlpqd1YtLVFtYzJTMDNCcWZFdzdpczJvdXJrc1E4RXU2b3Ewd09jZ3Brc2wwYnQ2aFpoWTBCQ2IxUC05VGpoWHF1eFljUWlZamFTekRwcVI1bmVGWnp6S2lta3VNS1Nia0YtY3pYUGZtVUF3U2FpbWgwdVpWNUpjZURqRTRYVXdXRk0tWkFUdDE2dkNZV21hV1NNT3RCbnpFb3QzTnc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump vliegt uit tegen journalist van Britse krant: “Je kunt maar beter voorzichtig zijn” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVG9fSGtKX1JPUjRrMUZHYUdHbkIwVmRFQWVKNnJHX3prcmM2NUVuVlJLZGZFNGlvaWNXZUd5NGJVekhtUXIzV2twYTcwVGM3dVc3MVRvRVFydlZFVkpzSmM1S09fTFR6Y1JUUHBTVVVtNlM5UVJDUGVYT2xoVnFyLURrdHQ5R3c5M0Q0WThnOUZkWEpOX05pVWZDS2U1QVpyNDB3elRCUkt1NGd6V0RENE51YktYdm1USUdXaXY2Y3V6blhCQlFNaUpwUFJIbFV5Q2UxSQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump tevreden nadat betoger klap krijgt op rally: “Dat was geweldig” | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVWtTdzUzRXEtQjNIMVlMczBXU0hxNlZwSEg2QWFNakNVaUxaX08wOVlTdWpJbjM5dmVzVFZmVkJXYjd3clZhX1hGQmVESm5iWHlRNVFOa1pMZTEwS0w5LUtkcTZybHVNckNDRG5md2RmNTNIYzdPa2o5a1pPaXVqLTY4LXVmVVYxS1lhUzdGR2FMWjdMdkJfQ3Q2dDI4d0QzNE1IbmVMQllfdw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Erik Prince, de controversiële huurlingen-ceo en sponsor van Trump, maakt nu ook brokken in Oost-Congo - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQXVEYkN4OWo2X3oxOUNzT1Z4NkVESEpRWWNuSE4zaHl2NzdzR05JbXNUbGFNZFJiV2pzWFlEN1d3Q1dGQ25WU1QycmR4MXRzUHVsUnF6X3lBdjVfb3hfSXRCczRNclU4SUQ5dW5yOEpjR2xIa011bUxQbEpXY1oxM2FrOW9XU2tHcW9DZUV2MVhoZEJmM3hoVnhRUEt1NDJJcnFzTkplV1ZhNVhDLUZwTEU1eHBPdml0aUFJam1TYVdyZDZBMmt4NEZpNTNibFRBRmNvb3JRMWFYTTU2QWE4eWtJbDJndw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump tevreden nadat betoger klap krijgt op rally: “Dat was geweldig”",
+        "url": "https://www.hln.be/buitenland/trump-tevreden-nadat-betoger-klap-krijgt-op-rally-dat-was-geweldig~a79c6d94/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "‘Poetin is een ijskoude moordenaar’: Trump-gezant Witkoff krijgt felle kritiek na opvallend ‘weldoener’-compliment voor Russische president",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/poetin-is-een-ijskoude-moordenaar-trump-gezant-witkoff-krijgt-felle-kritiek-na-opvallend-weldoener-compliment-voor-russische-president~beeb3ed3/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Ook u bent een weldoener, ik complimenteer u’: Trump-gezant Witkoff boekt ondanks mooie woorden weinig succes bij Poetin",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/ook-u-bent-een-weldoener-ik-complimenteer-u-trump-gezant-witkoff-boekt-ondanks-mooie-woorden-weinig-succes-bij-poetin~b39646e2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "▶ Live - Voor- en tegenstanders van Trump in aanwezigheid van president op de vuist tijdens politieke rally",
+        "url": "https://www.demorgen.be/snelnieuws/live-voor-en-tegenstanders-van-trump-in-aanwezigheid-van-president-op-de-vuist-tijdens-politieke-rally~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump gaat over de schreef? Dan mogen wij dat ook, denkt deel van Democratische kiezers",
+        "url": "https://www.demorgen.be/politiek/trump-gaat-over-de-schreef-dan-mogen-wij-dat-ook-denkt-deel-van-democratische-kiezers~b92860c9/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump stapt naar Hooggerechtshof voor grensmuur - President vliegt uit tegen reporter: “Je kunt maar beter voorzichtig zijn”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-stapt-naar-hooggerechtshof-voor-grensmuur-president-vliegt-uit-tegen-reporter-je-kunt-maar-beter-voorzichtig-zijn/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce un accord proche, mais la Russie bombarde massivement l’Ukraine juste après le départ de l’émissaire américain - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOUtuRjlMaFdMT3BkSVlHSHFVTzBfVWo4NEpvbHZVWW5zYUkyZXVEeVNtcFlJd3NNeXppM3QtNGhQRUgxWXV0MHRpMER1bUd5Mm5BeVpWcGM1Q2ZvWWtielJtNmE5UldVSTVxQXNDMllTYnpSeldBcVU5WUxpX2JqOFgwYVgtZy1fLURQSlNnYlU1dnVmMUdMNFFxbXJEM0xfNXVQdWNqcDFNVEdza0FWWDlaOTNYcjFOSEVsNVVRNXF5TTl6ZGxUREwyMm9ENUg0MlRsYTZMNEJlODlWbTh6LS1wRzRLQkJLSVpyZ040RUg3R3huWWc?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 8,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 3,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 9,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 19,
+      "crime": 14,
+      "eu": 21,
+      "politics": 11,
+      "be_gov": 10,
+      "culture": 14,
+      "tech": 20,
+      "economy": 10,
+      "sports": 24,
+      "health": 6,
+      "climate": 5,
+      "migration": 0,
+      "education": 3,
+      "weather": 19
+    },
+    "wide_themes": {
+      "war": 25,
+      "crime": 21,
+      "eu": 34,
+      "politics": 18,
+      "be_gov": 19,
+      "culture": 17,
+      "tech": 32,
+      "economy": 17,
+      "sports": 38,
+      "health": 11,
+      "climate": 7,
+      "migration": 0,
+      "education": 5,
+      "weather": 29
+    }
   }
 ]
