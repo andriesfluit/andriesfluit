@@ -118401,139 +118401,139 @@
   },
   {
     "date": "2026-10-22",
-    "generated_at": "2026-10-22T10:54:05+02:00",
-    "last_checked_at": "2026-10-22T17:36:32+02:00",
-    "total_articles": 417,
-    "trump_articles": 8,
-    "percentage": 1.9,
-    "core_percentage": 1.9,
-    "core_percentage_name": 1.9,
-    "trump_articles_expanded": 8,
-    "core_percentage_expanded": 1.9,
+    "generated_at": "2026-10-22T22:16:59+02:00",
+    "last_checked_at": "2026-10-22T22:16:59+02:00",
+    "total_articles": 864,
+    "trump_articles": 27,
+    "percentage": 3.1,
+    "core_percentage": 3.1,
+    "core_percentage_name": 3.1,
+    "trump_articles_expanded": 27,
+    "core_percentage_expanded": 3.1,
     "indirect_references": 0,
-    "wide_total_articles": 604,
-    "wide_trump_articles": 11,
-    "wide_percentage": 1.8,
-    "wide_trump_articles_expanded": 11,
-    "wide_percentage_expanded": 1.8,
-    "macro_percentage": 2.4,
-    "qualifying_outlets": 23,
+    "wide_total_articles": 1256,
+    "wide_trump_articles": 46,
+    "wide_percentage": 3.7,
+    "wide_trump_articles_expanded": 46,
+    "wide_percentage_expanded": 3.7,
+    "macro_percentage": 4.7,
+    "qualifying_outlets": 30,
     "core_outlets_total": 19,
-    "core_outlets_active": 17,
-    "active_core_fraction": 0.895,
-    "cross_outlet_dup_headlines": 38,
-    "cross_outlet_dup_groups": 19,
-    "cross_outlet_dup_rate": 9.1,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 78,
+    "cross_outlet_dup_groups": 38,
+    "cross_outlet_dup_rate": 9.0,
     "zone": "wet",
     "label": "The zone is getting wet",
     "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.89,
-    "breadth": 0.29,
-    "deviation": 0.6,
-    "smoothed_pct": 2.73,
+    "dominance": 0.82,
+    "breadth": 0.61,
+    "deviation": 0.98,
+    "smoothed_pct": 2.9,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 11,
+    "theme_rank": 7,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 22,
-        "kept": 22,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.55
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 16,
-        "kept": 16,
+        "today": 29,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_politics": {
-        "fetched": 41,
-        "today": 7,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "google_nl_world": {
-        "fetched": 70,
-        "today": 17,
+        "fetched": 43,
+        "today": 12,
         "kept": 12,
         "trump": 2,
         "trump_expanded": 2,
         "share": 16.67
       },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 41,
+        "kept": 38,
+        "trump": 8,
+        "trump_expanded": 8,
+        "share": 21.05
+      },
       "google_nl_business": {
         "fetched": 70,
-        "today": 20,
-        "kept": 16,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 53,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
       },
       "google_nl_tech": {
-        "fetched": 22,
-        "today": 7,
-        "kept": 4,
+        "fetched": 30,
+        "today": 24,
+        "kept": 15,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_sport": {
-        "fetched": 70,
-        "today": 22,
-        "kept": 18,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "fetched": 69,
+        "today": 44,
+        "kept": 39,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.56
       },
       "google_fr_politics": {
-        "fetched": 32,
-        "today": 6,
-        "kept": 6,
+        "fetched": 39,
+        "today": 18,
+        "kept": 18,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_world": {
         "fetched": 70,
-        "today": 8,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 37,
+        "kept": 32,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 15.62
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 14,
-        "kept": 14,
+        "today": 35,
+        "kept": 32,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "vrt": {
         "fetched": 50,
-        "today": 21,
-        "kept": 21,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 45,
+        "kept": 45,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.44
       },
       "standaard": {
         "fetched": 100,
-        "today": 40,
-        "kept": 21,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 4.76
+        "today": 94,
+        "kept": 53,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.77
       },
       "hln": {
         "fetched": 30,
@@ -118545,27 +118545,27 @@
       },
       "demorgen": {
         "fetched": 27,
-        "today": 16,
-        "kept": 16,
-        "trump": 4,
-        "trump_expanded": 4,
-        "share": 25.0
+        "today": 24,
+        "kept": 24,
+        "trump": 9,
+        "trump_expanded": 9,
+        "share": 37.5
       },
       "nieuwsblad": {
         "fetched": 50,
         "today": 50,
         "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
       },
       "gva": {
         "fetched": 50,
-        "today": 50,
-        "kept": 50,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 49,
+        "kept": 49,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.04
       },
       "hbvl": {
         "fetched": 50,
@@ -118577,67 +118577,67 @@
       },
       "knack": {
         "fetched": 100,
-        "today": 23,
-        "kept": 23,
+        "today": 68,
+        "kept": 68,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sporza": {
         "fetched": 20,
-        "today": 12,
-        "kept": 12,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
       },
       "bruzz": {
         "fetched": 100,
-        "today": 6,
-        "kept": 6,
+        "today": 29,
+        "kept": 29,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtbf": {
-        "fetched": 20,
-        "today": 12,
-        "kept": 12,
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0.0
+        "share": 0
       },
       "lalibre": {
         "fetched": 100,
-        "today": 30,
-        "kept": 30,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 92,
+        "kept": 92,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 4.35
       },
       "lecho": {
         "fetched": 100,
-        "today": 20,
-        "kept": 18,
+        "today": 52,
+        "kept": 49,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "dhnet": {
         "fetched": 100,
-        "today": 61,
-        "kept": 61,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 99,
+        "kept": 99,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.01
       },
       "septsursept": {
         "fetched": 30,
-        "today": 23,
-        "kept": 23,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 30,
+        "kept": 30,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.0
       },
       "bx1": {
         "fetched": 0,
@@ -118649,56 +118649,56 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 17,
-        "kept": 14,
+        "today": 55,
+        "kept": 47,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 15,
-        "kept": 11,
+        "today": 51,
+        "kept": 49,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 5,
-        "kept": 4,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 43,
+        "kept": 40,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.5
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 9,
-        "kept": 9,
+        "today": 59,
+        "kept": 59,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 12,
-        "kept": 9,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 11.11
+        "today": 40,
+        "kept": 33,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.06
       },
       "trends_g": {
-        "fetched": 62,
-        "today": 11,
-        "kept": 0,
+        "fetched": 66,
+        "today": 25,
+        "kept": 9,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "tendances_g": {
-        "fetched": 70,
-        "today": 17,
-        "kept": 15,
+        "fetched": 71,
+        "today": 43,
+        "kept": 37,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
@@ -118727,15 +118727,45 @@
     ],
     "matches": [
       {
+        "title": "\"Een complete schande\": Amerikaans president Donald Trump haalt uit naar LeBron James na beweging tijdens volkslied",
+        "url": "https://vrtnws.be/p.PqOPAWxVO",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Rechter dwingt Trump om tegen 11 december onder ede te getuigen in smaadzaak tegen BBC",
+        "url": "https://vrtnws.be/p.M9mvAybNZ",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
         "title": "Erik Prince, de controversiële huurlingen-ceo en sponsor van Trump, maakt nu ook brokken in Oost-Congo - De Standaard",
         "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQXVEYkN4OWo2X3oxOUNzT1Z4NkVESEpRWWNuSE4zaHl2NzdzR05JbXNUbGFNZFJiV2pzWFlEN1d3Q1dGQ25WU1QycmR4MXRzUHVsUnF6X3lBdjVfb3hfSXRCczRNclU4SUQ5dW5yOEpjR2xIa011bUxQbEpXY1oxM2FrOW9XU2tHcW9DZUV2MVhoZEJmM3hoVnhRUEt1NDJJcnFzTkplV1ZhNVhDLUZwTEU1eHBPdml0aUFJam1TYVdyZDZBMmt4NEZpNTNibFRBRmNvb3JRMWFYTTU2QWE4eWtJbDJndw?oc=5",
         "source": "standaard",
         "name_only": true
       },
       {
-        "title": "Trump tevreden nadat betoger klap krijgt op rally: “Dat was geweldig”",
-        "url": "https://www.hln.be/buitenland/trump-tevreden-nadat-betoger-klap-krijgt-op-rally-dat-was-geweldig~a79c6d94/",
+        "title": "Met Sacharovprijs voor Internationaal Strafhof tikt Europees Parlement niet alleen Trump, maar ook Commissie op de vingers - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPSS1MaThJWTkwcDF5OUZqOGNRUzAzQzVLNlBXZ016dVhpUWZrRHFCYXVsU1pGTm5vZFNoY0Q3dE1weTdwSFEyQXRBZkxRZmZUUldFRV9LV0VudFo2WGFVV0FOU3VMdGIweUFxa1N4S3Bwa1JHUHdzWGI2VXZvM1ViRUpuMkk1T29LYUU0TmpNSHM3ckxYTldfMzJfTDZLSG5NV2tqOHF3SG5zV012TjY4akwxb09SOGo4cG1sMWdiNC1wSlVtN1M4TnppbWNzOUg5N0kyeVZhVkNpajBCMFZWTWtYLUVJRDZheThBMlpJc1ZmWVpGbTZyRWZRVGVXdVpaeEE?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Trump belde met Musk om Starlink in Oekraïne weer normaal te laten werken”",
+        "url": "https://www.hln.be/buitenland/trump-belde-met-musk-om-starlink-in-oekraine-weer-normaal-te-laten-werken~a93df6b5/",
         "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "LeBron James oefent worp tijdens Amerikaans volkslied, Trump reageert furieus: ‘Een absolute schande’",
+        "url": "https://www.demorgen.be/nieuws/lebron-james-oefent-worp-tijdens-amerikaans-volkslied-trump-reageert-furieus-een-absolute-schande~b4787d98/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Trump belde met Musk om vertraging Starshield-netwerk in Oekraïne terug te draaien’ • Zelensky: ‘Rusland zet clustermunitie in’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-belde-met-musk-om-vertraging-starshield-netwerk-in-oekraine-terug-te-draaien-zelensky-rusland-zet-clustermunitie-in~b38bed0a/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -118751,47 +118781,227 @@
         "name_only": true
       },
       {
-        "title": "▶ Live - Voor- en tegenstanders van Trump in aanwezigheid van president op de vuist tijdens politieke rally",
-        "url": "https://www.demorgen.be/snelnieuws/live-voor-en-tegenstanders-van-trump-in-aanwezigheid-van-president-op-de-vuist-tijdens-politieke-rally~b13cc951/",
-        "source": "demorgen",
-        "name_only": true
-      },
-      {
         "title": "Trump gaat over de schreef? Dan mogen wij dat ook, denkt deel van Democratische kiezers",
         "url": "https://www.demorgen.be/politiek/trump-gaat-over-de-schreef-dan-mogen-wij-dat-ook-denkt-deel-van-democratische-kiezers~b92860c9/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "LIVE VS. Trump stapt naar Hooggerechtshof voor grensmuur - President vliegt uit tegen reporter: “Je kunt maar beter voorzichtig zijn”",
-        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-stapt-naar-hooggerechtshof-voor-grensmuur-president-vliegt-uit-tegen-reporter-je-kunt-maar-beter-voorzichtig-zijn/151623011.html",
+        "title": "Trump wil de pers uit het Witte Huis weren en de perszaal inruilen voor een zwembad",
+        "url": "https://www.demorgen.be/nieuws/trump-wil-de-pers-uit-het-witte-huis-weren-en-de-perszaal-inruilen-voor-een-zwembad~bab8423b/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS en Denemarken tekenen maritiem samenwerkingsakkoord • Trump moet onder ede getuigen in smaadzaak tegen BBC",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-en-denemarken-tekenen-maritiem-samenwerkingsakkoord-trump-moet-onder-ede-getuigen-in-smaadzaak-tegen-bbc~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump over nieuw doelwit in Iran, na midterms: ‘We zullen die klus in een handomdraai klaren’",
+        "url": "https://www.demorgen.be/nieuws/trump-over-nieuw-doelwit-in-iran-na-midterms-we-zullen-die-klus-in-een-handomdraai-klaren~bdc57bc0/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Valse Donald Trump achter tralies in Teheran • Twee doden na aanval op Saudische luchthaven",
+        "url": "https://www.demorgen.be/snelnieuws/live-valse-donald-trump-achter-tralies-in-teheran-twee-doden-na-aanval-op-saudische-luchthaven~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Een totale schande”: Amerikaans president Donald Trump haalt na virale video hard uit naar basketbalvedette LeBron James",
+        "url": "https://www.nieuwsblad.be/sport/zaalsporten/basketbal/een-totale-schande-amerikaans-president-donald-trump-haalt-na-virale-video-hard-uit-naar-basketbalvedette-lebron-james/163485516.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Een totale schande”: Amerikaans president Donald Trump haalt na virale video hard uit naar basketbalvedette LeBron James",
+        "url": "https://www.hbvl.be/sport/zaalsporten/basketbal/een-totale-schande-amerikaans-president-donald-trump-haalt-na-virale-video-hard-uit-naar-basketbalvedette-lebron-james/163486022.html",
         "source": "hbvl",
         "name_only": true
       },
       {
-        "title": "Trump annonce un accord proche, mais la Russie bombarde massivement l’Ukraine juste après le départ de l’émissaire américain - RTL Info",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOUtuRjlMaFdMT3BkSVlHSHFVTzBfVWo4NEpvbHZVWW5zYUkyZXVEeVNtcFlJd3NNeXppM3QtNGhQRUgxWXV0MHRpMER1bUd5Mm5BeVpWcGM1Q2ZvWWtielJtNmE5UldVSTVxQXNDMllTYnpSeldBcVU5WUxpX2JqOFgwYVgtZy1fLURQSlNnYlU1dnVmMUdMNFFxbXJEM0xfNXVQdWNqcDFNVEdza0FWWDlaOTNYcjFOSEVsNVVRNXF5TTl6ZGxUREwyMm9ENUg0MlRsYTZMNEJlODlWbTh6LS1wRzRLQkJLSVpyZ040RUg3R3huWWc?oc=5",
+        "title": "Rififi entre Donald Trump et une légende du basket : “Un manque de respect envers les États-Unis”",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/22/rififi-entre-donald-trump-et-cette-legende-du-basket-un-manque-de-respect-envers-les-etats-unis-S3OOPXV7M5DZJJ6DZXBPVAW3ZE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une juge somme Trump de témoigner dans sa procédure en diffamation contre la BBC d'ici le 11 décembre",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/22/une-juge-somme-trump-de-temoigner-dans-sa-procedure-en-diffamation-contre-la-bbc-dici-le-11-decembre-KRWSHF4OLNG2JEJKZZ6EYWOLM4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En décernant son prix Sakharov à la Cour pénale internationale, le Parlement européen fait un pied de nez à Donald Trump",
+        "url": "https://www.lalibre.be/international/europe/2026/10/22/en-decernant-son-prix-sakharov-a-la-cour-penale-internationale-le-parlement-europeen-fait-un-pied-de-nez-a-donald-trump-WB54MGYCABBN3NZN66GCQKSTYY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le prix Sakharov décerné à la Cour pénale internationale à la Haye : \"Un message de résistance envoyé à Donald Trump\"",
+        "url": "https://www.lalibre.be/international/europe/2026/10/22/le-prix-sakharov-decerne-a-la-cour-penale-internationale-a-la-haye-RZIKEJDZCJAONJ3TBTO6KC3WOU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Un manque de respect envers les États-Unis\": embrouille entre Lebron James et Donald Trump (VIDEO)",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/22/un-manque-de-respect-envers-les-etats-unis-embrouille-entre-lebron-james-et-donald-trump-video-35DX7TEXUJDYNKDOFB4OCKBDVU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Une juge somme Trump de témoigner dans sa procédure en diffamation contre la BBC",
+        "url": "https://www.7sur7.be/monde/une-juge-somme-trump-de-temoigner-dans-sa-procedure-en-diffamation-contre-la-bbc~a6b28d90/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Il ne vaut rien”: Trump s’en prend à LeBron James après son comportement “irrespectueux” pendant l’hymne américain",
+        "url": "https://www.7sur7.be/monde/il-ne-vaut-rien-trump-sen-prend-a-lebron-james-apres-son-comportement-irrespectueux-pendant-lhymne-americain~a4787d98/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump prétend qu’il a voulu renommer l’océan Atlantique, mais qu’on l’en a dissuadé",
+        "url": "https://www.7sur7.be/monde/trump-pretend-quil-a-voulu-renommer-locean-atlantique-mais-quon-len-a-dissuade~ac8c8595/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Une farouche opposante à Donald Trump arrêtée aux États-Unis : l’élue démocrate de 82 ans inculpée de corruption et de trafic de cannabis ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUzRPa3cwaEJXc3VadlF2T1Q3S25GcXhkZlF2a0dHdWhlTmFVS2tfX3lid0lSZVRZcGtmQlJRb1R0b1ZiVm9pTDluVVFNT2RXbVpFcXVjLUVsVmVOZUJqZTBjSFd0WjRieEZ1RWpZOHhDYVBaLWpTMUNfMkNPd3RPdXlOOWtyemw4YXpRS3dpZEZDV05uOUJfbjIxMWpCSkc4a0VOZHhpLVZaNUc2dlVtbzVJTlJybDI5UG01ZWNfMmNHX2xjcVBzTVpiTks?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Pluie de drones russes en Ukraine alors que Donald Trump annonce la fin de la guerre - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZFpSWm9xZXpiQVFtNmZ0OEJZdjlRUGRzUHJCREZrQWR6aExfWERDSDRuSENtTlRaTzNhQTdYZXNMZWU5UWpFOEtBLWk1bE5Eei1nbF85WW9VYUdXMmJXbDlmTGR6YUg3QkQ0YXREMHo2LVRoOVY1dTZQQjR6MXFiQkowcmVXaDhRcWdTVjNyMERZVFcwV0JYUURqMTlBMUYxUzRsYWlucGlsSUU1d1l0M1hKb1dycTIycGZFbFhualFmR2VRYUJ4RDJoblA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "À Téhéran, un faux Donald Trump est emprisonné dans une prison surélevée - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkt2U0NwUlRQUTZCZ05LWnRkc1o2QWRsTVFGcHNzT0NYTHMtcjBsRmJEakYyMGhFdFBXYUlFUmF3WW1jNVdINFEyWEtGN3hLSG5NUzljQmFzbWg2c21uQVZKTEFJNF9OUmwtaVQ3bWFuOFV4UG1rQ0xBMk1UODQtQU1LZTlBel8wWmczOERGUWpYa3RGaF9NcmNtQXlWY25MNDNfX2xGdzFDZEJtcUtqVnIwTk9PdVNBc1JscXotd3FRdw?oc=5",
         "source": "rtl_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "‘Ook u bent een weldoener, ik complimenteer u’: Trump-gezant Witkoff boekt ondanks mooie woorden weinig succes bij Poetin - De Morgen",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPM0p5N1RSRl96SGQtRzdCQ3lCMjlUejlUcmNxQ1BhY1JhTlJMN0xtMmotZHp5Z1FLR01FWnNRV1RNUXlOYzRVdkJZb2lRUjMtWm83bXZvWkFVY1FDV29iLUZoRlpqd1YtLVFtYzJTMDNCcWZFdzdpczJvdXJrc1E4RXU2b3Ewd09jZ3Brc2wwYnQ2aFpoWTBCQ2IxUC05VGpoWHF1eFljUWlZamFTekRwcVI1bmVGWnp6S2lta3VNS1Nia0YtY3pYUGZtVUF3U2FpbWgwdVpWNUpjZURqRTRYVXdXRk0tWkFUdDE2dkNZV21hV1NNT3RCbnpFb3QzTnc?oc=5",
-        "source": "google_nl",
+        "title": "\"Trump heeft hier alles mee te maken\": Congreslid Ilhan Omar vertelt over omstreden huiszoeking - VRT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeFNnS1JFYUtYLTlUSGZhaDFQUXhWUEl3c2xCMG1kcXlOX1NEb05tMjlxSkQySHBVWmpPVlliWXl4bEhhbFk4cmlkNkpuNndnUnNaWGRXRC02bENxemJfQ3piZEczZDBZZV9KcFhxTzJTM0xwaElyNnB3UVdzenFvLXVPTGVtNjVzQjNrWDg5Qjd1dHl0eVRxQXZkOVFVcmwtNklMS3dhQQ?oc=5",
+        "source": "google_nl_politics",
         "name_only": true
       },
       {
-        "title": "Trump vliegt uit tegen journalist van Britse krant: “Je kunt maar beter voorzichtig zijn” - Nieuwsblad",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVG9fSGtKX1JPUjRrMUZHYUdHbkIwVmRFQWVKNnJHX3prcmM2NUVuVlJLZGZFNGlvaWNXZUd5NGJVekhtUXIzV2twYTcwVGM3dVc3MVRvRVFydlZFVkpzSmM1S09fTFR6Y1JUUHBTVVVtNlM5UVJDUGVYT2xoVnFyLURrdHQ5R3c5M0Q0WThnOUZkWEpOX05pVWZDS2U1QVpyNDB3elRCUkt1NGd6V0RENE51YktYdm1USUdXaXY2Y3V6blhCQlFNaUpwUFJIbFV5Q2UxSQ?oc=5",
+        "title": "Trump haalt uit naar basketbalspeler LeBron James na “respectloos” gedrag tijdens Amerikaans volkslied: “Ik wist altijd al dat hij niet deugde” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOU3JaNTc0VEpoZUVGWHRZTC0wZHN6MzkxZUpWT09rRG16dFNWVERxQnRYa01VWHhXS3BFaUk1S3gySUdFVTE2NzRUQzgzLTF6MW43NzFsUE5Ub044bE1lRjIyT2tsMkljaFNHUUNQQTh2WjNjb0IyTzNhMURkQXAzWkNuRVpGV29NNF8tZGxRNTRYTXB1WWdJYWotazZxVUhGOUNJQWZwZU5sVVZZdVJ3ZVRTS1pkcEl5QkpGRFFuTVdlblBlcDRiN2x5ZFVKaVZxWHlwRXhvVFRxamxscXlZTEVBQUQ1OEg4bjBNMFpnOThkQjVKUjdtTTFPczJFWXlOTWpUN0ZfTFVCQmViNlpFbWtOdkNTbnc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Vreemde attractie in Teheran: valse Donald Trump achter tralies - HLN",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS1VKMnhtZktDYzFlM05QNGdxcDl1S011U3czWUYwdTdGYW1CdGlNd1pXdGhjNXVTZnY3Y0tLQlVLdDVjeTVSTVpEUkdSNTlDTTdlRjdzRXBFWEp1ZWJydk1wRmQyWUxvNTFGRERMbG13Y3NYTDNpY3ZFMERnTTNrMzgxMjZRb3hWbDNCNFVmZVlORGcxb2NKSHlhUXdLY0Nkc3phdg?oc=5",
         "source": "google_nl_world",
         "name_only": true
       },
       {
-        "title": "Trump tevreden nadat betoger klap krijgt op rally: “Dat was geweldig” | Nieuws - HLN",
+        "title": "‘Onderdanigheid zal deze oorlog niet stoppen’: felle kritiek op Trump-gezant Witkoff nadat hij Poetin ‘weldoener’ noemt - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQc0tOczJQMWZsTVAtLUtLTkNkZ0E0RTdDQ01mWDZXbHdKaU1UNFBmR0E1b2N0YmhISzJDQmhaVWRxTlBEYkNVQXBfMEhiRHpzYXNKVmxNRE8tSXBGcTlwYTA2ak9IMGpucVNRU25NQURSMXpwODJQdlFOakR4Z0RucDFxbWNmWlNCcGhWSkswTGdDVWwxMkt2Sy1tZUh3c3lWb1BvVDVMMXdsa0h0cUFubXZOcHZmSzI3bmZUTlhMY1puWXVkVVU1aE1fZC1ncXhrMmhFZE1aeEJrQjAwU2Y4NXROeU91Vmo2amJ2bWxUaXdpdVZqeFVGSUwzZw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump vliegt uit tegen journalist van Britse krant: “Je kunt maar beter voorzichtig zijn” - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX1lLbTR0M25jNVdXakdhaGRHbFh0QjZfUFpjWkdId2tDc2tTM09xOFRqS0tuQ1JUTjhVZjdSRXZadWpFbHNKc2h0MXNZaDJSWDRZcHY0Q2xHUHpEVU40Q2pRMHFnZDVoSVVHNW5JM0h2TmJuLVFGQXhlRkJzMFZfZmJIejJzdmE2T3NaN05INVVNS3lfcmxpNXNHdWZRa2FGRVdVbkdGNzNuMnZVU0dzX21FV0V2TERJWHk0Vkw2TVBFVUdLMW8yUnhjRUs?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Greet De Keyser ziet hoe Trump zijn klassieke truc weer bovenhaalt, amper twee weken voor midterms: “Ze vliegen allemaal gevangenis in. Voor lang” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPaFpPWC1aVTJqUXI5TGg0Q1dzTkdmZWVuNGpHOUJvVndVUDd0WHJISWd2M1lCUklsWDBqVnpHZUVuY25lOWluTTJrT1FNcGd3Zl9ldnJsQjh6UVJWWU4wbWJhMGoyWTZGLWJLVkt5OFRLQktjRE9NX1lBRDdxV1FzdjZFZHFoN2lWWjFmQWZhaHlrQ3hLc3VSdGJ3am1hRV9POHBBT2VRbkNnaG0wanFxNVpPNWotSVB6NHBwNEtRQTBySTZwLTdxeVRwQ2VlQXZDQUVpQ2k1UEV1MXhrMXlRMHdCMlBlaFl6UGY3RExlbFY1X1FVZE5zZktRenZvcFJSWW1PUjlkRXo0RnVxUHc?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Rechter dwingt Trump om tegen 11 december onder ede te getuigen in smaadzaak tegen BBC - VRT",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QZE5wbUo1cDZJNUFxTkFMTER5RTN5bzRVS0JTenhLLVhFT19KZnowU2xoLWh0QnVsdVpPQmROVE1mTkZDR2p6bzJCTUhNVlRxdGhxR0hDNWltMHBZZ0Rlc29GOWRoeWtzYnc?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump wilde de Atlantische Oceaan omdopen tot ‘Trump Oceaan’, maar Google-CEO hield hem tegen: “Vraag ons alstublieft niet om dat te doen” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQQmVpNWc4WjNTNnV5RHVTNm9qOXpWX215UGNlbWFURHdrRFB1dXRRaEJncE05MmcwWi0xQklMdllENnVIYTh1U2ZVMUpuSnkxUjlyS2tmRHRucnFuNmNHRHdoS3BQd3RYQm9oWFJxMDkwNW9XVXZBMVBaQURheDFWOFNsemxCV2phMEhTcFFUOEtlMXQ4MkJZdnFjcC1ZOXpBcnBDMWVBY1BSc1pYTklDY0ZoNmhleVI5dG1ZZkp3TDAxY256akhNRnc4Q2EzWHpNUU5rb3B0eHNqWk5TdGoyc0d2RGpmLVZKZFh2b1BkRTFtNnV6NVIyMldFVUZsNGxsNFE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil de pers uit het Witte Huis weren en de perszaal inruilen voor een zwembad - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ2doWHd3bEg2RFhRVnRTMDVFQmtHQXJudDN4T1BsOFdEcFFDMERzU2xPLUFKbTJQekcwM0w4N1lTZkhKS0xVQTlrdDhzUlNaSTFCbUpKMTk0Y05WLXV4Smh0QV84Z0U1WnRBV1c4dVVRdmVad25hMjRLNzh4RldmYmJYblFuVktsb2o1Uzl3ZDJEaDNlZ3IzNUVWTEgxRExzMWVlRGFpLUlEY25HT3NnMlBVbEJQR2dpRnFqVWNuaVlIZw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans president Donald Trump is een duivel in een wijwatervat - GVA",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRDY4SEE3bURTWFUxUENlZG1rZjFVeFBCUUlWYWU0NkV2dmUwbXRJQUx4d2JvdmpFeHZLVDhXQld5NDFSbWdMQ2VrUS1LbGpTQnN3ZXlVcWt5TjBnSUhLRzFHdEZLTU56WGVDRHdUSW5IYUIxbDlSTkJMLURja2ZZUlpDRWQzc1BBT3RlbkJLbHdtendsR1c4d09oT1NUWFBZbFBWMlFQeFVyaVRSLUl3VQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Rechter dwingt Donald Trump om tegen 11 december onder ede te getuigen in smaadzaak tegen BBC | Nieuws - HLN",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVWtTdzUzRXEtQjNIMVlMczBXU0hxNlZwSEg2QWFNakNVaUxaX08wOVlTdWpJbjM5dmVzVFZmVkJXYjd3clZhX1hGQmVESm5iWHlRNVFOa1pMZTEwS0w5LUtkcTZybHVNckNDRG5md2RmNTNIYzdPa2o5a1pPaXVqLTY4LXVmVVYxS1lhUzdGR2FMWjdMdkJfQ3Q2dDI4d0QzNE1IbmVMQllfdw?oc=5",
-        "source": "google_nl_world",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "\"Een complete schande\": Amerikaans president Donald Trump haalt uit naar LeBron James na beweging tijdens volkslied - VRT",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWJSU0Jsb1JfemVvZURXN3ZOWDhXZFBZUVI1NzdTYmU2Qjc4eXR3V19LRXJISklhNEJHamQ2YmIxZ09vYkd1MkxnMlV1dF80UTg1R0F3QW5YTHFNVjNoa216ZnQxWmwwbnc3WUZQTnlKZFdWSU10TUcwdGxhSFF5Zk1lM1NMRlZXZnhQTEM4WVhzaFpEWmJtV0xjNVVoMnBKWEp1aQ?oc=5",
+        "source": "google_nl_sport",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur la relation entre Trump et Zelensky - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaE1SSzhFLUNYVXJqRGNmdTBNRGtUQWdiTWFMTUx1TVo1R0RPX1NBbnB5RVFrOFBvd0hoVXpFT3dDa0FjY3dYS1ZhaGI1ekZoZ1pkRnQ4TlFneVZoZHVOd1RpQm0yWllPaWdtRWlyWUNMT3dmQUZVaFpMWGFFWl9TZm5EdVl3SE9fNEU1My1LYkE5T1VpVFdBRXcwVl93Sk5FczFqZVBBOA?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump réclame 10 milliards de dollars à la BBC : une juge américaine lui impose de témoigner - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSE4zLTlLa05aWHBHQlVZTTVWU2dHOHZnNTNmRHBRUzNlNU00MzVaNEU2YmNxZThkeXFUVnJ2YW80Y0otVGxIZEVvSHp4RjFNNmZiMUVFR1BGLTVJbTFBdTZ5bDdEMDd6MGxZV3EySmZTVHdjRl9LTHpyUFRlamlWbEU0d3IyVEJpNVl2Z2xuZXEwbXlaZGxUSVFRQXljSzhRUDZsSWgyVF93aktEMkFWWGRYYlZINjQ1WHlLVUZDQnkyQktUTXJUM0ZCbEdvQ1RhcTJ1V1NNZ3JFM1RBclE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Les manifestations en France, le nouvel épouvantail de Donald Trump pour les midterms - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU3JFdDNydDh4SENsV19wUjJlZzRnQVZQNmtNcnRVcDF1bjZiN1NBUGgzVGJzSlc2eWp5MzhKQ0cwZkpWcXpKQVkyZllZV3kyelhkWmVZcVJtMktlMjFnU0wwTy1tT3FBSWxveDVZV1NIREpDYldabEdScUhzRlNOTjFDMUtNcEpsQzNMZkQ3bk5Ta2FWdzk5MW9ZWWRtT1ZITG96Q1kxUU1TYU9vZUFHZktUMzhOYjFjX2JyRkZ3?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "« J’ai appelé Google Maps… » : la dernière lubie presque passée inaperçue de Donald Trump - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdjViWVEzbzQ2SEd5d1BROWxSWGVhX0NkTXZFTmxlMVgxdXZFVkMzOGN5ZFFHVU9hUDRSUVBHVHVXeFhvd2p0dC1MWmpOWUhSU3lzRjhVWjMwQWZXR2FFQTdXNDcwSDJrVXk0cXFHMDRPNDFmWUhMM0dKcW1xSmVtLVZhQ0dmYXJHUnljX19mRWs1UTVWQWc3MXJHMlZ4cHNFS3ZvazRUbDhsaGluWnJQTG9RdWQ5VEN5eGJsaVpzMXZ6TTAybVE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Wayne a voté Trump, juste avant que sa femme ne se fasse embarquer par l’ICE et expulsée à des milliers de kilomètres de lui : « Il a détruit ma famille » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeW5LSjJNWmVNMEtUUW5la0NtSzljcXJTTkhaWEtBQkt6UEh0d29UakltOG9EaGZHS0t4OG5pUUdtQkZLZTRPLUVaMG9qUnRjSGxlSy1ZRmR1bmVlQ2JQYTlHY2ZFakNZcWhPazJLcy1HM3ZJVUhOaXRGVEU4SVQtNzNSME1KclFudlVmY2FDSkJ0STN6ZnNQRmdaUVgzUVUwaXhhVmdsZGxBUC1EUTNMZkZJLTQwM0pkS0NKa2sxdGRQNDVTREE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "\"Een complete schande\": Amerikaans president Donald Trump haalt uit naar LeBron James na beweging tijdens volkslied",
+        "url": "https://vrtnws.be/p.PqOPAWxVO",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Rechter dwingt Trump om tegen 11 december onder ede te getuigen in smaadzaak tegen BBC",
+        "url": "https://vrtnws.be/p.M9mvAybNZ",
+        "source": "vrt",
         "name_only": true
       },
       {
@@ -118801,9 +119011,27 @@
         "name_only": true
       },
       {
-        "title": "Trump tevreden nadat betoger klap krijgt op rally: “Dat was geweldig”",
-        "url": "https://www.hln.be/buitenland/trump-tevreden-nadat-betoger-klap-krijgt-op-rally-dat-was-geweldig~a79c6d94/",
+        "title": "Met Sacharovprijs voor Internationaal Strafhof tikt Europees Parlement niet alleen Trump, maar ook Commissie op de vingers - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPSS1MaThJWTkwcDF5OUZqOGNRUzAzQzVLNlBXZ016dVhpUWZrRHFCYXVsU1pGTm5vZFNoY0Q3dE1weTdwSFEyQXRBZkxRZmZUUldFRV9LV0VudFo2WGFVV0FOU3VMdGIweUFxa1N4S3Bwa1JHUHdzWGI2VXZvM1ViRUpuMkk1T29LYUU0TmpNSHM3ckxYTldfMzJfTDZLSG5NV2tqOHF3SG5zV012TjY4akwxb09SOGo4cG1sMWdiNC1wSlVtN1M4TnppbWNzOUg5N0kyeVZhVkNpajBCMFZWTWtYLUVJRDZheThBMlpJc1ZmWVpGbTZyRWZRVGVXdVpaeEE?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "“Trump belde met Musk om Starlink in Oekraïne weer normaal te laten werken”",
+        "url": "https://www.hln.be/buitenland/trump-belde-met-musk-om-starlink-in-oekraine-weer-normaal-te-laten-werken~a93df6b5/",
         "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "LeBron James oefent worp tijdens Amerikaans volkslied, Trump reageert furieus: ‘Een absolute schande’",
+        "url": "https://www.demorgen.be/nieuws/lebron-james-oefent-worp-tijdens-amerikaans-volkslied-trump-reageert-furieus-een-absolute-schande~b4787d98/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Trump belde met Musk om vertraging Starshield-netwerk in Oekraïne terug te draaien’ • Zelensky: ‘Rusland zet clustermunitie in’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-belde-met-musk-om-vertraging-starshield-netwerk-in-oekraine-terug-te-draaien-zelensky-rusland-zet-clustermunitie-in~b38bed0a/",
+        "source": "demorgen",
         "name_only": true
       },
       {
@@ -118819,99 +119047,195 @@
         "name_only": true
       },
       {
-        "title": "▶ Live - Voor- en tegenstanders van Trump in aanwezigheid van president op de vuist tijdens politieke rally",
-        "url": "https://www.demorgen.be/snelnieuws/live-voor-en-tegenstanders-van-trump-in-aanwezigheid-van-president-op-de-vuist-tijdens-politieke-rally~b13cc951/",
-        "source": "demorgen",
-        "name_only": true
-      },
-      {
         "title": "Trump gaat over de schreef? Dan mogen wij dat ook, denkt deel van Democratische kiezers",
         "url": "https://www.demorgen.be/politiek/trump-gaat-over-de-schreef-dan-mogen-wij-dat-ook-denkt-deel-van-democratische-kiezers~b92860c9/",
         "source": "demorgen",
         "name_only": true
       },
       {
-        "title": "LIVE VS. Trump stapt naar Hooggerechtshof voor grensmuur - President vliegt uit tegen reporter: “Je kunt maar beter voorzichtig zijn”",
-        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-stapt-naar-hooggerechtshof-voor-grensmuur-president-vliegt-uit-tegen-reporter-je-kunt-maar-beter-voorzichtig-zijn/151623011.html",
+        "title": "Trump wil de pers uit het Witte Huis weren en de perszaal inruilen voor een zwembad",
+        "url": "https://www.demorgen.be/nieuws/trump-wil-de-pers-uit-het-witte-huis-weren-en-de-perszaal-inruilen-voor-een-zwembad~bab8423b/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - VS en Denemarken tekenen maritiem samenwerkingsakkoord • Trump moet onder ede getuigen in smaadzaak tegen BBC",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-en-denemarken-tekenen-maritiem-samenwerkingsakkoord-trump-moet-onder-ede-getuigen-in-smaadzaak-tegen-bbc~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump over nieuw doelwit in Iran, na midterms: ‘We zullen die klus in een handomdraai klaren’",
+        "url": "https://www.demorgen.be/nieuws/trump-over-nieuw-doelwit-in-iran-na-midterms-we-zullen-die-klus-in-een-handomdraai-klaren~bdc57bc0/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Valse Donald Trump achter tralies in Teheran • Twee doden na aanval op Saudische luchthaven",
+        "url": "https://www.demorgen.be/snelnieuws/live-valse-donald-trump-achter-tralies-in-teheran-twee-doden-na-aanval-op-saudische-luchthaven~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "“Een totale schande”: Amerikaans president Donald Trump haalt na virale video hard uit naar basketbalvedette LeBron James",
+        "url": "https://www.nieuwsblad.be/sport/zaalsporten/basketbal/een-totale-schande-amerikaans-president-donald-trump-haalt-na-virale-video-hard-uit-naar-basketbalvedette-lebron-james/163485516.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "“Een totale schande”: Amerikaans president Donald Trump haalt na virale video hard uit naar basketbalvedette LeBron James",
+        "url": "https://www.gva.be/sport/zaalsporten/basketbal/een-totale-schande-amerikaans-president-donald-trump-haalt-na-virale-video-hard-uit-naar-basketbalvedette-lebron-james/163486023.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "“Een totale schande”: Amerikaans president Donald Trump haalt na virale video hard uit naar basketbalvedette LeBron James",
+        "url": "https://www.hbvl.be/sport/zaalsporten/basketbal/een-totale-schande-amerikaans-president-donald-trump-haalt-na-virale-video-hard-uit-naar-basketbalvedette-lebron-james/163486022.html",
         "source": "hbvl",
         "name_only": true
       },
       {
-        "title": "Trump annonce un accord proche, mais la Russie bombarde massivement l’Ukraine juste après le départ de l’émissaire américain - RTL Info",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOUtuRjlMaFdMT3BkSVlHSHFVTzBfVWo4NEpvbHZVWW5zYUkyZXVEeVNtcFlJd3NNeXppM3QtNGhQRUgxWXV0MHRpMER1bUd5Mm5BeVpWcGM1Q2ZvWWtielJtNmE5UldVSTVxQXNDMllTYnpSeldBcVU5WUxpX2JqOFgwYVgtZy1fLURQSlNnYlU1dnVmMUdMNFFxbXJEM0xfNXVQdWNqcDFNVEdza0FWWDlaOTNYcjFOSEVsNVVRNXF5TTl6ZGxUREwyMm9ENUg0MlRsYTZMNEJlODlWbTh6LS1wRzRLQkJLSVpyZ040RUg3R3huWWc?oc=5",
+        "title": "\"Een complete schande\": Amerikaans president Donald Trump haalt uit naar LeBron James na beweging tijdens volkslied",
+        "url": "https://sporza.be/nl/2026/10/22/-een-complete-schande-amerikaans-president-donald-trump-haalt-uit-naar-lebron-james-na-beweging-tijdens-volkslied~1792689328455/",
+        "source": "sporza",
+        "name_only": true
+      },
+      {
+        "title": "Rififi entre Donald Trump et une légende du basket : “Un manque de respect envers les États-Unis”",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/22/rififi-entre-donald-trump-et-cette-legende-du-basket-un-manque-de-respect-envers-les-etats-unis-S3OOPXV7M5DZJJ6DZXBPVAW3ZE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une juge somme Trump de témoigner dans sa procédure en diffamation contre la BBC d'ici le 11 décembre",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/22/une-juge-somme-trump-de-temoigner-dans-sa-procedure-en-diffamation-contre-la-bbc-dici-le-11-decembre-KRWSHF4OLNG2JEJKZZ6EYWOLM4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "En décernant son prix Sakharov à la Cour pénale internationale, le Parlement européen fait un pied de nez à Donald Trump",
+        "url": "https://www.lalibre.be/international/europe/2026/10/22/en-decernant-son-prix-sakharov-a-la-cour-penale-internationale-le-parlement-europeen-fait-un-pied-de-nez-a-donald-trump-WB54MGYCABBN3NZN66GCQKSTYY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le prix Sakharov décerné à la Cour pénale internationale à la Haye : \"Un message de résistance envoyé à Donald Trump\"",
+        "url": "https://www.lalibre.be/international/europe/2026/10/22/le-prix-sakharov-decerne-a-la-cour-penale-internationale-a-la-haye-RZIKEJDZCJAONJ3TBTO6KC3WOU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Un manque de respect envers les États-Unis\": embrouille entre Lebron James et Donald Trump (VIDEO)",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/22/un-manque-de-respect-envers-les-etats-unis-embrouille-entre-lebron-james-et-donald-trump-video-35DX7TEXUJDYNKDOFB4OCKBDVU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Une juge somme Trump de témoigner dans sa procédure en diffamation contre la BBC",
+        "url": "https://www.7sur7.be/monde/une-juge-somme-trump-de-temoigner-dans-sa-procedure-en-diffamation-contre-la-bbc~a6b28d90/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Il ne vaut rien”: Trump s’en prend à LeBron James après son comportement “irrespectueux” pendant l’hymne américain",
+        "url": "https://www.7sur7.be/monde/il-ne-vaut-rien-trump-sen-prend-a-lebron-james-apres-son-comportement-irrespectueux-pendant-lhymne-americain~a4787d98/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump prétend qu’il a voulu renommer l’océan Atlantique, mais qu’on l’en a dissuadé",
+        "url": "https://www.7sur7.be/monde/trump-pretend-quil-a-voulu-renommer-locean-atlantique-mais-quon-len-a-dissuade~ac8c8595/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Une farouche opposante à Donald Trump arrêtée aux États-Unis : l’élue démocrate de 82 ans inculpée de corruption et de trafic de cannabis ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUzRPa3cwaEJXc3VadlF2T1Q3S25GcXhkZlF2a0dHdWhlTmFVS2tfX3lid0lSZVRZcGtmQlJRb1R0b1ZiVm9pTDluVVFNT2RXbVpFcXVjLUVsVmVOZUJqZTBjSFd0WjRieEZ1RWpZOHhDYVBaLWpTMUNfMkNPd3RPdXlOOWtyemw4YXpRS3dpZEZDV05uOUJfbjIxMWpCSkc4a0VOZHhpLVZaNUc2dlVtbzVJTlJybDI5UG01ZWNfMmNHX2xjcVBzTVpiTks?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Pluie de drones russes en Ukraine alors que Donald Trump annonce la fin de la guerre - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZFpSWm9xZXpiQVFtNmZ0OEJZdjlRUGRzUHJCREZrQWR6aExfWERDSDRuSENtTlRaTzNhQTdYZXNMZWU5UWpFOEtBLWk1bE5Eei1nbF85WW9VYUdXMmJXbDlmTGR6YUg3QkQ0YXREMHo2LVRoOVY1dTZQQjR6MXFiQkowcmVXaDhRcWdTVjNyMERZVFcwV0JYUURqMTlBMUYxUzRsYWlucGlsSUU1d1l0M1hKb1dycTIycGZFbFhualFmR2VRYUJ4RDJoblA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "À Téhéran, un faux Donald Trump est emprisonné dans une prison surélevée - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkt2U0NwUlRQUTZCZ05LWnRkc1o2QWRsTVFGcHNzT0NYTHMtcjBsRmJEakYyMGhFdFBXYUlFUmF3WW1jNVdINFEyWEtGN3hLSG5NUzljQmFzbWg2c21uQVZKTEFJNF9OUmwtaVQ3bWFuOFV4UG1rQ0xBMk1UODQtQU1LZTlBel8wWmczOERGUWpYa3RGaF9NcmNtQXlWY25MNDNfX2xGdzFDZEJtcUtqVnIwTk9PdVNBc1JscXotd3FRdw?oc=5",
         "source": "rtl_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 8,
-      "putin": 2,
-      "macron": 1,
+      "trump": 27,
+      "putin": 7,
+      "macron": 4,
       "netanyahu": 0,
-      "zelensky": 1,
+      "zelensky": 2,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 5,
-      "bouchez": 0,
+      "de_wever": 14,
+      "bouchez": 2,
       "magnette": 0,
-      "prevot": 0,
+      "prevot": 2,
       "rousseau": 0,
       "francken": 0,
-      "crevits": 0,
+      "crevits": 1,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 0
+      "verlinden": 1
     },
     "wide_comparisons": {
-      "trump": 11,
-      "putin": 3,
-      "macron": 1,
+      "trump": 46,
+      "putin": 10,
+      "macron": 9,
       "netanyahu": 0,
-      "zelensky": 1,
+      "zelensky": 3,
       "rutte": 0,
       "von_der_leyen": 0,
-      "de_wever": 9,
-      "bouchez": 0,
-      "magnette": 0,
-      "prevot": 0,
+      "de_wever": 17,
+      "bouchez": 3,
+      "magnette": 1,
+      "prevot": 2,
       "rousseau": 0,
-      "francken": 0,
-      "crevits": 0,
+      "francken": 1,
+      "crevits": 2,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 0
+      "verlinden": 1
     },
     "themes": {
-      "war": 19,
-      "crime": 14,
-      "eu": 21,
-      "politics": 11,
-      "be_gov": 10,
-      "culture": 14,
-      "tech": 20,
-      "economy": 10,
-      "sports": 24,
-      "health": 6,
-      "climate": 5,
-      "migration": 0,
-      "education": 3,
-      "weather": 19
+      "war": 23,
+      "crime": 26,
+      "eu": 71,
+      "politics": 34,
+      "be_gov": 29,
+      "culture": 23,
+      "tech": 25,
+      "economy": 30,
+      "sports": 59,
+      "health": 10,
+      "climate": 9,
+      "migration": 3,
+      "education": 7,
+      "weather": 55
     },
     "wide_themes": {
-      "war": 25,
-      "crime": 21,
-      "eu": 34,
-      "politics": 18,
-      "be_gov": 19,
-      "culture": 17,
-      "tech": 32,
-      "economy": 17,
-      "sports": 38,
-      "health": 11,
-      "climate": 7,
-      "migration": 0,
-      "education": 5,
-      "weather": 29
+      "war": 35,
+      "crime": 38,
+      "eu": 105,
+      "politics": 54,
+      "be_gov": 37,
+      "culture": 26,
+      "tech": 41,
+      "economy": 39,
+      "sports": 92,
+      "health": 17,
+      "climate": 11,
+      "migration": 4,
+      "education": 10,
+      "weather": 71
     }
   }
 ]
