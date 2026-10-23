@@ -119237,5 +119237,580 @@
       "education": 10,
       "weather": 71
     }
+  },
+  {
+    "date": "2026-10-23",
+    "generated_at": "2026-10-23T10:49:00+02:00",
+    "last_checked_at": "2026-10-23T10:49:00+02:00",
+    "total_articles": 447,
+    "trump_articles": 11,
+    "percentage": 2.5,
+    "core_percentage": 2.5,
+    "core_percentage_name": 2.5,
+    "trump_articles_expanded": 11,
+    "core_percentage_expanded": 2.5,
+    "indirect_references": 0,
+    "wide_total_articles": 620,
+    "wide_trump_articles": 18,
+    "wide_percentage": 2.9,
+    "wide_trump_articles_expanded": 18,
+    "wide_percentage_expanded": 2.9,
+    "macro_percentage": 3.3,
+    "qualifying_outlets": 23,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 20,
+    "cross_outlet_dup_groups": 10,
+    "cross_outlet_dup_rate": 4.5,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 0.47,
+    "deviation": 0.79,
+    "smoothed_pct": 2.79,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 43,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "google_nl_tech": {
+        "fetched": 46,
+        "today": 16,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 38,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 51,
+        "kept": 51,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 23,
+        "kept": 23,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 13.04
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 29,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 13,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "trends_g": {
+        "fetched": 49,
+        "today": 8,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "‘De overwinning is al binnen’: Moskou ziet hoe Trump de banden met Rusland aanhaalt terwijl oorlog voortduurt",
+        "url": "https://www.demorgen.be/nieuws/de-overwinning-is-al-binnen-moskou-ziet-hoe-trump-de-banden-met-rusland-aanhaalt-terwijl-oorlog-voortduurt~b34c8c52/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump aangeklaagd om gebruik ambt voor handel in crypto • Musk gaf 445 miljoen dollar aan Republikeinen voor midterms",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-aangeklaagd-om-gebruik-ambt-voor-handel-in-crypto-musk-gaf-445-miljoen-dollar-aan-republikeinen-voor-midterms~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump aangeklaagd voor ambtsmisbruik door cryptobedrijf: “Nog nooit heeft een president zo schaamteloos geprofiteerd”",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-aangeklaagd-voor-ambtsmisbruik-door-cryptobedrijf-nog-nooit-heeft-een-president-zo-schaamteloos-geprofiteerd/163494666.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump aangeklaagd voor ambtsmisbruik door cryptobedrijf: “Nog nooit heeft een president zo schaamteloos geprofiteerd”",
+        "url": "https://www.hbvl.be/buitenland/trump-aangeklaagd-voor-ambtsmisbruik-door-cryptobedrijf-nog-nooit-heeft-een-president-zo-schaamteloos-geprofiteerd/163497821.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Donald Trump affirme le retour du réseau satellitaire Starlink",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/10/23/guerre-en-ukraine-donald-trump-affirme-le-retour-du-reseau-satellitaire-starlink-7QB7HB7S75HLFJ5XBPEWB4MTGU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La popularité de Donald Trump atteint son plus bas niveau à quelques jours des midterms - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObjFMTVY3SF9zRzc0cFdMc056TFk4dzBSSTVUYjY0OU5NblpsdzZkbm10MUxzXy03YjRHdUpaVXA1cDRURURseU9Oel9LUU5IY1pyeGhYNGNFaW1XcGxnenc0X05NbUNjZUhDUTVuUDI4M0QxT3JrSl9ELVF6N3lnLU1qRVJFN2pmWmpKQTh5TEc5T2g1MVowQ0I3Z2t2MXpRXzAydWQwUFRkSUVXX3lmRTFZLW1aU201emtzWlBHRU02NEZublRQTEhMbFBrWTFkOGNZT1NqSWhGS28xNElrbHlJRFVRZ1N1akZPRkhpd3g?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Une plainte déposée contre Trump, accusé d’avoir abusé de ses fonctions pour tirer profit des cryptomonnaies",
+        "url": "https://www.7sur7.be/monde/une-plainte-deposee-contre-trump-accuse-davoir-abuse-de-ses-fonctions-pour-tirer-profit-des-cryptomonnaies~ab5e2017/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Des transactions financières suspectes impliquant le gendre de Trump? Kushner dément",
+        "url": "https://www.7sur7.be/monde/des-transactions-financieres-suspectes-impliquant-le-gendre-de-trump-kushner-dement~a7bbbe89/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump assure que Musk a relancé son réseau Starlink pour l’Ukraine",
+        "url": "https://www.7sur7.be/monde/trump-assure-que-musk-a-relance-son-reseau-starlink-pour-lukraine~a544c756/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Musk herstelt Starlink-verbinding Oekraïne na telefoon van Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY2xLeEU1a1pfTmRtN2xxSkdXNzFRUTRwS3MxYmxQRGVrR3YtNTFmdHFKUTNFSW1KZ1N0d0xRUVNCVDdDVnE4R21XX2dSNDk5clhXOHBQcHB1NWk2WS10anlra1o3RlUybEI4Yll2MDNKaENRZDZPNDhZY2MyR3FNbGlpdUlFVWpPbVo5MlkzVnZQOUpHTlptTHB1U2lObW5iWnBqVU5FNE5NQUNWMHAxN0NoTlYyQUVTTVZyQXBQOUJDS2lM?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Starlink relancé par Elon Musk selon Donald Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeUFjZnRvcnNheUo4c0dKakFqTGc4TjZaTDQ4V0xJVDRtTzR2eVBCZlUxVUNVWF9wczJNRV9fOTZpUktyUjZncHpHQ3JjVUlKTURubEd5RVZyY0duZDVqTUp6OFhDVmNncjE5NHJoNVY1dVdZeE5MMTlzQ2VrcFVfQ3RFN2hyUDFTVkRKQVh6MjJXR3JJWjNTQ2JrY210VmF2OU9WX3VTUkM4cWJ3aXl1WTI3YlhzMGNPQy12alJITXRoZ3ZaaUtiRi1ab2E1Wk5uaDY0?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Nederlandse inlichtingendienst hackte telefoon van schoonzoon Trump en zag miljoenentransacties van buitenlandse bank, Kushner ontkent - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOaW1OYS1zZmtMNVJIaURZT0NYZkF5Z3BJZTVSM2ZxNjVjWEJqSk9YTGk4WXgtTW1oWEViWUhJMlN3YVY1U0djRTVfdllkdE9JMzAzQThHNGJmbENQcWhBcmM5bW0tV3E2TmliSkRNSkktTUpDdGtXSmFCN053UFZHc3VxN3VKeWd2Nzk0bkpna2ItUEhDQTFHVTd0YV9Sak9JVm5ONXc2SFZ3dElPYlI5RGM2cEJiN21xRHdCMS1vUi1nWU0zdXk2RndsMGJBYnpxTnpBVE9TazMwTUFqZVNEaTBBMFpNR0U3ZndnNlJqSDVVcTlYQkRXSXpuMDRqMzl3eUJBcE53Y19DZw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Boek: MIVD keek mee met telefoon van Trumps schoonzoon Kushner - NOS",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVXV2VTBZTHBTR0E4R2RWODVHOHRKRENMSGFwbmFPcW1GOWx4c0hYT0dGQ210T2ZtbFlidzJ3N1hKVEFHdnE1OEY3a0N4ZlBMYzRPX01sM0xULXY4T2d4d050blF3UmpkRl9BUUdhN1RRSlhtNWFmZ05oRC1iMGxqS2hmUGs3LVN6YW55OWhFSGEtTV9GQVNF?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "‘De overwinning is al binnen’: Moskou ziet hoe Trump de banden met Rusland aanhaalt terwijl oorlog voortduurt - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMUFKUFdmcnIyZDNobGRCMVkyMGswZzlleUJJN0xCRVlIR1JybERnNlk3Qkl3aEVsZW1lbXUxaFlNLXQ0TmRjV0RldUc5V0NDbWo2TjFKWU1zeGJocnkydGg1Wm9CVGRRamRLdVp6U0tkb0RKa0VDX3hLNkFYTTZjZWx3MUYyaWZpakUwc0tDNHVXOVRpMG4zd1BnbUdoOHZFcTh5TEIwWWlKU1Q2YlVoblEzdFVVbHdEaVhxQVBnRC1uYWtndTFpenZsM2FtWk1DUUY1RHE2NGV0YU1oR0dEYw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump aangeklaagd om misbruik presidentschap voor winst met crypto: “Schaamteloos geprofiteerd van zijn ambt” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOanY4eXBmdlhYWVloOXV2SnR3UnBIQ1ozLVUyZmdHc1VDMnU3bjNPaVhrYWRMZ21kaHNrc1hzVmZwcHV4WE02YjJhSDFZcDFIbGFyZUpuWG50VjVGUXNTRDlDaVRGZnBTVVVQSFdudHpuOURFX2ZGTnhWeFNjN0NIUF9ZOW9OSzZoQXFZZy1laFpaM01JZDc2SHlKNE8wbFhsYkxtdDM2N1FVSEJVbDRuY0l6dW8yUkdaekRHQnpDMDMyeS03TS1YRWpRTjNfdTlrb2VNbHZsaWRBcm9G?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "'MIVD zag op gehackte iPhone hoe Trumps schoonzoon vele miljoenen ontving' - NOS",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVVQxek55cTE3TFJtSjczVmtHajg3OVZpM1JtZWdJWjN6QkpJazlDTUR4TXc4NWRaX0FCRmlNRFJQRzBCSjU4aGQweU8yM3FDd2U2bHVvVVlBVkNPaTlLM3BaeG5UVFBneUdLNmsxOHZCS21xSW9NTDVIOXl4c0JMTEN2NmVnRUZsZWNva0JOTjZNNXFXanN6WGJ1UVoxSWMtX3VjNzJn?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "Les Pays-Bas auraient-ils découvert des transactions financières suspectes impliquant le gendre de Trump? Kushner dément - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQb0w0YXlGZDUydW5ndkhuUVE0ZkVvbE1IT0RGNkxjRG95UzdyNXlTQkhxM0J4QkZzcXpHMnM4UmtQUzhKWTUyMVI5R1lkbElBbzItemZSN0hPOHc1OC1YUWtMdGdpRzRFMEhZV3lWVm5xMFhOZGc0YjlSazJfUEdHN2lwMUwwR2R1b3RZQjlMMXdOUWp0amdNcWdxUk13YzZRenZOX0tTZlhIVE1wR1NGZzZlMzBMMFNHbG5RS29wdlQxRTZucEdJbkFRcWI2ZVV0SkUzVEloblA4eGpDQk5TN1JfVHpibWg0N0Z4Rg?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "‘De overwinning is al binnen’: Moskou ziet hoe Trump de banden met Rusland aanhaalt terwijl oorlog voortduurt",
+        "url": "https://www.demorgen.be/nieuws/de-overwinning-is-al-binnen-moskou-ziet-hoe-trump-de-banden-met-rusland-aanhaalt-terwijl-oorlog-voortduurt~b34c8c52/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump aangeklaagd om gebruik ambt voor handel in crypto • Musk gaf 445 miljoen dollar aan Republikeinen voor midterms",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-aangeklaagd-om-gebruik-ambt-voor-handel-in-crypto-musk-gaf-445-miljoen-dollar-aan-republikeinen-voor-midterms~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump aangeklaagd voor ambtsmisbruik door cryptobedrijf: “Nog nooit heeft een president zo schaamteloos geprofiteerd”",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-aangeklaagd-voor-ambtsmisbruik-door-cryptobedrijf-nog-nooit-heeft-een-president-zo-schaamteloos-geprofiteerd/163494666.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump aangeklaagd voor ambtsmisbruik door cryptobedrijf: “Nog nooit heeft een president zo schaamteloos geprofiteerd”",
+        "url": "https://www.gva.be/buitenland/trump-aangeklaagd-voor-ambtsmisbruik-door-cryptobedrijf-nog-nooit-heeft-een-president-zo-schaamteloos-geprofiteerd/163497051.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump aangeklaagd voor ambtsmisbruik door cryptobedrijf: “Nog nooit heeft een president zo schaamteloos geprofiteerd”",
+        "url": "https://www.hbvl.be/buitenland/trump-aangeklaagd-voor-ambtsmisbruik-door-cryptobedrijf-nog-nooit-heeft-een-president-zo-schaamteloos-geprofiteerd/163497821.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Donald Trump affirme le retour du réseau satellitaire Starlink",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/10/23/guerre-en-ukraine-donald-trump-affirme-le-retour-du-reseau-satellitaire-starlink-7QB7HB7S75HLFJ5XBPEWB4MTGU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La popularité de Donald Trump atteint son plus bas niveau à quelques jours des midterms - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObjFMTVY3SF9zRzc0cFdMc056TFk4dzBSSTVUYjY0OU5NblpsdzZkbm10MUxzXy03YjRHdUpaVXA1cDRURURseU9Oel9LUU5IY1pyeGhYNGNFaW1XcGxnenc0X05NbUNjZUhDUTVuUDI4M0QxT3JrSl9ELVF6N3lnLU1qRVJFN2pmWmpKQTh5TEc5T2g1MVowQ0I3Z2t2MXpRXzAydWQwUFRkSUVXX3lmRTFZLW1aU201emtzWlBHRU02NEZublRQTEhMbFBrWTFkOGNZT1NqSWhGS28xNElrbHlJRFVRZ1N1akZPRkhpd3g?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Une plainte déposée contre Trump, accusé d’avoir abusé de ses fonctions pour tirer profit des cryptomonnaies",
+        "url": "https://www.7sur7.be/monde/une-plainte-deposee-contre-trump-accuse-davoir-abuse-de-ses-fonctions-pour-tirer-profit-des-cryptomonnaies~ab5e2017/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Des transactions financières suspectes impliquant le gendre de Trump? Kushner dément",
+        "url": "https://www.7sur7.be/monde/des-transactions-financieres-suspectes-impliquant-le-gendre-de-trump-kushner-dement~a7bbbe89/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump assure que Musk a relancé son réseau Starlink pour l’Ukraine",
+        "url": "https://www.7sur7.be/monde/trump-assure-que-musk-a-relance-son-reseau-starlink-pour-lukraine~a544c756/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Musk herstelt Starlink-verbinding Oekraïne na telefoon van Trump - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY2xLeEU1a1pfTmRtN2xxSkdXNzFRUTRwS3MxYmxQRGVrR3YtNTFmdHFKUTNFSW1KZ1N0d0xRUVNCVDdDVnE4R21XX2dSNDk5clhXOHBQcHB1NWk2WS10anlra1o3RlUybEI4Yll2MDNKaENRZDZPNDhZY2MyR3FNbGlpdUlFVWpPbVo5MlkzVnZQOUpHTlptTHB1U2lObW5iWnBqVU5FNE5NQUNWMHAxN0NoTlYyQUVTTVZyQXBQOUJDS2lM?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Starlink relancé par Elon Musk selon Donald Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeUFjZnRvcnNheUo4c0dKakFqTGc4TjZaTDQ4V0xJVDRtTzR2eVBCZlUxVUNVWF9wczJNRV9fOTZpUktyUjZncHpHQ3JjVUlKTURubEd5RVZyY0duZDVqTUp6OFhDVmNncjE5NHJoNVY1dVdZeE5MMTlzQ2VrcFVfQ3RFN2hyUDFTVkRKQVh6MjJXR3JJWjNTQ2JrY210VmF2OU9WX3VTUkM4cWJ3aXl1WTI3YlhzMGNPQy12alJITXRoZ3ZaaUtiRi1ab2E1Wk5uaDY0?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 11,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 6,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 2,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 18,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 7,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 3,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 17,
+      "crime": 16,
+      "eu": 31,
+      "politics": 13,
+      "be_gov": 18,
+      "culture": 10,
+      "tech": 12,
+      "economy": 16,
+      "sports": 24,
+      "health": 10,
+      "climate": 8,
+      "migration": 1,
+      "education": 1,
+      "weather": 19
+    },
+    "wide_themes": {
+      "war": 21,
+      "crime": 21,
+      "eu": 43,
+      "politics": 17,
+      "be_gov": 22,
+      "culture": 13,
+      "tech": 21,
+      "economy": 23,
+      "sports": 36,
+      "health": 14,
+      "climate": 11,
+      "migration": 2,
+      "education": 1,
+      "weather": 26
+    }
   }
 ]
