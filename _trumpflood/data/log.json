@@ -119812,5 +119812,454 @@
       "education": 1,
       "weather": 26
     }
+  },
+  {
+    "date": "2026-10-24",
+    "generated_at": "2026-10-24T10:22:49+02:00",
+    "last_checked_at": "2026-10-24T10:22:49+02:00",
+    "total_articles": 378,
+    "trump_articles": 3,
+    "percentage": 0.8,
+    "core_percentage": 0.8,
+    "core_percentage_name": 0.8,
+    "trump_articles_expanded": 3,
+    "core_percentage_expanded": 0.8,
+    "indirect_references": 0,
+    "wide_total_articles": 527,
+    "wide_trump_articles": 5,
+    "wide_percentage": 0.9,
+    "wide_trump_articles_expanded": 5,
+    "wide_percentage_expanded": 0.9,
+    "macro_percentage": 1.3,
+    "qualifying_outlets": 15,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 45,
+    "cross_outlet_dup_groups": 22,
+    "cross_outlet_dup_rate": 11.9,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.3,
+    "breadth": 0.18,
+    "deviation": 0.25,
+    "smoothed_pct": 2.33,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 12,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "google_nl_politics": {
+        "fetched": 52,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 64,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 35,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 49,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 47,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 88,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 53,
+        "today": 9,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "KIJK. “Jij bent een dom persoon”: Trump scheldt opnieuw journalisten uit",
+        "url": "https://www.hln.be/buitenland/kijk-jij-bent-een-dom-persoon-trump-scheldt-opnieuw-journalisten-uit~a8b2fa29/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Nederlandse geheime dienst, overgelopen Rus en 700 miljoen dollar brengen Trumps schoonzoon in de problemen - en er is meer op komst",
+        "url": "https://www.demorgen.be/niet-te-missen/nederlandse-geheime-dienst-overgelopen-rus-en-700-miljoen-dollar-brengen-trumps-schoonzoon-in-de-problemen-en-er-is-meer-op-komst~b8f4be4d/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Le Brésil va-t-il repasser à l’extrême droite ? \"Avec le Mexique, il s’agit peut-être du dernier caillou dans la chaussure de Donald Trump sur le continent américain\"",
+        "url": "https://www.rtbf.be/article/le-bresil-va-t-il-repasser-a-l-extreme-droite-avec-le-mexique-il-s-agit-peut-etre-du-dernier-caillou-dans-la-chaussure-de-donald-trump-sur-le-continent-americain-11804850",
+        "source": "rtbf",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "KIJK. “Jij bent een dom persoon”: Trump scheldt opnieuw journalisten uit - HLN",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ2k3d2JkNFNjU2RLVG1sWm1ORjU4Tkxib0tlSHVZV3NaREtTY0lYLTNHaTViZ0NnTlgxbVowTmcyTm14YTNjWDBmYVFFVE0wYlM1SFpuSEFQSG5TOXdhT2dWd3FqVnYzVkxVQkpmcDUzS2plcjNfUU5nRmxIVFVmSkNFRUtOWDRaVEh0V0M0Vi1EWk0xS2FCcWV0eGhEYlJhdnYzWlJ4cnZGTFhn?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Le Brésil va-t-il repasser à l’extrême droite ? 'Avec le Mexique, il s’agit peut-être du dernier caillou dans la chaussure de Donald Trump sur le continent américain' - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQMW5tSlZHYVVkc25KMWZ1NGplVHU5dm83cmxYM2tNZkFDWTA3NjRCbTFacmEyTUw3dlg3QWtsRTA5TU1tbHNDU01ZWFB3NFQwQmp2UkRzUWFMcXp1d2tDSFNJN0tXd0tnenJ0WGRaX0FOMW9yakVoSS1OdGNjLUp6YjdZelZZbmhOM3BzY2EtaVFOVjZ4MF9BelF0QW04aDFlTmh2MFBmU1Y2MkpUdW1PMHlIRUdjelVGWFZLaURJV05vc19sblhjWkVpRmpWdGVBMGxYRjdRcXp6NEN4TjRpQm1vbU14Snl3VXBDelN5d0JQcFhpYUVQMnZENWctOWFTLXJQbFdjRHg3QnFNQjAzdUtuX3QyZ0FwYUUyaUZZM1EwaUlx?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. “Jij bent een dom persoon”: Trump scheldt opnieuw journalisten uit",
+        "url": "https://www.hln.be/buitenland/kijk-jij-bent-een-dom-persoon-trump-scheldt-opnieuw-journalisten-uit~a8b2fa29/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Nederlandse geheime dienst, overgelopen Rus en 700 miljoen dollar brengen Trumps schoonzoon in de problemen - en er is meer op komst",
+        "url": "https://www.demorgen.be/niet-te-missen/nederlandse-geheime-dienst-overgelopen-rus-en-700-miljoen-dollar-brengen-trumps-schoonzoon-in-de-problemen-en-er-is-meer-op-komst~b8f4be4d/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Le Brésil va-t-il repasser à l’extrême droite ? \"Avec le Mexique, il s’agit peut-être du dernier caillou dans la chaussure de Donald Trump sur le continent américain\"",
+        "url": "https://www.rtbf.be/article/le-bresil-va-t-il-repasser-a-l-extreme-droite-avec-le-mexique-il-s-agit-peut-etre-du-dernier-caillou-dans-la-chaussure-de-donald-trump-sur-le-continent-americain-11804850",
+        "source": "rtbf",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 3,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 5,
+      "putin": 4,
+      "macron": 2,
+      "netanyahu": 2,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 4,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 9,
+      "crime": 14,
+      "eu": 19,
+      "politics": 14,
+      "be_gov": 9,
+      "culture": 12,
+      "tech": 6,
+      "economy": 9,
+      "sports": 24,
+      "health": 14,
+      "climate": 2,
+      "migration": 1,
+      "education": 2,
+      "weather": 33
+    },
+    "wide_themes": {
+      "war": 16,
+      "crime": 19,
+      "eu": 22,
+      "politics": 21,
+      "be_gov": 13,
+      "culture": 12,
+      "tech": 11,
+      "economy": 16,
+      "sports": 36,
+      "health": 17,
+      "climate": 3,
+      "migration": 1,
+      "education": 2,
+      "weather": 42
+    }
   }
 ]
