@@ -120327,5 +120327,544 @@
       "education": 8,
       "weather": 43
     }
+  },
+  {
+    "date": "2026-10-25",
+    "generated_at": "2026-10-25T09:42:12+01:00",
+    "last_checked_at": "2026-10-25T09:42:12+01:00",
+    "total_articles": 280,
+    "trump_articles": 8,
+    "percentage": 2.9,
+    "core_percentage": 2.9,
+    "core_percentage_name": 2.9,
+    "trump_articles_expanded": 8,
+    "core_percentage_expanded": 2.9,
+    "indirect_references": 0,
+    "wide_total_articles": 403,
+    "wide_trump_articles": 15,
+    "wide_percentage": 3.7,
+    "wide_trump_articles_expanded": 15,
+    "wide_percentage_expanded": 3.7,
+    "macro_percentage": 4.1,
+    "qualifying_outlets": 13,
+    "core_outlets_total": 19,
+    "core_outlets_active": 16,
+    "active_core_fraction": 0.842,
+    "cross_outlet_dup_headlines": 52,
+    "cross_outlet_dup_groups": 26,
+    "cross_outlet_dup_rate": 18.6,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 4.0,
+    "breadth": 0.5,
+    "deviation": 0.95,
+    "smoothed_pct": 2.59,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 12,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "google_nl_politics": {
+        "fetched": 44,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 59,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 31,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 40.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "standaard": {
+        "fetched": 55,
+        "today": 25,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 26,
+        "today": 13,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 36,
+        "kept": 36,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.78
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 9,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 39,
+        "today": 4,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "De mannenfabriek van Mar-a-Lago: Trump en de manosfeer",
+        "url": "https://vrtnws.be/p.0Yp00VE4Q",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Obama kraakt Trumps prioriteiten en beleid af: “Wat is dat toch met al dat goud?”",
+        "url": "https://www.hln.be/buitenland/obama-kraakt-trumps-prioriteiten-en-beleid-af-wat-is-dat-toch-met-al-dat-goud~a49afe38/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump brengt vervroegd stem uit voor midterms • Obama geeft Trump de schuld van stijgende kosten levensonderhoud",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-brengt-vervroegd-stem-uit-voor-midterms~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Obama mengt zich in de midterms en haalt uit naar Trump: “Wat is dat toch met al dat goud?”",
+        "url": "https://www.nieuwsblad.be/buitenland/obama-mengt-zich-in-de-midterms-en-haalt-uit-naar-trump-wat-is-dat-toch-met-al-dat-goud/163572406.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Van Vorst naar Georgia: Trump kondigt Amerikaanse Audi-fabriek aan die 200.000 SUV’s per jaar zal bouwen",
+        "url": "https://www.hbvl.be/buitenland/van-vorst-naar-georgia-trump-kondigt-amerikaanse-audi-fabriek-aan-die-200.000-suvs-per-jaar-zal-bouwen/163572770.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Midtermverkiezingen in de VS: hoe datacenters Trump-kiezers in de armen van de Democraten jagen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTWVBdzIxUlVIRmNxT0dkd3dSUUlnc21aSEtGVEJBV3hSZVBxYTJ3T3g3RExjQXFEdWFiT2J1eXRhZ1MzSlg4U1JYeWtBUXNGWk8xSTZXZXZPVkZjUG5RUFBpaUM1cVVxRk4yanNOa18zb1poa09ZLTJmLTc2VmFPS0dfdHk2TVJEbXpWbVVtZ2xGaVU2SlNoM1RCVVIzNXMxUFduQ25YWS1qNVF6NWR4TnMwUTVXVHltSnB0N3lYckZQdUZ5V2szSHBn?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Chronique | Trump espère une \"surprise d’octobre\"... que ni la Russie ni l’Iran ne lui offriront - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRFh3RXBneFhrX1JCT3A1TEt0MmFPYkF2dXFBX01QOXhwcDBjaXYzNHI5V2NVNW1BN04zQWwxeWppTlQ2TzBsVE51T1ltcTdnWXRhMEhsWDVWcVhGVm5UZHhhQWM5S1FmdWExZUZvSmpjcjR4STI1SEJGdXZMS0w4eHFmaHk5T3UzMVRlT2ZEeG51TlZtT01JT3Q0aWVsejFMMWNHM080Q1RnanpZZXVnY0xCV1dZZnNwakszak5aNzg1aWVBN2Zfb2hCN2FsS1NncWdDR3hMeDZMeEdmZ205ZHZ0WVk5NHV1b0hPVg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Obama étrille Trump: “C’est quoi cette obsession pour tout cet or?”",
+        "url": "https://www.7sur7.be/monde/obama-etrille-trump-cest-quoi-cette-obsession-pour-tout-cet-or~a49afe38/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Obama mengt zich in de midterms en haalt uit naar Trump: “Wat is dat toch met al dat goud?” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdmc5eHpRZHVDTTVwNFhQRVRkbmNkbWMxNnZsVlYwZ25IVkd3TUQzRW12ZkFlWE9ubTc4VXV0UzRuQTd3bUtucVZySWN4UGlrXzdaNEFaUE1sek5yV1JiWVBQU2ZZVnJ1cmRTOVJ1bEdwVDliN0VEX24ySnJOV2VqZ1B6MkRnXzA0RGRsYkVKQVNkTGVnM0oybV8wZ24yMkxYQjRxSkVQZ3ktVk9WSDRrc2JRLTFBalA1d19SR0VzZFFsTjVtNEdyU184eGdqTG9oSEhYZDdn?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Van Vorst naar Georgia: Trump kondigt Amerikaanse Audi-fabriek aan die 200.000 SUV’s per jaar zal bouwen - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQU1dMd3pRZUdQMWJ2c0N6a1owUkRSMHFYZHphUE1hLTQ1U3dLVXR1UGI2dmtza2E2OFF1Tlo2WmtIMWh3OUdCSVlyRmxJdThJUDVoYXJ6ajdSWkZVQjZ3YVZZajZ2bV9MeTRvRnpUZ1pjbVZUVm9sQXVKNTQ0VXBDT3E5LU9Ec09UZkNNa0Y2QVlmUm1KbFFNMXBNbkppSGJpZjdScGdnYzNBb0ZFMUphZk1Xb2JnVUQzTXhfNlZTMVY5ekdJMXNXdktEczFfcW9DdU9COTdmRkY5LUpoLUppTkVsS1NKWnVicXc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Le Brésil va-t-il repasser à l’extrême droite ? 'Avec le Mexique, il s’agit peut-être du dernier caillou dans la chaussure de Donald Trump sur le continent américain' - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQMW5tSlZHYVVkc25KMWZ1NGplVHU5dm83cmxYM2tNZkFDWTA3NjRCbTFacmEyTUw3dlg3QWtsRTA5TU1tbHNDU01ZWFB3NFQwQmp2UkRzUWFMcXp1d2tDSFNJN0tXd0tnenJ0WGRaX0FOMW9yakVoSS1OdGNjLUp6YjdZelZZbmhOM3BzY2EtaVFOVjZ4MF9BelF0QW04aDFlTmh2MFBmU1Y2MkpUdW1PMHlIRUdjelVGWFZLaURJV05vc19sblhjWkVpRmpWdGVBMGxYRjdRcXp6NEN4TjRpQm1vbU14Snl3VXBDelN5d0JQcFhpYUVQMnZENWctOWFTLXJQbFdjRHg3QnFNQjAzdUtuX3QyZ0FwYUUyaUZZM1EwaUlx?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "« Deux années de chaos, de cruauté, de corruption et d’incompétence » : Obama s’attaque à Trump avec virulence - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQU2FDVnJzTmtwT2wzcW53RlE4Tkh6YkM2bG1rcGFWczVPTjhjVllnUUFXTTI2dkREb2ZhZ2o2cDZRTzR4b0FnTS1OYW5qalJBU2RTRVh2VzZ3M3pqMGNUOW5ZQUJ0YjRHcVpQTUZMOXd4LUwyYlRNMEJ4emZjSHB5ZHJnZm1QU1lBb014Ny02UjhodVlrMWFvR3RZRzJYTmF5WWJLd1o3ZllESl84c1BXb0lDeWJTY29vWGw1VmdPb0xFdDA?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Midterms aux Etats-Unis : Donald Trump a voté par anticipation en Floride - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbkJEbjJxNXVEYmIyenVQeTlVcXZvcHV4eHNTLXJmMnlodmRneGdMeTNLQ29vTVo3ZFVyME9vMTk1UnJ4UzlweWg0TlpvaTZiTEhQYVd0eXJRdFFWNk56SVlOMXVsTG5pRzA0ZlJEeVdYSF9CQjQtenFNcXJBaWZlNzZfYlR3ZVNLcG1HUkdPNl9WeTBTeDhxSFEwM0lGc0gxdGU4OUppcms0OEF3?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "De mannenfabriek van Mar-a-Lago: Trump en de manosfeer",
+        "url": "https://vrtnws.be/p.0Yp00VE4Q",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Obama kraakt Trumps prioriteiten en beleid af: “Wat is dat toch met al dat goud?”",
+        "url": "https://www.hln.be/buitenland/obama-kraakt-trumps-prioriteiten-en-beleid-af-wat-is-dat-toch-met-al-dat-goud~a49afe38/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump brengt vervroegd stem uit voor midterms • Obama geeft Trump de schuld van stijgende kosten levensonderhoud",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-brengt-vervroegd-stem-uit-voor-midterms~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Obama mengt zich in de midterms en haalt uit naar Trump: “Wat is dat toch met al dat goud?”",
+        "url": "https://www.nieuwsblad.be/buitenland/obama-mengt-zich-in-de-midterms-en-haalt-uit-naar-trump-wat-is-dat-toch-met-al-dat-goud/163572406.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Obama mengt zich in de midterms en haalt uit naar Trump: “Wat is dat toch met al dat goud?”",
+        "url": "https://www.gva.be/buitenland/obama-mengt-zich-in-de-midterms-en-haalt-uit-naar-trump-wat-is-dat-toch-met-al-dat-goud/163572748.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Van Vorst naar Georgia: Trump kondigt Amerikaanse Audi-fabriek aan die 200.000 SUV’s per jaar zal bouwen",
+        "url": "https://www.gva.be/buitenland/van-vorst-naar-georgia-trump-kondigt-amerikaanse-audi-fabriek-aan-die-200.000-suvs-per-jaar-zal-bouwen/163571933.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Van Vorst naar Georgia: Trump kondigt Amerikaanse Audi-fabriek aan die 200.000 SUV’s per jaar zal bouwen",
+        "url": "https://www.hbvl.be/buitenland/van-vorst-naar-georgia-trump-kondigt-amerikaanse-audi-fabriek-aan-die-200.000-suvs-per-jaar-zal-bouwen/163572770.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Midtermverkiezingen in de VS: hoe datacenters Trump-kiezers in de armen van de Democraten jagen - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTWVBdzIxUlVIRmNxT0dkd3dSUUlnc21aSEtGVEJBV3hSZVBxYTJ3T3g3RExjQXFEdWFiT2J1eXRhZ1MzSlg4U1JYeWtBUXNGWk8xSTZXZXZPVkZjUG5RUFBpaUM1cVVxRk4yanNOa18zb1poa09ZLTJmLTc2VmFPS0dfdHk2TVJEbXpWbVVtZ2xGaVU2SlNoM1RCVVIzNXMxUFduQ25YWS1qNVF6NWR4TnMwUTVXVHltSnB0N3lYckZQdUZ5V2szSHBn?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Chronique | Trump espère une \"surprise d’octobre\"... que ni la Russie ni l’Iran ne lui offriront - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRFh3RXBneFhrX1JCT3A1TEt0MmFPYkF2dXFBX01QOXhwcDBjaXYzNHI5V2NVNW1BN04zQWwxeWppTlQ2TzBsVE51T1ltcTdnWXRhMEhsWDVWcVhGVm5UZHhhQWM5S1FmdWExZUZvSmpjcjR4STI1SEJGdXZMS0w4eHFmaHk5T3UzMVRlT2ZEeG51TlZtT01JT3Q0aWVsejFMMWNHM080Q1RnanpZZXVnY0xCV1dZZnNwakszak5aNzg1aWVBN2Zfb2hCN2FsS1NncWdDR3hMeDZMeEdmZ205ZHZ0WVk5NHV1b0hPVg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Obama étrille Trump: “C’est quoi cette obsession pour tout cet or?”",
+        "url": "https://www.7sur7.be/monde/obama-etrille-trump-cest-quoi-cette-obsession-pour-tout-cet-or~a49afe38/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 8,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 15,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 10,
+      "crime": 9,
+      "eu": 15,
+      "politics": 2,
+      "be_gov": 8,
+      "culture": 5,
+      "tech": 3,
+      "economy": 3,
+      "sports": 26,
+      "health": 0,
+      "climate": 1,
+      "migration": 0,
+      "education": 1,
+      "weather": 25
+    },
+    "wide_themes": {
+      "war": 13,
+      "crime": 13,
+      "eu": 23,
+      "politics": 4,
+      "be_gov": 11,
+      "culture": 7,
+      "tech": 4,
+      "economy": 4,
+      "sports": 38,
+      "health": 1,
+      "climate": 1,
+      "migration": 0,
+      "education": 2,
+      "weather": 32
+    }
   }
 ]
