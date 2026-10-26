@@ -120866,5 +120866,700 @@
       "education": 2,
       "weather": 32
     }
+  },
+  {
+    "date": "2026-10-26",
+    "generated_at": "2026-10-26T10:19:51+01:00",
+    "last_checked_at": "2026-10-26T10:19:51+01:00",
+    "total_articles": 453,
+    "trump_articles": 19,
+    "percentage": 4.2,
+    "core_percentage": 4.2,
+    "core_percentage_name": 4.2,
+    "trump_articles_expanded": 19,
+    "core_percentage_expanded": 4.2,
+    "indirect_references": 0,
+    "wide_total_articles": 607,
+    "wide_trump_articles": 30,
+    "wide_percentage": 4.9,
+    "wide_trump_articles_expanded": 30,
+    "wide_percentage_expanded": 4.9,
+    "macro_percentage": 5.6,
+    "qualifying_outlets": 19,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 33,
+    "cross_outlet_dup_groups": 16,
+    "cross_outlet_dup_rate": 7.3,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 0.65,
+    "deviation": 1.42,
+    "smoothed_pct": 2.71,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 25,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "google_nl_politics": {
+        "fetched": 41,
+        "today": 7,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 11,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 27.27
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 63,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 29,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 9,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 33.33
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 19,
+        "kept": 19,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.79
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 35,
+        "kept": 35,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.86
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.45
+      },
+      "lecho": {
+        "fetched": 94,
+        "today": 33,
+        "kept": 32,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.25
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 63,
+        "kept": 63,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.17
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 36,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "trends_g": {
+        "fetched": 25,
+        "today": 6,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 77,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Amerika-watcher Steven De Foer over de midterms: “Dé vraag is: blijven de massaal teleurgestelde Trump-kiezers thuis of kiezen ze voor de Democraten?” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQUzhlcUdjV05zM2d0ZnY5c0FHR0ZWemNZV1hBNjVaUXhSMXFLeE9PalNGZ19fYzJ1T0wyejV3R0hwa3U2aV9RVlNHck1lTWRvYTVITmh1WmlIWnd3VFF6M25TMlVUWnEzd1JUaGY2QzVPNnRTa1J2bjlmUVN4cTJlWVB4NUU2cFVsN1V6MXczclJNYS1BRHIxMDZvVlZ1ZDQ5RUI3NmFia0JkSy05QnVfNTBZYk5NVVFER0tDeTFkZTlNb2luOUcybkNQOXFzdmJSaUdISHZqVFMtZXlfaFI1WDdWT1czeV9ib1RsVkR4Yi1LYmdkR2l6eFFtR3dqZGI1Y2pEaW9QUHRuakZFTFJ1eE1mSlJRWVh3czJBbTRn?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump roept Israëliërs op voor Netanyahu te stemmen na oproep van “geweldige premier Bibi” voor meer steun",
+        "url": "https://www.hln.be/buitenland/trump-roept-israeliers-op-voor-netanyahu-te-stemmen-na-oproep-van-geweldige-premier-bibi-voor-meer-steun~ae334d6d/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump heeft het tijdens verkiezingsbijeenkomst over het “verdomd prachtige achterwerk” van Nicki Minaj, waarna hij haar op het podium roept",
+        "url": "https://www.hln.be/buitenland/trump-heeft-het-tijdens-verkiezingsbijeenkomst-over-het-verdomd-prachtige-achterwerk-van-nicki-minaj-waarna-hij-haar-op-het-podium-roept~va54e5a10f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Israëlische premier Benjamin Netanyahu vroeg Trump om meer verkiezingssteun’",
+        "url": "https://www.demorgen.be/snelnieuws/live-israelische-premier-benjamin-netanyahu-vroeg-trump-om-meer-verkiezingssteun~ba7f8873/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Gezamenlijke kandidaat van VS, Rusland en China’: regering-Trump zou Viktor Orbán als nieuwe VN-secretaris-generaal willen",
+        "url": "https://www.demorgen.be/nieuws/gezamenlijke-kandidaat-van-vs-rusland-en-china-regering-trump-zou-viktor-orban-als-nieuwe-vn-secretaris-generaal-willen~be0e0596/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "▶ Live - Trump prijst ‘prachtige kont’ van Nicki Minaj tijdens rally en noemt Democratische senaatskandidaat meermaals ‘jihadist’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-prijst-prachtige-kont-van-nicki-minaj-tijdens-rally-en-noemt-democratische-senaatskandidaat-meermaals-jihadist~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump noemt Noorwegen “een strontland” en wil geen Noorse migranten omdat hij de Nobelprijs voor de Vrede niet kreeg",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-noemt-noorwegen-een-strontland-en-wil-geen-noorse-migranten-omdat-hij-de-nobelprijs-voor-de-vrede-niet-kreeg/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump noemt Noorwegen “een strontland” en wil geen Noorse migranten omdat hij de Nobelprijs voor de Vrede niet kreeg",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-noemt-noorwegen-een-strontland-en-wil-geen-noorse-migranten-omdat-hij-de-nobelprijs-voor-de-vrede-niet-kreeg/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Ici, les gens ne réfléchissent pas\" : au Texas, l’envolée de l’essence fera-t-elle trébucher Donald Trump ?",
+        "url": "https://www.rtbf.be/article/ici-les-gens-ne-reflechissent-pas-au-texas-l-envolee-de-l-essence-fera-t-elle-trebucher-donald-trump-11805952",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Ce chef-d’œuvre du cinéma sorti en 2007 avait déjà tout compris de l'Amérique de Donald Trump",
+        "url": "https://www.rtbf.be/article/ce-chef-d-uvre-du-cinema-sorti-en-2007-avait-deja-tout-compris-de-l-amerique-de-donald-trump-11805950",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Comment le boom de l’IA et des data centers pourrait fragiliser le camp républicain de Donald Trump à l’approche des Midterms 2026",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/26/comment-le-boom-de-lia-et-des-data-centers-pourrait-fragiliser-le-camp-republicain-de-donald-trump-a-lapproche-des-midterms-2026-POP6V4E5T5DYHBDJOUU7ZCJLCA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump assure qu'un accord commercial avec le Canada arrivera \"rapidement\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/26/trump-assure-quun-accord-commercial-avec-le-canada-arrivera-rapidement-2CNAAAPBCVEIBLRSP4A6QJP5LU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Chronique | Trump espère une \"surprise d’octobre\"... que ni la Russie ni l’Iran ne lui offriront - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRFh3RXBneFhrX1JCT3A1TEt0MmFPYkF2dXFBX01QOXhwcDBjaXYzNHI5V2NVNW1BN04zQWwxeWppTlQ2TzBsVE51T1ltcTdnWXRhMEhsWDVWcVhGVm5UZHhhQWM5S1FmdWExZUZvSmpjcjR4STI1SEJGdXZMS0w4eHFmaHk5T3UzMVRlT2ZEeG51TlZtT01JT3Q0aWVsejFMMWNHM080Q1RnanpZZXVnY0xCV1dZZnNwakszak5aNzg1aWVBN2Zfb2hCN2FsS1NncWdDR3hMeDZMeEdmZ205ZHZ0WVk5NHV1b0hPVg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Machado retrouve le Venezuela, mais pas les faveurs de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQTQ4YVBaMWJJZ1RlcTFEUmtuUVFEQ1RqWElTX0V3M2tJdzQxWjRZbGVKenk4cWFJeEJhUTd3QVZONUJWQndxTFd4S1BmbUxuM3RfYktZMDdDNU1rM2MzOVNOa21oNmUyeU1teUdtMjhyRG9UYWtSVGNsQWdwTWx0MnJKWFJJeFAtaTAyR2tUWlNLX3VCcHJrOVhWSGhVSFcwNFUzOTBUUURCNVl0Mk5FNzZ0UWluN01RMDYzY2JOVV95djQxR1ZDOEFjMUI4d19QVm5hZXZnZVhFaU5Ca0E?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump appelle les Israéliens à voter pour Netanyahu, un \"guerrier exceptionnel\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/26/donald-trump-appelle-les-israeliens-a-voter-pour-netanyahu-un-guerrier-exceptionnel-UY3UPV2IIZGBDCNM4GQCLI6JGE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump assure qu'un accord commercial avec le Canada arrivera \"rapidement\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/26/trump-assure-quun-accord-commercial-avec-le-canada-arrivera-rapidement-4GJ3RMFC3NGKZGSK5XOUCGNE6M/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“J’ai aperçu un superbe cul”: dans le Michigan, Trump multiplie les provocations aux côtés de Nicki Minaj",
+        "url": "https://www.7sur7.be/monde/jai-apercu-un-superbe-cul-dans-le-michigan-trump-multiplie-les-provocations-aux-cotes-de-nicki-minaj~a54e5a10f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump appelle à voter pour Netanyahu en estimant que la guerre menée contre l’Iran représente une “victoire commune”",
+        "url": "https://www.7sur7.be/monde/trump-appelle-a-voter-pour-netanyahu-en-estimant-que-la-guerre-menee-contre-liran-represente-une-victoire-commune~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump appelle les Israéliens à voter pour Netanyahu, un « guerrier exceptionnel » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdXhCQk1sWlRMdGpUS3BONlV6dFNaNWV6dExoQ2hoMk1PX05wdFA1b2hXSjAzM21OMXVkbktGbDQ4SDg3VEFIWHFUT0s4X3VfcEpPdG5ITlN2NVpSU3YzZFpIMWZidnFKZExFeHE2aHhVUDBsaEFlUjZ0ZVpJbmU2eWtlSHlVMHBubFZNSDdBRmoxSmRtWHdMd1NUZk9uaWpUMlRpdjNoTm9HMW5nMGFOMFNqaWJmQmV4T3NwZFNHbENRcjU5LW45Tzc3LVhWMUdRc1Jxdw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump op campagne in Michigan: “Ik ben hier om een jihadist tegen te houden” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc3FiYm4xbjVUQk1oOHNoVTY2Vy05eVdzbWZKMXMxeF9EbC1GVW5hb3VOenVGblQzcGthRFhHNi1US19hcTgzUi1nRzBmWXh6d2FFYjJMeHdsdG5jbGRndXBlRXg2dm9pa2RKRkxhZ0ZyT1NSTi04Q09HXzNSRUhFemg5MDRUbEMzRHRiSVladUpaVlZ0Umx2NzRHcU82LWlRM2RpcmtydVlHTWJsc2VQSEFrQjFrNVItQktGZ0ZfR2k?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Ce chef-d’œuvre du cinéma sorti en 2007 avait déjà tout compris de l'Amérique de Donald Trump - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcmVFM0txaVdXZGxJbFF1MjVOa0dDNmpJdjhCOEFvOHdPajJUbzFmMm1ZbE4tdG9zZDJGU2lXaFJKajMyNmpCd2EzdjBId2doRS1TYWNfT2RJLXBKQmZaWUduRkt2TUNVYlRFMWctazhXTmYzSy00VTFHVmpvOXFjODI4N2t0WVM4czZROC0tYmJTUFJJbDM3RHRPMHJEMTJ1dGNfd0EzamItb2RnS0F6ZmV1dS1YVFRjdDE1TWRJVGxUdUk4SkhhXw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "WSJ: Trump schuift Orbán naar voren als nieuwe secretaris-generaal VN - bnr.nl",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYkc2Q2NzSFhoU2lqNkJJWG5qZmJnX0FFalhETlNVMkk0M2l3ekNURHd4Z1BxQjJpZHRwTzFyUVljOUZweV9wZ2dJbTllTEZzZUs5aUJuRWlBSUt4em5GVmtETWtnSlFYb21la1pQZGY3MllYR3hydVVaOTd6R1I4QjZ0dHVoR3lCQ3Y2WWhVUFhiOEFvQ1VITm1BY29pb2Q0ekYtOWNzTGljbGdmRHB2Tno3endZMkR2N3c?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump heeft het tijdens verkiezingsbijeenkomst over het “verdomd prachtige achterwerk” van Nicki Minaj, waarna hij haar op het podium roept - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUWJQYy1IaFE3dWpHRGpGdmNyZ2o1R3dRSVZNeGxEeVcxRzZFUlFSamh3RlBzQUtYYklEa09lVms0THJqeDIwaUxrZ3NjLUt4a0FOWDVzR0hlU2VPQVRlcHMySTJ6RTZjWUplUGp6Y2FnZm9PMXY3a0hIR1U0VEJCQlRkanppSUR2NG5rSk9pN0pNeVEwbWRoNy1PLWxKMVl2VTNrR04yNnlkazlvMGRTcXlWTHFkVGtsODNoQVNsY1M0amJkcS1UVFBUSnU5SzFnQnJncTJucUJIX1hkX3lDTnFnSVBUSkdNckFyMDU1b2R2VFdJXzlyR2U0S3hQU05odXJhcHczQzA?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Timmie van Diepen over midterms in de VS: “Zelfs als Trump een forse klap krijgt, zal dat zijn houding tegenover Europa niet miraculeus veranderen” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUWVzM1JjdGd2aDdDRWtCU1RfYnozQnpvU2J1TS1Bamt5aWpiUUJ3VzMtQmYtOUZaRmotc01ZbUc0d0FIUHZnZFAzN2lZU3phVXNUcGJWU0Z4T3NPdFhXdUswYU5TampoTG9VbUVEZmNtZWFPVE42QzB2a1BJOFdMOXA5OTJLdmNhd01yOTRQN1g2cC1vVHlNeDRmS05lTDE2MXJYSU9GelNlZXA0MjQ4LUJodGkzb19wTFI1VHpHQTdqWW9xaTZPYk9icWdXSmFlbm5Fa19VQkVST2ZSaF8tbEFZU25UZG1wMjBSRVcyUDFzeWJoZXhqa0tVenVSTEE1Y2NvX0s2aHZQcDUx?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump wacht niet eens meer op resultaten om ze aan te vechten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNXzdrdW9xZDBuaHA1MjhFRWdUaDhMdVVSZDNwWXE5SWU5MGxCQ1VGVkFRYTdPVXY3M0Fyck04eVBFSW1vbjQ1azl5VmJ2aDk0Q3REQlU1Q25XTFpRa1B6ejBjMUw0cGZtWDZvcGJOcndkSzJjS0RmZkdkQUZNY2k0WjFRODB6N3hKcWc4ZmhZQVh6WGZLd01Camc1V1NxTTNRSnpTQ0U5RmtVVGNybVUwdUNn?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "“J’ai aperçu un superbe cul”: dans le Michigan, Trump multiplie les provocations aux côtés de Nicki Minaj - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUUNTOFhJd1JXNDlhaDFmQzlqSWdhR3hOLWVNQTdpSVhCZkhFM0FHQkE3YVlubE52b1lnZk5uNjJYRmFYZjg3RkdfU0twQVluM1lxSF83Sk5kbXN6dlpwTER0VFJuVmJFdUgtQjMwZmFZWlIxTGlrMHNfVTR2aFRGeUc3ajBTM1pDVDVySGpDR21QYy01UThuLUN5ZHR4WUdDOThaOGJQSjJGeXV4Q3c2cnVNWWNwWTRDYkNOT1RPM21qSHU5Ty13dXFaVjczSlhWMm5Kag?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "« Bibi a été un Premier ministre guerrier exceptionnel » : Donald Trump appelle les Israéliens à voter pour Benjamin Netanyahu - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONG1yUVZmemlubVR0NHhKV1FIcTFZUVByODBTd0FZVWpVMjdURXIzZGl1bW9DQTdlQnJqREw3X3BWeXplbUlhcnZUWXF3VElSMEROMlBMWVp4aWtIczVPSzA1c01xckxvbWhqZnBXS0o0UWV6YjcyNmZGSmtXVWxlN1kzOWlyMFRua2FDMzR4MHBmbTNNS3BzdFdITmdxMTZYUXBvX0VaeVpNN2FGa3kyclJZT1hOd0xSaFVmRG1nQnFvNnV0SVE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Comment le boom de l'IA et des data centers pourrait fragiliser le camp républicain de Donald Trump à l'approche des Midterms 2026 - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQYW13YllWeEViRS0xZUZrSUlKLXcyYnFHeFIxdjZxUlhVQUNtdFZnREFNT2VlaU1fd3loNjdUWjJLclVjT2Q0NkRZSEg2N1RzV1dQRVU2dkJVb0QtUHFLVmRfUHAybXNaYm9jaENyNHROUGlGalFPMjlBTDEyZHZHWUludGVPbUZ1OHhObjlYTEpXbTFiSW1rQ25XbFBkVGUwY09zMFk2UzdURGRFNXRaTjRjeU9YSjNSSzd4Y2djY0VVZHUybU1qTzhHRzhqNmxaM1VsVzhXVzhhbTJxRVo1YmZXZW5sb3djanhGeGkzMXlkOFNCdFlZZXFqM250T0ZESEN4ellqVG1jcDNiMzVNUnJoTVdvVnI4RnV5Zl9DbXdpemRDY1ZvOWt3SkJ2aXgtckJzcmROZ0E?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "' Ici, les gens ne réfléchissent pas ' : au Texas, l’envolée de l’essence fera-t-elle trébucher Donald Trump - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTVZjd1pvY2ttR29QTkpEU0lDSHVkSU91eEdvV2FzcFRQMmJTanBGaVZZWHBPMnFMMDdRSHBkdk5BdVdOTGZqM0JMcmtGcGR1VDdVb0ZUeWlEOGhkRXh4TEV3X3Q4NUpGSXNRRFppc2NHMmVZOE0xT0dxNFhkOEhKR3k3aVVjak1OdWxuOW44eTBVVHpmTnZJRWdRaUN4ekNNNDhWN25sYWRnRm9xZ2VqdTFfMnhucXdjUTdVVGI5QjMzVGFJcjVlV29tR193TXc5Sm5z?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Amerika-watcher Steven De Foer over de midterms: “Dé vraag is: blijven de massaal teleurgestelde Trump-kiezers thuis of kiezen ze voor de Democraten?” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQUzhlcUdjV05zM2d0ZnY5c0FHR0ZWemNZV1hBNjVaUXhSMXFLeE9PalNGZ19fYzJ1T0wyejV3R0hwa3U2aV9RVlNHck1lTWRvYTVITmh1WmlIWnd3VFF6M25TMlVUWnEzd1JUaGY2QzVPNnRTa1J2bjlmUVN4cTJlWVB4NUU2cFVsN1V6MXczclJNYS1BRHIxMDZvVlZ1ZDQ5RUI3NmFia0JkSy05QnVfNTBZYk5NVVFER0tDeTFkZTlNb2luOUcybkNQOXFzdmJSaUdISHZqVFMtZXlfaFI1WDdWT1czeV9ib1RsVkR4Yi1LYmdkR2l6eFFtR3dqZGI1Y2pEaW9QUHRuakZFTFJ1eE1mSlJRWVh3czJBbTRn?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump roept Israëliërs op voor Netanyahu te stemmen na oproep van “geweldige premier Bibi” voor meer steun",
+        "url": "https://www.hln.be/buitenland/trump-roept-israeliers-op-voor-netanyahu-te-stemmen-na-oproep-van-geweldige-premier-bibi-voor-meer-steun~ae334d6d/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump heeft het tijdens verkiezingsbijeenkomst over het “verdomd prachtige achterwerk” van Nicki Minaj, waarna hij haar op het podium roept",
+        "url": "https://www.hln.be/buitenland/trump-heeft-het-tijdens-verkiezingsbijeenkomst-over-het-verdomd-prachtige-achterwerk-van-nicki-minaj-waarna-hij-haar-op-het-podium-roept~va54e5a10f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - ‘Israëlische premier Benjamin Netanyahu vroeg Trump om meer verkiezingssteun’",
+        "url": "https://www.demorgen.be/snelnieuws/live-israelische-premier-benjamin-netanyahu-vroeg-trump-om-meer-verkiezingssteun~ba7f8873/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Gezamenlijke kandidaat van VS, Rusland en China’: regering-Trump zou Viktor Orbán als nieuwe VN-secretaris-generaal willen",
+        "url": "https://www.demorgen.be/nieuws/gezamenlijke-kandidaat-van-vs-rusland-en-china-regering-trump-zou-viktor-orban-als-nieuwe-vn-secretaris-generaal-willen~be0e0596/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "▶ Live - Trump prijst ‘prachtige kont’ van Nicki Minaj tijdens rally en noemt Democratische senaatskandidaat meermaals ‘jihadist’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-prijst-prachtige-kont-van-nicki-minaj-tijdens-rally-en-noemt-democratische-senaatskandidaat-meermaals-jihadist~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump noemt Noorwegen “een strontland” en wil geen Noorse migranten omdat hij de Nobelprijs voor de Vrede niet kreeg",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-trump-noemt-noorwegen-een-strontland-en-wil-geen-noorse-migranten-omdat-hij-de-nobelprijs-voor-de-vrede-niet-kreeg/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump noemt Noorwegen “een strontland” en wil geen Noorse migranten omdat hij de Nobelprijs voor de Vrede niet kreeg",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-noemt-noorwegen-een-strontland-en-wil-geen-noorse-migranten-omdat-hij-de-nobelprijs-voor-de-vrede-niet-kreeg/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump noemt Noorwegen “een strontland” en wil geen Noorse migranten omdat hij de Nobelprijs voor de Vrede niet kreeg",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-noemt-noorwegen-een-strontland-en-wil-geen-noorse-migranten-omdat-hij-de-nobelprijs-voor-de-vrede-niet-kreeg/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Ici, les gens ne réfléchissent pas\" : au Texas, l’envolée de l’essence fera-t-elle trébucher Donald Trump ?",
+        "url": "https://www.rtbf.be/article/ici-les-gens-ne-reflechissent-pas-au-texas-l-envolee-de-l-essence-fera-t-elle-trebucher-donald-trump-11805952",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Ce chef-d’œuvre du cinéma sorti en 2007 avait déjà tout compris de l'Amérique de Donald Trump",
+        "url": "https://www.rtbf.be/article/ce-chef-d-uvre-du-cinema-sorti-en-2007-avait-deja-tout-compris-de-l-amerique-de-donald-trump-11805950",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Comment le boom de l’IA et des data centers pourrait fragiliser le camp républicain de Donald Trump à l’approche des Midterms 2026",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/26/comment-le-boom-de-lia-et-des-data-centers-pourrait-fragiliser-le-camp-republicain-de-donald-trump-a-lapproche-des-midterms-2026-POP6V4E5T5DYHBDJOUU7ZCJLCA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump assure qu'un accord commercial avec le Canada arrivera \"rapidement\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/26/trump-assure-quun-accord-commercial-avec-le-canada-arrivera-rapidement-2CNAAAPBCVEIBLRSP4A6QJP5LU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Chronique | Trump espère une \"surprise d’octobre\"... que ni la Russie ni l’Iran ne lui offriront - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRFh3RXBneFhrX1JCT3A1TEt0MmFPYkF2dXFBX01QOXhwcDBjaXYzNHI5V2NVNW1BN04zQWwxeWppTlQ2TzBsVE51T1ltcTdnWXRhMEhsWDVWcVhGVm5UZHhhQWM5S1FmdWExZUZvSmpjcjR4STI1SEJGdXZMS0w4eHFmaHk5T3UzMVRlT2ZEeG51TlZtT01JT3Q0aWVsejFMMWNHM080Q1RnanpZZXVnY0xCV1dZZnNwakszak5aNzg1aWVBN2Zfb2hCN2FsS1NncWdDR3hMeDZMeEdmZ205ZHZ0WVk5NHV1b0hPVg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Machado retrouve le Venezuela, mais pas les faveurs de Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQTQ4YVBaMWJJZ1RlcTFEUmtuUVFEQ1RqWElTX0V3M2tJdzQxWjRZbGVKenk4cWFJeEJhUTd3QVZONUJWQndxTFd4S1BmbUxuM3RfYktZMDdDNU1rM2MzOVNOa21oNmUyeU1teUdtMjhyRG9UYWtSVGNsQWdwTWx0MnJKWFJJeFAtaTAyR2tUWlNLX3VCcHJrOVhWSGhVSFcwNFUzOTBUUURCNVl0Mk5FNzZ0UWluN01RMDYzY2JOVV95djQxR1ZDOEFjMUI4d19QVm5hZXZnZVhFaU5Ca0E?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump appelle les Israéliens à voter pour Netanyahu, un \"guerrier exceptionnel\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/26/donald-trump-appelle-les-israeliens-a-voter-pour-netanyahu-un-guerrier-exceptionnel-UY3UPV2IIZGBDCNM4GQCLI6JGE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump assure qu'un accord commercial avec le Canada arrivera \"rapidement\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/26/trump-assure-quun-accord-commercial-avec-le-canada-arrivera-rapidement-4GJ3RMFC3NGKZGSK5XOUCGNE6M/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“J’ai aperçu un superbe cul”: dans le Michigan, Trump multiplie les provocations aux côtés de Nicki Minaj",
+        "url": "https://www.7sur7.be/monde/jai-apercu-un-superbe-cul-dans-le-michigan-trump-multiplie-les-provocations-aux-cotes-de-nicki-minaj~a54e5a10f/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump appelle à voter pour Netanyahu en estimant que la guerre menée contre l’Iran représente une “victoire commune”",
+        "url": "https://www.7sur7.be/monde/trump-appelle-a-voter-pour-netanyahu-en-estimant-que-la-guerre-menee-contre-liran-represente-une-victoire-commune~a8fabb59/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump appelle les Israéliens à voter pour Netanyahu, un « guerrier exceptionnel » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdXhCQk1sWlRMdGpUS3BONlV6dFNaNWV6dExoQ2hoMk1PX05wdFA1b2hXSjAzM21OMXVkbktGbDQ4SDg3VEFIWHFUT0s4X3VfcEpPdG5ITlN2NVpSU3YzZFpIMWZidnFKZExFeHE2aHhVUDBsaEFlUjZ0ZVpJbmU2eWtlSHlVMHBubFZNSDdBRmoxSmRtWHdMd1NUZk9uaWpUMlRpdjNoTm9HMW5nMGFOMFNqaWJmQmV4T3NwZFNHbENRcjU5LW45Tzc3LVhWMUdRc1Jxdw?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 19,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 7,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 4,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 2,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 30,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 9,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 4,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 27,
+      "crime": 6,
+      "eu": 14,
+      "politics": 26,
+      "be_gov": 10,
+      "culture": 21,
+      "tech": 14,
+      "economy": 11,
+      "sports": 20,
+      "health": 3,
+      "climate": 1,
+      "migration": 1,
+      "education": 11,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 35,
+      "crime": 8,
+      "eu": 19,
+      "politics": 34,
+      "be_gov": 14,
+      "culture": 28,
+      "tech": 21,
+      "economy": 12,
+      "sports": 31,
+      "health": 4,
+      "climate": 1,
+      "migration": 1,
+      "education": 13,
+      "weather": 14
+    }
   }
 ]
