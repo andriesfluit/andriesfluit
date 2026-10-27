@@ -121561,5 +121561,706 @@
       "education": 13,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-10-27",
+    "generated_at": "2026-10-27T10:18:58+01:00",
+    "last_checked_at": "2026-10-27T10:18:58+01:00",
+    "total_articles": 497,
+    "trump_articles": 20,
+    "percentage": 4.0,
+    "core_percentage": 4.0,
+    "core_percentage_name": 4.0,
+    "trump_articles_expanded": 22,
+    "core_percentage_expanded": 4.4,
+    "indirect_references": 2,
+    "wide_total_articles": 654,
+    "wide_trump_articles": 25,
+    "wide_percentage": 3.8,
+    "wide_trump_articles_expanded": 28,
+    "wide_percentage_expanded": 4.3,
+    "macro_percentage": 3.1,
+    "qualifying_outlets": 22,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 54,
+    "cross_outlet_dup_groups": 27,
+    "cross_outlet_dup_rate": 10.9,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.5,
+    "breadth": 0.56,
+    "deviation": 1.31,
+    "smoothed_pct": 2.96,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 51,
+        "today": 8,
+        "kept": 6,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 16.67
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 50,
+        "today": 9,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 29,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 40.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 92,
+        "today": 38,
+        "kept": 33,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.03
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 4.08
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 38,
+        "kept": 37,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 35,
+        "kept": 35,
+        "trump": 6,
+        "trump_expanded": 6,
+        "share": 17.14
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 49,
+        "kept": 49,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.12
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 23,
+        "kept": 23,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.7
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.45
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 77,
+        "today": 27,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 75,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Van Bolsonaro tot Trump: valsspelers hebben niks te zoeken bij verkiezingen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMk01RHNrVGJMcEFPVTl3QnA3bk9OVWpIWkhLVjFzTjFTTnFNTHRoWm5od3F0WW0tWHJKNFg2ZlRXamZFTXY0VkRlQ002SHNqWGV4cEo5TTktdlcwak52eXVRMThvQlBzcUM2Sms0dWZ3UU9NV085ZnE3cVNCeGxrd3VtYXFqbUh2UkplYllIQVNyVFJUcFYxY2RyMUQ5NWowMjNKY0xXOG9xSVhtMC1tRDVIcm1qRmlfMnI0Z3VwOA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Van luxetrouwfeest tot jachttrip in Mongolië: Trump Jr. opnieuw op pad met Russische oligarch gelinkt aan Poetin",
+        "url": "https://www.hln.be/buitenland/van-luxetrouwfeest-tot-jachttrip-in-mongolie-trump-jr-opnieuw-op-pad-met-russische-oligarch-gelinkt-aan-poetin~a8a13cfee/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Live - Voormalig FBI-directeur James Comey voor derde keer aangeklaagd: ‘Daar gaan we weer’ • Trump looft een miljoen dollar uit aan melders van ‘kiezersfraude’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-looft-een-miljoen-dollar-uit-aan-melders-van-kiezersfraude-braziliaanse-verkiezingen-lijken-gemanipuleerd-zegt-trump~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trumps zoon Donald Jr. ging in Mongolië jagen met Russische zakenman",
+        "url": "https://www.nieuwsblad.be/nieuws/trumps-zoon-donald-jr.-ging-in-mongolie-jagen-met-russische-zakenman/163660676.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trumps zoon Donald Jr. ging in Mongolië jagen met Russische zakenman",
+        "url": "https://www.hbvl.be/nieuws/trumps-zoon-donald-jr.-ging-in-mongolie-jagen-met-russische-zakenman/163661582.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Door Melania Trump bewerkstelligd staakt-het-vuren in Oleshky is ingegaan - Nog steeds aanvallen op Kiev",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-door-melania-trump-bewerkstelligd-staakt-het-vuren-in-oleshky-is-ingegaan-nog-steeds-aanvallen-op-kiev/44960637.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Trump belooft miljoen dollar voor informatie over verkiezingsfraude - Voormalig FBI-directeur Comey weer aangeklaagd",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-belooft-miljoen-dollar-voor-informatie-over-verkiezingsfraude-voormalig-fbi-directeur-comey-weer-aangeklaagd/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Essence, courses, engrais ... \"Tout coûte cher\" : en Géorgie, les démocrates font du pouvoir d’achat leur arme contre Trump",
+        "url": "https://www.rtbf.be/article/essence-courses-engrais-tout-coute-cher-en-georgie-les-democrates-font-du-pouvoir-d-achat-leur-arme-contre-trump-11806031",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "A une semaine du scrutin, un tribunal rejette une demande formulée par Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/10/27/a-une-semaine-du-scrutin-un-tribunal-rejette-une-demande-formulee-par-donald-trump-MDEI2Z4FPVDQDLC72VAYNFJAWA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump accusé de viol par une ancienne mannequin suisse",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/27/trump-accuse-de-viol-par-une-ancienne-mannequin-suisse-DG2RV2FYJFFG7D5ANPVLKSH6RM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Si nous ne gagnons pas, il n’y aura pas d’argent\": les promesses électorales de Donald Trump posent question",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/27/si-nous-ne-gagnons-pas-il-ny-aura-pas-dargent-les-promesses-electorales-de-donald-trump-posent-question-BREOJTQBRFEODEUNF3TWUCPU3M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une juge suspend jusqu'à nouvel ordre le projet de golf de Trump à Washington, le président s'agace",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/27/une-juge-suspend-jusqua-nouvel-ordre-le-projet-de-golf-de-trump-a-washington-le-president-sagace-MJKSUYFMAJAJPEUOYTPD4AMEFE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "James Comey, bête noire de Trump, de nouveau poursuivi en justice",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/27/james-comey-bete-noire-de-trump-de-nouveau-poursuivi-en-justice-G6ADDOFF3FA6DHX27RTGF7XLIM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : “Affordability”, le mot que Donald Trump déteste",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/10/27/midterms-2026-affordability-le-mot-que-donald-trump-deteste-IDU5RMS7CNGRTOPEXW2HWCIMLI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump accusé de viol par une ancienne mannequin suisse : “Il m’avait sauté dessus”",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/27/trump-accuse-de-viol-par-une-ancienne-mannequin-suisse-il-mavait-saute-dessus-DNHYXPC7JRDLRCCJJCBRJ5HD4A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump enchaîne les promesses… une forme de corruption ? “Si nous ne gagnons pas, il n’y aura pas d’argent”",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/27/donald-trump-enchaine-les-promesses-une-forme-de-corruption-si-nous-ne-gagnons-pas-il-ny-aura-pas-dargent-QN3YWZJ7ONDWBM2JJKLFNNCNQA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "L’ancien directeur du FBI, bête noire de Trump, de nouveau poursuivi en justice",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/27/lancien-directeur-du-fbi-bete-noire-de-trump-de-nouveau-poursuivi-en-justice-VH3Z5MR2VNC4JBPX36MUGFLPIE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Marionnette”, “pitoyable”: le patron d’Audi provoque un tollé en Allemagne en s’affichant avec Trump",
+        "url": "https://www.7sur7.be/monde/marionnette-pitoyable-le-patron-daudi-provoque-un-tolle-en-allemagne-en-saffichant-avec-trump~abd4fa16/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Un tribunal rejette la demande de Trump visant à annuler 20.000 votes en Californie",
+        "url": "https://www.7sur7.be/monde/un-tribunal-rejette-la-demande-de-trump-visant-a-annuler-20-000-votes-en-californie~a6901d35/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Bye Bye Trump » : l’initiative insolite d’une brasserie belge (photos) - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN21FdGxTS1JvdVV4dGRoSW9Ib3NlbVpUQzZ4TXpTQkJ5TjhuWDlzMnFBaDk0dmQ2al9kODVFODMwVVpKUkZsc2VTdFVkckUzV2ZMTDlFTy1GYmhsNEtQRnpWYWszM1o1REtWbUNYdDFxVVVDbl96d2Z6YWVEd0RFNTczYVVPNksxOEhsYnlKQjg4eURmY3ozYXhyTzhhRWdKRk9CM2t6d2xlcGdaSm80?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Un projet de Trump à Washington stoppé par la justice - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNODJnOWRiUDBOa0J5dkFCM0FpNlJoU3A2VGp5cHRfQUMzVjBBQVVWRjdDMEZmaWZaVmNnd01RVDZIY285OTZxVmI2ZVk5bVI3cEdPMzlYM2ZObVBJd042NTN5Q1hsYnpMdDk0SVY1Wk5jZEJ3cGdLLURCbGdfSWY2OVFOMzlvMjRiVFJqNW55Wi1aZHlwYlZqQXo0d0t5TjVY?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "L’ex-directeur du FBI James Comey, bête noire de Trump, de nouveau poursuivi en justice - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcVlSQU45OTcwT2sySnd5RXdaWFlSRHpQNEpvREpKdTFpNTExSW5DTDJWYnJpcDJyNTUxLU5abjhJZG85cmR3M3ZUMy1xNzBoSlNSaVA4RFhTVDF3bUhHQzNvTEU1eVN1Y2RoVE01a0RyQ21sUk5uNHRrTjJrUnR2LVRhSnFqNjNhSTlYZ1FQZTV0cEZRVDNjX0xLMGFqUUQ2c1R2bFUtQW9DTWtEVG5Td21xVEJ0UUxmOThuODZNdjdrdnoxcEtJ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trumps zoon Donald Jr. ging in Mongolië jagen met Russische zakenman - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdnNoRnBQdnNzcTNQYlhWeVZSWWkxelB5VnZnZG5GLUNZb0NkY1l5ZlU5VGhETkJLMUdnSGdRNEc1MWJPemJUMnlKS0tRcVJQcXZjaWd3TFZxWW1qRDd3a05hclFRemhIdVRES1R0a0k3UWRpTFA0WlpielVJdUNJQ2xrNGFRTzZUZHljMDFET2wxelNZOVk1WVJEY05FTXdsMkg3YmNHdjVBSkZaR2VycnM1Wklyanc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "L'ancien directeur du FBI, bête noire de Trump, de nouveau poursuivi en justice - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOOWlfU3NJZGQ2SDZDTnVHZjd5YXJ6X0ZXTk53bXhqZHE1TzJxemtGRjZZNHJCeDNYZ3FIZE1uZkpvSk5OQ1ZTcGRwdXkzVUNkNTlWdVBTdlItWHBkVm9za2tmU1VmNmpCOEtNVGYtc25tT28zejlaRndVd2RXUDUyUGt1eTV1WDA0cUVjWURoRzhSRUNFMGRkRU5vM2tSdFBneTlRVElmQlV5SDRFcjZOME5BZzhjaTdiLUMwSUxWTGRfZTUxQWVwQnVWbnBHak9TMnRDX196d1J4cXJYUFJRbQ?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : \"Affordability\", le mot que Donald Trump déteste - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQY1dEci04Y0NxZ0tIVmhzTVl5ZThQMkxmZzk0MXFJVnNZZHdZNHVFeXNnSHB0TDZfY0hpUV93VDdsWUtzV2V3WEFLQzJoTC0tWndNOThyRFNqWHc2ZUtiMzlLTlY2eWlKNFhMNTJRbmVramp5UjZnSHZMWFczYnJOYzBydHRuWE1sYUJSWW1nMlpqTnkycmRnRk4zSjZWdmZkb09MVFBySi1rcVlKc1BvU0F4dUdZdUJTNXBLeXNvd3RINmpJWTlDRkNyU1FUMkpPMFZ2NHI5N2x1UmVGVVpCNzZLMXFTakVHN1ZuTnFn?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Van Bolsonaro tot Trump: valsspelers hebben niks te zoeken bij verkiezingen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMk01RHNrVGJMcEFPVTl3QnA3bk9OVWpIWkhLVjFzTjFTTnFNTHRoWm5od3F0WW0tWHJKNFg2ZlRXamZFTXY0VkRlQ002SHNqWGV4cEo5TTktdlcwak52eXVRMThvQlBzcUM2Sms0dWZ3UU9NV085ZnE3cVNCeGxrd3VtYXFqbUh2UkplYllIQVNyVFJUcFYxY2RyMUQ5NWowMjNKY0xXOG9xSVhtMC1tRDVIcm1qRmlfMnI0Z3VwOA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Van luxetrouwfeest tot jachttrip in Mongolië: Trump Jr. opnieuw op pad met Russische oligarch gelinkt aan Poetin",
+        "url": "https://www.hln.be/buitenland/van-luxetrouwfeest-tot-jachttrip-in-mongolie-trump-jr-opnieuw-op-pad-met-russische-oligarch-gelinkt-aan-poetin~a8a13cfee/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Live - Voormalig FBI-directeur James Comey voor derde keer aangeklaagd: ‘Daar gaan we weer’ • Trump looft een miljoen dollar uit aan melders van ‘kiezersfraude’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-looft-een-miljoen-dollar-uit-aan-melders-van-kiezersfraude-braziliaanse-verkiezingen-lijken-gemanipuleerd-zegt-trump~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trumps zoon Donald Jr. ging in Mongolië jagen met Russische zakenman",
+        "url": "https://www.nieuwsblad.be/nieuws/trumps-zoon-donald-jr.-ging-in-mongolie-jagen-met-russische-zakenman/163660676.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trumps zoon Donald Jr. ging in Mongolië jagen met Russische zakenman",
+        "url": "https://www.gva.be/buitenland/trumps-zoon-donald-jr.-ging-in-mongolie-jagen-met-russische-zakenman/163660998.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Door Melania Trump bewerkstelligd staakt-het-vuren in Oleshky is ingegaan - Nog steeds aanvallen op Kiev",
+        "url": "https://www.gva.be/buitenland/live-oorlog-in-oekraine.-door-melania-trump-bewerkstelligd-staakt-het-vuren-in-oleshky-is-ingegaan-nog-steeds-aanvallen-op-kiev/76695337.html",
+        "source": "gva",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Trump belooft miljoen dollar voor informatie over verkiezingsfraude - Voormalig FBI-directeur Comey weer aangeklaagd",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-belooft-miljoen-dollar-voor-informatie-over-verkiezingsfraude-voormalig-fbi-directeur-comey-weer-aangeklaagd/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trumps zoon Donald Jr. ging in Mongolië jagen met Russische zakenman",
+        "url": "https://www.hbvl.be/nieuws/trumps-zoon-donald-jr.-ging-in-mongolie-jagen-met-russische-zakenman/163661582.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Door Melania Trump bewerkstelligd staakt-het-vuren in Oleshky is ingegaan - Nog steeds aanvallen op Kiev",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-door-melania-trump-bewerkstelligd-staakt-het-vuren-in-oleshky-is-ingegaan-nog-steeds-aanvallen-op-kiev/44960637.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Trump belooft miljoen dollar voor informatie over verkiezingsfraude - Voormalig FBI-directeur Comey weer aangeklaagd",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-belooft-miljoen-dollar-voor-informatie-over-verkiezingsfraude-voormalig-fbi-directeur-comey-weer-aangeklaagd/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Essence, courses, engrais ... \"Tout coûte cher\" : en Géorgie, les démocrates font du pouvoir d’achat leur arme contre Trump",
+        "url": "https://www.rtbf.be/article/essence-courses-engrais-tout-coute-cher-en-georgie-les-democrates-font-du-pouvoir-d-achat-leur-arme-contre-trump-11806031",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "A une semaine du scrutin, un tribunal rejette une demande formulée par Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/10/27/a-une-semaine-du-scrutin-un-tribunal-rejette-une-demande-formulee-par-donald-trump-MDEI2Z4FPVDQDLC72VAYNFJAWA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump accusé de viol par une ancienne mannequin suisse",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/27/trump-accuse-de-viol-par-une-ancienne-mannequin-suisse-DG2RV2FYJFFG7D5ANPVLKSH6RM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Si nous ne gagnons pas, il n’y aura pas d’argent\": les promesses électorales de Donald Trump posent question",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/27/si-nous-ne-gagnons-pas-il-ny-aura-pas-dargent-les-promesses-electorales-de-donald-trump-posent-question-BREOJTQBRFEODEUNF3TWUCPU3M/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une juge suspend jusqu'à nouvel ordre le projet de golf de Trump à Washington, le président s'agace",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/27/une-juge-suspend-jusqua-nouvel-ordre-le-projet-de-golf-de-trump-a-washington-le-president-sagace-MJKSUYFMAJAJPEUOYTPD4AMEFE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "James Comey, bête noire de Trump, de nouveau poursuivi en justice",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/27/james-comey-bete-noire-de-trump-de-nouveau-poursuivi-en-justice-G6ADDOFF3FA6DHX27RTGF7XLIM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : “Affordability”, le mot que Donald Trump déteste",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/10/27/midterms-2026-affordability-le-mot-que-donald-trump-deteste-IDU5RMS7CNGRTOPEXW2HWCIMLI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump accusé de viol par une ancienne mannequin suisse : “Il m’avait sauté dessus”",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/27/trump-accuse-de-viol-par-une-ancienne-mannequin-suisse-il-mavait-saute-dessus-DNHYXPC7JRDLRCCJJCBRJ5HD4A/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump enchaîne les promesses… une forme de corruption ? “Si nous ne gagnons pas, il n’y aura pas d’argent”",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/27/donald-trump-enchaine-les-promesses-une-forme-de-corruption-si-nous-ne-gagnons-pas-il-ny-aura-pas-dargent-QN3YWZJ7ONDWBM2JJKLFNNCNQA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "L’ancien directeur du FBI, bête noire de Trump, de nouveau poursuivi en justice",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/27/lancien-directeur-du-fbi-bete-noire-de-trump-de-nouveau-poursuivi-en-justice-VH3Z5MR2VNC4JBPX36MUGFLPIE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Marionnette”, “pitoyable”: le patron d’Audi provoque un tollé en Allemagne en s’affichant avec Trump",
+        "url": "https://www.7sur7.be/monde/marionnette-pitoyable-le-patron-daudi-provoque-un-tolle-en-allemagne-en-saffichant-avec-trump~abd4fa16/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Un tribunal rejette la demande de Trump visant à annuler 20.000 votes en Californie",
+        "url": "https://www.7sur7.be/monde/un-tribunal-rejette-la-demande-de-trump-visant-a-annuler-20-000-votes-en-californie~a6901d35/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "« Bye Bye Trump » : l’initiative insolite d’une brasserie belge (photos) - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN21FdGxTS1JvdVV4dGRoSW9Ib3NlbVpUQzZ4TXpTQkJ5TjhuWDlzMnFBaDk0dmQ2al9kODVFODMwVVpKUkZsc2VTdFVkckUzV2ZMTDlFTy1GYmhsNEtQRnpWYWszM1o1REtWbUNYdDFxVVVDbl96d2Z6YWVEd0RFNTczYVVPNksxOEhsYnlKQjg4eURmY3ozYXhyTzhhRWdKRk9CM2t6d2xlcGdaSm80?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Un projet de Trump à Washington stoppé par la justice - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNODJnOWRiUDBOa0J5dkFCM0FpNlJoU3A2VGp5cHRfQUMzVjBBQVVWRjdDMEZmaWZaVmNnd01RVDZIY285OTZxVmI2ZVk5bVI3cEdPMzlYM2ZObVBJd042NTN5Q1hsYnpMdDk0SVY1Wk5jZEJ3cGdLLURCbGdfSWY2OVFOMzlvMjRiVFJqNW55Wi1aZHlwYlZqQXo0d0t5TjVY?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "L’ex-directeur du FBI James Comey, bête noire de Trump, de nouveau poursuivi en justice - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcVlSQU45OTcwT2sySnd5RXdaWFlSRHpQNEpvREpKdTFpNTExSW5DTDJWYnJpcDJyNTUxLU5abjhJZG85cmR3M3ZUMy1xNzBoSlNSaVA4RFhTVDF3bUhHQzNvTEU1eVN1Y2RoVE01a0RyQ21sUk5uNHRrTjJrUnR2LVRhSnFqNjNhSTlYZ1FQZTV0cEZRVDNjX0xLMGFqUUQ2c1R2bFUtQW9DTWtEVG5Td21xVEJ0UUxmOThuODZNdjdrdnoxcEtJ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 20,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 7,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 13,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 15
+    },
+    "wide_comparisons": {
+      "trump": 25,
+      "putin": 3,
+      "macron": 1,
+      "netanyahu": 9,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 21,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 20
+    },
+    "themes": {
+      "war": 25,
+      "crime": 39,
+      "eu": 12,
+      "politics": 26,
+      "be_gov": 22,
+      "culture": 14,
+      "tech": 10,
+      "economy": 18,
+      "sports": 17,
+      "health": 5,
+      "climate": 9,
+      "migration": 1,
+      "education": 6,
+      "weather": 15
+    },
+    "wide_themes": {
+      "war": 32,
+      "crime": 48,
+      "eu": 20,
+      "politics": 33,
+      "be_gov": 36,
+      "culture": 19,
+      "tech": 13,
+      "economy": 19,
+      "sports": 30,
+      "health": 10,
+      "climate": 13,
+      "migration": 1,
+      "education": 8,
+      "weather": 21
+    }
   }
 ]
