@@ -122262,5 +122262,598 @@
       "education": 8,
       "weather": 21
     }
+  },
+  {
+    "date": "2026-10-28",
+    "generated_at": "2026-10-28T10:59:32+01:00",
+    "last_checked_at": "2026-10-28T10:59:32+01:00",
+    "total_articles": 492,
+    "trump_articles": 13,
+    "percentage": 2.6,
+    "core_percentage": 2.6,
+    "core_percentage_name": 2.6,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 2.6,
+    "indirect_references": 0,
+    "wide_total_articles": 657,
+    "wide_trump_articles": 19,
+    "wide_percentage": 2.9,
+    "wide_trump_articles_expanded": 19,
+    "wide_percentage_expanded": 2.9,
+    "macro_percentage": 3.7,
+    "qualifying_outlets": 22,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 36,
+    "cross_outlet_dup_groups": 18,
+    "cross_outlet_dup_rate": 7.3,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.33,
+    "breadth": 0.56,
+    "deviation": 0.85,
+    "smoothed_pct": 2.91,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "google_nl_politics": {
+        "fetched": 61,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 12,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 16.67
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 33,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 4,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 87,
+        "today": 34,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 20,
+        "kept": 20,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 39,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.13
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 24,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.33
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "trends_g": {
+        "fetched": 75,
+        "today": 9,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Niet Trump, maar defensieminister Hegseth in het vizier: Democraten overwegen nieuwe impeachment na midterms",
+        "url": "https://www.hln.be/buitenland/niet-trump-maar-defensieminister-hegseth-in-het-vizier-democraten-overwegen-nieuwe-impeachment-na-midterms~aea28c54/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump voert antimoslimretoriek tegen El-Sayed op in aanloop naar midterms • Trump over komst Bolsonaro naar VS: ‘Het zijn aardige mensen’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-over-komst-bolsonaro-naar-vs-het-zijn-aardige-mensen-zoon-donald-trump-ging-in-mongolie-op-jacht-met-russische-oligarch-uit-kring-rond-poetin~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Volgens Trump ontmoeten Zelensky en Poetin elkaar ‘heel binnenkort’ • Zelensky toont zich optimistisch over Oekraïense vooruitgang aan het front",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-volgens-trump-ontmoeten-zelensky-en-poetin-elkaar-heel-binnenkort-zelensky-toont-zich-optimistisch-over-oekraiense-vooruitgang-aan-het-front~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump: “Laten we van Venezuela de 51ste staat van de VS maken”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-laten-we-van-venezuela-de-51ste-staat-van-de-vs-maken/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce assouplir les règles limitant les émissions de méthane des énergies fossiles",
+        "url": "https://www.rtbf.be/article/trump-annonce-assouplir-les-regles-limitant-les-emissions-de-methane-des-energies-fossiles-11806910",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026: les Latinos du Texas reprennent leurs distances avec Trump",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/10/28/midterms-2026-les-latinos-du-texas-reprennent-leurs-distances-avec-trump-LXXNYYTG6ZCUDPRAGBTKVB4JWY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Trump annonce une rencontre entre Poutine et Zelensky \"très bientôt\"",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/10/28/guerre-en-ukraine-trump-annonce-une-rencontre-entre-poutine-et-zelensky-tres-bientot-A7KHFF6KZFHLJOUAV7B4QN5H2A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Poutine et Zelensky bientôt autour de la même table, selon Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQmxhN3ppcnhRUXc2M09wQm42Mlk1aGstdXZmQ2dURGU3UHgyY25kd0pIZC10OUtLbXowTHRlbHRNdVlFeDBpYV9UX1dhUFlfcWJtMm41bFZBMEVPUUh5WlNUNzQyakd2V2hRbWYxcmp1eEw1R3AxMG5mNjFOTmFjVnc5VlNpWnJybW9mdHlrU0w5UWM4SHRqbWVEcW1pREFvWm50dm9SQ3BJRS1oejdrZzdabHZHWGhtQ0VCZThSbjhxeXRqRGhZWTFn?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Trump annonce une rencontre avec Poutine et Zelensky \"très bientôt\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/28/guerre-en-ukraine-trump-annonce-une-rencontre-avec-poutine-et-zelensky-tres-bientot-F4JUJ6YUBRDKTFT4ETORGJJ3OE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump dit qu’une rencontre Poutine-Zelensky va être organisée « très bientôt » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUDF4RVNpNGwwQ1lpcW9kcVZEcXVtbzFkbU91ZlVFeThMR0stYWFRbXNXMjVvb25mMEZlejdsMm9QeVlzY3A3eXc5M0lDN2RyWGRvLXNCRFljNUZ0UTJCU0FQWTFWYmJUTVFQck1Cam84N2tSOUFiZ3o3SWNMeURCbC1wMXpmWEc4M0hzM3BLT054MlUwbmVnMFdaTm1aTVFkWTQ5S3NrLWNHLW44WjN5ZG1tZVhNX05wRUJzaHl3?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce assouplir les règles limitant les émissions de méthane des énergies fossiles - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX2Z5ZDlVWGtLb09SODBTeU9RcV9EdFZFYTlfVUpXN0lfUkZ4SldsMEFRdFpIQ1lhT3Y2SXB2WlBRMlNmWWpzRVZaeUxGa1I1VG1aUUNHS1VBWWZpYk03REQ1czE0RV80Q3lJMnRoMHo4am0zd2xNN24tNzZMbFo1VHBWOFVQejJCME16TG5UekVGS1puc2F5c3ZQeFM4OGZvQkVNaEZNdU9MSWlaN0paUWRoa19yNGE3ZFdObQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: Trump dit qu'une rencontre Poutine-Zelensky va être organisée \"très bientôt\" - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNamFaSzhoSXZha3dVTDhVb2owU0I3RU5TbHRPNVVwdU1hd1ZkYWZfM1ZwcGhPd2dKdlIweVRENDRUWU14N0Y4Ym1EcDE5QnBraWZhZjM0cDRDQ05DWGxsZmVIZGNfbHp2WlhpaC1BUDJQa1hDX28wLUt3Ynlrc2d4VjR1YmsxbXB0ZjJsY21sR3hpeUZ4eFN3dmx1Wk1CYnFYZ1lRcVJFd0pHQS1hMmgxSzZzdEdqcTNvOTUwSlJVUkZtamFxOTJTV2NGWFUyNzhKeWQwQURKNHlPWFYweHlSbVhSUHp2ZGx2Nl9TQmMzSEdHZnFPbXJubg?oc=5",
+        "source": "lavenir_g",
+        "name_only": true
+      },
+      {
+        "title": "Enfin une entrevue entre Poutine et Zelensky ? Donald Trump annonce une rencontre pour « très bientôt - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNaWtkSnBtbDNueTFDZmVmQTNDdHB5UzFRcHFmWTEwNENVdTVxbDgyc3M2Ul9WRnNpYkNEU2tESGZ1ZFBEODliN2t3dUFPUXY4X3NLVG5qVkRDSDQwUWxpUWdzak9FelhUaHZ5cl9OOVdXbEpiOWZ2X0FJOWxnaS1GSTlXbmZrdC1TSEpiZThTUVVxRGlYNGxaRXN4b3hzVk5obTAxNWxzNEpFLUNSczNQM3pENGlrUWdfXzhKZDVfcEVpbnJTdjdmcnhjaXU1QmlBRXNQeEpfbnBkeFQ0enlYY08wTQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Niet Trump, maar defensieminister Hegseth in het vizier: Democraten overwegen nieuwe impeachment na midterms - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTkE1NFBrNk1ST0VCdllPN3lUaDFpb2ZrbHhza3FwMGFrejdIcXJLdHhoVGRLV3VRMFFDQmhRM1RxTlBXMHVxUUF3UGNlSVh0OEUzY2NobTdZdThCbnFYbTdMRzlUd1hGODdWeWNIX2g5VllxcXBJZnFqUHlHZDk4U2lUWWxMUlRFYU5NMS0yd2xvUlFBVWpEdDR5QXpiV3dxemlfNnFhX2NtV3JMbkNGTjNub2NUVklUS0tJZ0hjVWsyTTNIelAwN3A2alQ4eEFxc1M5Nkl0WFBTeS1Ldk5z?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "« L’Europe serait ravie » : Donald Trump veut désormais rebaptiser l’océan Atlantique - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZlNuVkVCOGFwV2MzMC04cm9RZ1ljdWJJRUY5Q21rOGx5TkJiZnJKcTQ4TFptR3pqU1lBcV92UWg0UDJKVGVNU2F4X2otNTh3WTltRmNkU0NjSGlWVUJwcFBxMTRyTGVlRGZYSl9TWEloU0Q2Q0tTaUZ5aTJSZ2JsYzMxOFJBQUx5Mk52ZlgzRzBpbG5YSDN4dHN4dmZFZERuZGhVMl9MVWhpSFk0SkMtaC0tQ25pVzQ1ZFAxRDRjdko3amhPME9wV0UtUmNOc1o1TktqQUt4YU0zRklaWXFXRw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Nouvelle décision polémique de Donald Trump : le président américain annonce assouplir les règles limitant les émissions de méthane des énergies fossiles - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZDdVMHdxVW9YbExycG5TNDNLSVpNMmZjYWt4S0ZZOE5TWTFzNTFlTW84Q2VvVERBOUVMQXpINlA1NHNBWEtDLXl3aHV1NURYLW5QY2tKRU9DSnNXdkh3S2wxazYyM2YwM29jZi1ZdVY0TXVicW04ZXczTUtpTmVGc1NNYzJVLW04aW9FaWw5UGxYTHVHMmhKU2pWTUtweFlqaF9TUVROSHJDMjR2VmYyMEs3Rnl6QW5oQUVBdkVEWTdZdkdO?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil dat Venezuela 51e Amerikaanse staat wordt - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX19XQ0VlX0c4clkzdGNBbFRSY2E3N0RLWGJGTEpsVjUyTGVCeTNEQzBvRHBnNFphMXJ2U3lpY3NuYmhWV0Y4SU0zejFUbHFTdk9US0p6Y1JZMjlDTXRXU21ndkY3Q0txV2R4TXVRcjUzdWNaUzJxSHZKaFZNUGRLel9OUHNSSnQxdk1BcldYQlMtdlZucGxueG5IOTZrdkR1azI4?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Ex-Miss Zwitserland-finaliste Beatrice Keul beschuldigt Donald Trump van verkrachting - GVA",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS2hhUU1PVkhLWXgwM09JQURxdnZfaWZRZVpwejF0TlFKUnE5RHdlWDJQLXZ4R3Rra0VXdDdVeURDSkJQdEctdFU3Q3ZOUzdOUUJER0lNcGlXbUVHRnBRYkY2TFIyTVRXdmZiU2F0bkV1RFdlU243ay1BbUM2UVNhN2FwQ29PUzBSRWNWSHRLWnp5WVhMWExUNmtvVnFESEtfTGRpUC1KSzNFRGdOQndJMUZhWDIwcmRQZVNxTDh1Q2hhUFJtWVBIYWhB?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Volgens Trump ontmoeten Zelensky en Poetin elkaar “heel binnenkort” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQODJGTThscDN2cXhRbXZkOEJkSHI5WjBfUnlYY214dWxQR2NlTnVKV191eVBLTzg5WVlIRTZmSWVWajkyOTFkNXBlYjNOZUlpWjF6UHZJLWJfUzViVUZ5V1NOdUxFbEdWMFF0MElLLUozOUNfdjdzUVpYRGxWMllZdVpVWWMwb1lvVjh4OVFUTnp6bThzazRndlJPNUQ1NksxQWU1bjV1YUc0eGd2OWdTdmdpYWlSQQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Niet Trump, maar defensieminister Hegseth in het vizier: Democraten overwegen nieuwe impeachment na midterms",
+        "url": "https://www.hln.be/buitenland/niet-trump-maar-defensieminister-hegseth-in-het-vizier-democraten-overwegen-nieuwe-impeachment-na-midterms~aea28c54/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump voert antimoslimretoriek tegen El-Sayed op in aanloop naar midterms • Trump over komst Bolsonaro naar VS: ‘Het zijn aardige mensen’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-over-komst-bolsonaro-naar-vs-het-zijn-aardige-mensen-zoon-donald-trump-ging-in-mongolie-op-jacht-met-russische-oligarch-uit-kring-rond-poetin~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Volgens Trump ontmoeten Zelensky en Poetin elkaar ‘heel binnenkort’ • Zelensky toont zich optimistisch over Oekraïense vooruitgang aan het front",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-volgens-trump-ontmoeten-zelensky-en-poetin-elkaar-heel-binnenkort-zelensky-toont-zich-optimistisch-over-oekraiense-vooruitgang-aan-het-front~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump: “Laten we van Venezuela de 51ste staat van de VS maken”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-laten-we-van-venezuela-de-51ste-staat-van-de-vs-maken/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce assouplir les règles limitant les émissions de méthane des énergies fossiles",
+        "url": "https://www.rtbf.be/article/trump-annonce-assouplir-les-regles-limitant-les-emissions-de-methane-des-energies-fossiles-11806910",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026: les Latinos du Texas reprennent leurs distances avec Trump",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/10/28/midterms-2026-les-latinos-du-texas-reprennent-leurs-distances-avec-trump-LXXNYYTG6ZCUDPRAGBTKVB4JWY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Trump annonce une rencontre entre Poutine et Zelensky \"très bientôt\"",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/10/28/guerre-en-ukraine-trump-annonce-une-rencontre-entre-poutine-et-zelensky-tres-bientot-A7KHFF6KZFHLJOUAV7B4QN5H2A/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Poutine et Zelensky bientôt autour de la même table, selon Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQmxhN3ppcnhRUXc2M09wQm42Mlk1aGstdXZmQ2dURGU3UHgyY25kd0pIZC10OUtLbXowTHRlbHRNdVlFeDBpYV9UX1dhUFlfcWJtMm41bFZBMEVPUUh5WlNUNzQyakd2V2hRbWYxcmp1eEw1R3AxMG5mNjFOTmFjVnc5VlNpWnJybW9mdHlrU0w5UWM4SHRqbWVEcW1pREFvWm50dm9SQ3BJRS1oejdrZzdabHZHWGhtQ0VCZThSbjhxeXRqRGhZWTFn?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Trump annonce une rencontre avec Poutine et Zelensky \"très bientôt\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/28/guerre-en-ukraine-trump-annonce-une-rencontre-avec-poutine-et-zelensky-tres-bientot-F4JUJ6YUBRDKTFT4ETORGJJ3OE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump dit qu’une rencontre Poutine-Zelensky va être organisée « très bientôt » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUDF4RVNpNGwwQ1lpcW9kcVZEcXVtbzFkbU91ZlVFeThMR0stYWFRbXNXMjVvb25mMEZlejdsMm9QeVlzY3A3eXc5M0lDN2RyWGRvLXNCRFljNUZ0UTJCU0FQWTFWYmJUTVFQck1Cam84N2tSOUFiZ3o3SWNMeURCbC1wMXpmWEc4M0hzM3BLT054MlUwbmVnMFdaTm1aTVFkWTQ5S3NrLWNHLW44WjN5ZG1tZVhNX05wRUJzaHl3?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump annonce assouplir les règles limitant les émissions de méthane des énergies fossiles - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX2Z5ZDlVWGtLb09SODBTeU9RcV9EdFZFYTlfVUpXN0lfUkZ4SldsMEFRdFpIQ1lhT3Y2SXB2WlBRMlNmWWpzRVZaeUxGa1I1VG1aUUNHS1VBWWZpYk03REQ1czE0RV80Q3lJMnRoMHo4am0zd2xNN24tNzZMbFo1VHBWOFVQejJCME16TG5UekVGS1puc2F5c3ZQeFM4OGZvQkVNaEZNdU9MSWlaN0paUWRoa19yNGE3ZFdObQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: Trump dit qu'une rencontre Poutine-Zelensky va être organisée \"très bientôt\" - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNamFaSzhoSXZha3dVTDhVb2owU0I3RU5TbHRPNVVwdU1hd1ZkYWZfM1ZwcGhPd2dKdlIweVRENDRUWU14N0Y4Ym1EcDE5QnBraWZhZjM0cDRDQ05DWGxsZmVIZGNfbHp2WlhpaC1BUDJQa1hDX28wLUt3Ynlrc2d4VjR1YmsxbXB0ZjJsY21sR3hpeUZ4eFN3dmx1Wk1CYnFYZ1lRcVJFd0pHQS1hMmgxSzZzdEdqcTNvOTUwSlJVUkZtamFxOTJTV2NGWFUyNzhKeWQwQURKNHlPWFYweHlSbVhSUHp2ZGx2Nl9TQmMzSEdHZnFPbXJubg?oc=5",
+        "source": "lavenir_g",
+        "name_only": true
+      },
+      {
+        "title": "Enfin une entrevue entre Poutine et Zelensky ? Donald Trump annonce une rencontre pour « très bientôt - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNaWtkSnBtbDNueTFDZmVmQTNDdHB5UzFRcHFmWTEwNENVdTVxbDgyc3M2Ul9WRnNpYkNEU2tESGZ1ZFBEODliN2t3dUFPUXY4X3NLVG5qVkRDSDQwUWxpUWdzak9FelhUaHZ5cl9OOVdXbEpiOWZ2X0FJOWxnaS1GSTlXbmZrdC1TSEpiZThTUVVxRGlYNGxaRXN4b3hzVk5obTAxNWxzNEpFLUNSczNQM3pENGlrUWdfXzhKZDVfcEVpbnJTdjdmcnhjaXU1QmlBRXNQeEpfbnBkeFQ0enlYY08wTQ?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 13,
+      "putin": 9,
+      "macron": 0,
+      "netanyahu": 10,
+      "zelensky": 8,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 6
+    },
+    "wide_comparisons": {
+      "trump": 19,
+      "putin": 11,
+      "macron": 0,
+      "netanyahu": 15,
+      "zelensky": 10,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 7,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 1,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 9
+    },
+    "themes": {
+      "war": 32,
+      "crime": 27,
+      "eu": 14,
+      "politics": 27,
+      "be_gov": 11,
+      "culture": 13,
+      "tech": 9,
+      "economy": 12,
+      "sports": 36,
+      "health": 7,
+      "climate": 7,
+      "migration": 0,
+      "education": 3,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 41,
+      "crime": 40,
+      "eu": 20,
+      "politics": 39,
+      "be_gov": 16,
+      "culture": 15,
+      "tech": 14,
+      "economy": 18,
+      "sports": 49,
+      "health": 9,
+      "climate": 10,
+      "migration": 0,
+      "education": 3,
+      "weather": 7
+    }
   }
 ]
