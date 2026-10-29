@@ -122855,5 +122855,550 @@
       "education": 3,
       "weather": 7
     }
+  },
+  {
+    "date": "2026-10-29",
+    "generated_at": "2026-10-29T11:22:58+01:00",
+    "last_checked_at": "2026-10-29T11:22:58+01:00",
+    "total_articles": 502,
+    "trump_articles": 9,
+    "percentage": 1.8,
+    "core_percentage": 1.8,
+    "core_percentage_name": 1.8,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 1.8,
+    "indirect_references": 0,
+    "wide_total_articles": 714,
+    "wide_trump_articles": 15,
+    "wide_percentage": 2.1,
+    "wide_trump_articles_expanded": 15,
+    "wide_percentage_expanded": 2.1,
+    "macro_percentage": 2.8,
+    "qualifying_outlets": 26,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 53,
+    "cross_outlet_dup_groups": 26,
+    "cross_outlet_dup_rate": 10.6,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.69,
+    "breadth": 0.33,
+    "deviation": 0.61,
+    "smoothed_pct": 2.73,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 11.76
+      },
+      "google_nl_politics": {
+        "fetched": 53,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 20.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 27,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 60,
+        "today": 13,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 30,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 15,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 13.33
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 36,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 20,
+        "kept": 20,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 49,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 34,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 8.82
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 61,
+        "kept": 61,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.28
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 19,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 17,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 79,
+        "today": 29,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Republikeinen dreigen meerderheid te verliezen in Huis én Senaat: deze staten beslissen over Trumps lot",
+        "url": "https://www.hln.be/buitenland/republikeinen-dreigen-meerderheid-te-verliezen-in-huis-en-senaat-deze-staten-beslissen-over-trumps-lot~a409a107/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Wat als de Republikeinen de midterms verliezen? ‘Trump voelt de bui al hangen en bereidt zijn achterban al voor’",
+        "url": "https://www.demorgen.be/nieuws/wat-als-de-republikeinen-de-midterms-verliezen-trump-voelt-de-bui-al-hangen-en-bereidt-zijn-achterban-al-voor~b45876be/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Le gouvernement Trump limoge l'un de ses plus hauts gradés de l'armée américaine",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/29/le-gouvernement-trump-limoge-lun-de-ses-plus-hauts-grades-de-larmee-americaine-TYR334MGBZBNNBN4H2AMWVWP6U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un Donald Trump perdant et meurtri aux midterms “se retranchera dans un domaine où son pouvoir est presque illimité”",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/10/29/un-donald-trump-perdant-et-meurtri-aux-midterms-se-retranchera-dans-un-domaine-ou-son-pouvoir-est-presque-illimite-QKSYV7QTTNBM7OMVZ5OBUKANJQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026: Trump demande la disqualification d'une candidate démocrate en Alaska",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/29/midterms-2026-trump-demande-la-disqualification-dune-candidate-democrate-en-alaska-PBMG6Q5SPBEJDAHDBOP3ZAYJOA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Poutine et Zelensky bientôt autour de la même table, selon Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQmxhN3ppcnhRUXc2M09wQm42Mlk1aGstdXZmQ2dURGU3UHgyY25kd0pIZC10OUtLbXowTHRlbHRNdVlFeDBpYV9UX1dhUFlfcWJtMm41bFZBMEVPUUh5WlNUNzQyakd2V2hRbWYxcmp1eEw1R3AxMG5mNjFOTmFjVnc5VlNpWnJybW9mdHlrU0w5UWM4SHRqbWVEcW1pREFvWm50dm9SQ3BJRS1oejdrZzdabHZHWGhtQ0VCZThSbjhxeXRqRGhZWTFn?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Un juge inflige un gros revers à Donald Trump avant les élections de mi-mandat aux États-Unis: \"Notre démocratie est en jeu\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/29/un-juge-inflige-un-gros-revers-a-donald-trump-avant-les-elections-de-mi-mandat-aux-etats-unis-notre-democratie-est-en-jeu-XZSVCPNTBBEBXFNP34IGXFKDF4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La bière satirique wavrienne “Bye, Bye Trump !” revient pour les élections de mi-mandat : Une bouteille a été envoyée à l’ambassadeur Bill White",
+        "url": "https://www.dhnet.be/regions/brabant/2026/10/29/la-biere-satirique-wavrienne-bye-bye-trump-revient-pour-les-elections-de-mi-mandat-une-bouteille-a-ete-envoyee-a-lambassadeur-bill-white-BRP4YVVTYJC3PAYS6RXM2HIIDA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"Notre démocratie est en jeu:\" revers judiciaire pour Trump à l'approche des midterms",
+        "url": "https://www.7sur7.be/monde/notre-democratie-est-en-jeu-revers-judiciaire-pour-trump-a-l-approche-des-midterms~a972328b/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Donald Trump essuie un revers judiciaire à quelques jours des midterms - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVGhOR0d4N2FkdTJWU2NhcGRsTl8wM3JNYjNLcUNkU2pHTjctcjZrOGtyRmY5d0txYTdWcUpIM09jU2tUYUJMUWpsR3VSTHVJdGhIbXhuaV9FZjFiLV9WdTRJOU16NFVBOWU0a2ZfVVBpT2ZYaFJEZl9Mc2tRNWw5NlpQODZONlVmNFRJQmoyWWZrcENsZ0JERk1ZUVRLY3kzak5pTkExS0kyQWtobThoLTBvYnVhUlU?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Un Donald Trump perdant et meurtri aux midterms \"se retranchera dans un domaine où son pouvoir est presque illimité\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPQzFiajczOGRKcUNUZkR0UFczY2xfOFBmZ3JJOThyd19aX2Fuckd6Ti1WcDdhaE5mdkhrdThZSkNlQjhzU3hlaGxMeFNMR0ZvWkhsVDVIb1ppcVFwU3dZRWlwYjQtcmZVbXNOem9Na2ZHcGV4djE2QnU0ekNrc3NYQm5jbXdrU3hfUFpFNjVzbENybEt1eGNzRVJIZlJ0NE16U3BpY3Z6bE5odF9EVXZEdnZvZV9aSlFDMlBTeTRrM0RMcEJnZXl2TENlME00X0ZkV21kSXZkM0hVZDJqdlBudEZ5TzhSUzZhWTJmeFVKQko3MTJsZy1UX2ZvODZzUVBjUkxYNHBZZkVZMnQ0ZjlSZ0xIZ1pxcms0WkZCdFBEQS1yLWxlRzBGMFBYcE1mQkVtTUxPN3dZbw?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Republikeinen dreigen meerderheid te verliezen in Huis én Senaat: deze staten beslissen over Trumps lot - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPY1V2a2lpYlZiOEhReTdON3JqN2VRdkprY2JVVkg0Tm9QN3prYXRzTUgzaFBJc2s1QXh5RHg1cEZGMGU1VzlrR0FWN0MybUNTaXVfa1FuRkt2bHNOaVNOLW5LdGltaldORUVmMUE0cG1JUllxZ0VETkRqYzlkWTBMMnFVRHc4N0c5eXFUd1R3OU5keEx3UjhBUXUzZFMwRTFvVGVrb2FzNkcwRVRidkJiME9GcVgxcE9lS3VEb3htdHpOb3JqMHNMS19fS3VIM2JxVWh2d3ZpSDZKUQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Wat als de Republikeinen de midterms verliezen? ‘Trump voelt de bui al hangen en bereidt zijn achterban al voor’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNUU1ajdsdDk3ZmZ4cTBFS3FQdEZBUmtEMUJFbVF0QmJKbVBDZmtQeWZWNUVBVHhLc1lsc19GMGdBMU1tQkJSTWtmZ2VNRGhDOFBsd2dfN3pZZW5rVjdfSVhfNXNFaXJ1UE55cHFMNEV2QWxSV1NrMjRiR2lYNkhyN2szQVVBaEY1V1BuZlJseDVFNDVzWlU4UDVVUzJ1YUtGYzl2VVJzNGowX0JobFQ0dE56MXc5RFZaRTN0OGJSZ0x2c0hLTTF5bW00NUI5c1d4eFh5T1ByZFRGd29OUUZIS2JzVE8?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Un juge inflige un gros revers à Donald Trump avant les élections de mi-mandat aux États-Unis: \"Notre démocratie est en jeu\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNSzNKY2tUOVMyT3UtMWtKNTZ2Tm9jOTIteG0xdmcyMFZnZFc2UTRkcHNPVWo3a3RSLUpOaUdQRjZsZGlDbmtmM25Obi1qelhPY05wY0RHak5fYkM3WldIcnBnM3pzMzR2cEV0amNINFR3WVJQSl9UcDg4eVZHN0s2SDFRaFNLTF84TVF5dVNIbDBqOG1Qbm5UbFB3d2JxME13anlrNG5tdWkxNFhqWlpwd2R1dHlmQTk2MlFHd2pHQkc0ZzRWRjR5X1U3NzJMSkpaazlmT3l0Q1dnTXVMWWRCNG9PQV9NTmhMdzgtTDZPc09GbS1HUnhudU9IQS1uS1dVU09TanNQeHV4enJ3VmtxcG9FWFNkREhscmQxaw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "« J’ai voté Trump et je le regrette » : deux ans après avoir soutenu le président, cet électorat clé pourrait rebattre les cartes lors des midterms - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUm1hX1RMQ2N4OGNKQjVEeURmT013SXI0T2htVndRU0lST0dhd2tFYmNfMmp3WVZSb1U1NDdMVGlOenZ2dkZqWHFkbnVmODFjZ3BQcHFEYW9ORWFZSkQ0eHBrQUF3dkF0d3A5M0o1clFfZi1ocW1YTzQ5X3BNdmRfYzdyREJrcWIxeGRvalEwQ1FDVWVNX1dFMkNFak5aeVlEbDBhTHVJUHlNd3dxN3ZwUEgxelRVMzVMM3Ytd1Vtc2VQckNLOTFkZG5wNkRJWG1WRllKdkgyTENnbTlVTlhhVGFB?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Republikeinen dreigen meerderheid te verliezen in Huis én Senaat: deze staten beslissen over Trumps lot",
+        "url": "https://www.hln.be/buitenland/republikeinen-dreigen-meerderheid-te-verliezen-in-huis-en-senaat-deze-staten-beslissen-over-trumps-lot~a409a107/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Wat als de Republikeinen de midterms verliezen? ‘Trump voelt de bui al hangen en bereidt zijn achterban al voor’",
+        "url": "https://www.demorgen.be/nieuws/wat-als-de-republikeinen-de-midterms-verliezen-trump-voelt-de-bui-al-hangen-en-bereidt-zijn-achterban-al-voor~b45876be/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Le gouvernement Trump limoge l'un de ses plus hauts gradés de l'armée américaine",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/29/le-gouvernement-trump-limoge-lun-de-ses-plus-hauts-grades-de-larmee-americaine-TYR334MGBZBNNBN4H2AMWVWP6U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Un Donald Trump perdant et meurtri aux midterms “se retranchera dans un domaine où son pouvoir est presque illimité”",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/10/29/un-donald-trump-perdant-et-meurtri-aux-midterms-se-retranchera-dans-un-domaine-ou-son-pouvoir-est-presque-illimite-QKSYV7QTTNBM7OMVZ5OBUKANJQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026: Trump demande la disqualification d'une candidate démocrate en Alaska",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/29/midterms-2026-trump-demande-la-disqualification-dune-candidate-democrate-en-alaska-PBMG6Q5SPBEJDAHDBOP3ZAYJOA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Poutine et Zelensky bientôt autour de la même table, selon Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQmxhN3ppcnhRUXc2M09wQm42Mlk1aGstdXZmQ2dURGU3UHgyY25kd0pIZC10OUtLbXowTHRlbHRNdVlFeDBpYV9UX1dhUFlfcWJtMm41bFZBMEVPUUh5WlNUNzQyakd2V2hRbWYxcmp1eEw1R3AxMG5mNjFOTmFjVnc5VlNpWnJybW9mdHlrU0w5UWM4SHRqbWVEcW1pREFvWm50dm9SQ3BJRS1oejdrZzdabHZHWGhtQ0VCZThSbjhxeXRqRGhZWTFn?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Un juge inflige un gros revers à Donald Trump avant les élections de mi-mandat aux États-Unis: \"Notre démocratie est en jeu\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/29/un-juge-inflige-un-gros-revers-a-donald-trump-avant-les-elections-de-mi-mandat-aux-etats-unis-notre-democratie-est-en-jeu-XZSVCPNTBBEBXFNP34IGXFKDF4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La bière satirique wavrienne “Bye, Bye Trump !” revient pour les élections de mi-mandat : Une bouteille a été envoyée à l’ambassadeur Bill White",
+        "url": "https://www.dhnet.be/regions/brabant/2026/10/29/la-biere-satirique-wavrienne-bye-bye-trump-revient-pour-les-elections-de-mi-mandat-une-bouteille-a-ete-envoyee-a-lambassadeur-bill-white-BRP4YVVTYJC3PAYS6RXM2HIIDA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"Notre démocratie est en jeu:\" revers judiciaire pour Trump à l'approche des midterms",
+        "url": "https://www.7sur7.be/monde/notre-democratie-est-en-jeu-revers-judiciaire-pour-trump-a-l-approche-des-midterms~a972328b/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 9,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 6,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 1,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 2
+    },
+    "wide_comparisons": {
+      "trump": 15,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 8,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 1,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 3
+    },
+    "themes": {
+      "war": 25,
+      "crime": 23,
+      "eu": 25,
+      "politics": 23,
+      "be_gov": 16,
+      "culture": 16,
+      "tech": 16,
+      "economy": 19,
+      "sports": 16,
+      "health": 8,
+      "climate": 2,
+      "migration": 1,
+      "education": 4,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 37,
+      "crime": 34,
+      "eu": 34,
+      "politics": 34,
+      "be_gov": 25,
+      "culture": 17,
+      "tech": 26,
+      "economy": 23,
+      "sports": 32,
+      "health": 12,
+      "climate": 3,
+      "migration": 1,
+      "education": 5,
+      "weather": 10
+    }
   }
 ]
