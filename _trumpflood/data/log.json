@@ -123502,5 +123502,598 @@
       "education": 9,
       "weather": 8
     }
+  },
+  {
+    "date": "2026-10-30",
+    "generated_at": "2026-10-30T11:25:58+01:00",
+    "last_checked_at": "2026-10-30T11:25:58+01:00",
+    "total_articles": 534,
+    "trump_articles": 12,
+    "percentage": 2.2,
+    "core_percentage": 2.2,
+    "core_percentage_name": 2.2,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 2.4,
+    "indirect_references": 1,
+    "wide_total_articles": 729,
+    "wide_trump_articles": 18,
+    "wide_percentage": 2.5,
+    "wide_trump_articles_expanded": 19,
+    "wide_percentage_expanded": 2.6,
+    "macro_percentage": 2.9,
+    "qualifying_outlets": 25,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 34,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 6.4,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.09,
+    "breadth": 0.22,
+    "deviation": 0.76,
+    "smoothed_pct": 2.7,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 9,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 27,
+        "kept": 27,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.41
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "google_nl_politics": {
+        "fetched": 49,
+        "today": 11,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 23,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 45,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 36,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 34,
+        "kept": 34,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 46,
+        "kept": 39,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 21,
+        "kept": 21,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 23.81
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 36,
+        "kept": 35,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 30,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 31,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 51,
+        "kept": 51,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.92
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 72,
+        "today": 15,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "KIJK. Trump scheldt journalist de huid vol na vraag over vermoeidheid: “Je ziet er niet uit”",
+        "url": "https://www.hln.be/buitenland/kijk-trump-scheldt-journalist-de-huid-vol-na-vraag-over-vermoeidheid-je-ziet-er-niet-uit~af875803/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trumps importheffingen slagen er niet in het Amerikaanse handelstekort te verkleinen",
+        "url": "https://www.hln.be/economie/trumps-importheffingen-slagen-er-niet-in-het-amerikaanse-handelstekort-te-verkleinen~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "De midterms bepalen straks het lot van Donald Trump: alles wat u moet weten over de Amerikaanse tussentijdse verkiezingen",
+        "url": "https://www.demorgen.be/nieuws/midterms-2026-verkiezingen-trump~b0f72bf33/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "VS-correspondent Mari Meyer over Trumps Amerika: ‘Steeds meer mensen beseffen dat de democratie op het spel staat’",
+        "url": "https://www.demorgen.be/nieuws/vs-correspondent-mari-meyer-over-trumps-amerika-steeds-meer-mensen-beseffen-dat-de-democratie-op-het-spel-staat~bcba09a2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Paus Leo heeft stembiljet aangevraagd voor midterms • Trump schrapt campagnebijeenkomsten in Kansas en Iowa",
+        "url": "https://www.demorgen.be/snelnieuws/live-paus-leo-heeft-stembiljet-aangevraagd-voor-midterms-trump-schrapt-campagnebijeenkomsten-in-kansas-en-iowa~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Nieuwe aanval op Russische olieraffinaderij na tijdelijke pauze ‘onder druk van Trump’ • Zeker één dode na Russische ballistische raketaanval op Kiev",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-nieuwe-aanval-op-russische-olieraffinaderij-na-tijdelijke-pauze-onder-druk-van-trump-al-zeker-een-dode-na-nieuwe-russische-aanval-met-ballistische-raketten-op-kiev~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump, Poetin en Xi drijven EU en Canada dichter bij elkaar: top in Montréal moet partnerschap versterken",
+        "url": "https://www.demorgen.be/nieuws/trump-poetin-en-xi-drijven-eu-en-canada-dichter-bij-elkaar-top-in-montreal-moet-partnerschap-versterken~b629618d/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi Donald Trump change-t-il brusquement son agenda à quelques jours des élections? Sa réaction face à un journaliste questionne",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/30/pourquoi-donald-trump-change-t-il-brusquement-son-agenda-a-quelques-jours-des-elections-sa-reaction-face-a-un-journaliste-questionne-EXGJFATXR5AUDDSWAMQNPEMMFE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"C’est ça, le grand danger avec Trump, après les midterms\"",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/10/30/cest-le-grand-danger-avec-trump-pour-desobry-la-biscuiterie-tournaisienne-cest-lapres-midterms-qui-inquiete-JAX4T7URVZFNLLH2UZAA2AY7ZI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Des entreprises lâchent une fortune pour lire les publications de Trump avant tout le monde : “Un dispositif profondément corrompu\"",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/10/30/100-000-dollars-pour-avoir-acces-aux-publications-de-trump-en-avance-plusieurs-entreprises-sautent-le-pas-THIOXMNT5VBZVNW6EVVVSBXXVM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Voici pourquoi Donald Trump change  brusquement son agenda à quelques jours des élections",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/30/voici-pourquoi-donald-trump-change-brusquement-son-agenda-a-quelques-jours-des-elections-Q4BTEM47E5BK5OQY5SAV4AWAEA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Sanctions de Trump contre la Cour pénale internationale (CPI) : Philippe Close monte au front et interpelle directement Ursula von der Leyen",
+        "url": "https://www.dhnet.be/regions/bruxelles/2026/10/30/sanctions-de-trump-contre-la-cour-penale-internationale-cpi-philippe-close-monte-au-front-et-interpelle-directement-ursula-von-der-leyen-MANLLB36FRH7FL742KL3QEISPA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Ambiance glaciale à la Maison-Blanche: “Le président réduit de plus en plus son cercle de proches”",
+        "url": "https://www.7sur7.be/monde/ambiance-glaciale-a-la-maison-blanche-le-president-reduit-de-plus-en-plus-son-cercle-de-proches~aa7c797e/",
+        "source": "septsursept",
+        "name_only": false
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "KIJK. Trump scheldt journalist de huid vol na vraag over vermoeidheid: “Je ziet er niet uit” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN25zc2FCLXF5VjRiOVpLZ0tTR1VwSTV6U3BDSXlOb1pqajhPeVZDSWh3YlZuTmkyNTI5Qy1wRHEtQXNfTUxlSEwyZ3N5QnRwanFzTXNfZVc4Y2ZkNmNtTUhDWFk4UHpiWUFmU0haa2l2SHlEQy1SSnBDRXhqUTRoNldtZW9PZVd2cU1XZ1B5MkliWUNZRVFjVXhZV0kweUVUQWs2WlMwZkQwYV8wS2ZPQTctWkJSN0lQaG9kNVEzb0VuNjl3Q29Z?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "VS-correspondent Mari Meyer over Trumps Amerika: ‘Steeds meer mensen beseffen dat de democratie op het spel staat’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdXJfdmJXNmdXUTQyejRuOWc3OG9NX3JvZkxEa0hiVUdKckU3MDFLZUV2QlRyUUpMTk5YTmRmV29scDdjSUpiX3hQVU5nQXQwdlFzNWxtWTVRVUFoUmc3a0RLY1Y2SEs2cWFGX2pEb0xKRjBxVDRma0FzWmJSeVdhSE1teEo3U2J1R1ZGSDVJNFZnZGtnbDNlbHZySnNia1A2TklvLUEyZ3ZWYXhDR1pQMkwzWVUtOXBWakVyOC1jakVtV1d0UjluOHdCSV9Od0FfUW5LVW1NeUZ5dXBHR1MtQVVPc182bFE?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump a-t-il manigancé la fuite de Flavio Bolsonaro ? Une nouvelle révélation sème le doute - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTXctR3BFRVVXSVVHU05pT3hUX1RHQkFGeDZCMnpyZ08tTFhyYWdrQ2Nwa3JsQ0xUM2JINHd6bUd6S0tBUVNxRzZqY09keV9BRlluSXlXV0VCT0pVWkgxNk51bktGUFlZVjBxTlFialJTTkRjVGtfaGI1RWFtWFh4TlloMUJPdWhkWlhRZEpOajBhQ0FObUNYSTQ5aVpmYzJhaEZ1Mjd4bjlJTlhtSm4tWGYzcE9fdkd3eHBsWURld1ZoVnFNZ19CTXowUUM3aGo0N2FyS3hDc202cE5uQlhLMXk3UkU?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Venezolaanse oppositieleider Machado bedankt Trump tijdens eerste toespraak: “Bedankt voor het openen van de poort naar de vrijheid” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPeDhVSlg0Uk0ydmQ5UnJYVC1kSDV6QzZ2dS1JdHA3MkUwVTB1T1hrb19memdtNG5QSkdQbVNOcm9FX3doNm9KWWRjbUtPbmdVRmdXd2ZSdk1sWVNKWkpoRENFbFNzblYxVEowLUljSFRoTXVscWUzMXRkUWJDeFNSTnYxVHJRMVhEcWVUeHc2NEk3bXk5TVpYTmxfaTFrOGFkNU9xQS1iQWUzdFU3dTNzTnJnLTRLc19rTFUyaHp5MUVnOHo3VVNjQ0FQX3FWSkJVQUtnZF9DRXlWNGtROGZwSUlRaVdpREZaQ21Pdkl3RmItZ3NnZ2ZKMkwxSHFvX2ZwTl94X1hENS0?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Opvallend hoe Donald Trump tegenwoordig vaak bewonderend spreekt over de lichamen van mannen in de politieke arena - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUnBVcEdqQ1JHQm53RGNfdHNGX0RMVElPSm01Z1BYXzBIc0VaV2FIbkQyVmJKS0o4d3IyRThwck12dUZnVFVNZnJuWmd6NXo3dFgybEkyVVdIWVVBVkRsSWRjNDEyQ1J5anNYYzlPZVgzSWxXanE4Mnh0VlhmQWNnQzBhcS1zM3dWZzEzaXJVS2cxYUo3djZzaFd6QnBQYzFhSTBTZkxEbm9wd0ZzQXZfRnlqZmlyT1g2NlBrVzFBYnI0NGNnUkZVRWw4Smdua3BHVWhOVm9UdkJnakxSVDVkaWp4ZUxoVlM1UGdWVlVR?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "« Trump a anéanti la classe moyenne » : aux États-Unis, la hausse du coût de la vie creuse les inégalités - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOXd4RUhPLURjeGwtWG9KdktnLXB3X0NTR1dhNTh4Z1JtUkJmU0x5cUFFSVZPTTlRN1hkY3NDNlF2SjFFclZFZUF6M08xaGNlYTUyVHFpZjFSSGtxVnZZMlhWVjY3YjlKUW8ya2hFV0ZOd05tSGJzbG5aUFhqS2VLM19QWmszQVZKQTBkQ1pIbFRyc2RCZzFPeDE1emRsZ3h1dzBoV0ZvbnhwOXNlUE5aMWNNYk0ydkxjVkJuMVFjeUtUckRoTHAydVQ4VXVYUkR2eW9zcjlLY2V4THFN?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Trump scheldt journalist de huid vol na vraag over vermoeidheid: “Je ziet er niet uit”",
+        "url": "https://www.hln.be/buitenland/kijk-trump-scheldt-journalist-de-huid-vol-na-vraag-over-vermoeidheid-je-ziet-er-niet-uit~af875803/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trumps importheffingen slagen er niet in het Amerikaanse handelstekort te verkleinen",
+        "url": "https://www.hln.be/economie/trumps-importheffingen-slagen-er-niet-in-het-amerikaanse-handelstekort-te-verkleinen~ab5735cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "De midterms bepalen straks het lot van Donald Trump: alles wat u moet weten over de Amerikaanse tussentijdse verkiezingen",
+        "url": "https://www.demorgen.be/nieuws/midterms-2026-verkiezingen-trump~b0f72bf33/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "VS-correspondent Mari Meyer over Trumps Amerika: ‘Steeds meer mensen beseffen dat de democratie op het spel staat’",
+        "url": "https://www.demorgen.be/nieuws/vs-correspondent-mari-meyer-over-trumps-amerika-steeds-meer-mensen-beseffen-dat-de-democratie-op-het-spel-staat~bcba09a2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Paus Leo heeft stembiljet aangevraagd voor midterms • Trump schrapt campagnebijeenkomsten in Kansas en Iowa",
+        "url": "https://www.demorgen.be/snelnieuws/live-paus-leo-heeft-stembiljet-aangevraagd-voor-midterms-trump-schrapt-campagnebijeenkomsten-in-kansas-en-iowa~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Nieuwe aanval op Russische olieraffinaderij na tijdelijke pauze ‘onder druk van Trump’ • Zeker één dode na Russische ballistische raketaanval op Kiev",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-nieuwe-aanval-op-russische-olieraffinaderij-na-tijdelijke-pauze-onder-druk-van-trump-al-zeker-een-dode-na-nieuwe-russische-aanval-met-ballistische-raketten-op-kiev~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump, Poetin en Xi drijven EU en Canada dichter bij elkaar: top in Montréal moet partnerschap versterken",
+        "url": "https://www.demorgen.be/nieuws/trump-poetin-en-xi-drijven-eu-en-canada-dichter-bij-elkaar-top-in-montreal-moet-partnerschap-versterken~b629618d/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Pourquoi Donald Trump change-t-il brusquement son agenda à quelques jours des élections? Sa réaction face à un journaliste questionne",
+        "url": "https://www.lalibre.be/international/amerique/2026/10/30/pourquoi-donald-trump-change-t-il-brusquement-son-agenda-a-quelques-jours-des-elections-sa-reaction-face-a-un-journaliste-questionne-EXGJFATXR5AUDDSWAMQNPEMMFE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"C’est ça, le grand danger avec Trump, après les midterms\"",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/10/30/cest-le-grand-danger-avec-trump-pour-desobry-la-biscuiterie-tournaisienne-cest-lapres-midterms-qui-inquiete-JAX4T7URVZFNLLH2UZAA2AY7ZI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Des entreprises lâchent une fortune pour lire les publications de Trump avant tout le monde : “Un dispositif profondément corrompu\"",
+        "url": "https://www.lalibre.be/economie/entreprises-startup/2026/10/30/100-000-dollars-pour-avoir-acces-aux-publications-de-trump-en-avance-plusieurs-entreprises-sautent-le-pas-THIOXMNT5VBZVNW6EVVVSBXXVM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Voici pourquoi Donald Trump change  brusquement son agenda à quelques jours des élections",
+        "url": "https://www.dhnet.be/actu/monde/2026/10/30/voici-pourquoi-donald-trump-change-brusquement-son-agenda-a-quelques-jours-des-elections-Q4BTEM47E5BK5OQY5SAV4AWAEA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Sanctions de Trump contre la Cour pénale internationale (CPI) : Philippe Close monte au front et interpelle directement Ursula von der Leyen",
+        "url": "https://www.dhnet.be/regions/bruxelles/2026/10/30/sanctions-de-trump-contre-la-cour-penale-internationale-cpi-philippe-close-monte-au-front-et-interpelle-directement-ursula-von-der-leyen-MANLLB36FRH7FL742KL3QEISPA/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Ambiance glaciale à la Maison-Blanche: “Le président réduit de plus en plus son cercle de proches”",
+        "url": "https://www.7sur7.be/monde/ambiance-glaciale-a-la-maison-blanche-le-president-reduit-de-plus-en-plus-son-cercle-de-proches~aa7c797e/",
+        "source": "septsursept",
+        "name_only": false
+      }
+    ],
+    "comparisons": {
+      "trump": 12,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 3,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 1,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 4
+    },
+    "wide_comparisons": {
+      "trump": 18,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 6,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 2,
+      "bouchez": 2,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 6
+    },
+    "themes": {
+      "war": 23,
+      "crime": 17,
+      "eu": 20,
+      "politics": 29,
+      "be_gov": 10,
+      "culture": 22,
+      "tech": 20,
+      "economy": 14,
+      "sports": 27,
+      "health": 7,
+      "climate": 3,
+      "migration": 0,
+      "education": 3,
+      "weather": 8
+    },
+    "wide_themes": {
+      "war": 26,
+      "crime": 24,
+      "eu": 26,
+      "politics": 43,
+      "be_gov": 17,
+      "culture": 24,
+      "tech": 29,
+      "economy": 20,
+      "sports": 40,
+      "health": 11,
+      "climate": 3,
+      "migration": 1,
+      "education": 4,
+      "weather": 11
+    }
   }
 ]
