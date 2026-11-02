@@ -125359,5 +125359,718 @@
       "education": 3,
       "weather": 13
     }
+  },
+  {
+    "date": "2026-11-02",
+    "generated_at": "2026-11-02T12:39:25+01:00",
+    "last_checked_at": "2026-11-02T12:39:25+01:00",
+    "total_articles": 631,
+    "trump_articles": 19,
+    "percentage": 3.0,
+    "core_percentage": 3.0,
+    "core_percentage_name": 3.0,
+    "trump_articles_expanded": 19,
+    "core_percentage_expanded": 3.0,
+    "indirect_references": 0,
+    "wide_total_articles": 835,
+    "wide_trump_articles": 33,
+    "wide_percentage": 4.0,
+    "wide_trump_articles_expanded": 33,
+    "wide_percentage_expanded": 4.0,
+    "macro_percentage": 5.6,
+    "qualifying_outlets": 27,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 51,
+    "cross_outlet_dup_groups": 25,
+    "cross_outlet_dup_rate": 8.1,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.44,
+    "breadth": 0.63,
+    "deviation": 1.09,
+    "smoothed_pct": 2.99,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "google_nl_politics": {
+        "fetched": 26,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 16,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 25.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "google_nl_tech": {
+        "fetched": 66,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 31,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 68,
+        "today": 15,
+        "kept": 11,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 45.45
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 76,
+        "kept": 43,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.65
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 21,
+        "kept": 21,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.52
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 70,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 54,
+        "kept": 54,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.7
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 61,
+        "kept": 57,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.75
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 70,
+        "kept": 70,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 4.29
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 60,
+        "today": 27,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 49,
+        "kept": 41,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "rtl_g": {
+        "fetched": 96,
+        "today": 34,
+        "kept": 32,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.12
+      },
+      "trends_g": {
+        "fetched": 23,
+        "today": 12,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "De Democraten zullen de zelfbeheersing moeten hebben om niet te proberen Trump af te zetten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMjg2NXRCeEZ3SzRTcUh6LUx3dkRENWVTODJraVZ2VXhMdzJobzNLV1BHUWktaXNFTjBmTVFEdkIwdzlfSVY5Q0ZVU3BydnVkY2NJWTRjYzlHbnBZdWotY3UxSFpWOVAzNXZncnBKY0pHdVJsdTJPTlE0bHFMdmJwcE8zTXUyYkswUFo5Q2dYX0w2YnF6M0JZcHhXZHJFdTdYYnJRMmJtNGtPellIdUVORTFtcVZtWDVOamxkSHlKLTI1dTZMSEt3WHJsbHdyR3BodHZubFNR?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Als de ‘blauwe golf’ nu niet komt, met de populariteit van de regering-Trump nabij het vriespunt, wanneer dan wel? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQXzIzZXZOLTJGWjljSDJMNFRDWmYySU1CVDg0dXNnUkFHSUYzWVVrZWZuSms2aHFQdmo0Y1hWSVpsOVAzN0JOWVgxdlBNNG9veHdnQzhPenRBN0U5ei1RNnNvd2dfOHRRTzZ2Mi1hUl9WSjZucnFWM1NtdjJfbnBIeXVUaTRaVUU0X1k4NVh6YzhIbjZGNF9FaXB4VjF1dkhjZVFOaXd0SEI5MUlHbm5xMENNeldXYU12M0NndmtvSTBFNGhYX1o5QjlwcDJ1TlpfWGpzUUF4LXVqUnE1aGJkVTgzQWFQVTdhQkJnU1B3?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump lanceert opnieuw racistische tirade tegen Democratische kandidaat-senator Abdul El-Sayed",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-lanceert-opnieuw-racistische-tirade-tegen-democratische-kandidaat-senator~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Zelfs als Trump duidelijk verliest, zal hij zich daar niet bij neerleggen’: VS-kenners Björn Soenens en Bert De Vroey",
+        "url": "https://www.demorgen.be/nieuws/zelfs-als-trump-duidelijk-verliest-zal-hij-zich-daar-niet-bij-neerleggen-vs-kenners-bjorn-soenens-en-bert-de-vroey~b0e7f146/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Obama ruziën over The Cheesecake Factory, terwijl het aandeel meer dan verdubbelt",
+        "url": "https://www.nieuwsblad.be/binnenland/trump-en-obama-ruzien-over-the-cheesecake-factory-terwijl-het-aandeel-meer-dan-verdubbelt/163916654.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Obama ruziën over The Cheesecake Factory, terwijl het aandeel meer dan verdubbelt",
+        "url": "https://www.hbvl.be/binnenland/trump-en-obama-ruzien-over-the-cheesecake-factory-terwijl-het-aandeel-meer-dan-verdubbelt/163954373.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Anthony Scaramucci, ex-woordvoerder van Trump: ‘Hij is moe, daar bestaat geen twijfel over. Maar onderschat hem niet’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSERNV2VYbkREaElaZ3JpOEpHUm9PdjFUOVN6aGFSYUx5UHpEdVd3WkFRVF91Z1ZWV2RaMmpDSGlaUFNhal9qSE4wREgxLThTZzVuQlFOVmNIVGZIX1BDTDhBbDBIcFY5d1hzOE42T0FzeVdfdTJYdS1yUGE5NW5OcDNyNVh5MTNKOVFDSDF5Z1dETWEwcmJqaUdtWU4zM3Qtdk03ZFpVaEdHdEVRaS1aT3o2cE5fUHk0ZFhXZVJhMHRJTVgzSDI1OUdVQnFBSXNTbW1iSW5KMG1jMHB5TDVRMA?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Sur la route USA - Nevada : \"Oui, Trump m’a déçu. Mais je ne voterai jamais démocrate\"",
+        "url": "https://www.rtbf.be/article/sur-la-route-usa-nevada-oui-trump-m-a-decu-mais-je-ne-voterai-jamais-democrate-11809165",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky à Trump : l’Ukraine poursuivra ses frappes sur les raffineries russes sans missiles Patriot",
+        "url": "https://www.rtbf.be/article/zelensky-a-trump-l-ukraine-poursuivra-ses-frappes-sur-les-raffineries-russes-sans-missiles-patriot-11809102",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "L’Europe craint de faire les frais de la colère de Donald Trump après les midterms : “Il se montrera très dur”",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/02/leurope-craint-de-faire-les-frais-de-la-colere-de-donald-trump-apres-les-midterms-il-se-montrera-tres-dur-IUWTUPBZ5ZH2ZJKKXQCG6EB6OI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Tragique accident en Floride: neuf morts dans le crash d’un jet privé près de la résidence de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/02/tragique-accident-en-floride-neuf-morts-dans-le-crash-dun-jet-prive-pres-de-la-residence-de-donald-trump-TZZ65R6ZJFDGRKUQJTLZKTP3ZY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump défie à nouveau l'Iran, qui menace les États-Unis d'une longue guerre - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONDNmUmotQlV2MFphVGVRMFZFcWNWOG1UOHRJUFFKY2MtNGlsWnhDMXVQc0NoQ0dzRjVYR1kwN0FGZE1KVEEwRHFWWmM1MVQtS295VHNOVVpDdkFpRjFzZmxST21KSVNCZUxSSi1jVDQwaHNLdEtBTkpoWEVaWUMxVDhDWTZfNnc5d204d1lhQkFGcDZpVEwyZHltZnR0OHAwRnM5bk1CYUpfLUw4cDVUTHZqaW94SzdfSGMzSHRzQkdnYk8xNGI5MXd2Q0JDVEZkNDNiWlo3bElLVi1oY182Njh3?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "“Il se montrera très dur” : l'Europe inquiète d'être une cible de la colère de Trump après les midterms",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/02/il-se-montrera-tres-dur-leurope-inquiete-detre-une-cible-de-la-colere-de-trump-apres-les-midterms-HFDPUP3J2JF3TKWPPXEFHXKPBI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Drame en Floride : un jet privé s'écrase près de la résidence de Donald Trump, neuf victimes à déplorer",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/02/drame-en-floride-un-jet-prive-secrase-pres-de-la-residence-de-donald-trump-neuf-victimes-a-deplorer-IFR5UZKLPRBXHITCT4KMXKGFYE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Volodymyr Zelensky pose un ultimatum à Donald Trump et conditionne la fin des bombardements sur la Russie",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/02/volodymyr-zelensky-pose-un-ultimatum-a-donald-trump-et-conditionne-la-fin-des-bombardements-sur-la-russie-MRNOYVP6BNBY5HO2CZBZ75ZKBY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Des missiles antiaériens déployés à Mar-a-Lago pour protéger Trump",
+        "url": "https://www.7sur7.be/monde/des-missiles-antiaeriens-deployes-a-mar-a-lago-pour-proteger-trump~a9df8073/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Élections de mi-mandat aux États-Unis: Trump veut faire mentir les mauvais sondages dans les urnes",
+        "url": "https://www.7sur7.be/monde/elections-de-mi-mandat-aux-etats-unis-trump-veut-faire-mentir-les-mauvais-sondages-dans-les-urnes~a8e629d1/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump affaibli, plus dangereux ? - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWXI2c19wU3ZmemxrQ0twdWVOMmp0ME1VOC1ITnRmeTFXdmZTOEYtaWY3X0VxVF9MV29US0RVbzlSSmQxTmtCak1Wa2d4NGd5MHlYTU9CZmV4eVFRUUR5N0xrcnI0VkhQT043VkFLQ3g5R1ZsUmlRSllCYWphMXotSlFzcUd0RFJpTGRHUk42c281MWlTTm5FdjVyaFBSai1qYnlJ?oc=5",
+        "source": "lavenir_g",
+        "name_only": true
+      },
+      {
+        "title": "Qu’est-ce que les Midterms aux États-Unis et pourquoi sont-elles si importantes pour Donald Trump ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOFdudC1TRW56RGNaVEhhTkwxRG1wbF9JZVFIclNyd19GalNMT3Fuc1B2RUx3aVdpYmdtTGYzSGh6dF9tYkthamlNa3FkUnNmTDROS3AtR0xINEdQejBGbHZYOUJ0MTc0WTJuTFBjcmdjOE5XRHEwTmhsaTE3dktWUVk5S3hRZEZ4WHY1eVgwX2dQVkoxX1lCQWd4SXU5WjctVUV2VXQ5V3JwWjZZSHlYMlhhTFFiRC1Jbm9TZDMyRnhqdUR0ak5MNUU2RENTSFRVMjJGWm1BaE15X2ZkOE5mSEpB?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Hebben de Democraten genoeg zelfbeheersing om niet in de valkuil van Trump te trappen? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaWZickljUmNBbXZEanNGQnJvWWJDVHUyQzZ1QTVQRVU2ZmljVXVpOENkdmRqUW1yeWVGTlRsSmVGLUFUZlZTeEw3S0hPa1N4XzBIOTBqdG9MYU55QkJtUGhQLVlWbWFwb0RCZE8zT0tsSGpaR3lvN1F2b2lTaF9jdFRrNkI5aUtSd3RpSmZvMTVVWUZnYjdyRXZXcGhuSVpxeFV6c0psUTlkcmVoRGZiZGZ3S1pZdHJ0WGZrbEtRaVFXcTBzN3ZiX3FZeUgxdw?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump avertit que les Etats-Unis devront « à un moment donner un coup de massue à l’Iran » - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVpQMUtEekFOODA2NWNlUnpYRFFnVEFtUjJURlE5czBDNHVidTFyUzRTcGhHQXBuYzhxbXBtc2xORVJERXNFQVM3R2dBQ2xmVllwTXk3WUlVbS15ZnJNWDNGQnFPYUhHSk90UmlrWkM0b0xLZ0pzcHhNNkxGTW5HYUtEdDRLbmxpSjdhRnBqZ0k1cFBvR0ZRTENJTWN6Wks4ZzFPRmtaYXhKRHVuQXBqQmc3MnFDY2lmNjR3T2dfX1U?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Midterms aux États-Unis : derniers déplacements de Trump, les démocrates divisés dans le Michigan - Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTWZmWXBTQWRXMUxUUG80MkFvSHd0NFhBNm5QbmhRUVhXeTY5T2F2Zm9fUVJ6d2pSODF5dVFQVE9uSFBRMGdrZTJBU2tLal9YbVpMYWZ1RE9uNXpaX0EtcUlEWmNBMC1QLVFKX25tTW9BQ3EwRVZfNmhzYXZXd1VmbnNtazRpUnhwYjZ2SE9aS3JJYjhUT2FndExCZ25tMzlISXdPVzMxMWdQS0lJdVNQRG9ZZU9KTWJ6RGpyWDRNZlpScjA?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "‘Zelfs als Trump duidelijk verliest, zal hij zich daar niet bij neerleggen’: VS-kenners Björn Soenens en Bert De Vroey - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOX3J4c0J0anc0cDlCZWVyOU9JaTZOUjBob1NEOXNQeWFlTmt2WnF3SG9SYllqSm92cUpxY092RWFFbVdKVDJIZ3ZoN05OTHgzZ0RjU0R3c0kxYS1pYTZkc0p2WmNnMjBWbEZMTVFPeDhjWGljWEFQeUtodDVDNGNRLTh2N1c5NkNDM2tvVFI1S0dPNnVseEpXbWJBMlB4STFRTWIxV1RlbnZYa192NGZReEo4Yk5ESUNfMThEa19DSlBicGdOVHdSSGwtcG9LcGhqcEdSbDA5ajd6a25BdzYzY3kwVGZXamd0bTBZ?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump dreigt al met rechtszaak als Dan J. Sullivan van Dan S. Sullivan wint: zo spelen de Democraten een stiekem vuil spel vlak voor de midterms - HLN",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQSVVoYnNOTmpMWWI1X05XNkRBVEtYWExKZ3Ayb01JcldPeC1CczIyOWdvay03TUIyLXdHeXdWZ2Q2cHFLbjlBX293emlfQ24zRUtqUVVRd1ZzS3ktZi1LQ2xpWWo3NS1DVnNMcGVJVVJwcjhjUGR0c2FmYVhiRDBFQ2ZHaU8zMmJVcmN6QUJ4UmdnTFdZSUsxM3IxU3JZT1ZOSmRIOUdrT1VodmRadEFQU0ZBYUw2aktfR0ZtNk85LVBHUlpnMjdTazZrQnBSTzFWSy1VdjRTUmZuTkZ3dTZ0UDV3N2lKVzdkUHB3MWd5WnBNc3lSd1puUWlOaWl4SURVX0lRUnk2akJGZVZpY2c?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump, Vladimir Poetin en leger Israël op lijst met ’vijanden van persvrijheid’ - De Telegraaf",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbW16UWphM3A5S3IyRjJqRnQ3V3JfT0RUa1FONjN5XzN3cUdGbjEtbUYtYzhnQ3pfQTBaYlctaVA2eXZhenlzV2tic3Fyd3VlOHZNeG1TNy0yOHg3cUlfaGFMdE9MLTk2dzRoWUIyVHFRWmVPNVNiRy1UMUNjSzNFS2tfdlZTMTQxRGNPMi0yaV8tNmNSQkhIaHRoNkRYc0ZZUHZGc0tMWVFESGtpN1BmUWlyazlDTGdmeUhWc21uQjIzRVVPV09jZVY2TE5BOU0?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Obama ruziën over The Cheesecake Factory, terwijl het aandeel meer dan verdubbelt - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeHJ1ZkRvMnlYSTk5cXBYWnV6TG5lMHdNQTZJeGxvTldORU5mcE5id3RrU0VTd3Bjck1Ld0lIa08wVWg2SDNGOFFMeWg4aG1KbktWSTFWUFdRX3pGaS1pSmltWVg0SmRySmx4SWxWdmlWUHRaMzBlWHFvc0dKTklSRFdwc2NBakxNM3Y5cmF6NDFuY3h2WFpYUUNVVnFuZ3R2aHBkTnJnc0o0NERZSVM5dDZsekc5RXNXRlFhS20wWXVST29fYjZCZUp6Njlia0drOU5hQklNbG0?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trumps gemorrel aan kiesdistricten lijkt als boemerang terug te komen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZGxkUlU0SU9vVzExMXZoUDVWbmNYVHdZYmJKQTFkMWhLdzZtMlhMV0hKTU1sMHN1SWZMT3FXanpxdmV1SG9HUVQtRnY4a0pJWTVxb3UzNmFQQ0owVDA5OXE1Mng3S1l3NUFGelNXLWNzRnRsYnRKTHg4bF9iS20xWFV3ekV2WWhoMkRSMTVESjBhM2c0NnlxcW5qSFF4UGk0RUt4eXdRLUM4TUpNMEN6UG0xeTJiZ2oyMHpoeQ?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Tragique accident en Floride: neuf morts dans le crash d'un jet privé près de la résidence de Donald Trump - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNYWcyR0l5VExhMjNaSTBmRUtNSDRRalJKSVR5UU5oR0R5WGc5dzdTRmRHQVptME9aYk5LV2xiTHJHeFc2VzBsXzI1b21vaGlEWVVOMlVxd2dhdGFMWEVVX0d3cVhleUZ6a2I5ZG81ZEQ1azFjcDRXVGE1UjQ4ajZtT3VET3ZaOHpkLU1wT0lIWXF0YmJCZkFqbE9wRm9VY2hscXZNd3hsUmxrWjh0MXNxeE9ZTlJsS0lSOEgwbFRoY3BOb2ZXMHg3Ym9EQ1VlNnRpa2JJQzdVRzdfZl9rMFVvRjNyX2IxOEpYTGlWczF0QVN1Vkg4Z0lyc2xFVWhqaGZFTUVfT25XZmV6Zm5KNjNMQXl2akFtXzcw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky à Trump : l’Ukraine poursuivra ses frappes sur les raffineries russes sans missiles Patriot - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVGpJLWhlc1hHZkpDRUkyV09jdW5ScWExQ2pjZ3kwX1RZUHVaWnp2bzVhczUtemR6aGRYeG5LcE1QTkNLME1sNzltcUhmYzY0bVpfbDdSbF9JNXI5czJweGJIRER4bmFLWU5mdWFQdzdBYnFidVpuYUl4cGlXQ0dBTUxRTFlIaHAteVBCbE95VUdvWkZRei1sOTBzQ0xZbDg2djF5ZkY3WDNUQ3dpOWFocWg5dDRHY0FTRXAzZXlDZFdXY0NjWGRpWEluSFNrWXdRa3pxVnh2UGhGQnhpQ0tzT0syT1U?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump ajouté à la liste des « prédateurs de la liberté de la presse » de Reporters sans frontières - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUzZZamYzWnV5eENwMEVybURDQzQxUGdJYW0zaGxOaUNmb1FBNUtVSUN5ajhfamZrdGpVcEtPTUNlc3d4TnFnQ3VfeWYyNWVoeDhpMzAwenpNUzRqLVoxLXNESmNiUnNKUjdBZUh5bzJkdFRBNkhGYjlWcGNNNzBSR2Y3Q09LWTRlSFlMSmdncF9uRmFET05rd0w1a0l2Qll6VjRTMFdydXJmQ3dibmNVTVpyNVJ1b29Va1RKTExLZ0lHdw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "\"Il se montrera très dur\" : l'Europe inquiète d'être une cible de la colère de Trump après les midterms - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOVXAzSFJtZndfTGRZX0hRbGxnRTM0QXoxYmptZGFKUGhuQUZQOEYzQXlrVWVTTF81dUhaYlJfTmdBYjgxbXMyZE8yOS1MU0F3UWtYMmZXWVBkTEl4U1U0ZEp3bkJlN3pwS3ZMQkJtLUdXNlpPRzZzREZHNlJoRkVUVXE0M28yMi1iclN5Q09VUFBxRENMLTJfN0d0Tjd0UGxUQTJVLUpHajJGNWFZR3F5WG5EX0owc0JkcnptTFJKR0hQU3VUWkdVX0h3VVBrTGhseW82YXZyQ0tVTTVQZ2FONy1FaTdNNVJvTkZKM1hULUhjZHhFbmt3MUdObXE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Marco Rubio dit avoir évoqué avec Sergueï Lavrov une rencontre entre Vladimir Poutine et Donald Trump mi-novembre - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMjV0anN2VUJIU3Jfa1hjN1JUb3d4UFp5bGVrdzlMeWZoMGlPa3Z5Z25xR1NLMC14VFd2NFZuZWszek1wSFZlSzZ6cElGNWtabkY4WGMwaFcwQkZlZXJfXzc5WVQ2Mm45RUxHb2tEdE9XTWViaEt2SnZxeTg1am1uQlFlQ1YzOGxlUXBMeEZDYk1jNkpkTF9vcW9hRmEyZndSUG90YWlvWXBvck8yQk1seWdtM19UY2pCX01pd2lRb0JiY0hmNW9tMC0yZjQyOF91aHpZRmFYblpUTkl4clN1UlY1aEc?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "De Democraten zullen de zelfbeheersing moeten hebben om niet te proberen Trump af te zetten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMjg2NXRCeEZ3SzRTcUh6LUx3dkRENWVTODJraVZ2VXhMdzJobzNLV1BHUWktaXNFTjBmTVFEdkIwdzlfSVY5Q0ZVU3BydnVkY2NJWTRjYzlHbnBZdWotY3UxSFpWOVAzNXZncnBKY0pHdVJsdTJPTlE0bHFMdmJwcE8zTXUyYkswUFo5Q2dYX0w2YnF6M0JZcHhXZHJFdTdYYnJRMmJtNGtPellIdUVORTFtcVZtWDVOamxkSHlKLTI1dTZMSEt3WHJsbHdyR3BodHZubFNR?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Als de ‘blauwe golf’ nu niet komt, met de populariteit van de regering-Trump nabij het vriespunt, wanneer dan wel? - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQXzIzZXZOLTJGWjljSDJMNFRDWmYySU1CVDg0dXNnUkFHSUYzWVVrZWZuSms2aHFQdmo0Y1hWSVpsOVAzN0JOWVgxdlBNNG9veHdnQzhPenRBN0U5ei1RNnNvd2dfOHRRTzZ2Mi1hUl9WSjZucnFWM1NtdjJfbnBIeXVUaTRaVUU0X1k4NVh6YzhIbjZGNF9FaXB4VjF1dkhjZVFOaXd0SEI5MUlHbm5xMENNeldXYU12M0NndmtvSTBFNGhYX1o5QjlwcDJ1TlpfWGpzUUF4LXVqUnE1aGJkVTgzQWFQVTdhQkJnU1B3?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump lanceert opnieuw racistische tirade tegen Democratische kandidaat-senator Abdul El-Sayed",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-lanceert-opnieuw-racistische-tirade-tegen-democratische-kandidaat-senator~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Zelfs als Trump duidelijk verliest, zal hij zich daar niet bij neerleggen’: VS-kenners Björn Soenens en Bert De Vroey",
+        "url": "https://www.demorgen.be/nieuws/zelfs-als-trump-duidelijk-verliest-zal-hij-zich-daar-niet-bij-neerleggen-vs-kenners-bjorn-soenens-en-bert-de-vroey~b0e7f146/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Obama ruziën over The Cheesecake Factory, terwijl het aandeel meer dan verdubbelt",
+        "url": "https://www.nieuwsblad.be/binnenland/trump-en-obama-ruzien-over-the-cheesecake-factory-terwijl-het-aandeel-meer-dan-verdubbelt/163916654.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Obama ruziën over The Cheesecake Factory, terwijl het aandeel meer dan verdubbelt",
+        "url": "https://www.gva.be/binnenland/trump-en-obama-ruzien-over-the-cheesecake-factory-terwijl-het-aandeel-meer-dan-verdubbelt/163951866.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Obama ruziën over The Cheesecake Factory, terwijl het aandeel meer dan verdubbelt",
+        "url": "https://www.hbvl.be/binnenland/trump-en-obama-ruzien-over-the-cheesecake-factory-terwijl-het-aandeel-meer-dan-verdubbelt/163954373.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Anthony Scaramucci, ex-woordvoerder van Trump: ‘Hij is moe, daar bestaat geen twijfel over. Maar onderschat hem niet’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSERNV2VYbkREaElaZ3JpOEpHUm9PdjFUOVN6aGFSYUx5UHpEdVd3WkFRVF91Z1ZWV2RaMmpDSGlaUFNhal9qSE4wREgxLThTZzVuQlFOVmNIVGZIX1BDTDhBbDBIcFY5d1hzOE42T0FzeVdfdTJYdS1yUGE5NW5OcDNyNVh5MTNKOVFDSDF5Z1dETWEwcmJqaUdtWU4zM3Qtdk03ZFpVaEdHdEVRaS1aT3o2cE5fUHk0ZFhXZVJhMHRJTVgzSDI1OUdVQnFBSXNTbW1iSW5KMG1jMHB5TDVRMA?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Sur la route USA - Nevada : \"Oui, Trump m’a déçu. Mais je ne voterai jamais démocrate\"",
+        "url": "https://www.rtbf.be/article/sur-la-route-usa-nevada-oui-trump-m-a-decu-mais-je-ne-voterai-jamais-democrate-11809165",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky à Trump : l’Ukraine poursuivra ses frappes sur les raffineries russes sans missiles Patriot",
+        "url": "https://www.rtbf.be/article/zelensky-a-trump-l-ukraine-poursuivra-ses-frappes-sur-les-raffineries-russes-sans-missiles-patriot-11809102",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "L’Europe craint de faire les frais de la colère de Donald Trump après les midterms : “Il se montrera très dur”",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/02/leurope-craint-de-faire-les-frais-de-la-colere-de-donald-trump-apres-les-midterms-il-se-montrera-tres-dur-IUWTUPBZ5ZH2ZJKKXQCG6EB6OI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Tragique accident en Floride: neuf morts dans le crash d’un jet privé près de la résidence de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/02/tragique-accident-en-floride-neuf-morts-dans-le-crash-dun-jet-prive-pres-de-la-residence-de-donald-trump-TZZ65R6ZJFDGRKUQJTLZKTP3ZY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump défie à nouveau l'Iran, qui menace les États-Unis d'une longue guerre - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONDNmUmotQlV2MFphVGVRMFZFcWNWOG1UOHRJUFFKY2MtNGlsWnhDMXVQc0NoQ0dzRjVYR1kwN0FGZE1KVEEwRHFWWmM1MVQtS295VHNOVVpDdkFpRjFzZmxST21KSVNCZUxSSi1jVDQwaHNLdEtBTkpoWEVaWUMxVDhDWTZfNnc5d204d1lhQkFGcDZpVEwyZHltZnR0OHAwRnM5bk1CYUpfLUw4cDVUTHZqaW94SzdfSGMzSHRzQkdnYk8xNGI5MXd2Q0JDVEZkNDNiWlo3bElLVi1oY182Njh3?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "“Il se montrera très dur” : l'Europe inquiète d'être une cible de la colère de Trump après les midterms",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/02/il-se-montrera-tres-dur-leurope-inquiete-detre-une-cible-de-la-colere-de-trump-apres-les-midterms-HFDPUP3J2JF3TKWPPXEFHXKPBI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Drame en Floride : un jet privé s'écrase près de la résidence de Donald Trump, neuf victimes à déplorer",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/02/drame-en-floride-un-jet-prive-secrase-pres-de-la-residence-de-donald-trump-neuf-victimes-a-deplorer-IFR5UZKLPRBXHITCT4KMXKGFYE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Volodymyr Zelensky pose un ultimatum à Donald Trump et conditionne la fin des bombardements sur la Russie",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/02/volodymyr-zelensky-pose-un-ultimatum-a-donald-trump-et-conditionne-la-fin-des-bombardements-sur-la-russie-MRNOYVP6BNBY5HO2CZBZ75ZKBY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Des missiles antiaériens déployés à Mar-a-Lago pour protéger Trump",
+        "url": "https://www.7sur7.be/monde/des-missiles-antiaeriens-deployes-a-mar-a-lago-pour-proteger-trump~a9df8073/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Élections de mi-mandat aux États-Unis: Trump veut faire mentir les mauvais sondages dans les urnes",
+        "url": "https://www.7sur7.be/monde/elections-de-mi-mandat-aux-etats-unis-trump-veut-faire-mentir-les-mauvais-sondages-dans-les-urnes~a8e629d1/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Trump affaibli, plus dangereux ? - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWXI2c19wU3ZmemxrQ0twdWVOMmp0ME1VOC1ITnRmeTFXdmZTOEYtaWY3X0VxVF9MV29US0RVbzlSSmQxTmtCak1Wa2d4NGd5MHlYTU9CZmV4eVFRUUR5N0xrcnI0VkhQT043VkFLQ3g5R1ZsUmlRSllCYWphMXotSlFzcUd0RFJpTGRHUk42c281MWlTTm5FdjVyaFBSai1qYnlJ?oc=5",
+        "source": "lavenir_g",
+        "name_only": true
+      },
+      {
+        "title": "Qu’est-ce que les Midterms aux États-Unis et pourquoi sont-elles si importantes pour Donald Trump ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOFdudC1TRW56RGNaVEhhTkwxRG1wbF9JZVFIclNyd19GalNMT3Fuc1B2RUx3aVdpYmdtTGYzSGh6dF9tYkthamlNa3FkUnNmTDROS3AtR0xINEdQejBGbHZYOUJ0MTc0WTJuTFBjcmdjOE5XRHEwTmhsaTE3dktWUVk5S3hRZEZ4WHY1eVgwX2dQVkoxX1lCQWd4SXU5WjctVUV2VXQ5V3JwWjZZSHlYMlhhTFFiRC1Jbm9TZDMyRnhqdUR0ak5MNUU2RENTSFRVMjJGWm1BaE15X2ZkOE5mSEpB?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 19,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 34,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 3,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 33,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 41,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 3,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 4,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 33,
+      "crime": 11,
+      "eu": 14,
+      "politics": 44,
+      "be_gov": 52,
+      "culture": 12,
+      "tech": 9,
+      "economy": 36,
+      "sports": 51,
+      "health": 8,
+      "climate": 7,
+      "migration": 3,
+      "education": 2,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 42,
+      "crime": 14,
+      "eu": 18,
+      "politics": 53,
+      "be_gov": 62,
+      "culture": 17,
+      "tech": 15,
+      "economy": 48,
+      "sports": 71,
+      "health": 8,
+      "climate": 8,
+      "migration": 5,
+      "education": 2,
+      "weather": 13
+    }
   }
 ]
