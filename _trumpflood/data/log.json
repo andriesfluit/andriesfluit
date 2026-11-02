@@ -126072,5 +126072,430 @@
       "education": 2,
       "weather": 13
     }
+  },
+  {
+    "date": "2026-11-03",
+    "generated_at": "2026-11-03T00:40:23+01:00",
+    "last_checked_at": "2026-11-03T00:40:23+01:00",
+    "total_articles": 27,
+    "trump_articles": 2,
+    "percentage": 7.4,
+    "core_percentage": 7.4,
+    "core_percentage_name": 7.4,
+    "trump_articles_expanded": 2,
+    "core_percentage_expanded": 7.4,
+    "indirect_references": 0,
+    "wide_total_articles": 32,
+    "wide_trump_articles": 2,
+    "wide_percentage": 6.2,
+    "wide_trump_articles_expanded": 2,
+    "wide_percentage_expanded": 6.2,
+    "macro_percentage": 9.1,
+    "qualifying_outlets": 1,
+    "core_outlets_total": 19,
+    "core_outlets_active": 1,
+    "active_core_fraction": 0.053,
+    "cross_outlet_dup_headlines": 0,
+    "cross_outlet_dup_groups": 0,
+    "cross_outlet_dup_rate": 0.0,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 1.0,
+    "deviation": 2.69,
+    "smoothed_pct": 3.47,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_politics": {
+        "fetched": 17,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_tech": {
+        "fetched": 53,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 26,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 67,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 25,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 75,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 95,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "trends_g": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump zal het niet erg vinden dat de Republikeinen de midterms verliezen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdURmcjlNZkU2OUlua2xIYjBkQlhidzg0WERMbXpBUGdzQVktZGpLc1JqUVVtNDNsVU9iSGRxOE82VW5tbUFHYm43ZzlManE4NlVNUjFoTjNZSU5aUjRiTVB5MXZzQTN1SnZVMDd3R1dhOHY3ZHpWajJac0RZNE5BM3JnTW1QUE1KRU9lT1c5bGV1OVVjbmtSeVNOUTAwT0dVd19iYWp1SE9hbGZ3cFRvemJISW42QlZ3aUVxMw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Lachen met Trump, trauma, seks en culturele verschillen: tien hilarische comedytips om te streamen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZGlsbEpzdEhZOXg5R2NodmJNcF9oRlQzSXR5MFVmU0lRaFlJZTBsSmZsMkl0cDhMQTNqcFItcDNVeHp5WnA0dUUxSVNYRmZDbk5tMzJlOUtrRkZzNlNUTHh3TG9lbnQyWG5DZ1JHVmkybzJzUUJHdmd0QjRaZXB5T1dQSzVyV3pUd3NIMWxfT0U0YnRrejl1MUpxV2JIYmh4bGktSVNITzR4cnBLTXhqakE2MGVWbllObVFjVGRSdFhqTU13bTFlZlQzcmJaNmVHVnl0cHJ4X012QQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump zal het niet erg vinden dat de Republikeinen de midterms verliezen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdURmcjlNZkU2OUlua2xIYjBkQlhidzg0WERMbXpBUGdzQVktZGpLc1JqUVVtNDNsVU9iSGRxOE82VW5tbUFHYm43ZzlManE4NlVNUjFoTjNZSU5aUjRiTVB5MXZzQTN1SnZVMDd3R1dhOHY3ZHpWajJac0RZNE5BM3JnTW1QUE1KRU9lT1c5bGV1OVVjbmtSeVNOUTAwT0dVd19iYWp1SE9hbGZ3cFRvemJISW42QlZ3aUVxMw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Lachen met Trump, trauma, seks en culturele verschillen: tien hilarische comedytips om te streamen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZGlsbEpzdEhZOXg5R2NodmJNcF9oRlQzSXR5MFVmU0lRaFlJZTBsSmZsMkl0cDhMQTNqcFItcDNVeHp5WnA0dUUxSVNYRmZDbk5tMzJlOUtrRkZzNlNUTHh3TG9lbnQyWG5DZ1JHVmkybzJzUUJHdmd0QjRaZXB5T1dQSzVyV3pUd3NIMWxfT0U0YnRrejl1MUpxV2JIYmh4bGktSVNITzR4cnBLTXhqakE2MGVWbllObVFjVGRSdFhqTU13bTFlZlQzcmJaNmVHVnl0cHJ4X012QQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 0,
+      "crime": 0,
+      "eu": 0,
+      "politics": 1,
+      "be_gov": 3,
+      "culture": 4,
+      "tech": 1,
+      "economy": 0,
+      "sports": 2,
+      "health": 0,
+      "climate": 0,
+      "migration": 0,
+      "education": 1,
+      "weather": 0
+    },
+    "wide_themes": {
+      "war": 0,
+      "crime": 0,
+      "eu": 0,
+      "politics": 1,
+      "be_gov": 3,
+      "culture": 4,
+      "tech": 1,
+      "economy": 0,
+      "sports": 2,
+      "health": 0,
+      "climate": 0,
+      "migration": 0,
+      "education": 1,
+      "weather": 0
+    }
   }
 ]
