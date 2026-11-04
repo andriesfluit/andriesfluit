@@ -126497,5 +126497,1276 @@
       "education": 1,
       "weather": 0
     }
+  },
+  {
+    "date": "2026-11-04",
+    "generated_at": "2026-11-04T12:31:04+01:00",
+    "last_checked_at": "2026-11-04T12:31:04+01:00",
+    "total_articles": 595,
+    "trump_articles": 68,
+    "percentage": 11.4,
+    "core_percentage": 11.4,
+    "core_percentage_name": 11.4,
+    "trump_articles_expanded": 69,
+    "core_percentage_expanded": 11.6,
+    "indirect_references": 1,
+    "wide_total_articles": 774,
+    "wide_trump_articles": 75,
+    "wide_percentage": 9.7,
+    "wide_trump_articles_expanded": 76,
+    "wide_percentage_expanded": 9.8,
+    "macro_percentage": 10.0,
+    "qualifying_outlets": 25,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 22,
+    "cross_outlet_dup_groups": 11,
+    "cross_outlet_dup_rate": 3.7,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 3.78,
+    "breadth": 0.89,
+    "deviation": 3.93,
+    "smoothed_pct": 4.73,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 1,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 29,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_nl_politics": {
+        "fetched": 28,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
+      },
+      "google_nl_tech": {
+        "fetched": 53,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 19,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 43,
+        "kept": 43,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.33
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 56,
+        "kept": 50,
+        "trump": 6,
+        "trump_expanded": 6,
+        "share": 12.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 26,
+        "today": 20,
+        "kept": 20,
+        "trump": 6,
+        "trump_expanded": 6,
+        "share": 30.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.0
+      },
+      "knack": {
+        "fetched": 96,
+        "today": 29,
+        "kept": 29,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 17.24
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 14.29
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 25.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 50,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 10.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 66,
+        "kept": 62,
+        "trump": 6,
+        "trump_expanded": 6,
+        "share": 9.68
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 39,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 10.26
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 28,
+        "kept": 28,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.71
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 21,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 19.05
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 45,
+        "kept": 39,
+        "trump": 9,
+        "trump_expanded": 9,
+        "share": 23.08
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 9,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 33.33
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 16,
+        "kept": 15,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 20.0
+      },
+      "trends_g": {
+        "fetched": 80,
+        "today": 27,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 76,
+        "today": 20,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump geeft toekomstig Democratisch Congres meteen duidelijk signaal met 'VETO'-pet",
+        "url": "https://vrtnws.be/p.BlYVdl75G",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Blauwe tsunami: kiezers straffen Trumps Republikeinen keihard af - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeWQtUk95UDZqODlnUjhjTk53Tmd3ZU05bms1V29EUmZWM1pLbjhvVXAxSG93aDE3ZWlaTjFpQjJTamo3NDhheGpmY3hrcndZNVk0dGZOMjNVSkp2UVZmRnpkZmtta05GRVRvQzNNZ2p6dHhSVVlNTXdkd3pZakhJWGZLdFRQaUREVHE2VC1vX3lTTEdLSHRlYnVDYTNqS2VoNUJjUHZRMENGUjZxZTc0d2RIWGQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump reageert op eerste verkiezingsresultaten: “Zal uitslag accepteren” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWU81azVYX2lCVnlDZDJ2RXgxZWItSy1ZRmw0T2F5WHVzVEY4UUtlUlRydy1Zd0I1MUkwOEowSUM2YW1xRzVIR0V0Z3d6WEI2QmE5V255d0VaQ3p2VElkZGhoRDZ0aXh6YWhCemZKQ3diNXlLQmF5R0hPVXBETElCT25oUjFIS2RtTmRxX3huaTJmZWtldkFBcjlQbEhJYUdDN0VkLThIRHY5S0VoZG5fQU5qdVUtSHI4RFhCNg?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Amerika-watchers Steven De Foer en Roeland Termote over de Democratische zege: “Dit is het begin van het einde van het Trump-tijdperk” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPaE14V2JFdjlvYVpJeklmUzk5TTlYVXMwWktIa1dEMHA3VjVKeW1Fc2VXZUZFalRXMjR5a2ZrdVBMZnU5NU5WMnJYUXVnWnBFY2Q0aUxJUi1LUzVXaFRQUU5UMkdsMVQ5a2M2RDhHTWhTVnlNR3VZbkFSNEZXaEdRR0ZYMUlKOFZ5VE5ycTF1X09jVVlUUzNjaGVRZmxtY0dFT3llUGhuVGN6SHd1TWpqeTJrbGtrckZSaUNYcTgyamE0eF9ucTVqb3p4WnZ3RjNfcmxMN3cyeWJ3VnU2MFNGaUljcjhyU0M4T21WMGlyRHNpYm1NRXFWaHpFbDRDUE1MMnlZMHRkX01HWldBR19FZU9YQTl2T1U?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "DS Video | Trump reageert op verlies bij Fox News: \"Als ik op het stembiljet had gestaan, hadden ze wel gestemd\" - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRlZtOHJPSEJhd3VmVFJmQjN6dEpLSEJYc2lWTWhOSzUxb215ZUoyZ3RqZ2RwNzAyQ0Rqbzk1WGk3WjVlX0ZSZUdLWlhVcC0yT21RR1hZNFV5SGF4Y3NkWUdyTndNM0h4NEhjZ0hsZXJvMTNrTXI5TjNxTTFmUVFYZl9RY3JDMVJuVlBmNHdMb2YxTExsNG0zZ3dKN2JzUGlQWktiS0tFWjNpOVI5U1dPRllsX08xdjRKSjdhRGhGUF9Lc3l5aWktR3NKZGFhODZIOXFfWnNVTkYzb1ZMd1MyWUdqbFhicDF1a3c2cUM5Yw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trumps pocherige eigendunk van onoverwinnelijkheid heeft een niet te herstellen deuk gekregen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMF9nZ0tIZUx1QkxHZDdDSWpLSEtFREdfU1BfQ2xqWDVTVVI5Um9fbEYzeFdoRHZFbnZFNFpiY3JGamY0UlFyNnpFaHlqS3dMVDZOS1YxWDlhSi01bHVmS0YyUTZxS0RNeU55aDBhSExHMTRxSFVoS3BNRkdnZkhQeTRLVlFYNmNucWJ1ME5xczd6cDduQjB0QXhLdU8zTVJwOVd6SFB6VEp5X2tsNjBoc3p6aXhHV05Ma1BFdDRscUstUUx6WmR1X3l2R2kxMEJYeTF4MmUyN0w?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump ziet blauwe golf niet als “klap” voor zijn beleid: “Mijn naam stond niet op de stemformulieren” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNEI3d25HbjRxZkV3RGlkMnhoaFphdW5VMC01VWlyNWhRY095cmZuVDN4QU1iUW13YWV4SjUwU3JmVWY0NTdkbG5yNnFFRmUzV2VaSUZDT1dSaTk2TElZeUlXUDRraE9uOG5GQXhyNk9HNzd6cUw0UC0tMDBGc2I5Rmt2TWhrYWFmZnFVVkEyS1Y3NDNPZ2MwSTQxQnBMU3dMenVfcUF1THJ5X1hhSG9wenl0azJsUmdtRHF5ZWN6V1MzS21KYVlPaVpsN0VjQ3FqSzRYVDdmeFRLaDVJczdnaQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Van babybedje in een kast recht naar het Witte Huis: hebben we met James Talarico (37) nu al de nieuwe president van de VS gezien?",
+        "url": "https://www.hln.be/buitenland/van-babybedje-in-een-kast-recht-naar-het-witte-huis-hebben-we-met-james-talarico-37-nu-al-de-nieuwe-president-van-de-vs-gezien~a690e9ce/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Zeldzaam diplomatische boodschap, maar ook al plan om dwars te liggen: zo reageert Trump op verkiezingsnederlaag",
+        "url": "https://www.hln.be/buitenland/zeldzaam-diplomatische-boodschap-maar-ook-al-plan-om-dwars-te-liggen-zo-reageert-trump-op-verkiezingsnederlaag~a2a362b8/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Hollywood “juicht om blauwe golf”: Lizzo danst van blijdschap en Jimmy Kimmel grapt over Trump",
+        "url": "https://www.hln.be/celebrities/hollywood-juicht-om-blauwe-golf-lizzo-danst-van-blijdschap-en-jimmy-kimmel-grapt-over-trump~ac9c0a8e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Duizelingwekkende veroveringstocht Democraten: Amerikanen rekenen af met tijdperk-Trump",
+        "url": "https://www.demorgen.be/nieuws/duizelingwekkende-veroveringstocht-democraten-amerikanen-rekenen-af-met-tijdperk-trump~bc097074/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump keek tijdens verkiezingsnacht naar Fox News. Hij was niet blij met wat hij zag",
+        "url": "https://www.demorgen.be/nieuws/trump-keek-tijdens-verkiezingsnacht-naar-fox-news-hij-was-niet-blij-met-wat-hij-zag~be09b621/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump moet voor het eerst zonder meerderheid in de Senaat regeren, en drie andere conclusies van de midterms",
+        "url": "https://www.demorgen.be/nieuws/trump-moet-voor-het-eerst-zonder-meerderheid-in-de-senaat-regeren-en-drie-andere-conclusies-van-de-midterms~b4e11262/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Grote verliezer naast Trump: Elon Musk moet Democratisch onderzoek vrezen na nederlaag bij midterms",
+        "url": "https://www.demorgen.be/nieuws/grote-verliezer-naast-trump-elon-musk-moet-democratisch-onderzoek-vrezen-na-nederlaag-bij-midterms~bf6de460/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "De belangrijkste opponent van Trump, en andere opvallende winnaars van afgelopen nacht",
+        "url": "https://www.demorgen.be/nieuws/de-belangrijkste-opponent-van-trump-en-andere-opvallende-winnaars-van-afgelopen-nacht~b889e399/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Voor Trump en de Republikeinen is dit een rampzalige dag. Hun verlies is geen verrassing, de snelheid waarmee dat duidelijk werd wel’",
+        "url": "https://www.demorgen.be/nieuws/voor-trump-en-de-republikeinen-is-dit-een-rampzalige-dag-hun-verlies-is-geen-verrassing-de-snelheid-waarmee-dat-duidelijk-werd-wel~b6b01a30/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump feliciteert Democraten, maar deelt even later opmerkelijke foto: “Veto”",
+        "url": "https://www.nieuwsblad.be/nieuws/trump-feliciteert-democraten-maar-deelt-even-later-opmerkelijke-foto-veto/164053465.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Dit betekent Republikeinse nederlaag voor Trump en de VS: “De meeste medewerkers van het Witte Huis hebben hun advocaat al gebeld”",
+        "url": "https://www.nieuwsblad.be/buitenland/dit-betekent-republikeinse-nederlaag-voor-trump-en-de-vs-de-meeste-medewerkers-van-het-witte-huis-hebben-hun-advocaat-al-gebeld/164054794.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump feliciteert Democraten, maar deelt even later opmerkelijke foto: “Veto”",
+        "url": "https://www.hbvl.be/nieuws/trump-feliciteert-democraten-maar-deelt-even-later-opmerkelijke-foto-veto/164053919.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump ziet blauwe golf niet als “klap” voor zijn beleid: “Mijn naam stond niet op de stemformulieren”",
+        "url": "https://www.hbvl.be/buitenland/trump-ziet-blauwe-golf-niet-als-klap-voor-zijn-beleid-mijn-naam-stond-niet-op-de-stemformulieren/164053904.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“It’s a Blue-nami”: Democraten grote overwinnaars bij midterms, rampzalige avond voor Republikeinen van president Trump",
+        "url": "https://www.hbvl.be/buitenland/its-a-blue-nami-democraten-grote-overwinnaars-bij-midterms-rampzalige-avond-voor-republikeinen-van-president-trump/164053390.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Twee derde van Amerikaanse kiezers geeft Trump de schuld van hoge prijzen, blijkt uit exitpolls",
+        "url": "https://www.hbvl.be/buitenland/twee-derde-van-amerikaanse-kiezers-geeft-trump-de-schuld-van-hoge-prijzen-blijkt-uit-exitpolls/164053296.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "‘Wed altijd op de underdog’: Democraten verslaan Trump én Musk in historische zege in Texas - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPODBoN3RmaEtnTlFfYjBUOU9sT0lweGVHUWFJV0ZLUW9hVDlZdlJQS0QxY0pTTDdjalA1R0hzN1RmcWxVZFVQdEN6QkRyZXQ4a3FFM0FoUE9VTVo4ZU02QXFmQkdsbmxWZ0tyczdTVGZ6YWFCRktpM1J3Qm1Qc29Zb0hNdlFsZmtyNjMtRFFfSnNkVGhUM1hsWDNIaVFWelo2RExxa0hnUHY0YTFPWmhtanpZdnhtS1A2R1JreVF4OEw0UQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Politoloog Ruth Dassonneville: ‘Trump is afgestraft door jongeren en latino’s’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVkhzTk5maktURlhqempIbEt3eUo0VXNXRkNsN0xqdXVJRk1lVE5RdlFrUzdjTk1peDB4a3pVYzZlU3lrazhka1RWNUxHMUdXX2JMd1J0dHYxQmlpYUdDSjV2S0w4S3lNTEstbHpRc0JWTFFBOThydXVJRzVrUXllS1JPODJKM2VLRDdNVEc3NEg3ZnYteGhfUFRJTmZwVU1aR0xQSnRfOG9Xd2lTRHRN?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Elke Republikein weet: het is de schuld van Donald Trump - Knack",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWWUtTzk5a2dNeGFMNjRGUXRhTDVob21ERFdBX1hPSTZzbHV0SXdTdUdmaVNuTHA1UjVlOGhrVHBNZDVQaE9uR3dqenRvODVJcU43UFBpOHB0N3h6eTVGcmxYQmlSTTliaW9MVmY5RkM5d1VWcUlaUm9sZkJBRDB6TDNLTWw3eWs5cTVUUHpaWVVDUFlmZmc?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "‘Donald Trump verliest, en zelfs deerlijk. Game of Thrones in Washington’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVHZfVzU4ZTRScjJma0Y5Y1ZzWXhhQVZreHk4LTJ4R1JnblNURTg2YTR3SEpsMlRMNnhScFhWTjRZbDNhNWNfN3c4OTAzbm52cjQ0T1NpLUhlMkNBQkZnNmlQNnp3UnRFdkEzYmtTTkJTNUZzWGlpU2xVQWlzb3JPcUZ6ZmU3RUlGNzhzMA?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Amerikakenner Bart Kerremans (KU Leuven) over de midterms: 'Daarop is Trump afgerekend' - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY2FKZTdJSFNIUzIxVzZrY3U4SGMwOVVYbjE1WVR3VEZkNUExaGh5TVJqX3dkTTdRV09iQXRWeDVNaVdLcTlqUFM3c3FSQUNzZ09OZmEzM21leElrWjV2T2kxUF80cGJCS0dVNEZkNE1aSkNVODdxQVA5N29NUkMzQzl5eWdqRjBUbkEydXBaR1BvaVA3eGdPRmZxTmVhMnNGQkZtNDFtYVMwU0F6U1E?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "\"Fiasco\", \"désastre\", \"claque\", \"désaveu massif\" : trois éditorialistes analysent la déroute de Trump et la fracture américaine",
+        "url": "https://www.rtbf.be/article/fiasco-desastre-claque-desaveu-massif-trois-editorialistes-analysent-la-deroute-de-trump-et-la-fracture-americaine-11810281",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump reconnaît la défaite sur un ton conciliant mais n’en prend pas la responsabilité",
+        "url": "https://www.rtbf.be/article/trump-reconnait-la-defaite-sur-un-ton-conciliant-mais-n-en-prend-pas-la-responsabilite-11810253",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "La revue de presse : Donald Trump, battu, alors qu’il n’était même pas sur les bulletins de vote",
+        "url": "https://www.rtbf.be/article/la-revue-de-presse-donald-trump-battu-alors-qu-il-n-etait-meme-pas-sur-les-bulletins-de-vote-11810313",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : qu'est-ce que le syndrome du \"canard boiteux\", qui menace Donald Trump ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/04/midterms-2026-donald-trump-est-il-un-canard-boiteux-7TQVQYI5V5DRXKFSP2UWPGJOCI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Midterms 2026 : Trump ouvre la possibilité d'adresser un veto pour toute proposition de loi votée par le Congrès",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/04/direct-midterms-2026-les-democrates-prennent-le-controle-de-la-chambre-trump-refuse-dendosser-la-defaite-TC7ET5QK6VBCJNQQWLI56RXOFE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Face à la lourde défaite aux Midterms 2026, Donald Trump laisse exploser sa frustration à la Maison-Blanche: \"L'atmosphère y est funèbre\"",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/04/midterms-2026-donald-trump-sexprime-sur-le-lourd-revers-qui-se-dessine-pour-son-parti-KZLTC56MQJFG7D74MC4TYXAN64/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : les Démocrates remportent le Sénat, Donald Trump se dit “prêt à accepter les résultats” et “à travailler avec eux”",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/04/midterms-2026-les-democrates-remportent-le-senat-donald-trump-se-dit-pret-a-accepter-les-resultats-et-a-travailler-avec-eux-YBJK24DV4VFWPBWDCLQQVKQHJI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les médias américains reviennent sur le \"massacre\" de ces midterms 2026 et ne cachent pas leur inquiétude face au comportement de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/04/les-medias-americains-reviennent-sur-le-massacre-de-ces-midterms-2026-et-ne-cachent-pas-leur-inquietude-face-au-comportement-de-donald-trump-P7A4T5NH4VEZZBTV4HFM2WRX7Y/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump et les Républicains se font désavouer par les Américains - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMblFTZUZ3RnhObzlGR2VGVGl4SWI5YXA5YlcwLUgyLU1vQ2kyc09iUWFtd2prQ1R0d3h3Q2RXWXdyTmhJOHNGWTh1SlM?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Quelle marge de manœuvre Donald Trump garde-t-il avec un Congrès démocrate? - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeUJMN1pTeGtoRGFnN0FYSUFmQ1BQUVkxem5fUVVqNXJLZjdXay1oOXFRSWRtOS1WYk8zRHNhV1RXVjBjdVFaMTk5eDZVMklNSWwwcFotM09zQUFwY0IzTjNfYUpGQmpFcG5PMW12YzYzR0NnclgzcXAzVVVzMFZNY3FqZ01pYUQxN1dVRGxtaXJFVGN1RDQ0bTFiQy00elJLNE1iVVlfX21kZXpicklsVDl2X3BGQVdHVEpUYVdCRTZ6SDhXR2VqRFJMa2o?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La déroute de Trump ne doit pas nous bercer d’illusions - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXZOS3dHbDk1WkFYTXFiZTMyQm1MemVGb1dnYUtUQXQ2TnBmSk13d0xnRlhiZkdwaWtNZ0RaLWhmc1JBQzk0MDQwRkV6eXFMMjhKQmdhNHFJZDB5ZXlZb3Ixb2RVQVE4aUptcTR4LWxDT2hNMTlpSnBXSFNsMDVzcTdPYU9HbzRLMTlhWEVqTTlzRlRmQWZfOU5KZV9ucE50RWxsT1hHcm0?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Midterms: voici ce qui changera pour Donald Trump et les États-Unis ces deux prochaines années - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVzAxNU1nUVNLdEFBeWE0aHpncWpKdDhsck5feE1vSEFJcjNTU1JUZk9iNVJteW56WjhGT0Q2Q3JTVzJucGFyQ21CQjJGZUFLYTZYRk53M3U1U2tTTlhIR3dCNFF1dl9MNnljTVo2RXc1MFA4QnNJWjZPdG9fVHRyb042amtTczBDNnI5Ulp4QW9VcWdwTVdhMDBWVzdGczJCUWV2Y1hkN2w4LXhBTHlScVgwdW9UU3VycVVyYkpJRE1EYjdVY2pVb3R6ZHRCRHBVUjZtMzJ6NDlUcGxUM1R3dUdWSkQydw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Midterms: la vague bleue déferle avec une majorité démocrate dans les deux chambres du Congrès, le vote sanction se confirme pour Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPN1hvUGhGV1RlUy1pUVVsNnctOUVmYTZaZGdKWUhuZU9yeHlpSGlXc3ptdVNYTGxmOThXX1ltVWRuakFFTlR2SHE1MjQ1RjdwbzE2N1c1aEZVLVVfbDdwNWpnemIya1BBR2JZU0UydHRQNUJDcHRLMTlHOFNKeDNpR3pRdFluUDYxa0hBOGRUcUo5THBQcVdKUDlwV1A0QjZfbDlqbzhIV2g1S1cyellzY3NSeUZ4WWdFRU5HYlFqRmo5MnFRUjlGdlhfX0NHRVR3eHJSVTA5MXVIbENIZGpEZGRfcFVmRGtpME1EbU9IdEdqWlk1QXZGLXRteVJoMTAyZVVObkJ4MmNtcTF6TmF3c2NId2FQNnZQLTNtdkdMcE5TX01CZGFjWmw1MA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump confirme des frappes sur une île iranienne, Téhéran met en garde contre une reprise des hostilités - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMTNtRDhLWTJtYm1oMXVnMUVIcFNULWR5S3B4Y19EdjZmUlprTGtfcWZYdkcyVHVMeDhKZXJsN3hVdWtkR3VGUGtFcXFqUUdYWVNSc1ZsWVZjaTZXNDFtdkdfSGotbDRUQUl2RENPcGFqVC01SGI4N1o1MXR6dGY3dVBraTJIQWVJSFlBVWk0d1Q3X0k0LWtOaFlwZmdvN2NjbkdXT1A2UW1WZnQzS1FuWEh2Qm1XYkl2a0tYN29EMDloN1I3eE52dW5KVk9rQ1g2QWliNnFrX1ljNlZfTnBPdzlVMmxFRWhoN1h4TWh1NVZra2pyQmhEb2MzXzU0UG8?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Midterms : Donald Trump peut-il encore gouverner comme il l’entend après cette lourde défaite électorale ? “Il n’a plus les mains libres, mais…”",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/04/midterms-donald-trump-peut-il-encore-gouverner-comme-il-lentend-apres-cette-lourde-defaite-electorale-il-na-plus-les-mains-libres-mais-Q7UHB4CYPRECBNIXSUYACMIDII/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Deux spécialistes commentent les résultats de ces midterms 2026: \"C’est Donald Trump qui a fait chuter les sièges républicains au Congrès !\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/04/deux-specialistes-commentent-les-resultats-de-ces-midterms-2026-cest-donald-trump-qui-a-fait-chuter-les-sieges-republicains-au-congres-QS472C3RNJH3JDANSJKL7DD6RY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Qualifié de “djihadiste” et de “sympathisant terroriste” par Trump : qui est Abdul El-Sayed, le tout premier sénateur musulman des États-Unis ?",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/04/qualifie-de-djihadiste-et-de-sympathisant-terroriste-par-trump-qui-est-abdul-el-sayed-le-tout-premier-senateur-musulman-des-etats-unis-NWTZLVM44VBGBNAJKHZFKHY7SQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump réunit ses conseillers principaux à la Maison-Blanche suite à la défaite aux Midterms 2026 : “L’atmosphère y est sombre et funèbre”",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/04/donald-trump-reunit-ses-conseillers-principaux-a-la-maison-blanche-suite-a-la-defaite-aux-midterms-2026-latmosphere-y-est-sombre-et-funebre-2IKUPCXIMJCWDFCVVHXUYHAPEE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Pas une grande surprise”: l’ambassadeur américain Bill White réagit au revers de Trump aux midterms",
+        "url": "https://www.7sur7.be/monde/pas-une-grande-surprise-lambassadeur-americain-bill-white-reagit-au-revers-de-trump-aux-midterms~ae30c16d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Après la défaite, quelle fin de mandat pour Trump?",
+        "url": "https://www.7sur7.be/monde/apres-la-defaite-quelle-fin-de-mandat-pour-trump~a5ab7695/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Ils ont fait du bon boulot”: Trump félicite les démocrates et dégaine une casquette “VETO”",
+        "url": "https://www.7sur7.be/monde/ils-ont-fait-du-bon-boulot-trump-felicite-les-democrates-et-degaine-une-casquette-veto~a3b32682/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Constructieve Trump stelt markten gerust - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM1JJZUh2akF2THozNDljdWJXRDQ2eE51U3A3ZkgyVi1EbDNNNC1aS1pMMTZqTHQ4WklmWTVpemJnT1QtYW1uUHlLY2JmZ0V2VWwtWVgtQ1B1STZ4R3FRSWdZWHJhN2hfWjFLZFpTZ2s5N3BVNFJyOWZrYUd3TS1SQzFsY3BUVkFUNGhDTndhN1YwdFhBY2hJd09ZLTlybGZHdWthSWs0ejE2MHZ5eVJnVmlhb1ppaUJZdWY1dmMxUDJaZw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Democraten fluiten Trump over heel VS terug - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnpJd2o5ek01WXpmYzZ2UmRzNDktOGs2em1QWkM5ZzZUUU5PR1B6UEc4UkQ2WGNLRldlWjBtUlQzQ3VndmdSQktoNWM5azZQRXV4S1FaSEVlanNMNEFnbUpMbEpfNWUyNmpCNkU1d0hIbWd6dzJQSU9rQ29tWk4xc1M2SkxYQ0xDc2d2cC1CT3phVkZsV3BqelBrdTdTRmJvdEpzd0J3cE1VcDlNTTZiQkdHRQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Amerikanen geven Republikeinse Partij van Trump pak rammel - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWTlYMDVXREgxa2JaX29iMngtVU9DRjMxX21JMUhTVDFFVTQyc1pyWkU2N3kzNXYxTDhEakNMSjVDemExX1RzVURvOXhab1BtN3VaNk80NVVhVE4xaXFGMGR3aEVXdVJ1a0RBQ1dubmNWUktFYy1SRmtzSmlrU01IRXVqR3NzdmVGM2hMeWhkR3BDWm5tOWNDQ1ltalQ1UjJiQnZnTThjTWlmZjZTX1o0X0VkZ1BVaWlRTGxlTUlrcTlJQ3ZyMG1V?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Amerikanen verwerpen Trump met blauwe tsunami in midterms - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSld1bzBTdTVHWk1IVnhXNUsxSjlXVnQ5SThYN2RXWVJrdzhIU0RzdkxZT3hGY2NwSFoyTGlMczlBU042TW5tcVJaTXVwcmR6MWFDOXhVNjdMMm1JQm9GV0NiZjVfUm1mVVpteWpVX2xmOTRVUlpXX2RoQ0oxX3lWUjFnVlBZQV9TbDhLdnFQR0g1dVIxMzZ1VUdCUzlKWGc5MDhHTmlrZTFpUVpiZkVpMGR3X3BqYzRRb21JeW1lbnNpR1IzU1E?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "En direct vidéo – Midterms : un raz-de-marée démocrate déferle sur Trump, qui perd le Congrès - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSEZVdl9Yd3NqMkh3NDdNRzhqajN4LXlJZXJzbUM3cFNHMHZFTVNJWlhSSF9PZ2Y5TUpRYzN0NDFMcXo0bkhUQ1N0N3V3M0c5QUkxU1BwQUI3NHRaZGRpU0Y3NkNQOTZNdzMtc0h1Qk5xMjk5U2ZyTUNmX3loUzVtSGtjVVNJVHR2bnpBRC01QjB2OFVSN1R0ZGE3QmNKQTVueWdRZTlTVmVZMURKMng1RlRBUjV5amNrak91d3J2YmxKUks2THFF?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Midterms : une gifle couleur démocrate pour Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSF9DOVJQR2NlMVJIS1dfOEI0MnBIVlRlN2Q3Nzc3azBpckg1QnJldi1rVmpuWTRSeUZzNUV1bXJvNGFKV2pVakpHSlBBZFNKNVlfSEhYRjg3c3VlZ25qRGRpNlp3MHMxbmVpYmJqNHlQSm44VFFDelBBSzZrZHNPbG1qN042c04tUUVMd0pjUE04TmtGSzFZTUtYZmZ2MUtVZFBEQg?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Midterms, des élections cruciales pour Trump : suivez les résultats en direct vidéo - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObDFkWGsyWDZ4YmJhM1NaZjRObUZuY3cyYlMwUmxMamVlWmJPY3lPcGV2eTZpNm9kakVhbGFiYXJrR2pqblRBT3NKR1Q4VUtYNGo5am9VTE5LUFpGM0ZvOEE1OFRiMDRLX3RFREtKdFpjbzFGdXozazhRclgwRFhxbWNUTTJJQlFNTjJ5dng4MnFYMEhLQWYtSG93WXN3UHlpMUY3RXdZRzh2SzlnS013d0ppVXdVR2FwNE9JSFlsam5jTWJ3Tjln?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Midterms : l’aura de Donald Trump brisée par les urnes - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTmc4UVloLWRRdTd0aENxSmw1Ny1QMGJCTmh6cDQ4MjRidG05WFNxZS1oRDh4Q21HazZrcXpSUGtjdWFlQjlBNmJmTWdidGF3dVZuX2xrbnBacXRvOHR4dGV3NkJTQjhQWmxHV2hhc0kxQkVZekhlc3B0ckRzdHVSeThqTGxaMjdNNy1qa01jcWxvblFSamNoZHJFeWxDWmJj?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "En direct – Midterms : Trump perd le Sénat - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWEhIdnRCcUVFWkh4WXc2dmN1OFpTeEtJRkhuQURvWk9rcmRMRUltN0xybkNDVjBFNHpOWFVxanQ1cXZicGhSN2d6VS1vaXVWVVMycU9renBqLUgyVXNzZjFOTGlaaGNJbzlmR3ktU1lHM0llYW1WX0NMSDM1MzlwdHdvZXdScVZzX2ZxS2JoTQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Une vague bleue déferle sur les midterms : Trump reconnaît le rôle de la guerre en Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSlJwb1gzYmloX2hSdldEOUJ4Q3BWOHJoTXZNNVczZm5ic1pPV19qdDBvWkhuQTRVOUFCdkhYeWZkN18tXzRGeFdjTWtDSDVlUzR1V3NNTFB0ZWFQamZhV3pUbVZXcHJKVDQxcTU4UEJ0dktsUFBRYmdfcjN1YnVEUVc5Y2d4NHliQk9FYWRqdTRVMDRJN1h5UE5nbUlBblk3ZTFVS3hGSXNkbXp4bVNWOWZuMFdJQ3lvVi1qTmx6cmFqdURJTGJZ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Midterms : Trump reconnaît la défaite mais n’en assume pas la responsabilité - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdUs3VVZzdGllaV9fODF0Z3BzdmtacEJfX0NjOTJvT3c1a2QtaXhVcDI3Y0QtSkNySjhZWnFtM003QjlOdW9mdzA3c0tuaV80UHI0Z1NHMDcyRnMxeE5ZdzhqQW03VlViUGw0bXBOZjd3a05ETEhtc28xc0x6LWd6aTUyZXRmQjZiRnFFbTBwV2FTenFOUm1qWEVxLVpydjlWb0I1OVdjSmphRE9lbTlvUzQ0NmlNdlZXUGFtOGV3?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "En direct vidéo – Midterms : une déferlante démocrate s’abat sur Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZmo3a0xneEV5STZlWGVuUHl5d1BKbG45M3VwaU5nVHhiaTU2Wm1YMGVTbkNqbW92NVNGUS1ETGtUOFpta0Y4VGd3bTRvT0ZOZ2ZuMl9EUk5pQ0pnczYxMTRTYkIyTnRxOGdqaF9rQ21UZFA5dThNM3dVOEZqT1BGUEdlOF9DdzRXNldXNExVTHRFdHJWazJlam1iUXNfdGdpSk5iRno4VVpjd3ZJdmJjQ0lLbw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "En direct vidéo – Midterms : les Démocrates s’emparent du Congrès, revers cinglant pour Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOakZEM0tGblRvek9QaVNtZDlmaXpHcEJZTkV0eEY1cUI2YmM3elJTeTE3XzFWZHNwX01oVjRhN2twVlNjeUcyblRibWRqRENfR2RsX19QVEh0VXF2V0x6VUM4N2RDb3dCeVByRXN4bDgzcWw3V000dHdRRkIwVXVPMnY2d3cyTmdweGptRU1kVVY2VWNWM2ZMNDV0YnpaSm10QUlUVHJhblhOblZtbDJHZHhIalEzTDdCOUhTTGZ3VlYwQQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Élections de mi-mandat : victoire historique des démocrates, Trump K.O debout - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZGYtb2RQMjh2X1VtYkU0S211bWc3MmtvSW9YcDNlMEZPUzFfbmJ6eVViMTVJbWFtbk1YZExESk5jckNrWVFYdjJSUjN0UnVrcVpHaE84b2FYSmptZWJXTGRfcWllM3Q0SHYzNjlvRzhCTG9lU0hsV3JGLXpIQWM1X2Z6ZEUzSGdNLUhLOVN5WlZKQVZvZDdkRFdOazlFa1dlNHlieGtVWWVIVE1ac2tEajdlb0pMYVFFOXQzN0VIOXdMbFF1SnN3MUpwaGFNanpfaTIzSk5FLXBzRWkyc1dCQkd2dXg2NW91NXBZ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump réagit à la défaite des Républicains lors des élections de mi-mandat aux États-Unis : voici son excuse ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWVF5dUJzUXdoWkdWOEtoU1N1WTlOUXhERkkzc1FNTlktRXA0cnlUaUI4WURVZDJycnVjWjNfZl8tMVZZRUZKWDZlZVFFbmZsVDJ1OFE3YlVaUEtqT3BKT1BVTHAyTnlHbTRjUjVjWlk4eFg1LTd5SURMOHhKd0FSUFdHeHJWZWFYY2pKbGhjMzVKTFU4VFJNWUlfYmI0V2Jxd3o1LWFWVlFJbkNPSEZER0xkaW9UaTJaTUs4NnFPajJKT0dyX3BlNldqWQ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump réagit à la défaite des républications lors des élections de mi-mandat aux États-Unis : voici son excuse ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPelMzQmEyazBLOFFOM0xfYU0xQ1lBbFJXRlNSNEpNb0dyYm4xRHcxQ2szNDZLZVdUX1FRX2lNS1k4dzRqZ1ROdl9JRU1EakQ3WUR0OWQ5U2MyYUs1MDBuTDJOdWY2R2MwNkxsNUxKRldJS3lvbW1UTkczaDFCb2d4LU5WRklqNjlHWklzcGJacXJnaThOcVdZRFd4Z0tqZGZvTmlndUx1MllsaXFLamc0OHBfTlc1NHZMWGpiQm1FVXBMN0ZH?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Candidat musulman largement attaqué par Trump, Abdul El-Sayed devient sénateur du Michigan - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMHdPZ2w5WTNMek16WElVay14SE1ZRUJBVnpUd21Tbkh2Ml96VUV5RUxoVHVhNVM0OGR2aDRFZUVyYUJVcjI1N3RNSTlBanNTUTEycWhxU1pQdEtMSkFzUy1zbU9XNnB0eVdmR2VmZ3dwUnM1NWx0XzJ3c0VZb3g0ZUR2ckJ4NHBkOUc4MERKTEN0V0pWZ0dRUDlFcS1qZng1aGlHZ3NINHlpRnducXhJc2hLVGZFdGVXeFBCeEoyLTdFQUxVaEswZE80TnhPV1Ri?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Vague démocrate : « Si j’avais été sur le bulletin, nous aurions largement gagné », réagit Donald Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOVlULTdfTkhrM2ZybGVaaWdmWDRyNU5kLTBMdnNfNnhnakRQOGl2SlB1Y0JZU0JfaHY2cm5SZnBicGpianNxQm1ONVVmbFNidF9KS2RNZk0zOEUyS3UtdnlzWWpxajhQSU5zc29QaGRNT0RDLTdjSXRhckh0ZlRfNWtRV29jN0dKY1ItSW5pRkVrbW5JODRCWmJGYUpDcTVjMmhpZmU4S1NLWUkyZTVnR21uMlB6TXJia2hmQ2x0RXEtV29EUDl0VFF1a0pxLU9XeTVJVU5XZTlvTTFF?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« C’est habituel » : l’ambassadeur américain, « fier » de Donald Trump, tempère la défaite qui n’est « pas une grande surprise » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYnZNTGx1alJZZDZwVm1YZGpmeXRoRGtfbkZlMW1MVXVBMlhnVjliMlhsZmc1ZE43OXJFd0VBUlNKVS0xUG81OVBORlY0Sk80MS1WRXIwM2xFMUxLc0o0VVdLV3FmWjROUFNrR0lKOGhiSFdRTFJrS2FiUEdVejVVNm9MZkFBb1MyTzFtZGFCRUs5R2JUSENLc1NLV0Jxcm1GWFprVXJOdWIzc0hsM01Lbi1scXJnenhWcDJTVVBRT21nRmZzTk9XQ09JaVoyOENpaDNLNnBDbmVwNE96WkE?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Même avec un Trump déforcé, “les ménages belges ne vont pas payer leur crédit moins cher” - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORjlQem4tcUY0T1hELXNURjlQQXpCUmN5Q1ZCc0ptd2toZnc1cVVGR1hJbHJHRnFZUHhKMFJLb0tRRVB3aThDX0NabkZKQ0xmMmQ1d3BzMDF5TnJYSWxPY2xYLU1uYjhMcXRqN2xaMnRobjJESEpBV3Nxa0p6aHM4SGVuMEZTS0xiVlZ1b2NWZlVyRTRaWm56clRpeVhRSHNCYmJ0VjRIYWhBOExQcHJrN0RCVDJwd2Z2V2hNZUl5VQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      },
+      {
+        "title": "Une déroute historique pour Trump, qui reconnait la défaite : \"Je suis tout à fait disposé à accepter ces résultats\" - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNS3UySnhZUDY3Z2xITzBGQXJWUU14NzlVcHZFNnNqZktlRXJ2UmV5MlFlRENjaF9MbXFLdmZLaUJITmhUcm01MEZkcnVLeFViTE9ZWEFtekFhX3V0bngzazJzUDJkQVFFQjhWLVktbGd1WkpwWjJaNEFWRGJfZDVsTjBzRUtaZ09Bd2ZEUlduMlFHVHpfdWJlVEMzdWgxMzd0MkpXR2Fza01JN1RpWlV4UUdkMlNiTnpoYlhpZ3F3MmVzb0VES3RTQ2lWZDE5UDBEQVIzbFYtQ2htS1BzV1pOYUFNdzkzc2ItMjRuZlVlbnA5Nl9Rc3k1UWdKM2p6LWc?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Après la défaite aux midterms 2026 : Trump refuse d’endosser la défaite et accuse ses conseillers de l’avoir mal informé - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZHVJRzlnUFNCQTRPNnlRR0N3clhzb0hHYldRcC1tSXhSTTEtRGtxQnhRWUMtUUZ4Vy1ValpnTWtxX1ZVRTVFR1dJY0lPdkwxZmw0VFNVZTUtbWx3a21heVJQM1luOVd6SDgzbnFhUmRpSkNESHNBUXFkaGtmblMtbXR6b1ZNd2tZR09YcVBIY0pwbmg1RnZCYkVTSnh0cGUwT2d4UmZMNUlFXzRUdjFKN3dEektROTF1UkVEUjFJaFFkRm9Yb3I3eTFYeU5sQ3JtMTNPc0ZLWnpjS2dPTjk1blU0OTZRVE5oV3YyRUJscXJjd1RFZExYaTBnb1hEa1JIamg3WWlUOEFXTC1SLTZpOA?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Israël begint aan formatie, Trump zet miljardensteun aan Israël stop - bnr.nl",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ0Y2c3d0OTBLa0Y1eUtRRlRKM2hhZWZRZFptOWszYXg4RFo5Q2hHY0R4SmRPU09TR25BbzVUdUFtU0RlcXRCY0FoaHo1QmRnNExjeE9FYUNDYTBxNXRyMHpnaWZZSndBT25WOVRnYmFKblFCQ3BIaDdRek1UbUV4Y0o4X29KNXlLbkV4aG9OaGx2UGx4NjdYdFZ1VzBPOUdpdHV4VHhzOENrT2hkckQySUlQMTVmOGR5?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Grote verliezer naast Trump: Elon Musk moet Democratisch onderzoek vrezen na nederlaag bij midterms - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeWlLTkpDWHhPblNrbC1XNUtRMTQ5d1I1a3hFWUxKSnViczhlUGNUVmpoYlVsNG9vMGFpblZKZE9Za200eWFKek85YnhvQXdub3Q1ZzNvbENvWE5yX1h3TFZhcjZ4YzEyZWh0N29KY3k3SGdyRDBtTzFYWjF3UVRiRXhMZ3Nvd2VuRS1yXzViMlRhOV9oOTRJQ3FfSlRaS2lBM1NJYVUtTEhYRDI0UG9uUUhaeFlTa0hDcEFSdWpMb1BoUF90N2lhc2lhcHlkc1pjRk9GTGpR?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Midterms : une Démocrate élue en Caroline du Sud face à une fidèle de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU3gxZ19zSF9FY2dQVFUwTXJodkxySzA0bWVBM1ZlTm5CWmd4QlZ0eVVyZ05tMVg4RDVRdEhRM0FTMGp6am00SGFYQWhYNWZfQXNlejJKUWhkWTdyVzVBUXg1RnMzZG5oRDMyRGctM2hZOXlGTV9YTnd0NktMTERrMmItVGhoWVYtS01KSkhpQndQX2ZLaEc1Y3d5R3B3UWxXbl9kOHFSZGR3eVczUmxqS2lpUWpjdGNhSm9J?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump geeft toekomstig Democratisch Congres meteen duidelijk signaal met 'VETO'-pet",
+        "url": "https://vrtnws.be/p.BlYVdl75G",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Blauwe tsunami: kiezers straffen Trumps Republikeinen keihard af - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeWQtUk95UDZqODlnUjhjTk53Tmd3ZU05bms1V29EUmZWM1pLbjhvVXAxSG93aDE3ZWlaTjFpQjJTamo3NDhheGpmY3hrcndZNVk0dGZOMjNVSkp2UVZmRnpkZmtta05GRVRvQzNNZ2p6dHhSVVlNTXdkd3pZakhJWGZLdFRQaUREVHE2VC1vX3lTTEdLSHRlYnVDYTNqS2VoNUJjUHZRMENGUjZxZTc0d2RIWGQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump reageert op eerste verkiezingsresultaten: “Zal uitslag accepteren” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWU81azVYX2lCVnlDZDJ2RXgxZWItSy1ZRmw0T2F5WHVzVEY4UUtlUlRydy1Zd0I1MUkwOEowSUM2YW1xRzVIR0V0Z3d6WEI2QmE5V255d0VaQ3p2VElkZGhoRDZ0aXh6YWhCemZKQ3diNXlLQmF5R0hPVXBETElCT25oUjFIS2RtTmRxX3huaTJmZWtldkFBcjlQbEhJYUdDN0VkLThIRHY5S0VoZG5fQU5qdVUtSHI4RFhCNg?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Amerika-watchers Steven De Foer en Roeland Termote over de Democratische zege: “Dit is het begin van het einde van het Trump-tijdperk” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPaE14V2JFdjlvYVpJeklmUzk5TTlYVXMwWktIa1dEMHA3VjVKeW1Fc2VXZUZFalRXMjR5a2ZrdVBMZnU5NU5WMnJYUXVnWnBFY2Q0aUxJUi1LUzVXaFRQUU5UMkdsMVQ5a2M2RDhHTWhTVnlNR3VZbkFSNEZXaEdRR0ZYMUlKOFZ5VE5ycTF1X09jVVlUUzNjaGVRZmxtY0dFT3llUGhuVGN6SHd1TWpqeTJrbGtrckZSaUNYcTgyamE0eF9ucTVqb3p4WnZ3RjNfcmxMN3cyeWJ3VnU2MFNGaUljcjhyU0M4T21WMGlyRHNpYm1NRXFWaHpFbDRDUE1MMnlZMHRkX01HWldBR19FZU9YQTl2T1U?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "DS Video | Trump reageert op verlies bij Fox News: \"Als ik op het stembiljet had gestaan, hadden ze wel gestemd\" - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRlZtOHJPSEJhd3VmVFJmQjN6dEpLSEJYc2lWTWhOSzUxb215ZUoyZ3RqZ2RwNzAyQ0Rqbzk1WGk3WjVlX0ZSZUdLWlhVcC0yT21RR1hZNFV5SGF4Y3NkWUdyTndNM0h4NEhjZ0hsZXJvMTNrTXI5TjNxTTFmUVFYZl9RY3JDMVJuVlBmNHdMb2YxTExsNG0zZ3dKN2JzUGlQWktiS0tFWjNpOVI5U1dPRllsX08xdjRKSjdhRGhGUF9Lc3l5aWktR3NKZGFhODZIOXFfWnNVTkYzb1ZMd1MyWUdqbFhicDF1a3c2cUM5Yw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trumps pocherige eigendunk van onoverwinnelijkheid heeft een niet te herstellen deuk gekregen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMF9nZ0tIZUx1QkxHZDdDSWpLSEtFREdfU1BfQ2xqWDVTVVI5Um9fbEYzeFdoRHZFbnZFNFpiY3JGamY0UlFyNnpFaHlqS3dMVDZOS1YxWDlhSi01bHVmS0YyUTZxS0RNeU55aDBhSExHMTRxSFVoS3BNRkdnZkhQeTRLVlFYNmNucWJ1ME5xczd6cDduQjB0QXhLdU8zTVJwOVd6SFB6VEp5X2tsNjBoc3p6aXhHV05Ma1BFdDRscUstUUx6WmR1X3l2R2kxMEJYeTF4MmUyN0w?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump ziet blauwe golf niet als “klap” voor zijn beleid: “Mijn naam stond niet op de stemformulieren” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNEI3d25HbjRxZkV3RGlkMnhoaFphdW5VMC01VWlyNWhRY095cmZuVDN4QU1iUW13YWV4SjUwU3JmVWY0NTdkbG5yNnFFRmUzV2VaSUZDT1dSaTk2TElZeUlXUDRraE9uOG5GQXhyNk9HNzd6cUw0UC0tMDBGc2I5Rmt2TWhrYWFmZnFVVkEyS1Y3NDNPZ2MwSTQxQnBMU3dMenVfcUF1THJ5X1hhSG9wenl0azJsUmdtRHF5ZWN6V1MzS21KYVlPaVpsN0VjQ3FqSzRYVDdmeFRLaDVJczdnaQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Van babybedje in een kast recht naar het Witte Huis: hebben we met James Talarico (37) nu al de nieuwe president van de VS gezien?",
+        "url": "https://www.hln.be/buitenland/van-babybedje-in-een-kast-recht-naar-het-witte-huis-hebben-we-met-james-talarico-37-nu-al-de-nieuwe-president-van-de-vs-gezien~a690e9ce/",
+        "source": "hln",
+        "name_only": false
+      },
+      {
+        "title": "Zeldzaam diplomatische boodschap, maar ook al plan om dwars te liggen: zo reageert Trump op verkiezingsnederlaag",
+        "url": "https://www.hln.be/buitenland/zeldzaam-diplomatische-boodschap-maar-ook-al-plan-om-dwars-te-liggen-zo-reageert-trump-op-verkiezingsnederlaag~a2a362b8/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Hollywood “juicht om blauwe golf”: Lizzo danst van blijdschap en Jimmy Kimmel grapt over Trump",
+        "url": "https://www.hln.be/celebrities/hollywood-juicht-om-blauwe-golf-lizzo-danst-van-blijdschap-en-jimmy-kimmel-grapt-over-trump~ac9c0a8e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Duizelingwekkende veroveringstocht Democraten: Amerikanen rekenen af met tijdperk-Trump",
+        "url": "https://www.demorgen.be/nieuws/duizelingwekkende-veroveringstocht-democraten-amerikanen-rekenen-af-met-tijdperk-trump~bc097074/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump keek tijdens verkiezingsnacht naar Fox News. Hij was niet blij met wat hij zag",
+        "url": "https://www.demorgen.be/nieuws/trump-keek-tijdens-verkiezingsnacht-naar-fox-news-hij-was-niet-blij-met-wat-hij-zag~be09b621/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump moet voor het eerst zonder meerderheid in de Senaat regeren, en drie andere conclusies van de midterms",
+        "url": "https://www.demorgen.be/nieuws/trump-moet-voor-het-eerst-zonder-meerderheid-in-de-senaat-regeren-en-drie-andere-conclusies-van-de-midterms~b4e11262/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Grote verliezer naast Trump: Elon Musk moet Democratisch onderzoek vrezen na nederlaag bij midterms",
+        "url": "https://www.demorgen.be/nieuws/grote-verliezer-naast-trump-elon-musk-moet-democratisch-onderzoek-vrezen-na-nederlaag-bij-midterms~bf6de460/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "De belangrijkste opponent van Trump, en andere opvallende winnaars van afgelopen nacht",
+        "url": "https://www.demorgen.be/nieuws/de-belangrijkste-opponent-van-trump-en-andere-opvallende-winnaars-van-afgelopen-nacht~b889e399/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Voor Trump en de Republikeinen is dit een rampzalige dag. Hun verlies is geen verrassing, de snelheid waarmee dat duidelijk werd wel’",
+        "url": "https://www.demorgen.be/nieuws/voor-trump-en-de-republikeinen-is-dit-een-rampzalige-dag-hun-verlies-is-geen-verrassing-de-snelheid-waarmee-dat-duidelijk-werd-wel~b6b01a30/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump feliciteert Democraten, maar deelt even later opmerkelijke foto: “Veto”",
+        "url": "https://www.nieuwsblad.be/nieuws/trump-feliciteert-democraten-maar-deelt-even-later-opmerkelijke-foto-veto/164053465.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Dit betekent Republikeinse nederlaag voor Trump en de VS: “De meeste medewerkers van het Witte Huis hebben hun advocaat al gebeld”",
+        "url": "https://www.nieuwsblad.be/buitenland/dit-betekent-republikeinse-nederlaag-voor-trump-en-de-vs-de-meeste-medewerkers-van-het-witte-huis-hebben-hun-advocaat-al-gebeld/164054794.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump feliciteert Democraten, maar deelt even later opmerkelijke foto: “Veto”",
+        "url": "https://www.gva.be/buitenland/trump-feliciteert-democraten-maar-deelt-even-later-opmerkelijke-foto-veto/164053723.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Dit betekent Republikeinse nederlaag voor Trump en de VS: “De meeste medewerkers van het Witte Huis hebben hun advocaat al gebeld”",
+        "url": "https://www.gva.be/buitenland/dit-betekent-republikeinse-nederlaag-voor-trump-en-de-vs-de-meeste-medewerkers-van-het-witte-huis-hebben-hun-advocaat-al-gebeld/164064640.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Trump feliciteert Democraten, maar deelt even later opmerkelijke foto: “Veto”",
+        "url": "https://www.hbvl.be/nieuws/trump-feliciteert-democraten-maar-deelt-even-later-opmerkelijke-foto-veto/164053919.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump ziet blauwe golf niet als “klap” voor zijn beleid: “Mijn naam stond niet op de stemformulieren”",
+        "url": "https://www.hbvl.be/buitenland/trump-ziet-blauwe-golf-niet-als-klap-voor-zijn-beleid-mijn-naam-stond-niet-op-de-stemformulieren/164053904.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "“It’s a Blue-nami”: Democraten grote overwinnaars bij midterms, rampzalige avond voor Republikeinen van president Trump",
+        "url": "https://www.hbvl.be/buitenland/its-a-blue-nami-democraten-grote-overwinnaars-bij-midterms-rampzalige-avond-voor-republikeinen-van-president-trump/164053390.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Twee derde van Amerikaanse kiezers geeft Trump de schuld van hoge prijzen, blijkt uit exitpolls",
+        "url": "https://www.hbvl.be/buitenland/twee-derde-van-amerikaanse-kiezers-geeft-trump-de-schuld-van-hoge-prijzen-blijkt-uit-exitpolls/164053296.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "‘Wed altijd op de underdog’: Democraten verslaan Trump én Musk in historische zege in Texas - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPODBoN3RmaEtnTlFfYjBUOU9sT0lweGVHUWFJV0ZLUW9hVDlZdlJQS0QxY0pTTDdjalA1R0hzN1RmcWxVZFVQdEN6QkRyZXQ4a3FFM0FoUE9VTVo4ZU02QXFmQkdsbmxWZ0tyczdTVGZ6YWFCRktpM1J3Qm1Qc29Zb0hNdlFsZmtyNjMtRFFfSnNkVGhUM1hsWDNIaVFWelo2RExxa0hnUHY0YTFPWmhtanpZdnhtS1A2R1JreVF4OEw0UQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Politoloog Ruth Dassonneville: ‘Trump is afgestraft door jongeren en latino’s’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVkhzTk5maktURlhqempIbEt3eUo0VXNXRkNsN0xqdXVJRk1lVE5RdlFrUzdjTk1peDB4a3pVYzZlU3lrazhka1RWNUxHMUdXX2JMd1J0dHYxQmlpYUdDSjV2S0w4S3lNTEstbHpRc0JWTFFBOThydXVJRzVrUXllS1JPODJKM2VLRDdNVEc3NEg3ZnYteGhfUFRJTmZwVU1aR0xQSnRfOG9Xd2lTRHRN?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Elke Republikein weet: het is de schuld van Donald Trump - Knack",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWWUtTzk5a2dNeGFMNjRGUXRhTDVob21ERFdBX1hPSTZzbHV0SXdTdUdmaVNuTHA1UjVlOGhrVHBNZDVQaE9uR3dqenRvODVJcU43UFBpOHB0N3h6eTVGcmxYQmlSTTliaW9MVmY5RkM5d1VWcUlaUm9sZkJBRDB6TDNLTWw3eWs5cTVUUHpaWVVDUFlmZmc?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "‘Donald Trump verliest, en zelfs deerlijk. Game of Thrones in Washington’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVHZfVzU4ZTRScjJma0Y5Y1ZzWXhhQVZreHk4LTJ4R1JnblNURTg2YTR3SEpsMlRMNnhScFhWTjRZbDNhNWNfN3c4OTAzbm52cjQ0T1NpLUhlMkNBQkZnNmlQNnp3UnRFdkEzYmtTTkJTNUZzWGlpU2xVQWlzb3JPcUZ6ZmU3RUlGNzhzMA?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Amerikakenner Bart Kerremans (KU Leuven) over de midterms: 'Daarop is Trump afgerekend' - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY2FKZTdJSFNIUzIxVzZrY3U4SGMwOVVYbjE1WVR3VEZkNUExaGh5TVJqX3dkTTdRV09iQXRWeDVNaVdLcTlqUFM3c3FSQUNzZ09OZmEzM21leElrWjV2T2kxUF80cGJCS0dVNEZkNE1aSkNVODdxQVA5N29NUkMzQzl5eWdqRjBUbkEydXBaR1BvaVA3eGdPRmZxTmVhMnNGQkZtNDFtYVMwU0F6U1E?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Democrats Abroad Belgium over winst bij midterms VS: 'Afzetting Trump is mogelijk'",
+        "url": "https://www.bruzz.be/actua/politiek/democrats-abroad-belgium-over-winst-bij-midterms-vs-gaan-goed-vieren-2026-11-04",
+        "source": "bruzz",
+        "name_only": true
+      },
+      {
+        "title": "\"Fiasco\", \"désastre\", \"claque\", \"désaveu massif\" : trois éditorialistes analysent la déroute de Trump et la fracture américaine",
+        "url": "https://www.rtbf.be/article/fiasco-desastre-claque-desaveu-massif-trois-editorialistes-analysent-la-deroute-de-trump-et-la-fracture-americaine-11810281",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump reconnaît la défaite sur un ton conciliant mais n’en prend pas la responsabilité",
+        "url": "https://www.rtbf.be/article/trump-reconnait-la-defaite-sur-un-ton-conciliant-mais-n-en-prend-pas-la-responsabilite-11810253",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "La revue de presse : Donald Trump, battu, alors qu’il n’était même pas sur les bulletins de vote",
+        "url": "https://www.rtbf.be/article/la-revue-de-presse-donald-trump-battu-alors-qu-il-n-etait-meme-pas-sur-les-bulletins-de-vote-11810313",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : qu'est-ce que le syndrome du \"canard boiteux\", qui menace Donald Trump ?",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/04/midterms-2026-donald-trump-est-il-un-canard-boiteux-7TQVQYI5V5DRXKFSP2UWPGJOCI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "DIRECT - Midterms 2026 : Trump ouvre la possibilité d'adresser un veto pour toute proposition de loi votée par le Congrès",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/04/direct-midterms-2026-les-democrates-prennent-le-controle-de-la-chambre-trump-refuse-dendosser-la-defaite-TC7ET5QK6VBCJNQQWLI56RXOFE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Face à la lourde défaite aux Midterms 2026, Donald Trump laisse exploser sa frustration à la Maison-Blanche: \"L'atmosphère y est funèbre\"",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/04/midterms-2026-donald-trump-sexprime-sur-le-lourd-revers-qui-se-dessine-pour-son-parti-KZLTC56MQJFG7D74MC4TYXAN64/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : les Démocrates remportent le Sénat, Donald Trump se dit “prêt à accepter les résultats” et “à travailler avec eux”",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/04/midterms-2026-les-democrates-remportent-le-senat-donald-trump-se-dit-pret-a-accepter-les-resultats-et-a-travailler-avec-eux-YBJK24DV4VFWPBWDCLQQVKQHJI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les médias américains reviennent sur le \"massacre\" de ces midterms 2026 et ne cachent pas leur inquiétude face au comportement de Donald Trump",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/04/les-medias-americains-reviennent-sur-le-massacre-de-ces-midterms-2026-et-ne-cachent-pas-leur-inquietude-face-au-comportement-de-donald-trump-P7A4T5NH4VEZZBTV4HFM2WRX7Y/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump et les Républicains se font désavouer par les Américains - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMblFTZUZ3RnhObzlGR2VGVGl4SWI5YXA5YlcwLUgyLU1vQ2kyc09iUWFtd2prQ1R0d3h3Q2RXWXdyTmhJOHNGWTh1SlM?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Quelle marge de manœuvre Donald Trump garde-t-il avec un Congrès démocrate? - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeUJMN1pTeGtoRGFnN0FYSUFmQ1BQUVkxem5fUVVqNXJLZjdXay1oOXFRSWRtOS1WYk8zRHNhV1RXVjBjdVFaMTk5eDZVMklNSWwwcFotM09zQUFwY0IzTjNfYUpGQmpFcG5PMW12YzYzR0NnclgzcXAzVVVzMFZNY3FqZ01pYUQxN1dVRGxtaXJFVGN1RDQ0bTFiQy00elJLNE1iVVlfX21kZXpicklsVDl2X3BGQVdHVEpUYVdCRTZ6SDhXR2VqRFJMa2o?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "La déroute de Trump ne doit pas nous bercer d’illusions - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXZOS3dHbDk1WkFYTXFiZTMyQm1MemVGb1dnYUtUQXQ2TnBmSk13d0xnRlhiZkdwaWtNZ0RaLWhmc1JBQzk0MDQwRkV6eXFMMjhKQmdhNHFJZDB5ZXlZb3Ixb2RVQVE4aUptcTR4LWxDT2hNMTlpSnBXSFNsMDVzcTdPYU9HbzRLMTlhWEVqTTlzRlRmQWZfOU5KZV9ucE50RWxsT1hHcm0?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Midterms: voici ce qui changera pour Donald Trump et les États-Unis ces deux prochaines années - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVzAxNU1nUVNLdEFBeWE0aHpncWpKdDhsck5feE1vSEFJcjNTU1JUZk9iNVJteW56WjhGT0Q2Q3JTVzJucGFyQ21CQjJGZUFLYTZYRk53M3U1U2tTTlhIR3dCNFF1dl9MNnljTVo2RXc1MFA4QnNJWjZPdG9fVHRyb042amtTczBDNnI5Ulp4QW9VcWdwTVdhMDBWVzdGczJCUWV2Y1hkN2w4LXhBTHlScVgwdW9UU3VycVVyYkpJRE1EYjdVY2pVb3R6ZHRCRHBVUjZtMzJ6NDlUcGxUM1R3dUdWSkQydw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Midterms: la vague bleue déferle avec une majorité démocrate dans les deux chambres du Congrès, le vote sanction se confirme pour Donald Trump - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPN1hvUGhGV1RlUy1pUVVsNnctOUVmYTZaZGdKWUhuZU9yeHlpSGlXc3ptdVNYTGxmOThXX1ltVWRuakFFTlR2SHE1MjQ1RjdwbzE2N1c1aEZVLVVfbDdwNWpnemIya1BBR2JZU0UydHRQNUJDcHRLMTlHOFNKeDNpR3pRdFluUDYxa0hBOGRUcUo5THBQcVdKUDlwV1A0QjZfbDlqbzhIV2g1S1cyellzY3NSeUZ4WWdFRU5HYlFqRmo5MnFRUjlGdlhfX0NHRVR3eHJSVTA5MXVIbENIZGpEZGRfcFVmRGtpME1EbU9IdEdqWlk1QXZGLXRteVJoMTAyZVVObkJ4MmNtcTF6TmF3c2NId2FQNnZQLTNtdkdMcE5TX01CZGFjWmw1MA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump confirme des frappes sur une île iranienne, Téhéran met en garde contre une reprise des hostilités - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMTNtRDhLWTJtYm1oMXVnMUVIcFNULWR5S3B4Y19EdjZmUlprTGtfcWZYdkcyVHVMeDhKZXJsN3hVdWtkR3VGUGtFcXFqUUdYWVNSc1ZsWVZjaTZXNDFtdkdfSGotbDRUQUl2RENPcGFqVC01SGI4N1o1MXR6dGY3dVBraTJIQWVJSFlBVWk0d1Q3X0k0LWtOaFlwZmdvN2NjbkdXT1A2UW1WZnQzS1FuWEh2Qm1XYkl2a0tYN29EMDloN1I3eE52dW5KVk9rQ1g2QWliNnFrX1ljNlZfTnBPdzlVMmxFRWhoN1h4TWh1NVZra2pyQmhEb2MzXzU0UG8?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Midterms : Donald Trump peut-il encore gouverner comme il l’entend après cette lourde défaite électorale ? “Il n’a plus les mains libres, mais…”",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/04/midterms-donald-trump-peut-il-encore-gouverner-comme-il-lentend-apres-cette-lourde-defaite-electorale-il-na-plus-les-mains-libres-mais-Q7UHB4CYPRECBNIXSUYACMIDII/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Deux spécialistes commentent les résultats de ces midterms 2026: \"C’est Donald Trump qui a fait chuter les sièges républicains au Congrès !\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/04/deux-specialistes-commentent-les-resultats-de-ces-midterms-2026-cest-donald-trump-qui-a-fait-chuter-les-sieges-republicains-au-congres-QS472C3RNJH3JDANSJKL7DD6RY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Qualifié de “djihadiste” et de “sympathisant terroriste” par Trump : qui est Abdul El-Sayed, le tout premier sénateur musulman des États-Unis ?",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/04/qualifie-de-djihadiste-et-de-sympathisant-terroriste-par-trump-qui-est-abdul-el-sayed-le-tout-premier-senateur-musulman-des-etats-unis-NWTZLVM44VBGBNAJKHZFKHY7SQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump réunit ses conseillers principaux à la Maison-Blanche suite à la défaite aux Midterms 2026 : “L’atmosphère y est sombre et funèbre”",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/04/donald-trump-reunit-ses-conseillers-principaux-a-la-maison-blanche-suite-a-la-defaite-aux-midterms-2026-latmosphere-y-est-sombre-et-funebre-2IKUPCXIMJCWDFCVVHXUYHAPEE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Pas une grande surprise”: l’ambassadeur américain Bill White réagit au revers de Trump aux midterms",
+        "url": "https://www.7sur7.be/monde/pas-une-grande-surprise-lambassadeur-americain-bill-white-reagit-au-revers-de-trump-aux-midterms~ae30c16d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Après la défaite, quelle fin de mandat pour Trump?",
+        "url": "https://www.7sur7.be/monde/apres-la-defaite-quelle-fin-de-mandat-pour-trump~a5ab7695/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "“Ils ont fait du bon boulot”: Trump félicite les démocrates et dégaine une casquette “VETO”",
+        "url": "https://www.7sur7.be/monde/ils-ont-fait-du-bon-boulot-trump-felicite-les-democrates-et-degaine-une-casquette-veto~a3b32682/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Constructieve Trump stelt markten gerust - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM1JJZUh2akF2THozNDljdWJXRDQ2eE51U3A3ZkgyVi1EbDNNNC1aS1pMMTZqTHQ4WklmWTVpemJnT1QtYW1uUHlLY2JmZ0V2VWwtWVgtQ1B1STZ4R3FRSWdZWHJhN2hfWjFLZFpTZ2s5N3BVNFJyOWZrYUd3TS1SQzFsY3BUVkFUNGhDTndhN1YwdFhBY2hJd09ZLTlybGZHdWthSWs0ejE2MHZ5eVJnVmlhb1ppaUJZdWY1dmMxUDJaZw?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Democraten fluiten Trump over heel VS terug - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnpJd2o5ek01WXpmYzZ2UmRzNDktOGs2em1QWkM5ZzZUUU5PR1B6UEc4UkQ2WGNLRldlWjBtUlQzQ3VndmdSQktoNWM5azZQRXV4S1FaSEVlanNMNEFnbUpMbEpfNWUyNmpCNkU1d0hIbWd6dzJQSU9rQ29tWk4xc1M2SkxYQ0xDc2d2cC1CT3phVkZsV3BqelBrdTdTRmJvdEpzd0J3cE1VcDlNTTZiQkdHRQ?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Amerikanen geven Republikeinse Partij van Trump pak rammel - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWTlYMDVXREgxa2JaX29iMngtVU9DRjMxX21JMUhTVDFFVTQyc1pyWkU2N3kzNXYxTDhEakNMSjVDemExX1RzVURvOXhab1BtN3VaNk80NVVhVE4xaXFGMGR3aEVXdVJ1a0RBQ1dubmNWUktFYy1SRmtzSmlrU01IRXVqR3NzdmVGM2hMeWhkR3BDWm5tOWNDQ1ltalQ1UjJiQnZnTThjTWlmZjZTX1o0X0VkZ1BVaWlRTGxlTUlrcTlJQ3ZyMG1V?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Amerikanen verwerpen Trump met blauwe tsunami in midterms - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSld1bzBTdTVHWk1IVnhXNUsxSjlXVnQ5SThYN2RXWVJrdzhIU0RzdkxZT3hGY2NwSFoyTGlMczlBU042TW5tcVJaTXVwcmR6MWFDOXhVNjdMMm1JQm9GV0NiZjVfUm1mVVpteWpVX2xmOTRVUlpXX2RoQ0oxX3lWUjFnVlBZQV9TbDhLdnFQR0g1dVIxMzZ1VUdCUzlKWGc5MDhHTmlrZTFpUVpiZkVpMGR3X3BqYzRRb21JeW1lbnNpR1IzU1E?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "En direct vidéo – Midterms : un raz-de-marée démocrate déferle sur Trump, qui perd le Congrès - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSEZVdl9Yd3NqMkh3NDdNRzhqajN4LXlJZXJzbUM3cFNHMHZFTVNJWlhSSF9PZ2Y5TUpRYzN0NDFMcXo0bkhUQ1N0N3V3M0c5QUkxU1BwQUI3NHRaZGRpU0Y3NkNQOTZNdzMtc0h1Qk5xMjk5U2ZyTUNmX3loUzVtSGtjVVNJVHR2bnpBRC01QjB2OFVSN1R0ZGE3QmNKQTVueWdRZTlTVmVZMURKMng1RlRBUjV5amNrak91d3J2YmxKUks2THFF?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Midterms : une gifle couleur démocrate pour Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSF9DOVJQR2NlMVJIS1dfOEI0MnBIVlRlN2Q3Nzc3azBpckg1QnJldi1rVmpuWTRSeUZzNUV1bXJvNGFKV2pVakpHSlBBZFNKNVlfSEhYRjg3c3VlZ25qRGRpNlp3MHMxbmVpYmJqNHlQSm44VFFDelBBSzZrZHNPbG1qN042c04tUUVMd0pjUE04TmtGSzFZTUtYZmZ2MUtVZFBEQg?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Midterms, des élections cruciales pour Trump : suivez les résultats en direct vidéo - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObDFkWGsyWDZ4YmJhM1NaZjRObUZuY3cyYlMwUmxMamVlWmJPY3lPcGV2eTZpNm9kakVhbGFiYXJrR2pqblRBT3NKR1Q4VUtYNGo5am9VTE5LUFpGM0ZvOEE1OFRiMDRLX3RFREtKdFpjbzFGdXozazhRclgwRFhxbWNUTTJJQlFNTjJ5dng4MnFYMEhLQWYtSG93WXN3UHlpMUY3RXdZRzh2SzlnS013d0ppVXdVR2FwNE9JSFlsam5jTWJ3Tjln?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Midterms : l’aura de Donald Trump brisée par les urnes - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTmc4UVloLWRRdTd0aENxSmw1Ny1QMGJCTmh6cDQ4MjRidG05WFNxZS1oRDh4Q21HazZrcXpSUGtjdWFlQjlBNmJmTWdidGF3dVZuX2xrbnBacXRvOHR4dGV3NkJTQjhQWmxHV2hhc0kxQkVZekhlc3B0ckRzdHVSeThqTGxaMjdNNy1qa01jcWxvblFSamNoZHJFeWxDWmJj?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "En direct – Midterms : Trump perd le Sénat - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWEhIdnRCcUVFWkh4WXc2dmN1OFpTeEtJRkhuQURvWk9rcmRMRUltN0xybkNDVjBFNHpOWFVxanQ1cXZicGhSN2d6VS1vaXVWVVMycU9renBqLUgyVXNzZjFOTGlaaGNJbzlmR3ktU1lHM0llYW1WX0NMSDM1MzlwdHdvZXdScVZzX2ZxS2JoTQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Une vague bleue déferle sur les midterms : Trump reconnaît le rôle de la guerre en Iran - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSlJwb1gzYmloX2hSdldEOUJ4Q3BWOHJoTXZNNVczZm5ic1pPV19qdDBvWkhuQTRVOUFCdkhYeWZkN18tXzRGeFdjTWtDSDVlUzR1V3NNTFB0ZWFQamZhV3pUbVZXcHJKVDQxcTU4UEJ0dktsUFBRYmdfcjN1YnVEUVc5Y2d4NHliQk9FYWRqdTRVMDRJN1h5UE5nbUlBblk3ZTFVS3hGSXNkbXp4bVNWOWZuMFdJQ3lvVi1qTmx6cmFqdURJTGJZ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Midterms : Trump reconnaît la défaite mais n’en assume pas la responsabilité - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdUs3VVZzdGllaV9fODF0Z3BzdmtacEJfX0NjOTJvT3c1a2QtaXhVcDI3Y0QtSkNySjhZWnFtM003QjlOdW9mdzA3c0tuaV80UHI0Z1NHMDcyRnMxeE5ZdzhqQW03VlViUGw0bXBOZjd3a05ETEhtc28xc0x6LWd6aTUyZXRmQjZiRnFFbTBwV2FTenFOUm1qWEVxLVpydjlWb0I1OVdjSmphRE9lbTlvUzQ0NmlNdlZXUGFtOGV3?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "En direct vidéo – Midterms : une déferlante démocrate s’abat sur Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZmo3a0xneEV5STZlWGVuUHl5d1BKbG45M3VwaU5nVHhiaTU2Wm1YMGVTbkNqbW92NVNGUS1ETGtUOFpta0Y4VGd3bTRvT0ZOZ2ZuMl9EUk5pQ0pnczYxMTRTYkIyTnRxOGdqaF9rQ21UZFA5dThNM3dVOEZqT1BGUEdlOF9DdzRXNldXNExVTHRFdHJWazJlam1iUXNfdGdpSk5iRno4VVpjd3ZJdmJjQ0lLbw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "En direct vidéo – Midterms : les Démocrates s’emparent du Congrès, revers cinglant pour Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOakZEM0tGblRvek9QaVNtZDlmaXpHcEJZTkV0eEY1cUI2YmM3elJTeTE3XzFWZHNwX01oVjRhN2twVlNjeUcyblRibWRqRENfR2RsX19QVEh0VXF2V0x6VUM4N2RDb3dCeVByRXN4bDgzcWw3V000dHdRRkIwVXVPMnY2d3cyTmdweGptRU1kVVY2VWNWM2ZMNDV0YnpaSm10QUlUVHJhblhOblZtbDJHZHhIalEzTDdCOUhTTGZ3VlYwQQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Élections de mi-mandat : victoire historique des démocrates, Trump K.O debout - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZGYtb2RQMjh2X1VtYkU0S211bWc3MmtvSW9YcDNlMEZPUzFfbmJ6eVViMTVJbWFtbk1YZExESk5jckNrWVFYdjJSUjN0UnVrcVpHaE84b2FYSmptZWJXTGRfcWllM3Q0SHYzNjlvRzhCTG9lU0hsV3JGLXpIQWM1X2Z6ZEUzSGdNLUhLOVN5WlZKQVZvZDdkRFdOazlFa1dlNHlieGtVWWVIVE1ac2tEajdlb0pMYVFFOXQzN0VIOXdMbFF1SnN3MUpwaGFNanpfaTIzSk5FLXBzRWkyc1dCQkd2dXg2NW91NXBZ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump réagit à la défaite des Républicains lors des élections de mi-mandat aux États-Unis : voici son excuse ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWVF5dUJzUXdoWkdWOEtoU1N1WTlOUXhERkkzc1FNTlktRXA0cnlUaUI4WURVZDJycnVjWjNfZl8tMVZZRUZKWDZlZVFFbmZsVDJ1OFE3YlVaUEtqT3BKT1BVTHAyTnlHbTRjUjVjWlk4eFg1LTd5SURMOHhKd0FSUFdHeHJWZWFYY2pKbGhjMzVKTFU4VFJNWUlfYmI0V2Jxd3o1LWFWVlFJbkNPSEZER0xkaW9UaTJaTUs4NnFPajJKT0dyX3BlNldqWQ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump réagit à la défaite des républications lors des élections de mi-mandat aux États-Unis : voici son excuse ! - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPelMzQmEyazBLOFFOM0xfYU0xQ1lBbFJXRlNSNEpNb0dyYm4xRHcxQ2szNDZLZVdUX1FRX2lNS1k4dzRqZ1ROdl9JRU1EakQ3WUR0OWQ5U2MyYUs1MDBuTDJOdWY2R2MwNkxsNUxKRldJS3lvbW1UTkczaDFCb2d4LU5WRklqNjlHWklzcGJacXJnaThOcVdZRFd4Z0tqZGZvTmlndUx1MllsaXFLamc0OHBfTlc1NHZMWGpiQm1FVXBMN0ZH?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Candidat musulman largement attaqué par Trump, Abdul El-Sayed devient sénateur du Michigan - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMHdPZ2w5WTNMek16WElVay14SE1ZRUJBVnpUd21Tbkh2Ml96VUV5RUxoVHVhNVM0OGR2aDRFZUVyYUJVcjI1N3RNSTlBanNTUTEycWhxU1pQdEtMSkFzUy1zbU9XNnB0eVdmR2VmZ3dwUnM1NWx0XzJ3c0VZb3g0ZUR2ckJ4NHBkOUc4MERKTEN0V0pWZ0dRUDlFcS1qZng1aGlHZ3NINHlpRnducXhJc2hLVGZFdGVXeFBCeEoyLTdFQUxVaEswZE80TnhPV1Ri?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Vague démocrate : « Si j’avais été sur le bulletin, nous aurions largement gagné », réagit Donald Trump - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOVlULTdfTkhrM2ZybGVaaWdmWDRyNU5kLTBMdnNfNnhnakRQOGl2SlB1Y0JZU0JfaHY2cm5SZnBicGpianNxQm1ONVVmbFNidF9KS2RNZk0zOEUyS3UtdnlzWWpxajhQSU5zc29QaGRNT0RDLTdjSXRhckh0ZlRfNWtRV29jN0dKY1ItSW5pRkVrbW5JODRCWmJGYUpDcTVjMmhpZmU4S1NLWUkyZTVnR21uMlB6TXJia2hmQ2x0RXEtV29EUDl0VFF1a0pxLU9XeTVJVU5XZTlvTTFF?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "« C’est habituel » : l’ambassadeur américain, « fier » de Donald Trump, tempère la défaite qui n’est « pas une grande surprise » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYnZNTGx1alJZZDZwVm1YZGpmeXRoRGtfbkZlMW1MVXVBMlhnVjliMlhsZmc1ZE43OXJFd0VBUlNKVS0xUG81OVBORlY0Sk80MS1WRXIwM2xFMUxLc0o0VVdLV3FmWjROUFNrR0lKOGhiSFdRTFJrS2FiUEdVejVVNm9MZkFBb1MyTzFtZGFCRUs5R2JUSENLc1NLV0Jxcm1GWFprVXJOdWIzc0hsM01Lbi1scXJnenhWcDJTVVBRT21nRmZzTk9XQ09JaVoyOENpaDNLNnBDbmVwNE96WkE?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Même avec un Trump déforcé, “les ménages belges ne vont pas payer leur crédit moins cher” - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORjlQem4tcUY0T1hELXNURjlQQXpCUmN5Q1ZCc0ptd2toZnc1cVVGR1hJbHJHRnFZUHhKMFJLb0tRRVB3aThDX0NabkZKQ0xmMmQ1d3BzMDF5TnJYSWxPY2xYLU1uYjhMcXRqN2xaMnRobjJESEpBV3Nxa0p6aHM4SGVuMEZTS0xiVlZ1b2NWZlVyRTRaWm56clRpeVhRSHNCYmJ0VjRIYWhBOExQcHJrN0RCVDJwd2Z2V2hNZUl5VQ?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      },
+      {
+        "title": "Une déroute historique pour Trump, qui reconnait la défaite : \"Je suis tout à fait disposé à accepter ces résultats\" - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNS3UySnhZUDY3Z2xITzBGQXJWUU14NzlVcHZFNnNqZktlRXJ2UmV5MlFlRENjaF9MbXFLdmZLaUJITmhUcm01MEZkcnVLeFViTE9ZWEFtekFhX3V0bngzazJzUDJkQVFFQjhWLVktbGd1WkpwWjJaNEFWRGJfZDVsTjBzRUtaZ09Bd2ZEUlduMlFHVHpfdWJlVEMzdWgxMzd0MkpXR2Fza01JN1RpWlV4UUdkMlNiTnpoYlhpZ3F3MmVzb0VES3RTQ2lWZDE5UDBEQVIzbFYtQ2htS1BzV1pOYUFNdzkzc2ItMjRuZlVlbnA5Nl9Rc3k1UWdKM2p6LWc?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 68,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 6,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 9,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 75,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 12,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 15,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 1,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 10,
+      "crime": 26,
+      "eu": 18,
+      "politics": 39,
+      "be_gov": 17,
+      "culture": 7,
+      "tech": 13,
+      "economy": 15,
+      "sports": 35,
+      "health": 3,
+      "climate": 4,
+      "migration": 0,
+      "education": 3,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 14,
+      "crime": 35,
+      "eu": 24,
+      "politics": 49,
+      "be_gov": 24,
+      "culture": 12,
+      "tech": 14,
+      "economy": 22,
+      "sports": 56,
+      "health": 4,
+      "climate": 4,
+      "migration": 0,
+      "education": 3,
+      "weather": 8
+    }
   }
 ]
