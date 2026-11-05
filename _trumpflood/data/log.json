@@ -127768,5 +127768,682 @@
       "education": 3,
       "weather": 8
     }
+  },
+  {
+    "date": "2026-11-05",
+    "generated_at": "2026-11-05T12:28:02+01:00",
+    "last_checked_at": "2026-11-05T12:28:02+01:00",
+    "total_articles": 571,
+    "trump_articles": 16,
+    "percentage": 2.8,
+    "core_percentage": 2.8,
+    "core_percentage_name": 2.8,
+    "trump_articles_expanded": 19,
+    "core_percentage_expanded": 3.3,
+    "indirect_references": 3,
+    "wide_total_articles": 768,
+    "wide_trump_articles": 22,
+    "wide_percentage": 2.9,
+    "wide_trump_articles_expanded": 27,
+    "wide_percentage_expanded": 3.5,
+    "macro_percentage": 3.5,
+    "qualifying_outlets": 24,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 34,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 6.0,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.94,
+    "breadth": 0.56,
+    "deviation": 0.95,
+    "smoothed_pct": 4.86,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 6,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 11.54
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 10.53
+      },
+      "google_nl_politics": {
+        "fetched": 35,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 46,
+        "today": 5,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 29,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 39,
+        "kept": 39,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 90,
+        "today": 38,
+        "kept": 35,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.86
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 20,
+        "kept": 20,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 11.76
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 48,
+        "trump": 3,
+        "trump_expanded": 4,
+        "share": 6.25
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 40,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.5
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 78,
+        "kept": 78,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.28
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 45,
+        "kept": 40,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.5
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 18,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "trends_g": {
+        "fetched": 78,
+        "today": 14,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 85,
+        "today": 17,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Hoe een nieuwe, jonge generatie Democraten een aardverschuiving veroorzaakte in Trump-land - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY2k1bnFpUWZROHpGNFIzOGFibndybGJ3XzJTTHR4dHBObGdqckl1cEh6QmpmVXQxNWxuRDJrS2NzazBRaVNOSldBX0dRZVpuTHRlQVlwQUxsNElUNWtXSkJaMWpYNzdMN2dyZHVfS0U2MjFWamRKZWNFLW5HdjNnNkJ6OEs5bTF5Rk5GNGUtejVzcnFLcTk1eTAyc0hjUi1JWGZmQWxCcllmMy1rNWEzU09QWlg4RzNHcFhZdUNqRFdJUElMa25zY2tyRmVCNVFGbnFVczF3OA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Vijf wapens en één politieke troef: zo kan Donald Trump de democraten nog danig treiteren",
+        "url": "https://www.hln.be/buitenland/vijf-wapens-en-een-politieke-troef-zo-kan-donald-trump-de-democraten-nog-danig-treiteren~ab8bad74/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Ook stookolie goedkoper na zwaar verlies van Trump",
+        "url": "https://www.hln.be/economie/ook-stookolie-goedkoper-na-zwaar-verlies-van-trump~a634e96a/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump worstelt met zijn nieuwe rol: de ‘lame duck’ met nog twee jaar te gaan",
+        "url": "https://www.demorgen.be/nieuws/trump-worstelt-met-zijn-nieuwe-rol-de-lame-duck-met-nog-twee-jaar-te-gaan~b91e1ca1/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump erkent na opmerkelijke post van Vance dat oorlog tegen Iran oorzaak is van nederlaag bij midterms: ‘Maar het was iets wat we moesten doen’",
+        "url": "https://www.demorgen.be/nieuws/trump-erkent-na-opmerkelijke-post-van-vance-dat-oorlog-tegen-iran-oorzaak-is-van-nederlaag-bij-midterms-maar-het-was-iets-wat-we-moesten-doen~b6554678/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Republikeinen verliezen zelfs hun symbolische hart Texas: kan de partij het Trump-tijdperk overleven?",
+        "url": "https://www.demorgen.be/nieuws/republikeinen-verliezen-zelfs-hun-symbolische-hart-texas-kan-de-partij-het-trump-tijdperk-overleven~b3700076/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Democraten nemen nu al Kushner, Trump Jr., Musk en een rij techondernemers in het vizier: “Ze zullen nieuwe bossen moeten aanplanten voor alle dagvaardingen”",
+        "url": "https://www.hbvl.be/buitenland/democraten-nemen-nu-al-kushner-trump-jr.-musk-en-een-rij-techondernemers-in-het-vizier-ze-zullen-nieuwe-bossen-moeten-aanplanten-voor-alle-dagvaardingen/164110791.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "La déroute républicaine aux élections de mi-mandat bouleverse la course à la succession de Trump",
+        "url": "https://www.rtbf.be/article/la-deroute-republicaine-aux-elections-de-mi-mandat-bouleverse-la-course-a-la-succession-de-trump-11811046",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Midterms aux Etats-Unis : humilié par les démocrates, critiqué par son vice-président, Trump fait comme si de rien n’était",
+        "url": "https://www.rtbf.be/article/midterms-aux-etats-unis-humilie-par-les-democrates-critique-par-son-vice-president-trump-fait-comme-si-de-rien-n-etait-11809584",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Melania Trump réunit des représentants russes et ukrainiens à Washington avant les pourparlers d'Abou Dhabi",
+        "url": "https://www.rtbf.be/article/melania-trump-reunit-des-representants-russes-et-ukrainiens-a-washington-avant-les-pourparlers-d-abou-dhabi-11810973",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Midterms 2026 : la déroute républicaine fragilise JD Vance, jusque-là grand favori pour succéder à Donald Trump en 2028",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/05/cite-comme-probable-successeur-de-trump-la-deroute-aux-midterms-risque-de-faire-tres-mal-a-ce-republicain-une-mauvaise-nouvelle-pour-lui-HBGHUDCKOJGEFK4QZIYUM2HXRQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump épargné, Pete Hegseth visé : des républicains veulent mettre le chef du Pentagone en accusation après les midterms",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/05/midterms-2026-plutot-que-trump-certains-republicains-ciblent-lun-de-ses-ministres-et-veulent-sa-destitution-UDG4M55Y6JBA3DAAXE7LNXY3ZM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: Melania Trump reçoit une décoration de la part de Zelensky",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/11/05/guerre-en-ukraine-melania-trump-reunit-des-representants-russes-et-ukrainiens-a-washington-EHC3NW5PCJGO7C3KEXCYA5EJUM/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "La défaite électorale de Trump éloigne l'espoir d'une rencontre avec Kim Jong Un",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/05/la-defaite-electorale-de-trump-eloigne-lespoir-dune-rencontre-avec-kim-jong-un-LWYSKDO2QJF7TBBH3BAJQDOYSQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Midterms: voici ce qui changera pour Donald Trump et les États-Unis ces deux prochaines années - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVzAxNU1nUVNLdEFBeWE0aHpncWpKdDhsck5feE1vSEFJcjNTU1JUZk9iNVJteW56WjhGT0Q2Q3JTVzJucGFyQ21CQjJGZUFLYTZYRk53M3U1U2tTTlhIR3dCNFF1dl9MNnljTVo2RXc1MFA4QnNJWjZPdG9fVHRyb042amtTczBDNnI5Ulp4QW9VcWdwTVdhMDBWVzdGczJCUWV2Y1hkN2w4LXhBTHlScVgwdW9UU3VycVVyYkpJRE1EYjdVY2pVb3R6ZHRCRHBVUjZtMzJ6NDlUcGxUM1R3dUdWSkQydw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026: plutôt que Trump, certains républicains ciblent l’un de ses ministres et veulent sa destitution",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/05/midterms-2026-plutot-que-trump-certains-republicains-ciblent-lun-de-ses-ministres-et-veulent-sa-destitution-FDLXP5P2HFH5ZAO5I3GBL42BKI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Artisans de la vague bleue, les Latinos se sont retournés contre Trump",
+        "url": "https://www.7sur7.be/monde/artisans-de-la-vague-bleue-les-latinos-se-sont-retournes-contre-trump~a6bb1487/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur Trump et les midterms - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYmxjR1lvaVMzX1k4N2ZhMXM4MTQ5ODhDLUwzcEFnLU1zSUI2cUF1dWoxQ2VQdHluZXRKR1hseGI4N2dXd192QmxzNTgzR0llVzYtd1JmYlUteUc5V3ZOOFdRZ1lyREJTZkZMMHFUVUEtZG1qOW5WOWtBcVFabmxvN1JodFpHdi1nS0tzMW5XX3FkSzlB?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Intervention lunaire de Donald Trump : après la débâcle électorale, le président américain préfère vanter sa future salle de bal - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkh5Z0w1Z2M3ZF9IVlowUkNjMjRYMGgxY3FmaEMyZl9tMDV0aUtLVE5CMjhzQk8wcGZUZ2NtZlRSaFhoem1TWWJfUTAxQkdfSWhSU3J1aHVoYmxVQmJ5Y0VpRVU2MEZEY25adncyWGRaRGZfN3U4X29JdDBQTVl1ckgxSXZVYXMwZl92OGNfVlIwVWxic3hQNElIRmd3cHhybnNIamhTa1U5NnNERVZKbWl1ZzhzN2VONjVQVHF2NHBVcjNrUVU5RkJjMFY?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump erkent na opmerkelijke post van Vance dat oorlog tegen Iran oorzaak is van nederlaag bij midterms: ‘Maar het was iets wat we moesten doen’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMEo5X3c1ZEcwcjhydzgtZHFRalJNTjNHRVl4aE5VNmtlelktSUQ2Z0owbm0tM0NVNVp0b1U3dFg1Y19iZ2F0T2RnQlhiU29wMFl2ajV1Wm9iWWlFNDBfWWdsTk1HaDZfTHdUcHJTOVRHbVhDS0lJbm5zX01oVXJpZmM2ODdEMjRwMjctUlQtdElkT3FrV0NZTzdQZ2M5OEFIWC01cU1PWGNZXzNzbEZXb3lZc1F2Y21UbzRVY19iNUVuazl5QWQ0NEQ2U2FxQ05PSG85ZEFYRGhIWC1iM0E2dUhOa0Rqa1VnSDRFaTRxcWpvb3o0aDlHQ1lPUnZEeWF4OGhYZUhsZUZENWppRTNn?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump worstelt met zijn nieuwe rol: de ‘lame duck’ met nog twee jaar te gaan - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd1RfQUZ3aVhyTnFLTGJGLVRKZGpLQmhfVlpIRU9oTy1HSkdLR0ZXdl9zdUlIMGtOemJBaHgzN1F6M19XWjdlZi10Z0FtVDBwSGdiT0tocGh5WWxXei1lM3J0SHpMMEdBaWNKb1BnSzAtVVJORWJfUVJ2d2VXWlF3X0FkcVdYeURfMVA2Z09XT0Jrb016OUtMX2V5bnV4anQzTG4wci1Iemx3dkhjMm13T0NkRVM?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Het rommelt al in de regering-Trump: \"Hij is aan het bellen of hij Hegseth moet ontslaan\" - GVA",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWWY0cW4xV3FDWFA4akgxY2hyWVB3TTFxUk1Ec0dSMkVmNnJ5dmRicmZ0Qkk1c1BwZkZmUVVLM3pheDhJTFd5MDZkdnhaN2tYQ2JDMGhRY1c4bmZRTHNiNjNoQ0RORVd5Sy1sb2piWlhzMXdHSHRlMjg3V3hOTzFzdEFQZ1QyNUtDWmtXS0lDSHVheUctNEVLeWxNUmwxaFB3bUVta0ZjSDdSUkRkRTRWb1pzOEZRTUpYTFFOdUJBSjQ4a3hqVm1RWEdFSQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "La déroute républicaine aux élections de mi-mandat bouleverse la course à la succession de Trump - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3RPTThGaFU0WmpKczlwcEhVZDY4QzlIYmMyYzh6eGk3d1ppV1VKZGJieW5Wdm04WHM3U0RWdndaQkVOaVlsTThpQVQ3MWdLMlE0TjdUVTZEc2V2V2Z0cmxlSjlaWWpnbDc1dlo0MmV2SmdQVy1QanV2UW9jS1dQWXhDLTFBTjY3TjdmRXU4WE1WQXFpb3IzdFlRLURseUd0WF96ZUp2dkVBemJheUxjYjlZZjFuelRRWnpidzBBZUd1dTFaQkVRSFEyckkwUQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026: plutôt que Trump, certains républicains ciblent l'un de ses ministres et veulent sa destitution - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNampFZ1FYYVBQbGhOOWl1bGlzVmcyTXJUZHg0VGZvLXpHMUFqOUlQaXZtRU1mMnZxSEprSi1VTHZFQzQzenRyckRCSW1ocnNCc1dVN19nbWRXOGQ4Y2h5UXV6UDRobEZtWTdrZGlKdzlzOV9hYWlaSkJBVUQzcGZOclc1QjZ1a3RhNDluc2lkbU1WU2RoQWZyMnZjME9SeGRiallsMkFBbFg1eDZxLWhaWUo1SjZpYWlDTndXc2VzRk5fSnF2MFJUQ2NwSWIwUWlXS0dwTnZWb3JmdG52SFBwdzh2SDZ2RUZ1N2RSOUVwMFJyWWdGeHNwT2VGeERoc1NKX1BGMGg1eFdOQQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Melania Trump réunit des représentants russes et ukrainiens à Washington avant les pourparlers d'Abou Dhabi - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOEhjRkJZcTJNR2ZwN1JwVUtZOEpjNUYxSVRTY0swZ2xYY3B5SFVUdU9lQWpzTXFvVlBXdzhZS0lBOHhFN2ZIaUc3eVRSRTlZeXYtZEFpYTl3Q3NuQm8zZHdZc181cmIyZFBPOHhfVS1PaXE3b1BxR1NERkowYmszd1FJLW41bTQtMi10MGFINkltaWY2aGc1cWd2VHBoU1RUa09lX1YyTnN3QjFLNkE?oc=5",
+        "source": "google_fr",
+        "name_only": false
+      },
+      {
+        "title": "Democraten nemen nu al Kushner, Trump Jr., Musk en een rij techondernemers in het vizier: “Ze zullen nieuwe bossen moeten aanplanten voor alle dagvaardingen” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQSVRkdVpZNFAzMmlxZjc2alhHZ3hvTF9jVk44MDd4VWZGRUkwV3FhTndJWUpjU2xNd3J2V3gzUGRRSWpObTduSlBwMGxIekFoWUk2Mm9mbW5vcnhlTjVmMXZURUtWVVJybWFaZjY4VjYwZWR1elBlSXZCLWdGNFY4a0M3UTZ3YTVxRlZvZkNnbWRQZ25ac2pGekxnTzhreGRuTTF1VksyNklkQkZma0hWUFM5N1pyczZqeTZ6bjNMQ2VEX0MzT0ktUEFHMDlpVklEdkYwMjlaS0Y5cm5kZXNGOVZlbWJNZHdIRmpGX252WE4xLV9Sb2JYdGFvRDVQSXMtVTdaazI0S3U0N0pIdEg5Uk9KSkt3TFBEcXV1Q0daZk1rc25jQlJoeGdEMWw?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "Hoe een nieuwe, jonge generatie Democraten een aardverschuiving veroorzaakte in Trump-land - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY2k1bnFpUWZROHpGNFIzOGFibndybGJ3XzJTTHR4dHBObGdqckl1cEh6QmpmVXQxNWxuRDJrS2NzazBRaVNOSldBX0dRZVpuTHRlQVlwQUxsNElUNWtXSkJaMWpYNzdMN2dyZHVfS0U2MjFWamRKZWNFLW5HdjNnNkJ6OEs5bTF5Rk5GNGUtejVzcnFLcTk1eTAyc0hjUi1JWGZmQWxCcllmMy1rNWEzU09QWlg4RzNHcFhZdUNqRFdJUElMa25zY2tyRmVCNVFGbnFVczF3OA?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Vijf wapens en één politieke troef: zo kan Donald Trump de democraten nog danig treiteren",
+        "url": "https://www.hln.be/buitenland/vijf-wapens-en-een-politieke-troef-zo-kan-donald-trump-de-democraten-nog-danig-treiteren~ab8bad74/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Ook stookolie goedkoper na zwaar verlies van Trump",
+        "url": "https://www.hln.be/economie/ook-stookolie-goedkoper-na-zwaar-verlies-van-trump~a634e96a/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Trump worstelt met zijn nieuwe rol: de ‘lame duck’ met nog twee jaar te gaan",
+        "url": "https://www.demorgen.be/nieuws/trump-worstelt-met-zijn-nieuwe-rol-de-lame-duck-met-nog-twee-jaar-te-gaan~b91e1ca1/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump erkent na opmerkelijke post van Vance dat oorlog tegen Iran oorzaak is van nederlaag bij midterms: ‘Maar het was iets wat we moesten doen’",
+        "url": "https://www.demorgen.be/nieuws/trump-erkent-na-opmerkelijke-post-van-vance-dat-oorlog-tegen-iran-oorzaak-is-van-nederlaag-bij-midterms-maar-het-was-iets-wat-we-moesten-doen~b6554678/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Republikeinen verliezen zelfs hun symbolische hart Texas: kan de partij het Trump-tijdperk overleven?",
+        "url": "https://www.demorgen.be/nieuws/republikeinen-verliezen-zelfs-hun-symbolische-hart-texas-kan-de-partij-het-trump-tijdperk-overleven~b3700076/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Vicepresident Vance distantieert zich heel openlijk van Trump, richt hij het vizier op 2028? “Hij heeft een berg te beklimmen”",
+        "url": "https://www.gva.be/buitenland/vicepresident-vance-distantieert-zich-heel-openlijk-van-trump-richt-hij-het-vizier-op-2028-hij-heeft-een-berg-te-beklimmen/164124055.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Democraten nemen nu al Kushner, Trump Jr., Musk en een rij techondernemers in het vizier: “Ze zullen nieuwe bossen moeten aanplanten voor alle dagvaardingen”",
+        "url": "https://www.hbvl.be/buitenland/democraten-nemen-nu-al-kushner-trump-jr.-musk-en-een-rij-techondernemers-in-het-vizier-ze-zullen-nieuwe-bossen-moeten-aanplanten-voor-alle-dagvaardingen/164110791.html",
+        "source": "hbvl",
+        "name_only": false
+      },
+      {
+        "title": "La déroute républicaine aux élections de mi-mandat bouleverse la course à la succession de Trump",
+        "url": "https://www.rtbf.be/article/la-deroute-republicaine-aux-elections-de-mi-mandat-bouleverse-la-course-a-la-succession-de-trump-11811046",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Midterms aux Etats-Unis : humilié par les démocrates, critiqué par son vice-président, Trump fait comme si de rien n’était",
+        "url": "https://www.rtbf.be/article/midterms-aux-etats-unis-humilie-par-les-democrates-critique-par-son-vice-president-trump-fait-comme-si-de-rien-n-etait-11809584",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Melania Trump réunit des représentants russes et ukrainiens à Washington avant les pourparlers d'Abou Dhabi",
+        "url": "https://www.rtbf.be/article/melania-trump-reunit-des-representants-russes-et-ukrainiens-a-washington-avant-les-pourparlers-d-abou-dhabi-11810973",
+        "source": "rtbf",
+        "name_only": false
+      },
+      {
+        "title": "Midterms 2026 : la déroute républicaine fragilise JD Vance, jusque-là grand favori pour succéder à Donald Trump en 2028",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/05/cite-comme-probable-successeur-de-trump-la-deroute-aux-midterms-risque-de-faire-tres-mal-a-ce-republicain-une-mauvaise-nouvelle-pour-lui-HBGHUDCKOJGEFK4QZIYUM2HXRQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump épargné, Pete Hegseth visé : des républicains veulent mettre le chef du Pentagone en accusation après les midterms",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/05/midterms-2026-plutot-que-trump-certains-republicains-ciblent-lun-de-ses-ministres-et-veulent-sa-destitution-UDG4M55Y6JBA3DAAXE7LNXY3ZM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine: Melania Trump reçoit une décoration de la part de Zelensky",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/11/05/guerre-en-ukraine-melania-trump-reunit-des-representants-russes-et-ukrainiens-a-washington-EHC3NW5PCJGO7C3KEXCYA5EJUM/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "La défaite électorale de Trump éloigne l'espoir d'une rencontre avec Kim Jong Un",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/05/la-defaite-electorale-de-trump-eloigne-lespoir-dune-rencontre-avec-kim-jong-un-LWYSKDO2QJF7TBBH3BAJQDOYSQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Midterms: voici ce qui changera pour Donald Trump et les États-Unis ces deux prochaines années - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVzAxNU1nUVNLdEFBeWE0aHpncWpKdDhsck5feE1vSEFJcjNTU1JUZk9iNVJteW56WjhGT0Q2Q3JTVzJucGFyQ21CQjJGZUFLYTZYRk53M3U1U2tTTlhIR3dCNFF1dl9MNnljTVo2RXc1MFA4QnNJWjZPdG9fVHRyb042amtTczBDNnI5Ulp4QW9VcWdwTVdhMDBWVzdGczJCUWV2Y1hkN2w4LXhBTHlScVgwdW9UU3VycVVyYkpJRE1EYjdVY2pVb3R6ZHRCRHBVUjZtMzJ6NDlUcGxUM1R3dUdWSkQydw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026: plutôt que Trump, certains républicains ciblent l’un de ses ministres et veulent sa destitution",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/05/midterms-2026-plutot-que-trump-certains-republicains-ciblent-lun-de-ses-ministres-et-veulent-sa-destitution-FDLXP5P2HFH5ZAO5I3GBL42BKI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Artisans de la vague bleue, les Latinos se sont retournés contre Trump",
+        "url": "https://www.7sur7.be/monde/artisans-de-la-vague-bleue-les-latinos-se-sont-retournes-contre-trump~a6bb1487/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur Trump et les midterms - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYmxjR1lvaVMzX1k4N2ZhMXM4MTQ5ODhDLUwzcEFnLU1zSUI2cUF1dWoxQ2VQdHluZXRKR1hseGI4N2dXd192QmxzNTgzR0llVzYtd1JmYlUteUc5V3ZOOFdRZ1lyREJTZkZMMHFUVUEtZG1qOW5WOWtBcVFabmxvN1JodFpHdi1nS0tzMW5XX3FkSzlB?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Intervention lunaire de Donald Trump : après la débâcle électorale, le président américain préfère vanter sa future salle de bal - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkh5Z0w1Z2M3ZF9IVlowUkNjMjRYMGgxY3FmaEMyZl9tMDV0aUtLVE5CMjhzQk8wcGZUZ2NtZlRSaFhoem1TWWJfUTAxQkdfSWhSU3J1aHVoYmxVQmJ5Y0VpRVU2MEZEY25adncyWGRaRGZfN3U4X29JdDBQTVl1ckgxSXZVYXMwZl92OGNfVlIwVWxic3hQNElIRmd3cHhybnNIamhTa1U5NnNERVZKbWl1ZzhzN2VONjVQVHF2NHBVcjNrUVU5RkJjMFY?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 16,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 1,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 4,
+      "bouchez": 4,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 2,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 22,
+      "putin": 0,
+      "macron": 2,
+      "netanyahu": 1,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 5,
+      "bouchez": 4,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 2,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "themes": {
+      "war": 12,
+      "crime": 27,
+      "eu": 36,
+      "politics": 24,
+      "be_gov": 20,
+      "culture": 7,
+      "tech": 12,
+      "economy": 16,
+      "sports": 49,
+      "health": 6,
+      "climate": 15,
+      "migration": 3,
+      "education": 6,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 14,
+      "crime": 36,
+      "eu": 43,
+      "politics": 39,
+      "be_gov": 24,
+      "culture": 8,
+      "tech": 14,
+      "economy": 19,
+      "sports": 69,
+      "health": 8,
+      "climate": 17,
+      "migration": 4,
+      "education": 8,
+      "weather": 10
+    }
   }
 ]
