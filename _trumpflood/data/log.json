@@ -128445,5 +128445,730 @@
       "education": 8,
       "weather": 10
     }
+  },
+  {
+    "date": "2026-11-06",
+    "generated_at": "2026-11-06T12:26:41+01:00",
+    "last_checked_at": "2026-11-06T12:26:41+01:00",
+    "total_articles": 656,
+    "trump_articles": 21,
+    "percentage": 3.2,
+    "core_percentage": 3.2,
+    "core_percentage_name": 3.2,
+    "trump_articles_expanded": 21,
+    "core_percentage_expanded": 3.2,
+    "indirect_references": 0,
+    "wide_total_articles": 856,
+    "wide_trump_articles": 31,
+    "wide_percentage": 3.6,
+    "wide_trump_articles_expanded": 33,
+    "wide_percentage_expanded": 3.9,
+    "macro_percentage": 3.8,
+    "qualifying_outlets": 27,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 38,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 5.8,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.88,
+    "breadth": 0.68,
+    "deviation": 1.12,
+    "smoothed_pct": 5.0,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 27,
+        "kept": 27,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.41
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "google_nl_politics": {
+        "fetched": 34,
+        "today": 10,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 4,
+        "share": 15.38
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 28,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 49,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 17,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 37.5
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 43,
+        "kept": 43,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.33
+      },
+      "standaard": {
+        "fetched": 95,
+        "today": 48,
+        "kept": 42,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 20,
+        "kept": 20,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.56
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 45,
+        "kept": 45,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.67
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 39,
+        "kept": 39,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 92,
+        "kept": 92,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.17
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 40,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.5
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "trends_g": {
+        "fetched": 66,
+        "today": 21,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 77,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Rechter blokkeert bouw van Trumps enorme triomfboog, vlak na goedkeuring door commissie",
+        "url": "https://vrtnws.be/p.bDoAZ7RYW",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Kremlin wil niets zeggen over “heel groot akkoord” dat Trump aankondigde om einde te maken aan oorlog in Oekraïne - Stroom uitgevallen in Kiev",
+        "url": "https://www.hln.be/buitenland/kremlin-wil-niets-zeggen-over-heel-groot-akkoord-dat-trump-aankondigde-om-einde-te-maken-aan-oorlog-in-oekraine-stroom-uitgevallen-in-kiev~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "“Onze verkiezingen zijn zó corrupt, je hebt geen idee”: Trump trekt nu ook uitslag verkiezing LA in twijfel",
+        "url": "https://www.hln.be/buitenland/onze-verkiezingen-zijn-zo-corrupt-je-hebt-geen-idee-trump-trekt-nu-ook-uitslag-verkiezing-la-in-twijfel~aa16c81e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Een uur na goedkeuring bouwplannen: federale rechter blokkeert dan toch tijdelijk de bouw van Trumps triomfboog",
+        "url": "https://www.demorgen.be/snelnieuws/live-federale-rechter-blokkeert-tijdelijk-bouw-van-trumps-triomfboog~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘We doen gewoon een Mike Lindelltje en eisen een hertelling’: reconstructie van de implosie van Team Trump",
+        "url": "https://www.demorgen.be/nieuws/we-doen-gewoon-een-mike-lindelltje-en-eisen-een-hertelling-reconstructie-van-de-implosie-van-team-trump~bf46dfd4/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump beweert dat er ‘heel groot akkoord’ zal komen dat ‘heel Europa’ zou omvatten • Melania Trump: ‘Laat staakt-het-vuren Olesjky een voorbeeld zijn’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-beweert-dat-er-heel-groot-akkoord-zou-komen-dat-heel-europa-zou-omvatten-melania-trump-laat-staakt-het-vuren-olesjky-een-voorbeeld-zijn~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump zal niet rusten voor hij “mooiste triomfboog ter wereld” heeft, maar rechter steekt er voorlopig stokje voor",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-zal-niet-rusten-voor-hij-mooiste-triomfboog-ter-wereld-heeft-maar-rechter-steekt-er-voorlopig-stokje-voor/164172386.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Dodentol Russische aanval op hulppost loopt op tot 50 - Trump voorspelt “heel groot akkoord” dat “heel Europa” zal omvatten",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-dodentol-russische-aanval-op-hulppost-loopt-op-tot-50-trump-voorspelt-heel-groot-akkoord-dat-heel-europa-zal-omvatten/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Pete Hegseth reageert met video tegen mogelijke afzetting: “Het werkte niet bij Trump en het zal bij mij ook niet werken”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-pete-hegseth-reageert-met-video-tegen-mogelijke-afzetting-het-werkte-niet-bij-trump-en-het-zal-bij-mij-ook-niet-werken/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Trump voorspelt “heel groot akkoord” dat “heel Europa” zal omvatten",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-trump-voorspelt-heel-groot-akkoord-dat-heel-europa-zal-omvatten/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump-debacle is positief voor goud - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN3U2SWpTM1hDV0Y0OV9aTkk4RDVsUVNwRVBwV2xRbG9WbHFDZGhTSks4TFZMUVZPZC1NZnN4TnNJTi1tbXM2b3R2YjIwVDVHdm9oMjBLNDduSVgxSGNlMzZfbjdycDRJVzFycTh5NTJQZkVpdkJwSjJrbE94czN1NkRqNjI?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : Donald Trump s’emporte et dénonce des élections \"truquées\"",
+        "url": "https://www.rtbf.be/article/midterms-2026-donald-trump-s-emporte-et-denonce-des-elections-truquees-11811551",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Un juge américain suspend le projet de gigantesque arc de triomphe de Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/06/un-juge-americain-suspend-le-projet-de-gigantesque-arc-de-triomphe-de-trump-YIV3EBF2LZFKXO367UKW4GIETI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Marco Rubio dément vouloir quitter l'administration Trump après la défaite des républicains aux midterms",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/06/marco-rubio-dement-vouloir-quitter-ladministration-trump-apres-la-defaite-des-republicains-aux-midterms-VRYI62VENJD37E7FISQE6B562U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump prend une décision pour empêcher toute destruction du Bureau ovale",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/06/donald-trump-prend-une-decision-pour-empecher-toute-destruction-du-bureau-ovale-7EECT4CGLNGXZMLEGOQ7MUT4DM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump s'emporte et dénonce le résultat des midterms : \"Nos élections sont tellement truquées, vous n'avez pas idée\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/06/trump-semporte-et-denonce-le-resultat-des-midterms-nos-elections-sont-tellement-truquees-vous-navez-pas-idee-XPC3UCTZ4FGNXLKQXEPIHU7AKE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un nouveau revers pour Trump : la justice stoppe son projet d'Arc de triomphe géant à Washington",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/06/un-nouveau-revers-pour-trump-la-justice-stoppe-in-extremis-son-projet-darc-de-triomphe-geant-a-washington-DXYMNZL3IBHYHD4GV6OQMVFHTQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Rubio dément vouloir quitter le gouvernement Trump afin d’être candidat à la présidentielle",
+        "url": "https://www.7sur7.be/monde/rubio-dement-vouloir-quitter-le-gouvernement-trump-afin-detre-candidat-a-la-presidentielle~a8e629d1/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : un juge fédéral bloque le projet d’arc de triomphe de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWTA3amtLd05QXzZpM3hxWVgzNC1wVTF2VFU4Q3ZzZ3RrVXkxa2FfaTlVdi1GOHNmWElzWm10RDRtMmtrOU9uR0w1dVNVaUt6VG9WbllvRHRNWFdJZ09qcjlpTVRPZHpFeDlmVWQ2ME9Dc1RzTzN4VWQ4N1NHQ2RXZGgtVHoxTlppSDFqOVFFd2tuNTlobkRBdXVjUEpkR3FVN3J0N1RDYmNiSTl5VTBBNmh5VnloNVhh?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Un arc de triomphe en plein Washington : le projet fou et « illégal » de Donald Trump stoppé net par un juge fédéral - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcFk4Q2lZOVlEYjh4VWI4LUZDVHVDSkx4LXItaGpacXVaVVdCczhlNGpYZTB0eFhTcFFMZGZmMkg3ZDJEUTdxMS04NEcydEgzbTdPQ1A5WXNEQUZvb1hqc3BRcE5zUFdpUUNVWkNuVGJJaThLelF4MzJoWmtXNy1qZm1fdWRONFpiNzlHcThpbWxQbzBock1JTllfaDZJYkE2a0hrVXNPbHZla0d4QkJhOUdwR3dGVjZFVnlHMjJna1h3aHdoSVhKbmduMA?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Ce proche de Donald Trump envisage-t-il de quitter le navire après la défaite aux midterms ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNzFfWFlqeGdobDJjdTkzeEc2SHJWQlZ3OWd4VzNzcXJXUXhfVW1QbXozRFl2a3llVlhJME5pY0c4aVJQVk1ISF8xcEVEQ0lSWjNNUU5YdTc2T2ZVSjNtdU5vVGNVSnRmZnBfc0R1b3lvWFl0UVlCbnpMdkZ2and5OUVxNFNjTVJmYTNScHpGa3hjeEFadEExZVYwTXVRMWdpRnZHaFdwd3V6cXVQTy03MUEwNG5XWEFHaXROQTFuaFg5MW9aWVBkdFd6UTV4UXRUdFRhRDdRWUQ5OUM3Q2VtRA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Republikeinen vrezen voor 2028 als Trump nog “twee jaar dezelfde shit blijft uitkramen” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYks3NzN1LXE2NEpSY25pSV8tM0pJZUg3VzdvcURGY3puQjBqNGtoTy1tRFdac0luTVc2UzhwazV3RUQ5RU9waEcwY3g2SlJaSDFXRXR1TWJERW50Q1UxRXdnMnVpV0RzbHFuWWV5bGpacVc1Z2g5eUtzSlE4bmo5XzhTYTRZZ1FtYjN2SEstUnd1cjFWYUtzeDN1WGJfSHdRY21RaGh3bUtYLVI0TEczeUZXTDJkcUtObGlzeGViT1pZS3ItcndmY041d3JtNUdRTUE?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Rechter blokkeert bouw van Trumps enorme triomfboog, vlak na goedkeuring door commissie - VRT",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OUktXTUQycG9PWjk2TWwxY1dlLVZfN25RRFdTQ0hHNWVHbE9KSDVET2kxTDlTSUVOV1RtRWJTWlRCUkc1SzZhOUdacFJOZVVEaGI0ZGVZblJxaHptc3FDQTJXN3dleG12RmZKOUgyUThLVU0?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump s'emporte et dénonce le résultat des midterms : \"Nos élections sont tellement truquées, vous n'avez pas idée\" - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQc3RicXIxQ3R4ekx2RlNWWmlkS3JHTHJ5RXhUbVFIZDRkMkZOREktUEpsUGR1OE5XbGp4bmk0ZElsdWFwOFBuanFUSk1jSDdHZzNxM0k2WnJ5aEJwdnZVczNXeU1idmJCdHJXZF9VX2MxVVBYUnJVVlNGREUwWnVrMDVONEU0TkpRVnNHQ2M3ZlJKeHM2ZlhJM1pMT1ZMbDBCbDE1Tm1KYUUxZ29LT1Jqcm8xMXR2T2h6Um5FM1RQWllIY2pqcWFLQUk5bGhCT3hKTDU1TERPd3BiZXBwRm5LUEkwWWhTUlZmMURDcHJXTkpaWDNDZndtQllOalhFaGFBM1gyZEJOdTVUMmM?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Rubio overweegt vertrek regering-Trump, vanwege gooi naar presidentschap - bnr.nl",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeXN5M1ZzZW8tOWlYU3lIdTZ1MVNEaF9DZ1NnYjVEOEtOZDFPS1Y5elA1V01YRHhTQmpkMlU0cjlld2wyTk9uc0xDOUtmbXJjWXFWOGRyZHlFUG1Ba0hPSHVubTVZaHROX3ZWcDVhY0lDS3IyN3ZvNXpHdXJBU3p5cDlUSzlIRGxYU0pRYkFsMlNYNUVnSWhuWkI5b25RNWdmbWZhXzFPVW1fMHJqeldLbXc3MENqd20yNEVGWEJR?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump heeft de Democraten precies waar hij ze hebben wil - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclI4RHJSWngtNlRkTHhqOERmY2dXWXNZMnhHdTc1S2lOQkN6N2NWREh0ek5YS18zMFFRODhPVEZVMFRBUVFWcnkzYzg3aWZyVFh6ZmVVZFZhbGR0VjFmeUE2eDJBNVU3Z0otYjlwelBvcVdpaU1OUVBLd3ZrVGxiRXhRSm5QV3cyQ3pmUkh6OVpLS0xyZFcwcmc0TDU1VVpz?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "‘We doen gewoon een Mike Lindelltje en eisen een hertelling’: reconstructie van de implosie van Team Trump - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVE5zTENJMDZZcTZtM2RncG9XbC1QZkNHcDBpcGI1clVrS09ScEc3WkVMN2t6bXlyOEJjdkNNa281VE5nWlh2VkpmcFhJRldubmVvQUluR1BmaHoyd3Q2VnlPLTh4ampUVDN2QjV3aF9hYkdnQ0xwNHIxTy1idzRuOXBzaURvTTd1dHFBZVhMaW9NVVI0Z1JFako3RENuLW54Nl9SWnhxbm1mdWlOMXJwV1dneldGd0g1ZlprMjIxRDNlWUZ1bERnd1NHUGwxUHh2SncwaldYTlpKV1B0?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Melania Trump roept op tot duurzaam staakt-het-vuren in Oekraïne - HLN",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjViWWt5b2U0VVdWbDdkbzNBM1JrWVhnTW1rTGRXbGl6bkVBeUFfMW4tb0dZZ3dnQUt6VWFqel9ITXFNaENpQjdGbFNoYktjQmZ5X2JGTjh4allsUEpzelJBal9pci1yVXB3bkRlQlFaaXg4RXhoTk0zdnlwUWF4b2xNUVBBX0dsZ1NIOVpMVTA2R1VnTFFEQ0YzY0xxcF91aXo5a2RrWQ?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "Live - Midterms 2026. Witte Huis ontkent dat Hegseth en Rubio opstappen na Republikeinse verkiezingsnederlaag - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQODk5VTlwTndSekVMc2xNY3BKRW13cXBJRkFWeC1JdGROSXc5TGIwU2JqSHMyaWo0NEFDNl9HZzBIdnRKUjhEcW80bmNVeUhuWldvZGVwTXN6MnAyS3R1Vmd3ZlBhNF9xUEl0eVh6VmxXbjdzZzY0Qkg0VXJsb0tZbk5acG1palJlOUszcFoyWXBfWkx2MVp3VEFvTVoxTl9tZFFYQ2VGSHE5RUNqUENuUzBJTy16Q3BqTkJLTW5MN3FxZ3QyZVZxWTVFcjVUM2dDU3BWUnk1ajRNdnFNSHhjOA?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "Un nouveau revers pour Trump : la justice stoppe son projet d'Arc de triomphe géant à Washington - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPVFVSV2RBN2czYnEyOHhvNkdRWWxpNXJQZ3g0Uzh0am1pbEtWSGc1MlBGYTdURk9kWVcxWkFyLXRhWGVtVENHQU1Bbm1IcGRZWktYWFE1bHNudEptckdKcTZhbmZEbTNvR2EtQVNJLVpLVGpCd19QWWpDN0FZb2xoYXA2Tjh3eHpBSjdINTFZcDRMN28tbFNvUzBTUkhQVjlmUEhtbzRIZjM3a1cxdVBEUEVFRmlyVVRHZmYxb3UwbVRHWU5vTDNhY2h4LTAzc0E0NVdYQTNoNnAzMUl2Y3lfSDlNb094c1VWZlZxa2k1QVZpQ192UTJFaTNDMTJJb2FaeExEM2h1MA?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Rubio dément vouloir quitter le gouvernement Trump en vue de la présidentielle de 2028 - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMU1vNENwdVdOd3FtVEItZWgxY1pYeDBXejdiS2VnNWtCMWFYTzFsYTNWcFBBMG5fZDZNZFNuclA1QTVOY2h4MmtBc0UyOGxVZWZtRE8xSnppNk1DUS1MRk1uYjNRUGZ5LWJrNjZYakpab1JBV2dwX0d2WFlaZEYwNmRodUsxVU80NDhIV3YyLVg0aTRJbGgxYXJSd1c3ZUdROW85S2hVWEJYX0t4bkp0RWdZMkMzZklxTnIxd1V0T08wQVhv?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump prend une décision pour empêcher toute destruction du Bureau ovale - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdEZSWEFTdVBoSnd6X0FRZ3dOQVFzNWVHazc1UTZUdEpGc0RNSmcyYnZsRWxWNXgyUUxHeDNPaURuYzFsVHBoaVZXQU9WUklBZkI4NzBxQ0piazZaeVdFdUVPOTduLU9jV2N3OGlFNThiXzBsTmZqY2VOQmp4UmRlUXBJM084MUlvUWpXeWtBbGFLM1hSZUZXWkJ6NVpPMFY5VU9LVW5BXzFCY0luTkRYRTJiVkRyT1VqTVNtTDZTTlNtYVlUWWFOLTNSbkZPejd2ZUI5ekVUcG41dEVZUGpCQWhHZHItSjR5a0cyTXlPUkFJa2tGV3hV?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Rechter blokkeert bouw van Trumps enorme triomfboog, vlak na goedkeuring door commissie",
+        "url": "https://vrtnws.be/p.bDoAZ7RYW",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Kremlin wil niets zeggen over “heel groot akkoord” dat Trump aankondigde om einde te maken aan oorlog in Oekraïne - Stroom uitgevallen in Kiev",
+        "url": "https://www.hln.be/buitenland/kremlin-wil-niets-zeggen-over-heel-groot-akkoord-dat-trump-aankondigde-om-einde-te-maken-aan-oorlog-in-oekraine-stroom-uitgevallen-in-kiev~a93df6b5/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "“Onze verkiezingen zijn zó corrupt, je hebt geen idee”: Trump trekt nu ook uitslag verkiezing LA in twijfel",
+        "url": "https://www.hln.be/buitenland/onze-verkiezingen-zijn-zo-corrupt-je-hebt-geen-idee-trump-trekt-nu-ook-uitslag-verkiezing-la-in-twijfel~aa16c81e/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Een uur na goedkeuring bouwplannen: federale rechter blokkeert dan toch tijdelijk de bouw van Trumps triomfboog",
+        "url": "https://www.demorgen.be/snelnieuws/live-federale-rechter-blokkeert-tijdelijk-bouw-van-trumps-triomfboog~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘We doen gewoon een Mike Lindelltje en eisen een hertelling’: reconstructie van de implosie van Team Trump",
+        "url": "https://www.demorgen.be/nieuws/we-doen-gewoon-een-mike-lindelltje-en-eisen-een-hertelling-reconstructie-van-de-implosie-van-team-trump~bf46dfd4/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump beweert dat er ‘heel groot akkoord’ zal komen dat ‘heel Europa’ zou omvatten • Melania Trump: ‘Laat staakt-het-vuren Olesjky een voorbeeld zijn’",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/live-trump-beweert-dat-er-heel-groot-akkoord-zou-komen-dat-heel-europa-zou-omvatten-melania-trump-laat-staakt-het-vuren-olesjky-een-voorbeeld-zijn~b38bed0a/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump zal niet rusten voor hij “mooiste triomfboog ter wereld” heeft, maar rechter steekt er voorlopig stokje voor",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-zal-niet-rusten-voor-hij-mooiste-triomfboog-ter-wereld-heeft-maar-rechter-steekt-er-voorlopig-stokje-voor/164172386.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Dodentol Russische aanval op hulppost loopt op tot 50 - Trump voorspelt “heel groot akkoord” dat “heel Europa” zal omvatten",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-dodentol-russische-aanval-op-hulppost-loopt-op-tot-50-trump-voorspelt-heel-groot-akkoord-dat-heel-europa-zal-omvatten/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump zal niet rusten voor hij “mooiste triomfboog ter wereld” heeft, maar rechter steekt er voorlopig stokje voor",
+        "url": "https://www.gva.be/buitenland/trump-zal-niet-rusten-voor-hij-mooiste-triomfboog-ter-wereld-heeft-maar-rechter-steekt-er-voorlopig-stokje-voor/164183166.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Pete Hegseth reageert met video tegen mogelijke afzetting: “Het werkte niet bij Trump en het zal bij mij ook niet werken”",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-pete-hegseth-reageert-met-video-tegen-mogelijke-afzetting-het-werkte-niet-bij-trump-en-het-zal-bij-mij-ook-niet-werken/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Trump voorspelt “heel groot akkoord” dat “heel Europa” zal omvatten",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-trump-voorspelt-heel-groot-akkoord-dat-heel-europa-zal-omvatten/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump-debacle is positief voor goud - Trends.be",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN3U2SWpTM1hDV0Y0OV9aTkk4RDVsUVNwRVBwV2xRbG9WbHFDZGhTSks4TFZMUVZPZC1NZnN4TnNJTi1tbXM2b3R2YjIwVDVHdm9oMjBLNDduSVgxSGNlMzZfbjdycDRJVzFycTh5NTJQZkVpdkJwSjJrbE94czN1NkRqNjI?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Midterms 2026 : Donald Trump s’emporte et dénonce des élections \"truquées\"",
+        "url": "https://www.rtbf.be/article/midterms-2026-donald-trump-s-emporte-et-denonce-des-elections-truquees-11811551",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Un juge américain suspend le projet de gigantesque arc de triomphe de Trump",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/06/un-juge-americain-suspend-le-projet-de-gigantesque-arc-de-triomphe-de-trump-YIV3EBF2LZFKXO367UKW4GIETI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Marco Rubio dément vouloir quitter l'administration Trump après la défaite des républicains aux midterms",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/06/marco-rubio-dement-vouloir-quitter-ladministration-trump-apres-la-defaite-des-republicains-aux-midterms-VRYI62VENJD37E7FISQE6B562U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump prend une décision pour empêcher toute destruction du Bureau ovale",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/06/donald-trump-prend-une-decision-pour-empecher-toute-destruction-du-bureau-ovale-7EECT4CGLNGXZMLEGOQ7MUT4DM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump s'emporte et dénonce le résultat des midterms : \"Nos élections sont tellement truquées, vous n'avez pas idée\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/06/trump-semporte-et-denonce-le-resultat-des-midterms-nos-elections-sont-tellement-truquees-vous-navez-pas-idee-XPC3UCTZ4FGNXLKQXEPIHU7AKE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Un nouveau revers pour Trump : la justice stoppe son projet d'Arc de triomphe géant à Washington",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/06/un-nouveau-revers-pour-trump-la-justice-stoppe-in-extremis-son-projet-darc-de-triomphe-geant-a-washington-DXYMNZL3IBHYHD4GV6OQMVFHTQ/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Rubio dément vouloir quitter le gouvernement Trump afin d’être candidat à la présidentielle",
+        "url": "https://www.7sur7.be/monde/rubio-dement-vouloir-quitter-le-gouvernement-trump-afin-detre-candidat-a-la-presidentielle~a8e629d1/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Etats-Unis : un juge fédéral bloque le projet d’arc de triomphe de Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWTA3amtLd05QXzZpM3hxWVgzNC1wVTF2VFU4Q3ZzZ3RrVXkxa2FfaTlVdi1GOHNmWElzWm10RDRtMmtrOU9uR0w1dVNVaUt6VG9WbllvRHRNWFdJZ09qcjlpTVRPZHpFeDlmVWQ2ME9Dc1RzTzN4VWQ4N1NHQ2RXZGgtVHoxTlppSDFqOVFFd2tuNTlobkRBdXVjUEpkR3FVN3J0N1RDYmNiSTl5VTBBNmh5VnloNVhh?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Un arc de triomphe en plein Washington : le projet fou et « illégal » de Donald Trump stoppé net par un juge fédéral - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcFk4Q2lZOVlEYjh4VWI4LUZDVHVDSkx4LXItaGpacXVaVVdCczhlNGpYZTB0eFhTcFFMZGZmMkg3ZDJEUTdxMS04NEcydEgzbTdPQ1A5WXNEQUZvb1hqc3BRcE5zUFdpUUNVWkNuVGJJaThLelF4MzJoWmtXNy1qZm1fdWRONFpiNzlHcThpbWxQbzBock1JTllfaDZJYkE2a0hrVXNPbHZla0d4QkJhOUdwR3dGVjZFVnlHMjJna1h3aHdoSVhKbmduMA?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Ce proche de Donald Trump envisage-t-il de quitter le navire après la défaite aux midterms ? - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNzFfWFlqeGdobDJjdTkzeEc2SHJWQlZ3OWd4VzNzcXJXUXhfVW1QbXozRFl2a3llVlhJME5pY0c4aVJQVk1ISF8xcEVEQ0lSWjNNUU5YdTc2T2ZVSjNtdU5vVGNVSnRmZnBfc0R1b3lvWFl0UVlCbnpMdkZ2and5OUVxNFNjTVJmYTNScHpGa3hjeEFadEExZVYwTXVRMWdpRnZHaFdwd3V6cXVQTy03MUEwNG5XWEFHaXROQTFuaFg5MW9aWVBkdFd6UTV4UXRUdFRhRDdRWUQ5OUM3Q2VtRA?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 21,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 20,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 31,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 2,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 24,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 11,
+      "crime": 31,
+      "eu": 31,
+      "politics": 30,
+      "be_gov": 39,
+      "culture": 7,
+      "tech": 17,
+      "economy": 24,
+      "sports": 52,
+      "health": 6,
+      "climate": 7,
+      "migration": 2,
+      "education": 4,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 15,
+      "crime": 41,
+      "eu": 47,
+      "politics": 45,
+      "be_gov": 44,
+      "culture": 10,
+      "tech": 24,
+      "economy": 27,
+      "sports": 73,
+      "health": 7,
+      "climate": 13,
+      "migration": 2,
+      "education": 4,
+      "weather": 13
+    }
   }
 ]
