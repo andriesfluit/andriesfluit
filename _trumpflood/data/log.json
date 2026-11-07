@@ -129170,5 +129170,718 @@
       "education": 4,
       "weather": 13
     }
+  },
+  {
+    "date": "2026-11-07",
+    "generated_at": "2026-11-07T11:39:19+01:00",
+    "last_checked_at": "2026-11-07T11:39:19+01:00",
+    "total_articles": 448,
+    "trump_articles": 20,
+    "percentage": 4.5,
+    "core_percentage": 4.5,
+    "core_percentage_name": 4.5,
+    "trump_articles_expanded": 20,
+    "core_percentage_expanded": 4.5,
+    "indirect_references": 0,
+    "wide_total_articles": 623,
+    "wide_trump_articles": 32,
+    "wide_percentage": 5.1,
+    "wide_trump_articles_expanded": 32,
+    "wide_percentage_expanded": 5.1,
+    "macro_percentage": 4.8,
+    "qualifying_outlets": 22,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 51,
+    "cross_outlet_dup_groups": 25,
+    "cross_outlet_dup_rate": 11.4,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 2.0,
+    "breadth": 0.58,
+    "deviation": 1.53,
+    "smoothed_pct": 5.33,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 3,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 25,
+        "kept": 25,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 8.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "google_nl_politics": {
+        "fetched": 36,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 53,
+        "today": 8,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 21,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 8,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 37.5
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 60,
+        "kept": 54,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.85
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "demorgen": {
+        "fetched": 26,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 48,
+        "kept": 48,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.17
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 15,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.67
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 15.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 41,
+        "kept": 41,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 7.32
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 47,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.13
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 64,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 59,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Strategische hypocrisie blijft Europa’s beste optie tegen Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTNfRkFiMGoxblhnMkpqLU1yV2hCOWRTekdxcmYxMlc5YVNwZ2tSeEl4ejFvNnJjODB6clVZeHJUSXN1YXAySmFvX1JDc3plcng1OUxFS1RuNWN2TjFGNlNPTXV1Y3dsUnhPemZhYnUyQTB2bERDbnIwRlowZHNXM1VCbDRleUFhYmFkeFpRT1ZqQnpJSnlBZVo1ako4aW5uRXU5YlFNcGFXUEN6bmRz?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Gaat Trump nu terugkrabbelen of net harder uithalen? Greet De Keyser blikt vooruit: “MAGA is nog niet weg”",
+        "url": "https://www.hln.be/buitenland/gaat-trump-nu-terugkrabbelen-of-net-harder-uithalen-greet-de-keyser-blikt-vooruit-maga-is-nog-niet-weg~ad9b4e04/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Gewapende man gearresteerd bij het Witte Huis: “Stemmetjes zeggen dat ik Trump moet vermoorden”",
+        "url": "https://www.hln.be/buitenland/gewapende-man-gearresteerd-bij-het-witte-huis-stemmetjes-zeggen-dat-ik-trump-moet-vermoorden~a71bdb04/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Hardliner Stephen Miller wordt Trumps nieuwe stafchef Witte Huis: dit zei hij eerder over immigratie en Groenland",
+        "url": "https://www.demorgen.be/nieuws/hardliner-stephen-miller-wordt-trumps-nieuwe-stafchef-witte-huis-dit-zei-hij-eerder-over-immigratie-en-groenland~b8c12566/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Amerikaans leger voert ‘kleinschalig’ bombardement uit op Iraans eiland Qeshm, bevestigt Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-beloven-vergoeding-van-20-miljoen-dollar-voor-tips-over-nucleair-programma-iran~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Amerikaans leger voert “kleinschalig” bombardement uit op Iraans eiland Qishm, zegt Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-amerikaans-leger-voert-kleinschalig-bombardement-uit-op-iraans-eiland-qishm-zegt-trump/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. China bevestigt gesprekken over historische ontmoeting tussen Xi, Trump en Poetin",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-china-bevestigt-gesprekken-over-historische-ontmoeting-tussen-xi-trump-en-poetin/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Gewapende Venezolaan vlak bij Witte Huis opgepakt na bewering dat “stemmen in zijn hoofd” hem opdroegen Trump te doden",
+        "url": "https://www.nieuwsblad.be/buitenland/gewapende-venezolaan-vlak-bij-witte-huis-opgepakt-na-bewering-dat-stemmen-in-zijn-hoofd-hem-opdroegen-trump-te-doden/164224427.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Amerikaans leger voert “kleinschalig” bombardement uit op Iraans eiland Qishm, zegt Trump",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-amerikaans-leger-voert-kleinschalig-bombardement-uit-op-iraans-eiland-qishm-zegt-trump/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. China bevestigt gesprekken over historische ontmoeting tussen Xi, Trump en Poetin",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-china-bevestigt-gesprekken-over-historische-ontmoeting-tussen-xi-trump-en-poetin/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Midterms: het zou dom zijn om Trump nu plots te zien als een historisch ongelukje - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRnJrYnF0cVp3a1Uzc3hYdFM4TUZMSHZORVVUWlBjRzk0MjVKVU9RdXZrME50TUtGbmhNZUFpSW8yR19FdHhwbExTOFoyd2x0X3I3Rkc0cXg1eXF1Q09ldjV1THpSdzA2bzA4MjNTRHJRVS1HTGZlZnVFSFhOZnlXbFNIYU5BS1lRV1RaQU5qVU5oRGN3N3prbUtibGJWalh5X3ltWjdlWFBlZVk?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Trump donne le ton après les midterms : il désigne un représentant de la droite dure comme chef de cabinet",
+        "url": "https://www.rtbf.be/article/trump-donne-le-ton-apres-les-midterms-il-designe-un-representant-de-la-droite-dure-comme-chef-de-cabinet-11812100",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Un homme armé qui affirmait vouloir commettre un attentat contre Trump arrêté à Washington",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/07/un-homme-arme-qui-affirmait-vouloir-commettre-un-attentat-contre-trump-arrete-a-washington-T77TQW7EQ5DK3NECJV2BNGDXYI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Nancy Lacore, ex-amirale victime des purges de l’Administration Trump à la tête du Pentagone, élue en Caroline du Sud",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/07/nancy-lacore-ex-amirale-victime-des-purges-de-ladministration-trump-a-la-tete-du-pentagone-elue-en-caroline-du-sud-MQ7SVQ3ZGFBRRIWF2HOV7PXGFQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Un trou noir\": l'analyse des votes aux midterms montre comment Trump a provoqué la bascule d'un bon nombre d'électeurs",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/07/un-trou-noir-lanalyse-des-votes-aux-midterms-montre-comment-trump-a-provoque-la-bascule-dun-bon-nombre-delecteurs-R4GBIG7EMFDDRBLQ3UJEGGCCOM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "À Washington, on craint plus que jamais un Trump obnubilé par son ego - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOX3d2M3JwTzc0VERZRGdxYzd6RmNMX1ZfaEgtRFpwQU5TX04yQ09ISWVzc3VZNEk2bW9FQnhHQVp1SGpCdm1jYURyRjdRZ0VQdmp0SVN4aGxRWU1naXNmbXNqYkYtYmI3UVk3bmpBNGM1cU9ERkFxQTd4eUVUUHBQaHNULW9vLUh2eS14dVVNSVNtRjNIcTFwZVRYb0NSQm91b3NpUklYa2k3bkd2Q0dTbjRIMlhaRFhWWl93QVdIbEVGYi1mT0NQUW1LX1JrN29GYUdrQ1lmdw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Le président du Paraguay destitué: un scandale bancaire provoque la chute de Santiago Peña, allié de Trump en Amérique latine - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOOFo3RThWOHpxVk1JdzBHdFYxR1lqUWU2bTQzem1OaE50Qi01Y2hicTd1T0ExaUNrSS1UaHZ6YnNUajZJMUs3NDhJMXpSc3h6aDJNUEtGZ3ctT084RFNUUGpWMGVMY1ZMajFIS1RWUkgyWlJjVzJsTlVRNjVocElYUTVYNDJ2RWNJeUpfS2poQy1lcVJMalFNWlhIcTB5anJ5bllOQi1ESTJ2bWdpVVlDLVctOTZyMEM5bERwQThuUzdYazBKcFlaMDVSMHdIc3h6cE1LbGZPLVl0X2IzRmVFOFBGal9vMDZ5NGVGdmNpbXg1Ulh2aW5ubnBuVmgzaklaU0NwUncwSG1DSFN5RVBSOVJPN2czdk10ajA4RlB3OWdBY2c4Y2RzYm9XcklhVlNf?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Amy Greene: \"Les Américains sont fatigués du discours brutal et agressif de Trump\" - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaEJRZWhYZDUtc1VzZW9KSm9JUWRnYzQ0WjN3bnk5YlNyRFVOMXZnMnR1WFlfNzlweFNBRVFOdzE1ODZMeWJzcHZqamZOV0pfSG42WEphQnQ0WDY4c0NBMkpzN3Rfa2hLemlrNldqRFVTSkpuQjZpaG9nNVZiYi1EenFxMVhUMDlWVTRPNVJKQmhZaWcza3BRczNsNzhqNTdHLW9qb1I4cnJqSmJkcHU1OUJ3aXRqQzVhRG0zUHZmX3R2bmhLZk9Ca3BKNA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Un homme armé qui affirmait vouloir commettre un attentat contre Trump arrêté à Washington",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/07/un-homme-arme-qui-affirmait-vouloir-commettre-un-attentat-contre-trump-arrete-a-washington-OVHDGQZFUZEWNAC657OGIP3PSY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Il affirmait vouloir commettre un attentat contre Trump: un homme armé arrêté près de la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/il-affirmait-vouloir-commettre-un-attentat-contre-trump-un-homme-arme-arrete-pres-de-la-maison-blanche~a484ca59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Witte Huis probeert in paniek de versplintering van MAGA te voorkomen, maar dreigende memo maakt weinig indruk: “De tijd van Trump is voorbij” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPb09wUUIydXRVQmhfSEhRWEVFTmNBVlh5Tk1FX1V3cklLUmpPR0hvSzRJWnVrSUpKaFlxVW1GVHN6QlNRSW9UNmdENmZ1MmFLTHRmUlpPQmFqWUdDdlFSc1gyX3FoTm1mUWF1NzFENHlObUtjTmNrNXljOVVaUDlaQlJVRWtNMFB6VjRaR1MyVzRYOU9IT3BqeHZNVkVMcTFkZmZIR3BqOGRkbElFa08wZnR3WlE1R3VHTkhvdk5KWXhlYm84RC1fWm5TbjhXcUc1RGs1TzdDU0luckZ2QU9NLUpLamVnNHVEZlpYUl9iZnMxOWZkekM5M0dsYkNaR0FBbGZncFJyRTJSa0hpaEF0b2NFX1p0OGtrVnc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Trump benoemt Stephen Miller als nieuwe stafchef, Democraten noemen hem “roekeloze extremist” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZnZ3S1dOZ2YwdVo2NEJJdUFNamJzU3c4VkVhbkdXZ1NYbm51aEpuXzlRSlAwbVZKc1RxUmFVZ3pJeVg0N0dqSTdBUkl6cGRIQkNGSXJacFBRcUR5RGhEVnFScVBuUDRUeXRuYklsZzl1dVluRTA3QjFuTDR6WUZyd2Yxdk5hX1JpMEV4aFdOVTkwMGYycGc4Z21tdk9qYVB2UWYxZ3B1RXRYSDNNQzQyOXJ5UnR5eWJNTEliTXhBT1hRaWJpb2dxcXVuWU1BRjJfUHZOVkMtOHQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "\"Un trou noir\": l'analyse des votes aux midterms montre comment Trump a provoqué la bascule d'un bon nombre d'électeurs - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOMEJvdFY1SEFoTkY3XzhhaTNNbWN1cWFZdEN6WXM5TkFqRFZ0RVhzbDNzV1JJRV81Vkt1TENSQndHWW92al9iTHh6WmlqdGJSMk9fdmZwS1o3Qk02b0Y4a2REMG1ZNm45N3BNa2J5M3hfVGs4Z3lVcjBWQkxmREZHUFp0b3hKOU83WFVxT09FNTBmTnktUEtaMVhjVVdRYThwZzd5TzZ5TWNHaUtGaS01bTc5ZG1GWERuaGdNbmZMTWxfbzVsMm9EMEhaN0JBTHctOEkyTTVYUkI2R1BzNm9abEhHQ0MzcXZxQWhaWlBick1OOEZFRkc3RjA1TkdIVXRUXzJlVFpDUF94ZWROT3JnX016VkRPNlBXSlJrLVlNcXc0OVFhUVRiWlpuLUF2UXQyaVAyc0hR?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "NVIDIA-topman en Trump-vertrouweling had nauwe relatie met Chinese spion - NU",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcEdmc2NPZUVxTUhSWWF3c0I2M0Q4Zms2WWhRX0FRYlJSWDA5by1QYTIzNl9LR1BwQ0N5NmxiMFhvRlJCcEFHZnh6a0RaWGtEcVNLMk9JUEg2WmVhNDhpSjA2bDB6MURVdm4wOWxlUlNxMFpHM2tfdzJQbFpDX0xxUHpETXh5S3JodC1wRGk1VHh3T2g4WVRUUFRGR3psUTdmSzh3ck10ZmRzbEdxMnFPR2x3?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis probeert in paniek de versplintering van MAGA te voorkomen, maar dreigende memo maakt weinig indruk: “De tijd van Trump is voorbij” - GVA",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPaXlnMVRtaEFEMjR0ekQ1LW1STlhNWGNFN2h3TkF1SlRyeGsxT3RkSGZQR0pwb0J1c0hJazFTblpPWWxhRW52NjNTVlJONEpvajN6bWc5d0hMWnY4bURlZnVPV0tBZ2JjcHoweUhYc1k1REEwTmhHOUFYTnMwc01UNlotR0tVVTg5SDdWMW5mU0JWaEZrOHZtNF9oMUN1S3ZiT0pKaVh6aWlzRHFXTWVhNjltdkZGLWlYdnFhTVlJOHliNVloRWtjLWUxUDVBRkJxemI1NHFqMjQ1ajBjMEdua2lxQ3dhLTlIX2M1elZ3cnUzcVJnUUhzZzN1VGtCSldxWmhhR3pkMnIxM29aY0hfXw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump donne le ton après les midterms : il désigne un représentant de la droite dure comme chef de cabinet - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbXZRTjFqNmIwQV9VNXByZWxBVjRPS2R0NDllQk5HQnJWc0RFdnYyZXZiaWVKXzl1MlBSTHJsRmUwYmZUb0NzcUEyZHlGOWpGT0ZkOEVoQ0NPMXdNRW4zaTdUeVJFMHZ5X3pIV0ZVazNCUFNEMGtlMDRfZzh1djNlLWdOSUhGdEpYNkxGdjFxd2UxSDFIcFNoLWwyZndqemRjMnZxanlHcjh6czZiNGRIcEIxd2UwVW05NEVTaEZVQXFWb20xTW5lcU92eGluUkxlblJTenk4eGk?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Nancy Lacore, ex-amirale victime des purges de l'Administration Trump à la tête du Pentagone, élue en Caroline du Sud - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPS3RXLXpsRmx2SmVYYmdPZUQtV3lzWVBWRk9qbEg2S2dqamxON1pocVpmd2VxWENmY0sxYW05bk1Jdi1wVFhiVV9oeTV5YThGUUpqYlRqd203UjEzZHZRSW4wZi1tV2NvNldMMF84Vmg2QmRJeWxSOFkxMmNrYnJJUUQ5VlFsX3BhVjZHa0xpQVlFbGpOS1Y0RTFpeWFWdzVsY3dvMWlEWkFVcFJCdE5vUG1UcWlIc1hscGF4UWkzTDVZU2dMWTJLSFNobGE4cDg5NnkzazNQWkRPVThycld5TkVwbk1fZVFVbWV2MTMxZEdjZEREVVJMNDk4V1ZYeWZPZ2VBZ0YwcDJFM0RJYTZNOXFjRVJkaWJYY0ZEMGZqQktmZnZTblNCb2hqNjdWb0xHZGl3alFIZw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Il entendait des voix lui demandant de tuer Donald Trump : un homme armé arrêté près de la Maison Blanche - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYjRfMThTYXNhVVFyc1RHVHM4aDZ2ZVB0Q2ExaldmVzBDeVhpQWVMQzJSckxoTE9qc0JiWXJkVGJOUnFXbUtFQnlsN0xkeGN1elJ3emZDOWJaOTVjWUFnSzhhODVPOXVoZFJsYU0wX1FvWmxCSUdObHIybGNXaEl0ZVpwNkVYWEpxR1hxaUNFMFJvem1BamZQdEViS2hDbEtueGZxZU1uMV9lblRSUmdsQzhMRERVLVRXZ2c5STBRS1MwR1lzQmFqRFNPVUU0ZWxIU250dkRiaC1ZWU40OUpzcA?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Strategische hypocrisie blijft Europa’s beste optie tegen Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTNfRkFiMGoxblhnMkpqLU1yV2hCOWRTekdxcmYxMlc5YVNwZ2tSeEl4ejFvNnJjODB6clVZeHJUSXN1YXAySmFvX1JDc3plcng1OUxFS1RuNWN2TjFGNlNPTXV1Y3dsUnhPemZhYnUyQTB2bERDbnIwRlowZHNXM1VCbDRleUFhYmFkeFpRT1ZqQnpJSnlBZVo1ako4aW5uRXU5YlFNcGFXUEN6bmRz?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Gaat Trump nu terugkrabbelen of net harder uithalen? Greet De Keyser blikt vooruit: “MAGA is nog niet weg”",
+        "url": "https://www.hln.be/buitenland/gaat-trump-nu-terugkrabbelen-of-net-harder-uithalen-greet-de-keyser-blikt-vooruit-maga-is-nog-niet-weg~ad9b4e04/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Gewapende man gearresteerd bij het Witte Huis: “Stemmetjes zeggen dat ik Trump moet vermoorden”",
+        "url": "https://www.hln.be/buitenland/gewapende-man-gearresteerd-bij-het-witte-huis-stemmetjes-zeggen-dat-ik-trump-moet-vermoorden~a71bdb04/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Hardliner Stephen Miller wordt Trumps nieuwe stafchef Witte Huis: dit zei hij eerder over immigratie en Groenland",
+        "url": "https://www.demorgen.be/nieuws/hardliner-stephen-miller-wordt-trumps-nieuwe-stafchef-witte-huis-dit-zei-hij-eerder-over-immigratie-en-groenland~b8c12566/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Amerikaans leger voert ‘kleinschalig’ bombardement uit op Iraans eiland Qeshm, bevestigt Trump",
+        "url": "https://www.demorgen.be/snelnieuws/live-vs-beloven-vergoeding-van-20-miljoen-dollar-voor-tips-over-nucleair-programma-iran~be9c4f82/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Amerikaans leger voert “kleinschalig” bombardement uit op Iraans eiland Qishm, zegt Trump",
+        "url": "https://www.nieuwsblad.be/buitenland/live-midden-oosten.-amerikaans-leger-voert-kleinschalig-bombardement-uit-op-iraans-eiland-qishm-zegt-trump/27532402.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. China bevestigt gesprekken over historische ontmoeting tussen Xi, Trump en Poetin",
+        "url": "https://www.nieuwsblad.be/buitenland/live-oorlog-in-oekraine.-china-bevestigt-gesprekken-over-historische-ontmoeting-tussen-xi-trump-en-poetin/27532830.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Gewapende Venezolaan vlak bij Witte Huis opgepakt na bewering dat “stemmen in zijn hoofd” hem opdroegen Trump te doden",
+        "url": "https://www.nieuwsblad.be/buitenland/gewapende-venezolaan-vlak-bij-witte-huis-opgepakt-na-bewering-dat-stemmen-in-zijn-hoofd-hem-opdroegen-trump-te-doden/164224427.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Amerikaans leger voert “kleinschalig” bombardement uit op Iraans eiland Qishm, zegt Trump",
+        "url": "https://www.gva.be/buitenland/live-midden-oosten.-amerikaans-leger-voert-kleinschalig-bombardement-uit-op-iraans-eiland-qishm-zegt-trump/76854338.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. China bevestigt gesprekken over historische ontmoeting tussen Xi, Trump en Poetin",
+        "url": "https://www.gva.be/buitenland/live-oorlog-in-oekraine.-china-bevestigt-gesprekken-over-historische-ontmoeting-tussen-xi-trump-en-poetin/76695337.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Gewapende Venezolaan vlak bij Witte Huis opgepakt na bewering dat “stemmen in zijn hoofd” hem opdroegen Trump te doden",
+        "url": "https://www.gva.be/buitenland/gewapende-venezolaan-vlak-bij-witte-huis-opgepakt-na-bewering-dat-stemmen-in-zijn-hoofd-hem-opdroegen-trump-te-doden/164224436.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Witte Huis probeert in paniek de versplintering van MAGA te voorkomen, maar dreigende memo maakt weinig indruk: “De tijd van Trump is voorbij”",
+        "url": "https://www.gva.be/binnenland/witte-huis-probeert-in-paniek-de-versplintering-van-maga-te-voorkomen-maar-dreigende-memo-maakt-weinig-indruk-de-tijd-van-trump-is-voorbij/164222478.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Amerikaans leger voert “kleinschalig” bombardement uit op Iraans eiland Qishm, zegt Trump",
+        "url": "https://www.hbvl.be/buitenland/live-midden-oosten.-amerikaans-leger-voert-kleinschalig-bombardement-uit-op-iraans-eiland-qishm-zegt-trump/159603018.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. China bevestigt gesprekken over historische ontmoeting tussen Xi, Trump en Poetin",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-china-bevestigt-gesprekken-over-historische-ontmoeting-tussen-xi-trump-en-poetin/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Midterms: het zou dom zijn om Trump nu plots te zien als een historisch ongelukje - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRnJrYnF0cVp3a1Uzc3hYdFM4TUZMSHZORVVUWlBjRzk0MjVKVU9RdXZrME50TUtGbmhNZUFpSW8yR19FdHhwbExTOFoyd2x0X3I3Rkc0cXg1eXF1Q09ldjV1THpSdzA2bzA4MjNTRHJRVS1HTGZlZnVFSFhOZnlXbFNIYU5BS1lRV1RaQU5qVU5oRGN3N3prbUtibGJWalh5X3ltWjdlWFBlZVk?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Trump donne le ton après les midterms : il désigne un représentant de la droite dure comme chef de cabinet",
+        "url": "https://www.rtbf.be/article/trump-donne-le-ton-apres-les-midterms-il-designe-un-representant-de-la-droite-dure-comme-chef-de-cabinet-11812100",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Un homme armé qui affirmait vouloir commettre un attentat contre Trump arrêté à Washington",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/07/un-homme-arme-qui-affirmait-vouloir-commettre-un-attentat-contre-trump-arrete-a-washington-T77TQW7EQ5DK3NECJV2BNGDXYI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Nancy Lacore, ex-amirale victime des purges de l’Administration Trump à la tête du Pentagone, élue en Caroline du Sud",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/07/nancy-lacore-ex-amirale-victime-des-purges-de-ladministration-trump-a-la-tete-du-pentagone-elue-en-caroline-du-sud-MQ7SVQ3ZGFBRRIWF2HOV7PXGFQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"Un trou noir\": l'analyse des votes aux midterms montre comment Trump a provoqué la bascule d'un bon nombre d'électeurs",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/07/un-trou-noir-lanalyse-des-votes-aux-midterms-montre-comment-trump-a-provoque-la-bascule-dun-bon-nombre-delecteurs-R4GBIG7EMFDDRBLQ3UJEGGCCOM/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "À Washington, on craint plus que jamais un Trump obnubilé par son ego - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOX3d2M3JwTzc0VERZRGdxYzd6RmNMX1ZfaEgtRFpwQU5TX04yQ09ISWVzc3VZNEk2bW9FQnhHQVp1SGpCdm1jYURyRjdRZ0VQdmp0SVN4aGxRWU1naXNmbXNqYkYtYmI3UVk3bmpBNGM1cU9ERkFxQTd4eUVUUHBQaHNULW9vLUh2eS14dVVNSVNtRjNIcTFwZVRYb0NSQm91b3NpUklYa2k3bkd2Q0dTbjRIMlhaRFhWWl93QVdIbEVGYi1mT0NQUW1LX1JrN29GYUdrQ1lmdw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Le président du Paraguay destitué: un scandale bancaire provoque la chute de Santiago Peña, allié de Trump en Amérique latine - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOOFo3RThWOHpxVk1JdzBHdFYxR1lqUWU2bTQzem1OaE50Qi01Y2hicTd1T0ExaUNrSS1UaHZ6YnNUajZJMUs3NDhJMXpSc3h6aDJNUEtGZ3ctT084RFNUUGpWMGVMY1ZMajFIS1RWUkgyWlJjVzJsTlVRNjVocElYUTVYNDJ2RWNJeUpfS2poQy1lcVJMalFNWlhIcTB5anJ5bllOQi1ESTJ2bWdpVVlDLVctOTZyMEM5bERwQThuUzdYazBKcFlaMDVSMHdIc3h6cE1LbGZPLVl0X2IzRmVFOFBGal9vMDZ5NGVGdmNpbXg1Ulh2aW5ubnBuVmgzaklaU0NwUncwSG1DSFN5RVBSOVJPN2czdk10ajA4RlB3OWdBY2c4Y2RzYm9XcklhVlNf?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Amy Greene: \"Les Américains sont fatigués du discours brutal et agressif de Trump\" - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaEJRZWhYZDUtc1VzZW9KSm9JUWRnYzQ0WjN3bnk5YlNyRFVOMXZnMnR1WFlfNzlweFNBRVFOdzE1ODZMeWJzcHZqamZOV0pfSG42WEphQnQ0WDY4c0NBMkpzN3Rfa2hLemlrNldqRFVTSkpuQjZpaG9nNVZiYi1EenFxMVhUMDlWVTRPNVJKQmhZaWcza3BRczNsNzhqNTdHLW9qb1I4cnJqSmJkcHU1OUJ3aXRqQzVhRG0zUHZmX3R2bmhLZk9Ca3BKNA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Un homme armé qui affirmait vouloir commettre un attentat contre Trump arrêté à Washington",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/07/un-homme-arme-qui-affirmait-vouloir-commettre-un-attentat-contre-trump-arrete-a-washington-OVHDGQZFUZEWNAC657OGIP3PSY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Il affirmait vouloir commettre un attentat contre Trump: un homme armé arrêté près de la Maison-Blanche",
+        "url": "https://www.7sur7.be/monde/il-affirmait-vouloir-commettre-un-attentat-contre-trump-un-homme-arme-arrete-pres-de-la-maison-blanche~a484ca59/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 20,
+      "putin": 4,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 2,
+      "prevot": 0,
+      "rousseau": 1,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 32,
+      "putin": 6,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 5,
+      "bouchez": 0,
+      "magnette": 3,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 23,
+      "crime": 20,
+      "eu": 16,
+      "politics": 16,
+      "be_gov": 12,
+      "culture": 12,
+      "tech": 8,
+      "economy": 24,
+      "sports": 12,
+      "health": 7,
+      "climate": 3,
+      "migration": 1,
+      "education": 3,
+      "weather": 3
+    },
+    "wide_themes": {
+      "war": 28,
+      "crime": 26,
+      "eu": 23,
+      "politics": 26,
+      "be_gov": 18,
+      "culture": 16,
+      "tech": 16,
+      "economy": 31,
+      "sports": 19,
+      "health": 10,
+      "climate": 5,
+      "migration": 2,
+      "education": 3,
+      "weather": 5
+    }
   }
 ]
