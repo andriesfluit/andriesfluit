@@ -129883,5 +129883,538 @@
       "education": 3,
       "weather": 5
     }
+  },
+  {
+    "date": "2026-11-08",
+    "generated_at": "2026-11-08T11:44:28+01:00",
+    "last_checked_at": "2026-11-08T11:44:28+01:00",
+    "total_articles": 377,
+    "trump_articles": 9,
+    "percentage": 2.4,
+    "core_percentage": 2.4,
+    "core_percentage_name": 2.4,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 2.4,
+    "indirect_references": 0,
+    "wide_total_articles": 523,
+    "wide_trump_articles": 13,
+    "wide_percentage": 2.5,
+    "wide_trump_articles_expanded": 13,
+    "wide_percentage_expanded": 2.5,
+    "macro_percentage": 1.9,
+    "qualifying_outlets": 21,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 48,
+    "cross_outlet_dup_groups": 24,
+    "cross_outlet_dup_rate": 12.7,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 4.5,
+    "breadth": 0.29,
+    "deviation": 0.77,
+    "smoothed_pct": 4.96,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 5,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "google_nl_politics": {
+        "fetched": 35,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 56,
+        "today": 4,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 22,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 63,
+        "today": 12,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 20,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 26,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 41,
+        "kept": 41,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.44
+      },
+      "knack": {
+        "fetched": 85,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 32,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 12.5
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 52,
+        "kept": 52,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 96,
+        "today": 2,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 37,
+        "kept": 28,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 54,
+        "today": 6,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 61,
+        "today": 11,
+        "kept": 7,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 28.57
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Wie is Dana White die door Trump werd gevraagd als nieuwe woordvoerder?",
+        "url": "https://www.hbvl.be/buitenland/wie-is-dana-white-die-door-trump-werd-gevraagd-als-nieuwe-woordvoerder/164246078.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Eén jaar na zijn aanstelling maakt Amerikaans ambassadeur Bill White de balans op: 'Jullie zijn te gevoelig voor de woorden van Trump' - Knack",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeGMzbk9HMEVucmVDcndfbmczXzlXY0E0Z2NaV2VacE5COFJUWE5SeFE0Q20td1FqVktGUWtsNEk3WkJLZU5Wczl1S0RiaGV5VHlLcURVR3h5dWV1VWo0M3FCY3VReER3TGcycFlraF9IN3pHQm55Zm5leFFvaGQ0aU1XN2h0V2VNSG50RGpPbmlGX2VieG5GenUtSTY0bHZOLU5BYkFVX2NiMlBNajJLUG4zbzBHZW5XY2lZbDlQY202dUluVXE1UVJKSV81MUkzY2gwMXBwLUV6SGpMaWhCUFJmazJFWmk2aFdZc01tc1dZaDd2bk5VajVnT2x1TWk1YTZjdk5jVQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Fin de la subvention militaire américaine : “Trump avait besoin d’un cadeau électoral. Netanyahou s’est fait un plaisir de le lui offrir\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/11/08/fin-de-la-subvention-militaire-americaine-trump-avait-besoin-dun-cadeau-electoral-netanyahou-sest-fait-un-plaisir-de-le-lui-offrir-WNCOA7LZKRALRCRIKRUSMSKTOU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump veut un boss de MMA comme porte-parole de la Maison Blanche - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSWFuX2RZM1RhYnNCQUFEbTlSbFBUbGFMWjZvcWdobG0yOXRlVFZqeVU3cUhGTkFQOE12TGgwR29qcko2Vkp4cnFQbUt6MFZpd2lqQ0NNcTB0UnMtNjh5QVJLSzI0blVUSV9lcW5oemtZckVkcHk2UE9Dbkl3Q3NkMG5wOWxjVjF2NTRJYnVlZFhIVENNdnVoWE5tc1hHZ2pEZkdObEJkTjVTWC1FVENTTW1wWVlVMVdxSldRTGFwVm8?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "À Washington, on craint plus que jamais un Trump obnubilé par son ego - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOX3d2M3JwTzc0VERZRGdxYzd6RmNMX1ZfaEgtRFpwQU5TX04yQ09ISWVzc3VZNEk2bW9FQnhHQVp1SGpCdm1jYURyRjdRZ0VQdmp0SVN4aGxRWU1naXNmbXNqYkYtYmI3UVk3bmpBNGM1cU9ERkFxQTd4eUVUUHBQaHNULW9vLUh2eS14dVVNSVNtRjNIcTFwZVRYb0NSQm91b3NpUklYa2k3bkd2Q0dTbjRIMlhaRFhWWl93QVdIbEVGYi1mT0NQUW1LX1JrN29GYUdrQ1lmdw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Le président du Paraguay destitué: un scandale bancaire provoque la chute de Santiago Peña, allié de Trump en Amérique latine - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOOFo3RThWOHpxVk1JdzBHdFYxR1lqUWU2bTQzem1OaE50Qi01Y2hicTd1T0ExaUNrSS1UaHZ6YnNUajZJMUs3NDhJMXpSc3h6aDJNUEtGZ3ctT084RFNUUGpWMGVMY1ZMajFIS1RWUkgyWlJjVzJsTlVRNjVocElYUTVYNDJ2RWNJeUpfS2poQy1lcVJMalFNWlhIcTB5anJ5bllOQi1ESTJ2bWdpVVlDLVctOTZyMEM5bERwQThuUzdYazBKcFlaMDVSMHdIc3h6cE1LbGZPLVl0X2IzRmVFOFBGal9vMDZ5NGVGdmNpbXg1Ulh2aW5ubnBuVmgzaklaU0NwUncwSG1DSFN5RVBSOVJPN2czdk10ajA4RlB3OWdBY2c4Y2RzYm9XcklhVlNf?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Amy Greene: \"Les Américains sont fatigués du discours brutal et agressif de Trump\" - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaEJRZWhYZDUtc1VzZW9KSm9JUWRnYzQ0WjN3bnk5YlNyRFVOMXZnMnR1WFlfNzlweFNBRVFOdzE1ODZMeWJzcHZqamZOV0pfSG42WEphQnQ0WDY4c0NBMkpzN3Rfa2hLemlrNldqRFVTSkpuQjZpaG9nNVZiYi1EenFxMVhUMDlWVTRPNVJKQmhZaWcza3BRczNsNzhqNTdHLW9qb1I4cnJqSmJkcHU1OUJ3aXRqQzVhRG0zUHZmX3R2bmhLZk9Ca3BKNA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L’humiliation de Trump offre aux États-Unis une chance de changer de cap - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYXVTV1BROE5JbjJUZFdaQ0VpTjJhSktDZVpmaDBId2xKSk5sbGxiN21kaUxaTkFfZ3FFUGlqZW9zcXVMbFN5eWl6dFQwcW4tdUpHSEZwMUtELW1QazRoUk1BeXlybFFQLXRUemxEclZxb2hiMnNGYTAxUTI5QnF5UEFMdDlVaks4ZFV1UU1qamdpNG4wQjBUWVlRcVEzckpmN1ZLR3FVUjI5R0Q0NHh3SUpRcG40SGU3czhN?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      },
+      {
+        "title": "Amid Faljaoui publie \"De Knokke à Trump\", qui raconte une mondialisation en crise : \"Si vous n’êtes pas autour de la table, vous faites partie du menu\" - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPVkVqR2FvclQyal9KRUdKRGhHT2FJRks1dFo2OEFycFhHSHlQQ1Y1Vmg0SjhkR09HdGVQNHVtYmEyQ09Lc0N4Um5nQ0ZRQ0ZnUFpPaEkwSGhWNWdjbnczYTBZTkU4eDAtUnItR0xQTENoZTg3NVhRMTg2VkxtdXVWcEtsUWVucFZlN21MMXBCeUxOY3Z4S1U1bmktVm5oTFlPTmlscjBGTDd5b19PUWpqT2dvdnJDTG05RUlySVJHUmtmU2w0U0ZmVkZiemJTaldDTjQtZlktMFlyVHBVZURoNXVJcXRNeTR5bFY0SXVvYi1uT0JLb0gyTml4NlFWb2dfaDBRUmRQU0kyVnZ5U1dIb1ZYMkQ1RVhiRmc?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Wie is Dana White die door Trump werd gevraagd als nieuwe woordvoerder? - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSFN2cldLZHBWekZyczJfQXUxamtSLXRGQm9IRFZZZ0tPQ3VMaTFELUxRRkVQanhaYzExTVpmbkZwZ2lmRG1aeE5YM3dsZHJIakVKT0VKM2tMWjFkbjA0T193RmwxRURNS3V6RHZLSG5Zb1ZYalZ0UHBnMW0tUm1KX1lBbGtfMXNPUzdfTW1iaXBUZkNHd2N2cW5WWnZFUTR0TGVRUWIwcms3cVFHS2xvNlNmVHFIRHFnSG00Qmp1RQ?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Donald Trump et Vladimir Poutine veulent redessiner la sécurité de l'Europe... mais sans les Européens - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQjJMclhPb3F5MnlkVGs0NElNZ0FBUW5tNk9HSTBTdXpvUlluRmliTXdoc3otOUpzQWp3dnN1RG1KckZ2dWxzcUFRYkstbVBORGp0MjR5N1RZOGRLSjhuWldGREI1RHVtemdpTUtrRjAwQzJDZFYyNWFNbEF4Tlhsd29fVWRwNjNmeWwxWjhyRUxOcjU4Ym10dUFhU1ZlUEx6anFOMVJoTU5lNjAxay1GVWtzRkppWm50a0hLcDVTSjRMX2lsNElUc29CLUpQRmJJb25iN09hQWl0QnRmczJJSE5seUoxbWx3WFE?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump veut nommer un de ses amis à un poste stratégique : « Pour nous défendre contre la gauche cinglée » - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVUtRR1g1VktHWHdZaGlkemNndUNNVWx6Z09zN2NnNmdrdWp2dzZXVjBxcGJjVXN0cVNRa21aNXBqbWtzS1FmQ3U3emRWRmpSM215ZFg2N1FPVU50aU9FdXpvQS1tVVZXNC1mc0hhSXlDVGo4UE5JV3NBaDFRV09TV3RXV0lXbGJFWVcxUEJETlJvbVFzSXFGUU1xY0tselM4VHhOcmxsNFItbThRd3Yxa1VmSndYU0tPRlU5MjljaTJNZGhfVlFyeURPaWt5NDVUNHM1SFYtZVRRMXQ0ZnBrSklucw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Wie is Dana White die door Trump werd gevraagd als nieuwe woordvoerder?",
+        "url": "https://www.gva.be/buitenland/wie-is-dana-white-die-door-trump-werd-gevraagd-als-nieuwe-woordvoerder/164245247.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Wie is Dana White die door Trump werd gevraagd als nieuwe woordvoerder?",
+        "url": "https://www.hbvl.be/buitenland/wie-is-dana-white-die-door-trump-werd-gevraagd-als-nieuwe-woordvoerder/164246078.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Eén jaar na zijn aanstelling maakt Amerikaans ambassadeur Bill White de balans op: 'Jullie zijn te gevoelig voor de woorden van Trump' - Knack",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeGMzbk9HMEVucmVDcndfbmczXzlXY0E0Z2NaV2VacE5COFJUWE5SeFE0Q20td1FqVktGUWtsNEk3WkJLZU5Wczl1S0RiaGV5VHlLcURVR3h5dWV1VWo0M3FCY3VReER3TGcycFlraF9IN3pHQm55Zm5leFFvaGQ0aU1XN2h0V2VNSG50RGpPbmlGX2VieG5GenUtSTY0bHZOLU5BYkFVX2NiMlBNajJLUG4zbzBHZW5XY2lZbDlQY202dUluVXE1UVJKSV81MUkzY2gwMXBwLUV6SGpMaWhCUFJmazJFWmk2aFdZc01tc1dZaDd2bk5VajVnT2x1TWk1YTZjdk5jVQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Fin de la subvention militaire américaine : “Trump avait besoin d’un cadeau électoral. Netanyahou s’est fait un plaisir de le lui offrir\"",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/11/08/fin-de-la-subvention-militaire-americaine-trump-avait-besoin-dun-cadeau-electoral-netanyahou-sest-fait-un-plaisir-de-le-lui-offrir-WNCOA7LZKRALRCRIKRUSMSKTOU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump veut un boss de MMA comme porte-parole de la Maison Blanche - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSWFuX2RZM1RhYnNCQUFEbTlSbFBUbGFMWjZvcWdobG0yOXRlVFZqeVU3cUhGTkFQOE12TGgwR29qcko2Vkp4cnFQbUt6MFZpd2lqQ0NNcTB0UnMtNjh5QVJLSzI0blVUSV9lcW5oemtZckVkcHk2UE9Dbkl3Q3NkMG5wOWxjVjF2NTRJYnVlZFhIVENNdnVoWE5tc1hHZ2pEZkdObEJkTjVTWC1FVENTTW1wWVlVMVdxSldRTGFwVm8?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "À Washington, on craint plus que jamais un Trump obnubilé par son ego - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOX3d2M3JwTzc0VERZRGdxYzd6RmNMX1ZfaEgtRFpwQU5TX04yQ09ISWVzc3VZNEk2bW9FQnhHQVp1SGpCdm1jYURyRjdRZ0VQdmp0SVN4aGxRWU1naXNmbXNqYkYtYmI3UVk3bmpBNGM1cU9ERkFxQTd4eUVUUHBQaHNULW9vLUh2eS14dVVNSVNtRjNIcTFwZVRYb0NSQm91b3NpUklYa2k3bkd2Q0dTbjRIMlhaRFhWWl93QVdIbEVGYi1mT0NQUW1LX1JrN29GYUdrQ1lmdw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Le président du Paraguay destitué: un scandale bancaire provoque la chute de Santiago Peña, allié de Trump en Amérique latine - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOOFo3RThWOHpxVk1JdzBHdFYxR1lqUWU2bTQzem1OaE50Qi01Y2hicTd1T0ExaUNrSS1UaHZ6YnNUajZJMUs3NDhJMXpSc3h6aDJNUEtGZ3ctT084RFNUUGpWMGVMY1ZMajFIS1RWUkgyWlJjVzJsTlVRNjVocElYUTVYNDJ2RWNJeUpfS2poQy1lcVJMalFNWlhIcTB5anJ5bllOQi1ESTJ2bWdpVVlDLVctOTZyMEM5bERwQThuUzdYazBKcFlaMDVSMHdIc3h6cE1LbGZPLVl0X2IzRmVFOFBGal9vMDZ5NGVGdmNpbXg1Ulh2aW5ubnBuVmgzaklaU0NwUncwSG1DSFN5RVBSOVJPN2czdk10ajA4RlB3OWdBY2c4Y2RzYm9XcklhVlNf?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Amy Greene: \"Les Américains sont fatigués du discours brutal et agressif de Trump\" - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaEJRZWhYZDUtc1VzZW9KSm9JUWRnYzQ0WjN3bnk5YlNyRFVOMXZnMnR1WFlfNzlweFNBRVFOdzE1ODZMeWJzcHZqamZOV0pfSG42WEphQnQ0WDY4c0NBMkpzN3Rfa2hLemlrNldqRFVTSkpuQjZpaG9nNVZiYi1EenFxMVhUMDlWVTRPNVJKQmhZaWcza3BRczNsNzhqNTdHLW9qb1I4cnJqSmJkcHU1OUJ3aXRqQzVhRG0zUHZmX3R2bmhLZk9Ca3BKNA?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "L’humiliation de Trump offre aux États-Unis une chance de changer de cap - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYXVTV1BROE5JbjJUZFdaQ0VpTjJhSktDZVpmaDBId2xKSk5sbGxiN21kaUxaTkFfZ3FFUGlqZW9zcXVMbFN5eWl6dFQwcW4tdUpHSEZwMUtELW1QazRoUk1BeXlybFFQLXRUemxEclZxb2hiMnNGYTAxUTI5QnF5UEFMdDlVaks4ZFV1UU1qamdpNG4wQjBUWVlRcVEzckpmN1ZLR3FVUjI5R0Q0NHh3SUpRcG40SGU3czhN?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      },
+      {
+        "title": "Amid Faljaoui publie \"De Knokke à Trump\", qui raconte une mondialisation en crise : \"Si vous n’êtes pas autour de la table, vous faites partie du menu\" - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPVkVqR2FvclQyal9KRUdKRGhHT2FJRks1dFo2OEFycFhHSHlQQ1Y1Vmg0SjhkR09HdGVQNHVtYmEyQ09Lc0N4Um5nQ0ZRQ0ZnUFpPaEkwSGhWNWdjbnczYTBZTkU4eDAtUnItR0xQTENoZTg3NVhRMTg2VkxtdXVWcEtsUWVucFZlN21MMXBCeUxOY3Z4S1U1bmktVm5oTFlPTmlscjBGTDd5b19PUWpqT2dvdnJDTG05RUlySVJHUmtmU2w0U0ZmVkZiemJTaldDTjQtZlktMFlyVHBVZURoNXVJcXRNeTR5bFY0SXVvYi1uT0JLb0gyTml4NlFWb2dfaDBRUmRQU0kyVnZ5U1dIb1ZYMkQ1RVhiRmc?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 9,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 1,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 13,
+      "putin": 1,
+      "macron": 2,
+      "netanyahu": 2,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 11,
+      "crime": 16,
+      "eu": 14,
+      "politics": 9,
+      "be_gov": 2,
+      "culture": 6,
+      "tech": 5,
+      "economy": 6,
+      "sports": 45,
+      "health": 2,
+      "climate": 1,
+      "migration": 1,
+      "education": 2,
+      "weather": 5
+    },
+    "wide_themes": {
+      "war": 16,
+      "crime": 20,
+      "eu": 21,
+      "politics": 12,
+      "be_gov": 2,
+      "culture": 8,
+      "tech": 10,
+      "economy": 7,
+      "sports": 67,
+      "health": 2,
+      "climate": 3,
+      "migration": 1,
+      "education": 4,
+      "weather": 10
+    }
   }
 ]
