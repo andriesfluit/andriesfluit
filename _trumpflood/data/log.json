@@ -130698,5 +130698,748 @@
       "education": 11,
       "weather": 15
     }
+  },
+  {
+    "date": "2026-11-09",
+    "generated_at": "2026-11-09T13:03:38+01:00",
+    "last_checked_at": "2026-11-09T13:03:38+01:00",
+    "total_articles": 667,
+    "trump_articles": 20,
+    "percentage": 3.0,
+    "core_percentage": 3.0,
+    "core_percentage_name": 3.0,
+    "trump_articles_expanded": 23,
+    "core_percentage_expanded": 3.4,
+    "indirect_references": 3,
+    "wide_total_articles": 885,
+    "wide_trump_articles": 30,
+    "wide_percentage": 3.4,
+    "wide_trump_articles_expanded": 34,
+    "wide_percentage_expanded": 3.8,
+    "macro_percentage": 4.1,
+    "qualifying_outlets": 26,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 39,
+    "cross_outlet_dup_groups": 19,
+    "cross_outlet_dup_rate": 5.8,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.33,
+    "breadth": 0.61,
+    "deviation": 0.83,
+    "smoothed_pct": 5.19,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.85
+      },
+      "google_nl_politics": {
+        "fetched": 41,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 25,
+        "kept": 20,
+        "trump": 5,
+        "trump_expanded": 5,
+        "share": 25.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 9,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 24,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 26,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 65,
+        "today": 15,
+        "kept": 10,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 20.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 13,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 41,
+        "kept": 41,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.88
+      },
+      "standaard": {
+        "fetched": 77,
+        "today": 51,
+        "kept": 43,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.33
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 21,
+        "kept": 21,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 14.29
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 68,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 50,
+        "trump": 4,
+        "trump_expanded": 5,
+        "share": 8.0
+      },
+      "lecho": {
+        "fetched": 98,
+        "today": 52,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 78,
+        "kept": 78,
+        "trump": 2,
+        "trump_expanded": 3,
+        "share": 2.56
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 69,
+        "today": 21,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 67,
+        "kept": 61,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.64
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 29,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 10.34
+      },
+      "trends_g": {
+        "fetched": 31,
+        "today": 15,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 64,
+        "today": 25,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "UFC-topman Dana White woordvoerder van het Witte Huis? \"Een grapje\", zegt Donald Trump",
+        "url": "https://vrtnws.be/p.w70vy41yG",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump: \"Immigratiebeleid van Amerikaanse regering was misschien te hard\"",
+        "url": "https://vrtnws.be/p.vLlNRvpkl",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trumps vertrouwelingen gaan elkaar te lijf: “We hebben te veel weirdo’s binnengelaten in onze partij” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa3U0SmlCRjF1NkJsMFFtWHpvcTNQR2g2SjROTEN6S0VCYUItenQ2SDlsa2pyY3VEYTBqak9jZXktbGllSUZ5RHZyRS1nR1VqM3lrbUc4MUVKZC1Gc3FtQm85Zy0wZU9raHNsOXF4TlVfd25jNDRpZldZZU1XNG5Wd1hwdTV5SE04RmxxV1Bwd25oY1RvczdKUVNZNm1kVjd1X0dkbzdkcFlJZktWeUpKUjJFeHFDSTF0QkpBYy0zamJmOW9yT1pQazhBVXFqZkJXaHVlS3pHSUJxVHRPNnBpc2xR?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Migratiebeleid was “te hard” en kiezers “hebben hekel” aan oorlog in Iran: Trump opvallend toegeeflijk in exclusief interview bij ‘60 Minutes’",
+        "url": "https://www.hln.be/buitenland/migratiebeleid-was-te-hard-en-kiezers-hebben-hekel-aan-oorlog-in-iran-trump-opvallend-toegeeflijk-in-exclusief-interview-bij-60-minutes~a0660c62/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Vechtersbaas Dana White als nieuwe persvoorlichter van Trump was ‘maar een grapje’. Of had hij de verkeerde voor zich?",
+        "url": "https://www.demorgen.be/nieuws/vechtersbaas-dana-white-als-nieuwe-persvoorlichter-van-trump-was-maar-een-grapje-of-had-hij-de-verkeerde-voor-zich~b9d1ed53/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump geeft toe dat zijn migratiebeleid ‘te hard’ was • Aanstelling CEO vechtsportorganisatie als woordvoerder ‘was maar een grapje’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-geeft-toe-dat-zijn-migratiebeleid-te-hard-was-aanstelling-ceo-vechtsportorganisatie-als-woordvoerder-was-maar-een-grapje~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Nvidia-CEO Jensen Huang geeft affaire met mogelijk Chinese spion toe in mail naar werknemers: bedrijf start onderzoek, Trump steunt hem",
+        "url": "https://www.demorgen.be/nieuws/nvidia-ceo-jensen-huang-geeft-affaire-met-mogelijk-chinese-spion-toe-in-mail-naar-werknemers-bedrijf-start-onderzoek-trump-steunt-hem~bd14166c/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump blijft achter Nvidia-CEO staan na affaire met vermeende spionne, aandeel daalt met 6 procent",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-blijft-achter-nvidia-ceo-staan-na-affaire-met-vermeende-spionne-aandeel-daalt-met-6-procent/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Je vais aller en Chine\" : Trump évoque une probable réunion avec Xi et Poutine en Chine",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/09/je-vais-aller-en-chine-trump-evoque-une-probable-reunion-avec-xi-et-poutine-en-chine-VFCUAMJELJGALBFLHAMC66AGJ4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Qui succédera à Trump ? Le président donne son avis dans une interview exclusive",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/09/qui-succedera-a-trump-le-president-donne-son-avis-dans-une-interview-exclusive-BP7GCSEW4VFX3MTMMZPTGQMUKU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le patron du MMA porte-parole de la Maison Blanche ? \"Je ne faisais que plaisanter\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/09/le-patron-du-mma-porte-parole-de-la-maison-blanche-je-ne-faisais-que-plaisanter-TIH2FYGQRBAM7MIPG6WEW4ZBAY/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Trump reconnaît une politique d'expulsions d'immigrés \"trop dure\" après la défaite des républicains",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/09/trump-reconnait-une-politique-dexpulsions-dimmigres-trop-dure-apres-la-defaite-des-republicains-REI4E55RR5E7XNJCMDAJP3T5PQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump juge \"très improbable\" une reprise de la guerre en Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/11/09/trump-juge-tres-improbable-une-reprise-de-la-guerre-en-iran-DLPNEWWJY5HRHORXBB6TKA6UOQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump veut un boss de MMA comme porte-parole de la Maison Blanche - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSWFuX2RZM1RhYnNCQUFEbTlSbFBUbGFMWjZvcWdobG0yOXRlVFZqeVU3cUhGTkFQOE12TGgwR29qcko2Vkp4cnFQbUt6MFZpd2lqQ0NNcTB0UnMtNjh5QVJLSzI0blVUSV9lcW5oemtZckVkcHk2UE9Dbkl3Q3NkMG5wOWxjVjF2NTRJYnVlZFhIVENNdnVoWE5tc1hHZ2pEZkdObEJkTjVTWC1FVENTTW1wWVlVMVdxSldRTGFwVm8?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Il y a des jours meilleurs que d’autres\": l'état de santé d'un ancien président américain inquiète",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/09/il-y-a-des-jours-meilleurs-que-dautres-letat-de-sante-dun-ancien-president-americain-inquiete-ZMVYLGCFTNDL5NLYHIVA76EXHE/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
+        "title": "\"Il est formidable\": voici quel candidat Donald Trump soutiendrait s'il se présentait à l'élection présidentielle",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/09/il-est-formidable-voici-quel-candidat-donald-trump-soutiendrait-sil-se-presentait-a-lelection-presidentielle-CCWCFQKSNZFD3A357OV53F6DVI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"Je ne faisais que plaisanter\": quand Donald Trump blague sur la nomination de son futur porte-parole",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/09/je-ne-faisais-que-plaisanter-quand-donald-trump-blague-sur-la-nomination-de-son-futur-porte-parole-WONYY6W5QRALXLOTRZY2BKXQRU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Bien sûr qu’il doit rester en poste”: Trump soutient le PDG de Nvidia après sa liaison avec une espionne présumée",
+        "url": "https://www.7sur7.be/monde/bien-sur-quil-doit-rester-en-poste-trump-soutient-le-pdg-de-nvidia-apres-sa-liaison-avec-une-espionne-presumee~afeba4ee/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump assure que la proposition de nommer le patron du MMA comme porte-parole de la Maison-Blanche était une blague - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbi1IMDBMMWt4ekpITXVGNkJkT1MyZ0VOOXI5YXdRX29BNWxtcElVR0ZTVlJ2MUF4bHlDZ25ac2REVUJ0T3phSWJ1M3JRVHFxYjU4d1B1T3V1ekg4VDRSSEZKRE5tY3U4MVFTYUV4cFdDNFAzVmZscS1ENHhfdGtkR0FUb3hLeUxSNzhEd2tsSEVDa0wwY2xVNy00UF85QmxpM2IzSDAtLURYMXhKYU5TbFJ5VFRoa3N1Z19IaDBRT0dudms?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Le patron du MMA porte-parole de la Maison Blanche ? \"Je ne faisais que plaisanter\" - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTHN0VzlWaDZpZjNhaFlrMXRsYkJXbHpLLWJGNzFmWUt0QmVrRUFkQU5HMnhOaU1mem9qUmtyYmg5RDBqdDgxOUZZYmtsSk10ejRjcVdZTWp3SVVvYVcxQVA4aTZHUW8ydnN3V0RRSGZ4bmdMRXllcFJodWl4SUJIVVppNzZkWUNNN2VpLW1nWnhuMkNIZHBKeFZja0tJV3ZhOE9kOHd4c2lHc0d6TC1vTzFaWVpaenBfcWxSVmV1NDI2YXdVNEI4Rm9lR01ZTkZqOEw1WjBod1pCMjdpOEUwNWxWQzBneDdD?oc=5",
+        "source": "lavenir_g",
+        "name_only": false
+      },
+      {
+        "title": "Trump reconnaît une politique d'expulsions d'immigrés \"trop dure\" - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONW5Pa2ZPQWRrZVBweTZmR01ZWVBkT25tYm9Bekl3Ry1oSzBkdDByUF9DMWNaRXJId1FiTThxNGExbWU3MWpyeFN1ZHk2SnBndE5EWS1USmJETzV0eHVyUC1LNlVxUUVPMDl3azJiaXdiU0o1bTBtWU14a0phLWVJS0N0MTJNcVlyUjREY256dXdJTFJtbmRCMVZrNHJ6b3R1ckxxQUFiNVlHSUpkTEhKOUJWRk5OT0U?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump reconnaît une politique d'expulsions d'immigrés \"trop dure\" - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcU1zYWtzX19qSEZwMVJ1RjRQQVhJN0dqS0xLd1o1REN2WExScnJBSjZrbXVBWGVncTZYMkdianU5TGc2bUsybmcxWHpOVXBwVHZCeEJGRERXbkRWeEVwWGxMMklXQ1JUT0NKaEE4a3dJMkZWUi16b01SSDEtdW5DUGlXNjBNeDFzN1V4WU5IdFpmdkszbEg0Z1YwWnBwU1hWc3VSNF9SdWs0WS02Z1NkNFB5T2FvbFdTUFBtSjNxMDk?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump déclare que le PDG de Nvidia est \"un homme honorable\" - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQTJ2c1FpMElOTFYxczdtSnVXR3N3TG03b01VemJyR0tRUkd0ZXp6cXg2R1BVLWtsOEFLSFZ5R0d5MkFpYllpMlA0OGc2anUzWjJ0cTZCN3NScVc4UUNPN3Jka1VXbTcyc1NmTklMUGtDNkdrbkpYcnVqdkNTSVU0TW40bDFPOHJRajJVbWpTNFdSNlE4NW1ObmFXYjhnM24zbHNyOXh4Rmg0X3ZWWnVKRVhnczR4dDRKQXlz?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Donald Trump juge trop dure sa politique d’expulsions - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYXFpLUJWcGs3bTR4dUhSZE1WWU5VNjhKUUhIS0FodUtvUHNxNFpWanRPdWYtN3hZM0VnRE1kd3ZKeXEyQUZpVTJYUWs2djJzakl0UnZSOWxNWU9xbDlGZHBEeVZIa2hBRVVZR2kyekxBMHU3YVpaTVdFTWFWN2JLTmtsUlUySy00TkVhN0RJWl9KQUZ5ZGIzQkUtZ2ljYzBjZE5MdXJSR0dsaTdrYXFDdTZYR2hLQnAtZ2h0dzVfazZYZ3VQeUxNa250c1N1TEZZYklMcTE5em43VHJTeG0xc2hR?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Trump maakt zich met personeelswissels klaar om twee jaar lang te vechten - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa0VoeW1aN0lIMF9ocXRaN0NWM3N0RUU5NFJxbHRNOGFaQTJtRU93ZmlteTVVekFiNkMtWnVVWF9kNlR3WnFhaTBLQ29KOUZDek16UUVHbVo0dnRqSjE4ZTJMV0M4a0VCQ3A3X3V2YVVZQng4Y3cxaXNHWUpzUmJIMXZudVBWVE00NjFMYnhCVmh1Z09GT3NEbllWS0tJZkE0bS0zcmJzbmRBbWd3djBnWExncDluMXdOTGtENzhXUS1ZZw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Migratiebeleid was “te hard” en kiezers “hebben hekel” aan oorlog in Iran: Trump opvallend toegeeflijk in exclusief interview bij ‘60 Minutes’ - HLN",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOc1k2WWR4RG5FbjNJR2pzQU5wOWlQcHo0cXR3Y3ZNVmJreV9DblB2Q1VzMTZwUkhwSmYxMjRDcF9acVU1elBIeW9MaFpTVGNvYW55OXZKaVM0UGV6TVRZWjBCZHZrRDJLVW9UekpNUENRcG5WQW5QSGxzVzN0RlIzTGRDSURfUTZSY1lxd2dUMlptY2MxQzBlYU1pUWhXWGNRVXFkSjU0QlMtbTRMbDd6SkJBaDdkODhiTWRwVXhFWDVCcGlVYmxiOU9JT2hRM0ZDcVRrbDZCX0xPUFFETGR1bUFwSXZ3VndZLUtZR2tNaEhDTG1tZUcwbjlhU3poZ1RaSm9naEhB?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "UFC-topman Dana White woordvoerder van het Witte Huis? \"Een grapje\", zegt Donald Trump - VRT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSGNxNzM4ZlRRMmRIYWxTX08wUkpqUUh6SWIzNXQxQm1xYWR0YlM3SVBrNmlaMGwweGxuN0d4MlRFRWZNSGJ4aXdMTklMMnJ1aGFJRXFXVVlEWVN4Sm9mZEQ5bzRLOEtHMV9oZm5hMjFXMmJkakJWeFpReEI5UmhKS0puUUg1ZHAwZmJwdVpWTTlvZnh2WmtBM1pqcUUyNF9RM3ZOSURZSlE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trumps kompanen gaan elkaar te lijf: “We hebben te veel weirdo’s binnengelaten in onze partij” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSVppcnFoaU9pMFdLRUotT0dpS2lKeWdqWDdjT0l5LWRmeUo1OWlZbzFYNWJfTlVsOG1JcVZ0MlRRZ3FJNGkzT01WV3RhRm5lbWdBekVycmlzN2d3c0JjeEF2dlRSak9GaUJtcklHTkdmYml4c1FPSjU2aHg1LVhfUWw4RF9DQmhCdkpJbEJScnJ3Y3RtdWc1NFdzRFJURWx2WWJVdGR3TndrdE9pa0M2bmRoY2NBMWNqeXpEREZqV0R0Z0UwUVd4a1BsWHVGSlNSSW80Z1Vubjk?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump noemt hervatting van oorlog met Iran voorlopig “zeer onwaarschijnlijk” | Nieuws - HLN",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOS243NHI4Y3lFWDQtVlYtQ1NLQlhZT2tySkh1d0hPQjYza2RDb19CM1FyY3hIanc3bC1samZGd1JoVEtiZWloSUdTeXlnVDNDeTZULV9aZnROYVE4eUVpRWt4aWlVX0FsRzczUC0xN2dTSlI5TEJhRlFDd0FkLUhsQnJMQTFIcEZxQ2xVUzZMQjl5NWdyYjFrZ1R2X2V3WWpxTVJ4YU84d2RpTFlROVNJUnlQLWhpbno3SGpteHNYUURfTzJ6V2k1SE9hZ3QxckpoUHMzVzE4MlJ1Wmp4bmRITTZTVHlXWUFaZjRaWHpzWkE0aHJwSUhGY2V2OWY4ZFNMMGJDdDF3?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "\"Je ne faisais que plaisanter\": quand Donald Trump blague sur la nomination de son futur porte-parole - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOcmZ2MWZVVDB4elIxUklHSVgyRE5McGZTMXA4UFVuc1d0aFNVTF9hbG1YY3RZWHUtR1YzTllEeVVMN0lEVXBWcHVyMXNBb1h3bFNLd3hHTnpyNnVhQlpRaS04ZEI1aUxabmlIQlFTaXZyWjVLZWRXOEFha3hPbUxuTjNWLTE2My1tYkVuX2NRWW9lOHcwS3NCbk9mOUR1eGhUTEd5WElzMUtud2lpdTJ5OWpWb3Y3cVVIRl8zSVRFQi1DZXlvNlFPbU9Cb0NwdVZVd3lxUk9waU5iajlUSlJVNVlNcC1pUlNwV1l1Y3lBQzY1TEI2VGc5UFUzb0k3Zw?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "\"Il y a des jours meilleurs que d'autres\": l'état de santé d'un ancien président américain inquiète - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWHVscGJFQjlZeVVuNFJGY0JxVG1iZDlwejc2NUtuQllpdHJxWVBYUVVxaGVnczE1T3lIMG5na2Jub2wyYUZTRDZJVHVKOHowc2ktcXhZTG5wMVY1cjdfa2VNT0UtQ0VwOXl1cTdCTnYxeDRrcElMRVFaay1ib3IyVm8ta0NMQ3lONEhydDRtMzJ0LXBpcFJFRkRFOWZ2ZlE3RVdkLXZWUGF1emZ1a3NMTF9MWFZWSjFweTA3TDZEX2RfY2d0TTlzUkktWldReGhPX1hEMU1GYzBtU2x5bDJITjlGUU5QeExtUng4eWlreXJZZnpJYm9N?oc=5",
+        "source": "google_fr_world",
+        "name_only": false
+      },
+      {
+        "title": "\"Il est formidable\": voici quel candidat Donald Trump soutiendrait s'il se présentait à l'élection présidentielle - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNVTNvVFIwalNhaDRoTWVHczA4ZUhfYXRjNVBaTUNpal9INkZpMmY1bjVqdDV1LUV5QVVNbEJjUWw5RER3dXJwS3RtTWoxSzAzamRqOHdBaHVUdUNnRlM1aE9NWlJpTUdQaWpPclBkNDZpRFMwQXFPX3Z0aVh5c1l2Y01raFhOSmdmc1dJNExtd0NoV3ZHVG5TWndoci1NQWJQX19wY1hKUEQ0VGlVUTRuR0Zxazc1M29YM0w3Wk5YZzN6bzl1MlRPR1E5QWNfcnk4QUQ4THd5cW9Nd2FjdTJxNWdXX2YtQWNFV1hrejRPU01mNWpYYVpwc1ZnUzBTS29QVmlsaXJYWHFnMVU?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump soutient le PDG de Nvidia après son adultère avec une espionne chinoise présumée: “Bien sûr qu’il doit rester en poste” - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbm5MWUN4VU9RV0dxaVdZRWNzTVI4X2dhdnVpRm1kMmQyNVA5VHVYUHpEdlRBUzhsWjh4V0FxZlBfMDJqM0J2RTM3UkhlZHViYmlrMlQ0MUdHbkx4OWRuWFdvSEJ2ak9FdjN0ZWlfUkhpTFZTWEdVN1ZiVThEbC1EdlMxbkJ2V0NfeHdXTjlOVkVzV2VZSERkZFJHRXJJVUcyaXJMUWRQZ0hVWVR4em9saVVlRmUydzJVSkdjYmpfMHFrc25iM2pqcWNvM1VULWZnaVlJaWJCZEtWV3VYS1dhZGUtOEJCbDRLSWc3LWEzZw?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "UFC-topman Dana White woordvoerder van het Witte Huis? \"Een grapje\", zegt Donald Trump",
+        "url": "https://vrtnws.be/p.w70vy41yG",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trump: \"Immigratiebeleid van Amerikaanse regering was misschien te hard\"",
+        "url": "https://vrtnws.be/p.vLlNRvpkl",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Trumps vertrouwelingen gaan elkaar te lijf: “We hebben te veel weirdo’s binnengelaten in onze partij” - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa3U0SmlCRjF1NkJsMFFtWHpvcTNQR2g2SjROTEN6S0VCYUItenQ2SDlsa2pyY3VEYTBqak9jZXktbGllSUZ5RHZyRS1nR1VqM3lrbUc4MUVKZC1Gc3FtQm85Zy0wZU9raHNsOXF4TlVfd25jNDRpZldZZU1XNG5Wd1hwdTV5SE04RmxxV1Bwd25oY1RvczdKUVNZNm1kVjd1X0dkbzdkcFlJZktWeUpKUjJFeHFDSTF0QkpBYy0zamJmOW9yT1pQazhBVXFqZkJXaHVlS3pHSUJxVHRPNnBpc2xR?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Migratiebeleid was “te hard” en kiezers “hebben hekel” aan oorlog in Iran: Trump opvallend toegeeflijk in exclusief interview bij ‘60 Minutes’",
+        "url": "https://www.hln.be/buitenland/migratiebeleid-was-te-hard-en-kiezers-hebben-hekel-aan-oorlog-in-iran-trump-opvallend-toegeeflijk-in-exclusief-interview-bij-60-minutes~a0660c62/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Vechtersbaas Dana White als nieuwe persvoorlichter van Trump was ‘maar een grapje’. Of had hij de verkeerde voor zich?",
+        "url": "https://www.demorgen.be/nieuws/vechtersbaas-dana-white-als-nieuwe-persvoorlichter-van-trump-was-maar-een-grapje-of-had-hij-de-verkeerde-voor-zich~b9d1ed53/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump geeft toe dat zijn migratiebeleid ‘te hard’ was • Aanstelling CEO vechtsportorganisatie als woordvoerder ‘was maar een grapje’",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-geeft-toe-dat-zijn-migratiebeleid-te-hard-was-aanstelling-ceo-vechtsportorganisatie-als-woordvoerder-was-maar-een-grapje~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Nvidia-CEO Jensen Huang geeft affaire met mogelijk Chinese spion toe in mail naar werknemers: bedrijf start onderzoek, Trump steunt hem",
+        "url": "https://www.demorgen.be/nieuws/nvidia-ceo-jensen-huang-geeft-affaire-met-mogelijk-chinese-spion-toe-in-mail-naar-werknemers-bedrijf-start-onderzoek-trump-steunt-hem~bd14166c/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump blijft achter Nvidia-CEO staan na affaire met vermeende spionne, aandeel daalt met 6 procent",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-blijft-achter-nvidia-ceo-staan-na-affaire-met-vermeende-spionne-aandeel-daalt-met-6-procent/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump blijft achter Nvidia-CEO staan na affaire met vermeende spionne, aandeel daalt met 6 procent",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-blijft-achter-nvidia-ceo-staan-na-affaire-met-vermeende-spionne-aandeel-daalt-met-6-procent/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "\"Je vais aller en Chine\" : Trump évoque une probable réunion avec Xi et Poutine en Chine",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/09/je-vais-aller-en-chine-trump-evoque-une-probable-reunion-avec-xi-et-poutine-en-chine-VFCUAMJELJGALBFLHAMC66AGJ4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Qui succédera à Trump ? Le président donne son avis dans une interview exclusive",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/09/qui-succedera-a-trump-le-president-donne-son-avis-dans-une-interview-exclusive-BP7GCSEW4VFX3MTMMZPTGQMUKU/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le patron du MMA porte-parole de la Maison Blanche ? \"Je ne faisais que plaisanter\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/09/le-patron-du-mma-porte-parole-de-la-maison-blanche-je-ne-faisais-que-plaisanter-TIH2FYGQRBAM7MIPG6WEW4ZBAY/",
+        "source": "lalibre",
+        "name_only": false
+      },
+      {
+        "title": "Trump reconnaît une politique d'expulsions d'immigrés \"trop dure\" après la défaite des républicains",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/09/trump-reconnait-une-politique-dexpulsions-dimmigres-trop-dure-apres-la-defaite-des-republicains-REI4E55RR5E7XNJCMDAJP3T5PQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump juge \"très improbable\" une reprise de la guerre en Iran",
+        "url": "https://www.lalibre.be/international/moyen-orient/2026/11/09/trump-juge-tres-improbable-une-reprise-de-la-guerre-en-iran-DLPNEWWJY5HRHORXBB6TKA6UOQ/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump veut un boss de MMA comme porte-parole de la Maison Blanche - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSWFuX2RZM1RhYnNCQUFEbTlSbFBUbGFMWjZvcWdobG0yOXRlVFZqeVU3cUhGTkFQOE12TGgwR29qcko2Vkp4cnFQbUt6MFZpd2lqQ0NNcTB0UnMtNjh5QVJLSzI0blVUSV9lcW5oemtZckVkcHk2UE9Dbkl3Q3NkMG5wOWxjVjF2NTRJYnVlZFhIVENNdnVoWE5tc1hHZ2pEZkdObEJkTjVTWC1FVENTTW1wWVlVMVdxSldRTGFwVm8?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "\"Il y a des jours meilleurs que d’autres\": l'état de santé d'un ancien président américain inquiète",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/09/il-y-a-des-jours-meilleurs-que-dautres-letat-de-sante-dun-ancien-president-americain-inquiete-ZMVYLGCFTNDL5NLYHIVA76EXHE/",
+        "source": "dhnet",
+        "name_only": false
+      },
+      {
+        "title": "\"Il est formidable\": voici quel candidat Donald Trump soutiendrait s'il se présentait à l'élection présidentielle",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/09/il-est-formidable-voici-quel-candidat-donald-trump-soutiendrait-sil-se-presentait-a-lelection-presidentielle-CCWCFQKSNZFD3A357OV53F6DVI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "\"Je ne faisais que plaisanter\": quand Donald Trump blague sur la nomination de son futur porte-parole",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/09/je-ne-faisais-que-plaisanter-quand-donald-trump-blague-sur-la-nomination-de-son-futur-porte-parole-WONYY6W5QRALXLOTRZY2BKXQRU/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Bien sûr qu’il doit rester en poste”: Trump soutient le PDG de Nvidia après sa liaison avec une espionne présumée",
+        "url": "https://www.7sur7.be/monde/bien-sur-quil-doit-rester-en-poste-trump-soutient-le-pdg-de-nvidia-apres-sa-liaison-avec-une-espionne-presumee~afeba4ee/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump assure que la proposition de nommer le patron du MMA comme porte-parole de la Maison-Blanche était une blague - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbi1IMDBMMWt4ekpITXVGNkJkT1MyZ0VOOXI5YXdRX29BNWxtcElVR0ZTVlJ2MUF4bHlDZ25ac2REVUJ0T3phSWJ1M3JRVHFxYjU4d1B1T3V1ekg4VDRSSEZKRE5tY3U4MVFTYUV4cFdDNFAzVmZscS1ENHhfdGtkR0FUb3hLeUxSNzhEd2tsSEVDa0wwY2xVNy00UF85QmxpM2IzSDAtLURYMXhKYU5TbFJ5VFRoa3N1Z19IaDBRT0dudms?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Le patron du MMA porte-parole de la Maison Blanche ? \"Je ne faisais que plaisanter\" - L'Avenir",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTHN0VzlWaDZpZjNhaFlrMXRsYkJXbHpLLWJGNzFmWUt0QmVrRUFkQU5HMnhOaU1mem9qUmtyYmg5RDBqdDgxOUZZYmtsSk10ejRjcVdZTWp3SVVvYVcxQVA4aTZHUW8ydnN3V0RRSGZ4bmdMRXllcFJodWl4SUJIVVppNzZkWUNNN2VpLW1nWnhuMkNIZHBKeFZja0tJV3ZhOE9kOHd4c2lHc0d6TC1vTzFaWVpaenBfcWxSVmV1NDI2YXdVNEI4Rm9lR01ZTkZqOEw1WjBod1pCMjdpOEUwNWxWQzBneDdD?oc=5",
+        "source": "lavenir_g",
+        "name_only": false
+      },
+      {
+        "title": "Trump reconnaît une politique d'expulsions d'immigrés \"trop dure\" - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONW5Pa2ZPQWRrZVBweTZmR01ZWVBkT25tYm9Bekl3Ry1oSzBkdDByUF9DMWNaRXJId1FiTThxNGExbWU3MWpyeFN1ZHk2SnBndE5EWS1USmJETzV0eHVyUC1LNlVxUUVPMDl3azJiaXdiU0o1bTBtWU14a0phLWVJS0N0MTJNcVlyUjREY256dXdJTFJtbmRCMVZrNHJ6b3R1ckxxQUFiNVlHSUpkTEhKOUJWRk5OT0U?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump reconnaît une politique d'expulsions d'immigrés \"trop dure\" - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcU1zYWtzX19qSEZwMVJ1RjRQQVhJN0dqS0xLd1o1REN2WExScnJBSjZrbXVBWGVncTZYMkdianU5TGc2bUsybmcxWHpOVXBwVHZCeEJGRERXbkRWeEVwWGxMMklXQ1JUT0NKaEE4a3dJMkZWUi16b01SSDEtdW5DUGlXNjBNeDFzN1V4WU5IdFpmdkszbEg0Z1YwWnBwU1hWc3VSNF9SdWs0WS02Z1NkNFB5T2FvbFdTUFBtSjNxMDk?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump déclare que le PDG de Nvidia est \"un homme honorable\" - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQTJ2c1FpMElOTFYxczdtSnVXR3N3TG03b01VemJyR0tRUkd0ZXp6cXg2R1BVLWtsOEFLSFZ5R0d5MkFpYllpMlA0OGc2anUzWjJ0cTZCN3NScVc4UUNPN3Jka1VXbTcyc1NmTklMUGtDNkdrbkpYcnVqdkNTSVU0TW40bDFPOHJRajJVbWpTNFdSNlE4NW1ObmFXYjhnM24zbHNyOXh4Rmg0X3ZWWnVKRVhnczR4dDRKQXlz?oc=5",
+        "source": "rtl_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 20,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 6,
+      "bouchez": 2,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 30,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 10,
+      "bouchez": 5,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 2,
+      "crevits": 0,
+      "jambon": 1,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 17,
+      "crime": 26,
+      "eu": 29,
+      "politics": 29,
+      "be_gov": 29,
+      "culture": 34,
+      "tech": 14,
+      "economy": 29,
+      "sports": 28,
+      "health": 18,
+      "climate": 6,
+      "migration": 0,
+      "education": 4,
+      "weather": 7
+    },
+    "wide_themes": {
+      "war": 27,
+      "crime": 33,
+      "eu": 42,
+      "politics": 42,
+      "be_gov": 37,
+      "culture": 41,
+      "tech": 20,
+      "economy": 37,
+      "sports": 46,
+      "health": 27,
+      "climate": 10,
+      "migration": 0,
+      "education": 5,
+      "weather": 9
+    }
   }
 ]
