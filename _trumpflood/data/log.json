@@ -133352,5 +133352,472 @@
       "education": 5,
       "weather": 12
     }
+  },
+  {
+    "date": "2026-11-13",
+    "generated_at": "2026-11-13T12:29:30+01:00",
+    "last_checked_at": "2026-11-13T12:29:30+01:00",
+    "total_articles": 614,
+    "trump_articles": 3,
+    "percentage": 0.5,
+    "core_percentage": 0.5,
+    "core_percentage_name": 0.5,
+    "trump_articles_expanded": 4,
+    "core_percentage_expanded": 0.7,
+    "indirect_references": 1,
+    "wide_total_articles": 806,
+    "wide_trump_articles": 6,
+    "wide_percentage": 0.7,
+    "wide_trump_articles_expanded": 7,
+    "wide_percentage_expanded": 0.9,
+    "macro_percentage": 0.9,
+    "qualifying_outlets": 26,
+    "core_outlets_total": 19,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 50,
+    "cross_outlet_dup_groups": 25,
+    "cross_outlet_dup_rate": 8.1,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.27,
+    "breadth": 0.16,
+    "deviation": 0.17,
+    "smoothed_pct": 2.66,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 13,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 27,
+        "kept": 27,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 35,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 13,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 15.38
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 25,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 15,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 21,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 40,
+        "kept": 40,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 58,
+        "kept": 56,
+        "trump": 0,
+        "trump_expanded": 1,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 27,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 92,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 11,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 42,
+        "kept": 42,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.38
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 40,
+        "kept": 38,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 79,
+        "kept": 79,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 40,
+        "kept": 38,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.63
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 24,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 21,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 62,
+        "today": 17,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 83,
+        "today": 21,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "DS Video | Vijf gewonden bij schietpartij op wandelafstand van Witte Huis - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV2lwOC1yc1gxdmo5OTE3eXdlQk1IV3lZa01kSjFyb3Zrd2VXZUxHU0EwaElmclNYNk9FRThLUzRJVk5pZFo3ZTUwdFljcVhPUDY3QzBfYkRIVWNaSDgtUmRZTlBFeXVPVlFPZUpxdmNGTE0zTmU3UXhyTi1RVWFuMlJGbElGZ2ZjenlWd3lvcTR5TWNsanJYZFpkNHo2YW5VV1k4dE02OENtd002dU9BWFVtbHZxRkhJd0pGVEJYWnY?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "La politique migratoire de Trump bat un record",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/13/la-politique-migratoire-de-trump-bat-un-record-IGYWZEXTCZHKNA4HLJCQI63OF4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump recadre JD Vance après ses critiques sur la guerre en Iran",
+        "url": "https://www.7sur7.be/monde/trump-recadre-jd-vance-apres-ses-critiques-sur-la-guerre-en-iran~a7f7b93c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur Jensen Huang et Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUWVTaUNOM3Uyb0hVdE5aZlllOF9KLVlCMFUwaUNTcHFDZFNuUjZCamhZd3lGTFZxQzRHU2JhSjR6OTM3QVdyVGpHOElQckhiMm44VE5sMHJqanNnNmxpeUpjR2RGMkdJcjFQbEJhVkpwanBDd3c2akxNLWpqajlZd1pKdHE3OTJMRWx4SDJtTWYzTkJPU05GX3RaSzhNQQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "LIVE MIDDEN-OOSTEN. Trump zegt geen deal met Iran meer nodig te hebben - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTXFJMXp4R19QSUpZcHg1bmxCRElPaXBhaGtXU2pncWI3b3ctMTZxTmRpX3NLcVdCS3FVV3VsRkFKdHpzUmwzTUVTdHZUXy0zc3g4N3FVVWp4RklYOWM3U01HNm9HbkNSNkFxcWRtbWNZUUE4bHlMb3JlWUlfSVk3NEI1dVluNVRKTFd0N2FxdVBKeVV3anEtdDV5NEhWdDlsR2d4OGFpTDM1cGVxcXVxWVQ0VEJ5ajA?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "John Bolton, luis in de pels van Donald Trump: ‘Ik vrees dat hij nog in ontkenning leeft’ - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObks5Sl9fcjRuanlqMjF3b1RpZlQySWs3UTNyX0xLV0U0cC1tTGN6RkVmWGNiUnYtaGtQb3doLXB3LWRNVllhZnM2N0ctRDc5M2lyMEVJWmZYYTFueG9oRUE0TzI5YjgybHFTcEY2TU9XX1pSQ2JfXzBEQVd0TVVrOXEwZXhTY1pYUnZycXlzRlM2VkFnd1AzcWc5YjZjZ2FDTU9kMGhnRE9UdHVDZXdEdnE2Xy1ONHNheUNiUHJsUy12WVBfUUZFM00zRTczeWFPODBMSEp3bjlya1dRdlF0S3h5SXU1aDA1OWdB?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Un changement de régime à Cuba ? C’est le nouvel objectif affiché par Donald Trump, « je veux régler la situation avant mon départ de la Maison Blanche » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYmlVLS1UcHgzVmZPZXFMVjJ1UllrSGJmUWtVZ2RfZFFjSS16SlROdDJMYUJ5aTY2LXBTOFA1bUFUWmxGcUpVaDVFUW1JR3NLYTNyeXFYb0E0QUwyZnl2TVdNSWlyR1VBMGxQWE5OdXRaY0ZxOUVWYUdublFiYlhtMm9zMENVWDJHZ3ZSaWtrb2JnLUZoMzJyYXpZS3pQLU00dnJHR1phOEJBU1h1U2Q4Uk8tTU11WlZaUUUxWWlzZ0t5YmROc1hSQ2gtRW8?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "DS Video | Vijf gewonden bij schietpartij op wandelafstand van Witte Huis - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV2lwOC1yc1gxdmo5OTE3eXdlQk1IV3lZa01kSjFyb3Zrd2VXZUxHU0EwaElmclNYNk9FRThLUzRJVk5pZFo3ZTUwdFljcVhPUDY3QzBfYkRIVWNaSDgtUmRZTlBFeXVPVlFPZUpxdmNGTE0zTmU3UXhyTi1RVWFuMlJGbElGZ2ZjenlWd3lvcTR5TWNsanJYZFpkNHo2YW5VV1k4dE02OENtd002dU9BWFVtbHZxRkhJd0pGVEJYWnY?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "La politique migratoire de Trump bat un record",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/13/la-politique-migratoire-de-trump-bat-un-record-IGYWZEXTCZHKNA4HLJCQI63OF4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Trump recadre JD Vance après ses critiques sur la guerre en Iran",
+        "url": "https://www.7sur7.be/monde/trump-recadre-jd-vance-apres-ses-critiques-sur-la-guerre-en-iran~a7f7b93c/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Le Kroll du jour sur Jensen Huang et Donald Trump - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUWVTaUNOM3Uyb0hVdE5aZlllOF9KLVlCMFUwaUNTcHFDZFNuUjZCamhZd3lGTFZxQzRHU2JhSjR6OTM3QVdyVGpHOElQckhiMm44VE5sMHJqanNnNmxpeUpjR2RGMkdJcjFQbEJhVkpwanBDd3c2akxNLWpqajlZd1pKdHE3OTJMRWx4SDJtTWYzTkJPU05GX3RaSzhNQQ?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 3,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 5,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 6,
+      "putin": 2,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 7,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 24,
+      "crime": 23,
+      "eu": 26,
+      "politics": 24,
+      "be_gov": 20,
+      "culture": 13,
+      "tech": 8,
+      "economy": 39,
+      "sports": 26,
+      "health": 6,
+      "climate": 2,
+      "migration": 2,
+      "education": 13,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 31,
+      "crime": 31,
+      "eu": 34,
+      "politics": 30,
+      "be_gov": 25,
+      "culture": 16,
+      "tech": 13,
+      "economy": 45,
+      "sports": 43,
+      "health": 9,
+      "climate": 6,
+      "migration": 2,
+      "education": 15,
+      "weather": 11
+    }
   }
 ]
