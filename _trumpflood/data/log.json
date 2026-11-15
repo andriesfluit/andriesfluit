@@ -134538,5 +134538,508 @@
       "education": 7,
       "weather": 18
     }
+  },
+  {
+    "date": "2026-11-15",
+    "generated_at": "2026-11-15T12:27:25+01:00",
+    "last_checked_at": "2026-11-15T12:27:25+01:00",
+    "total_articles": 408,
+    "trump_articles": 6,
+    "percentage": 1.5,
+    "core_percentage": 1.5,
+    "core_percentage_name": 1.5,
+    "trump_articles_expanded": 6,
+    "core_percentage_expanded": 1.5,
+    "indirect_references": 0,
+    "wide_total_articles": 565,
+    "wide_trump_articles": 11,
+    "wide_percentage": 1.9,
+    "wide_trump_articles_expanded": 11,
+    "wide_percentage_expanded": 1.9,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 18,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 56,
+    "cross_outlet_dup_groups": 28,
+    "cross_outlet_dup_rate": 13.7,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.67,
+    "breadth": 0.29,
+    "deviation": 0.5,
+    "smoothed_pct": 2.13,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 10,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 9.09
+      },
+      "google_nl_politics": {
+        "fetched": 43,
+        "today": 3,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 16,
+        "kept": 12,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 8.33
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 36,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 15,
+        "kept": 11,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 30,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 63,
+        "today": 6,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 24,
+        "today": 6,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 24,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 49,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 85,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 33,
+        "kept": 32,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 55,
+        "kept": 55,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.64
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 5,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 32,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 99,
+        "today": 9,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 50,
+        "today": 12,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 63,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Nieuwe luchtfoto’s tonen hoe Trumps balzaal het Witte Huis in de schaduw zet: ‘Dit zegt alles’",
+        "url": "https://www.demorgen.be/nieuws/nieuwe-luchtfoto-s-tonen-hoe-trumps-balzaal-het-witte-huis-in-de-schaduw-zet-dit-zegt-alles~b18bc40c/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Luchtbeelden tonen hoe imposant de balzaal aan het Witte Huis wordt: “Dit zegt alles over Donald Trump”",
+        "url": "https://www.hbvl.be/buitenland/luchtbeelden-tonen-hoe-imposant-de-balzaal-aan-het-witte-huis-wordt-dit-zegt-alles-over-donald-trump/164570417.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump vreest dat we hem als verliezer zullen zien als hij de oorlog nu beëindigt. En hij heeft aan niets een grotere hekel’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcXEzVzNjelN4eEhaUVpmVS0ySF9PeVNXVmZsX2NLT2tVbHZwbUJ4RUxNQjFyRTVlZ3pCVGp0MGtyOTN0SUUtSElwNHVTaFJSSXR2d29CNTJjX0c1d0dOZUhlajBKVEtYTmlLZElmRlpQeDhnelE2eHpyYlRvUVA2NENIVldUc3g2UTRWTmFfTmszWTFtUFZmVXdMcXRKNEtaSXJVbEt6ZHdsWHVPaTdYMlE0T05ocy1ZVmtYLXU3TE1OLVZReFdtX2NrRGpqdGNTWUxaM20wUzdmOXN4N1pTWkZlYXRfVUhTSHJudXV3?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "\"Cela en dit long sur les priorités du président\" : de nouvelles images de la salle de bal de Trump font polémique",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/15/cela-en-dit-long-sur-les-priorites-du-president-de-nouvelles-images-de-la-salle-de-bal-de-trump-font-polemique-LY2ZM6G7HRCINEUMYHDVM6SNPI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "De nouvelles images de la salle de bal de Trump, à côté de la Maison Blanche, attirent l’attention et suscitent les critiques (PHOTO)",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/15/de-nouvelles-images-de-la-salle-de-bal-de-trump-a-cote-de-la-maison-blanche-attirent-lattention-et-suscitent-les-critiques-photo-73H7B4MO5NEP7JAEGC275ERP5E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Moscou confirme un sommet Xi-Trump-Poutine jeudi: un sujet ne serait étonnamment pas sur la table",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/15/moscou-confirme-un-sommet-xi-trump-poutine-jeudi-un-sujet-ne-serait-etonnamment-pas-sur-la-table-4XRZBLUEWVDYDMGE6LTDJWGG4M/",
+        "source": "dhnet",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Nieuwe luchtfoto’s tonen hoe Trumps balzaal het Witte Huis in de schaduw zet: “Dit zegt alles” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNamF1N3JNYUsxOENRSGxfT1BYdlVzaU9ucWVKWm5XWGZRaGhmajItd3NtazBqNEFBZGpIamVLVFJSc2xmYkZ1a2xBS3ZWZ1JFbklUS3VxREdEQ0JwZkMydk16LUpyOVFFc2JVME5qWlZ2WUFGLUNOYkR3TU1sMXEwVzVySmQzTkFPUGN2aTVBNk9XVXo1UFVZaExRSmZxNHpDaHFOZzNBdEcta1F4bXhLMkZkdDNvOERyWW9XSGtVZ2otaFJ5Ri1SRVh3?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "De nouvelles images de la salle de bal de Trump, à côté de la Maison Blanche, attirent l'attention et suscitent les critiques (PHOTO) - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPcGExbVFqbnVQM2Fxb1hXcUpRaWRKLXVndUNtaFlaMFU3dEQyY0QwVFFWeVE4YURpU01ldFF1ckZzS1RFeThmR04xZmRxT09lOHphTVpfNVlDeXY2ZFVZdFl2UDdqT0xza09tUTJ4dUVISmRPSXd6NHRoNWlMQm9IZk1ENG1vemZRUS1TSzJfSGFMTkRZaU5qdTVtTlJYalFNamNTeVhxUkJxTWFyRGpkQWJRSlFFRktKV1ZQUkZiRXlYbnRuY05kbWQ2TFJmS2x3WUhTOGdBWmI4aEdjZnYwSU5sTHBUdm83bUpQOWNGUWF5QXhHazZSOTh5bWEyaFpNdUtCZlBNRmQ1WWJ6Z3phN2N4WWgyTUduX0tINnBQNUd6ZWRrcVE?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "La Russie confirme un sommet inédit entre Xi Jinping, Donald Trump et Vladimir Poutine jeudi - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZjMzcDVTRjVOMFdlb2VfSDU3WEk5UUVTajZGOU15NjRsd3ZMWlhrVE5Nem91ejB4T2U1aF9uRjE4TlVFZHFOYlJOWkZHX1diUFFLaTFwTDJyYWlJQjI1WXpXck1SZHYwLU5sT3FYUXd0QllZb0c1TXRFRmtCVnE4M0ZuMlRnQjRYcnA5c2lUQmVpWGJVMUlDZUNsSFoxcXdGclNrZjNSVTJZNk81U3NzdzVoa0tQYlNhcU1HVmh0bzR6WEU?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Luchtbeelden tonen hoe imposant de balzaal aan het Witte Huis wordt: “Dit zegt alles over Donald Trump” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNblBzM2o4Vm9JemlBV2xtNjl0Q1FWdVh1YjJPbWczRjRnTVFGUVNGMjdwM1hEZ1dFTWp3MTdUdWdONFhFakQ3U280ajIwMGctVkdtUUg3SG1QaUtsaWV4YjB1Z3U5NXpPV09wRUZ2R1prdDRRZDVLQlBFV2I1TXp4RzRDYk4tWnJGV2tSZjJsTE9ySUc3MTBqLTlZWkdTLUJ6OGxTNk1BSkQ2SWFMSm9GakJ0MVBtbzJhZldwNGh0TnNmcDZKcTg5SklvVnVDWnJGZlZuTElvcnNuN3EtR1BNdkxVdEtEY1U?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Nieuwe luchtfoto’s tonen hoe Trumps balzaal het Witte Huis in de schaduw zet: ‘Dit zegt alles’",
+        "url": "https://www.demorgen.be/nieuws/nieuwe-luchtfoto-s-tonen-hoe-trumps-balzaal-het-witte-huis-in-de-schaduw-zet-dit-zegt-alles~b18bc40c/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Luchtbeelden tonen hoe imposant de balzaal aan het Witte Huis wordt: “Dit zegt alles over Donald Trump”",
+        "url": "https://www.gva.be/buitenland/luchtbeelden-tonen-hoe-imposant-de-balzaal-aan-het-witte-huis-wordt-dit-zegt-alles-over-donald-trump/164570330.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Luchtbeelden tonen hoe imposant de balzaal aan het Witte Huis wordt: “Dit zegt alles over Donald Trump”",
+        "url": "https://www.hbvl.be/buitenland/luchtbeelden-tonen-hoe-imposant-de-balzaal-aan-het-witte-huis-wordt-dit-zegt-alles-over-donald-trump/164570417.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump vreest dat we hem als verliezer zullen zien als hij de oorlog nu beëindigt. En hij heeft aan niets een grotere hekel’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcXEzVzNjelN4eEhaUVpmVS0ySF9PeVNXVmZsX2NLT2tVbHZwbUJ4RUxNQjFyRTVlZ3pCVGp0MGtyOTN0SUUtSElwNHVTaFJSSXR2d29CNTJjX0c1d0dOZUhlajBKVEtYTmlLZElmRlpQeDhnelE2eHpyYlRvUVA2NENIVldUc3g2UTRWTmFfTmszWTFtUFZmVXdMcXRKNEtaSXJVbEt6ZHdsWHVPaTdYMlE0T05ocy1ZVmtYLXU3TE1OLVZReFdtX2NrRGpqdGNTWUxaM20wUzdmOXN4N1pTWkZlYXRfVUhTSHJudXV3?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "\"Cela en dit long sur les priorités du président\" : de nouvelles images de la salle de bal de Trump font polémique",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/15/cela-en-dit-long-sur-les-priorites-du-president-de-nouvelles-images-de-la-salle-de-bal-de-trump-font-polemique-LY2ZM6G7HRCINEUMYHDVM6SNPI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "De nouvelles images de la salle de bal de Trump, à côté de la Maison Blanche, attirent l’attention et suscitent les critiques (PHOTO)",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/15/de-nouvelles-images-de-la-salle-de-bal-de-trump-a-cote-de-la-maison-blanche-attirent-lattention-et-suscitent-les-critiques-photo-73H7B4MO5NEP7JAEGC275ERP5E/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Moscou confirme un sommet Xi-Trump-Poutine jeudi: un sujet ne serait étonnamment pas sur la table",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/15/moscou-confirme-un-sommet-xi-trump-poutine-jeudi-un-sujet-ne-serait-etonnamment-pas-sur-la-table-4XRZBLUEWVDYDMGE6LTDJWGG4M/",
+        "source": "dhnet",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 6,
+      "putin": 2,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 4,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 11,
+      "putin": 3,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 1,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 7,
+      "bouchez": 0,
+      "magnette": 1,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 18,
+      "crime": 10,
+      "eu": 11,
+      "politics": 10,
+      "be_gov": 5,
+      "culture": 11,
+      "tech": 12,
+      "economy": 13,
+      "sports": 42,
+      "health": 3,
+      "climate": 1,
+      "migration": 1,
+      "education": 4,
+      "weather": 10
+    },
+    "wide_themes": {
+      "war": 22,
+      "crime": 12,
+      "eu": 17,
+      "politics": 20,
+      "be_gov": 11,
+      "culture": 16,
+      "tech": 18,
+      "economy": 17,
+      "sports": 58,
+      "health": 5,
+      "climate": 2,
+      "migration": 2,
+      "education": 6,
+      "weather": 14
+    }
   }
 ]
