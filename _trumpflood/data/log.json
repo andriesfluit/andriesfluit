@@ -135041,5 +135041,550 @@
       "education": 6,
       "weather": 14
     }
+  },
+  {
+    "date": "2026-11-16",
+    "generated_at": "2026-11-16T13:00:06+01:00",
+    "last_checked_at": "2026-11-16T13:00:06+01:00",
+    "total_articles": 656,
+    "trump_articles": 9,
+    "percentage": 1.4,
+    "core_percentage": 1.4,
+    "core_percentage_name": 1.4,
+    "trump_articles_expanded": 9,
+    "core_percentage_expanded": 1.4,
+    "indirect_references": 0,
+    "wide_total_articles": 886,
+    "wide_trump_articles": 15,
+    "wide_percentage": 1.7,
+    "wide_trump_articles_expanded": 15,
+    "wide_percentage_expanded": 1.7,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 26,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 54,
+    "cross_outlet_dup_groups": 26,
+    "cross_outlet_dup_rate": 8.2,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.19,
+    "breadth": 0.33,
+    "deviation": 0.48,
+    "smoothed_pct": 1.9,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 12,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 31,
+        "kept": 31,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "google_nl_politics": {
+        "fetched": 46,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 28,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 28,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
+      },
+      "google_nl_tech": {
+        "fetched": 46,
+        "today": 15,
+        "kept": 9,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 11.11
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 19,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 24,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 68,
+        "today": 14,
+        "kept": 11,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 18.18
+      },
+      "google_fr_business": {
+        "fetched": 59,
+        "today": 10,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 36,
+        "kept": 36,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 76,
+        "today": 40,
+        "kept": 33,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 25,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 59,
+        "today": 19,
+        "kept": 19,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.26
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 62,
+        "kept": 62,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 4.84
+      },
+      "lecho": {
+        "fetched": 95,
+        "today": 51,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 72,
+        "kept": 72,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.78
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 67,
+        "today": 27,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 62,
+        "kept": 59,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 36,
+        "kept": 34,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.94
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 43,
+        "kept": 43,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 49,
+        "today": 9,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 63,
+        "today": 20,
+        "kept": 14,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.14
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "‘Wat kan trilateraal overleg tussen Poetin, Trump en Xi teweegbrengen?’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zbTdDaHJKVXcxeHEtdkpHZENkTWNqMXdLU3JhYjFJdFoybFgwQ19qMUlDWEFiVlFzd1RVZUtNeFV2b3pia2s1VVJmYklFbFJ4Z0EzcFpDdXEweFdsN3hQdUJKOEU?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "La revue de presse : la rencontre entre Donald Trump, Vladimir Poutine et Xi Jinping, un nouveau Yalta ?",
+        "url": "https://www.rtbf.be/article/la-revue-de-presse-la-rencontre-entre-donald-trump-vladimir-poutine-et-xi-jinping-un-nouveau-yalta-11816057",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Revers électoral de Trump aux élections de mi-mandat : quel impact sur le reste du monde ?",
+        "url": "https://www.lalibre.be/economie/decideurs-chroniqueurs/2026/11/16/revers-electoral-de-trump-aux-elections-de-mi-mandat-quel-impact-sur-le-reste-du-monde-5NPEXBMUZFFUDDI54KQJQ5J4RY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le projet “très important et magnifique” de Donald Trump compromis",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/16/le-projet-tres-important-et-magnifique-de-donald-trump-compromis-IENNADRYHJCMRHIN5QBGFUXJJY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La Chine confirme un sommet trilatéral entre Xi, Trump et Poutine jeudi: voici ce qui sera sur la table",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/16/la-chine-confirme-un-sommet-trilateral-entre-xi-trump-et-poutine-jeudi-3DL5DKTNGZBPBBQJZJW5H6DO4U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Xi, Trump et Poutine vont se réunir jeudi: voici ce qui sera discuté",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/16/xi-trump-et-poutine-vont-se-reunir-jeudi-voici-ce-qui-sera-discute-LXKZVZ5QGVHL3GRSRUCFOEVKAM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouvel obstacle pour Donald Trump: une juge freine un autre projet, \"très important et magnifique\", du président américain",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/16/nouvel-obstacle-pour-donald-trump-une-juge-freine-un-autre-projet-tres-important-et-magnifique-du-president-americain-S7LXNFXPHJFJJFHDKFURWZBISE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La Chine confirme un sommet trilatéral entre Xi, Trump et Poutine jeudi, pour discuter de la « paix mondiale » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeTVjazNwdHFHTHNmUU53WTdEcTJEbGE4WDRmNjVpUl9LdXJpUy1aVVppRUJyR0VscUdfNnZieWNmMHpsY3U2QmVhR2VyZzZVWlk5Z1E5ZWNFa0xsdFNrNU9zZ0x6SEZSaG0wekhxVERrWVd3LUhLTzN3WngtbFZzd0U4MzRVb1FONC03THFRanVUUzVPRm5wajZCam9NekJVSUJ5ZWJfRHhweXVNRDR6OUpQVDY5OXZsdFZFMVdEbkVZZjFjSlE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Le sommet Trump, Xi, Poutine confirmé : l’Europe face à son nouveau moment Yalta ? - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOd3g3VThjY0duRG96SFY4WXBxampyYmVycVpkLTNWOG1zeXl4Z0dVenVZU282V2k1TWZzd2xwZS1ZdVdpekxBS0FTdzJ4OUh5d29kY0g3SUpjT3h5bS1aSG5wUXBzc2IzUE9VTVZaWklSQmNnTEMtajlIX245YzB4RFNkdmI0Zld2NVdFX2s3YWpuTl9oS3lncGlwN3VWWXU0b19oVEktU2lNeF9jSVZPa29uRkdxeTdGcUhRUUJxZDA?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "La Chine confirme un sommet trilatéral entre Xi, Trump et Poutine - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0NTTUlNNWpnYlg0c1ROelhETHN4dlRad09wVEcwZ2FoX0RWbGdid3NQNHhqM3hqLUYzMXdEWDZkcHoxMjRFYXlHdEJrdFZIX3NBcVFrS1dRclpiSW80ODJEQjNleUx0NUhHbi14WGhOQ3BKRzRJTTJTRUwxM1BvV0cyM3F3Q3RLMjYyeERhQUsyRmo5bGdVRFNMNWpFUC0zS3pzRHAyaE5jaWJrUlA4VzZR?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Justitie waarschuwt Democrate voor “juridische gevolgen” bij toekomstige onderzoeken naar Trump - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT1VYU2ZpNVdmS1FzYlJXRmFoTmhKVk41eUtvb2tvZnItd2pVaGFLOUFGRE5pbGhTdjNxSHlrbzBBMDJjTTkySUd4YjEzV3VOd0dqWmtndlI1S25RcklGTWZIWFNmS0tyQ2lIRW81VUJ2d2hUWWxyamZvUnRReHhWZW42QkVzdXJiRFhaMzBvLS1SQzhxRW1ENDRYRjlsYjZZckFQNm9PRVFoRW9HRTVwUGNWZDB3WUo0NjVsVGh3LVA3VHBYMk5EbUdfaTE2MFB3N2x2R1AwRTBlSXc?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Oude berichten van Trump, McDonald’s en FBI leiden plots naar bizarre websites: “Kwaadwillenden misbruiken vergeten links” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQblY1NXFNVVRqY1JtU1l4a2pFaEI4cEJDMHQ3VHZ0NE5fQmcwYVlfRzdVNktxWHl1WjQwWl9WX3VncThqc0kwTE1kcTJJN3V1Tl90Tk15SVEzbnc1dXc0Vjh0V0l3U25RT0kxUjlrT1h6djZPWHphT2NRb3FhRE5mSzFhLWszakdxb3BUVUdOamJDWjRMcUFPWmZCUmVlZzZqcjl5VGVUMmRUOG9HV242d3FkcHRndVRfUkJadG1ZV0tnZElNN3NzcDdXZjRoQ2FfN1ZoRmJUdTZfYUpPNV82WVdBYnA5UmVN?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "'Regering-Trump wil Nvidia en OpenAI uitroepen tot nationale AI-kampioenen' - Tweakers",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTHhqU1FXR2xsNHU3bnU2azlNTUt2RElzNFpidHh6dG15OWluUVVpUUZCNWRrazhlVDVjejRoOGpKTGxSUWdvQU40cFNfaUdSUnRBRy1EbUdlTXdSQjFRa19FQ2xqa3UyMW16Vk9CLTg0N1F3ZTIzbW5tNXJ3RFB5eng0SXZ5REQwZDdUTE1tVGZQVURCWkNEbEljQ2VoRm1VaDh6Q2ZMaUxhT1M2Q1VHWXlKMA?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "Nouvel obstacle pour Donald Trump: une juge freine un autre projet, \"très important et magnifique\", du président américain - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQdnVRMkV6NU00Mk9fYkNEMDZnZjkyZEQwWkVMaEVtaWUxU2x3dDNxNkw1TzBmQWhDY1E5VXNacm03eXpDVGxQWGFvTlVkMjZaM1MwUlpRYl9UUzM2bmx6UlhiYWM3QkQwTnRqYkJlTElQMF8zblFTNEdrckVoTmJTQkpkend3Y21ULXdWMVpjeHFZV1VJZVVrTmpmcGtmRElVYnlaWUZJVVdvUVIxcVQwSGYwRnJNRXYxUk4tVFpmXzUtUGx0Ql9ac1laaXhXRzVMR0xEM2EwRmwwZVNSekVBQ08xNWFXamsxUkRSd2VnQVZSaGE5Y3dxNFd6MkZvcUJqc0RnS0c2dTNBcjVHYmYtV2JfVGVQS2s?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "La revue de presse : la rencontre entre Donald Trump, Vladimir Poutine et Xi Jinping, un nouveau Yalta - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNemVJam1BYmdLR0FidE96WkdUdV82dzQ4SlR6a3F0YmlTRW1SSVpYdURQT2R0MXVLYVZVY0FQVjFGdVhobGY5UFd0aGdwUHk5Q0drYUZUUGswa1NmUnV4QnVXRGtSNU5ZS2cwTUlFWE5MMnh5UmdnN3hKMW9qaThabmx6RTVySUx1Snc?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "‘Wat kan trilateraal overleg tussen Poetin, Trump en Xi teweegbrengen?’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zbTdDaHJKVXcxeHEtdkpHZENkTWNqMXdLU3JhYjFJdFoybFgwQ19qMUlDWEFiVlFzd1RVZUtNeFV2b3pia2s1VVJmYklFbFJ4Z0EzcFpDdXEweFdsN3hQdUJKOEU?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "La revue de presse : la rencontre entre Donald Trump, Vladimir Poutine et Xi Jinping, un nouveau Yalta ?",
+        "url": "https://www.rtbf.be/article/la-revue-de-presse-la-rencontre-entre-donald-trump-vladimir-poutine-et-xi-jinping-un-nouveau-yalta-11816057",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Revers électoral de Trump aux élections de mi-mandat : quel impact sur le reste du monde ?",
+        "url": "https://www.lalibre.be/economie/decideurs-chroniqueurs/2026/11/16/revers-electoral-de-trump-aux-elections-de-mi-mandat-quel-impact-sur-le-reste-du-monde-5NPEXBMUZFFUDDI54KQJQ5J4RY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Le projet “très important et magnifique” de Donald Trump compromis",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/16/le-projet-tres-important-et-magnifique-de-donald-trump-compromis-IENNADRYHJCMRHIN5QBGFUXJJY/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "La Chine confirme un sommet trilatéral entre Xi, Trump et Poutine jeudi: voici ce qui sera sur la table",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/16/la-chine-confirme-un-sommet-trilateral-entre-xi-trump-et-poutine-jeudi-3DL5DKTNGZBPBBQJZJW5H6DO4U/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Xi, Trump et Poutine vont se réunir jeudi: voici ce qui sera discuté",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/16/xi-trump-et-poutine-vont-se-reunir-jeudi-voici-ce-qui-sera-discute-LXKZVZ5QGVHL3GRSRUCFOEVKAM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouvel obstacle pour Donald Trump: une juge freine un autre projet, \"très important et magnifique\", du président américain",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/16/nouvel-obstacle-pour-donald-trump-une-juge-freine-un-autre-projet-tres-important-et-magnifique-du-president-americain-S7LXNFXPHJFJJFHDKFURWZBISE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "La Chine confirme un sommet trilatéral entre Xi, Trump et Poutine jeudi, pour discuter de la « paix mondiale » - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeTVjazNwdHFHTHNmUU53WTdEcTJEbGE4WDRmNjVpUl9LdXJpUy1aVVppRUJyR0VscUdfNnZieWNmMHpsY3U2QmVhR2VyZzZVWlk5Z1E5ZWNFa0xsdFNrNU9zZ0x6SEZSaG0wekhxVERrWVd3LUhLTzN3WngtbFZzd0U4MzRVb1FONC03THFRanVUUzVPRm5wajZCam9NekJVSUJ5ZWJfRHhweXVNRDR6OUpQVDY5OXZsdFZFMVdEbkVZZjFjSlE?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Le sommet Trump, Xi, Poutine confirmé : l’Europe face à son nouveau moment Yalta ? - Trends-Tendances",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOd3g3VThjY0duRG96SFY4WXBxampyYmVycVpkLTNWOG1zeXl4Z0dVenVZU282V2k1TWZzd2xwZS1ZdVdpekxBS0FTdzJ4OUh5d29kY0g3SUpjT3h5bS1aSG5wUXBzc2IzUE9VTVZaWklSQmNnTEMtajlIX245YzB4RFNkdmI0Zld2NVdFX2s3YWpuTl9oS3lncGlwN3VWWXU0b19oVEktU2lNeF9jSVZPa29uRkdxeTdGcUhRUUJxZDA?oc=5",
+        "source": "tendances_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 9,
+      "putin": 8,
+      "macron": 1,
+      "netanyahu": 2,
+      "zelensky": 2,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 30,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 4,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 15,
+      "putin": 12,
+      "macron": 2,
+      "netanyahu": 3,
+      "zelensky": 3,
+      "rutte": 0,
+      "von_der_leyen": 1,
+      "de_wever": 36,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 6,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 23,
+      "crime": 27,
+      "eu": 26,
+      "politics": 25,
+      "be_gov": 39,
+      "culture": 10,
+      "tech": 24,
+      "economy": 20,
+      "sports": 36,
+      "health": 14,
+      "climate": 4,
+      "migration": 1,
+      "education": 4,
+      "weather": 14
+    },
+    "wide_themes": {
+      "war": 39,
+      "crime": 33,
+      "eu": 34,
+      "politics": 36,
+      "be_gov": 50,
+      "culture": 13,
+      "tech": 37,
+      "economy": 26,
+      "sports": 52,
+      "health": 16,
+      "climate": 4,
+      "migration": 3,
+      "education": 7,
+      "weather": 21
+    }
   }
 ]
