@@ -136194,243 +136194,243 @@
   },
   {
     "date": "2026-11-18",
-    "generated_at": "2026-11-18T00:38:21+01:00",
-    "last_checked_at": "2026-11-18T00:38:21+01:00",
-    "total_articles": 18,
-    "trump_articles": 0,
-    "percentage": 0.0,
-    "core_percentage": 0.0,
-    "core_percentage_name": 0.0,
-    "trump_articles_expanded": 0,
-    "core_percentage_expanded": 0.0,
+    "generated_at": "2026-11-18T13:12:07+01:00",
+    "last_checked_at": "2026-11-18T13:12:07+01:00",
+    "total_articles": 625,
+    "trump_articles": 21,
+    "percentage": 3.4,
+    "core_percentage": 3.4,
+    "core_percentage_name": 3.4,
+    "trump_articles_expanded": 21,
+    "core_percentage_expanded": 3.4,
     "indirect_references": 0,
-    "wide_total_articles": 25,
-    "wide_trump_articles": 0,
-    "wide_percentage": 0.0,
-    "wide_trump_articles_expanded": 0,
-    "wide_percentage_expanded": 0.0,
-    "macro_percentage": 0.0,
-    "qualifying_outlets": 1,
+    "wide_total_articles": 867,
+    "wide_trump_articles": 26,
+    "wide_percentage": 3.0,
+    "wide_trump_articles_expanded": 26,
+    "wide_percentage_expanded": 3.0,
+    "macro_percentage": 2.7,
+    "qualifying_outlets": 27,
     "core_outlets_total": 19,
-    "core_outlets_active": 1,
-    "active_core_fraction": 0.053,
-    "cross_outlet_dup_headlines": 0,
-    "cross_outlet_dup_groups": 0,
-    "cross_outlet_dup_rate": 0.0,
-    "zone": "dry",
-    "label": "The zone is dry",
-    "narrative": "Below a normal president's ordinary day.",
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 42,
+    "cross_outlet_dup_groups": 21,
+    "cross_outlet_dup_rate": 6.7,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
     "rank": 1,
     "n_people": 17,
-    "dominance": 0.0,
-    "breadth": 0.0,
-    "deviation": 0.0,
-    "smoothed_pct": 1.59,
+    "dominance": 0.88,
+    "breadth": 0.76,
+    "deviation": 1.39,
+    "smoothed_pct": 2.07,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 4,
+    "theme_rank": 5,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "google_fr": {
         "fetched": 34,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 24,
+        "kept": 24,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.17
       },
       "google_nl_politics": {
-        "fetched": 48,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "fetched": 52,
+        "today": 9,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 15,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_nl_tech": {
-        "fetched": 42,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_nl_sport": {
-        "fetched": 70,
-        "today": 1,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_politics": {
-        "fetched": 33,
-        "today": 1,
-        "kept": 1,
+        "today": 29,
+        "kept": 24,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "google_nl_tech": {
+        "fetched": 46,
+        "today": 13,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 29,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 29,
+        "today": 4,
+        "kept": 3,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 33.33
+      },
       "google_fr_world": {
         "fetched": 70,
-        "today": 1,
-        "kept": 1,
+        "today": 14,
+        "kept": 10,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr_business": {
         "fetched": 70,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "standaard": {
-        "fetched": 100,
-        "today": 17,
-        "kept": 16,
+        "today": 23,
+        "kept": 19,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
+      "vrt": {
+        "fetched": 50,
+        "today": 46,
+        "kept": 46,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.17
+      },
+      "standaard": {
+        "fetched": 89,
+        "today": 32,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
       "hln": {
         "fetched": 30,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
       },
       "demorgen": {
-        "fetched": 28,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "fetched": 27,
+        "today": 19,
+        "kept": 19,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 10.53
       },
       "nieuwsblad": {
         "fetched": 50,
-        "today": 1,
-        "kept": 1,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "gva": {
         "fetched": 50,
-        "today": 2,
-        "kept": 2,
+        "today": 50,
+        "kept": 50,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "hbvl": {
         "fetched": 50,
-        "today": 1,
-        "kept": 1,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 22,
+        "kept": 22,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "knack": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "sporza": {
         "fetched": 20,
-        "today": 0,
-        "kept": 0,
+        "today": 15,
+        "kept": 15,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "bruzz": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 13,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "rtbf": {
         "fetched": 20,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 16,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
       },
       "lalibre": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 63,
+        "kept": 63,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 3.17
       },
       "lecho": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 43,
+        "kept": 41,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.88
       },
       "dhnet": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 97,
+        "kept": 97,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 3.09
       },
       "septsursept": {
         "fetched": 30,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
       },
       "bx1": {
         "fetched": 0,
@@ -136442,38 +136442,38 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 20,
+        "kept": 11,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 9.09
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 46,
+        "kept": 42,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.76
       },
       "sudinfo_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 39,
+        "kept": 39,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 5.13
       },
       "lavenir_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 26,
+        "kept": 26,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "rtl_g": {
-        "fetched": 100,
+        "fetched": 0,
         "today": 0,
         "kept": 0,
         "trump": 0,
@@ -136481,20 +136481,20 @@
         "share": 0
       },
       "trends_g": {
-        "fetched": 74,
-        "today": 0,
-        "kept": 0,
+        "fetched": 81,
+        "today": 12,
+        "kept": 3,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "tendances_g": {
-        "fetched": 70,
-        "today": 0,
-        "kept": 0,
+        "fetched": 71,
+        "today": 13,
+        "kept": 12,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       }
     },
     "core_sources": [
@@ -136518,77 +136518,361 @@
       "trends_g",
       "vrt"
     ],
-    "matches": [],
-    "wide_matches": [],
+    "matches": [
+      {
+        "title": "Trump, Poetin en Xi geven elkaar hand tijdens fotomoment voor galadiner",
+        "url": "https://vrtnws.be/p.7nXymO5bA",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "DS Video | Trump verwelkomd door Xi in Shenzen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT0JoN2xGb01YZGM0YmI5V1NEdTBwTzhma2huLUNDM1RqSEdMb3czYTVBNE9FMGlIR1BRWlVEUV9aaVhiRzlfRk8waU9DUGVBaXBqRGUtdVE0TE5VNG1mOFJiejFwT1VDVUZ6RGwwWVFvQTBfU01hX1p4amZtRjlneHJOVHBvby0tWWlfLThZQTNHVmhwUFRJQ2tZUWw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Poetin schudden elkaar de hand, historisch overleg met Chinese president volgt morgen - Kremlin: “Grote gevolgen voor wereldorde”",
+        "url": "https://www.hln.be/buitenland/trump-en-poetin-schudden-elkaar-de-hand-historisch-overleg-met-chinese-president-volgt-morgen-kremlin-grote-gevolgen-voor-wereldorde~adb182cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Kritische vraag valt verkeerd bij Trump: president haalt kleinerend uit naar journaliste",
+        "url": "https://www.hln.be/buitenland/kijk-kritische-vraag-valt-verkeerd-bij-trump-president-haalt-kleinerend-uit-naar-journaliste~ad4f2963/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump, Poetin en Xi schudden elkaar de hand tijdens fotomoment voor galadiner APEC-top",
+        "url": "https://www.demorgen.be/nieuws/live-trump-poetin-en-xi-schudden-elkaar-de-hand-tijdens-fotomoment-voor-galadiner-apec-top~b01082b6/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "De ontmoeting tussen Xi, Trump en Poetin levert misschien geen doorbraken op, maar heeft wel symbolische waarde",
+        "url": "https://www.demorgen.be/nieuws/de-ontmoeting-tussen-xi-trump-en-poetin-levert-misschien-geen-doorbraken-op-maar-heeft-wel-symbolische-waarde~baa1b3e2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE. Trump aangekomen in China voor historische topontmoeting - Poetin heeft hooggespannen verwachtingen: “Grote potentiële voordelen”",
+        "url": "https://www.hbvl.be/buitenland/live.-trump-aangekomen-in-china-voor-historische-topontmoeting-poetin-heeft-hooggespannen-verwachtingen-grote-potentiele-voordelen/164727297.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Xi, Poutine et Trump autour de la même table : Chine, Russie et Etats-Unis à l'aube d'une première historique sous le signe de la paix mondiale ?",
+        "url": "https://www.rtbf.be/article/xi-poutine-et-trump-autour-de-la-meme-table-chine-russie-et-etats-unis-a-l-aube-d-une-premiere-historique-sous-le-signe-de-la-paix-mondiale-11816911",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Midterms: nouveau revers cuisant pour Donald Trump dans l'Etat qui a été ébranlé par un scandale",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/18/elections-de-mi-mandat-aux-etats-unis-les-democrates-decrochent-en-alaska-le-dernier-siege-au-senat-et-etendent-leur-majorite-2TZAJBS2NFCLRCJUYAX75RFCKA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Avant un sommet inédit avec Trump, Xi et Poutine se sont déjà entretenus: ce que l'on sait",
+        "url": "https://www.lalibre.be/international/asie/2026/11/18/avant-un-sommet-inedit-avec-trump-xi-et-poutine-se-sont-deja-entretenus-ce-que-lon-sait-EXWB43IC7ZCHXHR2TQOTTRBJJI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump renonce à la nomination controversée d'Heidi Overton à la tête de la FDA - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd3BSOHZIOGQ3a3NhMW1ab3BuMkg1bEx5cUNPYklTaC1kTGlHM2VXM3p5NUVrM0JIUnBIbWFWSElkQklfRkhLTG92WkxpdGl0dGhlSklvOFFpS0cwaFZsanZDc1owTTFFN0lMbm9mMEdxaF92Rlh3eVZDQjlZRUYxYlNfNmlteklXVDlibWJRS0ZmeXFuQWZwTHlOdEhhZWFXWVBxMDUyVFBUUGNlS01Ca0Nza2lRQzNIRXc5eHY1dTNCNjR0aEZaajYySW41VmRoazFxVg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Une vente d'actions Nvidia dans le portefeuille de Trump après sa visite d’État en Chine interpelle - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNenBqV2JYTU9FcExOSzVaazRnbmhpT3M1bWUwRFBBSnFhX1Z3QmQwR0RxNTVVSVJ1MXdXeVR1M3lnVVRhSHVpbG15ejVfbjZfUHlZVThNeUoxdl93WGNqRWx5MUc2aW56RldYRmdMLWlmMkgzck90cXdIb1lKa2JJVUJsbnk1LU5DRDdsR014SnFyb21jdW10UVdXeHRuTVpxYjE2MURBeXNobk9QVm1Oc2drOEFNWkJJd19YRXlTa0lJVEt5OC1zWlA2QVlJYi1QVUFMMWgyWHZGNmEybVh5TDdKM0w?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump, accueilli par Xi Jinping, est arrivé en Chine pour un sommet inédit avec Xi et Poutine",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/18/donald-trump-est-arrive-en-chine-pour-un-sommet-inedit-avec-xi-et-poutine-DQYXVOPFVNBWVFVJVDOPK4XQEM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Xi reçoit Poutine avant un sommet inédit avec Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/18/xi-recoit-poutine-avant-un-sommet-inedit-avec-trump-4PYZQGABT5CZHCKPGDVKL6YVBI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau revers pour Donald Trump: les démocrates remportent le dernier siège au Sénat et obtiennent leur plus large majorité en 16 ans",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/18/nouveau-revers-pour-donald-trump-les-democrates-remportent-le-dernier-siege-au-senat-et-obtiennent-leur-plus-large-majorite-en-16-ans-AOXQEWYJRRHD7D4MSTPMN4DVXE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump et Poutine se serrent la main en Chine, première rencontre en plus d’un an",
+        "url": "https://www.7sur7.be/monde/trump-et-poutine-se-serrent-la-main-en-chine-premiere-rencontre-en-plus-dun-an~a26a6ef5/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Nvidia klopt alle verwachtingen, Huang wil terugkeren als CEO | Belgische economie bij traagste groeiers eurozone | Top Trump, Xi & Poetin van start - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNdkg0cU9xX3VZUEVvS243NmJPMlNwdzczcFhZQVgybUQ0N3h1aFR6d2NaS2tsNGhUOVdCaS1pVHZwSEU5NWZ6M2xNTjNMTmx5MGl3aF8zS0wxY2FJX2p6Q2ktX01qVVVNeEhOVzY3UWhTRGx3OXotYjRDZXptRDl5U0E2cE1WT0lHaWpzc2dYMm12VUtsamFhQ0VlODhwZHBFS3lFUDNqR0JrTjd4WWE5N19haVZscFUzeF9ISjJlNjZTV093ZDNocTlrSElmQUxYNDlBYVlUczBubTY2T19HMkNFeFdwZk1XaU9FMkRHUExiR01Nd3d0b0xMaVVGUk5XbVZUMjB1aEFHZE9hSFhXVWZ6TEtKZVU?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping accueille Trump à son arrivée à l’aéroport de Shenzhen - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTF91V2JwQmFCbHBWZXRqQk9lQzZCMTN5Uk13WU1pU2h4UEJzSUZsN1p5XzEtNTVGTTNVeHZjVDBiNFp1RkVPcm9DR0VmNHZDaGpNM3NrTE1VSEpOY1FQMXJBdkhiaFNuaVNBYlVuWGNWT0djZjZqM0I0TVl0UWtxVFc5NTNnSVp0bkhYSGF0dk54LU9LUXFQNTZjM0pXVVZfdmJaVTd6RFFRVVpK?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump rencontre Xi Jinping et Vladimir Poutine en Chine la veille d’un sommet trilatéral (photos) - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaXRvTGRtRXR1OVU0U1lRRGJUNkhMMXJmdWppckI4NHpMSldNNEdqR1ozN01mSEViaXJJMnp2RDRUMWxIVDN5VG94M05QQ1JsMmVJU25FUmtUTlFqek9PSnVMb0ExaHNRV0Z3bDdIT2d1QlV6Z2tRVnFuN3VmMnI2UnppS0JKQzZ5bkhMNFVZZ3hMdWw3QXJ6VkFYWDE1WTlQSEZGbDlGUzdnZzloUVRHaFhTZW0yYkxtM0x0WDBuQ2djdw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump est arrivé en Chine pour un sommet inédit avec Xi Jinping et Vladimir Poutine - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc1VLTVE1a3RlNEQxQjVmQVZLVzZkcTdYcnB3VXRiWnRVV1k5X2xXRlpTQzVGT2tHR3duRURYd3FkbXZfRTZOTF9kUGZGU19YWlpCeW5aS1A5a3ZodlF5OVNtNHVxZHlxR25pWF9mVXZVSEFLU2otUXF2SGhqRHBkNEpjUzU5M0NtZ2o5TFAxeHBCdDZRbEJnT1dpcU15N0ZXYmJmQmFucmFWOEk0VVlXclJtZDlrVWpwYktnaW03aks4ajA?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump en Chine pour un sommet inédit avec Xi Jinping et Vladimir Poutine - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMXhOaUxJWFN6NHcyenpZUW5reE9vRE16VjMwQUYzNHJfMDJ0X0VROC1fMk5IRm1rM3Vua0EzUGRyRnBoVmo0b3hGa2dsTERiZ1RvVjIxSVA2bV9RWnl5NW9rSUUxekpXVWRSR2xmbDdNSzdZemNqRkdMZXdZYWRUOXIxY29ybFFLUzR0NWF0MTk4NVppWF9DSU11RHNLVHl6bEV3MXpHaEtqaHNYZHp3U0xRa2thTDlRWXNydVBTWHEzY1VFQWhuLUd1TEthOTRIeGtnUFI4eDZRWE9TN0ZWLTI4ZkdaZkpHMjhqNDQ5NktPR254bVlmV2x0OUVpaWM4eVVZ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump en Poetin schudden elkaar de hand, historisch overleg met Chinese president volgt morgen - Kremlin: “Grote gevolgen voor wereldorde” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNbm15SEdweDdiUFBWLUYzLXdQcnB3eTd0N2poT29JZWdOb2RwR3JPSm9yNGpIMFJnTk1wWW1yOFl6a2t2djRvNkhMdGY2MTdyaTdxRVJXU1RJVnJFeG1qZlFpb1M1MVRhZUd5V0tzbnVLMUd5YWdIXzF5MTMtQjBBd2p5NkMxZ2tLckdTR0lRYkZnMTRkM2d4MWJpRERtR3FKQlpNTlpXSnJxQWlLV2Fxemhhd1pneE13T1hJN3pVdmJVbDBCeElUSmpmbTNzOHZjNVBzTnoteC1NXzA5N19yNVZWMzhYZjh3UmduNzAzaXZUNTVYSUdCNExXdWJjajJWQnc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump est arrivé en Chine pour un sommet inédit avec Xi Jinping et Vladimir Poutine (photos) - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNWVHaU4yQ3dDS3hZM19LM2VQOXJxTXl4T1lMbEx0VXJYOThlMGdJMjZhMF9LdUJjVkk1Ym9aUlVzSXJiNE85QndlaWtGWFFxZWdMaGk4OEVIUXFrX3ZfRkFXV1o0ZDUyNHFBVTRTT2pZMXZKRUtfdU1qVDNOQlluSHhfODlRQUhzQjJZZjdwTkNmUmFxbmQ2UWNNc09BTWxRbEE1QXdsT0tXNWd2OXY3SWhENFNJX0hWbkFMZ0tn?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump door Xi onthaald op luchthaven, en dat is een primeur • Poetin ziet groot potentieel in gesprek met Amerikaanse en Chinese president: ‘Blij hier onder vrienden te zijn’ - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOWXZVZkROZE5DY3JFSnV5T3Z5WTdTU05Dc0FLU1dhX2FSd1lCUktXOTRiSkNvMHNKNGhaSG1Md2dFRE9kZEQ1Szd2aWtvdFdTWkxRREE0YjhLcmVuQzFqZTJPUzJPNFNOTFpwQkdxbjhjcEh0OUpzMWJMeVUwNDRJakc0bUJoZnlpajNoMlZ6M0tBcVBwaTFaZUhnU3hIRjdCVUdzQjY2aDYtR01EcWFFT1pOUUc3bmp0TGZnaFVreEowQU90N1JacFFyelY5WkFwWG1UbWVfMjh5cEJJbkR2NlhNRHVxZFEtbERtRi16RWJPRU5kcklST1BUdWpDdFBMVTMxWUljREdhNEpma28tald4bUd1amlTUXZxaGZsSUtXZVJZVHVwUUREVkVQdnN1NzZmR3NBUHpxUQ?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Trump beledigt journaliste van kleur na vraag over werkzaamheden aan Witte Huis: “Jij zou vuile of kapotte ramen niet opmerken” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxORGNINUhkS1VzOXdJR0ZtZTFvbDFGLWdPOUFCdjFDRW03UmRmLVJDZ3YxSGZmZi04X3paQzhsdWJ6SUxPRzJ0Y2p1bk1Nb3JyOW41ams2R3JySU5SdGx4VVRxT2FkMVFVV2lrUjEtRTFmcXFqSWY3VEdUdVg5dVU1Uk1xTkdrQ204N3dld1l2ekVYV016bldDOUVnLXl1UGVUUEZmSHQ5S2h1bG5WeE9YZ1lpUmdQdTVPWXRINExoeEY3Q2YwQ2dEWlZmY05KbENXMzEyaXNDeWUzSDNaWUpzYlZoSXdtRDJNUk04T1BWcG0wTzRfLWo2d0hjdlZiZw?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "La Presse en Chine | Carney a rencontré Trump sur le terrain de Xi - La Presse",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOGhWX3pVdzkxWk9kQWVnTVJSVFhqRUpzQU0tUzJqUWE0ZTBkMFFXeWRxR0ctZ1E1em5iR281VnVNZ3FSOUQ0RDQyU0VCc2VBV2did2NwdDZXVXJRbEpEa0JFYlBLOFlKTzdlZnV0d2Z1by12TVl6UlZSNGlCVnhhSFJJVDRtNTF4ZW5QZUdtb1FFc0RkVTBqNWFfU0JmUmI5akNfTzZuOXEybnp4eHFUbVRQVUhxanhQeHJJSFQ5Zm5pdw?oc=5",
+        "source": "google_fr_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trump, Poetin en Xi geven elkaar hand tijdens fotomoment voor galadiner",
+        "url": "https://vrtnws.be/p.7nXymO5bA",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "DS Video | Trump verwelkomd door Xi in Shenzen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT0JoN2xGb01YZGM0YmI5V1NEdTBwTzhma2huLUNDM1RqSEdMb3czYTVBNE9FMGlIR1BRWlVEUV9aaVhiRzlfRk8waU9DUGVBaXBqRGUtdVE0TE5VNG1mOFJiejFwT1VDVUZ6RGwwWVFvQTBfU01hX1p4amZtRjlneHJOVHBvby0tWWlfLThZQTNHVmhwUFRJQ2tZUWw?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump en Poetin schudden elkaar de hand, historisch overleg met Chinese president volgt morgen - Kremlin: “Grote gevolgen voor wereldorde”",
+        "url": "https://www.hln.be/buitenland/trump-en-poetin-schudden-elkaar-de-hand-historisch-overleg-met-chinese-president-volgt-morgen-kremlin-grote-gevolgen-voor-wereldorde~adb182cd/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "KIJK. Kritische vraag valt verkeerd bij Trump: president haalt kleinerend uit naar journaliste",
+        "url": "https://www.hln.be/buitenland/kijk-kritische-vraag-valt-verkeerd-bij-trump-president-haalt-kleinerend-uit-naar-journaliste~ad4f2963/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump, Poetin en Xi schudden elkaar de hand tijdens fotomoment voor galadiner APEC-top",
+        "url": "https://www.demorgen.be/nieuws/live-trump-poetin-en-xi-schudden-elkaar-de-hand-tijdens-fotomoment-voor-galadiner-apec-top~b01082b6/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "De ontmoeting tussen Xi, Trump en Poetin levert misschien geen doorbraken op, maar heeft wel symbolische waarde",
+        "url": "https://www.demorgen.be/nieuws/de-ontmoeting-tussen-xi-trump-en-poetin-levert-misschien-geen-doorbraken-op-maar-heeft-wel-symbolische-waarde~baa1b3e2/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE. Trump aangekomen in China voor historische topontmoeting - Poetin heeft hooggespannen verwachtingen: “Grote potentiële voordelen”",
+        "url": "https://www.hbvl.be/buitenland/live.-trump-aangekomen-in-china-voor-historische-topontmoeting-poetin-heeft-hooggespannen-verwachtingen-grote-potentiele-voordelen/164727297.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Xi, Poutine et Trump autour de la même table : Chine, Russie et Etats-Unis à l'aube d'une première historique sous le signe de la paix mondiale ?",
+        "url": "https://www.rtbf.be/article/xi-poutine-et-trump-autour-de-la-meme-table-chine-russie-et-etats-unis-a-l-aube-d-une-premiere-historique-sous-le-signe-de-la-paix-mondiale-11816911",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Midterms: nouveau revers cuisant pour Donald Trump dans l'Etat qui a été ébranlé par un scandale",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/18/elections-de-mi-mandat-aux-etats-unis-les-democrates-decrochent-en-alaska-le-dernier-siege-au-senat-et-etendent-leur-majorite-2TZAJBS2NFCLRCJUYAX75RFCKA/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Avant un sommet inédit avec Trump, Xi et Poutine se sont déjà entretenus: ce que l'on sait",
+        "url": "https://www.lalibre.be/international/asie/2026/11/18/avant-un-sommet-inedit-avec-trump-xi-et-poutine-se-sont-deja-entretenus-ce-que-lon-sait-EXWB43IC7ZCHXHR2TQOTTRBJJI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump renonce à la nomination controversée d'Heidi Overton à la tête de la FDA - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd3BSOHZIOGQ3a3NhMW1ab3BuMkg1bEx5cUNPYklTaC1kTGlHM2VXM3p5NUVrM0JIUnBIbWFWSElkQklfRkhLTG92WkxpdGl0dGhlSklvOFFpS0cwaFZsanZDc1owTTFFN0lMbm9mMEdxaF92Rlh3eVZDQjlZRUYxYlNfNmlteklXVDlibWJRS0ZmeXFuQWZwTHlOdEhhZWFXWVBxMDUyVFBUUGNlS01Ca0Nza2lRQzNIRXc5eHY1dTNCNjR0aEZaajYySW41VmRoazFxVg?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Une vente d'actions Nvidia dans le portefeuille de Trump après sa visite d’État en Chine interpelle - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNenBqV2JYTU9FcExOSzVaazRnbmhpT3M1bWUwRFBBSnFhX1Z3QmQwR0RxNTVVSVJ1MXdXeVR1M3lnVVRhSHVpbG15ejVfbjZfUHlZVThNeUoxdl93WGNqRWx5MUc2aW56RldYRmdMLWlmMkgzck90cXdIb1lKa2JJVUJsbnk1LU5DRDdsR014SnFyb21jdW10UVdXeHRuTVpxYjE2MURBeXNobk9QVm1Oc2drOEFNWkJJd19YRXlTa0lJVEt5OC1zWlA2QVlJYi1QVUFMMWgyWHZGNmEybVh5TDdKM0w?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump, accueilli par Xi Jinping, est arrivé en Chine pour un sommet inédit avec Xi et Poutine",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/18/donald-trump-est-arrive-en-chine-pour-un-sommet-inedit-avec-xi-et-poutine-DQYXVOPFVNBWVFVJVDOPK4XQEM/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Xi reçoit Poutine avant un sommet inédit avec Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/18/xi-recoit-poutine-avant-un-sommet-inedit-avec-trump-4PYZQGABT5CZHCKPGDVKL6YVBI/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Nouveau revers pour Donald Trump: les démocrates remportent le dernier siège au Sénat et obtiennent leur plus large majorité en 16 ans",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/18/nouveau-revers-pour-donald-trump-les-democrates-remportent-le-dernier-siege-au-senat-et-obtiennent-leur-plus-large-majorite-en-16-ans-AOXQEWYJRRHD7D4MSTPMN4DVXE/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Trump et Poutine se serrent la main en Chine, première rencontre en plus d’un an",
+        "url": "https://www.7sur7.be/monde/trump-et-poutine-se-serrent-la-main-en-chine-premiere-rencontre-en-plus-dun-an~a26a6ef5/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Nvidia klopt alle verwachtingen, Huang wil terugkeren als CEO | Belgische economie bij traagste groeiers eurozone | Top Trump, Xi & Poetin van start - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNdkg0cU9xX3VZUEVvS243NmJPMlNwdzczcFhZQVgybUQ0N3h1aFR6d2NaS2tsNGhUOVdCaS1pVHZwSEU5NWZ6M2xNTjNMTmx5MGl3aF8zS0wxY2FJX2p6Q2ktX01qVVVNeEhOVzY3UWhTRGx3OXotYjRDZXptRDl5U0E2cE1WT0lHaWpzc2dYMm12VUtsamFhQ0VlODhwZHBFS3lFUDNqR0JrTjd4WWE5N19haVZscFUzeF9ISjJlNjZTV093ZDNocTlrSElmQUxYNDlBYVlUczBubTY2T19HMkNFeFdwZk1XaU9FMkRHUExiR01Nd3d0b0xMaVVGUk5XbVZUMjB1aEFHZE9hSFhXVWZ6TEtKZVU?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Xi Jinping accueille Trump à son arrivée à l’aéroport de Shenzhen - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTF91V2JwQmFCbHBWZXRqQk9lQzZCMTN5Uk13WU1pU2h4UEJzSUZsN1p5XzEtNTVGTTNVeHZjVDBiNFp1RkVPcm9DR0VmNHZDaGpNM3NrTE1VSEpOY1FQMXJBdkhiaFNuaVNBYlVuWGNWT0djZjZqM0I0TVl0UWtxVFc5NTNnSVp0bkhYSGF0dk54LU9LUXFQNTZjM0pXVVZfdmJaVTd6RFFRVVpK?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump rencontre Xi Jinping et Vladimir Poutine en Chine la veille d’un sommet trilatéral (photos) - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaXRvTGRtRXR1OVU0U1lRRGJUNkhMMXJmdWppckI4NHpMSldNNEdqR1ozN01mSEViaXJJMnp2RDRUMWxIVDN5VG94M05QQ1JsMmVJU25FUmtUTlFqek9PSnVMb0ExaHNRV0Z3bDdIT2d1QlV6Z2tRVnFuN3VmMnI2UnppS0JKQzZ5bkhMNFVZZ3hMdWw3QXJ6VkFYWDE1WTlQSEZGbDlGUzdnZzloUVRHaFhTZW0yYkxtM0x0WDBuQ2djdw?oc=5",
+        "source": "lesoir_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump est arrivé en Chine pour un sommet inédit avec Xi Jinping et Vladimir Poutine - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc1VLTVE1a3RlNEQxQjVmQVZLVzZkcTdYcnB3VXRiWnRVV1k5X2xXRlpTQzVGT2tHR3duRURYd3FkbXZfRTZOTF9kUGZGU19YWlpCeW5aS1A5a3ZodlF5OVNtNHVxZHlxR25pWF9mVXZVSEFLU2otUXF2SGhqRHBkNEpjUzU5M0NtZ2o5TFAxeHBCdDZRbEJnT1dpcU15N0ZXYmJmQmFucmFWOEk0VVlXclJtZDlrVWpwYktnaW03aks4ajA?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump en Chine pour un sommet inédit avec Xi Jinping et Vladimir Poutine - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMXhOaUxJWFN6NHcyenpZUW5reE9vRE16VjMwQUYzNHJfMDJ0X0VROC1fMk5IRm1rM3Vua0EzUGRyRnBoVmo0b3hGa2dsTERiZ1RvVjIxSVA2bV9RWnl5NW9rSUUxekpXVWRSR2xmbDdNSzdZemNqRkdMZXdZYWRUOXIxY29ybFFLUzR0NWF0MTk4NVppWF9DSU11RHNLVHl6bEV3MXpHaEtqaHNYZHp3U0xRa2thTDlRWXNydVBTWHEzY1VFQWhuLUd1TEthOTRIeGtnUFI4eDZRWE9TN0ZWLTI4ZkdaZkpHMjhqNDQ5NktPR254bVlmV2x0OUVpaWM4eVVZ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
     "comparisons": {
-      "trump": 0,
-      "putin": 0,
-      "macron": 0,
-      "netanyahu": 0,
+      "trump": 21,
+      "putin": 18,
+      "macron": 1,
+      "netanyahu": 1,
       "zelensky": 0,
       "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 0,
+      "von_der_leyen": 1,
+      "de_wever": 1,
+      "bouchez": 1,
       "magnette": 0,
       "prevot": 0,
       "rousseau": 0,
-      "francken": 0,
+      "francken": 1,
       "crevits": 0,
       "jambon": 0,
       "van_peteghem": 0,
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 0,
-      "putin": 0,
-      "macron": 0,
-      "netanyahu": 0,
+      "trump": 26,
+      "putin": 21,
+      "macron": 1,
+      "netanyahu": 2,
       "zelensky": 0,
       "rutte": 0,
-      "von_der_leyen": 0,
-      "de_wever": 0,
-      "bouchez": 0,
+      "von_der_leyen": 1,
+      "de_wever": 1,
+      "bouchez": 3,
       "magnette": 0,
       "prevot": 0,
-      "rousseau": 0,
-      "francken": 0,
-      "crevits": 0,
+      "rousseau": 1,
+      "francken": 1,
+      "crevits": 1,
       "jambon": 0,
       "van_peteghem": 0,
-      "verlinden": 0
+      "verlinden": 1
     },
     "themes": {
-      "war": 0,
-      "crime": 0,
-      "eu": 1,
-      "politics": 1,
-      "be_gov": 0,
-      "culture": 2,
-      "tech": 0,
-      "economy": 0,
-      "sports": 0,
-      "health": 0,
-      "climate": 0,
-      "migration": 0,
-      "education": 0,
-      "weather": 0
+      "war": 20,
+      "crime": 23,
+      "eu": 27,
+      "politics": 26,
+      "be_gov": 20,
+      "culture": 10,
+      "tech": 11,
+      "economy": 14,
+      "sports": 24,
+      "health": 7,
+      "climate": 7,
+      "migration": 2,
+      "education": 9,
+      "weather": 6
     },
     "wide_themes": {
-      "war": 0,
-      "crime": 0,
-      "eu": 1,
-      "politics": 2,
-      "be_gov": 0,
-      "culture": 2,
-      "tech": 0,
-      "economy": 0,
-      "sports": 1,
-      "health": 0,
-      "climate": 0,
-      "migration": 0,
-      "education": 0,
-      "weather": 0
+      "war": 27,
+      "crime": 31,
+      "eu": 40,
+      "politics": 38,
+      "be_gov": 26,
+      "culture": 14,
+      "tech": 17,
+      "economy": 19,
+      "sports": 45,
+      "health": 11,
+      "climate": 8,
+      "migration": 3,
+      "education": 12,
+      "weather": 12
     }
   }
 ]
