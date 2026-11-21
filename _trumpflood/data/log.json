@@ -138018,5 +138018,598 @@
       "education": 1,
       "weather": 1
     }
+  },
+  {
+    "date": "2026-11-21",
+    "generated_at": "2026-11-21T12:43:21+01:00",
+    "last_checked_at": "2026-11-21T12:43:21+01:00",
+    "total_articles": 481,
+    "trump_articles": 13,
+    "percentage": 2.7,
+    "core_percentage": 2.7,
+    "core_percentage_name": 2.7,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 2.7,
+    "indirect_references": 0,
+    "wide_total_articles": 686,
+    "wide_trump_articles": 19,
+    "wide_percentage": 2.8,
+    "wide_trump_articles_expanded": 19,
+    "wide_percentage_expanded": 2.8,
+    "macro_percentage": 3.0,
+    "qualifying_outlets": 26,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 18,
+    "cross_outlet_dup_groups": 9,
+    "cross_outlet_dup_rate": 3.7,
+    "zone": "wet",
+    "label": "The zone is getting wet",
+    "narrative": "One of the day's top two figures.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 0.35,
+    "breadth": 0.39,
+    "deviation": 1.1,
+    "smoothed_pct": 3.13,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 7,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "google_nl_politics": {
+        "fetched": 54,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 17,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 21,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
+      },
+      "google_nl_tech": {
+        "fetched": 38,
+        "today": 6,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 24,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 33,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 7,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 10,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 10.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 25,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 63,
+        "kept": 59,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 19,
+        "kept": 19,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 21.05
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 3,
+        "trump_expanded": 3,
+        "share": 6.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 27,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.7
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 28,
+        "kept": 28,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.57
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 45,
+        "kept": 44,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.27
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 56,
+        "kept": 56,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 1.79
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 16,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 11,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 15,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 10,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 12,
+        "kept": 10,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 82,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Live - Trump viseert Amerikaanse bedrijven die AI-datacenters in het buitenland bouwen • Grote tekortkomingen bij opleiding ICE-agenten",
+        "url": "https://www.demorgen.be/snelnieuws/live-grote-tekortkomingen-bij-opleiding-ice-agenten~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump teleurgesteld in Musk: ‘Mensen die afscheid nemen van MAGA, vergaat het meestal niet zo goed’",
+        "url": "https://www.demorgen.be/snelnieuws/trump-teleurgesteld-in-musk-mensen-die-afscheid-nemen-van-maga-vergaat-het-meestal-niet-zo-goed~b31d3e4d/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Niet alleen de kiezers lopen weg bij Trump, ook de bedrijven kiezen eieren voor hun geld",
+        "url": "https://www.demorgen.be/nieuws/niet-alleen-de-kiezers-lopen-weg-bij-trump-ook-de-bedrijven-kiezen-eieren-voor-hun-geld~b6733bfb/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump was de laatste ademtocht van het racistische Amerika’: filosoof en Amerika-kenner Frank Albers meet de temperatuur van de democratie",
+        "url": "https://www.demorgen.be/niet-te-missen/trump-was-de-laatste-ademtocht-van-het-racistische-amerika-filosoof-en-amerika-kenner-frank-albers-meet-de-temperatuur-van-de-democratie~b3b760b8/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump freewheelt er op los tijdens anderhalf uur durende persconferentie na zijn reis naar China",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-freewheelt-er-op-los-tijdens-anderhalf-uur-durende-persconferentie-na-zijn-reis-naar-china/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Zelensky noemt Poetin “een moordenaar” nadat Trump de Russische president “mijn vriend” noemde",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-zelensky-noemt-poetin-een-moordenaar-nadat-trump-de-russische-president-mijn-vriend-noemde/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump freewheelt er op los tijdens anderhalf uur durende persconferentie na zijn reis naar China",
+        "url": "https://www.hbvl.be/buitenland/trump-freewheelt-er-op-los-tijdens-anderhalf-uur-durende-persconferentie-na-zijn-reis-naar-china/164894146.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "‘MAGA is dood. MAGA is gay. MAGA is voor losers’: hoe Donald Trump zijn ‘bro’s’ verliest - Knack",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ00yQU5hSVYtSXR4TWdHckV2c1pwZjQxRnRvTFNKZzVhYkZuZzJSSFZuWHNaeHBWR2c2dElXRnJvLUpzQUFqSHlDbjNzRkRBX3E3R1p4NFBQV2FyczdOYWdCMkg2SHJVSThXbU5TNG9jYmxORTJEWmcxclVTUHowamVhREZLUV9BTHdabTNNTlp4OVlnaEQ2ajVmdURwMUlWQXp6WjY3NG5kUHZiVUNTTXlrS1RUbzg?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Comment Stephen Miller est devenu le conseiller de Donald Trump \"le plus influent de l’histoire moderne\"",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/21/comment-stephen-miller-est-devenu-le-conseiller-de-donald-trump-le-plus-influent-de-lhistoire-moderne-CERJZJVZHNGSTGC6RVF2GOIYZI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'IPO d'Anthropic suffit-elle à rassurer? | L'Europe face au trio Trump-Xi-Poutine | Black Friday: et si on achetait belge? - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNLXJSN0lKakNZWGp0V0RoemlPdDduS2VZQzVXOFFURVlQbTRNWVByMUx5MXVVZnVIZWdJVjE1Z3NWbHZ3ZEt0OHRoN0FEZjRNOEdtOVZHWmhpd3VnWUE4YzhXVWRLMDlTazV4TVJHZTVONnROQ1RyOVlNQUc3VEZZbGwzeDl2VC1tTVAtOEUyT3RXVkpvNWFfNTZMZ0ZqOGI1TGFfRzg3dkNTRU9oYmd5bng0LXNqald4N2l2QWlYRFpTT0g5UW8zR3FGeFh4T3pUek9fbXBvVVlaUzRkbTR6QlAtdklRR2EwMlR1TWdjaExKdmFyanFlUTI3UzFSQ1lVRnhPbnZhV252VnZRVzJXdENQUTRsVGpQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Zelensky qualifie Poutine d'\"assassin\" après les propos de Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/21/guerre-en-ukraine-zelensky-qualifie-poutine-dassassin-apres-les-propos-de-trump-NBRZ2TAVTFG4BACJMDGQ4VLRD4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Un préjudice irréparable”: nouveau revers judiciaire pour Trump et la construction de son arc de triomphe",
+        "url": "https://www.7sur7.be/monde/un-prejudice-irreparable-nouveau-revers-judiciaire-pour-trump-et-la-construction-de-son-arc-de-triomphe~a8d3383d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky qualifie Poutine d’“assassin” après les propos de Trump",
+        "url": "https://www.7sur7.be/monde/zelensky-qualifie-poutine-dassassin-apres-les-propos-de-trump~af60896a/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Trump freewheelt er op los tijdens anderhalf uur durende persconferentie na zijn reis naar China - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcUZFTXBoVnpFdkFNQ2c2ZFpxREk3YjZmOVlJREViOEd2SDJZVU9vUjBWNzVsWmhBLW1oekJYY251YU1VemdlZjVma2VQVVFkODY1Q19oTGpUcC1YRXdGMjF2TUxTQVVOQS00dmpnQk1YZnBxR3hhbkRMbnRMZ0U4ZVktWnJmNWJtQ0FocS1mRlZZVlQ1M1JZUTdBeTM2dlF6ZWZDclViYnNuLTJheVRFUlZ2SkxLSEp2ZDNNbTRaanIxUFB1VXRVM3hOMThYYnZ5aGMxal9GZW9EdjBualRaRDN3?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Zelensky qualifie Poutine d'\"assassin\" après les propos de Trump - DHnet",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVTkzRzFJYTBkMGFpZGhYTzNuazRaMS1WSmNfUGVlZkxFVU9tRHBjVWJoVFJwbk1rNk9RaklwR3Y1VTRjRHVCZnQ0T3ZGLVpZeUhHWkpsVzlueVRzdUVZMmpfaVRzOWNMTE1PazYwLTg4eTRMNXZmc1JwWmJFWTJPSk5Zc2MyeG1KTER6UjA1cHplcDVSUk40V29GZnZ1Z1hZaklGdXpRcTMyMzktc1c5YXFIckJMa1NmNENVNkY0NVJBNFlFNHFlNzBhVEdva29vNjhKZ3g5RFAtWDl6M003TVRlaXc?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Elon Musk is niet de eerste techmiljardair die plots afstand neemt van Trump: “Ik ben al heel mijn leven een Democraat” - Nieuwsblad",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOamIzRFJHdFZqZHk2WjczQ2xBbTRVb2tQV0FfWG9RdlhndXoxVVo5NEhTc3FDaDJ3OWwzVFhVMVB4RnV2bnV0ZnZNTVNTMUsxbmk4ZVZpMm0xRHFrMDV5SnlEOUJjMUpEVlAyQVlmTnVzcG1hZkJMZjl2ekpkcjRYMmJab3VYaGVuZG1hbWRsQXA3RDg0cWk5bE5NM1hlaV9hR29qeHZYX2lFaGpDRF9RdWQ0OW5zQmlmOWJmOXpFUFh4MmZqdHY1Q2dCUmU5dC1xblBnTjVrc3R0OFZ6dVB0TTlXS0JQMklWOVlsU2Rn?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump défend la construction de data centers sur le sol américain - 20 Minutes",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNS3IwVVU1alp4UVBPaVo1YTY0clRTWENHelZpNjBxSmR5M3lUVV9kN1hkX1Mza2pHZkN3bXgwdC1WSmp6RlRwNFpCTXlhMXVGUVgzUnduYWlvek9tMWZQZ3BXYldKYzYza2Q1cy1ZcUdlSGhpU1JHZ1RPVDVDUV9uajRHdkoxWnRlRXg3ZHNKeXdwM1VGQVl1d2pNblA5bnhGNHBod1pxa2ZVc1ExV3JfaXRpZE9fOU5zdnE0ekgtWlVoZ0VQMlp5dDFCVW5tYUpSU1hSckh3QXZIdjY5WnI4?oc=5",
+        "source": "google_fr_business",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump viseert Amerikaanse bedrijven die AI-datacenters in het buitenland bouwen • Grote tekortkomingen bij opleiding ICE-agenten",
+        "url": "https://www.demorgen.be/snelnieuws/live-grote-tekortkomingen-bij-opleiding-ice-agenten~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Trump teleurgesteld in Musk: ‘Mensen die afscheid nemen van MAGA, vergaat het meestal niet zo goed’",
+        "url": "https://www.demorgen.be/snelnieuws/trump-teleurgesteld-in-musk-mensen-die-afscheid-nemen-van-maga-vergaat-het-meestal-niet-zo-goed~b31d3e4d/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Niet alleen de kiezers lopen weg bij Trump, ook de bedrijven kiezen eieren voor hun geld",
+        "url": "https://www.demorgen.be/nieuws/niet-alleen-de-kiezers-lopen-weg-bij-trump-ook-de-bedrijven-kiezen-eieren-voor-hun-geld~b6733bfb/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "‘Trump was de laatste ademtocht van het racistische Amerika’: filosoof en Amerika-kenner Frank Albers meet de temperatuur van de democratie",
+        "url": "https://www.demorgen.be/niet-te-missen/trump-was-de-laatste-ademtocht-van-het-racistische-amerika-filosoof-en-amerika-kenner-frank-albers-meet-de-temperatuur-van-de-democratie~b3b760b8/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump freewheelt er op los tijdens anderhalf uur durende persconferentie na zijn reis naar China",
+        "url": "https://www.gva.be/buitenland/live-vs.-trump-freewheelt-er-op-los-tijdens-anderhalf-uur-durende-persconferentie-na-zijn-reis-naar-china/76845705.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Zelensky noemt Poetin “een moordenaar” nadat Trump de Russische president “mijn vriend” noemde",
+        "url": "https://www.gva.be/buitenland/live-oorlog-in-oekraine.-zelensky-noemt-poetin-een-moordenaar-nadat-trump-de-russische-president-mijn-vriend-noemde/76695337.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Trump freewheelt er op los tijdens anderhalf uur durende persconferentie na zijn reis naar China",
+        "url": "https://www.hbvl.be/buitenland/live-vs.-trump-freewheelt-er-op-los-tijdens-anderhalf-uur-durende-persconferentie-na-zijn-reis-naar-china/151623011.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "LIVE OORLOG IN OEKRAÏNE. Zelensky noemt Poetin “een moordenaar” nadat Trump de Russische president “mijn vriend” noemde",
+        "url": "https://www.hbvl.be/buitenland/live-oorlog-in-oekraine.-zelensky-noemt-poetin-een-moordenaar-nadat-trump-de-russische-president-mijn-vriend-noemde/44960637.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "Trump freewheelt er op los tijdens anderhalf uur durende persconferentie na zijn reis naar China",
+        "url": "https://www.hbvl.be/buitenland/trump-freewheelt-er-op-los-tijdens-anderhalf-uur-durende-persconferentie-na-zijn-reis-naar-china/164894146.html",
+        "source": "hbvl",
+        "name_only": true
+      },
+      {
+        "title": "‘MAGA is dood. MAGA is gay. MAGA is voor losers’: hoe Donald Trump zijn ‘bro’s’ verliest - Knack",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ00yQU5hSVYtSXR4TWdHckV2c1pwZjQxRnRvTFNKZzVhYkZuZzJSSFZuWHNaeHBWR2c2dElXRnJvLUpzQUFqSHlDbjNzRkRBX3E3R1p4NFBQV2FyczdOYWdCMkg2SHJVSThXbU5TNG9jYmxORTJEWmcxclVTUHowamVhREZLUV9BTHdabTNNTlp4OVlnaEQ2ajVmdURwMUlWQXp6WjY3NG5kUHZiVUNTTXlrS1RUbzg?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Comment Stephen Miller est devenu le conseiller de Donald Trump \"le plus influent de l’histoire moderne\"",
+        "url": "https://www.lalibre.be/international/amerique/elections-us/2026/11/21/comment-stephen-miller-est-devenu-le-conseiller-de-donald-trump-le-plus-influent-de-lhistoire-moderne-CERJZJVZHNGSTGC6RVF2GOIYZI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "L'IPO d'Anthropic suffit-elle à rassurer? | L'Europe face au trio Trump-Xi-Poutine | Black Friday: et si on achetait belge? - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNLXJSN0lKakNZWGp0V0RoemlPdDduS2VZQzVXOFFURVlQbTRNWVByMUx5MXVVZnVIZWdJVjE1Z3NWbHZ3ZEt0OHRoN0FEZjRNOEdtOVZHWmhpd3VnWUE4YzhXVWRLMDlTazV4TVJHZTVONnROQ1RyOVlNQUc3VEZZbGwzeDl2VC1tTVAtOEUyT3RXVkpvNWFfNTZMZ0ZqOGI1TGFfRzg3dkNTRU9oYmd5bng0LXNqald4N2l2QWlYRFpTT0g5UW8zR3FGeFh4T3pUek9fbXBvVVlaUzRkbTR6QlAtdklRR2EwMlR1TWdjaExKdmFyanFlUTI3UzFSQ1lVRnhPbnZhV252VnZRVzJXdENQUTRsVGpQ?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : Zelensky qualifie Poutine d'\"assassin\" après les propos de Trump",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/21/guerre-en-ukraine-zelensky-qualifie-poutine-dassassin-apres-les-propos-de-trump-NBRZ2TAVTFG4BACJMDGQ4VLRD4/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "“Un préjudice irréparable”: nouveau revers judiciaire pour Trump et la construction de son arc de triomphe",
+        "url": "https://www.7sur7.be/monde/un-prejudice-irreparable-nouveau-revers-judiciaire-pour-trump-et-la-construction-de-son-arc-de-triomphe~a8d3383d/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Zelensky qualifie Poutine d’“assassin” après les propos de Trump",
+        "url": "https://www.7sur7.be/monde/zelensky-qualifie-poutine-dassassin-apres-les-propos-de-trump~af60896a/",
+        "source": "septsursept",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 13,
+      "putin": 5,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 4,
+      "rutte": 0,
+      "von_der_leyen": 4,
+      "de_wever": 13,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 9,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 19,
+      "putin": 7,
+      "macron": 1,
+      "netanyahu": 0,
+      "zelensky": 7,
+      "rutte": 0,
+      "von_der_leyen": 5,
+      "de_wever": 18,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 14,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 2
+    },
+    "themes": {
+      "war": 15,
+      "crime": 10,
+      "eu": 24,
+      "politics": 31,
+      "be_gov": 19,
+      "culture": 9,
+      "tech": 21,
+      "economy": 13,
+      "sports": 24,
+      "health": 9,
+      "climate": 8,
+      "migration": 2,
+      "education": 4,
+      "weather": 6
+    },
+    "wide_themes": {
+      "war": 24,
+      "crime": 14,
+      "eu": 33,
+      "politics": 46,
+      "be_gov": 25,
+      "culture": 10,
+      "tech": 28,
+      "economy": 19,
+      "sports": 38,
+      "health": 12,
+      "climate": 10,
+      "migration": 4,
+      "education": 6,
+      "weather": 11
+    }
   }
 ]
