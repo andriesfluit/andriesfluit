@@ -138611,5 +138611,448 @@
       "education": 6,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-11-22",
+    "generated_at": "2026-11-22T12:57:03+01:00",
+    "last_checked_at": "2026-11-22T12:57:03+01:00",
+    "total_articles": 428,
+    "trump_articles": 2,
+    "percentage": 0.5,
+    "core_percentage": 0.5,
+    "core_percentage_name": 0.5,
+    "trump_articles_expanded": 2,
+    "core_percentage_expanded": 0.5,
+    "indirect_references": 0,
+    "wide_total_articles": 602,
+    "wide_trump_articles": 5,
+    "wide_percentage": 0.8,
+    "wide_trump_articles_expanded": 5,
+    "wide_percentage_expanded": 0.8,
+    "macro_percentage": 0.6,
+    "qualifying_outlets": 20,
+    "core_outlets_total": 19,
+    "core_outlets_active": 17,
+    "active_core_fraction": 0.895,
+    "cross_outlet_dup_headlines": 48,
+    "cross_outlet_dup_groups": 24,
+    "cross_outlet_dup_rate": 11.2,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.25,
+    "breadth": 0.12,
+    "deviation": 0.2,
+    "smoothed_pct": 2.99,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 13,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 23,
+        "kept": 23,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 15,
+        "kept": 15,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 46,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 14,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_nl_tech": {
+        "fetched": 53,
+        "today": 5,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 22,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 34,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 70,
+        "today": 8,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 12,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 25,
+        "today": 11,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 26,
+        "today": 8,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 45,
+        "kept": 45,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.22
+      },
+      "knack": {
+        "fetched": 72,
+        "today": 17,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 20,
+        "kept": 20,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 57,
+        "kept": 57,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 14,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 23,
+        "kept": 22,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 50,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 25,
+        "kept": 24,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 16,
+        "kept": 14,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 62,
+        "today": 9,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 73,
+        "today": 9,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Live - Trump hoopt op positieve gevolgen van cyberaanval op FBI • Nieuwe groep van 25 uitgewezen migranten uit de VS aangekomen in Liberia",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-hoopt-op-positieve-gevolgen-van-cyberaanval-op-fbi-grote-tekortkomingen-bij-opleiding-ice-agenten~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Katie Zacharia, die na vijf dagen ontslagen werd als Trumps woordvoerder, wordt nu onderzocht omdat ze loog over advocatentitel",
+        "url": "https://www.hbvl.be/binnenland/katie-zacharia-die-na-vijf-dagen-ontslagen-werd-als-trumps-woordvoerder-wordt-nu-onderzocht-omdat-ze-loog-over-advocatentitel/164916931.html",
+        "source": "hbvl",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Katie Zacharia, die na vijf dagen ontslagen werd als Trumps woordvoerder, wordt nu onderzocht omdat ze loog over advocatentitel - HBVL",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPREhJcGJDNlVkTm1QZEEwYmt3dFZLeUJfQUxpaHdJOTNmdUR3QmxDbnJwcWVKU0FKZ0s5RTNkSl94cGNsSUNSMDQyRjNmdHctcjNYWVNWenluM3hqOXZaNXNNZjdMY1JScmFDVndLdTVITTRaTzItMGx5VUhCbnRzRkQ0NjAtYVM0dnMtQW5RSUJQOUQ5bTY4Q3EwOEVKTVpJU21zYlFsU0psdFB2bmVIRzNlSWRBVG1zVGhPV0NfZHJ1eTJ6UGRWczdiRU9BX05BRWw5NzJVS0lYRmE5cnRjSFpEVExSdmljTGtaNnYzRmlQZjl3dDdtazFldDB6dENp?oc=5",
+        "source": "google_nl_politics",
+        "name_only": true
+      },
+      {
+        "title": "Trumps peperdure oorlogsschepen dreigen miljarden meer te kosten dan gepland: Amerikaanse marine kreunt onder oorlog met Iran - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZEpxQjdRVFNOQUwtQ0NSTE0wNXNhZHBUY1FCcFR4djZpbTBKZE9pSWY1T3dyWmlwUHpMYnFMd29nYmdnUHJxYUI2NnJ4LW03VGN6WXZMLUlld1dkTFFSWHpWUFBqYS1NNjlPd1FRTThNT0drVXd2OXlIcFIwdjVHbGpUVXpoS24xS2lzZzRKazE3ZGtuc1kzQW03cklsSmh3clpySGI4M0FnS3FiUXROMzd0RUVzajktYWxiaThES1V4ZUtMajB6dEgxOGRaSkx0eGVxMHdBcU5RY251QzFLLWYyeFJVek1VQ2lmLXp2SVFLeXRlZlhV?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Live - Trump hoopt op positieve gevolgen van cyberaanval op FBI • Nieuwe groep van 25 uitgewezen migranten uit de VS aangekomen in Liberia",
+        "url": "https://www.demorgen.be/snelnieuws/live-trump-hoopt-op-positieve-gevolgen-van-cyberaanval-op-fbi-grote-tekortkomingen-bij-opleiding-ice-agenten~b13cc951/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Katie Zacharia, die na vijf dagen ontslagen werd als Trumps woordvoerder, wordt nu onderzocht omdat ze loog over advocatentitel",
+        "url": "https://www.gva.be/binnenland/katie-zacharia-die-na-vijf-dagen-ontslagen-werd-als-trumps-woordvoerder-wordt-nu-onderzocht-omdat-ze-loog-over-advocatentitel/164916556.html",
+        "source": "gva",
+        "name_only": true
+      },
+      {
+        "title": "Katie Zacharia, die na vijf dagen ontslagen werd als Trumps woordvoerder, wordt nu onderzocht omdat ze loog over advocatentitel",
+        "url": "https://www.hbvl.be/binnenland/katie-zacharia-die-na-vijf-dagen-ontslagen-werd-als-trumps-woordvoerder-wordt-nu-onderzocht-omdat-ze-loog-over-advocatentitel/164916931.html",
+        "source": "hbvl",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 3,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 1
+    },
+    "wide_comparisons": {
+      "trump": 5,
+      "putin": 0,
+      "macron": 1,
+      "netanyahu": 3,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 3,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 2,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 2
+    },
+    "themes": {
+      "war": 6,
+      "crime": 14,
+      "eu": 13,
+      "politics": 16,
+      "be_gov": 11,
+      "culture": 5,
+      "tech": 5,
+      "economy": 8,
+      "sports": 56,
+      "health": 3,
+      "climate": 5,
+      "migration": 0,
+      "education": 1,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 9,
+      "crime": 20,
+      "eu": 19,
+      "politics": 23,
+      "be_gov": 13,
+      "culture": 7,
+      "tech": 8,
+      "economy": 10,
+      "sports": 77,
+      "health": 5,
+      "climate": 10,
+      "migration": 0,
+      "education": 2,
+      "weather": 11
+    }
   }
 ]
