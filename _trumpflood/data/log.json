@@ -139054,5 +139054,520 @@
       "education": 2,
       "weather": 11
     }
+  },
+  {
+    "date": "2026-11-23",
+    "generated_at": "2026-11-23T14:36:07+01:00",
+    "last_checked_at": "2026-11-23T14:36:07+01:00",
+    "total_articles": 704,
+    "trump_articles": 7,
+    "percentage": 1.0,
+    "core_percentage": 1.0,
+    "core_percentage_name": 1.0,
+    "trump_articles_expanded": 7,
+    "core_percentage_expanded": 1.0,
+    "indirect_references": 0,
+    "wide_total_articles": 949,
+    "wide_trump_articles": 12,
+    "wide_percentage": 1.3,
+    "wide_trump_articles_expanded": 12,
+    "wide_percentage_expanded": 1.3,
+    "macro_percentage": 1.6,
+    "qualifying_outlets": 27,
+    "core_outlets_total": 19,
+    "core_outlets_active": 18,
+    "active_core_fraction": 0.947,
+    "cross_outlet_dup_headlines": 34,
+    "cross_outlet_dup_groups": 17,
+    "cross_outlet_dup_rate": 4.8,
+    "zone": "dry",
+    "label": "The zone is dry",
+    "narrative": "Below a normal president's ordinary day.",
+    "rank": 2,
+    "n_people": 17,
+    "dominance": 0.16,
+    "breadth": 0.33,
+    "deviation": 0.43,
+    "smoothed_pct": 2.93,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 13,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 30,
+        "kept": 30,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.67
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 26,
+        "kept": 26,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_politics": {
+        "fetched": 46,
+        "today": 10,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 28,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 29,
+        "kept": 25,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 58,
+        "today": 15,
+        "kept": 13,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 7.69
+      },
+      "google_nl_sport": {
+        "fetched": 70,
+        "today": 20,
+        "kept": 17,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_politics": {
+        "fetched": 27,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr_world": {
+        "fetched": 53,
+        "today": 10,
+        "kept": 8,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 12.5
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 44,
+        "kept": 44,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 4.55
+      },
+      "standaard": {
+        "fetched": 66,
+        "today": 35,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "demorgen": {
+        "fetched": 26,
+        "today": 21,
+        "kept": 21,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.76
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 16,
+        "kept": 16,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 7,
+        "kept": 7,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 18,
+        "kept": 18,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 56,
+        "kept": 56,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 75,
+        "today": 47,
+        "kept": 46,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 92,
+        "kept": 92,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.33
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 64,
+        "today": 33,
+        "kept": 29,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 66,
+        "kept": 58,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 27,
+        "kept": 25,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 48,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 46,
+        "kept": 42,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "trends_g": {
+        "fetched": 46,
+        "today": 22,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "tendances_g": {
+        "fetched": 70,
+        "today": 30,
+        "kept": 21,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Trump organiseert diner voor houders van zijn 'memecoin', die aan populariteit verliest",
+        "url": "https://vrtnws.be/p.E1dom9EOL",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans president Trump werd minstens 2 keer gewaarschuwd voor mogelijke Chinese spionage bij Nvidia, schrijft The New York Times",
+        "url": "https://vrtnws.be/p.y31dLBMka",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Komiek doet Trump na bij jaarlijks diner voor Canadese pers - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZHF3aEI2TXltUUp0eVFVS2N5OG1Ya04zZGk5dlozZUJTa3BzbEMzemtUVko5RE8zQ2NGNnNXYVRaTmZ4Q2ptZzhEMVY0eVVtZW12VkJudENFT1BrcU81REhrXzY2U191VFhIU3RHMG5WUEt0MnFvZmhrb3RncFh1SG1OODdmaFBYTmlfWGRta04wOG1DOVUxWlVzZUtfZEJhUHNIeHZBdnp1c0FiSno4?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Oorlog met Iran blijft heikel punt tussen Trump en Vance: vicepresident ontwijkt vraag over beslissing om land aan te vallen",
+        "url": "https://www.hln.be/buitenland/oorlog-met-iran-blijft-heikel-punt-tussen-trump-en-vance-vicepresident-ontwijkt-vraag-over-beslissing-om-land-aan-te-vallen~a20cce5f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Het ellebogenwerk is nu overal zichtbaar: ‘Trump 2.0 gaat steeds meer lijken op Trump 1.0’",
+        "url": "https://www.demorgen.be/nieuws/het-ellebogenwerk-is-nu-overal-zichtbaar-trump-2-0-gaat-steeds-meer-lijken-op-trump-1-0~b63c5bfc/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump aurait ignoré plusieurs alertes d’espionnage chinois chez Nvidia",
+        "url": "https://www.7sur7.be/monde/donald-trump-aurait-ignore-plusieurs-alertes-despionnage-chinois-chez-nvidia~a3440005/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : l’Iran a lancé un nombre record de drones et de missiles depuis le début du conflit, dit Donald Trump (direct) - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNFl0aEUxU3FRei1rbVBBdUtXb1U3cFRucmgzTk1rREl6NThsMk1jUkpaZXJudWFUazMzYS1fWGNPdjB2SXZMdXdjeGxfUWRZWldqdDhDZXNxQnFZVmlHWjV0VUlBSU5uQThVcU03S1ZmSjQzRV9oY0xGX0hFdHFLd056OHRjR3NUbU5BbzNnUTJNZzV4dkI4RU42RkEwRjhqNmdJemlkN3VVUS1sMlpSY1h4UUh0ZnBQVElPdVRrMjBualdZX0pJ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Opvallende breuk in Trump-kamp: bondgenoot Stewart Rhodes keert zich tegen de president: “Hij is een van de allerergste verraders in de geschiedenis van ons land” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNUGxfbVpnQm9HRS05TVUtTlBiM1phc2pBVDJVdUg5elREMWpCdm15SXZId0FYY1BYT2ZxNGpHRGVJV2doZnRILUtBdUkzc2Jnc3hmamtxM3prOXNjMFpXdERJSGRJejJoWFo4elJzcVd1RUJITkJNQ0ZzazN6X1F6X2U0ZERPeXhQMDU4NUg0anJBSjR4MEd2ZUVHX1lZcXlIVE94LVdKZVpMSUd6QzhleXI0TjBhcTdGRkZ0SlBrX3RtQmxlZVVidWNqZnRaRGFvc1MyMXBqNG9Qd08zN1QwU2tFUTgzRm1sVHFSa0xQOU5JNUZTY0dRbjE0MUhXZWxQZU50RkJ1dmU5X1hzZXIyM0VzQlhwUHJvbk9fMVVVN252MUJ1?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Imitator steekt draak met Trump tijdens persdiner van Canadese premier Carney: “Mark, we gaan een ongelooflijke deal sluiten” - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMFdaZTEwLU5HYzZob28xaEhKbGFrOG94LUdsbzlJTV8zR3pVNEJObWxPeDdTdVFRTXdNN3RGRC1vd2JPUWtPem5Ld2hOX3d4ZHdJV2pnVkhRb0ZJNmFCSC0tYXhnaWVCM1l0NlE5N25SUTBsT3BxeUhiS1B3a0owZDdWbFVNT1c4aUpycEpWd08zS2VHMW9ZUE5MZldCVEZfWXlpV0k2WVVLNVpGaHRUVzhqVlppbVRibGdqNXJjcXNadTFud1Z0MGZoWU1IWEctSWxHQWc1Mml6bTNOUVBtd1E3aWpsR3B6M0NrWFpBMjVQNnc?oc=5",
+        "source": "google_nl",
+        "name_only": true
+      },
+      {
+        "title": "Oorlog met Iran blijft heikel punt tussen Trump en Vance: vicepresident ontwijkt vraag over beslissing om land aan te vallen - HLN",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeGc5X2pwOERTalQ0Skw3aXktZWZhY0ZkM2Jnbk5oOFZMSERsV00zZ09maGJvZ1dNVjg3SVZpVjNobHBJeDhJU0pqQldNSm1CQXZob2praXRfLThXVDhoMUVSbmozQnFBYjF6bVItZTRSR0lud0djb3hyTGp0TS1oZG05TFdyeXhlU2NNYWlHX1p1ZmZqSnFSM0ZqVjdlUnZ6WUptc3JGSXJENWdUT2U5U25POGtkS3RVMWRJa3ZmalhFM2NzTFBLMjJzYmIycUVmTGRmay1Dajdkc3NlSVNPMGZlYkhNX09uYzA3U0NYdWxtMGo2eEE?oc=5",
+        "source": "google_nl_world",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans president Trump werd minstens 2 keer gewaarschuwd voor mogelijke Chinese spionage bij Nvidia, schrijft The New York Times - VRT",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTlptZzJnd1lQVW5pQjRCZjZOd0ppRWR6WVBqZEVhSk43VkdVdDRaYUNrSlo5NmMzTkN0ZE15RThoVmFnY1FPMVRBLVE1WTh2XzRkaS1ZZ1AxT2hwdVZQa0ZXeVlWdF95eUZrajlmanBlUmJLZGRibXVXZkZ4QlFnMUgtZGl6bS10UDVSN1YwUmh6QQ?oc=5",
+        "source": "google_nl_tech",
+        "name_only": true
+      },
+      {
+        "title": "Les licenciements massifs de fonctionnaires voulus par Trump, une aubaine pour les espions chinois - 7sur7.be",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNUE0T0lFcEtYbkNjNS1razkydUpHbEdGT2tKc3BteW9MN3ZRVHpXU2dNeExSVXA3VVZyTjh2TVFpdXlOeVE4OHN5TWRkM253SEpMSzRTYVk1TkYweGtXQjI5bDZnRjJpTnktOE1PdU9vZHR3Sk9HQVdoa1ZWc0ttOWVhdzlsQ1p2QndyUkFYS01hWkRBWUZJSTA3SzQ2Xy1HTURfdzZPcV9JbURZLWJFaXl2WU9sU24wN1ZwODJEd1R0OXVYdVkyTWNCTmZLbUE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump organiseert diner voor houders van zijn 'memecoin', die aan populariteit verliest",
+        "url": "https://vrtnws.be/p.E1dom9EOL",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Amerikaans president Trump werd minstens 2 keer gewaarschuwd voor mogelijke Chinese spionage bij Nvidia, schrijft The New York Times",
+        "url": "https://vrtnws.be/p.y31dLBMka",
+        "source": "vrt",
+        "name_only": true
+      },
+      {
+        "title": "Komiek doet Trump na bij jaarlijks diner voor Canadese pers - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZHF3aEI2TXltUUp0eVFVS2N5OG1Ya04zZGk5dlozZUJTa3BzbEMzemtUVko5RE8zQ2NGNnNXYVRaTmZ4Q2ptZzhEMVY0eVVtZW12VkJudENFT1BrcU81REhrXzY2U191VFhIU3RHMG5WUEt0MnFvZmhrb3RncFh1SG1OODdmaFBYTmlfWGRta04wOG1DOVUxWlVzZUtfZEJhUHNIeHZBdnp1c0FiSno4?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Oorlog met Iran blijft heikel punt tussen Trump en Vance: vicepresident ontwijkt vraag over beslissing om land aan te vallen",
+        "url": "https://www.hln.be/buitenland/oorlog-met-iran-blijft-heikel-punt-tussen-trump-en-vance-vicepresident-ontwijkt-vraag-over-beslissing-om-land-aan-te-vallen~a20cce5f/",
+        "source": "hln",
+        "name_only": true
+      },
+      {
+        "title": "Het ellebogenwerk is nu overal zichtbaar: ‘Trump 2.0 gaat steeds meer lijken op Trump 1.0’",
+        "url": "https://www.demorgen.be/nieuws/het-ellebogenwerk-is-nu-overal-zichtbaar-trump-2-0-gaat-steeds-meer-lijken-op-trump-1-0~b63c5bfc/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump aurait ignoré plusieurs alertes d’espionnage chinois chez Nvidia",
+        "url": "https://www.7sur7.be/monde/donald-trump-aurait-ignore-plusieurs-alertes-despionnage-chinois-chez-nvidia~a3440005/",
+        "source": "septsursept",
+        "name_only": true
+      },
+      {
+        "title": "Guerre au Moyen-Orient : l’Iran a lancé un nombre record de drones et de missiles depuis le début du conflit, dit Donald Trump (direct) - Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNFl0aEUxU3FRei1rbVBBdUtXb1U3cFRucmgzTk1rREl6NThsMk1jUkpaZXJudWFUazMzYS1fWGNPdjB2SXZMdXdjeGxfUWRZWldqdDhDZXNxQnFZVmlHWjV0VUlBSU5uQThVcU03S1ZmSjQzRV9oY0xGX0hFdHFLd056OHRjR3NUbU5BbzNnUTJNZzV4dkI4RU42RkEwRjhqNmdJemlkN3VVUS1sMlpSY1h4UUh0ZnBQVElPdVRrMjBualdZX0pJ?oc=5",
+        "source": "sudinfo_g",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 7,
+      "putin": 1,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 7,
+      "rutte": 2,
+      "von_der_leyen": 0,
+      "de_wever": 31,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 1,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 12,
+      "putin": 3,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 8,
+      "rutte": 3,
+      "von_der_leyen": 0,
+      "de_wever": 38,
+      "bouchez": 1,
+      "magnette": 0,
+      "prevot": 2,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 23,
+      "crime": 42,
+      "eu": 49,
+      "politics": 31,
+      "be_gov": 45,
+      "culture": 15,
+      "tech": 19,
+      "economy": 26,
+      "sports": 29,
+      "health": 7,
+      "climate": 11,
+      "migration": 1,
+      "education": 8,
+      "weather": 9
+    },
+    "wide_themes": {
+      "war": 31,
+      "crime": 57,
+      "eu": 68,
+      "politics": 46,
+      "be_gov": 57,
+      "culture": 18,
+      "tech": 26,
+      "economy": 36,
+      "sports": 47,
+      "health": 12,
+      "climate": 11,
+      "migration": 2,
+      "education": 10,
+      "weather": 18
+    }
   }
 ]
