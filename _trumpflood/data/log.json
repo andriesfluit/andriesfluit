@@ -139569,5 +139569,436 @@
       "education": 10,
       "weather": 18
     }
+  },
+  {
+    "date": "2026-11-24",
+    "generated_at": "2026-11-24T04:01:20+01:00",
+    "last_checked_at": "2026-11-24T04:01:20+01:00",
+    "total_articles": 103,
+    "trump_articles": 2,
+    "percentage": 1.9,
+    "core_percentage": 1.9,
+    "core_percentage_name": 1.9,
+    "trump_articles_expanded": 2,
+    "core_percentage_expanded": 1.9,
+    "indirect_references": 0,
+    "wide_total_articles": 140,
+    "wide_trump_articles": 3,
+    "wide_percentage": 2.1,
+    "wide_trump_articles_expanded": 3,
+    "wide_percentage_expanded": 2.1,
+    "macro_percentage": 2.5,
+    "qualifying_outlets": 4,
+    "core_outlets_total": 19,
+    "core_outlets_active": 4,
+    "active_core_fraction": 0.211,
+    "cross_outlet_dup_headlines": 18,
+    "cross_outlet_dup_groups": 9,
+    "cross_outlet_dup_rate": 17.5,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": 1.0,
+    "breadth": 0.5,
+    "deviation": 0.83,
+    "smoothed_pct": 2.84,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 8,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 12,
+        "kept": 12,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_politics": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_business": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_tech": {
+        "fetched": 46,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_politics": {
+        "fetched": 30,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 53,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 65,
+        "kept": 37,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.7
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 31,
+        "today": 8,
+        "kept": 8,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 39,
+        "kept": 39,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.56
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 22,
+        "kept": 22,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.55
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 9,
+        "kept": 9,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 3,
+        "kept": 3,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 77,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Hoe big tech en Trump de terugkeer van Jensen Huang forceerden - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa1h5RWtXLW9Xa1J2SHJpVFh4NW9VaHNJR2lCRlV5SUpmbVJEMS1kYm0zLXZyMVdodEFfcjFhaXhFdWYxMERtN2JLUDFEc1Z4aXBIUk0xSGdoYkRJQjUzNDRVTEFYUTI5WXlybGttTFJyTDg2ZUJJbmp2VzJJRm95bDlhZm96dlRzMVhqV2F4c3l4bUQ3ZTZWSW5lNnFPTjBTLXBwOU1Bd3hQZWsyWVBQSQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil dolgraag nog een ontmoeting met “vriend” Kim Jong-un, maar de Noord-Koreaanse dictator neemt zelfs de telefoon niet meer op",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-wil-dolgraag-nog-een-ontmoeting-met-vriend-kim-jong-un-maar-de-noord-koreaanse-dictator-neemt-zelfs-de-telefoon-niet-meer-op/164968138.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Hoe big tech en Trump de terugkeer van Jensen Huang forceerden - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa1h5RWtXLW9Xa1J2SHJpVFh4NW9VaHNJR2lCRlV5SUpmbVJEMS1kYm0zLXZyMVdodEFfcjFhaXhFdWYxMERtN2JLUDFEc1Z4aXBIUk0xSGdoYkRJQjUzNDRVTEFYUTI5WXlybGttTFJyTDg2ZUJJbmp2VzJJRm95bDlhZm96dlRzMVhqV2F4c3l4bUQ3ZTZWSW5lNnFPTjBTLXBwOU1Bd3hQZWsyWVBQSQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil dolgraag nog een ontmoeting met “vriend” Kim Jong-un, maar de Noord-Koreaanse dictator neemt zelfs de telefoon niet meer op",
+        "url": "https://www.nieuwsblad.be/buitenland/trump-wil-dolgraag-nog-een-ontmoeting-met-vriend-kim-jong-un-maar-de-noord-koreaanse-dictator-neemt-zelfs-de-telefoon-niet-meer-op/164968138.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "Trump wil dolgraag nog een ontmoeting met “vriend” Kim Jong-un, maar de Noord-Koreaanse dictator neemt zelfs de telefoon niet meer op",
+        "url": "https://www.gva.be/buitenland/trump-wil-dolgraag-nog-een-ontmoeting-met-vriend-kim-jong-un-maar-de-noord-koreaanse-dictator-neemt-zelfs-de-telefoon-niet-meer-op/165001461.html",
+        "source": "gva",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 3,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 2,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 7,
+      "crime": 1,
+      "eu": 8,
+      "politics": 3,
+      "be_gov": 4,
+      "culture": 6,
+      "tech": 3,
+      "economy": 1,
+      "sports": 6,
+      "health": 1,
+      "climate": 0,
+      "migration": 0,
+      "education": 0,
+      "weather": 0
+    },
+    "wide_themes": {
+      "war": 9,
+      "crime": 2,
+      "eu": 11,
+      "politics": 4,
+      "be_gov": 4,
+      "culture": 6,
+      "tech": 3,
+      "economy": 2,
+      "sports": 9,
+      "health": 1,
+      "climate": 0,
+      "migration": 0,
+      "education": 0,
+      "weather": 0
+    }
   }
 ]
