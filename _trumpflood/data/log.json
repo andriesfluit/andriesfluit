@@ -140000,5 +140000,448 @@
       "education": 0,
       "weather": 0
     }
+  },
+  {
+    "date": "2026-11-25",
+    "generated_at": "2026-11-25T02:02:38+01:00",
+    "last_checked_at": "2026-11-25T02:02:38+01:00",
+    "total_articles": 49,
+    "trump_articles": 2,
+    "percentage": 4.1,
+    "core_percentage": 4.1,
+    "core_percentage_name": 4.1,
+    "trump_articles_expanded": 3,
+    "core_percentage_expanded": 6.1,
+    "indirect_references": 1,
+    "wide_total_articles": 67,
+    "wide_trump_articles": 3,
+    "wide_percentage": 4.5,
+    "wide_trump_articles_expanded": 4,
+    "wide_percentage_expanded": 6.0,
+    "macro_percentage": 2.9,
+    "qualifying_outlets": 1,
+    "core_outlets_total": 19,
+    "core_outlets_active": 2,
+    "active_core_fraction": 0.105,
+    "cross_outlet_dup_headlines": 8,
+    "cross_outlet_dup_groups": 4,
+    "cross_outlet_dup_rate": 16.3,
+    "zone": "flooding",
+    "label": "Trump is flooding the zone",
+    "narrative": "Double the mentions of the sixteen other figures combined, across most outlets.",
+    "rank": 1,
+    "n_people": 17,
+    "dominance": null,
+    "breadth": 1.0,
+    "deviation": 1.95,
+    "smoothed_pct": 2.94,
+    "assessment_method": "composite",
+    "thresholds_version": "natural-breakpoints-2026-07-11",
+    "pattern_version": "s-genitive-2026-07-11",
+    "theme_rank": 4,
+    "n_themes": 15,
+    "sources": {
+      "google_nl": {
+        "fetched": 34,
+        "today": 5,
+        "kept": 5,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_fr": {
+        "fetched": 34,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_politics": {
+        "fetched": 49,
+        "today": 6,
+        "kept": 6,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_world": {
+        "fetched": 70,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_business": {
+        "fetched": 70,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "google_nl_tech": {
+        "fetched": 45,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_nl_sport": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_politics": {
+        "fetched": 28,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_world": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 47,
+        "kept": 34,
+        "trump": 1,
+        "trump_expanded": 2,
+        "share": 2.94
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 2,
+        "kept": 2,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 29,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 5,
+        "kept": 5,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 20.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 4,
+        "kept": 4,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 25.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 4,
+        "kept": 4,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "septsursept": {
+        "fetched": 30,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "bx1": {
+        "fetched": 0,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "detijd_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "lesoir_g": {
+        "fetched": 100,
+        "today": 1,
+        "kept": 1,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "lavenir_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "rtl_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "trends_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      },
+      "tendances_g": {
+        "fetched": 100,
+        "today": 0,
+        "kept": 0,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0
+      }
+    },
+    "core_sources": [
+      "demorgen",
+      "detijd_g",
+      "dhnet",
+      "hbvl",
+      "hln",
+      "knack",
+      "lalibre",
+      "lavenir_g",
+      "lecho",
+      "lesoir_g",
+      "nieuwsblad",
+      "rtbf",
+      "rtl_g",
+      "septsursept",
+      "standaard",
+      "sudinfo_g",
+      "tendances_g",
+      "trends_g",
+      "vrt"
+    ],
+    "matches": [
+      {
+        "title": "Zonder AI-boom blijft niets over van Trumps economische erfenis - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdnBvVkNOdDB1cktVNnB4TERySS01M3dCdVlZN2ZpQmpaYzF0d0wzcGwwR0tIOUxWa0FaNnVzcnBqblU1aFcwaGxSbVNzVWw5SVVwYmFhbS0ySy1NSk5PQTFyZnN1SE10ajJzVGhXbHBqaGI1QTNoTVBWTTA4ck41TE1VWUhVLVhndDgzT2ttR0haOTRlRmNTYUVyMGhFaVVySFI2SjAzVGh3SFFLNWF1UQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Het Witte Huis hielp Jensen Huang weer in het zadel, het Congres kan hem een nieuwe dreun bezorgen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORnptNWdZWW42bFdObVY1dXEyM0RHZnZoVlA3MWIyeTRlbjdyQ3dMV3ZkLXNlV0xWS096ZGpqbzFER3lxSmtpRVVhVEQwQTgxaEFJQk1Qc0Y4cVZEM1hINjdZTlB5SUhTRUJtYUhRUXFVd1RtWlJ6TEx3NHdXOUZ5VDF4Qm8xYlVRQ09hUEh6MGUxQnFmMjFweU1pY2lSTEYwbUpRTEptMlZ5dVBsU1dpOE9UNGhnZkd6aHBxa3hadmlNRjNVc3oxdVp0d19ZUFZ4NGhCZTdOeGtlaTNuUUFISDdB?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Amerikaanse inlichtingendiensten vermoedelijk getroffen door hack - Nvidia-topman zegt dat terugkeer niet door Trump komt",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-amerikaanse-inlichtingendiensten-vermoedelijk-getroffen-door-hack-nvidia-topman-zegt-dat-terugkeer-niet-door-trump-komt/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      }
+    ],
+    "wide_matches": [
+      {
+        "title": "Zonder AI-boom blijft niets over van Trumps economische erfenis - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdnBvVkNOdDB1cktVNnB4TERySS01M3dCdVlZN2ZpQmpaYzF0d0wzcGwwR0tIOUxWa0FaNnVzcnBqblU1aFcwaGxSbVNzVWw5SVVwYmFhbS0ySy1NSk5PQTFyZnN1SE10ajJzVGhXbHBqaGI1QTNoTVBWTTA4ck41TE1VWUhVLVhndDgzT2ttR0haOTRlRmNTYUVyMGhFaVVySFI2SjAzVGh3SFFLNWF1UQ?oc=5",
+        "source": "standaard",
+        "name_only": true
+      },
+      {
+        "title": "Het Witte Huis hielp Jensen Huang weer in het zadel, het Congres kan hem een nieuwe dreun bezorgen - De Standaard",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORnptNWdZWW42bFdObVY1dXEyM0RHZnZoVlA3MWIyeTRlbjdyQ3dMV3ZkLXNlV0xWS096ZGpqbzFER3lxSmtpRVVhVEQwQTgxaEFJQk1Qc0Y4cVZEM1hINjdZTlB5SUhTRUJtYUhRUXFVd1RtWlJ6TEx3NHdXOUZ5VDF4Qm8xYlVRQ09hUEh6MGUxQnFmMjFweU1pY2lSTEYwbUpRTEptMlZ5dVBsU1dpOE9UNGhnZkd6aHBxa3hadmlNRjNVc3oxdVp0d19ZUFZ4NGhCZTdOeGtlaTNuUUFISDdB?oc=5",
+        "source": "standaard",
+        "name_only": false
+      },
+      {
+        "title": "LIVE VS. Amerikaanse inlichtingendiensten vermoedelijk getroffen door hack - Nvidia-topman zegt dat terugkeer niet door Trump komt",
+        "url": "https://www.nieuwsblad.be/buitenland/live-vs.-amerikaanse-inlichtingendiensten-vermoedelijk-getroffen-door-hack-nvidia-topman-zegt-dat-terugkeer-niet-door-trump-komt/27528053.html",
+        "source": "nieuwsblad",
+        "name_only": true
+      },
+      {
+        "title": "LIVE VS. Amerikaanse inlichtingendiensten vermoedelijk getroffen door hack - Nvidia-topman zegt dat terugkeer niet door Trump komt",
+        "url": "https://www.gva.be/buitenland/live-vs.-amerikaanse-inlichtingendiensten-vermoedelijk-getroffen-door-hack-nvidia-topman-zegt-dat-terugkeer-niet-door-trump-komt/76845705.html",
+        "source": "gva",
+        "name_only": true
+      }
+    ],
+    "comparisons": {
+      "trump": 2,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "wide_comparisons": {
+      "trump": 3,
+      "putin": 0,
+      "macron": 0,
+      "netanyahu": 0,
+      "zelensky": 0,
+      "rutte": 0,
+      "von_der_leyen": 0,
+      "de_wever": 0,
+      "bouchez": 0,
+      "magnette": 0,
+      "prevot": 0,
+      "rousseau": 0,
+      "francken": 0,
+      "crevits": 0,
+      "jambon": 0,
+      "van_peteghem": 0,
+      "verlinden": 0
+    },
+    "themes": {
+      "war": 5,
+      "crime": 3,
+      "eu": 1,
+      "politics": 2,
+      "be_gov": 1,
+      "culture": 2,
+      "tech": 3,
+      "economy": 1,
+      "sports": 2,
+      "health": 0,
+      "climate": 1,
+      "migration": 0,
+      "education": 0,
+      "weather": 1
+    },
+    "wide_themes": {
+      "war": 8,
+      "crime": 4,
+      "eu": 3,
+      "politics": 4,
+      "be_gov": 1,
+      "culture": 2,
+      "tech": 4,
+      "economy": 2,
+      "sports": 3,
+      "health": 0,
+      "climate": 1,
+      "migration": 0,
+      "education": 0,
+      "weather": 3
+    }
   }
 ]
