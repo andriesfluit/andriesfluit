@@ -140446,94 +140446,94 @@
   },
   {
     "date": "2026-11-26",
-    "generated_at": "2026-11-26T01:38:27+01:00",
-    "last_checked_at": "2026-11-26T01:38:27+01:00",
-    "total_articles": 73,
-    "trump_articles": 1,
-    "percentage": 1.4,
-    "core_percentage": 1.4,
-    "core_percentage_name": 1.4,
-    "trump_articles_expanded": 1,
-    "core_percentage_expanded": 1.4,
+    "generated_at": "2026-11-26T14:05:25+01:00",
+    "last_checked_at": "2026-11-26T14:05:25+01:00",
+    "total_articles": 692,
+    "trump_articles": 13,
+    "percentage": 1.9,
+    "core_percentage": 1.9,
+    "core_percentage_name": 1.9,
+    "trump_articles_expanded": 13,
+    "core_percentage_expanded": 1.9,
     "indirect_references": 0,
-    "wide_total_articles": 89,
-    "wide_trump_articles": 1,
-    "wide_percentage": 1.1,
-    "wide_trump_articles_expanded": 1,
-    "wide_percentage_expanded": 1.1,
-    "macro_percentage": 2.3,
-    "qualifying_outlets": 1,
+    "wide_total_articles": 936,
+    "wide_trump_articles": 18,
+    "wide_percentage": 1.9,
+    "wide_trump_articles_expanded": 19,
+    "wide_percentage_expanded": 2.0,
+    "macro_percentage": 2.1,
+    "qualifying_outlets": 29,
     "core_outlets_total": 19,
-    "core_outlets_active": 4,
-    "active_core_fraction": 0.211,
-    "cross_outlet_dup_headlines": 6,
-    "cross_outlet_dup_groups": 3,
-    "cross_outlet_dup_rate": 8.2,
-    "zone": "wet",
-    "label": "The zone is getting wet",
-    "narrative": "One of the day's top two figures.",
-    "rank": 2,
+    "core_outlets_active": 19,
+    "active_core_fraction": 1.0,
+    "cross_outlet_dup_headlines": 40,
+    "cross_outlet_dup_groups": 20,
+    "cross_outlet_dup_rate": 5.8,
+    "zone": "soaked",
+    "label": "The zone is soaked",
+    "narrative": "Alone out-mentions the sixteen other figures combined.",
+    "rank": 1,
     "n_people": 17,
-    "dominance": 0.5,
-    "breadth": 0.25,
-    "deviation": 0.67,
-    "smoothed_pct": 2.64,
+    "dominance": 1.18,
+    "breadth": 0.42,
+    "deviation": 0.9,
+    "smoothed_pct": 2.71,
     "assessment_method": "composite",
     "thresholds_version": "natural-breakpoints-2026-07-11",
     "pattern_version": "s-genitive-2026-07-11",
-    "theme_rank": 10,
+    "theme_rank": 9,
     "n_themes": 15,
     "sources": {
       "google_nl": {
         "fetched": 34,
-        "today": 4,
-        "kept": 4,
+        "today": 32,
+        "kept": 32,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_fr": {
         "fetched": 34,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 28,
+        "kept": 28,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 7.14
       },
       "google_nl_politics": {
-        "fetched": 45,
-        "today": 1,
-        "kept": 1,
+        "fetched": 46,
+        "today": 5,
+        "kept": 4,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "google_nl_world": {
         "fetched": 70,
-        "today": 1,
-        "kept": 0,
+        "today": 23,
+        "kept": 20,
         "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "trump_expanded": 1,
+        "share": 0.0
       },
       "google_nl_business": {
         "fetched": 70,
-        "today": 4,
-        "kept": 2,
+        "today": 33,
+        "kept": 29,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 3.45
+      },
+      "google_nl_tech": {
+        "fetched": 46,
+        "today": 17,
+        "kept": 11,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "google_nl_tech": {
-        "fetched": 44,
-        "today": 1,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "google_nl_sport": {
-        "fetched": 70,
+        "fetched": 0,
         "today": 0,
         "kept": 0,
         "trump": 0,
@@ -140541,148 +140541,148 @@
         "share": 0
       },
       "google_fr_politics": {
-        "fetched": 27,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_world": {
-        "fetched": 56,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "google_fr_business": {
-        "fetched": 70,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "vrt": {
-        "fetched": 50,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "standaard": {
-        "fetched": 100,
-        "today": 48,
-        "kept": 43,
-        "trump": 1,
-        "trump_expanded": 1,
-        "share": 2.33
-      },
-      "hln": {
-        "fetched": 30,
-        "today": 6,
-        "kept": 6,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "demorgen": {
-        "fetched": 26,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "nieuwsblad": {
-        "fetched": 50,
-        "today": 7,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "gva": {
-        "fetched": 50,
-        "today": 7,
-        "kept": 7,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "hbvl": {
-        "fetched": 50,
-        "today": 3,
-        "kept": 3,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "knack": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "sporza": {
-        "fetched": 20,
-        "today": 2,
-        "kept": 2,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0.0
-      },
-      "bruzz": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "rtbf": {
-        "fetched": 20,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "lalibre": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
-      "lecho": {
-        "fetched": 100,
+        "fetched": 29,
         "today": 8,
         "kept": 8,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "dhnet": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
+      "google_fr_world": {
+        "fetched": 57,
+        "today": 20,
+        "kept": 16,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 12.5
+      },
+      "google_fr_business": {
+        "fetched": 70,
+        "today": 18,
+        "kept": 14,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
+      },
+      "vrt": {
+        "fetched": 50,
+        "today": 47,
+        "kept": 47,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "standaard": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 44,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hln": {
+        "fetched": 30,
+        "today": 30,
+        "kept": 30,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "demorgen": {
+        "fetched": 28,
+        "today": 23,
+        "kept": 23,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 4.35
+      },
+      "nieuwsblad": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "gva": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "hbvl": {
+        "fetched": 50,
+        "today": 50,
+        "kept": 50,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "knack": {
+        "fetched": 92,
+        "today": 31,
+        "kept": 31,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 6.45
+      },
+      "sporza": {
+        "fetched": 20,
+        "today": 19,
+        "kept": 19,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "bruzz": {
+        "fetched": 100,
+        "today": 13,
+        "kept": 13,
+        "trump": 0,
+        "trump_expanded": 0,
+        "share": 0.0
+      },
+      "rtbf": {
+        "fetched": 20,
+        "today": 17,
+        "kept": 17,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 5.88
+      },
+      "lalibre": {
+        "fetched": 100,
+        "today": 48,
+        "kept": 48,
+        "trump": 4,
+        "trump_expanded": 4,
+        "share": 8.33
+      },
+      "lecho": {
+        "fetched": 100,
+        "today": 49,
+        "kept": 48,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.08
+      },
+      "dhnet": {
+        "fetched": 100,
+        "today": 98,
+        "kept": 98,
+        "trump": 2,
+        "trump_expanded": 2,
+        "share": 2.04
       },
       "septsursept": {
         "fetched": 30,
-        "today": 0,
-        "kept": 0,
+        "today": 30,
+        "kept": 30,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "bx1": {
         "fetched": 0,
@@ -140694,59 +140694,59 @@
       },
       "detijd_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
+        "today": 20,
+        "kept": 16,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 6.25
       },
       "lesoir_g": {
         "fetched": 100,
-        "today": 3,
-        "kept": 3,
+        "today": 54,
+        "kept": 46,
+        "trump": 1,
+        "trump_expanded": 1,
+        "share": 2.17
+      },
+      "sudinfo_g": {
+        "fetched": 100,
+        "today": 34,
+        "kept": 32,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
-      "sudinfo_g": {
-        "fetched": 100,
-        "today": 0,
-        "kept": 0,
-        "trump": 0,
-        "trump_expanded": 0,
-        "share": 0
-      },
       "lavenir_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 32,
+        "kept": 32,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "rtl_g": {
         "fetched": 100,
-        "today": 0,
-        "kept": 0,
+        "today": 23,
+        "kept": 22,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       },
       "trends_g": {
         "fetched": 100,
-        "today": 3,
-        "kept": 3,
+        "today": 25,
+        "kept": 15,
         "trump": 0,
         "trump_expanded": 0,
         "share": 0.0
       },
       "tendances_g": {
-        "fetched": 77,
-        "today": 0,
-        "kept": 0,
+        "fetched": 100,
+        "today": 41,
+        "kept": 13,
         "trump": 0,
         "trump_expanded": 0,
-        "share": 0
+        "share": 0.0
       }
     },
     "core_sources": [
@@ -140772,29 +140772,209 @@
     ],
     "matches": [
       {
-        "title": "Trump schakelt opnieuw versnelling hoger in handelsoorlog, impact voor EU voorlopig beperkt - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU3h5alExMm1xcWVDZm9xMlMyQnkyWkFmWlhaV2tyXzUxQkJfQzlyZEtCU0FnSzBkaUQwaWJLa1A4RkNxTGRfWVpUUE1rVklidGFqOXdneWtRZU1aY1ZvNjJ1NERSNHFQVVdTVUtSVmJGWWd5Y1JHQ1BLdU50cHJrb1Nad1FkZGRhMVZ1UFR5b3Q0UUU4SUFVNDl5X0JGNWNGY09fMXZtX2dQTVZWWWV1N1RwVEFzUDliUEVTMVl6Q0Rkd1dmdjIzeXV5VktVVVJZTUpkbHlB?oc=5",
-        "source": "standaard",
+        "title": "Trump legt Lukoil sancties op, dat vervolgens zijn internationale bezittingen aan een van zijn geldschieters verkoopt",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/trump-legt-lukoil-sancties-op-dat-vervolgens-zijn-internationale-bezittingen-aan-een-van-zijn-geldschieters-verkoopt~b86c4033/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Factcheck: foto van Trump, Poetin en Xi is nep, net als die van Hitler, Mussolini en Hirohito - Knack",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb1ZJTndTZUEyUURabTZKc2NHdFBNQTZXV2RlN1liaklsR3kzcW9kY2tBMklRRGpNSGpUVThyMUlDNXJSZFJXc1FYSDF2UThYdkFyMElBT2w2ZFFmV01Cb0xQbngxdlNQMkhiMFR0X0tBVU54MFJRSHltYzE3QnF2Sk16V3FQNTctckViX01GZDVsVmNfN2FYbUR2WUthYWxRODUxMm1DWDRzZktuUGhYdmk1NURpY2FBZE1jc2FR?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Trump en NAVO-topman Rutte roepen Rusland op oorlog met Oekraïne niet ‘uit te breiden’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZ2hqTU0wcGdWczNUc1VrRk10eDRFTHozbWdCOS1vV1oyZnBNRnhzZ180czJ0aE82NkROeWc4TVZqY1JIT3NLQlVFV3RjT2hIU0g3bTk1Y3hHYmxUa28zUlZBNTRSMTBKOTZmQVRIMHA5ZElfUFc5OGhET2hVSWVZbTdfMmNkd2VwT3JZTG5GVkpkc093a2JwX0w1U0tYVlBkbkdXZXNtbEtXSkI1T2ZtVnpYWTlKVlZjMWdEQWRHOWdLUUFsZ2hhYWo3cWhycjR0RlpPME5NVEtUTHJfUi1tQ3Vpam9fUQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Affaire Nvidia : pourquoi Donald Trump tient-il tant à protéger Jensen Huang ?",
+        "url": "https://www.rtbf.be/article/affaire-nvidia-pourquoi-donald-trump-tient-il-tant-a-proteger-jensen-huang-11821482",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump est-il en train de changer son fusil d'épaule ? \"Je suis prêt à négocier avec les démocrates\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/26/trump-est-il-en-train-de-changer-son-fusil-depaule-je-suis-pret-a-negocier-avec-les-democrates-O2F5QEEBMZBERAQRCQ3XSOARA4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les marchés reprennent des couleurs mais doivent digérer l'annonce de Donald Trump",
+        "url": "https://www.lalibre.be/economie/placements/2026/11/26/les-marches-reprennent-des-couleurs-mais-doivent-digerer-lannonce-de-donald-trump-5S7EBRQDVFFFLNCJGRMI7I42QE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"De la manipulation politique\" : les pays visés par les nouveaux droits de douane de Trump s'indignent",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/11/26/les-pays-vises-par-les-nouveaux-droits-de-douane-de-trump-sindignent-cest-de-la-manipulation-politique-AEYWGP4FKZEMXOX7V5NDETAW4E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une réunion \"exceptionnelle\" entre Trump et le secrétaire général de l'OTAN avec un message à Poutine : \"Eviter toute action qui étendrait la guerre\"",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/11/26/une-reunion-exceptionnelle-entre-trump-et-le-secretaire-general-de-lotan-avec-un-message-a-poutine-eviter-toute-action-qui-etendrait-la-guerre-RHLAYM7JENBFVNMKQEBWMTYYKI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump et le secrétaire général de l'Otan exhortent la Russie à ne pas \"étendre la guerre\" avec l'Ukraine - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxObDR2dnZ0ak5LczB5UnZyVDJHcnd5WS1HMmFwUS1vLVVxejZHSC1RZ2tqSHRRUE5tWmMwbUlUemdnS0tlVEFodU9oWEZKVFBiajltcW96S2lvTGJaa0ozUW85Q3gtN2tmMWZwOTc1VG9GWmlmMUpLd3dySDdudzhSSUpGZDhKUDNzZmdOVjJKa05pbzM0N2RGZ2tnZW9jMTVrMXYtX043MHh2Ni1yV2ZLcWRhUGwyb2lnaGh3VUJzSldZWk5fbDdtUUduajVXNVFEYlUtNHZENTdjd05kbTh5UzVSQzg4TC1lQUF1X2VFazdaTmhjM2lYNnNUbWhjRlVUNXlySGlGdw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump est-il en train de changer son fusil d'épaule? \"Je suis prêt à négocier avec les démocrates\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/26/trump-est-il-en-train-de-changer-son-fusil-depaule-je-suis-pret-a-negocier-avec-les-democrates-DGZLTC3ROFAC3ATSBQ4OK6XX3M/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Invasion de l'Ukraine: Trump et le secrétaire général de l'Otan exhortent la Russie à ne pas \"étendre la guerre\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/26/invasion-de-lukraine-trump-et-le-secretaire-general-de-lotan-exhortent-la-russie-a-ne-pas-etendre-la-guerre-LOF5UU7A4ZELPH4WI4K6GJZ6LY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "SpaceX mag van regering-Trump miljoen satellieten lanceren voor 'AI-datacenters in de ruimte' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUFZiRi0zd09hd0E0RFdjQ0M1b1Q3dC1LbDdIaFI4VUFfYnJmRWlYRFR6VE1RcWhvN1kwbXItVFNqek40WU53aHIweG5TT0ZMcVlHaXhSRGF0SWdqWk0zQXhmZ29iX2FpRXRSTm40UjZNajVqWnNUMU96dE5kUjNkUTRrQ3kxOFVKdFRGQ2M4Z29UQWphYjVxN3dpMlUtMXg3MmM5NVlZMGhMSHIyMEEwQTE5dXB2LTZlY2NPVXpBaGs3c1NtNlFYY1NHN09FV3NGd3lXMXNzUHFWeGtyLUp4Ym93T0dKcExMZjE1Z0xB?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump et Rutte exhortent la Russie à ne pas « étendre la guerre » avec l’Ukraine - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOW56YzBVTGo1c1dBR3dNMUZ1WWNzanFOcFVOajJURFRBcTk0cFJXVWE4ZUdrT01UUVpjdUR6elByR0R5MHliYy15c3RmNGlCWkh5dlpWLS1IZGE2RVBOTzYzXzh3WGV1VENhbTJ1bHA0TV9tUVFTMldvb21XZ0RqZmh0YkJhdkNWZktqcVJycjljdVRVNUo0S3pkZXhMbTJzb1haNnNoZTMySHpsTkxKQlNEVkdLcmNZMHFlbnRB?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       }
     ],
     "wide_matches": [
       {
-        "title": "Trump schakelt opnieuw versnelling hoger in handelsoorlog, impact voor EU voorlopig beperkt - De Standaard",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU3h5alExMm1xcWVDZm9xMlMyQnkyWkFmWlhaV2tyXzUxQkJfQzlyZEtCU0FnSzBkaUQwaWJLa1A4RkNxTGRfWVpUUE1rVklidGFqOXdneWtRZU1aY1ZvNjJ1NERSNHFQVVdTVUtSVmJGWWd5Y1JHQ1BLdU50cHJrb1Nad1FkZGRhMVZ1UFR5b3Q0UUU4SUFVNDl5X0JGNWNGY09fMXZtX2dQTVZWWWV1N1RwVEFzUDliUEVTMVl6Q0Rkd1dmdjIzeXV5VktVVVJZTUpkbHlB?oc=5",
-        "source": "standaard",
+        "title": "Donald Trump et l’Otan mettent en garde Poutine : ils appellent la Russie à ne pas « étendre la guerre » en Ukraine - RTL Info",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSmxGWWc0MDFlN2tTZFhGZy1JNVIxU3dnTURKQm5lek02dEZralJ6eENvWEV3ajAzczZ6Q1U0R3lBSVhwU1JDX1BicjlOb2Npb05lNUlFM2FRTDRDMmVZWng3Qjk2Skc0NEpRajNRb2tzaC0wMFBhVGI1TDVCSzhHbDg5bzNMQ0dFZjBlbVZxT3ZVTmxucHZuRE1ud2RycEtLYktCVldtTE5oVGlQdXl6QTlCT1RlZ1M3TXZyQWwwYWNNdldvV2poNUZBYXp6RzAyd002N3pSOXoxVDF4djZ1LQ?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "Affaire Nvidia : pourquoi Donald Trump tient-il tant à protéger Jensen Huang ? - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSWJMbjhpaG5nMy14eW1sQlFIcTNXS0pIb1JSdmVLcmdIM0FhTUlIbHFkbUJZSFJ5UGI4Sjh4Ujczd0w0V1FMeGdsRHM5YXQxRGlvUG1RSG83aHJvNHM3bm5HaHpVU1dwR0pEN2NMNmdPdFBHYmhRclRrbUZmaFJkcVV6cVpjSjdRNno5WHZJZ3BNYmpGSWpKN1dxT19GdGh1c1NoZnVkZHdIaUxuQXFuRg?oc=5",
+        "source": "google_fr",
+        "name_only": true
+      },
+      {
+        "title": "‘Ik ben het niet eens met alles wat mijn man doet’: Melania Trump strooit kruimels in bloedeloze docureeks - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTUIyRHJEckpHY1ZwZGYyTk54dlZ2MzRSVnJSN184ci1NUWoyTk5oYldOTTdUUGtkZFZydFlnX1V4cTBSTUdKTEdNak1YNWFzcTRKa2xBYWFURVd3SnZIRF8wWDVqWVdxN2lJQ09EREFxR0RhTnVuN0lRTUZiMUZSOEYzNFV4dEdnRjJIZWh3UmlKOWI5SXZRTDA1UE5YcTVHbl9HMGFxTW13Vk93TE4xc1hYaUtYMGtuS0gyNDFQYXh6RlhldTZBb3g3X0lfdWdBTXJHOW9xbG80aHk2aEpzV0d3?oc=5",
+        "source": "google_nl_world",
+        "name_only": false
+      },
+      {
+        "title": "Trump legt Lukoil sancties op, dat vervolgens zijn internationale bezittingen aan een van zijn geldschieters verkoopt - De Morgen",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQYy1WQmhhd2libzNoZVpUaHppb2FqT2N6WElwMzB4V0ctR1V5cGQzSWVQT0ViX3EwT2FzQmh0SGtQTkYtR1o1RGdkcWhicU1vZUhfRFotbWV3R0FUZHFjZEFiU2JfZXhIdF95anVfYTc4ek9MLUFocENMU2FmaWR3bzBmemtfZXZMSjZkXzg3SHh2SkJfdTZRWVU1RXJjNTRCQ3BEaXRnczhSVUFDdjRoM05IVWkzR2hRMTBDdjd2TjBBdXhsamVOU3BzUWhldm1DNWZCTFVZbDduWm54Y2FWR2Q5TUtCMlNuUnZsM2gzcWVHT20xcG5ZQ2J4SXlkZw?oc=5",
+        "source": "google_nl_business",
+        "name_only": true
+      },
+      {
+        "title": "Trump est-il en train de changer son fusil d'épaule ? \"Je suis prêt à négocier avec les démocrates\" - La Libre.be",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOdFFNdjgzUVNpaTdnZ0hjU2JMaldwTGRkOWJselpCSzlIV3VKV1VSV19DeU1JUVR4SGdvY2VGczVBQ1hyWUF1bndEelZHeEV1d2xYa0NfVk5VUHBqYjVBMUstNHc3Q1FhVDlyTzBOdmU3Zk5HYkNzVU5pSndHZklwOUNZNEpscVBidy13dE1TTmkyZmVwQzRkNjU4c01RTHJ4cEZxdFRJaE82U1FsQmhwRHE2OS03SWJZNEdaUlN6SG9ZNUgyV0dha2FmNENWQUNFTzNqblBaOTRhdjdlbWsxdVFMQk42a0JrYWdiSGR6NEluUHF5LWlfZ0E3aF9VXzZzTWN0bDF6T29VLVE?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Guerre en Ukraine : l’émissaire de Trump alerte sur le risque d’escalade et dénonce une Europe qui aurait davantage financé la Russie qu’aidé l’Ukraine - RTBF",
+        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPOXlTcnFlSE5pOWZlYnNLSk85aUoxUjlxNUNZTS1CS3lFSGpybkNqc0xMenNxUV9kQzh2UnpBeEVHMmhHenN0aFBlVkFNdTd5UkxMWVlZQk1DUzN0OENRTnppb2diZ1hxeG5UUWJGenVGdG1QeXZqMlU4TUt3aVVSdm9TaXdZR1h5QzFpTUtvWXFFTGNJWFhqT185amY3NDJuM3l1dGg4b3VGM2tGN213bWVndF9tNVBYaXFiQ3J2Z1gtQVNiZHotZWVIRXlGNVdBREFNeV9hYlBwM0d0eEwtRWtTd2hWNzYtNDZsYUwxMi1JZWFVVGZONnRaM0Z6V04zUXVqYjVfN3RvclJ6S3Vhakk0LTk?oc=5",
+        "source": "google_fr_world",
+        "name_only": true
+      },
+      {
+        "title": "Trump legt Lukoil sancties op, dat vervolgens zijn internationale bezittingen aan een van zijn geldschieters verkoopt",
+        "url": "https://www.demorgen.be/oorlog-in-oekraine/trump-legt-lukoil-sancties-op-dat-vervolgens-zijn-internationale-bezittingen-aan-een-van-zijn-geldschieters-verkoopt~b86c4033/",
+        "source": "demorgen",
+        "name_only": true
+      },
+      {
+        "title": "Factcheck: foto van Trump, Poetin en Xi is nep, net als die van Hitler, Mussolini en Hirohito - Knack",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb1ZJTndTZUEyUURabTZKc2NHdFBNQTZXV2RlN1liaklsR3kzcW9kY2tBMklRRGpNSGpUVThyMUlDNXJSZFJXc1FYSDF2UThYdkFyMElBT2w2ZFFmV01Cb0xQbngxdlNQMkhiMFR0X0tBVU54MFJRSHltYzE3QnF2Sk16V3FQNTctckViX01GZDVsVmNfN2FYbUR2WUthYWxRODUxMm1DWDRzZktuUGhYdmk1NURpY2FBZE1jc2FR?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Trump en NAVO-topman Rutte roepen Rusland op oorlog met Oekraïne niet ‘uit te breiden’ - Knack",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZ2hqTU0wcGdWczNUc1VrRk10eDRFTHozbWdCOS1vV1oyZnBNRnhzZ180czJ0aE82NkROeWc4TVZqY1JIT3NLQlVFV3RjT2hIU0g3bTk1Y3hHYmxUa28zUlZBNTRSMTBKOTZmQVRIMHA5ZElfUFc5OGhET2hVSWVZbTdfMmNkd2VwT3JZTG5GVkpkc093a2JwX0w1U0tYVlBkbkdXZXNtbEtXSkI1T2ZtVnpYWTlKVlZjMWdEQWRHOWdLUUFsZ2hhYWo3cWhycjR0RlpPME5NVEtUTHJfUi1tQ3Vpam9fUQ?oc=5",
+        "source": "knack",
+        "name_only": true
+      },
+      {
+        "title": "Affaire Nvidia : pourquoi Donald Trump tient-il tant à protéger Jensen Huang ?",
+        "url": "https://www.rtbf.be/article/affaire-nvidia-pourquoi-donald-trump-tient-il-tant-a-proteger-jensen-huang-11821482",
+        "source": "rtbf",
+        "name_only": true
+      },
+      {
+        "title": "Trump est-il en train de changer son fusil d'épaule ? \"Je suis prêt à négocier avec les démocrates\"",
+        "url": "https://www.lalibre.be/international/amerique/2026/11/26/trump-est-il-en-train-de-changer-son-fusil-depaule-je-suis-pret-a-negocier-avec-les-democrates-O2F5QEEBMZBERAQRCQ3XSOARA4/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Les marchés reprennent des couleurs mais doivent digérer l'annonce de Donald Trump",
+        "url": "https://www.lalibre.be/economie/placements/2026/11/26/les-marches-reprennent-des-couleurs-mais-doivent-digerer-lannonce-de-donald-trump-5S7EBRQDVFFFLNCJGRMI7I42QE/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "\"De la manipulation politique\" : les pays visés par les nouveaux droits de douane de Trump s'indignent",
+        "url": "https://www.lalibre.be/economie/conjoncture/2026/11/26/les-pays-vises-par-les-nouveaux-droits-de-douane-de-trump-sindignent-cest-de-la-manipulation-politique-AEYWGP4FKZEMXOX7V5NDETAW4E/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Une réunion \"exceptionnelle\" entre Trump et le secrétaire général de l'OTAN avec un message à Poutine : \"Eviter toute action qui étendrait la guerre\"",
+        "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/11/26/une-reunion-exceptionnelle-entre-trump-et-le-secretaire-general-de-lotan-avec-un-message-a-poutine-eviter-toute-action-qui-etendrait-la-guerre-RHLAYM7JENBFVNMKQEBWMTYYKI/",
+        "source": "lalibre",
+        "name_only": true
+      },
+      {
+        "title": "Donald Trump et le secrétaire général de l'Otan exhortent la Russie à ne pas \"étendre la guerre\" avec l'Ukraine - L'Echo",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxObDR2dnZ0ak5LczB5UnZyVDJHcnd5WS1HMmFwUS1vLVVxejZHSC1RZ2tqSHRRUE5tWmMwbUlUemdnS0tlVEFodU9oWEZKVFBiajltcW96S2lvTGJaa0ozUW85Q3gtN2tmMWZwOTc1VG9GWmlmMUpLd3dySDdudzhSSUpGZDhKUDNzZmdOVjJKa05pbzM0N2RGZ2tnZW9jMTVrMXYtX043MHh2Ni1yV2ZLcWRhUGwyb2lnaGh3VUJzSldZWk5fbDdtUUduajVXNVFEYlUtNHZENTdjd05kbTh5UzVSQzg4TC1lQUF1X2VFazdaTmhjM2lYNnNUbWhjRlVUNXlySGlGdw?oc=5",
+        "source": "lecho",
+        "name_only": true
+      },
+      {
+        "title": "Trump est-il en train de changer son fusil d'épaule? \"Je suis prêt à négocier avec les démocrates\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/26/trump-est-il-en-train-de-changer-son-fusil-depaule-je-suis-pret-a-negocier-avec-les-democrates-DGZLTC3ROFAC3ATSBQ4OK6XX3M/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "Invasion de l'Ukraine: Trump et le secrétaire général de l'Otan exhortent la Russie à ne pas \"étendre la guerre\"",
+        "url": "https://www.dhnet.be/actu/monde/2026/11/26/invasion-de-lukraine-trump-et-le-secretaire-general-de-lotan-exhortent-la-russie-a-ne-pas-etendre-la-guerre-LOF5UU7A4ZELPH4WI4K6GJZ6LY/",
+        "source": "dhnet",
+        "name_only": true
+      },
+      {
+        "title": "SpaceX mag van regering-Trump miljoen satellieten lanceren voor 'AI-datacenters in de ruimte' - De Tijd",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUFZiRi0zd09hd0E0RFdjQ0M1b1Q3dC1LbDdIaFI4VUFfYnJmRWlYRFR6VE1RcWhvN1kwbXItVFNqek40WU53aHIweG5TT0ZMcVlHaXhSRGF0SWdqWk0zQXhmZ29iX2FpRXRSTm40UjZNajVqWnNUMU96dE5kUjNkUTRrQ3kxOFVKdFRGQ2M4Z29UQWphYjVxN3dpMlUtMXg3MmM5NVlZMGhMSHIyMEEwQTE5dXB2LTZlY2NPVXpBaGs3c1NtNlFYY1NHN09FV3NGd3lXMXNzUHFWeGtyLUp4Ym93T0dKcExMZjE1Z0xB?oc=5",
+        "source": "detijd_g",
+        "name_only": true
+      },
+      {
+        "title": "Trump et Rutte exhortent la Russie à ne pas « étendre la guerre » avec l’Ukraine - Le Soir",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOW56YzBVTGo1c1dBR3dNMUZ1WWNzanFOcFVOajJURFRBcTk0cFJXVWE4ZUdrT01UUVpjdUR6elByR0R5MHliYy15c3RmNGlCWkh5dlpWLS1IZGE2RVBOTzYzXzh3WGV1VENhbTJ1bHA0TV9tUVFTMldvb21XZ0RqZmh0YkJhdkNWZktqcVJycjljdVRVNUo0S3pkZXhMbTJzb1haNnNoZTMySHpsTkxKQlNEVkdLcmNZMHFlbnRB?oc=5",
+        "source": "lesoir_g",
         "name_only": true
       }
     ],
     "comparisons": {
-      "trump": 1,
-      "putin": 0,
-      "macron": 0,
+      "trump": 13,
+      "putin": 3,
+      "macron": 2,
       "netanyahu": 0,
       "zelensky": 0,
-      "rutte": 0,
+      "rutte": 2,
       "von_der_leyen": 0,
-      "de_wever": 0,
+      "de_wever": 2,
       "bouchez": 0,
       "magnette": 0,
       "prevot": 0,
@@ -140806,14 +140986,14 @@
       "verlinden": 0
     },
     "wide_comparisons": {
-      "trump": 1,
-      "putin": 0,
-      "macron": 0,
-      "netanyahu": 0,
-      "zelensky": 0,
-      "rutte": 0,
+      "trump": 18,
+      "putin": 5,
+      "macron": 2,
+      "netanyahu": 1,
+      "zelensky": 1,
+      "rutte": 2,
       "von_der_leyen": 0,
-      "de_wever": 0,
+      "de_wever": 3,
       "bouchez": 0,
       "magnette": 0,
       "prevot": 0,
@@ -140825,36 +141005,36 @@
       "verlinden": 0
     },
     "themes": {
-      "war": 2,
-      "crime": 2,
-      "eu": 3,
-      "politics": 3,
-      "be_gov": 8,
-      "culture": 6,
-      "tech": 0,
-      "economy": 2,
-      "sports": 4,
-      "health": 0,
-      "climate": 1,
-      "migration": 1,
-      "education": 0,
-      "weather": 2
+      "war": 20,
+      "crime": 22,
+      "eu": 33,
+      "politics": 29,
+      "be_gov": 24,
+      "culture": 16,
+      "tech": 11,
+      "economy": 26,
+      "sports": 31,
+      "health": 11,
+      "climate": 7,
+      "migration": 2,
+      "education": 4,
+      "weather": 12
     },
     "wide_themes": {
-      "war": 3,
-      "crime": 3,
-      "eu": 3,
-      "politics": 4,
-      "be_gov": 8,
-      "culture": 7,
-      "tech": 0,
-      "economy": 2,
-      "sports": 4,
-      "health": 0,
-      "climate": 1,
-      "migration": 1,
-      "education": 0,
-      "weather": 3
+      "war": 30,
+      "crime": 32,
+      "eu": 46,
+      "politics": 36,
+      "be_gov": 28,
+      "culture": 17,
+      "tech": 19,
+      "economy": 37,
+      "sports": 40,
+      "health": 15,
+      "climate": 10,
+      "migration": 3,
+      "education": 7,
+      "weather": 18
     }
   }
 ]
